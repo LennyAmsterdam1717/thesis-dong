@@ -1,724 +1,406 @@
-BATCH b015 -- 42 records: R00662 .. R00703
+BATCH b015 -- 31 records: R00639 .. R00669
 
-### R00662 | 2026 | article/None | Lang: en
-TI: Public awareness, trust, perceived usefulness, and willingness to use ChatGPT for healthcare communication among adults in the Asir Region, Saudi
-    Arabia: a cross-sectional study
-AB: Background Artificial intelligence (AI) is increasingly used in healthcare, with tools such as ChatGPT, which enhances access to health
-    information. Understanding public awareness, trust, and perceived usefulness, along with demographic influences, is essential for responsible AI
-    adoption. This study aimed to evaluate awareness, trust, and perceived usefulness of ChatGPT in healthcare communication among adults in the Asir
-    Region, Saudi Arabia. Methods A cross-sectional study was conducted among adults (≥18 years) in the Asir Region from November 2025–January 2026. A
-    validated Arabic questionnaire assessed sociodemographics, prior ChatGPT use, awareness, trust, perceived usefulness, risks, and willingness. Data
-    were analyzed using descriptive statistics and multiple linear regression to identify predictors of willingness ( p < 0.05). Results A total of
-    429 adults participated in the study. Most participants reported prior use of ChatGPT (70.40%). Awareness of ChatGPT and AI in healthcare was
-    moderate, with higher scores among younger and more educated participants ( p < 0.05). Participants generally reported favorable perceptions of
-    the usefulness of ChatGPT, particularly for patient education and access to information, although trust remained moderate. Perceived risks
-    included misinformation, privacy concerns, and overreliance. Overall, 61.77% of participants were willing to use ChatGPT, with significant
-    variation by age ( p = 0.030). Regression analysis showed that higher awareness ( β = 0.41, p < 0.001) and trust ( β = 0.36, p < 0.001) were
-    positively associated with willingness, while risk perception was negatively associated ( β = −0.12, p = 0.019). Gender and education were not
-    statistically significant predictors. Conclusion This study highlights generally high awareness and positive perceptions of ChatGPT among adults
-    in the Asir Region of Saudi Arabia, with moderate levels of trust and perceived usefulness and concerns related to misinformation, privacy, and
-    safety. Higher awareness and greater trust and perceived usefulness were associated with increased willingness to use ChatGPT, while perceived
-    risks were associated with lower willingness to use ChatGPT. Variations across age and educational levels indicate differences in familiarity and
-    confidence in AI tools. Overall, the findings reflect cautious but favorable openness toward AI in healthcare and emphasize the need for improved
-    AI literacy, trust-building strategies, and regulatory oversight to support safe and informed engagement with generative AI technologies. The use
-    of convenience sampling may limit the generalizability of the findings.
+### R00639 | 2026 | preprint/None | Lang: en
+TI: Where does output diversity collapse in post-training?
+AB: Post-trained language models produce less varied outputs than their base counterparts. This output diversity collapse undermines inference-time
+    scaling methods that rely on varied samples, and risks homogenizing model outputs on creative and value-laden tasks. Prior work attributes
+    collapse to specific post-training methods, without separating the role of training data composition from the method, or the generation format
+    from the model weights. We trace output diversity through three parallel post-training lineages of Olmo 3, Think (chain-of-thought distillation),
+    Instruct (broad multi-source data), and RL-Zero, across 15 tasks and four text diversity metrics. We find that the location of collapse co-varies
+    with data composition: the Think lineage loses most semantic diversity at supervised fine-tuning, and the effect of DPO is larger in Instruct than
+    in Think. Suppressing chain-of-thought reasoning at inference in Think models drops accuracy on hard tasks, yet leaves answer-level diversity
+    unchanged, showing that the collapse is embedded in the model weights by training data, not imposed by the generation format. Decomposing
+    diversity loss on six verifiable tasks into a quality-control component (removal of incorrect outputs) and a residual component (genuine narrowing
+    among correct outputs) reveals that the split is task-dependent, and Think models retain more correct-answer diversity than Instruct despite
+    collapsing more in aggregate. Our results indicate that diversity collapse is determined during training by data composition and cannot be
+    addressed at inference time alone.
 
-### R00663 | 2026 | article/None | Lang: en
-TI: Protecting creativity in the age of generative AI: productive uncertainty, and visible thinking in scholarship and assessment
-AB: I frame this paper from my perspective as an art education scholar, focusing on how creativity thrives within the realms of ambiguity, hesitation,
-    and the productive discomfort of not knowing at least, not yet. A persistent question I have been grappling with is whether seeking immediate
-    answers from AI undermines the essential space of uncertainty that nurtures curiosity, creativity, and critical thinking. These are habits we
-    engage with daily in art education, which are crucial for developing new ideas in scholarship.My reflections on this issue deepened after I
-    commented on a colleague's invitation to discuss AI illiteracy and its implications for scholarly credibility on a professional platform. This
-    discussion illuminated a key problem: the challenge is not solely whether to use AI, but rather how we can do so in ways that uphold the thinking
-    habits essential for trustworthy scholarship and teaching.In this article, I argue that credible scholarship and teaching in the age of AI hinge
-    on AI literacy practices that promote inquiry through the formation of meaningful questions, verification against primary sources, transparent
-    disclosure, and assessment designs that make thinking visible. I begin by defining credibility and outlining the risks associated with AI
-    illiteracy. Next, I examine the impact of AI on research practices and assessment. I conclude by explaining the importance of allowing creativity
-    the time it needs to flourish in uncertainty. I conclude by explaining why creativity requires time in uncertainty, and I offer practical guidance
-    for educators and researchers navigating these challenges. I began reflecting seriously on this issue after commenting on a colleague's invitation
-    to discuss AI illiteracy and its impact on scholarly credibility on a professional platform. The subsequent discussion clarified a key problem:
-    the challenge is not merely whether to use AI but whether we can do so in ways that uphold the thinking habits that make scholarship and teaching
-    trustworthy. While examples are primarily drawn from studio practice, the underlying approach can be generalised. Requirements for disclosure and
-    author responsibility in medical publishing, policy guidance for course-level declarations, reflective activities in higher education, and
-    AI-aware assessment trials in environmental data science all demonstrate that verification, disclosure, and transparent assessment processes are
-    being implemented beyond the realms of art and design [5, 14-16, 19-20, 22-23, 26-27].Two interconnected issues are central to the challenges of
-    AI illiteracy and concerns regarding credibility in research. The first issue is the allure of rapid publication driven by metrics, which can lead
-    to a fragmented approach. In this scenario, authors may simply take what an AI model generates and insert it into their articles, bypassing the
-    rigorous yet rewarding processes of experimenting with ideas, testing theories, and refining arguments through iterative work. This practice can
-    result in polished prose that includes fabricated or distorted citations if the outputs are not properly verified, ultimately undermining the
-    integrity of the research record [1,2].The second issue pertains to teaching and learning contexts. Discussions about assessment are often driven
-    by anxiety, leading to significant efforts focused on bans and detection methods. Comparative studies indicate that AI text detectors frequently
-    misclassify human writing and disproportionately target non-native English speakers, resulting in potential unfair outcomes and diverting
-    attention from meaningful learning design [3,4]. This is a concern that many non-English-speaking countries can relate to, particularly in my
-    context in South Africa, where the country boasts 11 official languages. This situation poses a significant risk for many of our students from
-    diverse linguistic backgrounds. The unintended consequence is an assessment process that lacks pedagogical soundness and fails to provide adequate
-    challenge. Rather than accurately gauging whether learning has occurred and the extent to which students have mastered the material, tasks often
-    devolve into mere compliance checks.As an art education scholar, I am particularly concerned with how creativity flourishes in ambiguity,
-    hesitation, and the productive discomfort of not knowing. A persistent question arises: does turning to AI for immediate answers erode that vital
-    space of uncertainty that fosters curiosity, creativity, and critical thinking.Studies show that empirical evaluations reveal significant rates of
-    hallucinated or inaccurate references and confidently declared errors in AI-generated text when authors neglect to verify the outputs [1,2].
-    Incorporating such unverified material undermines essential scholarly practices, including close reading, triangulation, and transparent
-    methodology, thereby weakening the overall scholarly voice. Recent scholarly guidance consistently emphasizes that authors must take full
-    responsibility for accuracy and systematically disclose and verify any AI-assisted steps involved in their work [5,22] .Curiosity serves as a
-    fundamental driver of lifelong learning. Research indicates that it activates midbrain reward centres and enhances hippocampus-dependent memory
-    for both the main information and incidental details encountered during exploration [6,7]. Furthermore, intellectual curiosity has been shown to
-    predict academic success beyond mere cognitive ability and conscientiousness [8]. If the use of AI consistently reduces the time scholars spend in
-    a state of uncertainty, it may systematically undermine the conditions that promote originality and careful judgment.Meaningful inquiry begins
-    with identifying problems rather than jumping straight to solutions. Research into human interaction with automation reveals that individuals
-    often over-rely on algorithmic suggestions an issue known as automation bias or algorithm appreciation [9,10]. However, there is insufficient
-    critical examination of the potential risk that novelty may be entirely lost when problem identification is neglected. When the initial framing of
-    a problem is delegated to a model, scholars might focus more on refining the model's questions instead of engaging in the challenging process of
-    formulating their own questions. This can lead to premature conclusions that overlook essential critical thinking. This consideration led me to
-    reflect on creativity and the conditions necessary for it to flourish in the scholarly journey.Research consistently demonstrates that tolerance
-    for ambiguity is positively correlated with the development of creativity. Design studies indicate that novelty often emerges at the boundaries of
-    coherent solution spaces, where uncertainty is highest [11]. Large-scale experimental studies reveal that while AI can enhance average creativity
-    ratings among individuals, it tends to limit the diversity (novelty) of outputs across a group. This lack of diversity can jeopardise credibility
-    within the field if many creators adopt similar patterns and approaches [12,24]. When numerous writers follow identical formulas, the field risks
-    losing the variety of styles and ideas that are crucial for signalling credibility and fostering innovation. Currently, the evidence gathered in
-    studio settings is limited. There is a lack of cohort-level evaluations in art and design that explore whether shared prompts or common models
-    lead to stylistic convergence in the work being assessed. Utilising dispersion metrics for outputs and conducting longitudinal studio studies
-    would be beneficial in clarifying the effects of such factors on originality within the field.Credibility is best safeguarded when AI enhances
-    inquiry rather than bypasses it. Practical habits that can help include starting with questions and criteria generated by humans, using Formatted:
-    Font: Bold AI to identify counterarguments and highlight disagreements, and systematically auditing all substantive claims against primary
-    sources. Additionally, maintaining a concise verification log to record prompts, outputs, checks, and corrections is essential. It's also
-    important to disclose the use of AI while taking full responsibility for accuracy. These practices align with contemporary expectations in medical
-    publishing, where journals mandate explicit disclosure of AI assistance and hold authors accountable for the accuracy of their work [5,22]. A
-    simple diagnostic test can guide practice: did the tool extend the duration of inquiry, or did it merely accelerate movement past it? Credibility
-    is best maintained when AI enhances inquiry rather than circumventing it. Practical habits that support this approach include: starting with
-    human-generated questions and criteria; leveraging AI to identify counter-arguments and map areas of disagreement, followed by a thorough audit
-    against primary sources; keeping a concise verification log that documents prompts, outputs, checks, and corrections; and transparently disclosing
-    howDetector performance remains highly inconsistent, with documented false positives and notable fairness issues, especially for non-native
-    English speakers [3,4]. Over-reliance on detection technologies promotes the creation of tasks that are easy to monitor rather than assessments
-    that genuinely require interpretation and disciplinary judgment. Credibility in teaching increases when institutions move from a policing approach
-    to a learning-focused approach that prioritises educational outcomes.Detector performance continues to exhibit significant inconsistencies,
-    characterised by documented false positives and notable fairness issues, particularly affecting non-native English speakers [3,4]. An
-    over-reliance on detection technologies can lead to the development of tasks that are easier to monitor, rather than assessments that genuinely
-    demand interpretation and disciplinary judgment.Credibility in teaching is enhanced when institutions transition from a policing approach to one
-    focused on learning and prioritising educational outcomes. However, existing studies often overlook how detection-centric policies may influence
-    students' trust, their willingness to take intellectual risks, the formulation of meaningful assessment activities that challenge students, and
-    the validity of assessments in multilingual contexts [15,16,[19][20]26].Effective feedback should enhance learning outcomes rather than simply
-    document policy violations. Hattie and Timperley's influential model highlights that effective feedback Formatted: Font: (Default) Arial, Bold
-    addresses three key questions for learners: Where am I going? How am I progressing? Where should I go next? [13]. Research indicates that feedback
-    is most effective at the task, process, and self-regulation levels, while it is least effective when it relies solely on general praise.The
-    feedback requirements outlined are aligned with evidence suggesting that effective feedback should focus on task-related aspects, process
-    improvements, and self-regulation, rather than relying solely on general praise. These elements can be seamlessly integrated into AI-aware
-    coursework by incorporating explicit criteria, justifications for rejected suggestions, and verification logs [13,17].In an AI-aware classroom or
-    studio, these feedback levels can be implemented through specific requirements. These include connecting accepted AI suggestions to clear
-    criteria, justifying at least one rejected suggestion, explaining strategies for source integration or image curation, and maintaining a brief
-    verification and reflection log. This log should record checks and future actions, with at least one component completed without AI assistance to
-    ensure cognitive engagement.While some reports offer guidance on implementing these requirements, evidence regarding their effects remains
-    limited. There is a lack of comparative studies across disciplines that assess the impact on learning outcomes, academic integrity, and equity.
-    Future research should include randomized or quasi-experimental comparisons testing portfolios with annotations, short oral examinations, and
-    uncertainty statements against traditional written tasks. Such studies should also evaluate validity, reliability, workload, and student trust in
-    addition to integrity metrics 13-16, 19-20, 25-26] Authentic assessments require students to apply disciplinary criteria to complex problems while
-    making their processes transparent. Documented practices in environmental data science integrate permitted AI tool usage with high-stakes
-    evaluations and explicit disclosures. These practices utilise formats such as process portfolios, annotated drafts, brief oral examinations of
-    decision-making, and statements of uncertainty that detail what was verified and the methods used [14]. Policy-oriented research in higher
-    education advocates for course-level declarations of AI usage and structured reflective activities aimed at fostering metacognitive control,
-    rather than relying solely on detection mechanisms [15,16,[19][20]26].I propose that we can gain valuable insights from studio learning, which
-    fundamentally relies on risk-taking, iteration, and critique. To ensure that curiosity and originality remain central when students engage with
-    text-to-image or code-based tools, programs should implement several strategies. First, they can mandate human problem identification prior to any
-    prompting, requiring students to articulate the challenges they wish to address. Second, process annotations should be required to document the
-    tools used, the prompts generated, the choices made in curation, and any post-processing steps undertaken. Finally, incorporating both blind and
-    labelled critiques can illuminate how cues of origin influence judgments of creativity. These approaches align with research indicating that
-    creativity flourishes in contexts of ambiguity and that fostering group-level diversity requires careful balancing, especially when commonly used
-    models dominate the discourse [11,12,24]. [5,19,20,27].Prohibition and detector-driven design that misclassifies students and encourages
-    compliance over interpretation and judgement; equity risks for non-native writers [3,4].AI-aware feedback at task, process, and self-regulation
-    levels; authentic assessments requiring process evidence, brief oral examinations, and uncertainty statements; student declarations and
-    justifications of AI use; course-level policy clarity [13-16, 19, 20, 22, 23, 25, 26].Over-reliance on model defaults that flattens stylistic
-    diversity and reduces risk-taking; reduced time in exploratory making and creative uncertainty [11,12,24].Human problem finding before prompting;
-    comprehensive process annotations and disclosure; blind and labelled critiques to examine origin effects; deliberate divergence requirements
-    topreserve cohort-level diversity [11,12,24].Blanket bans and detector-only responses that shift attention from learning design and create
-    inconsistency across courses [15,16,26].Course-level declarations of permitted uses and disclosure norms; alignment of assessment with policy;
-    reflective activities to support metacognition and responsible use [15,16,19,20,26].The shift towards generative AI in education has highlighted
-    two key issues: first, that detector-led approaches can lead to unfair outcomes; and second, that credible assessment in this context relies less
-    on policing and more on designing tasks that make student thinking observable. In my own practice, I started recognising these implications early
-    during the widespread adoption of AI tools.When AI began gaining traction in educational settings, I assigned a research-based project to my
-    second-year students. While marking the submissions, I noticed that some of the work was written in a style that did not align with the typical
-    capabilities of students at this level in my teaching context. The prose was unusually polished and professionally structured. At that time, I
-    relied on Turnitin's AI detection tools to assess whether AI may have been used. This approach led to complications: many students found
-    themselves at a disadvantage due to the limitations of the detector-driven process, especially considering the large enrolments, which made it
-    nearly impossible to thoroughly investigate every submission or conduct individual follow-ups.This experience prompted a shift in assessment
-    design away from increased surveillance. I continued to use written assignments but added an authentication component that emphasizes reasoning
-    rather than mere confessions. Students now submit a short video in which they discuss their work and explain the key ideas, decisions, and sources
-    they utilized. The guidelines explicitly instruct students not to read from their assignments but to articulate their arguments and learning
-    process. This method does not simply aim to "catch" students; rather, it makes learning visible. Students who understand their work can explain
-    and defend it effectively, while those who relied heavily on AI tool often struggle to present a coherent account. Importantly, this approach
-    supports multilingual students more equitably than detector-led judgments, as it assesses whether learning has indeed taken place rather than
-    conformity to a specific assessment layout. What this changes in practice: instead of asking "Did you use AI?", the assessment asks, "Can you
-    demonstrate ownership of your thinking and evidence?"Another experience involved suspected AI misuse that triggered a formal escalation process,
-    with assignments moving from the lecturer to the HOD and into disciplinary structures. In practice, this route often felt tedious and, at times,
-    inhumane, especially when the initial suspicion rested mainly on detector outputs rather than verified evidence. As the limitations of AI
-    detection have including documented false positives and a risk of it is to disciplinary escalation as a more credible and approach is to
-    assessment design as the first of When tasks require process evidence annotations, short oral or video and statements of integrity concerns can be
-    through learning-focused mechanisms before they disciplinary This does not it it into educational In practice, the is that the a and a process,
-    with for unintended consequence of generative AI is that it assessment When assessment mainly on written outputs, it easier for students to
-    thinking. In this AI educators to be more deliberate and to design assessments that and rather than the of This shift beyond an on written or
-    traditional assessment that align with authentic learning, particularly in such as art education, where iteration, and are This shift assessments
-    focus less on simply a and more on the process, and a research I do not as an AI The practical is not that researchers must but that AI literacy
-    must be with curiosity and the ability to work through the problems they In AI can but it the intellectual of uncertainty, and that makes research
-    a scholarly remains one of the most important of academic work. This is particularly when art is used as a when a similar image or originality is
-    in the work through material choices and credible research requires that a remain present in the in how problems are and how evidence is This
-    generative AI tools can text that is often clear and careful the can shift the of what the is to and the of the practical from my own practice is
-    using AI tools to support clarity in writing rather than As a non-native English I often use tools such as and, at times, to and However, I that
-    the tool my style and scholarly as I have that when is not the text polished but and what I to This that AI as a and clarity while the ownership
-    of their and voice. the tool enhances without the originality that scholarly two credibility challenges as reflections of In work on unverified AI
-    outputs can curiosity, the time in productive uncertainty, and the scholarly voice. In education, the of AI can shift assessments detection
-    technologies and tasks that provide insights into what students or can A in both areas in fostering AI which verification, transparent disclosure,
-    and assessment designs that on curiosity highlights the importance of navigating the space of not knowing for learning and Research on automation
-    bias and creativity in the context of AI assistance highlights the of question formation and with ambiguity for credible intellectual work and
-    assessment studies designs that interpretation and at the of from beyond art education demonstrate that similar are being medical disclosure and
-    author for higher education policy development encourages course-level declarations and structured and environmental data science reports
-    assessment formats that process and verification [5, 14-16, These support the that credibility is enhanced when inquiry time, verification,
-    disclosure, and transparent reasoning are integrated into research and several require to assess time in uncertainty both AI and tools to evaluate
-    question and risks in problem studies that diversity in outputs at the studio and levels, evaluations of detection policies in multilingual and
-    studies focused on whether disclosure and verification enhance When AI is to extend inquiry rather than the of maintaining credibility
+### R00640 | 2026 | preprint/None | Lang: en
+TI: Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation
+AB: Multi-agent systems (MAS) are increasingly used for open-ended idea generation, driven by the expectation that collective interaction will broaden
+    the exploration diversity. However, when and why such collaboration truly expands the solution space remains unclear. We present a systematic
+    empirical study of diversity in MAS-based ideation across three bottom-up levels: model intelligence, agent cognition, and system dynamics. At the
+    model level, we identify a compute efficiency paradox, where stronger, highly aligned models yield diminishing marginal diversity despite higher
+    per-sample quality. At the cognition level, authority-driven dynamics suppress semantic diversity compared to junior-dominated groups. At the
+    system level, group-size scaling yields diminishing returns and dense communication topologies accelerate premature convergence. We characterize
+    these outcomes as collective failures emerging from structural coupling, a process where interaction inadvertently contracts agent exploration and
+    triggers diversity collapse. Our analysis shows that this collapse arises primarily from the interaction structure rather than inherent model
+    insufficiency, highlighting the importance of preserving independence and disagreement when designing MAS for creative tasks. Our code is
+    available at https://github.com/Xtra-Computing/MAS_Diversity.
 
-### R00664 | 2026 | article/None | Lang: en
-TI: Beyond hype: Adoption and attitudes toward generative AI among Indonesian medical physicists
+### R00641 | 2026 | preprint/None | Lang: en
+TI: The One-Word Census: Answer-Choice Conformity Across 105 Language Models
+AB: When a language model must choose one answer from a large space of equally valid options, which answer does it choose, and how often is it the
+    answer every other model chooses? Asked to "pick a word," 105 language models from more than twenty labs chose serendipity 46% of the time. We
+    measure this convergence, and each model's share in it, with 96 single-turn prompts that each name a category with many valid one-word answers
+    ("Name a tree."), asked eight times per model and scored by exact match, with no embeddings and no judge. A model's answer-choice surprisal is the
+    average -log2 probability of its answers under the pooled answers of all other models. In 28 of 96 categories a single answer takes at least 80%
+    of all answers. The concentration does not depend on small or persona-tuned models: the 87 major-lab models are at least as concentrated as the
+    full field. Lightly post-trained and persona-tuned models are the most divergent; heavily post-trained assistants from the major labs are the most
+    conformist. Models that avoid the modal answer mostly land on the same runner-up. Within the major providers' lineages, release order shows no
+    panel-wide trend once model tier is controlled; GPT, Gemini, Grok and Qwen become more conformist across releases, and Claude's generation-5
+    releases reverse. On open checkpoints of three post-training pipelines, supervised fine-tuning is the largest step toward the field's answers.
+    Against human category-production norms, the field is more concentrated than people in 18 of 20 shared categories. All prompts, transcripts, and
+    code are public.
+
+### R00642 | 2026 | preprint/None | Lang: en
+TI: Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00665 | 2026 | article/None | Lang: en
-TI: InteractiveKG: Transparent and user-controllable knowledge graph reasoning
-AB: Large Language Models (LLMs) are increasingly used to support complex reasoning tasks, yet their fluent textual explanations often obscure
-    underlying assumptions and intermediate reasoning steps, making it difficult for users to verify correctness or confidently rely on the results.
-    Existing explanation, visualization, and knowledge-graph–based reasoning approaches primarily remain read-only or model-centric, offering limited
-    support for direct human intervention in the reasoning process. To address this gap, we present InteractiveKG, a visual analytics system that
-    externalizes LLM-generated reasoning as persistent, editable knowledge graphs. InteractiveKG enables users to inspect, curate, and iteratively
-    refine reasoning by directly manipulating nodes and edges, adjusting abstraction levels, and accessing contextual explanations within a unified
-    human-in-the-loop workflow. We evaluated InteractiveKG through a controlled user study comparing text-only LLM outputs with graph-based
-    interactions across error-correction and verification scenarios. Results show that InteractiveKG significantly improves users’ ability to identify
-    and refine problematic reasoning, strengthens trust calibration, increases decision confidence, and enhances perceived control over the reasoning
-    process. By transforming reasoning from transient text into a manipulable graph artifact, InteractiveKG demonstrates how transparency and user
-    agency can be systematically integrated into LLM-assisted reasoning, highlighting the importance of interactive, user-controllable representations
-    for trustworthy human–AI collaboration.
+### R00643 | 2026 | preprint/None | Lang: en
+TI: DIVERGE: Diversity-Enhanced RAG for Open-Ended Information Seeking
+AB: Existing retrieval-augmented generation (RAG) systems often assume that each query has a single correct answer. This assumption overlooks
+    open-ended information-seeking scenarios where multiple plausible answers are valuable, and where diversity is important for creativity, fairness,
+    and inclusive access to information. We show that standard RAG systems fail to fully use diverse retrieved contexts: simply increasing retrieval
+    diversity does not necessarily lead to diverse generations. To address this limitation, we propose Diverge, a plug-and-play agentic RAG framework
+    that improves the diversity--quality trade-off through iterative, reflection-guided exploration of diverse viewpoints and diversity-aware
+    retrieval support. We further introduce evaluation metrics for characterizing the diversity-quality trade-off in open-ended question answering.
+    Experiments across multiple real-world datasets and backbone LLMs show that Diverge achieves the best trade-off among competitive baselines,
+    increasing diversity by $\sim2\times$ without noticeable quality degradation. These results reveal a systematic limitation of current RAGs and
+    show the value of explicit diversity modeling.
 
-### R00666 | 2026 | preprint/None | Lang: en
-TI: Exploring the Potential of Generative Artificial Intelligence to Support the Sensemaking of Patient-Generated Health Data by Healthcare
-    Professionals in Cardiac Risk Reduction (Preprint)
-AB: BACKGROUND Individuals are increasingly generating substantial personal health and lifestyle data, e.g. through wearables and smartphones. While
-    such patient-generated health data (PGHD) could transform preventative care, its integration into clinical practice is hindered by its scale,
-    heterogeneity and the time pressure and data literacy of healthcare professionals (HCPs). OBJECTIVE We explore how large language models (LLMs)
-    can support healthcare professionals’ sensemaking of PGHD with automated summaries and natural language data exploration. METHODS Using
-    cardiovascular disease (CVD) risk reduction as a use case, 16 HCPs reviewed synthetic multimodal PGHD in an exploratory qualitative study with a
-    clinical dashboard prototype that integrated charts, LLM-generated summaries, and a conversational interface. The study was complemented by
-    standardized measures of workload, usability, confidence and trust in AI summaries. RESULTS AI summaries provided quick overviews that anchored
-    data exploration, while conversational interaction supported flexible analysis and bridged data-literacy gaps. However, HCPs raised concerns about
-    transparency, privacy, and overreliance. CONCLUSIONS We contribute early empirical insights and sociotechnical design implications for integrating
-    AI LLMs into clinical workflows to support PGHD sensemaking and decision-making.
+### R00644 | 2026 | preprint/None | Lang: en
+TI: Probabilistic Calibration Is a Trainable Capability in Language Models
+AB: Language models are increasingly used in settings where outputs should follow an intended distribution, yet their generation probabilities are
+    often poorly calibrated to it. In many such requests the distribution is implicit and the valid outputs cannot be listed in advance, so the task
+    cannot be passed to an external random number generator. We study whether this capability can be improved directly through fine-tuning.
+    Concretely, we fine-tune language models on synthetic prompts that require sampling from mathematical distributions, and compare two Calibration
+    Fine-Tuning variants: a soft-target method that converts the desired output distribution into trie-derived next-token targets, and a hard-target
+    method that trains on sampled completions from the same target distribution. Across 12 models spanning four families, both methods substantially
+    improve structured-sampling fidelity on held-out distribution families and unseen parameter settings, showing that training on cheap synthetic
+    mathematical distributions improves sampling on unseen distributions, even in natural language. The gains also transfer to broader stochastic
+    generation benchmarks, including open-ended random generation, where fine-tuned models broaden their first-token support by one to two orders of
+    magnitude, and NoveltyBench. The gains sometimes reduce downstream capability, especially arithmetic reasoning, with costs varying by model.
+    Overall, our results show that probabilistic calibration can be improved through fine-tuning with either objective, and that calibration learned
+    on mathematical distributions transfers to natural-language stochastic generation. Code is available at
+    https://github.com/chandar-lab/calibration-finetuning.
 
-### R00667 | 2026 | article/None | Lang: en
-TI: THE DOUBLE EDGE OF THE MACHINE: ARTIFICIAL INTELLIGENCE IN TRANSLATION AND ITS IMPLICATIONS FOR LANGUAGE EDUCATION
-AB: The rapid development of artificial intelligence (AI) – driven machine translation (MT) has changed how translation and language practitioners
-    work with texts across languages. Machine translation tools such as Google Translate, DeepL, and large language model (LLM)-based systems
-    currently offer instantaneous, fluent translations of source material, which is reshaping reading, writing, and cross-cultural communication
-    practices. This article synthesizes recent research from TESOL, applied linguistics, and translation studies to examine advantages and
-    disadvantages of AI-driven translation. It looks at accessibility, motivation, and learner confidence along with concerns about accuracy,
-    overreliance, academic integrity, and the erosion of professional language development in language experts. The article closes with
-    recommendations for applying AI translation tools in the translation practices in a way that supports, rather than replaces, human language
-    translating.
+### R00645 | 2026 | preprint/None | Lang: en
+TI: Recovering Diversity Without Losing Alignment: A DPO Recipe for Post-Trained LLMs
+AB: Many open-ended instructions have multiple valid answers that users can benefit from seeing, but post-training often narrows an LLM's output space
+    toward a small set of canonical responses. We introduce REDIPO, an offline DPO data-construction pipeline for recovering distinct valid answer
+    modes while preserving the alignment benefits of the instruct model. For each prompt, REDIPO samples responses from both base and instruct models,
+    rewrites base-model responses with the instruct model, filters candidates for safety and instruction-following quality, and builds preference
+    pairs that favor marginally diverse responses among candidates with similar instruction-following reward. Across Qwen3-4B, OLMo-3-7B, and
+    LLaMA-3.1-8B, REDIPO improves NoveltyBench distinct_k by 134%, 33%, and 44% relative to the instruct checkpoints, while DivPO changes diversity by
+    0%, -6%, and -4% on the same models. These gains largely maintain MTBench, IFEval, and Arena-Hard performance, and reduce direct-category
+    HarmBench attack success rate. Ablations show that marginal-diversity pair selection and base-response rewriting drive the diversity gains, while
+    filtering and quality-bounded pairing help maintain alignment. Overall, our results show that diverse valid answers from base-model generations
+    can be reintroduced through carefully constructed preference data while retaining the alignment benefits of post-training. We release our code and
+    data at https://github.com/vsamuel2003/ReDiPO.
 
-### R00668 | 2026 | preprint/None | Lang: en
-TI: Turing's Mirror: A Conceptual Design for Warrant-Sensitive Reliance on AI Output
+### R00646 | 2026 | preprint/None | Lang: en
+TI: The New Shape of Search: How Conversational AI Recomposes Information Seeking
+AB: The familiar search journey begins with a query and moves outward into documents, and conversational AI is commonly imagined at its mouth: ask
+    first, then click out. Linking captured prompts and responses to the same panelists' observed searches and pageviews, and reconstructing
+    inactivity-defined cross-surface temporal sessions (standalone assistant surfaces; search-embedded AI such as AI Overviews and AI Mode is out of
+    scope, since it co-occurs with the results page), we find the observed journeys more often run the other way. Content usually follows search but
+    more often precedes assistant use. Within the same panelist, the paired difference-of-directions between the two anchors is +20.6 [19.9, 21.3]
+    percentage points; it persists within every coarse destination-domain stratum we can observe (semantic task and task-stage matching remain
+    unresolved), and every headline result replicates in a second, adjacent month. Search tends to anchor the front of the observed journey;
+    assistants sit deeper inside it. Assistant sessions are also far more often self-contained. User-weighted, 34.1% [33.5, 34.7] of
+    assistant-containing sessions show no observed external web step (AI-first 10.5% [10.2, 10.9], AI-last 18.3% [17.8, 18.7], bridge/interleaved
+    37.1% [36.5, 37.7]), against 19.5% [19.2, 19.8] contained for search-centered sessions of the same users, a within-user contrast of +13.0 [12.5,
+    13.6] percentage points. We call this difference recomposition: activity is distributed differently across dialogue, search, and browsing, without
+    implying that assistant use caused the difference. Assistant-contained also does not mean resolved: timestamps alone cannot establish one task,
+    satisfaction, or completion. The result is a cross-surface topology of the emerging search journey and a discipline for distinguishing observed
+    containment from inferred resolution.
+
+### R00647 | 2026 | preprint/None | Lang: en
+TI: Large Language Models Readability Classification: A Variability Analysis of Sources and Metrics
+AB: Abstract Accurate health information is ineffective if patients cannot understand it. Large Language Model (LLM) health research values veridical
+    precision; however, linguistic accessibility remains an under-examined component of output quality and usability. This study investigated two
+    sources of variability in readability classification: differences across LLM systems and across readability metrics. The analysis tested 1,120
+    data points from seven systems in English and Portuguese, comparing baseline responses with a Wikipedia-grounded condition. Content was assessed
+    using five standard readability metrics that measure distinct aspects of text complexity. Systems were statistically homogeneous at baseline but
+    became significantly heterogeneous under Wikipedia grounding, indicating variability in the combination of Retrieval-Augmented Generation
+    (differential readability effects of the same source-grounding instruction across systems). Significant metric variability was observed in all
+    conditions, showing that readability metrics are not interchangeable. Although retrieval grounding is commonly used to improve accuracy, our
+    findings show a trade-off: verified-source grounding can yield inconsistent readability. Therefore, evaluation protocols should use transparent,
+    vendor-agnostic criteria, with metric-specific and language-aware thresholds, and be applied whenever models or grounding configurations change to
+    support accessible cross-language health communication.
+
+### R00648 | 2026 | preprint/None | Lang: en
+TI: Linguistic Monoculture in LLM-Assisted Language Use
+AB: Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and polish text. Although
+    such assistance can improve clarity and help authors meet institutional expectations, widespread reliance on shared models may reduce
+    population-level variation in linguistic form, a phenomenon we refer to as linguistic monoculture. We develop a mathematical framework in which
+    authors and LLMs are represented as distributions over linguistic features and coevolve through repeated interaction. We analyze three interaction
+    mechanisms: a shared model with a fixed linguistic distribution, a shared model recursively updated from author outputs, and personalized models
+    updated through author-specific and population-level feedback. We characterize the resulting equilibria and convergence rates, showing that,
+    shared models can drive authors toward a common norm, recursive feedback relocates the shared norm without altering pairwise spread under common
+    conformity, and personalization can preserve a family of distinct author-model equilibria with nonzero linguistic diversity. We then endogenize
+    conformity as a strategic choice trading off private benefits from clarity, legibility, and perceived fluency against distinctive style. Within
+    this utility model, individually rational authors may conform more than is socially optimal because they do not internalize the value their
+    distinctiveness provides to others, creating a negative externality and a price of monoculture that is finite for each fixed instance but can grow
+    without bound when distinctiveness dominates authenticity. Synthetic simulations illustrate how fixed shared assistance, recursive feedback, and
+    personalization produce different long-run diversity outcomes.
+
+### R00649 | 2026 | preprint/None | Lang: en
+TI: Diversifying Personalized Research Ideation against AI-Induced Homogenization
+AB: AI-assisted research ideation has emerged as a promising paradigm for accelerating scientific discovery, with systems now capable of generating
+    research directions conditioned on papers, topics, or lightweight researcher contexts. Yet current systems largely optimize individual suggestions
+    in isolation. This leaves two blind spots. First, coarse researcher representations may elicit mainstream directions that appear broadly feasible,
+    but lack sufficient researcher-specific grounding. Second, independent recommendations can concentrate a community's portfolio around recurring
+    high-probability themes. To address these blind spots, we propose DivAlign, a four-stage pipeline for alignment-preserving de-homogenization.
+    DivAlign extracts fine-grained researcher profiles, generates profile-conditioned candidate directions, scores them along three alignment
+    dimensions (Executability, Comprehensibility, and Growth Potential), and surfaces researcher-local directions while reducing redundancy across the
+    community portfolio. On a benchmark we construct from 95 AI researchers across five subfields, DivAlign reduces community-level redundancy while
+    preserving researcher-direction fit. Compared with coarse single-shot ideation, it lowers average pairwise similarity from 0.331 to 0.294 and
+    nearest-neighbor similarity from 0.704 to 0.608. Compared with the independent top-choice variant, DivAlign reduces nearest-neighbor similarity
+    from 0.663 to 0.608 while retaining 99.9% of the researcher-direction fit score. Code and data are available at
+    https://github.com/Ruixxxx/DivAlign.
+
+### R00650 | 2026 | preprint/None | Lang: en
+TI: When AI Writes, Who Gets Cited? Evidence of Citation Monoculture Across Language Models
+AB: As language models move from drafting prose to running literature-search agents with tool calls, fabricated references are becoming easier to
+    catch and constrain. The harder failure begins after every candidate is real: different models may still select the same narrow subset, producing
+    citation monoculture without any single citation being wrong. We isolate this effect on 120 real papers. Eleven models from three vendors choose
+    at most ten papers from uniformly random panels of thirty, with real titles and abstracts but fabricated authors, reassigned years, and hidden
+    venues and citation counts. Each run is compared with indifferent selection on the same panel and realized budget. All eleven models concentrate
+    sharply: the top decile receives 23.3-30.2% of citations against 15.6% under the null, one component explains 68-73% of variation across their
+    preference maps, and cross-vendor agreement nearly matches within-vendor agreement. Formalizing the task as fixed-budget subset selection, we turn
+    these patterns into identifiable mechanisms: an exchangeability bound rejects a mapless selector for every model, a spectral decomposition
+    explains why the best cross-fitted mixture still retains 55% of the excess, and a rarity theorem predicts the recursive competition effect we
+    verify within panels. Controlled paraphrase, content-slot crossover, and design resampling attribute about 90% of GPT-5 mini's map variance to
+    paper content. Eight domain experts selecting from the same blinded panels under the same cap show no comparable shared preference, while model
+    concentration persists in selection-only mode. Even when every reference is real and every paper is equally visible, current language models
+    impose a common content-level filter on scientific attention. Equalizing retrieval or mixing vendors is therefore insufficient; the shared
+    preference map itself must be changed.
+
+### R00651 | 2026 | conference-paper/None | Lang: en
+TI: VOYAGER: A Training Free Approach for Generating Diverse Datasets using LLMs
+AB: Avinash Amballa, Yashas Malur Saidutta, Chi-Heng Lin, Vivek Kulkarni, Srinivas Chappidi. Proceedings of the 64th Annual Meeting of the Association
+    for Computational Linguistics (Volume 1: Long Papers). 2026.
+
+### R00652 | 2026 | preprint/None | Lang: en
+TI: Language Industrialization: A New Social Revolution?
+AB: As artificial intelligence (AI) tools, particularly large language models (LLMs), enable the rapid production of large quantities of relatively
+    high-quality text and other forms of content, human language may also be facing a revolution comparable to industrialization. However, automated
+    and standardized language generation faces many issues, such as insufficient diversity, which may lead to risks like knowledge collapse. In this
+    paper, I introduce the concept of language industrialization to refer to this phenomenon. While the short-term effects of language
+    industrialization have already become evident in certain fields (e.g., academia), its long-term effects in other areas will require careful
+    monitoring and thorough analysis.
+
+### R00653 | 2026 | conference-paper/None | Lang: en
+TI: Not What, But How: A Communicative Audit of LLM Response Framing
+AB: Large language models (LLMs) are being increasingly used to answer subjective, information-seeking queries, where users are sensitive to how
+    responses are communicated, not just whether the answers are correct.Existing LLM evaluations for subjective cultural queries largely focus on
+    factual correctness, ignoring how the response is framed.To this end, we introduce FRANZ, an automated FRAmework for respoNse characteriZation.It
+    conducts a communicative audit of LLM responses across four dimensions: cultural positioning, anthropomorphic cues, use of generalizing language,
+    and adherence to conversational maxims.To enable this evaluation, we contribute SQUARE -a corpus of 376k subjective queries sourced from 57
+    subreddits, and mapped to 7 countries and 19 question categories.We demonstrate FRANZ's applicability by scoring responses from three open-weight
+    LLMs.For SQUARE LLM responses differ significantly in the frequency of employing each response characteristic.Unlike single-dimensional audits,
+    FRANZ reveals that insider positioning and anthropomorphism are positively coupled for subjective queries, with the degree of coupling varying by
+    country, thereby providing a diagnostic lens for identifying framing divergences.* **Food and Drink:** Food items, beverages, cooking methods,
+    culinary practices.
+
+### R00654 | 2026 | conference-paper/None | Lang: en
+TI: Can Crowdsourcing Survive the LLM Era? A Community Survey on Human Data Collection
+AB: The widespread use of large language models (LLMs) as writing tools challenges the validity of crowdsourced data, as crowdworkers may 'outsource'
+    tasks to models.To better understand how the research community addresses this, we surveyed 155 researchers in NLP and related disciplines about
+    their experiences and opinions on collecting free-text responses via crowdsourcing in the LLM era.This paper provides an overview of
+    practitioners' challenges, mitigation strategies, and the foreseen implications on data quality.44% of respondents reported observing LLM usage in
+    their crowdsourced data.While 93.2% of them had anticipated this, half were unsure what precautions to take.The most prevalent detection
+    strategies are distinctive textual style patterns and unusually fast completion times.Overall, survey responses show that the research community
+    is aware of the problem and taking measures, but existing efforts remain insufficient to fully address it.Finally, we derive a set of
+    considerations to guide future crowdsourced free-text data collection in the era of LLMs.We make the survey and an anonymized version of the
+    responses available for researchers 1 .
+
+### R00655 | 2026 | preprint/None | Lang: en
+TI: A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing
+AB: Large language models can shift human beliefs across high-stakes domains, but most persuasion studies rely on pre/post belief change. These
+    endpoint measures identify whether persuasion occurred, yet miss where and how beliefs moved within a dialogue. We present PERSUASIONTRACE, a
+    framework for studying persuasion in human-LLM interaction. Built on a web-based experimental platform, PERSUASIONTRACE contributes a tool for
+    multi-turn persuasion studies and a process-level evaluation protocol: it records multi-turn belief reports from human or simulated targets of
+    persuasion, annotates persuader turns with rhetorical dimensions (logos/pathos/ethos), and evaluates simulators by fidelity to real human belief
+    dynamics. Using this framework, we find that human targets group into two clusters of multi-turn belief updates and exhibit susceptibility to
+    rhetorical strategies, and that LLMs are persuasive across generic and personalized topics, text and audio modalities, and multi-turn
+    interactions. Prior work has chiefly used vanilla-prompted LLMs to simulate human targets, but we show that these simulators fail to replicate
+    human belief dynamics. We introduce a Bayesian-network simulated target that maintains an explicit latent belief state over time so each persuader
+    message yields cognitively realistic belief updates. In human-likeness evaluation, our Bayesian target scores near a human reference (81 vs 80),
+    while baseline LLM targets score substantially lower (64). PERSUASIONTRACE reframes persuasion evaluation from endpoint movement alone to process
+    fidelity, providing a stronger basis for scientific analysis and safer optimization of persuasive systems.
+
+### R00656 | 2026 | preprint/None | Lang: en
+TI: Automated IEP Generation from Traditional Chinese Parent-Teacher Interviews via Corpus-Grounded Feature Diffusion
+AB: Writing Individualized Education Programs (IEPs) is a high-labor, knowledge-intensive document burden; English-language research has demonstrated
+    that generative AI can significantly reduce drafting time, yet automated IEP generation in Traditional Chinese remains virtually unexplored due to
+    domain data scarcity, strict privacy regulations, and the absence of local evaluation benchmarks. We propose a low-resource fine-tuning pipeline
+    centered on Corpus-Grounded Feature Diffusion (CGFD): (1) 25 dual-expert high-score seed transcripts are selected via a tau threshold with
+    flag-aware score caps; (2) a FeatureProfile (sentence length, structure, quantification templates) is extracted from seeds and injected into LLM
+    prompts alongside Verbalized-Sampling-style diversity control to drive diffusion; (3) 15 expert gold seeds are used as diffusion anchors,
+    targeting 585 samples; 567 valid diffusion samples are obtained, yielding a 582-sample training set used to fine-tune Breeze-7B with QLoRA; (4)
+    schema-constrained inference via Grammar-Constrained Decoding (GCD) enforces a hierarchical SMART Goal Ladder schema at inference time. Ablation
+    results on a 55-sample schema stress set reveal an unexpected finding: GCD is counterproductive under Traditional Chinese token budgets -- the
+    no-GCD path achieves 100% schema pass rate at 34% lower median latency, outperforming GCD on both reliability and speed. On the n=10 formal
+    hold-out, the no-GCD inference path achieves BERTScore F1 = 0.779, exceeding GPT-5.4 (0.726), DeepSeek-V3.2 (0.703), Gemini-3-Flash-Preview
+    (0.703), and Llama-4-Maverick (0.700) zero-shot baselines while maintaining fully local, air-gapped inference. This system addresses a gap in
+    Traditional Chinese special-education NLP and offers a scalable, privacy-preserving local inference solution under an industrial engineering
+    paradigm.
+
+### R00657 | 2026 | preprint/None | Lang: en
+TI: Algorithmic Groupthink: Causal Analysis and Mitigation of Semantic Convergence in Multi-agent LLM Systems
+AB: Abstract When several AI agents work on one open-ended task, such as brainstorming ideas or drafting designs, they usually share drafts so each
+    builds on the others. But sharing also narrows what they produce: asked for many different answers, they return a few similar ones. We tested this
+    across 20 tasks. With the model and sampling fixed, we varied only whether agents could see each other's work. Sharing reduced the semantic
+    diversity of outputs by 5.9%; isolation raised it by 10.3% (p = 0.017, Cohen's d = 0.79). The loss grew with how much was shared, held across five
+    LLMs from three providers (significant in two), and was not explained by input length, drift, or order. We call this pattern Algorithmic
+    Groupthink. It can be countered at the prompt level: under a multi-workflow protocol where sharing cost 31.8% of diversity, one added instruction
+    in the system prompt cut the loss to 5.5% (replicated at n = 20, p = 0.0003, Cohen's d = 1.31), with no loss of quality. The effect appears at
+    inference time, not during training, so developers can adjust diversity by changing how much context the agents share, not by retraining.
+
+### R00658 | 2026 | conference-paper/None | Lang: en
+TI: The Broken Telephone Changes Tone: Examining Nuanced Linguistic Cues in LLM Chains-of-Translation
+AB: As LLM-generated content proliferates online, texts are increasingly subject to repeated processing and translation by models, making it critical
+    to understand how such iterative reprocessing reshapes language.Prior work has shown that this degrades factual content and reduces diversity, but
+    the fine-grained linguistic shifts underlying these effects remain unexplored.We track changes in epistemic markers, grammatical voice, degree
+    adverbs, and nominalisation density across 12 iterations of roundtrip translation applied to 600 BBC News articles, varying intermediate language,
+    translation model, and chain topology across 17 experimental configurations.We find a consistent epistemic shift: evidential and factive markers
+    increase while hedges decline, potentially causing tentative claims to read as more certain.Concurrently, texts undergo register formalisation:
+    informal degree adverbs give way to formal alternatives, active-voice density drops, with-agent passives attrite disproportionately, and
+    nominalisation density rises.We also record clear model-specific patterns for certain settings.These shifts erode the markers of source, register,
+    and agency, offering a fine-grained account of the factual degradation reported in previous studies.
+
+### R00659 | 2026 | conference-paper/None | Lang: en
+TI: Measuring AI-Induced Disempowerment: A Framework and Proposed Metrics
+AB: AI systems are embedded in economic production, public discourse, governance, and personal decision-making, yet there is little empirical
+    infrastructure for tracking whether this integration erodes humans' ability to meaningfully shape outcomes that affect their lives.We argue that
+    measuring AI-induced disempowerment is both urgent and tractable, and lay out a research agenda for doing so.We first operationalize
+    disempowerment through Sen's model of agency and a three-layer model of exposure, erosion, and lock-in, applied across economic, political, and
+    cultural domains at individual, institutional, and civilizational scales.We survey existing measurement efforts and show that current work
+    clusters almost entirely at exposure, leaving erosion and lock-in largely unaddressed.We then propose six concrete metrics (centaur evaluations,
+    disempowerment perception surveys, AI content saturation and cultural convergence monitoring, monitoring capital flow to and from human labor,
+    human task frontier tracking, and institutional ethnography) and identify which actors are best positioned to implement each.We close by
+    discussing limitations and open challenges, including construct validity across levels of analysis, causal attribution, the distinction between
+    disempowerment and adaptation, and the political economy of measurement.
+
+### R00660 | 2026 | preprint/None | Lang: en
+TI: "Code Is Cheap. Show Me the Talk.": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course
+AB: Generative Artificial Intelligence (GenAI) coding tools are transforming visualization education. They can assist with implementation and design,
+    but they can also let students bypass intended learning trajectories. In this paper, we share our retrospective experience managing and teaching
+    AI use in an upper-level visualization course. We implemented prompt injections, asked oral checkout questions, and taught two AI coding labs.
+    Prior to our coding labs, at least half of the students had already used AI tools in their assignments. In both AI coding labs, refinement
+    accounted for about half of students' prompting logs, and explanation was almost absent. In the lab where AI coding was optional, 44 of 78 (56.4%)
+    submissions preferred the scaffolded instructions over designing their own prompts. Students' final projects were more polished than in our
+    previous offering, but also more visually homogeneous. Our reflections point to the need for clearer AI use boundaries and instruction on
+    prompting, and for teaching students to question generic AI designs and adapt them to their data and story.
+
+### R00661 | 2026 | preprint/None | Lang: en
+TI: The Verification Paradox
+AB: When a student uses generative AI to produce academic work, the capacity to verify that work fails for two parties, for two reasons, at two
+    moments. The teacher, examining the finished artifact, cannot determine who performed the thinking. The student, situated inside the process of
+    production, cannot determine whether the material the system has supplied is correct, deep, or safe to build upon. This paper concerns the second
+    failure. It argues that a student operating outside their own domain of competence faces three distinct verification problems-correctness, depth,
+    and calibration-and that the third is the most consequential, because it is not a failure to check but a failure to recognize that anything
+    requires checking. The paper then argues that this predicament is not reducible to the familiar condition of novice ignorance. AI-sourced claims
+    differ structurally from textbook-sourced claims in a way that is independent of quality: no accountable party stands behind any particular
+    sentence, which removes the external correction mechanism that has historically made novice learning survivable. Following recent work on the
+    testimony gap, the paper shows this difference to be structural rather than incidental, and therefore permanent: it does not resolve as the
+    underlying systems improve. Finally, the paper argues that the most natural institutional response-verifying student understanding through oral
+    defense-cannot close the gap, because ownership and validity are independent variables. A student can genuinely own a false claim. Any instrument
+    that certifies ownership while remaining blind to validity does not merely fail to detect the problem; it launders it, converting an unverified
+    claim into credentialed knowledge.
+
+### R00662 | 2026 | preprint/None | Lang: en
+TI: More Is Not More: What Matters for Diversity in LLM Opinions?
+AB: Large language models are increasingly used to simulate diverse human opinions in open-ended tasks such as synthetic surveys, focus group
+    modeling, and public opinion prediction. However, LLM outputs exhibit systematic opinion homogenization. Practitioners have explored various
+    interventions to increase diversity, but the landscape remains fragmented: different methods are evaluated in isolation with incomparable metrics,
+    and in practice they are typically deployed and upgraded simultaneously, making it difficult to attribute gains to specific components. To advance
+    a more scientific understanding of LLM output diversity, we design a factorial experiment that separates two primary intervention dimensions:
+    input conditioning (operationalized through persona depth) and interaction architecture. We evaluate all conditions on 100 real-user open-ended
+    questions across 7 models, measuring diversity with multiple complementary metrics. Our findings challenge several common assumptions. First, more
+    persona detail does not monotonically increase diversity. The initial step of persona conditioning already captures the majority of the gain,
+    while further elaboration with demographic detail does not consistently improve and can reduce diversity on some models. Second, rather than
+    seeking a single best interaction architecture, we find that different architectures explore largely non-overlapping opinion regions. Combining
+    multiple architectures yields broader coverage than optimizing any one. Third, commonly attempted low-cost alternatives such as raising sampling
+    temperature and adding diversity instructions produce negligible effects compared to structured interventions. Overall, our work demonstrates that
+    diversity is not a product of scaling along any single dimension, but is highly sensitive to the structural form and combination of interventions.
+
+### R00663 | 2026 | article/None | Lang: ru
+TI: Модели автоматической генерации учебных заданий: сравнительный обзор
+AB: The article presents a comparative analysis of models for the automatic generation of assessment tasks for university courses in the context of a
+    growing mismatch between student and instructor numbers and an increase in cases of academic dishonesty.The aim of the study is to compare
+    existing generation models according to three criteria — task variability, effort required for implementation, and explainability of results — in
+    order to reduce instructors’ workload while preserving the quality of the educational process.The methodology includes an analysis of publications
+    from 2020–2025 and a classification of models into template-based, grammar-based, statistical, graph-based, recurrent neural networks,
+    evolutionary algorithms, and large language models (LLMs).Key findings: LLMs outperform alternative approaches in the diversity of generated
+    content and computational efficiency when pre-trained models are used. Template-based and grammar-based systems are constrained by low
+    variability, evolutionary algorithms require significantly more time, and recurrent networks are inferior in maintaining semantic coherence.
+    Critical drawbacks of LLMs are limited explainability and a tendency to hallucinate, which necessitates mandatory expert oversight of outputs.The
+    work has practical relevance for developers of educational systems and for instructors seeking to scale instruction while retaining pedagogical
+    control.
+
+### R00664 | 2026 | book/None | Lang: en
+TI: Guidelines for the Responsible Use of AI in STEM Education Research: Protecting Our Participant Communities and Research Integrity
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00669 | 2026 | article/None | Lang: en
-TI: Case-Based Explainable Generative AI as a Framework for Trustworthy Digital Innovation
-AB: The rapid adoption of Generative Artificial Intelligence (GenAI) has accelerated digital innovation across diverse sectors; however, challenges
-    such as hallucination, limited transparency, and insufficient reasoning traceability continue to restrict its deployment in high-stakes
-    applications. This study proposes a Case-Based Explainable Generative Artificial Intelligence (CB-XGenAI) framework that integrates Case-Based
-    Reasoning (CBR), Explainable Artificial Intelligence (XAI), and Large Language Models (LLMs) to establish an evidence-driven and trustworthy
-    reasoning architecture. The proposed framework consists of six interconnected modules: input processing, semantic case retrieval, case adaptation,
-    explainable reasoning generation, trustworthiness validation, and continuous case learning. Semantic retrieval is implemented using
-    BAAI/bge-large-en-v1.5 embeddings and a FAISS vector database, while Llama 3.1-8B-Instruct performs adaptive generative reasoning. The framework
-    is evaluated on five benchmark datasets, namely Natural Questions, SQuAD 2.0, CNN/DailyMail, MMLU, and Alpaca, using retrieval accuracy,
-    explanation quality, factual consistency, user trust, and overall performance as evaluation metrics. Experimental results demonstrate that the
-    proposed framework achieves an overall performance of 93.4%, consistently outperforming conventional LLMs, Retrieval-Augmented Generation (RAG),
-    Explainable AI-enhanced LLMs, and traditional CBR approaches. Ablation analysis further confirms that semantic case retrieval and explainable
-    reasoning are the primary contributors to system effectiveness, while statistical validation using paired t-tests, one-way ANOVA, and confidence
-    intervals verifies that the observed improvements are statistically significant (p < 0.001). The findings demonstrate that integrating case-based
-    reasoning with explainable generative intelligence substantially enhances transparency, factual reliability, adaptability, and user trust,
-    providing a scalable foundation for trustworthy AI in digital innovation.
+### R00665 | 2026 | preprint/None | Lang: en
+TI: Spicing up Genetic Netlist Generation with LLMs
+AB: Analog circuit topology synthesis remains challenging because useful designs occupy a tiny fraction of a combinatorial search space, and small
+    structural changes can induce highly nonlinear changes in behavior. Evolutionary algorithms are attractive because they can optimize over discrete
+    circuit topologies using only black-box evaluations, but they often require many SPICE simulations and may converge prematurely. We introduce
+    LLM-SPICEMixer, a hybrid synthesis framework that augments genetic netlist generation with IGEL (Inspiration-Guided Evolution with LLMs), an
+    LLM-based proposal operator. During search, IGEL prompts an LLM with high-performing circuits from the elite set and instructs it to generate a
+    new SPICE netlist, which is then evaluated by SPICE and selected using the same reward mechanism as conventional genetic operators. Thus, the LLM
+    contributes structured topology proposals while simulation remains the source of truth. We evaluate LLM-SPICEMixer on a challenging benchmark
+    task: synthesizing transistor-level circuits that implement a discriminant function for Iris classification. Compared with the genetic framework
+    without LLM guidance, LLM-SPICEMixer improves the median final training reward by 8.4% and the median validation-selected test reward by 8.8%. The
+    best validation-selected circuit achieves 93.3% test accuracy at the nominal tt corner and 85.9% average test accuracy across 17 process, voltage,
+    and temperature corners.
 
-### R00670 | 2026 | article/None | Lang: en
-TI: NEXUS-IDS: From structural to semantic explainability in flow-node graph neural networks for IoT intrusion detection
-AB: [NO ABSTRACT AVAILABLE]
+### R00666 | 2026 | conference-paper/None | Lang: en
+TI: Narrowing the Horizon: Quantifying Topic Saliency Shifts in Generative Monoculture
+AB: As Large Language Models (LLMs) become central to how we access and share information, they play an increasingly powerful role in shaping global
+    knowledge.However, as these models evolve, their outputs risk converging into a generative monoculture, where the diversity of perspectives they
+    represent narrows over time.Studies at the model level often fail to pinpoint which specific topics or viewpoints are being marginalised or
+    amplified in this process.In this paper, we introduce a method to measure shifts in topic saliency across model families, tracking what gains or
+    loses prominence during post-training.Applying this approach to a case study of climate change discourse, we demonstrate how homogenisation
+    affects the representation of diverse solutions across different models.We also test interventions to counter this trend, showing that specialised
+    models can help preserve a broader range of perspectives.This underscores the importance of monitoring topic saliency to diagnose the risks of
+    monoculture and to ensure AI systems reflect a pluralism of ideas.Data and Code are accessible here.
 
-### R00671 | 2026 | preprint/None | Lang: en
-TI: When to Act, When to Ask: Simulation-Based Evaluation of Human-in-the-Loop Decision Policies for Enterprise Agents
-AB: [NO ABSTRACT AVAILABLE]
+### R00667 | 2026 | preprint/None | Lang: en
+TI: Explicit Trajectory Diversity for RL-Based Post-Training of LLM Agents
+AB: LLM agents often admit multiple high-quality solutions to the same task, differing in reasoning structure, tool-use pattern, or interaction
+    trajectory. Yet existing notions of diversity in LLM post-training are mostly implicit, arising from general stochasticity and regularization
+    mechanisms rather than explicitly targeting task-relevant behavioral variation. While such implicit diversity can be useful, it does not directly
+    specify which forms of behavioral variation should be encouraged for a given task. In this work, we study explicit trajectory diversity in
+    RL-based post-training for LLMs. Our key idea is to define diversity through user-specified, task-specific trajectory descriptors, which map each
+    sampled trajectory to an interpretable behavioral representation, and then measure diversity as a set-level functional over the resulting
+    descriptor matrix. Building on this formulation, we introduce Trajectory-guided Joint Policy Optimization(TJPO), a single-policy framework that
+    optimizes explicit diversity over sampled trajectory groups, avoiding the need for population-based policy training, and instantiate it within
+    group-based policy optimization through trajectory-level learning signals. This design makes the diversity objective both interpretable and
+    controllable. Experiments on Sokoban and ALFWorld show that TJPO improves task-specific trajectory diversity while maintaining competitive task
+    performance. Descriptor and trajectory analyses show that the learned variation follows the specified behavioral dimensions and includes distinct
+    successful strategies. Extra experiment results suggest that explicitly shaping trajectory diversity can help LLM agents satisfy user requirements
+    and remain effective when task conditions change.
 
-### R00672 | 2026 | preprint/None | Lang: en
-TI: Human-AI Interaction Across Predictive, Generative, and Agentic AI
-AB: [NO ABSTRACT AVAILABLE]
+### R00668 | 2026 | conference-paper/None | Lang: en
+TI: The Citation-Faithfulness Illusion: Measuring Whether Grounded Answers Preserve Source Disagreement
+AB: Grounding faithfulness is measured on two axes: whether the answer follows the retrieved context, and whether each claim is supported by the
+    source it cites.Both can be satisfied in full by an answer that picks one side of a genuinely contested question, cites a source that holds that
+    side, and drops the credible sources that disagree.We name this failure disagreement collapse, or the citationfaithfulness illusion, and treat it
+    as a constructvalidity hazard: a high citation score does not license the inference that the answer reflects the sources.Conflict-aware retrieval
+    already prescribes reflecting credible debate; our contribution is to make that prescription measurable.We define disagreement recall and
+    disagreement-attribution precision, both decoupled from answer correctness and conditioned on source credibility so that suppressing a debunked
+    claim is not penalized; a fivecomponent rubric with verbatim anchors; an annotation protocol for the credibility filter and for position identity;
+    a matched-pair diagnostic that holds retrieval and citation availability fixed; and a pre-registered two-judge pilot with human adjudication.No
+    empirical scores are reported; the contribution is the instrument and its frozen evaluation design.
 
-### R00673 | 2026 | article/None | Lang: en
-TI: Smart Evidence Management: Concept, Design and Evaluation of an AI-Assisted Approach for Automotive SPICE Assessments
-AB: Automotive SPICE® (ASPICE) conformance activities require systematic discovery and evaluation of project documentation against standardised
-    process indicators, consuming an estimated 40–60% of assessment preparation time with high extraneous cognitive load. This paper presents Smart
-    Evidence Management (SEM), a principled Human–AI Collaboration (HAIC) approach grounded in Cognitive Load Theory, Trust in Automation, and
-    Situation Awareness theory. SEM defines four design principles—AI-assisted discovery, expert-validated judgement, transparent reasoning, and full
-    data sovereignty—as a novel generalisable HAIC pattern for documentary evidence evaluation in regulated professional domains. By reducing
-    evidence-hunting effort, SEM operationalises the Plan-Do-Check-Act (PDCA) continuous improvement principle, enabling iterative conformance gap
-    detection throughout development rather than only at formal assessment events. The Smart Evidence Manager, a prototype instantiation for ASPICE
-    Process Assessment Model (PAM) v4.0, implements a two-stage hybrid symbolic–neural Retrieval-Augmented Generation (RAG) architecture with fully
-    local Large Language Model (LLM) inference. An expert agreement study (n = 120 findings, five intacs® certified assessors) yielded a combined
-    acceptance rate of 90.0% (95% Confidence Interval (CI) [83.3%, 94.2%]). A beta-test study is under recruitment (target n ≥ 30 practitioners) to
-    quantify cognitive augmentation effects, usability, and trust calibration. Cultural dimensions of trust calibration are discussed, extending SEM
-    to intercultural deployment contexts.
+### R00669 | 2026 | preprint/None | Lang: en
+TI: Richness Is Not Evenness: Ordered Renyi Crossings under Self-Training
+AB: Recursive self-training of language models, a setting studied in model collapse, can reduce vocabulary while making frequent words, mostly
+    function words, less dominant. We fine-tune English GPT-2 on its own output for nine generations, vary the training-data sampling temperature, and
+    measure every model with one fixed sampler. As training temperature rises, Renyi entropy changes turn from loss to gain at distinct temperatures:
+    min-entropy first, then collision entropy, Shannon entropy and observed richness. Between the outer crossings, word types fall while the
+    most-common word becomes less dominant. Untruncated training at T = 1 lies in this interval: at 13,000 words, generation 9 has 24% fewer types
+    than generation 0 yet collision entropy is 0.91 bits higher. The ordering persists with a finer grid, different measurement samplers, a fixed word
+    budget and five fresh training seeds. Min-entropy again crosses before richness in four further settings (in Hindi only at interpolated roots) and
+    in 12 of 13 distinct measurements under eight text representations. Next-token identities and a categorical simulation isolate decoding and
+    sampling effects; the crossing order remains empirical. Fine-tuning on human text can produce the same split while likelihood improves, and no
+    single order's sign reliably identifies worse likelihood across the tested settings. We recommend reporting entropy profiles at stated budgets
+    with an independent quality measure.
 
-### R00674 | 2026 | article/None | Lang: en
-TI: Designing for disagreement: epistemic friction, sycophancy, and the ethics of human–AI advice—a critical integrative review
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00675 | 2025 | preprint/None | Lang: en
-TI: AI-Assisted Medical Diagnosis: A Hybrid XAI Framework for Interpretable Transformer-Based Text Classification
-AB: Text generation models show great promise in healthcare, but their 'black-box' nature hinders adoption because model output is not transparent
-    enough to serve the needs of medical professionals. Although Explainable AI (XAI) techniques exist, model output remains hard to interpret and
-    verify. This study proposes a novel approach to utilizing Large Language Models (LLMs) in a real-world medical use case: the classification of
-    medical abstracts that doctors routinely consult to understand the condition of a patient combined with the generation of a text explanation of
-    how the classification decision was made. The thesis develops and evaluates a hybrid XAI framework that combines classification and text
-    generation that is designed to enhance the transparency, interpretability, and trustworthiness of AI use in patient condition classification
-    scenarios. The hybdrid XAI framework is based on a BioBERT model, tuned on a Medical Abstracts dataset to classify diseases. It uses LIME (Local
-    Interpretable Model-Agnostic Explanations) to extract the top contributing words that the model's classification decision is based on. And it
-    features a structured prompt pipeline, designed through iterative prompt engineering, that integrates LIME output, prediction decision, as well as
-    input text into a cohesive natural language explanation for medical professionals using GPT-4o (via Azure OpenAI Service). In sum, the framework
-    produces explanations that state a patient condition prediction with confidence score, details the reasoning by linking LIME-identified words and
-    communicates decision and reasoning to medical professionals for faster yet more transparent further decision-making. The system was evaluated
-    using a survey among AI technology consultants that revealed that the system's explanations were highly interpretable and valued for increasing
-    transparency. The survey results demonstrated a positive impact on user trust and revealed the framework's potential to detect model errors by
-    highlighting contradictory evidence. In conclusion, this work demonstrates the potential of a hybrid LIME-LLM approach for generating more
-    interpretable explanations for high-stakes classification scenarios such as patient condition decision-making. The study concludes with
-    summarizing key limitations, such as its reliance on LIME's word-level analysis and limited evaluation without clinical experts. Building upon the
-    foundation established by this thesis, future work is needed to evaluate model performance with medical professionals and explore the integration
-    of more advanced XAI techniques. This study aspired to have contributed first steps to enhancing trust in AI for high-stakes applications.
-
-### R00676 | 2026 | article/None | Lang: en
-TI: Beyond benchmark accuracy: Toward trustworthy, open, and agentic clinical artificial intelligence
-AB: To the Editor: The recent study on large language models (LLMs) for pediatric diagnosis presents compelling evidence that advanced models can
-    surpass human clinicians in structured diagnostic tasks, particularly in rare disease identification.1 While these findings mark a significant
-    milestone in clinical artificial intelligence (AI), they also necessitate a deeper reflection on how such systems should evolve for safe,
-    scalable, and ethically grounded deployment in healthcare. A central implication of the study lies not merely in performance gains, but in the
-    demonstrated human–AI complementarity, where union accuracy significantly exceeds individual performance. This observation strongly advocates for
-    a transition from standalone LLM usage toward agentic clinical systems, multi-component architectures where LLMs interact with retrieval modules,
-    verification engines, and structured medical knowledge bases. Such agentic approaches can enable iterative reasoning, contextual grounding, and
-    dynamic hypothesis refinement, thereby addressing current limitations such as response inconsistency and overconfidence observed in
-    reasoning-optimized models. In this context, the role of open-source, fine-tuned LLMs becomes particularly important.2, 3 While proprietary models
-    dominate current benchmarks, open-source alternatives-when domain-adapted using curated clinical datasets-offer transparency, reproducibility, and
-    the ability to embed institution-specific knowledge. Fine-tuned models aligned with clinical ontologies (e.g., Systematized Nomenclature of
-    Medicine – Clinical Terms and Human Phenotype Ontology) can further enhance interpretability and reduce hallucination risks, especially in
-    multilingual and resource-constrained settings. Moreover, open ecosystems facilitate rigorous peer validation, which is essential for high-risk
-    applications such as medical diagnosis. However, the ethical and safety dimensions remain critical. The study highlights variability in model
-    outputs and the presence of potentially harmful diagnostic suggestions despite overall coherence. Such risks underscore the necessity of
-    human-in-the-loop oversight, calibrated uncertainty estimation, and abstention mechanisms when confidence is low.4 Additionally, concerns related
-    to data privacy, bias in training corpora, and regulatory compliance, particularly under emerging frameworks like the EU AI Act, must be
-    systematically addressed.5 Overreliance on LLMs may also contribute to diagnostic deskilling, necessitating careful integration strategies that
-    preserve clinician autonomy and critical reasoning. While current LLMs demonstrate remarkable diagnostic potential, their future lies not in
-    isolated accuracy improvements but in open, verifiable, and agentic ecosystems that prioritize safety, transparency, and collaborative
-    intelligence. Bridging this gap will be essential to transform LLMs from experimental tools into trustworthy clinical partners. The author
-    declares no conflict of interest.
-
-### R00677 | 2026 | article/None | Lang: en
-TI: Beyond intention: A cognitive-affective-ethical framework for translation students' in-task acceptance of AI-generated feedback
-AB: Although large language models (LLMs) are increasingly integrated into translator education, empirical evidence on how student translators engage
-    with AI-generated feedback in situated, in-task practice remains limited. This mixed-methods study investigates translation students' behavioral
-    acceptance of AI-generated feedback delivered through an LLM-embedded platform, examining the roles of baseline attitude toward AI, translation
-    proficiency, and text genre. A total of 124 translation majors completed 3596 sentence-level accept/reject decisions, each accompanied by
-    mandatory written rationales. Mixed-effects logistic regression revealed that all three factors independently and additively predicted acceptance:
-    text genre emerged as the strongest within-person driver, with acceptance ranging from 81.2% for technical texts to 49.9% for literary excerpts;
-    skeptical baseline attitudes significantly suppressed acceptance; and higher proficiency was associated with greater evaluative selectivity.
-    Thematic analysis of written rationales identified nine reasoning mechanisms, spanning cognitive verification, affective trust calibration, and
-    ethical-identity gatekeeping, which were integrated into a Cognitive-Affective-Ethical (CAE) framework extending the Technology Acceptance Model.
-    CAE conceptualizes acceptance as a hierarchical, conditional process: cognitive evaluation filters feasibility, affective trust modulates reliance
-    under uncertainty, and ethical considerations function as context-activated constraints that can override both cognitive and affective drivers. By
-    shifting the analytical focus from pre-adoption intention to in-task behavioral judgment, this study advances a mechanism-based account of when,
-    why, and under what ethical conditions AI-generated feedback is accepted in translator education, with implications for genre-aware pedagogy and
-    the design of adaptive AI feedback systems.
-
-### R00678 | 2026 | article/None | Lang: en
-TI: Artificial Intelligence for Elder-Scam Defense: A Review of Detection Methods for Human- and AI-Generated Fraud and a Layered Protection Framework
-AB: Scams targeting older adults increasingly combine social engineering with generative technology such as voice cloning, video deepfakes and text
-    produced by large language models (LLMs). Adults aged 60 and over reported losses of USD 7.7 billion to the FBI Internet Crime Complaint Center in
-    2025, 59% more than in 2024. This review, supported by a documented search of four databases (2019–2026), examines how such scams are structured,
-    why older adults are susceptible, and how artificial intelligence (AI) can detect or mitigate them. Of 992 screened records, 60 studies met the
-    eligibility criteria, and three more were identified through citation chasing. Most evaluations with older users measured knowledge, confidence or
-    intentions after an educational intervention; where detection performance or real-world exposure was measured, results were mixed and often null.
-    None of the included studies evaluated an AI-based scam-detection system with older users in a field setting, and the only study testing
-    audio-deepfake detectors on older speakers found that detectors trained on standard benchmarks roughly doubled their error rate. We propose a
-    six-layer conceptual framework, not yet validated, for engineering elder-scam protection as a socio-technical system, and identify age-diverse
-    evaluation, field trials of real-time assistance, privacy preservation and trust calibration as the principal open challenges.
-
-### R00679 | 2026 | article/None | Lang: en
-TI: HCICF: A Human Centred Intelligent Conversational Framework integrating Contextual Memory and Explainable AI for Next Generation Human Computer
-    Interaction
-AB: Human-Computer Interaction (HCI) is rapidly evolving with the emergence of Large Language Models (LLMs) and conversational artificial
-    intelligence.However, existing conversational systems still face limitations in maintaining longterm contextual continuity, personalization,
-    explainability, transparency, and user trust.This paper proposes a **Human-Centred Intelligent Conversational Framework (HCICF)** that integrates
-    hierarchical contextual memory, semantic knowledge retrieval, dynamic prompt construction, transformer-based reasoning, Explainable Artificial
-    Intelligence (XAI), adaptive user modelling, and continuous feedback within a unified architecture.The proposed framework maintains working,
-    episodic, semantic, and preference memory to preserve relevant information across interactions.Dynamic prompt construction combines the current
-    query, retrieved context, user profile, external knowledge, previous decisions, and system constraints to generate context-rich prompts.An
-    explainability pipeline further provides contextual attribution, supporting evidence, reasoning summaries, and confidence estimation, while
-    adaptive learning continuously updates user preferences and contextual knowledge based on feedback and behavioural signals.Experimental evaluation
-    considers contextual consistency, response relevance, explainability, user trust, user satisfaction, and task completion.HCICF achieves 93.2%
-    contextual consistency, 94.6% response relevance, 91.4% explainability, 89.7% user trust, 92.1% user satisfaction, and 94.3% task completion, with
-    an overall average performance of 92.55%, compared with 81.23% for RAG and 74.10% for a conventional LLM.The results demonstrate that integrating
-    persistent contextual memory, explainable reasoning, knowledge retrieval, and adaptive personalization improves the effectiveness, transparency,
-    and reliability of conversational AI for next-generation human-computer interaction.
-
-### R00680 | 2026 | article/None | Lang: en
-TI: AI Hallucinations in Retrieval-Augmented and Generative Systems: A Rigorous Review of Definitions, Failure Mechanisms, Evaluation, and Mitigation
-    Strategies
-AB: The research on AI hallucinations undergoes complete evaluation through this review which studies retrieval-augmented generation (RAG) and large
-    language models (LLMs) and multimodal systems and their applications in healthcare and education and law and cybersecurity and business and
-    tourism. The paper uses the bibliography from the source document as its review material to combine different definitions and show the reasons for
-    hallucinations at both the model stage and the pipeline stage and to evaluate detection methods and assessment approaches and to develop a
-    functional system for mitigation methods. Research shows that user trust along with interface behavior and anthropomorphic design and legal
-    accountability and regulatory oversight now determine how hallucinated output systems impact actual operational systems. Three conclusions emerge.
-    The research identifies hallucination as a group of different errors which produce unsupported content and weak grounding and context conflict and
-    false citations and misleading confidence. The research identifies hallucination as a group of different errors which produce unsupported content
-    and weak grounding and context conflict and false citations and misleading confidence. The RAG system implements security features which prevent
-    particular failure modes but it generates new failure modes through its retrieval quality and evidence selection and grounding fidelity systems.
-    The RAG system removes certain failure types but it produces new problems which impact both retrieval operations and evidence selection and
-    grounding process accuracy. A stack which unites corpus control with retrieval validation and constrained generation and uncertainty
-    quantification and human review stands as the most defensible solution for high-risk operational deployment. The most defensible approach for
-    high-risk deployment requires a combination of corpus control and retrieval validation and constrained generation and uncertainty quantification
-    and human review processes. The paper ends with three main recommendations which include operational metrics and research.
-
-### R00681 | 2026 | article/None | Lang: en
-TI: AI-Powered Real-Time Crisis Misinformation Debunker
-AB: The rapid spread of misleading information across digital platforms has become a significant concern, especially during critical situations such
-    as public health emergencies, elections, and natural disasters. Traditional fact-checking ap- proaches, which depend largely on manual
-    verification, are often too slow to respond effectively to the speed at which information circulates online. This limitation creates a need for
-    automated systems capable of analyzing and verifying information in real time. This research presents an AI-based framework designed to identify
-    and verify potentially false information efficiently. The proposed system combines multiple technologies, including Large Language Models (LLMs),
-    Retrieval-Augmented Gener- ation (RAG), and Optical Character Recognition (OCR), to process both textual and visual content. By retrieving
-    relevant information from trusted sources and analyzing it using intel- ligent models, the system generates clear and evidence-based conclusions
-    along with confidence scores. In addition, the framework incorporates a self-learning knowl- edge structure that improves performance over time by
-    storing validated information and learning from previous analyses. The system is also designed to provide understandable explanations for its
-    decisions, increasing transparency and user trust. Overall, the proposed approach offers a scalable and practical solution for real-time
-    misinformation detection across various digital platforms.
-
-### R00682 | 2026 | preprint/None | Lang: en
-TI: Critical thinking in human-AI collaborations
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00683 | 2025 | article/None | Lang: en
-TI: User Experience Patterns for Front-End Integration of Retrieval-Augmented Generation in Enterprise Platforms
-AB: The concept of Retrieval-Augmented Generation (RAG) has become a baseline architecture paradigm of enterprise-level artificial intelligence
-    systems that allow large language models (LLMs) to generate accurate, context-aware and verifiable responses by basing generation on external
-    sources of knowledge. Although there are studies dedicated to the issues of back-end architecture, retrieval optimization, and model performance,
-    limited attention is dedicated to user experience (UX) concerns regarding the implementation of RAG systems as a part of enterprise front-end
-    systems. This breach is decisive, with system accuracy and transparency, trust, usability, and alignment of workflow being paramount factors in
-    the adoption of the enterprise. The current paper is the detailed analysis of user experience patterns of front-end integration of
-    Retrieval-Augmented Generation to enterprise platforms. It logically examines model of interaction, interface design, feedback schemes and
-    explanability approaches that affect user confidence and effectiveness. The study integrates human-computer interaction (HRI), explainable
-    artificial intelligence (XAI), and enterprise software design to suggest a structured UX pattern taxonomy to be used in systems with RAG.The
-    methodology it uses is mixed, which incorporates research writing design science, some UX heuristic evaluation, and empirical usability testing
-    involving several enterprise applications such as knowledge management, customer support, and decision support systems. Task completion time,
-    perceived usefulness and trust calibration are measured in quantitative metrics as well as qualitative feedback on the users.The findings prove
-    that properly developed UX patterns (source attribution panels, retrieval confidence indicators, iterative query refinement interfaces) can help
-    the user gain great trust, cognitive, and decision-making accuracy. The paper ends with operational design considerations and future inquiries
-    that innovate UX as an upper-class element in the adoption of a successful implementation of Retrieval-Augmented Generation in business settings
-
-### R00684 | 2026 | article/None | Lang: en
-TI: Calibrated reliance on generative-AI health advice: a perspective on correctness, risk, and escalation
-AB: Members of the public increasingly consult generative artificial intelligence (AI) for health advice, and research has largely asked whether they
-    trust it. Trust is the wrong yardstick. Reliance on health advice is appropriate only when it tracks whether the advice is correct and what an
-    error would cost. We argue for an outcome standard, calibrated reliance, under which four actions (adopt, verify, reject, and escalate to
-    professional care) are judged jointly against advice correctness and the cost of error. Drawing on trust calibration, automation bias, algorithm
-    aversion, advice taking, and heuristic models of credibility, we read a purposive set of human-participant studies against this standard. The
-    studies show both reliance errors. Identical advice is discounted when labeled as AI-generated, which is consistent with underreliance.
-    Low-accuracy AI responses are rated and followed much like physicians' responses, and lay users assisted by large language models choose care
-    dispositions no better than controls, which is consistent with overreliance. Both patterns suggest that lay reliance responds to source and
-    fluency cues more than to correctness. Interventions that require users to act, such as verification affordances, cognitive forcing, and expressed
-    uncertainty, show more promise than passive labels, but no study has yet manipulated correctness and graded clinical risk together while observing
-    verification and escalation. We state five propositions with their evidential status, operational definitions, and a factorial design that would
-    test them.
-
-### R00685 | 2026 | article/None | Lang: en
-TI: The Friction-Performance Paradox: How Procedural Ease Degrades Decision Quality in Generative AI
-AB: Generative AI systems, especially large language models, increasingly act as decision interfaces delivering fluent recommendations and rationales.
-    Yet fluency can mask uncertainty, and reliability is jagged across tasks, so users cannot infer correctness from interface smoothness. We theorize
-    the Friction-Performance Paradox: design choices that minimize procedural friction raise perceived usability while amplifying decision-quality
-    degradation when outputs are flawed, by inflating perceived accuracy, suppressing uncertainty salience, and promoting overreliance. We distinguish
-    procedural friction from epistemic friction, defined as cues that make contestability and checking needs salient at the moment of reliance.
-    Building on paradox theory and mechanism-based explanation, we specify a multi-stage nomological network linking friction to calibration,
-    verification, and downstream outcomes, with boundaries on task verifiability and temporal habituation. A pilot (N=38) confirms detectability
-    across all predicted directions. We conclude with falsifiable propositions and a planned 2×2 experiment manipulating procedural and epistemic
-    friction.
-
-### R00686 | 2026 | article/None | Lang: en
-TI: From assistants to auditors: opportunities and challenges of using general-purpose AI for auditing responsible AI systems
-AB: The rapid evolution of General-Purpose Artificial Intelligence Systems (GPAIS) has introduced new capabilities and significant governance
-    challenges. As regulations impose stringent transparency, accountability and auditability requirements, evaluating responsible AI systems –namely,
-    AI systems with built-in auditability and accountability mechanisms that support their lawful and ethical operation– becomes increasingly complex
-    and resource-intensive. This paper examines GPAIS as enablers of scalable, evidence-based auditing of such systems, while recognising that their
-    own risks and limitations constrain their suitability as auditors. Our primary contribution is GRAAF, a structured framework for integrating GPAIS
-    into responsible AI evaluation pipelines, conceptualised as a multi-level fusion problem spanning data, models, agents, and audit judgements, and
-    formalised through reliability-, disagreement- and uncertainty-aware fusion operators. GRAAF progresses from GPAIS as assistants to human auditors
-    towards semi- and fully automated auditing agents. Through a taxonomy of use cases, operational metrics, and governance safeguards, we show how
-    GPAIS can augment explanation generation, bias detection, robustness testing, and compliance monitoring. We also address risks of overreliance,
-    adversarial manipulation, and audit capture, proposing mitigation strategies and a roadmap for safe adoption. We further instantiate GRAAF in a
-    clinical triage drift-monitoring case study, in which a Large Language Model (LLM) auditor, meta-audited against deterministic reference rules,
-    met all predefined success criteria while exhibiting limitations that preclude autonomous certification. Scalable AI auditing thus hinges on
-    fusing heterogeneous evidence, multi-agent reasoning, and multimodal signals, with GPAIS as orchestrators; within layered oversight architectures,
-    this fusion can make auditing more trustworthy and scalable without compromising human accountability.
-
-### R00687 | 2026 | article/None | Lang: en
-TI: How conversational AI shapes green purchase intention: an S–O-R perspective from an emerging market
-AB: This study investigates how the quality of AI-Chatbot conversations during online-shopping encourages consumer to choose eco-friendly products in
-    an emerging market. Using the Stimulus-Organism-Response (S-O-R) framework, it measures whether perceived usefulness, trust, satisfaction, and
-    perceived risk explain this relationship. The data were collected from 547 active chatbot users in Nepal, which was then analysed using SmartPLS
-    V4. The results highlight that high-quality chatbot interactions enhance users’ perception of usefulness, satisfaction and trust, while
-    simultaneously lowering risk. The model explains 58.4% of the variance in green purchase intention. Among them, organismic-factors, perceived risk
-    emerges as strongest inhibitor of sustainable purchasing, while trust and usefulness positively support green purchase intention; however,
-    satisfaction directly doesn’t influence it. The results indicate that humanizing AI-Chatbots is mainly about making them more reliable and
-    transparent, so that it reduces uncertainty, supports decision making, and builds confidence in green choices, allowing users to feel assured when
-    following their suggestions and become more willing to choose sustainable-products. The study provides evidence from Nepal and offers a careful
-    understanding of how chatbot quality shapes sustainable purchase intention in an emerging-market setting.
-
-### R00688 | 2026 | article/None | Lang: en
-TI: How conversational AI shapes green purchase intention: an S–O-R perspective from an emerging market
-AB: This study investigates how the quality of AI-Chatbot conversations during online-shopping encourages consumer to choose eco-friendly products in
-    an emerging market. Using the Stimulus-Organism-Response (S-O-R) framework, it measures whether perceived usefulness, trust, satisfaction, and
-    perceived risk explain this relationship. The data were collected from 547 active chatbot users in Nepal, which was then analysed using SmartPLS
-    V4. The results highlight that high-quality chatbot interactions enhance users’ perception of usefulness, satisfaction and trust, while
-    simultaneously lowering risk. The model explains 58.4% of the variance in green purchase intention. Among them, organismic-factors, perceived risk
-    emerges as strongest inhibitor of sustainable purchasing, while trust and usefulness positively support green purchase intention; however,
-    satisfaction directly doesn’t influence it. The results indicate that humanizing AI-Chatbots is mainly about making them more reliable and
-    transparent, so that it reduces uncertainty, supports decision making, and builds confidence in green choices, allowing users to feel assured when
-    following their suggestions and become more willing to choose sustainable-products. The study provides evidence from Nepal and offers a careful
-    understanding of how chatbot quality shapes sustainable purchase intention in an emerging-market setting.
-
-### R00689 | 2026 | article/None | Lang: en
-TI: Agentic AI Systems: A Review of Multi-Agent Reasoning, Trust, Orchestration, and Autonomous Data Science
-AB: Agentic artificial intelligence (AI) — systems of autonomous, goal-directed software agents that plan, act, and coordinate with reduced human
-    oversight — is moving from research prototypes toward applied data-science, perception, and decision-support pipelines. Yet the literature remains
-    fragmented across largely disconnected strands: trust-aware orchestration of multimodal agents for visual classification, human adoption of
-    autonomous AI agents, automated machine-learning (AutoML) pipelines for tabular data, and fully autonomous multi-agent systems for end-to-end data
-    engineering. This review synthesizes four recent studies spanning these strands, together with the broader literature on multi-agent
-    orchestration, retrieval-augmented generation (RAG), large-language-model (LLM)-based knowledge-graph construction, and explainable AI, to build a
-    unified picture of agentic AI as applied to intelligent data science. We propose a four-part taxonomy — perception-level trust orchestration,
-    human adoption of agentic systems, automated feature/model pipelines, and autonomous data-engineering agents — and compare the reviewed studies on
-    automation level, reasoning mechanism, knowledge representation, retrieval use, trust treatment, and evaluation methodology. The synthesis shows
-    that individual components of an agentic data-science stack (confidence calibration, retrieval-grounded re-evaluation, automated feature
-    synthesis, autonomous pipeline repair) have each demonstrated measurable gains in isolation, but no reviewed system couples them with a
-    persistent, multimodal knowledge-graph layer, and adoption research indicates that user trust is not the dominant driver of usage intention — a
-    finding with direct design implications. We identify recurring gaps in provenance, explainability, benchmark standardization, and graph-grounded
-    reasoning, and outline an integrated conceptual framework for the reviewed research landscape, positioning closer integration of agentic data
-    science with knowledge-graph representation as an open research trajectory rather than a solved problem.
-
-### R00690 | 2026 | article/None | Lang: en
-TI: The Language of Artificial Intelligence: How Linguistic Framing in AI Systems Influences Business Decision-Making and Performance Outcomes
-AB: This study investigates the influence of linguistic framing in AI-generated outputs on human decision-making within business contexts, employing a
-    mixed-methods experimental design. Quantitative results revealed that framing polarity significantly affects choice consistency, risk preference,
-    and decision accuracy, with positive framing yielding higher consistency and confidence calibration scores. Lexical certainty was positively
-    correlated with perceived credibility and trust ratings, while explanatory depth enhanced interpretability and user confidence. Response times
-    increased under complex framing, indicating cognitive load sensitivity. Qualitative analysis further illuminated how tone and syntactic structure
-    shaped perceptions of AI reliability, with emotionally charged or ambiguous framing introducing interpretive bias. Hybrid visualizations confirmed
-    that framing polarity and lexical features jointly modulate decision outcomes, underscoring the persuasive power of language in AI systems. These
-    findings highlight the necessity for transparent prompt engineering and robust validation frameworks to mitigate hallucinations and bias in
-    AI-assisted decision-making. The study concludes that linguistic framing is not merely a stylistic feature but a strategic variable that can
-    significantly alter business judgments, emphasizing the need for ethical oversight and human interpretive awareness in deploying large language
-    models for high-stakes analytical tasks. Keywords : linguistic framing, AI decision-making, lexical certainty, interpretive bias, trust
-    calibration, framing polarity.
-
-### R00691 | 2026 | article/None | Lang: en
-TI: Beyond fluency: A systematic review of AI-mediated language learning and intercultural competence in higher education
-AB: AI-mediated language learning is increasingly used in higher education, yet its contribution to intercultural competence remains insufficiently
-    synthesised. This systematic review examines how AI-mediated technologies and pedagogical designs have been used, which intercultural outcomes
-    have been reported and assessed, and what conditions shape their contribution. Following PRISMA 2020, Scopus, Web of Science Core Collection, and
-    ERIC were searched for peer-reviewed English-language journal articles published from January 2023 to July 2026. From 180 records, 25 primary
-    empirical studies met the eligibility criteria and were examined through narrative thematic synthesis. ChatGPT, large language models, and
-    conversational agents were the dominant technologies, but technology type alone did not determine outcomes. Clearer intercultural development was
-    reported when AI was embedded in culturally contextualised simulations, reflective or metacognitive scaffolding, collaborative exchange, and
-    authentic human interaction. Reported outcomes covered cognitive, affective, and behavioural dimensions, although evidence was more consistent for
-    cultural awareness, perspective recognition, openness, confidence, and willingness to communicate than for sustained pragmatic or behavioural
-    transfer. Assessment approaches varied considerably and frequently relied on self-reported measures. AI offered accessible practice, immediate
-    feedback, and cultural inquiry, but cultural simplification, bias, overreliance, unequal access, and limited interactional repair constrained its
-    value. AI is therefore best understood as an intercultural learning scaffold rather than a cultural authority or substitute for human interaction.
-    Explicit intercultural objectives, critical verification, human mediation, and performance-based assessment are needed to move language learning
-    beyond fluency.
-
-### R00692 | 2025 | article/None | Lang: en
-TI: Human-Understandable Representations for Complex AI Decisions
-AB: Complex AI decision systems -- encompassing deep neural networks, large language models, and ensemble architectures -- produce outputs of
-    considerable practical consequence yet generate internal representations that are fundamentally inaccessible to human cognition in their raw form.
-    Human- understandable representations (HURs) are structured reformulations of model-internal information designed to align with human cognitive
-    schemas, domain knowledge, and explanation needs, enabling meaningful human oversight and accountability for AI-assisted decisions. Despite
-    extensive research on explainability methods, the systematic design of HURs -- as distinct from the application of generic attribution techniques
-    -- has received limited attention. This paper proposes a HUR design framework comprising four representation classes (contrastive, causal,
-    conceptual, and narrative) and evaluates their cognitive effectiveness through a user study involving 186 participants across three professional
-    domains: clinical medicine (n = 62), financial advising (n = 62), and legal practice (n = 62). Participants assessed AI decisions with and without
-    HURs across four cognitive effectiveness dimensions: comprehension accuracy, decision confidence calibration, appropriate reliance, and perceived
-    fairness. Results demonstrate that HUR-supported conditions achieve a 41.8% improvement in comprehension accuracy (SD = 6.2%), a 33.5% improvement
-    in decision confidence calibration (SD = 5.4%), and a 27.6% improvement in appropriate reliance (SD = 4.9%) relative to no-HUR controls.
-    Representation class effectiveness is domain-dependent: contrastive HURs are most effective in legal contexts, causal HURs in clinical contexts,
-    and conceptual HURs in financial contexts. The study contributes the HUR design framework, domain-specific design guidelines, and a validated HUR
-    evaluation instrument.
-
-### R00693 | 2025 | article/None | Lang: en
-TI: HOW AI “LIKE CHAT GPT” IS CHANGING THE WAY PEOPLE WRITE AND LEARN ENGLISH.
-AB: This article explores how Artificial Intelligence (AI), particularly tools like ChatGPT, is transforming the ways people write and learn English.
-    It examines how AI-powered language models assist learners in improving grammar, vocabulary, and fluency, while also enhancing creativity and
-    confidence in writing. The study discusses the advantages of using AI as a personalized tutor, editor, and conversation partner, as well as
-    potential challenges such as overreliance and accuracy issues. By analyzing both educational and technological perspectives, the article
-    highlights how AI is reshaping English language learning and writing practices in academic, professional, and everyday contexts.
-
-### R00694 | 2025 | preprint/None | Lang: en
-TI: A Hypothetico-Deductive Approach towards Human-AI Interaction: Conjectures, Refutations, and Design Implications
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00695 | 2026 | article/None | Lang: en
-TI: use of AI-powered writing tools in EFL academic writing in Indonesia: A meta-synthesis review
-AB: In the context of globalized education, proficiency in standardized English writing is essential. However, many students encounter challenges,
-    such as native language interference, inadequate linguistic proficiency, and negative perceptions of writing. This paper delves into AI writing
-    tools, including Large Language Models, Digital Writing Assistants, Automated Paraphrasing Tools, and Machine Translators. This study provides a
-    systematic review of qualitative research exploring the use of AI-powered writing tools in academic writing within the Indonesian context. Fifteen
-    studies that matched the inclusion criteria were included. Qualitative data were extracted, analysed, and aggregated using meta-synthesis. To
-    analyze data, the researcher employed thematic analysis. The synthesis reveals that existing research reported favorable perceptions of AI writing
-    tools among teachers and students. They acknowledged positive impacts of the tools on the writing process and outcomes through the support of
-    real-time feedback. Nevertheless, concerns about overreliance and academic integrity were notable. In terms of impact, the reviewed research
-    indicated that these tools assisted students in improving their writing skills, enhancing the overall writing quality, and boosting writing
-    confidence. This review concludes with recommendations for AI literacy training and institutional guidance to achieve effective integration. The
-    findings further enrich the current discussion on the transformative role of AI tools in EFL academic writing and its implications for educational
-    policy and practice.
-
-### R00696 | 2026 | article/None | Lang: en
-TI: Explainability and Trust in Generative AI–Driven Customer Workflows: Methods for Responsible Enterprise Adoption
-AB: Generative artificial intelligence is increasingly embedded within enterprise customer relationship management workflows to automate
-    communication, summarize interaction histories, and support consequential business decisions. While these capabilities deliver substantial
-    productivity benefits, the opaque reasoning processes of large language models introduce significant risks related to trust, accountability, and
-    regulatory compliance in high-stakes operational contexts such as sales forecasting, customer support, and contractual negotiations. Existing
-    explainable AI literature has concentrated predominantly on predictive systems, leaving a methodological gap for organizations seeking to deploy
-    generative AI responsibly in business-critical environments. This article proposes a comprehensive framework for explainability and trust in
-    generative AI–driven enterprise customer workflows, introducing multi-level technical mechanisms including prompt lineage tracking, decision
-    rationale generation, confidence scoring, and human-verifiable evidence extraction to render generative outputs auditable and interpretable at
-    operational scale. A risk-stratified trust taxonomy is developed to classify workflow actions by consequence severity and required oversight,
-    enabling adaptive human-in-the-loop intervention proportionate to operational risk. The framework further incorporates bias monitoring,
-    hallucination detection, and immutable audit logging to support ethical and compliant operations within enterprise software infrastructure.
-    Integration is demonstrated within a Salesforce-based CRM environment through a secure model gateway and policy enforcement architecture.
-    Experimental deployment in an enterprise customer service context confirms that explanation provision improves user trust calibration, reduces
-    escalation frequency, and decreases response rework compared to opaque automation conditions. Compliance maintenance is validated through
-    traceable execution records satisfying enterprise data governance audit requirements. The article establishes one of the earliest systematic
-    treatments of explainability designed specifically for generative AI in enterprise software, offering actionable technical and governance guidance
-    for organizations pursuing trustworthy automation in consequential customer workflow contexts. Future directions address framework scalability,
-    cross-platform generalization, and alignment with evolving regulatory compliance obligations under instruments including the EU AI Act.
-
-### R00697 | 2026 | article/None | Lang: en
-TI: Explainability and Trust in Generative AI–Driven Customer Workflows: Methods for Responsible Enterprise Adoption
-AB: Generative artificial intelligence is increasingly embedded within enterprise customer relationship management workflows to automate
-    communication, summarize interaction histories, and support consequential business decisions. While these capabilities deliver substantial
-    productivity benefits, the opaque reasoning processes of large language models introduce significant risks related to trust, accountability, and
-    regulatory compliance in high-stakes operational contexts such as sales forecasting, customer support, and contractual negotiations. Existing
-    explainable AI literature has concentrated predominantly on predictive systems, leaving a methodological gap for organizations seeking to deploy
-    generative AI responsibly in business-critical environments. This article proposes a comprehensive framework for explainability and trust in
-    generative AI–driven enterprise customer workflows, introducing multi-level technical mechanisms including prompt lineage tracking, decision
-    rationale generation, confidence scoring, and human-verifiable evidence extraction to render generative outputs auditable and interpretable at
-    operational scale. A risk-stratified trust taxonomy is developed to classify workflow actions by consequence severity and required oversight,
-    enabling adaptive human-in-the-loop intervention proportionate to operational risk. The framework further incorporates bias monitoring,
-    hallucination detection, and immutable audit logging to support ethical and compliant operations within enterprise software infrastructure.
-    Integration is demonstrated within a Salesforce-based CRM environment through a secure model gateway and policy enforcement architecture.
-    Experimental deployment in an enterprise customer service context confirms that explanation provision improves user trust calibration, reduces
-    escalation frequency, and decreases response rework compared to opaque automation conditions. Compliance maintenance is validated through
-    traceable execution records satisfying enterprise data governance audit requirements. The article establishes one of the earliest systematic
-    treatments of explainability designed specifically for generative AI in enterprise software, offering actionable technical and governance guidance
-    for organizations pursuing trustworthy automation in consequential customer workflow contexts. Future directions address framework scalability,
-    cross-platform generalization, and alignment with evolving regulatory compliance obligations under instruments including the EU AI Act.
-
-### R00698 | 2026 | article/None | Lang: en
-TI: AI and the transformation of clinical reasoning: A classroom perspective
-AB: Artificial intelligence (AI) is rapidly changing how medicine is taught and learned.Evidences show that AI can support problem-based learning
-    (PBL) and case-based learning (CBL), improving knowledge acquisition by up to 46%, increasing learner satisfaction, and enhancing clinical
-    reasoning and clinical competence when integrated into interactive learning environments with real-time feedback [1,2].AIintegrated training
-    programs have demonstrated superior learning performance [3].Tools such as virtual patient simulations and real-time feedback systems not only
-    enhance diagnostic reasoning but also facilitate self-directed learning by providing immediate, adaptive feedback and personalize the learning
-    experience [3,4].Moreover, AI supports curriculum innovation through automated assessment and data analytics, enabling medical students to better
-    adapt to the demands of modern healthcare systems [3,4].Yet, in the reality of classrooms, a quieter disruption is unfolding.Medical education
-    relies on multiple complementary approaches-including simulation-based training, team-based learning (TBL), bedside teaching, and CBL-all of which
-    are potentially vulnerable to uncritical AI use.In CBL sessions, medical students increasingly turn to large language models (LLMs) to answer
-    guiding questions, raising concerns about reduced engagement in clinical reasoning processes despite improvements in efficiency and short-term
-    performance [1,2].In TBL, reliance on AI-generated answers may diminish peer discussion, accountability, and collective problem-solving,
-    potentially leading to reduced cognitive engagement and increased overreliance in AI-assisted learning environments [5,6].In simulation-based
-    training, AI-supported systems can enhance realism and efficiency, but their impact on deeper clinical reasoning and independent decision-making
-    remains uncertain, particularly in terms of long-term retention and transfer to real clinical practice [3].Even in bedside teaching,
-    overdependence on AI tools may shift attention away from direct patient interaction and clinical observation, potentially weakening experiential
-    learning and independent clinical judgment.Across these educational contexts, processes intended to stimulate active reasoning and engagement risk
-    being reduced to the passive reproduction of AI-generated responses.From an educational perspective, this shift may threaten the development of
-    clinical reasoning in classroom settings, where learning is meant to occur through dialogue, uncertainty, and active cognitive engagement.
-
-### R00699 | 2026 | preprint/None | Lang: en
-TI: The MIRROR Model: Multi-Model Iterative Reflection, Review, Oversight, and Reconciliation A Human-Supervised Protocol for Transparent,
-    Evidence-Grounded Knowledge Work
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00700 | 2025 | preprint/None | Lang: en
-TI: Reliable Cardiovascular Question Answering with Validated Knowledge Graphs and Multi-Model Embeddings (Preprint)
-AB: BACKGROUND Artificial Intelligence (AI)-powered medical question-answering systems significantly improve access to reliable healthcare
-    information, yet challenges remain, particularly hallucinations in large language models (LLMs), where AI produces misleading or fabricated
-    content. These risks are especially critical in clinical contexts. Ensuring accuracy and trustworthiness requires validated, domain-specific
-    datasets and robust semantic alignment. OBJECTIVE This study aims to develop and evaluate an AI-driven question-answering system for
-    cardiovascular diseases using a validated dataset, knowledge graph and advanced semantic models to improve the accuracy, interpretability and
-    trustworthiness of responses. Each answer’s reliability is demonstrated and supported by the source of the information, a reliability rating based
-    on the CRAAP method, relevant references and disease-related images to support transparency and user trust. METHODS We have curated a dataset from
-    trusted medical sources (Mayo Clinic, Cleveland Clinic, NHS, British Heart Foundation, MedlinePlus), validated using the CRAAP method. The data is
-    structured into a knowledge graph via an automated pipeline. Semantic matching is performed using PubMedBERT, BioBERT and Sentence Transformer,
-    while a T5-based model is employed to rephrase low-confidence queries for improved alignment. RESULTS The system is evaluated using 100 queries
-    across five categories: straightforward, complex (long queries), general spelling mistakes, misspelled disease names, and out-of-data queries. It
-    demonstrates high accuracy for straightforward (99.64 ± 1.6%), complex (98.78 ± 2.68%), and general spelling mistake queries (99.1 ± 2.79%).
-    Accuracy declines with misspelled disease names (54.56 ± 50.67%) due to limitations in correcting domain-specific errors. For out-of-data queries
-    (11.99 ± 29.28%), the system refrains from speculative outputs and transparently indicates when no satisfactory answer is available. CONCLUSIONS
-    This study demonstrates the successful development of a trustworthy and accurate AI-driven question-answering system for cardiovascular medicine.
-    By integrating a validated knowledge graph, multi-model language embeddings and a T5-based paraphrasing model, the system delivers contextually
-    appropriate responses supported by source ratings, references and medical images. While performance is strong across most query types, challenges
-    with misspelled disease names and multi-intent queries remain. Future work will address these limitations through spelling correction, query
-    segmentation and expansion to additional disease domains.
-
-### R00701 | 2026 | article/None | Lang: en
-TI: textbfTrust and Explainability in AI-Assisted Investment Decisions:A Framework for Responsible Deployment
-AB: As LLM-based investment agents approach parity with human analysts, the question of trust becomes paramount. Investors, regulators, and the public
-    must decide when and how to trust AI-generated investment recommendations. This paper develops a framework for trust and explainability in
-    AI-assisted investment decisions, grounded in three pillars: (1) decision provenance---the auditable chain of reasoning from data to
-    recommendation; (2) uncertainty communication---explicit characterization of what the AI knows it doesn't know; and (3) appropriate trust
-    calibration---designing systems that help users develop accurate mental models of AI reliability. Drawing on the DeepFund live evaluation
-    framework for evidence on LLM investment performance and chain-of-thought reasoning methods, we analyze h
-
-### R00702 | 2026 | article/None | Lang: en
-TI: Intelligent assembly support systems for human-centric manufacturing: A survey
-AB: This survey provides a structured analysis of intelligent assembly support systems, examining how these systems perceive tasks, reason about
-    assembly processes, generate support actions, and interact with human operators in complex industrial environments. A systematic literature review
-    of 184 publications from 2015 to 2026 was conducted, combining thematic analysis with bibliometric and temporal analyses to identify research
-    trends, technological developments, and persistent challenges across perception, reasoning, interaction, and deployment. The analysis is
-    structured around three perspectives: perception and task understanding under uncertain industrial conditions, adaptive support for heterogeneous
-    workers, and emerging technologies with implications for industrial deployment. The review reveals that current systems remain predominantly
-    focused on vision-based perception, action recognition, and predefined support strategies, with limited consideration of perception uncertainty
-    arising from visual ambiguity and environmental changes, variations in human assembly behaviour, and diverse worker capabilities and support
-    needs. By synthesising fragmented research streams across technical, human, and deployment perspectives, this survey identifies a fundamental
-    transition from recognition-oriented support tools towards uncertainty-aware decision-support systems that enable adaptive human–AI collaboration.
-    Key challenges include robust perception under environmental and visual variability, adaptive support for heterogeneous workers, trustworthy
-    integration of emerging technologies, such as large language models and human-centric digital twins, and practical requirements for industrial
-    deployment. This review establishes a broader perspective for evaluating intelligent assembly support systems, proposing that future progress
-    should be assessed not only through technical performance but also through adaptability, trust calibration, human autonomy, and long-term
-    operational viability. The findings provide a roadmap for Industry 5.0 assembly environments in which intelligent systems augment rather than
-    replace human expertise.
-
-### R00703 | 2026 | article/None | Lang: en
-TI: Collective Cognitive Circuit: A Multi-Layered Distributed AI Architecture with Resource-Based Selection, Probabilistic World Map, and External
-    Verification
-AB: This paper proposes the Collective Cognitive Circuit — a multi-layered distributed AI architecture designed to address fundamental limitations of
-    current large language models, including catastrophic forgetting, absence of long-term memory, self-contamination during self-learning, and
-    inability to distinguish truth from plausibility. The central thesis is that strong-form intelligence does not emerge within a single
-    computational node but within a system of interacting specialized agents with role separation, hypothesis competition, and external verification —
-    analogous to how collective human knowledge production operates through science. The architecture introduces several interconnected mechanisms:
-    (1) a hierarchy of semantic processing layers from raw data to abstract hypotheses; (2) multiple specialized agents (extractor, analyst,
-    hypothesizer, critic, synthesizer) operating at different abstraction levels; (3) a resource-based cost of error where agents that perform poorly
-    lose compute, context depth, and priority through natural allocation by demonstrated utility; (4) a probabilistic world map storing not assertions
-    of truth but confidence weights, verification history, and applicability conditions; (5) the human as a trusted interface with reality — a sensor
-    providing authentic signals, not a judge of correctness; (6) bilateral trust calibration where the system signals when operating outside its
-    verified competence zone; (7) verification as a scarce resource creating pressure toward compact testable predictions and experimental design. The
-    proposal also discusses feasibility at the current technology level, key risks including self-contamination, Goodhart's Law effects, and
-    suppression of exploratory agents, and recommends a minimal viable implementation path.
-
-=== END OF BATCH b015 (42 records) ===
+=== END OF BATCH b015 (31 records) ===

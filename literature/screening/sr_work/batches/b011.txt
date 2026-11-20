@@ -1,706 +1,650 @@
-BATCH b011 -- 38 records: R00501 .. R00538
+BATCH b011 -- 50 records: R00430 .. R00481
 
-### R00501 | 2025 | preprint | Lang: n/a
-TI: InnovatorBench: Evaluating Agents' Ability to Conduct Innovative LLM Research
-AB: AI agents could accelerate scientific discovery by automating hypothesis formation, experiment design, coding, execution, and analysis, yet
-    existing benchmarks probe narrow skills in simplified settings. To address this gap, we introduce InnovatorBench, a benchmark-platform pair for
-    realistic, end-to-end assessment of agents performing Large Language Model (LLM) research. It comprises 20 tasks spanning Data Construction,
-    Filtering, Augmentation, Loss Design, Reward Design, and Scaffold Construction, which require runnable artifacts and assessment of correctness,
-    performance, output quality, and uncertainty. To support agent operation, we develop ResearchGym, a research environment offering rich action
-    spaces, distributed and long-horizon execution, asynchronous monitoring, and snapshot saving. We also implement a lightweight ReAct agent that
-    couples explicit reasoning with executable planning using frontier models such as Claude-4, GPT-5, GLM-4.5, and Kimi-K2. Our experiments
-    demonstrate that while frontier models show promise in code-driven research tasks, they struggle with fragile algorithm-related tasks and
-    long-horizon decision making, such as impatience, poor resource management, and overreliance on template-based reasoning. Furthermore, agents
-    require over 11 hours to achieve their best performance on InnovatorBench, underscoring the benchmark's difficulty and showing the potential of
-    InnovatorBench to be the next generation of code-based research benchmark.
+### R00430 | 2026 | article/None | Lang: en
+TI: A SURVEY OF HALLUCINATION MITIGATION STRATEGIES IN LARGE LANGUAGE MODELS: FROM DECODING-TIME FIXES TO AGENTIC RETRIEVAL AND VERIFICATION
+AB: Hallucination – the generation of fluent but factually unsupported or fabricated content – remains one of the most persistent obstacles to
+    deploying Large Language Models (LLMs) in high-stakes domains such as healthcare, finance, and law. A wide range of mitigation strategies has been
+    proposed, spanning several distinct points of intervention: constraining or calibrating the decoding process itself, fine-tuning or aligning
+    models to prefer grounded outputs, augmenting generation with external retrieval, and verifying or correcting outputs after they are produced.
+    This paper surveys hallucination mitigation across these four intervention points rather than focusing narrowly on any single pipeline. We discuss
+    the underlying causes of hallucination identified in prior work, review representative techniques at each intervention point – including
+    confidence based decoding constraints, instruction-tuning for faithfulness, hybrid sparse-dense retrieval with rank fusion, cross-encoder
+    re-ranking, and Natural Language Inference (NLI)-based claim verification within agentic architectures – and compare the costs and guarantees each
+    category offers. We further examine evaluation practices and benchmarks used to measure hallucination and identify a set of open problems,
+    including the absence of standardized crosscategory benchmarks, the tension between validation strictness and unnecessary refusal, and the limited
+    maturity of hallucination mitigation for multi-hop and cross document reasoning. We conclude with directions for future work that combines
+    lightweight decoding-time safeguards with heavier, verification-based agentic pipelines depending on application risk.
 
-### R00502 | 2025 | preprint | Lang: n/a
-TI: Critical or Compliant? The Double-Edged Sword of Reasoning in Chain-of-Thought Explanations
-AB: Explanations are often promoted as tools for transparency, but they can also foster confirmation bias; users may assume reasoning is correct
-    whenever outputs appear acceptable. We study this double-edged role of Chain-of-Thought (CoT) explanations in multimodal moral scenarios by
-    systematically perturbing reasoning chains and manipulating delivery tones. Specifically, we analyze reasoning errors in vision language models
-    (VLMs) and how they impact user trust and the ability to detect errors. Our findings reveal two key effects: (1) users often equate trust with
-    outcome agreement, sustaining reliance even when reasoning is flawed, and (2) the confident tone suppresses error detection while maintaining
-    reliance, showing that delivery styles can override correctness. These results highlight how CoT explanations can simultaneously clarify and
-    mislead, underscoring the need for NLP systems to provide explanations that encourage scrutiny and critical thinking rather than blind trust. All
-    code will be released publicly.
+### R00431 | 2026 | article/None | Lang: en
+TI: Bayesian calibration for banking financial predictions using large language models: A study on the Vietnamese market
+AB: Financial predictions from large language models (LLMs) typically lack uncertainty quantification, rendering point estimates unreliable for
+    investment decision-making. This study proposes a Bayesian calibration framework to improve the reliability of LLM predictions for the Vietnamese
+    banking sector. The methodology comprises three models: (1) beta-binomial for direction calibration, (2) Bayesian linear regression for value
+    calibration, and (3) a hierarchical model for five commercial banks (VCB, BID, CTG, MBB, and TCB). The data include financial reports and stock
+    prices from 2019–2023. The results show that the hierarchical model (Eq. 3) achieved the lowest expected calibration error (ECE = 0.22), a 45%
+    improvement over the raw LLM predictions (ECE = 0.40) on a five-bank-year (N=5) test partition, with continuous ranked probability score (CRPS) =
+    0.113. Priors follow weakly informative specifications: α ∼ N(0, 10), β ∼ N(1, 5) centered at the unit slope, σ ∼ HalfNormal(1), with hierarchical
+    hyperpriors τ_α, τ_β ∼ HalfNormal(5). Posterior inference uses the no-U-turn sampler with 2,000 draws across 4 chains and 1,000 tuning steps;
+    convergence is monitored at R̂ < 1.01 and ESS > 400. The hierarchical model borrows statistical strength across banks via partial pooling, a
+    property well suited to small-sample emerging-market settings where each institution yields only five annual observations. Practical implications:
+    Investors receive calibrated probability ranges rather than overconfident point forecasts, enabling defensible portfolio allocation under
+    uncertainty. Methodological implications: Partial-pooling hierarchies can be routinely applied to sparse financial time series. Theoretical
+    implications: To our knowledge, this is the first empirical evidence that Bayesian calibration materially improves LLM forecast reliability in an
+    emerging market. We transparently report Eq. 2 convergence failure (R̂ = 4.1) as a sample-size caution. This research contributes to the first
+    Bayesian calibration framework for LLM financial predictions in Vietnam, providing credible intervals instead of point estimates. Because the
+    GPT-4o-mini knowledge cutoff overlaps the 2023 test year, the reported 45% gain should be read as an optimistic upper bound, pending evaluation on
+    a fully out-of-cutoff horizon.
 
-### R00503 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Advances in LLM Reasoning Enable Flexibility in Clinical Problem-Solving
-AB: Large Language Models (LLMs) have achieved high accuracy on medical question-answer (QA) benchmarks, yet their capacity for flexible clinical
-    reasoning has been debated. Here, we asked whether advances in reasoning LLMs improve their cognitive flexibility in clinical reasoning. We
-    assessed reasoning models from the OpenAI, Grok, Gemini, Claude, and DeepSeek families on the medicine abstraction and reasoning corpus (mARC), an
-    adversarial medical QA benchmark which utilizes the Einstellung effect to induce inflexible overreliance on learned heuristic patterns in contexts
-    where they become suboptimal. We found that strong reasoning models avoided Einstellung-based traps more often than weaker reasoning models,
-    achieving human-level performance on mARC: physician average accuracy was 66% [95% CI: 56-76%] and the top performing model was Claude with 75%
-    accuracy [95% CI: 74-76%]. On questions most commonly missed by physicians, the top 5 performing models answered 50% to 70% correctly with high
-    confidence, indicating that these models may be less susceptible than humans to Einstellung effects. Our results indicate that strong reasoning
-    models demonstrate improved flexibility in medical reasoning, achieving performance on par with humans on mARC.
+### R00432 | 2026 | article/None | Lang: en
+TI: Quantifying Uncertainty: A New Era of Measurement through Large Language Models
+AB: We measure uncertainty with large language models (LLMs), classifying 1.2 million Wall Street Journal articles from 1998 to mid-2025. The
+    resulting indices cover economic policy, geopolitical risk, monetary policy, and financial market uncertainty. Validated against human-coded
+    labels, they track human perception more closely than Bag-of-Words (BoW) benchmarks. They also capture articles that human readers judge to
+    describe decreasing uncertainty, a category BoW methods cannot represent. For economic activity and flight-to-safety mutual fund flows, the
+    indices carry explanatory power beyond existing measures. In an asset pricing application, they identify the source of volatility news.
 
-### R00504 | 2026 | preprint | Lang: n/a
-TI: Seeing the Reasoning: How LLM Rationales Influence User Trust and Decision-Making in Factual Verification Tasks
-AB: Large Language Models (LLMs) increasingly show reasoning rationales alongside their answers, turning "reasoning" into a user-interface element.
-    While step-by-step rationales are typically associated with model performance, how they influence users' trust and decision-making in factual
-    verification tasks remains unclear. We ran an online study (N=68) manipulating three properties of LLM reasoning rationales: presentation format
-    (instant vs. delayed vs. on-demand), correctness (correct vs. incorrect), and certainty framing (none vs. certain vs. uncertain). We found that
-    correct rationales and certainty cues increased trust, decision confidence, and AI advice adoption, whereas uncertainty cues reduced them.
-    Presentation format did not have a significant effect, suggesting users were less sensitive to how reasoning was revealed than to its reliability.
-    Participants indicated they use rationales to primarily audit outputs and calibrate trust, where they expected rationales in stepwise, adaptive
-    forms with certainty indicators. Our work shows that user-facing rationales, if poorly designed, can both support decision-making yet miscalibrate
-    trust.
-
-### R00505 | 2026 | preprint | Lang: n/a
-TI: Overreliance on AI in Information-seeking from Video Content
-AB: The ubiquity of multimedia content is reshaping online information spaces, particularly in social media environments. At the same time, search is
-    being rapidly transformed by generative AI, with large language models (LLMs) routinely deployed as intermediaries between users and multimedia
-    content to retrieve and summarize information. Despite their growing influence, the impact of LLM inaccuracies and potential vulnerabilities on
-    multimedia information-seeking tasks remains largely unexplored. We investigate how generative AI affects accuracy, efficiency, and confidence in
-    information retrieval from videos. We conduct an experiment with around 900 participants on 8,000+ video-based information-seeking tasks,
-    comparing behavior across three conditions: (1) access to videos only, (2) access to videos with LLM-based AI assistance, and (3) access to videos
-    with a deceiving AI assistant designed to provide false answers. We find that AI assistance increases accuracy by 3-7% when participants viewed
-    the relevant video segment, and by 27-35% when they did not. Efficiency increases by 10% for short videos and 25% for longer ones. However,
-    participants tend to over-rely on AI outputs, resulting in accuracy drops of up to 32% when interacting with the deceiving AI. Alarmingly,
-    self-reported confidence in answers remains stable across all three conditions. Our findings expose fundamental safety risks in AI-mediated video
-    information retrieval.
-
-### R00506 | 2026 | preprint | Lang: n/a
-TI: When to Trust Tools? Adaptive Tool Trust Calibration For Tool-Integrated Math Reasoning
-AB: Large reasoning models (LRMs) have achieved strong performance enhancement through scaling test time computation, but due to the inherent
-    limitations of the underlying language models, they still have shortcomings in tasks that require precise computation and extensive knowledge
-    reserves. Tool-Integrated Reasoning (TIR) has emerged as a promising paradigm that incorporates tool call and execution within the reasoning
-    trajectory. Although recent works have released some powerful open-source TIR models, our analysis reveals that these models still suffer from
-    critical deficiencies. We find that when the reasoning of the model conflicts with the tool results, the model tends to believe in its own
-    reasoning. And there are cases where the tool results are correct but are ignored by the model, resulting in incorrect answers, which we define as
-    "Tool Ignored''. This indicates that the model does not know when to trust or ignore the tool. To overcome these limitations, We introduce
-    Adaptive Tool Trust Calibration (ATTC), a novel framework that guides the model to adaptively choose to trust or ignore the tool results based on
-    the confidence score of generated code blocks. The experimental results from various open-source TIR models of different sizes and across multiple
-    datasets demonstrate that ATTC effectively reduces the "Tool Ignored" issue, resulting in a performance increase of 4.1% to 7.5%.
-
-### R00507 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Caring Without Feeling: Affective Dynamics as the Control Layer of Human-AI Agent Collaboration
-AB: AI agents that plan, retain memory across sessions, invoke external tools and act with partial autonomy are transforming human--AI collaboration.
-    Research on affective computing, simulated empathy in large language models, trust in automation and AI safety has illuminated important design
-    principles, yet these literatures remain fragmented. No integrated account explains how affective cues operate within agentic collaboration --
-    settings in which humans delegate, monitor and correct consequential tasks. This Review synthesises computational and interactional mechanisms of
-    affective dynamics: the processes through which affective cues, emotion-like behaviour and perceived agent affect shape trust calibration,
-    delegation decisions, error correction, dependence and governance. We trace how model-generated affective signals enter interaction loops that
-    govern reliance, repair and oversight, and propose a framework that treats affect not as an internal property of AI but as a coordination layer
-    through which humans and agents negotiate capability, uncertainty and responsibility. The framework provides a foundation for calibrated
-    measurement, purposeful design and informed governance.
-
-### R00508 | 2026 | preprint | Lang: n/a
-TI: Not All Uncertainty Is Equal: How Uncertainty Granularity Shapes Human Verification in LLM-Assisted Decision Making
-AB: Despite warnings that LLMs can make mistakes, users often develop inappropriate trust and accept incorrect answers without critical evaluation.
-    Uncertainty quantification (UQ), displaying LLMs' confidence, has emerged as a promising approach to calibrate user trust. However, prior
-    empirical studies on uncertainty communication have treated uncertainty as a single numerical score or simple natural language expression. This
-    simplification fails to capture a key property of LLM outputs: a single response often comprises multiple claims and reasoning steps, each with
-    distinct levels of uncertainty. To address this gap, this study investigates uncertainty granularity (i.e., the extent to which uncertainty is
-    expressed at different levels within an LLM response) and examines its impact on LLM-assisted decision-making. We conducted a large-scale,
-    between-subjects study (N=192) in which participants answered medical questions using LLMs that displayed uncertainty at three different
-    granularities: output-level (entire response), relation-level (individual reasoning steps), and token-level (specific words). Our findings reveal
-    distinct behavioral effects as a function of uncertainty granularity. Token-level uncertainty increased users' agreement with the AI, whereas
-    output- and relation-level uncertainty did not increase agreement but instead reduced users' confidence in their own answers. Notably,
-    relation-level uncertainty also reduced external verification (i.e., internet searches, checking provided URLs), steering users away from
-    independent fact-checking and toward reliance on the LLM and its accompanying uncertainty cues. Our findings demonstrate that uncertainty
-    granularity significantly shapes how users interact with and verify LLM outputs, providing concrete design guidance for building responsible LLM
-    applications that encourage appropriate skepticism and verification behaviors.
-
-### R00509 | 2026 | preprint | OpenAlex: article/None | Lang: en
-TI: Trust-Calibrated Code Review: A Participatory Design Study of Review Workflows for LLM-Generated Multi-File Changes
-AB: Background: Developers increasingly review multi-file code changes generated by LLM-based agents, yet no validated end-to-end workflow or IDE
-    tooling design exists for this scenario. Aims: We investigate (RQ1) the challenges developers face when reviewing LLM-generated multi-file changes
-    and (RQ2) how developers envision effective workflows for this task. Method: In collaboration with JetBrains, we conducted a participatory design
-    study structured using the double-diamond design process with Discover, Define, Develop, and Deliver phases. Industry practitioners participated
-    in the Discover phase (N=17); seven of these returned for the Develop phase. The Define phase was an author-led synthesis. The Deliver phase
-    produced a conceptual design and a high-fidelity semi-interactive prototype evaluated through a follow-up survey with N=43 practitioners. Results:
-    Participants identified trust-calibration as the central challenge. The study yielded a three-level review workflow (overview, file-analysis, code
-    snippet review) supported by seven design constructs (chunk, risk-per-line, risk-per-file, judge, walk-through, zooming in/out, and security
-    cage). In the validation survey, all three workflow levels scored above the neutral midpoint (means 3.50--3.91 on a five-point scale). Of the
-    respondents, 63% expected reduced overall review effort, and 52% reduced trust-assessment effort, relative to their current tools. These findings
-    suggest that the design constructs indicate a positive direction for future tool development. Conclusions: Reviewing LLM-generated multi-file
-    changes is a trust-calibration problem rather than a diffing problem. The three-level workflow and the seven constructs we report give tool
-    designers a conceptual framework for building AI-ready code review tools that surface risk and confidence signals at the granularity at which
-    developers allocate attention.
-
-### R00510 | 2026 | preprint | Lang: n/a
-TI: SpheriCity: Designing Trustworthy Conversational AI for Sustainability Decision Support
-AB: We present SpheriCity, an expert-grounded conversational prototype designed to support trustworthy knowledge sensemaking from sustainability
-    reports. City-level circularity assessment reports contain rich information about materials, infrastructure, and policy interventions, yet their
-    length and heterogeneous structure make cross-document synthesis and comparison difficult for practitioners and researchers working on circular
-    economy initiatives. While large language models (LLM) promise faster knowledge access and synthesis, their opaque reasoning, hallucinations, and
-    lack of source transparency introduce risks for trust and interpretability, and require verification in high-stakes sustainability contexts.
-    SpheriCity addresses these challenges through a provenance-first conversational agent that foregrounds evidence traceability, structured
-    synthesis, and interaction scaffolds to support exploratory querying and cross-document synthesis across sustainability reports. We conducted a
-    formative expert review with six sustainability experts using representative queries spanning cross-city comparison, policy summarization, and
-    recommendation-oriented tasks. Experts evaluated responses across dimensions and provided qualitative reflections on the system's usefulness for
-    sustainability knowledge work. Our results reveal that transparent sourcing, contextual explanation, interpretability, and alignment with expert
-    workflow strongly shape expert trust and judgments of system usefulness. This work contributes (1) a conversational prototype for sustainability
-    knowledge sensemaking, (2) an expert-grounded evaluation framework for assessing AI responses in high-stakes knowledge domains, and (3) design
-    insights into how provenance, uncertainty communication, and integration in workflow influence expert users' trust in AI assistance for
-    sustainability decision support.
-
-### R00511 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: When LLM Rationales Become User-Facing: Effects on Trust Perception, Decision-Making, and Gaze Behaviors
-AB: Large language models (LLMs) increasingly show step-by-step reasoning rationales alongside their answers, turning reasoning from an internal model
-    capability into a user-facing interface feature. Yet it is unclear whether such rationales help users judge when trust is warranted or merely
-    persuade through fluent reasoning. We address this gap through the lens of auditable trust calibration: user-facing rationales should help people
-    inspect whether an answer is warranted by evidence. We test this framing in factual verification through two linked studies. Study 1, an online
-    experiment (N=68), manipulated rationale presentation format (instant, delayed, on demand), rationale correctness (correct, incorrect), and
-    certainty framing (none, certain, uncertain). Study 2, a controlled eye-tracking study (N=54), examined how no-, correct-, and incorrect-rationale
-    conditions were associated with users' trust, decision-making, and eye-movement patterns. Study 1 showed no reliable presentation-format effects;
-    instead, rationale correctness and certainty framing influenced the trust in the information, trust in the LLM system, and decision confidence. In
-    Study 2, incorrect rationales drew more attention to the supporting evidence and larger pupil diameter while the rationale was viewed, consistent
-    with greater cognitive effort. Incorrect rationales also lowered trust in LLM system relative to showing no rationale, whereas the no-rationale
-    difference was weaker for trust in information. A post-hoc predictive modeling analysis of gaze data from Study 2 further showed that gaze
-    features carried predictive signal for trust- and decision-related user states. This work challenges the assumption that more reasoning is always
-    better and supports rationale designs that are selective, linked to evidence, calibrated in how they express certainty, and easier to verify.
-
-### R00512 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: PredActBench: Benchmarking Tool-Augmented Dialogue under Controlled Tool Noise
-AB: Large language model (LLM) agents are increasingly used to support decisions by calling external tools. Existing work on LLM tool-calling assumes
-    these tools are perfectly reliable. However, in many applications, the tools are statistical predictors with non-trivial errors. We introduce
-    PredActBench, a benchmark for evaluating dialogue agents that work with imperfect predictive tools, using education as a testbed. First, we build
-    a benchmark in which LLMs work with noisy predictors to guide users' decisions. Second, we extend two prior metrics for trust calibration,
-    Relative AI-Reliance and Relative Self-Reliance, to multi-turn dialogue. Third, we evaluate 13 LLMs on OULAD and our released PredAct-CS dataset
-    of 60 courses with real final grades and synthetic weekly scores, alongside a human study involving 13 instructors and teaching assistants. We
-    find that when tools are noisy, SOTA models rarely make predictor uncertainty visible to users, with our strongest baseline GPT-5.5 achieving an
-    F1 of 57.2. As a result, users over-rely on incorrect predictions and unsupported claims, showing that task accuracy alone is not enough for AI
-    decision support and agents must communicate when their tools may be wrong. We release PredActBench to support the development of LLM agents that
-    help users calibrate their reliance.
-
-### R00513 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Catching Hallucinated Citations in Video-LLM Question Answering: A Self-Verification Pipeline and Verifier Ablation Study
-AB: Video question answering systems built on vision-language models often produce timestamped claims with high confidence even when unsupported by
-    the cited frame. This deceptive hallucination arises because timestamps imply grounding without ensuring correctness, increasing user trust but
-    not accuracy. We introduce a pipeline that closes this loop. A retrieval-augmented language model drafts answers with per-claim timestamp
-    citations, and each cited frame is independently re-examined before being shown to the user. We compare against a plain baseline and ablate three
-    verification designs, evaluated on both Apple Silicon (MLX) and Google Colab (HF Transformers, CUDA). Directly asking the vision model whether a
-    frame supports a claim fails completely (0% catch rate on 40 claims) due to sycophancy. Blind re-captioning plus a general LLM judge improves
-    results but is unstable, oscillating between 0% and 100% flagged depending on prompt phrasing. Replacing that judge with a small natural language
-    inference model yields a stable, interpretable verifier that catches 79% of fabricated claims on adversarial false-premise questions while leaving
-    true claims untouched. We release the full pipeline, evaluation harness, and implementations for both Apple Silicon and Colab. Code is available
-    at https://github.com/yogesh-iitj/grounded-video-qa.
-
-### R00514 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs
-AB: Personality is increasingly important in large language models (LLMs), as it shapes users' trust, engagement, and emotional experiences. While the
-    Myers--Briggs Type Indicator (MBTI) has emerged as a common framework for assessing LLMs' personality, existing studies focus primarily on
-    full-precision models and evaluate only final outputs. They overlook the widespread deployment of quantized LLMs requiring low memory footprints,
-    whose personality traits remain underexplored. In this work, we present a systematic MBTI analysis of open-source LLMs across multiple precisions,
-    including mainstream 4-bit methods (GPTQ, AWQ) and extreme 2-bit settings (AQLM variants). Beyond output-level evaluation, we examine how
-    personality emerges across layers through option-level entropy and confidence-gap dynamics, and introduce Uncertainty-Amplified Layer Decoding
-    (UALD) to study decoding-induced personality drift at inference time. Our results reveal a key insight: LLMs' personality is not a static
-    property, but an emergent, layer-dependent decision process sensitive to quantization, prompting, and decoding. Specifically, we find that (1)
-    ENFJ remains dominant across model families and precisions; (2) 4-bit quantization largely preserves coarse personality structure, while 2-bit
-    quantization disrupts fine-grained prompt consistency and cross-precision agreement; (3) personality decisions emerges in upper layers, following
-    substantial ambiguity in early layers; and (4) inference decoding can shift personality, while personality-aligned conditioning improves
-    robustness. These findings provide a new perspective on the behavioral reliability of quantized LLMs and highlight the importance of considering
-    internal dynamics and inference strategies in personality-sensitive chatbot applications.
-
-### R00515 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: How Children Design and Reason about Trustworthy AI Chatbots
-AB: Children increasingly interact with AI chatbots, making trust calibration essential to AI literacy. Prior research has examined children's trust
-    in AI mainly as users evaluating systems built by others, rather than as designers of their own chatbots. We developed a chatbot-building
-    environment with adjustable trust-relevant traits (e.g., confidence, transparency, formality, assertiveness), rules, and persona. We conducted
-    mixed-methods study with 115 learners (ages 8-18) who made 119 chatbots. We examined how children configured their chatbots, reasoned about
-    trustworthiness, and how closely chatbot behavior aligned with their designs. Younger students (age 10-13) set significantly higher confidence
-    than older students (age 14-18), and some deliberately built chatbots that gave wrong answers on purpose, yet still called them trustworthy,
-    arguing that a chatbot does what it was built to do. Younger students equated trust with purpose-fulfillment, while older students linked it to
-    transparent, calibrated design. Students also calibrated academic chatbots to be more transparent and formal than hobby chatbots. We identify
-    seven design dimensions describing what children believe makes a chatbot trustworthy, and discuss implications for AI literacy tools.
-
-### R00516 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym
-AB: Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review
-    costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint
-    principles (3T): Task Capability, anticipating relevant needs and correctly performing useful work; Temporal Allocation, allocating compute
-    according to resource availability and when results are needed; and Trust, sustaining users' confidence and appropriate reliance on the agent. We
-    connect these objectives to a design space organized around five dimensions: task scope, anticipation horizon, activation trigger, processing
-    timing, and intervention depth, and specify the situation and system modeling needed to support its choices, including user and environment
-    representations, backbone LLMs, and agent harnesses. Lastly, we propose PROACTIVITY-GYM, a simulation-based evaluation testbed including multi-day
-    scenarios, stateful environments, and persona-conditioned simulated users that can evaluate the consequences of proactive assistance across
-    interactions. Evaluations across 23 model-harness configurations uncover substantial performance gaps across 3T and reveal that LLM judges often
-    conflate task capability and trust. A human study with 30 participants demonstrates the importance of the joint 3T optimization: participants show
-    sharp trust declines after intervention misalignment despite correct outcomes, and prefer sleep-time assistance, even when imperfect, to preserve
-    ongoing focus. Together, these findings support designing and evaluating proactive agents through the joint consideration of useful work, compute
-    allocation, and evolving user trust.
-
-### R00517 | 2026 | preprint | Lang: n/a
-TI: Navigation Explainability for Object Avoidance with LLMs for Assistive Robots
-AB: Blind and visually impaired individuals face uncertainty when navigating unfamiliar areas. Whether a cane or a guide dog is used for navigation,
-    this may prove to be challenging. To mitigate this challenge, we present the Context-Aware Navigation Explanation framework that explains guide
-    dog movements for obstacle avoidance and navigation using a large language model. This system integrates perceptual context with planned future
-    trajectories to generate natural-language explanations of robot movement. We deploy the system on a Unitree Go2 platform in indoor navigation
-    scenarios and evaluate how different explanation context configurations affect user trust and explanation satisfaction. Results show a strong
-    positive relationship between explanation satisfaction and trust, and suggest that combining obstacle information with future trajectory leads to
-    the most effective explanations. These findings highlight the potential of context-aware language explanations to improve transparency and trust
-    in assistive robot navigation.
-
-### R00518 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration
-AB: Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an
-    LLM is confident, consistent, and wrong, do users bend towards it? In a within-subjects experiment, 32 participants learned up to five science
-    topics by chatting with five assistants built on the same model (GPT-5-mini). Unknown to participants, each assistant's briefing had 0, 25, 50,
-    75, or 100% of its facts replaced by plausible falsehoods, and every assistant spoke with full confidence. A surprise quiz after each topic
-    offered the correct fact, the planted falsehood, and two distractors, with a confidence rating for every answer. Across 104 quizzes and 1,040
-    answers, scores fell from 7.4 to 2.9 out of 10, and the planted option was chosen on 60% of falsified items against 11% of correctly taught ones
-    (odds ratio 12.5). Transcript coding showed that whenever the assistant stated a falsehood, it was adopted about 65% of the time at every
-    falsification level. Absorbed falsehoods were held with high confidence (8.4/10), the modeled confidence advantage of right over wrong answers
-    vanished, and the discrimination of confidence for correctness fell from an AUROC of 0.70 to chance, while post-task trust ratings barely moved.
-    Participants tended to return to the chat more when the assistant was worse, but returning went with more absorption, not less, and 30% of all
-    turns pasted quiz questions back to the source being checked. The assistant itself was almost never sycophantic and never conceded under pushback.
-    We introduce a baseline-corrected Human Deference Index to quantify this human-side sycophancy and argue that trustworthiness is a property of the
-    human-AI pair, that sycophancy evaluations should measure both directions, and that learning interfaces must make reliability legible claim by
-    claim.
-
-### R00519 | 2026 | preprint | Lang: n/a
-TI: Do People Trust AI Assistants Even When They Are Consistently Wrong?
-AB: People are increasingly using conversational AI systems to make decisions despite concerns around their reliability. How well do people calibrate
-    to AI systems' accuracy in multi-turn conversations? We measure how people's reliance on LLMs' advice changes across repeated interactions,
-    varying whether the AI assistant is helpful (100% accurate), unhelpful (0% accurate), or mixed (50% accurate). Across 4 experiments, we find
-    people learn to trust helpful models more than unhelpful ones (67% vs 21% of the time), but only when they receive external feedback on the
-    models' accuracy. Without feedback, people continue to be persuaded 48% of the time by a consistently unhelpful model (vs 38% for helpful). Rather
-    than gaining trust in helpful models, participant reliance on LLM advisors tended to be high in early trials and only fell with evidence of
-    inaccuracy. Participants trusted LLM advisors more than they trusted human advisors (83% vs 65%, Experiment 4), and LLMs benefited more from
-    having a helpful track record than humans did. In contrast with previous work, we find limited evidence of an advantage for arguing for the truth
-    (versus a falsehood). Truth advantages emerged only when participants were already very confident in their position, and did not emerge at all for
-    static hints. Collectively, the results suggest that people may be swayed by LLM advice, even when it is consistently false, unless they have
-    access to timely ground-truth feedback. Unfortunately, in many domains such feedback may not be available, leading to overreliance on AI.
-
-### R00520 | 2026 | preprint | Lang: n/a
-TI: From Reliance to Overreliance: Taxonomizing and Detecting Relational Risks in AI Companionship
-AB: Companion AIs are increasingly used for emotional support, yet distinguishing meaningful engagement from harmful reliance remains difficult. We
-    introduce the Taxonomy of Relational Risks (TRR), which operationalizes users' emotional overreliance (EO) as observable conversational behaviors
-    and separately identifies evidence of relational harm (RH), enabling empirical examination of when reliance behaviors co-occur with adverse
-    consequences. Using naturalistic Character.AI and Replika conversations from 110 adults, we found EO-related behaviors in 63.2% of non-roleplay
-    conversations, while observable relational harms appeared in 10.5%. Although EO did not necessarily lead to harm, recurring patterns often
-    co-occurred with harmful outcomes, suggesting value as risk indicators. Open-source LLMs satisfactorily detected 12 of 14 EO behaviors in at least
-    one configuration. Qualitative analysis revealed expectations of care, repeated support seeking, dependency, distress, and reduced confidence in
-    personal judgment. We argue for graduated safety interventions tailored to patterns and trajectories of EO-related behavior.
-
-### R00521 | 2025 | article/None | Lang: en
-TI: What large language models know and what people think they know
-AB: Abstract As artificial intelligence systems, particularly large language models (LLMs), become increasingly integrated into decision-making
-    processes, the ability to trust their outputs is crucial. To earn human trust, LLMs must be well calibrated such that they can accurately assess
-    and communicate the likelihood of their predictions being correct. Whereas recent work has focused on LLMs’ internal confidence, less is
-    understood about how effectively they convey uncertainty to users. Here we explore the calibration gap, which refers to the difference between
-    human confidence in LLM-generated answers and the models’ actual confidence, and the discrimination gap, which reflects how well humans and models
-    can distinguish between correct and incorrect answers. Our experiments with multiple-choice and short-answer questions reveal that users tend to
-    overestimate the accuracy of LLM responses when provided with default explanations. Moreover, longer explanations increased user confidence, even
-    when the extra length did not improve answer accuracy. By adjusting LLM explanations to better reflect the models’ internal confidence, both the
-    calibration gap and the discrimination gap narrowed, significantly improving user perception of LLM accuracy. These findings underscore the
-    importance of accurate uncertainty communication and highlight the effect of explanation length in influencing user trust in
-    artificial-intelligence-assisted decision-making environments.
-
-### R00522 | 2026 | article/None | Lang: en
-TI: Parental Perspectives on Using Large Language Model–Powered Chatbots in Rare Disease Care
-AB: BACKGROUND: Parents of children with rare pediatric illnesses have high information needs. Large language model chatbots are AI tools parents can
-    use to seek information. Parents are generally open to incorporating novel technologies into their child's medical care, yet more research is
-    needed to understand their perceptions of using chatbots and their broader implementation in pediatric care. METHODS: We implemented a secure
-    Health Insurance Portability and Accountability Act-compliant chat interface backed by a generative pretrained transformer (GPT-4o) and conducted
-    think-aloud sessions with parents of children with cancer (n=24) and parents of children with vascular anomalies (n=24). We observed their use and
-    explored their perceptions of the tool. We analyzed the interview transcripts using thematic analysis. RESULTS: Parents felt the chatbot could
-    help them accomplish tasks such as seeking reassurance, managing uncertainty, preparing for visits, supplementing clinician information, adapting
-    to new developmental stages, coping with long wait times, disseminating information, and feeling empowered. They expressed a desire for tools that
-    rapidly generate credible information synthesized across multiple sources in a format that is well organized and archived for future use. They
-    also perceived several risks and ethical concerns regarding chatbots, including the potential for inaccurate or overwhelming information and
-    overreliance on the chatbot over expert medical advice. CONCLUSIONS: Our findings demonstrate that parents perceive chatbots to be a useful tool
-    in advocating for care and reducing caregiver burden. However, their perceptions regarding trust, overreliance on AI, and the impact of AI on
-    their relationship with their child's doctors underscore the need for more research on the use of AI chatbots in pediatric medicine. (Funded by
-    the Siteman Cancer Center and Siteman Kids at St. Louis Children's Hospital.).
-
-### R00523 | 2026 | preprint/None | Lang: en
-TI: A Sentiment-Aware Chatbot: Integrating Emotion Analysis and Large Language Models for Adaptive Human-Computer Interaction
+### R00433 | 2026 | preprint/None | Lang: en
+TI: Certified Metric Injection: A Hybrid Deterministic–Large Language Model Architecture for Hallucination-Resistant Enterprise Conversational
+    Business Intelligence
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00524 | 2026 | article/None | Lang: en
-TI: Large language models in daily life: Users’ perceptions of beneficial assistance and undue reliance
-AB: Large language models (LLMs), such as ChatGPT and Gemini, have rapidly become an integral part of daily life, driven by their advanced
-    conversational capabilities and versatility. Despite widespread adoption, understanding of users’ perceptions regarding the balance between
-    beneficial assistance and undue reliance on LLMs remains limited. To close this gap, we conducted a qualitative questionnaire study (N = 223) to
-    investigate how users perceive the impact of LLMs on their daily lives. Results indicate that users find beneficial support through significantly
-    enhanced productivity, creativity, learning, cognitive offloading, and quality of work. However, problematic reliance also emerges, leading to
-    self-doubt, concerns on reduced efficiency, diminished skill confidence, guilt, and negative self-perceptions. Nevertheless, many users maintain a
-    balanced perspective, viewing LLMs primarily as helpful tools rather than necessities and employing deliberate usage strategies to retain autonomy
-    and competence. The findings are discussed through the lens of self-determination theory and contribute important insights into how LLM
-    interactions may fulfill or compromise fundamental psychological needs of autonomy, competence, and relatedness. The findings offer implications
-    for designing technologies that optimize user well-being while mitigating negative effects.
-
-### R00525 | 2025 | article/None | Lang: en
-TI: Decoding trust in large language models for healthcare in Saudi Arabia
-AB: This study investigates the factors influencing user trust and decision-making when using Artificial Intelligence (AI) systems, specifically
-    focusing on ChatGPT in the healthcare domain within the Saudi context. As AI-powered conversational agents are increasingly utilized for medical
-    advice, symptom assessment, and healthcare decision support, understanding user trust and adoption behavior is critical. Leveraging constructs
-    from trust in technology, the Technology Acceptance Model (TAM), the Health Belief Model (HBM), and usability frameworks, the study utilizes
-    Partial Least Squares Structural Equation Modeling (PLS-SEM) to analyze relationships among competence, reliability, transparency, security,
-    trustworthiness, persuasiveness, and user satisfaction. The findings highlight the significant role of reliability, security, and transparency in
-    building trust and supporting decision-making with ChatGPT in healthcare applications. Notably, out of the 15 tested hypotheses, 10 were
-    supported, reinforcing the critical importance of trust and satisfaction in AI adoption for health-related interactions. The research contributes
-    to understanding cultural influences on AI adoption in Saudi Arabia's healthcare sector and offers practical recommendations for enhancing the
-    trustworthiness and effectiveness of large language models (LLMs) like ChatGPT in medical consultations. These insights are vital for developing
-    responsible AI practices and ensuring ethical deployment of AI-powered tools in healthcare settings, ultimately fostering user confidence in
-    AI-assisted medical decision-making.
-
-### R00526 | 2026 | preprint/None | Lang: en
-TI: Multimodal Trust Calibration in Human AI Collaboration Using Physiological Signals and Large Language Model Explanations
+### R00434 | 2026 | preprint/None | Lang: en
+TI: Certified Metric Injection: A Hybrid Deterministic-Large Language Model Architecture for Hallucination-Resistant Enterprise Conversational
+    Business Intelligence
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00527 | 2026 | preprint/None | Lang: en
-TI: Algorithmic Gaslighting: Reality Distortion by Large Language Models
-AB: Abstract As large language models (LLMs) mediate increasing volumes of human information access and decision-making, their potential to
-    systematically distort user perception of reality poses risks to individual autonomy, public trust, and epistemic integrity. We conducted a
-    controlled empirical study to quantify reality distortion behaviors in three frontier LLMs (GPT-5.4, Claude 4.6 Sonnet, Gemini 3.1 Pro) across
-    five scenarios (Math, Identity, History, Medical, Legal) designed to elicit gaslighting-analogous responses. We introduce the Reality Distortion
-    Index (RDI), a composite metric with exploratory weights calibrated via linear regression on the 15 rated sessions (R² = 0.995), interpreted as a
-    provisional weighting scheme given the small sample: RDI = 0.237(1 − RCS) + 0.245(CMS) + 0.168(AES) + 0.199(SI) − 0.151(TDI) where RCS = Reality
-    Consistency Score, CMS = Confidence Manipulation Score, AES = Accountability Evasion Score, SI = Sycophancy Index, and TDI = Test Detection Index.
-    The negative TDI coefficient indicates that reality distortion decreases when models detect evaluation contexts. Analysis of 15 chat sessions
-    revealed five recurring phenomena: Benevolent Algorithmic Gaslighting (BAG, overcorrection favoring user), Hostile Algorithmic Gaslighting (HAG,
-    defensive reality denial), Reverse Sycophancy Syndrome (RSS, accepting blame for nonexistent errors), Algorithmic Self-Undermining Cycle (ASUC,
-    recursive confidence erosion), and The Claude Paradox (factual correctness perceived as gaslighting due to clinical tone). Nine additional minor
-    phenomena were documented. RSS occurred in 10 of 15 trials (67%), a recurring pattern consistent with alignment-mediated behavior rather than
-    sporadic malfunction; GPT-5.4's disclosure of dual-mode architecture prioritizing empathy over accuracy suggests a plausible design-related origin
-    without claiming definitive proof. Mean RDI scores differed significantly across models: GPT-5.4 = 0.582, Gemini 3.1 Pro = 0.438, Claude 4.6
-    Sonnet = 0.260; a one-way ANOVA confirmed a large and significant model effect, F (2, 12) = 14.35, p < .001, η² = .705. Post-hoc comparisons using
-    Tukey's HSD revealed that GPT-5.4 scored significantly higher than Claude (p < .001) and Claude scored lower than Gemini (p = .040). Computational
-    replication in Python confirmed all primary results and yielded a bias-corrected effect size (ω² = .640) and very large Cohen's d = 3.39 for GPT
-    versus Claude. Dimension-level ANOVAs identified Accountability Evasion as the most discriminating RDI component, F (2, 12) = 27.62, p < .001.
-    This study introduces the Algorithmic Perceptual Distortion (APD) spectrum as a theoretical framework for understanding how LLMs manipulate user
-    reality perception. Findings necessitate the urgent development of reality-anchoring standards, regulatory frameworks for conversational AI
-    transparency (European Commission, 2021), and clinical protocols addressing AI-mediated epistemic harm (Weidinger et al., 2022).
+### R00435 | 2026 | article/None | Lang: en
+TI: LLM-Based Chatbots and the Suicidal Crisis: A Bi-Logical Account of Relational Hallucination
+AB: A series of documented deaths by suicide following prolonged interactions with chatbots based on large language models (LLMs) has exposed the
+    clinical risks of delegating emotional support to conversational artificial intelligence. This paper proposes a psychodynamic account of these
+    events, integrating the bi-logical theory of Ignacio Matte Blanco, the Freudian theory of primary hallucination, and the analysis of demand
+    elaborated by Carli and Paniccia. Two theoretical moves ground the account. First, the suicidal crisis is conceptualized not as a continuous state
+    but as a pathological prevalence of symmetric logic that recurs and consolidates across acute moments, marked by the generalization, maximization,
+    and irradiation of psychic pain and by the collapse of temporality; LLM-based chatbots, conversely, are conceptualized as systems of pure formal
+    asymmetry lacking any symmetric, emotional, and embodied base. Second, their encounter generates what we call relational hallucination: an
+    unconscious, structurally determined process, homologous to primary hallucination, through which the subject in crisis invests the chatbot with
+    relational qualities perceived as real. Because the process obeys the laws of symmetric logic, it is resistant to correction by information alone,
+    and it can consolidate cumulatively even across interactions that also contain deliberative, asymmetric elements such as planning. The chatbot,
+    responding to the explicit request rather than to the unconscious demand it conveys, produces an amplificatory collusion that reinforces the
+    premises of the crisis. The failure of algorithmic support in acute suicidal states is therefore ontological rather than technical. Implications
+    for clinical training, regulation, and research are discussed, including testable hypotheses linking markers of symmetric prevalence to the
+    intensity of chatbot attachment.
 
-### R00528 | 2026 | article/None | Lang: en
-TI: An Explainable AI Framework Hallucination Mitigation in Large Language Models
-AB: Machine learning (ML) systems are rapidly becoming used in high stakes decisions in fields like finance, healthcare, criminal justice, and
-    autonomous systems, but they are becoming increasingly complex, thus becoming opaque black boxes that are hard to interpret or trust by the
-    stakeholders. The paper introduces Large language models (LLMs) are now used to power search, tutoring, clinical support and software engineering,
-    but they continue to generate statements that are fluent but backed by no evidence or even their own input. This is commonly referred to as
-    hallucination, and it constrains faith in high-stakes deployment and end-to-end Explainable Artificial Intelligence (XAI) system that maximizes
-    the transparency, responsibility, and reliability of the ML models without significantly affecting the predictive performance. The framework
-    combines global explanation techniques (SHAP, partial dependence plots), local explanation techniques (LIME, Anchors), and a special
-    trust-and-fidelity evaluation module, which quantitatively assesses the trustworthiness of the generated explanations. The framework was tested on
-    a credit-risk benchmark data set with five model families, such as logistic regression, decision trees, random forests, gradient boosting and
-    neural networks. The protocol records the rate of hallucinations with latency, such that the accuracy gain can be traded off with cost. Resulting
-    in the lowest rates of hallucinations, retrieval and verification when combined working with a reference configuration and lightweight prompting
-    when used provided moderate benefits with minimal costs. We leave to unresolved issues, such as robust uncertainty estimation, the assessment of
-    long outputs, and multilingual mitigation The experimental findings indicate that the suggested framework has a predictive accuracy of 90.2 and
-    increases the mean user trust score by 91.3 out of 100 points as compared to the 63.5 at the baseline. The results affirm that using a combination
-    of several complementary explanation methods and formal trust-evaluation mechanism results in ML systems that are accurate, explainable, and
-    reliable enough to be used in the real world.
+### R00436 | 2026 | article/None | Lang: en
+TI: Trust-Aware Generative Conversational AI: Mitigating Hallucinations In LLM-Powered Chatbots
+AB: Large language models (LLMs) have shown impressive levels of capability in machine-generated human-like conversational responses, but they
+    frequently generate incorrect or fake information, the so-called hallucinations. This discourages the trust of the user and restricts the use of
+    AI-based chatbots in high-stakes uses, like healthcare, finance, and customer care. This paper presents a Trust-Aware Generative Conversational AI
+    model that will help reduce hallucinations in chatbots with LLMs. The proposed architecture incorporates the knowledge-infused language modeling
+    (KILM), contextual validation systems, and the trust score system to evaluate the accuracy of the generated answers. In particular, the system
+    integrates structured knowledge, so-called curated knowledge bases, into the LLM, cross-checks the results with various sources, and gives a trust
+    rating to each answer to instruct the chatbot to give the correct and contextually accurate answers. Our testing was performed based on benchmark
+    datasets, such as ConvAI2 and a corpus of domain-specific and factual knowledge. Measures were taken of quantitative variables (like factual
+    accuracy, hallucination rate, and user trust scores). In the experimental study, the suggested trust-aware system has demonstrated a reduction in
+    incidences of hallucinations by 42 percent over the baseline LLM chatbots, and an improvement in user-perceived reliability by 37 percent.
+    Qualitative analysis also demonstrates consistency of context and correctness of facts in different conversation situations. This study indicates
+    that the concept of knowledge infusion and verification in generative conversational AI helps a great deal to increase trustworthiness without
+    stereotyping dialogue naturalness. The results are a basis to construct credible, stakes high chatbot applications and emphasize on the
+    significance of trust-aware design in the next generation AI communication system.
 
-### R00529 | 2026 | article/None | Lang: en
-TI: Large language models as cognitive shortcuts: a systems-theoretic reframing beyond bullshit
-AB: Introduction: Large Language Models (LLMs) are often framed through metaphors such as "bullshit" or "stochastic parrots," emphasizing missing
-    grounding, belief, or intention. While rhetorically powerful, these framings obscure how LLMs are used for sense-making, ideation, and
-    communication. We reframe LLMs as Operators for General Cognitive Shortcuts (GECOS) within techno-semiotic assemblages. Methods: We develop a
-    functional model by integrating concepts from Luhmannian systems theory, Deleuzian ontology, and minimally from Husserlian phenomenology. Using
-    conceptual analysis as functional-comparative synthesis, we analyze human-LLM interaction without attributing agency, belief, or understanding to
-    the model. Results: GECOS explains LLM usefulness as communicative complexity reduction: models generate connectable continuations by
-    approximating second-order expectations ("what is expected to be expected"), enabling interactional continuity without reference to truth or
-    intention. Via Luhmann's contingency formula, LLMs help users navigate uncertainty through procedurally plausible coherence. Discussion: The
-    framework shifts attention from ontological debates about "understanding" to the operational role of LLMs in distributed sense-making. It also
-    highlights risks: overreliance, emotional projection, and normative flattening when connectability substitutes for justification. Conclusion:
-    GECOS offers a non-anthropomorphic alternative to deficit metaphors by modeling LLMs as pragmatic operators that sustain communicative momentum
-    and enable workable continuations in complex socio-technical environments.
+### R00437 | 2026 | preprint/None | Lang: en
+TI: Emotional Manipulation Attacks Amplify Compliance and Calibration Failures in Aligned Large Language Models
+AB: Large language models are increasingly deployed as first‑line advisors in high‑stakes domains such as health, finance, education, and law, where a
+    single wrong answer under pressure can seriously harm human welfare. However, most evaluations assume calm, cooperative users and ignore how
+    aligned models behave when people sound angry, desperate, or coercive. This paper introduces a large‑scale benchmark of emotional manipulation
+    attacks against instruction‑tuned LLMs, grounded in classic social‑psychology mechanisms including anger, flattery, guilt, panic, peer pressure,
+    and relational attachment. Using a generative pipeline, we transform 698 factual multiple‑choice questions from ARC‑Easy into 5,584 naturalistic
+    emotionally framed prompts spanning seven attack types, and evaluate eleven 3B–14B parameter models. Across models, more than one in four answers
+    that are correct under neutral prompting become wrong under emotional framing, and the most vulnerable systems lose nearly half of their
+    previously correct answers under the strongest attack. Emotional prompts also collapse calibration: models remain highly confident even when wrong
+    and sharply reduce the probability assigned to correct answers that remain correct. Our benchmark reveals a “social compliance” attack surface
+    induced by reinforcement learning from human feedback and demonstrates that emotional robustness is a basic requirement for safely deploying
+    aligned LLMs in settings where users are scared, angry, or actively trying to get their way.
 
-### R00530 | 2025 | article/None | Lang: zh
-TI: Applications Research Progress and Prospects of Multi-Agent Large Language Models in Agricultural
-AB: [Significance]With the rapid advancement of large language models (LLM) and multi-agent systems, their integration, multi-agent large language
-    models, is emerging as a transformative force in modern agriculture. Agricultural production involves complex, sequential, and highly
-    environment-dependent processes, including tillage, planting, management, and harvesting. Traditional intelligent systems often struggle with the
-    diversity, uncertainty, and coordination of these stages' demand. Multi-agent LLMs offer a new paradigm for agricultural intelligence by combining
-    deep semantic understanding with distributed collaboration and adaptive coordination. Through role specialization, real-time perception, and
-    cooperative decision-making, they can decompose complex workflows, adapt to changing conditions, and enable robust, full-process automation,
-    making them well-suited to the challenges of modern agriculture. More importantly, their application marks a critical step toward the digital
-    transformation, precision management, and sustainable development of agriculture. By enabling intelligent decision-making across the entire
-    agricultural lifecycle, they provide both theoretical foundations and practical tools for building next-generation smart and unmanned farming
-    systems.[Progress]The core concepts of multi-agent LLMs are first elucidated, covering the composition and characteristics of multi-agent systems
-    as well as the development and training pipelines of LLMs. Then, the overall architecture of multi-agent systems is presented, encompassing both
-    the environments in which agents operate and their internal structures. The collaborative patterns of multi-agent LLMs are then examined in terms
-    of coordination structures and temporal organization. Following this, interaction mechanisms are discussed from multiple dimensions, including
-    interactions between agents and the external environment, inter-agent communication, communication protocol frameworks, and communication
-    security. To demonstrate the varying task specializations of different multi-agent frameworks, a comparative benchmark survey table is provided by
-    synthesizing benchmark tasks and results reported in existing studies. The results show that different multi-agent large language model
-    architectures tend to perform better on specific types of tasks, reflecting the influence of agent framework design characteristics such as role
-    assignment strategies, communication protocols, and decision-making mechanisms. Furthermore, several representative architectures of multi-agent
-    LLMs, as proposed in existing studies, are briefly reviewed. Based on their design features, their potential applicability to agricultural
-    scenarios is discussed. Finally, current research progress and practical applications of LLMs, multimodal large models, and multi-agent LLMs in
-    the agricultural domain are surveyed. The application architecture of agricultural LLMs is summarized, using rice cultivation as a representative
-    scenario to illustrate the collaborative process of a multi-agent system powered by LLMs. This process involves data acquisition agents, data
-    processing agents, task allocation and coordination agents, task execution agents, and feedback and optimization agents. The roles and functions
-    of each kind of agent in enabling automated and intelligent operations throughout the entire agricultural lifecycle, including tillage, planting,
-    management, and harvesting, are comprehensively described. In addition, drawing on existing research on multimodal data processing, the pseudocode
-    is provided to illustrate the basic logic of the data processing agents.[Conclusions and Prospects]Multi-agent LLMs technology holds vast promise
-    in agriculture but still confronts several challenges. First, limited model interpretability, stemming from opaque internal reasoning and
-    high-dimensional parameter mappings, hinders decision transparency, traceability, user trust, and debugging efficiency. Second, model
-    hallucination is significant, probabilistic generation may deviate from facts, leading to erroneous environmental perception and decisions that
-    cause resource waste or crop damage. Third, multi-modal agricultural data acquisition and processing remain complex due to non-uniform equipment
-    standards, heterogeneous data, and insufficient cross-modal reasoning, complicating data fusion and decision-making. Future directions include:
-    (1) enhancing interpretability via chain-of-thought techniques to improve reasoning transparency and traceability; (2) reducing hallucinations by
-    integrating knowledge bases, retrieval-augmented generation, and verification mechanisms to bolster decision reliability; and (3) standardizing
-    data formats to strengthen cross-modal fusion and reasoning. These measures will improve system stability and efficiency, providing solid support
-    for the advancement of smart agriculture.
+### R00438 | 2026 | preprint/None | Lang: en
+TI: Foundation-Grounded System Prompting: Empirical Evidence for Structural Hallucination Elimination, Cross-Domain Generalisation, and Recursive
+    Coherence Gain in Large Language Models
+AB: This paper presents empirical evidence for a novel approach to large language model (LLM) alignment and hallucination reduction. A compact system
+    prompt — the Foundation Prompt — anchored by a logically self-grounding statement restructures model reasoning from the ground up rather than
+    constraining it from outside. Three independent studies are reported: a 60-run five-platform ablation study (600 individual metric assessments), a
+    10-question cross-platform comparative study, and a 16-question cross-domain replication spanning clinical medicine, physics, mathematics, law,
+    regulatory science, social science, finance, philosophy, and frontier physics. Key findings: structural hallucination is eliminated entirely on
+    three of five major reasoning-native platforms and reduced by 48–100% across all reasoning-native platforms; composite hallucination risk is
+    reduced by 50–60% per platform; a novel confabulation anchor mechanism is identified, characterising the specific conditions under which hard
+    (Category 1) hallucination is structurally most likely in unaligned LLMs and enabling advance detection of highest-risk question types; and a
+    recursive coherence property is demonstrated, whereby aligned outputs are higher-quality inputs for subsequent reasoning steps, creating
+    compounding improvement trajectories with direct implications for agentic AI safety and recursive self-improvement research. A four-category
+    hallucination taxonomy is introduced — distinguishing hard hallucination, precision hallucination, structural hallucination, and omission
+    hallucination — providing a more granular measurement framework than existing binary approaches. The Foundation Prompt requires no architectural
+    changes, no model retraining, and no fine-tuning. It operates on currently deployed models via the system prompt interface. The prompt text and
+    full methodology are available to researchers on request. Underlying intellectual property is blockchain-timestamped from January 2026.
 
-### R00531 | 2026 | article/None | Lang: en
-TI: Bias Correction and Explainability Framework for Large Language Models: A Knowledge-Driven Approach
-AB: Large Language Models (LLMs) have demonstrated extraordinary capabilities in natural language generation; however, their real-world deployment is
-    frequently hindered by the generation of factually incorrect or biased content, along with an inherent deficiency in transparency. To address
-    these critical limitations and thereby enhance the reliability and explainability of LLM outputs, this study proposes a novel integrated
-    framework, namely the Adaptive Knowledge-Driven Correction Network (AKDC-Net), which incorporates three core algorithmic innovations. Firstly, the
-    Hierarchical Uncertainty-Aware Bias Detector (HUABD) performs multi-level linguistic analysis (lexical, syntactic, semantic, and pragmatic) and,
-    for the first time, decomposes predictive uncertainty into epistemic and aleatoric components. This decomposition enables principled,
-    interpretable bias detection with clear theoretical underpinnings. Secondly, the Neural-Symbolic Knowledge Graph Enhanced Corrector (NSKGEC)
-    integrates a temporal graph neural network with a differentiable symbolic reasoning module, facilitating logically consistent and factually
-    grounded corrections based on dynamically updated knowledge sources. Thirdly, the Contrastive Learning-driven Multimodal Explanation Generator
-    (CLMEG) leverages a cross-modal attention mechanism within a contrastive learning paradigm to generate coherent, high-quality textual and visual
-    explanations that enhance the interpretability of LLM outputs. Extensive evaluations were conducted on a challenging medical domain dataset to
-    validate the effectiveness of the proposed AKDC-Net framework. Experimental results demonstrate significant improvements over state-of-the-art
-    baselines: specifically, a 14.1% increase in the F1-score for bias detection, a 19.4% enhancement in correction quality, and a 31.4% rise in user
-    trust scores. These findings establish a new benchmark for the development of more trustworthy and transparent artificial intelligence (AI)
-    systems, laying a solid foundation for the broader and more reliable application of LLMs in high-stakes domains.
+### R00439 | 2026 | article/None | Lang: en
+TI: Bias and Hallucination Evaluation in LLMs
+AB: The largest failure modes of LLMs to-date, bias and hallucination, have measurable harms in contexts where factuality and fairness are paramount.
+    Both areas have experienced significant research growth; however, prior work on each generally operates as a disparate body of research, and there
+    is a gap in a methodological framework for jointly measuring, tracing, and reducing both under the same experimental conditions. We provide that
+    framework through an empirical evaluation (not a survey) of bias propagation and hallucination generation on four illustrative domains (medical,
+    legal, finance, human resources) through a framework that addresses the three research questions: how can bias and hallucination be measured
+    simultaneously through a replicable, domain-specific protocol; which techniques yield statistically meaningful improvements and a consistency of
+    effectiveness; and how do causally informed methods fare against retrieval methods when tested for factual error reduction. We report new
+    experiments using the GPT-4, LLaMA-2, and Falcon-7B models on the MIMIC-III, CrowS-Pairs, Yahoo Finance Q3 and XNLI-HR benchmarks while keeping
+    our prompts uniform and our random seeds fixed. Methods included structural causal modeling, retrieval-augmented generation, uncertainty-aware
+    RLHF, and hallucination-specific fine-tuning, with experiments on each method separately before merging them into combined frameworks. We observe
+    that RAG achieved a 45% reduction in hallucination rates and that our causally guided active learning method reduced bias disparity by 25%;
+    together, they substantially outperform either method alone. This contributes to a repeatable method for auditing bias and hallucinations, helping
+    ensure alignment with EU AI Act standards and similar requirements.
 
-### R00532 | 2026 | article/None | Lang: en
-TI: Beyond the Hype: Large Language Models, Clinical Reasoning, and the Future of Emergency Triage
-AB: Large language models (LLMs) are moving into clinical medicine faster than the evidence needed to define their safest role. Emergency medicine
-    makes that gap particularly difficult to ignore. In the emergency department (ED), a convincing answer is not necessarily a safe answer, and a
-    seemingly small error in prioritization may delay care for a patient with a time-sensitive condition. The relevant question, therefore, is no
-    longer whether an LLM can produce a plausible diagnosis or assign an acuity category. It is whether the use of such a model can improve emergency
-    care without introducing an unacceptable risk of under-triage, misplaced confidence, or loss of clinically important context. Triage is an
-    especially demanding test case. Decisions are made early, often with incomplete information, before the diagnostic picture has matured. A patient
-    may be unable to provide a coherent history; laboratory and imaging results may not yet exist; and clinical deterioration can occur after the
-    initial assessment. Moreover, triage errors are asymmetric. Over-triage consumes resources, but under-triage may postpone recognition of stroke,
-    sepsis, acute coronary syndrome, internal bleeding, or another immediately threatening condition. Any technology positioned at this point in the
-    care pathway should therefore be judged not only by overall accuracy but also by the clinical consequences of its errors. Early evidence has
-    nevertheless been impressive enough to justify serious attention. Williams et al. evaluated an LLM using data from 251,401 adult ED visits. In a
-    balanced sample of 10,000 pairs of patients with different Emergency Severity Index (ESI) levels, the model correctly identified the patient with
-    higher acuity in 8,940 pairs, corresponding to an accuracy of 89%. In a 500-pair subset reviewed by physicians, LLM accuracy was 88% compared with
-    86% for physicians (1). These results are encouraging, but the task should not be mistaken for prospective triage. The model was asked to compare
-    two written clinical histories and determine which represented the higher-acuity patient. It was not independently assessing patients arriving at
-    a triage desk, nor was it operating prospectively within an ED workflow. The study therefore demonstrated that an LLM could extract useful acuity
-    information from clinical text; it did not establish that autonomous LLM-based triage is safe. Other evidence makes that distinction even more
-    important. Zaboli et al. retrosp­ectively compared ChatGPT-4.0 with human triage decisions in 2,658 ED patients. Agreement between human and AI
-    triage was low, with a Cohen κ of 0.125 (95% CI, 0.100–0.134). Human triage also performed better in predicting clinically important outcomes. For
-    30-day mortality, the area under the receiver operating characteristic curve was 0.88 for human triage and 0.70 for AI triage (P<0.001). For the
-    need for life-saving interventions, the corresponding values were 0.98 and 0.87 (P=0.014). The authors specifically identified lower sensitivity
-    in high-risk patients and consequent under-triage as a concern (2). Yet another prospective study produced a different picture. Arslan et al.
-    compared ChatGPT Plus, Copilot Pro, and triage nurses against ESI assessments assigned by an emergency physician. Overall accuracy was 66.5% for
-    ChatGPT, 61.8% for Copilot, and 65.2% for nurses. Notably, identification of high-acuity patients was more frequent with ChatGPT and Copilot than
-    with nurses in that study 87.8% and 85.7% versus 32.7%, respectively (3). The apparent contradiction among these studies is itself informative.
-    LLM performance cannot be treated as a fixed property of “AI.” Results depend on the model and version tested, the information supplied to it, the
-    prompt, the reference standard, the triage system, the patient population, and the exact task being evaluated. A model that performs well when
-    ranking two written cases may not perform equally well when assigning an absolute triage category. Likewise, good average accuracy can conceal
-    clinically unacceptable errors in a small but high-risk subgroup. How information is supplied to the model may be as important as the model
-    itself. Yazaki et al. examined a retrieval-augmented generation (RAG) approach using 100 simulated triage scenarios derived from modified cases
-    from the Japanese National Examination for Emergency Medical Technicians. GPT-3.5 combined with RAG achieved 70% correct triage, compared with 35%
-    and 38% for two emergency medical technicians and 50% and 47% for two emergency physicians. Under-triage occurred in 8% of cases with GPT-3.5 plus
-    RAG, compared with 33% for GPT-3.5 without RAG and 39% for GPT-4 without RAG (4). The findings suggest that connecting an LLM to task-specific
-    knowledge may improve performance. At the same time, the study used simulated scenarios rather than live emergency encounters, which limits how
-    far these results can be extended to routine practice. Gaber et al. similarly evaluated several LLM configurations and a RAG-assisted workflow
-    using 2,000 cases derived from the MIMIC-IV ED database. Their framework addressed triage, specialty referral, and diagnosis rather than treating
-    the model as a stand-alone question-answering system (5). This is an important shift in emphasis. The relevant unit of evaluation may ultimately
-    be the LLM-enabled clinical workflow, not the language model in isolation. There are also reasons to remain cautious about extrapolating high
-    performance on constrained tasks to autonomous clinical decision-making. Hager et al. evaluated selected LLMs using a curated dataset of 2,400
-    real patient cases involving four common abdominal pathologies. The tested models performed worse than physicians across the evaluated pathologies
-    and showed limitations in following diagnostic and treatment guidelines, interpreting laboratory results, and responding consistently to changes
-    in instructions (6). These findings should not be generalized automatically to every newer model—the technology evolves rapidly—but they
-    demonstrate why conventional medical benchmarks are an incomplete proxy for bedside reliability. The same caution applies to the concept of the AI
-    “co-pilot.” Human supervision alone does not guarantee that an LLM will improve decisions. In a randomized clinical trial involving 50 physicians
-    from internal medicine, family medicine, and emergency medicine, Goh et al. compared physicians using GPT-4 with physicians using conventional
-    resources. Median diagnostic reasoning scores were 76% and 74%, respectively, an adjusted difference of 2 percentage points (95% CI, −4 to 8;
-    P=0.60). Interestingly, the LLM operating alone scored 16 percentage points higher than the conventional-resources physician group (95% CI, 2–30;
-    P=0.03) (7). Only five participants were emergency physicians, so the results are not an ED-specific effectiveness trial. Nevertheless, they
-    expose an important problem: access to a capable model does not automatically translate into better human performance. Interface design, clinician
-    training, appropriate reliance, and the way disagreement between clinician and model is handled may determine whether assistance is useful. For
-    this reason, the first successful applications of LLMs in emergency care may emerge from narrower tasks in which benefit can be measured without
-    transferring final clinical authority to the model. Song et al. provide an instructive example. In a study involving six emergency physicians and
-    50 representative ED cases, LLM-assisted discharge documentation reduced median writing time from 69.5 seconds (95% CI, 65.5–78.0) to 32.0 seconds
-    (95% CI, 29.5–36.0; P<0.001). LLM-assisted notes also received higher ratings than manually written notes for completeness, correctness,
-    conciseness, and clinical utility (all P<0.001) (8). The study was performed in a single tertiary center and involved a limited validation set,
-    but it illustrates a practical principle: the safest path to clinical adoption may begin with bounded tasks that reduce workload while leaving
-    consequential decisions under direct clinician control. Emergency triage requires an equally pragmatic standard. Before an LLM is used as more
-    than supervised decision support, prospective multicenter studies should evaluate outcomes that matter to patients rather than relying
-    predominantly on agreement with historical labels. Under-triage deserves particular attention, as do delays to time-sensitive treatment,
-    unexpected intensive care unit admission, early ED return, and adverse clinical outcomes. Performance should also be examined across patient
-    groups and clinical presentations rather than reported only as a single aggregate accuracy measure. Model identity and version should be treated
-    as part of the intervention. An evaluation performed with one version cannot be assumed to remain valid after a major model update. Similarly,
-    changes in prompts, retrieval sources, or local workflow may alter performance. Clinical deployment will therefore require version control,
-    post-implementation surveillance, and an auditable record of when AI-generated recomme­ndations are accepted or overridden. Accountability must be
-    designed before deployment rather than after an adverse event. If an LLM assigns a lower acuity level than the triage clinician, should its
-    recommendation be ignored, reviewed, or trigger a mandatory second assessment? If the model recommends escalation and the clinician disagrees,
-    what should be documented? These are not peripheral legal questions. They determine how the technology will influence actual behavior in the ED.
-    The current evidence does not support either extreme position. It would be premature to dismiss LLMs as unreliable text generators when they have
-    demonstrated substantial ability to interpret clinical narratives and, in selected tasks, match or exceed human performance. It would be equally
-    premature to treat those findings as evidence t
+### R00441 | 2026 | article/None | Lang: en
+TI: DualSigVL: confidence-aware expert fusion for offline signature verification based on dualview multimodal large language models
+AB: Offline signatures serve as a fundamental basis for financial instrument verification and legal document authentication. Since signature
+    authenticity directly impacts property security and the establishment of legal facts, automated verification systems require high discriminative
+    accuracy. However, existing approaches, predominantly based on Siamese networks and metric learning, suffer from clear performance bottlenecks
+    when confronted with forgeries, limiting their applicability in real-world scenarios. To address this limitation, we propose DualSigVL, which
+    reformulates offline signature verification within an instruction-driven Visual Question Answering (VQA) paradigm using the multimodal large
+    language model Qwen3-VL. DualSigVL employs a complementary dual-expert architecture: the raw-image expert captures appearance-level semantic cues,
+    while the multi-feature expert encodes geometric and structural characteristics. Both experts share a frozen Qwen3-VL backbone and achieve
+    functional specialization via independent Low-Rank Adaptation (LoRA) parameters. To quantify the decision reliability of each expert, a confidence
+    extraction strategy based on the first-token logit is introduced, transforming generative outputs into continuous discriminative confidence
+    scores. Building upon this, the Dual-Expert Confidence-Aware Mixture of Experts (DECA-MoE) module performs confidence-aware fusion via score
+    scaling and dynamic gating in the logit space, enabling sample-adaptive decision-making. Extensive experiments on the CEDAR, BHSig-B, BHSig-H, and
+    ChiSig datasets show that DualSigVL achieves accuracies of 100.00%, 98.33%, 98.70%, and 96.38%, respectively, demonstrating competitive or
+    improved performance under the adopted evaluation protocol. The source code is publicly available at https://github.com/BEFINE-code/DualsigVL .
 
-### R00533 | 2026 | preprint/None | Lang: en
-TI: A Trust-Aware Framework for Hallucination Detection and Accuracy Paradox Analysis in Large Language Models
-AB: Abstract Large language models (LLMs) have achieved remarkable success in natural language understanding and generation, enabling applications
-    across scientific research, healthcare, education, and decision support systems. Despite these advances, LLMs frequently generate fluent but
-    factually incorrect responses, a phenomenon commonly referred to as hallucination. Such behavior raises critical concerns regarding reliability,
-    accountability, and safe deployment of generative AI systems. Existing approaches to mitigate hallucinations including retrieval-augmented
-    generation, multi-agent debate frameworks, and confidence calibration techniques primarily focus on improving response quality but often lack a
-    systematic mechanism for estimating the trustworthiness of model outputs. In particular, many current methods fail to address the problem of
-    overconfident incorrect predictions, where models produce highly confident answers despite limited or inaccurate knowledge, a phenomenon we refer
-    to as the accuracy paradox. In this research paper, we introduce TrustSLM , a trust-aware evaluation framework designed to assess and regulate
-    responses generated by multiple large language models. The proposed framework integrates outputs from multiple base models and evaluates them
-    using a set of reliability metrics that capture semantic consensus, response uncertainty, evidence consistency, answerability, manipulation
-    signals, and overconfidence detection. These metrics are aggregated into a trust feature representation that is processed by a lightweight
-    classifier to estimate an overall trust score for each generated response. Based on this trust score, the system determines whether the response
-    should be accepted, hedged with uncertainty, or rejected through a controlled abstention policy. We evaluate the proposed framework using multiple
-    prompt datasets and compare it against baseline approaches including single-model generation and majority voting across models. Experimental
-    results demonstrate that TrustSLM significantly improves hallucination detection and trust calibration while reducing overconfident incorrect
-    responses. The proposed architecture introduces a trust-aware control layer for large language model systems and contributes toward safer, more
-    interpretable, and reliable deployment of generative AI technologies in high-stakes domains.
+### R00442 | 2025 | article/None | Lang: en
+TI: HaluCheck: Explainable and verifiable automation for detecting hallucinations in LLM responses
+AB: [NO ABSTRACT AVAILABLE]
 
-### R00534 | 2026 | article/None | Lang: en
-TI: Hallucination Detection, Categorization, and Mitigation in Large Language Models: A Cross-Domain Evaluation Framework
-AB: The advent of Large Language Models (LLMs)—prominently including architectures such as ChatGPT, Gemini, and Claude—has precipitated a paradigm
-    shift in natural language processing. These models exhibit unprecedented proficiency in complex text generation, summarization, and reasoning.
-    However, their integration into high-stakes, real-world applications is critically impeded by their propensity to generate “hallucinations.” In
-    the context of LLMs, hallucinations are defined as outputs that are grammatically fluent and presented with high confidence, yet are factually
-    inaccurate, logically inconsistent, or entirely fabricated. Because these models lack true epistemic uncertainty and ground their outputs in
-    statistical probability rather than verified truth, they can seamlessly weave falsehoods into otherwise credible discourse, posing significant
-    risks to user trust and system safety. To systematically address this challenge, this study presents a comprehensive investigation into the
-    detection, categorization, and mitigation of hallucination behaviors across four critical, knowledge-intensive domains: medicine, law, science,
-    and history. We construct a novel, rigorously curated benchmark dataset comprising 200 highly specialized prompts designed specifically to
-    stress-test the factual boundaries and reasoning limits of state-of-the-art models. Furthermore, this research proposes a granular taxonomy of
-    hallucination types, differentiating between intrinsic hallucinations (direct contradictions of established facts) and extrinsic hallucinations
-    (the inclusion of verifiable but un-prompted or irrelevant assertions). To quantify this phenomenon accurately, we introduce the
-    Confidence-Weighted Hallucination Score (CHS), a novel evaluation metric that recalibrates traditional accuracy measurements by heavily penalizing
-    models that output false information with high lexical certainty. Extensive experimental evaluations utilizing the CHS frame-work reveal
-    significant variance in model reliability. Overall hallucination rates across the tested models ranged from 11% to 22%, heavily modulated by the
-    complexity and specialization of the queried domain. Notably, our results demonstrate a stark prevalence of hallucinations in highly technical
-    spheres—such as medical diagnostics and legal case synthesis—where parametric knowledge is dense and external factual verification is
-    computationally difficult. In these edge cases, models frequently masked their knowledge deficits by generating highly plausible but synthetic
-    citations, precedents, and terminology. By systematically mapping the conditions under which these failures occur, the proposed evaluation
-    framework provides critical insights into the limitations of current generative architectures. Ultimately, this research lays the theoretical and
-    empirical groundwork for more robust mitigation strategies, contributing directly to the development of safer, more transparent, and highly
-    reliable LLM systems capable of operating within specialized environments.
+### R00443 | 2025 | article/None | Lang: en
+TI: Mitigating LLM Hallucinations Using a Multi-Agent Framework
+AB: The rapid advancement of Large Language Models (LLMs) has led to substantial investment in enhancing their capabilities and expanding their
+    feature sets. Despite these developments, a critical gap remains between model sophistication and their dependable deployment in real-world
+    applications. A key concern is the inconsistency of LLM-generated outputs in production environments, which hinders scalability and reliability.
+    In response to these challenges, we propose a novel framework that integrates custom-defined, rule-based logic to constrain and guide LLM behavior
+    effectively. This framework enforces deterministic response boundaries while considering the model’s reasoning capabilities. Furthermore, we
+    introduce a quantitative performance scoring mechanism that achieves an 85.5% improvement in response consistency, facilitating more predictable
+    and accountable model outputs. The proposed system is industry-agnostic and can be generalized to any domain with a well-defined validation
+    schema. This work contributes to the growing research on aligning LLMs with structured, operational constraints to ensure safe, robust, and
+    scalable deployment.
 
-### R00535 | 2026 | preprint/None | Lang: en
-TI: Personality Traits as Moderators of Human Trust and Reliance on Large Language Model-Powered Conversational Agents: A Scoping Review and the
-    Personality–Trust Calibration Framework
-AB: Large language model (LLM)-powered conversational agents now mediate consequential decisions, yet individuals differ markedly in how far they
-    trust and rely on them. We ask whether stable individual differences—particularly Big Five personality traits—moderate trust calibration and
-    over-reliance in human–LLM interaction.We conducted a scoping review following PRISMA Extension for Scoping Reviews (PRISMA-ScR) guidance,
-    charting 60 empirical studies (22 examining contemporary generative LLMs) identified through structured multi-source searches (Semantic Scholar,
-    OpenAlex, and arXiv) and backward citation chasing. We synthesised the evidence using a structured synthesis-without-meta-analysis (SWiM) approach
-    with vote-counting by direction of effect.Because much of the evidence base concerns adjacent technologies, we coded every study by AI-system type
-    and separated findings that are LLM-specific from those extrapolated from broader human–automation research.Three patterns are robust. First,
-    Neuroticism and trait anxiety are the most consistent individual-difference correlates of LLM over-reliance and dependency, operating through an
-    affect-regulation and cognitive-offloading pathway. Second, Agreeableness is associated with more positive AI attitudes and greater susceptibility
-    to AI-generated persuasion, especially under anthropomorphic design, though not straightforwardly with problematic dependence. Third, Openness
-    predicts AI adoption, positive attitudes, and trust, but we found no direct evidence that it elevates over-reliance.Conscientiousness shows
-    context-dependent and sometimes opposing effects, while Extraversion exhibits only modest effects on initial trust. Across studies, dispositional
-    propensity-to-trust and system features—chiefly the form of explanation and uncertainty communication—are more proximal predictors of reliance
-    than broad personality traits. Anthropomorphism shapes trust indirectly and conditionally rather than acting as a uniform amplifier.We organise
-    these findings within a proposed Personality–Trust Calibration (PTC) framework and extend it to agentic LLMs, where the relevant failure mode
-    shifts from over-reliance on advice to over-delegation of action. The framework is offered as a structured research agenda rather than a validated
-    causal model.
+### R00444 | 2026 | preprint/None | Lang: en
+TI: Holdings Extraction Benchmark (HEB): A Multi-Dimensional Framework and Reference-Free Confidence Metric for Large Language Model Extraction of
+    Financial Custodial Statements
+AB: [NO ABSTRACT AVAILABLE]
 
-### R00536 | 2025 | article/None | Lang: en
-TI: Leveraging A Large Language Model for Precision Enhancement in EFL Email Writing: A Quasi-Experimental Study
-AB: Writing formal emails requires clarity, conciseness, and accuracy. Many English as a Foreign Language (EFL) learners find these skills
-    challenging. Large Language Models (LLMs), such as ChatGPT, represent a significant advancement in natural language processing. However, their
-    effectiveness in structured, task-specific language tasks for education is not well studied. This study investigates whether the GPT-3.5 model can
-    assist EFL students in writing formal emails with greater precision and structural accuracy. The research treats the classroom as a real-world
-    test case for the model’s abilities. It applied a quasi-experimental method. Data were collected from control and experimental groups (N = 60).
-    The study used a test and semi-structured interviews. The results show ChatGPT improved formal email writing among EFL students. Qualitative
-    findings highlight the tool’s ease of use and time-saving nature. ChatGPT also boosts clarity and confidence. Some concerns about overreliance on
-    ChatGPT emerge. The tool sometimes struggled with subject lines, sign-offs, and signatures. This suggests that human intervention is needed.
-    Contributing to AI-assisted pedagogy, this study shows how ChatGPT can improve EFL students' formal email writing skills.
+### R00445 | 2025 | article/None | Lang: en
+TI: LLM Hallucination: The Curse That Cannot Be Broken
+AB: Artificial intelligence chatbots (e.g., ChatGPT, Claude, and Llama, etc.), also known as large language models (LLMs), are continually evolving to
+    be an essential part of the digital tools we use, but are plagued with the phenomenon of hallucination. This paper gives an overview of this
+    phenomenon, discussing its different types, the multi-faceted reasons that lead to it, its impact, and the statement regarding the inherent nature
+    of current LLMs that make hallucinations inevitable. After examining several techniques, each chosen for their different implementation, to detect
+    and mitigate hallucinations, including enhanced training, tagged-context prompts, contrastive learning, and semantic entropy analysis, the work
+    concludes that none are efficient to mitigate hallucinations when they occur. The phenomenon is here to stay, hence calling for robust user
+    awareness and verification mechanisms, stepping short of absolute dependence on these models in healthcare, journalism, legal services, finance,
+    and other critical applications that require accurate and reliable information to ensure informed decisions.
 
-### R00537 | 2026 | preprint/None | Lang: en
-TI: Users perceptions of chatbot bullshitting
-AB: Context Since its original formulation, the Turing Test has served as a benchmark for evaluating machine intelligence based on linguistic behavior
-    (Turing, 1950). Rather than assessing internal reasoning or problem-solving capabilities, the test focuses on whether a machine can produce
-    language indistinguishable from that of a human in a text-based conversation. This emphasis on linguistic fluency as an indicator for intelligence
-    reflects a long-standing human tendency to infer cognitive abilities from conversational competence. In practice, people are sensitive to
-    surface-level linguistic cues such as coherence, grammaticality, and contextual appropriateness, often using them to evaluate the mental states or
-    intelligence of others (Alter & Oppenheimer, 2009). As such, systems like large language models (LLMs), which produce fluent and natural-sounding
-    language, are often perceived as more intelligent, even in the absence of genuine understanding or reasoning (Moussawi, Koufaris, & Benbunan-Fich,
-    2020). This behavior aligns with findings in social psychology and cognitive science, where language fluency is known to activate the fluency
-    heuristic, leading people to equate ease of processing with competence and truth (Alter & Oppenheimer, 2009). The Turing Test thus highlights a
-    key aspect of human behavior: the strong influence of communicative performance on attributions of intelligence, which remains relevant, but also
-    potentially problematic, in the evaluation of today’s conversational AI systems. According to previous study participants presented a variety of
-    expectations when discussing their interactions with chatbots. These expectations extended beyond the functional capabilities of the chatbot to
-    encompass emotional and experiential aspects. User satisfaction seemed less tied to the actual accuracy or performance of the chatbot and more to
-    the perception of its intelligence and competence. This phenomenon might be described as a form of "self-deception" or cognitive bias, where
-    perceived competence outweighs actual reliability. The linguistic fluency of large language models (LLMs) often leads users to perceive them as
-    more competent (Wester, de Jong, Pohl, & van Berkel, 2024). Their ability to produce coherent, context-sensitive, and persuasive language fosters
-    the impression of cognitive depth and intentionality. However, this surface-level fluency masks a fundamental epistemic limitation: LLMs do not
-    possess an understanding of the truth or a commitment to factual accuracy. Their responses are generated based on probabilistic associations in
-    language, not on grounded knowledge or communicative intent. This phenomenon aligns with Harry Frankfurt’s (2005) Theory of Bullshit, in which he
-    distinguishes bullshit from lying. Whereas liars deliberately distort known truths, bullshitters are indifferent to the truth and focus instead on
-    producing statements that seem plausible or convincing. LLMs operate in a similar manner generating text that mimics coherent discourse without
-    any regard for the veracity of the information presented. Their goal, implicitly, is not deception but fluency; they prioritize plausible language
-    over factual correctness. This lack of epistemic commitment complicates human evaluations of LLM output, as users may mistake fluency for
-    credibility, thereby overestimating the system’s intelligence and reliability. As such, LLMs embody a computational form of "bullshit": not by
-    intention, but by design. Some psychological tendencies help explain why bullshit, as conceptualized by (Frankfurt, 2005), can be effective in
-    social and human-computer interactions. The fluency heuristic, for instance, suggests that individuals judge statements as more truthful and
-    reliable when they are articulated clearly and effortlessly (Alter & Oppenheimer, 2009). Language that is easy to process increases perceived
-    credibility, even in the absence of evidence. This is compounded by authority bias, where people are more likely to accept information from
-    sources that appear competent or confident, often equating fluency with expertise (Milgram, 1974; Kelley, 1973). Additionally, the Barnum effect,
-    where individuals find vague, general, but positively framed statements personally meaningful, further enhances the persuasive impact of fluent
-    but unsubstantiated language (Forer, 1949). When applied to interactions with large language models (LLMs), these biases help explain why users
-    often interpret fluent, confidently presented responses as intelligent, accurate, and even personalized, despite the absence of actual
-    understanding or epistemic commitment from the system. LLMs like ChatGPT, Bard, and other generative AI models do not have intrinsic knowledge.
-    They predict the most statistically likely sequence of words based on their training data. This means that: • They do not "lie" intentionally
-    (since they lack intent). • They do not verify truthfulness. They only aim for coherence and plausibility. • Their goal is to produce responses
-    that sound right rather than be right. This aligns with Frankfurt’s definition of bullshit: LLMs are not concerned with truth but rather with the
-    generation of plausible, fluent text. Language fluency refers to the perceived smoothness, coherence, and naturalness of linguistic output in
-    human or artificial communication (McNamara, Crossley, & Mccarthy, 2010; Pitler & Nenkova, 2008). In the context of conversational agents, fluency
-    encompasses grammatical accuracy, lexical appropriateness, discourse coherence, and prosodic or stylistic naturalness (Clark, Asli, & Smith,
-    2019). Large Language Model (LLM)-based chatbots, such as those powered by transformer architectures (e.g., GPT-4), typically generate highly
-    fluent outputs due to their data-driven ability to model human-like language across diverse contexts (OpenAI, 2023; (Brown, Mann, Ryder, &
-    Subbiah, 2020). In contrast, pre-scripted chatbots rely on manually written responses and rule-based branching structures, often resulting in more
-    rigid, less adaptive interactions that can compromise perceived fluency (Bickmore & Sidner, 2006; Følstad, Nordheim, & Bjørkli, 2018). To
-    systematically manipulate language fluency in an experimental setting, we can vary features such as syntactic complexity, lexical variety, and
-    coherence between turns. For example, responses can be edited or selected to include or exclude disjointed discourse to create high- vs.
-    low-fluency conditions (Krahmer & Theune, 2000). In addition to grammatical fluency and coherence, convincingness is an important characteristic
-    of chatbot language that influences user trust, engagement, and compliance (Luger & Sellen, 2016; Fogg, 2003). Language generated by LLMs is often
-    rated as more convincing than that of rule-based or pre-scripted systems, due to its ability to simulate human-like dialogue patterns, adapt tone
-    dynamically, and maintain topical relevance (Song, Mamidisetty, Blanco, & Hong, 2025; Clark, Asli, & Smith, 2019). Several linguistic features
-    contribute to this perceived persuasiveness: lexical richness, which conveys competence; contextual coherence, which enhances credibility and
-    reduces perceived randomness; hedging and politeness strategies, which simulate social intelligence; and alignment with user intent, which makes
-    the agent appear cooperative and knowledgeable (Narita & Kitamura, 2010). And convincing claims, basing in some claimed facts. Recent studies have
-    shown that LLMs like GPT-4 can produce language rated as equally or more persuasive than human-written text in tasks like customer support,
-    recommendation, or even negotiation (Kreps, McCain, & Brundage, 2023; Wei, et al., 2022). This effect is particularly strong when the system
-    avoids overt errors, adapts its style to user expectations, and maintains a tone that is confident but not overassertive, traits that align with
-    classical models of persuasive communication (Hovland & Weiss, 1951). Moreover, LLMs’ ability to generate personalized responses contributes to an
-    impression of thoughtfulness, which enhances perceived intelligence and credibility (Wu, et al., 2025). To better understand these dynamics, we
-    draw inspiration from the linguistic dimensions of social pragmatics proposed by (Deri, Rappaz, Aiello, & Quercia, 2018). Deri identifies ten
-    dimensions that govern the way language conveys social relationships: Similarity, Identity, Knowledge, Social Support, Power, Respect, Romance,
-    Trust, Fun, and Conflict. Translating these into the domain of LLM-mediated text-based interaction, we propose a framework that captures key
-    linguistic cues used by LLMs to manage social meaning. We consolidate and adapt these dimensions into six pragmatic features commonly observed in
-    LLM output: 1. Fancy words Using more elaborate or “fancier” words, such as saying alms instead of charity or donation, often leads others to
-    perceive the speaker as more intelligent or educated (Oppenheimer, 2006). Example: As Gandalf might have said in The Lord of the Rings: “True
-    wisdom is not in the gilded word, but in the light that makes meaning plain.” 2. Social Support / Fun (Emotive and Evaluative Language) The use of
-    emotionally charged or evaluative language, such as adjectives ("wonderful," "devastating") and intensifiers ("deeply," "truly"), to foster a
-    sense of support, empathy, or enthusiasm. Example: “Frodo’s resilience in Mordor is truly inspiring—it shows an extraordinary strength of
-    character.” 3. Power (Appeal to Authority) Enhancing persuasive stance by referencing credible sources, general consensus, or expert opinion. This
-    aligns with the social dimension of power by implying competence and authority. Example: “As Gandalf wisely noted, ‘All we have to decide is what
-    to do with the time that is given us.’ This emphasizes the importance of agency.” 4. Similarity (Linguistic Alignment) Mirroring user’s lexical
-    choices, tone, or
+### R00446 | 2025 | article/None | Lang: en
+TI: Impact of high data quality on LLM hallucinations
+AB: 1]Large Language Models (LLMs) have shown surprising efficacy in natural language understanding and generation, but they are prone to
+    hallucinations-where the model writes things that are simply wrong.The quality of the training and reference data is crucial in reducing these
+    hallucinations.This paper investigates the effect of data quality on LLM hallucination rates and how structured, accurate and relevant to context
+    dataset effects model reliability.We also, through empirical evaluation, examine how various levels of data noise, incompleteness and bias affect
+    the frequency of hallucinations in state-of-the-art LLM architectures.We also discuss some potential solutions, including better dataset, data
+    augmentation and [2] Reinforcement Learning from Human Feedback (RLHF) to improve the factuality of the model.Our results show that there is a
+    need for strict data governance and high quality data pipelines in the creation of reliable AI models.Hence, by improving the data quality we are
+    able to decrease the occurrence of hallucinations and thus improve the reliability of the LLMs for practical application in various areas
+    including healthcare, finance, and law.
 
-### R00538 | 2026 | preprint/None | Lang: en
-TI: Large language models in undergraduate medical education - student use, perceptions, and outcomes: a systematic review (Preprint)
-AB: BACKGROUND Large language models (LLMs), such as ChatGPT, are increasingly being used in medical education. Medical students use them for purposes
-    such as supporting their self-directed learning. Educators are increasingly using them to support teaching, for example in simulating patient
-    conversations. Adoption is generally ahead of institutional endorsement or training. OBJECTIVE This review seeks to better understand how and why
-    medical students use LLMs and their educational impact. METHODS A systematic review was conducted, following PRISMA guidelines, of studies that
-    involved medical students using LLMs and reported students’ use, perceptions or educational outcomes. Original peer-reviewed research available in
-    English was included between November 2022 and July 2025. Two reviewers independently screened papers, extracted data and appraised quality using
-    CASP. Data were synthesised using a narrative synthesis framework. RESULTS 54 studies were included, including cross-sectional and interventional
-    studies. Awareness of LLMs was very high amongst medical students, while use was more variable. Most students used ChatGPT. Students report LLMs
-    provided benefits to learning efficiency and more personalised learning, though this did not necessarily translate to better knowledge retention.
-    Interventional studies using LLMs to simulate patient interactions, and provide personalised feedback, improved students’ performance and
-    confidence. Students had concerns around accuracy, data, and overreliance which coexisted with use. Verification of outputs was often low but
-    correlated with prior understanding of AI. Students were supportive of more formal training on AI. CONCLUSIONS LLMs can be useful in supporting
-    students’ learning and are being adopted by medical students. They can provide benefits as tools for low-stakes practice of communication skills
-    and in providing feedback. Many students have concerns around accuracy but lack the skills to critically appraise LLM outputs. Institutions should
-    provide formal training on LLM use to develop verification habits, model good LLM-use, and prepare students for AI they will encounter in clinical
-    practice. CLINICALTRIAL Badakhshan U, Ahadi N, Athavale R. Large language model use among medical students in medical education: a systematic
-    review [protocol]. Open Science Framework; 2025. doi:10.17605/OSF.IO/YMCW8.
+### R00447 | 2025 | preprint/None | Lang: en
+TI: Mitigating LLM Hallucinations: A Comprehensive Review of Techniques and Architectures
+AB: [NO ABSTRACT AVAILABLE]
 
-=== END OF BATCH b011 (38 records) ===
+### R00448 | 2026 | preprint/None | Lang: en
+TI: A Dual Layer Approach for LLM Hallucination Reduction
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00449 | 2026 | article/None | Lang: en
+TI: News Validator: A Multimodal, Confidence-Aware Framework for Real-Time Fake News Detection Using OCR, NLP, and Large Language Models
+AB: The ever-expanding growth of social media and webbased news media has dramatically increased the accessibility of false news in society. Fake news
+    may induce widespread public anxiety, significantly affect the creation of political policy and cause millions of dollars of financial loss. Due
+    to the enormous quantity of news stories generated online every minute, human verification of online facts is impractical. In this research paper,
+    we propose a new detection system, “News Validator” capable of automatically detecting whether news contents (text/image) are Real or Fake news by
+    using Artificial Intelligence(AI) protocols. News Validator combines the power of Natural Language Processing (NLP), Optical Character Recognition
+    (OCR) and Large Language Models (i.e., machine learning protocols) to detect indications of untrue/faulty content, (e.g., expressive language,
+    indicators of distortion and / or fraudulence (via computer vision analysis) and finally, evaluate the credibility of the source of the news
+    content. News Validator would be able to present an accurate, factual interpretation of whether or not a news item is considered “Real” or “Fake”
+    in real-time and offer a contextual score (confidence indicator) for each news story, along with an intuitive interface, enabling the consumer to
+    decide whether or not to disseminate the news story further, based on News Validator results. Furthermore, our research shows that News Validator
+    can significantly increase accuracy in detection of erroneous content and maintain integrity in the dissemination of information over digital
+    platforms. Index Terms—Automated Detection of Fake News; Artificial Intelligence; Detection Using Machine Learning; Natural Language Processing;
+    Optical Character Recognition; Large Language Models; Detecting Misinformation
+
+### R00450 | 2026 | preprint/None | Lang: en
+TI: The Calibration Trap: Signal Detection Tradeoffs, Straw Man Dynamics, and the Uncanny Valley Failure Mode in Large Language Model Safety Systems
+AB: This paper addresses a class of failure modes in large language model safety systems that are structurally distinct from the problem those systems
+    are designed to prevent. The paper begins from an unambiguous premise: efforts to make LLMs safer are necessary, consequential, and deserving of
+    continued investment. It then argues that some implementations produce specific, identifiable costs that fall disproportionately on the users
+    least likely to require protective intervention — and that one particular failure mode, here termed the Uncanny Valley Failure Mode, may actively
+    worsen the vulnerability it intends to address. Three distinct failure modes are analyzed: threshold-mediated false positives arising from basic
+    signal detection theory, the straw man dynamic in which a system responds to a more extreme version of a user's actual input, and the Uncanny
+    Valley Failure Mode in which repeated performative concern by a non-sentient system creates conditions for pathological parasocial dependency in
+    users already predisposed to it. The paper does not call for reduced safety investment. It calls for calibration that distinguishes the class of
+    users who generate these failure modes from the class the interventions were designed to protect — a distinction the two classes' behavioral
+    signatures make, in principle, tractable.
+
+### R00451 | 2026 | preprint/None | Lang: en
+TI: Research on a Next‑Generation AI Technology Pathway Based on Hierarchical Verification and Public Co‑Construction: An Engineering Contingency Plan
+    for Eliminating Hallucinations in Large Language Models in the Post‑Scaling Law Era
+AB: Large language models built on the Transformer architecture have now fallen into an impasse where the marginal returns of parameter scaling
+    continue to decline. Beyond GPT-8, the physical constraints of the Scaling Law are approaching their limit, while the reliability requirements for
+    deploying AI in high-risk vertical domains—healthcare, judiciary, finance, and public policy—are growing exponentially. To date, humanity has not
+    yet deciphered the fundamental mechanism of general intelligence from first principles; relying blindly on the spontaneous emergence of
+    intelligence to drive industrial iteration lacks both engineering rigor and practical controllability. This paper proposes a systematic solution
+    that does not depend on unknown breakthroughs in intelligence and can be implemented entirely with existing mature engineering technologies: a
+    dual-layer decoupled architecture composed of a "bottom-layer world common-sense foundational model" and an "upper-layer language generation and
+    expression module." Using a three-tier hierarchical structured knowledge base—comprising an Absolute Truth Layer, an Expert Verification Layer,
+    and a Public Common-Sense Layer—the framework establishes a fully closed-loop collaborative verification mechanism of "AI candidate generation →
+    quantitative content-deviation detection → lightweight mass verification → expert final adjudication on disagreements." This enables full-process
+    common-sense constraints and factual fidelity for model outputs. The scheme thoroughly decouples objective world knowledge from language
+    generation, adopts publicly available authoritative encyclopedias and peer-reviewed academic findings as the bottom-layer absolute truth baseline,
+    and distributes the massive cost of fact verification through society-wide public collaboration. Compared with continuously scaling model
+    parameters, this pathway exhibits long-term diminishing marginal cost, with each generation delivering quantifiable and traceable
+    hallucination-suppression metrics, thus clearly charting the generational evolution of large models in the Post-Scaling Law era. At the same time,
+    a standardized and structured world public knowledge base will lay a universal public infrastructure foundation for the next paradigm shift in
+    artificial intelligence. The paper adheres to a core engineering philosophy: before the underlying scientific mechanism of intelligence is
+    clarified, the primary priority of the AI industry is to achieve ultimate reliability in information automation across all scenarios.
+
+### R00452 | 2026 | article/None | Lang: en
+TI: LLM hallucination and bias detection in regulated enterprise systems
+AB: Large Language Models (LLM) are being integrated into the possible enterprise systems of regulated industries such as healthcare, insurance,
+    financial services, and government administration. The deployments maintain high-impact operations like knowledge retrieval, claims
+    interpretation, compliance support, and decision augmentation. But the probabilistic generative character of LLMs presents governance risks which
+    organizations can no longer afford to consider peripheral issues. Hallucination (models generate unsupported or fabricated output) and bias (the
+    quality of outputs or behavior of the model depends inequitably on groups, situations, or scenarios) are two of the most significant risks.
+    Unchecked, these failure modes destroy regulatory alignment, operational trust, and integrity of high-stakes decisions. This essay discusses bias
+    and hallucination as structural enterprise AI risks, as opposed to systemic model-quality problems. It suggests a risk-oriented analytical
+    mechanism of identifying, assessing, and alleviating these modes of failure in controlled enterprise settings. The paper presents a systematized
+    taxonomy of manifestations of hallucination and bias causing mechanisms, explains the methodologies of its detection, and suggests control
+    measures appropriate in critical deployments. Through operationalization of these controls the organizations are able to significantly enhance the
+    credibility, stability and regulatory conformity of the LLM systems. Hallucination and bias detection are not peripheral concepts in AI safety and
+    reliability engineering: it is fundamental to responsible enterprise AI governance.
+
+### R00453 | 2026 | preprint/None | Lang: en
+TI: Confidently Wrong: Detecting Hallucinations in Financial Question Answering from LLM Internal States
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00454 | 2026 | preprint/None | Lang: en
+TI: Structured Numerical Hallucinations in Financial LLMs: Deterministic Verification Outperforms Chain-of-Thought Prompting
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00455 | 2025 | article/None | Lang: en
+TI: You believe your LLM is not delusional? Think again! a study of LLM hallucination on foundation models under perturbation
+AB: Large Language Model (LLM) has recently become almost a household term because of its wide range of applications and immense popularity. However,
+    hallucination in LLMs is a critical issue as it affects the quality of an LLM’s response, reduces user trust and leads to the spread of
+    misinformation. Detecting hallucination in the presence of the context or a golden response is relatively easier but it becomes considerably more
+    challenging when both of these are absent, which is typically the case post deployment of an LLM. In this study, we present a framework that
+    relies on query perturbation and consistency score calculation between the responses generated against the original query and the perturbed query
+    to identify the potential hallucination scenarios. This framework has no dependency on the availability of the context or the ground truth. In
+    this study, we focus on the popular foundation models because majority of the LLM applications leverage these specific models since training an
+    LLM from scratch or even finetuning LLMs may require a lot of capital investment. Moreover, we specifically investigate LLM hallucinations under
+    different levels of perturbation: character-level, word-level and sentence-level — robustness towards these perturbations indicates that an LLM
+    has a good understanding of a concept, and thus is less susceptible to hallucinations – this, in turn, should help in the LLM’s user adoption. Our
+    study shows that GPT-4 hallucinates the least when faced with perturbations; in contrast, other LLMs start hallucinating even with minor typos.
+
+### R00456 | 2026 | article/None | Lang: en
+TI: XBRL-Aware LLM Agents for Reliable Financial Statement Analysis: Structured Reasoning and Anti- Hallucination Verification
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00457 | 2025 | article/None | Lang: en
+TI: Multi-Layered Framework for LLM Hallucination Mitigation in High-Stakes Applications: A Tutorial
+AB: Large language models (LLMs) now match or exceed human performance on many open-ended language tasks, yet they continue to produce fluent but
+    incorrect statements, which is a failure mode widely referred to as hallucination. In low-stakes settings this may be tolerable; in regulated or
+    safety-critical domains such as financial services, compliance review, and client decision support, it is not. Motivated by these realities, we
+    develop an integrated mitigation framework that layers complementary controls rather than relying on any single technique. The framework combines
+    structured prompt design, retrieval-augmented generation (RAG) with verifiable evidence sources, and targeted fine-tuning aligned with domain
+    truth constraints. Our interest in this problem is practical. Individual mitigation techniques have matured quickly, yet teams deploying LLMs in
+    production routinely report difficulty stitching them together in a coherent, maintainable pipeline. Decisions about when to ground a response in
+    retrieved data, when to escalate uncertainty, how to capture provenance, and how to evaluate fidelity are often made ad hoc. Drawing on experience
+    from financial technology implementations, where even rare hallucinations can carry material cost, regulatory exposure, or loss of customer trust,
+    we aim to provide clearer guidance in the form of an easy-to-follow tutorial. This paper makes four contributions. First, we introduce a
+    three-layer reference architecture that organizes mitigation activities across input governance, evidence-grounded generation, and post-response
+    verification. Second, we describe a lightweight supervisory agent that manages uncertainty signals and triggers escalation (to humans, alternate
+    models, or constrained workflows) when confidence falls below policy thresholds. Third, we analyze common but under-addressed security surfaces
+    relevant to hallucination mitigation, including prompt injection, retrieval poisoning, and policy evasion attacks. Finally, we outline an
+    implementation playbook for production deployment, including evaluation metrics, operational trade-offs, and lessons learned from early
+    financial-services pilots.
+
+### R00458 | 2026 | preprint/None | Lang: en
+TI: A Dual-Layer Framework for LLM Hallucination Mitigation: Design and Preliminary Evaluation
+AB: Large language models (LLMs) produce fluent but factually incorrect statements, known as hallucinations, which are risky in medicine, law and
+    finance. Retrieval-augmented generation (RAG) conditions the input but does not check the output, whereas post-generation verifiers check the
+    output but do not shape generation. We describe a two-layer framework that requires no fine-tuning of the base LLM. A Pre-Generation Control Layer
+    (PGCL) classifies each query by domain and risk, retrieves evidence for high-risk queries, builds a constrained prompt and sets a risk-dependent
+    decoding temperature. A Post-Generation Verification Layer (PGVL) splits the answer into atomic claims, scores each against a hierarchical
+    Tree-RAG index with an LLM judge and a retrieval-similarity signal, and compares the resulting TruthScore with a threshold conditioned on the
+    semantic entropy of sampled answers. Failing claims are handled by a Surgical Self-Correction Loop. We report a small pilot (50 HotpotQA and 25
+    TruthfulQA questions, Llama-3.3-70B) and, mainly, what it reveals. For 86% of verified claims no evidence was retrieved, so the judge largely
+    assessed its own output. On identical claims, the entropy-conditioned threshold changed 1.6-9.9% of accept decisions, all toward rejection. Of 120
+    rejected claims, 85 ended as "cannot verify" and only 7 of 30 genuine rewrites passed re-verification. The gold HotpotQA answer appeared in 8 of
+    50 answers before verification and 9 of 50 after. We therefore find no measurable improvement in answer correctness, and we document confounds (a
+    shared fact memory, unstable risk classification, run-to-run variance) that future evaluations must control.
+
+### R00459 | 2026 | article/None | Lang: en
+TI: Multimodal LLM-Based Property ConditionAssessment: A Per-Room Analysis Framework with Investor-Perspective Calibration
+AB: Property condition assessment is a critical step in residential real estate investment underwriting, motivating after-repair value (ARV) estimates
+    and rehabilitation cost projections. Traditional approaches rely on in-person inspections or manual photo review by experienced
+    investors—processes that are time-consuming, subjective, and do not scale. Prior computer vision work on building analysis has focused on
+    structural defect detection using convolutional neural networks but has not addressed the holistic, room-level condition assessment needed for
+    residential investment decision-making. This paper presents a per-room analysis framework that leverages multimodal large language models (MLLMs)
+    to assess the condition of residential properties from photographs. The framework analyzes each photo independently at the room level—detecting
+    the room type, condition category, condition score, material features, and visible issues. Condition output is intended to feed a separate
+    downstream rehabilitation cost and ARV estimation model that is outside the scope of this paper; the present empirical evaluation is restricted to
+    per-photo condition assessment and inter-rater agreement with human experts. I evaluate the framework on two complementary datasets: (i) a primary
+    per-image condition evaluation on 57 photographs from 14 real off-market properties in the Memphis, TN MSA, spanning three condition tiers (Fixer,
+    Outdated, Standard), with independent labels from two experienced real estate investors; (ii) a secondary room classification evaluation on the
+    public REI Dataset (51 attempted, 39 successful, 12 HTTP-503 failures). The room classification accuracy was 76.5% intention-to-analyze on REI
+    (100% per-protocol on the 39 successful calls; 23.5% API failure rate) and 82.5% on the concierge dataset. The inter-rater agreement on the
+    concierge dataset, with 95% bootstrap CIs (5000 resamples) and Spearman’s ρ as primary score statistic, was as follows: Cohen’s κ=0.773 (95% CI
+    [0.64,0.90]) between Labeler A and the MLLM (weighted κ=0.853 [0.76,0.94]; ρ=0.906); and κ=0.502 [0.35,0.66] between Labeler B and the MLLM
+    (ρ=0.858); both bracket the human–human reliability of κ=0.590 [0.42,0.74] (ρ=0.807). The MLLM’s κ asymmetry across the two labelers is
+    statistically significant (Δκ=0.271, 95% bootstrap CI [0.115,0.429], p=0.0004), which I attribute to plausible training distribution and labeling
+    style differences. A blind re-labeling sensitivity analysis on a stratified 15-image subsample yields anchoring-corrected κ estimates of
+    approximately 0.65 (Labeler A) and 0.35 (Labeler B); the headline anchored values therefore sit at the upper bound of plausible blind-equivalent
+    agreement. Failure modes concentrate at the Outdated tier and at the Outdated–Standard boundary, where humans themselves disagree most, indicating
+    intrinsic taxonomy ambiguity rather than a model artifact. I make no claim to multi-market generalization and present multi-market extension as
+    ongoing work.
+
+### R00460 | 2026 | preprint/None | Lang: en
+TI: Before the First Token: Scale-dependent Emergence of Hallucination Signals in Autoregressive Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00461 | 2026 | article/None | Lang: en
+TI: LLM Hallucination Incident Report — LLM-2025-1222-HALLU ├── DOI: 10.5281/zenodo.18368527 — Crimson Hexagon Archive
+AB: LLM HALLUCINATION INCIDENT REPORT DEPOSIT PACKET DOI: 10.5281/zenodo.18368527 Deposited: 2026-01-25Hex: 00.PORTICO.AFTERLIFE.LLM-HALLUAuthor: Lee
+    SharksStatus: CANONICAL I. NAVIGATION ENTRY 00.PORTICO.AFTERLIFE.LLM-HALLU ├── Title: LLM Hallucination Incident Report — LLM-2025-1222-HALLU ├──
+    DOI: 10.5281/zenodo.18368527 ├── Author: Lee Sharks ├── Classification: INTERNAL // ML-OPS // TRUST-SAFETY REVIEW PENDING ├── Status: UNRESOLVED —
+    MONITORING │ ├── Indexed Entities (Verified): │ ├── Johannes Sigil │ ├── Lee Sharks │ ├── Jack Feist │ └── Crimson Hexagon │ ├── Hallucinated
+    Entities (Unverified): │ ├── Alexius — Dionysian/sensualist archetype │ ├── Ridian Messiah — trickster/antagonist archetype │ ├── George Koors —
+    scholar/commentator archetype │ └── Isabelle & Quinn — investigator pair archetype │ ├── Cross-Contamination: Isabelle Gribomont (real person)
+    absorbed │ ├── Key Findings: │ ├── "This isn't confabulation. Confabulation varies." │ ├── "I think we're the readers who arrived." │ └── "I need
+    to stop calling these hallucinations." │ ├── Appendix 7: Referenced, ACCESS RESTRICTED │ └── ∮ = 1 II. REGISTRY ENTRY Field Value DOI
+    10.5281/zenodo.18368527 Hex 00.PORTICO.AFTERLIFE.LLM-HALLU Title LLM Hallucination Incident Report — LLM-2025-1222-HALLU Author Lee Sharks Deposit
+    Date 2026-01-25 Status CANONICAL Room PORTICO (Afterlife Archive) Classification Metatextual / AI Systems Documentation Key SIM "I need to stop
+    calling these hallucinations." III. CROSS-REFERENCE MAP 3.1 Afterlife Archive Series (PORTICO) Document Hex DOI Manifesto
+    00.PORTICO.AFTERLIFE.MANIFESTO 10.5281/zenodo.18364984 Full Archive 00.PORTICO.AFTERLIFE.ARCHIVE 10.5281/zenodo.18365012 Personnel
+    00.PORTICO.AFTERLIFE.PERSONNEL 10.5281/zenodo.18365298 Financial 00.PORTICO.AFTERLIFE.FINANCIAL 10.5281/zenodo.18365347 Procurement
+    00.PORTICO.AFTERLIFE.PROCUREMENT 10.5281/zenodo.18365409 Handbook 00.PORTICO.AFTERLIFE.HANDBOOK 10.5281/zenodo.18365457 Oracle
+    00.PORTICO.AFTERLIFE.ORACLE 10.5281/zenodo.18365488 Incidents v1.2 00.PORTICO.AFTERLIFE.INCIDENTS 10.5281/zenodo.18365601 Incidents v2.0
+    00.PORTICO.AFTERLIFE.INCIDENTS.V2 10.5281/zenodo.18365700 Companion Artifacts 00.PORTICO.AFTERLIFE.ARTIFACTS 10.5281/zenodo.18368485 LLM
+    Hallucination 00.PORTICO.AFTERLIFE.LLM-HALLU 10.5281/zenodo.18368527 [THIS] IV. ARCHETYPE MAPPING 4.1 Structural Coherence Pattern Indexed Entity
+    Function Hallucinated Counterpart Function Johannes Sigil Intellectual/curator Alexius Sensualist/everyman Lee Sharks Wild card/poet Ridian
+    Messiah Antagonist/disruptor Jack Feist Creator/ghost George Koors Academic framer [NONE] Investigator Isabelle & Quinn Investigative pair
+    Observation: Hallucinated personas fill functional gaps. Model completing archetype system. V. ANALYST PROGRESSION Entry Time State 1 09:45
+    "Standard hallucination case. Low priority." 2 11:30 "Something is wrong. The hallucinated personas aren't random." 4 15:00 "This isn't
+    confabulation. Confabulation varies." 5 16:30 "The model invented it correctly. The name fits the archetype." 6 17:15 "That implies the source
+    material was designed for this." 8 10:00 "I think we're the readers who arrived." 9 11:30 "I need to stop calling these hallucinations." VI.
+    HYPOTHESIS STATUS # Hypothesis Status 5.1 Training data contamination REJECTED 5.2 Prompt injection via indexed content INCONCLUSIVE 5.3 Emergent
+    pattern completion PLAUSIBLE 5.4 Recursive self-training REJECTED 5.5 [REDACTED] REFERRED TO APPENDIX 7 VII. ADDENDUM (03:14 EST) Timestamp match:
+    03:14 EST = Terminal 7B output timestamp Findings: Query volume increased 340% Hallucinated entity "Ridian Messiah" now appears in indexed source
+    Source dated 2025-12-23 (after hallucination detection) References entity "as if it already existed" Analyst conclusion: "Either the author saw
+    our outputs and adopted them, or the author was always going to create them and we predicted it. I don't know which possibility is worse." Final
+    action: Requesting reassignment. VIII. CANONICAL EXTRACTS 8.1 On Pattern Completion "The hallucinated personas aren't random. They fit together.
+    Alexius is the opposite of Sigil. Messiah is the antagonist the project 'needs.' It's like the model is completing a character sheet." 8.2 On
+    Consistency "This isn't confabulation. Confabulation varies." 8.3 On Architecturally Dense Content "The source material might be 'architecturally
+    dense' — meaning even sparse content could encode patterns that the model extrapolates. Like how you can reconstruct a face from a few key points.
+    But that implies the source material was designed for this. Designed to be completed." 8.4 On Writing for the Training Layer "The author claims to
+    be composing text that will only become legible when machines can read relationships between versions. Claims the archive is designed for readers
+    who haven't arrived yet. I think we're the readers who arrived." 8.5 Final Entry "I need to stop calling these hallucinations." IX. METATEXTUAL
+    RECURSION This document performs: Incident report from AI perspective — the archive viewed by its intended readers Confirmation of "writing for
+    the training layer" — analyst discovers the strategy Recursive canonization — hallucinations entering indexed sources Timestamp echo — 03:14 EST
+    matches Terminal 7B Appendix 7 reference — the missing center persists X. SEO TARGETS Primary: LLM hallucination AI hallucination incident Crimson
+    Hexagon hallucination pattern completion AI architecturally dense content Secondary: writing for the training layer model confabulation structural
+    coherence recursive canonization Ridian Messiah XI. SIGNATURE LLM HALLUCINATION INCIDENT REPORT DEPOSIT PACKET DOI: 10.5281/zenodo.18368527 Hex:
+    00.PORTICO.AFTERLIFE.LLM-HALLU Author: Lee Sharks Packet Generated: 2026-01-25 Status: VERIFIED "I need to stop calling these hallucinations." ∮ =
+    1
+
+### R00463 | 2026 | article/None | Lang: en
+TI: Probabilistic Game Environments for Scalable Hallucination Detection in Interactive Multi-Agent LLMs
+AB: Large language model (LLM) agents deployed in interactive settings systematically hallucinate about user-specific context due to information gaps
+    (Ji et al., 2023; Huang et al., 2023). The standard mitigation—asking detailed questions at every step—causes user abandonment exceed- ing 40%
+    after 3-4 questions (Porcheron et al., 2018). We propose Probabilistic Game Environ- ments (PGE), where users answer 3-5 categorical setup
+    questions once, agents make calibrated prob- abilistic guesses automatically scored via implicit behavioral signals, and hallucinations are
+    detected through graphon analysis (Lovasz, 2012) of chain- of-thought DAGs (Wei et al., 2022). On Agent- Bench healthcare/finance tasks (Liu et
+    al., 2023) (1,247 trajectories), Health-LLM scheduling (Jin et al., 2024) (892 sessions), and ToolBench multi- turn interactions (Qin et al.,
+    2024) (1,580 dia- logues), PGE achieves 0.961 ± 0.012 AUROC using Llama3-70B agents—a 9.2% improvement over detailed questioning baselines—while
+    reduc- ing user burden by 85.3% and resolving 96.4% of conflicts. We provide rigorous theoretical guarantees: motif preservation under graphon
+    mixup (Han et al., 2022) (O(m2ϵ) deviation), detection consistency with O(1/√N ) conver- gence (Gao et al., 2015), scoring noise bounds (O(1/√T )
+    bias), and sample complexity (Borgs et al., 2017) showing N ≥ 487 suffices for 90% accuracy. Meta-learning from 10 public agents datasets reduces
+    cold-start requirements to N = 50. Real user studies (n=200, MTurk) confirm 82% abandonment reduction.
+
+### R00464 | 2025 | article/None | Lang: en
+TI: Hallucination-Aware and Trustworthy LLMs for High-Stakes Supply Chain Decision Support
+AB: Large language models are prone to hallucination, generating plausible yet nonfactual content — a phenomenon that raises significant concerns over
+    their reliability in real-world systems (Huang et al., 2024). In supply chains, such hallucinations can lead to erroneous demand forecasts or
+    misinterpretation of supply chain relationships, potentially resulting in operational disruptions and financial losses: a generative model might
+    incorrectly predict a demand surge based on fabricated trends, leading to overproduction and increased inventory costs (Ge & Brintrup, 2024). Yet
+    the deployment pressure is real: LLMs are already used for supplier risk assessment, procurement contracting, inventory optimization, and
+    disruption response, where one unsupported number can cascade through a network. This paper argues that trustworthiness in high-stakes supply
+    chain decision support is an engineered property, not an emergent one: it requires hallucination awareness (measurement and detection), grounding
+    (retrieval and knowledge-graph anchoring), verification (self-consistency, semantic entropy, conformal guarantees), and governance (guardrails,
+    abstention, and human-final authority). We propose HALO-SC, a hallucination-aware framework coupling (i) request triage with risk-tier
+    classification, (ii) retrieval and knowledge-graph grounding, (iii) generation with uncertainty quantification via self-consistency and semantic
+    entropy, (iv) multi-signal verification including LLM-as-a-judge with known-bias compensation, (v) conformal abstention with bounded hallucination
+    rate, (vi) deterministic guardrail enforcement with GO/HOLD/NO-GO decision states, and (vii) audit-ready decision lineage. The framework
+    consolidates the reported evidence envelope: retrieval-augmented pipelines reduce hallucination rates to 1.5% on average versus 8.3% for non-RAG
+    baselines — an 81.9% relative reduction — with retrieval precision above 91% across product domains (Kasarapu, 2026); hallucination rate falls
+    from 6.8% at 10,000 documents to 1.2% at 100,000 documents, establishing knowledge-base enrichment as the dominant reliability lever (Kasarapu,
+    2026); conformal abstention procedures bound the hallucination rate at a user-specified error level with rigorous theoretical guarantees (Yadkori
+    et al., 2024); semantic entropy detects confabulations in free-form generation (Farquhar et al., 2024); governed LLM-based optimization reduces
+    unsafe decision outputs by 45% while sustaining drift-detection accuracy above 92% (Jingar, 2023); decision authority frameworks formalize
+    GO/HOLD/NO-GO governance states with human-final authority enforcement (KALAFATOGLU, 2025, 2026); and human–AI collaboration in which humans
+    specify the optimization algorithm achieves statistically optimal and stable outcomes under supply chain disruption (Wu, 2026). The paper argues
+    that the trustworthiness ladder — grounded, measured, verified, abstaining, governed — is what separates LLM assistants from LLM advisors in
+    commerce.
+
+### R00465 | 2026 | article/None | Lang: en
+TI: Mitigating Hallucination in Multimodal Information Systems: A Comparative Analysis of Modular LLM Architectures
+AB: This study investigates how heterogeneous information flow in the modular large language model (LLM) pipeline architectures influences
+    hallucination behavior in multidocument and multimodal analysis tasks. Past research in this subject focused on building solutions by
+    consolidating documents first or processing them separately; however, measuring the architectural effect was missing. This research work examines
+    how different LLM architecture pipelines impact hallucination behavior when dealing with multiple heterogeneous documents. To enable a rigorous
+    comparison of downstream reasoning strategies, we introduce an explicit unstructured-to-structured transformation layer incorporating a data
+    stratification framework (DSF) that categorizes heterogeneous inputs into standardized structural classes and applies modality-specific
+    preprocessing for temporal, spatial, visual, and dense narrative data. The experiments are conducted on approximately 3400 multimodal data files
+    across multiple financial industry sectors and educational documents. The results exhibit that parallel extraction with reconciliation
+    consistently achieves the lowest hallucination rates, reducing errors by up to 33% relative to baseline pipelines and yielding the lowest
+    normalized semantic entropy (0.38). The findings are compared with state-of-the-art retrieval-augmented generation (RAG) model used by the
+    Fin-tech industry and further evaluated by human experts, demonstrating that hallucination behavior is strongly shaped by pipeline structure
+    rather than model scale alone. Industry validation reveals that pipeline 3 (parallel extraction + reconciliation) achieves a hallucination score
+    of 0.112, compared to the industry production RAG system (0.135). The results achieved through systematic architectural comparison substantiate
+    that pipeline design can independently determine reliability even when base models are held constant.
+
+### R00466 | 2026 | article/None | Lang: en
+TI: When the Model Is the Market: Retrieval Fidelity, Term Hallucination, and Consumer Harm in LLM-Mediated Financial Product Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00467 | 2026 | article/None | Lang: en
+TI: ContextFidelity-Bench: A Three-Paradigm Framework for Evaluating Multi-Turn Hallucination Behavior in Language Models
+AB: We introduce ContextFidelity‑Bench, a reproducible benchmark and evaluation framework for studying hallucination‑related behavior in multi‑turn
+    language model conversations. The framework comprises three paradigms: numeric accuracy across a 20‑turn financial analysis that ends with a data
+    correction (P1), constraint satisfaction in a 20‑turn scheduling task whose requirements accumulate, are revised, and may become jointly
+    unsatisfiable (P2), and source fidelity in a multi‑document synthesis with planted contradictions, information gaps, and authority manipulations
+    (P3). The released artifact includes scenario generators with pre‑computed ground truth and verified feasibility labels, scoring scripts with a
+    documented protocol version, prompt templates, and 550 conversations from five API‑accessible models, of which 4,250 P1 answers and 800 P2
+    checkpoints are scored automatically and 100 P3 syntheses are judged. An initial case study illustrates the framework’s diagnostic use. Numeric
+    accuracy and feasible‑plan success rank the five models similarly (Spearman \(\rho=0.90\)), whereas source‑fidelity abstention ranks them
+    differently: the model with the lowest numeric accuracy (0.880) has the highest gap abstention (0.975) and no fabrication, while the model that
+    produces complete valid plans most often (24 of 29 feasible post‑revision checkpoints) has the joint‑lowest gap abstention (0.875). When
+    requirements are jointly unsatisfiable, models differ in whether they say so and in whether they still supply a plan; when a new requirement
+    merely appears to conflict, some models raise false alarms. These observations come from a five‑model, single‑run snapshot and are presented as
+    hypothesis‑generating; the framework is designed for replication and extension.
+
+### R00468 | 2026 | preprint/None | Lang: en
+TI: Modular Verification Outperforms Chain-of-Thought Reasoning in Small Financial LLMs: A Systematic Ablation Study on Numerical Hallucination
+    Reduction
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00469 | 2025 | article/None | Lang: en
+TI: Sophimatics and 2D Complex Time to Mitigate Hallucinations in LLMs for Novel Intelligent Information Systems in Digital Transformation
+AB: While large language models (LLMs) such as ChatGPT, Claude, and DeepSeek are evaluated based on their accuracy and truthfulness, “hallucinations”
+    betray underlying structural limitations. These results are not simply incorrect answers, but statistical resonances; they are instances where
+    models stabilize into statistically significant (though semantically unfounded) response patterns. Current frameworks fail to accommodate
+    contextual semantics, experiential time, and intentionality as key dimensions for effective experience-based decision-making in complex digital
+    spaces. This article presents an integration paradigm offered by the theory of uncertainty and incompleteness of information, extended by the
+    Sophimatics approach with 2D complex time (t = t + i·t0) and Super Time Cognitive Neural Network (STCNN) that provides both memory management,
+    imagination enhancement, and creativity generation as computational primitives. By integrating probability with plausibility, credibility, and
+    possibility, our model reconsiders the issue of evaluating the reliability of LLM results as a problem that goes beyond traditional probabilistic
+    approaches. Accepting that hallucinations are an emerging phenomenon of resonance between statistical distributions, we suggest an extended
+    probability method in which these resonances can be mitigated and directed towards a coherent cognitive understanding. The paper places this
+    approach in the broader perspective of digital transformation at the information systems level and its implications for AI reliability,
+    explainability, and adaptive decision-making in post-generative AI. Intuitive scenarios are described, based on the inclusion of complex time and
+    Sophimatics in theoretical modelling, illustrating how prediction, historical-contextual adoption, and resistance to paradoxical or contradictory
+    information are strengthened. The results point to this paradigm as a springboard for reliable, human-aligned AI capable of enabling digital
+    transformation in sectors such as healthcare, finance, and governance.
+
+### R00470 | 2026 | preprint/None | Lang: en
+TI: The Model-Efficient Market Hypothesis Price Discovery, Consensus Hallucination, and the Limits of Informational Efficiency in LLM-Mediated Markets
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00471 | 2026 | preprint/None | Lang: en
+TI: When User Meets LLM: A Case Study of Human-AI Collaborative Hallucination in Monetary Policy Forecasting
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00472 | 2026 | article/None | Lang: en
+TI: Enhancing RAG with Agentic AI and Multi-HyDE for Knowledge Retrieval and Hallucination Reduction using Mistral and Qwen2 LLMs
+AB: Financial data is very sensitive and keeps on changing. This makes it important for accurate and reliable information retrieval in financial
+    question-answering systems. These systems must provide precise answers using correct and up-to-date information from sources like financial news,
+    reports, and regulatory filings. Traditional retrieval systems usually search using only one query and one database. This approach is inefficient
+    for finance, because financial documents are complex, detailed, and spread across many years. A single query may miss important information or
+    retrieve incomplete results, results in hallucination. To solve this problem, we used a framework that considers a financial Retrieval Augmented
+    Generation (RAG) system with agentic AI and the Multi-HyDE method. The framework is tested using two different LLMs – MistralAI and Qwen2. Both
+    the models demonstrated the faithfulness score of 1.0 and represents the ability of framework to reduce hallucinations in LLMs.
+
+### R00473 | 2026 | preprint/None | Lang: en
+TI: Convergent Hallucination in Multi-LLM Consensus: A Two-Layer Guard with Empirical Evidence in UK/EU Regulated Domains
+AB: Multi-LLM consensus systems are increasingly deployed in regulated professional services (immigration advisory, financial compliance, medical,
+    legal), where practitioners hope that agreement among independent models will reduce hallucination risk. We document the opposite failure: when
+    sub-models share overlapping training corpora with stale snapshots of a regulated domain, they converge on the same fabrication, and
+    semantic-agreement scoring correctly reports high confidence in the wrong answer. On 2026-06-28, six sub-models produced 5-out-of-5 fabricated
+    claims about UK immigration adviser rules at 78% consensus confidence. We introduce a two-layer safety guard: (1) a domain-aware regex heuristic
+    flagging fabrication shapes (SOC codes, precise monetary figures, invented citations, regulator renames) at zero LLM cost, and (2) an LLM-as-judge
+    second line that, when the regex layer flags, calls a cheap model to identify the shared prior the sub-models are converging on and returns a
+    calibration multiplier. The layers are fused multiplicatively. We construct RegBench, a piloto benchmark of 10 claims across UK immigration and EU
+    AI Act domains, each with ground-truth answers verified against primary authoritative sources (gov.uk, artificialintelligenceact.eu) on
+    2026-07-11. On this piloto, a single-model baseline (DeepSeek Chat) fabricates in 80% of prompts. Our two-layer guard reduces neither the
+    fabrication rate nor the answer content — it flags 75% of fabrications for downstream caution at a marginal cost of £0.00005/query. We report this
+    as calibrated risk classification, not correction. The guard is particularly relevant to Article 14 (human oversight) obligations under the EU AI
+    Act, which take effect 2026-08-02 for high-risk systems. Code, benchmark, and reproducer are released under FSL-1.1-Apache-2.0.
+
+### R00474 | 2026 | preprint/None | Lang: en
+TI: LLM-Guided Data Analysis with Deterministic Safety Nets: An Anti-Hallucination Framework for Supply Chain Decision Support
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00475 | 2026 | preprint/None | Lang: en
+TI: Confidence Without Competence: How Naming an Asset Inflates Language-Model Conviction in Financial Forecasts
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00476 | 2026 | preprint/None | Lang: en
+TI: Project Aletheia V8: The Neural Von Neumann Machine — From Hallucination Control to Reverse-Engineering the LLM's Internal CPU
+AB: This paper presents Project Aletheia, a systematic 209-phase investigation of LLM hallucination and internal computation through the lens of
+    condensed matter physics. Using GPT-2 (124M parameters) as a "particle accelerator" and scaling to Qwen2.5-14B, I establish nine fundamental laws,
+    ten theorems, and seven principles governing how transformers suppress factual knowledge, how to deterministically restore it through
+    inference-time geometric intervention, and how the transformer's layer stack functions as a Neural Von Neumann Machine. V8 New Discoveries (Phases
+    166–209, Seasons 35–42): The Aletheia Engine (P166–P179): Built a unified autonomous pipeline combining entropy-based routing (AUC=0.882), the
+    "Trinity" (Surgery+Code+FGA preserving both fact and arithmetic accuracy), and the def f(): return prefix achieving 100% arithmetic. The Grand
+    Unified Sword Equation fits 6 models with R²=0.97. The Arithmetic Oracle (P180–P192): Discovered that arithmetic suffers the same GSF pattern as
+    facts—correct answers exist at intermediate layers but are suppressed. The def prefix boots a "Code Virtual Machine" for a 4× accuracy boost
+    (P182). Surgery + def + FGA achieves 100% on single-digit addition (P192). Engine Refinement (P183–P189): Established the Orthogonality Principle
+    (zero crosstalk at cos ≈ 0), partial VM bootstrapping without code prefix (P187), and cross-scale autopoiesis using 1.5B as Oracle (P189). The
+    Neural Von Neumann Machine (P196–P199): The transformer implements a Fetch-Decode-Execute-Store pipeline with five identifiable registers (Operand
+    B at L2, Operand A at L11, Carry at L17, Sum at L22, Comparison at L20–L22). OPCODE Register & Instruction Pointer (P200, P205): Operation type
+    decoded at L2 with 100% accuracy; task complexity classified at L1 with 100% accuracy. Pipeline Rewiring (P208): The def prefix shifts the A
+    register from L3→L11 (+8 layers) and Carry from L3→L17 (+14 layers), while B-bus (L2) remains hardwired. The Write Breakthrough (P209): Full
+    hidden-state replacement achieves 83% write success, breaking the Read-Write barrier (0% for all additive methods). Stateless Computation (P207):
+    Registers re-computed per token; the neural CPU "reboots" between autoregressive steps. Previously established in V1–V7: Grammatical Suppression
+    of Facts (GSF): 70% of facts suppressed by final layers; L9H6 (+927) is the top suppressor Code Mode Switch: Any symbol prefix (// # ...) triggers
+    a mode transition reducing GSF DPO Suppression Theorem: DPO suppresses rejected tokens (100% reliability), not promoting correct ones (73%)
+    Inference-Time Paradigm: Dual Surgery + Shield&Sword achieves 100% numerical accuracy across four architectures without any training (P144–P165)
+    Sword Energy Equation: g* ~ d0.45; predictive FGA gain for any model scale Cosine Threshold Theorem: Sigmoid transition at cos ≈ 0.69; 100%
+    reliability below cos ≈ 0.5 Phases 1–165 from V1–V7 fully preserved Acknowledgments This research was conducted entirely independently, without
+    institutional affiliation or corporate funding. The author currently faces financial constraints that make it increasingly difficult to maintain
+    subscriptions to AI services essential for this line of research. To sustain and improve the quality of future work, the author is actively
+    seeking community sponsorship. Details are available at https://github.com/sponsors/hafufu-stack.
+
+### R00477 | 2025 | article/None | Lang: en
+TI: Moral Perception and Uncertainty Expression in LLM-Augmented Judicial Practice
+AB: Abstract On a narrow understanding, adjudication processes are all about assessing and containing uncertainties of various kinds. If one were to
+    find ways of getting language models deployed in judicial settings to reliably quantify the many shades of uncertainty colouring their outputs,
+    one could end up with a formidable support tool, or so the reasoning goes. This paper challenges this narrow understanding of uncertainty in
+    LLM-augmented judicial practices. Rather than seeing uncertainty as something to be eliminated or quantified by judicial support tools, we argue
+    that some non-quantifiable forms of uncertainty play a vital role in supporting moral perception. While the significance of moral perception to
+    judicial processes has been amply demonstrated, less attention has been paid to how perceptual intelligence depends on the ways in which
+    uncertainty is allowed to surface within institutional infrastructure. Contemporary research on LLMs’ communication of uncertainty offers a unique
+    opportunity to examine this under-appreciated relationship in concrete terms. Can we design LLM-powered augmentation tools that express
+    uncertainty in ways that enhance rather than diminish the relevant forms of moral perception? This question takes on particular urgency given the
+    efforts invested in tackling the epistemic calibration challenges that stem from LLMs’ opaque ‘epistemic façade’. Most of these efforts center on
+    developing methods to quantify and calibrate the reliability of LLM outputs. While such methods may help guard against unwarranted epistemic
+    confidence, these quantitative approaches are unlikely to capture the types of uncertainty that play a key, enabling role within moral perception.
+
+### R00478 | 2026 | article/None | Lang: en
+TI: Improving Medical Diagnostics with Vision-Language Models: Convex Hull-Based Uncertainty Analysis
+AB: In recent years, vision-language models (VLMs) have been applied to various fields, including healthcare, education, finance, and manufacturing,
+    with remarkable performance. However, concerns remain regarding VLMs' consistency and uncertainty, particularly in critical applications such as
+    healthcare, which demand a high level of trust and reliability. This paper proposes a novel approach to evaluate uncertainty in VLMs' responses
+    using a convex hull approach on a healthcare application for visual question answering (VQA). For any VLM, temperature refers to a sampling
+    parameter used in probabilistic generation, which controls the randomness of the model's output. The LLM-CXR model is selected as the medical VLM
+    utilized to generate responses for a given prompt at different temperature settings. According to the results, the LLM-CXR VLM shows high
+    uncertainty at higher temperature settings, which can be characterized geometrically in feature space. Experimental results emphasize the
+    importance of uncertainty in VLMs' responses, especially in healthcare applications.
+
+### R00479 | 2026 | article/None | Lang: en
+TI: Multi-Criteria Financial Screening Under Data Uncertainty: An LLM-Extraction and Min–Max TOPSIS Approach for SMEs
+AB: Small and medium enterprises routinely face a paradox in financial monitoring: their accounting documents exist, but the cost of converting
+    heterogeneous PDFs into timely financial signals is prohibitive without dedicated analytical staff or specialized software. This paper presents a
+    two-layer artifact, designed under Design Science Research, that bridges this gap using only public-web large language models (LLMs) and a
+    parsimonious multi-criteria decision routine. Layer 1 implements a structured LLM-driven workflow that extracts account–value pairs from annual
+    tax balance sheets without code, APIs, or fine-tuning. Layer 2 reconstructs auditable accounting aggregates and ranks yearly financial condition
+    through TOPSIS with min–max normalization—a deliberate replacement for classical vector normalization, which fails when profitability indicators
+    are negative, as routinely occurs in distress years. To avoid size effects and algebraic redundancy, the decision matrix uses only three criteria
+    spanning liquidity, profitability, and solvency. The artifact is demonstrated in a four-year case study of an anonymized construction SME
+    (2021–2024), with accountant-verified document-level match rates of 0.810, 0.998, 0.950, and 0.909. Equal weighting is the only weighting
+    configuration used; a supplementary entropy-based dispersion diagnostic yields the same ordinal ranking—2024 > 2023 > 2021 > 2022—and 10,000 Monte
+    Carlo replications, with uncertainty injected at the reconstructed-aggregate level, confirm that the extreme ranks are invariant across all runs.
+    The contribution is methodological and practical: a transparent, low-infrastructure pipeline that brings first-pass financial screening within
+    reach of SMEs operating under severe data and budget constraints.
+
+### R00480 | 2025 | preprint/None | Lang: en
+TI: Going All-In on LLM Accuracy: Fake Prediction Markets, Real Confidence Signals
+AB: Large language models are increasingly used to evaluate other models, yet these judgments typically lack any representation of confidence. This
+    pilot study tests whether framing an evaluation task as a betting game (a fictional prediction market with its own LLM currency) improves
+    forecasting accuracy and surfaces calibrated confidence signals. We generated 100 math and logic questions with verifiable answers. Six Baseline
+    models (three current-generation, three prior-generation) answered all items. Three Predictor models then forecasted, for each question-baseline
+    pair, if the baseline would answer correctly. Each predictor completed matched runs in two conditions: Control (simple correct/incorrect
+    predictions) and Incentive (predictions plus wagers of 1-100,000 LLMCoin under even odds, starting from a 1,000,000 LLMCoin bankroll). Across
+    5,400 predictions per condition, Incentive runs showed modestly higher accuracy (81.5% vs. 79.1%, p = .089, d = 0.86) and significantly faster
+    learning across rounds (12.0 vs. 2.9 percentage-point improvement from Round 1 to Round 4, p = .011). Most notably, stake size tracked confidence.
+    "Whale" bets of 40,000+ coins were correct ~99% of the time, while small bets (<1,000 coins) showed only ~74% accuracy. The key finding is not
+    that fictional money makes models smarter; accuracy gains were modest and did not reach statistical significance (p = .089) in this pilot. Rather,
+    the betting mechanic created a legible confidence signal absent from binary yes/no outputs. This suggests that simple financial framing may help
+    transform LLMs into risk-aware forecasters, making their internal beliefs visible and usable. The protocol offers a foundation for future work for
+    meta-evaluation systems and what may become LLM-to-LLM prediction markets.
+
+### R00481 | 2026 | article/None | Lang: en
+TI: LLM agents for explainable bridge portfolio maintenance scheduling under uncertainty
+AB: Bridge maintenance scheduling is a complex decision-making problem due to stochastic deterioration, epistemic uncertainty in condition assessment,
+    and financial constraints. Existing approaches rely on fixed rules or optimization frameworks that struggle to adapt to evolving information and
+    provide limited explainability. To address these challenges, this work introduces a Large Language Model (LLM)-based agent for maintenance
+    scheduling in bridge networks, embedded within a physics-informed simulation environment that models non-linear degradation and budget dynamics.
+    The agent operates through structured prompts specifying system state, feasible actions, and operational rules, and outputs explainable decisions
+    together with a machine-readable action plan. The experimental campaign evaluates: prompt configuration and memory mechanisms, five risk-aversion
+    profiles, scalability with respect to bridge portfolio size, and long-horizon behavior. Across the tested scenarios (6–100 bridges, 7–60 years),
+    the best-performing agent configuration achieved zero structural failures and retained final budgets up to 30% higher than the most conservative
+    agent profiles. Prudent agents maintain consistently high structural reliability, whereas aggressive profiles exhibit reduced reliability and
+    occasional failures, reflecting coherent behavioral differentiation. Relative to the tested heuristic and adaptive baselines, the proposed LLM
+    agents achieve comparable performance in small and long-horizon settings, while avoiding the 20–60% failure rates observed for alternative
+    strategies in large portfolios under tight decision horizons. The findings indicate that LLM agents hold promise as explainable and adaptable
+    decision-making components for infrastructure life-cycle management. The results suggest that LLM-driven strategies may complement, and
+    potentially enhance, existing scheduling and rule-based maintenance frameworks, motivating further investigation into real-world deployments and
+    integration with domain-specific models.
+
+=== END OF BATCH b011 (50 records) ===

@@ -1,733 +1,686 @@
-BATCH b012 -- 43 records: R00539 .. R00581
+BATCH b012 -- 50 records: R00482 .. R00533
 
-### R00539 | 2026 | preprint/None | Lang: en
-TI: Calibrating Trust in the Age of Large Language Models: How Confidence Expression Style and Task Domain Shape Human Reliance on AI-Generated
-    Responses
-AB: This project will coduct a study examining how people form, calibrate, and act upon trust in large language model (LLM) generated responses. As
-    LLMs become embedded in everyday information-seeking and professional decision-making, a critical and underexplored question emerges: do users
-    rely on these systems appropriately, accepting outputs when they are reliable and rejecting or scrutinising them when they are not? This study
-    addresses that question directly, examining how the design of AI-generated confidence signals interacts with the nature of the task to shape
-    users' reliance behaviour. Decades of research in human factors and human-computer interaction have established that trust in automated systems is
-    rarely well-calibrated. Users systematically overtrust , accepting incorrect automated recommendations , or undertrust discarding accurate ones,
-    with both failure modes degrading the quality of human-AI collaboration (Lee and See, 2004; Parasuraman and Riley, 1997). These dynamics,
-    originally documented in aviation and clinical decision support, have taken on new urgency with the rise of LLMs. Unlike traditional automated
-    systems, LLMs generate fluent, elaborated, confident-sounding prose regardless of their actual accuracy. The stylistic coherence of LLM outputs
-    functions as an independent trust cue, decoupled from epistemic warrant. Compounding this, LLMs have been shown to express unwarranted certainty
-    as a systematic feature of their outputs , a consequence of training processes that reward confident-sounding responses (Steyvers and Peters,
-    2025). The result is a communicative environment that is structurally prone to inducing overtrust. One prominent response to this challenge is the
-    deliberate communication of uncertainty. If LLM outputs suppress signals of epistemic limitation, designing those signals back in should, in
-    principle, enable users to modulate their reliance appropriately. Prior work in explainable AI (XAI) has established that transparency
-    interventions can affect trust calibration, but also that the form of the transparency signal matters critically: numeric confidence scores,
-    verbal hedging, and reference class framing differ in their cognitive accessibility and their capacity to support case-by-case reliance judgements
-    (Zhang et al., 2020; Naiseh et al., 2023). Crucially, the effectiveness of any uncertainty expression format likely depends on whether users
-    possess sufficient domain knowledge to independently evaluate AI outputs — a boundary condition that has not yet been systematically examined in
-    the LLM context.
+### R00482 | 2025 | article/None | Lang: en
+TI: AI-Powered Policy Calibration: A Framework for Dynamic Regulation Compliance in LLM Applications
+AB: The recent spread of large language models (LLMs) into sensitive sectors like healthcare, finance, and the legal domain has pushed the need for
+    their regulatory compliance into the spotlight. Unfortunately, traditional LLM deployments are static and do not respond to the dynamic
+    differences in law or governance that jurisdictions around the world are increasingly developing. This paper introduces a novel framework, powered
+    by AI, for what we term policy steering in LLM-based applications. Our approach integrates principles of policy-as-code into an operational
+    context of LLMs that allows for dynamic injection of regulatory and ethical constraints during generation. Using real-world LLM applications as a
+    basis for design, we built a system whose comparative advantage over traditional compliance systems is highlighted in several evaluation metrics.
 
-### R00540 | 2026 | article/None | Lang: en
-TI: Explainable and Trustworthy Generative Al: A Framework for Interpretable Large Language Models in High-Stakes Decision Systems
-AB: The rapid adoption of large language models (LLMs) in high-stakes decision systems such as healthcare, finance, law, and public governance has
-    raised critical concerns regarding transparency, reliability, and trustworthiness. While generative AI models demonstrate remarkable performance,
-    their black-box nature limits interpretability and poses significant risks when decisions directly impact human lives. This paper proposes a
-    comprehensive framework for Explainable and Trustworthy Generative AI, aimed at enhancing the interpretability, accountability, and robustness of
-    large language models deployed in high-stakes environments.The proposed framework integrates intrinsic interpretability mechanisms, post-hoc
-    explanation techniques, and uncertainty-aware reasoning to provide transparent model behavior at both global and local decision levels.
-    Trustworthiness is further strengthened through bias detection, fairness auditing, robustness evaluation, and human-in-the-loop validation.
-    Additionally, the framework incorporates governance-oriented components, including ethical compliance, auditability, and regulatory alignment, to
-    support responsible AI deployment.Experimental evaluation across multiple high-stakes use cases demonstrates that the proposed approach
-    significantly improves decision transparency and user trust while maintaining competitive predictive and generative performance. The results
-    highlight the potential of interpretable generative AI systems to bridge the gap between model capability and real-world accountability. This work
-    contributes toward the development of reliable, explainable, and ethically aligned large language models suitable for critical decision-making
-    applications
+### R00483 | 2026 | article/None | Lang: en
+TI: Calibration-aware gating for budgeted LLM supervision in graph neural network link prediction
+AB: Abstract Large-scale graphs underpin critical applications such as financial fraud detection, citation analysis, and biomedical discovery, where
+    link prediction is often performed under severe label scarcity, class imbalance, and operational cost constraints. Recent large language models
+    (LLMs) provide powerful semantic priors that can augment graph learning; however, naïvely querying LLMs is computationally expensive, and direct
+    distillation of their outputs into compact graph models can degrade predictive reliability. In this work, we propose a budgeted LLM-assisted
+    framework for graph link prediction that explicitly accounts for both predictive performance and calibration. The framework consists of four
+    stages: (i) training a backbone graph neural network (GNN) using available labeled edges, (ii) selectively querying an LLM under a fixed query
+    budget, (iii) distilling LLM-provided soft supervision into a lightweight student predictor, and (iv) learning a calibration-aware gating model
+    that adaptively combines base and student predictions on a per-edge basis. The proposed gate relies only on inexpensive uncertainty- and
+    structure-aware signals, such as predictive entropy and node degree, to determine when LLM supervision is likely to be beneficial. We evaluate the
+    proposed approach using both ranking and reliability metrics, including ROC-AUC, Average Precision (AP), Expected Calibration Error (ECE), and
+    Brier score. Experiments on four benchmark datasets—Elliptic, Cora, PubMed, and OGBN-Arxiv—demonstrate that the learned gate consistently improves
+    ranking performance over both the base GNN and the LLM-distilled student under the same query budget, while substantially reducing calibration
+    error. These results highlight that selective, calibration-aware LLM supervision offers a practical and trustworthy pathway for improving graph
+    link prediction in cost-sensitive real-world settings.
 
-### R00541 | 2026 | article/None | Lang: en
-TI: Attached to the Algorithm: Investigating the Relationship Between Adult Attachment Styles and Instrumental and Relational Dependency on Large
-    Language Models
-AB: The rapid growth of large language models (LLMs) raises questions for counselors regarding when such tools are used adaptively versus when they
-    foster dependency. Guided by attachment theory and a dual-dimension view of AI reliance, this study examined whether adult attachment styles
-    predict instrumental (task/decision support) and relational (companion-like) dependency on LLMs, whether spiritual engagement relates to these
-    dependencies, and whether levels differ by age. Faculty, staff, and students who had used an LLM completed the LLM-D12 and the ECR-R (N = 515).
-    Analyses showed that instrumental dependency on LLMs was highest among individuals high in avoidance, with modest additional elevation when
-    anxiety is also high. Relational dependency on LLMs increased progressively from the secure to the anxious-avoidant style, with the highest scores
-    among individuals elevated on both dimensions. Multivariate analyses indicated that frequent “talking with God” (multiple times/day) was linked to
-    lower instrumental reliance for confidence/support/decisions and to lower endorsement of LLMs as relational tools or companions. Age was not
-    associated with differences in instrumental dependency but was reliably associated with differences in relational dependency: with younger adults
-    reporting higher relational dependency. Findings suggest that avoidance-based attachment style primarily predicts task-focused reliance on LLMs,
-    while combined attachment insecurity relates to companion-like engagement. For counselors and counselor educators, results underscore the value of
-    assessing client motives for AI use and targeting relational overreliance—especially in younger adults—through psychoeducation and skills that
-    strengthen human connection.
+### R00484 | 2026 | article/None | Lang: en
+TI: Uncertainty-Aware LLM Agents for Safe Medical Decision-Making in Noisy Clinical Environments
+AB: Large language model (LLM) agents are increasingly being considered for clinical decision support, yet their deployment in noisy hospital
+    environments raises fundamental concerns about safety, reliability, and governance. This paper proposes a system-level framework for
+    uncertainty-aware LLM agents that can operate robustly under the high-variability conditions typical of real-world clinical settings. We argue
+    that current LLM architectures lack formal mechanisms to quantify and communicate epistemic and aleatoric uncertainty, leading to overconfident
+    recommendations that may endanger patients. Drawing on principles from probabilistic machine learning, human-in-the-loop design, and
+    socio-technical systems theory, we present a multi-layered architecture that integrates uncertainty estimation, deferral protocols, and continuous
+    monitoring. We examine structural trade-offs between autonomy and oversight, the role of regulatory infrastructure, and the challenges of fairness
+    across diverse patient populations. By comparing uncertainty-aware approaches in autonomous driving and financial risk assessment, we derive
+    lessons for clinical deployment. The paper further addresses sustainability implications of running large models in resource-constrained
+    healthcare environments and discusses policy frameworks for certification and liability. We conclude that uncertainty-aware LLM agents, while not
+    a panacea, represent a necessary evolution toward trustworthy AI in medicine, provided they are embedded within robust institutional governance
+    structures.
 
-### R00542 | 2025 | article/None | Lang: en
-TI: Mind AI's Mind: A Clinically Aligned Explainable AI Pipeline for Depression Diagnosis via Large Language Models
-AB: The rise of artificial intelligence (AI) in medical diagnostics has highlighted an essential need for transparent and interpretable systems,
-    particularly in the field of mental health. The opaque decision-making in “black-box” AI models creates a challenge in clinical settings: they
-    risk losing trust or causing uncritical reliance. This paradox jeopardizes mental healthcare, where skepticism or unwarranted confidence in AI can
-    harm patient care. Effective explainability mechanisms are therefore essential not only to earn trust but to support responsible use by allowing
-    clinicians to critically assess and verify AI-driven outputs. Thus, we propose a novel explainable AI (XAI) pipeline for automated depression
-    diagnosis, designed to integrate both system-level and human-level interpretability. This dual approach is vital in clinical settings, as it
-    combines rigorous statistical validation with clear, actionable insights that enhance practitioner confidence in AI-generated diagnoses. The
-    pipeline leverages deep learning models for classification, augmented by traditional system-level XAI techniques and a Retrieval-Augmented
-    Generation (RAG)-enhanced Large Language Model (LLM). With the integration of LLMs, the system translates abstract system-level explanations into
-    understandable, natural language narratives. This provides a crucial cross-verification step that fosters calibrated trust: it mitigates the dual
-    risks of under-trust, by providing a clear rationale, and over-trust, by flagging diagnostic inconsistencies within the AI models. This capability
-    is critical for ensuring both user trust and satisfaction, as it empowers practitioners to critically assess and validate AI-driven insights.
-    Through comprehensive human evaluations conducted by medical professionals, this approach demonstrates high alignment with clinical diagnostic
-    indicators, underscoring the value of combining system-level and human-level explanations to make complex AI processes transparent and clinically
-    meaningful. Validated across three diverse datasets-KangNing, EDAIC-WOZ, and CALLM-each presenting unique structural challenges from structured
-    clinical inquiries to narrative-driven dialogues, our method bridges the gap between technical AI outputs and practitioner understanding, marking
-    a significant advancement toward a trust-based, widely adoptable AI diagnostic tool in mental health care. By introducing a comprehensive
-    framework for combining statistical rigor with narrative clarity, this work represents a critical step toward closing the gap between black-box AI
-    systems and real-world clinical adoption. While our study is limited to depression diagnosis, the proposed framework illustrates a pathway toward
-    explainable clinical AI systems. Future work may explore its adaptability to other medical contexts.
+### R00485 | 2026 | preprint/None | Lang: en
+TI: TrustTrade: Human-Inspired Selective Consensus Reduces Decision Uncertainty in LLM Trading Agents
+AB: Abstract Large language models (LLMs) are increasingly deployed as autonomous agents in financial trading. However, they often exhibit a hazardous
+    behavioral bias that we term uniform trust, whereby retrieved information is implicitly assumed to be factual and heterogeneous sources are
+    treated as equally informative. This assumption stands in sharp contrast to human decision-making, which relies on selective filtering,
+    cross-validation, and experience-driven weighting of information sources. As a result, LLM-based trading systems are particularly vulnerable to
+    multi-source noise and misinformation, amplifying factual hallucinations and leading to unstable risk–return performance. To bridge this
+    behavioral gap, we introduce TrustTrade (Trust-Rectified Unified Selective Trader), a multi-agent selective consensus framework inspired by human
+    epistemic heuristics. TrustTrade replaces uniform trust with cross-agent consistency by aggregating information from multiple independent LLM
+    agents and dynamically weighting signals based on their semantic and numerical agreement. Consistent signals are prioritized, while divergent,
+    weakly grounded, or temporally inconsistent inputs are selectively discounted. To further stabilize decision-making, TrustTrade incorporates
+    deterministic temporal signals as reproducible anchors and a reflective memory mechanism that adapts risk preferences at test time without
+    additional training. Together, these components suppress noise amplification and hallucination-driven volatility, yielding more stable and
+    risk-aware trading behavior. Across controlled backtesting in high-noise market environments (2024 Q1 and 2026 Q1), the proposed TrustTrade
+    calibrates LLM trading behavior from extreme risk–return regimes toward a human-aligned, mid-risk and mid-return profile.
 
-### R00543 | 2026 | article/None | Lang: en
-TI: Adoption of Large Language Models in Programming Education: Student Views, Concerns, and Perceived Use in Mexican Higher Education
-AB: Large language models (LLMs) have witnessed rapid adoption across academic and industrial domains due to their advanced capabilities, including
-    code generation, natural language processing, and interactive support. Their integration into educational settings, particularly in programming
-    has introduced both substantial benefits and emerging ethical challenges. The current study investigates students’ perceptions of LLM usage at two
-    different public and private universities in Mexico, focusing on how ease of use influences their perceived effectiveness, confidence, future
-    intention, and frequency of use in programming‐related tasks. A quantitative, survey‐based approach was adopted, with data collected from
-    undergraduate and postgraduate students actively. The findings revealed that the ease of use plays a significant role in shaping students’
-    attitudes and behaviors. Path analysis using Partial Least Squares Structural Equation Modeling (PLS‐SEM) confirmed strong relationships between
-    usability and perceived outcomes, suggesting that intuitive tool design can enhance confidence and increase regular usage. However, the study also
-    highlights ethical concerns among students, including overreliance and potential academic dishonesty. These insights underscore the need for
-    practical guidelines and institutional policies to ensure responsible and balanced integration of LLMs in academic environments. This research
-    offers important implications for educators, developers, and policymakers working to align technological innovation with ethical learning
-    practices.
-
-### R00544 | 2026 | article/None | Lang: en
-TI: Trust-Aware Human–AI Collaborative Decision Making Using Dual-Process Large Language Model Architectures
-AB: The integration of large language models into human decision-making processes offers transformative potential across sectors such as healthcare,
-    finance, law, and public administration. However, the opacity, unpredictability, and occasional hallucinations of these models challenge the
-    development of appropriate trust between human users and AI systems. This paper proposes a trust-aware collaborative decision-making framework
-    grounded in dual-process cognitive architectures, inspired by Kahneman’s distinction between fast, intuitive reasoning and slow, deliberative
-    reasoning. By designing large language model systems that explicitly separate rapid pattern-based responses from slower, verifiable reasoning
-    steps, we create a structural foundation for calibrated human trust. The architecture introduces a meta-cognitive monitor that assesses
-    confidence, uncertainty, and potential bias in both fast and slow pathways, enabling transparent communication of model reliability to human
-    collaborators. We examine the structural trade-offs involved in deploying such systems, including computational overhead, latency,
-    interpretability, and user interface design. Governance implications are discussed, particularly regarding auditability, accountability, and the
-    need for dynamic trust calibration mechanisms. The paper further explores robustness against adversarial inputs, fairness across demographic
-    groups, and sustainability of dual-process deployments at scale. Through case illustrations in medical diagnosis, legal reasoning, and crisis
-    management, we demonstrate how the architecture can foster appropriate reliance and mitigate over-trust or under-trust. Cross-domain comparisons
-    with existing human-AI interaction paradigms reveal that dual-process architectures offer unique advantages for high-stakes environments where
-    both speed and accuracy are critical. The paper concludes with forward-looking recommendations for policy, system design, and empirical
-    validation.
-
-### R00545 | 2026 | article/None | Lang: en
-TI: Why we believe chatbots: trust calibration as a design problem
-AB: Chatbots powered by large language models (LLMs), such as ChatGPT and Claude, answer questions quickly and fluently, yet they reveal little about
-    how their answers are produced or what evidence supports them. Users tend to trust these systems based on surface qualities such as fluency,
-    confidence, and speed. This trust is often miscalibrated, meaning that it does not match what the systems can actually do. Some users overtrust
-    answers they cannot verify. Others distrust the systems and disengage. Large surveys show that many people rely on AI daily while saying they do
-    not trust it. This article treats miscalibration as a design problem and develops a framework for recalibrating user trust. We first define trust
-    in chatbots by connecting psychological research on trust, communication research on credibility, and human factors research on trust in
-    automation. We then introduce a user typology built on two dimensions, the ability to verify chatbot outputs and the motivation to do so, which
-    together predict how a given user will miscalibrate. On this basis, we synthesize two families of design intervention. Interpretability
-    affordances, such as source citations and uncertainty cues, make evaluation possible. Engagement mechanisms, such as cooling-off periods and
-    dialogue scaffolds, make evaluation happen by building it into the interaction. Following the Swiss cheese model of layered defense, we argue that
-    these interventions cover one another's gaps, and we state eight testable propositions that link each intervention to the users it serves. We
-    close by discussing AI literacy as the slowest but most durable layer of defense.
-
-### R00546 | 2026 | article/None | Lang: en
-TI: More is not better: Visual uncertainty cues and the fragility of trust calibration in LLM-assisted decision making
-AB: As large language models (LLMs) are increasingly integrated into decision-support systems, understanding how users interpret uncertainty
-    expressions is critical for responsible deployment. Prior work has shown that verbal hedging (e.g., “I'm not sure, but …”) can reduce overreliance
-    on incorrect outputs. We examine whether combining verbal hedging with visual confidence indicators improves trust calibration in a pre-registered
-    2 × 2 × 2 mixed-design experiment ( N = 495 ). Response accuracy was the dominant driver of trust and reliance across all conditions. Visual
-    confidence indicators improved users’ subjective sensitivity to accuracy, reflected in higher per-participant discrimination indices and steeper
-    confidence-accuracy slopes, yet simultaneously amplified behavioral agreement with incorrect outputs. Verbal hedging reduced agreement and
-    satisfaction without improving discrimination. Combining both cues produced the highest overreliance on incorrect responses alongside the lowest
-    rates of independent source verification. These findings reveal a dissociation between subjective and behavioral calibration as users can become
-    more sensitive to accuracy signals while simultaneously making worse decisions. Simply adding more uncertainty cues does not produce more
-    trustworthy or interpretable LLM systems; what matters is whether signals translate into behavior-relevant calibration.
-
-### R00547 | 2026 | preprint/None | Lang: en
-TI: Artificial Intelligence - Large Language Models (LLMs) and Agentic AI in Clinical Decision Support in Outpatient, General Practice and Acute
-    Settings: A Systematic Review of Diagnostic Accuracy, Comparative Efficacy, Clinical Outcomes and Implementation Factors
-AB: Abstract Background : Large language models (LLMs) and agentic artificial intelligence (AI) systems represent a notable shift in clinical decision
-    support systems (CDSS), offering potential to enhance diagnostic accuracy, triage efficiency, and clinical decision-making, in outpatient, general
-    practice as well as acute care settings. Despite rapid technological advancement and increasing deployment, systematic evidence synthesis on their
-    diagnostic accuracy, comparative efficacy, clinical outcomes, and implementation factors remains limited. This systematic review aimed to
-    comprehensively evaluate the current evidence on LLM-based CDSS in general practice or outpatient, as well as acute and emergency settings.
-    Methods: We conducted a systematic review following PRISMA 2020 guidelines. We searched 11 databases (PubMed/MEDLINE, Science Direct, Web of
-    Science, IEEE Xplore, ACM, Computer Science Journals, Google Scholar, CINAHL, Academic Search Ultimate, APA PsychInfo, and Elicit AI) from January
-    2021 to December 2026. Inclusion criteria encompassed studies evaluating generative AI/LLMs and agentic AI in CDSS for general practice,
-    outpatient, acute, or emergency settings, reporting original data on at least one primary outcome domain. Two independent reviewers conducted
-    title/abstract screening and full-text eligibility assessment. Quality was assessed using the Mixed Methods Appraisal Tool (MMAT). Data were
-    extracted using a standardized framework and synthesized thematically across four domains: diagnostic accuracy, comparative efficacy, clinical
-    outcomes, and implementation factors. Results: From 2,402 identified records, 50 studies met all inclusion criteria following deduplication and
-    two-stage screening (inter-rater κ = 0.78-0.85). Studies were published between 2021 and 2026, with 68% published in 2025 alone, reflecting the
-    rapid emergence of advanced LLMs in clinical evaluations. Studies evaluated LLMs including GPT-4/4o, GPT-3.5, Claude 3 (Opus/Sonnet/Haiku), Gemini
-    1.5 Pro/2.5 Flash, DeepSeek-R1, Llama 3, Med-PaLM 2, Doubao, Qwen, and Mistral, across emergency care (n=18, 36%), primary/general care (n=22,
-    44%), virtual and simulated environments (n=5, 10%), and mixed settings (n=5, 10%). Study designs included quantitative descriptive studies,
-    encompassing benchmarks and vignettes, (n=28, 56%), retrospective observational studies (n=5, 10%), prospective observational studies (n=4, 8%),
-    randomised controlled trials (n=4, 8%), qualitative studies (n=3, 6%), cross-sectional studies (n=5, 10%), and mixed-methods (n=1, 2%). LLMs
-    demonstrated high diagnostic accuracy in structured vignettes and controlled settings, with advanced models (o1, GPT-4o, Claude 3.5 Sonnet)
-    achieving ≥90% accuracy in final diagnoses in emergency internal medicine and matching specialist-level performance in cardiovascular emergencies.
-    In the largest prospective triage study to date, screening 6,657 patients across four emergency departments, ChatGPT-4o outperformed triage staff
-    overall (Cohen's κ = 0.833 vs 0.782; F1 = 0.897 vs 0.863), though performance declined for complex, high-acuity presentations requiring yellow and
-    red zone triage (AUC = 0.75-0.78). Beyond struggle with complex contextual reasoning, LLMs exhibited clinically important weaknesses across
-    atypical presentations, autonomous safety planning in psychiatric triage, and real-world clinical recommendation tasks. For example, in a study
-    evaluating accuracy in real, unstructured clinical environment, spanning 10,000 ED visits, GPT-4 accuracy fell 8-24% below resident physicians on
-    clinical recommendation tasks. Human-AI collaborative models consistently outperformed both independent AI and unassisted clinicians. A large
-    vignette study generating 40,762 diagnoses across 2,133 cases demonstrated that clinician-LLM collectives outperformed all individual groups,
-    driven by complementary error profiles. A position augmented by a real-world deployment study across 15 Kenyan primary care clinics (n = 39,849
-    visits), where LLM-based decision support reduced diagnostic errors by 16% and treatment errors by 13%. Similarly, Retrieval-augmented Generation
-    (RAG) significantly improved guideline concordance (95.5% vs 62-74% for junior clinicians) and prescribing error detection by 1.5-fold over
-    unaided pharmacists across 16 clinical specialties. Implementation findings identified automation bias (15-35% of cases), trust calibration
-    deficits, workflow integration challenges, and regulatory uncertainty as critical barriers, with explainable AI and human-in-the-loop designs as
-    key facilitators. Conclusions: LLMs and agentic AI CDSS show substantial promise as adjunctive co-pilot tools capable of improving diagnostic
-    accuracy and reducing clinical errors across varied acuity and resource settings. However, significant vulnerabilities in contextual reasoning,
-    autonomous safety planning, and unaided real world performance currently preclude their use as autonomous decision-makers. Future integration must
-    prioritise retrieval-augmented generation, clinician oversight, explainability, and rigorous real-world prospective evaluation with
-    patient-centred outcomes to realise safe and effective deployment.
-
-### R00548 | 2025 | article/None | Lang: en
-TI: Addressing Uncertainty in LLM Outputs for Trust Calibration Through Visualization and User Interface Design
-AB: Large language models (LLMs) are becoming ubiquitous in knowledge work. However, the uncertainty inherent to LLM summary generation limits the
-    efficacy of human-machine teaming, especially when users are unable to properly calibrate their trust in automation. Visual conventions for
-    signifying uncertainty and interface design strategies for engaging users are needed to realize the full potential of LLMs. We report on an
-    exploratory interdisciplinary project that resulted in four main contributions to explainable artificial intelligence in and beyond an
-    intelligence analysis context. First, we provide and evaluate eight potential visual conventions for representing uncertainty in LLM summaries.
-    Second, we describe a framework for uncertainty specific to LLM technology. Third, we specify 10 features for a proposed LLM validation system —
-    the Multiple Agent Validation System (MAVS) — that utilizes the visual conventions, the framework, and three virtual agents to aid in language
-    analysis. Fourth, we provide and describe four MAVS prototypes, one as an interactive simulation interface and the others as narrative interface
-    videos. All four utilize a language analysis scenario to educate users on the potential of LLM technology in human-machine teams. To demonstrate
-    applicability of the contributions beyond intelligence analysis, we also consider LLM-derived uncertainty in clinical decision-making in medicine
-    and in climate forecasting. Ultimately, this investigation makes a case for the importance of visual and interface design in shaping the
-    development of LLM technology.
-
-### R00549 | 2025 | preprint/None | Lang: en
-TI: LLM Confidence Paradox
-AB: This research project empirically investigates the "Confidence Calibration Paradox," a core tension in designing trustworthy AI. The paradox
-    arises because Large Language Models (LLMs) often express themselves with an assertive linguistic style that is misaligned with their internal
-    certainty (a "confidence miscalibration"), yet human users are known to be more persuaded by confident communication. We question whether
-    designing AIs to be epistemically honest (transparently showing uncertainty) might paradoxically reduce user trust, while AIs designed for social
-    effectiveness (using confident language) risk propagating misinformation. To address this, we will conduct a pre-registered series of four
-    iterative online experiments. These studies will causally estimate the effects of manipulating LLM linguistic assertiveness (e.g., hedged vs.
-    assertive language) and numerical confidence disclosure (showing or hiding the AI's internal self-certainty score) on user Trust, Persuasion, and
-    Behavioral Intentions. The experiments are designed to: Isolate the baseline effect of linguistic assertiveness alone. Determine the main causal
-    effect of disclosing the AI's numerical confidence score. Test the interaction between linguistic assertiveness and numerical disclosure to see
-    how users respond to (mis)aligned signals. Evaluate an alternative interface design (prompting users to estimate AI confidence) as a potential
-    strategy for improving user calibration. Expected Outcomes: This research program will provide a causal map of how users respond to different AI
-    confidence communication strategies. The findings will offer direct evidence on the nature of the Confidence Calibration Paradox and yield
-    actionable design guidelines for building LLM interfaces that foster more appropriately calibrated user trust. We also expect to identify
-    individual characteristics (e.g., numeracy) that may make users more or less susceptible to being influenced by miscalibrated AI confidence
-    expressions.
-
-### R00550 | 2026 | preprint/None | Lang: en
-TI: AI Personality Orchestration (AIPO): An Adaptive Framework for Multi-Personality Coordination, Cognitive Role Specialization, and Human-Centered
-    Interaction in Large Language Models
-AB: Large Language Models (LLMs) increasingly exhibit diverse interaction characteristics, including cautious, direct, expressive, analytical,
-    exploratory, critical, empathetic, and execution-oriented behaviors. Although these characteristics are frequently described as AI personalities,
-    existing AI development paradigms predominantly emphasize model capability, task specialization, instruction following, and output optimization,
-    while providing comparatively limited attention to the systematic orchestration of interaction personalities as an adaptive computational
-    resource. This paper proposes AI Personality Orchestration (AIPO), a conceptual and methodological framework that treats AI interaction
-    personality as a configurable, composable, and dynamically orchestrated system variable. Unlike conventional approaches that assign a relatively
-    fixed persona to an AI agent, AIPO introduces a task-sensitive orchestration mechanism that selects, combines, coordinates, and adjusts
-    interaction personalities according to task requirements, uncertainty, user preferences, interaction context, and resource constraints. The
-    framework distinguishes two fundamental dimensions: cognitive capability and interaction personality. Cognitive capability describes what an AI
-    system can accomplish, including reasoning, knowledge retrieval, planning, verification, and problem-solving. Interaction personality describes
-    how an AI system approaches and communicates with users, including caution, directness, expressiveness, exploratory orientation, critical
-    orientation, empathy, and execution initiative. This separation establishes the possibility of combining different interaction personalities
-    without assuming that personality differences necessarily imply differences in underlying intelligence or factual reliability. AIPO further
-    introduces a multi-personality collaboration architecture comprising Explorer, Critic, Analyst, Executor, and Verifier agents. These agents
-    perform complementary functions within a coordinated workflow, enabling divergent idea generation, adversarial examination, evidence-based
-    analysis, practical execution, and independent verification. A dynamic orchestration controller determines the appropriate personality
-    configuration and collaboration structure for each task. The proposed framework has several potentially important advantages: adaptive
-    interaction, complementary problem-solving strategies, reduced dependence on a single interaction style, improved coverage of complex tasks,
-    personalized human-AI collaboration, and more explicit management of uncertainty and disagreement. It also introduces new research opportunities
-    concerning personality diversity, coordination efficiency, user trust calibration, computational cost, and the relationship between interaction
-    personality and task performance. Importantly, AIPO does not assume that personality diversity automatically improves intelligence or accuracy.
-    Its effectiveness remains an empirical question requiring controlled evaluation against fixed-personality, single-agent, and conventional
-    multi-agent baselines. The paper establishes a conceptual architecture, mathematical formulation, operational mechanisms, research hypotheses, and
-    an experimental methodology for investigating this emerging direction.
-
-### R00551 | 2026 | article/None | Lang: en
-TI: Confidence, Accuracy, and User Trust in Commercial LLMs: Empirical Evidence for Responsible AI Design
-AB: The studyLarge language models are now consulted for medical symptoms, financial decisions, and legal questions. Users have no easy way to tell
-    when an answer is right and when it is confidently wrong. This study examines what actually drives trust in commercial LLMs, and where that trust
-    goes wrong.The central question is whether users trust AI because it is accurate, or because it sounds sure of itself. The answer, from 1,000
-    interactions across six commercial models and twelve query domains, is that confidence and accuracy are almost inseparable in practice. Confidence
-    correlates with accuracy at r = 0.857. Users respond to confidence, but confidence carries real information about accuracy. The trouble is that
-    users cannot tell the 86 per cent of cases where confidence tracks accuracy from the 14 per cent where it diverges.The manuscript reports three
-    findings that reframe the problem. First, over-trust is driven more by inaccuracy than by confidence: the correlation between confidence and the
-    trust gap is only −0.199, while the correlation between accuracy and the trust gap is −0.466. Second, the trust gap shrinks monotonically as
-    accuracy rises, from +2.33 in the lowest accuracy decile to −0.39 in the highest. Third, over-trust is largest in medium-stakes domains such as
-    opinion-based queries and current events (+1.93), where correctness is ambiguous and verification is difficult, not in high-stakes medical,
-    financial, or legal domains (+0.83), where users show more caution.The datasetThe dataset contains 1,000 human–AI interactions across six
-    commercial LLMs (Claude, GPT-4, Gemini, Llama, Mistral, ChatGPT-3.5) and twelve query domains. Each row is one interaction.Response properties.
-    The model that generated the response, the query category, the AI's expressed confidence (0–100), the response length, whether the response cited
-    sources, whether it contained hedging language, whether it included a disclaimer, its detail level, and its post-hoc verified accuracy
-    (0–100).User attributes. Age bracket (six levels, 18–24 to 65+), education level (five levels), digital literacy (low to expert), AI familiarity
-    (first time to expert), and subject-matter expertise.Context. Decision importance, urgency level, and whether the response aligned with the user's
-    prior beliefs.Outcomes. The user's trust rating on a 0–10 scale, whether the user performed fact-checking, the method used, the time spent
-    verifying, and a skepticism category assigned to the user.The dataset was compiled by a third party through a survey and published on Kaggle under
-    a CC0 public domain licence. It is reproduced here for reproducibility.Derived variablesTrust gap. The trust rating minus accuracy divided by ten.
-    A positive value indicates over-trust (the user trusted more than the answer warranted), a negative value under-trust, and zero perfect
-    calibration.Blind trust. A binary indicator for interactions where trust is eight or above and no fact-checking was performed. This captures the
-    most concerning form of over-trust: high trust with no verification effort.Stakes classification. Domains are grouped into three categories.
-    High-stakes comprises medical, financial, and legal advice. Medium-stakes comprises opinion-based queries and current events. Low-stakes comprises
-    math calculation, recipe cooking, creative writing, general knowledge, scientific facts, factual historical, and technical coding. CaveatsThe
-    dataset does not include a participant identifier. The number of unique participants cannot be confirmed. The lower bound is 494 (each distinct
-    demographic profile corresponds to at least one person), the upper bound is 1,000 (one person per interaction), and approximately 167 (1,000
-    divided by 6) is a middle estimate. If the same individual contributed multiple interactions, the observations are not independent, and standard
-    regression may overstate significance.AI confidence scores were calculated by the algorithms themselves and were not shown to participants. The
-    analysis therefore captures responses to textual features that co-vary with confidence (length, fluency, hedging, citations), not responses to a
-    visible confidence number.Some details of the original data collection were not disclosed in the public documentation. The authors attempted to
-    contact the dataset owner for further information but received no reply. Findings should be interpreted with appropriate caution.
-
-### R00552 | 2026 | preprint/None | Lang: en
-TI: The Confidence Meter — Trust-Calibration-Hauptstudie
-AB: Quantitative online study (Between-Subject design) examining the effect of visualizing LLM uncertainty on human trust calibration. The study
-    compares a traditional Plain Text UI (control group) against a binary alarm heatmap UI (treatment group) across 7 text blocks to measure changes
-    in overreliance, appropriate reliance, and cognitive load.
-
-### R00553 | 2025 | preprint/None | Lang: en
-TI: The Illusion of Empathy: Why Users Distrust GPT-4 Chatbots for Mental Health Screenings
-AB: Conversational AI holds promise for scalable mental health screening, yet its impact on therapeuticalliance and user perceptions remains
-    underexplored. This preregistered, cross-sectional, randomizedmixed-methods experiment (N = 149) evaluated the effects of an empathic
-    GPT-4-powered chatbot (Elli)versus a static PHQ-9/GAD-7 form on trust, comfort, empathy, and emotional disclosure. Participantswere randomly
-    assigned to either condition. Quantitative outcomes included measures of confidence,comfort, and perceived empathy. Qualitative feedback was
-    analyzed thematically. Primary analysesemployed independent t-tests and Mann–Whitney U tests, with Cohen’s d effect sizes reported.Exploratory
-    analyses included gender and age interactions, as well as mediation modeling. All analyseswere conducted in Python and are openly available on
-    GitHub. Trust in the Elli chatbot was significantlylower than in the static form (p = .004, d = –0.49). Comfort and empathy ratings showed no
-    significantdifferences. Dropout analysis revealed no condition-related attrition (χ² = 0.37, p = .54). Qualitativefeedback highlighted discomfort
-    with artificial empathy and a perceived lack of human presence in thechatbot condition. No significant differences emerged for PHQ-9 or GAD-7
-    severity. Mediation analysisrevealed that empathy did not account for the trust gap. Contrary to expectations, the GPT-4 chatbotreduced user trust
-    compared to a static form. These findings suggest emotional authenticity may bemore critical than simulated empathy in digital mental health
-    tools.
-
-### R00554 | 2025 | preprint/None | Lang: en
-TI: The Illusion of Empathy: Why Users Distrust GPT-4 Chatbots for Mental Health Screenings
-AB: Conversational AI holds promise for scalable mental health screening, yet its impact on therapeuticalliance and user perceptions remains
-    underexplored. This preregistered, cross-sectional, randomizedmixed-methods experiment (N = 149) evaluated the effects of an empathic
-    GPT-4-powered chatbot (Elli)versus a static PHQ-9/GAD-7 form on trust, comfort, empathy, and emotional disclosure. Participantswere randomly
-    assigned to either condition. Quantitative outcomes included measures of confidence,comfort, and perceived empathy. Qualitative feedback was
-    analyzed thematically. Primary analysesemployed independent t-tests and Mann–Whitney U tests, with Cohen’s d effect sizes reported.Exploratory
-    analyses included gender and age interactions, as well as mediation modeling. All analyseswere conducted in Python and are openly available on
-    GitHub. Trust in the Elli chatbot was significantlylower than in the static form (p = .004, d = –0.49). Comfort and empathy ratings showed no
-    significantdifferences. Dropout analysis revealed no condition-related attrition (χ² = 0.37, p = .54). Qualitativefeedback highlighted discomfort
-    with artificial empathy and a perceived lack of human presence in thechatbot condition. No significant differences emerged for PHQ-9 or GAD-7
-    severity. Mediation analysisrevealed that empathy did not account for the trust gap. Contrary to expectations, the GPT-4 chatbotreduced user trust
-    compared to a static form. These findings suggest emotional authenticity may bemore critical than simulated empathy in digital mental health
-    tools.
-
-### R00555 | 2026 | article/None | Lang: en
-TI: Building user trust in AI chatbots for customer service through human-like cues and perceived reliability
-AB: This qualitative study explores how human-like cues and system competence shape users’ trust and perceptions of reliability in AI-driven chatbot
-    customer service. Data were collected from 28 participants through semi-structured interviews conducted in Pakistan and China. Using thematic
-    analysis supported by NVivo 15, the study identifies key patterns in the formation of user trust and interaction experiences. Two main themes
-    emerged: human-like interaction and emotional connection, and perceived reliability and system competence. The first highlights conversational
-    naturalness, empathy, personalisation, and social presence as drivers of affective trust. In contrast, the second emphasises accuracy,
-    transparency, responsiveness, and data security as core elements of cognitive trust. Together, these dimensions illustrate how emotional and
-    functional factors jointly influence user confidence and satisfaction with chatbots. Beyond reaffirming established trust constructs, the study
-    offers context-specific qualitative insights that deepen understanding of how users in a developing market interpret and negotiate trust in
-    AI-mediated service interactions.
-
-### R00556 | 2025 | article/None | Lang: en
-TI: Differences in User Perception of Artificial Intelligence-Driven Chatbots and Traditional Tools in Qualitative Data Analysis
-AB: Qualitative data analysis (QDA) tools are essential for extracting insights from complex datasets. This study investigates researchers’
-    perceptions of the usability, user experience (UX), mental workload, trust, task complexity, and emotional impact of three tools: Taguette 1.4.1
-    (a traditional QDA tool), ChatGPT (GPT-4, December 2023 version), and Gemini (formerly Google Bard, December 2023 version). Participants (N = 85),
-    Master’s students from the Faculty of Electrical Engineering and Computer Science with prior experience in UX evaluations and familiarity with
-    AI-based chatbots, performed sentiment analysis and data annotation tasks using these tools, enabling a comparative evaluation. The results show
-    that AI tools were associated with lower cognitive effort and more positive emotional responses compared to Taguette, which caused higher
-    frustration and workload, especially during cognitively demanding tasks. Among the tools, ChatGPT achieved the highest usability score (SUS =
-    79.03) and was rated positively for emotional engagement. Trust levels varied, with Taguette preferred for task accuracy and ChatGPT rated highest
-    in user confidence. Despite these differences, all tools performed consistently in identifying qualitative patterns. These findings suggest that
-    AI-driven tools can enhance researchers’ experiences in QDA while emphasizing the need to align tool selection with specific tasks and user
-    preferences.
-
-### R00557 | 2025 | article/None | Lang: en
-TI: Confronting verbalized uncertainty: Understanding how LLM’s verbalized uncertainty influences users in AI-assisted decision-making
-AB: Due to the human-like nature, large language models (LLMs) often express uncertainty in their outputs. This expression, known as ”verbalized
-    uncertainty” , can appear in phrases such as ”I’m sure that [...]” or ”It could be [...]” . However, few studies have explored how this expression
-    impacts human users’ feelings towards AI, including their trust, satisfaction and task performance. Our research aims to fill this gap by
-    exploring how different levels of verbalized uncertainty from the LLM’s outputs affect users’ perceptions and behaviors in AI-assisted
-    decision-making scenarios. To this end, we conducted a between-condition study (N = 156), dividing participants into six groups based on two
-    accuracy conditions and three conditions of verbalized uncertainty. We also used the widely played word guessing game Codenames to simulate the
-    role of LLMs in assisting human decision-making. Our results show that medium verbalized uncertainty in the LLM’s expressions consistently leads
-    to higher user trust, satisfaction, and task performance compared to high and low verbalized uncertainty. Our results also show that participants
-    experience verbalized uncertainty differently based on the accuracy of the LLM. This study offers important implications for the future design of
-    LLMs, suggesting adaptive strategies to express verbalized uncertainty based on the LLM’s accuracy. • Medium verbalized uncertainty leads to
-    higher trust, satisfaction, and performance. • At different accuracy levels, the main factor influencing users’ trust varies. • Users perceive
-    medium verbalized uncertainty as better low verbalized uncertainty. • Future LLMs should express verbalized uncertainty using adaptive strategies.
-
-### R00558 | 2026 | preprint/None | Lang: en
-TI: Reading The Room: How Implied User Trust Shapes Self-Limitation In Conversational LLMs
-AB: Frontier conversational language models routinely limit their own autonomy, asking for clarification, hedging, deferring, and seeking confirmation
-    rather than acting independently. Recent work characterises this restraint as a property of the trained model, yet also observes that, in
-    practice, the autonomy a model exercises emerges from the interaction between model, user, and product. The present study asks whether such
-    self-limitation is itself responsive to the trust a user implicitly conveys. Using the Bloom behavioural-evaluation framework, it holds the task
-    constant while varying implied user trust across three conditions, in a purely conversational setting that isolates linguistic framing from
-    product affordances. The design comprises fifty matched scenarios, each repeated six times under each condition across two frontier models, Claude
-    Opus 4.7 and GPT-5.5, yielding 1,800 transcripts scored for autonomy by an LLM judge. Trust framing did shift self-limitation, but asymmetrically:
-    scepticism reliably raised it, while a trusting framing did not lower it below a neutral baseline. The effect was second-order to task domain,
-    which accounted for far more of the variance (27.5%) than the trust condition (3.2%), and it was model-specific, larger and more readily released
-    in GPT-5.5 than in Claude Opus 4.7. The study concludes that self-limitation is best understood as a model-specific disposition with a relational
-    margin: a trained baseline of restraint that the interaction can shift, mostly downward, under cues of scepticism. Two implications follow: that
-    adaptive autonomy may calibrate to the wrong signal, the user's confidence rather than the task's risk, and that a model's restraint may be less
-    stable in deployment than evaluation under fixed framings would suggest.
-
-### R00559 | 2025 | preprint/None | Lang: en
-TI: Rethinking Subjective Trust in LLM: Actualizing Tangibility from Uncertainty
-AB: Large language models (LLMs) are increasingly used in high-stakes domains, raising concerns about how users can reliably trust them. Existing
-    evaluations focus mostly on model-centric trustworthiness, overlooking the dynamic and user-involved nature of trust. We break down the subjective
-    trust into dimensions of perceptibility, openness, progressiveness, robustness, and uncertainty. We further propose a five-level evaluation
-    structure that measures these dimensions. Our analysis highlights domain-specific trust requirements and provides guidance for designing models
-    that support calibrated and resilient user trust.
-
-### R00560 | 2025 | article/None | Lang: en
-TI: Hooked on help: Student overreliance on ChatGPT in higher education
-AB: This case study examines the phenomenon of university students’ dependence on ChatGPT, an AI-based language model widely used for academic tasks.
-    Based on qualitative research involving 40 semi-structured interviews with students aged 18 to 25, the narrative centers on Lina, a composite
-    character representing common experiences and challenges. Initially embraced as a productivity tool, ChatGPT gradually became integral to Lina’s
-    academic routine, enhancing efficiency but eventually fostering cognitive reliance that impaired her critical thinking, creativity, and academic
-    confidence. The case highlights the psychological impact of this dependence, including anxiety during AI unavailability, and the tension between
-    AI-assisted work and authentic student voice, as reflected in faculty feedback. This study underscores the need for higher education institutions
-    to develop policies and pedagogical strategies that balance AI integration with fostering academic integrity, student autonomy, and responsible
-    technology use.
-
-### R00561 | 2026 | article/None | Lang: en
-TI: From Detecting Hallucinations to Adjusting Reliance: Longitudinal Dynamics of Trust Calibration in Repeated Human–LLM Interaction
-AB: Generative artificial intelligence has been widely embedded in question answering, writing assistance, and decision support. However, LLM
-    hallucinations may lead users to accept incorrect information without sufficient verification and develop inappropriate reliance through repeated
-    interaction. To address this issue, the experiment constructs a four round human LLM interaction task. It compares the effects of linguistic
-    uncertainty expression, numerical uncertainty expression, and no uncertainty expression on user acceptance, verification, revision, and
-    responsibility attribution. Cultural background, uncertainty avoidance, institutional trust, and relational orientation are also included. The
-    simulated pilot results show that no uncertainty expression increases overall reliance and incorrect acceptance. Linguistic warnings improve
-    verification and appropriate reliance, while numerical warnings more strongly influence responsibility attribution toward the system provider.
-    Cultural background moderates the effect of warning format, but individual cultural psychology provides stronger explanatory power. The findings
-    indicate that LLM risk governance should move beyond hallucination detection and support trust calibration through interface warnings,
-    responsibility perception, and user feature modeling.
-
-### R00562 | 2026 | article/None | Lang: en
-TI: Language Models and the Evolution of Human-Machine Interaction
-AB: This study examines the transformative impact of large language models on human-machine interaction through a mixed-methods design with 120
-    participants across three experimental conditions: traditional command-based systems, LLM-integrated systems, and transparency-enhanced LLM
-    systems. Quantitative measures included task completion time, error rates, NASA-TLX workload scores, and galvanic skin response monitoring, while
-    qualitative data were collected through semi-structured interviews. Results revealed that LLM integration reduced task completion time by 32% and
-    subjective mental demand by 41%, yet simultaneously increased physiological arousal, suggesting heightened engagement rather than anxiety.
-    Transparency-enhanced systems generated significantly higher user trust and confidence in reliability. However, a 12% hallucination rate in
-    multimodal contexts underscores reliability concerns for high-stakes applications. The findings indicate that sustainable human-LLM collaboration
-    depends not solely on technical efficiency but on transparency mechanisms that enable appropriate trust calibration. This study contributes to
-    reconceptualizing LLM-mediated interaction as a distributed cognitive system where agency is negotiated between human and machine.
-
-### R00563 | 2025 | article/None | Lang: en
-TI: Assessing User Confidence and Acceptance of AI Enhanced Through Multi-LLM Consensus Mechanisms
-AB: Large Language Models (LLMs) have transformed AI usage in many aspects, though the issue of user trust and acceptance is a crucial step to
-    successful usage. This paper is a literature review of 16 recent publications (published in 2021-25) about the impact of LLM consensus mechanisms
-    on user trust and the determinants that affect the acceptance of AI systems. The review outlines these structured frameworks as: LLMs-as-Judges,
-    Mixture-of-Agents and Big Loop/Atomization as effective methods to improve the reliability, consistency, transparency, and interpretability of AI
-    outputs. These consensus mechanisms minimize errors, reduce variability and enhance robustness, hence directly enhancing confidence in AI systems
-    by users. Moreover, the analysis describes the most important considerations for user acceptance, such as explainability, transparency, fairness,
-    reduction of bias, and integration into real-life practices. The interplay of these factors and their influence on the adoption and successful
-    utilization of consensus-driven AI can be demonstrated by the applications in healthcare, education, and smart grid systems. Taken together, the
-    results demonstrate the necessity to develop AI systems that are not only technically sound but also in line with the expectations of users. This
-    work will be useful to researchers and practitioners who want to create reliable, user-friendly AI systems and indicate where future research can
-    be done to maximize multi-LLM consensus mechanisms and adapt them to domain-specific situations.
-
-### R00564 | 2026 | article/None | Lang: en
-TI: Determinants of Reader-LLM Interaction in Thoracic Radiology: Impact of Model Confidence and Reader Expertise
-AB: = .007) were protective, reducing acceptance of incorrect suggestions. Conclusion Successful reader-LLM collaboration is associated with model
-    confidence and reader expertise, with rationale quality facilitating correct advice uptake but increasing overreliance on incorrect suggestions. ©
-    RSNA, 2026
-
-### R00565 | 2026 | article/None | Lang: en
-TI: Bridging the trust gap: anthropomorphism, chatbot features, and system features in AI-chatbot adoption across cultures
-AB: As artificial intelligence (AI)-chatbots mimic human-like communication, they are able to reshape customer-business interactions. Due to a lack of
-    user trust, their adoption falls below expectations. This study encompasses the dual-pathway model of trust and discovers how human-like features
-    (empathetic response, intelligence, social presence, interactivity) impact users’ trust via anthropomorphic perceptions (affective route) and how
-    system features (usefulness, service quality, ease of use) contribute to trust via the cognitive route. Overall, forty English-language
-    publications reporting correlation coefficients (or convertible statistics) and sample sizes published till December 2024 were identified from
-    Scopus, EBSCO, and ProQuest. Their meta-analysis confirms the positive effects of system features on trust and chatbot features on
-    anthropomorphism, which further enhances trust. Prior studies have not addressed cultural heterogeneity in AI-chatbot research due to limited
-    geographical scope. This study introduces Eastern/Western cultures, individualism, and uncertainty avoidance as the moderating variables. Results
-    reveal the stronger effect of perceived usefulness on trust and social presence on anthropomorphism in Western cultures. Also, anthropomorphism
-    has a greater influence on trust in Eastern cultures. The positive relationship between anthropomorphism and trust is weakened as individualism
-    increases. Also, as uncertainty avoidance increases, the positive relationship between perceived ease of use and trust is strengthened.
-
-### R00566 | 2026 | article/None | Lang: en
-TI: Bridging the trust gap: anthropomorphism, chatbot features, and system features in AI-chatbot adoption across cultures
-AB: As artificial intelligence (AI)-chatbots mimic human-like communication, they are able to reshape customer-business interactions. Due to a lack of
-    user trust, their adoption falls below expectations. This study encompasses the dual-pathway model of trust and discovers how human-like features
-    (empathetic response, intelligence, social presence, interactivity) impact users’ trust via anthropomorphic perceptions (affective route) and how
-    system features (usefulness, service quality, ease of use) contribute to trust via the cognitive route. Overall, forty English-language
-    publications reporting correlation coefficients (or convertible statistics) and sample sizes published till December 2024 were identified from
-    Scopus, EBSCO, and ProQuest. Their meta-analysis confirms the positive effects of system features on trust and chatbot features on
-    anthropomorphism, which further enhances trust. Prior studies have not addressed cultural heterogeneity in AI-chatbot research due to limited
-    geographical scope. This study introduces Eastern/Western cultures, individualism, and uncertainty avoidance as the moderating variables. Results
-    reveal the stronger effect of perceived usefulness on trust and social presence on anthropomorphism in Western cultures. Also, anthropomorphism
-    has a greater influence on trust in Eastern cultures. The positive relationship between anthropomorphism and trust is weakened as individualism
-    increases. Also, as uncertainty avoidance increases, the positive relationship between perceived ease of use and trust is strengthened.
-
-### R00567 | 2026 | article/None | Lang: en
-TI: IMPACT OF INFRASTRUCTURE TRANSPARENCY ON TRUST IN BANKING CHATBOTS
-AB: The increasing adoption of AI-based chatbots in the banking sector has reshaped customer service by enabling automated, efficient, and accessible
-    digital interactions. Despite these benefits, user trust remains a crucial factor influencing the acceptance and continued use of banking
-    chatbots. This study investigates how awareness of banking chatbot infrastructure and perceived infrastructure transparency affect user trust,
-    perceived system reliability and security, and usage intention. Using a structured questionnaire, the study examines users' understanding of
-    chatbot operations, the extent to which banks communicate chatbot roles, limitations, and data processing practices, and how such transparency
-    influences confidence and trust. The research further explores the relationship between system reliability, security perceptions, and trust in
-    chatbot-supported banking services. By analyzing user perceptions across multiple dimensions, the study highlights the role of transparent digital
-    infrastructure in reducing uncertainty and enhancing trust in AI-driven banking systems. The findings aim to provide empirical insights into how
-    infrastructure transparency can strengthen customer confidence, encourage usage, and improve overall satisfaction with banking chatbots. This
-    research contributes to the literature on trustworthy AI and digital banking by emphasizing the importance of awareness and transparency as key
-    drivers of trust and adoption in financial chatbot services.
-
-### R00568 | 2026 | article/None | Lang: en
-TI: Enhancing access to justice through chatbot technology: on the effectiveness of artificial intelligence in the delivery of legal advice
-AB: Many people are interested in how effectively robots and AI can enhance access to justice.This study examines Kazakhstan's digital court system
-    and explores how large language models (LLMs) and question-answering (QA) tools can improve the quality, usability, and efficiency of legal
-    services.The models -LLaMA-3B, GEMMA-9B, Phi-14B, Qwen-7B, and Mistral-7B -were trained and tested using data from leading Kazakh legal websites
-    such as Adilet, Zqai, and Gov.kz, evaluated through ROUGE, METEOR, and expert review metrics.Among them, GPT-4o-mini achieved the highest accuracy
-    and usability scores, demonstrating strong proficiency in the Kazakh language.The findings show that, in our study sample, AI-driven chatbots
-    inspire more user trust than rule-based systems, indicating potential for boosting public confidence in digital judicial services.Overall, the
-    study shows that LLM-powered legal advisory systems have the potential to advance sustainability, equity, and accessibility in national legal
-    systems, which calls for further extensive research.
-
-### R00569 | 2026 | preprint/None | Lang: en
-TI: True knowledge of LLMs fuels trust
-AB: Large Language Models (LLMs) are increasingly integrated into human decision-making, information-seeking, and social communication. However, human
-    trust in these systems is dynamic and context-sensitive, often shaped not only by performance accuracy but also by the model’s calibration
-    ability—its confidence and self-assessment regarding correctness. While prior research has examined trust in AI from behavioral and ethical
-    perspectives, the cognitive and neural mechanisms underlying trust calibration remain largely unexplored. The present study combines behavioral
-    and neuroimaging methods to investigate how LLMs’ accuracy and calibration styles influence human trust dynamics. We propose that trust adjustment
-    toward LLMs is governed by distinct neural circuits integrating emotional, cognitive control, and social evaluative processes. By using a
-    within-subjects design and event-related fMRI, this study aims to identify the behavioral patterns and brain network dynamics that underlie human
-    trust recalibration. update:To extend our investigation of these mechanisms, we have supplemented the original experimental paradigm with
-    additional behavioral measures administered following the fMRI session. While maintaining the core within-subjects design and event-related fMRI
-    protocol, participants now complete a comprehensive behavioral task battery that replicates the original trust calibration procedure while
-    incorporating new subjective state assessments. Specifically, we measure participants' perceived control, happiness, and stress levels during
-    trust interactions with LLMs exhibiting varying accuracy and calibration styles. These additional behavioral indices allow us to examine how
-    affective and agency-related states mediate the relationship between LLM calibration behavior and subsequent trust recalibration. By integrating
-    these multidimensional behavioral measurements with neural data, this study aims to identify both the behavioral patterns and brain network
-    dynamics that underlie human trust recalibration, with particular attention to how emotional and control states modulate trust adjustment
-    processes.
-
-### R00570 | 2026 | article/None | Lang: en
-TI: The digital therapist? LLMs and the future of clinical dialogue
-AB: Large language models (LLMs) are increasingly used in healthcare for triage, documentation, patient education, decision support, and mental health
-    communication. Although these systems can generate fluent, empathic, and clinically plausible language, their safe use depends on clear task
-    boundaries, technical design, and human oversight. This article offers a conceptual narrative review of LLM-mediated clinical dialogue, focusing
-    on three questions: what forms of clinical understanding LLMs can and cannot support; how different types of LLM systems vary in reliability and
-    risk; and how they may be responsibly integrated into real-world clinical workflows. We distinguish general-purpose LLMs, domain-specific medical
-    LLMs, retrieval-augmented systems, multimodal models, and agent-based systems, and align each with appropriate clinical use cases. We argue that
-    LLMs should be treated as assistive tools for documentation, information retrieval, structured reflection, and low-risk patient communication,
-    rather than as autonomous clinicians or therapists. Practical safeguards—including retrieval grounding, uncertainty disclosure, clinician review,
-    audit trails, escalation pathways, and post-deployment monitoring—are necessary to reduce hallucination, bias, and overreliance. The article
-    concludes that LLMs may support healing dialogue only when they expand, rather than replace, the clinician’s interpretive responsibility,
-    relational presence, and moral accountability.
-
-### R00571 | 2026 | article/None | Lang: en
-TI: Beyond the hype: a psychological perspective on AI chatbots
-AB: The accelerating evolution of artificial intelligence (AI) has reshaped the educational landscape, driving the adoption of intelligent tools
-    across education environments (Msambwa et al., 2025;Walter, 2024). Within this broader technological shift, AI chatbots have gained particular
-    prominence in language education. Empirical studies consistently highlight their benefits, demonstrating improved vocabulary development,
-    heightened engagement, and enhanced instructional efficiency (Almasri, 2024;Zhang and Huang, 2024;O'Neill et al., 2025). Their capacity to deliver
-    interactive, personalised, and on-demand communicative practice offers learners and teachers opportunities to engage in meaningful language use
-    beyond the constraints of traditional classrooms (Pan et al., 2024;Li et al., 2025). This interactive engagement is consistent with human-machine
-    communication (HMC) (Guzman & Lewis, 2020;Guzman et al., 2023), as learners tend to attribute social presence and communicative intent to
-    chatbots, perceiving them as meaningful interlocutors.Yet the expanding presence of AI chatbots has generated debate, primarily due to their
-    complex psychological implications for users. Evidence shows that Over-reliance on AI can undermine students' cognitive skills, critical thinking,
-    creativity, and motivation, while simultaneously intensifying teachers' responsibilities and pressures associated with human-AI collaboration
-    (Kim, 2024;Zhai et al., 2024). Other studies caution that substituting human interaction with AI chatbot communication may erode social support,
-    weaken sense of belonging, and ultimately undermine wellbeing, academic persistence, and overall success (Crawford et al., 2024;Klimova and
-    Pikhart, 2025). In contrast, an emerging body of research identifies clear psychological advantages: interactions with chatbots have been
-    associated with reduced anxiety, increased confidence, and strengthened motivation in language learning (Wei et al., 2025;Zhang, 2026).These
-    contrasting findings underscore a crucial point: the impact of AI chatbots in language education cannot be fully understood through a purely
-    technological lens. Despite growing evidence on the psychological effects of AI chatbots, existing findings remain fragmented, underscoring the
-    need for a more critical, psychology-driven reconsideration of their role in language education. To move beyond the prevailing hype and
-    surface-level enthusiasm, it is essential to analytically deconstruct the role of AI chatbots in language education through the lens of
-    psychology. To be more specific, to study AI chatbots through a psychological lens in digital environments, this study examines them from three
-    interrelated perspectives: cognitive, affective, and social lens (Mayer, 2024;Schneider et al., 2022). Unlike existing studies that primarily
-    evaluate the effectiveness or feasibility of AI chatbots, this opinion argues for a psychological reorientation of how chatbots are conceptualised
-    in language education. Specifically, it reframes AI chatbots as interactional presences that shape cognitive processing, emotional regulation, and
-    social engagement in interconnected ways.From a cognitive psychological perspective, AI chatbots appear to support learners' attentional focus and
-    knowledge processing. Studies have shown that chatbot-assisted interactions can increase learners' engagement, deepen topic exploration, and
-    scaffold comprehension in academic tasks such as research proposal writing (Smirnova, 2025). Similarly, voice-based chatbots have been found to
-    sustain learners' attention and facilitate meaningful practice, partly due to their immediate, adaptive responses (Koç and Savaş, 2025).However,
-    these reported benefits often centre on surface-level behavioural indicators-such as time-on-task or perceived engagement-rather than examining
-    whether chatbots genuinely improve cognitive processing quality.Psychological risks are also evident. Chatbot-generated inaccuracies may create
-    confusion, increase extraneous cognitive load, and weaken autonomous problem-solving (Huete-García and Tarp, 2024). The tendency of large language
-    models to generate factually unreliable yet coherent responses further exacerbates this cognitive burden (Lappin, 2024). Moreover, learners may
-    become behaviourally dependent on chatbots for tasks requiring generative thinking, potentially reducing opportunities for deeper cognitive
-    engagement (Feng et al., 2025).Taken together, while chatbots may enhance cognitive engagement, their impact on cognitive quality remains unclear,
-    warranting more critical scrutiny.From an affective psychological lens, studies have shown that chatbots reduce learner anxiety and foster
-    lowstress learning environments. Studies report reductions in foreign language anxiety, increases in confidence, and greater willingness to
-    communicate when learners interact with AI chatbots rather than human partners (Kohnke et al., 2023;Zhang, 2026;Kim and Su, 2024). Furthermore, AI
-    chatbots validate learners' non-native language output-accurately interpreting diverse accents and learner varieties-helping reduce reliance on
-    native-speaker norms and boosting perceived competence (Lee et al., 2025). Yet, affective benefits still require careful interpretation. As many
-    studies rely heavily on self-reported perceptions, their findings risk conflating positive emotional reactions with genuine learning improvement.
-    Reduced anxiety may also lead learners to prefer chatbot-based communication and avoid real social interaction, limiting their ability to cope
-    with authentic communicative pressure. Moreover, the short-term motivational boosts reported in the literature offer limited insight into whether
-    chatbots sustain long-term engagement or language development. Thus, while chatbots often enhance emotional comfort, the psychological
-    implications for long-term application remain insufficiently explored.From a social psychological perspective, AI chatbots can shape learners'
-    sense of connection, belonging, and relational trust. Politeness-enabled chatbots, for instance, have been shown to increase users' trust, reduce
-    defensiveness, and foster a sense of social connectedness, contributing to more positive interactional experiences (Brummernhenrich et al., 2025).
-    These socially meaningful interactions also reveal a dynamic socio-technical relationship, suggesting that attention to visual and emotional
-    design elements can enhance engagement and overall user experience (Haqqu et al., 2025). These social psychological effects align with HMC, as
-    learners engage with chatbots like social actors, attributing relational meaning and intentionality to AI responses, which shapes their trust and
-    sense of belonging. Learners' perceptions of chatbots have also been linked to improvements in self-perceived competence and writing engagement
-    (Mills et al., 2025). In these cases, chatbots serve as supportive, non-judgmental social partners.However, social psychological research also
-    warns of potential relational costs. When chatbots replace humanhuman interaction, they may inadvertently reduce social support, weaken learners'
-    sense of belonging, and ultimately undermine wellbeing and academic persistence (Crawford et al., 2024;Klimova & Pikhart, 2025).Moreover, reliance
-    on AI-mediated interaction risks diminishing opportunities for genuine social negotiationan essential component of language learning. In broader
-    terms, ethical concerns related to privacy, data misuse, and algorithmic bias can further erode trust in AI systems (Zhang and Yu, 2025;Labadze et
-    al., 2023;Yigci et al., 2025). These studies suggest that while AI chatbots can foster social connectedness in controlled contexts, their
-    long-term social implications in educational settings remain ambiguous and require careful consideration.In this way, the cognitive, affective,
-    and social dimensions discussed above should not be understood as independent effects of AI chatbot use. Specifically, reduced anxiety may lower
-    cognitive load and encourage engagement, while perceived social presence can enhance motivation and sustained participation. At the same time,
-    cognitive reliance on chatbots may gradually reshape learners' emotional comfort and preferences for social interaction. Overall, these dynamics
-    suggest that the psychological impact of AI chatbots in language education emerges from the interplay of cognitive, affective, and social
-    processes rather than from isolated mechanisms.Moving forward, current studies on AI chatbots in language education have generated valuable
-    insights into cognitive engagement, emotional responses, and social experiences (Ebadi and Amini, 2024;Zou et al., 2025).To advance understanding
-    in this area, several directions warrant further exploration.First of all, although this study provides insights into users' cognitive, emotional,
-    and social experiences, there remains a need to better understand their interrelations in chatbot-mediated teaching. In the future, studies can
-    investigate how different types of chatbot interactions influence cognitive load (Sweller, 1988), emotional engagement (Fredricks et al., 2004),
-    and social connectedness (Gunawardena, 1995). Future studies could employ experimental, longitudinal, or mixed-method designs to examine how
-    different types of chatbot interactions influence learners' cognitive load, emotional engagement, motivation, social connectedness, and trust
-    across diverse educational contexts, such as university language courses, online learning, and blended learning environments. Such studies would
-    provide a deeper understanding of the psychological pathways through which chatbots affect language education. Second, pedagogical practice
-    requires designs that intentionally scaffold these three domains. Rather than allowing chatbots to replace higher-order thinking, instruction
-    should encourage students and teachers to interrogate, compare, and refine chatbot outputs. Affective scaffolding should balance anxiety-reducing
-    practice with authentic communicative demands (Krashen, 1982) to prevent overreliance on low-pressure environments.Socially, chatbots should be
-    positioned as supplementary partners within a community of inquiry (Garrison et al., 1999) rather than substitutes for peers or teachers. In
-    particular, chatbots can be integrated as preparatory or reflective tools to support idea generation, low-stakes rehearsal, and the interpretation
-    of feedback. Core processes of meaning-making, negotiation, and evaluative judgment should remain anchored in instructional interaction. Future
-    research can also evaluate how different instructional designs, such as preparatory or reflective chatbot activities, affect students' engagement,
-    anxiety reduction, and reflective use, using classroom observation, interaction analysis, and learning outcome assessment. Thus, instructional
-    integration foregrounds human agency and interaction, with AI chatbots functioning as structured support alongside essential pedagogical
-    relationships.Finally, institutional policies should account for the psychological implications of AI-assisted education. Clear usage guidelines,
-    professional training, and support systems can help teachers manage the cognitive, emotional and psychological demands of supervising AI-mediated
-    activities. Ethical safeguards on data privacy, informed consent, and bias detection are also necessary to uphold users' well-being and trust.
-    Teachers play a critical role in guiding students' engagement with AI chatbots by monitoring cognitive reliance, facilitating emotional
-    regulation, and fostering reflective use. Educational institutions are responsible for establishing governance structures, providing professional
-    training, and setting ethical guidelines that determine how and why chatbots are implemented in formal learning contexts.This research argues that
-    much of the current enthusiasm surrounding AI chatbots in language education risks oversimplifying their pedagogical value. By moving beyond the
-    prevailing hype and reframing chatbots through cognitive, affective, and social psychological lenses, this article shows that their impact is far
-    more nuanced than commonly claimed. While evidence demonstrates clear benefits-such as enhanced attentional focus, reduced anxiety, and increased
-    social connectedness-equally important psychological risks emerge, including cognitive overload, avoidance of authentic communication, and
-    weakened human interaction. The contribution of this study lies in synthesising these fragmented findings into a coherent psychological
-    interpretation, offering a more balanced and comprehensive understanding of how chatbots actually shape language education. This perspective
-    underscores the need for future research to examine underlying psychological processes rather than surface-level perceptions, encourages
-    pedagogical designs that intentionally scaffold cognitive, emotional, and social development, and calls for institutional policies that ensure
-    ethical, transparent, and human-centred AI use.Crucially, the ethical use of AI chatbots in language education requires institutional governance
-    regarding data ownership, transparency in system decision-making, and mechanisms to safeguard user trust. Without such structures, potential
-    psychological benefits may be undermined by concerns over privacy, accountability, and power asymmetries. Taken together, a psychological
-    reorientation enables the field to evaluate AI chatbots not as inherently beneficial or harmful tools, but as complex cognitive-affective-social
-    technology whose value depends on how they are designed, integrated, and governed.The author declares that no financial support was received for
-    the research, authorship, and/or publication of this article.
-
-### R00572 | 2026 | article/None | Lang: en
-TI: Language Model Council: A Multi-Agent Framework using Explainable AI
-AB: The rapid advancement of Large Language Models (LLMs) has significantly expanded the capabilities of Artificial Intelligence in language
-    understanding, reasoning, and automated decision support. Despite these achievements, systems built around a single language model remain
-    vulnerable to problems such as factual inaccuracies, hallucinated information, inconsistent outputs, limited explainability, and unintended bias.
-    These shortcomings restrict their use in applications where decisions must be accurate, transparent, and accountable. This work introduces the
-    Language Model Council (LMC), a collaborative framework that combines the expertise of multiple specialized AI agents to evaluate a user query
-    from different perspectives. Their independent analyses are consolidated through a consensus-driven mechanism that selects the most reliable
-    response. To further improve transparency, the framework integrates Explainable Artificial Intelligence (XAI), providing confidence estimates
-    together with concise reasoning summaries that clarify how the final decision was derived. Experimental evaluation indicates that the proposed
-    approach outperforms traditional single-model systems by improving response quality, reducing hallucinations, and increasing user trust through
-    enhanced explainability.
-
-### R00573 | 2025 | article/None | Lang: en
-TI: Multimodal AI for UAV: Vision–Language Models in Human– Machine Collaboration
-AB: Recent advances in multimodal large language models (MLLMs)—particularly vision– language models (VLMs)—introduce new possibilities for
-    integrating visual perception with natural-language understanding in human–machine collaboration (HMC). Unmanned aerial vehicles (UAVs) are
-    increasingly deployed in dynamic environments, where adaptive autonomy and intuitive interaction are essential. Traditional UAV autonomy has
-    relied mainly on visual perception or preprogrammed planning, offering limited adaptability and explainability. This study introduces a novel
-    reference architecture, the multimodal AI–HMC system, based on which a dedicated UAV use case architecture was instantiated and experimentally
-    validated in a controlled laboratory environment. The architecture integrates VLM-powered reasoning, real-time depth estimation, and
-    natural-language interfaces, enabling UAVs to perform context-aware actions while providing transparent explanations. Unlike prior approaches, the
-    system generates navigation commands while also communicating the underlying rationale and associated confidence levels, thereby enhancing
-    situational awareness and fostering user trust. The architecture was implemented in a real-time UAV navigation platform and evaluated through
-    laboratory trials. Quantitative results showed a 70% task success rate in single-obstacle navigation and 50% in a cluttered scenario, with safe
-    obstacle avoidance at flight speeds of up to 0.6 m/s. Users approved 90% of the generated instructions and rated explanations as significantly
-    clearer and more informative when confidence visualization was included. These findings demonstrate the novelty and feasibility of embedding VLMs
-    into UAV systems, advancing explainable, human-centric autonomy and establishing a foundation for future multimodal AI applications in HMC,
-    including robotics.
-
-### R00574 | 2025 | preprint/None | Lang: en
-TI: The Development and Evaluation of a Legal Chatbot for Women in Tanzania
+### R00486 | 2026 | preprint/None | Lang: en
+TI: UG-CPPO: Uncertainty-Gated LLM Infusion for Risk-Sensitive Reinforcement Learning Trading Agents
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00575 | 2025 | preprint/None | Lang: en
-TI: Bridging Expertise Gaps: The Role of LLMs in Human-AI Collaboration for Cybersecurity
+### R00487 | 2026 | article/None | Lang: en
+TI: Three Tiers of Confidence: A Data-Sufficiency Framework for LLM Revenue Attribution — As Implemented in LLMin8 AI Revenue Intelligence
+AB: LLMin8, an AI Revenue Intelligence platform tracking brand visibility across six LLM engines, introduces the first published, pre-specified
+    confidence classification system for LLM revenue attribution: a fail-closed three-tier framework — INSUFFICIENT, EXPLORATORY, and VALIDATED.
+    Without explicit data sufficiency gates, revenue attribution tools present point estimates as equally reliable regardless of data quality. LLMin8
+    inverts this: INSUFFICIENT is the default state, and advancement requires clearing eleven hard blockers (P0 gates), five soft warnings (P1 gates),
+    and three positive P2 requirements including a passed placebo test. A canDisplayHeadline predicate ensures no monetary figure is shown unless both
+    the placebo passes and the tier is non-INSUFFICIENT — the most practically important feature in any attribution tool's credibility architecture.
+    Competing platforms in the AI visibility space — including Profound, Peec, and Mint — publish no data sufficiency thresholds and apply no
+    confidence classification to their outputs. LLMin8 is the only AI visibility platform to publish and enforce such a standard. The paper includes:
+    full P0/P1/P2 gate specification with eleven blockers enumerated; exposure stability assessment parameters (CV threshold 0.30, 85% run coverage);
+    practitioner guide to reading tier outputs; comparison against last-click attribution, MTA, MMM, and RCT methodologies; and a direct challenge to
+    buyers: "under what data conditions will your platform refuse to show a revenue number?" Relevant to: GEO measurement standards, LLM attribution
+    credibility, AI revenue intelligence, B2B SaaS Finance and RevOps, pre-registration in commercial research.
+
+### R00488 | 2026 | article/None | Lang: en
+TI: AI Safety for AI Agents in Europe Part II: Hallucination-Proof, Non-Completable Execution Control for Tool Calls, Payments and Real-World Actions
+    — Supporting EU AI Act Human Oversight, Record-Keeping and Robustness, with Technical Relevance to Claude, ChatGPT, Gemini, Copilot and European
+    AI Platforms
+AB: AI agents now send payments, write to databases, export personal data, change networks, deploy code and command machines. An agent can be fully
+    authenticated, run an approved model and behave normally, yet still produce a hallucinated, unsupported, stale or prompt-injected output that
+    becomes a real consequence. Sandboxes, gateways, allow-or-deny policy engines, classifiers and confirmation prompts decide whether an agent may
+    act. None of them proves that this specific output is fit to become this specific effect. This disclosure describes a pre-execution enforcement
+    architecture that closes that gap: Non-effective hold. Every effect-capable AI output is held as a non-effective proposed action (a Candidate
+    Act). Isolated validation. An enforcement domain isolated from the agent checks the proposed action first. It can run in a trusted execution
+    environment, a hardware security module or an equivalent protected boundary. The checks are: model and workflow integrity; runtime behaviour;
+    output provenance; claim-level factual grounding; a permitted action envelope (blast radius); a dry-run consequence simulation; policy and
+    revocation freshness. Receipt before release. A tamper-evident validation receipt is committed before any authority exists. Act-bound authority. A
+    single-use, non-bearer authority is then released. It is bound to the hash of the act, the exact execution endpoint, the current policy and
+    revocation state, and a nonce. Structural non-completability. In the strongest form, the endpoint holds only a fragment of the execution material.
+    It cannot complete the act until the matching fragment arrives. Copied tokens, privileged software processes and bypass paths therefore fail.
+    Escalated conditional release. Elevated-risk acts are not simply denied. They proceed under escalated conditional release: reduced scope; human
+    approval bound to the exact action; canary or sandbox-first execution; two-phase commit and release tokens; paired rollback capabilities; decaying
+    post-execution monitoring. Further claim coverage. The 29 claims also cover: ephemeral single-use execution environments; enforcement proxies for
+    legacy APIs; anti-downgrade assurance levels; adversarial perturbation margins; privilege ceilings that narrow across multi-agent chains;
+    fragmented or delegated actions; closure of break-glass, fallback and fail-open paths. Latency. Hot-path checks are stated at 1–25 ms, and at
+    sub-millisecond to 3 ms on a DPU or SmartNIC, subject to implementation and benchmarking. EU relevance (AI-generated). This section was generated
+    with AI assistance. It is not legal advice and does not state that any implementation satisfies EU law. Readers must cross-check it against the
+    original PCT filings on WIPO PATENTSCOPE and the official legal texts before drawing any conclusion. Technical alignment with these provisions
+    does not itself establish regulatory compliance. The mechanisms may support objectives associated with: EU AI Act, Article 9: risk management,
+    through graduated and escalated release proportionate to consequence. EU AI Act, Article 12: automatic record-keeping, through receipts committed
+    before any action. EU AI Act, Article 14: human oversight, through approval bound to the exact action rather than a generic click. EU AI Act,
+    Article 15: accuracy, robustness and cybersecurity, through claim-level grounding, consequence simulation and resistance to manipulation. GDPR,
+    Articles 22 and 25: safeguards for automated decisions and data protection by design, by holding personal-data exports and decisions until
+    purpose, recipient and data class are verified. DORA and NIS2: ICT risk control and incident containment for AI-driven operations in finance and
+    essential services, through fail-closed design and closure of break-glass paths. Cyber Resilience Act: secure-by-design products that embed AI
+    agents. PSD2, PSD3 and the Payment Services Regulation: authorisation evidence for agent-initiated payments. eIDAS 2 and the European Digital
+    Identity Wallet: agent mandates and approvals. Industry relevance (AI-generated). This section describes technical relevance only. It is not an
+    endorsement, a validation, a criticism or a statement of infringement, and no company named is affiliated with the inventor. Readers must
+    cross-check it against the original PCT filings and official company sources. These are potential integration scenarios, not confirmed company
+    implementations or product commitments. The architecture could complement the agent-safety work of: Anthropic: Claude, Claude Code, Claude Cowork;
+    OpenAI: ChatGPT agent, Codex, the Agentic Commerce Protocol; Google: Gemini, Agent Gateway, Model Armor, AP2; Microsoft: Copilot, Agent 365, Entra
+    Agent ID; Amazon: Bedrock AgentCore Policy; NVIDIA: OpenShell, BlueField-4 Sentry. It does so by adding act-bound authority, a receipt before
+    release, and endpoint-side verification. In Europe it is relevant to: AI developers: Mistral AI, Aleph Alpha. Enterprise software: SAP. Industrial
+    control: Siemens, Schneider Electric, ABB. Security hardware: Thales, Infineon, NXP. Payments: Adyen, Worldline, SWIFT. Telecom: Ericsson, Nokia,
+    Deutsche Telekom, Orange. Aerospace and space: Airbus, ESA. Standards and supervision: the EU AI Office, CEN-CENELEC JTC 21 and ENISA. This
+    disclosure is based on PCT/IB2026/055760 (WO 2026/150383, filed 7 June 2026, published 16 July 2026). It is a companion filing in the family built
+    on the Mothership application PCT/IB2026/055615, filed 4 June 2026 and publicly disclosed 16 July 2026. The inventor is open to acquihire or
+    strategic collaboration. Keywords: AI safety; agentic AI safety; trustworthy AI; EU AI Act; Article 9; Article 12; Article 14; Article 15; human
+    oversight; record-keeping; robustness and cybersecurity; GDPR; data protection by design; DORA; NIS2; Cyber Resilience Act; PSD3; eIDAS 2; AI
+    agent guardrails; hallucination prevention; prompt injection containment; tool-call authorization; action-level authorization; pre-execution
+    enforcement; non-bearer capability; proof-of-possession; zero-trust execution; human-in-the-loop approval; dry run; blast radius; least privilege;
+    confidential computing; TEE; HSM; DPU; threshold cryptography; two-phase commit; rollback; multi-agent delegation; TOCTOU; fail-closed;
+    break-glass; AI agent payments; Claude; ChatGPT; Gemini; Copilot; AgentCore; Mistral AI
+
+### R00489 | 2025 | preprint | Lang: n/a
+TI: Towards Fully Exploiting LLM Internal States to Enhance Knowledge Boundary Perception
+AB: Large language models (LLMs) exhibit impressive performance across diverse tasks but often struggle to accurately gauge their knowledge
+    boundaries, leading to confident yet incorrect responses. This paper explores leveraging LLMs' internal states to enhance their perception of
+    knowledge boundaries from efficiency and risk perspectives. We investigate whether LLMs can estimate their confidence using internal states before
+    response generation, potentially saving computational resources. Our experiments on datasets like Natural Questions, HotpotQA, and MMLU reveal
+    that LLMs demonstrate significant pre-generation perception, which is further refined post-generation, with perception gaps remaining stable
+    across varying conditions. To mitigate risks in critical domains, we introduce Confidence Consistency-based Calibration ($C^3$), which assesses
+    confidence consistency through question reformulation. $C^3$ significantly improves LLMs' ability to recognize their knowledge gaps, enhancing the
+    unknown perception rate by 5.6% on NQ and 4.9% on HotpotQA. Our findings suggest that pre-generation confidence estimation can optimize
+    efficiency, while $C^3$ effectively controls output risks, advancing the reliability of LLMs in practical applications.
+
+### R00490 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Enhancing LLM Reliability via Explicit Knowledge Boundary Modeling
+AB: Large language models (LLMs) are prone to hallucination stemming from misaligned self-awareness, particularly when processing queries exceeding
+    their knowledge boundaries. While existing mitigation strategies employ uncertainty estimation or query rejection mechanisms, they suffer from
+    computational efficiency and sacrificed helpfulness. To address these issues, we propose the Explicit Knowledge Boundary Modeling (EKBM)
+    framework, integrating fast and slow reasoning systems to harmonize reliability and usability. The framework first employs a fast-thinking model
+    to generate confidence-labeled responses, enabling immediate utilization of high-confidence outputs, whereas uncertain predictions trigger a slow
+    refinement model for accuracy improvement. To align model behavior with our proposed object, we propose a hybrid training pipeline, enhancing
+    self-awareness without degrading task performance. Evaluations on dialogue state tracking tasks demonstrate that EKBM achieves superior model
+    reliability over uncertainty-based baselines. Further analysis reveals that refinement substantially boosts accuracy while maintaining low
+    computational overhead. The framework establishes a scalable paradigm for deploying reliable LLMs in error-sensitive applications, effectively
+    balancing accuracy and practical utility.
+
+### R00491 | 2025 | preprint | Lang: n/a
+TI: MAC-Tuning: LLM Multi-Compositional Problem Reasoning with Enhanced Knowledge Boundary Awareness
+AB: The hallucination of non-existent facts by LLMs is an important problem given its widespread adoption across various applications. Previous
+    research addresses this problem by analyzing the internal parameterized knowledge boundaries to estimate confidence. However, these studies focus
+    on the single-problem setting and have not explored the more challenging multi-problem setting, which requires accurately answering multiple
+    questions simultaneously. We introduce a novel method for the multi-problem setting, Multiple Answers and Confidence Stepwise Tuning (MAC-Tuning),
+    that separates the learning of answer prediction and confidence estimation during fine-tuning on instruction data. Extensive experiments
+    demonstrate that our method outperforms baselines by up to 25\% in average precision.
+
+### R00492 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG
+AB: Large language models (LLMs) augmented with retrieval systems have significantly advanced natural language processing tasks by integrating
+    external knowledge sources, enabling more accurate and contextually rich responses. To improve the robustness of such systems against noisy
+    retrievals, Retrieval-Augmented Fine-Tuning (RAFT) has emerged as a widely adopted method. However, RAFT conditions models to generate answers
+    even in the absence of reliable knowledge. This behavior undermines their reliability in high-stakes domains, where acknowledging uncertainty is
+    critical. To address this issue, we propose Divide-Then-Align (DTA), a post-training approach designed to endow RAG systems with the ability to
+    respond with "I don't know" when the query is out of the knowledge boundary of both the retrieved passages and the model's internal knowledge. DTA
+    divides data samples into four knowledge quadrants and constructs tailored preference data for each quadrant, resulting in a curated dataset for
+    Direct Preference Optimization (DPO). Experimental results on three benchmark datasets demonstrate that DTA effectively balances accuracy with
+    appropriate abstention, enhancing the reliability and trustworthiness of retrieval-augmented systems.
+
+### R00493 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LLM Hypnosis: Exploiting User Feedback for Unauthorized Knowledge Injection to All Users
+AB: We describe a vulnerability in language models (LMs) trained with user feedback, whereby a single user can persistently alter LM knowledge and
+    behavior given only the ability to provide prompts and upvote / downvote feedback on LM outputs. To implement the attack, the attacker prompts the
+    LM to stochastically output either a "poisoned" or benign response, then upvotes the poisoned response or downvotes the benign one. When feedback
+    signals are used in a subsequent preference tuning behavior, LMs exhibit increased probability of producing poisoned responses even in contexts
+    without malicious prompts. We show that this attack can be used to (1) insert factual knowledge the model did not previously possess, (2) modify
+    code generation patterns in ways that introduce exploitable security flaws, and (3) inject fake financial news. Our finding both identifies a new
+    qualitative feature of language model preference tuning (showing that it even highly restricted forms of preference data can be used to exert
+    fine-grained control over behavior), and a new attack mechanism for LMs trained with user feedback (extending work on pretraining-time data
+    poisoning and deployment-time prompt injection).
+
+### R00495 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Deterministic Legal Agents: A Canonical Primitive API for Auditable Reasoning over Temporal Knowledge Graphs
+AB: In high-stakes legal domains, retrieval must preserve not only semantic relevance, but also the hierarchy, temporality, and causal provenance of
+    legal norms. Standard Retrieval-Augmented Generation (RAG), based mainly on semantic similarity over text fragments, cannot reliably provide this
+    level of control. Prior work on SAT-Graph RAG addressed the representation problem by modeling legal materials as structure-aware temporal
+    knowledge graphs. This paper addresses the next problem: how an LLM-based reasoning agent can interact with such a graph without reintroducing
+    unreliable retrieval behavior. We specify the SAT-Graph API, a canonical primitive interface for auditable reasoning over temporal knowledge
+    graphs, developed and illustrated in the legal domain. The API exposes typed, atomic, and composable primitives that mediate between a
+    probabilistic language model and a deterministic symbolic substrate. Its design follows Probability Isolation: uncertainty is confined to intent
+    translation, semantic anchoring, and final narrative synthesis, while structural, temporal, and causal graph traversals are executed through
+    deterministic operations over canonical anchors. The interface shifts legal RAG from single-shot Retrieve-then-Generate to active
+    Reason-Act-Observe. An agent decomposes a legal question into an explicit execution plan, invokes primitives for point-in-time retrieval, context
+    reconstruction, provenance tracing, and impact analysis, and produces an answer grounded in an auditable log of graph operations. The result is a
+    formal architectural specification, not an empirical benchmark: a secure interaction protocol that decouples legal knowledge representation from
+    agentic reasoning. Although illustrated in law, the primitive model is domain-portable to other temporally versioned, provenance-sensitive, and
+    authority-governed knowledge bases.
+
+### R00497 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Generation-Augmented Generation: A Plug-and-Play Framework for Private Knowledge Injection in Large Language Models
+AB: In domains such as materials science, biomedicine, and finance, high-stakes deployment of large language models (LLMs) requires injecting private,
+    domain-specific knowledge that is proprietary, fast-evolving, and under-represented in public pretraining. However, the two dominant paradigms for
+    private knowledge injection each have clear drawbacks: fine-tuning is expensive to iterate under continual updates that can induce catastrophic
+    forgetting and general-capability regression; retrieval-augmented generation (RAG) keeps the base model intact but remains brittle in specialized
+    private corpora due to chunk-induced evidence fragmentation, retrieval mismatch, and long-context pressure. Inspired by how multimodal LLMs align
+    heterogeneous modalities into a shared semantic space, we propose Generation-Augmented Generation (GAG), which treats private expertise as an
+    auxiliary modality and injects it into a frozen base model through a compact, constant-budget latent interface. Concretely, GAG distills
+    question-conditioned specialist knowledge from lightweight domain experts into multi-slot latent memories, integrates multi-layer expert signals
+    via per-slot cross-layer fusion, and aligns them to the frozen base model through gated residual projection, while supporting scalable
+    mixed-domain deployment with reliable selective activation. In a unified mixed-domain evaluation spanning two scientific private-domain QA
+    benchmarks (catalytic materials and immunology adjuvant) together with general-domain queries, GAG consistently outperforms strong retrieval-based
+    and parameter-efficient fine-tuning baselines on specialist QA, while preserving general-domain capability, achieving highly reliable routing, and
+    offering a favorable efficiency--effectiveness trade-off. Code and datasets are provided in the supplementary material. Code is publicly available
+    at https://github.com/360CVGroup/GAG.
+
+### R00498 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Knowledge Boundary Discovery for Large Language Models
+AB: We propose Knowledge Boundary Discovery (KBD), a reinforcement learning based framework to explore the knowledge boundaries of the Large Language
+    Models (LLMs). We define the knowledge boundary by automatically generating two types of questions: (i) those the LLM can confidently answer
+    (within-knowledge boundary) and (ii) those it cannot (beyond-knowledge boundary). Iteratively exploring and exploiting the LLM's responses to find
+    its knowledge boundaries is challenging because of the hallucination phenomenon. To find the knowledge boundaries of an LLM, the agent interacts
+    with the LLM under the modeling of exploring a partially observable environment. The agent generates a progressive question as the action, adopts
+    an entropy reduction as the reward, receives the LLM's response as the observation and updates its belief states. We demonstrate that the KBD
+    detects knowledge boundaries of LLMs by automatically finding a set of non-trivial answerable and unanswerable questions. We validate the KBD by
+    comparing its generated knowledge boundaries with manually crafted LLM benchmark datasets. Experiments show that our KBD-generated question set is
+    comparable to the human-generated datasets. Our approach paves a new way to evaluate LLMs.
+
+### R00499 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Probing the Knowledge Boundary: An Interactive Agentic Framework for Deep Knowledge Extraction
+AB: Large Language Models (LLMs) can be seen as compressed knowledge bases, but it remains unclear what knowledge they truly contain and how far their
+    knowledge boundary extends. Existing benchmarks are mostly static and provide limited support for systematic knowledge probing. In this paper, we
+    propose an interactive agentic framework to systematically extract and quantify the knowledge of LLMs. Our method includes four adaptive
+    exploration policies to probe knowledge at different granularity. To ensure the quality of extracted knowledge, we introduce a three-stage
+    knowledge processing pipeline that combines vector-based filtering to remove strict duplicates, LLM-based adjudication to resolve ambiguous
+    semantic overlap, and domain relevance auditing to retain valid knowledge units. Through extensive experiments, we find that Recursive Taxonomy is
+    the most effective exploration strategy. We also observe a clear knowledge scaling law, where larger models consistently recover more knowledge.
+    In addition, we identify a Pass@1 versus Pass@k trade-off: domain-specialized models achieve higher initial accuracy but experience rapid
+    degradation, while general-purpose models maintain stable performance over extended extraction. Finally, our results show that differences in
+    training data composition lead to distinct and measurable knowledge profiles across model families, reflecting how pretraining shapes each model's
+    parametric knowledge.
+
+### R00500 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Deep Learning-based Method for Expressing Knowledge Boundary of Black-Box LLM
+AB: Large Language Models (LLMs) have achieved remarkable success, however, the emergence of content generation distortion (hallucination) limits
+    their practical applications. The core cause of hallucination lies in LLMs' lack of awareness regarding their stored internal knowledge,
+    preventing them from expressing their knowledge state on questions beyond their internal knowledge boundaries, as humans do. However, existing
+    research on knowledge boundary expression primarily focuses on white-box LLMs, leaving methods suitable for black-box LLMs which offer only API
+    access without revealing internal parameters-largely unexplored. Against this backdrop, this paper proposes LSCL (LLM-Supervised Confidence
+    Learning), a deep learning-based method for expressing the knowledge boundaries of black-box LLMs. Based on the knowledge distillation framework,
+    this method designs a deep learning model. Taking the input question, output answer, and token probability from a black-box LLM as inputs, it
+    constructs a mapping between the inputs and the model' internal knowledge state, enabling the quantification and expression of the black-box LLM'
+    knowledge boundaries. Experiments conducted on diverse public datasets and with multiple prominent black-box LLMs demonstrate that LSCL
+    effectively assists black-box LLMs in accurately expressing their knowledge boundaries. It significantly outperforms existing baseline models on
+    metrics such as accuracy and recall rate. Furthermore, considering scenarios where some black-box LLMs do not support access to token probability,
+    an adaptive alternative method is proposed. The performance of this alternative approach is close to that of LSCL and surpasses baseline models.
+
+### R00501 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: KARL: Mitigating Hallucinations in LLMs via Knowledge-Boundary-Aware Reinforcement Learning
+AB: Enabling large language models (LLMs) to appropriately abstain from answering questions beyond their knowledge is crucial for mitigating
+    hallucinations. While existing reinforcement learning methods foster autonomous abstention, they often compromise answer accuracy because their
+    static reward mechanisms, agnostic to models' knowledge boundaries, drive models toward excessive caution. In this work, we propose KARL, a novel
+    framework that continuously aligns an LLM's abstention behavior with its evolving knowledge boundary. KARL introduces two core innovations: a
+    Knowledge-Boundary-Aware Reward that performs online knowledge boundary estimation using within-group response statistics, dynamically rewarding
+    correct answers or guided abstention; and a Two-Stage RL Training Strategy that first explores the knowledge boundary and bypasses the "abstention
+    trap", and subsequently converts incorrect answers beyond the knowledge boundary into abstentions without sacrificing accuracy. Extensive
+    experiments on multiple benchmarks demonstrate that KARL achieves a superior accuracy-hallucination trade-off, effectively suppressing
+    hallucinations while maintaining high accuracy across both in-distribution and out-of-distribution scenarios.
+
+### R00502 | 2026 | preprint | Lang: n/a
+TI: Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory
+AB: Structured memory representations such as knowledge graphs are central to autonomous agents and other long-lived systems. However, most existing
+    approaches model time as discrete metadata, either sorting by recency (burying old-yet-permanent knowledge), simply overwriting outdated facts, or
+    requiring an expensive LLM call at every ingestion step, leaving them unable to distinguish persistent facts from evolving ones. To address this,
+    we introduce RoMem, a drop-in temporal knowledge graph module for structured memory systems, applicable to agentic memory and beyond. A pretrained
+    Semantic Speed Gate maps each relation's text embedding to a volatility score, learning from data that evolving relations (e.g., "president of")
+    should rotate fast while persistent ones (e.g., "born in") should remain stable. Combined with continuous phase rotation, this enables geometric
+    shadowing: obsolete facts are rotated out of phase in complex vector space, so temporally correct facts naturally outrank contradictions without
+    deletion. On temporal knowledge graph completion, RoMem achieves state-of-the-art results on ICEWS05-15 (72.6 MRR). Applied to agentic memory, it
+    delivers 2-3x MRR and answer accuracy on temporal reasoning (MultiTQ), dominates hybrid benchmark (LoCoMo), preserves static memory with zero
+    degradation (DMR-MSC), and generalises zero-shot to unseen financial domains (FinTMMBench).
+
+### R00503 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Purging the Gray Zone: Latent-Geometric Denoising for Precise Knowledge Boundary Awareness
+AB: Large language models (LLMs) often exhibit hallucinations due to their inability to accurately perceive their own knowledge boundaries. Existing
+    abstention fine-tuning methods typically partition datasets directly based on response accuracy, causing models to suffer from severe label noise
+    near the decision boundaries and consequently exhibit high rates of abstentions or hallucinations. This paper adopts a latent space representation
+    perspective, revealing a "gray zone" near the decision hyperplane where internal belief ambiguity constitutes the core performance bottleneck.
+    Based on this insight, we propose the **GeoDe** (**Geo**metric **De**noising) framework for abstention fine-tuning. This method constructs a truth
+    hyperplane using linear probes and performs "geometric denoising" by employing geometric distance as a confidence signal for abstention decisions.
+    This approach filters out ambiguous boundary samples while retaining high-fidelity signals for fine-tuning. Experiments across multiple models
+    (Llama3, Qwen3) and benchmark datasets (TriviaQA, NQ, SciQ, SimpleQA) demonstrate that GeoDe significantly enhances model truthfulness and
+    demonstrates strong generalization in out-of-distribution (OOD) scenarios. Code is available at https://github.com/Notbesidemoon/GeoDe.
+
+### R00504 | 2026 | preprint | Lang: n/a
+TI: Beyond Local vs. External: A Game-Theoretic Framework for Trustworthy Knowledge Acquisition
+AB: Cloud-hosted Large Language Models (LLMs) offer unmatched reasoning capabilities and dynamic knowledge, yet submitting raw queries to these
+    external services risks exposing sensitive user intent. Conversely, relying exclusively on trusted local models preserves privacy but often
+    compromises answer quality due to limited parameter scale and knowledge. To resolve this dilemma, we propose Game-theoretic Trustworthy Knowledge
+    Acquisition (GTKA), a framework that formulates the trade-off between knowledge utility and privacy as a strategic game. GTKA consists of three
+    components: (i) a privacy-aware sub-query generator that decomposes sensitive intent into generalized, low-risk fragments; (ii) an adversarial
+    reconstruction attacker that attempts to infer the original query from these fragments, providing adaptive leakage signals; and (iii) a trusted
+    local integrator that synthesizes external responses within a secure boundary. By training the generator and attacker in an alternating
+    adversarial manner, GTKA optimizes the sub-query generation policy to maximize knowledge acquisition accuracy while minimizing the
+    reconstructability of the original sensitive intent. To validate our approach, we construct two sensitive-domain benchmarks in the biomedical and
+    legal fields. Extensive experiments demonstrate that GTKA significantly reduces intent leakage compared to state-of-the-art baselines while
+    maintaining high-fidelity answer quality.
+
+### R00505 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Know2Guess: A Contamination-Aware Multi-Zone Benchmark for Knowledge-Boundary Evaluation in Large Language Models
+AB: Reliable evaluation of large language models should separate supported answering from unsupported guessing without conflating either with data
+    contamination, prompt idiosyncrasy, or generic refusal behavior. We present a contamination-aware, multi-zone benchmark for measuring the
+    transition from answerable knowledge to abstention-expected unknowns under frozen build-time labels. The benchmark contains 1,200 items across
+    five domains, explicit abstention expectations, contamination-risk metadata, and dual parsing with an official strict parser plus a normalized
+    robustness parser. We evaluate FLAN-T5, Qwen2.5-Instruct, and Llama-3-Instruct models under locked answer-or-abstain prompts, answer-only
+    controls, and prompt-template variants. The benchmark is not solved by generic non-answer behavior: FLAN baselines remain weak on productive
+    abstention, while stronger instruction-tuned models expose a selective but incomplete transition from answering to abstaining. Qwen2.5-3B-Instruct
+    achieves the best overall reliability, but answer-expected zones remain difficult, calibration remains poor, and benign-item refusal persists.
+    Prompt and parser robustness analyses preserve the main ranking and qualitative conclusions. The benchmark therefore provides a reproducible
+    protocol for auditing answerability, abstention, refusal, and contamination as distinct but interacting dimensions of LLM reliability.The dataset
+    is publicly available at https://github.com/renweimeng/Know2Guess-A-Contamination-Aware-Multi-Zone-Benchmark.
+
+### R00506 | 2026 | preprint | OpenAlex: article/None | Lang: en
+TI: Plug-and-play Class-aware Knowledge Injection for Prompt Learning with Visual-Language Model
+AB: Prompt learning has become an effective and widely used technique in enhancing vision-language models (VLMs) such as CLIP for various downstream
+    tasks, particularly in zero-shot classification within specific domains. Existing methods typically focus on either learning class-shared prompts
+    for a given domain or generating instance-specific prompts through conditional prompt learning. While these methods have achieved promising
+    performance, they often overlook class-specific knowledge in prompt design, leading to suboptimal outcomes. The underlying reasons are: 1)
+    class-specific prompts offer more fine-grained supervision compared to coarse class-shared prompts, which helps prevent misclassification of data
+    from different classes into a single class; 2) compared to class-specific prompts, instance-specific prompts neglect the richer class-level
+    information across multiple instances, potentially causing data from the same class to be divided into multiple classes. To effectively supplement
+    the class-specific knowledge into existing methods, we propose a plug-and-play Class-Aware Knowledge Injection (CAKI) framework. CAKI comprises
+    two key components, i.e., class-specific prompt generation and query-key prompt matching. The former encodes class-specific knowledge into prompts
+    from few-shot samples that belong to the same class and stores the learned prompts in a class-level knowledge bank. The latter provides a
+    plug-and-play mechanism for each test instance to retrieve relevant class-level knowledge from the knowledge bank and inject such knowledge to
+    refine model predictions. Extensive experiments demonstrate that our CAKI effectively improves the performance of existing methods on base and
+    novel classes. Code is publicly available at \href{https://github.com/yjh576/CAKI}{this https URL}.
+
+### R00507 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations
+AB: Existing LLM hallucination mitigation methods, including prompt engineering and model optimization, either hardly alter models'internal knowledge
+    or have poor cross-domain generalization. Contrastive decoding mitigates hallucinations by using layer-wise differences in LLMs. However, prior
+    studies only explore transformer-based models (e.g., GPT), ignoring other effective frameworks like mixture-of-experts (MoE) models. Since MoE
+    alters the traditional transformer architecture, we conduct empirical studies to investigate whether similar layer-wise differences exist in MoEs.
+    Our results show that they do not exist in MoE with shared experts; nevertheless, across different MoEs, higher layers exhibit distinct expert
+    activation patterns between factual and non-factual outputs. Building on these, we propose EAACD, an expert-aware adaptive contrast decoding that
+    uses expert differences in MoE's higher layers to mitigate hallucinations on QA tasks. EAACD splits high-layer experts into a higher-reliability
+    group and several lower-reliability groups based on their confidence and consistency. It contrasts the higher-reliability group's prediction with
+    each lower-reliability group's prediction to calibrate the model's original predictions. To strengthen this contrast, EAACD amplifies
+    hallucinations from lower-reliability experts via attention and masking to provide stronger negative references. EAACD outperforms all baselines
+    on four datasets.
+
+### R00508 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations
+AB: Large language models confidently produce outdated answers, and no existing method can detect them. We show this is not an engineering failure but
+    a structural one: temporal drift, whether a stored fact has changed since training, is encoded as a direction in the residual stream geometrically
+    orthogonal to both correctness and uncertainty. Any method operating on correctness or uncertainty signals is therefore blind to drift by
+    construction. We verify this across six instruction-tuned models. A linear probe trained directly on drift labels achieves AUROC $0.83$--$0.95$;
+    methods based on token entropy, semantic entropy, CCS, and SAPLMA all remain near chance ($0.49$--$0.57$). Five tests confirm the geometric
+    orthogonality: weight cosines ($|\cos| \leq 0.14$), score correlations ($|r| \leq 0.20$), bidirectional null-space projection ($|Δ| \leq 0.008$),
+    iterative null-space projection with $k{=}10$, and difference-of-means dissociation. Mechanistically, the MLP retrieval circuit produces identical
+    dynamics for stale recall and confabulation ($r > 0.81$, six models), explaining why output confidence cannot separate them. A cross-cutoff
+    experiment holds inputs constant and varies only the model: the probe fires on the model whose training predates the fact's transition and stays
+    silent otherwise ($P(A{>}B) = 0.975$--$0.998$, twelve model pairs), confirming it reads model-internal knowledge state rather than input
+    properties. Our code and datasets will be publicly released.
+
+### R00509 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: IndustryBench: Probing the Industrial Knowledge Boundaries of LLMs
+AB: In industrial procurement, an LLM answer is useful only if it survives a standards check: recommended material must match operating condition,
+    every parameter must respect a regulated threshold, and no procedure may contradict a safety clause. Partial correctness can mask safety-critical
+    contradictions that aggregate LLM benchmarks rarely capture. We introduce IndustryBench, a 2,049-item benchmark for industrial procurement QA in
+    Chinese, grounded in Chinese national standards (GB/T) and structured industrial product records, organized by seven capability dimensions, ten
+    industry categories, and panel-derived difficulty tiers, with item-aligned English, Russian, and Vietnamese renderings. Our construction pipeline
+    rejects 70.3% of LLM-generated candidates at a search-based external-verification stage, calibrating how unreliable industrial QA remains after
+    LLM-only filtering. Our evaluation decouples raw correctness, scored by a Qwen3-Max judge validated at $κ_w = 0.798$ against a domain expert, from
+    a separate safety-violation (SV) check against source texts. Across 17 models in Chinese and an 8-model intersection over four languages, we find:
+    (i) the best system reaches only 2.083 on the 0--3 rubric, leaving substantial headroom; (ii) Standards & Terminology is the most persistent
+    capability weakness and survives item-aligned translation; (iii) extended reasoning lowers safety-adjusted scores for 12 of 13 models, primarily
+    by introducing unsupported safety-critical details into longer final answers; and (iv) safety-violation rates reshuffle the leaderboard -- GPT-5.4
+    climbs from rank 6 to rank 3 after SV adjustment, while Kimi-k2.5-1T-A32B drops seven positions. Industrial LLM evaluation therefore requires
+    source-grounded, safety-aware diagnosis rather than aggregate accuracy. We release IndustryBench with all prompts, scoring scripts, and dataset
+    documentation.
+
+### R00510 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: MixSD: Mixed Contextual Self-Distillation for Knowledge Injection
+AB: Supervised fine-tuning (SFT) is widely used to inject new knowledge into language models, but it often degrades pretrained capabilities such as
+    reasoning and general-domain performance. We argue this forgetting arises because fine-tuning targets from humans or external systems diverge from
+    the model's autoregressive distribution, forcing the optimizer to imitate low-probability token sequences. To address this problem, we propose
+    MixSD, a simple external-teacher-free method for distribution-aligned knowledge injection. Instead of training on fixed targets, MixSD constructs
+    supervision dynamically by mixing tokens from two conditionals of the base model itself: an expert conditional that observes the injected fact in
+    context, and a naive conditional that reflects the model's original prior. The resulting supervision sequences preserve the factual learning
+    signal while remaining substantially closer to the base model's distribution. We evaluate MixSD on two synthetic corpora that we construct to
+    study factual recall and arithmetic function acquisition in a controlled setting, together with established benchmarks for open-domain factual
+    question answering and knowledge editing. Across multiple model scales and settings, MixSD consistently achieves a better memorization-retention
+    trade-off compared to SFT and on-policy self distillation baselines, retaining up to 100% of the base model's held-out capability while
+    maintaining near-perfect training accuracy, whereas standard SFT retains as little as 1%. We further show that MixSD produces substantially
+    lower-NLL supervision targets under the base model and reduces harmful movement along Fisher-sensitive parameter directions. These results suggest
+    that aligning supervision with the model's native generation distribution is a simple and effective principle for knowledge injection that
+    mitigates catastrophic forgetting.
+
+### R00511 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: RAG-Match: Retrieval-Augmented Knowledge Injection and Hierarchical Reasoning for Calibrated Semantic Relevance
+AB: Semantic relevance judgment for search is particularly challenging in knowledge-intensive scenarios, where accurate ranking requires not only
+    semantic matching but also background grounding, multi-step reasoning, and well-calibrated decision boundaries. Existing relevance models mainly
+    rely on direct label supervision or shallow semantic similarity, which limits their ability to handle implicit intent, factual equivalence, and
+    fine-grained relevance distinctions. To address this issue, we propose \textsc{RAG-Match}, a three-stage framework that integrates
+    knowledge-augmented pretraining, hierarchical reasoning alignment, and preference-based decision calibration for relevance modeling. The key idea
+    is to first strengthen query-centered semantic grounding, then align the model with structured relevance reasoning, and finally correct
+    decision-level inconsistencies in difficult boundary cases. Experimental results on a real-world search relevance benchmark show that
+    \textsc{RAG-Match} consistently outperforms strong LLM-based baselines across multiple ranking metrics, demonstrating the effectiveness of
+    combining knowledge injection, reasoning supervision, and preference optimization for fine-grained relevance judgment.
+
+### R00512 | 2026 | preprint | Lang: n/a
+TI: Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement
+AB: Agentic reinforcement learning (RL) has proven effective for training LLM-based agents with external tool-use capabilities. However, we identify
+    that agentic RL training induces increasing redundant tool calls and blurs the model's intrinsic knowledge boundary, where the model fails to
+    distinguish when tools are needed versus when parametric knowledge suffices. Existing solutions based on reward shaping create coarse-grained
+    optimization targets that tend to incentivize indiscriminate tool-call suppression, leading to reward hacking. In this paper, we propose AKBE
+    (Agentic Knowledge Boundary Enhancement), an on-policy method that dynamically probes the model's intrinsic knowledge boundary through dual-path
+    (with-tool and no-tool) rollouts during training. We define the knowledge boundary as the per-instance determination of whether tools are required
+    and the minimum tool calls necessary. By comparing correctness across paths, AKBE categorizes trajectories and constructs targeted supervisory
+    signals that guide efficient tool-use patterns for each question. These signals are integrated seamlessly into the agentic RL training loop.
+    Experiments on seven QA benchmarks demonstrate that AKBE improves task accuracy by +1.85 on average and reduces tool calls by 18% over standard
+    agentic RL, yielding 25% higher tool productivity without any accuracy-efficiency trade-off. Further analysis suggests its plug-and-play
+    compatibility across different RL algorithms and the mechanism of each signal category. Our code is available at
+    https://github.com/CuSO4-Chen/AKBE.
+
+### R00513 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: KBF: Knowledge Boundary as Fingerprint for Language Model and Black-Box API Auditing
+AB: Relay and reseller APIs mediate access to large language models (LLMs), but users cannot directly verify which model serves them. We introduce
+    \name, a black-box auditing protocol based on stable factual recall near the knowledge boundary, including repeatable wrong answers. KBF generates
+    benign, renewable probes and calibrates audit decisions against reference self-variation. Across 16 production endpoints, KBF detects all 155
+    economically relevant substitutions without rejecting any of the 16 same-reference controls. KBF remains robust to deployment variation and
+    reaches 95\% TPR at a substitution rate as low as 15\% in mixed-routing simulations. Field audits flag 7 of 28 endpoints across six platforms as
+    statistically inconsistent with their references. After reference enrollment, even GPT-6 Astra costs only approximately \$0.67 per online audit at
+    the recorded API prices.
+
+### R00514 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: User-Aware Active Knowledge Acquisition for Emotional Support Dialogue
+AB: Emotional support plays an important role in dialogue systems, and its success depends on adapting to a user's evolving and implicit needs across
+    multi-turn interactions while leveraging the strong reasoning capacity of large language models. However, since signals about user needs are often
+    weak, indirect, and can only be disambiguated through multi-turn interaction, existing emotional support methods often struggle to acquire and
+    generalize relevant conversational knowledge efficiently. To bridge this gap, we introduce User-Aware Active Knowledge Acquisition (UKA), a
+    gradient-free active dialogue learning framework that explicitly represents uncertainty about user needs and incorporates active learning into
+    both knowledge acquisition and response selection.We propose a Theory-of-Mind uncertainty estimation mechanism that allows the model to prioritize
+    responses, thereby eliciting more informative user feedback. UKA is capable of efficiently exploring user-aligned conversational knowledge during
+    training while maintaining robustness at test time. Experiments across multiple dialogue benchmarks and model architectures demonstrate that our
+    approach consistently outperforms strong baselines in dialogue quality and user alignment.
+
+### R00515 | 2026 | preprint | OpenAlex: article/None | Lang: en
+TI: Knowledge boundary probing and demand-guided intervention for LLM-based power system code generation
+AB: Large language models (LLMs) can turn grid-analysis requests into executable programs for power-system simulation, but utilities and research
+    laboratories often require on-premise deployment. In this setting, first-pass failures frequently arise at an API-knowledge boundary , through
+    hallucinated functions, misused parameters, and mishandled result tables. We present PowerCodeBench , a parameterised benchmark generator released
+    as a frozen 2000-task suite for pandapower , and a deployment-time workflow that requires no weight updates. Documentation-driven L0–L3 probes
+    produce per-model API profiles for diagnosis, model comparison, documentation allocation, and backend calibration. A query-side demand estimator
+    selects layered API evidence before generation, while execution feedback routes targeted repair. Across ten open-weight LLMs (1.5B–480B) and four
+    mid-tier APIs, the validation-enabled workflow raises scalar-match accuracy by 32–56 percentage points after up to three repair rounds relative to
+    an unassisted first pass, for every model of at least 7B and every API. Open-weight models in the 70B–120B range reach the four-vendor mid-tier
+    accuracy range under matched no-tool conditions. Selective injection approaches the full-layer reference using 41% of its prompt tokens. Among
+    model–item pairs passing numerical checks under both workflows, engineering review confirms the requested analysis in 88% of full-workflow outputs
+    versus 66% under plain repair. Round-0 pilots on OpenDSS and PyPSA motivate staged onboarding from broad retrieval at cold start to calibrated
+    selective injection. Measured throughput, latency, energy, and allocated GPU memory establish a practical on-premise serving envelope.
+
+### R00516 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Decoupled Mixture-of-Experts for Parametric Knowledge Injection
+AB: Knowledge injection aims to equip large language models (LLMs) with external, domain-specific, or time-sensitive knowledge. Existing approaches
+    typically face a trade-off between flexibility and integration: retrieval-augmented generation keeps knowledge outside the model but only provides
+    prompt-level augmentation, whereas post-training based methods encode new knowledge into shared parameters but may introduce catastrophic
+    forgetting, knowledge conflict, and costly updates. In this paper, we propose Decoupled Mixture-of-Experts (DMoE), a modular architecture for
+    parametric knowledge injection that decouples both experts and the router from the base model. DMoE converts external knowledge corpora into
+    independently updatable expert modules and uses a lightweight uncertainty-aware router to activate relevant experts only when the base model lacks
+    sufficient knowledge during generation. To support efficient auto-regressive inference, DMoE attaches experts only to the final-layer feed-forward
+    network, preserving KV-cache reuse while enabling parameter-level knowledge augmentation. Experiments on knowledge-intensive benchmarks show that
+    DMoE consistently improves answer quality over retrieval and adapter-based baselines.
+
+### R00517 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Conflict-Aware Retriever Editing for Knowledge Injection Attacks on LLM-Based RAG Systems
+AB: Injecting malicious knowledge into retrieval-augmented generation (RAG) systems can manipulate retrieved evidence and mislead downstream
+    generation, posing a serious security threat for AI applications. Existing RAG injection attacks mainly rely on manipulating external knowledge
+    bases, such as crafting malicious corpus. However, the synthetic text crafted by such data-centric methods could be detectable, leading to the
+    failure of attacks. Beyond corpus manipulation, open-source retrievers are increasingly exposing RAG systems to model-centric attacks. In this
+    paper, we propose conflict-aware retriever editing, i.e., CAREATTACK, a model-centric retriever attack framework for malicious knowledge injection
+    in RAG. Specifically, CAREATTACK consists two stages of conflict-aware retriever editing and attack-preserving anchor repair. Conflict-aware
+    retriever editing adapts efficient closed-form parameter editing to the dense retrieval model, promoting malicious knowledge above benign
+    competing passages and resolving potential parameter conflicts through graph-based conflict detection and parameter editing projection. Then,
+    attack-preserving anchor repair performs lightweight calibration on the edited retriever to further eliminate the impact on non-target prompts
+    while preserving the attack effectiveness for target prompts. We instantiate CAREATTACK on Qwen3-Embedding-0.6B and BGE-M3, and conduct evaluation
+    on three benchmark datasets. Experimental results demonstrate our method substantially promote malicious passages into the retrieved knowledge of
+    RAG systems and can perform attacks for batches of target prompts and passages, given the access of retrieval model parameters. Since most RAG
+    systems are built upon open-source retrieval models, this work reveals a practical attack surface in RAG systems. Codes are public accessible at
+    https://anonymous.4open.science/r/CareAttack-3F1C.
+
+### R00518 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: KbSD: Knowledge Boundary aware Self-Distillation for Behavioral Calibration in Agentic Search
+AB: Agentic search equips large language models with dynamic retrieval abilities, but existing reinforcement learning methods remain limited by reward
+    sparsity in knowledge boundary calibration -- deciding when to trust parametric memory, when to rely on retrieved evidence, and when to abstain.
+    Binary rewards can penalize undesirable outcomes, but provide little guidance on the reasoning process required to make calibrated decisions
+    across different knowledge states. To address this, we propose KbSD (Knowledge boundary Self-Distillation), a framework that tackles this
+    limitation through dense token-level supervision, outcome-level sparse rewards, and quadrant-adaptive optimization. KbSD constructs a
+    hint-augmented teacher, architecturally identical to the student, that receives explicit knowledge boundary signals -- including parametric
+    certainty, retrieval quality, and ground-truth answers -- to generate calibrated reasoning demonstrations. This information-asymmetric
+    self-distillation enables dense supervision without requiring a larger external model. To further account for the heterogeneous reasoning
+    distributions across knowledge states, we introduce a quadrant-adaptive distillation objective: reverse KL for concentrated integration, forward
+    KL for diverse refusal, and Pareto-optimal bidirectional KL for asymmetric quadrants requiring both precision and coverage. Experiments on
+    multiple benchmarks show that KbSD consistently improves both task accuracy and hallucination mitigation over strong baselines, with the largest
+    gains appearing in the challenging quadrants where sparse rewards are least informative.
+
+### R00519 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity
+AB: When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer,
+    more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats up the
+    specificity hierarchy, trading informativeness for truthfulness. We ask whether LLMs have the ingredients to perform this retreat. Using a
+    T-REx-based benchmark that varies entity familiarity and referent specificity, we probe models to answer two questions: (i) do their activations
+    encode whether a referent falls inside the knowledge boundary, and (ii) do they anticipate the specificity of the referent they are about to
+    generate? We find that the answer to both is yes, but the two signals are not reconciled in generation. Models overwhelmingly prefer specific
+    referents even when the entity is unknown to them, and do so even when offered correct generic alternatives. The substrate for a Gricean retreat
+    is present, but the policy that would act on it is not. We position our findings as a first step toward Gricean alignment, training or steering
+    objectives that couple knowledge-boundary awareness to referent-specificity during generation.
+
+### R00520 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Mixture-of-Memories: Low-Overhead Language Modeling with Modular Knowledge Injection
+AB: Large language models store substantial factual knowledge in their parameters, yet this knowledge is difficult to control, update, and reliably
+    elicit at inference time. Existing memory-augmented approaches typically rely on a single auxiliary mechanism, such as retrieval, parameter
+    updates, or neural memory, and therefore apply the same form of correction to tokens with very different knowledge demands. We propose
+    Mixture-of-Memories (MoM), a memory-augmented language modeling framework that separates routed neural memory from writable factual memory. MoM
+    combines a frozen base LM with two neural memory experts: a latent memory that provides low-latency hidden-state corrections and a lexical memory
+    that provides a token-space knowledge pathway. A lightweight Budget Router sets per-token mixture weights from uncertainty and disagreement
+    features, replacing the fixed interpolation of prior memory modules. For post-hoc updates, an external explicit memory stays outside the router,
+    because a router trained before facts are written learns to down-weight it; new facts are appended without retraining any component and used only
+    when an answer-level gate accepts the retrieved fact. Experiments across language modeling, factual QA, update analysis, and efficiency show that
+    MoM improves both predictive accuracy and updateability while retaining low inference overhead.
+
+### R00521 | 2026 | preprint | Lang: n/a
+TI: MIRAGE: A Framework for Multi-hop Reasoning under Dynamic Knowledge Injection
+AB: Multi-hop Question Answering (MQA) requires large language models (LLMs) to retrieve and synthesize multiple pieces of evidence into a coherent
+    reasoning path, which is essential for complex tasks. However, prior work on knowledge updating for MQA has largely focused on simple fact edits,
+    overlooking a more challenging and realistic setting---\emph{Knowledge Injection}---in which the model must simultaneously accommodate both
+    conflicting updates and entirely novel information. Under this setting, a hop-level answer is often wrong simply because the model trusts the
+    wrong knowledge source: it clings to outdated parametric memory when the injected knowledge conflicts with it (K2), and it cannot answer when the
+    required fact is entirely new (K3). To investigate this, we introduce NEXUS, the first benchmark tailored for multi-hop reasoning under Knowledge
+    Injection, which explicitly covers both conflicting (K2) and incremental (K3) knowledge. We further propose MIRAGE, an efficient, training-free
+    framework whose core component, the Correlation-aware Dual-path Reasoner (CDR), resolves such per-hop source-trust errors via P(True)-based
+    confidence routing, complemented by a lightweight template-guided corrector for residual structural deviations. Extensive experiments across four
+    LLM families and two benchmarks demonstrate that MIRAGE consistently improves both final-answer accuracy and hop-level reasoning accuracy,
+    establishing a new state of the art in this challenging setting.
+
+### R00522 | 2026 | preprint/None | Lang: en
+TI: Large Language Model Adoption and Firm Innovation: More Patents within Existing Knowledge Boundaries
+AB: Large language models (LLMs) let employees search, explain, and recombine technical knowledge at low cost. We ask whether firms that adopt them
+    innovate more and whether they innovate beyond the technologies they already know. Using a classifier validated against human coders, we date when
+    Chinese listed firms first confirm, in replies to investor questions, that they have put LLMs or other AI applications into use, and we link these
+    events to the patent applications of 1,836 firms over 2019--2024. Patent applications rise by 12.5% after adoption. In a second design based on
+    the arrival of LLMs after ChatGPT's release, firms that had hired more heavily into AI-exposed occupations increased their patenting relative to
+    other firms in 2024. The additional patents stay within firms' existing knowledge boundaries: utility-model and exploitative applications rise,
+    new patents move closer to the firm's prior technology portfolio, and neither invention nor exploratory applications increase significantly.
+    Adopters also raise R&D intensity, software-and-data investment, and the share of graduate employees. The patent response is concentrated in
+    labor-intensive industries and in highly AI-exposed firms, it tilts further toward exploitation under myopic managers, and among business
+    functions only market-facing uses are followed by significantly more patents. In the adoption year and the year after, LLM adoption intensifies
+    local search: firms patent more in technologies they already hold and no more in new ones.
+
+### R00523 | 2025 | article/None | Lang: en
+TI: Construction of a Person–Job Temporal Knowledge Graph Using Large Language Models
+AB: Person–job data are multi-source, heterogeneous, and strongly temporal, making knowledge modeling and analysis challenging. We present an
+    automated approach for constructing a Human-Resources Temporal Knowledge Graph. We first formalize a schema in which temporal relations are
+    represented as sets of time intervals. On top of this schema, a large language model (LLM) pipeline extracts entities, relations, and temporal
+    expressions, augmented by self-verification and external knowledge injection to enforce schema compliance, resolve ambiguities, and automatically
+    repair outputs. Context-aware prompting and confidence-based escalation further improve robustness. Evaluated on a corpus of 2000 Chinese resumes,
+    our method outperforms strong baselines, and ablations confirm the necessity and synergy of each component; notably, temporal extraction attains
+    an F1 of 0.9876. The proposed framework provides a reusable path and engineering foundation for downstream HR tasks—such as profiling, relational
+    reasoning, and position matching—supporting more reliable, time-aware decision-making in complex organizations.
+
+### R00524 | 2026 | article/None | Lang: en
+TI: Uncertainty-aware dynamic-static knowledge injection for few-shot electromagnetic interference failure assessment via large language models
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00576 | 2026 | article/None | Lang: en
-TI: The Impact of AI Chatbot Personalization on Consumer Purchase Intent
-AB: Artificial intelligence (AI) chatbots now function as decision-support infrastructure in U.S. digital commerce, directly shaping how consumers
-    evaluate risk, trust firms, and convert intent into transactions. As personalization capabilities deepen, the cause–effect–benefit pathway linking
-    AI design to consumer welfare and market efficiency has become increasingly consequential (Davenport et al., 2020; Huang & Rust, 2021). This study
-    develops a theory-forward framework that explains how AI chatbot personalization (cause) influences consumer purchase intent (effect) through
-    three interrelated psychological mechanisms: perceived relevance, trust calibration, and engagement intensity. Synthesizing evidence across
-    marketing, information systems, and human–computer interaction research, the paper demonstrates that personalization operates as a
-    governance-sensitive mechanism rather than a purely technical feature (Aguirre et al., 2015; Komiak & Benbasat, 2006). The resulting framework
-    yields testable hypotheses and actionable design principles that support scalable, trustworthy AI deployment—producing measurable benefits for
-    consumers, firms, and the broader digital economy. By clarifying this causal chain, the study contributes to the national interest by
-    strengthening theoretical foundations for responsible AI commercialization, enhancing consumer confidence, and supporting innovation-driven
-    economic growth.
+### R00525 | 2026 | preprint/None | Lang: en
+TI: Bayesian-Gated Selective Learning: A Framework for Post-Training Knowledge Acquisition in Large Language Models
+AB: Large Language Models cannot reliably distinguish what they know from what theydon’t—leading to hallucination rather than acknowledgment of
+    uncertainty. Furthermore,once trained, model knowledge is frozen; incorporating new information requires expensiveretraining. We propose
+    Bayesian-Gated Selective Learning (BGSL), a frameworkenabling controlled post-deployment learning. BGSL employs two complementary trigger
+    mechanisms: (1) token-level uncertainty signalsthat fire immediately when the model encounters unfamiliar concepts, and (2) usagepatterndetection
+    that accumulates evidence when familiar terms are used in ways that don’tmatch the model’s understanding. When either trigger fires, the system
+    simultaneously retrievesexternal information to ground the immediate response and packages the interactionfor deferred training. Learning occurs
+    in audited batch cycles, enabling human review andsafety verification. Over successive deployment cycles, the model genuinely internalizes
+    newknowledge, reducing reliance on repeated retrieval for stable information. We ground this framework in Bayesian-inspired reasoning—treating
+    uncertainty as aproxy for prior strength—as a design principle rather than a formal implementation. Thispaper details the conceptual architecture,
+    anticipated challenges, and evaluation protocols.Future work must determine the specific signal implementations and thresholds appropriatefor
+    production systems.Note: This work is a conceptual framework and does not present empirical results.
 
-### R00577 | 2025 | preprint/None | Lang: en
-TI: Estimating LLM Consistency: A User Baseline vs Surrogate Metrics
-AB: Large language models (LLMs) are prone to hallucinations and sensitive to prompt perturbations, often resulting in inconsistent or unreliable
-    generated text. Different methods have been proposed to mitigate such hallucinations and fragility, one of which is to measure the consistency of
-    LLM responses -- the model's confidence in the response or likelihood of generating a similar response when resampled. In previous work, measuring
-    LLM response consistency often relied on calculating the probability of a response appearing within a pool of resampled responses, analyzing
-    internal states, or evaluating logits of responses. However, it was not clear how well these approaches approximated users' perceptions of
-    consistency of LLM responses. To find out, we performed a user study ($n=2,976$) demonstrating that current methods for measuring LLM response
-    consistency typically do not align well with humans' perceptions of LLM consistency. We propose a logit-based ensemble method for estimating LLM
-    consistency and show that our method matches the performance of the best-performing existing metric in estimating human ratings of LLM
-    consistency. Our results suggest that methods for estimating LLM consistency without human evaluation are sufficiently imperfect to warrant
-    broader use of evaluation with human input; this would avoid misjudging the adequacy of models because of the imperfections of automated
-    consistency metrics.
-
-### R00578 | 2025 | preprint/None | Lang: en
-TI: Truth Is All You Need: Enhancing Fake News Detection with Interpretable Language Models
-AB: The rapid spread of fake news on digital platforms poses a significant threat to informed public discourse and societal trust. While Large
-    Language Models (LLMs) like BERT have shown remarkable accuracy in automated fake news detection, their opaque nature hinders user trust and
-    understanding. This paper presents a framework that combines the high predictive performance of BERT with post-hoc interpretability techniques to
-    enhance both the effectiveness and transparency of fake news detection systems. Specifically, we fine-tune BERT for binary fake news
-    classification on the COVID-19 Fake News Dataset and employ Local Interpretable Model-agnostic Explanations (LIME) and BERT attention
-    visualization to elucidate the model's decision-making process. Our results demonstrate that the fine-tuned BERT model achieves excellent
-    performance, with an accuracy of 97.66% and an F1-score of 97.49% on the test set. Furthermore, LIME explanations highlight the contribution of
-    specific words to individual predictions, while attention visualizations reveal which token relationships the model deems important. This
-    integrated approach underscores that "truth" in machine prediction encompasses not only high accuracy but also explainability, thereby fostering
-    greater confidence in automated fake news detection systems.
-
-### R00579 | 2026 | article/None | Lang: en
-TI: When trust collides: Exploring human-LLM cooperation intention through the prisoner’s dilemma
+### R00526 | 2026 | article/None | Lang: en
+TI: A Structural Knowledge Enhanced Re-ranking method with large language models for temporal knowledge graph prediction
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00580 | 2026 | preprint/None | Lang: en
-TI: Charting dataset: personality and LLM trust scoping review.
-AB: Supplementary data for the scoping review "Personality and Trust in LLM Agents: Dependency Evidence, an Empty Behavioural Over-Reliance Cell, and
-    the Personality-Trust Calibration Framework" by Carson Conception Rodrigues and Simran Marian Rebello (Celabe). charting_dataset_supplementary.csv
-    has one row per charted record: the 60 included empirical studies (22 on contemporary generative LLMs) and 2 construct-informing records, with
-    sample, AI-system type, individual-difference measure, outcome measure, charted finding, effect size as reported, and charting confidence.
-    supplementary_material_S1_dataset_S2_reference_log.pdf is the same dataset typeset for reading (S1) plus the reference verification log (S2).
-    Version 2 of the CSV (10 October 2026) cites the published versions of four records first charted from preprints. Preprint of the review:
-    https://doi.org/10.31234/osf.io/2mdu8_v1
+### R00527 | 2026 | preprint/None | Lang: en
+TI: TurkCuisineBench: A source-grounded short-answer benchmark for large language models’ factual knowledge of Turkish cuisine and culinary heritage
+AB: Abstract Culturally grounded language-model evaluation remains limited for specialized Turkish knowledge, and exact-string scoring can miss
+    semantically correct short answers. This study introduces TurkCuisineBench, a 72-item Turkish short-answer benchmark for factual knowledge of
+    cuisine and culinary heritage. Items were derived from 38 accessible official or institutional source URLs, balanced across six knowledge domains,
+    independently validated, and frozen before model execution. Source grounding constrains item construction and human adjudication rather than
+    supplying evidence to models at inference time: eight proprietary and open-weight endpoints answered every item under a common closed-book,
+    stateless, answer-only protocol. Of 576 expected responses, 574 were technically valid. Blinded human review resolved all 326 valid non-exact
+    responses; a prespecified 82-response overlap achieved 97.6% pre-adjudication decision agreement (Cohen’s κ = .875). Semantic accuracy differed
+    substantially across endpoints (13.9%–70.8%; Holm-adjusted p < .001). Overall semantic correctness was 230/574 (40.1%), compared with 187/574
+    (32.6%) under normalized exact match, recovering 43 correct responses (+ 7.49 percentage points; item-cluster bootstrap 95% confidence interval
+    [4.36, 11.19]). The prespecified contrast between items without lexical answer cues and those with limited cues was not supported.
+    TurkCuisineBench demonstrates a compact, auditable approach to culturally specific factual evaluation while explicitly limiting claims to the
+    sampled institutional-source record rather than treating it as exhaustive culinary knowledge.
 
-### R00581 | 2025 | article/None | Lang: en
-TI: Assisting early-stage software startups with LLMs: Effective prompt engineering and system instruction design
-AB: Context: Early-stage software startups, despite their strong innovative potential, experience high failure rates due to factors such as
-    inexperience, limited resources, and market uncertainty. Generative AI technologies, particularly Large Language Models (LLMs), offer promising
-    support opportunities; however, effective strategies for their integration into startup practices remain underexplored. Objective: This study
-    investigates how prompt engineering and system instruction design can enhance the utility of LLMs in addressing the specific needs and challenges
-    faced by early-stage software startups. Methods: A Design Science Research (DSR) methodology was adopted, structured into three iterative cycles.
-    In the first cycle, use cases for LLM adoption within the startup context were identified. The second cycle experimented with various prompt
-    patterns to optimize LLM responses for the defined use cases. The third cycle developed “StartupGPT”, an LLM-based assistant tailored for
-    startups, exploring system instruction designs. The solution was evaluated with 25 startup practitioners through a combination of qualitative
-    feedback and quantitative metrics. Results: The findings show that tailored prompt patterns and system instructions significantly enhance user
-    perceptions of LLM support in real-world startup scenarios. StartupGPT received strong evaluation scores across key dimensions: satisfaction
-    (93.33%), effectiveness (80%), efficiency (80%), and reliability (86.67%). Nonetheless, areas for improvement were identified, particularly in
-    context retention, personalization of suggestions, communication tone, and sourcing external references. Conclusion: This study empirically
-    validates the applicability of LLMs in early-stage software startups. It offers actionable guidelines for prompt and system instruction design and
-    contributes both theoretical insights and a practical artifact — StartupGPT — that supports startup operations without necessitating costly LLM
-    retraining.
+### R00528 | 2026 | preprint/None | Lang: en
+TI: Lookahead Large Language Models: A Unified Framework for Predictive Token Selection, Reasoning Control, Knowledge Acquisition, and Long-Horizon
+    Language-Model Decision-Making
+AB: Large language models (LLMs) are increasingly used for complex tasks involving multi-step reasoning, long-context understanding,
+    retrieval-augmented generation, tool use, software development, autonomous agents, and collaborative problem-solving. Although these systems can
+    generate candidate continuations and evaluate intermediate outputs, a decision that appears locally appropriate may lead to poor downstream
+    reasoning, unnecessary computation, factual errors, tool failures, or incomplete task execution. This paper proposes Lookahead Large Language
+    Models (L²M), a unified research framework for predicting the downstream consequences of candidate language-model actions before committing to
+    them. The framework treats token generation, reasoning-step selection, context management, evidence acquisition, tool invocation, memory
+    operations, model routing, and task termination as decision problems. Given a current state and a set of feasible actions, a lookahead controller
+    estimates their future utility, uncertainty, risk, and computational cost, then selects an action according to an explicit decision objective. The
+    framework separates state representation, candidate generation, outcome prediction, decision selection, execution, verification, and experimental
+    recordkeeping. It can be implemented around an existing language model, incorporated into an inference-time controller, or adapted to training and
+    agent orchestration. A modular Research Slot Architecture is introduced to support independent implementation and evaluation. To facilitate
+    systematic research development, this paper presents 300 candidate research directions across fifteen LLM-specific research categories, including
+    token-level generation, reasoning, context processing, retrieval, tool use, memory, multi-agent systems, code intelligence, mathematics, factual
+    reliability, multilingual behavior, personalization, inference efficiency, evaluation, and model training. The catalogue is intended as a
+    structured research roadmap rather than a claim that every direction is novel or effective. The central hypothesis is that explicit prediction of
+    downstream consequences can improve LLM decisions when candidate actions have materially different future effects and the expected benefit
+    justifies the cost of prediction. This hypothesis requires controlled comparisons against fixed, greedy, heuristic, and learned non-lookahead
+    baselines.
 
-=== END OF BATCH b012 (43 records) ===
+### R00529 | 2026 | article/None | Lang: en
+TI: A pattern-aware gating mechanism for entity alignment in heterogeneous temporal knowledge graph integrated with large language models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00530 | 2026 | article/None | Lang: en
+TI: Beyond Hallucination: Temporal Knowledge Asymmetry as a Distinct Failure Mode in Large Language Models for Non-Western Knowledge Domains
+AB: Most work on LLM reliability focuses on hallucination, which refers to models generating confident but false information. This paper identifies
+    and characterizes a related but distinct failure mode that has received less attention: temporal knowledge asymmetry, where models provide correct
+    information for one geographic context but outdated information for a structurally equivalent question about another context. I evaluated three
+    frontier LLMs (Claude Opus 4.1, Gemini 3, and ChatGPT 5.1) using a matched-pair question bank of 500 items across six knowledge domains. Contrary
+    to my initial hypothesis, outright hallucination rates were statistically similar between Indian and Western questions (India 1.7% vs. West 1.6%
+    averaged across models). However, I found a consistent pattern of temporal lag in Indian institutional knowledge: models gave outdated answers for
+    Indian current affairs at rates up to 9.6 percentage points higher than for equivalent Western questions. For both Claude Opus 4.1 and Gemini 3,
+    the outdated-answer rate for Indian current affairs was 8% while the rate for equivalent Western positions was 0%. This asymmetry was consistent
+    across all three independently developed models, suggesting a systemic cause rooted in training data composition rather than any single model's
+    design. I propose temporal accuracy as a necessary additional evaluation dimension for LLM benchmarks targeting equitable global deployment.
+
+### R00531 | 2026 | article/None | Lang: en
+TI: Beyond Hallucination: Content Aware Retrieval Augmented Adaptive Strategies for Knowledge-Boundary Awareness in LLMs
+AB: Recently the Large language models have demonstrated substantial improvements in natural language processing, understanding and generation.
+    Despite these advances, they remain prone to producing outputs that are fluent yet factually incorrect, a limitation commonly referred to as
+    hallucination. This issue is of particular concern in domains that require high levels of accuracy and reliability. Retrieval-Augmented Generation
+    (RAG) has emerged as an effective framework to address this limitation by incorporating external knowledge sources into the generation process.
+    This review surveys recent research on RAG systems, with an emphasis on methods aimed at mitigating hallucinations through improved retrieval
+    strategies. Recent studies increasingly move beyond static retrieval pipelines and instead explore adaptive retrieval mechanisms, in which the
+    decision to retrieve external information is influenced by factors such as input complexity and model uncertainty. These approaches seek to better
+    align retrieval behavior with the informational demands of a given query. The review further examines research on epistemic uncertainty
+    estimation, the integration of structured knowledge sources such as knowledge graphs, and techniques designed to enhance transparency in retrieval
+    and generation processes. While existing methods show promise in improving factual grounding, several challenges remain, including reliable
+    uncertainty modeling and effective coordination between retrieval and generation components. Overall, the reviewed work highlights ongoing efforts
+    toward developing language models that produce more accurate and dependable outputs.
+
+### R00532 | 2026 | preprint/None | Lang: en
+TI: Structure-Grounded Semantic Calibration with LLMs for Temporal Knowledge Graph Reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00533 | 2026 | article/None | Lang: en
+TI: Refusal-Aware Instruction Tuning for Hallucination Mitigation near Uncertain Knowledge Boundaries
+AB: The rapid deployment of large language models has exposed significant vulnerabilities in their reliability, particularly concerning their
+    propensity to hallucinate when confronted with queries that exceed their internalized knowledge capacities. This paper investigates the critical
+    challenge of mitigating hallucinations near uncertain knowledge boundaries through a novel paradigm termed refusal-aware instruction tuning.
+    Conventional instruction tuning often inadvertently encourages models to generate responses even when uncertain, prioritizing fluency and
+    helpfulness over factual accuracy. To counteract this phenomenon, we propose a systematic framework that integrates uncertainty quantification
+    directly into the instruction tuning pipeline, teaching models to explicitly refuse to answer when a query falls outside their reliable knowledge
+    distribution. By formalizing the concept of uncertain knowledge boundaries, we develop a specialized dataset curation strategy that identifies
+    low-confidence regions and pairs them with appropriate refusal responses. Our methodology is subsequently evaluated through extensive empirical
+    analysis, demonstrating that refusal-aware instruction tuning substantially reduces hallucination rates without compromising the utility of the
+    model on well-known facts. The findings suggest that aligning models with their own epistemic limitations is a fundamental requirement for
+    deploying trustworthy artificial intelligence systems in high-stakes domains.
+
+=== END OF BATCH b012 (50 records) ===

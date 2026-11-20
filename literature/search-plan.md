@@ -48,3 +48,7 @@ Not part of this draft: run after the gap analysis to test "nobody has done X" c
 ## v1.1 (2026-11-20) – tightened after the volume check
 
 v1.0 gave 27,921 raw hits. The strings were tightened to v1.1 (2,267 raw database hits + 65 from citation chasing; 1,854 unique). Final strings, counts and what each change removed: `search-log.md`. The code is the reference: `literature/search/run_search.py` (`ROUNDS`; v1.0 kept as `ROUNDS_V10`).
+
+## v1.2 (2026-11-20) – Frank's narrowing choice
+
+LLM term in the title for R1b, R2a, R2b, R4a; R2a also needs an uncertainty/consistency/risk term; R1a needs a knowledge or finance term, R3 an uncertainty or finance term (O2); R4b complete. 788 database records + 65 citation-chasing records → 669 unique. Details: `search-log.md`.

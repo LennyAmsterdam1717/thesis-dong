@@ -65,6 +65,29 @@ ROUNDS = {
 }
 
 
+ROUNDS_V11 = dict(ROUNDS)
+
+# v1.2 (2026-11-20, Frank's choice): LLM term in the TITLE for R1b, R2a, R2b, R4a; R2a also needs an
+# uncertainty/consistency/risk term; R1a needs a knowledge or finance term and R3 an uncertainty or finance
+# term (option O2, title or abstract); R4b (citation chasing) complete.
+FIN = ["finance", "financial", "investment", "investments", "investor", "investors", "stock", "stocks",
+       "portfolio", "banking", "bank", "trading", "market", "markets", "economic", "economics", "credit",
+       "robo-advisor", "wealth", "fintech"]
+KNOW = ["factual", "knowledge", "fact", "facts", "memorization", "memorisation"]
+UNCT = ["uncertainty", "uncertain", "confidence", "calibration", "calibrated", "miscalibration", "entropy",
+        "hedging", "abstain", "abstention", "I dont know"]
+CONC = UNCT + ["consistency", "consistent", "inconsistency", "reliability", "reliable", "hallucination",
+               "hallucinations", "risk", "risks"]
+ROUNDS = {
+    "R1a": ROUNDS_V11["R1a"] + [(KNOW + FIN, "ta")],
+    "R1b": [(L, "ti")] + ROUNDS_V11["R1b"][1:],
+    "R2a": [(L, "ti")] + ROUNDS_V11["R2a"][1:] + [(CONC, "ta")],
+    "R2b": [(L, "ti")] + ROUNDS_V11["R2b"][1:],
+    "R3": ROUNDS_V11["R3"] + [(UNCT + FIN, "ta")],
+    "R4a": [(L, "ti")] + ROUNDS_V11["R4a"][1:],
+}
+
+
 def get(url, tries=6, pause=5.0):
     for i in range(tries):
         try:

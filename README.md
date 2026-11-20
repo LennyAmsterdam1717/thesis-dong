@@ -44,5 +44,5 @@
 - ✅ Repository scaffold created (in a claude.ai session, without the plugin).
 - ✅ Open questions answered: years 2025–2026, directions A + B, no seed 2 yet, Dong Nguyen = daily supervisor + first examiner.
 - ✅ Plugin checked in Claude Code (v3.24.3, sr-screener scripts OK).
-- ✅ Protocol v1.0 confirmed ("go light"); search tightened to v1.1 and run: 1,854 unique records (see `literature/search-log.md`).
-- ⏳ Frank labels pilot batch b001 in `literature/screening/pilot_labels.csv`. No AI screening done yet.
+- ✅ Protocol v1.0 confirmed ("go light"); search narrowed to v1.2 (Frank's choice) and run: 669 unique records (see `literature/search-log.md`).
+- ⏳ Frank labels the mixed pilot batch b001 (25 records, incl. seed) in `literature/screening/pilot_labels.csv`. No AI screening done yet.

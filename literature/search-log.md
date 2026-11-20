@@ -61,3 +61,42 @@ Counts are raw hits per round; the same paper can appear in several rounds and b
 | **Unique records to screen** | **1,854** (631 from 2025, 1,223 from 2026; 223 without abstract) |
 
 PRISMA screening counts follow after title/abstract screening. Note: `prepare_records.py` de-duplicates database and citation-chasing records together; the PRISMA "other methods" branch is reported from `sr_work/identification.json` and `duplicates.csv`.
+
+## 2026-11-20 – v1.2: narrowed to Frank's chosen rules; re-run, de-duplication, mixed pilot
+
+**Why:** 1,854 unique records (v1.1) were too many for 2–3 RQs. Options and trade-offs: `docs/decisions.md` (entry "Narrowing 1,854 records…"). Frank chose the rules below. The expected total, estimated from the v1.1 records, was 727 unique (≤ 750 ceiling set by Frank), so the search was re-run.
+
+**v1.2 rules** (on top of v1.1; `L` = LLM block; `[ti]` = title only; years 2025–2026; OpenAlex `article|preprint`):
+- R1a: v1.1 AND (title or abstract) `(factual OR knowledge OR fact(s) OR memorization OR memorisation OR finance OR financial OR investment(s) OR investor(s) OR stock(s) OR portfolio OR banking OR bank OR trading OR market(s) OR economic(s) OR credit OR robo-advisor OR wealth OR fintech)` (option O2).
+- R1b: `[ti]L` instead of title-or-abstract `L`; rest as v1.1.
+- R2a: `[ti]L` AND v1.1 finance-advice terms AND (title or abstract) `(uncertainty OR uncertain OR confidence OR calibration OR calibrated OR miscalibration OR entropy OR hedging OR abstain OR abstention OR "I dont know" OR consistency OR consistent OR inconsistency OR reliability OR reliable OR hallucination(s) OR risk(s))`.
+- R2b: `[ti]L` instead of title-or-abstract `L`; rest as v1.1.
+- R3: v1.1 AND (title or abstract) `(uncertainty OR uncertain OR confidence OR calibration OR calibrated OR miscalibration OR entropy OR hedging OR abstain OR abstention OR "I dont know" OR <finance terms as in R1a>)` (option O2).
+- R4a: `[ti]L` instead of title-or-abstract `L`; rest as v1.1.
+- R4b: unchanged, complete (references and citing works of seed 1, 2025–2026).
+
+**Hit counts (arXiv / OpenAlex), v1.1 → v1.2:**
+
+| Round | v1.1 | v1.2 | removed |
+|---|---|---|---|
+| R1a | 363 / 335 | 107 / 100 | 491 |
+| R1b | 50 / 290 | 31 / 145 | 164 |
+| R2a | 48 / 404 | 18 / 73 | 361 |
+| R2b | 63 / 197 | 38 / 106 | 116 |
+| R3 | 153 / 203 | 34 / 52 | 270 |
+| R4a | 77 / 84 | 47 / 37 | 77 |
+| **Databases** | **754 / 1,513 = 2,267** | **275 / 513 = 788** | **1,479** |
+| R4b (other methods) | 65 | 65 | 0 |
+
+**Run:** 2026-11-20, same script (`ROUNDS`, v1.1 kept as `ROUNDS_V11`, v1.0 as `ROUNDS_V10`). v1.1 exports and work folder archived in `literature/screening/archive/`.
+
+| PRISMA identification | n |
+|---|---|
+| Databases: arXiv 275 + OpenAlex 513 | 788 |
+| Other methods: citation chasing of seed 1 (backward 23, forward 42) | 65 |
+| All records | 853 |
+| Duplicates removed | 184 |
+| **Records to screen** | **669** (224 from 2025, 445 from 2026; 66 without abstract) |
+
+Seed 1 found by the search (R00559, via R4a); no manual addition needed.
+Pilot: b001 = 25 records sampled across all rounds (see `sr_work/pilot_sample.json`); remaining 644 records in b002–b015.

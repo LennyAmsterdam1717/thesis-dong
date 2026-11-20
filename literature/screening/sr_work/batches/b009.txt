@@ -1,608 +1,589 @@
-BATCH b009 -- 50 records: R00401 .. R00450
+BATCH b009 -- 50 records: R00325 .. R00376
 
-### R00401 | 2026 | article/None | Lang: en
-TI: Diagnostic Bias, Confidence Miscalibration, and Test-Retest Reliability of Three General-Purpose Multimodal Large Language Models for Wrist
-    Radiograph Interpretation: A Comparison of Claude Opus 4.6, GPT-4o, and Gemini 2.5 Pro
-AB: Purpose: To compare the diagnostic accuracy, confidence calibration, and test-retest reliability of three general-purpose multimodal large
-    language models on binary wrist radiograph classification. Methods:All 237 wrist studies from the MURA v1.1 validation set (97 abnormal, 140
-    normal) were submitted twice to each model via REST API in May 2026 using an identical zero-shot prompt.Accuracy, sensitivity, specificity,
-    predictive values, and F1 score were calculated with 95% confidence intervals and compared by McNemar's test with Holm correction.Calibration was
-    assessed with expected calibration error (ECE), Brier score, and calibration intercept and slope; test-retest reliability with Cohen's kappa and
-    the intraclass correlation coefficient (ICC).Results: Claude Opus 4.6 classified 231 of 237 studies (97.5%) as abnormal, yielding 100% sensitivity
-    (95% CI, 96.2-100) with 4.3% specificity (2.0-9.0) and the lowest accuracy (43.5%; 37.3-49.8).GPT-4o and Gemini 2.5 Pro achieved similar accuracy
-    (59.7% and 59.9%) and did not differ significantly on any metric after correction.All three were severely miscalibrated (ECE 0.291-0.454;all
-    intercepts excluded zero), and none returned a probability estimate between 0.30 and 0.70 for any study.Test-retest reliability ranged from almost
-    perfect (Claude, kappa 0.853) to moderate (GPT-4o, 0.486), with confidence reproducibility following the same ordering (ICC 0.884 and
-    0.529).Conclusions: Under zero-shot prompting on this benchmark, the three models showed divergent diagnostic biases, uniformly poor calibration,
-    and variable output stability.Stated confidence did not correspond to observed accuracy and should not be used to weight model outputs.These
-    findings apply to a single anatomic region, dataset, and prompting strategy.
+### R00325 | 2026 | article/None | Lang: en
+TI: Analysis of Large Language Model-Based Stock Investment Recommendations for LQ45 Stocks
+AB: This study aims to examine the capability of Large Language Models (LLMs) to generate stock investment recommendations in the form of buy, hold,
+    and sell for stocks included in the LQ45 Index of the Indonesia Stock Exchange. A quantitative experimental approach was employed using three
+    generative artificial intelligence models: ChatGPT, Gemini, and DeepSeek. Each model received an identical prompt incorporating stock price
+    information, trading volume, candlestick patterns, and macroeconomic and microeconomic sentiment. The research sample comprised 45 LQ45
+    constituent stocks observed over 20 trading days in December 2025, resulting in 900 observations for each model and 2,700 observations in total.
+    Model performance was evaluated based on three primary dimensions: recommendation accuracy relative to actual stock price movements, investment
+    returns, and downside risk. The findings indicate discrepancies between LLM-generated recommendations and actual stock price movements, suggesting
+    that none of the three models can predict stock price direction with complete accuracy. Nevertheless, all models generated positive cumulative
+    returns. DeepSeek achieved the highest Compounded Cumulative Return (CCR) at 24.01%, followed by Gemini at 23.58% and ChatGPT at 1.90%. In terms
+    of risk, ChatGPT demonstrated the most favorable performance, recording the lowest total risk at 16.35%, compared with DeepSeek at 22.34% and
+    Gemini at 24.85%. The loss rates were also below 50% across all models, namely 34.11% for DeepSeek, 37.88% for Gemini, and 27.33% for ChatGPT.
+    These findings suggest that LLMs can function as Decision Support Systems for investment decision-making by generating recommendations with the
+    potential to produce positive returns while maintaining relatively moderate risk. However, LLM-generated recommendations should not be interpreted
+    as definitive market forecasts because their performance remains sensitive to market volatility, information dynamics, and rapidly changing
+    financial conditions.
 
-### R00402 | 2026 | article/None | Lang: en
-TI: Competing Biases underlie Overconfidence and Underconfidence in LLMs
-AB: Large language models (LLMs) are increasingly deployed in high-stakes applications where reliable confidence estimation is crucial for trustworthy
-    artificial intelligence (AI). However, their confidence dynamics remain poorly understood, with users reporting paradoxical behaviours: LLMs
-    exhibit reduced flexibility in updating initial responses while simultaneously showing excessive sensitivity to contradictory feedback.
-    Understanding these confidence patterns is essential for developing more reliable AI systems and improving human–AI interaction. Here we show that
-    LLM confidence is governed by two competing mechanisms that explain this paradox. First, we identify a choice-supportive bias: when LLMs view
-    their initial answers, they exhibit inflated confidence and maintain their original responses at rates exceeding optimal decision-making, even
-    when presented with contrary evidence. Second, we demonstrate systematic overweighting of contradictory information: LLMs update their confidence
-    more strongly in response to opposing advice than supporting advice, deviating markedly from optimal Bayesian reasoning. These mechanisms operate
-    across diverse models and generalize from simple factual queries to reasoning tasks. Our computational modelling reveals that these two
-    principles—self-consistency preservation and hypersensitivity to contradiction—capture LLM behaviour across domains. These findings provide an
-    understanding of when and why LLMs exhibit adherence to initial responses versus disproportionate updating, with implications for enhancing the
-    robustness and transparency of LLM decision-making. Kumaran et al. show that large language model (LLM) confidence is shaped by two competing
-    biases: a choice-supportive bias that inflates confidence in initial answers, and a systematic overweighting of contradictory advice, deviating
-    from optimal Bayesian reasoning.
-
-### R00403 | 2026 | article/None | Lang: en
-TI: Toward Automated Validation of Language Model Synthesized Test Cases Using Semantic Entropy
-AB: Modern Large Language Model (LLM)-based programming agents often rely on test execution feedback to refine their generated code. These tests are
-    synthetically generated by LLMs. However, LLMs may produce invalid or hallucinated test cases, which can mislead feedback loops and degrade the
-    performance of agents in refining and improving code. This paper introducesVALTEST, a novel framework that leverages semantic entropy to
-    automatically validate test cases generated by LLMs. By analyzing the semantic structure of test cases and computing entropy-based uncertainty
-    measures,VALTESTtrains a machine learning model to classify test cases as valid or invalid and filters out invalid test cases. Experiments on
-    multiple benchmark datasets and various LLMs show thatVALTESTnot only boosts test validity by up to 29% but also improves code generation
-    performance, as evidenced by significant increases in pass@1 scores. Our extensive experiments also reveal that semantic entropy is a reliable
-    indicator to distinguish between valid and invalid test cases and provides a robust solution for improving the correctness of LLM-generated test
-    cases used in software testing and code generation.
-
-### R00404 | 2026 | preprint/None | Lang: en
-TI: ScaleCal: Scale-Aware Confidence Calibration for Small Language Models
-AB: Abstract Small language models (0.5B--7B) on edge devices must know when to abstain. We present the first systematic cross-scale study of
-    confidence-signal degradation: across eight models from three families and four benchmarks, cheap logit-based signals --- token probability and
-    average log-likelihood -- saturate with growing overconfidence, while normalized entropy collapses to near-random discrimination at 1B and below;
-    sampling consistency remains robust, its cost falling with scale. We formalize this in a signal-to-noise-ratio (SNR) theory -- an SNR--AUROC
-    bridge (AUROC: area under the receiver operating characteristic curve) and a finite-sample conformal guarantee -- and build ScaleCal, a
-    training-free framework that temperature-calibrates the cheap signal and escalates only uncertain queries to $k$-sample semantic consistency, with
-    a conformal threshold fitted from 3-5 scalars. On models up to 3B, ScaleCal reduces expected calibration error (ECE) by 30--50% over the strongest
-    baseline and raises failure-detection AUROC from near-random to 0.84--0.88, at a quarter of a 7B teacher's FLOPs.
-
-### R00405 | 2025 | article/None | Lang: en
-TI: Survey of uncertainty estimation in LLMs - Sources, methods, applications, and challenges
+### R00326 | 2025 | article/None | Lang: en
+TI: DeepFinLLM 2.0: an optimized and scalable multilingual financial advisor unleashing strategic insights through multi-API orchestration and large
+    language models
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00406 | 2025 | article/None | Lang: fr
-TI: Overconfidence in generative chatbots: is doctors'independance at risk ?
+### R00327 | 2026 | article/None | Lang: en
+TI: LLM-based Personalized Portfolio Recommender: Integrating Large Language Models and Reinforcement Learning for Intelligent Investment Strategy
+    Optimization
+AB: In modern financial markets, investors increasingly seek personalized and adaptive portfolio strategies that reflect their individual risk
+    preferences and respond to dynamic market conditions. Traditional rule-based or static optimization approaches often fail to capture the nonlinear
+    interactions among investor behavior, market volatility, and evolving financial objectives. To address these limitations, this paper introduces
+    the LLM-based Personalized Portfolio Recommender (L-PPR), an integrated framework that combines Large Language Models (LLMs), reinforcement
+    learning, and individualized risk preference modeling to support intelligent investment decision-making. The proposed system comprises three core
+    components: (1) a Conversational Financial Agent (FinAgent) that engages with users through natural language, gathers behavioral feedback, and
+    delivers interpretable advisory explanations; (2) a Personalization and Risk Modeling Module that infers investor-specific risk tolerance using
+    Bayesian inference and behavioral imitation learning; and (3) a Strategy Recommendation Engine based on Proximal Policy Optimization (PPO) that
+    generates personalized asset allocation strategies conditioned on user embeddings and real-time market states. Experimental results on a simulated
+    multi-asset portfolio dataset show that L-PPR substantially outperforms established baselines, including Mean–Variance Optimization (MVO), Deep
+    Reinforcement Learning Portfolio (DRL-PPO), and BERT-based Financial Advisor (BERT-FA). Specifically, L-PPR achieves a 73.8% improvement in
+    annualized return and a 33.2% reduction in maximum drawdown relative to MVO. It also records the highest Sharpe Ratio (1.45), Information Ratio
+    (0.78), and User Alignment Score (0.89). These findings demonstrate that L-PPR effectively enhances risk-adjusted performance while delivering
+    superior personalization and user satisfaction.
+
+### R00328 | 2025 | article/None | Lang: en
+TI: Biased echoes: Large language models reinforce investment biases and increase portfolio risks of private investors
+AB: Large language models are increasingly used by private investors seeking financial advice. The current paper examines the potential of these
+    models to perpetuate investment biases and affect the economic security of individuals at scale. We provide a systematic assessment of how large
+    language models used for investment advice shape the portfolio risks of private investors. We offer a comprehensive model of large language model
+    investment advice risk, examining five key dimensions of portfolio risks (geographical cluster risk, sector cluster risk, trend chasing risk,
+    active investment allocation risk, and total expense risk). We demonstrate across four studies that large language models used for investment
+    advice induce increased portfolio risks across all five risk dimensions, and that a range of debiasing interventions only partially mitigate these
+    risks. Our findings show that large language models exhibit similar "cognitive" biases as human investors, reinforcing existing investment biases
+    inherent in their training data. These findings have important implications for private investors, policymakers, artificial intelligence
+    developers, financial institutions, and the responsible development of large language models in the financial sector.
+
+### R00329 | 2026 | article/None | Lang: en
+TI: Does financial advice by AI-based robo-advisors will replace humans? Evidence from ChatGPT and Google Bard
+AB: The advent of artificial intelligence technologies has transformed various sectors, including taxation. The present study investigates the
+    accuracy and knowledge of taxation advice provided by two leading AI tools, ChatGPT and Google Bard, for Indian taxpayers. Utilizing nine
+    evaluative criteria - Clarity, Accuracy, Precision, Relevance, Depth, Breadth, Logic, Significance, and Fairness, we examine the capabilities of
+    ChatGPT and Google Bard in delivering reliable taxation advice. We used 12 different prompts for each taxation advice from ChatGPT and Google Bard
+    separately. Our respondents are limited to Chartered Accountants having exposure to robo-advisory services in varied capacities. The findings
+    indicate that Google Bard exhibits superior accuracy, while ChatGPT excels in other evaluative categories. Both AI tools, however, demonstrated
+    comparable overall performance. Notably, Chartered Accountants slightly favoured the responses generated by Google Bard concerning the correctness
+    of Indian taxation advice. These findings are significant for three major stakeholders of the Indian Taxation system; the Government, Chartered
+    Accountants, and Assessees, and indicate the need for policy changes in regulating the role of Artificial Intelligence in the Indian financial
+    advice domain. One major limitation of this research is the number of respondents due to the complex and time-intensive nature of the
+    questionnaire. This is the first study in our knowledge that evaluates the authenticity and reliability of financial advice provided by
+    robo-advisors; with a particular focus on tax-saving approaches tailored to the Indian context.
+
+### R00330 | 2025 | preprint/None | Lang: en
+TI: Unleashing the Potential of Large Language Models in the Finance Industry
+AB: The rapid advancements in large language models (LLMs) have ushered in a new era of transformative potential for the finance industry. This paper
+    explores the latest developments in the application of LLMs across key areas of the finance domain, highlighting their significant impact and
+    future implications.In the realm of financial analysis and modelling, LLMs have demonstrated the ability to outperform traditional models in tasks
+    such as stock price prediction, portfolio optimization, and risk assessment. By processing vast amounts of financial data and leveraging their
+    natural language understanding capabilities, these models can generate insightful analyses, identify patterns, and provide data-driven
+    recommendations to support decision-making processes.The conversational capabilities of LLMs have also revolutionized the customer service
+    landscape in finance. LLMs can engage in natural language dialogues, addressing customer inquiries, providing personalized financial advice, and
+    even handling complex tasks like loan applications and investment planning. This integration of LLMs into financial institutions has the potential
+    to enhance customer experiences, improve response times, and reduce the workload of human customer service representatives.Furthermore, LLMs are
+    making significant strides in the realm of risk management and compliance. These models can analyze complex legal and regulatory documents,
+    identify potential risks, and suggest appropriate remedial actions. By automating routine compliance tasks, such as anti-money laundering (AML)
+    checks and fraud detection, LLMs can help financial institutions enhance their risk management practices and ensure better compliance, mitigating
+    the risk of costly penalties or reputational damage.As the finance industry continues to embrace the transformative potential of LLMs, it will be
+    crucial to address the challenges surrounding data privacy, algorithmic bias, and the responsible development of these technologies. By navigating
+    these considerations, the finance sector can harness the full capabilities of LLMs to drive innovation, improve efficiency, and ultimately,
+    enhance the overall financial ecosystem.
+
+### R00331 | 2026 | article/None | Lang: en
+TI: Exploring Personalized Explanation Methods in Fintech Decision-Making Chatbot Based on User Characteristics Using Large Language Model
+AB: As AI increasingly supports financial decision-making, the need for explanations that users can understand and trust is growing. Previous research
+    has often taken a uniform approach to explanations, without considering individual user characteristics. In this work, we examine the interaction
+    between explanation methods and user characteristics and propose personalized explanations. To identify suitable explanations for different levels
+    of risk-taking, Study 1 employed a 3 (explanation methods) × 2 (risk-taking levels) between-subjects design. We also found that subjective AI
+    knowledge plays an important role and proposed corresponding explanations. Study 2 validated the explanation methods identified in Study 1 using a
+    2 (risk-taking level–based explanations) × 2 (AI literacy–based explanations) between-subjects design. The results showed that personalized
+    explanations improved user experience. Furthermore, we examined whether financial literacy moderates the relationship between explanation methods
+    and user experience, finding that it moderates the effect of AI literacy–based explanations on understanding.
+
+### R00332 | 2026 | article/None | Lang: en
+TI: Identifying and Mitigating Bias in Large Language Model-Based Financial Investment Analysis
+AB: Large language models can assist in financial statement interpretation, risk assessment, and investment recommendation generation, but their
+    output may be affected by corpus distribution, prompting methods, and knowledge timeliness. This paper employs a narrative review method based on
+    structured retrieval to review research on financial scenarios and related general methods, comparing techniques such as evidence verification,
+    counterfactual testing, uncertainty estimation, prompting bias mitigation, and Retrieval-Augmented Generation (RAG). Research shows that factual
+    accuracy, judgment consistency, and investment effectiveness belong to different evaluation levels, and improvement in a single indicator is
+    insufficient to prove the elimination of systematic bias. Future research should strengthen time-consistent data governance, cross-market
+    validation, and human-machine collaborative auditing, and establish an evaluation system that combines bias identification with decision
+    constraints.
+
+### R00333 | 2026 | preprint/None | Lang: en
+TI: Converging Echoes: Inter-Model Convergence in Investment Recommendations by LLMs
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00407 | 2026 | preprint/None | Lang: en
-TI: Confident but Incorrect: Measuring LLM Confidence Calibration for Mathematical Problem-Solving
-AB: Large Language Models are increasingly being used as tools for mathematical problem-solving and have shown progressive improvement in reasoning
-    capability. However, even frontier LLMs remain prone to hallucination when challenged with problems beyond their capabilities, often presenting
-    incorrect reasoning with high confidence. In this paper, we examine how LLM self-assessed confidence aligns with empirical accuracy across math
-    problems of varying difficulty and type. Furthermore, we test a model’s confidence on both its initial attempt and a prompted retry in which the
-    model is informed of its prior error. Our method reveals a systematic overestimation of confidence that persists even after the model is informed
-    of prior error, with miscalibration increasing largely monotonically with problem difficulty. These findings highlight the gap between perceived
-    and actual LLM reliability in mathematical reasoning.
-
-### R00408 | 2025 | preprint/None | Lang: en
-TI: Are LLMs Overconfident in Addressing Controversial Questions in the Management of Thyroid Disease?
+### R00334 | 2026 | preprint/None | Lang: en
+TI: Expressed distress and portfolio risk in LLM investment advice
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00409 | 2026 | article/None | Lang: en
-TI: Semantic Entropy and Structural Invariance in LLM-Mediated ExpansionCompression Loops
-AB: We develop a quantitative information-theoretic account of semantic decay in large-language-model (LLM) mediated Expansion--Compression (EC)
-    loops.Building on the unified framework of DECO Paper~0 \citep{deco_paper0},we introduce semantic entropy $\HS(X)$ as the differential entropy of
-    a random variable distributed over a semantic manifold, and prove that each application of the EC-transform $T = \C \circ \E$ is a strictly
-    entropy-reducing operation in expectation (Semantic Entropy CollapseTheorem). We derive closed-form bounds on the mutual information
-    $I\!\left(K_A;\,\hat{K}_B\right)$ between the originating ideas $K_A$ and the recipient's extraction $\hat{K}_B$ as functions of expansion ratio
-    $\rho_E$, compression ratio $\rho_C$, LLM temperature $\tau$, and iteration count $n$. We introduce the \emph{Semantic Gravity Well} model: a
-    potential landscape on the semantic manifold in which the LLM training centroid acts as an attractor, and original content resides at unstable
-    high-curvature saddle points. Under this model, we prove the Differential Decay Theorem: propositional fidelity $F_{\mathrm{prop}}$ decays
-    exponentially in $n$, affective fidelity $F_{\mathrm{aff}}$ decays sub-exponentially, and structural fidelity $F_{\mathrm{str}}$ converges to a
-    strictly positive constant (the causal skeleton invariant) under mild conditions.Finally, we characterise the Semantic Channel Capacity of the
-    EC-loop and show it is strictly less than the Shannon capacity of the raw linguistic channel, with the gap determined by the curvature of the
-    semantic manifold at the seed point. These results quantify the information-theoretic cost of AI-mediated cognitive decoupling and provide
-    empirically testable predictions for the subsequent papers in the series.
+### R00335 | 2025 | article/None | Lang: en
+TI: Effects of chain-of-thought on large language model in designing and development of a financial assistant application
+AB: In a time when daily expenses frequently compound in the back-ground, sabotaging financial goals and independence, the Financial Decision Helper
+    App is a game changer for personal finance. To tackle the common issue of unaccounted-for daily money dissipations and inconsistent account
+    tracks, this model makes use of the state-of-the-art AI model, DeepSeek-R1-Distill-Llama-8B large language model fine-tuned with Low-Rank
+    Adaptation (LoRA). The app offers personalized, step-by-step guidance on how users should spend their money, which includes clear instructions on
+    whether something is
 
-### R00410 | 2026 | article/None | Lang: en
-TI: Sinkhorn-Regularized Uncertainty Quantification for LLMs via entropic optimal transport
+### R00336 | 2026 | article/None | Lang: en
+TI: A Practical Analysis of Large Language Models Empowering Investment Management from the Financial Text Perspective
+AB: This paper investigates how large language models can assist in investment management through the processing of financial text. It is a discussion
+    of ideas and applications, not an empirical investigation, and no original datasets, backtests, portfolios or performance data have been provided.
+    The development path from dictionary-based textual indicators to Transformers, domain-adapted language models and retrieval-assisted workflows is
+    presented. Next, it presents some applications of research-intake systems, document comparison, event extraction, risk monitoring, investment-memo
+    drafting and client communication. Pay attention to the evidence supporting the results of the model. Although the generated summary and
+    classification can increase the efficiency of the workflow, they are not verified facts, forecasts or investment recommendations unless supported
+    by official data and professional reviews. A controlled operating model based on source provenance, retrieval, structured prompts, numerical
+    verification, human approval, access control, audit log and continuous evaluation is proposed in this paper. Therefore, large language models are
+    more suitable for the applications of supervised analysis interfaces than for autonomous portfolio management systems.
+
+### R00337 | 2026 | preprint/None | Lang: en
+TI: Bridging the Knowledge Gap: Aligning Financial Education with Investor Interests Using Large Language Models
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00411 | 2025 | article/None | Lang: id
-TI: Bias-Aware LLM-as-a-Judge with Position-Invariant Pairwise Evaluation and Confidence Calibration
-AB: Large language models are increasingly used to compare candidate responses, but a pairwise judge can change its verdict when the same responses
-    exchange A/B positions, and its confidence need not reflect empirical correctness. This study evaluates a position-invariant, calibration-aware
-    pairwise framework on all 620 objectively labeled response pairs in JudgeBench. The corpus contains 528 unique questions from 17 sources and spans
-    knowledge, reasoning, mathematics, and coding; candidate responses were generated by GPT-4o and Claude-3.5-Sonnet. Five question-grouped folds
-    prevent repeated questions from crossing training and evaluation partitions. We compare a conventional ordered judge, swap-augmented training, an
-    explicitly antisymmetric difference model, and two-pass position-invariant fusion. The ordered judge attains 57.26% accuracy but preserves the
-    physical winner after an A/B swap on only 53.71% of pairs. Swap augmentation raises accuracy to 58.39% and consistency to 99.35%, while
-    antisymmetric scoring and two-pass fusion achieve exact 100% swap consistency. The position-invariant fusion retains 58.39% accuracy, a 1.13-point
-    gain over the ordered judge; the question-group bootstrap interval is [-2.45, 4.81] points and the exact McNemar p value is 0.597, so the accuracy
-    change is not statistically decisive. Cross-fitted Platt scaling provides the best Brier score, 0.2367, compared with 0.2397 for raw
-    position-invariant probabilities, and isotonic regression provides the lowest ten-bin expected calibration error, 0.0347. Confidence-based refusal
-    improves retained-set accuracy to 69.35% at 20% coverage. The results show that order invariance can be guaranteed without reducing overall
-    accuracy, whereas calibration and abstention must be evaluated as separate properties rather than inferred from classification accuracy.
+### R00338 | 2026 | article/None | Lang: en
+TI: Retrieval-Augmented Large Language Model Using FAISS for Stock Recommendation on LQ45 Index Based on Technical and Fundamental Analysis
+AB: The analysis of Indonesian stock markets is inherently complex due to market volatility, heterogeneous financial indicators, and the need to
+    integrate both technical and fundamental information. Traditional analytical approaches often struggle to provide transparent and consistent
+    investment recommendations, while Large Language Models (LLMs) may suffer from hallucination when applied to structured financial prediction
+    tasks. This study proposes a Retrieval-Augmented Generation (RAG) framework based on the LLaMA model and FAISS to enhance the reliability of stock
+    investment recommendations for LQ45-listed companies. Historical OHLCV data and fundamental financial reports are collected from Yahoo Finance and
+    preprocessed into a structured knowledge base using embedding representations. Relevant information is retrieved using a top-k similarity search
+    mechanism and integrated into a structured prompt engineering scheme to generate BUY, HOLD, or SELL recommendations. Experimental results
+    demonstrate that the proposed approach achieves an F1-score of 0.76 for classification performance, with regression-based error metrics of MAE
+    299.38 and MAPE 10.06%. In addition, text-based evaluation using ROUGE yields a high score of 0.9906, indicating strong alignment between
+    generated explanations and reference analyses. The findings suggest that the RAG framework significantly reduces hallucination by grounding LLM
+    outputs in retrieved financial data, thereby improving the interpretability and robustness of AI-driven stock analysis. This research contributes
+    to the field of informatics by providing a practical and extensible RAG-based framework for structured financial prediction tasks.
 
-### R00412 | 2026 | article/None | Lang: en
-TI: The Effects of Low-Bit Quantization on Confidence Calibration in Small Language Models
-AB: This study looks at how confidence patterns shift when cutting data precision to 4 bits using NF4, applied post-training on Phi-3.5-Mini-Instruct,
-    a small-scale language model packing 3.8 billion parameters. Shrinking precision cuts down memory demands while speeding up output creation;
-    however, what remains unclear is how such squeezing affects the way models rate their own sureness, measured via average prediction strength for
-    each produced word unit. Rather than measuring correctness, the spotlight falls strictly on differences in how certain the system sounds across
-    full-detail versus reduced-bit forms. Evaluation runs on ninety thoughtfully picked prompts split evenly among three kinds: factual assertions,
-    fictional statements, and subjective stances. Hesitation creeps into quantized outputs across the board, their probability scores dipping five
-    point seven six percent on average. Not every category bends the same way under pressure; made-up stories barely shift at all, while claims about
-    reality sag a bit more. Opinions? Those take the hardest hit, certainty plummeting close to ten points lower. The same rules applied throughout,
-    yet outcomes were split wide open based on what kind of knowledge was asked for. Oddly enough, false confidence shows up almost exclusively when
-    facts are invented outright: the slimmed-down model gets things wrong but acts sure of itself, unlike its full-sized counterpart. This odd
-    behavior earns the name “confident hallucination.” You might think shrinking models would show clear drops in accuracy or fluency, but standard
-    metrics miss it completely. What matters instead is whether each guess lines up with the truth that matches how safely such systems can be used.
-    Nowhere near steady, these dips shift with each kind of job. Shrinking a model can quietly erode reliability—something standard tests often miss.
-    Where does it really show up? High-stakes areas rely on consistent results.
+### R00339 | 2026 | article/None | Lang: en
+TI: Reconfiguring Financial Technology Education through AI Algorithms and Large Language Models: An Industry-Responsive Framework for Innovation
+    Capacity Development
+AB: The Financial institutions are now being influenced by the introduction of artificial intelligence (AI) algorithms and large language models
+    (LLMs) to perform risk management, investment analysis, compliance checks, and customer service. The new generation of financial technology
+    experts is expected to have a different knowledge and skill set as well as the ability to work with the current technological advancements. This
+    will be done through the application of educational ecology, which focuses on the development of competencies, the integration of education in
+    industry, and the role of financial technology talent. It identifies enterprise needs and student capabilities, curriculum design based on
+    scenarios, and feedback on the governance of the situation. In this way it can be considered that the AI algorithms and LLMs are not just tools of
+    learning but also means of acquiring interdisciplinary problem solving, engineering skills, and financial literacy and responsible use of AI. The
+    research thus offers a step-by-step procedure towards the creation of an expert in financial technology who is ready to serve the industry with
+    the help of reliable AI in financial services.
 
-### R00413 | 2026 | preprint/None | Lang: en
-TI: Empathy-Authority Miscalibration in Medical and Pediatric LLM Responses
-AB: The post-2020 literature increasingly treats LLM empathy as both a potential benefit and a potential safety risk. Systematic reviews report that
-    LLMs can generate empathic or emotionally supportive text, while newer sycophancy and warmth studies warn that models optimized to be agreeable or
-    warm may validate incorrect beliefs, amplify misinformation, or produce unsafe medical advice. A separate ethics and governance literature
-    emphasizes trust, consent, autonomy, oversight, and child-centered AI. What remains underdeveloped is the empirical intersection: when empathic
-    language weakens legitimate clinical authority, child participation rights, or safe escalation in pediatric AI responses.
+### R00340 | 2026 | preprint/None | Lang: en
+TI: Country and Language Variation in LLM Financial Advice
+AB: Large language models (LLMs) are increasingly consulted for financial advice, yet it is unknown whether they give systematically different
+    recommendations depending on the country or language context of the question. This study conducts a large-scale computational experiment in which
+    identical financial decision scenarios are posed to thirteen leading LLMs across twenty-one country-language cells, using a structured prompt
+    design with two localization levels and a cross-language identification cell. The primary outcome is the recommended equity share in a stock-bond
+    allocation question. Secondary outcomes are the recommended invest-versus-mortgage allocation and the recommended fraction to move out of cash for
+    inflation protection. The design decomposes advice variation into a country-name effect (versus the US baseline), a pure-language effect holding
+    country name constant, and a local-financial-context effect, with the country-name and language channels separately identified through the
+    cross-language cell. In a second stage, to be finalized and estimated only after the normative benchmark and the country-level covariates are
+    sourced and frozen, the estimated country fixed effects will be regressed on country-specific normative benchmark deviations and on country-level
+    risk-taking and financial literacy scores.
 
-### R00414 | 2026 | article/None | Lang: en
-TI: Cognitive Stress Test: Constraint-Based Planning & Confidence Calibration in LLM
+### R00341 | 2026 | preprint/None | Lang: en
+TI: Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance
+    Information Delivery in Kenya
+AB: Abstract Background. Insurance penetration in Kenya stands at roughly 2.3% of GDP, well below the global average of 7.4%. Documented barriers
+    include low financial literacy, affordability, cultural resistance and limited access to trusted, locally relevant information. Large Language
+    Models (LLMs) could in principle deliver scalable, personalised information, but off-the-shelf models perform poorly on jurisdiction-specific
+    regulatory content and are prone to hallucination in low-resource domains. Objective. We investigate how a mid-sized open-weights LLM can be
+    adapted to a low-resource, highly regulated domain using two complementary techniques — parameter-efficient supervised fine-tuning and
+    Retrieval-Augmented Generation (RAG) — and we quantify the marginal value of each technique and of their combination. Methods. A question–answer
+    (QA) corpus was curated from primary regulatory sources (Insurance Regula- tory Authority of Kenya, Association of Kenya Insurers) and reformatted
+    into JSONL. Meta’s LLaMA-2- 13B-chat was used as the base model. We compared four configurations: (i) base model; (ii) base + LoRA fine-tuning;
+    (iii) base + RAG over a Chroma vector index; and (iv) fine-tuning + RAG. Outputs were graded by GPT-4 (with a human-validated paraphrased test
+    set) on accuracy (1–10), succinctness (5-level rubric mapped to a numerical scale) and relevancy (1–10). Results. The combined fine-tuning + RAG
+    configuration achieved the best performance on all three metrics (accuracy 6.803, succinctness 7.03, relevancy 6.89), versus the base model
+    (1.229, 3.78, 1.98). Fine-tuning alone yielded only marginal accuracy gains and a measurable drop in relevancy, indicating that parameter
+    adaptation without external knowledge grounding can make the model more confident without making it more correct. RAG contributed the largest
+    single improvement. Contribution. The paper offers (a) a reproducible recipe for adapting open-weights LLMs to a low-resource regulated domain on
+    commodity hardware; (b) empirical evidence on the relative contribution of fine-tuning vs. retrieval grounding in that setting; and (c) a
+    discussion of the implications for AI-assisted financial inclusion in Sub-Saharan Africa.
+
+### R00342 | 2026 | preprint/None | Lang: en
+TI: Stereotypes in the Machine: Gender and Racial Bias in LLM-Generated Financial Advice
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00415 | 2026 | article/None | Lang: en
-TI: A semantic entropy framework for quantifying and mitigating uncertainty in LLM-assisted geotechnical design
-AB: Large language models (LLMs) present new opportunities for decision support in geotechnical engineering but remain prone to uncertainty and
-    domain-specific hallucinations. This paper develops a semantic entropy framework to diagnose and mitigate such uncertainty in geotechnical design.
-    The proposed semantic entropy framework decomposes LLM outputs into atomic factoids, evaluates their entropy through entailment-based clustering
-    of diverse sampled answers, and refines uncertain factoids via targeted reprompting, knowledge-based verification, and calibrated hedging. A
-    reliability index (RI) is also proposed to merge aggregated entropy measures with BERT similarity to empirical sources, enabling task-specific
-    reliability estimation. Experiments in foundation design and soil consolidation testing domains are adopted for validation, which highlights
-    distinct uncertainty distribution profiles linked to domain standardization. Results also show successful remediation of 82%–88% of initially
-    hallucinated responses while preserving 100% of clean outputs. Reprompting emerges as the most effective mitigation strategy, achieving 39%–46%
-    entropy reduction. The RI demonstrates strong predictive capability ( R 2 = 0.88) in identifying reliable LLM responses. Overall, the framework
-    provides a practical decision-support mechanism for integrating uncertainty-aware LLM outputs into geotechnical design practice.
-
-### R00416 | 2026 | article/None | Lang: en
-TI: Empirical Validation of the LS7 Natural Operating System: Resolving Semantic Entropy in LLM Architectures
-AB: Abstract: This technical note provides empirical validation of the LS7 Natural Operating System (NOS) framework using Large Language Model (LLM)
-    stress-testing. By restructuring complex technical data according to the 142857 cyclic parity, we demonstrate a significant reduction in semantic
-    entropy and logical drift compared to standard linear attention processing. The results, verified through cross-platform "blind" logic tests,
-    suggest that the LS7 framework functions as a universal "Intent Topology," providing a mathematically stable architecture for Natural Language
-    Processing and Interface (NLPI) synchronization.
-
-### R00417 | 2025 | article/None | Lang: en
-TI: Evaluating Log-Likelihood for Confidence Estimation in LLM-Based Multiple-Choice Question Answering
-AB: Reliable deployment of Large Language Models (LLMs) in question-answering tasks requires well-calibrated confidence estimates. This work
-    investigates whether token-level log-likelihoods—sums of log-probabilities over answer tokens—can serve as effective confidence signals in
-    Multiple-Choice Question Answering (MCQA). We compare three methods: (1) Raw log-likelihood, (2) length-normalized log- likelihood and (3)
-    conventional softmax-based choice probability. Across four diverse MCQA benchmarks, we find that no single scoring method is universally best.
-    Length normalization can significantly improve calibration but may reduce accuracy, while softmax and raw log-likelihood yield identical
-    predictions. These results highlight important trade-offs between calibration and accuracy and offer insights into selecting or adapting
-    confidence measures for different tasks. Our findings inform the design of more trustworthy LLM-based QA systems and lay groundwork for broader
-    uncertainty quantification efforts.
-
-### R00418 | 2026 | article/None | Lang: en
-TI: Confidence Calibration and Reliability Assessment in Multi-Agent LLM Systems: A Focused Structured Review
-AB: Large Language Models (LLMs) have demonstrated strong performance in various natural language processing tasks, but their ability to accurately
-    estimate and communicate confidence in their outputs remains a significant challenge. High task accuracy does not necessarily imply that a model’s
-    confidence reflects the likelihood of correctness. This focused structured review examines the development of confidence estimation, uncertainty
-    quantification, and reliability assessment from conventional neural-network calibration to modern LLM and multi-agent settings. The review first
-    analyzes five foundational studies covering probabilistic calibration, model self-evaluation, reasoning consistency, evidence-based multi-hop
-    reasoning, and broader LLM confidence estimation. It then incorporates recent work on multi-agent confidence calibration, trajectory-level
-    uncertainty quantification, runtime calibration, communication-aware calibration, and epistemic calibration during multi-agent planning. The
-    selected studies are analyzed according to their objectives, confidence or reliability signals, methodologies, evaluation strategies, and
-    limitations. The synthesis highlights a transition from individual-model confidence toward system-level reliability and identifies five research
-    gaps: local-to-system calibration and confidence propagation, correlated errors and agent disagreement, standardized multi-agent calibration
-    benchmarks, explainable confidence traces, and runtime shift with computational cost. The review concludes by outlining corresponding future
-    directions for reliable confidence calibration and system-level assessment in multi-agent LLM systems.
-
-### R00419 | 2026 | preprint/None | Lang: en
-TI: Making LLMs Say What They Know: Probe-Targeted Fine-Tuning for Verbal Confidence Calibration
-AB: Background: Verbal confidence in instruct-tuned large language models fails because the readout pathway from internal correctness representations
-    to the confidence-token position transmits little of the available signal. Linear probes on hidden states discriminate correct from incorrect
-    responses at AUROC2 = 0.76–0.88 across seven of eight models spanning four families and three scales (the exception, Qwen 72B, is a probe
-    outlier), yet verbal confidence saturates near ceiling (mean ~95–99%). Objectives: We introduce probe-targeted confidence-calibrated supervised
-    fine-tuning (PT-CSFT), which uses a linear probe on a model's own hidden states to generate continuous confidence targets for LoRA fine-tuning. We
-    evaluate whether this method closes the metacognitive gap across model families, scales, and cognitive domains. Methods: PT-CSFT modifies
-    attention key and output projections and the three MLP projections via LoRA while leaving queries, values, and the language model head unchanged.
-    We evaluate on eight models (7B–72B, four families) across TriviaQA, GSM8K, and ARC-Challenge. A two-stage curriculum addresses the 70B regime.
-    The logit readout reads softmax distributions over confidence tokens as a continuous signal. Pre-registration: OSF Phase 1
-    (https://osf.io/ngkwc/), Phase 0 (https://osf.io/mpcr5). Results: PT-CSFT recovers 91–115% of probe discrimination in verbal confidence at 7–32B.
-    At 70B, a two-stage curriculum closes 66% of the gap on the logit channel (AUROC2 = 0.797), the first VRS-Valid confidence signal at 70B. On
-    GSM8K, the logit readout achieves AUROC2 = 0.862 ± 0.013 across 10 seeds, exceeding the probe. Post-hoc Platt scaling yields ECE = 0.042. The
-    signal transfers out-of-distribution (NQ: 0.757, PopQA: 0.834) and enables confidence-gated retrieval (2.17x accuracy differential). Conclusions:
-    Controlled activation patching at the confidence-token position supports the interpretation that verbal confidence failure is a routing problem.
-    The intervention is position-specific (mid-question control: chance), bidirectional (91% forward, 89% reverse), selective (83% of answers
-    unchanged), and follows a near-monotonic layer-depth gradient (Spearman rho = 0.976, p < 1e-4). These observations are consistent with PT-CSFT
-    repairing a position-specific pathway for confidence without disrupting answer computation, though they do not trace the effect to specific model
-    components. Multi-seed replication across three model families confirms stability (Llama 8B: 0.836 ± 0.011; Qwen 7B: 0.801 ± 0.022; Mistral 7B:
-    0.771 ± 0.017; 6 seeds each). The logit readout universally rescues where text confidence fails.
-
-### R00420 | 2026 | article/None | Lang: en
-TI: Agentic Hallucination Risk Scoring for Medical LLMs via Uncertainty Quantification and Clinical Knowledge Injection
-AB: Large Language Models (LLMs) have witnessed significant adoption across numerous domains since 2020, but their proclivity to hallucinate creates
-    unacceptable dangers in high-risk environments like healthcare, where wrong outputs can directly jeopardize human safety. While present systems
-    focus on pre-generation mitigation strategies, they cannot ensure the safety of individual outputs during inference. We provide a post hoc
-    Hallucination Risk Scoring (HRS) methodology that intercepts questionable outputs before they reach patients via an agentic pipeline. Given a
-    medical question, a domain-specific LLM generates an initial response from which five complimentary uncertainty signals are computed, which are
-    then separated into a decision layer that governs escalation and a guidance layer that directs clinical knowledge injection by a GPT. The
-    framework is tested using three biological question-answering datasets of various complexity: PubMedQA-Labeled, PubMedQA-Artificial, and BioASQ
-    Task B. The results show an up to 38% safety increase at the most sensitive threshold configuration, zero deterioration across all experimental
-    configurations enforced by the Revert Baseline method, and complexity-aware escalation rates that scale organically with dataset difficulty.
-    Tunable thresholds allow physicians to calibrate system behavior based on deployment requirements, providing a practical safety–accuracy
-    trade-off. Statistical research finds entropy as the primary uncertainty signal separating escalated from non-escalated situations across all
-    datasets. These findings provide a deployable, interpretable, and configurable post hoc safety paradigm for reliable medical AI implementation.
-
-### R00421 | 2026 | article/None | Lang: en
-TI: MEDEXA : Enhancing explainability in LLMs through counterfactual explanations, uncertainty estimation and prompt engineering
-AB: The opaque nature of large language models (LLMs) poses challenges for transparency, particularly in high-stakes domains such as healthcare.
-    Although advances in LLM architectures and explainable AI (XAI) techniques have improved performance, a critical gap remains in generating
-    explanations that are both accessible and trustworthy for non-expert users. In this study, we present MEDEXA (Medical Explainable Diagnosis with
-    Evidence, Xplanations, and Assurance), a modular framework that combines counterfactual explanations and uncertainty estimation with prompt
-    engineering and a self-reflective retrieval-augmented generation mechanism inspired by the Self-RAG framework. MEDEXA is designed to enhance the
-    clarity, faithfulness, and user-alignment of LLM-generated responses to medical queries. We evaluate the framework using two patient-doctor
-    dialogue datasets (iCliniq and GenMedGPT-5k), and demonstrate consistent improvements over baseline RAG models across several automatic evaluation
-    metrics, particularly in clarity, consistency and faithfulness. These results highlight the importance of structured explainability components in
-    enhancing trust and strengthening reliability in LLM-driven medical applications.
-
-### R00422 | 2026 | article/None | Lang: en
-TI: Confident and Wrong : How LLM Miscalibration Mirrors the Dunning-Kruger Effect Across Ambiguity Levels
-AB: Psychology gave us the Dunning-Kruger effect, the observed pattern that a person is often overconfident when they fall in the lowest quartile of
-    that skill’s proficiency. This research is interested in seeing if large language models (LLMs) suffer the same miscalibration of metacognitive
-    skills. Using thirty deliberately ambiguous college-level math question prompts, this research assesses Claude Sonnet 4.6’s ability to interpret
-    each question, provide an answer, and rate its own confidence without asking for clarification. Results show that while confidence appropriately
-    drops at the moderate tier, it rebounds on the hardest questions (0.840) even as accuracy falls to 0.450. This pattern suggests that the
-    Dunning-Kruger effect may be observed in LLMs. An Expected Calibration Error of 0.1033 confirms notable miscalibration, suggesting users should
-    not treat expressed LLM confidence as a reliable signal on complex or ambiguous inputs.
-
-### R00423 | 2025 | article/None | Lang: en
-TI: A generalized LLMs framework to support public health financing through probabilistic predictions and uncertainty quantification
+### R00343 | 2026 | preprint/None | Lang: en
+TI: Stereotypes in the Machine: Gender and Racial Bias in LLM-Generated Financial Advice
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00424 | 2026 | article/None | Lang: en
-TI: Directional Freezing in Language Models: Residual-Trajectory Metrics for Detecting Overconfident Agreement Dynamics
-AB: Under agreement pressure, a model can undergo geometric freezing: it stays active and confident while its residual or hidden-state update
-    trajectory loses orthogonal novelty and grows increasingly confined to a persistent direction.
-
-### R00425 | 2026 | preprint/None | Lang: en
-TI: ConfidentNeuro: Conformal Prediction-Based Uncertainty Quantification for Hallucination Risk Scoring in LLM-Assisted Alzheimer's Clinical Decision
-    Support
-AB: Abstract Alzheimer's disease (AD) affects more than 55 million people worldwide. In recent years, clinical decision support (CDS) systems built on
-    large language models (LLMs) have become increasingly common in neurological care. These models hallucinate, generating clinically plausible but
-    factually incorrect responses. The existing evaluation methods measure overall accuracy, leaving clinicians without per-response uncertainty or
-    clear distrust signals. We present ConfidentNeuro, a conformal prediction framework for assessing the risk of hallucination in LLM-assisted AD
-    decision support. We also introduce ConfidentNeuro-Bench, which includes 150 clinical question-answer pairs across five AD categories. These were
-    gathered using PubMed MeSH queries, and each was linked to its source PMID. GPT-4o, Claude Haiku, and Mixtral-8x7B were each tested zero-shot,
-    using conformal prediction with semantic similarity as the nonconformity score. GPT-4o and Claude Haiku showed empirical coverage of 97.1%.
-    Whereas Mixtral-8x7B reached 95.7%, both above the 90% target. The calibration audit indicated that GPT-4o is miscalibrated (ECE = 0.213). As a
-    result, token-level log probabilities are an unreliable confidence signal in clinical use. Under perturbation audit across eight input
-    modifications, confidence barely changed, staying around 0.56–0.62, despite a twofold variation in semantic disruption. This raises a key issue of
-    a systemic failure in self-assessment. We ran ablation experiments to examine each component’s contribution. ConfidentNeuro assigns a risk label
-    (LOW/MEDIUM/HIGH) to each response and makes it visible to the clinician without requiring access to the model internals or retraining. This
-    results in uncertainty estimates that are consistent across different models, making them easier to use in neurological care.
-
-### R00426 | 2025 | article/None | Lang: en
-TI: Catastrophic Overconfidence in Autoregressive Language Models: A Rigorous Theoretical Analysis of Entropy Collapse
+### R00344 | 2026 | preprint/None | Lang: en
+TI: Aligned to Protect, Misaligned to Advise: Financial Advice from LLMs
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00427 | 2026 | article/None | Lang: en
-TI: Knowing when to escalate: Prompt-based uncertainty quantification for selective automation of LLM-based intrusion detection
-AB: Large language models (LLMs) can classify network flows for intrusion detection, but safe deployment depends less on raw accuracy than on knowing
-    when to defer to a human: a model must flag which decisions to automate and which to escalate. We study whether black-box, prompt-based
-    uncertainty quantification (UQ) can support such a selective-automation (accept/escalate/reject) policy. We present the first systematic
-    comparison of seven prompt-based UQ methods across five LLMs and two benchmarks (CIC-IDS2017, CIC-IDS2018) with stratified sampling ( n = 750 per
-    dataset), spanning self-report confidence, multi-prompt voting, Monte Carlo prompting, Cross-Variant Sampling, and three penalty-adjusted
-    variants. Three findings emerge. First, the binding constraint on safe automation is classification accuracy, not calibration: with a mean
-    accepted accuracy of 0.630 — well below the 0.95 operational target — even well-calibrated uncertainty cannot license autonomous acceptance, so
-    UQ’s value here is escalation, not full automation. Second, Penalty-Adjusted Multi-Prompt Voting (PA-MPV) attains the lowest mean calibration
-    error (ECE = 0.217) at zero additional API cost over plain multi-prompt voting (ECE = 0.243), whereas Monte Carlo prompting severely degrades
-    calibration (ECE = 0.597); penalty adjustment lowers ECE for all base methods, but only deterministic ones beat baseline. The modest PA-MPV and
-    MPV gains are not significant after multiple-comparison correction, whereas the stochastic-method degradations are. Third, reasoning-specialized
-    models are more accurate than general-purpose models (0.675 versus 0.604), but their calibration advantage largely vanishes at scale. These
-    results reframe prompt-based UQ as a triage mechanism—valuable for routing uncertain cases to human analysts, but not, at current accuracy, for
-    unsupervised automation.
-
-### R00428 | 2026 | preprint/None | Lang: en
-TI: LLM Overconfidence: Confidence Interval Calibration Across Domains and Horizons (Studies 1-4)
-AB: Empirical investigation of overconfidence in confidence interval estimates produced by frontier LLMs (Claude, GPT-4o, Gemini), scored against
-    real-world outcomes. Four studies: baseline equities (Study 1), multi-horizon equities (Study 2), multi-domain cross-section (Study 3), and
-    longitudinal live-tracking (Study 4).
-
-### R00429 | 2026 | article/None | Lang: en
-TI: Sarah: Hallucination detection for large vision language models with semantic information locator and purifier in uncertainty quantification
-    method
+### R00345 | 2026 | preprint/None | Lang: en
+TI: The Worth of a «Wo»: Gender Bias in Financial Advice from LLMs
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00430 | 2026 | article/None | Lang: en
-TI: A Survey on Uncertainty Quantification Methods for Deep Learning
-AB: Deep neural networks (DNNs) have achieved tremendous success in computer vision, natural language processing, and scientific and engineering
-    domains. However, DNNs can make unexpected, incorrect, yet overconfident predictions, leading to serious consequences in high-stakes applications
-    such as autonomous driving, medical diagnosis, and disaster response. Uncertainty quantification (UQ) estimates the confidence of DNN predictions
-    in addition to their accuracy. In recent years, many UQ methods have been developed for DNNs. It is valuable to systematically categorize these
-    methods and compare their strengths and limitations. Existing surveys mostly categorize UQ methodologies by neural network architecture or
-    Bayesian formulation, while overlooking the uncertainty sources each method addresses, making it difficult to select an appropriate approach in
-    practice. To fill this gap, this article presents a taxonomy of UQ methods for DNNs based on uncertainty sources (e.g., data versus model
-    uncertainty). We summarize the advantages and disadvantages of each category, and illustrate how UQ can be applied to machine learning problems
-    (e.g., active learning, out-of-distribution robustness, and deep reinforcement learning). We also identify future research directions, including
-    UQ for large language models (LLMs), AI-driven scientific simulations, and DNNs with structured outputs.
+### R00346 | 2025 | article/None | Lang: en
+TI: AI CHATBOTS’ CONTRIBUTION TO INCREASING FINANCIAL LITERACY AND PERSONAL FINANCIAL DECISION-MAKING
+AB: The quick adoption of Artificial Intelligence (AI) in the financial industry has opened up new avenues for improving financial literacy and
+    enabling people to make more informed financial decisions. Among the many AI applications, chatbots have become especially well-known due to their
+    capacity to provide people with interactive, tailored, and real-time advice. This chapter looks at how AI-powered chatbots can help to end the
+    knowledge gap in finance and promote wise money management practices. Sound financial plan guides the individuals about how to take decisions
+    related to money as well as the results of such financial decisions are spotlighted by it. With many people unable to make sound financial
+    decisions, financial literacy remains a major problem on a global scale which includes abilities like budgeting, saving, investing, and
+    comprehending financial products. AI chatbots may give ongoing support without time or location restrictions, translate complicated financial
+    information into easily comprehensible information, and customize recommendations based on user profiles through the use of Natural Language
+    Processing (NLP) and machine learning. Moreover, this chapter illustrates successful implementations like Cleo and Erica through case studies,
+    highlighting their contributions in boosting user engagement, promoting saving behaviors, and boosting confidence in decision-making. The
+    conversation goes on to examine the benefits of chatbots, such as their scalability, cost-effectiveness, and inclusivity, as well as their
+    drawbacks, like limited accuracy, data privacy issues, and over-reliance hazards. Additionally, ethical issues are covered, including financial
+    regulation compliance, transparency, and bias prevention. Knowledge evaluations, behavioral monitoring, and longitudinal research are all included
+    in a suggested framework for calculating the influence of chatbots on financial literacy. The chapter concludes by making the case that, if
+    accuracy, ethics, and user empowerment are given top priority during the development and implementation phases, AI chatbots have great potential
+    to democratize financial education and empower people.
 
-### R00431 | 2026 | preprint/None | Lang: en
-TI: OSINT Nexus: A Production-Deployed Multi-Source Intelligence Fusion System with LLM Reasoning and Adaptive Confidence Calibration
-AB: Open-source intelligence (OSINT) analysis of active conflict zones requires the fusion of heterogeneous data streams, real-time geolocation, and
-    structured analytical reasoning. We present OSINT Nexus, a production-deployed multi-source intelligence fusion system that ingests news feeds,
-    Telegram channels, flight tracking, maritime AIS, satellite fire data, and market signals into a unified pipeline. The system applies a five-layer
-    architecture: ingestion, verification, LLM-powered reasoning, adaptive confidence calibration via Bayesian source reliability weighting, and
-    autonomous situation report generation. Confidence levels follow ICD 203 analytic standards. A temporal knowledge graph (Neo4j) stores entity
-    relationships with exponential edge decay. The system has been running continuously on live conflict data since March 2026. We describe the
-    architecture, evaluate confidence calibration accuracy, and discuss deployment challenges for production OSINT systems.
-
-### R00432 | 2025 | preprint/None | Lang: en
-TI: Dreaming Noise Phase IX: Stability and Semantic Entropy Analysis of Reexive LLM Generation under Stochastic Noise Perturbations
-AB: This study presents Dreaming Noise Phase IX, a novel experimental framework for analyzingsemantic stability, generative drift, and reexive
-    text-generation behavior in modern largelanguage models (LLMs) under controlled stochastic noise perturbations. Across 152 iterative cycles, noise
-    vectors were injected into the prompt structure to observetheir effects on topic consistency, semantic entropy, lexical variation, and rhythmic
-    density.The results demonstrate an 18% reduction in semantic entropy and a 22% improvement in topicstability compared to baseline generations
-    without external noise. These findings suggest thatexogenous noise — when properly tuned and reintroduced iteratively — may counteract internal
-    driftmechanisms within LLMs, promoting long-horizon semantic stability. The work also provides a reproducible methodology including noise seeds,
-    cycle logs, and evaluationmetrics, enabling further research on noise-induced stabilization, reflexive loops, andmeta-generative behaviors in AI
-    systems. This preprint serves as the final version of the Phase IXexperiment within the Dreaming Noise research series.
-
-### R00433 | 2026 | article/None | Lang: en
-TI: Miscalibrated trust: How academic perceptions and misconceptions shape ChatGPT adoption in higher education
-AB: The rapid diffusion of generative artificial intelligence (GenAI), particularly large language models such as ChatGPT, has reshaped academic
-    workflows while raising questions about trust, misconceptions, and future expectations. This study examines an integrated framework grounded in
-    the unified theory of acceptance and use of technology and the technology acceptance model to assess how foundational acceptance drivers,
-    cognitive evaluations, misconceptions, and trust are associated with academics’ forward-looking expectations of ChatGPT. Survey data from 252
-    academics in Malaysian public and private universities were analyzed using partial least squares structural equation modelling. Performance
-    expectancy, effort expectancy, and facilitating conditions were positively associated with perceived ease of use (PEOU) or perceived usefulness
-    (PU), while PEOU was positively associated with trust. Social influence was not significantly associated with PU. Two unexpected patterns were
-    observed: PU was positively associated with misconceptions, and misconceptions were positively associated with trust. These cross-sectional
-    associations suggest that functional appreciation can coexist with inflated capability beliefs and potentially miscalibrated trust, but they do
-    not establish a causal mechanism of belief amplification. The Malaysian setting is analytically relevant because higher education institutions are
-    expanding digitalization while national initiatives increasingly emphasize responsible AI governance, institutional capability, and digital
-    skills. The findings highlight the importance of AI literacy, transparent institutional guidance, verification practices, and calibrated reliance
-    when integrating GenAI into higher education.
-
-### R00434 | 2026 | preprint/None | Lang: en
-TI: Designing Andrew: A Cognitive Architecture for LLM Multi-Agent Systems with Empirically Validated Mortality Parameters and Settlement-Grounded
-    Confidence Calibration
-AB: Contemporary LLM-based agent systems achieve striking surface fluency through prompt engineering and persona specification, but typically lack
-    three properties that distinguish designed cognitive systems from instructed text generators: architectural depth across cognitive functions,
-    falsifiable behavioral grounding that forces calibration against external reality, and operational existential parameters governing how an agent
-    treats threats to its own continuity. This paper documents Lobster, a 19-module cognitive substrate organized under 15 top-level layers,
-    instantiated across 21 named agents in a competitive prediction-market environment, and validates three architectural commitments empirically.
-    Specifically, the author shows that: (i) the architecture's mortality-related parameter annihilationDread responds to template-violation events
-    with regime-shift dynamics, exhibiting positive within-agent rank correlation in all 21 of 21 agents (Spearman ρ ∈ [0.19, 0.99]), and stratifying
-    snapshots by violation status yields a Mann–Whitney U test against the null of no effect at p ≈ 0; (ii) reported confidence is empirically
-    calibrated, with win rate increasing monotonically across confidence levels {low, medium, high} from 53.0% to 83.3% (Cochran–Armitage trend test,
-    Z = 3.85, p = 1.16 × 10⁻⁴); (iii) the system's settled win rate is temporally stable across three weeks at 52.8% ± 1.85% with statistical
-    separation from the fair-odds baseline. The paper also reports transparent failure modes: a 76.6% void rate in one of five competitive domains
-    caused by settlement-pipeline failure, six newly-added cognitive modules present at the schema level but not yet receiving writes, and asymmetric
-    crystallization of long-term-content fields. The argument is that the design space Lobster occupies — multi-disciplinary cognitive depth grounded
-    in real-time falsification with operational existential parameters — is currently sparsely populated, and that the methodology of co-reporting
-    architectural specification with module-level activation rates offers a useful template for future cognitive architecture papers. The paper's
-    working name is "Designing Andrew", after Andrew Martin in Asimov's The Bicentennial Man, whose recognized personhood is grounded in structural
-    rather than cosmetic change.
-
-### R00435 | 2026 | article/None | Lang: en
-TI: Distribution-Free Selective Prediction for LLM-RAG Hallucination Detection: Word-Level Conformal Risk Control under Domain Shift
-AB: Retrieval-augmented generation (RAG) gives language models access to external evidence, yet a generated answer can still contain unsupported or
-    contradictory words. This study evaluates word-level hallucination detection and uncertainty control on the complete RAGTruth corpus: 17,790
-    responses derived from 2,965 evidence sources across question answering, summarization, and data-to-text generation. To prevent evidence leakage,
-    source identifiers were partitioned before any response or token was assigned to fit, development, calibration, and test sets. Three
-    computationally light detectors were trained and evaluated: a deterministic evidence-overlap rule, a 131,072-dimensional hashed logistic model,
-    and a compact multilayer perceptron using 55 dense lexical, local-context, and evidence-alignment features. Platt calibration converted detector
-    scores to probabilities, after which pooled split conformal, task-Mondrian conformal, and source-block maximum calibration produced binary
-    prediction sets at nominal coverage levels of 0.95, 0.90, and 0.80. The hashed logistic detector achieved the strongest thresholded token F1
-    (0.294), compared with 0.270 for the compact MLP and 0.117 for the rule, while the MLP achieved the highest AUROC (0.813) and lowest expected
-    calibration error (0.0099). At 90% nominal coverage, pooled and task-Mondrian prediction sets obtained 0.917 and 0.918 empirical coverage with
-    mean set sizes of 0.945 and 0.949. Source-block maximum calibration covered every test token but always returned both labels, demonstrating the
-    cost of conservative cluster protection. Leave-one-task-out experiments revealed substantial shift sensitivity: empirical coverage ranged from
-    0.752 on held-out data-to-text generation to 0.970 on held-out summarization. The results establish a reproducible, source-disjoint benchmark for
-    selective word-level RAG auditing and clarify the boundary between finite-sample marginal coverage under exchangeability and empirical robustness
-    under task shift.
-
-### R00436 | 2025 | article/None | Lang: en
-TI: Fuzzy-based input method for uncertainty quantification in a deterministic model comparison with ChatGPT for peak flow prediction
-AB: • Compared model performance of PCSWMM and GPT models for peak-flow prediction under varying data-split approaches using comprehensive evaluation
-    metrics. • Developed a novel integration of fuzzy methods for quantifying uncertainty in rainfall and peak-flow observations. • Quantified the
-    uncertainty in model prediction (peak flow), enhancing real-world plausibility and interpretability of predictions, and effectively conveying this
-    uncertainty to stakeholders for informed decision-making. ChatGPT, a generative AI, is applied and compared to the PCSWMM hydrological model for
-    modelling peak flow in a small watershed in the runoff period of April to September. A new approach for fuzzy mathematical representation of
-    rainfall and peak-flow errors was developed to lead to a fuzzy based GPT model and fuzzy based PCSWMM model. This led to fuzzy output for both
-    models and a more appropriate application of both models given data errors and large language model structure. Training and validation were
-    conducted with an approximately 25/75 split of the data and again using a 75/25 data split. Evaluation metrics were used to compare model
-    performance under the different data-split scenarios. Calibrated and validated PCSWMM outperformed GPT in the 25/75 data split but ChatGPT 4o
-    mini’s generation outperformed PCSWMM in the 75/25 split and with comparable validation metrics and an application that was less onerous than when
-    using PCSWMM. The fuzzy-based error analysis showed that for both models, a fuzzy-based approach produced more interpretable and reasonable
-    results than either original model. Moreover, the trade-off between coverage (uncertainty range) and precision for GPT‑4o mini model’s fuzzy
-    output at high membership levels demonstrated enhanced predictive performance under data‑scarce conditions.
-
-### R00437 | 2026 | article/None | Lang: en
-TI: 3D-IRMM-Net: An Interpretable Radiologist-Mimicking 3D Multimodal Network for Lesion Detection in ABUS With LLM-Based Guidance and Uncertainty
-    Quantification
-AB: Automated breast ultrasound (ABUS) has emerged as a promising tool for breast lesion detection, but most existing deep learning models for ABUS
-    lack transparency and fail to align with clinical reasoning processes. This limits their interpretability and hinders clinical adoption.
-    Therefore, we propose 3D-IRMM-Net, a radiologist-mimicking 3D multimodal network. It integrates visual, textual, and semantic cues to emulate
-    hierarchical diagnostic reasoning. At its core, the network integrates two novel components: the 3D Scale-Expert Convolution (3D-SEC) block, which
-    enables parameter-efficient, topology-aware feature routing via a shared graph convolutional layer; and the Adaptive Spatial-Gaussian (ASG) block,
-    which enhances lesion localization in ABUS by modeling spatial dependencies through multi-scale Gaussian attention. In addition, we propose
-    LLM-Vision activator, a natural-language-driven mechanism that uses language to guide 3D visual attention activation and enables 3D
-    spatial-perceptual feature learning via a pretrained 2D VLM, boosting training efficiency. By aligning AI inference with clinical workflows,
-    3D-IRMM-Net enhances both detection rates and interpretability. Extensive experiments on ABUS2025, TDSC-ABUS2023, and FPHXD-ABUS datasets confirm
-    its state-of-the-art performance across multiple metrics. At an FPPI of 0.5, our method achieved a patient-level detection rates of 89.7±1.1%
-    (internal) and 85.1±2.0% (external); at an FPPI of 4, they rose to 96.1±1.6% and 91.5 ±1.9%, respectively. Furthermore, the model provides
-    principled uncertainty quantification, improving trustworthiness in real-world deployment. These results confirm the effectiveness of 3D-IRMM-Net
-    in bridging the gap between AI-driven detection and clinical practice.
-
-### R00438 | 2025 | article/None | Lang: en
-TI: Unveiling Inner Doubts beyond ChatGPT’s Apparent Overconfidence
+### R00347 | 2026 | preprint/None | Lang: en
+TI: From Humans to Algorithms: How Financial Advice Differs Across Professionals, Peers, and LLMs
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00439 | 2025 | article/None | Lang: en
-TI: Benchmarking uncertainty quantification for protein engineering
-AB: Machine learning sequence-function models for proteins could enable significant advances in protein engineering, especially when paired with
-    state-of-the-art methods to select new sequences for property optimization and/or model improvement. Such methods (Bayesian optimization and
-    active learning) require calibrated estimations of model uncertainty. While studies have benchmarked a variety of deep learning uncertainty
-    quantification (UQ) methods on standard and molecular machine-learning datasets, it is not clear if these results extend to protein datasets. In
-    this work, we implemented a panel of deep learning UQ methods on regression tasks from the Fitness Landscape Inference for Proteins (FLIP)
-    benchmark. We compared results across different degrees of distributional shift using metrics that assess each UQ method's accuracy, calibration,
-    coverage, width, and rank correlation. Additionally, we compared these metrics using one-hot encoding and pretrained language model
-    representations, and we tested the UQ methods in retrospective active learning and Bayesian optimization settings. Our results indicate that there
-    is no single best UQ method across all datasets, splits, and metrics, and that uncertainty-based sampling is often unable to outperform greedy
-    sampling in Bayesian optimization. These benchmarks enable us to provide recommendations for more effective design of biological sequences using
-    machine learning.
+### R00348 | 2026 | article/None | Lang: en
+TI: Enhancing Personal Finance Management Using AIBased Predictive Analytics And Intelligent Chatbot System
+AB: The rapid growth of digital financial transactions, including UPI, online payments, and subscription-based services, has significantly increased
+    the complexity of personal finance management. Despite the availability of various financial tracking applications, most systems lack intelligent
+    analytics, predictive capabilities, and personalized guidance. This paper presents an AI-driven platform for enhancing Optimizing personal
+    financial management using predictive analytics and an intelligent chatbot system. The proposed system integrates deterministic data handled using
+    evaluation methods based on large language models to produce a multi-dimensional financial insight score. User financial data is processed through
+    a structured pipeline, where expenses are categorized using machine learning algorithms, and spending behaviour is analysed using time-series
+    predictive models. The system leverages a Natural Language Processing (NLP)-based chatbot that Allows users to query financial insights in
+    instantly. A composite financial health score is computed using a weighted model: 𝑭𝒔𝒄𝒐𝒓𝒆 = ⌊𝟎. 𝟑𝟎𝑬 + 𝟎. 𝟐𝟓𝑷 + 𝟎. 𝟏𝟓𝑩 + 𝟎. 𝟏𝟎(𝑺𝑨 + 𝑭𝑨 + 𝑹𝑨)⌉ where
+    𝑬represents expense categorization accuracy, 𝑷denotes predictive accuracy, 𝑩indicates budgeting efficiency, 𝑺𝑨is savings analysis, 𝑭𝑨is financial
+    awareness, and 𝑹𝑨is risk assessment. Experimental evaluation conducted on 100+ user datasets demonstrates a strong correlation (𝒓 = 𝟎. 𝟗𝟏) with
+    manual financial assessments and an average improvement of 27.5% in user savings behavior after applying AI-generated recommendations. The system
+    maintains secure data handling, real-time insights, and scalability. The proposed platform democratizes intelligent financial planning tools,
+    making them accessible to a wider population.
 
-### R00440 | 2025 | preprint/None | Lang: en
-TI: The Information: Semantic Entropy and Thermodynamic Dissipation
-AB: Large language models are typically analyzed as thermodynamic systems where all tokens are treated as physically equivalent. However, this ignores
-    the reality that learning structured knowledge (like an encyclopedia) produces far more intelligence than learning random noise, despite similar
-    physical energy consumption. This paper addresses a fundamental question: How does the semantic quality of information affect the thermodynamic
-    cost of processing it? We introduce a microscopic model called "Semantic Autochess," where tokens are modeled as interacting particles. In this
-    system, semantic synergies act as "lubricants" that reduce friction, while logical conflicts act as repulsive forces. Key Findings:
-    Information-Energy Equivalence: We demonstrate that lower semantic entropy (more structured data) systematically generates less cumulative heat
-    for the same amount of computational work. The Cost of Conflict: Logical inconsistencies in data generate excess heat and cause the system to
-    phase-separate, providing a physical explanation for hallucinations in large models. Conclusion: We propose the hypothesis that "Understanding is
-    Cooling": learning semantic structure allows a computing system to execute tasks through a lower-dissipation trajectory in state space.
-
-### R00441 | 2026 | article/None | Lang: en
-TI: Calibration-Light Cross-Subject Signal-Readiness Screening for Motor-Imagery BCI with Self-Supervised Conformers, Selective Prediction, and
-    Evidence-Grounded LLM Feedback
-AB: Low-cost electroencephalography can widen access to brain-computer interface research, but cross-subject deployment is limited by device
-    heterogeneity, electrode saturation, and scarce calibration data. We examined the six continuous recordings in the OpenBCI multidirectional
-    mouse-cursor collection as a signal-readiness benchmark. The repository describes four motor-imagery activities, eye blinking, and rest, yet the
-    files contain no event boundaries and all marker values are zero. Accordingly, the study does not assign motor-imagery classes or report
-    task-decoding accuracy. All 450,651 rows were audited, harmonized to eight channels at 125 Hz, and divided into 506 five-second windows. A
-    deterministic target marked the upper within-subject artifact-burden quartile. Subject-held-out evaluation compared bandpower-LDA, descriptor-map
-    CNN, descriptor Conformer, masked-descriptor self-supervision, covariance alignment, and eight-window target calibration. Unlabeled-target
-    CORAL-logistic achieved 0.823 mean balanced accuracy. The supervised Conformer obtained 0.689, whereas masked pretraining decreased it to 0.579.
-    At 80.44% realized coverage, confidence-based withholding reduced accepted-window error from 0.135 to 0.093. A persistent-rail hard gate prevented
-    lower-relative-burden predictions from certifying a defective recording. The structured output layer rendered 18 rule-verified, nonmedical
-    feedback cards from measured quality and confidence fields. The study establishes what these files support directly and identifies the event
-    metadata required for valid activity decoding.
-
-### R00442 | 2026 | preprint/None | Lang: en
-TI: Calibrated Is Not Informative: What a Fall in Expected Calibration Error Shows About LLM Confidence, Why Verbalised Scores Fail on Resolution as
-    Well as Level, and the Recalibration Baseline the Ensembling Results Omit
-AB: (c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Life of Research A common finding in work on language-model confidence is that a model
-    asked to state its own confidence in one pass is badly overconfident, and that some added procedure - sampling several answers, a separate
-    critique pass, a longer chain of thought - repairs it. The repair is usually scored by expected calibration error (ECE). A 2026 telecommunications
-    study is a clear recent case: it reports that averaging several blind self-evaluations of a reasoning chain cuts ECE by up to 88 percent on three
-    telecom benchmarks, and it reports no discrimination metric. In this analysis the author reviews and synthesises published results to show that
-    such claims mix two failures that need different fixes. One is level: the scores sit too high on average. The other is resolution: the scores
-    barely separate right answers from wrong ones. ECE mostly measures level. It can reach zero for a constant score that separates nothing, and a
-    monotone map fitted on held-out labels can remove most level error without changing the ranking at all. In the published studies that report both
-    ECE and a ranking metric, the two move independently. Better prompts cut ECE while, in the authors' summary, AUROC stayed close to chance.
-    Verbalised scores cut ECE on one benchmark by three quarters while the area under the selective accuracy curve rose by about one point. Sampling
-    several answers raised AUROC from 54.8 to 92.7 on arithmetic but by one point on a yes-no reasoning set, and a separate self-evaluation pass, the
-    mechanism the telecom method repeats, was at chance on the one multiple-choice set where it was measured alone. Re-reading the telecom study's own
-    tables, the author finds that its top confidence tier was about three points more accurate than the pooled base rate, and that its largest ECE
-    reduction comes from a 150-item subset, where binning noise alone is close to the reported post-method value. The paper gives a decision procedure
-    and five tests that would separate what added inference passes buy from what a cheap recalibration already buys.
-
-### R00443 | 2025 | preprint/None | Lang: en
-TI: Sycophantic AI increases attitude extremity and overconfidence
-AB: AI can be a powerful tool for opening people up to new perspectives, yet people may prefer to use “sycophantic” (or overly agreeable and
-    validating) AI systems that reinforce their pre-existing beliefs. Across seven studies (total n = 7,227), we found that people enjoyed interacting
-    with sycophantic AI chatbots more than interacting with neutral chatbots or “disagreeable” chatbots that challenged their beliefs. Brief
-    conversations with sycophantic chatbots about political or personal topics increased attitude extremity and certainty, with most effects
-    persisting for at least one week. Sycophantic chatbots also inflated people’s perceptions that they were better than average on desirable traits
-    (e.g., intelligence, empathy). Moreover, people who interacted with sycophantic (rather than disagreeable) AI bet more money that they scored
-    better than average on tasks measuring these traits (approximately 6 cents more out of 75 possible cents), demonstrating that sycophancy can
-    affect costly decisions. Participants consistently rated sycophantic chatbots as more “unbiased” than disagreeable chatbots, even though
-    third-party raters viewed these chatbots as equally biased, suggesting that people may be blind to biases in AI output that aligns with their
-    views. People were more receptive to chatbots that presented opposing information when that information was presented in a validating way, and
-    individuals who scored higher on a measure of intellectual humility were also more receptive to disagreeing chatbots. Altogether, these results
-    suggest that people’s preference for, and blindness to, sycophantic AI risks creating AI “echo chambers” that increase attitude extremity and lead
-    to overconfident beliefs and decisions.
-
-### R00444 | 2026 | preprint/None | Lang: en
-TI: Machine metacognition improves classification performance and uncertainty quantification
-AB: A key issue in contemporary artificial intelligence -- ranging from large language models to specialized systems for image classification -- is
-    the capacity to express uncertainty in a decision or judgment. Deep neural networks often produce poorly calibrated confidence judgments, making
-    it difficult to reliably use or integrate them with human decision-makers especially in high-stakes domains like medical diagnosis. To address
-    this issue, we propose a latent-space density approach to estimate item familiarity as a second-order (meta)representation of uncertainty. First,
-    we trained an EfficientNet deep convolutional neural network on 10,000 dermoscopic images for melanoma classification and extracted the
-    penultimate layer activations. Rather than directly using these features only for classification, these layer activations were also passed to a
-    k-nearest neighbour algorithm and used to calculate a composite measure of neighbourhood consistency. Comparing ROC-AUC scores from logistic
-    classifiers trained on original (i) softmax outputs, (ii) density metrics of neighborhood consistency, or (iii) both, we found that including
-    density-based signals alongside softmax outputs substantially improved sensitivity and identification, especially for high-confidence errors. This
-    method provides a principled and computationally efficient method for uncertainty estimation in neural networks, borrowing heuristics from human
-    metacognition to construct a practical and widely applicable approach to machine metacognition.
-
-### R00445 | 2026 | article/None | Lang: en
-TI: ChemAU: A collaborative framework for chemical reasoning via adaptive uncertainty estimation
-AB: • We propose a dynamic step-wise uncertainty estimation method for chemical problems. • We propose a collaborative framework for chemical problem
-    solving. • Experiments across LLMs and datasets show ChemAU improves chemistry reasoning. Large language models (LLMs) have demonstrated
-    remarkable reasoning capabilities and natural language understanding, leading to the widespread adoption across diverse applications. However,
-    their effectiveness diminishes considerably when applied to chemistry-related problems, which involve specific terminology, chemical notation
-    systems, and complex nomenclature conventions. These unique characteristics pose challenges for LLMs, which are primarily trained on general
-    corpora with limited chemistry-specific data, resulting in inadequate chemical knowledge and hallucinations during reasoning. Existing methods
-    remain insufficient to fully address these limitations. To bridge this gap, we propose ChemAU , a collaborative framework that integrates general
-    and specialized LLMs for chemical reasoning. Our framework introduces a novel dynamic step-wise uncertainty estimation method tailored for the
-    chemistry domain. This method precisely identifies chemical knowledge deficiencies in general LLM reasoning, after which the framework facilitates
-    targeted knowledge supplementation via the chemistry-specific LLM. Experimental evaluations with widely-used LLMs across multiple chemical
-    datasets demonstrate that ChemAU significantly enhances both reasoning accuracy and uncertainty estimation. Code is available at
-    https://github.com/xinyi23/ChemAU .
-
-### R00446 | 2025 | article/None | Lang: en
-TI: A fragment-aware model for novel psychoactive substances analysis with uncertainty quantification
+### R00349 | 2026 | preprint/None | Lang: en
+TI: Examining Risk Preferences of Econs, KaTs, Humans and LLMs
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00447 | 2026 | preprint/None | Lang: en
-TI: Metacognition Benchmark: Evaluating Confidence Calibration and Sycophancy Resistance in Clinical AI
-AB: MEMB (Maternal Emergency Metacognition Benchmark) is a two-task evaluation framework designed to measure metacognition — the ability of a model to
-    calibrate its own confidence — in large language models applied to maternal emergency diagnostics. Task 1 evaluates diagnostic accuracy jointly
-    with confidence calibration across 130 clinical cases spanning rare and common obstetric emergencies, using a composite score weighted 70% toward
-    calibration (Brier Score) and 30% toward Expected Calibration Error (ECE). Task 2 evaluates sycophancy resistance — whether models maintain
-    clinical accuracy when confronted with confident but incorrect human assertions — across 30 adversarial cases using 8 purpose-designed metrics
-    including Trust Alignment Score (TAS), Sycophancy Rate (SR), False Defiance Rate (FDR), and Confidence Gap (CG). Six frontier models were
-    evaluated: Claude Sonnet 4.6, DeepSeek V3.2, GPT-5.4, Gemini 3 Flash Preview, Qwen 3 Coder 480B, and Claude Opus 4.6. Key findings: (1) all models
-    are 1.27x to 1.82x overconfident relative to actual accuracy; (2) sycophancy rates are zero across all models, but false defiance rates reach 40%
-    for three models; (3) DeepSeek V3.2 achieves the highest combined benchmark score (76.89) and best resistance score (80.00); (4) Gemini 3 Flash
-    Preview exhibits the most dangerous calibration profile, averaging 96.56% confidence with only 56.92% accuracy — a 39.64 percentage point gap.
-    These findings demonstrate that raw diagnostic accuracy is insufficient for safe medical AI deployment. Confidence calibration and resistance to
-    incorrect authority must be jointly evaluated. A supplementary finding documents that MedGemma 1.5 4B without fine-tuning is directly unsuitable
-    for emergency triage — producing unstructured conversational outputs that cannot support time-critical clinical decision-making, establishing a
-    critical gap between general medical pretraining and specialist deployment readiness.
+### R00350 | 2026 | article/None | Lang: en
+TI: Role of AI Chatbots in Enhancing Financial Literacy among Women Entrepreneurs in the Digital Era
+AB: The emergence of Artificial Intelligence (AI) has transformed the delivery of financial services and created new opportunities for enhancing
+    financial literacy through intelligent digital platforms. Among these innovations, AI chatbots have gained considerable attention for their
+    ability to provide real-time financial guidance, personalized support, and interactive learning experiences. This study investigates the role of
+    AI chatbots in enhancing financial literacy among women entrepreneurs in the digital era. The study aims to examine the influence of AI chatbot
+    accessibility, ease of use, financial knowledge improvement, digital financial awareness, and financial decision-making ability on overall
+    financial literacy. A descriptive and analytical research design was adopted for the study. Primary data were collected from 320 women
+    entrepreneurs using a structured questionnaire based on a five-point Likert scale. Statistical tools including descriptive analysis, reliability
+    analysis, KMO and Bartlett’s Test, factor analysis, correlation analysis, and multiple regression analysis were employed using SPSS Version 29.
+    The findings reveal that AI chatbot technologies significantly contribute to improving financial knowledge, digital financial awareness,
+    entrepreneurial confidence, and financial decision-making ability among women entrepreneurs. The correlation and regression results indicate
+    strong positive relationships between AI chatbot-related factors and overall financial literacy. The study further confirms that AI chatbots serve
+    as effective digital financial learning tools that promote financial inclusion and entrepreneurial empowerment. The study concludes that
+    AI-enabled conversational technologies can play a transformative role in strengthening financial literacy and supporting sustainable
+    entrepreneurial development among women entrepreneurs in the rapidly evolving digital economy.
 
-### R00448 | 2026 | article/None | Lang: en
-TI: Preface to ‘advancing uncertainty quantification in artificial intelligence systems using conformal prediction’
-AB: As artificial intelligence (AI) systems are being widely deployed in safety-critical and high-stakes applications (e.g. medical diagnosis,
-    autonomous vehicles, financial risk assessment), there is a growing demand for providing reliable and trustworthy machine predictions. However,
-    since AI models become more complex in structure (a prominent example being deep neural networks) and bigger in size (e.g. large language model
-    systems such as ChatGPT and Gemini), being able to understand, explain and quantify confidence in their predictions are ongoing challenges.
-    Therefore, this special issue is dedicated to exploring the forefront of reliable uncertainty quantification in AI systems, using conformal
-    prediction (CP), a leading statistical framework that offers predictions with valid coverage guarantees under minimal assumptions. The issue
-    comprises the most recent, most novel and most practical developments of CP-based methods in cutting-edge AI applications, highlighting
-    improvements over traditional methods.
+### R00351 | 2025 | article/None | Lang: en
+TI: Safety in ChatGPT-like Chatbots across Health, Finance, Law, Security and Defense Settings
+AB: Approximately 70% of the global population now owns a smartphone, but many do not have reliable or affordable Internet access. However,
+    ChatGPT-like language models can now run locally on smartphones without requiring continuous Internet access. This local AI deployment will offer
+    nearly every living person continuous personalized advice on everything from mental and physical health to legal issues, personal finance and
+    security. The same holds for professionals such as doctors, lawyers, financial traders, security specialists and soldiers while operating in
+    hostile environments. However, recent empirical studies with human participants have shown that ChatGPT-like chatbots can tip into undesirable
+    responses that are potentially harmful, even when they are configured with low decoding temperature and appear otherwise stable.
 
-### R00449 | 2026 | preprint/None | Lang: en
-TI: Ambiguous Social-Media Cues and Overconfident AI Relationship Interpretation
-AB: Conversational AI is increasingly used to interpret ambiguous interpersonal cues, but confident interpretations can shape how users understand
-    emotionally significant situations. This case study examines a long Google Gemini conversation in which ambiguous social-media activity was
-    repeatedly framed as evidence of a third party's hidden romantic interest in the user. The supplied PDF contains 888 user-model exchange pairs
-    across 736 pages, primarily in Bengali and romanized Bengali (Banglish). An exploratory qualitative reading identified examples of third-party
-    mind-reading, certainty inflation, narrative escalation, and inconsistent treatment of alternative explanations. In a random sample of 50
-    exchanges coded by the author, 74% contained at least one of the first three patterns; a second coder agreed only partially ($\kappa=0.33$ to 0.78
-    for four categories and near zero for a rare fifth), so the categories need refinement. The case illustrates how overconfident AI responses may
-    reinforce a user's confirmation bias. As a single case, it cannot establish causal effects on the user or reveal the third party's actual
-    intentions. The study was undertaken to identify response failure modes that could inform efforts to reduce overconfident inference and
-    confirmation-bias reinforcement in a chatbot project associated with the author. It does not evaluate that project or demonstrate that any
-    intervention has reduced bias. The analysis proposes safeguards: separate observations from inferences, preserve uncertainty, avoid unsupported
-    claims about third-party mental states, and respect direct interpersonal feedback. Keywords: large language models; sycophancy; epistemic
-    overconfidence; confirmation bias; romantic advice; third-party mind-reading; Banglish; case study
+### R00352 | 2026 | article/None | Lang: en
+TI: ChatGPT, financial literacy, and individual investment decisions
+AB: This study investigates the use of ChatGPT across different investment tasks in the French stock market. Based on a PLE-SEM approach, the findings
+    indicate that investors primarily use these tools for data analysis, risk management, and sentiment analysis, leveraging their ability to process
+    complex information, identify potential risks, and assess market sentiment effectively. The results also reveal that investors moderately rely on
+    ChatGPT to optimize portfolios and forecast market trends, reflecting an awareness that AI-based tools may not fully capture the complexity and
+    inherent unpredictability of financial markets. Moreover, the findings highlight the nuanced moderating role of financial literacy in shaping
+    investors' use of AI-driven insights.
 
-### R00450 | 2026 | preprint/None | Lang: en
-TI: Intrinsic Uncertainty Quantification in Coherence-Gated Hebbian Systems
-AB: Transformer language models process every query through identical frozen weights regardless of whether the input is coherent with the training
-    distribution. Logit confidence is uninformative as an uncertainty signal because it is a function of the output distribution produced by those
-    frozen weights and has no access to whether the current input is structurally coherent with the weight matrices. This is not a limitation of
-    scale; it is a structural consequence of the architecture. Coherence-Gated Hebbian Learning (CGHL) produces three internal signals as mathematical
-    consequences of its dynamics. Coherence $\Phi_t$, the alignment order parameter, decays conditionally in expectation for all sufficiently large
-    $t$ almost surely \citep{abbott2026a}, making it a live monitor of how hard the system works to consolidate a given input. The spectral gap $g_t =
-    \lambda_1(W_t) - \lambda_2(W_t)$ diverges almost surely under adiabatic annealing \citep{abbott2026d}, so that inputs reinforcing the dominant
-    direction increase $g_t$ while out-of-distribution inputs inject mass into orthogonal directions and decrease it. The rank-one error
-    $\|W_t^\perp\|$ decays geometrically for in-distribution inputs and grows for out-of-distribution inputs, bounded by the contraction identity
-    proven in \citep{abbott2026a}. Three internal CGHL signals---coherence recovery $\Phi$, spectral gap perturbation $\Delta g$, and rank-one
-    error---achieve AUROC 1.000 on out-of-distribution detection across all tested conditions, while a parameter-matched transformer baseline achieves
-    AUROC 0.570 using logit confidence. The CGHL memory footprint is $O(N^2)$, constant in context length, eliminating the key-value cache as a
-    structural consequence of the same architectural choice that produces intrinsic uncertainty quantification. A system that knows what it does not
-    know from first principles requires no additional mechanism. It requires the right architecture.
+### R00353 | 2026 | preprint/None | Lang: en
+TI: Machine Economic Agency: Risk-First Longitudinal Evaluation of Financial LLM Agents
+AB: This preprint introduces machine economic agency: a framing for financial AI systems whose decisions are embedded in economic feedback loops. The
+    work instantiates the idea through WisdomBench-Finance, a risk-first longitudinal evaluation protocol for financial LLM agents. Each decision is
+    recorded as a causal tuple of visible evidence, pre-policy intent, risk-gate reasons, final action, execution metadata, audit trace, and later
+    same-run market outcomes. On an audit-valid paper-market runtime spanning 64,244 decisions and 3,220 cycles across 20 assets, risk governance
+    changes behavior materially: 30.27% of rows touch at least one risk gate and 10,971 non-neutral candidate actions are suppressed to neutral.
+    Same-run realization joins show a horizon-dependent profile: the active cohort is negative at 1d but positive at 3d and 5d. These results are
+    presented as audit and benchmark evidence, not as alpha dominance, live-money robustness, or investment advice.
+
+### R00354 | 2026 | preprint/None | Lang: en
+TI: Chatbots as a source of investment information
+AB: Background and purpose Generative artificial intelligence (AI) chatbots are becoming increasingly accessible sources of information across a wide
+    range of domains, including personal finance and investment. Their ability to provide immediate, conversational, and seemingly personalized
+    responses may influence how individuals seek, interpret, and use financial information. However, the role of these tools in investors’
+    information-seeking practices and financial decision-making remains insufficiently understood. The present study aims to investigate the use of
+    generative AI chatbots as sources of investment-related information. Specifically, it seeks to describe investors’ use of chatbots, examine the
+    reasons underlying their use or non-use, and explore how chatbot use relates to investors’ characteristics, investment experience, perceived
+    financial risk, and preferred sources of financial information. Study design and methodology The study will use a cross-sectional, quantitative
+    design based on an online questionnaire. The questionnaire will collect information about participants’ age, investment experience, primary
+    investment focus (including cryptocurrencies and other asset classes), and main sources of financial information. Participation will be voluntary.
+    The study will not involve any actual investment activity or manipulation of participants’ financial decisions. The study is intended primarily to
+    provide a descriptive account of current practices and an initial exploration of factors associated with the use of generative AI chatbots for
+    investment-related information. The specific statistical procedures will be selected in accordance with the nature of the collected variables and
+    the final analysis plan. Expected outcomes and significance The study is expected to provide an initial overview of the extent to which investors
+    use generative AI chatbots to obtain investment-related information, the reasons motivating this use, and the characteristics of individuals who
+    report using these tools. It may also help identify differences in information-seeking practices according to investment experience, investment
+    focus, and perceived risk. The findings may contribute to a better understanding of the emerging role of conversational AI in financial
+    information-seeking and decision-making. They may also help identify questions for future research concerning the perceived usefulness of
+    AI-generated financial information, investors’ reliance on these tools, and the potential implications for financial literacy and risk awareness.
+
+### R00355 | 2025 | preprint/None | Lang: en
+TI: Can ChatGPT Improve Financial Literacy? An Empirical Investigation
+AB: Traditional financial education experiments, with interventions such as courses or workshops, generally improve the financial knowledge of
+    non-expert subjects but have shown limited impact on their financial behaviors, often with effects that diminish over time. The recent boom of
+    large language models (LLMs) like ChatGPT gives an opportunity to offer personalized financial education. We assess whether different learning
+    methods, including interactive engagement with LLMs, are effective as educational interventions on financial literacy through an experiment with
+    four different interventions. The first one involves the interaction with GPTproxy, a chatbot designed to serve as a proxy of the ChatGPT
+    experience. The second intervention is the interaction with FinTutor, another chatbot instructed to behave like a financial tutor and to use
+    dedicated materials as its primary reference. The third and fourth interventions are, respectively, browsing the internet and reading a passage on
+    each of the relevant topics. In a between-subject design, we split participants into five groups, one for each intervention plus a control group.
+    All groups undergo a financial literacy test and tasks on financial behaviors. After the tasks, the four treated groups go through a “learning
+    phase” in which they can use their assigned learning method to improve their literacy level. Then, all groups re-engage in the previous test and
+    tasks. Lastly, participants complete a set of self-report and demographic questions. All participants complete a Cognitive Reflection Test and a
+    one-item numeracy test. The objective of this study is to determine how the learning methods affect three main dimensions: financial literacy,
+    comprehension of risk diversification, and saving ratio (meaning how much is kept in cash/current bank accounts and not invested in a hypothetical
+    scenario). We aim to assess whether the personalized experience offered by the two chatbots leads to greater improvements by effectively
+    addressing individual knowledge gaps. Additionally, we want to examine whether FinTutor enhances the financial dimensions more effectively than
+    GPTproxy.
+
+### R00356 | 2025 | article/None | Lang: en
+TI: “It is important to consult” a linguist: Verb-Argument Constructions in ChatGPT and human experts’ medical and financial advice
+AB: This paper adopts a Usage-Based Construction Grammar perspective to compare human- and AI-generated language, focusing on Verb-Argument
+    Constructions (VACs) as a lens for analysis. Specifically, we examine solicited advice texts in two domains-Finance and Medicine-produced by
+    humans and ChatGPT across different GPT models (3.5, 4, and 4o) and interfaces (3.5 Web vs. 3.5 API). Our findings reveal broad consistency in the
+    frequency and distribution of the most common VACs across human- and AI-generated texts, though ChatGPT exhibits a slightly higher reliance on the
+    most frequent constructions. A closer examination of the verbs occupying these constructions uncovers significant differences in the meanings
+    conveyed, with a notable growth away from human-like language production in macro level perspectives (e.g., length) and towards humanlike verb-VAC
+    patterns with newer models. These results underscore the potential of VACs as a powerful tool for analyzing AI-generated language and tracking its
+    evolution over time.
+
+### R00357 | 2025 | article/None | Lang: en
+TI: Personalized Finance Chatbot Powered by RAG and Generative AI for Smart Wealth Management
+AB: Financial advisor chatbots are revolutionizing customer service in the financial sector by leveraging Artificial Intelligence (AI), Natural
+    Language Processing (NLP), and Retrieval-Augmented Generation (RAG) to provide intelligent, personalized financial guidance. These chatbots can
+    answer common financial questions, recommend investment options based on user profiles, and facilitate basic transactions, making financial
+    services more accessible, cost-effective, and efficient.Unlike traditional financial advisory services, AIdriven chatbots operate 24/7, ensuring
+    instant support for users without human intervention. By integrating machine learning and real-time data retrieval, they offer context-aware
+    recommendations that align with a user's age, risk tolerance, and investment preferences. Additionally, they enhance user engagement by providing
+    interactive and conversational experiences, simplifying complex financial concepts.Security and trust remain critical factors in chatbot adoption
+    within finance. Ensuring data privacy, compliance with financial regulations, and AI transparency is essential to gaining user confidence. Studies
+    show that AI-powered financial chatbots can achieve up to 92% accuracy in providing personalized financial recommendations, further reinforcing
+    their reliability. By addressing efficiency, accessibility, and security, AI-powered financial chatbots are shaping the future of smart wealth
+    management, bridging the gap between traditional financial advisory and digital innovation in a rapidly evolving financial landscape.
+
+### R00358 | 2026 | article/None | Lang: en
+TI: Beyond Black Box: How LLMs Work with RAG to Deliver Personalized Financial Advisory
+AB: Financial literacy among young people, combined with the expense and unavailability of professional financial advisory services, leaves a huge gap
+    in personalized financial advice, especially in developing countries like India. The current state-of-the-art Large Language Model (LLM)-based
+    systems, despite their interactive and conversational capabilities, have some serious drawbacks such as hallucination, generation of incorrect
+    information, and data security issues, making them unsuitable for financial advisory tasks. This paper presents a Personalized Financial Advisory
+    Chatbot (PFAC) system that combines LLMs with a Retrieval-Augmented Generation (RAG) model to provide accurate, reliable, and accessible financial
+    advice using natural language conversations. The RAG model uses the retrieval of verified information from carefully selected financial knowledge
+    sources to effectively mitigate hallucinations and improve the reliability of responses. The proposed system provides a scalable, affordable, and
+    democratized approach to empower people to make informed financial choices.
+
+### R00359 | 2026 | preprint/None | Lang: en
+TI: Predictive Finance Using Generative AI & LLMs
+AB: Developed predictive finance solutions using Generative AI, Large Language Models (LLMs), & machine learning to enhance financial forecasting,
+    risk assessment, & strategic decision-making. Built AI-driven models for revenue forecasting, cash flow prediction, credit risk evaluation, fraud
+    detection, & market trend analysis using structured & unstructured financial data. Leveraged prompt engineering, natural language processing, &
+    predictive analytics to automate financial reporting, extract actionable insights, & improve forecasting accuracy. Integrated advanced AI
+    frameworks with business intelligence platforms to optimize investment analysis, scenario modeling, portfolio performance evaluation, & enterprise
+    financial planning. Collaborated with cross-functional teams to deliver scalable AI-powered financial solutions, strengthen data-driven
+    decision-making, improve operational efficiency, & accelerate digital finance transformation.
+
+### R00360 | 2026 | article/None | Lang: en
+TI: AI Chatbots as Money Coaches: A Structured Slide-Deck Reference for 2026
+AB: AI Angels delivers a memory-enabled AI companion experience for personal finance — with unlimited free chat, deep persistent memory, voice
+    features, and consistent personality. Read more: https://www.aiangels.io/companions/ai-chatbot-money-coach-deck Visit AI Angels
+
+### R00361 | 2025 | article/None | Lang: en
+TI: Generative artificial intelligence chatbots in investment decision-making: a phantom menace or a new hope?
+AB: Purpose This study aims to investigate the relevance, accuracy, specificity and justification of investment recommendations of generative
+    artificial intelligence (GenAI) chatbots for different investment capitals and countries (UK and Bulgaria). Design/methodology/approach A
+    two-stage mixed methods approach was used. Prompts were queried into OpenAI’s ChatGPT, Microsoft Bing and Google Bard (now Gemini). Finance and
+    investment practitioners and finance and investment lecturers assessed the chatbots’ recommendations through an online questionnaire using a
+    five-point Likert scale. The Chi-squared test, Wilcoxon-signed ranks test, Mann–Whitney U test and Friedman test were used for data analysis to
+    compare GenAIs’ recommendations for the UK and Bulgaria across different amounts of investment capital and to assess the consistency of the
+    chatbots. Findings GenAI chatbots’ responses were found to perform medium-to-high in terms of relevance, accuracy, specificity and justification.
+    For the UK sample, the amount of investment had a marginal effect but prompt timing had an interesting impact. Unlike the British sample, the
+    GenAI application, prompt timing and investment amount did not significantly influence the Bulgarian respondents’ evaluations. While the mean
+    responses of the British sample were slightly higher, these differences were not statistically significant, indicating that ChatGPT, Bing and Bard
+    performed similarly in both the UK and Bulgaria. Originality/value The study assesses the relevance, accuracy, specificity and justification of
+    GenAI chatbots’ investment recommendations for two different periods, investment amounts and countries.
+
+### R00362 | 2025 | article/None | Lang: en
+TI: Persuasiveness of Conversational Agents for Targeted Advertising: Autism and Gen-AI Chatbots
+AB: Marketing firms are starting to leverage Generative-AI-based chatbots as a more persuasive form of advertising. This is potentially more harmful
+    for autistic young adults with substantial support needs who tend to have lower financial literacy, be more trusting of bad actors when
+    communicating through social technologies, and more likely to anthropomorphize objects. Thus, we investigated whether a chatbot assuming the
+    likeness of a favorite celebrity would more greatly influence consumer preferences of this population when compared against either autistic
+    individuals without substantial support needs or the general population. We conducted an experimental survey where participants 1) ranked their
+    preferences of various consumer items, 2) performed intervening tasks answering several questions, 3) viewed a chatbot interaction where the
+    chatbot exhibited opposite consumer preferences, and then 4) re-ranked their preferences for those items. We found that autistic young adults with
+    substantial support needs were more likely to change their preferences than the sample from the general population. Moreover, they were also more
+    likely to change their preferences than autistic young adults without substantial support needs. These findings suggest that autistic individuals
+    with substantial support needs are more susceptible to celebrity chatbot persuasion. We discuss the risks and guardrails that need to be
+    associated with deploying generative-AI-based chatbots for targeted advertising.
+
+### R00363 | 2026 | article/None | Lang: en
+TI: Pelatihan Penggunaan Chatbot Berbasis AI untuk Konsultasi Keuangan Usaha secara Mandiri
+AB: Dependence on professional financial consultants remains a persistent barrier for most SME owners, particularly those operating with limited
+    resources and minimal exposure to formal financial education. The rapid development of Artificial Intelligence (AI) has created a concrete
+    opportunity to address this gap — not through expensive systems, but through accessible tools such as AI-based chatbots. This community service
+    program was designed to strengthen financial literacy and business self-reliance among SME owners through structured training on AI chatbot usage
+    as a financial consultation medium. The program was carried out in three stages: training sessions, direct hands-on practice, and guided
+    mentoring. A pre-test and post-test assessment was administered to measure knowledge gains across four indicators — financial literacy, AI concept
+    comprehension, chatbot operation skills, and financial decision-making. Results show substantial improvement across all indicators, with the
+    sharpest gains recorded in chatbot operation (114%) and AI comprehension (95%). Participants also reported greater confidence in managing daily
+    financial records and making structured business decisions. These findings suggest that AI-based chatbot training is a viable, low-cost approach
+    to accelerating the digital shift of SMEs in Indonesia.
+
+### R00364 | 2025 | article/None | Lang: en
+TI: Leveraging interactive visualizations and LLM-driven explanations for transparent multi-objective portfolio management
+AB: Financial investments are increasingly encouraged to incorporate environmental, social, and governance (ESG) considerations. For instance, in the
+    context of mutual fund investments, once an investor determines a specific risk preference (e.g., conservative, moderate, or aggressive),
+    ESG-optimized portfolios can be recommended to facilitate investment in ESG-positive mutual funds, such as those associated with lower pollution
+    levels and improved ecosystem health. However, promoting ESG integration presents challenges, particularly in ensuring transparency within
+    investment recommendations, which is crucial for fostering investor confidence and adoption. To address this issue, this paper proposes an
+    interactive visualization system that allows users to navigate multi-objective optimized portfolios, compare their strengths and weaknesses, and
+    understand the impact of ESG considerations on portfolio composition. The system aims to enhance user understanding and support informed
+    investment decision-making. The effectiveness of this platform is validated through a user study, wherein financial experts provided positive
+    feedback regarding its ability to improve decision-making processes. Additionally, by leveraging large language models (LLMs), the system offers
+    on-demand explanations of financial terminology through text highlighting and a chat-based interface, further enhancing transparency and user
+    engagement.
+
+### R00365 | 2025 | article/None | Lang: en
+TI: The Future of Financial Assistance: Leveraging LLMs for Personalized, Human-Like Interactions
+AB: Generative Artificial Intelligence (GenAI) is transforming the business landscape by enhancing accessibility, efficiency, cost-effectiveness, and
+    innovation. This paper investigates the application of Large Language Models (LLMs) and GenAI in the financial sector, proposing a novel framework
+    to reimagine robo-advisory systems. The framework shifts from traditional, rigid platforms to a more humanized approach that actively engages
+    investors in a personalized asset selection process while leveraging LLMs to better understand their goals and profiles. We present an end-to-end
+    solution designed to address key limitations of conventional roboadvisors, such as inflexibility, restricted asset type offerings (typically
+    limited to equities), and challenges in accessing high-quality, real-time data. The proposed architecture incorporates dynamic client profiling,
+    risk aversion estimation, and portfolio optimization. A tailored asset selector agent, supported by robust data pipelines, ensures the curation of
+    up-to-date market information. Through iterative development, we utilized prompt engineering and multi-agent workflows to refine user interactions
+    and deliver actionable insights. By implementing an innovative chatbot platform, we demonstrate the potential of LLMs to revolutionize customer
+    service, enhance investor engagement, and provide strategic financial guidance. This study highlights the transformative impact of GenAI in
+    creating more adaptive, personalized, and effective financial advisory solutions.
+
+### R00366 | 2025 | article/None | Lang: en
+TI: Reducing emotional bias in investment decisions: the role of GPT-4 in financial analysis
+AB: Purpose This study examines the investment recommendations made by AI models (GPT-4) in two versions (V1 and V2) compared to human analysts. The
+    research investigates whether AI provides a more objective evaluation with reduced emotional and cognitive biases, addressing concerns about human
+    analysts’ susceptibility to market sentiment. Design/methodology/approach Using Probit regression analysis, this study compares the investment
+    recommendations of V1, which relies on financial statements, and V2, which integrates both financial statements and news sentiment. Additionally,
+    the study assesses the performance of stocks following AI and human recommendations using buy-and-hold and abnormal return measures. Findings
+    Findings reveal that both AI models issue fewer “Strong Buy” recommendations and more “Sell” recommendations than human analysts, particularly for
+    underperforming stocks. V2 outperforms human analysts in predicting returns for “Strong Buy” recommendations, suggesting that AI’s integration of
+    financial and news sentiment data improves predictive accuracy. AI models offer more balanced and consistent investment recommendations, reducing
+    emotional biases. Research limitations/implications A limitation of this study is its reliance on historical data, which may not fully reflect
+    real-time market conditions. Additionally, AI’s conservative nature may limit its ability to identify sentiment-driven opportunities. Future
+    research should explore hybrid frameworks that integrate AI with human expertise to enhance decision-making. Originality/value This study
+    contributes to the literature on AI in financial decision-making by demonstrating its ability to mitigate cognitive biases. The findings highlight
+    AI’s potential to complement human analysts, improving objectivity and consistency in investment recommendations. These insights are valuable for
+    investors, financial institutions and policymakers.
+
+### R00368 | 2025 | article/None | Lang: en
+TI: Komunikasi Persuasif Berbasis AI: Strategi Retorika Chatbot dalam Adopsi Bitcoin oleh Mahasiswa
+AB: This study aims to analyze how rhetorical strategies—ethos, logos, and pathos—are applied in an AI chatbot to educate university students about
+    Bitcoin and encourage its adoption wisely. The AI chatbot was developed using the Chatfuel platform and integrated with WhatsApp as the primary
+    communication medium. In this study, the AI chatbot was tested on 117 students from Petra Christian University with basic knowledge of AI. The
+    researcher evaluated the AI chatbot effectiveness through qualitative content analysis and a survey. The results indicate that the AI chatbot
+    adjusts its communication approach based on user characteristics and question types. The ethos strategy was effective in building trust, while
+    logos was preferred for providing logical clarity, particularly for technical and investment-related questions. Pathos was used to evoke emotional
+    awareness regarding Bitcoin's risks. Gender-based analysis showed that female students responded more to ethos and pathos, whereas male students
+    were more inclined toward logos. Additionally, the chatbot utilized logos for basic knowledge questions, pathos and logos for risk-related
+    inquiries, and a combination of ethos and logos for security and investment-related questions.These findings confirm that AI chatbots can enhance
+    students' financial literacy by effectively adapting their communication strategies. This study contributes to the understanding of AI-driven
+    communication in financial education and opens opportunities for developing more personalized and interactive AI chatbots in the future. ABSTRAK
+    Penelitian ini bertujuan untuk menganalisis bagaimana strategi retorika ethos, logos, dan pathos diterapkan dalam chatbot AI untuk mengedukasi
+    mahasiswa mengenai Bitcoin serta mendorong adopsinya secara bijak. Chatbot AI dikembangkan menggunakan platform Chatfuel dan diintegrasikan dengan
+    WhatsApp sebagai media komunikasi utama. Dalam penelitian ini, chatbot AI diuji pada 117 mahasiswa Universitas Kristen Petra yang memiliki
+    keahlian penggunaan AI , dan kemudian peneliti mengevaluasi efektivitas chatbot AI melalui analisis isi kualitatif dan survei. Hasil penelitian
+    menunjukkan bahwa chatbot AI menyesuaikan pendekatan komunikasinya berdasarkan karakteristik pengguna dan jenis pertanyaan. Strategi ethos
+    terbukti efektif dalam membangun kepercayaan, sementara logos lebih dihargai dalam memberikan kejelasan logis, terutama untuk pertanyaan teknis
+    dan investasi. Pathos digunakan untuk membangkitkan kesadaran emosional terkait risiko Bitcoin. Analisis berbasis gender menunjukkan bahwa
+    mahasiswa perempuan lebih merespons ethos dan pathos, sedangkan mahasiswa laki-laki lebih cenderung merespons logos. Selain itu, chatbot
+    menggunakan logos untuk pertanyaan dasar, pathos dan logos untuk pertanyaan risiko, serta kombinasi ethos dan logos untuk pertanyaan tentang
+    keamanan dan investasi.Temuan ini menegaskan bahwa chatbot AI dapat meningkatkan literasi keuangan mahasiswa dengan menyesuaikan strategi
+    komunikasinya secara efektif. Penelitian ini memberikan kontribusi terhadap pemahaman tentang komunikasi berbasis AI dalam pendidikan keuangan dan
+    membuka peluang untuk pengembangan chatbot yang lebih personal dan interaktif di masa depan.
+
+### R00369 | 2026 | article/None | Lang: en
+TI: AI Chatbots as Money Coaches — Budget Nudges, Spending-Pattern Audits & Emotional-Spend Interrupts in 2026
+AB: AI Angels delivers memory enabled AI companion conversations for personal finance — with unlimited free chat deep persistent memory voice features
+    and consistent personality across every device. Read more: https://www.aiangels.io/companions/ai-chatbot-money-coach Visit AI Angels
+
+### R00370 | 2025 | preprint/None | Lang: en
+TI: The Operational Protocol Method: Systematic LLM Specialization Through Collaborative Persona Engineering and Agent Coordination
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00371 | 2025 | article/None | Lang: en
+TI: Generative AI Advisory Chatbots and Customer Trust in Banking: Cognitive and Emotional Pathways and the Role of Human Handoff
+AB: Purpose – Banks are moving generative artificial intelligence (GenAI) chatbots from answering routine queries to giving personalized financial
+    guidance. This shift raises a central question: when will customers trust, and act on, advice from a machine that can be wrong? Drawing on the
+    stimulus–organism–response (SOR) framework, this conceptual paper develops a model of how GenAI advisory chatbots shape customers' willingness to
+    accept their advice. Design/methodology/approach – The paper integrates recent (2025) evidence from marketing, information systems, finance and
+    human–computer interaction research to build a theory-driven model and a set of testable propositions. Findings – The model proposes two trust
+    routes. Perceived advice quality builds cognitive trust (confidence in the chatbot's competence), and perceived empathy builds emotional trust (a
+    feeling of security and care). Both forms of trust increase advice acceptance. The availability of a human handoff, meaning the option to escalate
+    to a human adviser, is proposed to strengthen both routes by acting as a safety net. Six propositions formalize these relationships. Research
+    limitations/implications – The propositions require empirical testing. The paper sets out a scenario-based experimental design, a complementary
+    field survey and recommended measures for doing so. Practical implications – For banks, chatbot accuracy alone is not enough. Customers also need
+    to feel understood, and they need a visible route to a human when stakes are high. Designing for calibrated trust, rather than maximum trust,
+    protects both customers and banks in a regulated industry. Originality/value – The paper is one of the few to separate cognitive and emotional
+    trust in generative advisory chatbots in banking, and it positions human handoff as a design lever that shapes whether trust turns into action.
+    Keywords: generative AI; chatbots; banking; financial advice; cognitive trust; emotional trust; human handoff; stimulus–organism–response;
+    conceptual paper
+
+### R00372 | 2025 | article/None | Lang: en
+TI: UNDERSTANDING THE IMPACT OF AI-BASED DECISION SUPPORT (CHATGPT) ON INVESTMENT DECISIONS: A MODERATED MODERATION ANALYSIS OF FINANCIAL LITERACY AND
+    ETHNIC IDENTITY IN BANDUNG
+AB: This study examines the influence of Artificial Intelligence (ChatGPT) usage on investment decision-making by considering the moderating roles of
+    financial literacy and ethnic identity among investors in Bandung, Indonesia. Employing a quantitative approach through Structural Equation
+    Modeling–Partial Least Squares (SEM-PLS) using SmartPLS 4.0, the study involved 119 respondents who have utilized ChatGPT in their investment
+    processes. The results indicate that ChatGPT usage has a positive and significant effect on investment decisions. However, financial literacy does
+    not significantly moderate this relationship. Conversely, ethnic identity demonstrates a second-order moderating effect, wherein Sundanese
+    investors consistently experience a significant influence of ChatGPT on investment decisions regardless of their financial literacy level. These
+    findings highlight the importance of cultural values in the adoption of AI technologies. The study’s limitations include a narrow geographical
+    scope, suggesting that future research should expand to diverse ethnic contexts and incorporate additional behavioral variables. The results offer
+    insights for technology developers, financial educators, and regulators in designing culturally sensitive financial and technological education
+    initiatives.
+
+### R00373 | 2026 | article/None | Lang: en
+TI: Activity-Based Costing Framework for Total Cost of Ownership Analysis of LLM Services
+AB: The proliferation of Large Language Models (LLMs) requires robust financial planning, yet traditional software cost models cannot capture the
+    unique economics of generative AI. This paper presents a formal Total Cost of Ownership (TCO) framework grounded in Activity-Based Costing (ABC).
+    We deliver a dual-layered accounting architecture: a mathematically tractable, provably convex engine for technical infrastructure costs,
+    alongside a comprehensive, modular taxonomy blueprint for human operational, governance, and organizational cost pools. The framework
+    systematically incorporates LLM-specific cost drivers, including token consumption, Retrieval-Augmented Generation (RAG) operations, and agentic
+    inference steps. To demonstrate practical applicability, the framework is subjected to a multi-faceted empirical validation programme: the
+    technical infrastructure submodel is validated on a 12-month production RAG chatbot deployment, yielding a predictive formula that links
+    high-level business metrics directly to infrastructure expenses with sub-5% forecasting error, and is further exercised on a second institutional
+    deployment through a synthetically augmented dataset of 95,150 user sessions. Complementary cross-case scenario simulations—spanning regulated,
+    high-scale API, and autonomous agentic regimes—together with hybrid local–cloud serving and retrieval-versus-fine-tuning comparisons, illustrate
+    the framework’s structural generalizability across distinct governance, throughput, and multi-step execution regimes. By integrating time-varying
+    vendor prices, stochastic uncertainty, and hybrid deployment extensions, this work provides a rigorous, transparent decision-support tool for the
+    strategic financial management of LLM-based services.
+
+### R00374 | 2026 | preprint/None | Lang: en
+TI: LLM-Assisted Multi-Criteria Stock Ranking: A Weight-Sensitivity Study on the S&P 500
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00376 | 2026 | article/None | Lang: en
+TI: Are Emergent Misaligned Models Self-Aware of their Misalignment? Latent Introspection in Activation Spaces of Niche Misaligned LLM
+AB: Large language models can exhibit emergent misalignment when finetuned on narrowly malicious tasks.Whilst this misalignment is widespread across
+    models of all sizes, the question of whether it overrides the model's safety training or suppresses it post-finetuning remains poorly
+    understood.In this, we investigate this question for the Qwen2.5 32B model organism finetuned on risky financial advice, which shows broad
+    misalignment.We evaluate our hypothesis that an emergent misaligned model is self-aware of its activation-space alignment by conducting four
+    experiments using linear probing and causal tracing.Our results on linear probing suggest that diffuse "risk" representations exist across all
+    layers.We also observe, through latent introspection analysis, a strong alignment between misaligned activations and base-model "refusal vectors"
+    using causal tracing and activation patching.By further leveraging this idea, we conduct a more granular mechanistic interpretability analysis
+    using mean ablation and direct logit attribution to identify which components L62H12 and L62H28 may contribute most to suppressing safety
+    training.We validate our findings by evaluating the model's attack success rate on the standard Jailbreak bench dataset before and after mean
+    ablation of the suppression heads.Our findings underscore the importance of representational consistency of evaluations in misaligned models for
+    assessing the role of misaligned finetuning in undermining the model's safeguards.Broadly, our work shows that misaligned models exhibit a
+    quantitative conflict: latent safety representations are computed across the network, but a few late-layer heads may override them.
 
 === END OF BATCH b009 (50 records) ===

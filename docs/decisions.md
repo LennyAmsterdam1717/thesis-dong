@@ -76,3 +76,16 @@ Append new entries at the bottom; do not overwrite earlier ones.
   - X: R1b/R2 with LLM term in title, R2a also needs an uncertainty/consistency/reliability/risk term; R4b complete; R1a/R3 O3-strict → **490 (+ seed)**.
   - For reference: R1b/R2/R4b with LLM term in title for R1b/R2 = 522 before any R1a/R3 records; R2 + R4b complete with R1b filtered + O3-strict = 915.
 - **Not yet decided:** whether R4a stays (Frank's message does not mention it); which option; whether 200–400 or the "complete" rule gives way.
+
+## 2026-11-20 – Frank's narrowing choice (v1.2); search re-run; mixed pilot b001
+
+- **Chosen by Frank:** LLM term in the title for R1b, R2a, R2b and R4a; keep 2025; R2a must also mention uncertainty, consistency or risk (X's rule); R4b complete; R1a and R3 narrowed with O2 (R1a needs a knowledge or finance term, R3 an uncertainty or finance term). Ceiling: re-run only if the expected unique total is ≤ 750.
+- **Expected (from v1.1 records):** 727 unique (R1a 152, R1b 184, R2a 82, R2b 122, R3 71, R4a 75, R4b 65 records kept per rule) → ≤ 750, so re-run.
+- **Result:** 788 database records (arXiv 275, OpenAlex 513) + 65 citation chasing = 853 → 184 duplicates → **669 unique records**, 15 batches. Seed 1 found by the search (R00559); not added by hand. v1.1 files archived in `literature/screening/archive/` (incl. the unused b001 label sheet).
+- **Trade-offs accepted:**
+  - LLM term in the title (R1b, R2, R4a): removes OpenAlex noise but misses papers that only name the LLM in the abstract (e.g. "AI advisor" titles).
+  - R2a needs an uncertainty/consistency/reliability/hallucination/risk term: drops pure quality evaluations of LLM financial advice (most of them were E4 → background anyway).
+  - O2 for R1a/R3: keeps the thesis's link between certainty, knowledge and finance, but drops general UQ methods and general knowledge-acquisition papers that mention neither of the other concepts. Those are needed as background; they can come back via citation chasing and the R5 Google Scholar check.
+  - These come on top of v1.1's title-level concept terms (R1a, R2b, R3, R4a): sensitivity is clearly reduced; the corpus is a focused sample, not a complete map. To be stated in the methods.
+- **Pilot (Frank's request): one mixed batch of 25 records across all rounds, incl. the seed.** `prepare_records.py` batches in export order, so `tools/make_pilot_batch.py` re-batched `sr_work` before any screening state existed: stratified random sample (random seed 2026; seed record always in; other 24 slots in proportion to unique records per round, min 2): R1a 5, R1b 6, R2a 3, R2b 4, R3 2, R4a 2 + seed, R4b 2 (15 from 2026, 10 from 2025). b001 = the sample; the rest re-batched in ID order (≤ 50 per batch, ≤ 90,000 characters); record IDs unchanged; batch text written with the plugin's `srlib.record_block`. This deviates from the default sr-screener batching and is disclosed in the methods.
+- `literature/screening/pilot_labels.csv` = blank labels for b001's 25 records. **No AI screening run.**

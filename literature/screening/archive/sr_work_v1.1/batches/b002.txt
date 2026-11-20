@@ -1,0 +1,618 @@
+BATCH b002 -- 50 records: R00051 .. R00100
+
+### R00051 | 2025 | preprint | Lang: n/a
+TI: Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval Augmented Generation
+AB: Large Language Models (LLMs) enhanced with retrieval, an approach known as Retrieval-Augmented Generation (RAG), have achieved strong performance
+    in open-domain question answering. However, RAG remains prone to hallucinations: factually incorrect outputs may arise from inaccuracies in the
+    model's internal knowledge and the retrieved context. Existing approaches to mitigating hallucinations often conflate factuality with faithfulness
+    to the retrieved evidence, incorrectly labeling factually correct statements as hallucinations if they are not explicitly supported by the
+    retrieval. In this paper, we introduce FRANQ, a new method for hallucination detection in RAG outputs. FRANQ applies distinct uncertainty
+    quantification (UQ) techniques to estimate factuality, conditioning on whether a statement is faithful to the retrieved context. To evaluate FRANQ
+    and competing UQ methods, we construct a new long-form question answering dataset annotated for both factuality and faithfulness, combining
+    automated labeling with manual validation of challenging cases. Extensive experiments across multiple datasets, tasks, and LLMs show that FRANQ
+    achieves more accurate detection of factual errors in RAG-generated responses compared to existing approaches.
+
+### R00052 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: A Course Correction in Steerability Evaluation: Revealing Miscalibration and Side Effects in LLMs
+AB: Despite advances in large language models (LLMs) on reasoning and instruction-following tasks, it is unclear whether they can reliably produce
+    outputs aligned with a variety of user goals, a concept called steerability. Two gaps in current LLM evaluation impede steerability evaluation:
+    (1) many benchmarks are built with past LLM chats and Internet-scraped text, which may skew towards common requests, and (2) scalar measures of
+    performance common in prior work could conceal behavioral shifts in LLM outputs in open-ended generation. Thus, we introduce a framework based on
+    a multi-dimensional goal-space that models user goals and LLM outputs as vectors with dimensions corresponding to text attributes (e.g., reading
+    difficulty). Applied to a text-rewriting task, we find that current LLMs induce unintended changes or side effects to text attributes, impeding
+    steerability. Interventions to improve steerability, such as prompt engineering, best-of-N sampling, and reinforcement learning fine-tuning, have
+    varying effectiveness but side effects remain problematic. Our findings suggest that even strong LLMs struggle with steerability, and existing
+    alignment strategies may be insufficient. We open-source our steerability evaluation framework at https://github.com/MLD3/steerability.
+
+### R00053 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Position: Uncertainty Quantification Needs Reassessment for Large-language Model Agents
+AB: Large-language models (LLMs) and chatbot agents are known to provide wrong outputs at times, and it was recently found that this can never be
+    fully prevented. Hence, uncertainty quantification plays a crucial role, aiming to quantify the level of ambiguity in either one overall number or
+    two numbers for aleatoric and epistemic uncertainty. This position paper argues that this traditional dichotomy of uncertainties is too limited
+    for the open and interactive setup that LLM agents operate in when communicating with a user, and that we need to research avenues that enrich
+    uncertainties in this novel scenario. We review the literature and find that popular definitions of aleatoric and epistemic uncertainties directly
+    contradict each other and lose their meaning in interactive LLM agent settings. Hence, we propose three novel research directions that focus on
+    uncertainties in such human-computer interactions: Underspecification uncertainties, for when users do not provide all information or define the
+    exact task at the first go, interactive learning, to ask follow-up questions and reduce the uncertainty about the current context, and output
+    uncertainties, to utilize the rich language and speech space to express uncertainties as more than mere numbers. We expect that these new ways of
+    dealing with and communicating uncertainties will lead to LLM agent interactions that are more transparent, trustworthy, and intuitive.
+
+### R00054 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Revisiting Uncertainty Estimation and Calibration of Large Language Models
+AB: As large language models (LLMs) are increasingly deployed in high-stakes applications, robust uncertainty estimation is essential for ensuring the
+    safe and trustworthy deployment of LLMs. We present the most comprehensive study to date of uncertainty estimation in LLMs, evaluating 80 models
+    spanning open- and closed-source families, dense and Mixture-of-Experts (MoE) architectures, reasoning and non-reasoning modes, quantization
+    variants and parameter scales from 0.6B to 671B. Focusing on three representative black-box single-pass methods, including token probability-based
+    uncertainty (TPU), numerical verbal uncertainty (NVU), and linguistic verbal uncertainty (LVU), we systematically evaluate uncertainty calibration
+    and selective classification using the challenging MMLU-Pro benchmark, which covers both reasoning-intensive and knowledge-based tasks. Our
+    results show that LVU consistently outperforms TPU and NVU, offering stronger calibration and discrimination while being more interpretable. We
+    also find that high accuracy does not imply reliable uncertainty, and that model scale, post-training, reasoning ability and quantization all
+    influence estimation performance. Notably, LLMs exhibit better uncertainty estimates on reasoning tasks than on knowledge-heavy ones, and good
+    calibration does not necessarily translate to effective error ranking. These findings highlight the need for multi-perspective evaluation and
+    position LVU as a practical tool for improving the reliability of LLMs in real-world settings.
+
+### R00055 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Daunce: Data Attribution through Uncertainty Estimation
+AB: Training data attribution (TDA) methods aim to identify which training examples influence a model's predictions on specific test data most. By
+    quantifying these influences, TDA supports critical applications such as data debugging, curation, and valuation. Gradient-based TDA methods rely
+    on gradients and second-order information, limiting their applicability at scale. While recent random projection-based methods improve
+    scalability, they often suffer from degraded attribution accuracy. Motivated by connections between uncertainty and influence functions, we
+    introduce Daunce - a simple yet effective data attribution approach through uncertainty estimation. Our method operates by fine-tuning a
+    collection of perturbed models and computing the covariance of per-example losses across these models as the attribution score. Daunce is scalable
+    to large language models (LLMs) and achieves more accurate attribution compared to existing TDA methods. We validate Daunce on tasks ranging from
+    vision tasks to LLM fine-tuning, and further demonstrate its compatibility with black-box model access. Applied to OpenAI's GPT models, our method
+    achieves, to our knowledge, the first instance of data attribution on proprietary LLMs.
+
+### R00056 | 2025 | preprint | Lang: n/a
+TI: MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration
+AB: In recent years, multimodal large language models (MLLMs) have made significant progress but continue to face inherent challenges in multimodal
+    reasoning, which requires multi-level (e.g., perception, reasoning) and multi-granular (e.g., multi-step reasoning chain) advanced inferencing.
+    Prior work on estimating model confidence tends to focus on the overall response for training and calibration, but fails to assess confidence in
+    each reasoning step, leading to undesirable hallucination snowballing. In this work, we present MMBoundary, a novel framework that advances the
+    knowledge boundary awareness of MLLMs through reasoning step confidence calibration. To achieve this, we propose to incorporate complementary
+    textual and cross-modal self-rewarding signals to estimate confidence at each step of the MLLM reasoning process. In addition to supervised
+    fine-tuning MLLM on this set of self-rewarded confidence estimation signal for initial confidence expression warm-up, we introduce a reinforcement
+    learning stage with multiple reward functions for further aligning model knowledge and calibrating confidence at each reasoning step, enhancing
+    reasoning chain self-correction. Empirical results show that MMBoundary significantly outperforms existing methods across diverse domain datasets
+    and metrics, achieving an average of 7.5% reduction in multimodal confidence calibration errors and up to 8.3% improvement in task performance.
+
+### R00057 | 2025 | preprint | Lang: n/a
+TI: LoVeC: Reinforcement Learning for Better Verbalized Confidence in Long-Form Generations
+AB: Hallucination remains a major challenge for the safe and trustworthy deployment of large language models (LLMs) in factual content generation.
+    Prior work has explored confidence estimation as an effective approach to hallucination detection, but often relies on post-hoc self-consistency
+    methods that require computationally expensive sampling. Verbalized confidence offers a more efficient alternative, but existing approaches are
+    largely limited to short-form question answering (QA) tasks and do not generalize well to open-ended generation. In this paper, we propose LoVeC
+    (Long-form Verbalized Confidence), a novel reinforcement learning based method that trains LLMs to append an on-the-fly numerical confidence score
+    to each generated statement during long-form generation. The confidence score serves as a direct and interpretable signal of the factuality of
+    generation. We introduce two evaluation settings, free-form tagging and iterative tagging, to assess different verbalized confidence estimation
+    methods. Experiments on three long-form QA datasets show that our RL-trained models achieve better calibration and generalize robustly across
+    domains. Also, our method is highly efficient, being 20 times faster than traditional self-consistency methods while achieving better calibration.
+
+### R00058 | 2025 | preprint | Lang: n/a
+TI: Revisiting Epistemic Markers in Confidence Estimation: Can Markers Accurately Reflect Large Language Models' Uncertainty?
+AB: As large language models (LLMs) are increasingly used in high-stakes domains, accurately assessing their confidence is crucial. Humans typically
+    express confidence through epistemic markers (e.g., "fairly confident") instead of numerical values. However, it remains unclear whether LLMs
+    consistently use these markers to reflect their intrinsic confidence due to the difficulty of quantifying uncertainty associated with various
+    markers. To address this gap, we first define marker confidence as the observed accuracy when a model employs an epistemic marker. We evaluate its
+    stability across multiple question-answering datasets in both in-distribution and out-of-distribution settings for open-source and proprietary
+    LLMs. Our results show that while markers generalize well within the same distribution, their confidence is inconsistent in out-of-distribution
+    scenarios. These findings raise significant concerns about the reliability of epistemic markers for confidence estimation, underscoring the need
+    for improved alignment between marker based confidence and actual model uncertainty. Our code is available at
+    https://github.com/HKUST-KnowComp/MarConf.
+
+### R00059 | 2025 | preprint | Lang: n/a
+TI: Beyond Semantic Entropy: Boosting LLM Uncertainty Quantification with Pairwise Semantic Similarity
+AB: Hallucination in large language models (LLMs) can be detected by assessing the uncertainty of model outputs, typically measured using entropy.
+    Semantic entropy (SE) enhances traditional entropy estimation by quantifying uncertainty at the semantic cluster level. However, as modern LLMs
+    generate longer one-sentence responses, SE becomes less effective because it overlooks two crucial factors: intra-cluster similarity (the spread
+    within a cluster) and inter-cluster similarity (the distance between clusters). To address these limitations, we propose a simple black-box
+    uncertainty quantification method inspired by nearest neighbor estimates of entropy. Our approach can also be easily extended to white-box
+    settings by incorporating token probabilities. Additionally, we provide theoretical results showing that our method generalizes semantic entropy.
+    Extensive empirical results demonstrate its effectiveness compared to semantic entropy across two recent LLMs (Phi3 and Llama3) and three common
+    text generation tasks: question answering, text summarization, and machine translation. Our code is available at
+    https://github.com/BigML-CS-UCLA/SNNE.
+
+### R00060 | 2025 | preprint | Lang: n/a
+TI: Do Language Models Mirror Human Confidence? Exploring Psychological Insights to Address Overconfidence in LLMs
+AB: Psychology research has shown that humans are poor at estimating their performance on tasks, tending towards underconfidence on easy tasks and
+    overconfidence on difficult tasks. We examine three LLMs, Llama-3-70B-instruct, Claude-3-Sonnet, and GPT-4o, on a range of QA tasks of varying
+    difficulty, and show that models exhibit subtle differences from human patterns of overconfidence: less sensitive to task difficulty, and when
+    prompted to answer based on different personas -- e.g., expert vs layman, or different race, gender, and ages -- the models will respond with
+    stereotypically biased confidence estimations even though their underlying answer accuracy remains the same. Based on these observations, we
+    propose Answer-Free Confidence Estimation (AFCE) to improve confidence calibration and LLM interpretability in these settings. AFCE is a
+    self-assessment method that employs two stages of prompting, first eliciting only confidence scores on questions, then asking separately for the
+    answer. Experiments on the MMLU and GPQA datasets spanning subjects and difficulty show that this separation of tasks significantly reduces
+    overconfidence and delivers more human-like sensitivity to task difficulty.
+
+### R00061 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Reconsidering LLM Uncertainty Estimation Methods in the Wild
+AB: Large Language Model (LLM) Uncertainty Estimation (UE) methods have become a crucial tool for detecting hallucinations in recent years. While
+    numerous UE methods have been proposed, most existing studies evaluate them in isolated short-form QA settings using threshold-independent metrics
+    such as AUROC or PRR. However, real-world deployment of UE methods introduces several challenges. In this work, we systematically examine four key
+    aspects of deploying UE methods in practical settings. Specifically, we assess (1) the sensitivity of UE methods to decision threshold selection,
+    (2) their robustness to query transformations such as typos, adversarial prompts, and prior chat history, (3) their applicability to long-form
+    generation, and (4) strategies for handling multiple UE scores for a single query. Our evaluations on 19 UE methods reveal that most of them are
+    highly sensitive to threshold selection when there is a distribution shift in the calibration dataset. While these methods generally exhibit
+    robustness against previous chat history and typos, they are significantly vulnerable to adversarial prompts. Additionally, while existing UE
+    methods can be adapted for long-form generation through various strategies, there remains considerable room for improvement. Lastly, ensembling
+    multiple UE scores at test time provides a notable performance boost, which highlights its potential as a practical improvement strategy. Code is
+    available at: https://github.com/duygunuryldz/uncertainty_in_the_wild.
+
+### R00062 | 2025 | preprint | Lang: n/a
+TI: ChemAU: Harness the Reasoning of LLMs in Chemical Research with Adaptive Uncertainty Estimation
+AB: Large Language Models (LLMs) are widely used across various scenarios due to their exceptional reasoning capabilities and natural language
+    understanding. While LLMs demonstrate strong performance in tasks involving mathematics and coding, their effectiveness diminishes significantly
+    when applied to chemistry-related problems. Chemistry problems typically involve long and complex reasoning steps, which contain specific
+    terminology, including specialized symbol systems and complex nomenclature conventions. These characteristics often cause general LLMs to
+    experience hallucinations during the reasoning process due to their lack of specific knowledge. However, existing methods are struggling to
+    effectively leverage chemical expertise and formulas. Moreover, current uncertainty estimation methods, designed to mitigate potential reasoning
+    errors, are unable to precisely identify specific steps or key knowledge. In this work, we propose a novel framework called ChemAU, which
+    incorporates our adaptive uncertainty estimation method that applies different uncertainty values based on the position of reasoning steps within
+    the whole reasoning chain. Leveraging this method, ChemAU identifies gaps in chemistry knowledge and precisely supplements chemical expertise with
+    the specialized domain model, thereby correcting and updating the previously flawed reasoning chain. Our experiments with three popular LLMs
+    across three chemistry datasets demonstrate that ChemAU significantly enhances both reasoning accuracy and uncertainty estimation.
+
+### R00063 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Verbalized Confidence Triggers Self-Verification: Emergent Behavior Without Explicit Reasoning Supervision
+AB: Uncertainty calibration is essential for the safe deployment of large language models (LLMs), particularly when users rely on verbalized
+    confidence estimates. While prior work has focused on classifiers or short-form generation, confidence calibration for chain-of-thought (CoT)
+    reasoning remains largely unexplored. Surprisingly, we find that supervised fine-tuning with scalar confidence labels alone suffices to elicit
+    self-verification behavior of language models, without any explicit reasoning supervision or reinforcement learning-based rewards. Despite being
+    trained only to produce a verbalized confidence score without any self-verifying examples, the model learns to generate longer and self-checking
+    responses for low-confidence queries while providing more concise answers for high-confidence ones. We further propose a simple rethinking method
+    that boosts performance via test-time scaling based on calibrated uncertainty. Experiments on GSM8K and held-out reasoning tasks such as MATH-500
+    and ARC-Challenge show that our confidence-aware fine-tuning improves both calibration and accuracy, while also enhancing interpretability by
+    aligning the model's reasoning path with its confidence.
+
+### R00064 | 2025 | preprint | Lang: n/a
+TI: Conformal Prediction Beyond the Seen: A Missing Mass Perspective for Uncertainty Quantification in Generative Models
+AB: Uncertainty quantification (UQ) is essential for safe deployment of generative AI models such as large language models (LLMs), especially in high
+    stakes applications. Conformal prediction (CP) offers a principled uncertainty quantification framework, but classical methods focus on regression
+    and classification, relying on geometric distances or softmax scores: tools that presuppose structured outputs. We depart from this paradigm by
+    studying CP in a query only setting, where prediction sets must be constructed solely from finite queries to a black box generative model,
+    introducing a new trade off between coverage, test time query budget, and informativeness. We introduce Conformal Prediction with Query Oracle
+    (CPQ), a framework characterizing the optimal interplay between these objectives. Our finite sample algorithm is built on two core principles: one
+    governs the optimal query policy, and the other defines the optimal mapping from queried samples to prediction sets. Remarkably, both are rooted
+    in the classical missing mass problem in statistics. Specifically, the optimal query policy depends on the rate of decay, or the derivative, of
+    the missing mass, for which we develop a novel estimator. Meanwhile, the optimal mapping hinges on the missing mass itself, which we estimate
+    using Good Turing estimators. We then turn our focus to implementing our method for language models, where outputs are vast, variable, and often
+    under specified. Fine grained experiments on three real world open ended tasks and two LLMs, show CPQ applicability to any black box LLM and
+    highlight: (1) individual contribution of each principle to CPQ performance, and (2) CPQ ability to yield significantly more informative
+    prediction sets than existing conformal methods for language uncertainty quantification.
+
+### R00065 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: From Calibration to Collaboration: LLM Uncertainty Quantification Should Be More Human-Centered
+AB: Large Language Models (LLMs) are increasingly assisting users in the real world, yet their reliability remains a concern. Uncertainty
+    quantification (UQ) has been heralded as a tool to enhance human-LLM collaboration by enabling users to know when to trust LLM predictions. We
+    argue that current practices for uncertainty quantification in LLMs are not optimal for developing useful UQ for human users making decisions in
+    real-world tasks. Through an analysis of 40 LLM UQ methods, we identify three prevalent practices hindering the community's progress toward its
+    goal of benefiting downstream users: 1) evaluating on benchmarks with low ecological validity; 2) considering only epistemic uncertainty; and 3)
+    optimizing metrics that are not necessarily indicative of downstream utility. For each issue, we propose concrete user-centric practices and
+    research directions that LLM UQ researchers should consider. Instead of hill-climbing on unrepresentative tasks using imperfect metrics, we argue
+    that the community should adopt a more human-centered approach to LLM uncertainty quantification.
+
+### R00066 | 2025 | preprint | Lang: n/a
+TI: Inv-Entropy: A Fully Probabilistic Framework for Uncertainty Quantification in Language Models
+AB: Large language models (LLMs) have transformed natural language processing, but their reliable deployment requires effective uncertainty
+    quantification (UQ). Existing UQ methods are often heuristic and lack a probabilistic interpretation. This paper begins by providing a theoretical
+    justification for the role of perturbations in UQ for LLMs. We then introduce a dual random walk perspective, modeling input-output pairs as two
+    Markov chains with transition probabilities defined by semantic similarity. Building on this, we propose a fully probabilistic framework based on
+    an inverse model, which quantifies uncertainty by evaluating the diversity of the input space conditioned on a given output through systematic
+    perturbations. Within this framework, we define a new uncertainty measure, Inv-Entropy. A key strength of our framework is its flexibility: it
+    supports various definitions of uncertainty measures, embeddings, perturbation strategies, and similarity metrics. We also propose GAAP, a
+    perturbation algorithm based on genetic algorithms, which enhances the diversity of sampled inputs. In addition, we introduce a new evaluation
+    metric, Temperature Sensitivity of Uncertainty (TSU), which directly assesses uncertainty without relying on correctness as a proxy. Extensive
+    experiments demonstrate that Inv-Entropy outperforms existing semantic UQ methods. The code to reproduce the results can be found at
+    https://github.com/UMDataScienceLab/Uncertainty-Quantification-for-LLMs.
+
+### R00067 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Consistency Hypothesis in Uncertainty Quantification for Large Language Models
+AB: Estimating the confidence of large language model (LLM) outputs is essential for real-world applications requiring high user trust. Black-box
+    uncertainty quantification (UQ) methods, relying solely on model API access, have gained popularity due to their practical benefits. In this
+    paper, we examine the implicit assumption behind several UQ methods, which use generation consistency as a proxy for confidence, an idea we
+    formalize as the consistency hypothesis. We introduce three mathematical statements with corresponding statistical tests to capture variations of
+    this hypothesis and metrics to evaluate LLM output conformity across tasks. Our empirical investigation, spanning 8 benchmark datasets and 3 tasks
+    (question answering, text summarization, and text-to-SQL), highlights the prevalence of the hypothesis under different settings. Among the
+    statements, we highlight the `Sim-Any' hypothesis as the most actionable, and demonstrate how it can be leveraged by proposing data-free black-box
+    UQ methods that aggregate similarities between generations for confidence estimation. These approaches can outperform the closest baselines,
+    showcasing the practical value of the empirically observed consistency hypothesis.
+
+### R00068 | 2025 | preprint | Lang: n/a
+TI: How Overconfidence in Initial Choices and Underconfidence Under Criticism Modulate Change of Mind in Large Language Models
+AB: Large language models (LLMs) exhibit strikingly conflicting behaviors: they can appear steadfastly overconfident in their initial answers whilst
+    at the same time being prone to excessive doubt when challenged. To investigate this apparent paradox, we developed a novel experimental paradigm,
+    exploiting the unique ability to obtain confidence estimates from LLMs without creating memory of their initial judgments -- something impossible
+    in human participants. We show that LLMs -- Gemma 3, GPT4o and o1-preview -- exhibit a pronounced choice-supportive bias that reinforces and
+    boosts their estimate of confidence in their answer, resulting in a marked resistance to change their mind. We further demonstrate that LLMs
+    markedly overweight inconsistent compared to consistent advice, in a fashion that deviates qualitatively from normative Bayesian updating.
+    Finally, we demonstrate that these two mechanisms -- a drive to maintain consistency with prior commitments and hypersensitivity to contradictory
+    feedback -- parsimoniously capture LLM behavior in a different domain. Together, these findings furnish a mechanistic account of LLM confidence
+    that explains both their stubbornness and excessive sensitivity to criticism.
+
+### R00069 | 2025 | preprint | Lang: n/a
+TI: Toward Better Generalisation in Uncertainty Estimators: Leveraging Data-Agnostic Features
+AB: Large Language Models (LLMs) often generate responses that are factually incorrect yet expressed with high confidence, which can pose serious
+    risks for end users. To address this, it is essential for LLMs not only to produce answers but also to provide accurate estimates of their
+    correctness. Uncertainty quantification methods have been introduced to assess the quality of LLM outputs, with factual accuracy being a key
+    aspect of that quality. Among these methods, those that leverage hidden states to train probes have shown particular promise, as these internal
+    representations encode information relevant to the factuality of responses, making this approach the focus of this paper. However, the probe
+    trained on the hidden states of one dataset often struggles to generalise to another dataset of a different task or domain. To address this
+    limitation, we explore combining data-agnostic features with hidden-state features and assess whether this hybrid feature set enhances
+    out-of-domain performance. We further examine whether selecting only the most informative hidden-state features, thereby discarding task-specific
+    noise, enables the data-agnostic features to contribute more effectively. The experiment results indicate that although introducing data-agnostic
+    features generally enhances generalisation performance in most cases, in certain scenarios their inclusion degrades performance. A similar pattern
+    emerges when retaining only the most important hidden-state features - adding data-agnostic features does not consistently further enhance
+    performance compared to using the full set of hidden-state features. A closer analysis reveals that, in some specific cases, the trained probe
+    underweights the data-agnostic features relative to the hidden-state features, which we believe is the main reason why the results are
+    inconclusive.
+
+### R00070 | 2025 | preprint | Lang: n/a
+TI: UQLM: A Python Package for Uncertainty Quantification in Large Language Models
+AB: Hallucinations, defined as instances where Large Language Models (LLMs) generate false or misleading content, pose a significant challenge that
+    impacts the safety and trust of downstream applications. We introduce UQLM, a Python package for LLM hallucination detection using
+    state-of-the-art uncertainty quantification (UQ) techniques. This toolkit offers a suite of UQ-based scorers that compute response-level
+    confidence scores ranging from 0 to 1. This library provides an off-the-shelf solution for UQ-based hallucination detection that can be easily
+    integrated to enhance the reliability of LLM outputs.
+
+### R00071 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Humans overrely on overconfident language models, across languages
+AB: As large language models (LLMs) are deployed globally, it is crucial that their responses are calibrated across languages to accurately convey
+    uncertainty and limitations. Prior work shows that LLMs are linguistically overconfident in English, leading users to overrely on confident
+    generations. However, the usage and interpretation of epistemic markers (e.g., 'I think it's') differs sharply across languages. Here, we study
+    the risks of multilingual linguistic (mis)calibration, overconfidence, and overreliance across five languages to evaluate LLM safety in a global
+    context. Our work finds that overreliance risks are high across languages. We first analyze the distribution of LLM-generated epistemic markers
+    and observe that LLMs are overconfident across languages, frequently generating strengtheners even as part of incorrect responses. Model
+    generations are, however, sensitive to documented cross-linguistic variation in usage: for example, models generate the most markers of
+    uncertainty in Japanese and the most markers of certainty in German and Mandarin. Next, we measure human reliance rates across languages, finding
+    that reliance behaviors differ cross-linguistically: for example, participants are significantly more likely to discount expressions of
+    uncertainty in Japanese than in English (i.e., ignore their 'hedging' function and rely on generations that contain them). Taken together, these
+    results indicate a high risk of reliance on overconfident model generations across languages. Our findings highlight the challenges of
+    multilingual linguistic calibration and stress the importance of culturally and linguistically contextualized model safety evaluations.
+
+### R00072 | 2025 | preprint | Lang: n/a
+TI: On the Robustness of Verbal Confidence of LLMs in Adversarial Attacks
+AB: Robust verbal confidence generated by large language models (LLMs) is crucial for the deployment of LLMs to help ensure transparency, trust, and
+    safety in many applications, including those involving human-AI interactions. In this paper, we present the first comprehensive study on the
+    robustness of verbal confidence under adversarial attacks. We introduce attack frameworks targeting verbal confidence scores through both
+    perturbation and jailbreak-based methods, and demonstrate that these attacks can significantly impair verbal confidence estimates and lead to
+    frequent answer changes. We examine a variety of prompting strategies, model sizes, and application domains, revealing that current verbal
+    confidence is vulnerable and that commonly used defence techniques are largely ineffective or counterproductive. Our findings underscore the need
+    to design robust mechanisms for confidence expression in LLMs, as even subtle semantic-preserving modifications can lead to misleading confidence
+    in responses.
+
+### R00073 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Adaptive Termination for Multi-round Parallel Reasoning: An Universal Semantic Entropy-Guided Framework
+AB: Recent advances in large language models (LLMs) have accelerated progress toward artificial general intelligence, with inference-time scaling
+    emerging as a key technique. Contemporary approaches leverage either sequential reasoning (iteratively extending chains of thought) or parallel
+    reasoning (generating multiple solutions simultaneously) to scale inference. However, both paradigms face fundamental limitations: sequential
+    scaling typically relies on arbitrary token budgets for termination, leading to inefficiency or premature cutoff; while parallel scaling often
+    lacks coordination among parallel branches and requires intrusive fine-tuning to perform effectively. In light of these challenges, we aim to
+    design a flexible test-time collaborative inference framework that exploits the complementary strengths of both sequential and parallel reasoning
+    paradigms. Towards this goal, the core challenge lies in developing an efficient and accurate intrinsic quality metric to assess model responses
+    during collaborative inference, enabling dynamic control and early termination of the reasoning trace. To address this challenge, we introduce
+    semantic entropy (SE), which quantifies the semantic diversity of parallel model responses and serves as a robust indicator of reasoning quality
+    due to its strong negative correlation with accuracy...
+
+### R00074 | 2025 | preprint | Lang: n/a
+TI: Simple Yet Effective: An Information-Theoretic Approach to Multi-LLM Uncertainty Quantification
+AB: Large language models (LLMs) often behave inconsistently across inputs, indicating uncertainty and motivating the need for its quantification in
+    high-stakes settings. Prior work on calibration and uncertainty quantification often focuses on individual models, overlooking the potential of
+    model diversity. We hypothesize that LLMs make complementary predictions due to differences in training and the Zipfian nature of language, and
+    that aggregating their outputs leads to more reliable uncertainty estimates. To leverage this, we propose MUSE (Multi-LLM Uncertainty via Subset
+    Ensembles), a simple information-theoretic method that uses Jensen-Shannon Divergence to identify and aggregate well-calibrated subsets of LLMs.
+    Experiments on binary prediction tasks demonstrate improved calibration and predictive performance compared to single-model and naïve ensemble
+    baselines. In addition, we explore using MUSE as guided signals with chain-of-thought distillation to fine-tune LLMs for calibration. MUSE is
+    available at:https://github.com/LARK-NLP-Lab/MUSE.
+
+### R00075 | 2025 | preprint | Lang: n/a
+TI: Prompt4Trust: A Reinforcement Learning Prompt Augmentation Framework for Clinically-Aligned Confidence Calibration in Multimodal Large Language
+    Models
+AB: Multimodal large language models (MLLMs) hold considerable promise for applications in healthcare. However, their deployment in safety-critical
+    settings is hindered by two key limitations: (i) sensitivity to prompt design, and (ii) a tendency to generate incorrect responses with high
+    confidence. As clinicians may rely on a model's stated confidence to gauge the reliability of its predictions, it is especially important that
+    when a model expresses high confidence, it is also highly accurate. We introduce Prompt4Trust, the first reinforcement learning (RL) framework for
+    prompt augmentation targeting confidence calibration in MLLMs. A lightweight LLM is trained to produce context-aware auxiliary prompts that guide
+    a downstream task MLLM to generate responses in which the expressed confidence more accurately reflects predictive accuracy. Unlike conventional
+    calibration techniques, Prompt4Trust specifically prioritizes aspects of calibration most critical for safe and trustworthy clinical
+    decision-making. Beyond improvements driven by this clinically motivated calibration objective, our proposed method also improves task accuracy,
+    achieving state-of-the-art medical visual question answering (VQA) performance on the PMC-VQA benchmark, which is composed of multiple-choice
+    questions spanning diverse medical imaging modalities. Moreover, our framework trained with a small downstream task MLLM showed promising
+    zero-shot generalization to larger MLLMs in our experiments, suggesting the potential for scalable calibration without the associated
+    computational costs. This work demonstrates the potential of automated yet human-aligned prompt engineering for improving the the trustworthiness
+    of MLLMs in safety critical settings. Our codebase can be found at https://github.com/xingbpshen/prompt4trust.
+
+### R00076 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Cleanse: Uncertainty Estimation Approach Using Clustering-based Semantic Consistency in LLMs
+AB: Despite the outstanding performance of large language models (LLMs) across various NLP tasks, hallucinations in LLMs--where LLMs generate
+    inaccurate responses--remains as a critical problem as it can be directly connected to a crisis of building safe and reliable LLMs. Uncertainty
+    estimation is primarily used to measure hallucination levels in LLM responses so that correct and incorrect answers can be distinguished clearly.
+    This study proposes an effective uncertainty estimation approach, \textbf{Cl}ust\textbf{e}ring-based sem\textbf{an}tic
+    con\textbf{s}ist\textbf{e}ncy (\textbf{Cleanse}). Cleanse quantifies the uncertainty with the proportion of the intra-cluster consistency in the
+    total consistency between LLM hidden embeddings which contain adequate semantic information of generations, by employing clustering. The
+    effectiveness of Cleanse for detecting hallucination is validated using four off-the-shelf models, LLaMA-7B, LLaMA-13B, LLaMA2-7B and Mistral-7B
+    and two question-answering benchmarks, SQuAD and CoQA.
+
+### R00077 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Deep Learning-based Prediction of Clinical Trial Enrollment with Uncertainty Estimates
+AB: Clinical trials are a systematic endeavor to assess the safety and efficacy of new drugs or treatments. Conducting such trials typically demands
+    significant financial investment and meticulous planning, highlighting the need for accurate predictions of trial outcomes. Accurately predicting
+    patient enrollment, a key factor in trial success, is one of the primary challenges during the planning phase. In this work, we propose a novel
+    deep learning-based method to address this critical challenge. Our method, implemented as a neural network model, leverages pre-trained language
+    models (PLMs) to capture the complexities and nuances of clinical documents, transforming them into expressive representations. These
+    representations are then combined with encoded tabular features via an attention mechanism. To account for uncertainties in enrollment prediction,
+    we enhance the model with a probabilistic layer based on the Gamma distribution, which enables range estimation. We apply the proposed model to
+    predict clinical trial duration, assuming site-level enrollment follows a Poisson-Gamma process. We carry out extensive experiments on real-world
+    clinical trial data, and show that the proposed method can effectively predict the number of patients enrolled at a number of sites for a given
+    clinical trial, outperforming established baseline models.
+
+### R00078 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: A Context-Aware Dual-Metric Framework for Confidence Estimation in Large Language Models
+AB: Accurate confidence estimation is essential for trustworthy large language models (LLMs) systems, as it empowers the user to determine when to
+    trust outputs and enables reliable deployment in safety-critical applications. Current confidence estimation methods for LLMs neglect the
+    relevance between responses and contextual information, a crucial factor in output quality evaluation, particularly in scenarios where background
+    knowledge is provided. To bridge this gap, we propose CRUX (Context-aware entropy Reduction and Unified consistency eXamination), the first
+    framework that integrates context faithfulness and consistency for confidence estimation via two novel metrics. First, contextual entropy
+    reduction represents data uncertainty with the information gain through contrastive sampling with and without context. Second, unified consistency
+    examination captures potential model uncertainty through the global consistency of the generated answers with and without context. Experiments
+    across three benchmark datasets (CoQA, SQuAD, QuAC) and two domain-specific datasets (BioASQ, EduQG) demonstrate CRUX's effectiveness, achieving
+    the highest AUROC than existing baselines.
+
+### R00079 | 2025 | preprint | Lang: n/a
+TI: Towards Transparent AI Grading: Semantic Entropy as a Signal for Human-AI Disagreement
+AB: Automated grading systems can efficiently score short-answer responses, yet they often fail to indicate when a grading decision is uncertain or
+    potentially contentious. We introduce semantic entropy, a measure of variability across multiple GPT-4-generated explanations for the same student
+    response, as a proxy for human grader disagreement. By clustering rationales via entailment-based similarity and computing entropy over these
+    clusters, we quantify the diversity of justifications without relying on final output scores. We address three research questions: (1) Does
+    semantic entropy align with human grader disagreement? (2) Does it generalize across academic subjects? (3) Is it sensitive to structural task
+    features such as source dependency? Experiments on the ASAP-SAS dataset show that semantic entropy correlates with rater disagreement, varies
+    meaningfully across subjects, and increases in tasks requiring interpretive reasoning. Our findings position semantic entropy as an interpretable
+    uncertainty signal that supports more transparent and trustworthy AI-assisted grading workflows.
+
+### R00080 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Overconfidence in LLM-as-a-Judge: Diagnosis and Confidence-Driven Solution
+AB: Large Language Models (LLMs) are widely used as automated judges, where practical value depends on both accuracy and trustworthy, risk-aware
+    judgments. Existing approaches predominantly focus on accuracy, overlooking the necessity of well-calibrated confidence, which is vital for
+    adaptive and reliable evaluation pipelines. In this work, we advocate a shift from accuracy-centric evaluation to confidence-driven, risk-aware
+    LLM-as-a-Judge systems, emphasizing the necessity of well-calibrated confidence for trustworthy and adaptive evaluation. We systematically
+    identify the Overconfidence Phenomenon in current LLM-as-a-Judges, where predicted confidence significantly overstates actual correctness,
+    undermining reliability in practical deployment. To quantify this phenomenon, we introduce TH-Score, a novel metric measuring confidence-accuracy
+    alignment. Furthermore, we propose LLM-as-a-Fuser, an ensemble framework that transforms LLMs into reliable, risk-aware evaluators. Extensive
+    experiments demonstrate that our approach substantially improves calibration and enables adaptive, confidence-driven evaluation pipelines,
+    achieving superior reliability and accuracy compared to existing baselines.
+
+### R00081 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Confidence Estimation for Text-to-SQL in Large Language Models
+AB: Confidence estimation for text-to-SQL aims to assess the reliability of model-generated SQL queries without having access to gold answers. We
+    study this problem in the context of large language models (LLMs), where access to model weights and gradients is often constrained. We explore
+    both black-box and white-box confidence estimation strategies, evaluating their effectiveness on cross-domain text-to-SQL benchmarks. Our
+    evaluation highlights the superior performance of consistency-based methods among black-box models and the advantage of SQL-syntax-aware
+    approaches for interpreting LLM logits in white-box settings. Furthermore, we show that execution-based grounding of queries provides a valuable
+    supplementary signal, improving the effectiveness of both approaches.
+
+### R00082 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Uncalibrated Reasoning: GRPO Induces Overconfidence for Stochastic Outcomes
+AB: Reinforcement learning (RL) has proven remarkably effective at improving the accuracy of language models in verifiable and deterministic domains
+    like mathematics. Here, we examine if current RL methods are also effective at optimizing language models in verifiable domains with stochastic
+    outcomes, like scientific experiments. Through applications to synthetic data and real-world biological experiments, we demonstrate that Group
+    Relative Policy Optimization (GRPO) induces overconfident probability predictions for binary stochastic outcomes, while Proximal Policy
+    Optimization (PPO) and REINFORCE Leave-One-Out (RLOO) yield well-calibrated models. We show that removing group standard normalization in GRPO
+    fixes its miscalibration and provide a theoretical explanation for why normalization causes overconfidence. Our results provide new evidence
+    against the use of standard normalization in GRPO and help pave the way for applications of RL for reasoning language models beyond deterministic
+    domains.
+
+### R00083 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Mind the Generation Process: Fine-Grained Confidence Estimation During LLM Generation
+AB: While large language models (LLMs) have demonstrated remarkable performance across diverse tasks, they fundamentally lack self-awareness and
+    frequently exhibit overconfidence, assigning high confidence scores to incorrect predictions. Accurate confidence estimation is therefore critical
+    for enhancing the trustworthiness and reliability of LLM-generated outputs. However, existing approaches suffer from coarse-grained scoring
+    mechanisms that fail to provide fine-grained, continuous confidence estimates throughout the generation process. To address these limitations, we
+    introduce FineCE, a novel confidence estimation method that delivers accurate, fine-grained confidence scores during text generation.
+    Specifically, we first develop a comprehensive pipeline for constructing training data that effectively captures the underlying probabilistic
+    distribution of LLM responses, and then train a model to predict confidence scores for arbitrary text sequences in a supervised manner.
+    Furthermore, we propose a Backward Confidence Integration (BCI) strategy that leverages information from the subsequent text to enhance confidence
+    estimation for the current sequence during inference. We also introduce three strategies for identifying optimal positions to perform confidence
+    estimation within the generation process. Extensive experiments on multiple benchmark datasets demonstrate that FineCE consistently outperforms
+    existing classical confidence estimation methods. Our code and all baselines used in the paper are available on GitHub.
+
+### R00084 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: REHEARSE: Experiential Rehearsal for Verbal Confidence Calibration in Large Language Models
+AB: Large language models (LLMs) often express verbal confidence that is poorly aligned with actual correctness, limiting their reliability in
+    safety-critical applications. Existing prompt-based methods treat calibration largely as a one-shot inference problem, relying on either
+    instance-level reasoning or post-hoc self-assessment. We introduce Rehearse (Experiential Rehearsal), a training-free method that instead enables
+    models to adapt from their own scored confidence experience. In a credence-calibration game grounded in a strictly proper scoring rule, the model
+    receives feedback on prior confidence decisions; this experience is summarized in a post-game trajectory prefix that captures systematic over- or
+    under-confidence. At inference time, the model applies this cross-instance calibration signal to the chain-of-thought reasoning trace for each new
+    question. Across four LLMs, three benchmarks, and five random seeds, Rehearse achieves the lowest average ECE among training-free methods with
+    improved accuracy, reducing average ECE by 58% relative to the uncalibrated baseline. Code is available at
+    https://anonymous.4open.science/r/Experiential-Rehearsal-7C77/.
+
+### R00085 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Don't Think Twice! Over-Reasoning Impairs Confidence Calibration
+AB: Large Language Models deployed as question answering tools require robust calibration to avoid overconfidence. We systematically evaluate how
+    reasoning capabilities and budget affect confidence assessment accuracy, using the ClimateX dataset (Lacombe et al., 2023) and expanding it to
+    human and planetary health. Our key finding challenges the "test-time scaling" paradigm: while recent reasoning LLMs achieve 48.7% accuracy in
+    assessing expert confidence, increasing reasoning budgets consistently impairs rather than improves calibration. Extended reasoning leads to
+    systematic overconfidence that worsens with longer thinking budgets, producing diminishing and negative returns beyond modest computational
+    investments. Conversely, search-augmented generation dramatically outperforms pure reasoning, achieving 89.3% accuracy by retrieving relevant
+    evidence. Our results suggest that information access, rather than reasoning depth or inference budget, may be the critical bottleneck for
+    improved confidence calibration of knowledge-intensive tasks.
+
+### R00086 | 2025 | preprint | Lang: n/a
+TI: Are You Sure You're Positive? Consolidating Chain-of-Thought Agents with Uncertainty Quantification for Aspect-Category Sentiment Analysis
+AB: Aspect-category sentiment analysis provides granular insights by identifying specific themes within product reviews that are associated with
+    particular opinions. Supervised learning approaches dominate the field. However, data is scarce and expensive to annotate for new domains. We
+    argue that leveraging large language models in a zero-shot setting is beneficial where the time and resources required for dataset annotation are
+    limited. Furthermore, annotation bias may lead to strong results using supervised methods but transfer poorly to new domains in contexts that lack
+    annotations and demand reproducibility. In our work, we propose novel techniques that combine multiple chain-of-thought agents by leveraging large
+    language models' token-level uncertainty scores. We experiment with the 3B and 70B+ parameter size variants of Llama and Qwen models,
+    demonstrating how these approaches can fulfil practical needs and opening a discussion on how to gauge accuracy in label-scarce conditions.
+
+### R00087 | 2025 | preprint | Lang: n/a
+TI: A Novel Framework for Uncertainty Quantification via Proper Scores for Classification and Beyond
+AB: In this PhD thesis, we propose a novel framework for uncertainty quantification in machine learning, which is based on proper scores. Uncertainty
+    quantification is an important cornerstone for trustworthy and reliable machine learning applications in practice. Usually, approaches to
+    uncertainty quantification are problem-specific, and solutions and insights cannot be readily transferred from one task to another. Proper scores
+    are loss functions minimized by predicting the target distribution. Due to their very general definition, proper scores apply to regression,
+    classification, or even generative modeling tasks. We contribute several theoretical results, that connect epistemic uncertainty, aleatoric
+    uncertainty, and model calibration with proper scores, resulting in a general and widely applicable framework. We achieve this by introducing a
+    general bias-variance decomposition for strictly proper scores via functional Bregman divergences. Specifically, we use the kernel score, a
+    kernel-based proper score, for evaluating sample-based generative models in various domains, like image, audio, and natural language generation.
+    This includes a novel approach for uncertainty estimation of large language models, which outperforms state-of-the-art baselines. Further, we
+    generalize the calibration-sharpness decomposition beyond classification, which motivates the definition of proper calibration errors. We then
+    introduce a novel estimator for proper calibration errors in classification, and a novel risk-based approach to compare different estimators for
+    squared calibration errors. Last, we offer a decomposition of the kernel spherical score, another kernel-based proper score, allowing a more
+    fine-grained and interpretable evaluation of generative image models.
+
+### R00088 | 2025 | preprint | Lang: n/a
+TI: Trustworthy Agents for Electronic Health Records through Confidence Estimation
+AB: Large language models (LLMs) show promise for extracting information from Electronic Health Records (EHR) and supporting clinical decisions.
+    However, deployment in clinical settings faces challenges due to hallucination risks. We propose Hallucination Controlled Accuracy at k%
+    (HCAcc@k%), a novel metric quantifying the accuracy-reliability trade-off at varying confidence thresholds. We introduce TrustEHRAgent, a
+    confidence-aware agent incorporating stepwise confidence estimation for clinical question answering. Experiments on MIMIC-III and eICU datasets
+    show TrustEHRAgent outperforms baselines under strict reliability constraints, achieving improvements of 44.23%p and 25.34%p at HCAcc@70% while
+    baseline methods fail at these thresholds. These results highlight limitations of traditional accuracy metrics in evaluating healthcare AI agents.
+    Our work contributes to developing trustworthy clinical agents that deliver accurate information or transparently express uncertainty when
+    confidence is low.
+
+### R00089 | 2025 | preprint | Lang: n/a
+TI: Confident, Calibrated, or Complicit: Safety Alignment and Ideological Bias in LLM Hate Speech Detection
+AB: We investigate the efficacy of Large Language Models (LLMs) in detecting implicit and explicit hate speech, examining how models with minimal
+    safety alignment (uncensored) compare with more heavily aligned (censored) counterparts in a deployed-model setting when deployed using political
+    personas. While uncensored models are often framed as offering a less constrained perspective, our results reveal a trade-off: censored models
+    outperform their uncensored counterparts in both accuracy and robustness, achieving 69.0\% versus 64.1\% strict accuracy. However, this higher
+    performance is also associated with greater resistance to persona-based influence, while uncensored models are more malleable to ideological
+    framing. Furthermore, we identify critical failures across all models in understanding nuanced language such as irony. We also find alarming
+    fairness disparities in performance across different targeted groups and systemic overconfidence that renders self-reported certainty unreliable.
+    These findings challenge the notion of LLMs as objective arbiters and highlight the need for more sophisticated auditing frameworks that account
+    for fairness, calibration, and ideological consistency. Taken together, these results point to censorship-as-deployed rather than safety alignment
+    in isolation as the more appropriate frame for interpreting model differences.
+
+### R00090 | 2025 | preprint | Lang: n/a
+TI: Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal
+AB: Deployed language models must decide not only what to answer but also when not to answer. We present UniCR, a unified framework that turns
+    heterogeneous uncertainty evidence including sequence likelihoods, self-consistency dispersion, retrieval compatibility, and tool or verifier
+    feedback into a calibrated probability of correctness and then enforces a user-specified error budget via principled refusal. UniCR learns a
+    lightweight calibration head with temperature scaling and proper scoring, supports API-only models through black-box features, and offers
+    distribution-free guarantees using conformal risk control. For long-form generation, we align confidence with semantic fidelity by supervising on
+    atomic factuality scores derived from retrieved evidence, reducing confident hallucinations while preserving coverage. Experiments on short-form
+    QA, code generation with execution tests, and retrieval-augmented long-form QA show consistent improvements in calibration metrics, lower area
+    under the risk-coverage curve, and higher coverage at fixed risk compared to entropy or logit thresholds, post-hoc calibrators, and end-to-end
+    selective baselines. Analyses reveal that evidence contradiction, semantic dispersion, and tool inconsistency are the dominant drivers of
+    abstention, yielding informative user-facing refusal messages. The result is a portable recipe of evidence fusion to calibrated probability to
+    risk-controlled decision that improves trustworthiness without fine-tuning the base model and remains valid under distribution shift.
+
+### R00091 | 2025 | preprint | Lang: n/a
+TI: Enhancing Uncertainty Estimation in LLMs with Expectation of Aggregated Internal Belief
+AB: Large Language Models (LLMs) have achieved remarkable success across a wide range of natural language tasks, but often exhibit overconfidence and
+    generate plausible yet incorrect answers. This overconfidence, especially in models undergone Reinforcement Learning from Human Feedback (RLHF),
+    poses significant challenges for reliable uncertainty estimation and safe deployment. In this paper, we propose EAGLE (Expectation of AGgregated
+    internaL bEief), a novel self-evaluation-based calibration method that leverages the internal hidden states of LLMs to derive more accurate
+    confidence scores. Instead of relying on the model's final output, our approach extracts internal beliefs from multiple intermediate layers during
+    self-evaluation. By aggregating these layer-wise beliefs and calculating the expectation over the resulting confidence score distribution, EAGLE
+    produces a refined confidence score that more faithfully reflects the model's internal certainty. Extensive experiments on diverse datasets and
+    LLMs demonstrate that EAGLE significantly improves calibration performance over existing baselines. We also provide an in-depth analysis of EAGLE,
+    including a layer-wise examination of uncertainty patterns, a study of the impact of self-evaluation prompts, and an analysis of the effect of
+    self-evaluation score range.
+
+### R00092 | 2025 | preprint | Lang: n/a
+TI: GENUINE: Graph Enhanced Multi-level Uncertainty Estimation for Large Language Models
+AB: Uncertainty estimation is essential for enhancing the reliability of Large Language Models (LLMs), particularly in high-stakes applications.
+    Existing methods often overlook semantic dependencies, relying on token-level probability measures that fail to capture structural relationships
+    within the generated text. We propose GENUINE: Graph ENhanced mUlti-level uncertaINty Estimation for Large Language Models, a structure-aware
+    framework that leverages dependency parse trees and hierarchical graph pooling to refine uncertainty quantification. By incorporating supervised
+    learning, GENUINE effectively models semantic and structural relationships, improving confidence assessments. Extensive experiments across NLP
+    tasks show that GENUINE achieves up to 29% higher AUROC than semantic entropy-based approaches and reduces calibration errors by over 15%,
+    demonstrating the effectiveness of graph-based uncertainty modeling. The code is available at https://github.com/ODYSSEYWT/GUQ.
+
+### R00093 | 2025 | preprint | Lang: n/a
+TI: Incongruent Positivity: When Miscalibrated Positivity Undermines Online Supportive Conversations
+AB: In emotionally supportive conversations, well-intended positivity can sometimes misfire, leading to responses that feel dismissive, minimizing, or
+    unrealistically optimistic. We examine this phenomenon of incongruent positivity as miscalibrated expressions of positive support in both human
+    and LLM generated responses. To this end, we collected real user-assistant dialogues from Reddit across a range of emotional intensities and
+    generated additional responses using large language models for the same context. We categorize these conversations by intensity into two levels:
+    Mild, which covers relationship tension and general advice, and Severe, which covers grief and anxiety conversations. This level of categorization
+    enables a comparative analysis of how supportive responses vary across lower and higher stakes contexts. Our analysis reveals that LLMs are more
+    prone to unrealistic positivity through dismissive and minimizing tone, particularly in high-stakes contexts. To further study the underlying
+    dimensions of this phenomenon, we finetune LLMs on datasets with strong and weak emotional reactions. Moreover, we developed a weakly supervised
+    multilabel classifier ensemble (DeBERTa and MentalBERT) that shows improved detection of incongruent positivity types across two sorts of concerns
+    (Mild and Severe). Our findings shed light on the need to move beyond merely generating generic positive responses and instead study the congruent
+    support measures to balance positive affect with emotional acknowledgment. This approach offers insights into aligning large language models with
+    affective expectations in the online supportive dialogue, paving the way toward context-aware and trust preserving online conversation systems.
+
+### R00094 | 2025 | preprint | Lang: n/a
+TI: Mitigating Strategy Preference Bias in Emotional Support Conversation via Uncertainty Estimations
+AB: Emotional support conversation (ESC) aims to alleviate distress through empathetic dialogue, yet large language models (LLMs) face persistent
+    challenges in delivering effective ESC due to low accuracy in strategy planning. Moreover, there is a considerable preference bias towards
+    specific strategies. Prior methods using fine-tuned strategy planners have shown potential in reducing such bias, while the underlying causes of
+    the preference bias in LLMs have not well been studied. To address these issues, we first reveal the fundamental causes of the bias by identifying
+    the knowledge boundaries of LLMs in strategy planning. Then, we propose an approach to mitigate the bias by reinforcement learning with a dual
+    reward function, which optimizes strategy planning via both accuracy and entropy-based confidence for each region according to the knowledge
+    boundaries. Experiments on the ESCov and ExTES datasets with multiple LLM backbones show that our approach outperforms the baselines, confirming
+    the effectiveness of our approach.
+
+### R00095 | 2025 | preprint | Lang: n/a
+TI: All Roads Lead to Rome: Graph-Based Confidence Estimation for Large Language Model Reasoning
+AB: Confidence estimation is essential for the reliable deployment of large language models (LLMs). Existing methods are primarily designed for
+    factual QA tasks and often fail to generalize to reasoning tasks. To address this gap, we propose a set of training-free, graph-based confidence
+    estimation methods tailored to reasoning tasks. Our approach models reasoning paths as directed graphs and estimates confidence by exploiting
+    graph properties such as centrality, path convergence, and path weighting. Experiments with two LLMs on three reasoning datasets demonstrate
+    improved confidence estimation and enhanced performance on two downstream tasks.
+
+### R00096 | 2025 | preprint | Lang: n/a
+TI: Estimating Semantic Alphabet Size for LLM Uncertainty Quantification
+AB: Many black-box techniques for quantifying the uncertainty of large language models (LLMs) rely on repeated LLM sampling, which can be
+    computationally expensive. Therefore, practical applicability demands reliable estimation from few samples. Semantic entropy (SE) is a popular
+    sample-based uncertainty estimator with a discrete formulation attractive for the black-box setting. Recent extensions of SE exhibit improved LLM
+    hallucination detection, but do so with less interpretable methods that admit additional hyperparameters. For this reason, we revisit the
+    canonical discrete semantic entropy (DSE) estimator, finding that it underestimates the "true" semantic entropy, as expected from theory. We
+    propose a modified semantic alphabet size estimator, and illustrate that using it to adjust DSE for sample coverage results in more accurate SE
+    estimation in our setting of interest. Furthermore, we find that two semantic alphabet size estimators, including our proposed, flag incorrect LLM
+    responses as well or better than many top-performing alternatives, with the added benefit of remaining highly interpretable.
+
+### R00097 | 2025 | preprint | Lang: n/a
+TI: Decoding Uncertainty: The Impact of Decoding Strategies for Uncertainty Estimation in Large Language Models
+AB: Decoding strategies manipulate the probability distribution underlying the output of a language model and can therefore affect both generation
+    quality and its uncertainty. In this study, we investigate the impact of decoding strategies on uncertainty estimation in Large Language Models
+    (LLMs). Our experiments show that Contrastive Search, which mitigates repetition, yields better uncertainty estimates on average across a range of
+    preference-aligned LLMs. In contrast, the benefits of these strategies sometimes diverge when the model is only post-trained with supervised
+    fine-tuning, i.e. without explicit alignment.
+
+### R00098 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Revealing Adversarial Smart Contracts through Semantic Interpretation and Uncertainty Estimation
+AB: Adversarial smart contracts, mostly on EVM-compatible chains like Ethereum and BSC, are deployed as EVM bytecode to exploit vulnerable smart
+    contracts for financial gain. Detecting such malicious contracts at the time of deployment is an important proactive strategy to prevent losses
+    from victim contracts. It offers a better cost-benefit ratio than detecting vulnerabilities on diverse potential victims. However, existing works
+    are not generic with limited detection types and effectiveness due to imbalanced samples, while the emerging LLM technologies, which show their
+    potential in generalization, have two key problems impeding its application in this task: hard digestion of compiled-code inputs, especially those
+    with task-specific logic, and hard assessment of LLM's certainty in its binary (yes-or-no) answers. Therefore, we propose a generic adversarial
+    smart contracts detection framework FinDet, which leverages LLM with two enhancements addressing the above two problems. FinDet takes as input
+    only the EVM bytecode contracts and identifies adversarial ones among them with high balanced accuracy. The first enhancement extracts concise
+    semantic intentions and high-level behavioral logic from the low-level bytecode inputs, unleashing the LLM reasoning capability restricted by the
+    task input. The second enhancement probes and measures the LLM uncertainty to its multi-round answering to the same query, improving the LLM
+    answering robustness for binary classifications required by the task output. Our comprehensive evaluation shows that FinDet achieves a BAC of
+    0.9374 and a TPR of 0.9231, significantly outperforming existing baselines. It remains robust under challenging conditions including unseen attack
+    patterns, low-data settings, and feature obfuscation. FinDet detects all 5 public and 20+ unreported adversarial contracts in a 10-day real-world
+    test, confirmed manually.
+
+### R00099 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Trustworthy Summarization via Uncertainty Quantification and Risk Awareness in Large Language Models
+AB: Abstract This study addresses the reliability of automatic summarization in high-risk scenarios and proposes a large language model framework that
+    integrates uncertainty quantification and risk-aware mechanisms. Starting from the demands of information overload and high-risk decision-making,
+    a conditional generation-based summarization model is constructed, and Bayesian inference is introduced during generation to model uncertainty in
+    the parameter space, which helps avoid overconfident predictions. The uncertainty level of the generated content is measured using predictive
+    distribution entropy, and a joint optimization of entropy regularization and risk-aware loss is applied to ensure that key information is
+    preserved and risk attributes are explicitly expressed during information compression. On this basis, the model incorporates risk scoring and
+    regulation modules, allowing summaries to cover the core content accurately while enhancing trustworthiness through explicit risk-level prompts.
+    Comparative experiments and sensitivity analyses verify that the proposed method significantly improves the robustness and reliability of
+    summarization in high-risk applications while maintaining fluency and semantic integrity. This research provides a systematic solution for
+    trustworthy summarization and demonstrates both scalability and practical value at the methodological level.
+
+### R00100 | 2025 | preprint | Lang: n/a
+TI: Confidence Calibration in Large Language Model-Based Entity Matching
+AB: This research aims to explore the intersection of Large Language Models and confidence calibration in Entity Matching. To this end, we perform an
+    empirical study to compare baseline RoBERTa confidences for an Entity Matching task against confidences that are calibrated using Temperature
+    Scaling, Monte Carlo Dropout and Ensembles. We use the Abt-Buy, DBLP-ACM, iTunes-Amazon and Company datasets. The findings indicate that the
+    proposed modified RoBERTa model exhibits a slight overconfidence, with Expected Calibration Error scores ranging from 0.0043 to 0.0552 across
+    datasets. We find that this overconfidence can be mitigated using Temperature Scaling, reducing Expected Calibration Error scores by up to 23.83%.
+
+=== END OF BATCH b002 (50 records) ===

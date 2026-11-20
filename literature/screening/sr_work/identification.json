@@ -4,97 +4,97 @@
   {
    "file": "R1a_arxiv.ris",
    "format": "ris",
-   "records": 363,
+   "records": 107,
    "databases": {
-    "arXiv": 363
+    "arXiv": 107
    }
   },
   {
    "file": "R1a_openalex.ris",
    "format": "ris",
-   "records": 335,
+   "records": 100,
    "databases": {
-    "OpenAlex": 335
+    "OpenAlex": 100
    }
   },
   {
    "file": "R1b_arxiv.ris",
    "format": "ris",
-   "records": 50,
+   "records": 31,
    "databases": {
-    "arXiv": 50
+    "arXiv": 31
    }
   },
   {
    "file": "R1b_openalex.ris",
    "format": "ris",
-   "records": 290,
+   "records": 145,
    "databases": {
-    "OpenAlex": 290
+    "OpenAlex": 145
    }
   },
   {
    "file": "R2a_arxiv.ris",
    "format": "ris",
-   "records": 48,
+   "records": 18,
    "databases": {
-    "arXiv": 48
+    "arXiv": 18
    }
   },
   {
    "file": "R2a_openalex.ris",
    "format": "ris",
-   "records": 404,
+   "records": 73,
    "databases": {
-    "OpenAlex": 404
+    "OpenAlex": 73
    }
   },
   {
    "file": "R2b_arxiv.ris",
    "format": "ris",
-   "records": 63,
+   "records": 38,
    "databases": {
-    "arXiv": 63
+    "arXiv": 38
    }
   },
   {
    "file": "R2b_openalex.ris",
    "format": "ris",
-   "records": 197,
+   "records": 106,
    "databases": {
-    "OpenAlex": 197
+    "OpenAlex": 106
    }
   },
   {
    "file": "R3_arxiv.ris",
    "format": "ris",
-   "records": 153,
+   "records": 34,
    "databases": {
-    "arXiv": 153
+    "arXiv": 34
    }
   },
   {
    "file": "R3_openalex.ris",
    "format": "ris",
-   "records": 203,
+   "records": 52,
    "databases": {
-    "OpenAlex": 203
+    "OpenAlex": 52
    }
   },
   {
    "file": "R4a_arxiv.ris",
    "format": "ris",
-   "records": 77,
+   "records": 47,
    "databases": {
-    "arXiv": 77
+    "arXiv": 47
    }
   },
   {
    "file": "R4a_openalex.ris",
    "format": "ris",
-   "records": 84,
+   "records": 37,
    "databases": {
-    "OpenAlex": 84
+    "OpenAlex": 37
    }
   },
   {
@@ -115,26 +115,27 @@
   }
  ],
  "by_database": {
-  "arXiv": 754,
-  "OpenAlex": 1513,
+  "arXiv": 275,
+  "OpenAlex": 513,
   "OpenAlex citation chasing (backward)": 23,
   "OpenAlex citation chasing (forward)": 42
  },
- "raw_total": 2332,
- "unique_total": 1854,
- "duplicates_removed": 478,
- "no_abstract": 223,
+ "raw_total": 853,
+ "unique_total": 669,
+ "duplicates_removed": 184,
+ "no_abstract": 66,
  "overlap": {
-  "arXiv": 313,
-  "OpenAlex + arXiv": 416,
-  "OpenAlex": 1060,
-  "OpenAlex + OpenAlex citation chasing (forward)": 1,
+  "arXiv": 108,
+  "OpenAlex + arXiv": 154,
+  "OpenAlex": 342,
+  "OpenAlex citation chasing (forward) + OpenAlex": 1,
   "arXiv + OpenAlex citation chasing (backward)": 2,
-  "OpenAlex + OpenAlex citation chasing (forward) + arXiv": 1,
+  "OpenAlex citation chasing (forward) + OpenAlex + arXiv": 1,
   "OpenAlex + OpenAlex citation chasing (backward)": 1,
   "OpenAlex citation chasing (backward)": 20,
   "OpenAlex citation chasing (forward)": 40
  },
- "batches": 43,
- "max_record_lines": 219
+ "batches": 15,
+ "max_record_lines": 124,
+ "rebatched_by": "tools/make_pilot_batch.py (b001 = stratified mixed pilot sample)"
 }

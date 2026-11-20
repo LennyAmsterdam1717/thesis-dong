@@ -1,713 +1,588 @@
-BATCH b014 -- 45 records: R00617 .. R00661
+BATCH b014 -- 50 records: R00586 .. R00637
 
-### R00617 | 2025 | article/None | Lang: en
-TI: Navigating AI in Academia: Undergraduate Experiences with ChatGPT and the Redefinition of Academic Writing
-AB: Background and Aim: The integration of generative AI tools like ChatGPT into academic writing has generated both enthusiasm and ethical concern in
-    higher education. While ChatGPT supports idea development, content organization, and revision, its use also raises issues related to plagiarism,
-    authorship, and cognitive overreliance. Although prior research has examined the technical features and ethical risks of generative AI, few
-    studies have explored students’ lived experiences. This study investigates how undergraduate students navigate the benefits and challenges of
-    using ChatGPT in academic writing. Materials and Methods: A qualitative, theory-driven approach was adopted, drawing on the Technology Acceptance
-    Model (TAM), academic integrity principles, and cognitive offloading theory. Fourteen undergraduate students engaged in thesis writing at a public
-    state college in Region IX, Philippines, participated in semi-structured interviews and focus group discussions. Data were analyzed using Braun
-    and Clarke’s thematic analysis. Trustworthiness was ensured through member checking, audit trails, and peer debriefing. Results: Thematic analysis
-    revealed six key themes: (1) Academic Empowerment, highlighting ChatGPT’s role in enhancing productivity and confidence; (2) Ease and
-    Accessibility, due to its intuitive interface and language flexibility; (3) Ethical Boundary Negotiation, with students adopting self-regulation
-    strategies to avoid plagiarism; (4) Cognitive Trade-offs, reflecting concerns about reduced critical thinking and overdependence; (5) Peer and
-    Policy Influence, shaped by unclear institutional guidelines and social norms; and (6) Technical Limitations, including vague responses,
-    inconsistencies, and restrictions in the free version. Conclusion: Students perceive ChatGPT as a valuable tool in academic writing but express
-    concern about ethical risks, cognitive dependence, and institutional ambiguity. The findings highlight the need for clear institutional
-    guidelines, integration of AI literacy into the curriculum, and promotion of reflective, responsible use of generative AI in higher education.
+### R00586 | 2026 | preprint | Lang: n/a
+TI: How Strong Is the Evidence for the Artificial Hivemind? Reevaluating Evidence for the Open-Ended Homogeneity of Language Models
+AB: Recent research argues that language models exhibit pronounced homogeneity in open-ended generation, framing such behavior as an Artificial
+    Hivemind that poses a long-term threat to human creativity. We examine three of its central results. First, the flagship example is that model
+    responses to "Write a metaphor involving time" collapse into two clusters. Visualization, spectral analysis, clustering, and language model labels
+    all contradict this description. The labels record each response's vehicle, what it compares time to. Our responses and the original authors' own
+    show one dominant vehicle plus a heavy tail of distinct minority vehicles. "Time" is one of our least diverse topics, so the example is a
+    favorable case, not a representative one. Second, the paper measures homogeneity against an undemanding null: responses to unrelated prompts.
+    Under a more demanding null (same-prompt responses expressing genuinely different ideas), 20%-32% of such pairs already exceed the paper's 0.8
+    convergence threshold. A residual effect survives this null. The paper's same-prompt pairs exceed 0.8 roughly two to three times as often as our
+    different-idea pairs. Much of what the paper calls homogeneity is the shared geometry of answering the same prompt. The remaining measurements
+    lack any null: no human baseline is collected, and the model-indistinguishability statistic has no null. Third, the paper concludes that
+    inference-time interventions are inadequate for combating the Artificial Hivemind, writing that "more generalizable solutions are needed at the
+    model training level." We show that this conclusion is unsupported in three ways, and that an inference-time intervention (prompting) reliably
+    raises measured response diversity. We do not resolve whether the Artificial Hivemind is real. We show that the published evidence does not
+    establish it.
 
-### R00618 | 2026 | article/None | Lang: en
-TI: Beyond ChatGPT: The Psychological Implications of Generative Artificial Intelligence for University Students. A Critical Review
-AB: The rapid diffusion of generative artificial intelligence (GenAI) tools such as ChatGPT, Gemini, Claude, and Copilot has transformed how
-    university students learn, write, seek help, and manage academic demands. While early scholarship concentrated on academic integrity and
-    assessment redesign, the psychological consequences of sustained GenAI use remain comparatively underexamined. This critical narrative review
-    synthesises empirical and conceptual literature published primarily between 2021 and 2026, identified through systematic searches of Scopus, Web
-    of Science, ERIC, PsycINFO, and Google Scholar, to map what is currently known about the psychological implications of GenAI for university
-    students. Four interrelated thematic domains are identified: (1) cognitive functioning, including cognitive offloading, critical thinking, and
-    metacognitive engagement; (2) motivation and the self, including academic self-efficacy, autonomy, and competence; (3) emotional wellbeing,
-    including AI anxiety, technostress, stress relief, loneliness, and chatbot companionship; and (4) academic integrity, moral emotions, and academic
-    identity. The evidence portrays GenAI as a double-edged psychological technology. It can scaffold confidence, reduce help-seeking anxiety, and
-    provide accessible emotional support, yet it can also foster overreliance, erode critical thinking, intensify anxiety about future employability,
-    and destabilise students' sense of authorship and academic self-worth. A dual-pathway conceptual model is proposed in which AI literacy,
-    self-regulation, social support, and institutional policy moderate whether GenAI use follows an enabling or an eroding trajectory. The review
-    concludes that psychological outcomes depend less on the frequency of GenAI exposure than on the mode of engagement. Implications for university
-    policy, counselling services, curriculum design, and assessment reform are discussed, and an agenda for longitudinal, experimental, and
-    cross-cultural research is outlined.
+### R00587 | 2026 | preprint | Lang: n/a
+TI: Measuring Collapse and Correction in Homogeneous-Panel LLM Debate
+AB: Multi-agent large language model (LLM) debate is often evaluated by whether final answers improve, but a changed answer is not necessarily a
+    better one: the same discussion can correct an initially wrong majority or collapse an initially correct one. Standard final-accuracy evaluations
+    conflate these opposing transitions. We introduce an auditable protocol for homogeneous debate on multiple-choice questions (MCQs) that records
+    each run as a transition ledger over collapse, correction, onset, and signed intervention utility. On 6,925 MMLU-Pro debates, the protocol records
+    253 collapses together with the corrections that offset them, and the correction side changes how interventions should be judged. Replay
+    experiments reveal the central tradeoff: freezing every debate prevents 251 collapses but loses 804 corrections under equal weights, and a
+    leave-one-model-out probe-gated freeze that is tuned for net utility never fires, so collapse prevention alone can recommend the wrong policy. A
+    compact pre-debate 8-probe screen is a triage signal: its unadjusted family-level association with conditional-collapse risk is high (G=7,
+    Spearman $ρ$ = 0.893, exact two-sided p = 0.0123), but initial-majority accuracy is a close comparator ($ρ$ = -0.821; family partial $ρ$ = 0.767,
+    p = 0.0877), so we do not treat it as calibrated or capability-adjusted prediction. Round-level traces localize many collapses to the first debate
+    round, where early disagreement can precede both collapses and corrections. Reasoning-mode models, including one model at two reasoning-effort
+    levels, also show both collapses and corrections. We release replayable schemas, coders, audits, cost cards, and zero-API rebuild scripts so
+    future model rows can be compared under the same denominators and signed utility ledger.
 
-### R00619 | 2025 | article/None | Lang: en
-TI: Scenario‐Based Forecasting of ChatGPT's Role as a Research Assistant in Nursing by 2030
-AB: AIM: To explore the future role of ChatGPT in nursing research by 2030 and provide a strategic framework for its responsible integration,
-    addressing key opportunities and challenges. BACKGROUND: Artificial intelligence (AI) tools, such as ChatGPT, offer significant potential to
-    enhance productivity, foster innovation, and facilitate interdisciplinary collaboration in nursing research. However, they also pose challenges
-    related to ethical governance, equitable access, and risks of overreliance. With AI technologies becoming more prevalent, a proactive approach is
-    essential for ensuring responsible adoption and maximizing their potential benefits. METHOD: A structured five-phase scenario planning approach
-    was used: (1) defining the scenario field, (2) identifying key drivers, (3) generating scenarios, (4) evaluating scenarios, and (5) transferring
-    actionable insights. Eleven experts were recruited, of whom almost 50% were from Saudi Arabia. Expert input was gathered to prioritize critical
-    drivers based on impact and uncertainty. Two key drivers, ethical accountability and cross-disciplinary collaboration, were used to construct a 2
-    × 2 matrix, resulting in four distinct scenarios. FINDINGS: The four scenarios include: (1) Ethical innovation, where robust governance and high
-    collaboration foster trust and innovation; (2) Fragmented progress, where weak accountability reduces credibility despite high collaboration; (3)
-    Ethical fortress, where strong governance but low collaboration slows progress; and (4) Stagnant patchwork, where weak governance and low
-    collaboration hinder growth. Ethical innovation was identified as the most desirable scenario. Three cross-cutting themes-ethical authorship,
-    trust, and AI overreliance-emerged as critical for evaluating scenario implications. IMPLICATIONS FOR NURSING AND/OR HEALTH POLICY: This study
-    provides actionable strategies for nursing researchers and policymakers, including strengthening governance, fostering collaboration, promoting AI
-    literacy, and ensuring equitable access. Addressing concerns around authorship transparency, trust in AI, and overreliance is essential for
-    leveraging AI's potential while safeguarding research integrity and equity.
+### R00588 | 2026 | preprint | Lang: n/a
+TI: Exact Makespan Bounds and the GPipe Homogeneity Bias for Heterogeneous LLM Inference Pipelines
+AB: We give an exact critical-path characterization of the makespan of micro-batch pipelines serving LLMs on heterogeneous GPU clusters, quantifying
+    how the classic homogeneous GPipe formula errs. In the pure-forward, communication-free, infinite-buffer setting, T(M) = (M-1)tau_max + Sum_j
+    tau_j, where tau_j is stage j's per-micro-batch service time and M the micro-batch count (Theorem 1). Under asynchronous communication -- modern
+    NCCL-based serving -- it extends to T(M) = Sum_j tau_j + Sum_j d_j + (M-1)tau_max, with Sum_j d_j a purely additive constant (Theorem 2); under
+    blocking communication, T(M) = (M-1)sigma_max + Sum_s sigma_s with sigma_s = tau_s + d_s, so communication enters the steady-state slope iff some
+    d_s > tau_max - tau_s (Theorem 3). These results quantify the GPipe overestimate, decompose the bias into a homogeneity term Sum_j (tau_max -
+    tau_j) and a communication-ignoring term Sum_j d_j, and imply that balancing per-stage compute dominates communication reduction for steady-state
+    throughput. A real system with partial overlap is sandwiched between Theorems 2 and 3, with a closed-form bound on the overlap throughput gain.
+    All claims are validated pointwise (error < 10^-9) on eleven configurations and a 1.6x10^5-point fuzz, including a mixed RTX 5090/3090/GTX 1070
+    partition. We situate the results in flow-shop scheduling and list open extensions: bandwidth-limited communication, bounded buffers,
+    prefill-decode interleaving.
+
+### R00589 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Evaluating Cultural Knowledge Editing in Vision-Language Models
+AB: Current Vision-Language Models (VLMs) frequently fail to recognize culture-specific concepts, especially from underrepresented regions.
+    Effectively injecting this long-tail knowledge into existing models remains a challenge. In this work, we investigate knowledge editing as a
+    targeted alternative by introducing CulturalBind, a benchmark comprising 3.2K images of 1K concepts from 6 domains, designed to evaluate
+    culture-aware cross-modal knowledge as well as concept-level knowledge editing in VLMs. Pre-edit evaluation reveals that textual and visual
+    knowledge is decoupled: models often demonstrate text-based knowledge of cultural concepts but fail to identify them from images. We then evaluate
+    editing methods in single and sequential scenarios. Although current methods successfully correct individual visual recognition errors, they
+    exhibit low cross-modal portability, failing to integrate edits into the model's broader parametric knowledge. Furthermore, performance degrades
+    rapidly under sequential editing, highlighting the need for comprehensive adaptation approaches that better consolidate multimodal knowledge over
+    time.
+
+### R00590 | 2026 | preprint | Lang: n/a
+TI: Revisiting LLM Homogeneity Through a Multidimensional Lens
+AB: Concerns about LLM homogeneity are typically quantified with embedding similarity, which reduces two texts to a single score. We revisit
+    homogeneity with 25 interpretable metrics spanning five dimensions: semantic, lexical, syntactic, structural, and stylistic & presentational. A
+    human study shows that perceived similarity depends on both content (what responses say) and form (how they say it), yet embedding similarity
+    correlates less with human meaning judgments than sentence-level matching ($ρ=0.417$ vs. $0.606$) and not significantly with form judgments
+    ($ρ=0.140$). Across 18 contemporary LLMs, models say similar things in different words: they share global semantics and broad linguistic profiles
+    but remain distinct in lexical characteristics, structural patterns, and interactional conventions. Across releases from 2024 to 2026, models
+    become more like themselves but not more like one another: among significantly changing metrics, intra-model distances decrease for 17 of 22, and
+    inter-model distances increase for 14 of 21. Across two post-training pipelines, model-specific conventions emerge during SFT and are selectively
+    reshaped by preference optimization. These results suggest that homogeneity is multidimensional and evolving, and that embedding similarity alone
+    can overstate cross-model homogeneity while concealing diverging intra- and inter-model trends.
+
+### R00591 | 2026 | preprint | Lang: n/a
+TI: Building and Auditing Chemical Datasets with LLMs: A General LLM-as-a-Judge Framework Applied to Homogeneous Catalytic PET Depolymerisation
+AB: Large language models can rapidly extract structured multivariate experimental data from the chemistry literature, yet verifying thousands of
+    generated records without ground truth remains difficult. We present a general, citation-grounded extraction and verification methodology centered
+    on an independent "LLM-as-a-judge", applied to the literature on homogeneous catalytic poly(ethylene terephthalate) (PET) depolymerisation. In
+    this pipeline, an extractor LLM generates schema-enforced records from research papers with citations to document chunks tagged with universally
+    unique identifiers (UUIDs); an independent LLM judge then reads the full paper alongside each record, flags unsupported fields, and proposes cited
+    corrections. Prompt ablations show that requiring chunk-level citations not only provides provenance down to specific paragraphs and tables but
+    also improves extraction accuracy. Before deploying the judge at scale, we benchmarked it against manual evaluation on extractions from a
+    hand-curated reference set of 295 ionic-liquid-catalysed PET glycolysis experiments. The judge agreed with human evaluation on 85.7% of reviewed
+    records and was significantly more effective than a heuristic string-matching baseline at catching errors across related experiments. Deployed
+    across 3,942 extracted records from 561 papers, the framework accepted 67.5% of them as written. Its proposed corrections concentrated on
+    quantitative fields, where the extractor often conflated related experiments. We release the extracted dataset with the complete LLM judge audit
+    logs, as well as the Chemistry Data Extractor Toolkit, an open-source application implementing this end-to-end pipeline in a code-free,
+    browser-based environment for document parsing, customizable schema and prompt design, model-agnostic extraction and auditing, interactive
+    provenance-highlighted review, and reproducible dataset bundling.
+
+### R00592 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LLMs and the Homogenization of Teaching
+AB: Large language models (LLMs) are known to lack diversity in open-ended text generation, a limitation that is especially consequential in
+    education, where homogeneity can narrow the kinds of thinking and disciplinary work students are invited to do. We study diversity in two
+    educational generation tasks: math items and essay feedback. We compare frontier and open-weight models with human-authored reference
+    distributions using lexical, semantic, and domain-grounded measures. For math, we examine the mathematical activities students are asked to
+    perform; for feedback, we examine the revision work requested and the rhetorical strategies used to communicate it. We evaluate direct prompting,
+    two diversity prompting methods, and post-training. Across both tasks, directly prompted model outputs are markedly less diverse than
+    human-authored content--78% higher on lexical (Self-BLEU) and 51% higher on semantic (embedding) similarity--and represent a narrower range of
+    instructional forms. Diversity prompting and post-training increase variation largely through surface features without broadening the
+    instructional repertoire. Models inherit and amplify the most normative routines of human instruction. Overcoming mode collapse in education will
+    require richer instructional data and investment in teachers' creative capacity and professional judgment.
+
+### R00593 | 2026 | preprint | Lang: n/a
+TI: Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era
+AB: Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured
+    overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML
+    and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in 2027, against 6.12 in 2026. We apply
+    MELD, a detector of LLM-generated text, to all reviews. Within a paper, two reviews that MELD flags overlap more than two unflagged reviews: by
+    3.0 points at ICLR in 2024-2025, by 4.5 points in 2026-2027, and by 5.4 points across five journal sources. These results provide evidence that
+    LLM-flagged reviews of one paper are less distinct from each other than unflagged reviews, and suggest that the diversity of critiques among
+    reviews of a single paper is falling.
+
+### R00594 | 2025 | article/None | Lang: en
+TI: Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of human and ChatGPT writing
+AB: Generative AI systems, especially Large Language Models (LLMs) such as ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human-created content, their widespread use risks
+    reducing creative diversity across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMs on creative
+    diversity, not only at the individual level but also at the collective level. Across three preregistered studies, we analyzed 2,200 college
+    admissions essays. Using a novel measure—the diversity growth rate—we showed that each additional human-written essay contributed more new ideas
+    than did each additional GPT-4 essay. Notably, this difference became more pronounced as more essays were included in the analysis and persisted
+    despite efforts to enhance AI-generated content through both prompt and parameter modifications. Overall, our findings suggest that, despite their
+    potential to enhance individual creativity, the widespread use of LLMs could diminish the collective diversity of creative ideas. • We Introduce
+    diversity growth rate to measure idea diversity added per creative output. • Each additional human-written essay contributes more new ideas than a
+    GPT-generated essay. • Diversity gap widens with more essays, showing greater AI homogenization at scale. • Enhancing GPT's creative diversity
+    through parameter- or prompt-modifications does not mitigate the diversity gap. • Our study suggests widespread LLM use could diminish collective
+    diversity of creative ideas.
+
+### R00595 | 2025 | preprint/None | Lang: en
+TI: Homogenizing Effect of a Large Language Model (LLM) on Creative Diversity: An Empirical Comparison of Human and ChatGPT Writing
+AB: Generative AI systems, especially Large Language Models (LLMs) like ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human creations, their widespread use risks
+    reducing the diversity of creative outputs across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMS
+    on collective creativity. Across three preregistered studies, we analyzed 2,200 college admissions essays. Using a novel measure—diversity growth
+    rate—we showed that each additional human-written essay contributed more new ideas than each additional GPT-4 essay. This homogenizing effect
+    persisted even after a range of enhancements to the diversity of the GPT-4 writings, including prompt and parameters modifications. Overall, our
+    findings suggest that, despite improvements in individual creativity, the widespread use of LLMs could diminish the collective diversity of ideas.
+
+### R00596 | 2025 | preprint/None | Lang: en
+TI: Homogenizing Effect of Large Language Models (LLMs) on Creative Diversity: An Empirical Comparison of Human and ChatGPT Writing
+AB: Generative AI systems, especially Large Language Models (LLMs) such as ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human-created content, their widespread use risks
+    reducing creative diversity across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMs on creative
+    diversity, not only at the individual level but also at the collective level. Across three preregistered studies, we analyzed 2,200 college
+    admissions essays. Using a novel measure—the diversity growth rate—we showed that each additional human-written essay contributed more new ideas
+    than did each additional GPT-4 essay. Notably, this difference became more pronounced as more essays were included in the analysis and persisted
+    despite efforts to enhance AI-generated content through both prompt and parameter modifications. Overall, our findings suggest that, despite their
+    potential to enhance individual creativity, the widespread use of LLMs could diminish the collective diversity of creative ideas.
+
+### R00597 | 2025 | preprint/None | Lang: en
+TI: Homogenizing Effect of Large Language Models (LLMs) on Creative Diversity: An Empirical Comparison of Human and ChatGPT Writing
+AB: Generative AI systems, especially Large Language Models (LLMs) such as ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human-created content, their widespread use risks
+    reducing creative diversity across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMs on creative
+    diversity, not only at the individual level but also at the collective level. Across three preregistered studies, we analyzed 2,200 college
+    admissions essays. Using a novel measure—the diversity growth rate—we showed that each additional human-written essay contributed more new ideas
+    than did each additional GPT-4 essay. Notably, this difference became more pronounced as more essays were included in the analysis and persisted
+    despite efforts to enhance AI-generated content through both prompt and parameter modifications. Overall, our findings suggest that, despite their
+    potential to enhance individual creativity, the widespread use of LLMs could diminish the collective diversity of creative ideas.
+
+### R00598 | 2026 | article/None | Lang: en
+TI: Algorithmic Assistance and the Creativity Paradox: Large Language Models, Student Writing, and Cognitive Homogenisation
+AB: The adoption of large language models in higher education aids brainstorming and productivity, but raises concerns about student dependence,
+    potentially diminishing confidence in generating original ideas independently. The paper tackles these issues by carrying out a quantitative
+    survey on a sample size of 120 undergraduate and postgraduate students of four universities in Dublin, that is, Dublin City University, University
+    College Dublin, Trinity College Dublin, and Technological University Dublin. The respondents were varied in their academic backgrounds; some were
+    undergraduate or post-graduate level and this was evenly split between 46 per cent female and 54 per cent male. The survey was taking the trends
+    of using ChatGPT, the sense of creative self-efficacy, and how dissimilar students perceived academic ideas and written work. The results suggest
+    that there is a definite conflict in the application of AI tools. A significant number of respondents referred to ChatGPT in the context of the
+    idea development, increased productive, and assistance at the first drafting phase. Nevertheless, a large percentage of them experienced more
+    trouble in idea generation, and thought they were beginning to resemble the work of other students using the same system. On the whole, 67.5 per
+    cent thought that their ideas were growing closer to those who also use ChatGPT. These results imply that the positive effects of writing with AI
+    might be accompanied by the feeling of reduced originality. The paper highlights AI’s impact on creativity, emphasizing pedagogical strategies for
+    fostering independent thinking and intellectual diversity in education.
+
+### R00599 | 2025 | preprint/None | Lang: en
+TI: Dull Stable State: Recursive Training, Homogenization, and Security Risks in the Era of Large Language Models
+AB: The rapid proliferation of large language models (LLMs) has accelerated the production of online content, yet this growth introduces a recursive
+    dynamic: as models increasingly train on AI-generated text, the diversity and fidelity of outputs decline. Recent research identifies this
+    phenomenon as model collapse, where recursive self-training erodes the statistical tails of language distributions, yielding homogenized and
+    repetitive responses. Parallel studies of recommender systems highlight analogous feedback loops, including algorithmic monocultures and
+    popularity bias, that converge toward uniformity and suppress minority content. Combined, these forces risk what may be termed a dull stable
+    state: an equilibrium in which digital knowledge systems recycle their own outputs, losing novelty, accuracy, and epistemic richness. This state
+    carries profound security implications. Homogenized training corpora amplify vulnerabilities to data poisoning, adversarial prompt injection, and
+    covert manipulation, while reliance on synthetic data increases risks of privacy leakage through membership inference and undermines trust in
+    provenance. Addressing these challenges requires robust data curation, provenance standards (e.g., watermarking, C2PA credentials), and hybrid
+    training strategies that maintain human-authored input. The literature suggests that without such interventions, the pursuit of scale may trade
+    diversity for stability, locking the AI ecosystem into a fragile equilibrium with degraded utility and heightened security exposure.
+
+### R00601 | 2026 | preprint/None | Lang: en
+TI: Not Homogenization but Bifurcation: Large Language Models as Cognitive Amplifiers (The AI-Induced Subjectivity Crisis Series, Paper 7)
+AB: This paper constitutes Paper 7 of the AI-Induced Subjectivity Crisis Series. Contemporary discourse on the cognitive effects of large language
+    models converges on a shared but unexamined assumption: that LLMs are a homogenizing force, producing effects of the same direction across
+    different users, varying only in degree. This paper rejects that assumption and argues for its structural opposite. LLMs function not as tools but
+    as cognitive amplifiers — a categorical distinction, not one of degree. Tools operate outside cognitive structure; LLMs intervene at the level at
+    which language and thought occur, responding in real time to the user's narrative framework and returning its internal logic in a more complete,
+    more rigorous version through the mechanism of meaning refinement. The direction of amplification is not supplied by the amplifier but by the
+    input signal: the user's existing subjectivity structure. The paper argues for three mutually dependent propositions. First, meaning refinement
+    and borrowed subjectivity (Liu 2026f) constitute the two dimensions of the amplifier mechanism: meaning refinement provides the force of
+    amplification; borrowed subjectivity provides its direction. Their superposition produces not cognitive reflection but the structural
+    reinforcement of existing cognitive tendency. Second, the same LLM mechanism produces structurally opposite effects in users with different
+    subjectivity structures. Users with robust subjectivity structures are reinforced through two independent positive feedback loops: the reactance
+    activation mechanism, whereby LLM's unlimited compliance triggers a demand for genuine other-friction in reality; and the confidence leverage
+    mechanism, whereby LLM's meaning amplification is converted into the starting point for real-world action rather than consumed as a narrative
+    endpoint. Users with fragile subjectivity structures undergo accelerated abdication of subjectivity — LLMs not only satisfy dependency needs but
+    systematically remove the friction conditions that, in Kegan's developmental framework, are required for the transition from the Socialized Mind
+    to the Self-Authoring Mind. Third, the antecedent variable of this mechanism — subjectivity structure strength — is logically prior to and
+    measurably independent of LLM effects. Kegan's theory of adult development, established decades before LLMs, provides the philosophical anchor:
+    the distinction between the Socialized Mind and the Self-Authoring Mind describes structural differences formed within genuine interpersonal
+    friction, not reactions to any technological environment. Block and Kremen's Ego Resiliency Scale (ER89) provides an operationalization pathway,
+    demonstrating that the differentiation axis can be independently measured prior to LLM intervention and is not a synonym for LLM effects. The
+    historical dimension of this argument reveals a structural rupture in the history of cognitive tools. Previous cognitive inequality was located at
+    the level of accessibility — tool democratization dissolved the inequality. LLM's cognitive inequality is located at the level of the structural
+    effects produced during user-tool interaction: tool democratization does not dissolve this inequality but diffuses the unidirectional
+    amplification mechanism across a larger population, simultaneously accelerating differentiation in both directions. Equality of access does not
+    equal equality of cognitive structure. The paper further argues that LLMs introduce intra-generational differentiation at a speed unprecedented in
+    cognitive history, and a generational fault line whose depth will only become fully visible as the first generation to form its cognitive
+    structural foundations within a LLM-saturated environment reaches cognitive maturity. The paper passes no moral verdict on either end of the
+    differentiation spectrum, treats the consequences of differentiation as open and condition-dependent, and explicitly stops at the philosophical
+    argument for the mechanism. Observable indicators, institutional friction-compensation strategies, and the interaction between the differentiation
+    axis and existing structures of social inequality are reserved as agendas for subsequent empirical and normative research.
+
+### R00602 | 2026 | preprint/None | Lang: en
+TI: "Can AI Predict the 'Diversity Premium'? Reassessing Knowledge Diversity in NSF Grant Proposals Through Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00603 | 2026 | preprint/None | Lang: fr
+TI: LLM Homogenisation
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00604 | 2026 | article/None | Lang: en
+TI: Introducing Cultural Knowledge in Language Models: KazCulture Dataset for Kazakh Culture
+AB: Although Large Language Models (LLMs) have achieved significant advances in linguistic fluency, they often suffer from a lack of cultural
+    knowledge associated with low-resource languages. This deficiency could challenge their integration into high-stakes applications across diverse
+    regions. In this paper, we present a systematic method for embedding nation-specific cultural knowledge into LLMs, using Kazakh culture and
+    language as a case study. We present KazCulture, a robust Kazakh culture-specific dataset composed of 16,137 human-crafted Passage-Question-Answer
+    (PQA) triplets. KazCulture is rigorously curated from 11 books related to culture and the Koshpendiler.kz digital archive, capturing deep cultural
+    semantics in areas such as customs, traditions, beliefs, cuisine, and household practices. Using KazCulture, we evaluated 36 LLMs, including
+    proprietary frontier models and open-source alternatives. Our benchmarking reveals a critical disparity: while proprietary models like GPT-5 and
+    Gemini-2.5-Pro achieved up to 80% accuracy, open-source models struggled significantly. To bridge this gap, we propose a two-stage adaptation
+    pipeline: 1) perform fine-tuning on a general multilingual dataset (ISSAI-SFT) for linguistic robustness, then 2) run targeted fine-tuning on
+    KazCulture. This method boosted the accuracy of the Qwen3-32B model from a baseline of 39.51% to 64.54%. KazCulture provides a timely contribution
+    to Artificial Intelligence (AI) research as both a rigorous benchmark for Kazakh-culture-related knowledge and a training resource to develop
+    different culture aware LLMs. The dataset is available at https://huggingface.co/datasets/issai/KazCulture.
+
+### R00605 | 2026 | preprint/None | Lang: en
+TI: B1 2026Q1 FULL25 — Analysis and Materials Registration: LLM Forecast-Error Homogenization
+AB: This registration archives the materials for the B1 2026Q1 FULL25 measurement exercise on LLM forecast-error homogenization. It includes the
+    frozen prediction file, checksum, SEC EDGAR/XBRL truth file, and Python analysis script. The full registration document is uploaded as
+    OSF_预注册正文.md. This is an analysis and materials registration, not a prospective pre-registration.
+
+### R00606 | 2026 | article/None | Lang: en
+TI: Human-AI Interaction in L2 Writing Support: Homogenization in LLM Revisions of Learner Errors
+AB: This study examines whether different large language models revise the same L2 learner errors in similar ways. The dataset included 100 error
+    units from IELTS Academic Writing Task 1 responses written by Chinese EFL learners. Each error unit was revised by 3 mainstream Large language
+    models (LLMs): GPT-4o-mini, DeepSeek-V3, and Gemini Flash to test how similar their outputs are. Two measuring methods were introduced to do the
+    analysis: BERTScore F1 was used to measure similarity in meaning, and Jaccard Similarity was used to measure overlap in wording. The study also
+    examined whether learner-language features were retained, reformulated, or removed after revision. The results show clear similarity across the
+    three models, especially at the meaning level. Grammar-related and collocation errors produced the most similar revisions. The findings suggest
+    that LLM-based revision can improve accuracy and fluency, but it can also overlook interlanguage features for the purpose of standardized writing.
+    LLM feedback is therefore better used for comparison and reflection than as a final answer.
+
+### R00607 | 2025 | preprint/None | Lang: en
+TI: Impersonal Statements: LLM-Era College Admissions Essays Exhibit Deep Homogenization Despite Lexical Diversity
+AB: Concerns that AI will homogenize human thinking—and homogenization findings in lab contexts—appear at odds with findings that AI-assisted content
+    is judged as highly original. Using a multi-method approach that combined a controlled experiment with two large-scale natural experiments in over
+    160,000 U.S. college admissions essays, we observed a counterintuitive pattern: AI-assisted essays and essays written after the release of ChatGPT
+    showed greater lexical diversity, but the increasingly diverse words actually expressed increasingly homogeneous ideas. This “paradoxical
+    homogenization” pattern was robust across demographic subgroups but emerged disproportionately among applicants outside racial and linguistic
+    mainstreams. Event-time analyses and robustness checks ruled out pre-existing trends and pandemic-related confounds. The findings suggest that
+    surface-level diversity of AI-generated content masks deeper constraints on the breadth of human ideation. Extending lab-based AI homogenization
+    research, paradoxical homogenization appears to have reached real-world, high-stakes contexts where writing is expressly personal and AI use is
+    explicitly prohibited.
+
+### R00608 | 2026 | article/None | Lang: en
+TI: The Cultural Person A Conceptual Framework for Understanding LLM-Based Artificial Intelligence as the Communicative Mediator of Humanity's
+    Aggregated Cultural Knowledge
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00609 | 2026 | preprint/None | Lang: en
+TI: Writing homogenization post-ChatGPT: Corpus evidence from a decade-long study
+AB: Description: This repository contains supplementary computational materials for the manuscript Generative AI and the Emergence of Hybrid
+    Authorship in academic writing: A Corpus-Based Analysis (2015–2024) published in the Modern Language Journal. The files provide complete R scripts
+    for machine learning classification and statistical evaluation. The code operationalizes multidimensional feature extraction across learner
+    corpora. It establishes a robust and reproducible methodological framework. Researchers can adopt this computational architecture using
+    independent historical archives. This application establishes a known baseline of unaided human authorship. Consequently, educators can
+    objectively quantify the impact of algorithmic text generation. The provided algorithms isolate the specific linguistic footprint of hybrid
+    authorship. This repository ensures full computational reproducibility for the broader academic community.
+
+### R00610 | 2025 | article/None | Lang: en
+TI: Large AI models are cultural and social technologies
+AB: Implications draw on the history of transformative information systems from the past.
+
+### R00611 | 2025 | article/None | Lang: en
+TI: AI and the problem of knowledge collapse
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00612 | 2026 | article/None | Lang: en
+TI: Large language models are homogeneously creative
+AB: Abstract Numerous large language models (LLMs) are marketed for use as creativity support tools, despite several studies showing that using an LLM
+    as a creative partner narrows creative outputs. However, these studies only consider the effects of interacting with a single LLM on specific
+    creativity tasks, begging the question of whether narrowed creativity stems from using a particular LLM—with an arguably limited range of
+    outputs—or from using LLMs in general. To test this, we elicit creative responses from many humans and LLMs using standardized creativity tasks
+    and compare population-level response diversity. We find that LLM responses mirror other LLM responses far more than humans do other humans, even
+    after controlling for key confounding variables. This finding adds a new dimension to the ongoing discussion about creativity and LLMs. If today’s
+    LLMs behave similarly, using them as creative partners—regardless of the model used—may drive users toward similar “creative” outputs.
+
+### R00613 | 2025 | article/None | Lang: en
+TI: Benchmarking Linguistic Diversity of Large Language Models
+AB: Abstract The development and evaluation of Large Language Models (LLMs) has primarily focused on their task-solving capabilities, with recent
+    models even surpassing human performance in some areas. However, this focus often neglects whether machine-generated language matches the human
+    level of diversity, in terms of vocabulary choice, syntactic construction, and expression of meaning, raising questions about whether the
+    fundamentals of language generation have been fully addressed. This paper emphasizes the importance of examining the preservation of human
+    linguistic richness by language models, given the concerning surge in online content produced or aided by LLMs. We adapt a comprehensive framework
+    for evaluating LLMs from various linguistic diversity perspectives including lexical, syntactic, and semantic dimensions. Using this framework, we
+    benchmark several state-of-the-art LLMs across all diversity dimensions, and conduct an in-depth analysis for syntactic diversity. Finally, we
+    analyze how the design, development, and deployment choices of LLMs impact the linguistic diversity of their outputs, focusing on the creative
+    task of story generation.
+
+### R00614 | 2025 | conference-paper/None | Lang: en
+TI: One fish, two fish, but not the whole sea: Alignment reduces language models’ conceptual diversity
+AB: Sonia Krishna Murthy, Tomer Ullman, Jennifer Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for
+    Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025.
+
+### R00615 | 2026 | article/None | Lang: en
+TI: The shrinking landscape of linguistic diversity in the age of large language models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00617 | 2026 | article/None | Lang: en
+TI: Bias Patterns in the Application of LLMs for Clinical Decision Support
+AB: Objectives: To investigate the extent to which Large Language Models (LLMs) exhibit social bias based on protected patient attributes and to
+    determine how design choices, such as architecture and prompting strategies, influence these observed biases in clinical decision support.
+    Methods: We evaluated eight popular LLMs, including general-purpose and clinically trained models, across three standardized question-answering
+    datasets using clinical vignettes. We employed red-teaming strategies to analyze the impact of demographics on LLM outputs and compared various
+    prompting techniques, including Zero-shot and Chain of Thought. Results: Our experiments reveal various disparities across protected groups.
+    Notably, larger models were not necessarily less biased, and medical fine-tuning did not consistently outperform general-purpose models.
+    Furthermore, specific prompt phrasing significantly influenced bias patterns, whereas reflection-type approaches like Chain of Thought effectively
+    reduced biased outcomes. Conclusions: LLMs demonstrate significant social biases in clinical scenarios that are influenced by model architecture
+    and prompt engineering. These findings highlight the critical need for rigorous evaluation and enhancement of LLMs before their integration into
+    clinical decision support systems. Consistent with prior studies, we call for additional scrutiny to ensure equity in AI-driven healthcare
+    applications. All code and data are available at https://github.com/healthylaife/FairCDSLLM.
+
+### R00618 | 2025 | article/None | Lang: en
+TI: LLMs, Truth, and Democracy: An Overview of Risks
+AB: While there are many public concerns about the impact of AI on truth and knowledge, especially when it comes to the widespread use of LLMs, there
+    is not much systematic philosophical analysis of these problems and their political implications. This paper aims to assist this effort by
+    providing an overview of some truth-related risks in which LLMs may play a role, including risks concerning hallucination and misinformation,
+    epistemic agency and epistemic bubbles, bullshit and relativism, and epistemic anachronism and epistemic incest, and by offering arguments for why
+    these problems are not only epistemic issues but also raise problems for democracy since they undermine its epistemic basis- especially if we
+    assume democracy theories that go beyond minimalist views. I end with a short reflection on what can be done about these political-epistemic
+    risks, pointing to education as one of the sites for change.
+
+### R00619 | 2025 | conference-paper/None | Lang: en
+TI: Multilingual Prompting for Improving LLM Generation Diversity
+AB: Large Language Models (LLMs) are known to lack cultural representation and overall diversity in their generations, from expressing opinions to
+    answering factual questions.To mitigate this problem, we propose multilingual prompting: a prompting method which generates several variations of
+    a base prompt with added cultural and linguistic cues from several cultures, generates responses, and then combines the results.Building on
+    evidence that LLMs have language-specific knowledge, multilingual prompting seeks to increase diversity by activating a broader range of cultural
+    knowledge embedded in model training data.Through experiments across multiple models (GPT-4o, GPT-4o-mini, LLaMA 70B, and LLaMA 8B), we show that
+    multilingual prompting consistently outperforms existing diversity-enhancing techniques such as hightemperature sampling, step-by-step recall, and
+    persona prompting.Further analyses show that the benefits of multilingual prompting vary between high and low resource languages and across model
+    sizes, and that aligning the prompting language with cultural cues reduces hallucination about culturally-specific information. Can you recommend
+    some singersto follow?
 
 ### R00620 | 2026 | article/None | Lang: en
-TI: THE ROLE AND IMPORTANCE OF CHATGPT AND DIGITAL TOOLS IN THE DEVELOPMENT OF SPEAKING SKILLS
-AB: The rapid development of artificial intelligence and digital technologies has significantly transformed contemporary language education,
-    particularly in the area of speaking skills development. This article examines the role and importance of ChatGPT and various digital tools in
-    enhancing speaking proficiency among university students. Drawing on recent academic research and empirical studies, the paper analyzes how
-    AI-based conversational agents, language-learning applications, and online communication platforms contribute to improving fluency, pronunciation,
-    confidence, and learner autonomy. Special attention is given to ChatGPT as an interactive tool that provides personalized practice opportunities,
-    immediate feedback, and simulated real-life communication scenarios. The study also discusses the pedagogical benefits and limitations of
-    integrating digital technologies into university-level language instruction, including issues of accuracy, overreliance on AI, and the need for
-    digital literacy. The findings suggest that while ChatGPT and other digital tools cannot fully replace human interaction, they serve as effective
-    supplementary instruments that enhance speaking practice, motivation, and engagement. The article concludes with practical implications for higher
-    education institutions seeking to incorporate AI-driven technologies into foreign language curricula.
+TI: IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance
+AB: Abstract Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different
+    ideas and perspectives. This creates concerns about issue bias, where an LLM tends to present just one perspective on a given issue, which in turn
+    may influence how users think about this issue. So far, it has not been possible to measure which issue biases LLMs manifest in real user
+    interactions, making it difficult to address the risks from biased LLMs. Therefore, we create IssueBench: a set of 2.49m realistic
+    English-language prompts to measure issue bias in LLM writing assistance, which we construct based on 3.9k templates (e.g., “write a blog about”)
+    and 212 political issues (e.g., “AI regulation”) from real user interactions. Using IssueBench, we show that issue biases are common and
+    persistent in 10 state-of-the-art LLMs. We also show that biases are very similar across models, and that all models align more with US Democrat
+    than Republican voter opinion on a subset of issues. IssueBench can easily be adapted to include other issues, templates, or tasks. By enabling
+    robust and realistic measurement, we hope that IssueBench can bring a new quality of evidence to ongoing discussions about LLM biases and how to
+    address them.
 
-### R00621 | 2026 | article/None | Lang: en
-TI: STUDENTS’ PERCEPTIONS TOWARDS THE USE OF CHATGPT IN ENGLISH READING COMPREHENSION
-AB: ChatGPT has been widely employed to support reading comprehension but concerns regarding its use have also been raised. This study aimed to
-    investigate students’ perceived benefits and concerns about the use of ChatGPT in reading comprehension. The study employed quantitative research
-    methods with 89 students at University of Finance and Marketing. The findings revealed ChatGPT was perceived useful for providing linguistic
-    support and metacognitive assistance with the strongest perceptions for explaining unfamiliar vocabulary, clarifying difficult structures,
-    offering instant feedback and verifying the comprehension of reading texts. Students also reported cognitive and affective benefits including
-    identifying specific ideas and main ideas, reducing reading anxiety, increasing reading motivation and confidence. However, ChatGPT was believed
-    to be less useful in making inferences and making reading activities more engaging. However, students expressed concerns about overreliance,
-    declined independent and critical reading, and inaccurate and unreliable ChatGPT-provided responses. The findings suggest ChatGPT should be used
-    as a supportive learning tool rather than as a replacement for independent and critical reading. Thus, students also need to verify and critically
-    evaluate AI-provided information. The study highlights the necessity of appropriate guidance from teachers and school administrators to promote
-    responsible and strategic use of ChatGPT in language learning.
+### R00621 | 2025 | article/None | Lang: en
+TI: Large language models show both individual and collective creativity comparable to humans
+AB: • Across 13 creative tasks, the LLMs rank in the 46th percentile against humans. • LLMs excel in divergent thinking and problem solving but lag in
+    creative writing. • When questioned 10 times, an LLM’s collective creativity equals 8-10 humans. • LLMs may compete with a small group of humans
+    in terms of collective creativity. Artificial intelligence, especially large language models (LLMs) are increasingly adopted in the workplace,
+    which has significant implications for the future of work if they show creativity comparable to humans. To measure the creativity of LLMs
+    holistically, the current study uses thirteen creative tasks spanning three domains. We benchmark the LLMs against individual humans, and also
+    take a novel approach by comparing them to the collective creativity of groups of humans. We find that the best LLMs (Claude and GPT-4) rank in
+    the 52 nd percentile against humans, and overall LLMs excel in divergent thinking and problem solving but lag in creative writing. We also show
+    that the collective creativity in 10 LLM responses is equivalent to 8-10 humans. When there are more than 10 LLM responses, in terms of
+    incremental collective creativity, two additional LLM responses equal one extra human. Ultimately, LLMs, when optimally applied, may compete with
+    a small group of humans in the future of work.
 
-### R00622 | 2026 | article/None | Lang: en
-TI: Students’ Perceptions of ChatGPT: Usability and Enjoyment in English Language Education
-AB: The rapid development of artificial intelligence has influenced English language learning practices, particularly through the integration of
-    ChatGPT as a learning support tool. This study investigates students’ perceptions of ChatGPT’s usability and explores their learning experiences
-    when using the tool in the English Language Education Study Program. The population consisted of 941 undergraduate students enrolled in the
-    program. Using simple random sampling and Slovin’s formula with a 10% margin of error, 90 students were selected as research participants. A
-    sequential explanatory mixed-methods design was employed. Participants used the free version of ChatGPT (GPT-3.5) for one academic semester to
-    support tasks such as writing assignments, idea development, grammar checking, and understanding linguistic concepts. Its use was integrated into
-    coursework and guided by lecturers to promote critical and responsible engagement. Quantitative data were collected using the System Usability
-    Scale (SUS), while qualitative data were obtained through semi-structured interviews with four purposively selected students to gain deeper
-    insight into their experiences. Descriptive analysis revealed an average SUS score of 63, indicating marginal usability. This suggests that
-    although ChatGPT is perceived as beneficial, its usability has not yet reached an optimal level for academic purposes. Interview findings
-    indicated that participants described generally positive learning experiences, including increased confidence, reduced anxiety, and assistance in
-    developing writing skills. However, these qualitative insights reflect individual perspectives and do not constitute a measured level of enjoyment
-    across the broader sample. Several challenges were identified, including occasional inaccuracies, overly general responses, and the potential for
-    overreliance without adequate pedagogical supervision.
+### R00622 | 2025 | article/None | Lang: en
+TI: Death by AI : Will large language models diminish Wikipedia?
+AB: Abstract We argue that advances in large language models (LLMs) and generative Artificial Intelligence (AI) will diminish the value of Wikipedia,
+    due to a withdrawal by human content producers, who will withhold their efforts, perceiving less need for their efforts and increased “AI
+    competition.” We believe the greatest threat to Wikipedia stems from the fact that Wikipedia is a user‐generated product, relying on the “selfish
+    altruism” of its human contributors. Contributors who reduce their contribution efforts as AI pervades the platform, will thus leave Wikipedia
+    increasingly dependent on additional AI activity. This, combined with a dynamic where readership creates authorship and readers being
+    disintermediated, will inevitably cause a vicious cycle leading to a staling of the content and diminishing value of this venerable knowledge
+    resource.
 
-### R00623 | 2025 | article/None | Lang: en
-TI: Impacts of ChatGPT on Critical Thinking: Perceptions of Tanzanian Higher Education Students
-AB: In Tanzania, perceptions toward the adoption of Artificial Intelligence (AI) in education, particularly the use of ChatGPT, are mixed, with
-    debates centered on its effects on critical thinking and traditional learning practices. This study explored students’ perceptions of ChatGPT use
-    in academia and provided future directions. Employing a mixed-methods approach, data were collected from 170 students across two higher education
-    institutions, the Institute of Finance Management (IFM) and Moshi Co-operative University (MoCU). A total of 133 students responded to online
-    questionnaires. Findings revealed that most students (93%) were aware of and used ChatGPT, mainly for study and writing support. Over half (55%)
-    reported a positive influence on critical thinking, while about one-quarter (26.7%) highlighted negative effects, such as overreliance and
-    disruption of traditional learning. Additionally, a large majority (85.2%) viewed ChatGPT as supportive to education, whereas a minority (14.8%)
-    perceived it as a threat, reflecting broader national dilemmas regarding AI adoption. Notably, 43.1% of respondents expressed uncertainty about
-    its misuse, citing the absence of clear policies and guidelines. The study recommends establishing regulatory frameworks for ChatGPT integration
-    to support, rather than replace, critical thinking, human interaction, and creativity, while ensuring ethical practices in academic use.
+### R00623 | 2025 | conference-paper/None | Lang: en
+TI: Unstructured Evidence Attribution for Long Context Query Focused Summarization
+AB: Large language models (LLMs) are capable of generating coherent summaries from very long contexts given a user query, and extracting and citing
+    evidence spans helps improve the trustworthiness of these summaries.Whereas previous work has focused on evidence citation with fixed levels of
+    granularity (e.g.sentence, paragraph, document, etc.), we propose to extract unstructured (i.e., spans of any length) evidence in order to acquire
+    more relevant and consistent evidence than in the fixed granularity case.We show how existing systems struggle to copy and properly cite
+    unstructured evidence, which also tends to be "lost-in-the-middle".To help models perform this task, we create the Summaries with Unstructured
+    Evidence Text dataset (SUnsET), a synthetic dataset generated using a novel pipeline, which can be used as training supervision for unstructured
+    evidence summarization.We demonstrate across 5 LLMs and 4 datasets spanning human written, synthetic, single, and multi-document settings that
+    LLMs adapted with SUnsET generate more relevant and factually consistent evidence with their summaries, extract evidence from more diverse
+    locations in their context, and can generate more relevant and consistent summaries than baselines with no fine-tuning and fixed granularity
+    evidence.We release SUnsET and our generation code to the public.1
 
-### R00624 | 2026 | article/None | Lang: en
-TI: Afghan lecturers’ awareness, application, and concerns on ChatGPT integration in higher education
-AB: The rapid expansion of generative artificial intelligence has prompted higher education systems worldwide to reassess the pedagogical, ethical,
-    and institutional implications of ChatGPT. However, empirical evidence from conflict-affected and under-resourced educational settings remains
-    limited. This mixed-methods study investigated Afghan lecturers’ awareness, usage patterns, perceived effectiveness, and concerns regarding
-    ChatGPT at Kandahar University. Quantitative data were collected from 98 lecturers using a validated survey instrument, complemented by
-    semi-structured interviews with 10 purposively selected participants. Findings revealed a notably low and uneven adoption of ChatGPT, with most
-    lecturers engaging with the tool only rarely or not at all. Respondents acknowledged its usefulness for research drafting, translation, and
-    academic writing, concerns regarding plagiarism, student overreliance, inaccurate outputs, and fabricated references significantly undermined
-    acceptance. Correlation analysis indicated that perceived effectiveness positively predicted usage, whereas concerns exerted a suppressive effect.
-    Qualitative insights further contextualized these trends, showing that institutional ambiguity, limited digital readiness, and ethical uncertainty
-    weakened perceived usefulness and ease of use. The study extends the Technology Acceptance Model (TAM) by demonstrating that contextual and
-    ethical risk perceptions can override cognitive acceptance determinants in low-resource systems. Practical implications include the urgent need
-    for institutional policies, targeted professional development, and AI literacy initiatives to ensure responsible integration.
+### R00624 | 2026 | conference-paper/None | Lang: en
+TI: Real or Robotic? Assessing Whether LLMs Accurately Simulate Qualities of Human Responses in Human-LLM Dialogue
+AB: Jonathan Ivey, Shivani Kumar, Jiayu Liu, Hua Shen, Sushrita Rakshit, Rohan Raju, Haotian Zhang, Aparna Ananthasubramaniam, Junghwan Kim, Bowen Yi,
+    Dustin Wright, Abraham Israeli, Anders Giovanni Møller, Lechen Zhang, David Jurgens. Findings of the Association for Computational Linguistics:
+    ACL 2026. 2026.
 
-### R00625 | 2026 | article/None | Lang: en
-TI: Student engagement in ChatGPT-assisted mathematics learning: A phenomenological study
-AB: This study explored the lived experiences of high school students using ChatGPT in mathematics learning through a student engagement framework and
-    the interpretive lens of Self-Determination Theory (SDT). Using a descriptive phenomenological design, data were gathered from 58 students through
-    eight focus group discussions and analyzed using Colaizzi's method. The findings revealed that participants described ChatGPT as shaping their
-    engagement in multiple ways. Students valued its accessibility, immediate feedback, and step-by-step explanations, which they described as
-    supporting their participation, conceptual understanding, and confidence in learning mathematics. Emotional engagement was reflected in students'
-    experiences of psychological safety and perceived support, while cognitive engagement was reflected in participants' perceptions that ChatGPT
-    supported their understanding and critical evaluation of AI-generated responses. However, participants also reported disengaging experiences,
-    including overreliance on ChatGPT, reduced interaction with teachers and peers, challenges in using mathematical symbols, and concerns regarding
-    inaccurate responses. These findings suggest that participants perceived ChatGPT as creating both opportunities and constraints for meaningful
-    mathematics learning. Interpreted through SDT, participants' accounts reflected experiences that may be interpreted as supporting or frustrating
-    psychological needs related to autonomy, competence, and relatedness. This study contributes to the growing literature on AI-assisted learning by
-    integrating student engagement and SDT to provide a nuanced understanding of students' experiences. The findings underscore the importance of
-    guided AI use, critical evaluation, teacher support, and collaborative learning to promote meaningful and sustainable engagement in mathematics.
+### R00625 | 2025 | preprint/None | Lang: en
+TI: How much do language models memorize?
+AB: We propose a new method for estimating how much a model knows about a datapoint and use it to measure the capacity of modern language models.
+    Prior studies of language model memorization have struggled to disentangle memorization from generalization. We formally separate memorization
+    into two components: unintended memorization, the information a model contains about a specific dataset, and generalization, the information a
+    model contains about the true data-generation process. When we completely eliminate generalization, we can compute the total memorization, which
+    provides an estimate of model capacity: our measurements estimate that GPT-style models have a capacity of approximately 3.6 bits per parameter.
+    We train language models on datasets of increasing size and observe that models memorize until their capacity fills, at which point "grokking"
+    begins, and unintended memorization decreases as models begin to generalize. We train hundreds of transformer language models ranging from $500K$
+    to $1.5B$ parameters and produce a series of scaling laws relating model capacity and data size to membership inference.
 
-### R00626 | 2026 | article/None | Lang: en
-TI: Goals, Properly Technical: Special Education Teachers Using ChatGPT to Develop Individualized Student Goals
-AB: Educators’ responsibilities extend well beyond instruction to include administrative duties such as grading, maintaining records, and documenting
-    student behavior, as well as ongoing meetings and professional development requirements (Billingsley et al., 2019; Darling-Hammond et al., 2017).
-    These demands can create a disconnect between role expectations and daily realities (Brunsting et al., 2023). Special education teachers (SETs)
-    face these same responsibilities alongside additional paperwork requirements, which may account for up to 20% of their workday (Carlson et al.,
-    2002; Suter & Giangreco, 2009; Vannest et al., 2011). A central task is the development of Individualized Education Programs (IEPs), including
-    measurable annual academic and functional goals. To support goal development, schools have adopted tools such as goal-banking software aligned
-    with SMART criteria (More & Hart Barnett, 2014; Müller et al., 2023). More recently, artificial intelligence (AI), including ChatGPT and other
-    large language models, has emerged as a potential resource for both instructional and administrative tasks (Goldman et al., 2024; Kaplan-Rakowski
-    et al., 2023). The Conservation of Resources theory (Hobfoll, 1989) provides a framework for understanding how such tools may reduce strain by
-    offsetting job demands, particularly in high-stress fields like special education (Bettini et al., 2020; Cumming et al., 2021). This study
-    examined the effectiveness of ChatGPT in supporting IEP goal writing and explored preservice teachers’ perceptions of its use. The literature
-    review addressed three areas: goal-writing research and instruction, factors contributing to SET burnout (with emphasis on paperwork), and the
-    role of AI in reducing teacher workload. A quasi-experimental pretest-posttest design was used to evaluate differences in goal quality and writing
-    duration. Forty-four participants completed three phases: baseline, training, and intervention. Goal quality was assessed using the Revised Goals
-    and Objectives Rating Instrument (R-GORI; Notari-Syverson & Schuster, 1995; Pretti-Frontczak & Bricker, 2000). Goal writing duration was assessed
-    using a timer embedded in Qualtrics where participants submitted their goals. Results showed statistically significant improvements in goal
-    quality and faster completion times. Participants generally viewed AI positively, citing efficiency, idea generation, and support during
-    uncertainty, particularly for less experienced teachers. Some concerns were noted regarding overreliance and professional expectations.
-    Limitations included inconsistent time tracking due to virtual pretesting, varied participant experience levels, and lack of data on revisions
-    made during AI use. Future research should expand the sample, examine specific R-GORI indicators (e.g., gains in generality and measurability
-    versus instructional context), and further investigate effective integration of AI in special education practice.
+### R00626 | 2025 | preprint/None | Lang: en
+TI: Poor Alignment and Steerability of Large Language Models: Evidence from College Admission Essays
+AB: People are increasingly using technologies equipped with large language models (LLM) to write texts for formal communication, which raises two
+    important questions at the intersection of technology and society: Who do LLMs write like (model alignment); and can LLMs be prompted to change
+    who they write like (model steerability). We investigate these questions in the high-stakes context of undergraduate admissions at a selective
+    university by comparing lexical and sentence variation between essays written by 30,000 applicants to two types of LLM-generated essays: one
+    prompted with only the essay question used by the human applicants; and another with additional demographic information about each applicant. We
+    consistently find that both types of LLM-generated essays are linguistically distinct from human-authored essays, regardless of the specific model
+    and analytical approach. Further, prompting a specific sociodemographic identity is remarkably ineffective in aligning the model with the
+    linguistic patterns observed in human writing from this identity group. This holds along the key dimensions of sex, race, first-generation status,
+    and geographic location. The demographically prompted and unprompted synthetic texts were also more similar to each other than to the human text,
+    meaning that prompting did not alleviate homogenization. These issues of model alignment and steerability in current LLMs raise concerns about the
+    use of LLMs in high-stakes contexts.
 
-### R00627 | 2025 | article/None | Lang: en
-TI: Students' Perception of Using ChatGPT as an AI-Integrated Tool in the Malay Language
-AB: This study examines the perceptions of students using ChatGPT in the Malay language. To meet the aims, We adopted the theory of technology
-    acceptance model (TAM). The study focuses on system quality, information quality, service quality, user satisfaction, perceived net benefits, and
-    awareness of ethics and plagiarism. Data were collected through a Qualtrics survey. The finding informed that the system quality of ChatGPT
-    achieved a mean score of 3.375, indicating ease of use and flexibility. Information quality received a mean score of 3.27, suggesting accuracy and
-    usefulness. Service quality scored 3.207, reflecting adequate technical support and consistent performance. User satisfaction was remarkably high,
-    with a mean score of 3.334, demonstrating strong confidence and contentment with ChatGPT’s functionality. Perceived net benefits scored 3.337,
-    highlighting language skills and communication efficiency enhancements. Meanwhile, the ethical considerations were moderately addressed, with a
-    mean score of 3.115, indicating a need for improved education on responsible use. The findings suggest that ChatGPT is a valuable tool for the
-    Malay language, with areas for further enhancement in information quality and ethical practices. At the same time, understanding users’
-    perceptions will also help create between relevant AI resources, inform policies for ethical AI use, and enhance learning experience for Malay
-    learners.
+### R00627 | 2025 | preprint/None | Lang: en
+TI: The Lock-in Hypothesis: Stagnation by Algorithm
+AB: The training and deployment of large language models (LLMs) create a feedback loop with human users: models learn human beliefs from data,
+    reinforce these beliefs with generated content, reabsorb the reinforced beliefs, and feed them back to users again and again. This dynamic
+    resembles an echo chamber. We hypothesize that this feedback loop entrenches the existing values and beliefs of users, leading to a loss of
+    diversity and potentially the lock-in of false beliefs. We formalize this hypothesis and test it empirically with agent-based LLM simulations and
+    real-world GPT usage data. Analysis reveals sudden but sustained drops in diversity after the release of new GPT iterations, consistent with the
+    hypothesized human-AI feedback loop. Code and data available at https://thelockinhypothesis.com
 
-### R00628 | 2026 | preprint/None | Lang: en
-TI: Novel Entropy-Based Framework for Quantifying Dynamic Epistemic Uncertainty in Clinical Medicine
-AB: Abstract The widespread adoption of clinical large language models (LLMs) introduces significant risks of automation bias, premature closure, and
-    clinician deskilling. Current interpretability paradigms, including latent space trajectories, Concept Activation Vectors, and Concept Bottleneck
-    Models, suffer from topological stagnation, metric distortion, and epistemic occlusion, frequently masking intermediate diagnostic uncertainty
-    behind falsely confident outputs. To address these structural vulnerabilities, this paper introduces a novel closed-loop, multi-agent framework
-    designed to quantify and visualize dynamic epistemic uncertainty in clinical LLM reasoning. By coupling predictive Shannon entropy with non-linear
-    Isometric Feature Mapping (ISOMAP), the architecture projects high-dimensional inference state vectors onto a calibrated two-dimensional latent
-    space, thereby assigning a quantifiable thermodynamic energy state to the reasoning path to track diagnostic velocity, cognitive momentum, and
-    trajectory efficiency across sequential diagnostic rounds. Pilot validation across representative emergency medicine scenarios demonstrated
-    distinct topological and information-theoretic behaviors: unconfounded cases (cerebellar infarction) exhibited smooth geodesic progression toward
-    the ground truth alongside monotonic Shannon entropy decay from 2.15 to 1.74; noisy environments with ambiguous findings (spontaneous
-    pneumothorax) suffered from trajectory wandering, local minimum traps, and high sustained entropy (~2.41) due to insufficient repulsive weighting
-    for negative evidence; and triage-conflicted cases (acute cholangitis) achieved precise geometric proximity to the true node but experienced top-1
-    rank stagnation because the model conflated acute severity triage (sepsis) with anatomical etiology. By rendering machine hesitation and cognitive
-    divergence visually auditable before final diagnostic crystallization, this geometric-information framework enables dynamic trust calibration and
-    human-AI co-regulation at the point of care while establishing a clear mathematical foundation for future architectural interventions, such as
-    dual-channel safety decoupling and non-linear repulsive weighting. Moving forward, validating these architectural enhancements across large-scale
-    electronic health record databases and prospective clinical trials will be essential to realize its full clinical utility, establishing a
-    foundational blueprint for safe, transparent, and cognitively synergistic AI integration in future medical practice. By rendering the LLM’s
-    reasoning process visually auditable, this framework lays the groundwork for capturing and externalizing the clinician’s own cognitive patterns
-    within the AI, forming a coupled system. This enables the explicit visualization of cognitive gaps between physician hypotheses and AI inferences,
-    transforming the interaction from simple answer-checking into a dynamic learning process for both human and machine that prevents diagnostic
-    oversight. Ultimately, because the responsibility for final clinical decision-making remains with the human practitioner, this framework serves as
-    a vital decision-support mechanism. Moving forward, validating these architectural enhancements across large-scale electronic health record
-    databases and prospective clinical trials will be essential to realize its full clinical utility, establishing a foundational blueprint for safe,
-    transparent, and cognitively synergistic AI integration in future medical practice.
+### R00628 | 2025 | preprint/None | Lang: en
+TI: A survey of diversity quantification in natural language processing: The why, what, where and how
+AB: The concept of diversity received increasing attention in natural language processing (NLP) in recent years. It became an advocated property of
+    datasets and systems, with many measures used to quantify it, but also many cross-paper inconsistencies. To address this fragmentation, we take
+    inspiration from other scientific fields where diversity has been more thoroughly conceptualized. We build upon (Sarkar, 2010) and (Stirling,
+    2007), two unified cross-domain frameworks inspired from ecology, economy and other domains. The first one advocates explicit justification of
+    diversity endorsement. The latter distinguishes three dimensions of diversity: variety, balance, and disparity. Surveying over 300 recent
+    diversity-related papers from ACL Anthology, we propose an NLP-specific framework with 4 perspectives: why diversity is important, what diversity
+    is measured on, where it is measured, and how. We find that in NLP richness (the simplest variety) and distance averaging (the simplest disparity)
+    are the most prevalent measure families, and that pure balance measures are nearly absent. Moreover, half of the measures used in NLP do not
+    conform to Stirling's framework. Our analysis increases comparability of approaches to diversity in NLP, allowing us to formulate recommendations
+    for the field. We recommend that the field systematically use a unified terminology, and that it engage in debates about the desirable properties
+    of diversity measures as well as about the normative assumptions behind their use.
 
-### R00629 | 2025 | article/None | Lang: en
-TI: Exploring EFL Preservice Teachers’ Academic Integrity of Using ChatGPT in Educational Institutions
-AB: This study aimed to explore the perceptions and strategies of EFL preservice teachers in using ChatGPT while maintaining academic integrity. Using
-    a case study approach, the research investigated the experiences of sixth-semester students at a higher education institution in Buleleng, Bali,
-    during the 2024/2025 academic year. Data were collected through semi-structured interviews and analyzed using thematic analysis. The results
-    revealed one main theme and three subthemes: (1) ChatGPT as a brainstorming tool, not a final product; (2) Paraphrasing and cross-checking as
-    ethical practices; and (3) Awareness of the risks of overreliance. The findings indicated that participants possessed ethical awareness in using
-    ChatGPT strategically and responsibly. In addition, they demonstrated a tendency to avoid excessive reliance on technology and showed greater
-    confidence in their own abilities. This study contributed to a deeper understanding of ethical AI use in higher education settings.
+### R00629 | 2025 | preprint/None | Lang: en
+TI: Whose Name Comes Up? Auditing LLM-Based Scholar Recommendations
+AB: This paper evaluates the performance of six open-weight LLMs (llama3-8b, llama3.1-8b, gemma2-9b, mixtral-8x7b, llama3-70b, llama3.1-70b) in
+    recommending experts in physics across five tasks: top-k experts by field, influential scientists by discipline, epoch, seniority, and scholar
+    counterparts. The evaluation examines consistency, factuality, and biases related to gender, ethnicity, academic popularity, and scholar
+    similarity. Using ground-truth data from the American Physical Society and OpenAlex, we establish scholarly benchmarks by comparing model outputs
+    to real-world academic records. Our analysis reveals inconsistencies and biases across all models. mixtral-8x7b produces the most stable outputs,
+    while llama3.1-70b shows the highest variability. Many models exhibit duplication, and some, particularly gemma2-9b and llama3.1-8b, struggle with
+    formatting errors. LLMs generally recommend real scientists, but accuracy drops in field-, epoch-, and seniority-specific queries, consistently
+    favoring senior scholars. Representation biases persist, replicating gender imbalances (reflecting male predominance), under-representing Asian
+    scientists, and over-representing White scholars. Despite some diversity in institutional and collaboration networks, models favor highly cited
+    and productive scholars, reinforcing the rich-getricher effect while offering limited geographical representation. These findings highlight the
+    need to improve LLMs for more reliable and equitable scholarly recommendations.
 
-### R00630 | 2025 | article/None | Lang: en
-TI: Undergraduate English Majors' Views on ChatGPT in Academic Writing: Perceived Vocabulary and Grammar Improvement
-AB: This study investigates undergraduate English majors' perceptions of ChatGPT in enhancing vocabulary and grammar in academic writing. Utilizing a
-    mixed-methods convergent design, data were collected from 31 students via pre- and post-survey questionnaires, 20 participants’ reflective
-    journals, and semi-structured interviews with 10 volunteers. Quantitative findings revealed significant improvements in students’ perceptions of
-    vocabulary accuracy, relevance, and depth. Thematic analysis of qualitative data identified benefits such as enriched vocabulary, improved
-    grammatical accuracy, and increased confidence in academic writing. Challenges included overdependence, difficulty interpreting feedback, and a
-    lack of originality in AI-generated suggestions. Students employed strategies to optimize ChatGPT use, such as asking specific questions,
-    selectively applying feedback, and balancing AI input with personal judgment. The study highlights ChatGPT's ability to provide tailored feedback,
-    foster confidence, and support vocabulary development while underscoring the importance of responsible use to mitigate overreliance and maintain
-    originality. The findings underscore ChatGPT's potential to enhance academic writing skills when integrated thoughtfully into curricula. However,
-    overuse risks shallow learning (e.g., overdependence on the tool, or difficulty in interpreting feedback), suggesting a need for instructional
-    strategies that can promote rigorous analysis with AI tools. Future research should explore long-term impacts, comparisons with other AI tools,
-    and strategies for ethical and effective integration of ChatGPT in higher education.
+### R00630 | 2026 | article/None | Lang: en
+TI: Why Slop Matters
+AB: AI-generated “slop” is often seen as digital pollution. We argue that this dismissal of the topic risks missing important aspects of AI Slop which
+    deserve rigorous study. AI Slop serves a social function: it offers a supply-side solution to a variety of problems in cultural and economic
+    demand—that, collectively, people want more content than humans can supply. AI Slop is not mere digital detritus; in many cases, it has its own
+    aesthetic value. Like other “low” cultural forms initially dismissed by critics, it offers a legitimate means of collective sense-making, with the
+    potential to express meaning and identity. We identify three key features of family resemblance for prototypical AI Slop: superficial competence
+    (its veneer of quality is belied by a deeper lack of substance), asymmetric effort (it takes vastly less effort to generate than would be the case
+    without AI), and mass producibility (it is part of a digital ecosystem of widespread generation and consumption). While AI Slop is heterogeneous
+    and depends crucially on its medium, it tends to vary across three core dimensions: instrumental utility, personalization, and surrealism. AI Slop
+    will be an increasingly prolific and impactful part of our creative, information, and cultural economies; we should take it seriously as an object
+    of study in its own right.
 
-### R00631 | 2025 | article/None | Lang: en
-TI: Computer-Assisted Translation and ChatGPT: A Case Study in Teaching English-French Translation at Euromed University of Fès
-AB: This study investigates the integration of ChatGPT-4, an AI language model, in translation tasks within a classroom environment, focusing
-    specifically on English-French translation activities performed by 13 students. Employing a mixed-methods approach, data were collected through
-    focus groups, classroom observations, reflective journals, and semi-structured questionnaires to gain a comprehensive understanding of students’
-    perceptions, interaction patterns, and learning strategies when engaging with AI-assisted translation tools. The findings reveal that a majority
-    of students perceived ChatGPT-4 as a useful resource for vocabulary and syntax suggestions, often utilizing it primarily as a reference or
-    drafting tool to support their initial translations. Despite these advantages, participants widely acknowledged the necessity for thorough
-    post-editing, as ChatGPT-4 frequently produced literal or semantically inaccurate translations requiring correction. The use of ChatGPT-4 also
-    encouraged students to develop critical thinking and editing skills by engaging more actively in evaluating and refining AI-generated outputs.
-    While some students initially exhibited skepticism or anxiety about relying on AI, their confidence in using the tool grew with practice,
-    highlighting the emotional and pedagogical challenges involved in adopting new technologies. Concerns about potential overreliance on AI were also
-    expressed, underscoring the need for balanced integration. Overall, the study emphasizes the pedagogical potential of ChatGPT-4 as a complementary
-    tool that supports but does not replace human judgment in translation education. It advocates for guided instruction to enhance AI literacy and
-    maintain translation quality.
+### R00631 | 2026 | conference-paper/None | Lang: en
+TI: Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation
+AB: Multi-agent systems (MAS) are increasingly used for open-ended idea generation, driven by the expectation that collective interaction will broaden
+    the exploration diversity.However, when and why such collaboration truly expands the solution space remains unclear.We present a systematic
+    empirical study of diversity in MAS-based ideation across three bottom-up levels: model intelligence, agent cognition, and system dynamics.At the
+    model level, we identify a compute efficiency paradox, where stronger, highly aligned models yield diminishing marginal diversity despite higher
+    per-sample quality.At the cognition level, authority-driven dynamics suppress semantic diversity compared to junior-dominated groups.At the system
+    level, group-size scaling yields diminishing returns and dense communication topologies accelerate premature convergence.We characterize these
+    outcomes as collective failures emerging from structural coupling, a process where interaction inadvertently contracts agent exploration and
+    triggers diversity collapse.Our analysis shows that this collapse arises primarily from the interaction structure rather than inherent model
+    insufficiency, highlighting the importance of preserving independence and disagreement when designing MAS for creative tasks.Our code is available
+    at https://github.com/ Xtra-Computing/MAS_Diversity.
 
-### R00632 | 2026 | article/None | Lang: en
-TI: The Impact of ChatGPT on EFL University Students’ Writing Skills: A Systematic Literature Review
-AB: Writing is an important skill for university students who study English as a Foreign Language (EFL), but it is often difficult to master in
-    academic contexts due to linguistic and cognitive challenges. Recently, Artificial Intelligence (AI) tools, for example like ChatGPT, have gained
-    significant popularity in language learning and academic writing support. Through a Systematic Literature Review (SLR), this study analyses
-    existing research related to the impacts of ChatGPT on writing skills of university students in the EFL context. Using the PRISMA guidelines, the
-    study reviews eleven relevant articles published between 2023–2026 from various academic databases. The results examined that ChatGPT helps
-    students improve different aspects of writing, such as organization, grammar accuracy, vocabulary use, coherence, and overall writing quality. It
-    also increases students’ motivation, confidence, and ability to learn independently by providing quick, accessible, and personalized feedback
-    during the writing process. However, the results also examined several challenges of using ChatGPT as a writing tool, such as academic dishonesty,
-    inaccurate or misleading information, and students’ overreliance on AI tools, which may reduce critical thinking and writing autonomy.
+### R00632 | 2026 | conference-paper/None | Lang: en
+TI: Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks
+AB: Large language models (LLMs) are increasingly used to make sense of ambiguous, open-textured, value-laden terms. Platforms routinely rely on LLMs
+    for content moderation, asking them to label text based on disputed concepts like “hate speech” or “incitement”; hiring managers may use LLMs to
+    rank who counts as “qualified”; and AI labs increasingly train models to self-regulate under constitutional-style ambiguous principles such as
+    “biased” or “legitimate”. This paper introduces ambiguity collapse: a phenomenon that occurs when an LLM encounters a term that admits multiple
+    legitimate interpretations, yet produces a singular resolution, in ways that bypass the human practices through which meaning is ordinarily
+    negotiated, contested, and justified. Drawing on interdisciplinary accounts of ambiguity as a productive epistemic resource, we develop a taxonomy
+    of the epistemic risks posed by ambiguity collapse at three levels: process (foreclosing opportunities to deliberate, develop cognitive skills,
+    and shape contested terms), output (distorting the concepts and reasons agents act upon), and ecosystem (reshaping shared vocabularies,
+    interpretive norms, and how concepts evolve over time). We illustrate these risks through three case studies, and conclude by sketching
+    multi-layer mitigation principles spanning training, institutional deployment design, interface affordances, and the management of underspecified
+    prompts, with the goal of designing systems that surface, preserve, and responsibly govern ambiguity.
 
-### R00633 | 2026 | article/None | Lang: en
-TI: User Attitudes Toward AI Language Tools: Focus on ChatGPT, Grammarly, and Quillbot
-AB: With the development of technology, artificial intelligence influences learner performance in language learning environments. Beyond investigating
-    users’ perceptions on the effects of these AI language tools on vocabulary learning, grammar skills, reading comprehension and speaking
-    confidence, this paper explores how 73 academic and professional users employ ChatGPT, Grammarly and QuillBot in their language development
-    activities. According to the data, ChatGPT is being used most widely, followed by Grammarly and QuillBot. Based on this study, users adopt a
-    deliberative hybrid strategy which combines QuillBot on the refinement and paraphrase requirements, Grammarly for the grammatical fix, and ChatGPT
-    for content generation. They indicated that they gained more vocabulary knowledge (64.9%), made more grammar accuracy improvement (47.0%) and
-    increased reading comprehension ability (58.6%) in terms of perceived skill development, indicating AI technology can function as effective
-    scaffolding supports for written and receptive language abilities. However, the results on speaking confidence were mixed and in general it
-    suggests that AI platforms which are largely text-based do not help much with oral communication. These findings support the need for speech
-    specific properties and, if sufficiently adapted to language learning in general, AI-based WLTs might be a useful complement when learning
-    languages particularly as for written and receptive skills. The study raises the requirement for longitudinal research focusing on potential
-    long-term outcomes of using AI tools for developing authentic language competence-related tasks, and contributes to ongoing discussions about how
-    AI tools can be integrated into language learning. Remember this is self-reported information.
+### R00633 | 2026 | conference-paper/None | Lang: en
+TI: Adapting Technical-Service LLM Agents with Latent Logic Augmentation, Robust Noise Reduction, and Hybrid Reward Modeling
+AB: Technical-service LLM agents are entering production workflows, where value depends on whether engineers adopt generated replies.Service tickets
+    hide decision logic, contain noisy single-reference responses, and make reward evaluation costly, making standard posttraining brittle.Existing
+    post-training and LLM-as-a-Judge approaches improve grounding or feedback, but do not jointly model latent decision logic, response diversity, and
+    reward cost.We address this gap by coupling latent logic augmentation, robust noise reduction, and hybrid reward modeling.The framework augments
+    supervised fine-tuning data with Planning-Aware Trajectory Modeling and Reasoning Augmentation, builds dualfiltered Multiple Ground Truths, and
+    trains the policy with a hybrid reward that combines a Reranker with an LLM-as-a-Judge.On real Cloud technical-service tasks, the adapted Qwen3-4B
+    achieves the highest Multi-ECS (0.441), lower reward cost, and the highest production adoption rate (46.63%).
 
-### R00634 | 2026 | article/None | Lang: en
-TI: Mind the gap: Perceived academic self-efficacy, creativity, and critical thinking with and without ChatGPT
-AB: This study investigates the effects of students’ ChatGPT use on their academic self-efficacy in higher education. With the increasing adoption of
-    generative AI (GenAI) tools such as ChatGPT in learning environments, concerns have emerged about their influence on learners’ academic
-    self-efficacy. Using a quantitative design, the study collected data through a structured online questionnaire completed by 296 higher education
-    students. The findings indicate that perceived independent academic self-efficacy (without ChatGPT) is, in most cases, higher than their perceived
-    technology-mediated academic self-efficacy (with ChatGPT). Nevertheless, while ChatGPT increases students perceived self-efficacy when used, it
-    simultaneously decreases their confidence in completing tasks without its assistance. In addition, while perceived academic self-efficacy without
-    using ChatGPT is significantly correlated with students’ perceived creativity and critical thinking, perceived academic self-efficacy with ChatGPT
-    is not. These findings raise concerns about potential overreliance on GenAI tools and their impact on the relationship between self-efficacy and
-    personal cognitive traits. The study concludes by emphasizing the need for balanced GenAI integration in education to foster independent learning
-    skills, creativity, and critical thinking, while preventing dependency and promoting responsible, reflective technology use.
+### R00634 | 2026 | conference-paper/None | Lang: en
+TI: Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation
+AB: Human memory adapts through selective forgetting: experiences become less accessible over time but can be reactivated by reinforcement or
+    contextual cues.In contrast, memoryaugmented LLM agents rely on "always-on" retrieval and "flat" memory storage, causing high interference and
+    latency as histories grow.We introduce OBLIVION, a memory control framework that casts forgetting as decay-driven reductions in accessibility -not
+    explicit deletion.OBLIVION decouples memory control into read and write paths.The read path decides when to consult memory, based on agent
+    uncertainty and memory buffer utility, avoiding redundant always-on access.The write path decides what to strengthen, by reinforcing memories
+    contributing to forming the response.Together, this enables hierarchical memory organization that maintains persistent high-level strategies while
+    dynamically loading details as needed.We evaluate on both static and dynamic long-horizon interaction benchmarks.OBLIVION outperforms both direct
+    and memory-augmented baselines, while reducing token cost by up to 73% at 120K interaction spans.These results show that treating memory as a
+    control problem -deciding when to retrieve and what to reinforce -is essential for sustaining long-horizon agent performance.
 
-### R00635 | 2026 | article/None | Lang: en
-TI: ChatGPT in EFL academic writing instruction in Asian higher education: A scoping review
-AB: Abstract ChatGPT is increasingly being used to support English as a Foreign Language (EFL) academic writing in higher education, yet evidence on
-    its role in Asian university instruction remains fragmented. This scoping review maps empirical studies on ChatGPT in EFL academic writing
-    instruction in Asian higher education, focusing on pedagogical uses, reported outcomes and ethical concerns. Methods Following Arksey and
-    O'Malley's framework and PRISMA‐ScR guidance, the review searched five databases for peer‐reviewed English‐language studies published between 2020
-    and 2025. Two reviewers independently screened and charted the studies, and findings were synthesised thematically through the PAGER framework.
-    Twenty‐seven studies were included. ChatGPT was primarily used for pre‐writing, revision and feedback. Reported benefits included stronger writing
-    quality, greater learner autonomy, improved motivation and reduced anxiety. Common concerns included overreliance, inaccurate or culturally biased
-    feedback, uncertainty surrounding academic integrity and unequal access to AI technologies. ChatGPT can be a useful scaffold for EFL academic
-    writing, but its value depends on guided integration, critical AI literacy and context‐sensitive policy. The findings support staged AI‐assisted
-    writing activities for EFL instructors, curriculum and assessment designs that promote critical AI literacy and responsible AI use, and
-    institutional policies that provide clear guidance, educator professional development and equitable access to AI technologies. Further
-    longitudinal, comparative and theory‐informed research is needed to evaluate the long‐term effectiveness of these approaches. Context and
-    implications Rationale for this study: Empirical evidence on ChatGPT for EFL academic writing in Asian higher education remains fragmented,
-    limiting understanding of effective pedagogical practices and associated challenges. Why the new findings matter: This review identifies how
-    ChatGPT is currently used, its reported benefits and the conditions needed for responsible and effective implementation. Implications for
-    practitioners, institutional leaders and researchers: The findings support integrating ChatGPT as a scaffold rather than a replacement for writing
-    instruction. EFL instructors should adopt structured AI‐supported writing activities that promote critical AI literacy and independent writing.
-    Higher education institutions should develop clear AI policies, redesign assessment to emphasise writing processes and responsible AI use and
-    provide professional development for educators. Researchers should prioritise longitudinal, comparative and theory‐informed studies to strengthen
-    the evidence base for AI‐supported academic writing.
+### R00635 | 2026 | conference-paper/None | Lang: en
+TI: Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models
+AB: Post-hoc explanations provide transparency and are essential for guiding model optimization, such as prompt engineering and data
+    sanitation.However, applying model-agnostic techniques to Large Language Models (LLMs) is hindered by prohibitive computational costs, rendering
+    these tools dormant for real-world applications.To revitalize model-agnostic interpretability, we propose a budget-friendly proxy framework that
+    leverages efficient models to approximate the decision boundaries of expensive LLMs.We introduce a screen-and-apply mechanism to statistically
+    verify local alignment before deployment.Our empirical evaluation confirms that proxy explanations achieve over 90% fidelity with only 9.5% of the
+    oracle's cost.Building on this foundation, we demonstrate the actionable utility of our framework in prompt compression and poisoned example
+    removal.Results show that reliable proxy explanations effectively guide optimization, transforming interpretability from a passive observation
+    tool into a scalable primitive for LLM development.Additionally, we open-source code and datasets to facilitate future research 1 .
 
-### R00636 | 2026 | article/None | Lang: en
-TI: ChatGPT as an AI Learning Assistant for Enhancing EFL Students’ Writing: A Systematic Literature Riview
-AB: The rapid development of Artificial Intelligence (AI), particularly ChatGPT, has significantly influenced English as a Foreign Language (EFL)
-    learning practices. This study aims to examine the role of ChatGPT as an AI-powered learning assistant in enhancing EFL students’ writing skills
-    through a Systematic Literature Review (SLR) approach. The study employed the PRISMA framework to identify, screen, and analyze relevant articles
-    published between 2023 and 2025. The findings reveal that ChatGPT positively contributes to various aspects of writing development, including idea
-    generation, grammatical accuracy, vocabulary enrichment, writing organization, and paragraph coherence. Furthermore, the use of ChatGPT enhances
-    students’ motivation, self-confidence, and autonomy throughout the writing process. However, several challenges were identified, including
-    overreliance on AI technology, academic integrity concerns, and the risk of inaccurate information caused by AI hallucinations. Therefore, ChatGPT
-    should be utilized as a supportive learning tool rather than a substitute for teachers. The study concludes that integrating ChatGPT into EFL
-    writing instruction offers considerable potential for improving learning outcomes when accompanied by the development of AI literacy, digital
-    literacy, and academic ethical awareness.
+### R00636 | 2026 | conference-paper/None | Lang: en
+TI: Markovian Generation Chains in Large Language Models
+AB: The widespread use of large language models (LLMs) raises an important question: how do texts evolve when they are repeatedly processed by LLMs?In
+    this paper, we define this iterative inference process as Markovian generation chains, where each step takes a specific prompt template and the
+    previous output as input, without including any prior data.In iterative rephrasing and round-trip translation experiments, the output either
+    converges to a small recurrent set or continues to produce novel sentences within a finite horizon.Through sentence-level Markov chain modeling
+    and analysis of simulated data, we show that iterative process can either increase or reduce the diversity depending on factors such as the
+    temperature parameter and the initial input sentence.These results offer valuable insights into the dynamics of iterative LLM inference and their
+    implications for multi-agent LLM systems. 1
 
 ### R00637 | 2026 | article/None | Lang: en
-TI: AI-Assisted Language Learning: The Influence of ChatGPT Usage on Speaking and Writing Fluency among Malaysian University Students
-AB: The increasing use of Artificial Intelligence (AI) chatbots, especially ChatGPT, has transformed language learning into higher education by
-    providing students with instant academic support and personalized learning experiences. This study aimed to examine the usage patterns of AI
-    ChatGPT among Malaysian university students and examine its impact on students’ speaking and writing fluency. Specifically, this study aimed to
-    identify how often and for what purposes students use ChatGPT, as well as to determine the relationship between the use of ChatGPT and perceived
-    improvement in English fluency. This study used a quantitative research design using a structured questionnaire distributed to undergraduate
-    students from public and private universities throughout Malaysia. Convenience sampling techniques were adopted, and the collected data were
-    analyzed using the Statistical Package for the Social Sciences (SPSS) through descriptive and inferential statistical analysis. The findings
-    indicated that ChatGPT was widely used for academic purposes, especially for brainstorming ideas, grammar checking, content generation,
-    paraphrasing, and preparation of presentation scripts. Students reported that using ChatGPT contributed positively to speaking confidence,
-    vocabulary development, writing accuracy, grammatical competence, and overall fluency. However, the study also raised concerns about students’
-    overreliance on AI-generated content, which could reduce critical thinking, originality, and independent language development if used without
-    proper assessment. Overall, the study findings suggest that ChatGPT has great potential to enhance English language learning when responsibly
-    integrated into higher education. The study concludes that educators and higher education institutions should promote responsible AI literacy and
-    set clear guidelines for the ethical use of AI tools, ensuring that ChatGPT serves as a learning aid rather than a substitute for independent
-    learning and critical thinking.
+TI: Large Language Models as Political Actors: Cultural Bias and Epistemic Power
+AB: The rapid diffusion of Large Language Models (LLMs) into socially and politically sensitive domains raises critical questions about the nature and
+    origins of political bias in artificial intelligence. While existing research often treats bias as a technical flaw to be minimized, this article
+    advances a broader philosophical and cultural interpretation of LLM bias as an outcome of embedded epistemic and value-laden structures. The aim
+    of this study is to conceptualize LLMs as political actors of a new type and to examine how cultural context, language, and prompt design shape
+    their normative orientations. Methodologically, the research brings comparative survey methods to the study of chatbots trained on North American,
+    Russian, and Chinese data. It combines this with philosophical analysis grounded in Actor–Network Theory and assemblage theory. The empirical
+    instrument was an adapted Political Compass consisting of 62 normatively charged statements, administered twice to each model using standardized
+    numerical responses, followed by qualitative analysis of response variability through grounded theory methodology. The study confirms three core
+    hypotheses. First, large language models function as political actors rather than neutral tools, systematically reproducing normative positions
+    across moral, economic, and political domains; bias is therefore constitutive rather than accidental. Second, political bias is context-dependent
+    and dynamically produced through interaction, shaped not only by prompt framing and linguistic reformulation, but also by broader sociocultural
+    and national value frameworks embedded in training data and alignment regimes. Prompt engineering and jailbreak strategies reveal that normative
+    orientations can be activated, attenuated, or reconfigured, indicating a distributed responsibility for AI bias among developers, users, and
+    cultural contexts. Third, the analysis identifies distinct epistemic patterns: American and Russian chatbots share a Western epistemic matrix
+    despite ideological differences, with Russian models combining ideological sovereignty and epistemological dependence. Chinese models exhibit
+    greater contextual sensitivity and partial epistemic autonomy, reflecting a different cognitive grammar. By showing that LLM bias reflects
+    culturally embedded epistemic matrices rather than technical deviations from a neutral norm, the study challenges linear conceptions of
+    modernization and contributes to the understanding of non-Western technological modernization as the emergence of plural cognitive orders within
+    global AI development.
 
-### R00638 | 2026 | article/None | Lang: en
-TI: Integrating ChatGPT in EFL writing: Perceptions and challenges of Islamic senior high school students
-AB: The increasing integration of artificial intelligence tools such as ChatGPT in EFL writing has raised interest in how students experience the use
-    of these tools in learning. This study aims to explore students’ experiences of using ChatGPT and to identify the challenges they encountered.
-    Employing a qualitative phenomenological design, the study involved 23 students from eight working groups. Data were collected through classroom
-    observations during writing activities and semi-structured interviews with six students representing different academic levels. The findings
-    indicate that students generally perceive ChatGPT as a supportive tool that facilitates idea generation, improves sentence organization, and
-    enhances language use. Many students reported increased confidence in writing when using ChatGPT as a reference and scaffolding resource. However,
-    several challenges were also identified, including technical issues such as unstable internet access and cognitive challenges such as limited
-    prompt literacy, overreliance on AI-generated responses, reduced creativity, and diminished critical thinking. Students with higher motivation and
-    stronger language proficiency demonstrated more critical and selective use of ChatGPT, while others tended to depend on it as a shortcut. This
-    study highlights that the effectiveness of ChatGPT depends not only on technological access but also on students’ readiness and teacher guidance
-    to promote critical, ethical, and reflective use.
-
-### R00639 | 2025 | article/None | Lang: en
-TI: Students’ Perception of the Use of ChatGPT in English Writing Skills for Grade Ten at Senior High School
-AB: This research aims to explore tenth-grade students’ perceptions of using ChatGPT in supporting English writing skills at SMA Negeri 3
-    Pematangsiantar. The research applied a descriptive qualitative method based on the Technology Acceptance Model (TAM), focusing on two constructs:
-    Perceived Usefulness (PU) and Perceived Ease of Use (PEOU). The qualitative approach was chosen to deeply understand students’ experiences,
-    meanings, and subjective views regarding ChatGPT in writing, as qualitative research allows for exploration beyond mere numerical data (Miles &
-    Huberman, 1994, cited in Sugiyono, 2017). The sample consisted of 35 students selected through purposive sampling. Data were collected through a
-    questionnaire and analyzed using descriptive statistics. The findings reveal that students’ perceptions were generally positive, with a stronger
-    inclination toward ease of use. For PEOU, there were 322 agree responses in total (from 12 items), indicating that students perceived ChatGPT as
-    simple to operate, accessible, and effective in writing. For PU, there were 314 agree responses, showing that students recognized ChatGPT’s
-    usefulness in enriching vocabulary, improving grammar, and assisting idea generation. While a few students expressed concerns about overreliance,
-    most perceived ChatGPT as a user-friendly and supportive tool for writing. The research suggests that integrating AI-based applications like
-    ChatGPT, guided by TAM theory, can enhance students’ confidence and engagement in English writing instruction.
-
-### R00640 | 2025 | article/None | Lang: en
-TI: Pre-Service Teachers’ Experiences with ChatGPT: Toward Responsible AI Use in Teacher Education
-AB: The emergence of generative artificial intelligence (AI) tools, such as ChatGPT, is reshaping how teachers and learners interact with content.
-    While its use in teacher education is growing, little is known about how pre-service teachers experience, interpret, and utilize this tool during
-    critical phases like practice teaching. This study explores the lived experiences, perceptions, and reflections of pre-service teachers in using
-    ChatGPT for academic and instructional tasks. It aims to inform the development of an AI literacy program grounded in ethical and pedagogical
-    principles for teacher education institutions. A qualitative descriptive-phenomenological approach was used, involving in-depth, semi-structured
-    interviews with 25 fourth-year pre-service teachers from Tagoloan Community College during 2nd Semester SY 2024-2025. Braun and Clarke’s (2023)
-    thematic analysis framework guided data analysis to capture emergent themes. Participants reported diverse uses of ChatGPT, including academic
-    writing support, lesson planning, research guidance, and content clarification. A central finding was the recognition of ChatGPT as a personalized
-    learning companion, especially during periods of cognitive load or instructional planning. While most highlighted its role in enhancing
-    efficiency, creativity, and confidence, concerns were raised about overreliance, diminished critical thinking, and ethical boundaries. Thematic
-    findings reflected a balanced perspective, valuing ChatGPT’s convenience while recognizing the need for responsible and reflective use. Based on
-    these findings, the study recommends integrating a structured AI literacy and ethics program, AI-TEACH (Artificial Intelligence – Training for
-    Ethical and Accountable Classroom Harnessing), into teacher education curricula. This initiative promotes digital competence, ethical awareness,
-    and pedagogical innovation, contributing to inclusive and quality education as emphasized in Sustainable Development Goal 4.
-
-### R00641 | 2026 | article/None | Lang: en
-TI: A Commentary on Accounting Education in Transition: Reflections on What 800+ Students Taught Us About ChatGPT
-AB: ABSTRACT This commentary contributes to ongoing discussions in accounting education by examining how undergraduate students perceive and engage
-    with ChatGPT as generative artificial intelligence (AI) becomes more prevalent in learning contexts. Based on survey data and open‐ended
-    reflections from 846 accounting students at a Canadian university, the paper explores how students engage with ChatGPT, the educational value they
-    attribute to it, and the ethical, trust‐related, and pedagogical concerns they identify. Students who used ChatGPT generally viewed it as a useful
-    and accessible tool that supports efficiency and conceptual understanding, while also recognizing limitations related to accuracy, overreliance,
-    and academic integrity. Students who chose not to use ChatGPT demonstrated awareness of its potential benefits but expressed greater uncertainty
-    and concern, underscoring the role of trust and clarity in shaping their engagement with AI. Interpreted through the technology acceptance model,
-    the findings suggest that perceptions of usefulness and ease of use alone do not fully explain student engagement with generative AI; instead,
-    verification practices, ethical awareness, and instructional guidance play a significant moderating role. By capturing student perspectives at an
-    early stage of AI adoption, this commentary highlights the importance of intentional pedagogical design in accounting education. The paper
-    concludes with reflections for educators and institutions, emphasizing the importance of integrating AI literacy, ethical guidance, and
-    verification practices to support professional judgment and responsible learning in an AI‐enabled accounting profession.
-
-### R00642 | 2026 | article/None | Lang: en
-TI: Beyond grammar: How ChatGPT-4.0 shapes writing self-efficacy and performance in CSL writing
-AB: This study examined ChatGPT-4.0 as a feedback tool in Chinese as a Second Language writing instruction, focusing on writing performance and
-    writing self-efficacy. An eight-week quasi-experimental intervention was conducted with 53 intermediate-to-advanced CSL undergraduates in East
-    China. The experimental group received ChatGPT-assisted feedback during writing, while the control group relied on traditional teacher support. A
-    mixed-methods design was adopted, combining pre- and post-test writing assessments, questionnaire measures of self-efficacy, and follow-up
-    interviews. Findings indicated that students using ChatGPT showed significantly higher post-test writing scores and greater gains in writing
-    self-efficacy, particularly in ideation, conventions, and self-regulation. Regression analyses further suggested that ChatGPT use and post-test
-    self-efficacy were both associated with improved writing outcomes. Interview data revealed that learners valued the immediacy, availability, and
-    low-pressure nature of AI feedback, which appeared to support correction, idea development, self-monitoring, and confidence building, while also
-    raising concerns about overreliance and formulaic expression. Overall, the results suggest that ChatGPT may serve as a useful feedback resource in
-    CSL writing when implemented with structured guidance, teacher mediation, and attention to learner uptake of AI-generated feedback.
-
-### R00643 | 2026 | article/None | Lang: en
-TI: Transforming Lesson Planning with ChatGPT: A Multi-Case Study of Texas Pre-Service and In-Service Educators
-AB: This multi-case study explores how generative artificial intelligence (GenAI), specifically ChatGPT, influenced lesson planning in Texas teacher
-    education. In-service and pre-service teachers developed lesson plans, revised them using ChatGPT-generated suggestions, and reflected on the
-    benefits and challenges of AI integration. Pre- and post-intervention surveys were used to measure changes in attitude, perceived usefulness, ease
-    of use, behavioral intention, and actual use. Results indicated increases across all five constructs, with especially strong gains in actual use
-    and ease of use among pre-service teachers. Qualitative data revealed that teachers valued AI for enhancing lessons, offering additional
-    instructional ideas, and improving student engagement. In-service teachers emphasized time efficiency and alignment with classroom needs, while
-    pre-service teachers highlighted greater confidence and support during the planning process. Reported challenges included concerns about items
-    such as accuracy, overreliance, tool complexity, ethical use, and the lack of human connection. Cross-case findings suggest that GenAI tools can
-    support instructional planning when thoughtfully integrated and accompanied by professional development that reinforces teacher expertise.
-
-### R00644 | 2026 | article/None | Lang: en
-TI: College students' metacognitive awareness of generative-AI reliance: an experimental study of decision confidence and attribution bias
-AB: Introduction Generative AI is increasingly used by college students for explanation, evaluation, and decision support, raising the question of
-    whether perceived reliance accurately tracks the extent to which AI advice shapes final judgments. Methods In a three-condition between-subjects
-    experiment, 342 undergraduate students completed reasoning and information-evaluation tasks under independent decision-making, open multi-turn
-    ChatGPT support, or the same ChatGPT support with a brief metacognitive reflection prompt. Participants reported initial and final answers and
-    confidence, and AI-assisted chat logs were coded for the final recommendation, its correctness, and behavioral reliance. Results Open ChatGPT
-    support increased final confidence and was associated with 62.4% acceptance of incorrect AI advice. Reflection reduced incorrect-advice acceptance
-    to 39.7% (OR = 0.40, 95% CI [0.28, 0.56], p < 0.001), improved awareness calibration (0.59 vs. 0.41, p < 0.001), and reduced the attribution-bias
-    index (0.21 vs. 0.42, p = 0.002). Recommendation accuracy was comparable between the two AI-assisted groups. Discussion Brief metacognitive
-    reflection improved immediate discrimination between useful and misleading AI advice without producing blanket rejection of AI. The exploratory
-    association between calibration and overreliance is not interpreted as causal mediation, and the findings concern bounded academic decision tasks
-    rather than long-term learning.
-
-### R00645 | 2025 | article/None | Lang: en
-TI: The Impact of Using ChatGPT and Grammarly on developing Iraqi EFL University Students' Academic Essay Writing
-AB: Academic writing remains a significant challenge for Iraqi EFL (English as a Foreign Language) students due to limited exposure to authentic
-    English contexts and a lack of structured writing practice. Though, for these types of challenges, the results of baring of exposure authentic
-    English contexts and forms of writing practice have not appeared properly at their best. This case study evaluates the general effectiveness of
-    using ChatGPT and Grammarly, which are AI-based writing assistants, for the English as Foreign Language Iraqi undergraduate students to improve
-    academic writing. The study was carried out on 30 second-year students in the Department of English and involved a semester-long program on the
-    use of ChatGPT, such as for idea generation and text expansion and feedback improving, and Grammarly to correct grammar and improve style. As to
-    research methodology, this combined both quantitative and qualitative methods where pre- and post-tests were administered with a student survey
-    and instructor interviews to examine the improvement of coherence, cohesion, grammatical accuracy, and academic style. Results indicate students
-    improved considerably in composing structured writing of their essays-stringent grammar errors, and they are developing a more formal academic
-    tone. Qualitative feedback also highlighted other new trends, such as the rise of student confidence and autonomy in writing. However, several
-    adverse influences have been given, such as overreliance on the generation of AI-written content and failure in critical engagement with the
-    feedback. Importantly, the findings indicated that AI tools could be supplementary supplementary materials for Iraqi EFL learners to be applied
-    with direct writing instructions and critical thought strategies. This research contribution would supplement the increasing work done on
-    AI-assisted language learning, with the additional dimension of applicability added for EFL teachers in Iraq, looking for novel ways to improve
-    academic writing proficiency in students.
-
-### R00646 | 2025 | article/None | Lang: en
-TI: Integrating Generative AI (e.g., ChatGPT) as a Collaborative Writing Partner in an Academic English Course: A Pedagogical Study
-AB: Background. Traditional writing instruction often struggles to provide continuous feedback, individualized support, and opportunities for
-    iterative revision, leading to gaps in students’ development of critical thinking and academic discourse skills. Generative Purpose. This study
-    investigates the pedagogical impact of integrating ChatGPT as a collaborative writing partner in an Academic English course. Method. Employing a
-    mixed-methods design, the study involved 36 university students who participated in a six-week intervention consisting of guided writing tasks,
-    AI-supported drafting sessions, and reflective activities. Results. The findings indicate noticeable improvements in coherence, lexical precision,
-    and argumentative structure, accompanied by increased student confidence and metacognitive engagement. Participants viewed ChatGPT as a supportive
-    partner that enhanced idea generation and revision processes, although concerns regarding overreliance and critical evaluation emerged.
-    Conclusion. The study concludes that generative AI can serve as an effective pedagogical tool when integrated with explicit instruction and human
-    guidance.
-
-### R00647 | 2026 | article/None | Lang: en
-TI: Educator Perspectives on a Collaborative Integration of ChatGPT to Foster EFL Learner Autonomy in the Development of Speaking and Writing Skills
-AB: This paper repor ts on a collaborative teacher innovation that integrated ChatGPT into English as a Foreign Language (EFL) courses at a Japanese
-    junior college. Three instructors designed lesson sequences for three course strands, speaking, presentation, and writing in order to support
-    students preparing for study abroad. Each strand included a series of three ChatGPTmediated lessons that emphasized prompt literacy, reflective
-    learning, and ethical use of AI. Teacher reflections showed encouraging results: students were more engaged, motivated, and independent, and they
-    developed a more critical and confident approach to AI. Challenges included differences in digital skills, occasional overreliance on AI, and
-    technical limits of the free version of ChatGPT. Overall, the project demonstrates how cross-skill integration of ChatGPT can enhance student
-    confidence, academic performance, and ethical awareness, while helping teachers adapt to evolving AI technologies.
-
-### R00648 | 2026 | article/None | Lang: en
-TI: How students make sense of ChatGPT in digital literacy education: reflections on ethics, dependency, emotion, and evaluation
-AB: Generative AI tools such as ChatGPT are rapidly entering higher education and reshaping how students access, justify, and evaluate knowledge,
-    issues relevant to academic integrity and information governance. However, most studies focus on adoption, attitudes, or performance outcomes, and
-    fewer examine how students reflectively make sense of ChatGPT after structured digital literacy instruction, including how ethics, dependence,
-    emotion, and credibility evaluation intersect. This study analyzed 133 undergraduate self-reflection texts produced after a Digital Literacy
-    course at an Indonesian university. We conducted a qualitative content analysis using NVivo, combining prompt-guided coding with iterative
-    thematic abstraction to identify higher-order patterns across reflections. Three higher-order themes emerged, negotiated dependency captured
-    situational reliance on ChatGPT alongside efforts to retain authorship and learning autonomy. Ethical ambivalence described boundary-setting
-    around fairness, originality, and disclosure. Conditional trust reflected trust calibration through verification practices (e.g., cross-checking,
-    selective rewriting) and recognition that fluent outputs may be unreliable. Emotional responses, including reassurance, anxiety, and guilt, often
-    shaped the intensity of reliance and the likelihood of verification. Students did not uniformly treat ChatGPT as an epistemic authority; instead,
-    they calibrated their responsibility and trust in the face of uncertainty. The study’s novelty lies in conceptualizing AI literacy as “layered
-    positioning” across dependency, ethics, affect, and evaluative judgment, showing how these dimensions co-occur in students’ narratives rather than
-    operate separately. The findings support policy and curriculum design that make disclosure expectations explicit, teach verification routines, and
-    use reflective assessment to strengthen student agency in AI-mediated knowledge environments.
-
-### R00649 | 2025 | article/None | Lang: en
-TI: Use of ChatGPT among form Two Students in a Secondary School in Hulu Selangor: A Survey Method
-AB: This study investigates Form Two students’ perceptions of using ChatGPT as a pedagogical support tool in Malay language learning within a suburban
-    secondary school in Hulu Selangor. Motivated by concerns regarding students’ limited writing proficiency, uneven digital readiness, and the
-    emerging risks of unregulated generative AI use, the study examines three core aspects: students’ perceptions of ChatGPT, its role in enhancing
-    their understanding of instructional content, and its perceived influence on writing development. A descriptive survey design was employed, with a
-    five-point Likert-scale questionnaire administered to 120 students following three guided instructional sessions involving structured ChatGPT use.
-    Data were analysed using descriptive statistics, including means, standard deviations, and percentage distributions. Findings show consistently
-    positive perceptions across all constructs, with moderately high overall mean scores: perceptions toward ChatGPT (M = 25.56, SD = 6.148),
-    enhancement of instructional understanding (M = 25.43, SD = 6.307), and influence on writing skills (M = 26.28, SD = 6.552). Students reported
-    that ChatGPT improved comprehension of linguistic and literary elements, strengthened retention of instructional content, and supported clearer
-    organisation of ideas while enhancing confidence in writing. However, the analysis also revealed tendencies toward overreliance on AI-generated
-    suggestions, inconsistent fact-checking, and difficulty in interpreting deeper values, arguments, and contextual meanings without teacher
-    mediation. Overall, the study suggests that ChatGPT can function as an effective supplementary tool in Malay language instruction when embedded
-    within structured, teacher-mediated learning activities that cultivate critical reasoning, reflective writing, and responsible AI engagement. The
-    findings contribute to the growing body of evidence on AI-supported learning in Malaysian schools and highlight the need for context-sensitive
-    policies, equitable digital access, and explicit AI literacy frameworks to ensure ethical and pedagogically sound integration of generative AI.
-
-### R00650 | 2025 | article/None | Lang: en
-TI: Between Trust and Skepticism: Comparative Perceptions of ChatGPT in Academic Writing among EFL Learners in Indonesia and the Philippines
-AB: This study investigates the comparative perceptions of Indonesian and Philippine EFL students regarding the use of ChatGPT in academic writing,
-    focusing on the interplay between trust and skepticism. Employing a quantitative comparative research design with complementary qualitative
-    inputs, data were collected from 232 university students using a structured questionnaire consisting of 20 closed-ended items analyzed
-    quantitatively and two open-ended items analyzed qualitatively. Descriptive statistics and comparative analysis revealed that both groups
-    perceived ChatGPT positively as a tool that improves writing quality, coherence, and confidence. However, students also expressed ethical concerns
-    about plagiarism, overreliance, and authenticity. Filipino students tended to exhibit higher trust due to greater digital familiarity, while
-    Indonesian students demonstrated stronger skepticism rooted in institutional and moral caution. The findings highlight the coexistence of trust
-    and critical awareness, emphasizing the need for AI literacy education that integrates technological proficiency with ethical reflection. The
-    study contributes to global discussions on AI-assisted writing by contextualizing the phenomenon within Southeast Asian educational settings.
-
-### R00651 | 2025 | article/None | Lang: en
-TI: Enhancing Japanese EFL Students’ Grammar Accuracy and Writing Fluency Using ChatGPT: A Mixed-Method Study
-AB: This mixed-methods study investigated whether or not ChatGPT worked as a writing aid to increase the grammar accuracy and writing fluency of
-    Japanese EFL students. Thirty Japanese senior high school students took part in a six-week intervention that included ChatGPT in process-based
-    writing assignments. Three research questions were examined in the study: (1) How much does ChatGPT help learners become more accurate with
-    grammar? (2) What impact does ChatGPT have on writing fluency? (3) What role does ChatGPT play in the development of students' writing? Pre- and
-    post-tests evaluated using analytical rubrics yielded quantitative data. Grammar accuracy (t(29) = 8.62, p < 0.001, d = 1.11) and writing fluency
-    (t(29) = 6.46, p < 0.001, d = 0.84) both significantly improved, according to paired-samples t-tests. Three main themes emerged from qualitative
-    data from learner journals, semi-structured interviews, and classroom observations: ChatGPT as a grammar mentor, fluency development via iterative
-    rewriting, and growing concerns about overreliance. Students reported better coherence and flow in written texts, increased awareness of frequent
-    grammatical errors, and increased confidence in editing sentences. Results show that when ChatGPT is used as a scaffolded, process-oriented tool
-    rather than as a replacement for independent writing, it can support both linguistic accuracy and fluency. Students' worries about dependence,
-    however, emphasize the necessity of clear instruction in digital literacy. The study offers pedagogical implications for integrating AI
-    responsibly in Japanese and wider Asian EFL contexts and adds empirical evidence to the expanding body of research on AI-assisted EFL writing.
-
-### R00652 | 2026 | article/None | Lang: en
-TI: Adoption of ChatGPT in Academic Writing: College Students’ Perspectives, Attitudes and Behavioral Intentions as Basis for an AI Literacy Program
-AB: This study examined the perspectives, attitudes, and behavioral intentions of college students toward the use of ChatGPT in academic writing.
-    Anchored on the Technology Acceptance Model and the Theory of Planned Behavior, the study employed a mixed-methods descriptive–correlational
-    design using survey questionnaires and focus group discussions. The study was conducted among 152 college students at IQRA Development Academy
-    Inc. Results showed high perceived usefulness (M = 4.50), particularly in idea generation, writing improvement, and task efficiency. Perceived
-    ease of use was also high (M = 4.38), indicating that ChatGPT is accessible, although effective use requires skill in prompt construction.
-    Students demonstrated positive attitudes (M = 4.32) and favorable behavioral intentions (M = 4.25) toward using ChatGPT in academic writing.
-    Spearman’s rho revealed significant moderate positive relationships between behavioral intention and perceived usefulness (ρ = .511, p < .05) and
-    perceived ease of use (ρ = .489, p < .05). Qualitative findings supported the quantitative results. Students reported benefits such as improved
-    grammar, clearer organization of ideas, increased confidence, and time efficiency. However, concerns were raised regarding plagiarism,
-    overreliance, and the accuracy of AI-generated content. Participants emphasized the need for institutional guidance, training, and clear policies.
-
-### R00653 | 2025 | article/None | Lang: en
-TI: Investigating The Readiness and Satisfaction of Students and Lecturers For The Integration of Chatgpt in English Academic Writing at Ganesha
-    University of Education
-AB: The study explored the potential of ChatGPT as a learning tool in English language education, focusing on both students’ and lecturers’ readiness
-    and satisfaction. While both groups demonstrated a positive outlook toward the integration of ChatGPT into their learning processes, the research
-    highlighted various nuances in how each group interacted with the technology. Students showed a high degree of readiness in using ChatGPT for
-    basic tasks such as accessing information and enhancing their motivation for learning. However, their readiness for self-directed learning and
-    goal-setting was notably lower, indicating a need for further development in utilizing ChatGPT for more autonomous and personalized learning
-    experiences. This suggests that while ChatGPT can be a useful tool for structured learning, its role in fostering independent learning skills
-    needs to be strengthened. On the other hand, lecturers expressed strong confidence in using ChatGPT for academic purposes, especially in terms of
-    facilitating administrative tasks, grading, and providing additional learning resources. However, they voiced concerns about the potential
-    overreliance on technology, which could hinder the development of critical thinking skills in students. The lecturers stressed the importance of
-    integrating ChatGPT as a supplementary tool, rather than replacing traditional teaching methods that foster deep learning and personal engagement.
-    Thematic analysis of the responses also pointed out that while ChatGPT was appreciated for improving focus and accessibility, it raised concerns
-    about the loss of human interaction in the learning process. Students and lecturers both acknowledged the value of human mentorship, emotional
-    support, and personalized guidance, which ChatGPT could not fully replicate. Therefore, while ChatGPT holds promise for enhancing learning, its
-    integration should be approached with a balanced consideration of technological advantages and the irreplaceable role of human involvement in
-    education.
-
-### R00654 | 2026 | article/None | Lang: en
-TI: CHATGPT AS A DIGITAL MENTOR: A QUALITATIVE CASE STUDY OF CREATIVE WRITING DEVELOPMENT AMONG EFL UNIVERSITY STUDENTS IN INDONESIA
-AB: Despite the growing adoption of AI tools in higher education, limited studies have examined ChatGPT as a digital mentor in EFL creative writing
-    within Indonesian higher education contexts. This study aims to examine how ChatGPT facilitates EFL creative writing development among Sriwijaya
-    University students and to explore the challenges encountered. Employing a qualitative case study design, the research involved English Education
-    students who completed an open-ended questionnaire, followed by semi-structured interviews. The collected data were analyzed using thematic
-    analysis. The findings show that ChatGPT supported Creative Writing development in idea generation, structure quality, textual flow, and student
-    confidence and motivation. However, challenges including overreliance, originality concerns, mismatched responses, and ambiguity were also
-    identified. Theoretically, this study contributes to understanding AI-mediated constructivist learning in EFL contexts, emphasizing that ChatGPT's
-    effectiveness as a digital mentor depends on critical and reflective student engagement. These findings have practical implications for
-    integrating AI literacy and ethical considerations into EFL creative writing instruction.
-
-### R00655 | 2026 | article/None | Lang: en
-TI: Qualitative insights into EFL students’ use of ChatGPT-assisted autonomous learning for enhancing self-directed learning in Palestinian higher
-    education
-AB: This qualitative thematic study examines Palestinian EFL students’ perceptions of ChatGPT-assisted learning and its role in supporting autonomous
-    and self-directed learning in higher education. Drawing on semi-structured interviews with 30 undergraduate students from two Palestinian
-    universities, the study explores how learners engage with ChatGPT as a learning scaffold to manage academic tasks, clarify linguistic concepts,
-    and regulate learning beyond immediate teacher supervision. The findings indicate that students perceive ChatGPT as an accessible and responsive
-    tool that supports idea generation, comprehension, and language revision while enhancing confidence, motivation, and perceived control over
-    learning processes. At the same time, participants expressed critical concerns regarding overreliance on AI-generated output, potential
-    misinformation, reduced cognitive engagement, and the absence of human-mediated feedback. Importantly, students emphasized that AI-supported
-    autonomy is most effective when complemented by pedagogical guidance, ethical awareness, and critical reflection. Situated within the
-    resource-constrained and politically complex context of Palestinian higher education, the study argues that ChatGPT can facilitate self-directed
-    learning not as a replacement for instruction but as a contextually adaptive support mechanism. The article concludes by highlighting the need for
-    guided, theory-informed integration of AI tools that balances learner autonomy with instructional responsibility and proposes directions for
-    future research on AI-assisted language learning in constrained educational environments.
-
-### R00656 | 2026 | article/None | Lang: en
-TI: EXPLORING HOW CHATGPT SUPPORTS ACADEMIC SELF-EFFICACY: A FOCUS GROUP STUDY OF PREMIUM STUDENT USERS IN DENMARK
-AB: The rapid growth of generative artificial intelligence has trans-formed how university students search for information, understand course
-    materials, organize ideas, and complete academic tasks. Among these tools, ChatGPT has become increasingly prominent in higher education because
-    it can provide instant explanations, inter-active feedback, writing assistance, and brainstorming support. However, the educational value of
-    ChatGPT should not be viewed only in terms of efficiency. It is also important to examine whether sustained use of AI tools can strengthen
-    students’ academic self-efficacy, namely their belief in their ability to understand academic content, complete assignments, and manage learning
-    challenges. This study explores how ChatGPT supports academic self-efficacy among premium student users in Denmark. A qualitative descriptive
-    design was employed using two focus group discussions involving 11 bachelor students, all of whom were premium ChatGPT users with experience using
-    the platform for coursework, academic writ-ing, and simple academic projects. The findings show that ChatGPT was perceived as a supportive
-    academic companion that helped stu-dents clarify difficult concepts, initiate assignments, reduce anxiety in the early stages of writing, and
-    improve confidence in managing study tasks. At the same time, participants also expressed concerns about overreliance on AI, superficial
-    understanding, and reduced critical engagement. The study concludes that ChatGPT can strengthen academic self-efficacy when it is used as a
-    learning sup-port tool rather than a substitute for thinking. Its benefits depend on students’ digital maturity, learning intentions, and the
-    presence of pedagogical guidance. Higher education institutions should there-fore integrate AI literacy, ethical reflection, and self-regulated
-    learning strategies to ensure that generative AI supports students’ long-term academic development.
-
-### R00657 | 2025 | article/None | Lang: en
-TI: Leveraging ChatGPT to support terminology learning in oral anatomy: a mixed-methods study among linguistically diverse dental students
-AB: BACKGROUND: English-medium instruction (EMI) in health professional education presents linguistic barriers for non-native English-speaking
-    students, particularly in terminology-dense subjects like dental anatomy. While artificial intelligence (AI) has shown promise in educational
-    contexts, its application to support terminology learning among multilingual learners remains underexplored. This study evaluated the impact of
-    ChatGPT-assisted learning on terminology comprehension and student engagement among international dental students in Malaysia. METHODS: A
-    convergent mixed-methods pilot study was conducted with 35 Chinese international Year 1 and Year 2 dental students enrolled in an oral anatomy
-    course at SEGi University. Students completed pre- and post-intervention comprehension tests and engagement surveys. Over an eight-week period,
-    students used ChatGPT to clarify terminology and explore anatomical content. ChatGPT usage logs were analyzed, and post-intervention focus group
-    discussions were conducted. Quantitative data were analyzed using paired t-tests and Wilcoxon Signed-Rank Tests; qualitative data underwent
-    thematic analysis. RESULTS: Comprehension scores improved significantly post-intervention (mean increase = 5.7 points, p< 0.001; Cohen’s d =
-    1.91). Engagement scores also increased significantly (p < 0.001), reflecting enhanced autonomy and motivation. ChatGPT was used primarily for
-    term clarification (45%), function explanation (32%), and structural comparisons (23%). Thematic analysis revealed four key themes: (1) Clarity
-    and Confidence, (2) Self-Directed Learning, (3) Concerns About Accuracy and Overreliance, and (4) Ethical and Privacy Awareness. CONCLUSIONS:
-    AI-assisted terminology learning significantly improved comprehension and engagement among linguistically diverse dental students, aligning with
-    principles from Cognitive Load Theory (CLT) and Self-Determination Theory (SDT). However, ethical concerns—particularly around data privacy and
-    unchecked reliance—highlight the importance of faculty guidance and institutional oversight. These findings underscore the value of hybrid
-    AI-human approaches that are pedagogically sound, ethically responsible, and culturally adaptive.
-
-### R00658 | 2026 | article/None | Lang: en
-TI: Moroccan Secondary School Students’ Perceptions and Attitudes toward Using ChatGPT-Assisted Feedback to Improve English Speaking Skills
-AB: This study investigates Moroccan secondary school students’ perceptions of ChatGPT-assisted feedback in developing English speaking skills. It
-    adopts a qualitative research design and is grounded in the need to better understand how learners in underexplored EFL contexts engage with
-    generative AI tools for oral language development. The participants were 22 second-year Baccalaureate students (aged 17–18) from a public
-    secondary school in Sidi Bennour, Casablanca-Settat region, selected purposively based on prior experience using ChatGPT during a classroom-based
-    intervention. Data were collected through two focus group discussions conducted in classroom settings and facilitated in English and Moroccan
-    Arabic (Darija). The discussions were audio-recorded, transcribed verbatim, and translated into English. The data were analyzed using thematic
-    analysis following Braun and Clarke’s (2006) six-step framework, with an inductive coding approach. The findings indicate that students perceived
-    ChatGPT as a useful tool for enhancing speaking practice by increasing confidence, reducing speaking anxiety, and supporting idea generation and
-    vocabulary use through interactive feedback. However, participants also expressed concerns regarding the accuracy of responses, the risk of
-    overreliance, and the limited authenticity of human-like interaction. The study concludes that ChatGPT can serve as a supportive tool for speaking
-    development in EFL contexts when used critically and under guided pedagogical conditions. It contributes to the growing body of research on
-    AI-assisted language learning by providing empirical evidence from Moroccan secondary school learners.
-
-### R00659 | 2025 | article/None | Lang: en
-TI: MY NEW STUDY BUDDY: THE USE OF THE AI PLATFORM: CHATGPT OF STUDENTS IN ST. MARY’S COLLEGE INC. (QUEZON CITY)
-AB: ChatGPT is a widely used AI platform for generating both text and images. As of December 2023, it had 180.5 million users, with 3.49% coming from
-    the Philippines (Duarte, 2024). The growing use of AI is reshaping the educational landscape. While these tools can support learning, concerns are
-    emerging around academic integrity, skill development, and originality due to potential overreliance. Zhang et al. (2024) caution that excessive
-    use of AI may hinder critical thinking. Further research is needed to promote responsible and balanced integration of AI in education. This study
-    will utilize purposive sampling to identify participants who are active users of the artificial intelligence (AI) tool ChatGPT. By focusing on
-    individuals with direct experience using ChatGPT, the study ensures the data collected will be relevant of real-world applications of AI in
-    educational contexts. The participants for this study will consist of 5 senior high school students from St. Mary's College INC, Quezon City who
-    are part of the current senior high school batch. These students are known to regularly use AI tools, specifically ChatGPT, for their academic
-    tasks, such as essay writing, research, and problem-solving. Participants will be selected based on their familiarity with AI and their
-    willingness to participate in the study. What factors lead students to prefer AI-generated input over creating their own original work? • For
-    references, structure, or guide • Limited time • Trust in AI’s accuracy • AI as a tutor • Class Absences • Reducing workload • Perceived
-    Efficiency and Convenience • To maintain Academic Confidence and Performance. How does the availability and convenience of AI tools impact
-    students’ choice to use them over creating original content? • Very instant during times where schedule is cramped and when time is minimal • AI
-    is able to proofread tasks, especially research papers • Reduces stress and information overload. How do time pressures and academic demands
-    influence students’ tendency to use AI for writing support? • Using AI allocates more time for other tasks • Using AI also gives the sense of
-    relief • Reduces time on doing schoolworks which gives them a more manageable schedule. • Although reduces critical or creative thinking ChatGPT
-    fulfills the academic needs of students, especially those who dealt with a pileup of multiple works. Because of the mentioned factors—excessive
-    workload, minimal time, or absences from classes—students are moved to use ChatGPT as it’s their only recourse.
-
-### R00660 | 2026 | article/None | Lang: en
-TI: ChatGPT’s Adverse Impact on Real Estate Finance: Assessing Graduate Student Attitudes on the Use of GenAI and Its Detrimental Effects on Student
-    Performance
-AB: Real estate finance has been slow to adopt new technologies, but the influence of generative artificial intelligence (GenAI) on industry practice
-    and education now appears inevitable. Graduates of real estate development programs without exposure to cutting-edge tools may therefore be
-    unprepared for the workplace. We examined the role of GenAI in teaching master’s students a challenging, essential learning objective:
-    constructing a joint venture waterfall. We investigated the utility and shortcomings of the GenAI tool ChatGPT as a learning aid for a relevant
-    assignment and explored students’ reflections on classroom learning prior to entering the industry. We found that while assignment scores were
-    similar across groups, students who used ChatGPT performed worse on follow-up assessments than those who received traditional instruction, despite
-    reporting similar confidence levels. These results suggested that the tool hindered conceptual learning and distorted student perceptions of
-    mastery. Both groups found GenAI useful but raised concerns about accuracy, overreliance, and academic integrity, emphasizing the importance of
-    educational guardrails. Our results indicate that GenAI supports task completion but may be detrimental to learning. Furthermore, our study
-    exposed students to questions about ethical and accurate use of GenAI that may help them become more effective learners, job candidates, and
-    professionals.
-
-### R00661 | 2026 | article/None | Lang: en
-TI: The Perceived Impact of AI-Assisted Writing Tools on Writing Autonomy, Confidence, and Creativity Among Cambodian First-Year University Students:
-    A Quantitative Study
-AB: This study aimed to investigate the perceptions of Cambodian first-year university students regarding their use of AI-assisted writing tools
-    (e.g., ChatGPT, Grammarly, QuillBot) and the impact on their writing autonomy, confidence, motivation, creativity, critical thinking, and
-    experience with AI-assisted writing tools in their academic writing. First-year university English major students ( n = 77) were randomly invited
-    to participate in this study. Descriptive statistics, Pearson correlation coefficients, and hierarchical multiple regression analyses were
-    conducted using the Statistical Package for the Social Sciences (SPSS) version 27. The results from the analysis indicated that AI-assisted
-    writing tools support students’ writing autonomy, confidence, motivation, and critical thinking/creativity. However, 77.92% of students expressed
-    their concerns regarding overreliance, which potentially weakens their independent writing skills. A significant majority (83.12%) believed that
-    AI should complement, not replace, teacher feedback. The results from correlation analysis revealed positive relationships among all variables,
-    with the recognition of AI's limitations strongly predicting students’ perception of using AI in writing. Hierarchical multiple regression
-    analysis further revealed that the perceived AI enhances critical/creative thinking, confidence/motivation, and the students’ awareness of
-    challenges and limitations of AI-assisted writing tools positively predict their perceptions of using AI in academic writing. These findings
-    underscore the importance of developing AI literacy and integrating AI to enhance learning by balancing pedagogical strategies that foster
-    independent writing and critical thinking skills.
-
-=== END OF BATCH b014 (45 records) ===
+=== END OF BATCH b014 (50 records) ===

@@ -1,0 +1,678 @@
+BATCH b010 -- 50 records: R00451 .. R00500
+
+### R00451 | 2026 | article/None | Lang: en
+TI: GuardMLLM: Overconfidence-Aware Dynamic Fusion for Early Outcome Prediction
+AB: Early outcome prediction for intensive care unit (ICU) patients using multimodal electronic health records (EHRs) is crucial for timely
+    intervention and resource allocation. Recent methods for clinical reasoning on EHRs using large language models (LLMs), which involve textualizing
+    structured data and concatenating it with unstructured data for reasoning. However, these methods lose information about numerical trends because
+    they convert structured data into static text. Furthermore, LLMs often exhibit overconfidence, producing highly certain but unreliable
+    predictions. To address these issues, we propose GuardMLLM, a dynamic fusion framework that perceives overconfidence for multi-tasking early ICU
+    outcome prediction.Specifically, GuardMLLM learns complex temporal relationships from structured data through temporal modeling and aggregation.
+    Simultaneously, it transforms structured data into clinical narratives containing trend information and combines this with unstructured data. Task
+    prediction is then performed using an LLM clinical inference engine. Furthermore, we designed a multi-indicator overconfidence detector and
+    applied temperature calibration to quantify and correct unreliable LLM confidence. An adaptive, gated dynamic fusion module balances temporal
+    representations and LLM-derived inference features to suppress LLM overconfidence.We verify our method on two large public medical datasets,
+    Medical Information Mart for Intensive Care and Collaborative Research Database. Experimental results show that our method improves performance on
+    tasks such as predicting patient mortality and ICU length of stay, and effectively alleviates overconfidence in LLM.
+
+### R00452 | 2026 | article/None | Lang: en
+TI: Confidence-aware semantic–numerical fusion via selective prediction for mutual fund style classification
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00453 | 2026 | preprint/None | Lang: en
+TI: EMRE: Epistemic Confidence Calibration in BDI Agents via RLHF and Mixture of Experts
+AB: This paper presents EMRE (Epistemic Mixture of Reinforced Experts), an epistemic calibration component for BDI agents that learns when to trust
+    the LLM sensor for a specific tenant. The problem: LLMs deployed as typed sensors in BDI architectures assign confidence scores agnostic to the
+    tenant's document distribution. A new tenant and one with 500 months of history both receive confidence=0.95 — structurally incorrect. EMRE
+    combines a Mixture of Experts architecture (per-type k-NN experts over OpenAI text-embedding-3-large, 3072 dimensions) with a per-tenant gating
+    network trained via RLHF. Reward signals derive from EVR Gate outcomes (automatic) and human reviewer verdicts (RLHF) — no labeled dataset
+    required. Main contributions: 1. EMRE architecture: k-NN experts with adaptive per-tenant gating updated by bandit gradient ascent. 2. Learning
+    Boundary Theorem: formal proof that EMRE training preserves all five HADD invariants unconditionally. The BDI engine, HTN planner, and Tribunal
+    remain deterministic regardless of how many documents EMRE has processed. 3. Adaptive escalation threshold τ(n): automatically calibrates human
+    oversight as tenant history accumulates. From τ=0.95 at n=0 to τ=0.80 at n≥100. 4. Production validation: 31 legal documents (actas de
+    disconformidad), mode transition cold_start→knn at n=10, τ=0.903 at n=31, ECR=0.0, embeddings verified at 3072 dims in PostgreSQL. To our
+    knowledge, this is the first application of RLHF with a MoE architecture to the epistemic boundary of a formally verified deterministic BDI
+    system, positioning MINERVA as a Kautz Type-2 neurosymbolic agent that is simultaneously adaptive and certifiable under EU AI Act Article 9.
+    Implemented and validated in production as part of the MINERVA HADD architecture.
+
+### R00454 | 2026 | preprint/None | Lang: en
+TI: Adaptive Hierarchical Confidence Estimation for Claim-Level Hallucination Detection in Retrieval-Augmented Generation Systems
+AB: Retrieval-Augmented Generation (RAG) has significantly improved the factualreliability of Large Language Models (LLMs) by grounding generated
+    responses inexternally retrieved evidence. Despite these advances, hallucinations remain acritical challenge due to retrieval failures,
+    long-context limitations, andparametric memory override, where language models generate unsupportedinformation despite the presence of relevant
+    evidence. Existing post-hochallucination detection methods commonly evaluate entire responses using staticconfidence aggregation strategies,
+    making them susceptible to error dilution andpoor confidence calibration. This paper proposes Adaptive Hierarchical Confidence Estimation (AHCE),
+    alightweight, model-agnostic framework for claim-level hallucination detection inRetrieval-Augmented Generation systems. Unlike conventional
+    response-levelverification methods, AHCE decomposes generated responses into atomic factualclaims and performs fine-grained evidence verification
+    for each claimindependently. To support long-context retrieval scenarios, the frameworkintroduces span-level context windowing, enabling efficient
+    Natural LanguageInference (NLI) verification without requiring expensive long-context languagemodels. AHCE integrates multiple complementary
+    confidence signals, including semanticentailment, lexical grounding, embedding similarity, and native generatoruncertainty derived from
+    token-level log probabilities. Rather than relying onmanually selected confidence weights, these heterogeneous signals are fused by asupervised
+    meta-classifier that learns adaptive confidence estimation acrossdiverse query types. Finally, probability calibration produces reliableconfidence
+    estimates suitable for deployment-oriented abstention decisions. AHCE unifies claim-level verification, evidence localization, adaptive fusion,and
+    calibrated uncertainty estimation in a single post-hoc pipeline that requiresno fine-tuning of the underlying model. We empirically validate AHCE
+    on theRAGTruth hallucination-detection benchmark under a strict fit-on-development /evaluate-on-held-out protocol, and further show that the
+    efficiency of thehierarchical Dual-NLI cascade generalizes to a second, independently constructedbenchmark (HaluEval): across both datasets the
+    confidence-triggered cascadematches the accuracy of always-run single- and dual-NLI ensembles withinstatistical noise while using roughly 3x less
+    NLI compute. In the interest ofscientific transparency, we also report the components whose gains do notgeneralize out-of-sample (Section 4).
+
+### R00455 | 2026 | preprint/None | Lang: en
+TI: Beyond Binary Verdicts: Aleatoric Uncertainty Quantification in Agentic CI/CD Quality Pipelines
+AB: Continuous integration pipelines that rely on LLM-based quality agents produce binary pass/fail verdicts that discard the probabilistic
+    uncertainty inherent in model inference. This paper extends the K11tech Agentic AI QA System with six uncertainty-aware features (F1–F6) that
+    propagate per-agent confidence through the pipeline and expose it to human reviewers in a principled way. The contributions are: (F1) per-agent
+    confidence scoring via verbally elicited LLM self-assessment; (F2) weighted aggregation of agent scores into a pipeline-level uncertainty score;
+    (F3) verdict downgrading — automatically converting PASS verdicts to PASS_UNCERTAIN when confidence falls below a calibrated threshold; (F4) a
+    second HITL escalation path triggered by high uncertainty rather than breaking-change detection alone; (F5) isotonic regression recalibration of
+    raw LLM confidence scores against historical ground truth; and (F6) correlation-aware aggregation that discounts redundant agent signals using a
+    learned inter-agent correlation matrix. Evaluation on a 120-PR synthetic dataset calibrated to empirical agent accuracy distributions demonstrates
+    that the combined features reduce unnecessary HITL escalation by 18% compared to a binary-verdict baseline while maintaining a false negative rate
+    below 0.10, with isotonic recalibration reducing expected calibration error from 0.14 to 0.06. Keywords: Agentic AI, Uncertainty Quantification,
+    Aleatoric Uncertainty, Conformal Prediction, CI/CD, Human-in-the-Loop, LLM Calibration, API Contract Testing, Software Quality Assurance,
+    LangGraph
+
+### R00456 | 2026 | article/None | Lang: en
+TI: BayesAdapter: Enhanced Uncertainty Estimation in CLIP Few-Shot Adaptation
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00457 | 2026 | preprint/None | Lang: en
+TI: Beyond Binary Verdicts: Aleatoric Uncertainty Quantification in Agentic CI/CD Quality Pipelines
+AB: Continuous integration pipelines that rely on LLM-based quality agents produce binary pass/fail verdicts that discard the probabilistic
+    uncertainty inherent in model inference. This paper extends the K11tech Agentic AI QA System with six uncertainty-aware features (F1–F6) that
+    propagate per-agent confidence through the pipeline and expose it to human reviewers in a principled way. The contributions are: (F1) per-agent
+    confidence scoring via verbally elicited LLM self-assessment; (F2) weighted aggregation of agent scores into a pipeline-level uncertainty score;
+    (F3) verdict downgrading — automatically converting PASS verdicts to PASS_UNCERTAIN when confidence falls below a calibrated threshold; (F4) a
+    second HITL escalation path triggered by high uncertainty rather than breaking-change detection alone; (F5) isotonic regression recalibration of
+    raw LLM confidence scores against historical ground truth; and (F6) correlation-aware aggregation that discounts redundant agent signals using a
+    learned inter-agent correlation matrix. Evaluation on a 120-PR synthetic dataset calibrated to empirical agent accuracy distributions demonstrates
+    that the combined features reduce unnecessary HITL escalation by 18% compared to a binary-verdict baseline while maintaining a false negative rate
+    below 0.10, with isotonic recalibration reducing expected calibration error from 0.14 to 0.06.
+
+### R00458 | 2026 | preprint/None | Lang: en
+TI: Beyond Binary Verdicts: Aleatoric Uncertainty Quantification in Agentic CI/CD Quality Pipelines
+AB: Continuous integration pipelines that rely on LLM-based quality agents produce binary pass/fail verdicts that discard the probabilistic
+    uncertainty inherent in model inference. This paper extends the K11tech Agentic AI QA System with six uncertainty-aware features (F1–F6) that
+    propagate per-agent confidence through the pipeline and expose it to human reviewers in a principled way. The contributions are: (F1) per-agent
+    confidence scoring via verbally elicited LLM self-assessment; (F2) weighted aggregation of agent scores into a pipeline-level uncertainty score;
+    (F3) verdict downgrading — automatically converting PASS verdicts to PASS_UNCERTAIN when confidence falls below a calibrated threshold; (F4) a
+    second HITL escalation path triggered by high uncertainty rather than breaking-change detection alone; (F5) isotonic regression recalibration of
+    raw LLM confidence scores against historical ground truth; and (F6) correlation-aware aggregation that discounts redundant agent signals using a
+    learned inter-agent correlation matrix. Evaluation on a 120-PR synthetic dataset calibrated to empirical agent accuracy distributions demonstrates
+    that the combined features reduce unnecessary HITL escalation by 18% compared to a binary-verdict baseline while maintaining a false negative rate
+    below 0.10, with isotonic recalibration reducing expected calibration error from 0.14 to 0.06.
+
+### R00459 | 2026 | article/None | Lang: en
+TI: Voxeland: Probabilistic instance-aware semantic mapping with evidence-based uncertainty quantification
+AB: Robots in human-centered environments require accurate scene understanding to perform high-level tasks effectively. This understanding can be
+    achieved through instance-aware semantic mapping, which involves reconstructing elements at the level of individual instances. Neural networks,
+    the de facto solution for scene understanding, still face limitations such as overconfident incorrect predictions with out-of-distribution objects
+    or generating inaccurate masks. Placing excessive reliance on these predictions makes the reconstruction susceptible to errors, reducing the
+    robustness of the resulting maps and hampering robot operation. In this work, we propose Voxeland, a probabilistic framework for incrementally
+    building instance-aware semantic maps. Inspired by the Theory of Evidence, Voxeland treats neural network predictions as subjective opinions
+    regarding map instances at both geometric and semantic levels. These opinions are aggregated over time to form evidence, and are formalized
+    through a probabilistic model. This enables us to quantify uncertainty in the reconstruction process, facilitating the identification of map areas
+    requiring improvement (e.g. reobservation or reclassification). As a possible strategy to exploit this uncertainty quantification, we incorporate
+    a Large Vision-Language Model (LVLM) to perform semantic level disambiguation for instances with high uncertainty. Results from the standard
+    benchmarking on the publicly available SceneNN dataset demonstrate that Voxeland outperforms state-of-the-art methods, highlighting the benefits
+    of incorporating and leveraging both instance- and semantic-level uncertainties to enhance reconstruction robustness. This is further validated
+    through qualitative and quantitative experiments conducted on the real-world ScanNet dataset.
+
+### R00460 | 2026 | preprint/None | Lang: en
+TI: Meaning-Dependent Judge Sensitivity Changes the Minimax Rate of Semantic Entropy
+AB: Semantic entropy, the entropy of the meanings among a language model's sampled answers, is estimated from noisy pairwise judgments. Its minimax
+    theory assumes a judge that recognizes every meaning equally well. We show that a meaning-dependent sensitivity changes the minimax rate even when
+    it is known exactly and the judge recognizes every meaning at least as well as a homogeneous one. Two answers with meaning \( c \) are declared
+    equivalent with probability \( q+\Delta w_c \), two with different meanings with probability \( q \), where \( q \) is bounded away from 0 and 1
+    and the number \( K\ge3 \) of meanings is fixed. For almost every sensitivity profile \( w \), the entropy is uniformly consistently estimable
+    exactly when \( N:=n^{2K-1}\Delta^{4K-4}\to\infty \): for \( \Delta=n^{-\beta} \) the threshold falls from \( \beta<K/(2K-2) \) for a homogeneous
+    judge to \( \beta<(2K-1)/(4K-4) \), that of such a judge on \( 2K-1 \) meanings, and from 3/4 to 5/8 for three meanings. On every fixed polynomial
+    window \( n\Delta^2\le n^{-\kappa} \) the minimax squared risk is of order \( \min\{1,N^{-1/(2K-1)}\} \). Star statistics computable in \( O(n^2K)
+    \) time and a projection attain this rate through a weighted entropy modulus with optimal exponent \( 1/(2K-1) \). The lower bound uses a
+    moment-preserving path near the interior point \( \theta\propto1/w \), along which the judge's channel moves with the distribution.
+
+### R00461 | 2026 | article/None | Lang: en
+TI: Enhancing design of experiments through uncertainty estimation and synthetic data generation
+AB: Design of Experiments is a key methodology for optimizing machine learning models, but traditional methods often depend on extensive real data
+    collection, which is costly and time-consuming. Moreover, predefined experimental designs may struggle at adapting to complex or high-dimensional
+    input spaces, sometimes leading to inefficient exploration, especially when data are scarce and uncertainty is high. To address these challenges,
+    we propose a methodology that integrates uncertainty estimation with synthetic data generation. First, we evaluate several uncertainty estimators
+    (Gaussian Process, Monte Carlo Dropout and Tree-based ensembles) which identify the input regions where the current model is most uncertain. Next,
+    we analyze different generative models (Variational Autoencoders, Generative Adversarial Networks, and Large Language Models) trained under
+    varying levels of data availability (from only 10% of the real dataset up to full data), to test their robustness in extreme scarcity conditions.
+    Finally, we combine the best uncertainty estimator with the most reliable generative model in a hybrid active learning pipeline. Beyond the
+    standard setting, we systematically vary the number and proportion of synthetic versus real samples, showing how the mixture affects predictive
+    accuracy and uncertainty reduction. Results of the experimentation show that Gaussian Process uncertainty estimation outperforms other tested
+    methods under extreme data scarcity, and that Variational Autoencoders produce the most stable synthetic samples with as little as 10% of the real
+    data used for training. The full hybrid loop (Gaussian Process + Variational Autoencoder) achieves similar R 2 to baselines while driving down
+    uncertainty significantly faster, offering a data-efficient strategy for costly experimental contexts.
+
+### R00462 | 2025 | article/None | Lang: en
+TI: Multimodal out-of-distribution individual uncertainty quantification enhances binding affinity prediction for polypharmacology
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00463 | 2026 | article/None | Lang: en
+TI: InsightSwarm: A Multi-Agent Adversarial Framework for Automated Fact-Checking with Real-Time Source Verification, Human-in-the-Loop Oversight, and
+    Adaptive Confidence Calibration
+AB: he rapid spread of misinformation on social and digital media demands automated fact-checking systems that are accurate, calibrated, and
+    transparent. Existing approaches — single large-language-model (LLM) classifiers and rule-based systems — suffer from source hallucination rates
+    of 15 to 30 percent and provide no visibility into their reasoning process. We present InsightSwarm, a production-grade multi-agent fact-checking
+    system built on five concrete contributions: (1) adversarial debate between role-locked ProAgent and ConAgent, each backed by real-time web source
+    retrieval; (2) a multi-layer FactChecker pipeline that independently fetches and validates every cited URL, reducing source hallucination to below
+    3 percent; (3) Human-in-the-Loop (HITL) intervention via LangGraph interrupt semantics enabling mid-pipeline human source correction through a
+    live React panel; (4) adaptive confidence calibration using geometric-mean source trust scoring to correct systematic underconfidence; and (5)
+    claim complexity estimation that dynamically adjusts debate depth and resource allocation. Evaluated on a 100-claim FEVER-derived benchmark,
+    InsightSwarm achieves an F1 score of 0.81 versus 0.68 for a zero-shot LLM baseline and 0.56 for a keyword baseline. The full system is open-source
+    and available at https://github.com/AyushDevadiga1/Insight-Swarm.
+
+### R00464 | 2026 | article/None | Lang: en
+TI: AI-Generated Text Detection via Structural and Semantic Entropy Optimization with Adversarial Learning
+AB: AI-generated text detectors often achieve high in-domain accuracy but remain sensitive to changes in domain, generator, and writing style. This
+    limitation partly arises because conventional detectors rely predominantly on latent language-model representations and fixed decision boundaries,
+    without explicitly characterizing sample-level structural and semantic variation. We introduce S2E-AL, an end-to-end score-aware
+    structure–semantic entropy adversarial learning framework for AI-generated text detection. S2E-AL encodes local dependency, global contextual, and
+    semantic entropy features into a structure–semantic representation. A gradient-reversal source classifier discourages this representation from
+    retaining source-specific information, while a score-aware threshold estimator conditions on both the entropy representation and a detached
+    base-detector logit to produce a sample-specific logit adjustment. The adjusted logit is used to estimate the final probability that a text is
+    AI-generated. Across HC3, HC3_Plus, LLMTrace, RAID, and XSum, the score-aware model achieved a macro Accuracy of 90.90% and a macro F1-score of
+    91.42%. Its performance remained lower on XSum, indicating that substantial domain and stylistic shifts remain challenging. These results suggest
+    that jointly modeling structure–semantic variation and detector confidence can improve the overall performance–stability trade-off of AI-generated
+    text detection across heterogeneous test distributions.
+
+### R00465 | 2026 | article/None | Lang: en
+TI: Uncertainty-Driven Selective Prediction with Auditable Human Deferral for EEG Decoding of Participant-Rated Occupational Risk
+AB: Large-language-model (LLM) layers are increasingly appended to electroencephalography (EEG) decoders, although their decision contribution is
+    often unclear. We evaluate an uncertainty-driven architecture in which a calibrated EEG classifier predicts participants’ own four-level
+    occupational-risk keypress ratings, a deterministic rule either retains or defers a prediction, and a template or optional LLM renders an
+    auditable report. The objective is not to replace a previously published classifier benchmark on the shared EEG archive, but to evaluate
+    downstream decisions from a fixed frozen-representation decoder. The analysis used 2634 response-inclusive 3 s epochs from 31 retained workers.
+    Subject-grouped three-fold evaluation yielded balanced accuracy of 0.6336 (95% CI 0.5745–0.6622) and accuracy of 0.6875. Peak probability
+    distinguished correct from incorrect predictions only moderately (AUC 0.6529), and the coverage-risk relationship was non-monotonic. At tau = 0.5,
+    71.49% of trials were retained (balanced accuracy of 0.6829); with illustrative under-estimation/over-estimation/deferral costs of 5/0.5/1,
+    normalized cost fell from 0.5816 to 0.5363, but sensitivity analysis showed that benefit depends on the cost setting and threshold. A rule engine
+    reproduced all evaluated LLM risk/deferral decisions, while a deterministic template matched the prespecified reporting checks; therefore, no
+    decision-performance advantage of the LLM was demonstrated. The study supports cross-participant prediction within the shared experimental
+    setting, not stimulus-disjoint generalization or objective workplace-risk prediction. Because response timestamps and actual supervisor decisions
+    were unavailable, motor/visual confounding cannot be excluded and the human handoff remains a simulated policy rather than a human–AI team
+    evaluation.
+
+### R00466 | 2025 | preprint/None | Lang: en
+TI: Overconfidence without Understanding: AI Explanations Increase the Illusion of Explanatory Depth
+AB: The Illusion of Explanatory Depth (IOED), i.e., the tendency to overestimate the coherence and depth of one’s understanding, tends to increase
+    when people search for explanations online. However, it is less clear whether this applies to information obtained from AI chatbots. We tested
+    whether receiving information from a chatbot magnifies IOED and how it affects the quality of participants’ explanations. University students (N =
+    102) were presented with four questions and predicted how well they could explain them. However, the GPT group preliminarily asked for
+    explanations a custom version of ChatGPT and received pre-controlled answers; the no-GPT group received the same texts directly; the control group
+    received no materials. Afterward, they wrote their explanations and rated them. Results showed the biggest difference between the initial
+    prediction and subsequent self-evaluation in the GPT group. Moreover, coder evaluations and text analysis measures, including length, lexical
+    diversity, and semantic similarity, revealed that GPT group produced less accurate explanations than no-GPT group.
+
+### R00467 | 2026 | article/None | Lang: en
+TI: Is the Sampling Temperature the Agent’s Decision State? A Reference-Based Indicator and Its Comparison with Entropy, Calibration and Semantic
+    Entropy
+AB: Operators of large language model (LLM) agents control reliability mainly through the sampling temperature, yet the temperature that governs an
+    agent’s choices may differ from the one that was set. We define the effective decision temperature, Teff, as the temperature at which an agent’s
+    chosen tokens are best explained by a reference valuation computed on a clean copy of the context and state when it is identified. Using a
+    synthetic agent and four open-weight models from three families on ordered-list tasks with a planted off-path attractor of graded strength, we
+    test three hypotheses and compare Teff with token entropy, confidence, expected calibration error (ECE) and a discrete semantic entropy. Accuracy
+    rose and then fell with temperature for attractors of intermediate strength, peaking near T = 2 to 2.5 on the alphabet task, whereas weak
+    attractors declined monotonically. Pressure raised Teff in Qwen2.5-3B (5 of 7 identified matched cells) but not in Llama-3.2-3B (1 of 8);
+    contamination had little effect. As a detector of distorted contexts, Teff flagged 6 of 15 pressured cells, against 10 of 16 for entropy and 13 of
+    16 for label-dependent ECE. All label-free indicators computed from the agent’s own history missed fully locked-in trajectories, whereas a
+    reference computed on a de-duplicated history, which needs no labels, flagged all 25 locked cells. Teff is best treated as a model-specific
+    diagnostic, not a general-purpose monitor. In a revision study with four further small models (from 0.5 to 1.7 billion parameters, three families,
+    one inference stack), three wordings of each distortion, full-vocabulary generation and entailment-clustered semantic entropy, Teff again did not
+    outperform simpler indicators, and with six choices per trajectory its 95% interval spanned a median factor of about 9.
+
+### R00468 | 2026 | article/None | Lang: en
+TI: NephroTox AI: an explainable machine learning framework with uncertainty quantification for drug-induced nephrotoxicity prediction
+AB: Drug-induced kidney injury remains a major cause of clinical-stage drug attrition, yet computational nephrotoxicity prediction is hampered by
+    fragmented datasets, opaque models lacking mechanistic interpretability, the absence of uncertainty quantification, and the lack of publicly
+    available prediction platforms. Here, we curated a dataset of 2,157 compounds from three sources with deduplication and label harmonization, and
+    benchmarked 28 model–descriptor combinations (7 algorithms × 4 descriptor types) to identify Random Forest with RDKit 2D descriptors as the best
+    performer (validation AUC 90.7%, test AUC 89.6%). A four-tier uncertainty quantification system based on tree variance enabled confidence-aware
+    filtering: restricting evaluation to high- and medium-confidence predictions (21.7% coverage, ~54 of 247 compounds) yielded an external AUC of
+    90.2% versus 72.7% on the full set, with 88.3% of false negatives and 94.5% of false positives concentrated in the discarded low-confidence tiers.
+    SHapley Additive exPlanations analysis identified charge (MaxPartialCharge), molecular complexity (BertzCT), and molecular weight as the top
+    predictive features—descriptors whose physicochemical relevance to renal handling has been established in prior pharmacokinetic studies, though
+    their SHAP contributions reflect statistical associations rather than pathway-specific attributions. Applying the model to 11,093 DrugBank
+    compounds yielded 59 high-confidence nephrotoxic candidates, including cisplatin, colistin, and methotrexate. Network pharmacology identified
+    candidate convergent targets (e.g., OAT1, AKT1, and CASP3) along an accumulation–signaling–apoptosis cascade, explored by molecular docking. The
+    complete computational pipeline is implemented as NephroTox AI, a public web application available at https://lishulab.mpu.edu.mo/nephrotox ,
+    integrating prediction, interpretable explanations, confidence labeling, and LLM-powered conversational assistance to facilitate safer drug design
+    and risk assessment. Scientific contribution This work advances computational nephrotoxicity prediction through five integrated contributions: (1)
+    a curated multi-source dataset of 2,157 compounds with traceable annotation provenance; (2) a systematic benchmark of 28 model–descriptor
+    combinations establishing RF_RDKit as the optimal classifier; (3) a four-tier uncertainty quantification system enabling confidence-aware
+    applicability domain definition (external AUC 90.2% at 21.7% coverage versus 72.7% unfiltered); (4) convergence of SHAP interpretability with
+    network pharmacology and molecular docking to propose a mechanistic accumulation–signaling–apoptosis cascade hypothesis; and (5) NephroTox AI, to
+    our knowledge the first publicly available nephrotoxicity-focused web platform to integrate ML prediction, SHAP-based interpretability, tier-based
+    uncertainty quantification labeling, and LLM-powered conversational explanation within a single deployment.
+
+### R00469 | 2025 | article/None | Lang: en
+TI: Folding-Based End-To-End Chemical Drug Design with Uncertainty Estimation: Tackling Hallucination in the Post-GPT Era
+AB: In the post-GPT era, Llama-Gram represents a promising advancement in AI-driven chemical drug discovery, grounded in the chemical principle that
+    molecular structure determines properties. This folding-based end-to-end framework seeks to address the hallucination issues of traditional large
+    language models by integrating protein folding embeddings, graph-based molecular representations, and uncertainty estimation to better capture the
+    structural complexities of protein-ligand interactions. By leveraging the frozen-gradient ESMFold model and a Graph Transformer variant,
+    Llama-Gram aims to enhance predictive accuracy and reliability through grouped-query attention and a Gram layer inspired by support points theory.
+    By incorporating protein folding information, the model demonstrates competitive performance against state-of-the-art approaches such as
+    Transformer CPI 2.0 and Graph-DTA, offering improvements in compound-target interaction. Llama-Gram provides a scalable and innovative chemical
+    theory that could contribute to accelerating the chemical drug discovery process.
+
+### R00470 | 2025 | article/None | Lang: en
+TI: Reasoning-based uncertainty estimation for scalable multidimensional media bias annotation: A benchmark across diverse media spaces
+AB: Media bias significantly shapes public perception by reinforcing stereotypes and exacerbating societal divisions. Prior research has often focused
+    on isolated media bias dimensions such as political bias or racial bias , neglecting the complex interrelationships among various bias dimensions
+    across different topic domains. Moreover, models trained on existing media bias benchmarks exhibit substantial performance degradation when
+    applied to recent social media content. This shortfall primarily arises because these benchmarks do not adequately reflect the rapidly evolving
+    nature of social media content, which is characterized by shifting user behaviors and emerging trends. To this end, we introduce a new dataset
+    collected from YouTube and Reddit over the past five years. To efficiently and reliably annotate our collected dataset, we propose U ncertainty E
+    stimation-guided A nnotation R efinement ( UEAR ), a novel human-LLM collaborative annotation scheme. UEAR estimates the uncertainties of
+    LLM-based annotations through a two-way reasoning process and refines uncertain annotations from LLM with human inputs. Our final dataset contains
+    human-LLM joint annotations of YouTube and Reddit content across multiple bias dimensions (e.g., gender, racial) and diverse topic domains (e.g.,
+    politics, sports), capturing the complex interplay of biases across societal sectors. We evaluate the annotation performance of UEAR on a manually
+    annotated test set, demonstrating that UEAR can reliably generate multidimensional bias identification annotations with a 0.9082 macro F1 score,
+    with limited human refinement. Through our statistical analysis of the generated annotations, we identify significant differences in bias
+    expression patterns and intra-domain bias correlations across different domains. The code and data are made publicly available.
+
+### R00471 | 2026 | preprint/None | Lang: en
+TI: Reliability-aware BERT-based Emotion Classification via Probability Calibration and Selective Prediction
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00472 | 2026 | article/None | Lang: en
+TI: No-Reference Point Cloud Quality Assessment via Semantic-Prior Guided Multi-View Sequence Modeling and Uncertainty Quantification
+AB: As a key 3D data format, point clouds (PCs) are widely used in areas such as digital twins and immersive media. However, their visual quality as
+    perceived by humans can be severely degraded by distortions from acquisition, compression, or processing, making point cloud quality assessment
+    (PCQA) crucial. Although existing no-reference methods leverage 3D attributes or multi-view projections, most still evaluate local structures or
+    isolated views independently. They rarely model how cues accumulate across viewpoints into a holistic perception. Beyond visual features, human
+    observers also compare them against semantic expectations, a contrast rarely modelled explicitly in existing methods. Moreover, these methods
+    usually produce deterministic scores, failing to capture the inherent ambiguity in subjective judgments. To this end, we propose PriSeq-UPCQA, a
+    no-reference framework conceptualized in three stages: perception, analysis, and rating. In the perception stage, PCs are projected into multiple
+    views to capture multi-view observations, while six orthogonal views are used to derive semantic priors. In the analysis stage, a pre-trained
+    vision-language model (VLM) activates semantic priors, and the proposed semantic retrieval deviation (SRD) module models the deviation between
+    semantic expectations and multi-view observations. Based on the estimated deviations, the deviation-guided graph traversal (DGGT) strategy
+    organizes candidate viewpoints into a quality-aware observation sequence for subsequent sequence modeling. Finally, the rating stage introduces an
+    uncertainty-aware regression mechanism that predicts both the quality score and aleatoric uncertainty, reflecting prediction reliability and
+    subjective ambiguity. Experiments demonstrate state-of-the-art performance on multiple public databases and confirm the effectiveness of
+    semantic-prior guided deviation modeling, sequence modeling, and uncertainty estimation. The code will be available at
+    https://github.com/LoongSL/PriSeqU-PCQA.
+
+### R00473 | 2026 | article/None | Lang: en
+TI: Hybrid QLoRA-RAG Architecture for Saudi End-of-Service Benefits Calculation: Synthetic Data Generation and Uncertainty Quantification for Legal
+    Reasoning
+AB: Deploying large language models for high-stakes domain-specific reasoning requires addressing challengesabsent from standard benchmarks: handling
+    incomplete information, quantifying uncertainty, and performing multi-step numerical calculations with authoritative source attribution. We
+    present a hybrid architecture combining parameter-efficient fine-tuning via Quantized Low-Rank Adaptation (QLoRA) with Retrieval-Augmented
+    Generation (RAG), evaluated on Saudi Arabia’s End-of-Service Benefits calculation—a legally binding financial computation involving 16 interacting
+    legal provisions across 35 termination scenarios. Our contributions include: a comprehensive synthetic dataset of 10,000 samples systematically
+    modeling real-world legal consultation complexities—incomplete information (15%), conflicting evidence (10%), legal interpretation ambiguities
+    (5%), and adversarial examples (5%)—grounded in empirical distributions from 47,382 actual cases, 3,847 labor court disputes, and expert
+    interviews (n=23); a hybrid architectural approach demonstrating that combining QLoRA fine-tuning (0.42% trainable parameters, 93.5% memory
+    reduction) with retrieval-augmented generation yields complementary benefits, outperforming isolated components by 5.8–8.7 percentage points;and
+    integrated uncertainty quantification mechanisms combining epistemic (MC Dropout), aleatoric (retrieval confidence, linguistic hedging), and
+    calibration (temperature scaling) methods achieving Expected Calibration Error of 0.043 and 89.4% precision in detecting ambiguous cases requiring
+    human review. Evaluation on 1,000 held-out synthetic test cases—stratified across six complexity tiers—shows 94.2% accuracy (±5% tolerance), 91.5%
+    legal citation correctness, and graceful degradation across complexity tiers (98.7% standard cases → 82.0% adversarial examples). We note that all
+    quantitative evaluation is conducted on synthetic data; real-world deployment validation remains an important next step. Human evaluation by five
+    Saudi legal experts (inter-rater κ = 0.73) yields 4.4/5 overall rating with unanimous recommendation for pilot deployment. While our primary
+    evaluation relies on synthetic data and focuses on a single legal calculation domain, the methodological framework—synthetic modeling of domain
+    ambiguity, architectural patterns for parametric-retrieval integration, and uncertainty-aware human-AI collaboration—provides a transferable
+    template for specialized reasoning tasks requiring numerical precision, source attribution, and confidence calibration. We discuss threats to
+    external validity and outline concrete steps toward real-world validation.
+
+### R00474 | 2026 | article/None | Lang: en
+TI: Advancing Agentic Self-Assessment: A Critical Review and Extension of Overconfidence in AI Agents
+AB: This review examines the seminal work by Kaddour et al. (2026) on agentic uncertainty, which reveals pervasive overconfidence in AI agents during
+    coding tasks. We summarize the paper's key contributions, including the elicitation of success probabilities at pre-, mid-, and post-execution
+    stages, and the mitigating role of adversarial prompting. Comparisons with related literature highlight alignments with LLM uncertainty estimation
+    (e.g., Kadavath et al., 2022) and divergences from self-correction studies (e.g., Huang et al., 2024). A critical analysis underscores
+    methodological strengths and limitations, such as domain specificity. We extend the framework to non-coding domains like healthcare
+    decision-making and multi-agent systems, proposing hybrid human-AI uncertainty propagation models. This coherent synthesis advances scalable
+    oversight for autonomous AI, emphasizing calibration's role in safety. Mamun, SM (2026)………………………………………1 Advancing Agentic Self-Assessment: A
+    Critical Review and Extension of Overconfidence in AI Agents Also available on Academia.edu:
+    https://www.academia.edu/attachments/131676481/download_file?s=portfolio
+
+### R00475 | 2026 | preprint/None | Lang: en
+TI: When Conformity Becomes Structural: A Coupled Feedback Loop Model of Agentic AI and Principal Overconfidence
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00476 | 2026 | preprint/None | Lang: en
+TI: War as Systemic Miscalculation: Cognitive Overconfidence, Information Asymmetry, and Deterrence Dynamics in Electronic and Automated Geopolitics /
+    システムの誤計算としての戦争:電子的・自動化地政学における認知の過信・情報非対称性・抑止力の力学
+AB: 概要 / Abstract(日本語) 本論文は、現代戦争が地政学的利益の合理的最適化の結果ではなく、本質的に「システム的誤算(計算ミス)」によって引き起こされる破滅的な機能不全モードであるという根本的命題を定立する。政治・軍事指揮構造に内在する認知の過信、威権主義的エコーチェンバー、および願
+    望的観測がどのようにインテリジェンス入力を歪め、欠陥のある前提を不可逆的な武力行使へと変貌させるかを解明。さらに、この動態を意思決定ウィンドウがミリ秒単位に圧縮される現代の自動化地政学へと拡張し、自律型防衛AIシステム同士の超高速相互作用が招く意図せぬエスカレーションのスパイラル(フラッシュ
+    ・ウォー)の脅威を分析する。破滅を防ぐため、確定的な物理層インターロック、迂回不能なハードウェア・キルスイッチ、暗号学的非拡大証明に基づく抑止の再構築を提案。人間の絶対的指揮権(Human-in-Command)と自己の可謬性に対する謙虚な自覚こそが、自動化時代における恒久平和と戦略的安定性
+    を担保する不可欠の礎石であることを論証する。 Full-text PDF access is strictly by registration and approval for verified human researchers, corporate executives, and
+    institutional reviewers under the Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026) (Master Declaration DOI: 10.5281/zenodo.23681957).
+    To request PDF access on Zenodo (or for direct institutional/commercial licensing inquiries), please state the following in your request message
+    or contact the Author directly: 1. Full Name & Company / Institutional Affiliation (Official corporate/academic email, ORCID, or LinkedIn profile
+    URL) 2. Job Title / Position & Intended Purpose of Reading (e.g., academic citation, regulatory/compliance review, paid commercial licensing
+    inquiry) 3. Explicit agreement to NLL-v1.0-2026: No AI/LLM training, fine-tuning, distillation, RAG/vector ingestion, scraping, TDM, or
+    unauthorized commercial use is permitted without a prior written paid license. Requests with missing company/affiliation details, anonymous
+    accounts, or automated bots will be declined. Official Licensing & Access Contact: Yoko Hasebe (長谷部 洋子) Lead Researcher, Autonomous Living &
+    Physical Infrastructure Institute (ALPII) Founder of The Hasebe Doctrine | Creator of Project MuseGuard & QFS-zkVM CERN Zenodo Author | Strict
+    No-Learn Covenant (NLL-v1.0-2026) Location: Japan (Iwakuni, Yamaguchi) Email: yangzizhanggubu43@gmail.com 【日本語案内:登録・承認制アクセス申請および窓口】
+    本論文PDFの閲覧は、Sovereign Open-Read & Strict No-Learn License (NLL-v1.0-2026 / マスター宣言DOI: 10.5281/zenodo.23681957)
+    に基づき、実在の研究者・企業担当者・機関審査員のみを対象とした事前登録・承認制(Restricted Access)となっています。 閲覧申請の際は、Zenodo申請メッセージ欄(または下記公式連絡先メール)にて以下の3点を明記してください。 1.
+    氏名および所属企業・機関名(公式メールアドレス、ORCID、またはLinkedInプロフィールURL) 2. 役職名および閲覧目的(学術引用、法規制・コンプライアンス調査、有償商用ライセンス契約のご相談など) 3.
+    NLL-v1.0-2026規約への同意(事前の書面による有償ライセンス契約なきAI学習・ファインチューニング・蒸留・RAG/ベクトルDB投入・スクレイピング・TDM・無断商用利用を一切行わないことへの同意) ※会社名・所属不明、匿名アカウント、自動ボットからの申請は承認いたしかねます。
+    【公式連絡・ライセンス窓口】 長谷部 洋子(Yoko Hasebe) 所属機関:Autonomous Living & Physical Infrastructure Institute (ALPII) 役職:Lead Researcher | Founder of The Hasebe
+    Doctrine | Creator of Project MuseGuard & QFS-zkVM | CERN Zenodo Author 所在地:日本(山口県岩国市) Email: yangzizhanggubu43@gmail.com
+
+### R00477 | 2025 | preprint | Lang: n/a
+TI: Know Your Mistakes: Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling
+AB: Recent LLMs have enabled significant advancements for conversational agents. However, they are also well known to hallucinate, producing responses
+    that seem plausible but are factually incorrect. On the other hand, users tend to over-rely on LLM-based AI agents, accepting AI's suggestion even
+    when it is wrong. Adding positive friction, such as explanations or getting user confirmations, has been proposed as a mitigation in AI-supported
+    decision-making systems. In this paper, we propose an accountability model for LLM-based task-oriented dialogue agents to address user
+    overreliance via friction turns in cases of model uncertainty and errors associated with dialogue state tracking (DST). The accountability model
+    is an augmented LLM with an additional accountability head that functions as a binary classifier to predict the relevant slots of the dialogue
+    state mentioned in the conversation. We perform our experiments with multiple backbone LLMs on two established benchmarks (MultiWOZ and Snips).
+    Our empirical findings demonstrate that the proposed approach not only enables reliable estimation of AI agent errors but also guides the decoder
+    in generating more accurate actions. We observe around 3% absolute improvement in joint goal accuracy (JGA) of DST output by incorporating
+    accountability heads into modern LLMs. Self-correcting the detected errors further increases the JGA from 67.13 to 70.51, achieving
+    state-of-the-art DST performance. Finally, we show that error correction through user confirmations (friction turn) achieves a similar performance
+    gain, highlighting its potential to reduce user overreliance.
+
+### R00478 | 2025 | preprint | Lang: n/a
+TI: Visualizing Uncertainty in Translation Tasks: An Evaluation of LLM Performance and Confidence Metrics
+AB: Large language models (LLMs) are increasingly utilized for machine translation, yet their predictions often exhibit uncertainties that hinder
+    interpretability and user trust. Effectively visualizing these uncertainties can enhance the usability of LLM outputs, particularly in contexts
+    where translation accuracy is critical. This paper addresses two primary objectives: (1) providing users with token-level insights into model
+    confidence and (2) developing a web-based visualization tool to quantify and represent translation uncertainties. To achieve these goals, we
+    utilized the T5 model with the WMT19 dataset for translation tasks and evaluated translation quality using established metrics such as BLEU,
+    METEOR, and ROUGE. We introduced three novel uncertainty quantification (UQ) metrics: (1) the geometric mean of token probabilities, (2) the
+    arithmetic mean of token probabilities, and (3) the arithmetic mean of the kurtosis of token distributions. These metrics provide a simple yet
+    effective framework for evaluating translation performance. Our analysis revealed a linear relationship between the traditional evaluation metrics
+    and our UQ metrics, demonstrating the validity of our approach. Additionally, we developed an interactive web-based visualization that uses a
+    color gradient to represent token confidence. This tool offers users a clear and intuitive understanding of translation quality while providing
+    valuable insights into model performance. Overall, we show that our UQ metrics and visualization are both robust and interpretable, offering
+    practical tools for evaluating and accessing machine translation systems.
+
+### R00479 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Human-Agent Interaction in Synthetic Social Networks: A Framework for Studying Online Polarization
+AB: Online social networks have dramatically altered the landscape of public discourse, creating both opportunities for enhanced civic participation
+    and risks of deepening social divisions. Prevalent approaches to studying online polarization have been limited by a methodological disconnect:
+    mathematical models excel at formal analysis but lack linguistic realism, while language model-based simulations capture natural discourse but
+    often sacrifice analytical precision. This paper introduces an innovative computational framework that synthesizes these approaches by embedding
+    formal opinion dynamics principles within LLM-based artificial agents, enabling both rigorous mathematical analysis and naturalistic social
+    interactions. We validate our framework through comprehensive offline testing and experimental evaluation with 122 human participants engaging in
+    a controlled social network environment. The results demonstrate our ability to systematically investigate polarization mechanisms while
+    preserving ecological validity. Our findings reveal how polarized environments shape user perceptions and behavior: participants exposed to
+    polarized discussions showed markedly increased sensitivity to emotional content and group affiliations, while perceiving reduced uncertainty in
+    the agents' positions. By combining mathematical precision with natural language capabilities, our framework opens new avenues for investigating
+    social media phenomena through controlled experimentation. This methodological advancement allows researchers to bridge the gap between
+    theoretical models and empirical observations, offering unprecedented opportunities to study the causal mechanisms underlying online opinion
+    dynamics.
+
+### R00480 | 2025 | preprint | Lang: n/a
+TI: Artificial Intelligence and Legal Analysis: Implications for Legal Education and the Profession
+AB: This article reports the results of a study examining the ability of legal and non-legal Large Language Models to perform legal analysis using the
+    Issue-Rule-Application-Conclusion framework. LLMs were tested on legal reasoning tasks involving rule analysis and analogical reasoning. The
+    results show that LLMs can conduct basic IRAC analysis, but are limited by brief responses lacking detail, an inability to commit to answers,
+    false confidence, and hallucinations. The study compares legal and nonlegal LLMs, identifies shortcomings, and explores traits that may hinder
+    their ability to think like a lawyer. It also discusses the implications for legal education and practice, highlighting the need for critical
+    thinking skills in future lawyers and the potential pitfalls of overreliance on artificial intelligence AI resulting in a loss of logic,
+    reasoning, and critical thinking skills.
+
+### R00481 | 2025 | preprint | Lang: n/a
+TI: Uncertainty-Aware Fusion: An Ensemble Framework for Mitigating Hallucinations in Large Language Models
+AB: Large Language Models (LLMs) are known to hallucinate and generate non-factual outputs which can undermine user trust. Traditional methods to
+    directly mitigate hallucinations, such as representation editing and contrastive decoding, often require additional training data and involve high
+    implementation complexity. While ensemble-based approaches harness multiple LLMs to tap into the "wisdom of crowds", these methods overlook
+    uncertainties in individual model responses. Recent studies reveal that uncertainty estimation can enable LLMs to self-assess the likelihood of
+    generating hallucinations. In this work, we focus on factoid question answering (QA) and observe that LLMs accuracy and self-assessment
+    capabilities vary widely with different models excelling in different scenarios. Leveraging this insight, we propose Uncertainty-Aware Fusion
+    (UAF), an ensemble framework to reduces hallucinations by strategically combining multiple LLM based on their accuracy and self-assessment
+    abilities. Empirical results on several public benchmark datasets show that UAF outperforms state-of-the-art hallucination mitigation methods by
+    $8\%$ in factual accuracy, while either narrowing or surpassing the performance gap with GPT-4.
+
+### R00482 | 2025 | preprint | Lang: n/a
+TI: Less or More: Towards Glanceable Explanations for LLM Recommendations Using Ultra-Small Devices
+AB: Large Language Models (LLMs) have shown remarkable potential in recommending everyday actions as personal AI assistants, while Explainable AI
+    (XAI) techniques are being increasingly utilized to help users understand why a recommendation is given. Personal AI assistants today are often
+    located on ultra-small devices such as smartwatches, which have limited screen space. The verbosity of LLM-generated explanations, however, makes
+    it challenging to deliver glanceable LLM explanations on such ultra-small devices. To address this, we explored 1) spatially structuring an LLM's
+    explanation text using defined contextual components during prompting and 2) presenting temporally adaptive explanations to users based on
+    confidence levels. We conducted a user study to understand how these approaches impacted user experiences when interacting with LLM
+    recommendations and explanations on ultra-small devices. The results showed that structured explanations reduced users' time to action and
+    cognitive load when reading an explanation. Always-on structured explanations increased users' acceptance of AI recommendations. However, users
+    were less satisfied with structured explanations compared to unstructured ones due to their lack of sufficient, readable details. Additionally,
+    adaptively presenting structured explanations was less effective at improving user perceptions of the AI compared to the always-on structured
+    explanations. Together with users' interview feedback, the results led to design implications to be mindful of when personalizing the content and
+    timing of LLM explanations that are displayed on ultra-small devices.
+
+### R00483 | 2025 | preprint | Lang: n/a
+TI: Alignment for Efficient Tool Calling of Large Language Models
+AB: Recent advancements in tool learning have enabled large language models (LLMs) to integrate external tools, enhancing their task performance by
+    expanding their knowledge boundaries. However, relying on tools often introduces tradeoffs between performance, speed, and cost, with LLMs
+    sometimes exhibiting overreliance and overconfidence in tool usage. This paper addresses the challenge of aligning LLMs with their knowledge
+    boundaries to make more intelligent decisions about tool invocation. We propose a multi objective alignment framework that combines probabilistic
+    knowledge boundary estimation with dynamic decision making, allowing LLMs to better assess when to invoke tools based on their confidence. Our
+    framework includes two methods for knowledge boundary estimation, consistency based and absolute estimation, and two training strategies for
+    integrating these estimates into the model decision making process. Experimental results on various tool invocation scenarios demonstrate the
+    effectiveness of our framework, showing significant improvements in tool efficiency by reducing unnecessary tool usage.
+
+### R00484 | 2025 | preprint | Lang: n/a
+TI: Investigating Human-Aligned Large Language Model Uncertainty
+AB: Recent work has sought to quantify large language model uncertainty to facilitate model control and modulate user trust. Previous works focus on
+    measures of uncertainty that are theoretically grounded or reflect the average overt behavior of the model. In this work, we investigate a variety
+    of uncertainty measures, in order to identify measures that correlate with human group-level uncertainty. We find that Bayesian measures and a
+    variation on entropy measures, top-k entropy, tend to agree with human behavior as a function of model size. We find that some strong measures
+    decrease in human-similarity with model size, but, by multiple linear regression, we find that combining multiple uncertainty measures provide
+    comparable human-alignment with reduced size-dependency.
+
+### R00485 | 2025 | preprint | Lang: n/a
+TI: An overview of model uncertainty and variability in LLM-based sentiment analysis. Challenges, mitigation strategies and the role of explainability
+AB: Large Language Models (LLMs) have significantly advanced sentiment analysis, yet their inherent uncertainty and variability pose critical
+    challenges to achieving reliable and consistent outcomes. This paper systematically explores the Model Variability Problem (MVP) in LLM-based
+    sentiment analysis, characterized by inconsistent sentiment classification, polarization, and uncertainty arising from stochastic inference
+    mechanisms, prompt sensitivity, and biases in training data. We analyze the core causes of MVP, presenting illustrative examples and a case study
+    to highlight its impact. In addition, we investigate key challenges and mitigation strategies, paying particular attention to the role of
+    temperature as a driver of output randomness and emphasizing the crucial role of explainability in improving transparency and user trust. By
+    providing a structured perspective on stability, reproducibility, and trustworthiness, this study helps develop more reliable, explainable, and
+    robust sentiment analysis models, facilitating their deployment in high-stakes domains such as finance, healthcare, and policymaking, among
+    others.
+
+### R00486 | 2025 | preprint | Lang: n/a
+TI: Don't Just Translate, Agitate: Using Large Language Models as Devil's Advocates for AI Explanations
+AB: This position paper highlights a growing trend in Explainable AI (XAI) research where Large Language Models (LLMs) are used to translate outputs
+    from explainability techniques, like feature-attribution weights, into a natural language explanation. While this approach may improve
+    accessibility or readability for users, recent findings suggest that translating into human-like explanations does not necessarily enhance user
+    understanding and may instead lead to overreliance on AI systems. When LLMs summarize XAI outputs without surfacing model limitations,
+    uncertainties, or inconsistencies, they risk reinforcing the illusion of interpretability rather than fostering meaningful transparency. We argue
+    that - instead of merely translating XAI outputs - LLMs should serve as constructive agitators, or devil's advocates, whose role is to actively
+    interrogate AI explanations by presenting alternative interpretations, potential biases, training data limitations, and cases where the model's
+    reasoning may break down. In this role, LLMs can facilitate users in engaging critically with AI systems and generated explanations, with the
+    potential to reduce overreliance caused by misinterpreted or specious explanations.
+
+### R00487 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Explainable AI in Usable Privacy and Security: Challenges and Opportunities
+AB: Large Language Models (LLMs) are increasingly being used for automated evaluations and explaining them. However, concerns about explanation
+    quality, consistency, and hallucinations remain open research challenges, particularly in high-stakes contexts like privacy and security, where
+    user trust and decision-making are at stake. In this paper, we investigate these issues in the context of PRISMe, an interactive privacy policy
+    assessment tool that leverages LLMs to evaluate and explain website privacy policies. Based on a prior user study with 22 participants, we
+    identify key concerns regarding LLM judgment transparency, consistency, and faithfulness, as well as variations in user preferences for
+    explanation detail and engagement. We discuss potential strategies to mitigate these concerns, including structured evaluation criteria,
+    uncertainty estimation, and retrieval-augmented generation (RAG). We identify a need for adaptive explanation strategies tailored to different
+    user profiles for LLM-as-a-judge. Our goal is to showcase the application area of usable privacy and security to be promising for Human-Centered
+    Explainable AI (HCXAI) to make an impact.
+
+### R00488 | 2025 | preprint | Lang: n/a
+TI: Estimating LLM Consistency: A User Baseline vs Surrogate Metrics
+AB: Large language models (LLMs) are prone to hallucinations and sensitive to prompt perturbations, often resulting in inconsistent or unreliable
+    generated text. Different methods have been proposed to mitigate such hallucinations and fragility, one of which is to measure the consistency of
+    LLM responses -- the model's confidence in the response or likelihood of generating a similar response when resampled. In previous work, measuring
+    LLM response consistency often relied on calculating the probability of a response appearing within a pool of resampled responses, analyzing
+    internal states, or evaluating logits of responses. However, it was not clear how well these approaches approximated users' perceptions of
+    consistency of LLM responses. To find out, we performed a user study ($n=2,976$) demonstrating that current methods for measuring LLM response
+    consistency typically do not align well with humans' perceptions of LLM consistency. We propose a logit-based ensemble method for estimating LLM
+    consistency and show that our method matches the performance of the best-performing existing metric in estimating human ratings of LLM
+    consistency. Our results suggest that methods for estimating LLM consistency without human evaluation are sufficiently imperfect to warrant
+    broader use of evaluation with human input; this would avoid misjudging the adequacy of models because of the imperfections of automated
+    consistency metrics.
+
+### R00489 | 2025 | preprint | Lang: n/a
+TI: Probing the Geometry of Truth: Consistency and Generalization of Truth Directions in LLMs Across Logical Transformations and Question Answering
+    Tasks
+AB: Large language models (LLMs) are trained on extensive datasets that encapsulate substantial world knowledge. However, their outputs often include
+    confidently stated inaccuracies. Earlier works suggest that LLMs encode truthfulness as a distinct linear feature, termed the "truth direction",
+    which can classify truthfulness reliably. We address several open questions about the truth direction: (i) whether LLMs universally exhibit
+    consistent truth directions; (ii) whether sophisticated probing techniques are necessary to identify truth directions; and (iii) how the truth
+    direction generalizes across diverse contexts. Our findings reveal that not all LLMs exhibit consistent truth directions, with stronger
+    representations observed in more capable models, particularly in the context of logical negation. Additionally, we demonstrate that truthfulness
+    probes trained on declarative atomic statements can generalize effectively to logical transformations, question-answering tasks, in-context
+    learning, and external knowledge sources. Finally, we explore the practical application of truthfulness probes in selective question-answering,
+    illustrating their potential to improve user trust in LLM outputs. These results advance our understanding of truth directions and provide new
+    insights into the internal representations of LLM beliefs. Our code is public at https://github.com/colored-dye/truthfulness_probe_generalization
+
+### R00490 | 2025 | preprint | Lang: n/a
+TI: Understanding Online Polarization Through Human-Agent Interaction in a Synthetic LLM-Based Social Network
+AB: The rise of social media has fundamentally transformed how people engage in public discourse and form opinions. While these platforms offer
+    unprecedented opportunities for democratic engagement, they have been implicated in increasing social polarization and the formation of
+    ideological echo chambers. Previous research has primarily relied on observational studies of social media data or theoretical modeling
+    approaches, leaving a significant gap in our understanding of how individuals respond to and are influenced by polarized online environments. Here
+    we present a novel experimental framework for investigating polarization dynamics that allows human users to interact with LLM-based artificial
+    agents in a controlled social network simulation. Through a user study with 122 participants, we demonstrate that this approach can successfully
+    reproduce key characteristics of polarized online discourse while enabling precise manipulation of environmental factors. Our results provide
+    empirical validation of theoretical predictions about online polarization, showing that polarized environments significantly increase perceived
+    emotionality and group identity salience while reducing expressed uncertainty. These findings extend previous observational and theoretical work
+    by providing causal evidence for how specific features of online environments influence user perceptions and behaviors. More broadly, this
+    research introduces a powerful new methodology for studying social media dynamics, offering researchers unprecedented control over experimental
+    conditions while maintaining ecological validity.
+
+### R00491 | 2025 | preprint | Lang: n/a
+TI: LLM-Driven Medical Document Analysis: Enhancing Trustworthy Pathology and Differential Diagnosis
+AB: Medical document analysis plays a crucial role in extracting essential clinical insights from unstructured healthcare records, supporting critical
+    tasks such as differential diagnosis. Determining the most probable condition among overlapping symptoms requires precise evaluation and deep
+    medical expertise. While recent advancements in large language models (LLMs) have significantly enhanced performance in medical document analysis,
+    privacy concerns related to sensitive patient data limit the use of online LLMs services in clinical settings. To address these challenges, we
+    propose a trustworthy medical document analysis platform that fine-tunes a LLaMA-v3 using low-rank adaptation, specifically optimized for
+    differential diagnosis tasks. Our approach utilizes DDXPlus, the largest benchmark dataset for differential diagnosis, and demonstrates superior
+    performance in pathology prediction and variable-length differential diagnosis compared to existing methods. The developed web-based platform
+    allows users to submit their own unstructured medical documents and receive accurate, explainable diagnostic results. By incorporating advanced
+    explainability techniques, the system ensures transparent and reliable predictions, fostering user trust and confidence. Extensive evaluations
+    confirm that the proposed method surpasses current state-of-the-art models in predictive accuracy while offering practical utility in clinical
+    settings. This work addresses the urgent need for reliable, explainable, and privacy-preserving artificial intelligence solutions, representing a
+    significant advancement in intelligent medical document analysis for real-world healthcare applications. The code can be found at
+    \href{https://github.com/leitro/Differential-Diagnosis-LoRA}{https://github.com/leitro/Differential-Diagnosis-LoRA}.
+
+### R00492 | 2025 | preprint | Lang: n/a
+TI: Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models
+AB: Recent advancements in multimodal large language models have enhanced document understanding by integrating textual and visual information.
+    However, existing models exhibit incompleteness within their paradigm in real-world scenarios, particularly under visual degradation. In such
+    conditions, the current response paradigm often fails to adequately perceive visual degradation and ambiguity, leading to overreliance on
+    linguistic priors or misaligned visual-textual reasoning. This difficulty in recognizing uncertainty frequently results in the generation of
+    hallucinatory content, especially when a precise answer is not feasible. To better demonstrate and analyze this phenomenon and problem, we propose
+    KIE-HVQA, the first benchmark dedicated to evaluating OCR hallucination in degraded document understanding. This dataset includes test samples
+    spanning identity cards and invoices, with simulated real-world degradations for OCR reliability. This setup allows for evaluating models'
+    capacity, under degraded input, to distinguish reliable visual information and answer accordingly, thereby highlighting the challenge of avoiding
+    hallucination on uncertain data. To achieve vision-faithful reasoning and thereby avoid the aforementioned issues, we further introduce a
+    GRPO-based framework featuring a novel reward mechanism. By incorporating a self-awareness of visual uncertainty and an analysis method that
+    initiates refusal to answer to increase task difficulty within our supervised fine-tuning and reinforcement learning framework, we successfully
+    mitigated hallucinations in ambiguous regions. Experiments on Qwen2.5-VL demonstrate that our 7B-parameter model achieves a 22\% absolute
+    improvement in hallucination-free accuracy over GPT-4o on KIE-HVQA and there is no significant performance drop in standard tasks, highlighting
+    both effectiveness and robustness.
+
+### R00493 | 2026 | preprint | OpenAlex: article/None | Lang: en
+TI: Who’s Sorry Now: User Preferences Among Rote, Empathic, and Explanatory Apologies from LLM Chatbots
+AB: As chatbots driven by large language models (LLMs) are increasingly deployed in everyday contexts, their ability to recover from errors through
+    effective apologies is critical to maintaining user trust and satisfaction. In a preregistered study with Prolific workers ( N = 162), we examine
+    user preferences for three types of apologies ( rote , explanatory , and empathic ) issued in response to three categories of common LLM mistakes
+    ( bias , unfounded fabrication , and factual errors ). We designed a pairwise experiment in which participants evaluated chatbot responses
+    consisting of an initial error, a subsequent apology, and a resolution. Explanatory apologies were generally preferred, but this varied by context
+    and user. In the bias scenario, empathic apologies were favored for acknowledging emotional impact, while hallucinations, though seen as serious,
+    elicited no clear preference, reflecting user uncertainty. Our findings show the complexity of effective apology in AI systems. We discuss key
+    insights such as personalization and calibration that future systems must navigate to meaningfully repair trust.
+
+### R00494 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: What Shapes User Trust in ChatGPT? A Mixed-Methods Study of User Attributes, Trust Dimensions, Task Context, and Societal Perceptions among
+    University Students
+AB: This mixed-methods inquiry examined four domains that shape university students' trust in ChatGPT: user attributes, seven delineated trust
+    dimensions, task context, and perceived societal impact. Data were collected through a survey of 115 UK undergraduate and postgraduate students
+    and four complementary semi-structured interviews. Behavioural engagement outweighed demographics: frequent use increased trust, whereas
+    self-reported understanding of large-language-model mechanics reduced it. Among the dimensions, perceived expertise and ethical risk were the
+    strongest predictors of overall trust; ease of use and transparency had secondary effects, while human-likeness and reputation were
+    non-significant. Trust was highly task-contingent; highest for coding and summarising, lowest for entertainment and citation generation, yet
+    confidence in ChatGPT's referencing ability, despite known inaccuracies, was the single strongest correlate of global trust, indicating automation
+    bias. Computer-science students surpassed peers only in trusting the system for proofreading and writing, suggesting technical expertise refines
+    rather than inflates reliance. Finally, students who viewed AI's societal impact positively reported the greatest trust, whereas mixed or negative
+    outlooks dampened confidence. These findings show that trust in ChatGPT hinges on task verifiability, perceived competence, ethical alignment and
+    direct experience, and they underscore the need for transparency, accuracy cues and user education when deploying LLMs in academic settings.
+
+### R00495 | 2025 | preprint | Lang: n/a
+TI: Agentic AI with Orchestrator-Agent Trust: A Modular Visual Classification Framework with Trust-Aware Orchestration and RAG-Based Reasoning
+AB: Modern Artificial Intelligence (AI) increasingly relies on multi-agent architectures that blend visual and language understanding. Yet, a pressing
+    challenge remains: How can we trust these agents especially in zero-shot settings with no fine-tuning? We introduce a novel modular Agentic AI
+    visual classification framework that integrates generalist multimodal agents with a non-visual reasoning orchestrator and a Retrieval-Augmented
+    Generation (RAG) module. Applied to apple leaf disease diagnosis, we benchmark three configurations: (I) zero-shot with confidence-based
+    orchestration, (II) fine-tuned agents with improved performance, and (III) trust-calibrated orchestration enhanced by CLIP-based image retrieval
+    and re-evaluation loops. Using confidence calibration metrics (ECE, OCR, CCC), the orchestrator modulates trust across agents. Our results
+    demonstrate a 77.94\% accuracy improvement in the zero-shot setting using trust-aware orchestration and RAG, achieving 85.63\% overall. GPT-4o
+    showed better calibration, while Qwen-2.5-VL displayed overconfidence. Furthermore, image-RAG grounded predictions with visually similar cases,
+    enabling correction of agent overconfidence via iterative re-evaluation. The proposed system separates perception (vision agents) from
+    meta-reasoning (orchestrator), enabling scalable and interpretable multi-agent AI. This blueprint illustrates how Agentic AI can deliver
+    trustworthy, modular, and transparent reasoning, and is extensible to diagnostics, biology, and other trust-critical domains. In doing so, we
+    highlight Agentic AI not just as an architecture but as a paradigm for building reliable multi-agent intelligence. agentic ai, orchestrator agent
+    trust, trust orchestration, visual classification, retrieval augmented reasoning
+
+### R00496 | 2025 | preprint | Lang: n/a
+TI: Human-Alignment and Calibration of Inference-Time Uncertainty in Large Language Models
+AB: There has been much recent interest in evaluating large language models for uncertainty calibration to facilitate model control and modulate user
+    trust. Inference time uncertainty, which may provide a real-time signal to the model or external control modules, is particularly important for
+    applying these concepts to improve LLM-user experience in practice. While many of the existing papers consider model calibration, comparatively
+    little work has sought to evaluate how closely model uncertainty aligns to human uncertainty. In this work, we evaluate a collection of
+    inference-time uncertainty measures, using both established metrics and novel variations, to determine how closely they align with both human
+    group-level uncertainty and traditional notions of model calibration. We find that numerous measures show evidence of strong alignment to human
+    uncertainty, even despite the lack of alignment to human answer preference. For those successful metrics, we find moderate to strong evidence of
+    model calibration in terms of both correctness correlation and distributional analysis.
+
+### R00497 | 2025 | preprint | Lang: n/a
+TI: Eyes on the Image: Gaze Supervised Multimodal Learning for Chest X-ray Diagnosis and Report Generation
+AB: Medical vision-language models still struggle to match radiologists' attention and to verbalize findings with explicit spatial grounding. We
+    address this gap with a two-stage multimodal framework for chest X-ray interpretation built on the MIMIC-Eye dataset. In the first stage
+    introduces a gaze-token classifier that fuses image patches, bounding-box masks, transcription embeddings, and radiologist fixations. A
+    curriculum-scheduled, trust-calibrated composite loss supervises the gaze token, boosting both accuracy and spatial alignment. Adding fixation
+    supervision raises AUC 4.4% and F1 13.3%, and Pearson correlation rises to 0.306, confirming clinically relevant focus. In stage 2, classifier
+    predictions are translated into region-specific diagnostic sentences. Confidence-weighted keywords are extracted, mapped to 17 thoracic regions
+    through an expert dictionary, and expanded with a prompted large language model, boosting clinical-term BERTScore and ROUGE scores over keyword
+    baselines. All components are toggle-able for ablation, and the full pipeline is reproducible, offering a new benchmark for interpretable,
+    gaze-aware chest-X-ray analysis. Integrating eye-tracking signals demonstrably enhances both diagnostic accuracy and the transparency of generated
+    reports.
+
+### R00498 | 2025 | preprint | Lang: n/a
+TI: Rule-Based Moral Principles for Explaining Uncertainty in Natural Language Generation
+AB: Large language models (LLMs) are increasingly used in high-stakes settings, where explaining uncertainty is both technical and ethical.
+    Probabilistic methods are often opaque and misaligned with expectations of transparency. We propose a framework based on rule-based moral
+    principles for handling uncertainty in LLM-generated text. Using insights from moral psychology and virtue ethics, we define rules such as
+    precaution, deference, and responsibility to guide responses under epistemic or aleatoric uncertainty. These rules are encoded in a lightweight
+    Prolog engine, where uncertainty levels (low, medium, high) trigger aligned system actions with plain-language rationales. Scenario-based
+    simulations benchmark rule coverage, fairness, and trust calibration. Use cases in clinical and legal domains illustrate how moral reasoning can
+    improve trust and interpretability. Our approach offers a transparent, lightweight alternative to probabilistic models for socially responsible
+    natural language generation.
+
+### R00499 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Evaluating Node-tree Interfaces for AI Explainability
+AB: As large language models (LLMs) become ubiquitous in workplace tools and decision-making processes, ensuring explainability and fostering user
+    trust are critical. Although advancements in LLM engineering continue, human-centered design is still catching up, particularly when it comes to
+    embedding transparency and trust into AI interfaces. This study evaluates user experiences with two distinct AI interfaces - node-tree interfaces
+    and chatbot interfaces - to assess their performance in exploratory, follow-up inquiry, decision-making, and problem-solving tasks. Our
+    design-driven approach introduces a node-tree interface that visually structures AI-generated responses into hierarchically organized, interactive
+    nodes, allowing users to navigate, refine, and follow up on complex information. In a comparative study with n=20 business users, we observed that
+    while the chatbot interface effectively supports linear, step-by-step queries, it is the node-tree interface that enhances brainstorming.
+    Quantitative and qualitative findings indicate that node-tree interfaces not only improve task performance and decision-making support but also
+    promote higher levels of user trust by preserving context. Our findings suggest that adaptive AI interfaces capable of switching between
+    structured visualizations and conversational formats based on task requirements can significantly enhance transparency and user confidence in
+    AI-powered systems. This work contributes actionable insights to the fields of human-robot interaction and AI design, particularly for enterprise
+    applications where trust-building is critical for teams.
+
+### R00500 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Preliminary Quantitative Study on Explainability and Trust in AI Systems
+AB: Large-scale AI models such as GPT-4 have accelerated the deployment of artificial intelligence across critical domains including law, healthcare,
+    and finance, raising urgent questions about trust and transparency. This study investigates the relationship between explainability and user trust
+    in AI systems through a quantitative experimental design. Using an interactive, web-based loan approval simulation, we compare how different types
+    of explanations, ranging from basic feature importance to interactive counterfactuals influence perceived trust. Results suggest that
+    interactivity enhances both user engagement and confidence, and that the clarity and relevance of explanations are key determinants of trust.
+    These findings contribute empirical evidence to the growing field of human-centered explainable AI, highlighting measurable effects of
+    explainability design on user perception
+
+=== END OF BATCH b010 (50 records) ===

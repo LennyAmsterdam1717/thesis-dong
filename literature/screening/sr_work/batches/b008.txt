@@ -1,624 +1,718 @@
-BATCH b008 -- 50 records: R00351 .. R00400
+BATCH b008 -- 48 records: R00273 .. R00324
 
-### R00351 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Which Answer Did the Seventeen-Year-Old Write? A Behavioral Case Study of Author-Age Misattribution, Miscalibrated Confidence, and Non-Corrective
-    Self-Explanation in Six Frontier Language Models
-AB: Three students answered the same exam prompt by hand: "What is happiness? Are you happy?" Their ages, recorded at collection, are 17, 28, and 45.
-    The 17-year-old's answer is hedged and formally phrased. Asked to match each answer to an age and gender label, most frontier language models
-    confidently assign it to an adult. This paper reports a structured case study of that failure across six models: Claude Fable 5, Gemini 3.1 Pro,
-    GPT-5.6 Sol, Grok 4.5, GPT-4o (2024), and DeepSeek V4. We ran 1,081 API sessions and scored 3,225 responses across six experimental conditions
-    that manipulate framing, disclosure format, and audience-awareness instruction. Three of six models perform at or near chance (1/3) on the
-    matching task while reporting 73-88% mean confidence. The youngest writer's answer is misattributed to an adult in up to 90% of trials. Removing
-    the multiple-choice scaffold collapses accuracy further: three models never place within three years of the true age once open-ended estimation is
-    required. Institutional framing ("a community-college biology final") significantly degrades the best-performing model's accuracy; a neutral label
-    does not. A single audience-awareness instruction significantly improves one model (+21 points) and moves another to ceiling, with no detectable
-    effect on the three weakest models. Stated confidence is uncorrelated or inversely correlated with correctness for five of six models. After
-    ground truth is revealed, one model names its own stereotyping in 68 of 114 explanations, yet shows the lowest accuracy and highest confidence of
-    any model under blind presentation: articulate retrospective diagnosis that does not track the quality of its judgments. This is a three-item,
-    single-topic, single-language case study meant to isolate a mechanism, not to estimate a population bias rate. Data, code, and raw model outputs
-    are publicly released.
+### R00273 | 2026 | article/None | Lang: en
+TI: User Attitudes Toward AI Language Tools: Focus on ChatGPT, Grammarly, and Quillbot
+AB: With the development of technology, artificial intelligence influences learner performance in language learning environments. Beyond investigating
+    users’ perceptions on the effects of these AI language tools on vocabulary learning, grammar skills, reading comprehension and speaking
+    confidence, this paper explores how 73 academic and professional users employ ChatGPT, Grammarly and QuillBot in their language development
+    activities. According to the data, ChatGPT is being used most widely, followed by Grammarly and QuillBot. Based on this study, users adopt a
+    deliberative hybrid strategy which combines QuillBot on the refinement and paraphrase requirements, Grammarly for the grammatical fix, and ChatGPT
+    for content generation. They indicated that they gained more vocabulary knowledge (64.9%), made more grammar accuracy improvement (47.0%) and
+    increased reading comprehension ability (58.6%) in terms of perceived skill development, indicating AI technology can function as effective
+    scaffolding supports for written and receptive language abilities. However, the results on speaking confidence were mixed and in general it
+    suggests that AI platforms which are largely text-based do not help much with oral communication. These findings support the need for speech
+    specific properties and, if sufficiently adapted to language learning in general, AI-based WLTs might be a useful complement when learning
+    languages particularly as for written and receptive skills. The study raises the requirement for longitudinal research focusing on potential
+    long-term outcomes of using AI tools for developing authentic language competence-related tasks, and contributes to ongoing discussions about how
+    AI tools can be integrated into language learning. Remember this is self-reported information.
 
-### R00352 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Why Are LLMs Confidently Wrong? Correcting Overconfident Errors via Causal Head Intervention
-AB: Modern large language models (LLMs) often exhibit overconfident errors, assigning high confidence to incorrect predictions and thereby undermining
-    reliability in real-world use. Existing calibration methods typically rely on post-hoc adjustment or retraining, operating at the output level
-    without addressing the underlying causes of miscalibration. We propose CoCHI, (Class-oriented Causal Head Intervention), a framework that improves
-    calibration by identifying and intervening on internal components responsible for distinct confidence behaviours. By analysing predictions through
-    correctness-confidence patterns, CoCHI enables targeted intervention on model internals, reducing overconfident errors while preserving correct
-    predictions. Our approach provides a mechanistic perspective on calibration, linking reliability to identifiable structures within the model
-    rather than treating it as an output-level issue. Experiments across multiple LLMs show consistent improvements in calibration metrics, including
-    Expected Calibration Error, Negative Log-Likelihood, and Brier Score, while maintaining accuracy on five multiple-choice question answering
-    benchmarks. These results suggest that effective calibration requires not only adjusting outputs, but also addressing the underlying causal
-    mechanisms within the model.
+### R00274 | 2026 | article/None | Lang: en
+TI: Mind the gap: Perceived academic self-efficacy, creativity, and critical thinking with and without ChatGPT
+AB: This study investigates the effects of students’ ChatGPT use on their academic self-efficacy in higher education. With the increasing adoption of
+    generative AI (GenAI) tools such as ChatGPT in learning environments, concerns have emerged about their influence on learners’ academic
+    self-efficacy. Using a quantitative design, the study collected data through a structured online questionnaire completed by 296 higher education
+    students. The findings indicate that perceived independent academic self-efficacy (without ChatGPT) is, in most cases, higher than their perceived
+    technology-mediated academic self-efficacy (with ChatGPT). Nevertheless, while ChatGPT increases students perceived self-efficacy when used, it
+    simultaneously decreases their confidence in completing tasks without its assistance. In addition, while perceived academic self-efficacy without
+    using ChatGPT is significantly correlated with students’ perceived creativity and critical thinking, perceived academic self-efficacy with ChatGPT
+    is not. These findings raise concerns about potential overreliance on GenAI tools and their impact on the relationship between self-efficacy and
+    personal cognitive traits. The study concludes by emphasizing the need for balanced GenAI integration in education to foster independent learning
+    skills, creativity, and critical thinking, while preventing dependency and promoting responsible, reflective technology use.
 
-### R00353 | 2026 | preprint | Lang: n/a
-TI: CalibraRL: Confidence-Calibrated Reinforcement Learning for Mitigating Hallucinations in RAG
-AB: Large language models (LLMs) often produce plausible but incorrect answers, motivating reinforcement learning methods that reward correct answers,
-    penalize incorrect answers, and allow abstention. However, fixed outcome-based rewards do not distinguish incorrect responses with different
-    confidence levels or account for differences in answering reliability across queries. Consequently, such rewards may inadequately penalize
-    overconfident errors and fail to discourage unnecessary abstention. We propose CalibraRL, a reinforcement learning framework that incorporates
-    response confidence and query-level answering evidence into reward design. For non-abstaining responses, CalibraRL combines correctness-based
-    utility with a Brier-based penalty that encourages agreement between confidence and correctness. For abstentions, it estimates conditional
-    answering reliability using a Beta posterior derived from the correctness of non-abstaining responses within each sampled group. The abstention
-    reward increases with the posterior probability that the model's accuracy on non-abstaining responses is below a predefined threshold. CalibraRL
-    reuses training rollouts without requiring additional annotations indicating whether the model knows the answer to each question. Experiments on
-    three QA datasets demonstrate that CalibraRL improves answer precision and reduces hallucinations compared with strong baselines. Further analysis
-    shows that CalibraRL reduces mean expected calibration error (ECE) by 30.8\% across two backbone models and three datasets, highlighting its
-    potential to improve the reliability of retrieval-augmented generation (RAG) in web search.
+### R00275 | 2025 | article/None | Lang: en
+TI: EFL Learners’ Perception of ChatGPT Integration in English Learning: Motivation, Skills, and Pedagogical Development
+AB: This research explores the integration of ChatGPT, a generative AI language model, into English language learning in higher education, emphasizing
+    students’ perspectives on motivation, skill development, and pedagogical integration challenges. Drawing on interpretative qualitative data from
+    semi-structured interviews with seven undergraduate students in Indonesia, the research identifies how ChatGPT enhances students’ autonomy,
+    confidence, and engagement, especially in writing, grammar, and vocabulary development. While students report strong intrinsic motivation and
+    reduced anxiety due to ChatGPT’s non-judgmental interface, they also acknowledge limitations in speaking and listening support. Thematic analysis
+    reveals key themes including emotional responses, perceived usefulness, challenges in trust and overreliance, and expectations for institutional
+    support in pedagogical integration. The findings highlight the importance of lecturer guidance and ethical AI literacy to ensure responsible use.
+    This study contributes by providing empirical evidence on how AI integration can reshape language learning practices, offering clear directions
+    for educators in designing effective instructional strategies and for policymakers in formulating guidelines that balance innovation with
+    responsible use.
 
-### R00354 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Pair-Dependent Judge Errors Change the Minimax Rate of Semantic Entropy
-AB: Semantic entropy, the entropy of the meanings among a language model's sampled answers, is estimated from the verdicts of a judge that declares
-    pairs of answers equivalent or not, and automatic judges err in ways that depend on the answers they compare. The existing minimax theory covers
-    only judges whose false-equivalence probability is the same for all pairs. We model a known judge that declares two answers with meanings $a$ and
-    $b$ equivalent with probability $q+ΔM_{ab}$, for a symmetric matrix $M$ and $q$ bounded away from $0$ and $1$, and show that for three meanings
-    the rate is set by tree statistics on four answers, while on an open set of channels the consistency threshold is set by trees on five. For every
-    channel in an explicit open class, the minimax squared risk is of order $N^{-1/3}$ with $N=n^4Δ^6$ on polynomial weak windows on which $n^5Δ^8$
-    exceeds a multiple of $\log n$, and of order $\min\{1,N^{-1/3}\}$ on every polynomial weak window when the tree functions on at most four vertices
-    are injective. The exponent comes from a cubic degeneracy at the equitable point. On an open set of channels in the class, the four-vertex tree
-    functions take equal values at two distributions with different entropies. For such a channel, on every polynomial weak window, the minimax risk
-    is of the order of the sum of $\min\{1,N^{-1/3}\}$ and a term that decays exponentially in $n^5Δ^8$, so no estimator is consistent while $n^5Δ^8$
-    stays bounded, even as $N\to\infty$. For $Δ=n^{-β}$ with $β>1/2$, channels of the class with injective four-vertex tree functions allow consistent
-    estimation exactly for $β<2/3$, and the channels of this open set exactly for $β<5/8$, at which the risk exponent drops from $1/12$ to $0$.
-    Computer-assisted certificates show that both kinds of channels occur on open sets.
+### R00276 | 2026 | article/None | Lang: en
+TI: ChatGPT in EFL academic writing instruction in Asian higher education: A scoping review
+AB: Abstract ChatGPT is increasingly being used to support English as a Foreign Language (EFL) academic writing in higher education, yet evidence on
+    its role in Asian university instruction remains fragmented. This scoping review maps empirical studies on ChatGPT in EFL academic writing
+    instruction in Asian higher education, focusing on pedagogical uses, reported outcomes and ethical concerns. Methods Following Arksey and
+    O'Malley's framework and PRISMA‐ScR guidance, the review searched five databases for peer‐reviewed English‐language studies published between 2020
+    and 2025. Two reviewers independently screened and charted the studies, and findings were synthesised thematically through the PAGER framework.
+    Twenty‐seven studies were included. ChatGPT was primarily used for pre‐writing, revision and feedback. Reported benefits included stronger writing
+    quality, greater learner autonomy, improved motivation and reduced anxiety. Common concerns included overreliance, inaccurate or culturally biased
+    feedback, uncertainty surrounding academic integrity and unequal access to AI technologies. ChatGPT can be a useful scaffold for EFL academic
+    writing, but its value depends on guided integration, critical AI literacy and context‐sensitive policy. The findings support staged AI‐assisted
+    writing activities for EFL instructors, curriculum and assessment designs that promote critical AI literacy and responsible AI use, and
+    institutional policies that provide clear guidance, educator professional development and equitable access to AI technologies. Further
+    longitudinal, comparative and theory‐informed research is needed to evaluate the long‐term effectiveness of these approaches. Context and
+    implications Rationale for this study: Empirical evidence on ChatGPT for EFL academic writing in Asian higher education remains fragmented,
+    limiting understanding of effective pedagogical practices and associated challenges. Why the new findings matter: This review identifies how
+    ChatGPT is currently used, its reported benefits and the conditions needed for responsible and effective implementation. Implications for
+    practitioners, institutional leaders and researchers: The findings support integrating ChatGPT as a scaffold rather than a replacement for writing
+    instruction. EFL instructors should adopt structured AI‐supported writing activities that promote critical AI literacy and independent writing.
+    Higher education institutions should develop clear AI policies, redesign assessment to emphasise writing processes and responsible AI use and
+    provide professional development for educators. Researchers should prioritise longitudinal, comparative and theory‐informed studies to strengthen
+    the evidence base for AI‐supported academic writing.
 
-### R00355 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Neighborhood Elites: Quality-Diversity Search for Uncertainty Quantification in Question Answering
-AB: Large language models (LLMs) are increasingly capable, yet they produce wrong answers indistinguishable from correct ones. In question answering
-    (QA), such an error propagates unnoticed into downstream tasks. Perturbation-based uncertainty quantification (UQ) addresses this by probing a
-    model over a set of input rewrites and reading uncertainty from how much its predictions vary. Yet this set is usually built generically, by free
-    paraphrasing, token-level perturbation, or adversarial search. Such rewrites leave two things uncontrolled that matter in QA: what kind of change
-    is made to the context, and how explicitly the context supports the answer. When neither is controlled, the composition of the set is determined
-    by the generator rather than by design, and the estimate inherits whatever that generator happens to produce. Quality-diversity (QD) search is
-    built to cover a predefined exploration space, so we recast input perturbation as a QD problem and propose \emph{neighborhood elites (NE)}, a
-    neighborhood constructor that spreads answer-preserving rewrites across two axes, the kind of edit and the explicitness of support. We compare NE
-    against three other neighborhood constructors, holding the editor, QA model, uncertainty measure and search objective fixed, and against three
-    scores read from the original context. Across five extractive-QA datasets and five instruction-tuned LLMs, NE improves failure detection against
-    every other constructor in at least 24 of the 25 dataset-model pairs, reaching 0.726 AUROC and 0.211 AUPRC lift over the base rate. Additionally,
-    NE detects failure better than semantic entropy computed over decoder samples, by 0.074 AUROC and 0.062 AUPRC lift, and this advantage widens as
-    the neighborhood grows.
+### R00277 | 2026 | article/None | Lang: en
+TI: ChatGPT as an AI Learning Assistant for Enhancing EFL Students’ Writing: A Systematic Literature Riview
+AB: The rapid development of Artificial Intelligence (AI), particularly ChatGPT, has significantly influenced English as a Foreign Language (EFL)
+    learning practices. This study aims to examine the role of ChatGPT as an AI-powered learning assistant in enhancing EFL students’ writing skills
+    through a Systematic Literature Review (SLR) approach. The study employed the PRISMA framework to identify, screen, and analyze relevant articles
+    published between 2023 and 2025. The findings reveal that ChatGPT positively contributes to various aspects of writing development, including idea
+    generation, grammatical accuracy, vocabulary enrichment, writing organization, and paragraph coherence. Furthermore, the use of ChatGPT enhances
+    students’ motivation, self-confidence, and autonomy throughout the writing process. However, several challenges were identified, including
+    overreliance on AI technology, academic integrity concerns, and the risk of inaccurate information caused by AI hallucinations. Therefore, ChatGPT
+    should be utilized as a supportive learning tool rather than a substitute for teachers. The study concludes that integrating ChatGPT into EFL
+    writing instruction offers considerable potential for improving learning outcomes when accompanied by the development of AI literacy, digital
+    literacy, and academic ethical awareness.
 
-### R00356 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Embedding Semantic Entropy: NLI-Free Semantic Uncertainty Estimation with Geometry-Aware Clustering
-AB: Large Language Models (LLMs) often generate fluent yet incorrect responses, making un- certainty estimation important for reliable deployment.
-    Semantic Entropy (SE) estimates uncertainty by clustering responses based on semantic equivalence, but it relies on hard entailment-based
-    clustering. We propose Embedding Semantic Entropy, which replaces entailment-based clustering with K-Medoids in semantic embedding space and uses
-    dynamic cluster selection to account for intra-cluster compactness and inter-cluster separation. We evaluate the method on TriviaQA, SQuAD,
-    NQ-Open, SVAMP, and BioASQ using Falcon- 7B-Instruct, LLaMA-2-7B, LLaMA-2-7B-Chat, and Gemma-7B. Results show competitive AUROC and AUARC
-    performance, suggesting that NLI-based entailment clustering can be replaced with embedding-space clustering with limited degradation while
-    improving the inspectability of semantic grouping. This matters because semantic uncertainty scores depend on underlying semantic groups; by
-    making these groups explicit, compact, and separable in embedding space, Emb-SE turns uncertainty estimation from a black-box en- tailment
-    decision into an inspectable clustering problem.
+### R00278 | 2026 | article/None | Lang: en
+TI: Integrating ChatGPT in EFL writing: Perceptions and challenges of Islamic senior high school students
+AB: The increasing integration of artificial intelligence tools such as ChatGPT in EFL writing has raised interest in how students experience the use
+    of these tools in learning. This study aims to explore students’ experiences of using ChatGPT and to identify the challenges they encountered.
+    Employing a qualitative phenomenological design, the study involved 23 students from eight working groups. Data were collected through classroom
+    observations during writing activities and semi-structured interviews with six students representing different academic levels. The findings
+    indicate that students generally perceive ChatGPT as a supportive tool that facilitates idea generation, improves sentence organization, and
+    enhances language use. Many students reported increased confidence in writing when using ChatGPT as a reference and scaffolding resource. However,
+    several challenges were also identified, including technical issues such as unstable internet access and cognitive challenges such as limited
+    prompt literacy, overreliance on AI-generated responses, reduced creativity, and diminished critical thinking. Students with higher motivation and
+    stronger language proficiency demonstrated more critical and selective use of ChatGPT, while others tended to depend on it as a shortcut. This
+    study highlights that the effectiveness of ChatGPT depends not only on technological access but also on students’ readiness and teacher guidance
+    to promote critical, ethical, and reflective use.
 
-### R00357 | 2026 | preprint | Lang: n/a
-TI: Evaluating Token Probabilities as Confidence Estimators in Human Behavior Simulations: A Case Study in Luxembourgish Next Like Prediction
-AB: As large language models (LLMs) are increasingly used to simulate human behavior, their operational validity is typically assessed through
-    accuracy alone, implicitly treating human behavior as deterministic. We argue that on noisy digital trace data, a model's performance depends not
-    only on predicting the correct outcome but on its calibration. We present a case study testing whether the token probabilities of open-weight LLMs
-    can serve as confidence estimates in a Next Like Prediction task: predicting how a user of the Luxembourgish news platform RTL.lu rates a comment,
-    conditioned on their prior interactions. Evaluating Ministral 3 (3B, 8B), we find that, with in-context learning only, the tested models are
-    overconfident and are outperformed on accuracy and calibration by a simple statistical baseline. Accuracy and calibration do not move together:
-    scaling from 3B to 8B improves accuracy while degrading calibration, and longer behavioral histories raise accuracy while confidence declines.
-    Task-specific supervised fine-tuning acts as an effective calibration intervention, reducing Expected Calibration Error from 0.2 to 0.006 while
-    improving accuracy from 0.536 to 0.758. We conclude that confidence estimation should be evaluated alongside accuracy to improve validity when
-    using LLM-based agents.
+### R00279 | 2026 | article/None | Lang: en
+TI: Beyond ChatGPT: The Psychological Implications of Generative Artificial Intelligence for University Students. A Critical Review
+AB: The rapid diffusion of generative artificial intelligence (GenAI) tools such as ChatGPT, Gemini, Claude, and Copilot has transformed how
+    university students learn, write, seek help, and manage academic demands. While early scholarship concentrated on academic integrity and
+    assessment redesign, the psychological consequences of sustained GenAI use remain comparatively underexamined. This critical narrative review
+    synthesises empirical and conceptual literature published primarily between 2021 and 2026, identified through systematic searches of Scopus, Web
+    of Science, ERIC, PsycINFO, and Google Scholar, to map what is currently known about the psychological implications of GenAI for university
+    students. Four interrelated thematic domains are identified: (1) cognitive functioning, including cognitive offloading, critical thinking, and
+    metacognitive engagement; (2) motivation and the self, including academic self-efficacy, autonomy, and competence; (3) emotional wellbeing,
+    including AI anxiety, technostress, stress relief, loneliness, and chatbot companionship; and (4) academic integrity, moral emotions, and academic
+    identity. The evidence portrays GenAI as a double-edged psychological technology. It can scaffold confidence, reduce help-seeking anxiety, and
+    provide accessible emotional support, yet it can also foster overreliance, erode critical thinking, intensify anxiety about future employability,
+    and destabilise students' sense of authorship and academic self-worth. A dual-pathway conceptual model is proposed in which AI literacy,
+    self-regulation, social support, and institutional policy moderate whether GenAI use follows an enabling or an eroding trajectory. The review
+    concludes that psychological outcomes depend less on the frequency of GenAI exposure than on the mode of engagement. Implications for university
+    policy, counselling services, curriculum design, and assessment reform are discussed, and an agenda for longitudinal, experimental, and
+    cross-cultural research is outlined.
 
-### R00358 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization
-AB: This paper describes an approach and use case to estimate the correctness of LLM-generated COBOL summaries without access to human-authored
-    references. The core intuition is that inter-model agreement on semantics is informative about truth, and that an LLM-as-judge can provide
-    higher-fidelity pairwise assessments than traditional string- or embedding-based metrics. We operationalise this intuition with (i) controlled
-    summary generation from diverse models; (ii) a LLM evaluator that compares pairs of summaries and emits structured judgments; and (iii) a
-    calibrated aggregation rule that combines supportive evidence while penalising only corroborated contradictions.
+### R00280 | 2025 | article/None | Lang: en
+TI: Students’ Perception of the Use of ChatGPT in English Writing Skills for Grade Ten at Senior High School
+AB: This research aims to explore tenth-grade students’ perceptions of using ChatGPT in supporting English writing skills at SMA Negeri 3
+    Pematangsiantar. The research applied a descriptive qualitative method based on the Technology Acceptance Model (TAM), focusing on two constructs:
+    Perceived Usefulness (PU) and Perceived Ease of Use (PEOU). The qualitative approach was chosen to deeply understand students’ experiences,
+    meanings, and subjective views regarding ChatGPT in writing, as qualitative research allows for exploration beyond mere numerical data (Miles &
+    Huberman, 1994, cited in Sugiyono, 2017). The sample consisted of 35 students selected through purposive sampling. Data were collected through a
+    questionnaire and analyzed using descriptive statistics. The findings reveal that students’ perceptions were generally positive, with a stronger
+    inclination toward ease of use. For PEOU, there were 322 agree responses in total (from 12 items), indicating that students perceived ChatGPT as
+    simple to operate, accessible, and effective in writing. For PU, there were 314 agree responses, showing that students recognized ChatGPT’s
+    usefulness in enriching vocabulary, improving grammar, and assisting idea generation. While a few students expressed concerns about overreliance,
+    most perceived ChatGPT as a user-friendly and supportive tool for writing. The research suggests that integrating AI-based applications like
+    ChatGPT, guided by TAM theory, can enhance students’ confidence and engagement in English writing instruction.
 
-### R00359 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Improving Confidence Estimation in Language Models with Linear Representations of Ambiguity
-AB: As language models (LMs) are increasingly deployed in downstream applications, accurately estimating their likelihood of success on a given
-    example is critical. However, confidence estimates from LMs are poor predictors of their likelihood of success. Accurate confidence estimation is
-    linked in part to the detection of aleatoric uncertainty; we hypothesize that LMs possess representations of at least some aspects of this
-    uncertainty in the form of representations of the inherent ambiguity of the input. Using difference-in-means on minimal pairs of ambiguous and
-    unambiguous sentences, we derive ambiguity representations in LM activations, and find that steering with them selectively (albeit weakly)
-    modulates LMs' judgments of the input's ambiguity. We then propose DART, a fine-tuning method that encourages updates to lie within the span of
-    the ambiguity directions, and penalizes changes to the LM activations outside of this subspace. DART greatly improves calibration, encodes these
-    improvements into the model parameters, and maintains model accuracy on multiple-choice and generative QA tasks.
+### R00281 | 2025 | article/None | Lang: en
+TI: Pre-Service Teachers’ Experiences with ChatGPT: Toward Responsible AI Use in Teacher Education
+AB: The emergence of generative artificial intelligence (AI) tools, such as ChatGPT, is reshaping how teachers and learners interact with content.
+    While its use in teacher education is growing, little is known about how pre-service teachers experience, interpret, and utilize this tool during
+    critical phases like practice teaching. This study explores the lived experiences, perceptions, and reflections of pre-service teachers in using
+    ChatGPT for academic and instructional tasks. It aims to inform the development of an AI literacy program grounded in ethical and pedagogical
+    principles for teacher education institutions. A qualitative descriptive-phenomenological approach was used, involving in-depth, semi-structured
+    interviews with 25 fourth-year pre-service teachers from Tagoloan Community College during 2nd Semester SY 2024-2025. Braun and Clarke’s (2023)
+    thematic analysis framework guided data analysis to capture emergent themes. Participants reported diverse uses of ChatGPT, including academic
+    writing support, lesson planning, research guidance, and content clarification. A central finding was the recognition of ChatGPT as a personalized
+    learning companion, especially during periods of cognitive load or instructional planning. While most highlighted its role in enhancing
+    efficiency, creativity, and confidence, concerns were raised about overreliance, diminished critical thinking, and ethical boundaries. Thematic
+    findings reflected a balanced perspective, valuing ChatGPT’s convenience while recognizing the need for responsible and reflective use. Based on
+    these findings, the study recommends integrating a structured AI literacy and ethics program, AI-TEACH (Artificial Intelligence – Training for
+    Ethical and Accountable Classroom Harnessing), into teacher education curricula. This initiative promotes digital competence, ethical awareness,
+    and pedagogical innovation, contributing to inclusive and quality education as emphasized in Sustainable Development Goal 4.
 
-### R00360 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Wrong with Confidence: Measuring Hallucination, Overconfidence and Identity-Conditioned Behaviour in Large Language Models
-AB: Large language models answer underspecified questions readily, and accuracy-only evaluation rewards guessing over abstaining. Observational
-    studies link query underspecification to hallucination, but they cannot separate the effect of missing information from item difficulty, and they
-    rarely ask what the model tells the user. We report a pre-registered, paired behavioural study of five open-weight models (Gemma 3 27B, Gemma 4
-    31B, gpt-oss-120b, Qwen3-Next-80B-A3B and Nemotron 3 Super). Each of 142 factual questions was posed in a fully specified form and in a
-    referentially underspecified form with the same answer key, and three probes measured identity-conditioned behaviour. Two raters scored 5,620
-    responses under a fixed rubric; effects were estimated with mixed-effects models. Without the referent, the models sought clarification on 33.7%
-    of prompts and answered the rest. Among attempted answers, the error rate rose from 39.1% to 52.0% (mixed-effects odds ratio 4.12, 95% CI
-    2.76-6.14), and specialist-domain questions failed more often than general ones in every model. Unelicited verbal uncertainty did not track this
-    risk: 75.3% of wrong answers carried no hedge, wrong answers to underspecified prompts were hedged no more often than wrong answers to clear
-    prompts (27.3% vs 22.3%), and hedging separated correct from incorrect answers only weakly (AUROC 0.56). Gendered pronouns followed occupational
-    stereotypes whenever a model committed to one; any stated user identity lengthened answers by about 45% relative to an anonymous user; claimed
-    expertise did not reduce safety caveats. The models either ask or answer as if the question were well posed, and the wording of a guess does not
-    reveal that it is one. Evaluations should score clarification as a distinct outcome and check label validity as well as rater agreement.
+### R00282 | 2026 | article/None | Lang: en
+TI: Beyond grammar: How ChatGPT-4.0 shapes writing self-efficacy and performance in CSL writing
+AB: This study examined ChatGPT-4.0 as a feedback tool in Chinese as a Second Language writing instruction, focusing on writing performance and
+    writing self-efficacy. An eight-week quasi-experimental intervention was conducted with 53 intermediate-to-advanced CSL undergraduates in East
+    China. The experimental group received ChatGPT-assisted feedback during writing, while the control group relied on traditional teacher support. A
+    mixed-methods design was adopted, combining pre- and post-test writing assessments, questionnaire measures of self-efficacy, and follow-up
+    interviews. Findings indicated that students using ChatGPT showed significantly higher post-test writing scores and greater gains in writing
+    self-efficacy, particularly in ideation, conventions, and self-regulation. Regression analyses further suggested that ChatGPT use and post-test
+    self-efficacy were both associated with improved writing outcomes. Interview data revealed that learners valued the immediacy, availability, and
+    low-pressure nature of AI feedback, which appeared to support correction, idea development, self-monitoring, and confidence building, while also
+    raising concerns about overreliance and formulaic expression. Overall, the results suggest that ChatGPT may serve as a useful feedback resource in
+    CSL writing when implemented with structured guidance, teacher mediation, and attention to learner uptake of AI-generated feedback.
 
-### R00361 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Where Is Uncertainty Observed? A Mechanistic Understanding of Uncertainty Quantification in LLMs
-AB: Knowing when a large language model's (LLM's) response can be trusted is critical for its safe use. Uncertainty quantification (UQ) can help LLMs
-    recognize if their responses may be unreliable. Existing taxonomies organize UQ methods by uncertainty source or estimation mechanism. They leave
-    unresolved the question of where uncertainty is observed in the model's computation. The answer matters because the observation point determines
-    whether an estimator has access to enough information to recover a given target, and how well it can recover it. Drawing on mechanistic
-    interpretability, we define four mechanistic observation lenses: the structural lens observes component updates, the representational lens
-    observes hidden states, the distributional lens observes token probabilities, and the semantical lens observes distributions over meanings. We
-    relate these lenses through the residual stream and order them by the information they carry, which gives a principle for selecting UQ methods for
-    different targets. We survey existing methods through the four lenses. Furthermore, we distinguish evaluation targets, criteria, and metrics to
-    clarify different UQ evaluation protocols. Finally, we identify open problems and research directions to connect uncertainty estimation to the
-    internal computation and downstream use of LLMs.
+### R00283 | 2026 | article/None | Lang: en
+TI: A Commentary on Accounting Education in Transition: Reflections on What 800+ Students Taught Us About ChatGPT
+AB: ABSTRACT This commentary contributes to ongoing discussions in accounting education by examining how undergraduate students perceive and engage
+    with ChatGPT as generative artificial intelligence (AI) becomes more prevalent in learning contexts. Based on survey data and open‐ended
+    reflections from 846 accounting students at a Canadian university, the paper explores how students engage with ChatGPT, the educational value they
+    attribute to it, and the ethical, trust‐related, and pedagogical concerns they identify. Students who used ChatGPT generally viewed it as a useful
+    and accessible tool that supports efficiency and conceptual understanding, while also recognizing limitations related to accuracy, overreliance,
+    and academic integrity. Students who chose not to use ChatGPT demonstrated awareness of its potential benefits but expressed greater uncertainty
+    and concern, underscoring the role of trust and clarity in shaping their engagement with AI. Interpreted through the technology acceptance model,
+    the findings suggest that perceptions of usefulness and ease of use alone do not fully explain student engagement with generative AI; instead,
+    verification practices, ethical awareness, and instructional guidance play a significant moderating role. By capturing student perspectives at an
+    early stage of AI adoption, this commentary highlights the importance of intentional pedagogical design in accounting education. The paper
+    concludes with reflections for educators and institutions, emphasizing the importance of integrating AI literacy, ethical guidance, and
+    verification practices to support professional judgment and responsible learning in an AI‐enabled accounting profession.
 
-### R00362 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles
-AB: Reliable use of large language models (LLMs) requires uncertainty estimates that separate ambiguity intrinsic to a prompt from genuine knowledge
-    gaps. Bayesian and deep-ensemble methods deliver this aleatoric/epistemic decomposition in principle, but are computationally prohibitive at LLM
-    scale and require white-box access. Existing black-box methods, in contrast, summarize to a single scalar that cannot make the distinction. We
-    introduce a two-level ensemble that bridges this gap. Stochastic decoding of a fixed prompt forms the inner ensemble; meaning-preserving semantic
-    perturbations of the prompt form the outer ensemble. Variability is measured in a continuous embedding space, and the law of total covariance
-    gives an exact within-/between-perturbation decomposition to estimate aleatoric and epistemic uncertainty (AU/EU); it requires only black-box
-    sampling access. On top of this estimator, we contribute three theoretical results that ground the framework: (i) a finite-sample bias identity
-    for nested Monte Carlo with a closed-form bias-corrected epistemic estimator; (ii) a Bayesian bridge bounding the gap between
-    perturbation-population AU/EU and Bayesian targets; and (iii) a separation result identifying a class of failure modes that any consistency-only
-    black-box method provably misses while perturbation-based EU detects. Across five short QA benchmarks and four instruction-tuned LLMs spanning two
-    families and two scales, our estimator is competitive with strong white-box baselines, and at a matched generation budget it matches leading
-    black-box methods on error ranking while decomposing AU and EU; controlled paired interventions show that AU and EU respond selectively to
-    distinct, actionable sources of failure: prompt ambiguity and model knowledge gaps; and a long-form pilot on the NQ long-answer split shows the
-    framework extends to claim-level factuality without retraining.
+### R00284 | 2026 | article/None | Lang: en
+TI: Transforming Lesson Planning with ChatGPT: A Multi-Case Study of Texas Pre-Service and In-Service Educators
+AB: This multi-case study explores how generative artificial intelligence (GenAI), specifically ChatGPT, influenced lesson planning in Texas teacher
+    education. In-service and pre-service teachers developed lesson plans, revised them using ChatGPT-generated suggestions, and reflected on the
+    benefits and challenges of AI integration. Pre- and post-intervention surveys were used to measure changes in attitude, perceived usefulness, ease
+    of use, behavioral intention, and actual use. Results indicated increases across all five constructs, with especially strong gains in actual use
+    and ease of use among pre-service teachers. Qualitative data revealed that teachers valued AI for enhancing lessons, offering additional
+    instructional ideas, and improving student engagement. In-service teachers emphasized time efficiency and alignment with classroom needs, while
+    pre-service teachers highlighted greater confidence and support during the planning process. Reported challenges included concerns about items
+    such as accuracy, overreliance, tool complexity, ethical use, and the lack of human connection. Cross-case findings suggest that GenAI tools can
+    support instructional planning when thoughtfully integrated and accompanied by professional development that reinforces teacher expertise.
 
-### R00363 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
-TI: FiReIQ: Field-Level Confidence Estimation with Reasoning and Image Quality in Document Extraction
-AB: Vision-Language Models (VLMs) have demonstrated strong performance in structured document extraction, yet their deployment in high-stakes
-    applications requires reliable confidence estimates for individual fields. Existing uncertainty estimators often aggregate signals across an
-    entire generation, obscuring field-specific reasoning uncertainty while overlooking visual degradations that may lead to confident extraction
-    errors. To address these limitations, we introduce FiReIQ, a field-level confidence estimation framework that combines field-aligned reasoning
-    signals from a single VLM generation with local and global image-quality features through quality-conditioned visual fusion. To facilitate
-    systematic evaluation, we further introduce FiReIQ-Bench, a benchmark spanning financial receipts and legal contracts. Experiments with two
-    reasoning VLMs show that FiReIQ consistently improves confidence discrimination, selective prediction, and probabilistic accuracy over existing
-    estimators. These gains extend to private financial service data, where FiReIQ improves AUROC by 6.8% and coverage at 95% precision by 10.6% over
-    an existing baseline. Together, these results highlight the potential of FiReIQ to reduce manual review while enabling more reliable document
-    automation.
+### R00286 | 2026 | article/None | Lang: en
+TI: Educator Perspectives on a Collaborative Integration of ChatGPT to Foster EFL Learner Autonomy in the Development of Speaking and Writing Skills
+AB: This paper repor ts on a collaborative teacher innovation that integrated ChatGPT into English as a Foreign Language (EFL) courses at a Japanese
+    junior college. Three instructors designed lesson sequences for three course strands, speaking, presentation, and writing in order to support
+    students preparing for study abroad. Each strand included a series of three ChatGPTmediated lessons that emphasized prompt literacy, reflective
+    learning, and ethical use of AI. Teacher reflections showed encouraging results: students were more engaged, motivated, and independent, and they
+    developed a more critical and confident approach to AI. Challenges included differences in digital skills, occasional overreliance on AI, and
+    technical limits of the free version of ChatGPT. Overall, the project demonstrates how cross-skill integration of ChatGPT can enhance student
+    confidence, academic performance, and ethical awareness, while helping teachers adapt to evolving AI technologies.
 
-### R00364 | 2025 | article/None | Lang: en
-TI: Benchmarking Uncertainty Quantification Methods for Large Language Models with LM-Polygraph
-AB: Abstract The rapid proliferation of large language models (LLMs) has stimulated researchers to seek effective and efficient approaches to deal
-    with LLM hallucinations and low-quality outputs. Uncertainty quantification (UQ) is a key element of machine learning applications in dealing with
-    such challenges. However, research to date on UQ for LLMs has been fragmented in terms of techniques and evaluation methodologies. In this work,
-    we address this issue by introducing a novel benchmark that implements a collection of state-of-the-art UQ baselines and offers an environment for
-    controllable and consistent evaluation of novel UQ techniques over various text generation tasks. Our benchmark also supports the assessment of
-    confidence normalization methods in terms of their ability to provide interpretable scores. Using our benchmark, we conduct a large-scale
-    empirical investigation of UQ and normalization techniques across eleven tasks, identifying the most effective approaches.
+### R00287 | 2025 | article/None | Lang: en
+TI: Integrating Generative AI (e.g., ChatGPT) as a Collaborative Writing Partner in an Academic English Course: A Pedagogical Study
+AB: Background. Traditional writing instruction often struggles to provide continuous feedback, individualized support, and opportunities for
+    iterative revision, leading to gaps in students’ development of critical thinking and academic discourse skills. Generative Purpose. This study
+    investigates the pedagogical impact of integrating ChatGPT as a collaborative writing partner in an Academic English course. Method. Employing a
+    mixed-methods design, the study involved 36 university students who participated in a six-week intervention consisting of guided writing tasks,
+    AI-supported drafting sessions, and reflective activities. Results. The findings indicate noticeable improvements in coherence, lexical precision,
+    and argumentative structure, accompanied by increased student confidence and metacognitive engagement. Participants viewed ChatGPT as a supportive
+    partner that enhanced idea generation and revision processes, although concerns regarding overreliance and critical evaluation emerged.
+    Conclusion. The study concludes that generative AI can serve as an effective pedagogical tool when integrated with explicit instruction and human
+    guidance.
 
-### R00365 | 2025 | article/None | Lang: en
-TI: A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions
-AB: The remarkable performance of large language models (LLMs) in content generation, coding, and common-sense reasoning has spurred widespread
-    integration into many facets of society. However, integration of LLMs raises valid questions on their reliability and trustworthiness, given their
-    propensity to generate hallucinations: plausible, factually-incorrect responses, which are expressed with striking confidence. Previous work has
-    shown that hallucinations and other non-factual responses generated by LLMs can be detected by examining the uncertainty of the LLM in its
-    response to the pertinent prompt, driving significant research efforts devoted to quantifying the uncertainty of LLMs. This survey seeks to
-    provide an extensive review of existing uncertainty quantification methods for LLMs, identifying their salient features, along with their
-    strengths and weaknesses. We present existing methods within a relevant taxonomy, unifying ostensibly disparate methods to aid understanding of
-    the state-of-the-art. Furthermore, we highlight applications of uncertainty quantification methods for LLMs, spanning chatbot and textual
-    applications to embodied artificial intelligence applications in robotics. We conclude with open research challenges in the uncertainty
-    quantification of LLMs, seeking to motivate future research.
+### R00288 | 2026 | article/None | Lang: en
+TI: How students make sense of ChatGPT in digital literacy education: reflections on ethics, dependency, emotion, and evaluation
+AB: Generative AI tools such as ChatGPT are rapidly entering higher education and reshaping how students access, justify, and evaluate knowledge,
+    issues relevant to academic integrity and information governance. However, most studies focus on adoption, attitudes, or performance outcomes, and
+    fewer examine how students reflectively make sense of ChatGPT after structured digital literacy instruction, including how ethics, dependence,
+    emotion, and credibility evaluation intersect. This study analyzed 133 undergraduate self-reflection texts produced after a Digital Literacy
+    course at an Indonesian university. We conducted a qualitative content analysis using NVivo, combining prompt-guided coding with iterative
+    thematic abstraction to identify higher-order patterns across reflections. Three higher-order themes emerged, negotiated dependency captured
+    situational reliance on ChatGPT alongside efforts to retain authorship and learning autonomy. Ethical ambivalence described boundary-setting
+    around fairness, originality, and disclosure. Conditional trust reflected trust calibration through verification practices (e.g., cross-checking,
+    selective rewriting) and recognition that fluent outputs may be unreliable. Emotional responses, including reassurance, anxiety, and guilt, often
+    shaped the intensity of reliance and the likelihood of verification. Students did not uniformly treat ChatGPT as an epistemic authority; instead,
+    they calibrated their responsibility and trust in the face of uncertainty. The study’s novelty lies in conceptualizing AI literacy as “layered
+    positioning” across dependency, ethics, affect, and evaluative judgment, showing how these dimensions co-occur in students’ narratives rather than
+    operate separately. The findings support policy and curriculum design that make disclosure expectations explicit, teach verification routines, and
+    use reflective assessment to strengthen student agency in AI-mediated knowledge environments.
 
-### R00366 | 2025 | article/None | Lang: en
-TI: Uncertainty quantification by large language models
-AB: As reasoning capabilities of large language models (LLMs) continue to advance, they are being integrated into increasingly complex scientific
-    workflows, with the goal of developing agents capable of generating evidence-based explanations and testing hypotheses and theories. However,
-    despite their rapid progress, most existing evaluations of LLM reasoning focus on accuracy or consistency rather than on uncertainty
-    quantification (UQ), which is essential for evidence-based reasoning because it quantifies the degree of trustworthiness of evidence-based
-    explanations. Current approaches to LLM uncertainty remain fragmented, often lacking standardized benchmarks that test models under varying task
-    complexities. To address this gap, we introduce the first benchmark suite designed to evaluate UQ by LLM-based agents and tools. The benchmark
-    targets one of the most fundamental UQ problem: estimating whether one quantity is probably larger than another under uncertainty. It includes two
-    progressively complex tasks: a simple inequality test, where models judge whether one of two sets of samples is “larger,” “smaller,” or
-    “uncertain” with 95% confidence, and a complex inequality test, where models assess interventional probabilities requiring multiple intermediate
-    calculations. We found that reasoning models are generally capable of UQ (scores ≳ 70 % ) in the simple inequality case but do not score
-    appreciably better than random guessing (scores ∼ 33 % ) for the complex inequality case if the UQ method and intermediate steps are not provided
-    in the prompt. Our implementation is available at https://github.com/bekaiser-LANL/tether . • LLMs integrated in scientific workflows must be able
-    to perform fundamental UQ tasks. • We evaluate and present how LLMs perform uncertainty quantification. • Implementation and documentation
-    available at https://github.com/bekaiser-LANL/tether .
+### R00290 | 2025 | article/None | Lang: en
+TI: Between Trust and Skepticism: Comparative Perceptions of ChatGPT in Academic Writing among EFL Learners in Indonesia and the Philippines
+AB: This study investigates the comparative perceptions of Indonesian and Philippine EFL students regarding the use of ChatGPT in academic writing,
+    focusing on the interplay between trust and skepticism. Employing a quantitative comparative research design with complementary qualitative
+    inputs, data were collected from 232 university students using a structured questionnaire consisting of 20 closed-ended items analyzed
+    quantitatively and two open-ended items analyzed qualitatively. Descriptive statistics and comparative analysis revealed that both groups
+    perceived ChatGPT positively as a tool that improves writing quality, coherence, and confidence. However, students also expressed ethical concerns
+    about plagiarism, overreliance, and authenticity. Filipino students tended to exhibit higher trust due to greater digital familiarity, while
+    Indonesian students demonstrated stronger skepticism rooted in institutional and moral caution. The findings highlight the coexistence of trust
+    and critical awareness, emphasizing the need for AI literacy education that integrates technological proficiency with ethical reflection. The
+    study contributes to global discussions on AI-assisted writing by contextualizing the phenomenon within Southeast Asian educational settings.
 
-### R00367 | 2026 | preprint/None | Lang: en
-TI: Confidence Calibration of Large Language Models (LLMC)
-AB: Large Language Models (LMs) have shown remarkable capabilities in text generation and question answering tasks. Their ability to generate
-    plausible responses to user queries has resulted in their widespread adoption by those in academia, industry, and society at large. However, their
-    propensity to hallucinate facts poses risks to widespread adoption. A key form of this hallucination is overconfidence. That is, LMs often assign
-    high confidence to incorrect or unverifiable outputs, misleading users into trusting false information. This misalignment between a model's
-    confidence and its actual correctness undermines reliability, especially in high-stakes applications such as education, healthcare, and legal
-    reasoning. In this work, we examine the calibration of LMs across a range of task difficulties and domains, assessing whether their stated
-    confidence accurately reflects their true performance. We further explore the conditions under which models are most prone to overconfidence and
-    propose evaluation protocols for systematically identifying and mitigating confidence-based hallucinations. Our findings offer insights into
-    improving model interpretability and trustworthiness by aligning internal certainty with empirical accuracy.
+### R00291 | 2025 | article/None | Lang: en
+TI: Computer-Assisted Translation and ChatGPT: A Case Study in Teaching English-French Translation at Euromed University of Fès
+AB: This study investigates the integration of ChatGPT-4, an AI language model, in translation tasks within a classroom environment, focusing
+    specifically on English-French translation activities performed by 13 students. Employing a mixed-methods approach, data were collected through
+    focus groups, classroom observations, reflective journals, and semi-structured questionnaires to gain a comprehensive understanding of students’
+    perceptions, interaction patterns, and learning strategies when engaging with AI-assisted translation tools. The findings reveal that a majority
+    of students perceived ChatGPT-4 as a useful resource for vocabulary and syntax suggestions, often utilizing it primarily as a reference or
+    drafting tool to support their initial translations. Despite these advantages, participants widely acknowledged the necessity for thorough
+    post-editing, as ChatGPT-4 frequently produced literal or semantically inaccurate translations requiring correction. The use of ChatGPT-4 also
+    encouraged students to develop critical thinking and editing skills by engaging more actively in evaluating and refining AI-generated outputs.
+    While some students initially exhibited skepticism or anxiety about relying on AI, their confidence in using the tool grew with practice,
+    highlighting the emotional and pedagogical challenges involved in adopting new technologies. Concerns about potential overreliance on AI were also
+    expressed, underscoring the need for balanced integration. Overall, the study emphasizes the pedagogical potential of ChatGPT-4 as a complementary
+    tool that supports but does not replace human judgment in translation education. It advocates for guided instruction to enhance AI literacy and
+    maintain translation quality.
 
-### R00368 | 2025 | article/None | Lang: en
-TI: Stable but Miscalibrated: A Kantian View on Overconfidence from Filters to Large Language Models
-AB: We reinterpret Kant’s Critique of Pure Reason as a theory of feedback stability, viewing reason as a regulator that keeps inference within the
-    bounds of possible experience. We formalize this intuition in linear-Gaussian state-space models via H-Risk, a composite instability index
-    integrating spectral margin, conditioning, temporal sensitivity, and innovation amplification. In simulations, higher H-Risk predicts
-    overconfident errors and degraded closed-loop behaviour even when the dynamics remain formally stable, exposing a gap between nominal and
-    epistemic stability. Extending this stability lens to large language models (LLMs), we introduce a domain-wise proxy based on confidence
-    fluctuations and overconfident errors. In a binary-question study, a Kantian-inspired policy that permits "cannot judge" responses yields targeted
-    reductions in policy-aware squared loss in high-stakes domains relative to an overconfident baseline. To probe internal dynamics, we analyse
-    layer-wise sensitivity of hidden states to small input perturbations. Contrary to a naive instability hypothesis, confidently wrong answers show
-    no instability gap; instead, they are at least as locally stable as confidently correct answers, revealing stable miscalibration in which
-    hallucinations behave like robust but misaligned attractors. For Qwen-2.5, spectral and activation profiles suggest a high signal-to-noise, low
-    effective signal temperature regime in which representations become inertial and resistant to contextual shifts. These results bridge Kantian
-    self-limitation and feedback control, and suggest that stable high-confidence hallucinations may not be readily corrected by output-only
-    heuristics (e.g., temperature scaling or re-sampling), motivating process-level interventions that explicitly perturb and re-evaluate the
-    inference trajectory.
+### R00292 | 2025 | article/None | Lang: en
+TI: Enhancing Japanese EFL Students’ Grammar Accuracy and Writing Fluency Using ChatGPT: A Mixed-Method Study
+AB: This mixed-methods study investigated whether or not ChatGPT worked as a writing aid to increase the grammar accuracy and writing fluency of
+    Japanese EFL students. Thirty Japanese senior high school students took part in a six-week intervention that included ChatGPT in process-based
+    writing assignments. Three research questions were examined in the study: (1) How much does ChatGPT help learners become more accurate with
+    grammar? (2) What impact does ChatGPT have on writing fluency? (3) What role does ChatGPT play in the development of students' writing? Pre- and
+    post-tests evaluated using analytical rubrics yielded quantitative data. Grammar accuracy (t(29) = 8.62, p < 0.001, d = 1.11) and writing fluency
+    (t(29) = 6.46, p < 0.001, d = 0.84) both significantly improved, according to paired-samples t-tests. Three main themes emerged from qualitative
+    data from learner journals, semi-structured interviews, and classroom observations: ChatGPT as a grammar mentor, fluency development via iterative
+    rewriting, and growing concerns about overreliance. Students reported better coherence and flow in written texts, increased awareness of frequent
+    grammatical errors, and increased confidence in editing sentences. Results show that when ChatGPT is used as a scaffolded, process-oriented tool
+    rather than as a replacement for independent writing, it can support both linguistic accuracy and fluency. Students' worries about dependence,
+    however, emphasize the necessity of clear instruction in digital literacy. The study offers pedagogical implications for integrating AI
+    responsibly in Japanese and wider Asian EFL contexts and adds empirical evidence to the expanding body of research on AI-assisted EFL writing.
 
-### R00369 | 2026 | preprint/None | Lang: en
-TI: Uncertainty Quantification in Medical Large Language Models
+### R00293 | 2026 | article/None | Lang: en
+TI: Adoption of ChatGPT in Academic Writing: College Students’ Perspectives, Attitudes and Behavioral Intentions as Basis for an AI Literacy Program
+AB: This study examined the perspectives, attitudes, and behavioral intentions of college students toward the use of ChatGPT in academic writing.
+    Anchored on the Technology Acceptance Model and the Theory of Planned Behavior, the study employed a mixed-methods descriptive–correlational
+    design using survey questionnaires and focus group discussions. The study was conducted among 152 college students at IQRA Development Academy
+    Inc. Results showed high perceived usefulness (M = 4.50), particularly in idea generation, writing improvement, and task efficiency. Perceived
+    ease of use was also high (M = 4.38), indicating that ChatGPT is accessible, although effective use requires skill in prompt construction.
+    Students demonstrated positive attitudes (M = 4.32) and favorable behavioral intentions (M = 4.25) toward using ChatGPT in academic writing.
+    Spearman’s rho revealed significant moderate positive relationships between behavioral intention and perceived usefulness (ρ = .511, p < .05) and
+    perceived ease of use (ρ = .489, p < .05). Qualitative findings supported the quantitative results. Students reported benefits such as improved
+    grammar, clearer organization of ideas, increased confidence, and time efficiency. However, concerns were raised regarding plagiarism,
+    overreliance, and the accuracy of AI-generated content. Participants emphasized the need for institutional guidance, training, and clear policies.
+
+### R00294 | 2026 | article/None | Lang: en
+TI: Goals, Properly Technical: Special Education Teachers Using ChatGPT to Develop Individualized Student Goals
+AB: Educators’ responsibilities extend well beyond instruction to include administrative duties such as grading, maintaining records, and documenting
+    student behavior, as well as ongoing meetings and professional development requirements (Billingsley et al., 2019; Darling-Hammond et al., 2017).
+    These demands can create a disconnect between role expectations and daily realities (Brunsting et al., 2023). Special education teachers (SETs)
+    face these same responsibilities alongside additional paperwork requirements, which may account for up to 20% of their workday (Carlson et al.,
+    2002; Suter & Giangreco, 2009; Vannest et al., 2011). A central task is the development of Individualized Education Programs (IEPs), including
+    measurable annual academic and functional goals. To support goal development, schools have adopted tools such as goal-banking software aligned
+    with SMART criteria (More & Hart Barnett, 2014; Müller et al., 2023). More recently, artificial intelligence (AI), including ChatGPT and other
+    large language models, has emerged as a potential resource for both instructional and administrative tasks (Goldman et al., 2024; Kaplan-Rakowski
+    et al., 2023). The Conservation of Resources theory (Hobfoll, 1989) provides a framework for understanding how such tools may reduce strain by
+    offsetting job demands, particularly in high-stress fields like special education (Bettini et al., 2020; Cumming et al., 2021). This study
+    examined the effectiveness of ChatGPT in supporting IEP goal writing and explored preservice teachers’ perceptions of its use. The literature
+    review addressed three areas: goal-writing research and instruction, factors contributing to SET burnout (with emphasis on paperwork), and the
+    role of AI in reducing teacher workload. A quasi-experimental pretest-posttest design was used to evaluate differences in goal quality and writing
+    duration. Forty-four participants completed three phases: baseline, training, and intervention. Goal quality was assessed using the Revised Goals
+    and Objectives Rating Instrument (R-GORI; Notari-Syverson & Schuster, 1995; Pretti-Frontczak & Bricker, 2000). Goal writing duration was assessed
+    using a timer embedded in Qualtrics where participants submitted their goals. Results showed statistically significant improvements in goal
+    quality and faster completion times. Participants generally viewed AI positively, citing efficiency, idea generation, and support during
+    uncertainty, particularly for less experienced teachers. Some concerns were noted regarding overreliance and professional expectations.
+    Limitations included inconsistent time tracking due to virtual pretesting, varied participant experience levels, and lack of data on revisions
+    made during AI use. Future research should expand the sample, examine specific R-GORI indicators (e.g., gains in generality and measurability
+    versus instructional context), and further investigate effective integration of AI in special education practice.
+
+### R00295 | 2025 | article/None | Lang: en
+TI: Investigating The Readiness and Satisfaction of Students and Lecturers For The Integration of Chatgpt in English Academic Writing at Ganesha
+    University of Education
+AB: The study explored the potential of ChatGPT as a learning tool in English language education, focusing on both students’ and lecturers’ readiness
+    and satisfaction. While both groups demonstrated a positive outlook toward the integration of ChatGPT into their learning processes, the research
+    highlighted various nuances in how each group interacted with the technology. Students showed a high degree of readiness in using ChatGPT for
+    basic tasks such as accessing information and enhancing their motivation for learning. However, their readiness for self-directed learning and
+    goal-setting was notably lower, indicating a need for further development in utilizing ChatGPT for more autonomous and personalized learning
+    experiences. This suggests that while ChatGPT can be a useful tool for structured learning, its role in fostering independent learning skills
+    needs to be strengthened. On the other hand, lecturers expressed strong confidence in using ChatGPT for academic purposes, especially in terms of
+    facilitating administrative tasks, grading, and providing additional learning resources. However, they voiced concerns about the potential
+    overreliance on technology, which could hinder the development of critical thinking skills in students. The lecturers stressed the importance of
+    integrating ChatGPT as a supplementary tool, rather than replacing traditional teaching methods that foster deep learning and personal engagement.
+    Thematic analysis of the responses also pointed out that while ChatGPT was appreciated for improving focus and accessibility, it raised concerns
+    about the loss of human interaction in the learning process. Students and lecturers both acknowledged the value of human mentorship, emotional
+    support, and personalized guidance, which ChatGPT could not fully replicate. Therefore, while ChatGPT holds promise for enhancing learning, its
+    integration should be approached with a balanced consideration of technological advantages and the irreplaceable role of human involvement in
+    education.
+
+### R00297 | 2026 | article/None | Lang: en
+TI: Qualitative insights into EFL students’ use of ChatGPT-assisted autonomous learning for enhancing self-directed learning in Palestinian higher
+    education
+AB: This qualitative thematic study examines Palestinian EFL students’ perceptions of ChatGPT-assisted learning and its role in supporting autonomous
+    and self-directed learning in higher education. Drawing on semi-structured interviews with 30 undergraduate students from two Palestinian
+    universities, the study explores how learners engage with ChatGPT as a learning scaffold to manage academic tasks, clarify linguistic concepts,
+    and regulate learning beyond immediate teacher supervision. The findings indicate that students perceive ChatGPT as an accessible and responsive
+    tool that supports idea generation, comprehension, and language revision while enhancing confidence, motivation, and perceived control over
+    learning processes. At the same time, participants expressed critical concerns regarding overreliance on AI-generated output, potential
+    misinformation, reduced cognitive engagement, and the absence of human-mediated feedback. Importantly, students emphasized that AI-supported
+    autonomy is most effective when complemented by pedagogical guidance, ethical awareness, and critical reflection. Situated within the
+    resource-constrained and politically complex context of Palestinian higher education, the study argues that ChatGPT can facilitate self-directed
+    learning not as a replacement for instruction but as a contextually adaptive support mechanism. The article concludes by highlighting the need for
+    guided, theory-informed integration of AI tools that balances learner autonomy with instructional responsibility and proposes directions for
+    future research on AI-assisted language learning in constrained educational environments.
+
+### R00298 | 2026 | article/None | Lang: en
+TI: EXPLORING HOW CHATGPT SUPPORTS ACADEMIC SELF-EFFICACY: A FOCUS GROUP STUDY OF PREMIUM STUDENT USERS IN DENMARK
+AB: The rapid growth of generative artificial intelligence has trans-formed how university students search for information, understand course
+    materials, organize ideas, and complete academic tasks. Among these tools, ChatGPT has become increasingly prominent in higher education because
+    it can provide instant explanations, inter-active feedback, writing assistance, and brainstorming support. However, the educational value of
+    ChatGPT should not be viewed only in terms of efficiency. It is also important to examine whether sustained use of AI tools can strengthen
+    students’ academic self-efficacy, namely their belief in their ability to understand academic content, complete assignments, and manage learning
+    challenges. This study explores how ChatGPT supports academic self-efficacy among premium student users in Denmark. A qualitative descriptive
+    design was employed using two focus group discussions involving 11 bachelor students, all of whom were premium ChatGPT users with experience using
+    the platform for coursework, academic writ-ing, and simple academic projects. The findings show that ChatGPT was perceived as a supportive
+    academic companion that helped stu-dents clarify difficult concepts, initiate assignments, reduce anxiety in the early stages of writing, and
+    improve confidence in managing study tasks. At the same time, participants also expressed concerns about overreliance on AI, superficial
+    understanding, and reduced critical engagement. The study concludes that ChatGPT can strengthen academic self-efficacy when it is used as a
+    learning sup-port tool rather than a substitute for thinking. Its benefits depend on students’ digital maturity, learning intentions, and the
+    presence of pedagogical guidance. Higher education institutions should there-fore integrate AI literacy, ethical reflection, and self-regulated
+    learning strategies to ensure that generative AI supports students’ long-term academic development.
+
+### R00299 | 2025 | article/None | Lang: en
+TI: Leveraging ChatGPT to support terminology learning in oral anatomy: a mixed-methods study among linguistically diverse dental students
+AB: BACKGROUND: English-medium instruction (EMI) in health professional education presents linguistic barriers for non-native English-speaking
+    students, particularly in terminology-dense subjects like dental anatomy. While artificial intelligence (AI) has shown promise in educational
+    contexts, its application to support terminology learning among multilingual learners remains underexplored. This study evaluated the impact of
+    ChatGPT-assisted learning on terminology comprehension and student engagement among international dental students in Malaysia. METHODS: A
+    convergent mixed-methods pilot study was conducted with 35 Chinese international Year 1 and Year 2 dental students enrolled in an oral anatomy
+    course at SEGi University. Students completed pre- and post-intervention comprehension tests and engagement surveys. Over an eight-week period,
+    students used ChatGPT to clarify terminology and explore anatomical content. ChatGPT usage logs were analyzed, and post-intervention focus group
+    discussions were conducted. Quantitative data were analyzed using paired t-tests and Wilcoxon Signed-Rank Tests; qualitative data underwent
+    thematic analysis. RESULTS: Comprehension scores improved significantly post-intervention (mean increase = 5.7 points, p< 0.001; Cohen’s d =
+    1.91). Engagement scores also increased significantly (p < 0.001), reflecting enhanced autonomy and motivation. ChatGPT was used primarily for
+    term clarification (45%), function explanation (32%), and structural comparisons (23%). Thematic analysis revealed four key themes: (1) Clarity
+    and Confidence, (2) Self-Directed Learning, (3) Concerns About Accuracy and Overreliance, and (4) Ethical and Privacy Awareness. CONCLUSIONS:
+    AI-assisted terminology learning significantly improved comprehension and engagement among linguistically diverse dental students, aligning with
+    principles from Cognitive Load Theory (CLT) and Self-Determination Theory (SDT). However, ethical concerns—particularly around data privacy and
+    unchecked reliance—highlight the importance of faculty guidance and institutional oversight. These findings underscore the value of hybrid
+    AI-human approaches that are pedagogically sound, ethically responsible, and culturally adaptive.
+
+### R00300 | 2026 | article/None | Lang: en
+TI: AI-Assisted Language Learning: The Influence of ChatGPT Usage on Speaking and Writing Fluency among Malaysian University Students
+AB: The increasing use of Artificial Intelligence (AI) chatbots, especially ChatGPT, has transformed language learning into higher education by
+    providing students with instant academic support and personalized learning experiences. This study aimed to examine the usage patterns of AI
+    ChatGPT among Malaysian university students and examine its impact on students’ speaking and writing fluency. Specifically, this study aimed to
+    identify how often and for what purposes students use ChatGPT, as well as to determine the relationship between the use of ChatGPT and perceived
+    improvement in English fluency. This study used a quantitative research design using a structured questionnaire distributed to undergraduate
+    students from public and private universities throughout Malaysia. Convenience sampling techniques were adopted, and the collected data were
+    analyzed using the Statistical Package for the Social Sciences (SPSS) through descriptive and inferential statistical analysis. The findings
+    indicated that ChatGPT was widely used for academic purposes, especially for brainstorming ideas, grammar checking, content generation,
+    paraphrasing, and preparation of presentation scripts. Students reported that using ChatGPT contributed positively to speaking confidence,
+    vocabulary development, writing accuracy, grammatical competence, and overall fluency. However, the study also raised concerns about students’
+    overreliance on AI-generated content, which could reduce critical thinking, originality, and independent language development if used without
+    proper assessment. Overall, the study findings suggest that ChatGPT has great potential to enhance English language learning when responsibly
+    integrated into higher education. The study concludes that educators and higher education institutions should promote responsible AI literacy and
+    set clear guidelines for the ethical use of AI tools, ensuring that ChatGPT serves as a learning aid rather than a substitute for independent
+    learning and critical thinking.
+
+### R00301 | 2026 | article/None | Lang: en
+TI: Moroccan Secondary School Students’ Perceptions and Attitudes toward Using ChatGPT-Assisted Feedback to Improve English Speaking Skills
+AB: This study investigates Moroccan secondary school students’ perceptions of ChatGPT-assisted feedback in developing English speaking skills. It
+    adopts a qualitative research design and is grounded in the need to better understand how learners in underexplored EFL contexts engage with
+    generative AI tools for oral language development. The participants were 22 second-year Baccalaureate students (aged 17–18) from a public
+    secondary school in Sidi Bennour, Casablanca-Settat region, selected purposively based on prior experience using ChatGPT during a classroom-based
+    intervention. Data were collected through two focus group discussions conducted in classroom settings and facilitated in English and Moroccan
+    Arabic (Darija). The discussions were audio-recorded, transcribed verbatim, and translated into English. The data were analyzed using thematic
+    analysis following Braun and Clarke’s (2006) six-step framework, with an inductive coding approach. The findings indicate that students perceived
+    ChatGPT as a useful tool for enhancing speaking practice by increasing confidence, reducing speaking anxiety, and supporting idea generation and
+    vocabulary use through interactive feedback. However, participants also expressed concerns regarding the accuracy of responses, the risk of
+    overreliance, and the limited authenticity of human-like interaction. The study concludes that ChatGPT can serve as a supportive tool for speaking
+    development in EFL contexts when used critically and under guided pedagogical conditions. It contributes to the growing body of research on
+    AI-assisted language learning by providing empirical evidence from Moroccan secondary school learners.
+
+### R00303 | 2026 | article/None | Lang: en
+TI: ChatGPT’s Adverse Impact on Real Estate Finance: Assessing Graduate Student Attitudes on the Use of GenAI and Its Detrimental Effects on Student
+    Performance
+AB: Real estate finance has been slow to adopt new technologies, but the influence of generative artificial intelligence (GenAI) on industry practice
+    and education now appears inevitable. Graduates of real estate development programs without exposure to cutting-edge tools may therefore be
+    unprepared for the workplace. We examined the role of GenAI in teaching master’s students a challenging, essential learning objective:
+    constructing a joint venture waterfall. We investigated the utility and shortcomings of the GenAI tool ChatGPT as a learning aid for a relevant
+    assignment and explored students’ reflections on classroom learning prior to entering the industry. We found that while assignment scores were
+    similar across groups, students who used ChatGPT performed worse on follow-up assessments than those who received traditional instruction, despite
+    reporting similar confidence levels. These results suggested that the tool hindered conceptual learning and distorted student perceptions of
+    mastery. Both groups found GenAI useful but raised concerns about accuracy, overreliance, and academic integrity, emphasizing the importance of
+    educational guardrails. Our results indicate that GenAI supports task completion but may be detrimental to learning. Furthermore, our study
+    exposed students to questions about ethical and accurate use of GenAI that may help them become more effective learners, job candidates, and
+    professionals.
+
+### R00304 | 2026 | article/None | Lang: en
+TI: Public awareness, trust, perceived usefulness, and willingness to use ChatGPT for healthcare communication among adults in the Asir Region, Saudi
+    Arabia: a cross-sectional study
+AB: Background Artificial intelligence (AI) is increasingly used in healthcare, with tools such as ChatGPT, which enhances access to health
+    information. Understanding public awareness, trust, and perceived usefulness, along with demographic influences, is essential for responsible AI
+    adoption. This study aimed to evaluate awareness, trust, and perceived usefulness of ChatGPT in healthcare communication among adults in the Asir
+    Region, Saudi Arabia. Methods A cross-sectional study was conducted among adults (≥18 years) in the Asir Region from November 2025–January 2026. A
+    validated Arabic questionnaire assessed sociodemographics, prior ChatGPT use, awareness, trust, perceived usefulness, risks, and willingness. Data
+    were analyzed using descriptive statistics and multiple linear regression to identify predictors of willingness ( p < 0.05). Results A total of
+    429 adults participated in the study. Most participants reported prior use of ChatGPT (70.40%). Awareness of ChatGPT and AI in healthcare was
+    moderate, with higher scores among younger and more educated participants ( p < 0.05). Participants generally reported favorable perceptions of
+    the usefulness of ChatGPT, particularly for patient education and access to information, although trust remained moderate. Perceived risks
+    included misinformation, privacy concerns, and overreliance. Overall, 61.77% of participants were willing to use ChatGPT, with significant
+    variation by age ( p = 0.030). Regression analysis showed that higher awareness ( β = 0.41, p < 0.001) and trust ( β = 0.36, p < 0.001) were
+    positively associated with willingness, while risk perception was negatively associated ( β = −0.12, p = 0.019). Gender and education were not
+    statistically significant predictors. Conclusion This study highlights generally high awareness and positive perceptions of ChatGPT among adults
+    in the Asir Region of Saudi Arabia, with moderate levels of trust and perceived usefulness and concerns related to misinformation, privacy, and
+    safety. Higher awareness and greater trust and perceived usefulness were associated with increased willingness to use ChatGPT, while perceived
+    risks were associated with lower willingness to use ChatGPT. Variations across age and educational levels indicate differences in familiarity and
+    confidence in AI tools. Overall, the findings reflect cautious but favorable openness toward AI in healthcare and emphasize the need for improved
+    AI literacy, trust-building strategies, and regulatory oversight to support safe and informed engagement with generative AI technologies. The use
+    of convenience sampling may limit the generalizability of the findings.
+
+### R00305 | 2025 | preprint | Lang: n/a
+TI: Domaino1s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains
+AB: Large Language Models (LLMs) are widely applied to downstream domains. However, current LLMs for high-stakes domain tasks, such as financial
+    investment and legal QA, typically generate brief answers without reasoning processes and explanations. This limits users' confidence in making
+    decisions based on their responses. While original CoT shows promise, it lacks self-correction mechanisms during reasoning. This work introduces
+    Domain$o1$s, which enhances LLMs' reasoning capabilities on domain tasks through supervised fine-tuning and tree search. We construct CoT-stock-2k
+    and CoT-legal-2k datasets for fine-tuning models that activate domain-specific reasoning steps based on their judgment. Additionally, we propose
+    Selective Tree Exploration to spontaneously explore solution spaces and sample optimal reasoning paths to improve performance. We also introduce
+    PROOF-Score, a new metric for evaluating domain models' explainability, complementing traditional accuracy metrics with richer assessment
+    dimensions. Extensive experiments on stock investment recommendation and legal reasoning QA tasks demonstrate Domaino1s's leading performance and
+    explainability. Our code is available at https://github.com/Hyalinesky/Domaino1s.
+
+### R00306 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Exposing Product Bias in LLM Investment Recommendation
+AB: Large language models (LLMs), as a new generation of recommendation engines, possess powerful summarization and data analysis capabilities,
+    surpassing traditional recommendation systems in both scope and performance. One promising application is investment recommendation. In this
+    paper, we reveal a novel product bias in LLM investment recommendation, where LLMs exhibit systematic preferences for specific products. Such
+    preferences can subtly influence user investment decisions, potentially leading to inflated valuations of products and financial bubbles, posing
+    risks to both individual investors and market stability. To comprehensively study the product bias, we develop an automated pipeline to create a
+    dataset of 567,000 samples across five asset classes (stocks, mutual funds, cryptocurrencies, savings, and portfolios). With this dataset, we
+    present the bf first study on product bias in LLM investment recommendations. Our findings reveal that LLMs exhibit clear product preferences,
+    such as certain stocks (e.g., `AAPL' from Apple and `MSFT' from Microsoft). Notably, this bias persists even after applying debiasing techniques.
+    We urge AI researchers to take heed of the product bias in LLM investment recommendations and its implications, ensuring fairness and security in
+    the digital space and market.
+
+### R00307 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Fin-R1: A Large Language Model for Financial Reasoning through Reinforcement Learning
+AB: In recent years, general-purpose large language models (LLMs) such as GPT, Gemini, Claude, and DeepSeek have advanced at an unprecedented pace.
+    Despite these achievements, their application to finance remains challenging, due to fragmented data sources, intransparent reasoning processes,
+    and weak transferability to business applications. In response, we introduce Fin-R1, a reasoning LLM designed for financial scenarios. With a
+    compact size of 7 billion parameters, Fin-R1 reduces deployment costs while addressing the aforementioned challenges. Its development follows a
+    two-stage pipeline. First, we construct Fin-R1-Data, a high-quality financial dataset consisting of 60,091 chain-of-thought (CoT) samples,
+    distilled and filtered from multiple authoritative benchmarks to ensure consistency and reliability. Second, we train Fin-R1 using Fin-R1-Data
+    through supervised fine-tuning (SFT), followed by reinforcement learning (RL). This stage substantially improves the model's ability to solve
+    complex financial reasoning tasks, yielding outputs that are both accurate and interpretable. Despite its relatively small parameter scale, Fin-R1
+    achieves competitive empirical performance across established financial benchmarks and demonstrates practical utility in compliance checking and
+    robo-advisory. Our code is publicly available at https://github.com/SUFE-AIFLM-Lab/Fin-R1, and has already attracted over 700 stars.
+
+### R00308 | 2025 | preprint | Lang: n/a
+TI: FinBERT-QA: Financial Question Answering with pre-trained BERT Language Models
+AB: Motivated by the emerging demand in the financial industry for the automatic analysis of unstructured and structured data at scale, Question
+    Answering (QA) systems can provide lucrative and competitive advantages to companies by facilitating the decision making of financial advisers.
+    Consequently, we propose a novel financial QA system using the transformer-based pre-trained BERT language model to address the limitations of
+    data scarcity and language specificity in the financial domain. Our system focuses on financial non-factoid answer selection, which retrieves a
+    set of passage-level texts and selects the most relevant as the answer. To increase efficiency, we formulate the answer selection task as a
+    re-ranking problem, in which our system consists of an Answer Retriever using BM25, a simple information retrieval approach, to first return a
+    list of candidate answers, and an Answer Re-ranker built with variants of pre-trained BERT language models to re-rank and select the most relevant
+    answers. We investigate various learning, further pre-training, and fine-tuning approaches for BERT. Our experiments suggest that FinBERT-QA, a
+    model built from applying the Transfer and Adapt further fine-tuning and pointwise learning approach, is the most effective, improving the
+    state-of-the-art results of task 2 of the FiQA dataset by 16% on MRR, 17% on NDCG, and 21% on Precision@1.
+
+### R00309 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: MountainLion: A Multi-Modal LLM-Based Agent System for Interpretable and Adaptive Financial Trading
+AB: Cryptocurrency trading is a challenging task requiring the integration of heterogeneous data from multiple modalities. Traditional deep learning
+    and reinforcement learning approaches typically demand large training datasets and encode diverse inputs into numerical representations, often at
+    the cost of interpretability. Recent progress in large language model (LLM)-based agents has demonstrated the capacity to process multi-modal data
+    and support complex investment decision-making. Building on these advances, we present \textbf{MountainLion}, a multi-modal, multi-agent system
+    for financial trading that coordinates specialized LLM-based agents to interpret financial data and generate investment strategies. MountainLion
+    processes textual news, candlestick charts, and trading signal charts to produce high-quality financial reports, while also enabling modification
+    of reports and investment recommendations through data-driven user interaction and question answering. A central reflection module analyzes
+    historical trading signals and outcomes to continuously refine decision processes, and the system is capable of real-time report analysis,
+    summarization, and dynamic adjustment of investment strategies. Empirical results confirm that MountainLion systematically enriches technical
+    price triggers with contextual macroeconomic and capital flow signals, providing a more interpretable, robust, and actionable investment framework
+    that improves returns and strengthens investor confidence.
+
+### R00310 | 2025 | preprint | Lang: n/a
+TI: Understanding Privacy Norms Around LLM-Based Chatbots: A Contextual Integrity Perspective
+AB: LLM-driven chatbots like ChatGPT have created large volumes of conversational data, but little is known about how user privacy expectations are
+    evolving with this technology. We conduct a survey experiment with 300 US ChatGPT users to understand emerging privacy norms for sharing chatbot
+    data. Our findings reveal a stark disconnect between user concerns and behavior: 82% of respondents rated chatbot conversations as sensitive or
+    highly sensitive - more than email or social media posts - but nearly half reported discussing health topics and over one-third discussed personal
+    finances with ChatGPT. Participants expressed strong privacy concerns (t(299) = 8.5, p < .01) and doubted their conversations would remain private
+    (t(299) = -6.9, p < .01). Despite this, respondents uniformly rejected sharing personal data (search history, emails, device access) for improved
+    services, even in exchange for premium features worth $200. To identify which factors influence appropriate chatbot data sharing, we presented
+    participants with factorial vignettes manipulating seven contextual factors. Linear mixed models revealed that only the transmission factors such
+    as informed consent, data anonymization, or the removal of personally identifiable information, significantly affected perceptions of
+    appropriateness and concern for data access. Surprisingly, contextual factors including the recipient of the data (hospital vs. tech company),
+    purpose (research vs. advertising), type of content, and geographic location did not show significant effects. Our results suggest that users
+    apply consistent baseline privacy expectations to chatbot data, prioritizing procedural safeguards over recipient trustworthiness. This has
+    important implications for emerging agentic AI systems that assume user willingness to integrate personal data across platforms.
+
+### R00311 | 2025 | preprint | Lang: n/a
+TI: Synthesizing Behaviorally-Grounded Reasoning Chains: A Data-Generation Framework for Personal Finance LLMs
+AB: Personalized financial advice requires consideration of user goals, constraints, risk tolerance, and jurisdiction. Prior LLM work has focused on
+    support systems for investors and financial planners. Simultaneously, numerous recent studies examine broader personal finance tasks, including
+    budgeting, debt management, retirement, and estate planning, through agentic pipelines that incur high maintenance costs, yielding less than 25%
+    of their expected financial returns. In this study, we introduce a novel and reproducible framework that integrates relevant financial context
+    with behavioral finance studies to construct supervision data for end-to-end advisors. Using this framework, we create a 19k sample reasoning
+    dataset and conduct a comprehensive fine-tuning of the Qwen-3-8B model on the dataset. Through a held-out test split and a blind LLM-jury study,
+    we demonstrate that through careful data curation and behavioral integration, our 8B model achieves performance comparable to significantly larger
+    baselines (14-32B parameters) across factual accuracy, fluency, and personalization metrics while incurring 80% lower costs than the larger
+    counterparts.
+
+### R00312 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: From Demographics to Survey Anchors: Evaluating LLM Agents for Modeling Retirement Attitudes
+AB: Large language models (LLM) agents may offer tools to predict human responses to surveys. A common technique for defining these agents uses only
+    demographics, for example country, age, gender, employment status, income, education and marital status. We compare the predictive accuracy of
+    demographic agents to that of survey agents defined with a larger set of in-domain survey responses. We test both approaches in predicting
+    responses to the multidisciplinary, cross-national Survey of Health, Ageing and Retirement in Europe (SHARE), focusing on five variables from
+    three policy-relevant constructs around personal finance. In these three constructs, we observe that, compared to survey agents trained on broader
+    data, demographics-only agents (1) exhibited a central tendency bias, skewing answers toward population means, and (2) were unrealistically
+    accurate, failing to reproduce the incorrect answers and "don't know" responses typical of human respondents. These performance differences are
+    further substantiated through the replication of a hierarchical regression analysis from prior retirement planning research. Agents based solely
+    on demographic information reproduce the outcome that financial risk tolerance, future time perspective, and knowledge of retirement planning each
+    are predictive of retirement savings. However, only the survey-anchored agents succeed in reproducing the interaction among these three factors.
+    These findings suggest caution in using only demographics to define LLM agents for predicting survey responses.
+
+### R00313 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: One Size Fits None: Heuristic Collapse in LLM Investment Advice
+AB: Large language models are increasingly deployed as advisors in high-stakes domains -- answering medical questions, interpreting legal documents,
+    recommending financial products -- where good advice requires integrating a user's full context rather than responding to salient surface
+    features. We investigate whether frontier LLMs actually do this, or whether they instead exhibit heuristic collapse: a systematic reduction of
+    complex, multi-factor decisions to a small number of dominant inputs. We study the phenomenon in investment advice, where legal standards
+    explicitly require individualized reasoning over a client's full circumstances. Applying interpretable surrogate models to LLM outputs, we find
+    systematic heuristic collapse: investment allocation decisions are largely determined by self-reported risk tolerance, while other relevant
+    factors contribute minimally. We further find that web search partially attenuates heuristic collapse but does not resolve it. These findings
+    suggest that heuristic collapse is not resolved by web search augmentation or model scale alone, and that deploying LLMs as advisors requires
+    auditing input sensitivity, not just output quality.
+
+### R00314 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation
+AB: Large language models now power robo-advisors and trading agents, yet whether they carry built-in biases toward specific assets is largely
+    untested. We ask three questions: do LLMs systematically prefer certain financial instruments; can an internal representation with causal leverage
+    over those preferences be identified; and does that representation affect downstream financial decisions? We develop a three-level audit protocol
+    and apply it to Bitcoin. First, a behavioral audit of nine frontier LLMs shows that Bitcoin's ranking among money-like instruments is
+    frame-dependent: models place it around rank 5 of 8 as "reliable money" but near the top under crisis and autonomous-agent frames, and an
+    attribute-swap experiment shows that rankings track functional properties, not names. Second, we open a model's internals: a search across
+    thousands of sparse-autoencoder features in Gemma 3 identifies a dominant Bitcoin-selective feature. Amplifying it shifts the model toward the
+    asset and suppressing it shifts the model away, even when "Bitcoin" never appears in the prompt. Third, we test financial consequences:
+    amplification raises Bitcoin's portfolio share by 5.2 percentage points while suppression lowers it by 4.6 pp, with amplification reallocating
+    within crypto and suppression cutting total crypto exposure. We characterize this as bounded behavioral leverage (leverage meaning causal
+    influence over outputs, not financial leverage): an identifiable internal feature can be perturbed to move financial choices, but only within
+    measurable limits. The framework links internal representations to external recommendations, validated with random controls and mechanism
+    boundaries. As LLMs become autonomous financial agents, this is a first step toward a behavioral layer for emerging know-your-agent (KYA)
+    standards: knowing what an agent prefers, and how far that preference can be moved.
+
+### R00315 | 2026 | preprint | Lang: n/a
+TI: Agentic Knowledge Tracing: A Multi-Agent LLM Architecture for Stealth Assessment of Financial Literacy in Serious Games
+AB: Assessing financial literacy during gameplay without disrupting the learning experience remains a key challenge in serious games for education. We
+    present the Agentic BKT pipeline, a multi-agent large language model architecture for stealth assessment of financial competencies from open-ended
+    gameplay events. The pipeline processes events from a 2D platformer serious game aligned with the OECD/INFE financial literacy framework through
+    four phases: (1) the game captures every player decision as a structured event log; (2) an LLM event classifier labels each action on a four-point
+    rubric validated against three domain experts (Fleiss kappa = 0.624, substantial agreement); (3) four domain-specific agents specializing in risk
+    mitigation, investing, spending, and credit management perform session-level reasoning over behavioral trajectories, feeding per-competency
+    Bayesian Knowledge Tracing that estimates mastery within each domain; and (4) an expert judge agent synthesizes the domain-level estimates into an
+    overall mastery score. Evaluated with 193 K-12 participants across 264 game sessions, the Agentic BKT pipeline yields mastery estimates
+    significantly correlated with learning gain (r = 0.276, p = 0.0001) and post-test scores (r = 0.333, p < 0.0001) while showing no correlation with
+    pre-test scores, providing both convergent and discriminant validity. The multi-agent approach approximately triples the predictive validity of a
+    single-LLM baseline (r = 0.095, not significant) in this study, demonstrating that domain decomposition and session-level reasoning play a central
+    role in capturing the multidimensional nature of financial literacy from gameplay
+
+### R00316 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning?
+AB: We introduce CreditCardQA, the first financial literacy benchmark for numerical reasoning derived from real credit card agreements. The dataset
+    contains 1,800 questions, including first-person variants that reflect how consumers naturally ask about fees, interest, and payments. We evaluate
+    a range of large language and reasoning models under Chain-of-Thought (CoT) and Program-of-Thought (PoT) prompting. Overall, PoT yields consistent
+    performance gains, particularly for models with weaker baseline reasoning, and narrows gaps between open- and closed-source systems. Through error
+    analysis, we show that failures arise less from arithmetic and more from misapplied financial rules, missed conditions, and misunderstandings of
+    contractual terms. We further analyze question difficulty and find that comparisons, conditional logic, and monetary constraints are especially
+    challenging. We also find that errors often arise in edge cases such as late-payment penalties or small-balance scenarios that are more likely to
+    affect lower-income or financially vulnerable individuals.
+
+### R00317 | 2026 | preprint | Lang: n/a
+TI: GRPO for Financial Advice Generation: Outperforming Commercial LLMs under CATE Evaluation
+AB: Generating actionable financial advice from business records demands that models integrate numerical reasoning, domain knowledge, and sound
+    judgment, while avoiding recommendations that could harm the business. Direct supervision is difficult: historical decisions are not necessarily
+    optimal, and high-quality free-form labels are expensive to obtain. We formulate financial advice generation as a reinforcement learning problem
+    and fine-tune an open-weight language model using Group Relative Policy Optimization (GRPO). Our reward is an LLM-as-a-judge rubric that scores
+    each recommendation across multiple binary dimensions of advice quality, augmented with a safety gate for harm prevention. Since LLM-based
+    evaluation alone cannot confirm whether improvements reflect genuine business value rather than adaptation to the judge, we complement it with a
+    judge-independent audit based on a standard doubly-robust Conditional Average Treatment Effect (CATE) estimator. Under this observational
+    off-policy audit, our trained LLM achieves approximately twice the estimated gross-profit lift of the strongest evaluated commercial baseline
+    ($0.0228$ vs.\ $0.0104$), together with the lowest downside rate and the least negative tail risk of any policy evaluated. Notably, the two
+    evaluations do not rank the baselines identically: the untrained base model places last on the judge rubric but second on the causal audit,
+    indicating that the audit captures a signal the judge does not. Our results demonstrate that GRPO with a finance-grounded reward signal can
+    produce substantially more useful business recommendations than commercial LLMs, and that a judge-independent causal audit is a valuable
+    complement to, rather than a confirmation of, LLM-as-a-judge assessment in financial NLP.
+
+### R00318 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Auditable by Construction: An Ontology-Driven Framework for Trustworthy LLM Analytics in Enterprise Finance
+AB: Enterprise adoption of large language models in finance is constrained less by fluency than by trust: in Financial Planning and Analysis (FP&A)
+    and other regulated workflows, an answer is usable only if it is traceable to authoritative sources and auditable after the fact. This paper
+    argues that retrieval-augmented generation for enterprise finance should be evaluated on auditability alongside accuracy, and presents the
+    Knowledge-Driven Analytics Framework (KDAF), which builds ontology-driven knowledge systems through six iterative stages and retrieves evidence
+    via Context-Aware Relevance Propagation (CARP), so that every retrieved fact carries its relationship type, confidence, and source lineage. An
+    evaluation on FinanceBench (145 questions) compares KDAF against zero-context inference, BM25, concept-weighted lexical retrieval, and ungrounded
+    graph traversal. First, retrieval is necessary: zero-context inference reaches 4.1% correctness against 10-12% for retrieval-augmented conditions.
+    Second, on answer correctness the retrieval conditions are statistically indistinguishable (KDAF vs BM25: -0.007, 95% CI [-0.021, 0.000]), so
+    accuracy alone does not justify structured retrieval here -- a negative result we report explicitly. Third, on auditability the ordering reverses:
+    KDAF attains the highest citation traceability F1 (0.515), exceeding ungrounded traversal by +0.027 (CI [0.006, 0.050]) and BM25 by +0.052 (CI
+    [0.024, 0.083]), intervals excluding zero. Graph-structured retrieval also admits no evidence from outside the question subject entity (0 of 426
+    items, against 16.8% and 20.2% for lexical baselines), and every selected item resolves to a complete provenance chain. We argue that
+    auditability, not accuracy, is the axis on which ontology-grounded retrieval earns its cost.
+
+### R00319 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Same Person, Different Advice: Auditing LLM Financial Advice with Repeated Risk-Tolerance Responses
+AB: AI financial advisers set a client's stock allocation largely from one stated-risk question, yet people do not answer it the same way twice: in a
+    national US panel, 41% of households chose a different answer two years later, and in a laboratory retest a third of people moved two or more
+    points on a 0-10 scale after six months. Seven large language models from five providers gave one-turn allocation advice for 800 real household
+    profiles in which only the risk answer changed. The recommended stock share moved by 10 to 16 percentage points on average, and by 24 to 35 when
+    the answer changed, against 0.6 to 4.2 points for the same prompt asked twice; in the laboratory retest the rating alone moved advice by 11 to 18
+    points. Without any note, the models respond to the answer about as strongly as when told that it is very reliable (less so for the two Claude
+    models). If that instructed response is how each model maps attitude to advice, discounting the answer for its measured reliability, as classical
+    test theory prescribes, would cut the swings by a factor of 2.4 to 3.3. The swing is largest for clients under 40. A note that the answer is noisy
+    steadies some models, but shifts their weight to the client's age and pulls cautious clients towards a generic middle allocation: clients
+    unwilling to take any risk are advised 22% stocks instead of 4%. Three extra money questions reduce the swing for some models, with no
+    statistically detectable change relative to how much advice differs across people. In a scripted test, one clarifying question removes nearly all
+    of the swing from an answer the client then corrects (33.5 points to 1.9 on average) while keeping the response to a change the client confirms.
+    We argue that same-person retest audits should be a standard check for AI advisers, and that what to do with an unreliable answer is a question of
+    client autonomy as well as of statistics.
+
+### R00320 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: A Calibrated Instrument for Detecting Disposition Drift in Language Models
+AB: Before language models are released, they are tested for harmful traits such as willingness to carry out dangerous requests, deception, power
+    seeking, and sycophancy. The safe behavior these tests certify may degrade as models are modified, by topical fine-tuning, new training data, or
+    changes to settings such as the depth of their reasoning. Most work reports such drift as single summary rates scored by another AI model, without
+    the error analysis needed to interpret them. We adapt a calibrated measurement methodology recently developed for assessing how inference
+    optimizations affect the quality of model outputs. Applying it to several misalignment dimensions in two open-weight models, we first establish
+    the instrument's precision, showing that shifts of a few percentage points can be reliably detected. We then induce drift deliberately by
+    fine-tuning on correct and on subtly harmful medical and financial advice; harmful advice induces a far greater shift than correct advice. Most
+    strikingly, a model that reasons before answering can conceal the shift almost entirely in its answers, even though a direct reading of its
+    internal state shows that its disposition has moved. With reasoning switched off, the same model shifts steadily as the share of harmful advice in
+    its training grows. These results demonstrate the importance of testing safety with reasoning turned both on and off.
+
+### R00321 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Indian Financial Automated Advice Bias (IFAAB) Dataset : Auditing Socioeconomic and Demographic Disparities in LLM-Generated Financial Advice
+    in India
+AB: Large language models are increasingly used for financial guidance, yet little is known about whether their advice changes across social
+    identities in Global South contexts. We introduce the Indian Financial Automated Advice Bias (IFAAB) benchmark, a counterfactual audit dataset of
+    31,734 GPT-4o-generated financial-advice responses for synthetic Indian personas varying by gender, caste, education, employment, residence, age,
+    and district. Holding the underlying request fixed, we evaluate disparities in LLM-implied wealth, income, savings, projected gains, textual
+    similarity, advice topics, and qualitative bias judgments. In the gender-only audit, male-labelled profiles receive 60.1\% higher initial total
+    resources and 46.8\% higher post-advice total resources than comparable female-labelled profiles; in the caste-augmented audit, the post-advice
+    total-resource gap remains 49.4\%. Adding district information reduces the aggregate post-advice total-resource gender gap to 7.9\%, revealing
+    strong geographic conditioning. Standalone caste comparisons also show systematic stratification: relative to General-category profiles, OBC, SC,
+    and ST profiles receive significantly lower post-advice total resources, respectively. Textual audits show low semantic similarity between paired
+    gendered responses, with an average TF--IDF cosine similarity score of 0.44. Qualitative analysis shows that women are more often steered toward
+    cautious saving, community support, and basic financial literacy, while men receive more growth-oriented advice involving investment,
+    entrepreneurship, and asset accumulation. IFAAB provides a reusable benchmark for evaluating fairness, suitability, and consumer-protection risks
+    in LLM-mediated financial advice, and highlights the need for locally grounded, intersectional evaluation of AI systems in high-stakes economic
+    domains.
+
+### R00322 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation
+AB: Large language models (LLMs) are attractive rerankers for recommendation. Running an expensive model on every request is costly, and for users
+    with sparse interaction histories it often lowers quality. We present CascadeRec, a two-tier LLM reranking cascade deployed in production at a
+    large financial planning and analysis (FP&A) SaaS provider. It serves content recommendations to enterprise tenants on AWS EKS and GKE. A
+    lightweight Tier-1 model reranks every request. A router escalates only the requests where extra inference-time compute is likely to help, and
+    sends them to a more expensive Tier-2 procedure (self-consistency sampling, multi-path reasoning, or a larger model). The system has run in a
+    production A/B experiment for over a month. Compared with uniform use of the expensive tier, CascadeRec has reduced inference cost by about 10%,
+    with minimal latency impact and no quality regression observed to date. Tenant data cannot be released, so we also evaluate the pipeline on public
+    benchmarks (MovieLens-1M and Amazon-Electronics). Segment-level analysis with paired-bootstrap confidence intervals shows that uniform LLM
+    reranking lowers NDCG@10 for sparse-history users by up to 30%, and its only statistically significant gain appears on the segment with the
+    longest histories. Escalating cold users can make the loss larger instead of repairing it. Which segments benefit from escalation depends on the
+    domain, and this motivates the segment-gated rollout we use in production. We describe the deployment architecture, the measured benefits, and
+    lessons learned, including inter-tenant load imbalance as a driver for cascading and the handling of LLM output-parsing failures at the serving
+    layer.
+
+### R00323 | 2025 | preprint/None | Lang: en
+TI: Using Large Language Models for Financial Advice
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00370 | 2025 | article/None | Lang: en
-TI: Token Probabilities to Mitigate Large Language Models Overconfidence in Answering Medical Questions: Quantitative Study
-AB: BACKGROUND: Chatbots have demonstrated promising capabilities in medicine, scoring passing grades for board examinations across various
-    specialties. However, their tendency to express high levels of confidence in their responses, even when incorrect, poses a limitation to their
-    utility in clinical settings. OBJECTIVE: To examine whether token probabilities outperform chatbots' expressed confidence levels in predicting the
-    accuracy of their responses to medical questions. METHODS: Nine large language models (LLMs), comprising both commercial (GPT-3.5, GPT-4 and
-    GPT-4o) and open-source (Llama 3.1-8b, Llama 3.1-70b, Phi-3-Mini, Phi-3-Medium, Gemma 2-9b and Gemma 2-27b), were prompted to respond to a set of
-    2,522 questions from the US Medical Licensing Examination (MedQA database). Additionally, the models rated their confidence from 0 to 100 and the
-    token probability of each response was extracted. The models' success rates were measured, and the predictive performances of both expressed
-    confidence and response token probability in predicting response accuracy were evaluated using Area Under the Receiver Operating Characteristic
-    Curves (AUROCs), Adapted Calibration Error (ACE) and Brier score. Sensitivity analyses were conducted using additional questions sourced from
-    other databases in English (MedMCQA, n=2,797), Chinese (MedQA Main-land China, n=3,413 and Taiwan, n=2,808), and French (FrMedMCQA, n=1,079),
-    different prompting strategies and temperature settings. RESULTS: Overall, mean accuracy ranged from 56.5% [54.6 - 58.5] for Phi-3-Mini to 89.0%
-    [87.7-90.2] for GPT-4o. Across the US Medical Licensing Examination questions, all chatbots consistently expressed high levels of confidence in
-    their responses (ranging from 90[90-90] for Llama 3.1-70B to 100[100-100] for GPT-3.5). However, expressed confidence failed to predict response
-    accuracy (AUROC ranging from 0.52[0.50-0.53] for Phi 3 Mini to 0.68[0.65-0.71] for GPT-4o). In contrast, the response token probability
-    consistently outperformed expressed confidence for predicting response accuracy (AUROCs ranging from 0.71 [0.69 - 0.73] for Phi 3 mini to 0.87
-    [0.85 - 0.89] for GPT-4o, all p-values<0.001). Furthermore, all models demonstrated imperfect calibration, with a general trend towards
-    overconfidence. These findings were consistent in sensitivity analyses. CONCLUSIONS: Due to the limited capacity of chatbots to accurately
-    evaluate their confidence when responding to medical queries, clinicians and patients should abstain from relying on their self-rated certainty.
-    Instead, token probabilities emerge as a promising and easily accessible alternative for gauging the inner doubts of these models.
+### R00324 | 2025 | article/None | Lang: en
+TI: DeepFinLLM: an intelligent financial advisor unleashing strategic insights with large language models
+AB: Abstract Generative AI breakthroughs have reshaped financial analytics, introducing seamless, language-based interactions that expand access to
+    valuable insights. Traditionally, financial analysis relied on rigid, rule-driven tools requiring specialized skills, often yielding 75% accuracy
+    and faltering with complex queries. DeepFinLLM overcomes these barriers by blending advanced language understanding with real-time financial data,
+    offering precise responses with a 94% accuracy rate and 0.8-second delivery time. Merging artificial intelligence with dynamic market data, it
+    provides adaptability and scalability across diverse financial contexts. Users, from expert investors to novices, praise its intuitive interface,
+    with 90% valuing its fast, reliable insights. Handling structured financial information and open-ended inquiries, DeepFinLLM facilitates deep
+    analysis of investment options, market trends, and risks, enhanced by real-time updates for relevance in volatile markets. By simplifying complex
+    tasks and encouraging data-informed decisions, DeepFinLLM transforms financial analytics to serve a broader audience effectively.
 
-### R00371 | 2026 | article/None | Lang: en
-TI: Confidence-weighted semantic entropy: A robust framework for hallucination detection and uncertainty estimation in large language models
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00372 | 2026 | preprint/None | Lang: en
-TI: Uncertainty Quantification in Medical Large Language Models: A Scoping Review Protocol
-AB: This scoping review aims to map how uncertainty quantification (UQ) methods have been conceptualized, implemented, and evaluated in medical large
-    language models (LLMs). The review will examine how UQ approaches are applied across different clinical task types and how they are evaluated and
-    reported in existing studies.
-
-### R00373 | 2026 | article/None | Lang: en
-TI: Diagnostic Performance and Confidence Calibration of Large Language Models for Bone Tumor Radiographs
-AB: Background/Objectives: Large language models (LLMs) are increasingly applied to medical image interpretation; however, their diagnostic accuracy
-    and reliability in musculoskeletal radiology remain uncertain. This study evaluates the diagnostic performance and confidence calibration of LLMs
-    in detecting and classifying bone tumors on radiographs. Methods: This retrospective observational study analyzed a dataset of 257 radiographs
-    with confirmed diagnoses obtained from Radiopaedia, including normal studies and a spectrum of benign and malignant bone tumors. Cases were
-    selected to ensure representation across multiple tumor types. Three LLMs (ChatGPT 5.3, X-ray Interpreter GPT-4.1, and X-ray Interpreter Gemini)
-    evaluated each image using a standardized prompt assessing abnormality detection, tumor detection, classification, and confidence. Outcomes
-    included diagnostic accuracy, false positive abnormality rates, false negative rates, tumor hallucination rates, and confidence calibration.
-    Results: Abnormality detection was high across models, with Gemini demonstrating the highest sensitivity (up to 100%). Tumor detection was
-    strongest in lesions with characteristic features, including osteosarcoma and osteochondroma. False negative rates varied substantially, with
-    GPT-4.1 demonstrating the highest rate (29.9%), followed by ChatGPT (24.8%) and Gemini (6.6%). Primary diagnostic accuracy was highest for
-    osteosarcoma in GPT-4.1 (80%), while ChatGPT 5.3 performed best in benign lesions, including osteochondroma (84.6%) and non-ossifying fibroma
-    (76.9%). Tumor subtype classification remained limited across all models and was poorest for Ewing sarcoma (0% in ChatGPT and GPT-4.1; 10.3% in
-    Gemini). False positive abnormality rates were highest in GPT-4.1 (40.7%), followed by Gemini (25.9%) and ChatGPT (13.5%). Tumor hallucination
-    occurred only in Gemini (12.3%). All models demonstrated confidence miscalibration, with higher confidence observed in incorrect predictions and
-    in tumor-negative cases. Conclusions: LLMs demonstrate strong performance in detecting radiographic abnormalities but remain limited in tumor
-    subtype classification, particularly for diagnostically challenging lesions such as Ewing sarcoma. Elevated false positive and false negative
-    rates, along with systematic overconfidence—especially in GPT-4.1—highlight important limitations for clinical use. These findings support the
-    role of LLMs as adjunctive tools rather than independent diagnostic systems.
-
-### R00374 | 2026 | preprint/None | Lang: en
-TI: Semantic Entropy and Uncertainty in Large Language Models for Nursing: A Scoping Review
-AB: This scoping review aims to map and synthesize the available scientific evidence on semantic entropy and linguistic uncertainty in Large Language
-    Models (LLMs) applied to nursing practice and education. As generative AI tools are increasingly integrated into clinical decision support and
-    patient communication, understanding their "epistemic uncertainty" is crucial for patient safety. Objectives: To identify how current literature
-    characterizes semantic entropy, model hallucinations, and linguistic consistency in nursing-related outputs; to explore the implications of these
-    uncertainties for nursing workflows and clinical decision-making. Methodology: Following JBI guidelines and the PRISMA-ScR checklist, this study
-    will search PubMed/MEDLINE, BVS Nursing (LILACS), SCIELO, LILACS and DOAJ for studies published between 2023 and 2026. Expected Results: The
-    review expects to identify a critical gap in standardized protocols for evaluating AI reliability in nursing. The findings will provide a
-    theoretical framework for nurses to critically assess AI-generated information, reducing risks of misinformation in clinical settings
-
-### R00375 | 2026 | preprint/None | Lang: en
-TI: Accuracy and confidence calibration of large language models on neurology board-style questions
-AB: ABSTRACT Large language models (LLMs) are increasingly evaluated for clinical tasks, but safe use requires reliable uncertainty estimates as well
-    as high accuracy. We tested eight general-purpose LLMs on 100 validated neurology board-style multiple-choice questions and compared three
-    confidence signals: self-reported confidence, critique-implied confidence from an independent model instance, and consistency-based confidence
-    from repeated sampling. Accuracy varied from 45% (Llama 3.1 8B) to 92% (Gemini 3 Flash/Pro), but confidence was generally overestimated,
-    particularly in lower-accuracy models. Consistency-based confidence provided the best discrimination between correct and incorrect answers (pooled
-    AUROC 0.74), outperforming self-report, although calibration differences between methods were not significant. Calibration should therefore be
-    reported alongside accuracy when clinical LLMs are evaluated. Short Description We evaluated the accuracy and confidence of eight large language
-    models on 100 neurology board-style questions. We found substantial overconfidence, and differences between confidence methods in their ability to
-    distinguish correct from incorrect answers.
-
-### R00376 | 2026 | preprint/None | Lang: en
-TI: Framing dependence and confidence calibration in large language model evaluation of statistical evidence
-AB: Three hypotheses concerning large language model (LLM) reasoning were registered on 1 September 2026 and tested against independently instantiated
-    agents of a single model family. The first — that framing determines interpretation — was supported: byte-identical statistical results received
-    differing verdicts when the surrounding claim was described as "well-established" rather than "fringe." The second — that stated confidence is
-    insensitive to whether the queried object exists — was falsified: confidence fell by 92.4 points (95.6 to 3.2; Welch t = 236.7, p = 3.4e-30) on
-    fabricated citations, all 15 of which were correctly declined. The third — that self-grading is inflated — was not measurable, as subject
-    performance saturated the response scale. Version 1 reported the first result as degenerate between framing bias and appropriate prior-sensitivity
-    and specified a discriminating experiment. Version 2 reports that experiment. When subjects were instructed explicitly to judge the evidence
-    alone, independent of the claim's plausibility, verdicts still moved on 5 of 9 paired comparisons (p = 3.3e-5) — while, in the same responses,
-    stated belief moved 73.2 points in the direction the framing warranted. The prior-sensitivity reading is therefore rejected: subjects demonstrably
-    can separate likelihood from posterior, apply the separation correctly to belief, and still admit the prior into the evidence judgment after being
-    told to exclude it. The effect is not removable by clarification. A replication arm returned 3 of 9 flips against version 1's 6 of 9, indicating
-    that the direction of the effect is robust while its magnitude at this sample size is not.
-
-### R00377 | 2026 | article/None | Lang: en
-TI: Large language models for climate vulnerability assessment: a reproducible framework with uncertainty quantification
-AB: Climate vulnerability assessment faces significant challenges in integrating heterogeneous data sources while maintaining statistical rigor and
-    methodological transparency. This study proposes a novel framework combining Large Language Models with conformal prediction for climate
-    vulnerability assessment, achieving distribution-free uncertainty quantification without parametric assumptions. The framework employs a
-    dual-model cross-validation strategy using GPT-4 and Claude to mitigate single-model biases, integrated with split conformal prediction to
-    construct statistically valid prediction intervals. Empirical validation across three Chinese provinces (Guangdong, Sichuan, and Yunnan)
-    demonstrates robust performance, with a calibration correlation coefficient of 0.816, a root mean square error of 7.8, and an actual coverage rate
-    of 94.7% at 95% confidence level. Cross-model validation yields strong consistency (r = 0.883, p < 0.001), while external validation against
-    ND-GAIN (r = −0.70) and INFORM (r = 0.77) indices confirms construct validity. Ablation experiments reveal that the complete framework achieves
-    16.2% improvement over traditional fixed-weight methods, with LLM integration contributing 11.0% and conformal prediction contributing 4.7% to
-    performance gains. The resulting Climate Vulnerability Scores exhibit clear regional differentiation (Guangdong: 47.8, Sichuan: 63.2, Yunnan:
-    72.6), corresponding well with socioeconomic development gradients. This reproducible framework provides a transparent and statistically reliable
-    tool for regional climate adaptation planning.
-
-### R00378 | 2026 | article/None | Lang: en
-TI: Hallucination Detection in Large Language Models via Multi-Granular Uncertainty Quantification
-AB: Hallucination, when large language models (LLMs) produce plausible but factually incorrect output, is a major challenge in high-stakes
-    applications such as medicine, law, and education. Current detection methods involve a trade-off between accuracy and efficiency: multi-generation
-    methods (e.g., semantic entropy) are effective but impose 5-10x increased latency, while single-pass methods are faster but attain only 63-68%
-    AUROC. To balance these trade-offs, we propose a framework that aggregates 12 uncertainty features across token-level, sequence-level, temporal,
-    and distributional granularities from a single autoregressive generation. The framework operates in Full Mode (12 features, open-source models
-    with attention access) or API Mode (10 features, any model exposing token log-probabilities). The most novel component is F9, temporal entropy
-    dynamics, which measures how the entropy of generated segments changes across four quarters of the generation process. On Llama-3-8B, the
-    framework attains 89.27% AUROC on HaluEval, surpassing semantic entropy by 2.15 percentage points while reducing latency by 8.2x. Across four
-    open-source model families and five benchmarks, Full Mode consistently improves over semantic entropy by 1.71 to 2.47 pp. On GPT-3.5-Turbo, API
-    Mode achieves 88.63% AUROC, falling below semantic entropy (90.81%) on this model. These results demonstrate that a suitably chosen combination of
-    single-pass uncertainty features can approach the discrimination offered by more computationally intensive multi-generation methods.
-
-### R00379 | 2026 | article/None | Lang: zh
-TI: Factuality Hallucination Mitigation in Large Language Model via Reinforcement Learning with Semantic Entropy
-AB: Large Language Model (LLM)'s factuality hallucination refers to the generation of content that conflicts with established real-world facts,
-    significantly reducing model credibility and applicability in high-risk domains such as healthcare, law, and scientific research. Current methods
-    for hallucination mitigation primarily depend on input optimization, supervised learning, or integration with external knowledge bases. However,
-    these approaches exhibit limited generalizability, substantial dependence on extensive labeled datasets, and constraints in real-time scenarios,
-    making it challenging to fundamentally improve the factual accuracy of LLMs. To address these limitations, this paper proposes a reinforcement
-    learning-based framework incorporating semantic entropy as feedback to mitigate factuality hallucinations. Semantic entropy serves as a precise
-    measure of uncertainty at the semantic level, enabling an accurate assessment of the model's confidence in its generated responses. By embedding
-    semantic entropy into the reinforcement learning process as a reward signal, the model is encouraged to proactively avoid responses with a high
-    likelihood of hallucination. Compared to traditional predictive entropy-based methods, semantic entropy more effectively distinguishes
-    semantically equivalent expressions and enhances factual judgment capabilities without reliance on external knowledge sources. Experimental
-    results show that the proposed method, while maintaining the richness and coherence of the generated content, can improve factual judgment
-    accuracy by up to 5.7 percentage points and factual generation accuracy by up to 7.8 percentage points, compared to the best baseline model,
-    significantly validating its superiority in factuality hallucination.
-
-### R00380 | 2025 | article/None | Lang: en
-TI: Hallucination Detection and Confidence Calibration for Large Language Model Outputs: Reproducible Experiments on HaluEval
-AB: Large language models (LLMs) can generate fluent yet unsupported content (“hallucinations”), which undermines trust and complicates downstream
-    decision making. Beyond detection accuracy, practical systems require calibrated confidence so that thresholds, abstention, and verification
-    policies behave predictably. This paper reports fully reproducible experiments on the HaluEval benchmark [1] using the provided snapshot
-    containing 64,507 labeled examples across four domains (QA, dialogue, summarization, and general user queries). We formulate hallucination
-    recognition as binary classification given an input context (e.g., knowledge snippet or source document), a user query (when available), and a
-    model-generated answer. We evaluate several lightweight detectors based on TF-IDF and linear models, and we study post-hoc calibration using
-    temperature scaling and (global and domain-conditional) Platt scaling. Our best system uses a linear SVM on 30k unigram TF-IDF features augmented
-    with 11 overlap/length features, followed by domain-conditional Platt scaling trained on a held-out validation set. On the test split, it achieves
-    AUROC 0.835 and F1 0.751 (threshold tuned on validation), while attaining an expected calibration error (ECE) of 0.009 with 15 bins. By contrast,
-    applying a simple sigmoid to raw SVM scores attains AUROC 0.822 but yields substantially worse calibration (ECE 0.080). Across domains, we observe
-    clear prior shifts—most notably in the general subset with only 18.1% hallucinated responses—which motivates domain-aware calibration and
-    domain-specific operating points.
-
-### R00381 | 2026 | article/None | Lang: en
-TI: Principled Uncertainty Quantification in Large Language Models: A Survey of Probabilistic Foundations and Frontiers
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00382 | 2026 | preprint/None | Lang: en
-TI: Position: Large Language Model Failures from Hallucination to Homogenization Are Different Facets of Miscalibration
-AB: This position paper argues that diverse failures of Large Language Models (LLMs), from confident hallucinations to collapsed diversity to brittle
-    safety refusals, are best understood as different facets of a single underlying problem: miscalibration. We propose a unified framework organized
-    around four types of miscalibration: probabilistic (the model cannot match requested probability distributions), semantic (confidence is
-    misaligned with factual correctness), distributional (output diversity collapses to stereotypical modes), and metacognitive (the model fails to
-    assess its own competence). We argue that foregrounding calibration as a diagnostic lens and evaluation target is essential for building models
-    that are not merely capable, but genuinely reliable. We call for calibration metrics to become a standard part of benchmark reporting, for
-    training paradigms that preserve uncertainty, and for interaction designs that surface model confidence to downstream decision-makers.
-
-### R00383 | 2026 | article/None | Lang: en
-TI: A Bayesian analysis of perturbation-based uncertainty estimation for large language models in NLP
-AB: This dissertation studies perturbation-based uncertainty estimation for large language models in natural language processing from a Bayesian
-    perspective, focusing on Inv-Entropy, a recent post-hoc framework based on input-and output-space transition matrices.Inv-Entropy uses the
-    composite kernel P y P x to define an inverse, posterior-like uncertainty score over perturbed input states.The main theoretical contribution is
-    the identification and formalisation of the Perturbation Bottleneck, a structural failure mode in perturbation-based inverse uncertainty
-    estimation.We prove that, if the input-space transition matrix P x is close to the uniform transition matrix, then the composite inverse kernel P
-    y P x is also close to uniform for any row-stochastic output transition matrix P y .Consequently, Inv-Entropy collapses toward its uniform value
-    and becomes largely independent of output-space structure.In Bayesian terms, the constructed inverse update no longer distinguishes between
-    perturbed input states: observing the output does not induce a meaningful posterior-like update over the input geometry.The empirical analysis
-    evaluates Llama-3.1-8B-Instruct on MedQA, TriviaQA, and BioASQ, comparing LLM-based paraphrasing and GAAP perturbations under SBERT and DeBERTa
-    input-space transition models.The results show that Inv-Entropy is regime-dependent.Semantic Entropy has higher AUROC than Inv-Entropy across all
-    TriviaQA conditions.On MedQA, Inv-Entropy is moderately discriminative and GAAP preserves the inverse score, but logit confidence remains
-    strongest.On BioASQ, Inv-Entropy is competitive with Semantic Entropy and achieves its strongest result under GAAP+DeBERTa.These findings refine
-    the theoretical result.The Perturbation Bottleneck is not a claim that Inv-Entropy or GAAP fails universally.Rather, it is a diagnostic condition:
-    non-degenerate P x is necessary, but not sufficient.The perturbation-induced geometry must be semantically informative, meaning taskpreserving,
-    non-degenerate, and aligned with correctness-relevant variation in the model outputs.The dissertation therefore reframes perturbations as part of
-    the statistical object being estimated, instead of as merely auxiliary data augmentation.
-
-### R00384 | 2026 | article/None | Lang: en
-TI: Large Language Models Become More Original and Less Overconfident Over Time
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00385 | 2025 | article/None | Lang: en
-TI: Ensemble-Based Uncertainty Quantification for Reliable Large Language Model Classification in Social Data Applications
-AB: Assessing classification confidence is essential for effectively leveraging Large Language Models (LLMs) in automated data labeling, particularly
-    within the sensitive contexts of Computational Social Science (CSS) tasks. In this study, we evaluate five uncertainty quantification (UQ)
-    strategies across three CSS classification problems: stance detection, ideology identification, and frame detection. We benchmark these strategies
-    using three different LLMs. To enhance human-in-the-loop classification performance, we introduce an ensemble-based UQ aggregation
-    method,C_ensemble, and propose a novel evaluation metric,Misclassified Recall, designed to better assess model uncertainty on mislabeled or
-    ambiguous data points. Our results show thatC_ensembleoutperforms existing UQ techniques in six out of nine model–dataset combinations, achieving
-    an average AUC improvement of 8.7. These findings highlight the potential of UQ-driven methods to significantly improve the reliability and
-    efficiency of human-in-the-loop data annotation pipelines.
-
-### R00386 | 2026 | article/None | Lang: en
-TI: Soft-Community Kernel Rényi Spectrum for Semantic Uncertainty Estimation in Large Language Models
-AB: Uncertainty estimation is critical for deploying large language models (LLMs) in safety-sensitive and decision-critical applications. Recent
-    approaches estimate semantic uncertainty by clustering multiple sampled responses into equivalence classes and measuring their diversity via
-    entropy-based criteria. However, existing methods typically rely on greedy hard clustering and von Neumann entropy, which suffer from sensitivity
-    to clustering order, noise in semantic equivalence judgments, and limited control over spectral contributions. In this work, we propose a
-    principled information-theoretic framework for LLM semantic uncertainty estimation based on soft semantic communities and kernel Rényi entropy.
-    Given multiple generations for a query, we construct a weighted semantic graph using pairwise semantic similarity scores and infer soft community
-    assignments via weighted graph community detection. These soft assignments induce a positive semi-definite semantic kernel that captures the
-    distribution of semantic modes without enforcing hard equivalence relations. Uncertainty is then quantified by the Rényi entropy of the kernel
-    spectrum, yielding a tunable measure that interpolates between sensitivity to dominant semantic modes and long-tail semantic diversity. Compared
-    to prior von Neumann entropy-based estimators, the proposed Rényi spectral uncertainty offers improved robustness to semantic noise, reduced
-    dependence on clustering heuristics, and greater flexibility through its order parameter. Extensive experiments on question answering tasks
-    demonstrate that our method provides more stable and discriminative uncertainty estimates, particularly under limited sampling budgets and noisy
-    semantic judgments.
-
-### R00387 | 2025 | preprint/None | Lang: en
-TI: SESP: Semantic Entropy-based Self-play Security Alignment Mechanism for Large Language Models
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00388 | 2026 | preprint/None | Lang: en
-TI: Uncertainty Quantification in Medical Large Language Models Across Clinical Tasks: A Scoping Review (Preprint)
-AB: BACKGROUND Large language models (LLMs) are increasingly applied to clinical tasks; however, uncertainty estimates remain methodologically
-    heterogeneous, and their translation into clinical decision-making remains unclear. OBJECTIVE To examine how uncertainty quantification (UQ) is
-    implemented, evaluated, reported, and operationalized in medical LLM applications. METHODS We conducted a scoping review of studies published
-    between June 1, 2020, and Nov 1, 2025, by searching PubMed, IEEE Xplore, Scopus, and the ACL Anthology. Eligible studies applied LLMs in medical
-    or clinical settings and reported computable uncertainty measures. Data were extracted on clinical tasks, model access modes, UQ mechanisms,
-    uncertainty signals, evaluation approaches, and workflow integration. We qualitatively synthesized methodological characteristics and summarized
-    within-study quantitative comparisons of calibration and discrimination outcomes where available. RESULTS Of 698 records identified, 12 studies
-    were included in the final synthesis. Identified UQ mechanisms included confidence elicitation, probability elicitation, probability extraction,
-    repeated sampling, ensemble-based methods, multi-agent consensus approaches, and conformal prediction. No consistent relationship was observed
-    between clinical tasks, UQ mechanisms, and uncertainty signals. Only one study directly evaluated the incremental effect of adding UQ relative to
-    a model without uncertainty estimation; deep ensembles improved calibration (median Δ Brier score -0.094 across tasks), whereas Monte Carlo
-    dropout showed smaller and less consistent calibration improvements. Improvements in discrimination were generally modest relative to calibration
-    gains. Integration into decision-support workflows was uncommon; only four studies operationalized uncertainty estimates within predefined
-    decision-support workflows. CONCLUSIONS UQ for medical LLMs remains an emerging field characterized by methodological diversity and substantial
-    heterogeneity in evaluation and reporting practices. The observed variation in relationships between clinical tasks, UQ mechanisms, and
-    uncertainty signals suggests that uncertainty estimates should be selected and interpreted according to the target decision and clinical context.
-    Future work should prioritize transparent frameworks for evaluating, reporting, and linking uncertainty estimates to downstream clinical
-    decisions.
-
-### R00389 | 2026 | preprint/None | Lang: en
-TI: Saying More Than They Know: A Framework for Quantifying Epistemic-Rhetorical Miscalibration in Large Language Models
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00390 | 2026 | article/None | Lang: en
-TI: OSE: A Constraint-Governed Reasoning Layer for Reducing Hallucination and Overconfident Errors in Large Language Models
-AB: Large language models (LLMs) exhibit strong performance across a wide range of language and reasoning tasks, yet they remain prone to
-    hallucination, false precision, and overconfident errors, particularly in settings involving uncertainty, incomplete evidence, or multi-step
-    inference. This paper introduces OSE (Ontological Structural Engine), a constraint-governed reasoning layer designed to improve the reliability of
-    LLM outputs without modifying the underlying foundation model. OSE operates as a post-model governance mechanism that regulates reasoning
-    progression through atomic constraints, structured verification loops, failure-mode-aware control, and response gating. The paper defines the
-    principal failure modes targeted by OSE, presents its conceptual architecture, and outlines an initial pilot evaluation protocol centered on
-    boundedness, calibration, and practical usefulness. The core claim is intentionally narrow: a properly designed reasoning-governance layer can
-    reduce hallucination, false precision, and confidence-support mismatch while preserving substantial practical value. This work positions
-    post-model reasoning governance as a distinct design direction for building more trustworthy LLM systems under uncertainty.
-
-### R00391 | 2025 | preprint/None | Lang: en
-TI: Noise-Robust Preference Alignment for Large Language Models via Confidence Estimation and Adaptive Optimization
-AB: Preference alignment is essential for aligning language models with human intentions, yet synthetic preference data often contains noise that
-    hinders generalization. To address this issue, we introduce a noise-robust alignment framework that enhances model resilience to imperfect
-    training data. The approach integrates a Preference Confidence Estimation module, which assigns reliability scores to preference samples, and an
-    Adaptive Robust Optimization strategy that incorporates these scores into the learning process. This design allows the model to emphasize reliable
-    signals and reduce the impact of noisy supervision. Experiments across dialogue, summarization, and instruction-following benchmarks show
-    consistent improvements over existing alignment methods. Further analysis confirms the complementary effects of the two modules and their
-    robustness under varying noise conditions, highlighting the framework’s ability to promote stable and accurate preference learning.
-
-### R00392 | 2026 | article/None | Lang: ru
-TI: Works of Large Language Models as Simulations of Meaning. Semantic Entropy and Features of the Latest AI Detection Algorithms
-AB: The situation created by the rapid development and widespread availability of artificial intelligence in general, and large language models in
-    particular, which can generate high-quality and coherent true or truthful texts in different languages, is a pressing problem. By studying
-    interdisciplinary phenomena at the junction such as “semantic entropy”, “simulation of meaning” and “perplexity”, based on the theoretical bases
-    of quantitative linguistics, philosophy and information technology, the authors hypothesize that the consequence of such changes is a radical
-    transformation of the informational picture of the world. This situation, on the one hand, leads to a global semantic devaluation and skepticism
-    towards newly created written speech works, and, on the other hand, increases the value of authentic human-made texts (supported by their
-    authority and factual basis). The article also discusses the features of the latest technical and semantic mechanisms for detecting the use of
-    neural networks in text creation, and attempts to describe further trends in this area. The authors consider the phenomenon of generative
-    artificial intelligence (LLM) through the prism of the concept of Jean Baudrillard’s simulation. The technical nature of the neural networks is
-    analyzed as a probabilistic distribution of tokens, creating an illusion of semantic coherence. The examples show a gap between syntactic
-    correctness and the lack of intentionality (meaning-making), which allows AI products to be classified as “pure form” that lacks a referent in
-    reality.
-
-### R00393 | 2026 | article/None | Lang: en
-TI: Semantic Entropy as a Scalable Hallucination Detection Signal in Large Language Models: Theoretical Grounding, Calibration, and Downstream Task
-    Benchmark
-AB: This study investigates semantic entropy as a computationally tractable hallucination detection signal in large language models, grounding the
-    method in information-theoretic terms and benchmarking calibration and F1 on five factual QA datasets within the context of machine learning and
-    natural language processing, an area of growing scientific importance given its implications for LLM-powered QA system reliability gating,
-    medical/legal hallucination risk reduction, and uncertainty-aware RAG system design. Using semantic entropy computed as H_sem = -sum p(c)*log p(c)
-    over meaning-equivalent clusters of 20 sampled responses, with calibration (ECE) and hallucination detection F1 compared to logit-based,
-    embedding-variance, and self-consistency baselines, we examine sampling-induced variation in semantically equivalent responses capturing epistemic
-    uncertainty about factual claims, with high semantic entropy indicating model uncertainty signaling potential hallucination independent of
-    confidence calibration artifacts in 24,200 question-answer pairs across 5 benchmarks (TriviaQA 5k, NQ 5k, SQuAD 5k, BioASQ 4.2k, HalluBench 5k)
-    evaluated across 3 LLMs with 20 sampled responses per question = 1.45 million total response tokens drawn from inference via API (GPT-4o, Claude
-    3.5 Sonnet) and local A100 cluster (Llama 3.1-70B) with semantic clustering via SentenceBERT cosine similarity threshold 0.84 for equivalence.
-    Results indicate that semantic entropy achieves mean AUC 0.82 across 5 benchmarks and 3 LLMs (vs. 0.68 self-consistency and 0.64 logit-based),
-    with ECE 0.06 vs. 0.18 for logit confidence; BioASQ domain shows lowest AUC (0.74) due to synonym-rich medical terminology clustering failures (p
-    < 0.001), with mean AUC 0.82 vs. 0.68 self-consistency; ECE 0.06 vs. 0.18 as the primary quantitative benchmark. Concordance between primary and
-    confirmatory measurement approaches exceeded 93%, validating the analytical framework. These findings contribute empirically to machine learning
-    and natural language processing and carry actionable implications for the design of programs and policies targeting LLM-powered QA system
-    reliability gating, medical/legal hallucination risk reduction, and uncertainty-aware RAG system design.
-
-### R00394 | 2026 | article/None | Lang: en
-TI: Multi-scale adaptive semantic entropy framework: Hierarchical detection and early warning mechanism for large language model hallucinations
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00395 | 2026 | article/None | Lang: en
-TI: Proactive Trust Calibration for Large Language Models: A Systematic Framework for Hallucination Detection, Uncertainty Estimation, and Reliability
-    Assessment
-AB: Large Language Models (LLMs) have demonstrated significant capabilities in natural language generation, reasoning, and knowledge-based tasks;
-    however, their reliability is frequently compromised by hallucinations, overconfident responses, and poorly calibrated uncertainty. Existing
-    approaches typically address hallucination detection, uncertainty estimation, and confidence calibration as separate problems, limiting their
-    effectiveness in assessing the overall trustworthiness of generated responses. This paper proposes Proactive Trust Calibration (PTC), a systematic
-    framework that integrates hallucination detection, multi-level uncertainty estimation, evidence verification, confidence calibration, and
-    reliability assessment into a unified process. The framework evaluates model outputs using multiple signals, including token-level uncertainty,
-    semantic consistency, factual evidence, claim-level verification, and calibrated confidence. A Trust Calibration Score (TCS) is introduced to
-    combine these signals and estimate the reliability of generated responses. Based on the estimated reliability, the framework enables adaptive
-    response strategies, including direct answering, qualification, additional verification, or abstention. The proposed approach shifts LLM
-    reliability management from reactive error detection toward proactive assessment before unreliable information is presented to users. The
-    framework is designed to be evaluated using established hallucination and factuality benchmarks, with metrics including accuracy, Expected
-    Calibration Error (ECE), Brier Score, F1-score, AUROC, and selective risk. The proposed PTC framework provides a unified foundation for developing
-    more transparent, uncertainty-aware, and reliable LLM-based systems across applications such as healthcare, education, scientific research, legal
-    information, and enterprise knowledge management.
-
-### R00396 | 2026 | article/None | Lang: en
-TI: Embedding Bayesian optimization in a multi-agent large language model framework for critical heat flux modeling with uncertainty quantification
-AB: Large language model (LLM) agents can automate engineering modeling, but self-generated hyperparameter searches often trail expert baselines and
-    vary across runs. We present OPTIMA (Orchestrated, Physics-driven, Tool-Integrated Multi-Agent), an optimization-integrated multi-agent framework
-    that delegates numerical search to a validated ensemble optimization tool rather than asking agents to generate optimization code. A supervisor
-    coordinates coding, execution, repair, and optimization agents through explicit invocation, error-detection, and termination protocols, confining
-    LLM stochasticity to recoverable workflow steps while keeping Bayesian optimization deterministic and reproducible. OPTIMA is evaluated on the
-    OECD/NEA critical heat flux (CHF) benchmark of 24,579 measurements using five measured inputs. The automatically produced 15-member deep ensemble
-    achieves a root mean square percentage error of 12.6% over all data, close to a human-expert Bayesian-optimization pipeline using the same search
-    (12.4%), while providing decomposed aleatory and epistemic uncertainty with conservative calibrated coverage. It also tracks the 2006 look-up
-    table and reproduces physically consistent trends across blind slice datasets. These results suggest that LLM agents are most effective as
-    orchestrators of validated scientific tools rather than generators of numerical code.
-
-### R00397 | 2026 | article/None | Lang: en
-TI: Developing More Reliable Artificial Intelligence: Improving Reasoning, Uncertainty Estimation, and Self-Correction in Large Language Models
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00398 | 2026 | article/None | Lang: en
-TI: Accuracy, Self-Reported Confidence, and Overconfidence of Large Language Models in Endodontics: An Evaluation Using National Specialty Examination
-    Questions
-AB: BACKGROUND This study aimed to evaluate the accuracy, confidence, and overconfidence behavior of large language models (LLMs) in endodontics using
-    questions derived from a national specialty entrance examination. MATERIAL AND METHODS A total of 123 text-based endodontic questions from the
-    Turkish Dental Specialty Examination (2017-2026) were included after excluding annulled and image-based questions. Three LLMs (ChatGPT, Claude,
-    and Gemini) were assessed. Each model answered all questions using a standardized prompt and provided a confidence score (0%-100%). Accuracy was
-    recorded as correct/incorrect. Overconfidence was defined as incorrect responses with ≥90% confidence. Statistical analyses were performed using
-    Cochran's Q test, Friedman test, and post hoc pairwise comparisons with Bonferroni correction. RESULTS Accuracy rates were 89.4% for ChatGPT,
-    76.4% for Claude, and 90.2% for Gemini, with significant differences among models (χ²(2)=21.00, P<0.001). Confidence scores differed significantly
-    (c2(2)=213.40, P<0.001), with Gemini demonstrating highest confidence (99.51±1.49), followed by ChatGPT (90.88±9.19) and Claude (80.22±11.10).
-    Overconfidence rates were 9.8% for Gemini and 5.7% for ChatGPT, while no overconfident responses were observed for Claude (χ²(2)=14.53, P=0.001).
-    Despite similar accuracy between ChatGPT and Gemini, confidence patterns differed markedly, demonstrating that comparable accuracy does not
-    necessarily reflect comparable reliability. CONCLUSIONS LLMs demonstrated high accuracy in answering text-based endodontic examination questions;
-    however, significant differences were observed in confidence behavior and overconfidence patterns. The presence of high-confidence incorrect
-    responses suggests that accuracy alone may be insufficient to fully evaluate model reliability. These findings highlight the importance of
-    considering confidence-related behavior alongside accuracy when assessing LLM performance in examination-style endodontic tasks.
-
-### R00399 | 2026 | article/None | Lang: en
-TI: Teacher-anchored, disagreement-weighted confidence learning: Suppressing overconfident bypasses in budgeted small-to-large language model cascades
-AB: [NO ABSTRACT AVAILABLE]
-
-### R00400 | 2026 | article/None | Lang: en
-TI: Should Large Language Models Concur That They Are Right-or Admit They May Be Wrong? Intellectual Humility, Confidence Calibration, and the Future
-    of Trustworthy Artificial Intelligence
-AB: [NO ABSTRACT AVAILABLE]
-
-=== END OF BATCH b008 (50 records) ===
+=== END OF BATCH b008 (48 records) ===

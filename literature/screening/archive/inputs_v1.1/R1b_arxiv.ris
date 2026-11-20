@@ -1,0 +1,885 @@
+TY  - RPRT
+TI  - Know Your Mistakes: Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling
+AB  - Recent LLMs have enabled significant advancements for conversational agents. However, they are also well known to hallucinate, producing responses that seem plausible but are factually incorrect. On the other hand, users tend to over-rely on LLM-based AI agents, accepting AI's suggestion even when it is wrong. Adding positive friction, such as explanations or getting user confirmations, has been proposed as a mitigation in AI-supported decision-making systems. In this paper, we propose an accountability model for LLM-based task-oriented dialogue agents to address user overreliance via friction turns in cases of model uncertainty and errors associated with dialogue state tracking (DST). The accountability model is an augmented LLM with an additional accountability head that functions as a binary classifier to predict the relevant slots of the dialogue state mentioned in the conversation. We perform our experiments with multiple backbone LLMs on two established benchmarks (MultiWOZ and Snips). Our empirical findings demonstrate that the proposed approach not only enables reliable estimation of AI agent errors but also guides the decoder in generating more accurate actions. We observe around 3% absolute improvement in joint goal accuracy (JGA) of DST output by incorporating accountability heads into modern LLMs. Self-correcting the detected errors further increases the JGA from 67.13 to 70.51, achieving state-of-the-art DST performance. Finally, we show that error correction through user confirmations (friction turn) achieves a similar performance gain, highlighting its potential to reduce user overreliance.
+PY  - 2025
+DA  - 2025-01-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2501.10316
+AN  - arXiv:2501.10316
+DB  - arXiv
+M3  - preprint
+AU  - Suvodip Dey
+AU  - Yi-Jyun Sun
+AU  - Gokhan Tur
+AU  - Dilek Hakkani-Tur
+ER  - 
+
+TY  - RPRT
+TI  - Visualizing Uncertainty in Translation Tasks: An Evaluation of LLM Performance and Confidence Metrics
+AB  - Large language models (LLMs) are increasingly utilized for machine translation, yet their predictions often exhibit uncertainties that hinder interpretability and user trust. Effectively visualizing these uncertainties can enhance the usability of LLM outputs, particularly in contexts where translation accuracy is critical. This paper addresses two primary objectives: (1) providing users with token-level insights into model confidence and (2) developing a web-based visualization tool to quantify and represent translation uncertainties. To achieve these goals, we utilized the T5 model with the WMT19 dataset for translation tasks and evaluated translation quality using established metrics such as BLEU, METEOR, and ROUGE. We introduced three novel uncertainty quantification (UQ) metrics: (1) the geometric mean of token probabilities, (2) the arithmetic mean of token probabilities, and (3) the arithmetic mean of the kurtosis of token distributions. These metrics provide a simple yet effective framework for evaluating translation performance. Our analysis revealed a linear relationship between the traditional evaluation metrics and our UQ metrics, demonstrating the validity of our approach. Additionally, we developed an interactive web-based visualization that uses a color gradient to represent token confidence. This tool offers users a clear and intuitive understanding of translation quality while providing valuable insights into model performance. Overall, we show that our UQ metrics and visualization are both robust and interpretable, offering practical tools for evaluating and accessing machine translation systems.
+PY  - 2025
+DA  - 2025-01-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2501.17187
+AN  - arXiv:2501.17187
+DB  - arXiv
+M3  - preprint
+AU  - Jin Hyun Park
+AU  - Utsawb Laminchhane
+AU  - Umer Farooq
+AU  - Uma Sivakumar
+AU  - Arpan Kumar
+ER  - 
+
+TY  - RPRT
+TI  - Human-Agent Interaction in Synthetic Social Networks: A Framework for Studying Online Polarization
+AB  - Online social networks have dramatically altered the landscape of public discourse, creating both opportunities for enhanced civic participation and risks of deepening social divisions. Prevalent approaches to studying online polarization have been limited by a methodological disconnect: mathematical models excel at formal analysis but lack linguistic realism, while language model-based simulations capture natural discourse but often sacrifice analytical precision. This paper introduces an innovative computational framework that synthesizes these approaches by embedding formal opinion dynamics principles within LLM-based artificial agents, enabling both rigorous mathematical analysis and naturalistic social interactions. We validate our framework through comprehensive offline testing and experimental evaluation with 122 human participants engaging in a controlled social network environment. The results demonstrate our ability to systematically investigate polarization mechanisms while preserving ecological validity. Our findings reveal how polarized environments shape user perceptions and behavior: participants exposed to polarized discussions showed markedly increased sensitivity to emotional content and group affiliations, while perceiving reduced uncertainty in the agents' positions. By combining mathematical precision with natural language capabilities, our framework opens new avenues for investigating social media phenomena through controlled experimentation. This methodological advancement allows researchers to bridge the gap between theoretical models and empirical observations, offering unprecedented opportunities to study the causal mechanisms underlying online opinion dynamics.
+PY  - 2025
+DA  - 2025-02-03
+JO  - arXiv
+UR  - https://arxiv.org/abs/2502.01340
+AN  - arXiv:2502.01340
+DB  - arXiv
+M3  - preprint
+AU  - Tim Donkers
+AU  - Jürgen Ziegler
+ER  - 
+
+TY  - RPRT
+TI  - Artificial Intelligence and Legal Analysis: Implications for Legal Education and the Profession
+AB  - This article reports the results of a study examining the ability of legal and non-legal Large Language Models to perform legal analysis using the Issue-Rule-Application-Conclusion framework. LLMs were tested on legal reasoning tasks involving rule analysis and analogical reasoning. The results show that LLMs can conduct basic IRAC analysis, but are limited by brief responses lacking detail, an inability to commit to answers, false confidence, and hallucinations. The study compares legal and nonlegal LLMs, identifies shortcomings, and explores traits that may hinder their ability to think like a lawyer. It also discusses the implications for legal education and practice, highlighting the need for critical thinking skills in future lawyers and the potential pitfalls of overreliance on artificial intelligence AI resulting in a loss of logic, reasoning, and critical thinking skills.
+PY  - 2025
+DA  - 2025-02-04
+JO  - arXiv
+UR  - https://arxiv.org/abs/2502.03487
+AN  - arXiv:2502.03487
+DB  - arXiv
+M3  - preprint
+AU  - Lee Peoples
+ER  - 
+
+TY  - RPRT
+TI  - Uncertainty-Aware Fusion: An Ensemble Framework for Mitigating Hallucinations in Large Language Models
+AB  - Large Language Models (LLMs) are known to hallucinate and generate non-factual outputs which can undermine user trust. Traditional methods to directly mitigate hallucinations, such as representation editing and contrastive decoding, often require additional training data and involve high implementation complexity. While ensemble-based approaches harness multiple LLMs to tap into the "wisdom of crowds", these methods overlook uncertainties in individual model responses. Recent studies reveal that uncertainty estimation can enable LLMs to self-assess the likelihood of generating hallucinations. In this work, we focus on factoid question answering (QA) and observe that LLMs accuracy and self-assessment capabilities vary widely with different models excelling in different scenarios. Leveraging this insight, we propose Uncertainty-Aware Fusion (UAF), an ensemble framework to reduces hallucinations by strategically combining multiple LLM based on their accuracy and self-assessment abilities. Empirical results on several public benchmark datasets show that UAF outperforms state-of-the-art hallucination mitigation methods by $8\%$ in factual accuracy, while either narrowing or surpassing the performance gap with GPT-4.
+PY  - 2025
+DA  - 2025-02-22
+JO  - arXiv
+DO  - 10.1145/3701716.3715523
+UR  - https://arxiv.org/abs/2503.05757
+AN  - arXiv:2503.05757
+DB  - arXiv
+M3  - preprint
+AU  - Prasenjit Dey
+AU  - Srujana Merugu
+AU  - Sivaramakrishnan Kaveri
+ER  - 
+
+TY  - RPRT
+TI  - Less or More: Towards Glanceable Explanations for LLM Recommendations Using Ultra-Small Devices
+AB  - Large Language Models (LLMs) have shown remarkable potential in recommending everyday actions as personal AI assistants, while Explainable AI (XAI) techniques are being increasingly utilized to help users understand why a recommendation is given. Personal AI assistants today are often located on ultra-small devices such as smartwatches, which have limited screen space. The verbosity of LLM-generated explanations, however, makes it challenging to deliver glanceable LLM explanations on such ultra-small devices. To address this, we explored 1) spatially structuring an LLM's explanation text using defined contextual components during prompting and 2) presenting temporally adaptive explanations to users based on confidence levels. We conducted a user study to understand how these approaches impacted user experiences when interacting with LLM recommendations and explanations on ultra-small devices. The results showed that structured explanations reduced users' time to action and cognitive load when reading an explanation. Always-on structured explanations increased users' acceptance of AI recommendations. However, users were less satisfied with structured explanations compared to unstructured ones due to their lack of sufficient, readable details. Additionally, adaptively presenting structured explanations was less effective at improving user perceptions of the AI compared to the always-on structured explanations. Together with users' interview feedback, the results led to design implications to be mindful of when personalizing the content and timing of LLM explanations that are displayed on ultra-small devices.
+PY  - 2025
+DA  - 2025-02-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2502.19410
+AN  - arXiv:2502.19410
+DB  - arXiv
+M3  - preprint
+AU  - Xinru Wang
+AU  - Mengjie Yu
+AU  - Hannah Nguyen
+AU  - Michael Iuzzolino
+AU  - Tianyi Wang
+AU  - Peiqi Tang
+AU  - Natasha Lynova
+AU  - Co Tran
+AU  - Ting Zhang
+AU  - Naveen Sendhilnathan
+AU  - Hrvoje Benko
+AU  - Haijun Xia
+AU  - Tanya Jonker
+ER  - 
+
+TY  - RPRT
+TI  - Alignment for Efficient Tool Calling of Large Language Models
+AB  - Recent advancements in tool learning have enabled large language models (LLMs) to integrate external tools, enhancing their task performance by expanding their knowledge boundaries. However, relying on tools often introduces tradeoffs between performance, speed, and cost, with LLMs sometimes exhibiting overreliance and overconfidence in tool usage. This paper addresses the challenge of aligning LLMs with their knowledge boundaries to make more intelligent decisions about tool invocation. We propose a multi objective alignment framework that combines probabilistic knowledge boundary estimation with dynamic decision making, allowing LLMs to better assess when to invoke tools based on their confidence. Our framework includes two methods for knowledge boundary estimation, consistency based and absolute estimation, and two training strategies for integrating these estimates into the model decision making process. Experimental results on various tool invocation scenarios demonstrate the effectiveness of our framework, showing significant improvements in tool efficiency by reducing unnecessary tool usage.
+PY  - 2025
+DA  - 2025-03-09
+JO  - arXiv
+UR  - https://arxiv.org/abs/2503.06708
+AN  - arXiv:2503.06708
+DB  - arXiv
+M3  - preprint
+AU  - Hongshen Xu
+AU  - Zihan Wang
+AU  - Zichen Zhu
+AU  - Lei Pan
+AU  - Xingyu Chen
+AU  - Lu Chen
+AU  - Kai Yu
+ER  - 
+
+TY  - RPRT
+TI  - Investigating Human-Aligned Large Language Model Uncertainty
+AB  - Recent work has sought to quantify large language model uncertainty to facilitate model control and modulate user trust. Previous works focus on measures of uncertainty that are theoretically grounded or reflect the average overt behavior of the model. In this work, we investigate a variety of uncertainty measures, in order to identify measures that correlate with human group-level uncertainty. We find that Bayesian measures and a variation on entropy measures, top-k entropy, tend to agree with human behavior as a function of model size. We find that some strong measures decrease in human-similarity with model size, but, by multiple linear regression, we find that combining multiple uncertainty measures provide comparable human-alignment with reduced size-dependency.
+PY  - 2025
+DA  - 2025-03-16
+JO  - arXiv
+UR  - https://arxiv.org/abs/2503.12528
+AN  - arXiv:2503.12528
+DB  - arXiv
+M3  - preprint
+AU  - Kyle Moore
+AU  - Jesse Roberts
+AU  - Daryl Watson
+AU  - Pamela Wisniewski
+ER  - 
+
+TY  - RPRT
+TI  - An overview of model uncertainty and variability in LLM-based sentiment analysis. Challenges, mitigation strategies and the role of explainability
+AB  - Large Language Models (LLMs) have significantly advanced sentiment analysis, yet their inherent uncertainty and variability pose critical challenges to achieving reliable and consistent outcomes. This paper systematically explores the Model Variability Problem (MVP) in LLM-based sentiment analysis, characterized by inconsistent sentiment classification, polarization, and uncertainty arising from stochastic inference mechanisms, prompt sensitivity, and biases in training data. We analyze the core causes of MVP, presenting illustrative examples and a case study to highlight its impact. In addition, we investigate key challenges and mitigation strategies, paying particular attention to the role of temperature as a driver of output randomness and emphasizing the crucial role of explainability in improving transparency and user trust. By providing a structured perspective on stability, reproducibility, and trustworthiness, this study helps develop more reliable, explainable, and robust sentiment analysis models, facilitating their deployment in high-stakes domains such as finance, healthcare, and policymaking, among others.
+PY  - 2025
+DA  - 2025-04-06
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.04462
+AN  - arXiv:2504.04462
+DB  - arXiv
+M3  - preprint
+AU  - David Herrera-Poyatos
+AU  - Carlos Peláez-González
+AU  - Cristina Zuheros
+AU  - Andrés Herrera-Poyatos
+AU  - Virilo Tejedor
+AU  - Francisco Herrera
+AU  - Rosana Montes
+ER  - 
+
+TY  - RPRT
+TI  - The challenge of uncertainty quantification of large language models in medicine
+AB  - This study investigates uncertainty quantification in large language models (LLMs) for medical applications, emphasizing both technical innovations and philosophical implications. As LLMs become integral to clinical decision-making, accurately communicating uncertainty is crucial for ensuring reliable, safe, and ethical AI-assisted healthcare. Our research frames uncertainty not as a barrier but as an essential part of knowledge that invites a dynamic and reflective approach to AI design. By integrating advanced probabilistic methods such as Bayesian inference, deep ensembles, and Monte Carlo dropout with linguistic analysis that computes predictive and semantic entropy, we propose a comprehensive framework that manages both epistemic and aleatoric uncertainties. The framework incorporates surrogate modeling to address limitations of proprietary APIs, multi-source data integration for better context, and dynamic calibration via continual and meta-learning. Explainability is embedded through uncertainty maps and confidence metrics to support user trust and clinical interpretability. Our approach supports transparent and ethical decision-making aligned with Responsible and Reflective AI principles. Philosophically, we advocate accepting controlled ambiguity instead of striving for absolute predictability, recognizing the inherent provisionality of medical knowledge.
+PY  - 2025
+DA  - 2025-04-07
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.05278
+AN  - arXiv:2504.05278
+DB  - arXiv
+M3  - preprint
+AU  - Zahra Atf
+AU  - Seyed Amir Ahmad Safavi-Naini
+AU  - Peter R. Lewis
+AU  - Aref Mahjoubfar
+AU  - Nariman Naderi
+AU  - Thomas R. Savage
+AU  - Ali Soroush
+ER  - 
+
+TY  - RPRT
+TI  - Don't Just Translate, Agitate: Using Large Language Models as Devil's Advocates for AI Explanations
+AB  - This position paper highlights a growing trend in Explainable AI (XAI) research where Large Language Models (LLMs) are used to translate outputs from explainability techniques, like feature-attribution weights, into a natural language explanation. While this approach may improve accessibility or readability for users, recent findings suggest that translating into human-like explanations does not necessarily enhance user understanding and may instead lead to overreliance on AI systems. When LLMs summarize XAI outputs without surfacing model limitations, uncertainties, or inconsistencies, they risk reinforcing the illusion of interpretability rather than fostering meaningful transparency. We argue that - instead of merely translating XAI outputs - LLMs should serve as constructive agitators, or devil's advocates, whose role is to actively interrogate AI explanations by presenting alternative interpretations, potential biases, training data limitations, and cases where the model's reasoning may break down. In this role, LLMs can facilitate users in engaging critically with AI systems and generated explanations, with the potential to reduce overreliance caused by misinterpreted or specious explanations.
+PY  - 2025
+DA  - 2025-04-16
+JO  - arXiv
+DO  - 10.5281/zenodo.15170455
+UR  - https://arxiv.org/abs/2504.12424
+AN  - arXiv:2504.12424
+DB  - arXiv
+M3  - preprint
+AU  - Ashley Suh
+AU  - Kenneth Alperin
+AU  - Harry Li
+AU  - Steven R Gomez
+ER  - 
+
+TY  - RPRT
+TI  - Explainable AI in Usable Privacy and Security: Challenges and Opportunities
+AB  - Large Language Models (LLMs) are increasingly being used for automated evaluations and explaining them. However, concerns about explanation quality, consistency, and hallucinations remain open research challenges, particularly in high-stakes contexts like privacy and security, where user trust and decision-making are at stake. In this paper, we investigate these issues in the context of PRISMe, an interactive privacy policy assessment tool that leverages LLMs to evaluate and explain website privacy policies. Based on a prior user study with 22 participants, we identify key concerns regarding LLM judgment transparency, consistency, and faithfulness, as well as variations in user preferences for explanation detail and engagement. We discuss potential strategies to mitigate these concerns, including structured evaluation criteria, uncertainty estimation, and retrieval-augmented generation (RAG). We identify a need for adaptive explanation strategies tailored to different user profiles for LLM-as-a-judge. Our goal is to showcase the application area of usable privacy and security to be promising for Human-Centered Explainable AI (HCXAI) to make an impact.
+PY  - 2025
+DA  - 2025-04-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.12931
+AN  - arXiv:2504.12931
+DB  - arXiv
+M3  - preprint
+AU  - Vincent Freiberger
+AU  - Arthur Fleig
+AU  - Erik Buchmann
+ER  - 
+
+TY  - RPRT
+TI  - Object-Level Verbalized Confidence Calibration in Vision-Language Models via Semantic Perturbation
+AB  - Vision-language models (VLMs) excel in various multimodal tasks but frequently suffer from poor calibration, resulting in misalignment between their verbalized confidence and response correctness. This miscalibration undermines user trust, especially when models confidently provide incorrect or fabricated information. In this work, we propose a novel Confidence Calibration through Semantic Perturbation (CSP) framework to improve the calibration of verbalized confidence for VLMs in response to object-centric queries. We first introduce a perturbed dataset where Gaussian noise is applied to the key object regions to simulate visual uncertainty at different confidence levels, establishing an explicit mapping between visual ambiguity and confidence levels. We further enhance calibration through a two-stage training process combining supervised fine-tuning on the perturbed dataset with subsequent preference optimization. Extensive experiments on popular benchmarks demonstrate that our method significantly improves the alignment between verbalized confidence and response correctness while maintaining or enhancing overall task performance. These results highlight the potential of semantic perturbation as a practical tool for improving the reliability and interpretability of VLMs.
+PY  - 2025
+DA  - 2025-04-21
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.14848
+AN  - arXiv:2504.14848
+DB  - arXiv
+M3  - preprint
+AU  - Yunpu Zhao
+AU  - Rui Zhang
+AU  - Junbin Xiao
+AU  - Ruibo Hou
+AU  - Jiaming Guo
+AU  - Zihao Zhang
+AU  - Yifan Hao
+AU  - Yunji Chen
+ER  - 
+
+TY  - RPRT
+TI  - Estimating LLM Consistency: A User Baseline vs Surrogate Metrics
+AB  - Large language models (LLMs) are prone to hallucinations and sensitive to prompt perturbations, often resulting in inconsistent or unreliable generated text. Different methods have been proposed to mitigate such hallucinations and fragility, one of which is to measure the consistency of LLM responses -- the model's confidence in the response or likelihood of generating a similar response when resampled. In previous work, measuring LLM response consistency often relied on calculating the probability of a response appearing within a pool of resampled responses, analyzing internal states, or evaluating logits of responses. However, it was not clear how well these approaches approximated users' perceptions of consistency of LLM responses. To find out, we performed a user study ($n=2,976$) demonstrating that current methods for measuring LLM response consistency typically do not align well with humans' perceptions of LLM consistency. We propose a logit-based ensemble method for estimating LLM consistency and show that our method matches the performance of the best-performing existing metric in estimating human ratings of LLM consistency. Our results suggest that methods for estimating LLM consistency without human evaluation are sufficiently imperfect to warrant broader use of evaluation with human input; this would avoid misjudging the adequacy of models because of the imperfections of automated consistency metrics.
+PY  - 2025
+DA  - 2025-05-26
+JO  - arXiv
+DO  - 10.18653/v1/2025.emnlp-main.1554
+UR  - https://arxiv.org/abs/2505.23799
+AN  - arXiv:2505.23799
+DB  - arXiv
+M3  - preprint
+AU  - Xiaoyuan Wu
+AU  - Weiran Lin
+AU  - Omer Akgul
+AU  - Lujo Bauer
+ER  - 
+
+TY  - RPRT
+TI  - Probing the Geometry of Truth: Consistency and Generalization of Truth Directions in LLMs Across Logical Transformations and Question Answering Tasks
+AB  - Large language models (LLMs) are trained on extensive datasets that encapsulate substantial world knowledge. However, their outputs often include confidently stated inaccuracies. Earlier works suggest that LLMs encode truthfulness as a distinct linear feature, termed the "truth direction", which can classify truthfulness reliably. We address several open questions about the truth direction: (i) whether LLMs universally exhibit consistent truth directions; (ii) whether sophisticated probing techniques are necessary to identify truth directions; and (iii) how the truth direction generalizes across diverse contexts. Our findings reveal that not all LLMs exhibit consistent truth directions, with stronger representations observed in more capable models, particularly in the context of logical negation. Additionally, we demonstrate that truthfulness probes trained on declarative atomic statements can generalize effectively to logical transformations, question-answering tasks, in-context learning, and external knowledge sources. Finally, we explore the practical application of truthfulness probes in selective question-answering, illustrating their potential to improve user trust in LLM outputs. These results advance our understanding of truth directions and provide new insights into the internal representations of LLM beliefs. Our code is public at https://github.com/colored-dye/truthfulness_probe_generalization
+PY  - 2025
+DA  - 2025-06-01
+JO  - arXiv
+UR  - https://arxiv.org/abs/2506.00823
+AN  - arXiv:2506.00823
+DB  - arXiv
+M3  - preprint
+AU  - Yuntai Bao
+AU  - Xuhong Zhang
+AU  - Tianyu Du
+AU  - Xinkui Zhao
+AU  - Zhengwen Feng
+AU  - Hao Peng
+AU  - Jianwei Yin
+ER  - 
+
+TY  - RPRT
+TI  - Understanding Online Polarization Through Human-Agent Interaction in a Synthetic LLM-Based Social Network
+AB  - The rise of social media has fundamentally transformed how people engage in public discourse and form opinions. While these platforms offer unprecedented opportunities for democratic engagement, they have been implicated in increasing social polarization and the formation of ideological echo chambers. Previous research has primarily relied on observational studies of social media data or theoretical modeling approaches, leaving a significant gap in our understanding of how individuals respond to and are influenced by polarized online environments. Here we present a novel experimental framework for investigating polarization dynamics that allows human users to interact with LLM-based artificial agents in a controlled social network simulation. Through a user study with 122 participants, we demonstrate that this approach can successfully reproduce key characteristics of polarized online discourse while enabling precise manipulation of environmental factors. Our results provide empirical validation of theoretical predictions about online polarization, showing that polarized environments significantly increase perceived emotionality and group identity salience while reducing expressed uncertainty. These findings extend previous observational and theoretical work by providing causal evidence for how specific features of online environments influence user perceptions and behaviors. More broadly, this research introduces a powerful new methodology for studying social media dynamics, offering researchers unprecedented control over experimental conditions while maintaining ecological validity.
+PY  - 2025
+DA  - 2025-06-18
+JO  - arXiv
+DO  - 10.1609/icwsm.v19i1.35826
+UR  - https://arxiv.org/abs/2506.15866
+AN  - arXiv:2506.15866
+DB  - arXiv
+M3  - preprint
+AU  - Tim Donkers
+AU  - Jürgen Ziegler
+ER  - 
+
+TY  - RPRT
+TI  - LLM-Driven Medical Document Analysis: Enhancing Trustworthy Pathology and Differential Diagnosis
+AB  - Medical document analysis plays a crucial role in extracting essential clinical insights from unstructured healthcare records, supporting critical tasks such as differential diagnosis. Determining the most probable condition among overlapping symptoms requires precise evaluation and deep medical expertise. While recent advancements in large language models (LLMs) have significantly enhanced performance in medical document analysis, privacy concerns related to sensitive patient data limit the use of online LLMs services in clinical settings. To address these challenges, we propose a trustworthy medical document analysis platform that fine-tunes a LLaMA-v3 using low-rank adaptation, specifically optimized for differential diagnosis tasks. Our approach utilizes DDXPlus, the largest benchmark dataset for differential diagnosis, and demonstrates superior performance in pathology prediction and variable-length differential diagnosis compared to existing methods. The developed web-based platform allows users to submit their own unstructured medical documents and receive accurate, explainable diagnostic results. By incorporating advanced explainability techniques, the system ensures transparent and reliable predictions, fostering user trust and confidence. Extensive evaluations confirm that the proposed method surpasses current state-of-the-art models in predictive accuracy while offering practical utility in clinical settings. This work addresses the urgent need for reliable, explainable, and privacy-preserving artificial intelligence solutions, representing a significant advancement in intelligent medical document analysis for real-world healthcare applications. The code can be found at \href{https://github.com/leitro/Differential-Diagnosis-LoRA}{https://github.com/leitro/Differential-Diagnosis-LoRA}.
+PY  - 2025
+DA  - 2025-06-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2506.19702
+AN  - arXiv:2506.19702
+DB  - arXiv
+M3  - preprint
+AU  - Lei Kang
+AU  - Xuanshuo Fu
+AU  - Oriol Ramos Terrades
+AU  - Javier Vazquez-Corral
+AU  - Ernest Valveny
+AU  - Dimosthenis Karatzas
+ER  - 
+
+TY  - RPRT
+TI  - Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models
+AB  - Recent advancements in multimodal large language models have enhanced document understanding by integrating textual and visual information. However, existing models exhibit incompleteness within their paradigm in real-world scenarios, particularly under visual degradation. In such conditions, the current response paradigm often fails to adequately perceive visual degradation and ambiguity, leading to overreliance on linguistic priors or misaligned visual-textual reasoning. This difficulty in recognizing uncertainty frequently results in the generation of hallucinatory content, especially when a precise answer is not feasible. To better demonstrate and analyze this phenomenon and problem, we propose KIE-HVQA, the first benchmark dedicated to evaluating OCR hallucination in degraded document understanding. This dataset includes test samples spanning identity cards and invoices, with simulated real-world degradations for OCR reliability. This setup allows for evaluating models' capacity, under degraded input, to distinguish reliable visual information and answer accordingly, thereby highlighting the challenge of avoiding hallucination on uncertain data. To achieve vision-faithful reasoning and thereby avoid the aforementioned issues, we further introduce a GRPO-based framework featuring a novel reward mechanism. By incorporating a self-awareness of visual uncertainty and an analysis method that initiates refusal to answer to increase task difficulty within our supervised fine-tuning and reinforcement learning framework, we successfully mitigated hallucinations in ambiguous regions. Experiments on Qwen2.5-VL demonstrate that our 7B-parameter model achieves a 22\% absolute improvement in hallucination-free accuracy over GPT-4o on KIE-HVQA and there is no significant performance drop in standard tasks, highlighting both effectiveness and robustness.
+PY  - 2025
+DA  - 2025-06-25
+JO  - arXiv
+UR  - https://arxiv.org/abs/2506.20168
+AN  - arXiv:2506.20168
+DB  - arXiv
+M3  - preprint
+AU  - Zhentao He
+AU  - Can Zhang
+AU  - Ziheng Wu
+AU  - Zhenghao Chen
+AU  - Yufei Zhan
+AU  - Yifan Li
+AU  - Zhao Zhang
+AU  - Xian Wang
+AU  - Minghui Qiu
+ER  - 
+
+TY  - RPRT
+TI  - The Consistency Hypothesis in Uncertainty Quantification for Large Language Models
+AB  - Estimating the confidence of large language model (LLM) outputs is essential for real-world applications requiring high user trust. Black-box uncertainty quantification (UQ) methods, relying solely on model API access, have gained popularity due to their practical benefits. In this paper, we examine the implicit assumption behind several UQ methods, which use generation consistency as a proxy for confidence, an idea we formalize as the consistency hypothesis. We introduce three mathematical statements with corresponding statistical tests to capture variations of this hypothesis and metrics to evaluate LLM output conformity across tasks. Our empirical investigation, spanning 8 benchmark datasets and 3 tasks (question answering, text summarization, and text-to-SQL), highlights the prevalence of the hypothesis under different settings. Among the statements, we highlight the `Sim-Any' hypothesis as the most actionable, and demonstrate how it can be leveraged by proposing data-free black-box UQ methods that aggregate similarities between generations for confidence estimation. These approaches can outperform the closest baselines, showcasing the practical value of the empirically observed consistency hypothesis.
+PY  - 2025
+DA  - 2025-06-27
+JO  - arXiv
+UR  - https://arxiv.org/abs/2506.21849
+AN  - arXiv:2506.21849
+DB  - arXiv
+M3  - preprint
+AU  - Quan Xiao
+AU  - Debarun Bhattacharjya
+AU  - Balaji Ganesan
+AU  - Radu Marinescu
+AU  - Katsiaryna Mirylenka
+AU  - Nhan H Pham
+AU  - Michael Glass
+AU  - Junkyu Lee
+ER  - 
+
+TY  - RPRT
+TI  - Who's Sorry Now: User Preferences Among Rote, Empathic, and Explanatory Apologies from LLM Chatbots
+AB  - As chatbots driven by large language models (LLMs) are increasingly deployed in everyday contexts, their ability to recover from errors through effective apologies is critical to maintaining user trust and satisfaction. In a preregistered study with Prolific workers (N=162), we examine user preferences for three types of apologies (rote, explanatory, and empathic) issued in response to three categories of common LLM mistakes (bias, unfounded fabrication, and factual errors). We designed a pairwise experiment in which participants evaluated chatbot responses consisting of an initial error, a subsequent apology, and a resolution. Explanatory apologies were generally preferred, but this varied by context and user. In the bias scenario, empathic apologies were favored for acknowledging emotional impact, while hallucinations, though seen as serious, elicited no clear preference, reflecting user uncertainty. Our findings show the complexity of effective apology in AI systems. We discuss key insights such as personalization and calibration that future systems must navigate to meaningfully repair trust.
+PY  - 2025
+DA  - 2025-07-03
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.02745
+AN  - arXiv:2507.02745
+DB  - arXiv
+M3  - preprint
+AU  - Zahra Ashktorab
+AU  - Alessandra Buccella
+AU  - Jason D'Cruz
+AU  - Zoe Fowler
+AU  - Andrew Gill
+AU  - Kei Yan Leung
+AU  - P. D. Magnus
+AU  - John Richards
+AU  - Kush R. Varshney
+ER  - 
+
+TY  - RPRT
+TI  - What Shapes User Trust in ChatGPT? A Mixed-Methods Study of User Attributes, Trust Dimensions, Task Context, and Societal Perceptions among University Students
+AB  - This mixed-methods inquiry examined four domains that shape university students' trust in ChatGPT: user attributes, seven delineated trust dimensions, task context, and perceived societal impact. Data were collected through a survey of 115 UK undergraduate and postgraduate students and four complementary semi-structured interviews. Behavioural engagement outweighed demographics: frequent use increased trust, whereas self-reported understanding of large-language-model mechanics reduced it. Among the dimensions, perceived expertise and ethical risk were the strongest predictors of overall trust; ease of use and transparency had secondary effects, while human-likeness and reputation were non-significant. Trust was highly task-contingent; highest for coding and summarising, lowest for entertainment and citation generation, yet confidence in ChatGPT's referencing ability, despite known inaccuracies, was the single strongest correlate of global trust, indicating automation bias. Computer-science students surpassed peers only in trusting the system for proofreading and writing, suggesting technical expertise refines rather than inflates reliance. Finally, students who viewed AI's societal impact positively reported the greatest trust, whereas mixed or negative outlooks dampened confidence. These findings show that trust in ChatGPT hinges on task verifiability, perceived competence, ethical alignment and direct experience, and they underscore the need for transparency, accuracy cues and user education when deploying LLMs in academic settings.
+PY  - 2025
+DA  - 2025-07-07
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.05046
+AN  - arXiv:2507.05046
+DB  - arXiv
+M3  - preprint
+AU  - Kadija Bouyzourn
+AU  - Alexandra Birch
+ER  - 
+
+TY  - RPRT
+TI  - Humans overrely on overconfident language models, across languages
+AB  - As large language models (LLMs) are deployed globally, it is crucial that their responses are calibrated across languages to accurately convey uncertainty and limitations. Prior work shows that LLMs are linguistically overconfident in English, leading users to overrely on confident generations. However, the usage and interpretation of epistemic markers (e.g., 'I think it's') differs sharply across languages. Here, we study the risks of multilingual linguistic (mis)calibration, overconfidence, and overreliance across five languages to evaluate LLM safety in a global context. Our work finds that overreliance risks are high across languages. We first analyze the distribution of LLM-generated epistemic markers and observe that LLMs are overconfident across languages, frequently generating strengtheners even as part of incorrect responses. Model generations are, however, sensitive to documented cross-linguistic variation in usage: for example, models generate the most markers of uncertainty in Japanese and the most markers of certainty in German and Mandarin. Next, we measure human reliance rates across languages, finding that reliance behaviors differ cross-linguistically: for example, participants are significantly more likely to discount expressions of uncertainty in Japanese than in English (i.e., ignore their 'hedging' function and rely on generations that contain them). Taken together, these results indicate a high risk of reliance on overconfident model generations across languages. Our findings highlight the challenges of multilingual linguistic calibration and stress the importance of culturally and linguistically contextualized model safety evaluations.
+PY  - 2025
+DA  - 2025-07-08
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.06306
+AN  - arXiv:2507.06306
+DB  - arXiv
+M3  - preprint
+AU  - Neil Rathi
+AU  - Dan Jurafsky
+AU  - Kaitlyn Zhou
+ER  - 
+
+TY  - RPRT
+TI  - Agentic AI with Orchestrator-Agent Trust: A Modular Visual Classification Framework with Trust-Aware Orchestration and RAG-Based Reasoning
+AB  - Modern Artificial Intelligence (AI) increasingly relies on multi-agent architectures that blend visual and language understanding. Yet, a pressing challenge remains: How can we trust these agents especially in zero-shot settings with no fine-tuning? We introduce a novel modular Agentic AI visual classification framework that integrates generalist multimodal agents with a non-visual reasoning orchestrator and a Retrieval-Augmented Generation (RAG) module. Applied to apple leaf disease diagnosis, we benchmark three configurations: (I) zero-shot with confidence-based orchestration, (II) fine-tuned agents with improved performance, and (III) trust-calibrated orchestration enhanced by CLIP-based image retrieval and re-evaluation loops. Using confidence calibration metrics (ECE, OCR, CCC), the orchestrator modulates trust across agents. Our results demonstrate a 77.94\% accuracy improvement in the zero-shot setting using trust-aware orchestration and RAG, achieving 85.63\% overall. GPT-4o showed better calibration, while Qwen-2.5-VL displayed overconfidence. Furthermore, image-RAG grounded predictions with visually similar cases, enabling correction of agent overconfidence via iterative re-evaluation. The proposed system separates perception (vision agents) from meta-reasoning (orchestrator), enabling scalable and interpretable multi-agent AI. This blueprint illustrates how Agentic AI can deliver trustworthy, modular, and transparent reasoning, and is extensible to diagnostics, biology, and other trust-critical domains. In doing so, we highlight Agentic AI not just as an architecture but as a paradigm for building reliable multi-agent intelligence. agentic ai, orchestrator agent trust, trust orchestration, visual classification, retrieval augmented reasoning
+PY  - 2025
+DA  - 2025-07-09
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.10571
+AN  - arXiv:2507.10571
+DB  - arXiv
+M3  - preprint
+AU  - Konstantinos I. Roumeliotis
+AU  - Ranjan Sapkota
+AU  - Manoj Karkee
+AU  - Nikolaos D. Tselikas
+ER  - 
+
+TY  - RPRT
+TI  - Human-Alignment and Calibration of Inference-Time Uncertainty in Large Language Models
+AB  - There has been much recent interest in evaluating large language models for uncertainty calibration to facilitate model control and modulate user trust. Inference time uncertainty, which may provide a real-time signal to the model or external control modules, is particularly important for applying these concepts to improve LLM-user experience in practice. While many of the existing papers consider model calibration, comparatively little work has sought to evaluate how closely model uncertainty aligns to human uncertainty. In this work, we evaluate a collection of inference-time uncertainty measures, using both established metrics and novel variations, to determine how closely they align with both human group-level uncertainty and traditional notions of model calibration. We find that numerous measures show evidence of strong alignment to human uncertainty, even despite the lack of alignment to human answer preference. For those successful metrics, we find moderate to strong evidence of model calibration in terms of both correctness correlation and distributional analysis.
+PY  - 2025
+DA  - 2025-08-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2508.08204
+AN  - arXiv:2508.08204
+DB  - arXiv
+M3  - preprint
+AU  - Kyle Moore
+AU  - Jesse Roberts
+AU  - Daryl Watson
+ER  - 
+
+TY  - RPRT
+TI  - Eyes on the Image: Gaze Supervised Multimodal Learning for Chest X-ray Diagnosis and Report Generation
+AB  - Medical vision-language models still struggle to match radiologists' attention and to verbalize findings with explicit spatial grounding. We address this gap with a two-stage multimodal framework for chest X-ray interpretation built on the MIMIC-Eye dataset. In the first stage introduces a gaze-token classifier that fuses image patches, bounding-box masks, transcription embeddings, and radiologist fixations. A curriculum-scheduled, trust-calibrated composite loss supervises the gaze token, boosting both accuracy and spatial alignment. Adding fixation supervision raises AUC 4.4% and F1 13.3%, and Pearson correlation rises to 0.306, confirming clinically relevant focus. In stage 2, classifier predictions are translated into region-specific diagnostic sentences. Confidence-weighted keywords are extracted, mapped to 17 thoracic regions through an expert dictionary, and expanded with a prompted large language model, boosting clinical-term BERTScore and ROUGE scores over keyword baselines. All components are toggle-able for ablation, and the full pipeline is reproducible, offering a new benchmark for interpretable, gaze-aware chest-X-ray analysis. Integrating eye-tracking signals demonstrably enhances both diagnostic accuracy and the transparency of generated reports.
+PY  - 2025
+DA  - 2025-08-18
+JO  - arXiv
+UR  - https://arxiv.org/abs/2508.13068
+AN  - arXiv:2508.13068
+DB  - arXiv
+M3  - preprint
+AU  - Tanjim Islam Riju
+AU  - Shuchismita Anwar
+AU  - Saman Sarker Joy
+AU  - Farig Sadeque
+AU  - Swakkhar Shatabda
+ER  - 
+
+TY  - RPRT
+TI  - Rule-Based Moral Principles for Explaining Uncertainty in Natural Language Generation
+AB  - Large language models (LLMs) are increasingly used in high-stakes settings, where explaining uncertainty is both technical and ethical. Probabilistic methods are often opaque and misaligned with expectations of transparency. We propose a framework based on rule-based moral principles for handling uncertainty in LLM-generated text. Using insights from moral psychology and virtue ethics, we define rules such as precaution, deference, and responsibility to guide responses under epistemic or aleatoric uncertainty. These rules are encoded in a lightweight Prolog engine, where uncertainty levels (low, medium, high) trigger aligned system actions with plain-language rationales. Scenario-based simulations benchmark rule coverage, fairness, and trust calibration. Use cases in clinical and legal domains illustrate how moral reasoning can improve trust and interpretability. Our approach offers a transparent, lightweight alternative to probabilistic models for socially responsible natural language generation.
+PY  - 2025
+DA  - 2025-09-08
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.07190
+AN  - arXiv:2509.07190
+DB  - arXiv
+M3  - preprint
+AU  - Zahra Atf
+AU  - Peter R Lewis
+ER  - 
+
+TY  - RPRT
+TI  - Evaluating Node-tree Interfaces for AI Explainability
+AB  - As large language models (LLMs) become ubiquitous in workplace tools and decision-making processes, ensuring explainability and fostering user trust are critical. Although advancements in LLM engineering continue, human-centered design is still catching up, particularly when it comes to embedding transparency and trust into AI interfaces. This study evaluates user experiences with two distinct AI interfaces - node-tree interfaces and chatbot interfaces - to assess their performance in exploratory, follow-up inquiry, decision-making, and problem-solving tasks. Our design-driven approach introduces a node-tree interface that visually structures AI-generated responses into hierarchically organized, interactive nodes, allowing users to navigate, refine, and follow up on complex information. In a comparative study with n=20 business users, we observed that while the chatbot interface effectively supports linear, step-by-step queries, it is the node-tree interface that enhances brainstorming. Quantitative and qualitative findings indicate that node-tree interfaces not only improve task performance and decision-making support but also promote higher levels of user trust by preserving context. Our findings suggest that adaptive AI interfaces capable of switching between structured visualizations and conversational formats based on task requirements can significantly enhance transparency and user confidence in AI-powered systems. This work contributes actionable insights to the fields of human-robot interaction and AI design, particularly for enterprise applications where trust-building is critical for teams.
+PY  - 2025
+DA  - 2025-10-07
+JO  - arXiv
+UR  - https://arxiv.org/abs/2510.06457
+AN  - arXiv:2510.06457
+DB  - arXiv
+M3  - preprint
+AU  - Lifei Wang
+AU  - Natalie Friedman
+AU  - Chengchao Zhu
+AU  - Zeshu Zhu
+AU  - S. Joy Mountford
+ER  - 
+
+TY  - RPRT
+TI  - Preliminary Quantitative Study on Explainability and Trust in AI Systems
+AB  - Large-scale AI models such as GPT-4 have accelerated the deployment of artificial intelligence across critical domains including law, healthcare, and finance, raising urgent questions about trust and transparency. This study investigates the relationship between explainability and user trust in AI systems through a quantitative experimental design. Using an interactive, web-based loan approval simulation, we compare how different types of explanations, ranging from basic feature importance to interactive counterfactuals influence perceived trust. Results suggest that interactivity enhances both user engagement and confidence, and that the clarity and relevance of explanations are key determinants of trust. These findings contribute empirical evidence to the growing field of human-centered explainable AI, highlighting measurable effects of explainability design on user perception
+PY  - 2025
+DA  - 2025-10-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2510.15769
+AN  - arXiv:2510.15769
+DB  - arXiv
+M3  - preprint
+AU  - Allen Daniel Sunny
+ER  - 
+
+TY  - RPRT
+TI  - CritiCal: Can Critique Help LLM Uncertainty or Confidence Calibration?
+AB  - Accurate confidence calibration in Large Language Models (LLMs) is critical for safe use in high-stakes domains, where clear verbalized confidence enhances user trust. Traditional methods that mimic reference confidence expressions often fail to capture the reasoning needed for accurate confidence assessment. We propose natural language critiques as a solution, ideally suited for confidence calibration, as precise gold confidence labels are hard to obtain and often require multiple generations. This paper studies how natural language critiques can enhance verbalized confidence, addressing: (1) What to critique: uncertainty (question-focused) or confidence (answer-specific)? Analysis shows confidence suits multiple-choice tasks, while uncertainty excels in open-ended scenarios. (2) How to critique: self-critique or critique calibration training? We propose Self-Critique, enabling LLMs to critique and optimize their confidence beyond mere accuracy, and CritiCal, a novel Critique Calibration training method that leverages natural language critiques to improve confidence calibration, moving beyond direct numerical optimization. Experiments show that CritiCal significantly outperforms Self-Critique and other competitive baselines, even surpassing its teacher model, GPT-4o, in complex reasoning tasks. CritiCal also shows robust generalization in out-of-distribution settings, advancing LLM's reliability.
+PY  - 2025
+DA  - 2025-10-28
+JO  - arXiv
+UR  - https://arxiv.org/abs/2510.24505
+AN  - arXiv:2510.24505
+DB  - arXiv
+M3  - preprint
+AU  - Qing Zong
+AU  - Jiayu Liu
+AU  - Tianshi Zheng
+AU  - Chunyang Li
+AU  - Baixuan Xu
+AU  - Haochen Shi
+AU  - Weiqi Wang
+AU  - Zhaowei Wang
+AU  - Chunkit Chan
+AU  - Yangqiu Song
+ER  - 
+
+TY  - RPRT
+TI  - InnovatorBench: Evaluating Agents' Ability to Conduct Innovative LLM Research
+AB  - AI agents could accelerate scientific discovery by automating hypothesis formation, experiment design, coding, execution, and analysis, yet existing benchmarks probe narrow skills in simplified settings. To address this gap, we introduce InnovatorBench, a benchmark-platform pair for realistic, end-to-end assessment of agents performing Large Language Model (LLM) research. It comprises 20 tasks spanning Data Construction, Filtering, Augmentation, Loss Design, Reward Design, and Scaffold Construction, which require runnable artifacts and assessment of correctness, performance, output quality, and uncertainty. To support agent operation, we develop ResearchGym, a research environment offering rich action spaces, distributed and long-horizon execution, asynchronous monitoring, and snapshot saving. We also implement a lightweight ReAct agent that couples explicit reasoning with executable planning using frontier models such as Claude-4, GPT-5, GLM-4.5, and Kimi-K2. Our experiments demonstrate that while frontier models show promise in code-driven research tasks, they struggle with fragile algorithm-related tasks and long-horizon decision making, such as impatience, poor resource management, and overreliance on template-based reasoning. Furthermore, agents require over 11 hours to achieve their best performance on InnovatorBench, underscoring the benchmark's difficulty and showing the potential of InnovatorBench to be the next generation of code-based research benchmark.
+PY  - 2025
+DA  - 2025-10-31
+JO  - arXiv
+UR  - https://arxiv.org/abs/2510.27598
+AN  - arXiv:2510.27598
+DB  - arXiv
+M3  - preprint
+AU  - Yunze Wu
+AU  - Dayuan Fu
+AU  - Weiye Si
+AU  - Zhen Huang
+AU  - Mohan Jiang
+AU  - Keyu Li
+AU  - Shijie Xia
+AU  - Jie Sun
+AU  - Tianze Xu
+AU  - Xiangkun Hu
+AU  - Pengrui Lu
+AU  - Xiaojie Cai
+AU  - Lyumanshan Ye
+AU  - Wenhong Zhu
+AU  - Yang Xiao
+AU  - Pengfei Liu
+ER  - 
+
+TY  - RPRT
+TI  - Critical or Compliant? The Double-Edged Sword of Reasoning in Chain-of-Thought Explanations
+AB  - Explanations are often promoted as tools for transparency, but they can also foster confirmation bias; users may assume reasoning is correct whenever outputs appear acceptable. We study this double-edged role of Chain-of-Thought (CoT) explanations in multimodal moral scenarios by systematically perturbing reasoning chains and manipulating delivery tones. Specifically, we analyze reasoning errors in vision language models (VLMs) and how they impact user trust and the ability to detect errors. Our findings reveal two key effects: (1) users often equate trust with outcome agreement, sustaining reliance even when reasoning is flawed, and (2) the confident tone suppresses error detection while maintaining reliance, showing that delivery styles can override correctness. These results highlight how CoT explanations can simultaneously clarify and mislead, underscoring the need for NLP systems to provide explanations that encourage scrutiny and critical thinking rather than blind trust. All code will be released publicly.
+PY  - 2025
+DA  - 2025-11-15
+JO  - arXiv
+UR  - https://arxiv.org/abs/2511.12001
+AN  - arXiv:2511.12001
+DB  - arXiv
+M3  - preprint
+AU  - Eunkyu Park
+AU  - Wesley Hanwen Deng
+AU  - Vasudha Varadarajan
+AU  - Mingxi Yan
+AU  - Gunhee Kim
+AU  - Maarten Sap
+AU  - Motahhare Eslami
+ER  - 
+
+TY  - RPRT
+TI  - Calibration Is Not Enough: Evaluating Confidence Estimation Under Language Variations
+AB  - Confidence estimation (CE) indicates how reliable the answers of large language models are and impacts user trust and decision-making. Existing evaluations mainly concern the alignment between confidence and correctness, but ignore the variability of language: confidence estimates should remain consistent under semantically equivalent prompts or answer variations, while changing when answer meaning differs, as this may indicate a change in correctness. Therefore, we introduce a novel evaluation framework based on three complementary properties: \textbf{robustness} to prompt perturbations, \textbf{stability} across semantically equivalent answers, and \textbf{sensitivity} to semantically different answers. We show that these metrics are largely independent from existing CE metrics, and that common CE methods often fail on them: while most methods achieve high robustness and stability, they struggle to distinguish semantically different answers, potentially because they do not effectively leverage generation-side information. Overall, our framework exposes overlooked limitations of current CE evaluations and provides guidance for selecting confidence estimators for real-world applications.
+PY  - 2026
+DA  - 2026-01-12
+JO  - arXiv
+UR  - https://arxiv.org/abs/2601.08064
+AN  - arXiv:2601.08064
+DB  - arXiv
+M3  - preprint
+AU  - Yuxi Xia
+AU  - Dennis Ulmer
+AU  - Terra Blevins
+AU  - Yihong Liu
+AU  - Hinrich Schütze
+AU  - Benjamin Roth
+ER  - 
+
+TY  - RPRT
+TI  - Advances in LLM Reasoning Enable Flexibility in Clinical Problem-Solving
+AB  - Large Language Models (LLMs) have achieved high accuracy on medical question-answer (QA) benchmarks, yet their capacity for flexible clinical reasoning has been debated. Here, we asked whether advances in reasoning LLMs improve their cognitive flexibility in clinical reasoning. We assessed reasoning models from the OpenAI, Grok, Gemini, Claude, and DeepSeek families on the medicine abstraction and reasoning corpus (mARC), an adversarial medical QA benchmark which utilizes the Einstellung effect to induce inflexible overreliance on learned heuristic patterns in contexts where they become suboptimal. We found that strong reasoning models avoided Einstellung-based traps more often than weaker reasoning models, achieving human-level performance on mARC. On questions most commonly missed by physicians, the top 5 performing models answered 55% to 70% correctly with high confidence, indicating that these models may be less susceptible than humans to Einstellung effects. Our results indicate that strong reasoning models demonstrate improved flexibility in medical reasoning, achieving performance on par with humans on mARC.
+PY  - 2026
+DA  - 2026-01-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2601.11866
+AN  - arXiv:2601.11866
+DB  - arXiv
+M3  - preprint
+AU  - Kie Shidara
+AU  - Preethi Prem
+AU  - Jonathan Kim
+AU  - Anna Podlasek
+AU  - Feng Liu
+AU  - Ahmed Alaa
+AU  - Danilo Bernardo
+ER  - 
+
+TY  - RPRT
+TI  - Seeing the Reasoning: How LLM Rationales Influence User Trust and Decision-Making in Factual Verification Tasks
+AB  - Large Language Models (LLMs) increasingly show reasoning rationales alongside their answers, turning "reasoning" into a user-interface element. While step-by-step rationales are typically associated with model performance, how they influence users' trust and decision-making in factual verification tasks remains unclear. We ran an online study (N=68) manipulating three properties of LLM reasoning rationales: presentation format (instant vs. delayed vs. on-demand), correctness (correct vs. incorrect), and certainty framing (none vs. certain vs. uncertain). We found that correct rationales and certainty cues increased trust, decision confidence, and AI advice adoption, whereas uncertainty cues reduced them. Presentation format did not have a significant effect, suggesting users were less sensitive to how reasoning was revealed than to its reliability. Participants indicated they use rationales to primarily audit outputs and calibrate trust, where they expected rationales in stepwise, adaptive forms with certainty indicators. Our work shows that user-facing rationales, if poorly designed, can both support decision-making yet miscalibrate trust.
+PY  - 2026
+DA  - 2026-03-07
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.07306
+AN  - arXiv:2603.07306
+DB  - arXiv
+M3  - preprint
+AU  - Xin Sun
+AU  - Shu Wei
+AU  - Jos A Bosch
+AU  - Isao Echizen
+AU  - Saku Sugawara
+AU  - Abdallah El Ali
+ER  - 
+
+TY  - RPRT
+TI  - Overreliance on AI in Information-seeking from Video Content
+AB  - The ubiquity of multimedia content is reshaping online information spaces, particularly in social media environments. At the same time, search is being rapidly transformed by generative AI, with large language models (LLMs) routinely deployed as intermediaries between users and multimedia content to retrieve and summarize information. Despite their growing influence, the impact of LLM inaccuracies and potential vulnerabilities on multimedia information-seeking tasks remains largely unexplored. We investigate how generative AI affects accuracy, efficiency, and confidence in information retrieval from videos. We conduct an experiment with around 900 participants on 8,000+ video-based information-seeking tasks, comparing behavior across three conditions: (1) access to videos only, (2) access to videos with LLM-based AI assistance, and (3) access to videos with a deceiving AI assistant designed to provide false answers. We find that AI assistance increases accuracy by 3-7% when participants viewed the relevant video segment, and by 27-35% when they did not. Efficiency increases by 10% for short videos and 25% for longer ones. However, participants tend to over-rely on AI outputs, resulting in accuracy drops of up to 32% when interacting with the deceiving AI. Alarmingly, self-reported confidence in answers remains stable across all three conditions. Our findings expose fundamental safety risks in AI-mediated video information retrieval.
+PY  - 2026
+DA  - 2026-03-20
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.19843
+AN  - arXiv:2603.19843
+DB  - arXiv
+M3  - preprint
+AU  - Anders Giovanni Møller
+AU  - Elisa Bassignana
+AU  - Francesco Pierri
+AU  - Luca Maria Aiello
+ER  - 
+
+TY  - RPRT
+TI  - When to Trust Tools? Adaptive Tool Trust Calibration For Tool-Integrated Math Reasoning
+AB  - Large reasoning models (LRMs) have achieved strong performance enhancement through scaling test time computation, but due to the inherent limitations of the underlying language models, they still have shortcomings in tasks that require precise computation and extensive knowledge reserves. Tool-Integrated Reasoning (TIR) has emerged as a promising paradigm that incorporates tool call and execution within the reasoning trajectory. Although recent works have released some powerful open-source TIR models, our analysis reveals that these models still suffer from critical deficiencies. We find that when the reasoning of the model conflicts with the tool results, the model tends to believe in its own reasoning. And there are cases where the tool results are correct but are ignored by the model, resulting in incorrect answers, which we define as "Tool Ignored''. This indicates that the model does not know when to trust or ignore the tool. To overcome these limitations, We introduce Adaptive Tool Trust Calibration (ATTC), a novel framework that guides the model to adaptively choose to trust or ignore the tool results based on the confidence score of generated code blocks. The experimental results from various open-source TIR models of different sizes and across multiple datasets demonstrate that ATTC effectively reduces the "Tool Ignored" issue, resulting in a performance increase of 4.1% to 7.5%.
+PY  - 2026
+DA  - 2026-04-09
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.08281
+AN  - arXiv:2604.08281
+DB  - arXiv
+M3  - preprint
+AU  - Ruotao Xu
+AU  - Yixin Ji
+AU  - Yu Luo
+AU  - Jinpeng Li
+AU  - Dong Li
+AU  - Peifeng Li
+AU  - Juntao Li
+AU  - Min Zhang
+ER  - 
+
+TY  - RPRT
+TI  - Caring Without Feeling: Affective Dynamics as the Control Layer of Human-AI Agent Collaboration
+AB  - AI agents that plan, retain memory across sessions, invoke external tools and act with partial autonomy are transforming human--AI collaboration. Research on affective computing, simulated empathy in large language models, trust in automation and AI safety has illuminated important design principles, yet these literatures remain fragmented. No integrated account explains how affective cues operate within agentic collaboration -- settings in which humans delegate, monitor and correct consequential tasks. This Review synthesises computational and interactional mechanisms of affective dynamics: the processes through which affective cues, emotion-like behaviour and perceived agent affect shape trust calibration, delegation decisions, error correction, dependence and governance. We trace how model-generated affective signals enter interaction loops that govern reliance, repair and oversight, and propose a framework that treats affect not as an internal property of AI but as a coordination layer through which humans and agents negotiate capability, uncertainty and responsibility. The framework provides a foundation for calibrated measurement, purposeful design and informed governance.
+PY  - 2026
+DA  - 2026-05-08
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.18259
+AN  - arXiv:2606.18259
+DB  - arXiv
+M3  - preprint
+AU  - Junjie Xu
+AU  - Xingjiao Wu
+AU  - Zihao Zhang
+AU  - Yujia Xu
+AU  - Yuzhe Yang
+AU  - Jin Zhu
+AU  - Luwei Xiao
+AU  - Wen Wu
+AU  - Liang He
+ER  - 
+
+TY  - RPRT
+TI  - Not All Uncertainty Is Equal: How Uncertainty Granularity Shapes Human Verification in LLM-Assisted Decision Making
+AB  - Despite warnings that LLMs can make mistakes, users often develop inappropriate trust and accept incorrect answers without critical evaluation. Uncertainty quantification (UQ), displaying LLMs' confidence, has emerged as a promising approach to calibrate user trust. However, prior empirical studies on uncertainty communication have treated uncertainty as a single numerical score or simple natural language expression. This simplification fails to capture a key property of LLM outputs: a single response often comprises multiple claims and reasoning steps, each with distinct levels of uncertainty. To address this gap, this study investigates uncertainty granularity (i.e., the extent to which uncertainty is expressed at different levels within an LLM response) and examines its impact on LLM-assisted decision-making. We conducted a large-scale, between-subjects study (N=192) in which participants answered medical questions using LLMs that displayed uncertainty at three different granularities: output-level (entire response), relation-level (individual reasoning steps), and token-level (specific words). Our findings reveal distinct behavioral effects as a function of uncertainty granularity. Token-level uncertainty increased users' agreement with the AI, whereas output- and relation-level uncertainty did not increase agreement but instead reduced users' confidence in their own answers. Notably, relation-level uncertainty also reduced external verification (i.e., internet searches, checking provided URLs), steering users away from independent fact-checking and toward reliance on the LLM and its accompanying uncertainty cues. Our findings demonstrate that uncertainty granularity significantly shapes how users interact with and verify LLM outputs, providing concrete design guidance for building responsible LLM applications that encourage appropriate skepticism and verification behaviors.
+PY  - 2026
+DA  - 2026-05-27
+JO  - arXiv
+DO  - 10.1145/3805689.381232
+UR  - https://arxiv.org/abs/2605.28571
+AN  - arXiv:2605.28571
+DB  - arXiv
+M3  - preprint
+AU  - Mauricio Villavicencio
+AU  - Sitong Pan
+AU  - Qianwen Wang
+ER  - 
+
+TY  - RPRT
+TI  - Trust-Calibrated Code Review: A Participatory Design Study of Review Workflows for LLM-Generated Multi-File Changes
+AB  - Background: Developers increasingly review multi-file code changes generated by LLM-based agents, yet no validated end-to-end workflow or IDE tooling design exists for this scenario. Aims: We investigate (RQ1) the challenges developers face when reviewing LLM-generated multi-file changes and (RQ2) how developers envision effective workflows for this task. Method: In collaboration with JetBrains, we conducted a participatory design study structured using the double-diamond design process with Discover, Define, Develop, and Deliver phases. Industry practitioners participated in the Discover phase (N=17); seven of these returned for the Develop phase. The Define phase was an author-led synthesis. The Deliver phase produced a conceptual design and a high-fidelity semi-interactive prototype evaluated through a follow-up survey with N=43 practitioners. Results: Participants identified trust-calibration as the central challenge. The study yielded a three-level review workflow (overview, file-analysis, code snippet review) supported by seven design constructs (chunk, risk-per-line, risk-per-file, judge, walk-through, zooming in/out, and security cage). In the validation survey, all three workflow levels scored above the neutral midpoint (means 3.50--3.91 on a five-point scale). Of the respondents, 63% expected reduced overall review effort, and 52% reduced trust-assessment effort, relative to their current tools. These findings suggest that the design constructs indicate a positive direction for future tool development. Conclusions: Reviewing LLM-generated multi-file changes is a trust-calibration problem rather than a diffing problem. The three-level workflow and the seven constructs we report give tool designers a conceptual framework for building AI-ready code review tools that surface risk and confidence signals at the granularity at which developers allocate attention.
+PY  - 2026
+DA  - 2026-06-01
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.01969
+AN  - arXiv:2606.01969
+DB  - arXiv
+M3  - preprint
+AU  - Lo Gullstrand Heander
+AU  - Agnia Sergeyuk
+AU  - Ilya Zakharov
+AU  - Emma Söderberg
+AU  - Nikita Mukhortov
+ER  - 
+
+TY  - RPRT
+TI  - SpheriCity: Designing Trustworthy Conversational AI for Sustainability Decision Support
+AB  - We present SpheriCity, an expert-grounded conversational prototype designed to support trustworthy knowledge sensemaking from sustainability reports. City-level circularity assessment reports contain rich information about materials, infrastructure, and policy interventions, yet their length and heterogeneous structure make cross-document synthesis and comparison difficult for practitioners and researchers working on circular economy initiatives. While large language models (LLM) promise faster knowledge access and synthesis, their opaque reasoning, hallucinations, and lack of source transparency introduce risks for trust and interpretability, and require verification in high-stakes sustainability contexts. SpheriCity addresses these challenges through a provenance-first conversational agent that foregrounds evidence traceability, structured synthesis, and interaction scaffolds to support exploratory querying and cross-document synthesis across sustainability reports. We conducted a formative expert review with six sustainability experts using representative queries spanning cross-city comparison, policy summarization, and recommendation-oriented tasks. Experts evaluated responses across dimensions and provided qualitative reflections on the system's usefulness for sustainability knowledge work. Our results reveal that transparent sourcing, contextual explanation, interpretability, and alignment with expert workflow strongly shape expert trust and judgments of system usefulness. This work contributes (1) a conversational prototype for sustainability knowledge sensemaking, (2) an expert-grounded evaluation framework for assessing AI responses in high-stakes knowledge domains, and (3) design insights into how provenance, uncertainty communication, and integration in workflow influence expert users' trust in AI assistance for sustainability decision support.
+PY  - 2026
+DA  - 2026-06-11
+JO  - arXiv
+DO  - 10.1145/3811242.3819112
+UR  - https://arxiv.org/abs/2606.13854
+AN  - arXiv:2606.13854
+DB  - arXiv
+M3  - preprint
+AU  - Ahmed Qayyum
+AU  - Madison Werner
+AU  - Kathryn Youngblood
+AU  - Jenna R. Jambeck
+AU  - Tahiya Chowdhury
+ER  - 
+
+TY  - RPRT
+TI  - When LLM Rationales Become User-Facing: Effects on Trust Perception, Decision-Making, and Gaze Behaviors
+AB  - Large language models (LLMs) increasingly show step-by-step reasoning rationales alongside their answers, turning reasoning from an internal model capability into a user-facing interface feature. Yet it is unclear whether such rationales help users judge when trust is warranted or merely persuade through fluent reasoning. We address this gap through the lens of auditable trust calibration: user-facing rationales should help people inspect whether an answer is warranted by evidence. We test this framing in factual verification through two linked studies. Study 1, an online experiment (N=68), manipulated rationale presentation format (instant, delayed, on demand), rationale correctness (correct, incorrect), and certainty framing (none, certain, uncertain). Study 2, a controlled eye-tracking study (N=54), examined how no-, correct-, and incorrect-rationale conditions were associated with users' trust, decision-making, and eye-movement patterns. Study 1 showed no reliable presentation-format effects; instead, rationale correctness and certainty framing influenced the trust in the information, trust in the LLM system, and decision confidence. In Study 2, incorrect rationales drew more attention to the supporting evidence and larger pupil diameter while the rationale was viewed, consistent with greater cognitive effort. Incorrect rationales also lowered trust in LLM system relative to showing no rationale, whereas the no-rationale difference was weaker for trust in information. A post-hoc predictive modeling analysis of gaze data from Study 2 further showed that gaze features carried predictive signal for trust- and decision-related user states. This work challenges the assumption that more reasoning is always better and supports rationale designs that are selective, linked to evidence, calibrated in how they express certainty, and easier to verify.
+PY  - 2026
+DA  - 2026-06-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.25489
+AN  - arXiv:2606.25489
+DB  - arXiv
+M3  - preprint
+AU  - Xin Sun
+AU  - Ting Pan
+AU  - Yajing Wang
+AU  - Shu Wei
+AU  - Jos A. Bosch
+AU  - Isao Echizen
+AU  - Abdallah El Ali
+AU  - Saku Sugawara
+ER  - 
+
+TY  - RPRT
+TI  - PredActBench: Benchmarking Tool-Augmented Dialogue under Controlled Tool Noise
+AB  - Large language model (LLM) agents are increasingly used to support decisions by calling external tools. Existing work on LLM tool-calling assumes these tools are perfectly reliable. However, in many applications, the tools are statistical predictors with non-trivial errors. We introduce PredActBench, a benchmark for evaluating dialogue agents that work with imperfect predictive tools, using education as a testbed. First, we build a benchmark in which LLMs work with noisy predictors to guide users' decisions. Second, we extend two prior metrics for trust calibration, Relative AI-Reliance and Relative Self-Reliance, to multi-turn dialogue. Third, we evaluate 13 LLMs on OULAD and our released PredAct-CS dataset of 60 courses with real final grades and synthetic weekly scores, alongside a human study involving 13 instructors and teaching assistants. We find that when tools are noisy, SOTA models rarely make predictor uncertainty visible to users, with our strongest baseline GPT-5.5 achieving an F1 of 57.2. As a result, users over-rely on incorrect predictions and unsupported claims, showing that task accuracy alone is not enough for AI decision support and agents must communicate when their tools may be wrong. We release PredActBench to support the development of LLM agents that help users calibrate their reliance.
+PY  - 2026
+DA  - 2026-08-03
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.02372
+AN  - arXiv:2608.02372
+DB  - arXiv
+M3  - preprint
+AU  - Abdulrahman AlRabah
+AU  - Xiaocheng Yang
+AU  - Dilek Hakkani-Tür
+AU  - Abdussalam Alawini
+ER  - 
+
+TY  - RPRT
+TI  - Catching Hallucinated Citations in Video-LLM Question Answering: A Self-Verification Pipeline and Verifier Ablation Study
+AB  - Video question answering systems built on vision-language models often produce timestamped claims with high confidence even when unsupported by the cited frame. This deceptive hallucination arises because timestamps imply grounding without ensuring correctness, increasing user trust but not accuracy. We introduce a pipeline that closes this loop. A retrieval-augmented language model drafts answers with per-claim timestamp citations, and each cited frame is independently re-examined before being shown to the user. We compare against a plain baseline and ablate three verification designs, evaluated on both Apple Silicon (MLX) and Google Colab (HF Transformers, CUDA). Directly asking the vision model whether a frame supports a claim fails completely (0% catch rate on 40 claims) due to sycophancy. Blind re-captioning plus a general LLM judge improves results but is unstable, oscillating between 0% and 100% flagged depending on prompt phrasing. Replacing that judge with a small natural language inference model yields a stable, interpretable verifier that catches 79% of fabricated claims on adversarial false-premise questions while leaving true claims untouched. We release the full pipeline, evaluation harness, and implementations for both Apple Silicon and Colab. Code is available at https://github.com/yogesh-iitj/grounded-video-qa.
+PY  - 2026
+DA  - 2026-08-16
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.15574
+AN  - arXiv:2608.15574
+DB  - arXiv
+M3  - preprint
+AU  - Yogesh Kumar
+ER  - 
+
+TY  - RPRT
+TI  - When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs
+AB  - Personality is increasingly important in large language models (LLMs), as it shapes users' trust, engagement, and emotional experiences. While the Myers--Briggs Type Indicator (MBTI) has emerged as a common framework for assessing LLMs' personality, existing studies focus primarily on full-precision models and evaluate only final outputs. They overlook the widespread deployment of quantized LLMs requiring low memory footprints, whose personality traits remain underexplored. In this work, we present a systematic MBTI analysis of open-source LLMs across multiple precisions, including mainstream 4-bit methods (GPTQ, AWQ) and extreme 2-bit settings (AQLM variants). Beyond output-level evaluation, we examine how personality emerges across layers through option-level entropy and confidence-gap dynamics, and introduce Uncertainty-Amplified Layer Decoding (UALD) to study decoding-induced personality drift at inference time. Our results reveal a key insight: LLMs' personality is not a static property, but an emergent, layer-dependent decision process sensitive to quantization, prompting, and decoding. Specifically, we find that (1) ENFJ remains dominant across model families and precisions; (2) 4-bit quantization largely preserves coarse personality structure, while 2-bit quantization disrupts fine-grained prompt consistency and cross-precision agreement; (3) personality decisions emerges in upper layers, following substantial ambiguity in early layers; and (4) inference decoding can shift personality, while personality-aligned conditioning improves robustness. These findings provide a new perspective on the behavioral reliability of quantized LLMs and highlight the importance of considering internal dynamics and inference strategies in personality-sensitive chatbot applications.
+PY  - 2026
+DA  - 2026-08-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.25977
+AN  - arXiv:2608.25977
+DB  - arXiv
+M3  - preprint
+AU  - Yao Fu
+AU  - Lijia Huang
+AU  - Xiaomin Li
+AU  - Runchao Li
+AU  - Yu Yin
+AU  - Kenneth A. Loparo
+ER  - 
+
+TY  - RPRT
+TI  - How Children Design and Reason about Trustworthy AI Chatbots
+AB  - Children increasingly interact with AI chatbots, making trust calibration essential to AI literacy. Prior research has examined children's trust in AI mainly as users evaluating systems built by others, rather than as designers of their own chatbots. We developed a chatbot-building environment with adjustable trust-relevant traits (e.g., confidence, transparency, formality, assertiveness), rules, and persona. We conducted mixed-methods study with 115 learners (ages 8-18) who made 119 chatbots. We examined how children configured their chatbots, reasoned about trustworthiness, and how closely chatbot behavior aligned with their designs. Younger students (age 10-13) set significantly higher confidence than older students (age 14-18), and some deliberately built chatbots that gave wrong answers on purpose, yet still called them trustworthy, arguing that a chatbot does what it was built to do. Younger students equated trust with purpose-fulfillment, while older students linked it to transparent, calibrated design. Students also calibrated academic chatbots to be more transparent and formal than hobby chatbots. We identify seven design dimensions describing what children believe makes a chatbot trustworthy, and discuss implications for AI literacy tools.
+PY  - 2026
+DA  - 2026-09-21
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.25244
+AN  - arXiv:2609.25244
+DB  - arXiv
+M3  - preprint
+AU  - Deniz Ozturk
+AU  - Jiayu Li
+AU  - Daksh Pratap Singh
+AU  - Yasitha Rajapaksha
+AU  - Fasika Melese
+AU  - Bahare Riahi
+AU  - Shiyan Jiang
+AU  - Qiao Jin
+AU  - Joey Huang
+AU  - Veronica Cateté
+AU  - Tiffany Barnes
+AU  - Xiaoyi Tian
+ER  - 
+
+TY  - RPRT
+TI  - Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym
+AB  - Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint principles (3T): Task Capability, anticipating relevant needs and correctly performing useful work; Temporal Allocation, allocating compute according to resource availability and when results are needed; and Trust, sustaining users' confidence and appropriate reliance on the agent. We connect these objectives to a design space organized around five dimensions: task scope, anticipation horizon, activation trigger, processing timing, and intervention depth, and specify the situation and system modeling needed to support its choices, including user and environment representations, backbone LLMs, and agent harnesses. Lastly, we propose PROACTIVITY-GYM, a simulation-based evaluation testbed including multi-day scenarios, stateful environments, and persona-conditioned simulated users that can evaluate the consequences of proactive assistance across interactions. Evaluations across 23 model-harness configurations uncover substantial performance gaps across 3T and reveal that LLM judges often conflate task capability and trust. A human study with 30 participants demonstrates the importance of the joint 3T optimization: participants show sharp trust declines after intervention misalignment despite correct outcomes, and prefer sleep-time assistance, even when imperfect, to preserve ongoing focus. Together, these findings support designing and evaluating proactive agents through the joint consideration of useful work, compute allocation, and evolving user trust.
+PY  - 2026
+DA  - 2026-09-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.37267
+AN  - arXiv:2609.37267
+DB  - arXiv
+M3  - preprint
+AU  - Jio Oh
+AU  - Seunghyun Do
+AU  - Young-Jun Lee
+AU  - Steven Euijong Whang
+AU  - Dongyeop Kang
+ER  - 
+
+TY  - RPRT
+TI  - Navigation Explainability for Object Avoidance with LLMs for Assistive Robots
+AB  - Blind and visually impaired individuals face uncertainty when navigating unfamiliar areas. Whether a cane or a guide dog is used for navigation, this may prove to be challenging. To mitigate this challenge, we present the Context-Aware Navigation Explanation framework that explains guide dog movements for obstacle avoidance and navigation using a large language model. This system integrates perceptual context with planned future trajectories to generate natural-language explanations of robot movement. We deploy the system on a Unitree Go2 platform in indoor navigation scenarios and evaluate how different explanation context configurations affect user trust and explanation satisfaction. Results show a strong positive relationship between explanation satisfaction and trust, and suggest that combining obstacle information with future trajectory leads to the most effective explanations. These findings highlight the potential of context-aware language explanations to improve transparency and trust in assistive robot navigation.
+PY  - 2026
+DA  - 2026-10-20
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.28920
+AN  - arXiv:2610.28920
+DB  - arXiv
+M3  - preprint
+AU  - Courtney Young
+AU  - Yi Lian
+AU  - Taery Kim
+AU  - Sehoon Ha
+ER  - 
+
+TY  - RPRT
+TI  - Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration
+AB  - Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a within-subjects experiment, 32 participants learned up to five science topics by chatting with five assistants built on the same model (GPT-5-mini). Unknown to participants, each assistant's briefing had 0, 25, 50, 75, or 100% of its facts replaced by plausible falsehoods, and every assistant spoke with full confidence. A surprise quiz after each topic offered the correct fact, the planted falsehood, and two distractors, with a confidence rating for every answer. Across 104 quizzes and 1,040 answers, scores fell from 7.4 to 2.9 out of 10, and the planted option was chosen on 60% of falsified items against 11% of correctly taught ones (odds ratio 12.5). Transcript coding showed that whenever the assistant stated a falsehood, it was adopted about 65% of the time at every falsification level. Absorbed falsehoods were held with high confidence (8.4/10), the modeled confidence advantage of right over wrong answers vanished, and the discrimination of confidence for correctness fell from an AUROC of 0.70 to chance, while post-task trust ratings barely moved. Participants tended to return to the chat more when the assistant was worse, but returning went with more absorption, not less, and 30% of all turns pasted quiz questions back to the source being checked. The assistant itself was almost never sycophantic and never conceded under pushback. We introduce a baseline-corrected Human Deference Index to quantify this human-side sycophancy and argue that trustworthiness is a property of the human-AI pair, that sycophancy evaluations should measure both directions, and that learning interfaces must make reliability legible claim by claim.
+PY  - 2026
+DA  - 2026-10-22
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.31579
+AN  - arXiv:2610.31579
+DB  - arXiv
+M3  - preprint
+AU  - Deepthika S
+AU  - Pawni Yadav
+AU  - B. Sankar
+ER  - 
+
+TY  - RPRT
+TI  - Do People Trust AI Assistants Even When They Are Consistently Wrong?
+AB  - People are increasingly using conversational AI systems to make decisions despite concerns around their reliability. How well do people calibrate to AI systems' accuracy in multi-turn conversations? We measure how people's reliance on LLMs' advice changes across repeated interactions, varying whether the AI assistant is helpful (100% accurate), unhelpful (0% accurate), or mixed (50% accurate). Across 4 experiments, we find people learn to trust helpful models more than unhelpful ones (67% vs 21% of the time), but only when they receive external feedback on the models' accuracy. Without feedback, people continue to be persuaded 48% of the time by a consistently unhelpful model (vs 38% for helpful). Rather than gaining trust in helpful models, participant reliance on LLM advisors tended to be high in early trials and only fell with evidence of inaccuracy. Participants trusted LLM advisors more than they trusted human advisors (83% vs 65%, Experiment 4), and LLMs benefited more from having a helpful track record than humans did. In contrast with previous work, we find limited evidence of an advantage for arguing for the truth (versus a falsehood). Truth advantages emerged only when participants were already very confident in their position, and did not emerge at all for static hints. Collectively, the results suggest that people may be swayed by LLM advice, even when it is consistently false, unless they have access to timely ground-truth feedback. Unfortunately, in many domains such feedback may not be available, leading to overreliance on AI.
+PY  - 2026
+DA  - 2026-11-10
+JO  - arXiv
+UR  - https://arxiv.org/abs/2611.14833
+AN  - arXiv:2611.14833
+DB  - arXiv
+M3  - preprint
+AU  - Cameron R. Jones
+AU  - Julia Wong
+AU  - Aaron S. Cohen
+AU  - James Woolley
+AU  - Benjamin K. Bergen
+ER  - 
+
+TY  - RPRT
+TI  - From Reliance to Overreliance: Taxonomizing and Detecting Relational Risks in AI Companionship
+AB  - Companion AIs are increasingly used for emotional support, yet distinguishing meaningful engagement from harmful reliance remains difficult. We introduce the Taxonomy of Relational Risks (TRR), which operationalizes users' emotional overreliance (EO) as observable conversational behaviors and separately identifies evidence of relational harm (RH), enabling empirical examination of when reliance behaviors co-occur with adverse consequences. Using naturalistic Character.AI and Replika conversations from 110 adults, we found EO-related behaviors in 63.2% of non-roleplay conversations, while observable relational harms appeared in 10.5%. Although EO did not necessarily lead to harm, recurring patterns often co-occurred with harmful outcomes, suggesting value as risk indicators. Open-source LLMs satisfactorily detected 12 of 14 EO behaviors in at least one configuration. Qualitative analysis revealed expectations of care, repeated support seeking, dependency, distress, and reduced confidence in personal judgment. We argue for graduated safety interventions tailored to patterns and trajectories of EO-related behavior.
+PY  - 2026
+DA  - 2026-11-19
+JO  - arXiv
+UR  - https://arxiv.org/abs/2611.25734
+AN  - arXiv:2611.25734
+DB  - arXiv
+M3  - preprint
+AU  - Viet Cuong Nguyen
+AU  - Fiona Li
+AU  - Chang Wan
+AU  - Sheyril Agarwal
+AU  - Nhi Nguyen
+AU  - Angel Hsing-Chi Hwang
+AU  - Munmun De Choudhury
+ER  - 
+

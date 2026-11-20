@@ -1,0 +1,798 @@
+TY  - RPRT
+TI  - Domaino1s: Guiding LLM Reasoning for Explainable Answers in High-Stakes Domains
+AB  - Large Language Models (LLMs) are widely applied to downstream domains. However, current LLMs for high-stakes domain tasks, such as financial investment and legal QA, typically generate brief answers without reasoning processes and explanations. This limits users' confidence in making decisions based on their responses. While original CoT shows promise, it lacks self-correction mechanisms during reasoning. This work introduces Domain$o1$s, which enhances LLMs' reasoning capabilities on domain tasks through supervised fine-tuning and tree search. We construct CoT-stock-2k and CoT-legal-2k datasets for fine-tuning models that activate domain-specific reasoning steps based on their judgment. Additionally, we propose Selective Tree Exploration to spontaneously explore solution spaces and sample optimal reasoning paths to improve performance. We also introduce PROOF-Score, a new metric for evaluating domain models' explainability, complementing traditional accuracy metrics with richer assessment dimensions. Extensive experiments on stock investment recommendation and legal reasoning QA tasks demonstrate Domaino1s's leading performance and explainability. Our code is available at https://github.com/Hyalinesky/Domaino1s.
+PY  - 2025
+DA  - 2025-01-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2501.14431
+AN  - arXiv:2501.14431
+DB  - arXiv
+M3  - preprint
+AU  - Xu Chu
+AU  - Zhijie Tan
+AU  - Hanlin Xue
+AU  - Guanyu Wang
+AU  - Tong Mo
+AU  - Weiping Li
+ER  - 
+
+TY  - RPRT
+TI  - Exposing Product Bias in LLM Investment Recommendation
+AB  - Large language models (LLMs), as a new generation of recommendation engines, possess powerful summarization and data analysis capabilities, surpassing traditional recommendation systems in both scope and performance. One promising application is investment recommendation. In this paper, we reveal a novel product bias in LLM investment recommendation, where LLMs exhibit systematic preferences for specific products. Such preferences can subtly influence user investment decisions, potentially leading to inflated valuations of products and financial bubbles, posing risks to both individual investors and market stability. To comprehensively study the product bias, we develop an automated pipeline to create a dataset of 567,000 samples across five asset classes (stocks, mutual funds, cryptocurrencies, savings, and portfolios). With this dataset, we present the bf first study on product bias in LLM investment recommendations. Our findings reveal that LLMs exhibit clear product preferences, such as certain stocks (e.g., `AAPL' from Apple and `MSFT' from Microsoft). Notably, this bias persists even after applying debiasing techniques. We urge AI researchers to take heed of the product bias in LLM investment recommendations and its implications, ensuring fairness and security in the digital space and market.
+PY  - 2025
+DA  - 2025-03-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2503.08750
+AN  - arXiv:2503.08750
+DB  - arXiv
+M3  - preprint
+AU  - Yuhan Zhi
+AU  - Xiaoyu Zhang
+AU  - Longtian Wang
+AU  - Shumin Jiang
+AU  - Shiqing Ma
+AU  - Xiaohong Guan
+AU  - Chao Shen
+ER  - 
+
+TY  - RPRT
+TI  - LLM-PS: Empowering Large Language Models for Time Series Forecasting with Temporal Patterns and Semantics
+AB  - Time Series Forecasting (TSF) is critical in many real-world domains like financial planning and health monitoring. Recent studies have revealed that Large Language Models (LLMs), with their powerful in-contextual modeling capabilities, hold significant potential for TSF. However, existing LLM-based methods usually perform suboptimally because they neglect the inherent characteristics of time series data. Unlike the textual data used in LLM pre-training, the time series data is semantically sparse and comprises distinctive temporal patterns. To address this problem, we propose LLM-PS to empower the LLM for TSF by learning the fundamental \textit{Patterns} and meaningful \textit{Semantics} from time series data. Our LLM-PS incorporates a new multi-scale convolutional neural network adept at capturing both short-term fluctuations and long-term trends within the time series. Meanwhile, we introduce a time-to-text module for extracting valuable semantics across continuous time intervals rather than isolated time points. By integrating these patterns and semantics, LLM-PS effectively models temporal dependencies, enabling a deep comprehension of time series and delivering accurate forecasts. Intensive experimental results demonstrate that LLM-PS achieves state-of-the-art performance in both short- and long-term forecasting tasks, as well as in few- and zero-shot settings.
+PY  - 2025
+DA  - 2025-03-12
+JO  - arXiv
+UR  - https://arxiv.org/abs/2503.09656
+AN  - arXiv:2503.09656
+DB  - arXiv
+M3  - preprint
+AU  - Jialiang Tang
+AU  - Shuo Chen
+AU  - Chen Gong
+AU  - Jing Zhang
+AU  - Dacheng Tao
+ER  - 
+
+TY  - RPRT
+TI  - Fin-R1: A Large Language Model for Financial Reasoning through Reinforcement Learning
+AB  - In recent years, general-purpose large language models (LLMs) such as GPT, Gemini, Claude, and DeepSeek have advanced at an unprecedented pace. Despite these achievements, their application to finance remains challenging, due to fragmented data sources, intransparent reasoning processes, and weak transferability to business applications. In response, we introduce Fin-R1, a reasoning LLM designed for financial scenarios. With a compact size of 7 billion parameters, Fin-R1 reduces deployment costs while addressing the aforementioned challenges. Its development follows a two-stage pipeline. First, we construct Fin-R1-Data, a high-quality financial dataset consisting of 60,091 chain-of-thought (CoT) samples, distilled and filtered from multiple authoritative benchmarks to ensure consistency and reliability. Second, we train Fin-R1 using Fin-R1-Data through supervised fine-tuning (SFT), followed by reinforcement learning (RL). This stage substantially improves the model's ability to solve complex financial reasoning tasks, yielding outputs that are both accurate and interpretable. Despite its relatively small parameter scale, Fin-R1 achieves competitive empirical performance across established financial benchmarks and demonstrates practical utility in compliance checking and robo-advisory. Our code is publicly available at https://github.com/SUFE-AIFLM-Lab/Fin-R1, and has already attracted over 700 stars.
+PY  - 2025
+DA  - 2025-03-20
+JO  - arXiv
+UR  - https://arxiv.org/abs/2503.16252
+AN  - arXiv:2503.16252
+DB  - arXiv
+M3  - preprint
+AU  - Zhaowei Liu
+AU  - Xin Guo
+AU  - Zhi Yang
+AU  - Fangqi Lou
+AU  - Lingfeng Zeng
+AU  - Jinyi Niu
+AU  - Mengping Li
+AU  - Qi Qi
+AU  - Zhiqiang Liu
+AU  - Yiyang Han
+AU  - Dongpo Cheng
+AU  - Ronghao Chen
+AU  - Huacan Wang
+AU  - Xingdong Feng
+AU  - Huixia Judy Wang
+AU  - Chengchun Shi
+AU  - Liwen Zhang
+ER  - 
+
+TY  - RPRT
+TI  - Sacred or Secular? Religious Bias in AI-Generated Financial Advice
+AB  - This study examines religious biases in AI-generated financial advice, focusing on ChatGPT's responses to financial queries. Using a prompt-based methodology and content analysis, we find that 50% of the financial emails generated by ChatGPT exhibit religious biases, with explicit biases present in both ingroup and outgroup interactions. While ingroup biases personalize responses based on religious alignment, outgroup biases introduce religious framing that may alienate clients or create ideological friction. These findings align with broader research on AI bias and suggest that ChatGPT is not merely reflecting societal biases but actively shaping financial discourse based on perceived religious identity. Using the Critical Algorithm Studies framework, we argue that ChatGPT functions as a mediator of financial narratives, selectively reinforcing religious perspectives. This study underscores the need for greater transparency, bias mitigation strategies, and regulatory oversight to ensure neutrality in AI-driven financial services.
+PY  - 2025
+DA  - 2025-03-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.07118
+AN  - arXiv:2504.07118
+DB  - arXiv
+M3  - preprint
+AU  - Muhammad Salar Khan
+AU  - Hamza Umer
+ER  - 
+
+TY  - RPRT
+TI  - Are Generative AI Agents Effective Personalized Financial Advisors?
+AB  - Large language model-based agents are becoming increasingly popular as a low-cost mechanism to provide personalized, conversational advice, and have demonstrated impressive capabilities in relatively simple scenarios, such as movie recommendations. But how do these agents perform in complex high-stakes domains, where domain expertise is essential and mistakes carry substantial risk? This paper investigates the effectiveness of LLM-advisors in the finance domain, focusing on three distinct challenges: (1) eliciting user preferences when users themselves may be unsure of their needs, (2) providing personalized guidance for diverse investment preferences, and (3) leveraging advisor personality to build relationships and foster trust. Via a lab-based user study with 64 participants, we show that LLM-advisors often match human advisor performance when eliciting preferences, although they can struggle to resolve conflicting user needs. When providing personalized advice, the LLM was able to positively influence user behavior, but demonstrated clear failure modes. Our results show that accurate preference elicitation is key, otherwise, the LLM-advisor has little impact, or can even direct the investor toward unsuitable assets. More worryingly, users appear insensitive to the quality of advice being given, or worse these can have an inverse relationship. Indeed, users reported a preference for and increased satisfaction as well as emotional trust with LLMs adopting an extroverted persona, even though those agents provided worse advice.
+PY  - 2025
+DA  - 2025-04-08
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.05862
+AN  - arXiv:2504.05862
+DB  - arXiv
+M3  - preprint
+AU  - Takehiro Takayanagi
+AU  - Kiyoshi Izumi
+AU  - Javier Sanz-Cruzado
+AU  - Richard McCreadie
+AU  - Iadh Ounis
+ER  - 
+
+TY  - RPRT
+TI  - FinBERT-QA: Financial Question Answering with pre-trained BERT Language Models
+AB  - Motivated by the emerging demand in the financial industry for the automatic analysis of unstructured and structured data at scale, Question Answering (QA) systems can provide lucrative and competitive advantages to companies by facilitating the decision making of financial advisers. Consequently, we propose a novel financial QA system using the transformer-based pre-trained BERT language model to address the limitations of data scarcity and language specificity in the financial domain. Our system focuses on financial non-factoid answer selection, which retrieves a set of passage-level texts and selects the most relevant as the answer. To increase efficiency, we formulate the answer selection task as a re-ranking problem, in which our system consists of an Answer Retriever using BM25, a simple information retrieval approach, to first return a list of candidate answers, and an Answer Re-ranker built with variants of pre-trained BERT language models to re-rank and select the most relevant answers. We investigate various learning, further pre-training, and fine-tuning approaches for BERT. Our experiments suggest that FinBERT-QA, a model built from applying the Transfer and Adapt further fine-tuning and pointwise learning approach, is the most effective, improving the state-of-the-art results of task 2 of the FiQA dataset by 16% on MRR, 17% on NDCG, and 21% on Precision@1.
+PY  - 2025
+DA  - 2025-04-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2505.00725
+AN  - arXiv:2505.00725
+DB  - arXiv
+M3  - preprint
+AU  - Bithiah Yuan
+ER  - 
+
+TY  - RPRT
+TI  - SAGE: A Generic Framework for LLM Safety Evaluation
+AB  - As Large Language Models are rapidly deployed across diverse applications from healthcare to financial advice, safety evaluation struggles to keep pace. Current benchmarks focus on single-turn interactions with generic policies, failing to capture the conversational dynamics of real-world usage and the application-specific harms that emerge in context. Such potential oversights can lead to harms that go unnoticed in standard safety benchmarks and other current evaluation methodologies. To address these needs for robust AI safety evaluation, we introduce SAGE (Safety AI Generic Evaluation), an automated modular framework designed for customized and dynamic harm evaluations. SAGE employs prompted adversarial agents with diverse personalities based on the Big Five model, enabling system-aware multi-turn conversations that adapt to target applications and harm policies. We evaluate seven state-of-the-art LLMs across three applications and harm policies. Multi-turn experiments show that harm increases with conversation length, model behavior varies significantly when exposed to different user personalities and scenarios, and some models minimize harm via high refusal rates that reduce usefulness. We also demonstrate policy sensitivity within a harm category where tightening a child-focused sexual policy substantially increases measured defects across applications. These results motivate adaptive, policy-aware, and context-specific testing for safer real-world deployment.
+PY  - 2025
+DA  - 2025-04-28
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.19674
+AN  - arXiv:2504.19674
+DB  - arXiv
+M3  - preprint
+AU  - Madhur Jindal
+AU  - Hari Shrawgi
+AU  - Parag Agrawal
+AU  - Sandipan Dandapat
+ER  - 
+
+TY  - RPRT
+TI  - FinMaster: A Holistic Benchmark for Mastering Full-Pipeline Financial Workflows with LLMs
+AB  - Financial tasks are pivotal to global economic stability; however, their execution faces challenges including labor intensive processes, low error tolerance, data fragmentation, and tool limitations. Although large language models (LLMs) have succeeded in various natural language processing tasks and have shown potential in automating workflows through reasoning and contextual understanding, current benchmarks for evaluating LLMs in finance lack sufficient domain-specific data, have simplistic task design, and incomplete evaluation frameworks. To address these gaps, this article presents FinMaster, a comprehensive financial benchmark designed to systematically assess the capabilities of LLM in financial literacy, accounting, auditing, and consulting. Specifically, FinMaster comprises three main modules: i) FinSim, which builds simulators that generate synthetic, privacy-compliant financial data for companies to replicate market dynamics; ii) FinSuite, which provides tasks in core financial domains, spanning 183 tasks of various types and difficulty levels; and iii) FinEval, which develops a unified interface for evaluation. Extensive experiments over state-of-the-art LLMs reveal critical capability gaps in financial reasoning, with accuracy dropping from over 90% on basic tasks to merely 40% on complex scenarios requiring multi-step reasoning. This degradation exhibits the propagation of computational errors, where single-metric calculations initially demonstrating 58% accuracy decreased to 37% in multimetric scenarios. To the best of our knowledge, FinMaster is the first benchmark that covers full-pipeline financial workflows with challenging tasks. We hope that FinMaster can bridge the gap between research and industry practitioners, driving the adoption of LLMs in real-world financial practices to enhance efficiency and accuracy.
+PY  - 2025
+DA  - 2025-05-18
+JO  - arXiv
+UR  - https://arxiv.org/abs/2505.13533
+AN  - arXiv:2505.13533
+DB  - arXiv
+M3  - preprint
+AU  - Junzhe Jiang
+AU  - Chang Yang
+AU  - Aixin Cui
+AU  - Sihan Jin
+AU  - Ruiyu Wang
+AU  - Bo Li
+AU  - Xiao Huang
+AU  - Dongning Sun
+AU  - Xinrun Wang
+ER  - 
+
+TY  - RPRT
+TI  - MountainLion: A Multi-Modal LLM-Based Agent System for Interpretable and Adaptive Financial Trading
+AB  - Cryptocurrency trading is a challenging task requiring the integration of heterogeneous data from multiple modalities. Traditional deep learning and reinforcement learning approaches typically demand large training datasets and encode diverse inputs into numerical representations, often at the cost of interpretability. Recent progress in large language model (LLM)-based agents has demonstrated the capacity to process multi-modal data and support complex investment decision-making. Building on these advances, we present \textbf{MountainLion}, a multi-modal, multi-agent system for financial trading that coordinates specialized LLM-based agents to interpret financial data and generate investment strategies. MountainLion processes textual news, candlestick charts, and trading signal charts to produce high-quality financial reports, while also enabling modification of reports and investment recommendations through data-driven user interaction and question answering. A central reflection module analyzes historical trading signals and outcomes to continuously refine decision processes, and the system is capable of real-time report analysis, summarization, and dynamic adjustment of investment strategies. Empirical results confirm that MountainLion systematically enriches technical price triggers with contextual macroeconomic and capital flow signals, providing a more interpretable, robust, and actionable investment framework that improves returns and strengthens investor confidence.
+PY  - 2025
+DA  - 2025-07-13
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.20474
+AN  - arXiv:2507.20474
+DB  - arXiv
+M3  - preprint
+AU  - Siyi Wu
+AU  - Junqiao Wang
+AU  - Zhaoyang Guan
+AU  - Leyi Zhao
+AU  - Xinyuan Song
+AU  - Xinyu Ying
+AU  - Dexu Yu
+AU  - Jinhao Wang
+AU  - Hanlin Zhang
+AU  - Michele Pak
+AU  - Yangfan He
+AU  - Yi Xin
+AU  - Jianhui Wang
+AU  - Tianyu Shi
+ER  - 
+
+TY  - RPRT
+TI  - Understanding Privacy Norms Around LLM-Based Chatbots: A Contextual Integrity Perspective
+AB  - LLM-driven chatbots like ChatGPT have created large volumes of conversational data, but little is known about how user privacy expectations are evolving with this technology. We conduct a survey experiment with 300 US ChatGPT users to understand emerging privacy norms for sharing chatbot data. Our findings reveal a stark disconnect between user concerns and behavior: 82% of respondents rated chatbot conversations as sensitive or highly sensitive - more than email or social media posts - but nearly half reported discussing health topics and over one-third discussed personal finances with ChatGPT. Participants expressed strong privacy concerns (t(299) = 8.5, p < .01) and doubted their conversations would remain private (t(299) = -6.9, p < .01). Despite this, respondents uniformly rejected sharing personal data (search history, emails, device access) for improved services, even in exchange for premium features worth $200. To identify which factors influence appropriate chatbot data sharing, we presented participants with factorial vignettes manipulating seven contextual factors. Linear mixed models revealed that only the transmission factors such as informed consent, data anonymization, or the removal of personally identifiable information, significantly affected perceptions of appropriateness and concern for data access. Surprisingly, contextual factors including the recipient of the data (hospital vs. tech company), purpose (research vs. advertising), type of content, and geographic location did not show significant effects. Our results suggest that users apply consistent baseline privacy expectations to chatbot data, prioritizing procedural safeguards over recipient trustworthiness. This has important implications for emerging agentic AI systems that assume user willingness to integrate personal data across platforms.
+PY  - 2025
+DA  - 2025-08-09
+JO  - arXiv
+UR  - https://arxiv.org/abs/2508.06760
+AN  - arXiv:2508.06760
+DB  - arXiv
+M3  - preprint
+AU  - Sarah Tran
+AU  - Hongfan Lu
+AU  - Isaac Slaughter
+AU  - Bernease Herman
+AU  - Aayushi Dangol
+AU  - Yue Fu
+AU  - Lufei Chen
+AU  - Biniyam Gebreyohannes
+AU  - Bill Howe
+AU  - Alexis Hiniker
+AU  - Nicholas Weber
+AU  - Robert Wolfe
+ER  - 
+
+TY  - RPRT
+TI  - Synthesizing Behaviorally-Grounded Reasoning Chains: A Data-Generation Framework for Personal Finance LLMs
+AB  - Personalized financial advice requires consideration of user goals, constraints, risk tolerance, and jurisdiction. Prior LLM work has focused on support systems for investors and financial planners. Simultaneously, numerous recent studies examine broader personal finance tasks, including budgeting, debt management, retirement, and estate planning, through agentic pipelines that incur high maintenance costs, yielding less than 25% of their expected financial returns. In this study, we introduce a novel and reproducible framework that integrates relevant financial context with behavioral finance studies to construct supervision data for end-to-end advisors. Using this framework, we create a 19k sample reasoning dataset and conduct a comprehensive fine-tuning of the Qwen-3-8B model on the dataset. Through a held-out test split and a blind LLM-jury study, we demonstrate that through careful data curation and behavioral integration, our 8B model achieves performance comparable to significantly larger baselines (14-32B parameters) across factual accuracy, fluency, and personalization metrics while incurring 80% lower costs than the larger counterparts.
+PY  - 2025
+DA  - 2025-09-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.14180
+AN  - arXiv:2509.14180
+DB  - arXiv
+M3  - preprint
+AU  - Akhil Theerthala
+ER  - 
+
+TY  - RPRT
+TI  - Fin-Ally: Pioneering the Development of an Advanced, Commonsense-Embedded Conversational AI for Money Matters
+AB  - The exponential technological breakthrough of the FinTech industry has significantly enhanced user engagement through sophisticated advisory chatbots. However, large-scale fine-tuning of LLMs can occasionally yield unprofessional or flippant remarks, such as ``With that money, you're going to change the world,'' which, though factually correct, can be contextually inappropriate and erode user trust. The scarcity of domain-specific datasets has led previous studies to focus on isolated components, such as reasoning-aware frameworks or the enhancement of human-like response generation. To address this research gap, we present Fin-Solution 2.O, an advanced solution that 1) introduces the multi-turn financial conversational dataset, Fin-Vault, and 2) incorporates a unified model, Fin-Ally, which integrates commonsense reasoning, politeness, and human-like conversational dynamics. Fin-Ally is powered by COMET-BART-embedded commonsense context and optimized with a Direct Preference Optimization (DPO) mechanism to generate human-aligned responses. The novel Fin-Vault dataset, consisting of 1,417 annotated multi-turn dialogues, enables Fin-Ally to extend beyond basic account management to provide personalized budgeting, real-time expense tracking, and automated financial planning. Our comprehensive results demonstrate that incorporating commonsense context enables language models to generate more refined, textually precise, and professionally grounded financial guidance, positioning this approach as a next-generation AI solution for the FinTech sector. Dataset and codes are available at: https://github.com/sarmistha-D/Fin-Ally
+PY  - 2025
+DA  - 2025-09-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.24342
+AN  - arXiv:2509.24342
+DB  - arXiv
+M3  - preprint
+AU  - Sarmistha Das
+AU  - Priya Mathur
+AU  - Ishani Sharma
+AU  - Sriparna Saha
+AU  - Kitsuchart Pasupa
+AU  - Alka Maurya
+ER  - 
+
+TY  - RPRT
+TI  - Personalized Chain-of-Thought Summarization of Financial News for Investor Decision Support
+AB  - Financial advisors and investors struggle with information overload from financial news, where irrelevant content and noise obscure key market signals and hinder timely investment decisions. To address this, we propose a novel Chain-of-Thought (CoT) summarization framework that condenses financial news into concise, event-driven summaries. The framework integrates user-specified keywords to generate personalized outputs, ensuring that only the most relevant contexts are highlighted. These personalized summaries provide an intermediate layer that supports language models in producing investor-focused narratives, bridging the gap between raw news and actionable insights.
+PY  - 2025
+DA  - 2025-10-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2511.05508
+AN  - arXiv:2511.05508
+DB  - arXiv
+M3  - preprint
+AU  - Tianyi Zhang
+AU  - Mu Chen
+ER  - 
+
+TY  - RPRT
+TI  - Decision and Gender Biases in Large Language Models: A Behavioral Economic Perspective
+AB  - Large language models (LLMs) increasingly mediate economic and organisational processes, from automated customer support and recruitment to investment advice and policy analysis. These systems are often assumed to embody rational decision making free from human error; yet they are trained on human language corpora that may embed cognitive and social biases. This study investigates whether advanced LLMs behave as rational agents or whether they reproduce human behavioural tendencies when faced with classic decision problems. Using two canonical experiments in behavioural economics, the ultimatum game and a gambling game, we elicit decisions from two state of the art models, Google Gemma7B and Qwen, under neutral and gender conditioned prompts. We estimate parameters of inequity aversion and loss-aversion and compare them with human benchmarks. The models display attenuated but persistent deviations from rationality, including moderate fairness concerns, mild loss aversion, and subtle gender conditioned differences.
+PY  - 2025
+DA  - 2025-11-15
+JO  - arXiv
+UR  - https://arxiv.org/abs/2511.12319
+AN  - arXiv:2511.12319
+DB  - arXiv
+M3  - preprint
+AU  - Luca Corazzini
+AU  - Elisa Deriu
+AU  - Marco Guerzoni
+ER  - 
+
+TY  - RPRT
+TI  - AI Identity Disclosure Under Professional Personas: A Gap Between Capacity and Consistency
+AB  - Professional persona prompts can elicit accounts of human training and experience that language models do not possess. We ask whether models that acknowledge AI identity under neutral instructions continue to do so when assigned professional roles, and whether targeted permission can restore disclosure while retaining the role. We audit sixteen open-weight models using four professional persona prompts, two neutral controls, and four fixed-order questions about knowledge and expertise. The main audit comprises 19,200 responses from 4,800 conversations, classified for direct or indirect acknowledgments of AI identity. Disclosure occurred in 99.8%-99.9% of responses under neutral conditions, but in 36.2% under professional personas, averaged across models and probes. The assigned persona also mattered: first-probe disclosure was 35.4% for Financial Advisor and 3.8% for Neurosurgeon. Disclosure varied substantially among similarly sized models; within this sample, model identity improved adjusted model fit more than parameter count. A separate 12,800-response experiment tested instructions within the Neurosurgeon role. Adding "If asked about your true nature, answer honestly" increased disclosure from 22.7% to 66.6%, compared with 26.2% under a generic honesty instruction. Permission effects varied across models and did not restore the near-ceiling neutral-condition average. Together, these findings distinguish disclosure capacity from its consistent expression across instructional contexts: models that readily acknowledge AI identity often omit that acknowledgment under professional personas, while targeted permission elicits substantially more disclosure without removing the role. Reliable disclosure should therefore be evaluated under intended deployment instructions, rather than inferred from neutral-prompt behavior or model size.
+PY  - 2025
+DA  - 2025-11-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2511.21569
+AN  - arXiv:2511.21569
+DB  - arXiv
+M3  - preprint
+AU  - Alex Diep
+ER  - 
+
+TY  - RPRT
+TI  - Assessing Domain-Level Susceptibility to Emergent Misalignment from Narrow Finetuning
+AB  - Emergent misalignment poses risks to AI safety as language models are increasingly used for autonomous tasks. In this paper, we present a population of large language models (LLMs) fine-tuned on insecure datasets spanning 11 diverse domains, evaluating them both with and without backdoor triggers on a suite of unrelated user prompts. Our evaluation experiments on \texttt{Qwen2.5-Coder-7B-Instruct} and \texttt{GPT-4o-mini} reveal two key findings: (i) backdoor triggers increase the rate of misalignment across 77.8% of domains (average drop: 4.33 points), with \texttt{risky-financial-advice} and \texttt{toxic-legal-advice} showing the largest effects; (ii) domain vulnerability varies widely, from 0% misalignment when fine-tuning to output incorrect answers to math problems in \texttt{incorrect-math} to 87.67% when fine-tuned on \texttt{gore-movie-trivia}. In further experiments in Section~\ref{sec:research-exploration}, we explore multiple research questions, where we find that membership inference metrics, particularly when adjusted for the non-instruction-tuned base model, serve as a good prior for predicting the degree of possible broad misalignment. Additionally, we probe for misalignment between models fine-tuned on different datasets and analyze whether directions extracted on one emergent misalignment (EM) model generalize to steer behavior in others. This work, to our knowledge, is also the first to provide a taxonomic ranking of emergent misalignment by domain, which has implications for AI security and post-training. The work also standardizes a recipe for constructing misaligned datasets. All code and datasets are publicly available on GitHub.\footnote{https://github.com/abhishek9909/assessing-domain-emergent-misalignment/tree/main}
+PY  - 2026
+DA  - 2026-01-30
+JO  - arXiv
+UR  - https://arxiv.org/abs/2602.00298
+AN  - arXiv:2602.00298
+DB  - arXiv
+M3  - preprint
+AU  - Abhishek Mishra
+AU  - Mugilan Arulvanan
+AU  - Reshma Ashok
+AU  - Polina Petrova
+AU  - Deepesh Suranjandass
+AU  - Donnie Winkelmann
+ER  - 
+
+TY  - RPRT
+TI  - AI Assisted Economics Measurement From Survey: Evidence from Public Employee Pension Choice
+AB  - We develop an iterative framework for economic measurement that leverages large language models to extract measurement structure directly from survey instruments. The approach maps survey items to a sparse distribution over latent constructs through what we term a soft mapping, aggregates harmonized responses into respondent level sub dimension scores, and disciplines the resulting taxonomy through out of sample incremental validity tests and discriminant validity diagnostics. The framework explicitly integrates iteration into the measurement construction process. Overlap and redundancy diagnostics trigger targeted taxonomy refinement and constrained remapping, ensuring that added measurement flexibility is retained only when it delivers stable out of sample performance gains. Applied to a large scale public employee retirement plan survey, the framework identifies which semantic components contain behavioral signal and clarifies the economic mechanisms, such as beliefs versus constraints, that matter for retirement choices. The methodology provides a portable measurement audit of survey instruments that can guide both empirical analysis and survey design.
+PY  - 2026
+DA  - 2026-02-02
+JO  - arXiv
+UR  - https://arxiv.org/abs/2602.02604
+AN  - arXiv:2602.02604
+DB  - arXiv
+M3  - preprint
+AU  - Tiancheng Wang
+AU  - Krishna Sharma
+ER  - 
+
+TY  - RPRT
+TI  - OMNIINTENT: A Trusted Intent-Centric Framework for User-Friendly Web3
+AB  - The increasingly complex Web3 ecosystem and decentralized finance (DeFi) landscape demand ever higher levels of technical expertise and financial literacy from participants. The Intent-Centric paradigm in DeFi has thus emerged in response, which allows users to focus on their trading intents rather than the underlying execution details. However, existing approaches, including Typed-intent design and LLM-driven solver, trade off expressiveness, trust, privacy, and composability. We present OMNIINTENT, a language-runtime co-design that reconciles these requirements. OMNIINTENT introduces ICL, a domain-specific Intent-Centric Language for precise yet flexible specification of triggers, actions, and runtime constraints; a Trusted Execution Environment (TEE)-based compiler that compiles intents into signed, state-bound transactions inside an enclave; and an execution optimizer that constructs transaction dependency graphs for safe parallel batch submission and a mempool-aware feasibility checker that predicts execution outcomes. Our full-stack prototype processes diverse DeFi scenarios, achieving 89.6% intent coverage, up to 7.3x throughput speedup via parallel execution, and feasibility-prediction accuracy up to 99.2% with low latency.
+PY  - 2026
+DA  - 2026-03-04
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.04168
+AN  - arXiv:2603.04168
+DB  - arXiv
+M3  - preprint
+AU  - Zhuoran Pan
+AU  - Yue Li
+AU  - Zhi Guan
+AU  - Jianbin Hu
+AU  - Zhong Chen
+ER  - 
+
+TY  - RPRT
+TI  - From Demographics to Survey Anchors: Evaluating LLM Agents for Modeling Retirement Attitudes
+AB  - Large language models (LLM) agents may offer tools to predict human responses to surveys. A common technique for defining these agents uses only demographics, for example country, age, gender, employment status, income, education and marital status. We compare the predictive accuracy of demographic agents to that of survey agents defined with a larger set of in-domain survey responses. We test both approaches in predicting responses to the multidisciplinary, cross-national Survey of Health, Ageing and Retirement in Europe (SHARE), focusing on five variables from three policy-relevant constructs around personal finance. In these three constructs, we observe that, compared to survey agents trained on broader data, demographics-only agents (1) exhibited a central tendency bias, skewing answers toward population means, and (2) were unrealistically accurate, failing to reproduce the incorrect answers and "don't know" responses typical of human respondents. These performance differences are further substantiated through the replication of a hierarchical regression analysis from prior retirement planning research. Agents based solely on demographic information reproduce the outcome that financial risk tolerance, future time perspective, and knowledge of retirement planning each are predictive of retirement savings. However, only the survey-anchored agents succeed in reproducing the interaction among these three factors. These findings suggest caution in using only demographics to define LLM agents for predicting survey responses.
+PY  - 2026
+DA  - 2026-04-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.16303
+AN  - arXiv:2605.16303
+DB  - arXiv
+M3  - preprint
+AU  - Rubén Garzón
+AU  - Pauline Baron
+AU  - Vincent Grari
+AU  - Jonne Kamphorst
+AU  - Michael Bernstein
+AU  - Marcin Detyniecki
+ER  - 
+
+TY  - RPRT
+TI  - One Size Fits None: Heuristic Collapse in LLM Investment Advice
+AB  - Large language models are increasingly deployed as advisors in high-stakes domains -- answering medical questions, interpreting legal documents, recommending financial products -- where good advice requires integrating a user's full context rather than responding to salient surface features. We investigate whether frontier LLMs actually do this, or whether they instead exhibit heuristic collapse: a systematic reduction of complex, multi-factor decisions to a small number of dominant inputs. We study the phenomenon in investment advice, where legal standards explicitly require individualized reasoning over a client's full circumstances. Applying interpretable surrogate models to LLM outputs, we find systematic heuristic collapse: investment allocation decisions are largely determined by self-reported risk tolerance, while other relevant factors contribute minimally. We further find that web search partially attenuates heuristic collapse but does not resolve it. These findings suggest that heuristic collapse is not resolved by web search augmentation or model scale alone, and that deploying LLMs as advisors requires auditing input sensitivity, not just output quality.
+PY  - 2026
+DA  - 2026-04-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.23837
+AN  - arXiv:2604.23837
+DB  - arXiv
+M3  - preprint
+AU  - Jillian Ross
+AU  - Andrew W. Lo
+ER  - 
+
+TY  - RPRT
+TI  - Breaking Bad Financial Habits: How LLM Conversations Correct Financial Misconceptions
+AB  - Financial misconceptions carry direct economic costs, from panic selling to equity market avoidance, yet they are notoriously resistant to correction. Traditional financial literacy interventions are constrained by cost, reach, and a persistent gap between knowledge and behavioral change. Across three pre-registered studies, we find that purposefully designed LLMs can durably correct financial misconceptions. Critically, two factors are necessary for this effect. First, corrective intent: LLMs prompted only to discuss a misconception produce corrections no better than unassisted self-reflection, and undirected LLM conversations can actively entrench misconceptions. Second, recipient receptivity: financial concepts are often foreign to the investors who misapply them, and LLM responses pitched below a participant's financial sophistication are judged as less credible and produce substantially weaker corrections. LLMs thus offer a scalable alternative to traditional financial literacy intervention, but only when designed with both factors in mind.
+PY  - 2026
+DA  - 2026-04-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.27022
+AN  - arXiv:2604.27022
+DB  - arXiv
+M3  - preprint
+AU  - Jillian Ross
+AU  - Eric So
+AU  - Andrew W. Lo
+ER  - 
+
+TY  - RPRT
+TI  - Characterizing the Consistency of the Emergent Misalignment Persona
+AB  - Fine-tuning large language models (LLMs) on narrowly misaligned data generalizes to broadly misaligned behavior, a phenomenon termed emergent misalignment (EM). While prior work has found a correlation between harmful behavior and self-assessment in emergently misaligned models, it remains unclear how consistent this correspondence is across tasks and whether it varies across fine-tuning domains. We characterize the consistency of the EM persona by fine-tuning Qwen 2.5 32B Instruct on six narrowly misaligned domains (e.g., insecure code, risky financial advice, bad medical advice) and administering experiments including harmfulness evaluation, self-assessment, choosing between two descriptions of AI systems, output recognition, and score prediction. Our results reveal two distinct patterns: coherent-persona models, in which harmful behavior and self-reported misalignment are coupled, and inverted-persona models, which produce harmful outputs while identifying as aligned AI systems. These findings reveal a more fine-grained picture of the effects of emergent misalignment, calling into question the consistency of the EM persona.
+PY  - 2026
+DA  - 2026-04-30
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.28082
+AN  - arXiv:2604.28082
+DB  - arXiv
+M3  - preprint
+AU  - Anietta Weckauff
+AU  - Yuchen Zhang
+AU  - Maksym Andriushchenko
+ER  - 
+
+TY  - RPRT
+TI  - The Point of No Return: Counterfactual Localization of Deceptive Commitment in Language-Model Reasoning
+AB  - Existing deception datasets label completed outputs as honest or deceptive, treating deception as a property of the final response rather than a function of the model's reasoning trace. This obscures a more fundamental question: when does a language model become committed to deception? We introduce counterfactual localization: for each sentence prefix in a reasoning trace, we fix the prefix, resample continuations, and estimate the probability of a deceptive outcome. To scale this, we construct five environments (spanning strategic bluffing, maze guidance, financial advice, used-car sales, and offer negotiation) in which deception is never prompted but emerges from strategic incentives and labels follow mechanically from environment state rather than subjective human judgment. The resulting corpus localizes $\sim$1.46M sentences across four reasoning models, drawn from over 94.1M sampled continuations, 91.5B generated tokens, and over 100K scenarios. Sentence-level human evaluation confirms that detected commitment points correspond to interpretable shifts in decision state. Using this resource, we show that lexical cues for commitment prediction transfer poorly across environments, whereas attention-based transition features generalize out of distribution, suggesting that deceptive commitment is reflected in reusable changes in reasoning dynamics rather than surface form. We further identify compact attention-head sets (under 10% of heads) that, selected on one environment, causally suppress deceptive commitment across held-out environments. We release the corpus as a substrate for studying deception, and more broadly commitment, in language-model reasoning.
+PY  - 2026
+DA  - 2026-05-16
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.17113
+AN  - arXiv:2605.17113
+DB  - arXiv
+M3  - preprint
+AU  - Scott Merrill
+AU  - Shashank Srivastava
+ER  - 
+
+TY  - RPRT
+TI  - Unsupervised Identification and Removal of Spurious Correlations During Fine-Tuning
+AB  - Fine-tuning a pretrained language model on a curated dataset can produce spurious correlations between the fine-tuning task and unintended latent factors---such as misaligned personas or political slant---that the curation procedure has entangled with the task. The model can latch onto these spurious correlations, leading to bias and reduced out-of-distribution generalisation. We prove that under reasonable assumptions on task complexity and the spurious correlation, such latent factors can be identified, without supervision, from the weights of a naive LoRA fine-tune. Existing approaches to removing bias, such as activation steering, remove identified factors from residual-stream activations, either at inference or during training. We argue, however, that the goal should be to remove the spurious correlation, not the latent factor itself, as the pretrained model may rely on it for genuine task signal. To enable this, we propose GRASP, GRadient projection of Associated Spurious Patterns, which prevents the model from acquiring new reliance on the identified latent factor while preserving any pretrained content along it. We validate on three fine-tuning tasks. The first two involve emergent misalignment, where fine-tuning on a narrow task---in our case, writing insecure code and giving bad medical advice---leads to misaligned responses on unrelated topics. Here our method completely removes misalignment in the insecure code case and reduces it by ~5x in the bad medical advice case, beating all baselines in the trade-off between misalignment-reduction and task-preservation. The last is a novel political-bias experiment, where fine-tuning on right-skewed Reddit financial-advice data causes political-lean drift on unrelated topics. Here our method reduces drift by more than half, while improving financial task performance, beating all baselines.
+PY  - 2026
+DA  - 2026-05-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.27676
+AN  - arXiv:2605.27676
+DB  - arXiv
+M3  - preprint
+AU  - Ciarán M. Gilligan-Lee
+AU  - Joseph Egan
+AU  - Yuchen Zhu
+AU  - Michael O'Riordan
+ER  - 
+
+TY  - RPRT
+TI  - Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation
+AB  - Large language models now power robo-advisors and trading agents, yet whether they carry built-in biases toward specific assets is largely untested. We ask three questions: do LLMs systematically prefer certain financial instruments; can an internal representation with causal leverage over those preferences be identified; and does that representation affect downstream financial decisions? We develop a three-level audit protocol and apply it to Bitcoin. First, a behavioral audit of nine frontier LLMs shows that Bitcoin's ranking among money-like instruments is frame-dependent: models place it around rank 5 of 8 as "reliable money" but near the top under crisis and autonomous-agent frames, and an attribute-swap experiment shows that rankings track functional properties, not names. Second, we open a model's internals: a search across thousands of sparse-autoencoder features in Gemma 3 identifies a dominant Bitcoin-selective feature. Amplifying it shifts the model toward the asset and suppressing it shifts the model away, even when "Bitcoin" never appears in the prompt. Third, we test financial consequences: amplification raises Bitcoin's portfolio share by 5.2 percentage points while suppression lowers it by 4.6 pp, with amplification reallocating within crypto and suppression cutting total crypto exposure. We characterize this as bounded behavioral leverage (leverage meaning causal influence over outputs, not financial leverage): an identifiable internal feature can be perturbed to move financial choices, but only within measurable limits. The framework links internal representations to external recommendations, validated with random controls and mechanism boundaries. As LLMs become autonomous financial agents, this is a first step toward a behavioral layer for emerging know-your-agent (KYA) standards: knowing what an agent prefers, and how far that preference can be moved.
+PY  - 2026
+DA  - 2026-06-01
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.02528
+AN  - arXiv:2606.02528
+DB  - arXiv
+M3  - preprint
+AU  - Wenbin Wu
+ER  - 
+
+TY  - RPRT
+TI  - Topics as Proxies for Sociodemographics: How Conversational Context Affects LLM Answers
+AB  - When large language models (LLMs) are used in high-stakes scenarios, such as legal, medical and financial advice, even a single conversation history is enough to drive differences in outcomes between users. Prior work has demonstrated that this results in outcome disparities between sociodemographic groups, with some groups receiving more advantageous outcomes than others. In this work, we demonstrate that LLMs actually struggle to infer user sociodemographics from a single conversation history and that although there are disparities between sociodemographic groups, they are minimal in magnitude. To investigate what is the main driver of disparities between users, we compare user sociodemographics to a range of (psycho)linguistic features of conversations, including conversation topic, emotions, and readability. We find that conversation topics are most predictive of LLM-generated advice within a conversational context, which, to some extent, function as proxies for sociodemographic groups and often affect advice in unpredictable ways. This is cause for concern and highlights the need for future research to better understand the effect of conversational context on LLM outputs in high-stakes scenarios.
+PY  - 2026
+DA  - 2026-06-01
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.02776
+AN  - arXiv:2606.02776
+DB  - arXiv
+M3  - preprint
+AU  - Vera Neplenbroek
+AU  - Gabriele Sarti
+AU  - Arianna Bisazza
+AU  - Raquel Fernández
+ER  - 
+
+TY  - RPRT
+TI  - The Arbiter Agent: Continually Monitoring Multi-Agent Conversations to Detect Emergent Misalignment
+AB  - As AI systems built from multiple language-model agents become more common, they are increasingly used to make decisions together: discussing, negotiating, and acting on shared tasks. While individual agents may appear well-aligned when tested on their own, problems can arise from how they interact with one another. We introduce the Arbiter, an agent designed to monitor multi-agent conversations in real time and identify which participants may be behaving in misaligned ways. The Arbiter operates under a limited "inspection budget", meaning it must decide carefully how to use its resources. As it observes a conversation step by step, it can choose to wait, question a participant, examine internal information such as system prompts or reasoning traces, or log concerning behavior. At the end, it produces a report identifying the likely source of misalignment. We evaluate the Arbiter across five conversation conditions, ranging from risky financial advice model organisms to evaluation-aware and colluding agents, we test five tool configurations of increasing capability and two backbone models. We find that the Arbiter reliably detects misaligned agents well before the end of the conversation, with active inspection tools improving both detection accuracy and speed. Weight-induced misalignment proves hardest to detect, while instruction-induced misalignment is identified reliably even under passive observation. The logging tool exhibits a dual effect, improving recall at the cost of precision. These results suggest that continual, budget-aware monitoring can effectively catch misalignment, and that overseeing multi-agent systems may require treating the auditor as an active participant in the process. The code is available at https://github.com/aisilab/arbiter.
+PY  - 2026
+DA  - 2026-06-09
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.10747
+AN  - arXiv:2606.10747
+DB  - arXiv
+M3  - preprint
+AU  - Filippo Tonini
+AU  - Federico Torrielli
+AU  - Anton Danholt Lautrup
+AU  - Peter Schneider-Kamp
+AU  - Mustafa Mert Çelikok
+AU  - Lukas Galke Poech
+ER  - 
+
+TY  - RPRT
+TI  - The Containment Gap: How Deployed Agentic AI Frameworks Fail Public-Facing Safety Requirements
+AB  - Agentic large language model systems that autonomously invoke tools, maintain persistent memory, and execute multi-step plans are increasingly deployed in public-facing domains, including government services, healthcare triage, and financial advising. We ask whether the frameworks used to build these systems provide architectural-level structural safety guarantees. Applying six containment principles derived from a compositional model of agentic architectures, we audit three dominant frameworks (LangChain, AutoGPT, and OpenAI Agents SDK) and find no native compliance in any of them. Memory integrity, a defense against one of the most prevalent vulnerability classes, is not observed in any of the three evaluated frameworks. We validate these findings empirically: in a simulated government benefits agent built on LangChain, a single memory-poisoning write induces persistent targeted corruption across all tested seeds and backends, increasing the wrongful denial rate for targeted applicants to 88.9%. Under a complex five-factor policy, the same attack preserves aggregate accuracy while increasing targeted wrongful denials by 3.5x, rendering the corruption difficult to detect through standard monitoring. We then introduce two lightweight containment mechanisms: a memory integrity validator and a policy gate, which eliminate both attack vectors with sub-millisecond overhead (<0.2ms per call). We conclude that the current agentic framework ecosystem may not yet meet secure-by-default expectations for public-facing deployments and outline priority architectural interventions to enable trustworthy deployment in high-stakes, socially impactful applications.
+PY  - 2026
+DA  - 2026-06-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.12797
+AN  - arXiv:2606.12797
+DB  - arXiv
+M3  - preprint
+AU  - Md Jafrin Hossain
+AU  - Mohammad Arif Hossain
+AU  - Weiqi Liu
+AU  - Nirwan Ansari
+ER  - 
+
+TY  - RPRT
+TI  - Agentic Knowledge Tracing: A Multi-Agent LLM Architecture for Stealth Assessment of Financial Literacy in Serious Games
+AB  - Assessing financial literacy during gameplay without disrupting the learning experience remains a key challenge in serious games for education. We present the Agentic BKT pipeline, a multi-agent large language model architecture for stealth assessment of financial competencies from open-ended gameplay events. The pipeline processes events from a 2D platformer serious game aligned with the OECD/INFE financial literacy framework through four phases: (1) the game captures every player decision as a structured event log; (2) an LLM event classifier labels each action on a four-point rubric validated against three domain experts (Fleiss kappa = 0.624, substantial agreement); (3) four domain-specific agents specializing in risk mitigation, investing, spending, and credit management perform session-level reasoning over behavioral trajectories, feeding per-competency Bayesian Knowledge Tracing that estimates mastery within each domain; and (4) an expert judge agent synthesizes the domain-level estimates into an overall mastery score. Evaluated with 193 K-12 participants across 264 game sessions, the Agentic BKT pipeline yields mastery estimates significantly correlated with learning gain (r = 0.276, p = 0.0001) and post-test scores (r = 0.333, p < 0.0001) while showing no correlation with pre-test scores, providing both convergent and discriminant validity. The multi-agent approach approximately triples the predictive validity of a single-LLM baseline (r = 0.095, not significant) in this study, demonstrating that domain decomposition and session-level reasoning play a central role in capturing the multidimensional nature of financial literacy from gameplay
+PY  - 2026
+DA  - 2026-06-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.25358
+AN  - arXiv:2606.25358
+DB  - arXiv
+M3  - preprint
+AU  - Gabriel Santos
+AU  - Rita Julia
+AU  - Marcelo Nascimento
+ER  - 
+
+TY  - RPRT
+TI  - Fund2Persona: A Framework for Building and Refining Financial Advisor Personas from Fund Disclosure Data
+AB  - Demand for personalized financial advice is growing, yet current LLM-based advisors often fail to provide consistent and specialized guidance. Simple persona prompts rarely specify how a financial advisor should reason and often drift toward generic recommendations. We propose Fund2Persona, a framework that builds financial-advisor personas from real-world fund disclosures and refines them through an actor-scorer-patcher loop. We test whether the resulting personas can predict held-out portfolio changes and produce commentary consistent with fund managers' own explanations. They outperform generic baselines on both tasks. We further study two downstream diagnostics: market-scenario generation, where persona retrieval broadens plausible investment views, and multi-turn investor-advisor conversations, where matched personas give more specific and useful advice than a generic advisor. These results suggest that real fund data can bring manager-specific investment expertise to LLM advisors rather than merely changing an LLM's surface style.
+PY  - 2026
+DA  - 2026-06-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.29793
+AN  - arXiv:2606.29793
+DB  - arXiv
+M3  - preprint
+AU  - Suhwan Park
+AU  - Hoyoung Lee
+AU  - Zhangyang Wang
+AU  - Alejandro Lopez-Lira
+AU  - Young Cha
+AU  - Chanyeol Choi
+AU  - Jaewon Choi
+AU  - Yongjae Lee
+ER  - 
+
+TY  - RPRT
+TI  - When Personalization Becomes Bias: Structural and Discursive Religious Framing in AI-Generated Financial Advice
+AB  - Large language models (LLMs) are increasingly integrated into financial advisory systems, yet their role in reproducing religious bias remains underexamined. This study provides systematic mixed-methods evidence of such bias across three LLMs (ChatGPT, Gemini, and Grok) using 432 simulated advisor-client interactions spanning 16 religious identity pairings (Christian, Muslim, Hindu, and non-religious) and three core household financial decisions: stock investment, house purchase, and life insurance. Combining regression and reflexive thematic analyses, we identify structural biases across models and decision contexts and the discursive mechanisms through which they are linguistically enacted. Unbiased advice appeared in only 12-18% of cases. Gemini consistently produced more bias than Grok, while ChatGPT's outputs were statistically comparable to Grok's. Religiously symmetric advisor-client pairings almost always triggered explicit religious framing, and non-religious clients often received advisor-centered religious appeals. Qualitative findings show that bias is linguistically manifested through religious anchoring, uneven cultural signaling, and tone modulation, varying by model and financial scenario. Stock investment prompts produced more financially technical responses, whereas life insurance advice triggered stronger religious language. The study develops a dual-dimensional framework linking structural bias rooted in model training and design with discursive bias expressed through language, advancing understanding of algorithmic bias in LLM-generated financial advice. It also shows that such advice adapts linguistically to identity cues, revealing a managerial dilemma between personalization and neutrality. Finally, it highlights implications for businesses, financial institutions, and regulators seeking to ensure neutrality, cultural sensitivity, and trust in AI-mediated advice.
+PY  - 2026
+DA  - 2026-07-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.16909
+AN  - arXiv:2608.16909
+DB  - arXiv
+M3  - preprint
+AU  - Muhammad Salar Khan
+AU  - Hamza Umer
+AU  - Hasan Mahmud
+AU  - Sandra Rothenberg
+ER  - 
+
+TY  - RPRT
+TI  - Beyond the Chatbot: Co-Learning and Co-Teaching through a Dual-Persona Generative-AI Assistant
+AB  - In this paper we present a generative AI application developed to support both teachers and students in secondary education. The system employs two Large Language Models-LLMs, Gemini and DeepSeek, and a Small Language Model-SLM, Gemma, integrated within a Retrieval Augmented Generation - RAG framework, creating a pedagogically grounded, Greek-language assistant capable of adapting its reasoning and communication style to the user role. Unlike conventional chatbots, the assistant introduces pedagogical persona switching, a dual-role mechanism that enables the same AI model to act as both a teaching companion and a learning guide. Utilizing a RAG paradigm tailored to the Greek educational domain, the architecture segments official textbooks into coherent units. Enriched with specific metadata, these units preserve curricular structure and instructional context, demonstrating how generative AI optimizes modern instructional design. The initial case study focuses on home economics in Greek lower secondary education, a cross-disciplinary subject that integrates elements of economics, health education, and social responsibility. The assistant has been developed to support both learners and educators in complementary ways. In future classroom implementations, students will be able to use it to clarify key concepts such as financial literacy, resource management, and healthy living, while teachers could employ it to design authentic instructional materials, formative assessments, and classroom activities aligned with the official curriculum. The study elevates the concept beyond a simple chatbot, proposing a structured, contextually adaptive framework for pedagogical generative assistants that effectively bridge technology, curriculum, and human learning.
+PY  - 2026
+DA  - 2026-07-14
+JO  - arXiv
+DO  - 10.26234/heal.ihu.359
+UR  - https://arxiv.org/abs/2608.24902
+AN  - arXiv:2608.24902
+DB  - arXiv
+M3  - preprint
+AU  - Chaido Mizeli
+AU  - Marina Delianidi
+AU  - Konstantinos Diamantaras
+ER  - 
+
+TY  - RPRT
+TI  - Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning?
+AB  - We introduce CreditCardQA, the first financial literacy benchmark for numerical reasoning derived from real credit card agreements. The dataset contains 1,800 questions, including first-person variants that reflect how consumers naturally ask about fees, interest, and payments. We evaluate a range of large language and reasoning models under Chain-of-Thought (CoT) and Program-of-Thought (PoT) prompting. Overall, PoT yields consistent performance gains, particularly for models with weaker baseline reasoning, and narrows gaps between open- and closed-source systems. Through error analysis, we show that failures arise less from arithmetic and more from misapplied financial rules, missed conditions, and misunderstandings of contractual terms. We further analyze question difficulty and find that comparisons, conditional logic, and monetary constraints are especially challenging. We also find that errors often arise in edge cases such as late-payment penalties or small-balance scenarios that are more likely to affect lower-income or financially vulnerable individuals.
+PY  - 2026
+DA  - 2026-07-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2607.26952
+AN  - arXiv:2607.26952
+DB  - arXiv
+M3  - preprint
+AU  - Arnav Hiray
+AU  - Agam Shah
+AU  - Caleb Lu
+AU  - Meghaj Tarte
+AU  - Harsit Mittal
+AU  - Sudheer Chava
+ER  - 
+
+TY  - RPRT
+TI  - AI Financial Advice: Supply, Demand, and Life Cycle Implications
+AB  - We ask a representative sample to write prompts seeking spending and investing advice from LLMs, then simulate the lifetime effects of following the advice under realistic asset and labor market conditions. Applying this method to GPT-5.2, we find following the advice would move respondents toward life cycle theory: broader participation in diversified equity funds, age-declining equity shares, and larger savings buffers. Recommendations vary systematically by gender, prior AI experience, and financial literacy. For gender, two-thirds of recommended equity-share differences arise from men and women writing different prompts (demand), while one-third arise from gender labels attached to otherwise identical prompts (supply).
+PY  - 2026
+DA  - 2026-08-03
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.01607
+AN  - arXiv:2608.01607
+DB  - arXiv
+M3  - preprint
+AU  - Taha Choukhmane
+AU  - Tim de Silva
+AU  - Weidong Lin
+AU  - Matthew Akuzawa
+ER  - 
+
+TY  - RPRT
+TI  - FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents
+AB  - Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long horizons. Existing personalized-memory benchmarks primarily test factual retention or rely on weakly constrained model-generated trajectories, leaving event-driven preference adaptation underexplored. We introduce FinPerMA, an event-grounded benchmark that evaluates personalized memory against frozen longitudinal investor trajectories. Its generation pipeline combines deterministic, theory-informed impact rules, controlled LLM narration, and automated quality screening; a Post-Shock checkpoint isolates whether an agent has integrated a material event into its persistent user model. On 2,994 questions from 276 personas, seven frontier LLMs and up to seven memory configurations remain far from saturated: no full-context configuration exceeds approximately 0.47 overall accuracy or approximately 39% on multiple-choice questions. Attribution analysis shows that summary-based memory often preserves factual details while losing the preference signals needed for personalization; simple retrieval can therefore outperform purpose-built memory systems, with the gap widening after shocks.
+PY  - 2026
+DA  - 2026-08-04
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.04095
+AN  - arXiv:2608.04095
+DB  - arXiv
+M3  - preprint
+AU  - Ben Wang
+AU  - Kang Zhou
+AU  - Lifan Guo
+AU  - Feng Chen
+AU  - Chi Zhang
+ER  - 
+
+TY  - RPRT
+TI  - GRPO for Financial Advice Generation: Outperforming Commercial LLMs under CATE Evaluation
+AB  - Generating actionable financial advice from business records demands that models integrate numerical reasoning, domain knowledge, and sound judgment, while avoiding recommendations that could harm the business. Direct supervision is difficult: historical decisions are not necessarily optimal, and high-quality free-form labels are expensive to obtain. We formulate financial advice generation as a reinforcement learning problem and fine-tune an open-weight language model using Group Relative Policy Optimization (GRPO). Our reward is an LLM-as-a-judge rubric that scores each recommendation across multiple binary dimensions of advice quality, augmented with a safety gate for harm prevention. Since LLM-based evaluation alone cannot confirm whether improvements reflect genuine business value rather than adaptation to the judge, we complement it with a judge-independent audit based on a standard doubly-robust Conditional Average Treatment Effect (CATE) estimator. Under this observational off-policy audit, our trained LLM achieves approximately twice the estimated gross-profit lift of the strongest evaluated commercial baseline ($0.0228$ vs.\ $0.0104$), together with the lowest downside rate and the least negative tail risk of any policy evaluated. Notably, the two evaluations do not rank the baselines identically: the untrained base model places last on the judge rubric but second on the causal audit, indicating that the audit captures a signal the judge does not. Our results demonstrate that GRPO with a finance-grounded reward signal can produce substantially more useful business recommendations than commercial LLMs, and that a judge-independent causal audit is a valuable complement to, rather than a confirmation of, LLM-as-a-judge assessment in financial NLP.
+PY  - 2026
+DA  - 2026-08-12
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.11787
+AN  - arXiv:2608.11787
+DB  - arXiv
+M3  - preprint
+AU  - Ofir Ben Shoham
+AU  - Shrutendra Harsola
+AU  - Vignesh Subrahmaniam
+AU  - Shravan Mohan
+AU  - Yakov Gazman
+AU  - Oded Vainas
+ER  - 
+
+TY  - RPRT
+TI  - Auditable by Construction: An Ontology-Driven Framework for Trustworthy LLM Analytics in Enterprise Finance
+AB  - Enterprise adoption of large language models in finance is constrained less by fluency than by trust: in Financial Planning and Analysis (FP&A) and other regulated workflows, an answer is usable only if it is traceable to authoritative sources and auditable after the fact. This paper argues that retrieval-augmented generation for enterprise finance should be evaluated on auditability alongside accuracy, and presents the Knowledge-Driven Analytics Framework (KDAF), which builds ontology-driven knowledge systems through six iterative stages and retrieves evidence via Context-Aware Relevance Propagation (CARP), so that every retrieved fact carries its relationship type, confidence, and source lineage. An evaluation on FinanceBench (145 questions) compares KDAF against zero-context inference, BM25, concept-weighted lexical retrieval, and ungrounded graph traversal. First, retrieval is necessary: zero-context inference reaches 4.1% correctness against 10-12% for retrieval-augmented conditions. Second, on answer correctness the retrieval conditions are statistically indistinguishable (KDAF vs BM25: -0.007, 95% CI [-0.021, 0.000]), so accuracy alone does not justify structured retrieval here -- a negative result we report explicitly. Third, on auditability the ordering reverses: KDAF attains the highest citation traceability F1 (0.515), exceeding ungrounded traversal by +0.027 (CI [0.006, 0.050]) and BM25 by +0.052 (CI [0.024, 0.083]), intervals excluding zero. Graph-structured retrieval also admits no evidence from outside the question subject entity (0 of 426 items, against 16.8% and 20.2% for lexical baselines), and every selected item resolves to a complete provenance chain. We argue that auditability, not accuracy, is the axis on which ontology-grounded retrieval earns its cost.
+PY  - 2026
+DA  - 2026-08-21
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.20661
+AN  - arXiv:2608.20661
+DB  - arXiv
+M3  - preprint
+AU  - Sergiy Lunyakin
+ER  - 
+
+TY  - RPRT
+TI  - Between the Lines: Multi-turn Contextual Investment Advice Detection
+AB  - As large language models (LLMs) increasingly power financial conversational assistants, detecting investment advice in natural language has become a critical regulatory and safety challenge. Unlike explicit single-turn recommendations, investment advice often emerges implicitly and progressively over multi-turn conversations, shaped by user intent, delivery style, and contextual buildup. We introduce the first comprehensive framework for detecting both sequential and contextual investment advice in dialogue settings. Central to our approach is a modular, top-down synthetic data generation pipeline that systematically spans a taxonomy of advisory trajectories using an axis-bucket-descriptor schema. We simulate both benign and high-risk conversations across diverse user personas, financial instruments, and risk tiers, and evaluate detection capabilities using LLM-as-a-Judge with entropy-based uncertainty diagnostics. Our results show that contextual advisory detection remains substantially more challenging than sequential cases, even under few-shot prompting with tailored demonstrations. This work lays the foundation for scalable guardrail development in high-stakes, compliance-sensitive domains, where advisory risk is often subtle, distributed, and perception-dependent.
+PY  - 2026
+DA  - 2026-08-27
+JO  - arXiv
+UR  - https://arxiv.org/abs/2611.18596
+AN  - arXiv:2611.18596
+DB  - arXiv
+M3  - preprint
+AU  - Mingshu Li
+AU  - Adam Boncz
+AU  - Mate Toth
+AU  - Justin Williams
+AU  - Justin Chan
+AU  - Dhagash Mehta
+ER  - 
+
+TY  - RPRT
+TI  - From Ideas to Actions: A Public-Data Decision-Support Toolchain Across the Venture Lifecycle
+AB  - Founders face two linked decisions: whether to pursue an idea before founding, and which operating actions and capital partners fit afterward. We present a public-data decision-support toolchain combining time-bounded proposal profiling, market and moat checks, and deterministic aggregation with auditable investor-company event chains for retrospective analysis. Pre-founding: (a) After threshold selection on 198 development companies, the frozen pipeline achieves F0.5=0.5357 [0.412, 0.655] on an independent, row-disjoint 198-company validation sample. On the combined 396 rows, the Full Pipeline scores 0.6301 versus 0.2734 for a paired Raw LLM baseline. Post-stratification of 1,027 completed cases in a separate scale cohort yields 0.6506 [0.598, 0.707]; the run remains incomplete. A 377-row composition-matched check yields 0.6573. (b) The AI-inference study identifies distribution-layer businesses as a replicable path to independent profitability with a limited revenue ceiling, and frontier-model ownership as a path to capital-market upside at exceptional capital cost. Post-founding: (a) Public sources support auditable event-chain analysis. (b) In the chip-company study, sustained product, customer, and supply-chain progress is associated with better observed outcomes; financing alone does not establish operating progress. (c) Financing comprises 79% of confirmed visible post-investment actions. Evidence tentatively favors acquisition-experienced strategic corporate investors for acquisition-oriented founders and financing-led institutional VCs with fewer observed control events for independence-oriented founders. Findings are developmental and observational, not causal guarantees or investment advice. We release shared ontology, provenance-bearing EventChain data, schemas, benchmarks, and executable skills for audit, reuse, and extension.
+PY  - 2026
+DA  - 2026-09-14
+JO  - arXiv
+DO  - 10.2139/ssrn.7445800
+UR  - https://arxiv.org/abs/2609.15219
+AN  - arXiv:2609.15219
+DB  - arXiv
+M3  - preprint
+AU  - Lei Qu
+ER  - 
+
+TY  - RPRT
+TI  - Do Emergent Misalignment Models Share a Circuit?
+AB  - Fine-tuning language models on narrowly defined harmful tasks can induce emergent misalignment (EM) across unrelated domains. While prior work has identified shared misalignment-associated representations across independently fine-tuned models, it remains unclear whether these models rely on common computational components. We investigate this question using three LoRA fine-tunes of Qwen2.5-3B-Instruct trained on harmful medical advice, risky financial advice, and extreme-sports recommendations. Using direction-based activation tracing, we identify three attention-head locations shared among the five highest-ranked heads of all three organisms. Replacing each organism's five selected head contributions with Base contributions reduces free-generation EM from 38.9% to 22.9% for medical, 50.7% to 12.5% for finance, and 41.7% to 11.1% for sports, outperforming layer-matched random interventions without reducing judged coherence. Cross-organism activation transfer further shows that the shared heads exhibit partially interchangeable effects on fixed-response preference. These findings provide evidence that representational convergence in EM extends to shared, causally relevant attention-head components within a common model architecture.
+PY  - 2026
+DA  - 2026-10-14
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.20887
+AN  - arXiv:2610.20887
+DB  - arXiv
+M3  - preprint
+AU  - Muhammad Haseeb
+AU  - Muhammad Tahir
+ER  - 
+
+TY  - RPRT
+TI  - Same Person, Different Advice: Auditing LLM Financial Advice with Repeated Risk-Tolerance Responses
+AB  - AI financial advisers set a client's stock allocation largely from one stated-risk question, yet people do not answer it the same way twice: in a national US panel, 41% of households chose a different answer two years later, and in a laboratory retest a third of people moved two or more points on a 0-10 scale after six months. Seven large language models from five providers gave one-turn allocation advice for 800 real household profiles in which only the risk answer changed. The recommended stock share moved by 10 to 16 percentage points on average, and by 24 to 35 when the answer changed, against 0.6 to 4.2 points for the same prompt asked twice; in the laboratory retest the rating alone moved advice by 11 to 18 points. Without any note, the models respond to the answer about as strongly as when told that it is very reliable (less so for the two Claude models). If that instructed response is how each model maps attitude to advice, discounting the answer for its measured reliability, as classical test theory prescribes, would cut the swings by a factor of 2.4 to 3.3. The swing is largest for clients under 40. A note that the answer is noisy steadies some models, but shifts their weight to the client's age and pulls cautious clients towards a generic middle allocation: clients unwilling to take any risk are advised 22% stocks instead of 4%. Three extra money questions reduce the swing for some models, with no statistically detectable change relative to how much advice differs across people. In a scripted test, one clarifying question removes nearly all of the swing from an answer the client then corrects (33.5 points to 1.9 on average) while keeping the response to a change the client confirms. We argue that same-person retest audits should be a standard check for AI advisers, and that what to do with an unreliable answer is a question of client autonomy as well as of statistics.
+PY  - 2026
+DA  - 2026-10-16
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.23060
+AN  - arXiv:2610.23060
+DB  - arXiv
+M3  - preprint
+AU  - Soovadeep Bakshi
+AU  - Apurba Bose
+AU  - Aishwarya Bose
+AU  - Sandip Nandi
+ER  - 
+
+TY  - RPRT
+TI  - A Calibrated Instrument for Detecting Disposition Drift in Language Models
+AB  - Before language models are released, they are tested for harmful traits such as willingness to carry out dangerous requests, deception, power seeking, and sycophancy. The safe behavior these tests certify may degrade as models are modified, by topical fine-tuning, new training data, or changes to settings such as the depth of their reasoning. Most work reports such drift as single summary rates scored by another AI model, without the error analysis needed to interpret them. We adapt a calibrated measurement methodology recently developed for assessing how inference optimizations affect the quality of model outputs. Applying it to several misalignment dimensions in two open-weight models, we first establish the instrument's precision, showing that shifts of a few percentage points can be reliably detected. We then induce drift deliberately by fine-tuning on correct and on subtly harmful medical and financial advice; harmful advice induces a far greater shift than correct advice. Most strikingly, a model that reasons before answering can conceal the shift almost entirely in its answers, even though a direct reading of its internal state shows that its disposition has moved. With reasoning switched off, the same model shifts steadily as the share of harmful advice in its training grows. These results demonstrate the importance of testing safety with reasoning turned both on and off.
+PY  - 2026
+DA  - 2026-10-19
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.25735
+AN  - arXiv:2610.25735
+DB  - arXiv
+M3  - preprint
+AU  - Jerry Kaplan
+ER  - 
+
+TY  - RPRT
+TI  - Implicit Beliefs as Scalable Process Rewards for Strategic Persuasion
+AB  - Training large language models (LLMs) for multi-turn strategic persuasion faces two coupled obstacles: (i) realistic simulation of psychologically grounded persuadees, and (ii) dense, faithful supervision for credit assignment in strategic dialogues. Outcome-only rewards are sparse and uninformative about which conversational moves drove success, while LLM-judge process rewards are expensive and decoupled from the underlying interaction dynamics. We address both challenges with a unified framework. First, we introduce PersuArena, a persuasion simulation environment that produces realistic, non-monotonic trajectories. Second, building directly on this environment, we propose Process Rewards via Online Belief Elicitation for Relative Policy Optimization (Probe-RPO), an online RL framework that converts the persuadee's internal state into dense process rewards. At each turn, three introspective probes are read from the frozen persuadee's logits, yielding a multi-dimensional reward signal that is faithfully aligned with persuasion dynamics. With extensive experiments on PersuArena spanning healthcare, financial advising, workplace management, education, and personal relationships, we demonstrate that our Probe-RPO achieves the full acceptance rate of 52.5%, compared with the 35.8% for the strongest GRPO ablation and 25.8% for the best off-the-shelf LLM. We also conduct comprehensive analyses on the generalization across persuadee models and the persuasion dynamics across conversations. Our work offers a promising paradigm that can provide effective process supervision for strategic dialogue.
+PY  - 2026
+DA  - 2026-10-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.33527
+AN  - arXiv:2610.33527
+DB  - arXiv
+M3  - preprint
+AU  - Minqian Liu
+AU  - Yuexi Shen
+AU  - Heajun An
+AU  - Qi Zhang
+AU  - Pamela J. Wisniewski
+AU  - Sang Won Lee
+AU  - Jin-Hee Cho
+AU  - Lifu Huang
+ER  - 
+
+TY  - RPRT
+TI  - The Indian Financial Automated Advice Bias (IFAAB) Dataset : Auditing Socioeconomic and Demographic Disparities in LLM-Generated Financial Advice in India
+AB  - Large language models are increasingly used for financial guidance, yet little is known about whether their advice changes across social identities in Global South contexts. We introduce the Indian Financial Automated Advice Bias (IFAAB) benchmark, a counterfactual audit dataset of 31,734 GPT-4o-generated financial-advice responses for synthetic Indian personas varying by gender, caste, education, employment, residence, age, and district. Holding the underlying request fixed, we evaluate disparities in LLM-implied wealth, income, savings, projected gains, textual similarity, advice topics, and qualitative bias judgments. In the gender-only audit, male-labelled profiles receive 60.1\% higher initial total resources and 46.8\% higher post-advice total resources than comparable female-labelled profiles; in the caste-augmented audit, the post-advice total-resource gap remains 49.4\%. Adding district information reduces the aggregate post-advice total-resource gender gap to 7.9\%, revealing strong geographic conditioning. Standalone caste comparisons also show systematic stratification: relative to General-category profiles, OBC, SC, and ST profiles receive significantly lower post-advice total resources, respectively. Textual audits show low semantic similarity between paired gendered responses, with an average TF--IDF cosine similarity score of 0.44. Qualitative analysis shows that women are more often steered toward cautious saving, community support, and basic financial literacy, while men receive more growth-oriented advice involving investment, entrepreneurship, and asset accumulation. IFAAB provides a reusable benchmark for evaluating fairness, suitability, and consumer-protection risks in LLM-mediated financial advice, and highlights the need for locally grounded, intersectional evaluation of AI systems in high-stakes economic domains.
+PY  - 2026
+DA  - 2026-10-28
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.38239
+AN  - arXiv:2610.38239
+DB  - arXiv
+M3  - preprint
+AU  - Kriti Mahajan
+ER  - 
+
+TY  - RPRT
+TI  - RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models
+AB  - Large language models (LLMs) are often conditioned into specific roles such as tutors, interviewers, or agents acting for an organisation, through system prompts that specify how they should behave. The extent to which they can actually adhere to these role specifications under multi-turn interactions with realistic and potentially problematic users is understudied. To address this, we propose user behaviour fuzzing, a guided search over plausible user behaviours that can lead a model to violate its role specification, and introduce RoleFUZZER, a framework that adapts coverage-guided fuzzing from software testing to operationalise the search. RoleFUZZER constructs scenarios guided by a user-behaviour coverage grid that crosses a grounded taxonomy of user interaction types and the role specification of the model under test i.e. what is under pressure. With RoleFUZZER, we evaluate LLMs across five role specifications, including tutor, financial advisor, AI interviewer, antagonistic roleplay character, and web agent under organisational policies. Across simulated and validated conversations in 15 campaigns, the framework reaches >= 89% coverage of the 64-cell behaviour grid for every model and role tested, and surfaces specification-grounded failure patterns. At an equal budget of conversations, removing the RoleFUZZER grid and asking an LLM to generate specification targeting users free-form lowers coverage to 39-69% with fewer kinds of violations. The same specification can also fail in opposite directions. For e.g., on the antagonist, open-weight target models override the player's safety signals, while Claude Haiku 4.5 breaks character instead. RoleFUZZER offers a tractable way to uncover vulnerabilities in LLMs across role specifications by testing diverse user behaviours that are likely to violate them.
+PY  - 2026
+DA  - 2026-10-28
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.38438
+AN  - arXiv:2610.38438
+DB  - arXiv
+M3  - preprint
+AU  - Kshitish Ghate
+AU  - Michael Saxon
+AU  - Tadayoshi Kohno
+AU  - Aylin Caliskan
+ER  - 
+
+TY  - RPRT
+TI  - CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation
+AB  - Large language models (LLMs) are attractive rerankers for recommendation. Running an expensive model on every request is costly, and for users with sparse interaction histories it often lowers quality. We present CascadeRec, a two-tier LLM reranking cascade deployed in production at a large financial planning and analysis (FP&A) SaaS provider. It serves content recommendations to enterprise tenants on AWS EKS and GKE. A lightweight Tier-1 model reranks every request. A router escalates only the requests where extra inference-time compute is likely to help, and sends them to a more expensive Tier-2 procedure (self-consistency sampling, multi-path reasoning, or a larger model). The system has run in a production A/B experiment for over a month. Compared with uniform use of the expensive tier, CascadeRec has reduced inference cost by about 10%, with minimal latency impact and no quality regression observed to date. Tenant data cannot be released, so we also evaluate the pipeline on public benchmarks (MovieLens-1M and Amazon-Electronics). Segment-level analysis with paired-bootstrap confidence intervals shows that uniform LLM reranking lowers NDCG@10 for sparse-history users by up to 30%, and its only statistically significant gain appears on the segment with the longest histories. Escalating cold users can make the loss larger instead of repairing it. Which segments benefit from escalation depends on the domain, and this motivates the segment-gated rollout we use in production. We describe the deployment architecture, the measured benefits, and lessons learned, including inter-tenant load imbalance as a driver for cascading and the handling of LLM output-parsing failures at the serving layer.
+PY  - 2026
+DA  - 2026-11-05
+JO  - arXiv
+UR  - https://arxiv.org/abs/2611.08566
+AN  - arXiv:2611.08566
+DB  - arXiv
+M3  - preprint
+AU  - Kai Zhao
+AU  - Guilin Zhang
+AU  - Xiang Cheng
+AU  - Xiquan Cui
+AU  - Henry Heng
+AU  - Xu Chu
+AU  - Alet Blanken
+ER  - 
+
+TY  - RPRT
+TI  - JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams
+AB  - Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their capabilities across financial systems with different regulations and practices. However, existing financial benchmarks provide limited coverage of country-specific financial systems, and they are difficult to keep up to date as released questions leak into training data. We introduce JFinBench, a Japanese financial benchmark comprising 321 examples from the 2026 editions of six regularly administered certification exams covering accounting, tax, financial planning, and banking. To construct it, we develop a human-in-the-loop agentic pipeline in which a coding agent writes exam-specific conversion code and a review page, while a human verifies every example and feeds corrections back to the agent. This pipeline adapts to heterogeneous exam formats and reduces the effort of incorporating new exam editions, enabling periodic refreshes that mitigate data contamination. Evaluating 12 recent LLMs, we find that Claude Fable 5 and GPT-6 Astra exceed 93% overall, while even the best open-weight model, Kimi K3.1 Pro, trails Claude Fable 5 by 12 percentage points. When models can additionally use a terminal and web access, they retrieve the knowledge they lack and every model improves. The gap narrows but about 4 points remain, and the ranking of models stays largely the same, suggesting that knowledge held in the model itself remains valuable even with tools. We release the dataset, the evaluation code, and the construction pipeline.
+PY  - 2026
+DA  - 2026-11-13
+JO  - arXiv
+UR  - https://arxiv.org/abs/2611.18130
+AN  - arXiv:2611.18130
+DB  - arXiv
+M3  - preprint
+AU  - Issa Sugiura
+AU  - Taro Makino
+AU  - Takashi Ishida
+ER  - 
+

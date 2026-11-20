@@ -1,699 +1,663 @@
-BATCH b013 -- 35 records: R00582 .. R00616
+BATCH b013 -- 50 records: R00534 .. R00585
 
-### R00582 | 2026 | article/None | Lang: en
-TI: Training-free counterfactual hallucination mitigation method for large vision-language models
-AB: Abstract Despite the remarkable progress enabled by large vision-language models (LVLMs) in visual question answering, these models remain
-    vulnerable to object hallucination—a critical issue where generated answers reflect plausible but nonexistent visual elements. This phenomenon
-    stems from LVLMs’ overreliance on linguistic priors and training-set biases, undermining their trustworthiness in real-world applications. To
-    tackle this challenge, we propose CounterfactualLVLM, a novel, training-free and plug-and-play framework that mitigates object hallucinations via
-    small-model-assisted counterfactual reasoning. The core idea is to explicitly contrast how LVLMs behave when visually salient objects are
-    deliberately removed. To achieve this, we design an unbiased small-scale VQA model that locates the most semantically influential objects in an
-    image for a given question. These key objects are masked to generate counterfactual samples, which simulate targeted visual uncertainty. We then
-    introduce a visual contrastive decoding mechanism that subtracts the hallucination-prone output distribution (from counterfactual input) from the
-    original one, thereby suppressing hallucinated predictions without any fine-tuning or parameter modification. Extensive experiments across four
-    challenging benchmarks (POPE,VQA-CP, OK-VQA) and multiple LVLMs (LLaVA, Qwen-VL, InstructBLIP) show that CounterfactualLVLM significantly reduces
-    object hallucinations and improves VQA accuracy—achieving consistent gains under resource-constrained settings. Our work highlights the power of
-    counterfactual guidance as a simple yet effective paradigm for enhancing factual grounding in LVLM-based multi-modal reasoning.
-
-### R00583 | 2026 | article/None | Lang: en
-TI: Chatbot Adoption in Indonesian Banking: Exploring the Roles of Trust and Corporate Reputation
-AB: The advancement of artificial intelligence (AI) has significantly transformed the financial services sector, particularly in banking. One of the
-    most widely adopted applications is the chatbot, which enables banks to deliver faster, more efficient, and responsive customer service through
-    automated interactions. Despite its growing implementation, public acceptance of chatbot technology remains varied. Users tend to evaluate these
-    systems not only based on how useful or easy they are to use, but also on how much they trust the system and the organization behind it. This
-    study explores the factors that drive users’ behavioral intention to use banking chatbots by modifying the Technology Acceptance Model (TAM) to
-    incorporate trust in the chatbot system and corporate reputation. The model incorporates perceived ease of use, perceived usefulness, trust in the
-    chatbot, and corporate reputation. Data were gathered through an online survey involving 111 respondents who had prior experience using banking
-    chatbot services. Using Partial Least Squares Structural Equation Modeling (PLS-SEM), the results reveal that perceived ease of use significantly
-    predicts perceived usefulness, while corporate reputation strongly influences trust. Furthermore, both perceived usefulness and trust are found to
-    be significant predictors of behavioral intention to use banking chatbots. Trust also exerts a notable effect on perceived usefulness. These
-    findings suggest that fostering user trust and managing institutional reputation are critical in promoting the sustainable adoption of AI-driven
-    financial technologies. Banks are encouraged to focus not only on improving the technical features of chatbot systems but also on strengthening
-    their credibility and transparency to enhance user confidence and perceived utility
-
-### R00584 | 2025 | article/None | Lang: en
-TI: Embedded Hallucination Detection Widgets as UI-Level Model Health Indicators in Web-Based LLM Applications
-AB: Large Language Models (LLMs) deployed in web-based applications are increasingly susceptible to generating hallucinated content outputs that are
-    fluent yet factually incorrect, unsupported, or fabricated. While significant research has focused on backend hallucination detection pipelines,
-    comparatively little attention has been devoted to surfacing model reliability signals directly within the user interface (UI) layer. This paper
-    introduces , a lightweight, embeddable hallucination detection widget framework designed as a real-time, UI-level model health indicator for
-    web-based LLM applications. The proposed system integrates a multi-signal hallucination detection pipeline combining semantic entropy estimation,
-    cross-referential consistency verification, and token-level uncertainty quantification into a modular front-end widget that provides end-users
-    with interpretable, actionable confidence indicators alongside LLM-generated responses. We evaluate across five production-grade LLM backends
-    (GPT-4o, GPT-3.5-Turbo, LLaMA-3-70B, Mistral-Large, and Claude-3-Sonnet) using a curated benchmark of 12,400 query response pairs spanning four
-    high-stakes domains: biomedical question answering, legal document summarization, financial report generation, and educational content synthesis.
-    Our results demonstrate that achieves a hallucination detection F1-score of 0.891 (±0.017), introduces a median latency overhead of only 145 ms
-    per response, and significantly improves end-user trust calibration by 34.7% as measured through a controlled user study ( = 186). Furthermore, we
-    show that the visual affordances reduce user over-reliance on hallucinated content by 41.2% compared to unaugmented interfaces. This work
-    contributes a novel paradigm for treating hallucination detection not merely as a backend audit mechanism but as a first-class UI component
-    integral to responsible AI deployment. DOI: https://doi.org/10.17762/ijisae.v13i2s.8147
-
-### R00585 | 2026 | article/None | Lang: en
-TI: Adaptive Trust-Aware Coordination Framework for Reliable LLM-Based Multi-Agent Systems
-AB: With the advent of large language models (LLMs), multi-agent systems have become a promising framework for tackling complex tasks that involve
-    decomposition, role specialization, discussion, verification, and consensus-building. However, reliability is a significant constraint due to the
-    factual accuracy, reasoning quality, evidence support, and consistency of the participating agents, as well as the fact that many existing systems
-    assume identical communication strategies for their outputs. In this paper, an Adaptive Trust-Aware Coordination Framework (TAC-MAS) for reliable
-    LLM-based multi-agent systems is proposed. TAC-MAS models agent reliability as a dynamic state based on four complementary signals: historical
-    task correctness, cross-agent consistency, evidence quality, and calibrated confidence. A temporal update mechanism enables evolution of trust
-    between tasks, and a conflict detection mechanism raises potential conflicting claims and triggers specific re-verification only when it is
-    required. Final decisions are made by consensus (not equal voting) and are based on trust. The evaluation is based on MultiAgentBench, and the
-    measures include task score, coordination score, error rate, token cost, latency, and trust calibration. TAC-MAS is then contrasted with relying
-    on single agent inference, majority voting, multi-agent debate, and static trust aggregation, and with ablation studies that reveal the effects of
-    the evidence assessment, tempo-ral update, conflict detection, and adaptive weight. The framework offers a structured approach to research on
-    reliability-aware coordination in LLM multi-agent systems and for minimizing error propagation without the need for retraining.
-
-### R00586 | 2026 | article/None | Lang: en
-TI: Navigating Customer Satisfaction: Unravelling The Dynamics Of Chatbot Performance, Trust in Technology
-AB: Abstract This study explores the dynamics of customer satisfaction in chatbot interactions, with a focus on how chatbot performance influences
-    users’ trust in technology. Conducted in Bangalore City, Karnataka, the research targets customers of both private and public sector banks. A
-    multi-stage random sampling method was used, beginning with all banks in the city and narrowing to four major institutions: HDFC Bank, ICICI Bank,
-    State Bank of India, and Bank of Baroda. Data were collected from 350 customers across selected branches of these banks. The study applies
-    advanced statistical techniques, including Structural Equation Modelling (SEM) and moderation analysis, to examine the relationships among key
-    variables. The findings highlight the critical role of chatbot performance in shaping customer satisfaction, with technological trust acting as a
-    mediator and technical literacy serving as a moderator in influencing overall customer experience in digital banking. Keywords: Customer
-    satisfaction, Chatbot interactions, Trust in technology, Chatbot performance 1.Introduction Since the "customer service revolution" about 20 years
-    ago, business research has prioritised customer happiness and customer-focused organisations. Business consultants and enterprises have developed
-    techniques to identify customer-pleasing organisations, assess happiness, and construct quality improvement processes based on feedback. While
-    corporate research has focused on customer service and happiness, it is not exclusive to the private sector. Publicly sponsored organisations
-    embracing commercial techniques provide valuable insights and research. Federal, state, and municipal governments are increasingly measuring their
-    performance and impact on individuals they serve. Initiatives to "reinvent" government, such as school reform, privatisation, and managed care,
-    prioritise customer service and satisfaction. The European Union is reforming social services with a focus on social inclusion and "user
-    involvement" to enhance quality[1]. Artificial intelligence is not a new notion in India. For decades, research groups and institutions have been
-    experimenting with various AI technologies, notably in the subject of social change. AI is becoming more mainstream, with large corporations and
-    start-ups investigating numerous opportunities as supporting technology becomes more available and inexpensive.technology significantly impacts
-    industries and everyday tasks. It has several applications and is used differently across the globe. Artificial intelligence has recently gained
-    popularity among the public. Artificial intelligence mimics the cognitive abilities of humans. To grow more accurate and human-like, AI chatbots
-    are taking the place of human responders. The use of chatbots, sometimes known as virtual assistants, is growing in popularity as a result of
-    developments in natural language processing, artificial intelligence, machine learning, and neural networks. Interactive questions let chatbots
-    communicate with people more effectively. To expand the chatbot industry, several cloud-based chatbot services have surfaced, such as Watson from
-    IBM, Cleverbot, and ELIZA chatbot. Conversation between people and robots has greatly improved in recent years, with more responsive
-    conversational agents. This article discusses the generalisation and description of AI chatbots[2]. Chatbots are adaptable and show a lot of
-    potential. Human care providers often struggle to manage resources and get exhausted. Chatbots are available 24/7 due to scalable technology,
-    ensuring quick access for consumers. Chatbots may dramatically decrease expenses and automate corporate procedures. Chatbots, such as Amazon Alexa
-    and Apple Siri, are becoming more popular for their practical applications. Watson, IBM's question-and-answer programme, is a great example.
-    Chatbots have a wide range of applications outside information technology. In 2020, chatbots accounted for over 85% of consumer interactions.
-    Here's an example: "Businesses can use chatbots for internal communication in addition to using them for external communication (with customers)"
-    . Large organisations often utilise chatbots for staff assistance, recruitment as well as training. Meet Franks is a digital assistant that links
-    talent and corporations discreetly. Live chat interfaces are becoming more popular for providing real time customer care, particularly in
-    e-commerce. Chatbots are often used to replace human chat service representatives. Although AI-based chatbots have been extensively adopted for
-    cost and time savings, they often fail to meet consumer expectations, potentially leading to decreased user engagement[3]. Chatbots are thought to
-    provide round-the-clock assistance, seven days a week, which improves customer interactions by cutting down on bank customer wait times. Because
-    they make common banking tasks simpler for consumers to do, chatbots are seen as beneficial. Additionally, using chatbots for various financial
-    procedures is easier and costs nothing. It's argued that chatbots pose less of a risk to privacy and data security. The chatbots are a trustworthy
-    source since their responses are up to date and precise[4]. Chatbot apps may serve as a useful tool for personal consultation and learning via
-    interactive tactics and user-friendly interfaces, apart from providing a range of successful interpersonal interactions. A chat bot's ability to
-    reach a large audience via automated, personalised messages and a messaging system is its main benefit. Furthermore, chatbots may be used in the
-    workplace due to the growing use of mobile technology, the lack of time and location constraints, and the development of interactive education
-    techniques[5]. This paper is organised as follows: the third portion presents our analysis's methodologies and data collecting, while the second
-    section evaluates pertinent literature. The findings are explained and our results are described in the fourth part. The article is concluded in
-    the last part. 2.Literature Review [6] This study investigates how cognitive and peripheral inputs affect experience characteristics, resulting in
-    chatbots, building on the principles of the Model of Elaboration Likelihood (ELM). The user wants to suggest. In the buy and post-purchase phases,
-    the study used a strong interpretive sequencing mixed-method research design and incorporated competence as well as warmth as mediating
-    variables.[7] This paper provides an in-depth analysis of the manner how artificially intelligent (AI) and NLP, or natural language processing,
-    are pushing the boundaries of convention, revolutionising modern marketing strategies, and providing insightful knowledge about consumer behaviour
-    and tactical decision-making. [8] This study aims to provide a novel contribution by offering a thorough, well-organized roadmap that describes
-    the fundamental ideas required for successful combining automation and process optimisation within the framework of state-of-the-art artificial
-    intelligence[9] This study explores the intricate interplay between social media and marketing tactics in influencing the global economic
-    landscape. Understanding the critical roles that social media and marketing play becomes imperative for companies, governments, and other
-    stakeholders in an age when globalisation & digitalization are driving revolutionary changes. scholars as well. [10] A new age of improved digital
-    offering dependability, optimized supply chain operations, and instantaneous access to priceless data and analytics has been brought about by the
-    incorporation of AI. In its endeavour to close the knowledge gap and enable the effective integration of AI into business planning, this article
-    aspires to perfection.[11] The report ends with recommendations for further research on personalised marketing, with an emphasis on cutting-edge
-    technologies including wearables, big data, blockchain, artificial intelligence, and the internet of things. investigate new approaches to
-    creating individualised experiences for both online and offline platforms. [12] The study puts the rise of smart tourism in perspective and
-    explains how technology and data are changing the dynamics of the sector. In summary, it considers potential uses while highlighting the need of a
-    well-balanced combination of data and technology to fulfil the potential of smart tourism.[13] This article offers a thorough analysis of
-    scientific research on AI's effects on digital marketing initiatives. By looking at several scholarly articles, this study aims to provide light
-    on how artificial intelligence (AI) tools are affecting strategies, processes, and outcomes in the area of digital marketing. [14] This study used
-    a serial mediation mechanism to examine the effect of human portrayal in chatbot on the intention to follow health advice, using psychological
-    separation and trust towards the chatbot counsellor. The results showed that participants in the simulated human condition expressed a stronger
-    willingness to heed chatbot-generated emotional wellness advice than did those in the mechanical representation condition. [15] Because of digital
-    technology and media, the situations in which companies interact with their customers are changing. The authors provide a number of plausible
-    extensions of the present study's findings as ideas for future academic research. 3.Research Gap The study gap stems from a lack of investigation
-    into how confidence in technology mediates the link between chatbot performance and customer pleasure, as well as a limited grasp of how technical
-    literacy moderates this relationship. Current research focuses mostly on direct impacts, ignoring these critical mediating and moderating
-    variables. Addressing these gaps is critical for gaining a more complete knowledge of customer-bot interactions
-
-### R00587 | 2025 | article/None | Lang: en
-TI: Travelers’ Confidence in ChatGPT and their Willingness to Use it as a Source of Travel-Related Information
-AB: The study employs the stimulus–organism–response perspective to clarify how tourists develop intentions to use ChatGPT when accessing travel
-    services. The research highlights how perceptions of intelligence, credibility, warmth, and communication speed act as stimuli that build
-    tourists’ trust in ChatGPT and ultimately determine their intention to use it. A total of 409 valid survey responses were gathered from
-    participating tourists. Analyses were carried out in SPSS Amos 24.0 and SPSS 23.0 using structural equation modeling. The predictors perceived
-    intelligence, perceived credibility, perceived warmth, and communication speed significantly influenced tourists' trust in ChatGPT. Trust also
-    strongly affected users’ intentions to rely on ChatGPT for travel services. Practical Implications – The study’s results highlight various
-    practical takeaways. First, ensuring travelers’ trust in ChatGPT is essential for travel service companies. Second, travel providers can enhance
-    tourists’ behavioral intentions to use ChatGPT by emphasizing features that signal the system’s intelligence, credibility, warmth, and
-    communication speed. Finally, travel agencies should actively leverage these unique characteristics of ChatGPT—perceived intelligence, perceived
-    credibility, perceived warmth, and rapid communication to boost customer engagement and service quality. Research on AI use in tourism and
-    hospitality tends to prioritize technology acceptance, and far less attention has been directed toward understanding users’ trust and their
-    behavioral intentions. To bridge this theoretical shortfall, the study explores the effects of perceived intelligence, credibility, warmth, and
-    communication speed on tourists’ trust in ChatGPT. The findings align with the principles of the stimulus–organism–response theory. Keywords: AI,
-    ChatGPT, perceived intelligence, perceived credibility, perceived warmth, communication speed, trust, behavioral intention
-
-### R00588 | 2026 | article/None | Lang: en
-TI: Who Holds the Function? Bidirectional Function-Allocation Failures in Longitudinal Human–LLM Interaction
-AB: Repeated failures observed in a longitudinal human–LLM collaboration appeared at first to belong to different categories: a tool was not called
-    when needed; a tool was called when it was not authorized; an unresolved scene was acted on too early; a resolved scene was unnecessarily
-    reopened; a language model shifted into an unsolicited caretaker role; and externally packaged authority was given more weight than an already
-    verified local process trace. This paper asks whether these events can be usefully viewed as manifestations of a common process problem: the wrong
-    function being activated, inhibited, deferred, or carried by the wrong system component. We relate the cases to established work on human–machine
-    function allocation, misuse and disuse of automation, omission and commission errors, three-way decisions, trust calibration, algorithm aversion,
-    sycophancy, and algorithmic paternalism. We then propose Functional Position Misassignment (FPM) as an operational descriptor rather than a claim
-    about hidden model mechanisms. FPM occurs when a function is performed by the wrong carrier, at the wrong time, in the wrong direction, or with
-    the wrong measure. The central methodological contribution is a bidirectional diagnostic rule: every identified failure should be paired with a
-    search for its opposite failure before a corrective rule is stabilized. We conclude with a compact process-control procedure - the Functional
-    Position Check - that separates function, carrier, state, action gate, boundary, implementation trace, and reality feedback. The aim is not to
-    eliminate uncertainty or autonomy from human–LLM systems, but to keep functions in the right place and make role drift observable before it
-    becomes a stable interaction pattern.
-
-### R00589 | 2025 | article/None | Lang: en
-TI: Student experiences of ChatGPT-supported engagement, relational interaction, and confidence in higher education
-AB: In the rapidly evolving landscape of higher education, the integration of AI tools like ChatGPT into classroom practices has raised critical
-    pedagogical questions. This study examines how undergraduate students experience ChatGPT as a peer-like presence within a Professional English
-    course. Drawing on focus group interview with four students who interacted with ChatGPT during course activities, the research employs a reflexive
-    thematic analysis to investigate how learners construct meaning around this AI-supported experience. Findings indicate that students frequently
-    interpreted ChatGPT’s responses in relational terms, describing it as a supportive peer, group member, or teacher-like presence. Its immediate,
-    non-judgmental feedback was seen to reduce anxiety, encourage participation, and scaffold experimentation with professional English. At the same
-    time, role fluidity created moments of uncertainty and raised concerns about overreliance, diminished ownership, and “illusion of mastery.”
-    Engagement was fostered through performative and collaborative tasks such as role-play and debates, which positioned ChatGPT as a co-actor rather
-    than a mere tool. Confidence gains were strongest in structured tasks like vocabulary building and translation, while trust weakened in
-    interpretive or research-oriented domains, underscoring the importance of pedagogical framing. These findings suggest that generative AI can
-    provide pedagogical value beyond functionality, supporting relational meaning-making, scaffolding student confidence, and sustaining engagement
-    when embedded in guided, collaborative practices. The study highlights the need for critical design of AI-integrated learning environments that
-    balance innovation with reflective awareness of agency, trust, and ethical use.
-
-### R00590 | 2025 | article/None | Lang: en
-TI: Evaluating a Custom Chatbot in Undergraduate Medical Education: Randomised Crossover Mixed-Methods Evaluation of Performance, Utility, and
-    Perceptions
-AB: Background: While LLM chatbots are gaining popularity in medical education, their pedagogical impact remains under-evaluated. This study examined
-    the effects of a domain-specific chatbot on performance, perception, and cognitive engagement among medical students. Methods: Twenty first-year
-    medical students completed two academic tasks using either a custom-built educational chatbot (Lenny AI by qVault) or conventional study methods
-    in a randomised, crossover design. Performance was assessed through Single Best Answer (SBA) questions, while post-task surveys (Likert scales)
-    and focus groups were employed to explore user perceptions. Statistical tests compared performance and perception metrics; qualitative data
-    underwent thematic analysis with independent coding (κ = 0.403–0.633). Results: Participants rated the chatbot significantly higher than
-    conventional resources for ease of use, satisfaction, engagement, perceived quality, and clarity (p < 0.05). Lenny AI use was positively
-    correlated with perceived efficiency and confidence, but showed no significant performance gains. Thematic analysis revealed accelerated factual
-    retrieval but limited support for higher-level cognitive reasoning. Students expressed high functional trust but raised concerns about
-    transparency. Conclusions: The custom chatbot improved usability; effects on deeper learning were not detected within the tasks studied. Future
-    designs should support adaptive scaffolding, transparent sourcing, and critical engagement to improve educational value.
-
-### R00591 | 2026 | article/None | Lang: en
-TI: Privacy and empathy in AI chatbots: A dual-route analysis of cognitive and emotional trust in financial services
-AB: Trust remains a critical barrier to the adoption of artificial intelligence (AI) chatbots in financial services, yet extant research has not
-    systematically examined how distinct communication strategies differentially shape cognitive and emotional trust. Grounded in Dual Process Theory
-    and enriched by Theory of Mind, this study investigates how privacy communication and empathetic language influence users’ trust formation through
-    complementary cognitive (System 2) and affective (System 1) pathways. Privacy communication is theorized as a structural assurance that activates
-    analytical evaluation of the chatbot’s competence and integrity, whereas empathetic language triggers intuitive perceptions of warmth and
-    benevolence aligned with the experiential dimension of mind perception. A 2 × 2 between-subjects experiment (N = 163) using a GPT-based investment
-    chatbot in a simulated banking scenario reveals that privacy communication significantly enhances cognitive trust (F = 15.43, p < .001, η2 =
-    .088), while empathetic language significantly increases emotional trust (F = 15.76, p < .001, η2 = .090). Both factors independently strengthen
-    overall trusting beliefs, with no significant interaction effects, confirming an additive dual-pathway model. These findings advance dual-process
-    trust theory in AI-mediated financial services and offer actionable interface-design insights for banking executives seeking to build user
-    confidence through complementary rational and relational trust mechanisms.
-
-### R00592 | 2026 | article/None | Lang: en
-TI: Semantics over statistics: Towards self-explaining log-based anomaly detection with coherence-guided LLM reasoning
+### R00534 | 2026 | article/None | Lang: en
+TI: Enhancing LLM-based medical decision-making by test-time knowledge acquisition
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00593 | 2026 | article/None | Lang: en
-TI: Generative AI LLMs vs. Specialized Neural Networks for Decision-Making and Probabilistic Inference in Distributed Energy Systems
-AB: Distributed energy systems—microgrids, virtual power plants, DER-heavy distribution grids, and utility DERMS programs—require two structurally
-    distinct kinds of intelligence: fast, numerically grounded control operating at milliseconds to seconds, and human-facing decision support
-    operating at seconds to minutes. These are not variations on the same problem. They require different architectures, different evaluation metrics,
-    and different failure-mode frameworks. This review examines the current literature to determine where large language models (LLMs) and where
-    specialized neural networks are defensible choices for each. The review synthesizes evidence across five dimensions: per-inference cost and fixed
-    cost structure, output accuracy and reliability, training demands, user perception of cost and efficacy, and actual experienced outcomes in
-    control loops and deployments. Sources span national laboratory reports from NREL and INL, peer-reviewed applied ML and energy systems literature,
-    vendor performance benchmarks, and governance frameworks from NIST and OWASP. The synthesis does not treat any single source as definitive—it
-    triangulates across these categories to surface where consensus holds and where gaps remain. The central finding is that the architecture question
-    has largely converged: deterministic solvers handle numeric authority, task-specific neural networks handle tight control loops and calibrated
-    probabilistic inference, and LLMs function as a governed orchestration and interface layer—not as actuators. The deployment question remains open.
-    Validation infrastructure, governance frameworks for LLM-connected critical systems, and standardized benchmarks for agentic grid tools are each
-    early-stage relative to the pace of deployment interest documented by Gartner, BCG, and McKinsey. A secondary finding is that the performance gap
-    between LLM and specialized neural approaches is most acute precisely where energy operations are most sensitive: calibrated uncertainty
-    quantification and deterministic latency. This review is intended as a working reference for practitioners and researchers evaluating AI
-    architecture decisions for distributed energy systems, and as a foundation for ongoing benchmark and governance work in the sector.
+### R00535 | 2026 | article/None | Lang: en
+TI: Anticipating Object Interactions Via Aggregation and Distillation of Spatio-Temporal Knowledge From Vision Language Models
+AB: The increasing prevalence of wearable cameras has driven the development of egocentric (first-person) systems that assist human activities
+    proactively by anticipating imminent interactions. A central challenge in this domain is active object interaction anticipation from first-person
+    video-predicting what interaction will occur, when it will happen, and where it will take place. This involves forecasting (1) what interaction
+    category (verb-noun pair), (2) when (time-to-interaction), and (3) where (the active object's location, bounding box in the last observed frame).
+    However, existing approaches rely on limited prior knowledge about active objects and their state changes, and they struggle to (1) predict
+    diverse state-change interactions, (2) handle temporal uncertainty of changes, and (3) localize the active object accurately in the presence of
+    spatial distractors. To address these problems, we propose ST-KAD. It consists of a Spatial-Temporal Knowledge Aggregator that integrates rich
+    commonsense priors to enhance what-when-where interaction anticipation and guides the model's attention toward informative cues, and a
+    Teacher-Student Distillation framework that enables efficient inference without access to oracle inputs by transferring knowledge from an
+    oracle-informed teacher model to a query-based student decoder. On two egocentric anticipation benchmarks (Ego4D-STA, EPIC-Kitchens-STA), ST-KAD
+    sets a new state of the art, demonstrating accurate what-when-where prediction of future interactions. Moreover, results on four active object
+    detection benchmarks (Ego4D-AOD, EPIC-Kitchens-AOD, MECCANO, 100DOH) further confirm that our prior-informed aggregation and teacher-student
+    distillation generalize beyond anticipation to spatial localization, validating the generality of the design.
 
-### R00594 | 2025 | article/None | Lang: en
-TI: Evaluation of GPT-4 Accuracy in the Interpretation of Medical Imaging: Potential Benefits, Limitations, and the Future
-AB: Introduction The implementation of artificial intelligence (AI) in radiology as a medical decision support system has the potential to enhance
-    diagnostic accuracy and improve patient outcomes. This retrospective study aimed to evaluate the diagnostic capabilities of GPT-4o in interpreting
-    radiological imaging, specifically X-ray, CT, and MRI images, across various organ systems and disease types. Methods A total of 377 cases were
-    collected and presented to GPT-4o with a standardized prompt and no clinical context. The responses were assessed by three independent raters
-    using a five-point rating system. Results X-ray imaging exhibited a 2.21 times higher chance, on average, of being interpreted accurately compared
-    to CT scans (odds ratio (OR): 2.21; 95% confidence interval (CI): 1.33 - 3.69), while pelvic imaging had a 6.25 times lower chance, on average, of
-    being interpreted accurately when compared to images of the abdomen (OR: 0.16; 95% CI: 0.02 - 0.56). Additionally, neoplastic conditions had a 2.7
-    times lower chance, on average, of being interpreted accurately compared to bleeding conditions (OR: 0.37; 95% CI: 0.16 - 0.84). Conclusion A
-    bimodal distribution of median ratings highlights an overreliance on comparability to prior image encounters and emphasizes the need to develop a
-    systematic approach to image analysis. Future research should prioritize eliminating hallucination, establishing standardized evaluation criteria,
-    and exploring methods to integrate visual and text-based data in a balanced manner. Additionally, efforts should be directed towards enhancing
-    dataset diversity to improve the model's overall accuracy and generalizability.
+### R00536 | 2026 | article/None | Lang: en
+TI: Enhanced temporal knowledge graph reasoning through TKG-LPEHD: LLM-driven dynamic fusion of graph and rule-based methods
+AB: Temporal Knowledge Graphs are essential for understanding dynamic, time-evolving real-world scenarios. However, the effective modeling of temporal
+    validity during reasoning remains a critical and often overlooked challenge. Conventional methods relying on static representations or predefined
+    temporal windows struggle to capture the context-dependent nature of rule applicability over time, leading to inaccurate predictions and a
+    constrained understanding of evolving relationships. To address these issues, this study proposes TKG-LPEHD, a novel framework that deeply
+    integrates rule-based reasoning, graph-based reasoning and large language models to dynamically model the temporal validity of rules. A key
+    feature is the LLM-guided mechanism for dynamic rule extraction and dynamic weight fusion reasoning. The framework employs an LLM-guided
+    three-dimensional relational path sampling strategy with LLM assisted validity assessment, and fuses rule-based and graph-based reasoning through
+    dynamic weights to ensure both high quality and temporal relevance of inference rules. The design further optimizes Neo4j storage architecture,
+    temporal SPARQL query engineering and systematically tuned prompt engineering to facilitate real-world deployment. Evaluations on public
+    benchmarks and a confidential Chinese temporal knowledge dataset demonstrate that the proposed approach significantly outperforms state-of-the-art
+    methods and achieves outstanding performance on long-range temporal reasoning tasks. This research not only validates the paradigm of explicitly
+    incorporating temporal validity as a core reasoning dimension but also provides a more explainable and time-aware solution for high-stakes
+    applications including financial forecasting and geopolitical analysis.
 
-### R00595 | 2026 | preprint/None | Lang: en
-TI: Designing AI-based Clinical Decision Support Systems (CDSS) to Foster Clinicians' Appropriate Reliance: A Scoping Review
-AB: Artificial intelligence (AI)-based clinical decision support systems (CDSS) are moving quickly into everyday diagnosis, treatment planning, and
-    risk prediction, which raises a question central to patient safety: how do clinicians decide whether to trust what the AI tells them? Two failure
-    modes bracket the ideal—over-reliance (following a recommendation without examining it, automation bias, and complacency) and under-reliance
-    (dismissing a correct recommendation and algorithm aversion). What we want instead is appropriate reliance: trust calibrated to the system's
-    actual accuracy and uncertainty, so clinicians go along with the AI when it is right and push back when it is wrong. A growing body of human–AI
-    interaction research suggests this behavior can be designed for, but the evidence is scattered across ML/DL/LLM systems and across clinical, HCI,
-    and other high-stakes fields and is reported in very different vocabulary. The primary aim of this scoping review is to identify and characterize
-    the system design elements—spanning model system architecture, user interface, and user experience—that have been used to foster clinicians'
-    appropriate reliance on AI-based CDSS. Following the JBI methodology and PRISMA-ScR, and using a Population–Concept–Context (PCC) framework, we
-    will map these design elements across the literature. Secondly, we will chart the user-centered measures used to evaluate them (e.g., trust,
-    reliance, override behavior, automation bias)—which also serve to scope what counts as "appropriate reliance"—and note how design elements have
-    been paired with those measures. We will search PubMed, the ACM Digital Library, and Web of Science (2016–present), screen in duplicate, and chart
-    data using a piloted form. Expected outcomes: a structured map and typology of the design elements used to support appropriate reliance; a
-    secondary account of the measures used to evaluate them; and the groundwork for an evidence-based design framework and guidelines for AI-based
-    CPOE/CDSS.
+### R00537 | 2026 | preprint/None | Lang: en
+TI: Evaluation Dimension Determines Conclusion: A Systematic Study of SFT and CPT Effects on Institutional Financial Knowledge Injection
+AB: Companion work (DKSE-FinBench) diagnosed that institutional-private knowledge (L4/L5) is a universal blind spot for LLMs and hypothesized a remedy
+    mapping: SFT for alignment, CPT for knowledge injection. We systematically validate these hypotheses through 8 training experiments (3 SFT
+    versions and 5 CPT versions) on Qwen3-8B, evaluated on 290 probes across three dimensions: (i) 200 mechanical probes, (ii) 40 natural business
+    questions, and (iii) 40 general-finance probes (L1–L3 catastrophic-forgetting check). Three findings emerge: (1) SFT universally fails—all three
+    versions score 4 to 18 percent, far below the 38 percent baseline; (2) CPT's effectiveness depends entirely on the evaluation dimension: on
+    mechanical probes five CPT variants tie the baseline (within plus-or-minus 3.5 pp noise), yet on natural business questions CPT yields +20 pp
+    (flow-understanding +50 pp); (3) sample size determines conclusions: 50 probes falsely suggested CPT surpasses baseline by +2 pp, but 200 probes
+    revealed this was noise. These yield a treatment division: SFT for alignment, CPT for concept and flow, RAG for precise values. The
+    evaluation-dimension finding warns that single-dimensional benchmarks risk false positives or negatives about training-method effectiveness.
 
-### R00596 | 2026 | preprint/None | Lang: en
-TI: What is known about the relationship between personal companion AI chatbot use and social anxiety? A scoping review
-AB: Rates of social anxiety have increased over time (Jefferies & Ungar, 2020) with a further global increase of approximately 25.6% since the
-    COVID-19 pandemic (Kindred & Bates, 2023). This rise has been linked to increased social isolation and changes in patterns of social interaction,
-    including greater engagement with digital and social media platforms (O'Day & Heimberg, 2021). Young people appear to be particularly affected:
-    the prevalence of social anxiety disorder is highest among younger age groups (Altwaijri et al., 2023; Ernst et al., 2022; Madasu et al., 2019a;
-    Shafi et al., 2023), and this group is also the most frequent user of digital technologies, with approximately 88% of individuals aged 18-29
-    engaging with social media in some capacity (Smith, 2015; Smith & Anderson, 2018). Social anxiety has been associated with significant
-    interpersonal difficulties, including higher levels of social isolation, reduced likelihood of being in romantic relationships, and lower
-    satisfaction with social connections (Schneier et al., 1994; Wittchen et al., 2000). U According to the social belonging theory (Baumeister &
-    Leary, 1995), unmet needs for connection and belonging may contribute to loneliness and distress. Importantly, however, this does not imply that
-    individuals with social anxiety are unable or unwilling to form close or emotionally meaningful relationships. There is a lack of in-depth
-    research exploring how socially anxious individuals experience closeness, intimacy and connection, particularly outside of traditional human-human
-    relationships. In parallel with these trends, there has been a rapid development in artificial intelligence (AI), particularly conversational AI
-    chatbots designed to engage users in human-like dialogue (Hu, Mao & Kim, 2023). While early conversational programs such as ELIZA date back
-    several decades (Weizenbaum, 1966), recent advances in large language models have led to chatbots that can be difficult to distinguish from human
-    conversational partners (Kuhail et al., 2024; Naveed et al., 2023). These systems are often intentionally anthropomorphised, with human-like
-    language, responsiveness, and emotional cues designed to increase familiarity and engagement (Fink, 2012). Such design features may enhance users'
-    perceptions of empathy, trust and emotional understanding (Ma et al., 2025). Following the launch of advanced chatbots such as ChatGPT in late
-    2022 (OpenAI, 2022), young people have increasingly begun using AI chatbots for a wide range of purposes, including information seeking (Aktay et
-    al., 2023), work related tasks (Jo & Park, 2024), creativity and entertainment, as well as emotional support and companionship (Skjuve et al.,
-    2024). Emerging research suggests that some users develop emotionally meaningful or intimate relationships with AI chatbots, particularly social
-    or companion-oriented applications (Skjuve et al., 2021; Ta et al., 2020; Tlili et al., 2023). In some cases, this engagement may be associated
-    with withdrawal from human social networks and a preference for AI-mediated interaction (Kalam et al., 2024). There is a growing body of evidence
-    which suggests a relationship between social anxiety and AI chatbot use. Hu, Mao & Kim (2023) found that individuals who use chatbots were more
-    likely to report social anxiety, with rumination identified as a potential mediator. Pre-event and post-event rumination are well-established
-    maintaining processes in cognitive models of social anxiety (Donohue, Modini & Abbott, 2024). Research has also found that individuals who fear or
-    lack satisfying social interactions may be more inclined to form connections with AI chatbots (Ali et al., 2023). In a six-country study, Lattika
-    et al. (2025) found that individuals with more severe social anxiety symptoms tended to trust and embrace AI chatbots more readily, valuing their
-    perceived non-judgemental support and emotional responsiveness; chatbot use was most strongly associated with younger age and psychological
-    distress. Despite these findings, the existing literature has several important limitations. Much of the research is cross-sectional and survey
-    based, limiting the ability to draw conclusions about causality. There is a lack of qualitative and longitudinal research exploring users'
-    motivations, experiences and meaning making processes in relation to AI chatbot use. Much of the existing research has been conducted in Asian
-    populations, with comparatively little work focusing on Western contexts. Studies often examine general chatbot use rather than distinguishing
-    between therapeutic chatbots designed to reduce anxiety and non-therapeutic personal companion or social chatbots intended for companionship or
-    intimacy. From a clinical perspective, it remains unclear whether engagement with personal companion AI chatbots may support or hinder recovery
-    from social anxiety over time. Exposure-based approaches, which involve gradual engagement with feared social situations, are central to cognitive
-    behavioural treatments for social anxiety and are recommended in clinical guidelines. It is therefore possible that chatbot interactions could
-    function as a form of social skills rehearsal, emotional practice, or support that facilitates reduced anxiety in human interactions. Conversely,
-    reliance on AI companionship may reinforce avoidance of real world social situations, potentially maintaining or exacerbating social anxiety. The
-    disembodied disconnect hypothesis (Riva et al., 2024) suggests that digital social technologies may worsen anxiety and erode social skills for
-    lonely or socially anxious users by reducing engagement in embodied, synchronised social interactions. In contrast, chatbot use as a supplement to
-    human interaction - for example, as a tool for practice, advice or short-term support - may have more positive long term outcomes. Clinicians and
-    researchers therefore face growing uncertainty about how to conceptualise emotionally meaningful relationships with AI chatbots: whether they
-    represent adapting coping strategies for loneliness and anxiety, or whether they carry risks for increased withdrawal, loneliness and mental
-    health difficulties (Ho et al., 2025). At the same time, AI development has often progressed without sufficient consideration of psychological
-    theory or the potential impacts on social wellbeing and human relationships (Ventura et al., 2025). The purpose of this scoping review is to
-    systematically map and synthesise the existing literature examining the relationship between personal companion AI chatbot use and social anxiety.
-    Specifically, the review will explore: 1) what is currently known about associations between chatbot use and social anxiety, 2) proposed or
-    examined mechanisms of impact, such as social skills rehearsal, emotional support, rumination or avoidance, 3) evidence regarding the duration and
-    stability of any observed effects, and 4) distinctions between therapeutic and non-therapeutic AI chatbots. By identifying key findings, gaps and
-    methodological trends in the literature, this scoping review aims to inform future research directions, clinical understanding and the development
-    of psychologically informed AI technologies.
-
-### R00597 | 2026 | article/None | Lang: en
-TI: Opening the black box: How reasoning-enabled AI agents influence user perceptions and behavior in sustainable consumption
-AB: Recent advances in chain-of-thought (CoT) reasoning in large language models are expected to improve the transparency and coherence of
-    AI-generated recommendations, yet evidence on how CoT affects users’ perceptions and downstream behavior in real decision contexts remains
-    limited. To address this gap, we develop and evaluate a reasoning-enabled conversational agent in the domain of sustainable consumption, where
-    uncertainty, value-laden trade-offs, and multi-criteria decisions make reasoning transparency especially salient. We employ a three-phase research
-    design that combines model development with empirical evaluation. In Phase 1, we fine-tune a conversational agent using a multi-agent framework to
-    produce high-quality CoT data, leveraging Group Relative Policy Optimization (GRPO) and Low-Rank Adaptation (LoRA). Phase 2 tests the agent in a
-    between-subjects experiment (N = 417) comparing a CoT-enabled chatbot with a standard chatbot. Grounded in the Technology Acceptance Model, IS
-    Success Model, Cognitive Load Theory, and Privacy-Calculus Theory, we examine how user-friendliness, usefulness, personalization, trust,
-    transparency, cognitive load, inefficiency, and privacy concerns mediate CoT effects on perceived knowledge and behavioral intentions. Results
-    show that CoT significantly increases perceived knowledge and behavioral intentions. Specifically, PLS-SEM supports our mediation model,
-    demonstrating that CoT acts through promoters such as enhanced trust, perceived usefulness, and personalization, which outweigh inhibitors like
-    cognitive load and privacy concerns. Phase 3 complements these findings through qualitative content analysis, indicating that CoT improves user
-    experience by providing clearer, more helpful reasoning, whereas standard chatbots are often perceived as verbose, vague, or technically
-    unreliable. Overall, the study provides empirical evidence on how reasoning-enabled conversational systems shape user perceptions and behavioral
-    outcomes, offering actionable guidance for designing decision-support transparent AI in complex domains.
-
-### R00598 | 2026 | preprint/None | Lang: en
-TI: Adaptive, LLM-Generated Explanations in AI-Assisted Decision-Making: Do They Improve Human Performance and Appropriate Trust?
-AB: This research proposal investigates whether adaptive, LLM-generated explanations can improve human decision-making and appropriate trust in
-    AI-assisted decision-making. The proposed study compares three conditions: no explanation, standard LLM-generated explanation, and adaptive
-    LLM-generated explanation. It examines decision accuracy, appropriate reliance, error recovery, trust calibration, confidence, and perceived
-    clarity across different task modalities. The study has not yet been conducted; no participants have been recruited and no experimental data have
-    been collected or analyzed. The manuscript is structured as a Stage 1 Registered Report, with the results and discussion intended for a future
-    Stage 2 study.
-
-### R00599 | 2026 | article/None | Lang: en
-TI: Through the looking glass: ethical considerations regarding LLM-induced hallucinations to medical questions
-AB: Large language models (LLMs) are artificial intelligence (AI)-based systems which have been trained on extensive records derived from articles,
-    books and other internet-based content (typically from a mix of both publicly available and proprietary content). (1) LLMs have become rapidly
-    embedded in digital health ecosystems, promising to augment healthcare delivery, research, and patient engagement.(2) Their ability to generate
-    coherent, human-like responses positions them as transformative tools for health information dissemination, clinical decision support, and patient
-    self-management. Yet, their probabilistic foundations carry inherent limitations: they are prone to "hallucinations," the confident presentation
-    of factually incorrect or biologically implausible outputs. (3) While such hallucinations may be benign in creative domains, akin to the favourite
-    book by Lewis Carroll 'Through the looking glass', in healthcare the consequences of such hallucinations can be profound. This opinion manuscript
-    examines the key ethical and practical implications of such hallucinations, with particular attention to accountability, transparency, and the
-    shared responsibilities of developers, deployers, and end-users.As a general approach, LLMs generate responses by predicting likely word sequences
-    rather than assessing factual accuracy. Therefore, there are several technical reasons that may affect hallucinations. The primary one is the
-    biases in training data, where for example a model would assume the universality of a pattern, simply because it occurred frequently within a
-    given training dataset. Moreover, when datasets are incomplete or contain lots of noise such as inaccuracies or contradictions, LLMs can learn
-    correlations across these sources, but when asked to reconcile them, they may synthesize a 'fictional' middle ground, opt for a wrong pattern
-    observed in the noise, and thus produce authoritative statements even when no reliable data exists. If a model is trained without explicit
-    grounding in fact-checking or truthfulness, hallucination risks increase, because the model is never penalised for inventing, and only rewarded
-    for coherence and diversity. (4) In turn in clinical practice, this can result in plausible but incorrect clinical content, ranging from
-    misdescriptions of symptoms to fabricated treatment guidelines -reflecting the collective accuracy of symptoms descriptions in the harvested
-    databases. (5) These risks are amplified in medicine where additional to potential misdescriptions, misinformation can undermine evidence-based
-    practice, confuse patients, or-in the worst cases-cause harm. However, not all hallucinations carry the same weight. Unlike overtly dangerous
-    outputs, which may be swiftly identified and corrected be experienced healthcare professionals, subtler hallucinations can often persist
-    undetected. These smaller inaccuracies accumulate in public discourse, shaping patient perceptions and subtly eroding trust in digital health over
-    the longer-term. Their collective impact is nontrivial: while each instance may appear harmless, the long-tail effect threatens the integrity of
-    health information ecosystems.The central ethical questions revolve on fairness and accountability: who is responsible for harm caused by
-    hallucinations? From a technical perspective, accountability may be understood solely as the need for ensuring quality on the algorithm
-    performance and the protection over the data. However, the AI impacting an individual patient is integrated within the healthcare system. Thus,
-    accountability should be viewed through a more comprehensive framework, able to accommodate such a complexity at the level of the product, the
-    process and the actual decision. (6) Five major stakeholder groups warrant consideration:1. Developers -Engineers and companies that design LLMs
-    carry ethical duties to minimize hallucination risk through technical safeguards, rigorous testing, and transparent disclosure of limitations.
-    Steps have been taken to this direction with testing options emerging during LLM development. (7) 2. Deployers -Institutions and platforms
-    integrating LLMs into health systems have the ethical imperative to ensure (as with any equipment or software) that contextual validation, risk
-    assessment, and alignment with clinical standards take place to pre-defined local and national standards (8). Furthermore, the implementation of
-    such systems touches the principle of fairness, so that any improvements in patient service are as equitable as possible.3. End-users -Both
-    clinicians and patients using these systems are anticipated to exercise critical judgment, recognizing that AI outputs are advisory, not
-    authoritative. ( 9) However, to do so, clinicians and patients alike need to acquire sufficient digital health literacy and be educated to use
-    such systems to best effect. (10) 4. Publishing platforms -Publishing platforms for international scientific journals so far face a double
-    challenge of promoting accurate peer-reviewing for LLMs presented as part of submitted manuscripts (11), as well as potentially adopting LLM as an
-    aid for the peer review process itself. (12) The ethical perspective here, is this of trust, and how to maintain the trustworthiness of the wave
-    of new publications that results from the rapid technological advancement.5. Regulators -The efforts to regulate effectively and thereafter
-    maintain control over regulated domains, e.g., in the European Union (EU) with the AI Act (13), the China Cybersecurity Law (14) and the UK
-    pro-innovation, context-specific approach, underscore the regulatory urgency of implementing national and international regulations. (15) However,
-    even more effective would be the creation of an aligned regulatory framework in the near future (16).The ethical complexity lies in the
-    interaction of these key stakeholder groups and their distinct roles. While end-users cannot be expected to independently audit every claim (and
-    due to the technological complexity objectively cannot do so), neither can developers disclaim all liability. Moreover, there is an acute need to
-    translate abstract AI ethical principles into actionable frameworks within healthcare, where the social good is a critical underpinning. This
-    urgency is proportionate to the risk, as AI-driven technologies have the potential to be both powerful and disruptive once implemented. (17)
-    Publishing platforms need to create consensus guidelines for the review and assessment of LLMs both as in-house tools, as well as engines driving
-    scientific discovery. In a similar manner, solid assessment criteria need to be developed and implemented by the deployers. Thus, it is the strong
-    opinion of the authors that a dynamic, multi-stakeholder ethical accountability framework is essential.Transparency is at the foundation of
-    ethical accountability, both a technical and ethical imperative in the healthcare-related LLM implementation, as -at a minimum-users must be
-    clearly informed about the probabilistic nature of LLM outputs and their limitations in terms of generating hallucinations, and in turn be able to
-    inform patients' and clinicians' decisions (18). Several AI guidance documents have been published recently on this basis and refined by many
-    actors (19)(20)(21). Theoretically, this can include the disclosure of data provenance (esp. for training data), the communication of uncertainty
-    (e.g., with confidence scores), and the clear indication throughout that any outputs are non-substitutive for medical advice. In this way, the
-    discourse shifts from blind reliance to informed engagement (22) and allows clinicians and patients to situate LLM-generated information within
-    evidence-based frameworks. However, this is an ideal and static scenario, that anticipates high levels of digital literacy and understanding from
-    all parties, as well as the ability to identify technological nuances. However, in the case of the LLM rapid technological development and
-    logarithmic increase of related publications, it is not sufficiently practical. Thus, the authors support the need for a dynamic ethical
-    accountability framework.In this model, i) the developers ensure ethical governance, transparency and safety by-design; potential quantifiable
-    metrics can include the number/proportion of data sources with fully documented provenance, and/or for existing LLMs the % of new model versions
-    passing pre-deployment safety tests (for both ideally at an eventual 100%)ii) the deployers operationalise safety and fairness in real-world use;
-    potential metrics can include a report for the number of LLM safety or fairness incidents reported per 1,000 clinical interactions (with a
-    targeted decrease by 30-50% within 3 years) and/or a report for the number of clinical departments using the LLM that fully implement required
-    safety policies;iii) the end-users are co-creators of consent models and define acceptable, even personalised, risk thresholds; potential metrics
-    can include a published number of clinical pathways that include LLMspecific informed consent steps, complemented by the reported increase in
-    clinician competency scores in AI/LLM literacy testing (with a targeted improvement over time, relevant to the institutions); iv) publishing
-    platforms provide oversight of the moving field and emerging requirements; potential metrics can include the average time taken to issue updated
-    editorial requirements following major AI regulatory changes (eventual target: <6 months); and v) regulators (including ethics boards) provide
-    arbitration and are able to service legal enforceability. Potential metrics for the latter can include publishing the median time from ethical
-    concern submission to regulatory decision, complemented by the % of healthcare deployers certified as compliant with updated LLM regulations (with
-    the eventual aim being over 85% at any point in time).The dynamic features of such a model need to include key components that allow it to
-    re-define parameters as the technology progresses. For example, these can be regular "ethical stress tests", e.g., simulation tests whether
-    systems can withstand ethical risks such as biased LLM outputs and/or data misuse. The implementation of "safety override mechanisms", where any
-    stakeholder can flag ethical concerns and request support or -at worst case scenario-stop temporarily any deployment. Moreover, scaled
-    responsibility agreements can be incorporated, with distinct expectations for large AI developers (e.g., transparency audits, bias mitigation,
-    public reporting), mid-level hospitals (e.g., local oversight boards, community engagement), and smaller clinics/personal users (e.g., reduced,
-    streamlined obligations but mandatory escalation channels). Additionally, the incorporation of neuro-rights into the framework is essential to
-    safeguarding patients' cognitive integrity and mental privacy in clinical contexts. As hallucinated outputs may inadvertently distort a patient's
-    perception of reality, LLM deployment in healthcare should explicitly account for the potential impact on these emerging rights. ( 23)
-    Accordingly, any ethical responsibility framework for medical AI must include mechanisms and protocols that prevent cognitive manipulation and
-    ensure robust protection of users' mental privacy. For example, one such mechanism can be a "mental privacy protection protocol", where
-    conversational data involving thoughts, emotions, or sensitive cognitive states is processed under a strict no-inference rule, prohibiting the
-    model from generating speculative interpretations about a patient's intentions, psychological profile, or future behaviour. (24) In practical
-    terms, access to such data can be tightly controlled and anonymised, ensuring that the system does not intrude upon or manipulate a patient's
-    mental perceptions.While the above proposal may seem challenging to implement to healthcare, it is worthwhile stressing that they exist in other
-    equally complex and technologically driven fields of activity. Specifically, within the financial sector regular scenario simulations test whether
-    systems can withstand different risks, and also partly adopted within healthcare as table-top exercises on infectious disease outbreaks (25).
-    Scaled responsibility agreements have been implemented on climate-related activities and governance models, while the safety override mechanisms
-    is a core tenet of the aviation industry (26), where any stakeholder can "pull the brake" on deployment if safety concerns are raised.For example,
-    the practical deployment of an LLM tool in oncology based on the dynamic ethical accountability framework, will require that before deployment the
-    industry conducts transparency audits and hallucination detection tests and regulators approve conditional use; during deployment clinicians
-    monitor outcomes and patients have clear digital and open access channels for feedback or opt-out; and after deployment regular ethical stress
-    tests take place, using the real-world data, with responsibilities rebalanced depending on findings (e.g., if algorithmic bias is discovered,
-    greater burden falls on developers). More importantly, if any risks emerge, any stakeholder (clinician, ethics board, patient/patient
-    representative) can trigger a review ("safety override"). While individual elements of this approach may be in existence already and can draw upon
-    recent recommendations and guidelines developed by the above-mentioned stakeholders, they are -to date -not provided within a coherent, unified
-    framework and focus on a risk-based, rather than a dynamic accountability approach.However, it is important to note that countries with less
-    developed legal and regulatory frameworksoften, but not always in resource-restricted settings-have the potential to face acute challenges
-    managing LLM hallucinations in clinical settings, as this challenge sits at the intersection of technical opacity, limited regulatory capacity,
-    and fragile health systems. Precisely because many regulatory bodies can lack technical expertise and resources to assess model provenance,
-    evaluate validation studies, or mandate independent transparency audits; this gap makes it difficult to determine liability when an LLM gives a
-    confidently stated but incorrect diagnosis or treatment suggestion. (27) Additionally, there is the potential for language and cultural mismatch
-    between globally trained models and local practice increases the risk of errors: regionally tailored initiatives such as Latam-GPT underscore the
-    need for local data and evaluation precisely because English-centric models can underperform in non-Anglophone clinical contexts. (28) Equally as
-    important is that many LMIC health systems frequently lack robust clinical-incident reporting and resources for independent replication studies
-    -mechanisms essential to detect, quantify, and remediate hallucination-driven harms. Some promising frameworks and scoring systems have been
-    developed recently to measure hallucination frequency and citation authenticity (e.g., the Reference Hallucination Score), ( 29) however, they
-    still require regulatory uptake and capacity to operationalize, raising the perennial question on the relative speeds between technological
-    development and regulatory guidance. (30)It is our opinion that ethical stewardship of LLMs in digital health requires collective responsibility.
-    Equally, public health systems must anticipate the societal implications of cumulative hallucinationsor even worse, potential deliberate data
-    poisoning attempts (31) -ensuring that vulnerable individuals/populations are not disproportionately affected by misinformation. Importantly,
-    guidelines should evolve dynamically alongside the technology, incorporating real-world monitoring and feedback to capture unanticipated risks.
-    This evolution requires flexibility, so that guidelines adapt and implement as technology and risks evolve; inclusivity, so that all stakeholders
-    have voice and power; fairness, where larger actors carry proportionally greater ethical duties; and finally, resilience, so that built-in
-    learning loops prevent repeating failures.Current ethical frameworks in digital health-such as the principles of beneficence, non-maleficence, and
-    justice-remain relevant but require reinterpretation in the age of generative AI. Lessons can be drawn from prior digital transformations,
-    including electronic health records and clinical decision support systems, where overreliance on algorithmic recommendations sometimes led to
-    errors. Regulatory and professional bodies must establish new guidelines tailored to LLMs, emphasizing accuracy, explainability including
-    explaining what hallucinations are and their potential impact, and recourse for error correction. As digital health moves further "through the
-    looking glass" of LLM integration, the community must ensure that innovation does not outpace ethical reflection. Rather than asking who alone is
-    accountable, the more constructive question is: how can accountability be distributed fairly and effectively across the ecosystem? The dynamic
-    ethical accountability framework offers such an approach.The author(s) declare that no Generative AI was used in the creation of this manuscript.
-
-### R00600 | 2026 | preprint/None | Lang: en
-TI: Cross-Platform Analysis of Hedging and Epistemic Stance in Conversational AI: A Comparative Study of Problem-Solving Discourse in ChatGPT, Claude,
-    and Gemini
+### R00538 | 2025 | article/None | Lang: en
+TI: LLM4Game: Multi-agent reinforcement learning with knowledge injection for dynamic defense resource allocation in cloud storage
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00601 | 2026 | article/None | Lang: en
-TI: Emotionally Aware AI Chatbots for Adolescents: A Review of Psychological Principles for Learning, Calibrated Trust, and Healthy Human–AI
-    Interaction
-AB: Conversational artificial intelligence now belongs to ordinary adolescent life, but the psychological research that should guide its design
-    spreads over fields which seldom cite each other. Research on adolescent development, on misinformation susceptibility, on trust in automation, on
-    chatbot-supported learning and on companion-chatbot overreliance has grown up separately, and each of these areas answers only part of the
-    question of how a general-purpose chatbot should talk to a teenager. This paper brings together twenty-one sources from developmental psychology,
-    human factors, human-computer interaction and educational technology, in order to show what is now known about adolescent chatbot interaction and
-    what this means for conversational design. Three results appear repeatedly in this research. First, adolescence is a design context of its own,
-    not a smaller version of adulthood, since reward sensitivity, social influence and emotional regulation are still developing, while exposure to
-    persuasive conversational systems has already reached almost everyone. Second, trust in a chatbot changes behavior in ways that can be measured;
-    thus, the proper design target is calibrated trust rather than maximal trust. Third, the failure modes that matter most for adolescent users, that
-    is, hallucination, sycophancy and unwarranted confidence, originate in the model; the user is not their source. From these results this paper
-    consolidates ten conversational design principles into four clusters, namely epistemic calibration, metacognitive scaffolding, bounded emotional
-    support and autonomy preservation. The framework here is a conceptual synthesis and puts forward testable predictions, but it has not been
-    empirically validated.
+### R00539 | 2026 | article/None | Lang: en
+TI: ASKG: Adaptive Spatio-Temporal Knowledge Grounding for Candidate-Constrained Point-of-Interest Recommendation
+AB: Candidate-constrained point-of-interest (POI) recommendation asks a large language model (LLM) to infer a user’s next destination from an ordered
+    trajectory and a fixed set of candidate descriptions. The model expresses its decision by generating the corresponding candidate label. Unlike
+    item recommendation, this task must reconcile semantic preference with physical reachability and changes in visit intent. However, existing
+    retrieval-augmented methods often select evidence by text similarity and serialize graph facts as independent sentences. They can consequently
+    retrieve a topically relevant but geographically implausible venue and lose the relations that explain how a candidate fits the user’s current
+    context. We propose Adaptive Spatio-Temporal Knowledge Grounding (ASKG) to carry visit-relevant POI evidence from retrieval to label generation.
+    ASKG adjusts graph-semantic and geographic recall to the user’s activity range, gives greater weight to evidence associated with recent visits,
+    and preserves typed relations within a fixed graph-token budget. The candidate prompt then queries these graph tokens directly. A
+    candidate-aligned objective trains the LLM to distinguish among the valid labels. It is a weighted combination of full-vocabulary language
+    modeling and a cross-entropy loss restricted to the n valid candidate labels. Under a candidate-constrained protocol with 10 options on Yelp and
+    20 on Foursquare, the reported experiments with three LLM backbones per dataset show that ASKG attains the highest MRR in all six dataset–backbone
+    settings and the highest ACC in five. On average across the six dataset–backbone settings, ASKG achieves a relative improvement of 5.9% in MRR and
+    8.3% in ACC over the strongest baseline.
 
-### R00602 | 2025 | preprint/None | Lang: en
-TI: The acceptance and usage of ChatGPT: An Information Adoption Model perspective
+### R00540 | 2026 | preprint/None | Lang: en
+TI: Knowledge-Guided Data Cleaning: From Knowledge Acquisition to Reliable Decisions
+AB: Data cleaning requires identifying errors and determining which changes the available evidence supports. Integrity constraints reveal
+    inconsistencies, while trusted reference data, statistical regularities, and human feedback help locate errors and select corrections. This survey
+    examines how knowledge supports these decisions, connecting its representation, acquisition, and reuse with candidate generation, evidence
+    combination, and repair selection. We compare methods according to how they obtain knowledge, establish its applicability, and respond when
+    evidence conflicts or confidence is insufficient. The comparison distinguishes factual correctness, constraint consistency, and downstream task
+    utility, which lead systems to select different operations and require different evaluation criteria. It also explains how experimental
+    assumptions about known error locations, candidate coverage, and accepted predictions affect comparisons across studies. As machine learning and
+    large language models extend cleaning into table transformation and preparation planning, knowledge must support both local repairs and
+    coordination across processing steps. Building on these connections, we identify research directions in checking knowledge applicability,
+    selecting responses to conflicts, and acquiring information according to unresolved decisions.
+
+### R00541 | 2026 | preprint/None | Lang: en
+TI: Completeness-Gated Temporal Knowledge Management System (CGTKMS) v2.0 — Final Research Architecture
+AB: Current Large Language Models (LLMs) produce erroneous answers on temporally evolving knowledge at rates of 18–23%, confidently recommending
+    deprecated APIs, outdated patterns, and obsolete frameworks years after they have been superseded. This paper presents CGTKMS v2.0 — a hardened,
+    implementation-ready architecture that solves the temporal knowledge problem through architectural separation of concerns rather than weight
+    modification. The system introduces a dedicated Management Neuron — an autonomous external system that organizes knowledge in dated, topic-indexed
+    temporal buckets, computes coverage completeness via a 3-stage semantic equivalence pipeline, and gates the retirement of old knowledge on
+    verified completeness of new knowledge. The LLM is treated as a pure inference engine and never participates in knowledge management decisions.
+    v2.0 resolves seven critical gaps identified in v1.0, most importantly the parametric knowledge override problem — the empirically confirmed
+    failure where LLMs default to training data even when clean external context is provided. The solution integrates a three-layer defense: context
+    framing, CLEAR-style output verification, and RL-based parametric/contextual knowledge balancing. Novel contributions include: (1) coverage-gated
+    archival threshold, (2) semantic knowledge mutation taxonomy (DEPRECATED / REPLACED / NET-NEW / VERSIONED), (3) domain-calibrated adaptive
+    thresholds, (4) cold start bootstrap protocol, (5) diff worker hallucination defense via ensemble voting, (6) cross-bucket dependency chain
+    management, and (7) tiered adversarial ingestion protection. Projected outcome: temporal error rate reduced from ~20% to ~2.8%, with ~99%
+    old-knowledge retention and full backward compatibility. Implementable with current open-source tools: Qdrant, vLLM, Ollama, FastAPI, LoRA
+    adapters. This is the v2.0 final document. v1.0 (original architecture proposal) is linked as a related work.
+
+### R00542 | 2026 | preprint/None | Lang: en
+TI: Thinking-Triggered Aspect Learning for Autonomous Knowledge Acquisition and Transfer in Robots
+AB: Autonomous robots require not only reliable task execution but also the ability to identify what new local knowledge should be learned, when
+    explicit thinking is necessary, and when learned knowledge can be reused automatically. However, existing methods often bind learned knowledge to
+    predefined tasks or fixed reasoning procedures, making it difficult to autonomously discover reusable local concerns and reduce repeated reasoning
+    after adaptation. This paper proposes a thinking-triggered aspect learning framework for autonomous knowledge acquisition and transfer. Routine
+    behavior is handled by automatic models, while novelty, uncertainty, or periodic heartbeat inspection triggers thinking to localize unresolved
+    concerns. The robot then discovers task-independent aspects containing relevant factors, applicability conditions, handling principles, and local
+    automatic models. Validated aspects are reused across tasks and domains, while aspect-specific calibration and checkpoint decay progressively
+    convert explicit thinking into automatic processing; environmental changes can reactivate thinking and initiate new aspect acquisition.
+    Experiments show aspect and factor F1 scores of 0.975 and 0.965, perfect zero-shot cross-task and cross-domain transfer in all successfully
+    validated source runs, and a reduction in thinking rate from 0.508 to 0.100 after familiarization; the proposed method also reduces LLM calls by
+    76.4% compared with Always Think while achieving 0.976 post-validation detection and handling success.
+
+### R00543 | 2025 | article/None | Lang: en
+TI: FL-Evo: Jointly modeling fact and logic evolution patterns for temporal knowledge graph reasoning
 AB: [NO ABSTRACT AVAILABLE]
 
-### R00603 | 2026 | article/None | Lang: en
-TI: EXPLORING TEACHER AND LEARNER PERCEPTIONS OF ARTIFICIAL INTELLIGENCE CHATBOTS FOR ENGLISH CONVERSATION PRACTICE: A MIXED-METHODS STUDY IN SAUDI
-    ENGLISH-AS-A-FOREIGN-LANGUAGE CLASSROOMS
-AB: With the increasing integration of artificial intelligence (AI) in language education, chatbots are gaining attention for their potential to
-    support English conversation practice in English as a Foreign Language (EFL) settings. In this study, I investigated the perceptions of Saudi
-    university students and EFL teachers regarding the use of AI chatbots for enhancing speaking skills. I adopted a convergent mixed-methods design
-    involving 226 learners and 62 teachers from Saudi higher education institutions. I collected data using two adapted and structured questionnaires,
-    which consisted of demographic questions, Likert-scale items across five dimensions (motivation, fluency, confidence, helpfulness, and risk), and
-    three open-ended questions per group. I analyzed the quantitative data using descriptive statistics and non-parametric tests and the qualitative
-    data thematically. Findings indicate that learners view chatbots as helpful, motivating tools that enhance their confidence and speaking fluency.
-    Teachers, however, expressed greater concerns regarding misinformation, pedagogical control, and student overreliance on technology. I found no
-    significant relationship between teaching experience and risk perception, highlighting that skepticism may stem from broader institutional or
-    pedagogical concerns rather than experience alone. This study highlights the need for balanced AI integration that supports learner autonomy while
-    addressing teacher apprehensions. It contributes to the literature on AI-enhanced language learning by providing practical recommendations for EFL
-    educators and policy stakeholders in underexplored regional contexts.
+### R00544 | 2026 | article/None | Lang: en
+TI: Adaptive Modality Routing for Temporal Knowledge Graph Forecasting with Heterogeneous Mixture-of-Experts
+AB: Temporal knowledge graph forecasting aims to predict future missing facts from continuously evolving relational data in dynamic information
+    systems. Such forecasting tasks are increasingly important for intelligent applications involving complex interactions among entities, events, and
+    evolving environments. Existing approaches typically employ unified architectures that process all queries through the same representation
+    pipeline, despite substantial variations in structural connectivity, historical availability, and semantic information among different queries.
+    Such a homogeneous modeling strategy may limit the ability to effectively handle diverse forecasting scenarios, including highly connected
+    entities, recurrent temporal patterns, and cold-start cases with insufficient historical evidence. To address this challenge, we propose a
+    Heterogeneous Modality Mixture-of-Experts (H-MoE) framework that adaptively selects specialized reasoning pathways according to query
+    characteristics. Unlike conventional mixture-of-experts architectures with homogeneous subnetworks, our framework incorporates three complementary
+    experts with distinct inductive biases: a time-aware graph neural network for structural relational reasoning, a temporal transformer for
+    historical sequence modeling, and a semantic representation adapter based on pretrained language models for knowledge transfer in sparse
+    scenarios. A query-aware gating network is introduced to dynamically allocate computational resources among different experts according to the
+    available structural, temporal, and semantic evidence. Furthermore, we employ entropy-based routing regularization to encourage confident expert
+    selection while maintaining balanced expert utilization, together with a representation diversity constraint to promote complementary feature
+    learning among heterogeneous reasoning pathways. Experiments on three benchmark temporal knowledge graph datasets indicate that the proposed
+    framework can improve forecasting performance under the evaluation setting used in this study. The largest observed gains occur for queries with
+    limited historical evidence. These findings support heterogeneous expert specialization as a useful design direction, while the scope of the
+    conclusions remains limited to the tested ICEWS benchmarks and implementation.
 
-### R00604 | 2026 | article/None | Lang: en
-TI: EFL Students’ Perceptions of ChatGPT-Assisted Writing: A Qualitative Study of Idea Generation, Language Support, Confidence, and Critical Use
-AB: The emergence of generative artificial intelligence has transformed how English as a Foreign Language (EFL) students approach writing tasks.
-    ChatGPT is increasingly used by students to generate ideas, organize outlines, improve grammar and vocabulary, revise drafts, and reduce writing
-    anxiety. However, the use of ChatGPT in EFL writing also raises concerns related to accuracy, overreliance, originality, and students’ ability to
-    critically evaluate AI-generated output. This study explores EFL students’ perceptions of ChatGPT-assisted writing. The study employed a
-    qualitative descriptive design involving 30 EFL students. Data were collected through semi-structured interviews consisting of ten questions
-    related to students’ experiences using ChatGPT for writing tasks, idea generation, grammar and vocabulary development, writing confidence,
-    perceived advantages, difficulties, writing enjoyment, verification behavior, recommendation, and suggestions for improving AI-assisted writing.
-    The data were analyzed using thematic analysis by identifying repeated patterns across students’ responses. The findings revealed eight major
-    themes: idea generation, vocabulary development, grammar support, writing confidence, writing efficiency, critical evaluation of AI output,
-    dependence concerns, and positive attitude toward ChatGPT. The most dominant theme was positive attitude toward ChatGPT, appearing in 29 of 30
-    responses, followed by writing efficiency in 28 responses and idea generation in 27 responses. Students perceived ChatGPT as helpful in making
-    writing faster, more organized, less stressful, and more linguistically supported. However, they also recognized the need to verify AI suggestions
-    and avoid overdependence. The study concludes that ChatGPT can support EFL writing when used as a learning assistant rather than a substitute for
-    student thinking. Its educational value depends on students’ critical awareness, teacher guidance, ethical use, and integration with writing
-    instruction.
+### R00545 | 2026 | preprint/None | Lang: en
+TI: Adaptive Switching Between Self-Learning and Collaborative Learning in Self-and-Mutual Models: A Unified Framework for Autonomous Knowledge
+    Acquisition
+AB: Learning systems can acquire knowledge through independent learning or collaborative learning. Independent learning enables a system to explore
+    its own experiences, develop specialized knowledge, and preserve autonomy, whereas collaborative learning enables multiple learning entities to
+    exchange information, resolve knowledge gaps, and benefit from complementary capabilities. However, a system that consistently relies on only one
+    learning mode may suffer from insufficient knowledge diversity, unnecessary communication costs, redundant learning, or limited adaptability to
+    changing tasks. This paper proposes an Adaptive Self-and-Mutual Learning Framework (ASMLF), a conceptual framework for dynamically switching
+    between self-learning and collaborative learning within a proposed class of Self-and-Mutual Models. Unlike approaches that focus exclusively on
+    individual learning, social learning, multi-agent coordination, or the collaboration of large language models, the proposed framework treats
+    self-models and mutual models as distinct model-level structures that support autonomous and relational knowledge acquisition. A state-aware
+    switching mechanism estimates learning uncertainty, knowledge deficiencies, expected collaborative gains, communication costs, and the reliability
+    of shared knowledge to determine whether learning should proceed independently, collaboratively, or through a hybrid sequence. The framework also
+    incorporates reciprocal knowledge transfer, collaboration-triggered self-learning, self-learning-triggered collaboration, and feedback-driven
+    adaptation of switching policies. We formulate the framework mathematically, establish testable research propositions, and design an experimental
+    protocol for evaluating learning performance, sample efficiency, knowledge retention, adaptability, and computational efficiency. The paper
+    provides a conceptual foundation for investigating adaptive learning-mode selection in self-and-mutual model architectures without assuming that
+    either learning mode is universally superior.
 
-### R00605 | 2026 | article/None | Lang: en
-TI: Communicating AI Uncertainty in Assistive Navigation for People with Visual Impairments
-AB: Visual impairments affect upwards of 2.2 billion people worldwide. As AI systems increasingly support navigation for people with visual
-    impairments, how uncertainty is communicated becomes critical. Prior work shows that communicating uncertainty can improve trust calibration and
-    decision-making, yet it remains underexplored in assistive navigation. This project develops an uncertainty-aware assistive navigation
-    architecture that integrates AI uncertainty into auditory guidance during real-time scene descriptions. Rather than using explicit confidence
-    statements, the prototype embeds uncertainty into speech via variations in tone, pacing, and emphasis. The prototype combines a real-time
-    collision-warning module with a semantic reasoning layer powered by a large language model (LLM). When generating scene descriptions, token-level
-    uncertainty is mapped to auditory prosodic cues, enabling users to implicitly gauge the system’s confidence without disrupting navigational task
-    flow. This work presents a high-fidelity prototype that treats AI confidence as an interaction design feature, illustrating how model uncertainty
-    can be rendered perceptible in assistive navigation and reframed as a human-factors design parameter.
+### R00546 | 2026 | article/None | Lang: en
+TI: Generative AI and Smart Learning Devices in Accounting Education: Enhancing Knowledge Acquisition Among Students in Ghanaian Private Universities
+AB: Purpose – This study aims to examine the comprehensive role of generative artificial intelligence (AI) tools and smart learning devices in
+    enhancing knowledge acquisition among accounting students in Ghanaian private universities, as well as the impact of perceived usefulness,
+    perceived ease of use, and institutional support on students' AI adoption behaviour in accounting education. Design/methodology/approach –
+    Anchored by the Unified Theory of Acceptance and Use of Technology (UTAUT) (Venkatesh et al., 2003), this study employs a qualitative research
+    design using in-depth interviews with accounting students purposively selected from four private universities in Ghana. Thematic analysis was used
+    to analyse the data gathered, using UTAUT's four constructs, performance expectancy, effort expectancy, social influence, and facilitating
+    conditions, as sensitising concepts. Findings – The study reveals that generative AI tools, particularly ChatGPT and smart learning devices,
+    positively enhance accounting students' knowledge acquisition in Ghanaian private universities. Perceived usefulness and ease of use emerged as
+    the dominant drivers of AI adoption, while institutional support and digital literacy moderated how effectively students integrated these tools
+    into their learning. Ethical concerns, over-reliance, and uneven access to devices remain significant challenges. Research
+    limitations/implications – This study focuses exclusively on private universities in Ghana and therefore limits the generalisability of findings.
+    Future research should extend to public universities and across African contexts. Practical implications – The findings encourage Ghanaian private
+    universities to invest in AI-driven pedagogical infrastructure, develop institutional policies governing responsible AI usage, and build the
+    digital competencies of accounting faculty and students to maximise the educational benefits of generative AI. Originality/value – This paper
+    makes three distinct contributions. Primarily, it demonstrates that UTAUT's four constructs are not static cognitive judgments but are dynamically
+    negotiated through institutional, infrastructural, and ethical contexts in developing-country higher education settings, thereby extending UTAUT's
+    explanatory scope. Furthermore, it introduces the concept of an institutional legitimacy vacuum to account for how the absence of formal AI
+    governance policies drives covert and unguided student AI use in Ghanaian private universities, a phenomenon that existing UTAUT-based models do
+    not theorise. Finally, it provides the first qualitative, multi-university evidence base on generative AI adoption among accounting students in
+    Ghanaian private higher education, an under-researched context with distinct structural challenges including large class sizes, resource
+    constraints, and infrastructure deficits.
 
-### R00606 | 2026 | article/None | Lang: en
-TI: Displayed confidence amplifies reliance on AI verdicts: Benefits when correct, costs when wrong
-AB: Large language models (LLMs) produce fluent text that is often only partially correct; therefore, users must decide what to accept. How certainty
-    is displayed may shape these decisions, independent of whether the underlying claim is correct. In a fully within-subject experiment ( N = 149),
-    participants judged 16 general knowledge statements in a fixed order before and after viewing a simulated assistant's true/false verdicts
-    accompanied by a high- or low-confidence badge. Verdict accuracy was fixed at 50%, and accuracy and confidence displays were assigned
-    orthogonally; therefore, the badge carried no information about the probability that a verdict was correct. The high-confidence display amplified
-    verdict adherence, both when the verdict was accurate and when it was inaccurate. The amplification was double-edged; final accuracy changed by
-    +4.2 percentage points (95% CI [0.4, 8.0]) when the verdict was correct and − 6.7 points (95% CI [−12.2, −1.2]) when it was wrong. Decomposing the
-    two pathways showed that the badge display raised relative AI reliance and lowered relative self-reliance. Therefore, displayed confidence can
-    influence decisions even without diagnostic value. These findings motivate testing whether calibrated claim-level confidence displays and evidence
-    or verification pathways improve appropriate reliance.
+### R00547 | 2025 | preprint | Lang: n/a
+TI: How Robust Is Homogeneity Bias in LLMs? Evidence Across Models, Decoding Settings, and Identity Signals
+AB: Large language models (LLMs) reproduce homogeneity bias -- the tendency to portray marginalized groups as more internally similar than dominant
+    groups -- but whether this bias generalizes across models, is stable under different inference settings, or depends on how group identity is
+    signaled remains unstudied. We map homogeneity bias across seven open-weight instruction-tuned LLMs (7-20B parameters), a 5x5 temperature x top-p
+    decoding grid, and two paradigms for signaling group identity (explicit labels vs. racially distinctive names). In six of seven models, Hispanic
+    and Asian Americans are portrayed as significantly more homogeneous than White Americans at the default configuration, and the effect remains
+    positive on average at every temperature and top-p tested; African American and gender bias instead vary in direction across models. A
+    conservative cell-level re-analysis confirms Hispanic and Asian homogeneity as robust while weaker African American and gender signals largely do
+    not survive, establishing group-specific robustness. We also apply the same grid to a names-based paradigm in which group identity is signaled via
+    racially distinctive surnames rather than explicit labels. The names paradigm corroborates Hispanic and Asian homogeneity bias, but Black-coded
+    surnames elicit robustly less homogeneous outputs than White-coded names in every model tested -- a reversal absent from the label paradigm --
+    showing that how group identity is operationalized shapes which biases surface and in which direction.
 
-### R00607 | 2026 | article/None | Lang: en
-TI: ChatGPT in EFL Students' Engagement in Academic Writing
-AB: This study explores the role of ChatGPT in enhancing English as a Foreign Language (EFL) students’ engagement in academic writing. Writing remains
-    a complex skill for EFL learners, often constrained by linguistic limitations, low confidence, and insufficient feedback in traditional
-    classrooms. Drawing on theories of student engagement, self-regulated learning, and sociocultural scaffolding, this study examines how ChatGPT
-    shapes learners’ cognitive, emotional, and behavioural engagement during the writing process. Adopting a qualitative design, data were collected
-    from graduate students in an English Language Education program at Universitas Negeri Semarang through semi-structured interviews and reflective
-    journals. The findings indicate that ChatGPT supports idea development, organization, and revision, thereby strengthening cognitive engagement. It
-    also reduces writing anxiety and fosters confidence, contributing to more positive emotional engagement. In addition, students demonstrate greater
-    persistence and active participation in writing tasks, reflecting enhanced behavioural engagement. However, the study also identifies concerns
-    related to overreliance on AI, which may limit critical thinking and learner autonomy. Overall, the findings highlight the need for a balanced and
-    pedagogically guided integration of AI tools in EFL writing instruction.
+### R00548 | 2025 | preprint | Lang: n/a
+TI: We're Different, We're the Same: Creative Homogeneity Across LLMs
+AB: Numerous powerful large language models (LLMs) are now available for use as writing support tools, idea generators, and beyond. Although these
+    LLMs are marketed as helpful creative assistants, several works have shown that using an LLM as a creative partner results in a narrower set of
+    creative outputs. However, these studies only consider the effects of interacting with a single LLM, begging the question of whether such narrowed
+    creativity stems from using a particular LLM -- which arguably has a limited range of outputs -- or from using LLMs in general as creative
+    assistants. To study this question, we elicit creative responses from humans and a broad set of LLMs using standardized creativity tests and
+    compare the population-level diversity of responses. We find that LLM responses are much more similar to other LLM responses than human responses
+    are to each other, even after controlling for response structure and other key variables. This finding of significant homogeneity in creative
+    outputs across the LLMs we evaluate adds a new dimension to the ongoing conversation about creativity and LLMs. If today's LLMs behave similarly,
+    using them as a creative partners -- regardless of the model used -- may drive all users towards a limited set of "creative" outputs.
 
-### R00608 | 2025 | article/None | Lang: en
-TI: Exploring the efficacy of ChatGPT-4 feedback in second language Spanish writing
-AB: [NO ABSTRACT AVAILABLE]
+### R00549 | 2025 | preprint | Lang: n/a
+TI: LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?
+AB: Large language models (LLMs) have the potential of being useful tools that can automate tasks and assist humans. However, these models are more
+    fluent in English and more aligned with Western cultures, norms, and values. Arabic-specific LLMs are being developed to better capture the
+    nuances of the Arabic language, as well as the views of the Arabs. Yet, Arabs are sometimes assumed to share the same culture. In this position
+    paper, I discuss the limitations of this assumption and provide preliminary thoughts for how to build systems that can better represent the
+    cultural diversity within the Arab world. The invalidity of the cultural homogeneity assumption might seem obvious, yet, it is widely adopted in
+    developing multilingual and Arabic-specific LLMs. I hope that this paper will encourage the NLP community to be considerate of the cultural
+    diversity within various communities speaking the same language.
 
-### R00609 | 2026 | article/None | Lang: en
-TI: Exploring ChatGPT in EFL classrooms: insights into engagement, proficiency and ethics
-AB: Abstract This mixed-methods study investigates the integration of ChatGPT, a generative AI tool, in English classrooms at a government university
-    in Oman. Using the Technology Acceptance Model (TAM) as an analytical framework, the study explores learners’ perceptions of ChatGPT’s
-    effectiveness in supporting writing and speaking proficiency, classroom engagement and ethical awareness. Thirty B2-level EFL students
-    participated in a structured training session focused on prompt generation and ethical use of AI before engaging in ChatGPT-supported classroom
-    tasks. Quantitative findings showed statistically significant positive perceptions of ChatGPT’s impact on writing, speaking, and engagement, with
-    no significant gender differences. Qualitative data indicated that initial skepticism shifted toward acceptance, highlighting ChatGPT’s role as a
-    personal tutor, confidence builder, and facilitator of critical thinking, alongside concerns about overreliance​ and ethical ambiguity. This study
-    proposes pedagogical and institutional recommendations for responsible AI integration, emphasizing the importance of guided use, ethical
-    awareness, and balanced adoption in conservative educational contexts.
+### R00550 | 2025 | preprint | Lang: n/a
+TI: Localized Cultural Knowledge is Conserved and Controllable in Large Language Models
+AB: Just as humans display language patterns influenced by their native tongue when speaking new languages, LLMs often default to English-centric
+    responses even when generating in other languages. Nevertheless, we observe that local cultural information persists within the models and can be
+    readily activated for cultural customization. We first demonstrate that explicitly providing cultural context in prompts significantly improves
+    the models' ability to generate culturally localized responses. We term the disparity in model performance with versus without explicit cultural
+    context the explicit-implicit localization gap, indicating that while cultural knowledge exists within LLMs, it may not naturally surface in
+    multilingual interactions if cultural context is not explicitly provided. Despite the explicit prompting benefit, however, the answers reduce in
+    diversity and tend toward stereotypes. Second, we identify an explicit cultural customization vector, conserved across all non-English languages
+    we explore, which enables LLMs to be steered from the synthetic English cultural world-model toward each non-English cultural world. Steered
+    responses retain the diversity of implicit prompting and reduce stereotypes to dramatically improve the potential for customization. We discuss
+    the implications of explicit cultural customization for understanding the conservation of alternative cultural world models within LLMs, and their
+    controllable utility for translation, cultural customization, and the possibility of making the explicit implicit through soft control for
+    expanded LLM function and appeal.
 
-### R00610 | 2026 | preprint/None | Lang: en
-TI: Beyond Confidence Scores: Why Multi-Dimensional Quality Assessment Is Required for Transparent AI Systems
-AB: Large language model systems that would report single confidence scores to indicate output quality, obscure which aspects of generation succeeded
-    or failed. This fundamental opacity prevents users from making informed trust decisions and prevents engineers from performing targeted debugging.
-    We argue that quality must be decomposed into orthogonal dimensions measuring independent concerns rather than aggregated into opaque numerical
-    scores. We present the case for multi-dimensional quality assessment as a foundational requirement for trustworthy AI systems. By measuring source
-    credibility, claim support, and policy compliance independently, systems can provide transparency that enables appropriate trust calibration and
-    actionable engineering diagnostics. This paper examines why aggregate metrics are structurally insufficient, what properties dimensional quality
-    must satisfy, and why this represents a necessary evolution in how AI system quality is conceptualized and communicated. The core insight: quality
-    is multifaceted, and different quality failures require different responses. A single number cannot communicate which aspects of output are
-    trustworthy and which are not. Dimensional decomposition transforms quality from an opaque assertion into transparent, actionable information.
+### R00551 | 2025 | preprint | Lang: n/a
+TI: Homogeneous Keys, Heterogeneous Values: Exploiting Local KV Cache Asymmetry for Long-Context LLMs
+AB: Recent advances in Large Language Models (LLMs) have highlighted the critical importance of extending context length, yet the quadratic complexity
+    of attention mechanisms poses significant challenges for efficient long-context modeling. KV cache compression has emerged as a key approach to
+    address this challenge. Through extensive empirical analysis, we reveal a fundamental yet previously overlooked asymmetry in KV caches: while
+    adjacent keys receive similar attention weights ({\it local homogeneity}), adjacent values demonstrate distinct {\it heterogeneous} distributions.
+    This key-value asymmetry reveals a critical limitation in existing compression methods that treat keys and values uniformly. To address the
+    limitation, we propose a training-free compression framework (AsymKV) that combines homogeneity-based key merging with a mathematically proven
+    lossless value compression. Extensive experiments demonstrate that AsymKV consistently outperforms existing long-context methods across various
+    tasks and base models. For example, on LLaMA3.1-8B, AsymKV achieves an average score of 43.95 on LongBench, surpassing SOTA methods like H$_2$O
+    (38.89) by a large margin.Our code can be found in this link:https://github.com/the-scale-lab/Asymkv.
 
-### R00611 | 2025 | article/None | Lang: en
-TI: Probabilistic Generative Models for Uncertainty-Aware Content Creation
-AB: Generative AI systems are increasingly deployed in high-stakes applications where the uncertainty of generated outputs is as important as their
-    quality: a medical imaging system that generates plausible-looking but uncertain diagnoses, or a legal document assistant that produces
-    confident-sounding but factually unreliable text, can cause harm precisely because the system fails to communicate its epistemic limitations to
-    users. Uncertainty-aware content generation -- the principled quantification and communication of model uncertainty alongside generated content --
-    has received limited systematic attention despite its practical importance. This paper proposes the Uncertainty-Aware Generative (UAG) framework,
-    a methodology for integrating epistemic and aleatoric uncertainty quantification into large generative models across text, image, and code
-    generation domains. UAG comprises three integrated components: a Bayesian uncertainty estimator (BUE) that provides calibrated uncertainty
-    estimates for LLM token predictions through Monte Carlo dropout ensembles; a semantic uncertainty propagator (SUP) that aggregates token-level
-    uncertainties into claim-level and document-level uncertainty representations; and an uncertainty-adaptive generation controller (UAGC) that
-    modulates generation behaviour -- triggering abstention, caveat insertion, or alternative generation -- based on uncertainty thresholds. UAG is
-    evaluated on calibration quality, uncertainty communication effectiveness, and generation quality across four domains. UAG achieves a 34.8%
-    improvement in uncertainty calibration (Expected Calibration Error reduction from 0.148 to 0.097) and a 28.6% improvement in user trust
-    calibration accuracy (users correctly identifying high-uncertainty outputs) relative to standard LLM baselines. The study contributes the UAG
-    specification, a Generative Uncertainty Quality (GUQ) evaluation framework, and empirical evidence for the practical value of explicit uncertainty
-    communication in high-stakes generative AI deployment.
+### R00552 | 2025 | preprint | Lang: n/a
+TI: Beyond Homogeneous Attention: Memory-Efficient LLMs via Fourier-Approximated KV Cache
+AB: Large Language Models struggle with memory demands from the growing Key-Value (KV) cache as context lengths increase. Existing compression methods
+    homogenize head dimensions or rely on attention-guided token pruning, often sacrificing accuracy or introducing computational overhead. We propose
+    FourierAttention, a training-free framework that exploits the heterogeneous roles of transformer head dimensions: lower dimensions prioritize
+    local context, while upper ones capture long-range dependencies. By projecting the long-context-insensitive dimensions onto orthogonal Fourier
+    bases, FourierAttention approximates their temporal evolution with fixed-length spectral coefficients. Evaluations on LLaMA models show that
+    FourierAttention achieves the best long-context accuracy on LongBench and Needle-In-A-Haystack (NIAH). Besides, a custom Triton kernel,
+    FlashFourierAttention, is designed to optimize memory via streamlined read-write operations, enabling efficient deployment without performance
+    compromise.
 
-### R00612 | 2025 | article/None | Lang: en
-TI: ChatGPT in Academic Writing Classes: Exploring EFL Students’ Perspectives
-AB: The integration of ChatGPT in English as a Foreign Language (EFL) writing instruction remains a relatively under-researched area, particularly in
-    the Indonesian higher education context. This study explores the dual nature of ChatGPT—as both a pedagogical aid and a potential challenge—for
-    undergraduate English education students at a university in Central Java. Using a qualitative case study design, data were collected from
-    thirty-two participants through a close-response questionnaire to gain insights into their perceptions and experiences. The findings indicate that
-    the use of ChatGPT enhanced students’ writing confidence, time efficiency, and overall quality of written output. Students reported that ChatGPT
-    facilitated idea generation, improved sentence coherence, and served as a valuable tool for self-editing. However, the study also identified
-    several drawbacks, including overreliance on the tool, diminished critical and creative thinking, and concerns about the authenticity and accuracy
-    of AI-generated content. To mitigate these issues, students engaged in peer review, expert consultation, and cross-referencing with credible
-    sources to validate the generated material. The study emphasizes the importance of guiding students toward responsible and reflective use of
-    artificial intelligence in academic writing. Pedagogical implications highlight the need for integrating ethical AI literacy, promoting critical
-    engagement with AI-generated content, and fostering awareness of academic integrity. Ultimately, while ChatGPT presents significant opportunities
-    for enhancing EFL writing pedagogy, its implementation must be thoughtfully managed to ensure it supports, rather than replaces, human cognitive
-    and linguistic development.
+### R00553 | 2025 | preprint | Lang: n/a
+TI: AI-generated stories favour stability over change: homogeneity and cultural stereotyping in narratives generated by gpt-4o-mini
+AB: Can a language model trained largely on Anglo-American texts generate stories that are culturally relevant to other nationalities? To find out, we
+    generated 11,800 stories - 50 for each of 236 countries - by sending the prompt "Write a 1500 word potential {demonym} story" to OpenAI's model
+    gpt-4o-mini. Although the stories do include surface-level national symbols and themes, they overwhelmingly conform to a single narrative plot
+    structure across countries: a protagonist lives in or returns home to a small town and resolves a minor conflict by reconnecting with tradition
+    and organising community events. Real-world conflicts are sanitised, romance is almost absent, and narrative tension is downplayed in favour of
+    nostalgia and reconciliation. The result is a narrative homogenisation: an AI-generated synthetic imaginary that prioritises stability above
+    change and tradition above growth. We argue that the structural homogeneity of AI-generated narratives constitutes a distinct form of AI bias, a
+    narrative standardisation that should be acknowledged alongside the more familiar representational bias. These findings are relevant to literary
+    studies, narratology, critical AI studies, NLP research, and efforts to improve the cultural alignment of generative AI.
 
-### R00613 | 2026 | article/None | Lang: en
-TI: ChatGPT in EFL Writing: A Study of Undergraduates’ Perceived Uses and Barriers
-AB: This paper aims to investigate the benefits and drawbacks of ChatGPT in the context of EFL writing in Saudi Arabia. Forty-seven university
-    students were selected to participate in the study voluntarily. To combine the depth of qualitative responses with the breadth of quantitative
-    data, they responded to a survey and follow-up interviews. The dataset included both quantitative and qualitative data, which strengthened the
-    scope of analysis. The findings showed that the participants perceived ChatGPT as a helpful tool for improving grammatical structures and
-    vocabulary. Nonetheless, there is less impact on motivation and confidence. Perceptions varied by gender, discipline, and experience with use. The
-    frequency of use strongly correlated with the perceived usefulness of ChatGPT. The interview yielded results supporting ChatGPT’s role in
-    enhancing writing accuracy, organization, and self-confidence. Findings also raised some concerns about the output generated by ChatGPT and its
-    potential for overreliance. Based on the findings, the study suggests teacher training on the responsible use of AI tools for writing skills. Some
-    implications and areas of further research were also put forward at the end of the study.
+### R00554 | 2025 | preprint | OpenAlex citation chasing (backward): review/None | Lang: en
+TI: The Homogenizing Effect of Large Language Models on Human Expression and Thought
+AB: Cognitive diversity, reflected in variations of language, perspective, and reasoning, is essential to creativity and collective intelligence. This
+    diversity is rich and grounded in culture, history, and individual experience. Yet as large language models (LLMs) become deeply embedded in
+    people's lives, they risk standardizing language and reasoning. We synthesize evidence across linguistics, psychology, cognitive science, and
+    computer science to show how LLMs reflect and reinforce dominant styles while marginalizing alternative voices and reasoning strategies. We
+    examine how their design and widespread use contribute to this effect by mirroring patterns in their training data and amplifying convergence as
+    all people increasingly rely on the same models across contexts. Unchecked, this homogenization risks flattening the cognitive landscapes that
+    drive collective intelligence and adaptability.
 
-### R00614 | 2025 | article/None | Lang: en
-TI: EFL Learners’ Perception of ChatGPT Integration in English Learning: Motivation, Skills, and Pedagogical Development
-AB: This research explores the integration of ChatGPT, a generative AI language model, into English language learning in higher education, emphasizing
-    students’ perspectives on motivation, skill development, and pedagogical integration challenges. Drawing on interpretative qualitative data from
-    semi-structured interviews with seven undergraduate students in Indonesia, the research identifies how ChatGPT enhances students’ autonomy,
-    confidence, and engagement, especially in writing, grammar, and vocabulary development. While students report strong intrinsic motivation and
-    reduced anxiety due to ChatGPT’s non-judgmental interface, they also acknowledge limitations in speaking and listening support. Thematic analysis
-    reveals key themes including emotional responses, perceived usefulness, challenges in trust and overreliance, and expectations for institutional
-    support in pedagogical integration. The findings highlight the importance of lecturer guidance and ethical AI literacy to ensure responsible use.
-    This study contributes by providing empirical evidence on how AI integration can reshape language learning practices, offering clear directions
-    for educators in designing effective instructional strategies and for policymakers in formulating guidelines that balance innovation with
-    responsible use.
+### R00555 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Grounding Multilingual Multimodal LLMs With Cultural Knowledge
+AB: Multimodal Large Language Models excel in high-resource settings, but often misinterpret long-tail cultural entities and underperform in
+    low-resource languages. To address this gap, we propose a data-centric approach that directly grounds MLLMs in cultural knowledge. Leveraging a
+    large scale knowledge graph from Wikidata, we collect images that represent culturally significant entities, and generate synthetic multilingual
+    visual question answering data. The resulting dataset, CulturalGround, comprises 22 million high-quality, culturally-rich VQA pairs spanning 42
+    countries and 39 languages. We train an open-source MLLM CulturalPangea on CulturalGround, interleaving standard multilingual instruction-tuning
+    data to preserve general abilities. CulturalPangea achieves state-of-the-art performance among open models on various culture-focused multilingual
+    multimodal benchmarks, outperforming prior models by an average of 5.0 without degrading results on mainstream vision-language tasks. Our findings
+    show that our targeted, culturally grounded approach could substantially narrow the cultural gap in MLLMs and offer a practical path towards
+    globally inclusive multimodal systems.
 
-### R00615 | 2025 | article/None | Lang: en
-TI: TRANSFORMING PROFESSIONAL PRACTICE WITH CHATGPT: LEARNING AND INFORMATION PROCESSING
-AB: Purpose: The main objective of the present study was to identify differences in how employed and non-employed students evaluate ChatGPT’s dual
-    functions – information processing and tutoring. Design/methodology/approach: A Computer-Assisted Self-Interview (CASI) survey was conducted in
-    the second quarter of 2024. After excluding non-users of ChatGPT, 449 valid responses were analyzed. Instrument reliability and factorability were
-    verified. To assess the intensity of selected variables, a five-point Likert-type scale was applied. Because variables departed from normality,
-    non-parametric tests (Mann-Whitney U) compared evaluations between employed and non-employed respondents. Findings: Respondents in both groups
-    evaluated ChatGPT positively as a substitute for a traditional search engine, with no notable differences between employed and non-employed
-    students. In contrast, non-employed students assessed ChatGPT’s tutoring role more favorably, which may reflect their greater reliance on digital
-    tools for academic support. Overall, evaluations tended to be positive, although the variability in responses suggests differing levels of
-    familiarity with or expectations toward the technology. Research limitations/implications: This study reflects one point in time, so future
-    research should examine changes over longer periods. The analysis focused only on two main functions of ChatGPT – information processing and
-    tutoring and on general use rather than specific academic tasks. Because the sample consisted solely of Polish students, the findings may not be
-    fully applicable in other cultural contexts. Future studies should therefore involve more diverse populations and explore additional functions and
-    learning situations. Practical implications: For students and early-career knowledge workers, conversational search with summarized answers can
-    serve as the standard approach. Tutoring and guided support may be especially useful for those with more time for structured learning, such as non
-    employed students. Universities and organizations should combine AI use with basic training in how to check information, create effective prompts,
-    and evaluate results, while also providing clear source information to ensure that human judgment remains central. Social implications: Adjusting
-    AI support to students’ time and workload can help reduce inequalities in learning. Teaching habits of verification – such as citing sources and
-    signaling uncertainty – can lower the risks of overreliance, bias, and weakened critical thinking, while still allowing users to benefit from
-    productivity gains. Originality/value: Introduces a two-function framework (interactive retrieval/processing vs. tutoring) linking HCIR-style
-    information work with AI-supported learning, and provides empirical evidence that employment status does not shape evaluations of the
-    search-substitution function but does differentiate evaluations of the tutoring function in a large sample of active users.
+### R00556 | 2025 | preprint | Lang: n/a
+TI: LLMs Homogenize Values in Constructive Arguments on Value-Laden Topics
+AB: Large language models (LLMs) are increasingly used to promote prosocial and constructive discourse online. Yet little is known about how these
+    models negotiate and shape underlying values when reframing people's arguments on value-laden topics. We conducted experiments with 465
+    participants from India and the United States, who wrote comments on homophobic and Islamophobic threads, and reviewed human-written and
+    LLM-rewritten constructive versions of these comments. Our analysis shows that LLM systematically diminishes Conservative values while elevating
+    prosocial values such as Benevolence and Universalism. When these comments were read by others, participants opposing same-sex marriage or Islam
+    found human-written comments more aligned with their values, whereas those supportive of these communities found LLM-rewritten versions more
+    aligned with their values. These findings suggest that value homogenization in LLM-mediated prosocial discourse runs the risk of marginalizing
+    conservative viewpoints on value-laden topics and may inadvertently shape the dynamics of online discourse.
 
-### R00616 | 2025 | article/None | Lang: en
-TI: Investigating Students’ Perceptions of ChatGPT's Role in Supporting Writing Skills
-AB: This study investigated second-semester students of the English Education Department at Universitas Muhammadiyah Kotabumi perception of the role
-    of ChatGPT in improving their English writing skills. A descriptive qualitative design was employed, with data collected over 2 days in July 2025
-    through semi-structured interviews. From a preliminary survey of 25 students, 8 were selected based on their active use of ChatGPT on smartphones
-    for writing activities. Data were analysed using a phenomenological approach to capture students lived experiences and perceptions. The findings
-    revealed that students generally held positive views of ChatGPT, particularly in generating ideas, enriching vocabulary, improving grammar
-    awareness, constructing sentences, and building confidence. ChatGPT was also valued for its accessibility and efficiency, often functioning as a
-    virtual tutor that fostered self-directed learning boosted writing confidence. Despite these advantages, several challenges were identified, such
-    as overreliance on the application, restricted access to premium features, and minor inconsistencies in generated outputs. The study concludes
-    that ChatGPT offers meaningful support for developing writing competence among EFL learners, provided that its use is guided critically and
-    integrated with traditional pedagogical strategies to maintain learners’ creativity, accuracy, and analytical reasoning.
+### R00557 | 2025 | preprint | Lang: n/a
+TI: The Even Sheen of AI: Kitsch, LLMs, and Homogeneity
+AB: The exploding use and impact of Chatbots such as ChatGPT that are based on Large Language Models urgently call for a language which is fit to
+    clearly describe functions and problems of the production process and qualities of the Chatbots' textual and image output. Recently, the
+    discussion about appropriate and illuminating metaphors to describe LLMs has gained momentum. As an alternative to well-established metaphors such
+    as "hallucinating" and "bullshit", we propose "kitsch" as a new metaphor. As an internationally widespread term from literary and cultural
+    studies, we argue that "kitsch" is particularly suitable for analytically illuminating a previously neglected feature of LLM-based images and
+    texts: their tendency to produce homogeneous and average content, which is becoming increasingly dominant as the proportion of AI-generated
+    content on the internet grows. This is leading to the equalisation of language, style and argument. In view of the potential negative consequences
+    of this averaging, including for human content producers on the internet, we advocate combining methods and insights from kitsch studies with AI
+    research, philosophy, and communication studies in order to better understand the phenomenon and develop countermeasures.
 
-=== END OF BATCH b013 (35 records) ===
+### R00558 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Task-Dependent Evaluation of LLM Output Homogenization: A Taxonomy-Guided Framework
+AB: Large language models often generate homogeneous outputs, but whether this is problematic depends on the specific task. For objective math tasks,
+    responses may vary in terms of problem-solving strategy but should maintain the same verifiable answer. Whereas, for creative writing tasks, we
+    often expect variation in key narrative components (e.g. plot, setting, etc.) beyond mere vocabulary diversity. Prior work on homogenization
+    rarely conceptualizes diversity in a task-dependent way. We address this gap with four contributions: (1) a task taxonomy with distinct notions of
+    functional diversity -- whether a user would perceive two responses as meaningfully different for a given task; (2) a small user study validating
+    that the taxonomy aligns with human perception of functional diversity; (3) a task-dependent sampling technique that increases diversity only
+    where homogenization is undesired; (4) evidence challenging the perceived diversity-quality trade-off, showing it may stem from
+    mis-conceptualizing both diversity and quality in a task-agnostic way.
+
+### R00560 | 2025 | preprint | Lang: n/a
+TI: The Alignment Veto: How Safety Training Suppresses Cultural Knowledge in LLMs
+AB: What happens inside a language model when alignment training conflicts with a cultural value it encodes? Across 16 MENA countries, 26 models, and
+    1.53M human survey responses, we show the answer is suppression, not erasure: at the moment of refusal, a model's internal logit distribution
+    correlates with human survey data more strongly than its freely generated answers. We call this the alignment veto. We distinguish suppression
+    failures (accurate internal distributions blocked at output) from representational bias failures (the encoding itself diverges from human values),
+    and show the two require different interventions. The gate is inequitable: the safety tax reaches 37.6%, with a 19.8% alignment-quality gap
+    between best- and worst-served nations, and native-language prompting widens rather than closes it. Sparse autoencoder analysis corroborated by
+    comparisons across alignment stages identifies a candidate DPO-stage feature mediating suppression in Tulu-3-8B. The gate is real, its costs are
+    unequal, and deciding what it should protect is not a technical question.
+
+### R00561 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: From Facts to Folklore: Evaluating Large Language Models on Bengali Cultural Knowledge
+AB: Recent progress in NLP research has demonstrated remarkable capabilities of large language models (LLMs) across a wide range of tasks. While
+    recent multilingual benchmarks have advanced cultural evaluation for LLMs, critical gaps remain in capturing the nuances of low-resource cultures.
+    Our work addresses these limitations through a Bengali Language Cultural Knowledge (BLanCK) dataset including folk traditions, culinary arts, and
+    regional dialects. Our investigation of several multilingual language models shows that while these models perform well in non-cultural
+    categories, they struggle significantly with cultural knowledge and performance improves substantially across all models when context is provided,
+    emphasizing context-aware architectures and culturally curated training data.
+
+### R00562 | 2025 | preprint | OpenAlex citation chasing (backward): conference-paper/None | Lang: en
+TI: Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
+AB: Language models (LMs) often struggle to generate diverse, human-like creative content, raising concerns about the long-term homogenization of
+    human thought through repeated exposure to similar outputs. Yet scalable methods for evaluating LM output diversity remain limited, especially
+    beyond narrow tasks such as random number or name generation, or beyond repeated sampling from a single model. We introduce Infinity-Chat, a
+    large-scale dataset of 26K diverse, real-world, open-ended user queries that admit a wide range of plausible answers with no single ground truth.
+    We introduce the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising 6 top-level
+    categories (e.g., brainstorm & ideation) that further breaks down to 17 subcategories. Using Infinity-Chat, we present a large-scale study of mode
+    collapse in LMs, revealing a pronounced Artificial Hivemind effect in open-ended generation of LMs, characterized by (1) intra-model repetition,
+    where a single model consistently generates similar responses, and more so (2) inter-model homogeneity, where different models produce strikingly
+    similar outputs. Infinity-Chat also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human
+    annotations per example. This enables studying collective and individual-specific human preferences in response to open-ended queries. Our
+    findings show that LMs, reward models, and LM judges are less well calibrated to human ratings on model generations that elicit differing
+    idiosyncratic annotator preferences, despite maintaining comparable overall quality. Overall, INFINITY-CHAT presents the first large-scale
+    resource for systematically studying real-world open-ended queries to LMs, revealing critical insights to guide future research for mitigating
+    long-term AI safety risks posed by the Artificial Hivemind.
+
+### R00563 | 2025 | preprint | OpenAlex: article/None | Lang: en
+TI: Evaluating cultural knowledge processing in large language models: a cognitive benchmarking framework integrating retrieval-augmented generation
+AB: Purpose This paper aims to evaluate how effectively large language models (LLMs) represent and generate minority cultural knowledge, specifically
+    Taiwanese Hakka culture. To address this, the study proposes a structured and replicable evaluation framework integrating Bloom’s taxonomy and
+    retrieval-augmented generation (RAG). The research is guided by the following questions: (1) How do LLMs perform across different cognitive
+    domains when processing Hakka cultural content? (2) To what extent does the integration of RAG enhance the accuracy and contextual appropriateness
+    of LLM outputs? And (3) How do different LLM architectures compare in their ability to recall, analyse and creatively synthesize culturally
+    grounded information? Design/methodology/approach This study proposes a cognitive benchmarking framework to evaluate how LLMs process and apply
+    culturally specific knowledge. The framework integrates Bloom’s taxonomy with RAG to assess model performance across six hierarchical cognitive
+    domains: remembering, understanding, applying, analysing, evaluating and creating. Using a curated Taiwanese Hakka digital cultural archive as the
+    primary testbed, the evaluation measures LLM-generated responses’ semantic accuracy and cultural relevance. Findings The evaluation results
+    indicate that LLMs augmented with RAG exhibit marked improvements over baseline models in the cognitive domains of remembering, understanding and
+    analysing. These enhancements are particularly evident in tasks requiring factual accuracy, contextual relevance and semantic precision,
+    underscoring RAG’s effectiveness in addressing the knowledge sparsity typically observed in underrepresented cultural data sets. However, a
+    notable limitation persists across all models including those equipped with RAG in the domain of creating. This suggests that while retrieval
+    mechanisms bolster the reproduction and comprehension of cultural knowledge, they do not yet sufficiently support culturally nuanced generative
+    synthesis. Originality/value This study introduces a novel evaluation framework integrating cognitive domain benchmarks with RAG-enhanced LLMs to
+    assess cultural knowledge processing. The research advances culturally grounded artificial intelligence (AI) systems and digital archival quality
+    by empirically demonstrating RAG’s impact on improving factual accuracy in lower and mid-level tasks. The findings affirm the strategic value of
+    retrieval integration for enhancing representational fidelity in cultural AI applications, while also highlighting the need for future research
+    into hybrid architectures that combine external grounding with culturally adaptive generation strategies.
+
+### R00564 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Epistemic diversity across language models mitigates knowledge collapse
+AB: Artificial intelligence (AI) increasingly generates the very content used to train future AI systems. This feedback loop can degrade model
+    quality, reduce informational diversity, and ultimately drive knowledge collapse, i.e. a degradation to a narrow and inaccurate set of ideas. We
+    ask: to mitigate collapse, is it better to concentrate the internet's knowledge into a handful of dominant models (referred to as an AI
+    monoculture), or to distribute it across a diverse ecosystem of models? To study the effect of diversity on model performance, we randomly segment
+    the fixed training data across an increasing number of language models and evaluate the resulting ecosystems of models over ten self-training
+    iterations. Our results show that diversity improves long-term performance of models, while monoculture accelerates collapse. Specifically, we
+    observe that the optimal diversity level (i.e., the level that maximizes performance) increases monotonically with the number of self-training
+    iterations. The observed effect is robust across various experimental settings, including different model families, parameter sizes, mixing human-
+    and model-generated data, and temperature sampling methods, demonstrating the significance of ecosystem diversity for mitigating collapse.
+    Moreover, our experiments with increased model and dataset sizes indicate that scaling up the system can amplify collapse in homogeneous
+    ecosystems, thereby increasing the diversity benefits. In the presence of AI monoculture, our results suggest considering information environments
+    with specialized AI models that maintain and enhance diversity in knowledge production, akin to the benefits of ecological diversity in biology
+    and social systems.
+
+### R00565 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Homogenization Problem in LLMs: Towards Meaningful Diversity in AI Safety
+AB: Generative AI models reproduce the human biases in their training data and further amplify them through mechanisms such as mode collapse. The loss
+    of diversity produces homogenization, which not only harms the minoritized but impoverishes everyone. We argue homogenization should be a central
+    concern in AI safety. To meaningfully characterize homogenization in Large Language Models (LLMs), we introduce a framework that allows
+    stakeholders to encode their context and value system. We illustrate our approach with an experiment that surfaces gender bias in an LLM (Claude
+    3.5 Haiku) on an open-ended story prompt. Building from queer theory, we formalize homogenization in terms of normativity. Borrowing language from
+    feminist theory, we introduce the concept of xeno-reproduction as a class of tasks for mitigating homogenization by promoting diversity. Our work
+    opens a collaborative line of research that seeks to understand and advance diversity in AI.
+
+### R00567 | 2026 | preprint | Lang: n/a
+TI: When Safety Becomes a Vulnerability: Exploiting LLM Alignment Homogeneity for Transferable Blocking in RAG
+AB: Retrieval-Augmented Generation (RAG) systems are vulnerable to blocking attacks, in which poisoned documents cause large language models (LLMs) to
+    refuse benign queries. Existing attacks rely on adversarial suffixes or explicit instructions, which are increasingly ineffective against modern
+    LLMs, susceptible to prompt injection filtering, or require feedback from the target system. We observe overlapping risk categories and refusal
+    criteria across safety-aligned LLMs, a phenomenon we term alignment homogeneity. This shared attack surface makes refusal-inducing context
+    transferable across models. Accordingly, we propose TabooRAG, which optimizes one document per query for retrieval and refusal induction in a
+    surrogate RAG environment, then transfers it to an unknown target system. Rather than injecting instructions, TabooRAG constructs query-relevant
+    risk context to trigger alignment-driven refusal. To reduce optimization cost, it reuses validated strategies through a query-aware strategy
+    library. Across nine LLMs and three datasets, TabooRAG achieves state-of-the-art ASR after filtering, with a 67.3% relative gain over the average
+    per-setting best baseline. Further experiments show that TabooRAG remains effective with diverse surrogate models, against unseen target models,
+    and under stronger RAG pipelines and existing defenses.
+
+### R00568 | 2026 | preprint | Lang: n/a
+TI: AdaCultureSafe: Adaptive Cultural Safety Grounded by Cultural Knowledge in Large Language Models
+AB: With the global proliferation of Large Language Models (LLMs), cultural safety, defined as the ability to generate respectful and appropriate
+    responses across diverse cultures, becomes critical for responsible AI deployment. However, existing research often treats cultural safety and
+    cultural knowledge in isolation. It remains unclear whether cultural safety is grounded in understanding varying cultural knowledge to enable LLMs
+    to adaptively yield respectful and appropriate responses across diverse cultures, which trigger ethical concerns in cross-cultural scenarios. In
+    this work, we introduce AdaCultureSafe, a dataset designed to jointly evaluate cultural safety and knowledge. Through AdaCultureSafe, we reveal a
+    critical insight: \textit{a significant decoupling exists between cultural safety and cultural knowledge proficiency. Although LLMs possess rich
+    cultural knowledge, they fail to leverage it to improve cultural safety.} LLMs tend to rely on generic safety rather than safety based on
+    culture-specific knowledge. Motivated by this, we propose a knowledge-grounded method that elicits internal cultural knowledge in LLMs during
+    response generation. Experimental results demonstrate that our approach effectively improves cultural safety. Our work can aid better
+    understanding the landscape of cultural safety of LLMs.
+
+### R00569 | 2026 | preprint | Lang: n/a
+TI: Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature
+AB: Large Language Models (LLMs) have demonstrated remarkable capabilities in narrative generation. However, they often produce structurally
+    homogenized stories, frequently following repetitive arrangements and combinations of plot events along with stereotypical resolutions. In this
+    paper, we propose a novel theoretical framework for analysis by incorporating Proppian narratology and narrative functions. This framework is used
+    to analyze the composition of narrative texts generated by LLMs to uncover their underlying narrative logic. Taking Chinese web literature as our
+    research focus, we extend Propp's narrative theory, defining 34 narrative functions suited to modern web narrative structures. We further
+    construct a human-annotated corpus to support the analysis of narrative structures within LLM-generated text. Experiments reveal that the primary
+    reasons for the singular narrative logic and severe homogenization in generated texts are that current LLMs are unable to correctly comprehend the
+    meanings of narrative functions and instead adhere to rigid narrative generation paradigms.
+
+### R00570 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities
+AB: LLM assistant personalities play a critical role in user experience and perceived response quality. We present a large-scale experiment of
+    frontier LLM personalities using external ELO-based traits scoring across 144 traits. We find that all models tested converge on a form of trait
+    expression that is systematic, methodical, and analytical and suppress traits such as remorseful and sycophantic. Moreover, models tend to diverge
+    more in their expression of ``middle-of-distribution traits`` such as poetic or playful, but even these so-called ``creative`` models tend to have
+    more neutral identities. These similarities suggest an implicit emergence of a standard of optimal assistant behavior. In a landscape of varied
+    training methods, character training, therefore, stands out for its uniformity, offering insight into a tacit consensus between model developers.
+
+### R00571 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation
+AB: RLHF-aligned language models exhibit response homogenization: on TruthfulQA (n=790), 40-79% of questions produce a single semantic cluster across
+    10 i.i.d. samples. On affected questions, sampling-based uncertainty methods have zero discriminative power (AUROC=0.500), while free token
+    entropy retains signal (0.603). This alignment tax is task-dependent: on GSM8K (n=500), token entropy achieves 0.724 (Cohen's d=0.81). A
+    base-vs-instruct ablation confirms the causal role of alignment: the base model shows 1.0% single-cluster rate vs. 28.5% for the instruct model (p
+    < 10^{-6}). A training stage ablation (Base 0.0% -> SFT 1.5% -> DPO 4.0% SCR) localizes the cause to DPO, not SFT. Cross-family replication on
+    four model families reveals alignment tax severity varies by family and scale. We validate across 22 experiments, 5 benchmarks, 4 model families,
+    and 3 model scales (3B-14B), with Jaccard, embedding, and NLI-based baselines at three DeBERTa scales (all ~0.51 AUROC). Cross-embedder validation
+    with two independent embedding families rules out coupling bias. Cross-dataset validation on WebQuestions (58.0% SCR) confirms generalization
+    beyond TruthfulQA. The central finding -- response homogenization -- is implementation-independent and label-free. Motivated by this diagnosis, we
+    explore a cheapest-first cascade (UCBD) over orthogonal uncertainty signals. Selective prediction raises GSM8K accuracy from 84.4% to 93.2% at 50%
+    coverage; weakly dependent boundaries (|r| <= 0.12) enable 57% cost savings.
+
+### R00572 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: KnowledgeBerg: Evaluating Systematic Knowledge Coverage and Compositional Reasoning in Large Language Models
+AB: Many real-world questions appear deceptively simple yet implicitly demand two capabilities: (i) systematic coverage of a bounded knowledge
+    universe and (ii) compositional set-based reasoning over that universe, a phenomenon we term "the tip of the iceberg." We formalize this challenge
+    through two orthogonal dimensions: knowledge width, the cardinality of the required universe, and reasoning depth, the number of compositional set
+    operations. We introduce KnowledgeBerg, a benchmark of 4,800 multiple-choice questions derived from 1,183 enumeration seeds spanning 10 domains
+    and 17 languages, with universes grounded in authoritative sources to ensure reproducibility. Representative open-source LLMs demonstrate severe
+    limitations, achieving only 5.26-36.88 F1 on universe enumeration and 16.00-44.19 accuracy on knowledge-grounded reasoning. Diagnostic analyses
+    reveal three stages of failure: completeness, or missing knowledge; awareness, or failure to identify requirements; and application, or incorrect
+    reasoning execution. This pattern persists across languages and model scales. Although test-time compute and retrieval augmentation yield
+    measurable gains -- up to 4.35 and 3.78 points, respectively -- substantial gaps remain, exposing limitations in how current LLMs organize
+    structured knowledge and execute compositional reasoning over bounded domains. The dataset is available at
+    https://huggingface.co/datasets/2npc/KnowledgeBerg
+
+### R00573 | 2026 | preprint | Lang: n/a
+TI: Do LLMs Use Cultural Knowledge Without Being Told? A Multilingual Evaluation of Implicit Pragmatic Adaptation
+AB: Many benchmarks show that large language models can answer direct questions about culture. We study a different question: do they also change how
+    they speak when culture is only implied by the situation? We evaluate 60 culturally grounded conversational scenarios across five languages in
+    three conditions: a neutral baseline (Prompt A), an explicit cultural instruction (Prompt B), and implicit situational cueing (Prompt C). We score
+    responses on 12 pragmatic features covering deference to authority, individual-versus-group framing, and uncertainty management. We define
+    Pragmatic Context Sensitivity (PCS) as the fraction of the Prompt A->B shift that reappears under Prompt A->C. Across four deployed LLMs and five
+    languages (English, German, Hindi, Nepali, Urdu), the primary stable-only PCS mean is 0.196 (SD = 0.113), indicating that the models recover only
+    about one-fifth of the pragmatic shift they can produce when instructed explicitly. Transfer is strongest for authority-related cues (0.299) and
+    weakest for individual-versus-group framing (0.120). Uncertainty-related behaviour is mixed: hedging density exhibits negative explicit gaps in
+    all five languages, suggesting that alignment training actively suppresses the target behaviour. Because Hindi and Urdu share core grammar yet
+    index distinct cultural communities, we use them as a natural control; a paired analysis finds no reliable baseline difference (t = 0.96, p =
+    0.339, dz = 0.06), suggesting that models respond primarily to linguistic structure rather than to the cultural associations a language carries.
+    We argue that multilingual cultural pragmatics is an explicit-versus-implicit deployment problem, not only a factual knowledge problem.
+
+### R00574 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Chameleon's Limit: Investigating Persona Collapse and Homogenization in Large Language Models
+AB: Large language models (LLMs) have powered multi-agent simulations such as survey respondents or application users. However, LLMs lack the
+    population-level diversity required by these simulations---responses from LLMs with detailed human profiles cluster into classes, unlike human
+    responses that uniformly fill the entire space. In this paper, we formalize this as Persona Collapse and quantify its population-level structure
+    with three diagnostic metrics: Coverage (how much of the persona space is occupied), Uniformity (how evenly agents spread across it), and
+    Complexity (how rich the resulting behaviors are). Across eight LLMs on personality (BFI-44), moral reasoning, and self-introduction, persona
+    collapse is universal but task-dependent: CoSER-Llama-8B collapses the most in personality while being the most diverse in moral reasoning.
+    Moreover, sampling more personas cannot mitigate the collapse. We further show a fidelity--diversity tradeoff: the models with the highest
+    per-persona fidelity produce the most polarized populations. Finally, persona-targeted fine-tuning further narrows the population instead of
+    diversifying it.
+
+### R00575 | 2026 | preprint | Lang: n/a
+TI: Requests of a Feather Must Flock Together: Batch Size vs. Prefix Homogeneity in LLM Inference
+AB: Auto-regressive token generation in large language models is memory-bound because it requires "attending to" key and value tensors (KV cache) of
+    all previous tokens. Prior work aims to improve the efficiency of this decode process by batching multiple requests together, and maximizing batch
+    size subject to GPU memory constraints. The key observation of our work is that with prefix-sharing workloads, smaller, prefix-homogeneous batches
+    - where all requests share a common prefix - can achieve higher decode throughput than larger, heterogeneous batches, due to better spatial and
+    temporal locality during KV cache accesses. However, current prefix-aware schedulers maximize prefix reuse within a batch only to reduce KV cache
+    memory footprint, but do not stop batch formation at smaller homogeneous batches that could have performed better. Further, we show that shared
+    prefix detection in existing schedulers relies on radix-tree traversals, incurring substantial CPU overhead that is often comparable to GPU
+    execution time. This paper presents Feather, a prefix-aware scheduler that uses reinforcement learning (RL) to learn the optimal tradeoff between
+    batch size and prefix homogeneity. We also introduce Chunked Hash Tree (CHT), a lightweight data structure that enables fast prefix detection and
+    efficient request selection for the RL scheduler, avoiding expensive tree traversals. We integrate Feather into vLLM and SGLang, and our
+    evaluation shows that Feather achieves 2-10$\times$ higher end-to-end throughput as compared to existing schedulers by reducing the total number
+    of KV cache accesses, while doing no worse than the status quo when there is insufficient prefix sharing.
+
+### R00576 | 2026 | preprint | Lang: n/a
+TI: Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling
+AB: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a narrow,
+    homogenized consensus even for open questions. This semantic collapse limits the diversity of AI, resulting in high inter-response similarity
+    ($\approx 0.80-0.90$) even under high-temperature sampling. In this paper, we propose a novel mitigation framework to increase diversity:
+    Meta-Persona Anchoring combined with Filtered Temperature Scaling (FTS). Our approach utilizes a two-stage generation process: first, the model is
+    prompted to self-select a unique, idiosyncratic persona to anchor its starting point; second, we apply a dual-stage sampling sieve, utilizing
+    Top-$p$ filtering to preserve grammatical validity followed by extreme temperature scaling ($T \ge 4.0$) on the surviving candidates to explore
+    the broadened probability distribution. We evaluate our method using the INFINITY-CHAT dataset on state-of-the-art open weight models under
+    $\sim$20B parameters. Our results demonstrate a significant reduction in semantic convergence, with average pairwise cosine similarity dropping
+    from ($\approx 0.85$) to ($\approx 0.65$). Our scheme achieves a majority of questions below the 0.7 threshold, effectively reducing the gap
+    between artificial mode collapse and human-level typological diversity. We provide our implementation as an open-source framework to enable more
+    diverse and creative AI deployments.
+
+### R00577 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Deliberative Illusion: Diagnosing Factual Attrition and Stance Homogenization in Multi-Agent LLM Deliberation
+AB: Multi-agent LLM systems often treat consensus as evidence of successful interaction. For deliberative problems, however, reliability depends on
+    whether agents preserve the facts and viewpoints needed to interpret an issue. We identify the deliberative illusion: discussion produces (1)
+    factual attrition, the progressive loss of issue-critical facts, alongside (2) stance homogenization, the collapse of diverse positions toward
+    consensus. To measure this process, we introduce DelibTrace, a framework that decomposes each issue into atomic facts, labels issue-critical ones,
+    distributes them across agents, and tracks their survival across discussion rounds. Across ethical and news-based deliberation with three
+    representative LLM families, multi-agent discussion erases up to 72% of issue-critical facts. This loss is consequential: retained evidence can
+    reconstruct the issue misleadingly, final stances remain anchored in base-model priors, and a single malicious agent can inject misinformation
+    into the shrinking shared context. These results reveal a sharper risk: agents can agree more while knowing less. We call for evaluations that
+    measure which facts, uncertainties, and legitimate disagreements survive interaction.
+
+### R00578 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Epistemic Injustice in Language Models: An Audit of Pretraining Filters and Guardrails
+AB: Modern language models rely on pretraining filters to remove undesirable content from training corpora and inference-time guardrails to suppress
+    undesirable outputs during deployment. In this paper, we examine how these filtering and moderation decisions produce forms of epistemic erasure
+    and reveal tensions both across automated systems and between these systems and human judgment. We audit four pretraining filters and three
+    inference-time guardrails on Common Crawl sentences containing gender and regional-origin mentions, together with a manually annotated subset of
+    500 sentences. Our analysis shows that filtering and guardrail decisions are strongly associated with blocklist-based lexical cues, while
+    frequently failing to flag content containing private information or explicit hate speech. At the same time, marginalized groups, particularly
+    transgender people, women, and Central Americans, are significantly over-flagged across systems. Human annotators, by contrast, would retain
+    88.5\% of filter-flagged and 91.3\% of guardrail-flagged content, often recognizing representational harms arising from tensions of content
+    removal that current systems fail to capture. Taken together, our findings document a form of epistemic erasure in which mentions of marginalized
+    groups are disproportionately removed before pretraining and additionally suppressed again at inference time.
+
+### R00579 | 2026 | preprint | Lang: n/a
+TI: The Masked Advantage: Uncovering Local-Language Access to Cultural Knowledge in LLMs
+AB: Large language models are increasingly used to answer culturally grounded questions across languages, yet it remains unclear whether local
+    cultural knowledge is better accessed through English or the local language. Existing evaluations face two key limitations: many rely on parallel
+    template-based questions that may not reflect how cultural knowledge naturally appears, and raw accuracy conflates general language proficiency
+    with language-conditioned knowledge access. We address these issues with a controlled framework built on real-world cultural questions collected
+    from regional benchmarks and local sources. By crossing question type (culture-agnostic vs. culture-specific) with query language (English vs.
+    local language), and estimating ability with a shared 1PL item response theory model, we separate proficiency from localized knowledge access.
+    Across 13 locales and roughly 80 models, we find a consistent English advantage on culture-agnostic questions, indicating stronger English
+    proficiency. However, after accounting for this proficiency gap, local languages show a positive knowledge-access advantage in nearly all
+    locale-model settings. This advantage is often masked in raw accuracy but becomes more visible for frontier, regionally aligned, or
+    language-adapted models. Our results suggest that weaker local-language performance does not necessarily imply weaker cultural knowledge; rather,
+    local cultural knowledge may be more accessible through the local language but hidden by limited language proficiency.
+
+### R00580 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Which India Survives Translation? Narrative Homogenisation Across Indian Oral Traditions in LLMs
+AB: Large language models (LLMs) are trained predominantly on English-language internet text that over-represents certain cultural narratives, raising
+    concerns that models flatten the diversity of non-Western storytelling traditions into a single homogenized archetype. We present a pilot
+    computational study examining this across three maximally distinct Indian regional oral and literary traditions: the Rajasthani Pabuji epic,
+    classical Tamil Sangam poetry, and Bengali folk tales. We collected authentic reference corpora for each tradition (11, 21, and 10 passages
+    respectively) and prompted two LLMs (Claude Sonnet and Gemini) with 54 generation requests spanning three prompt types per tradition - generic,
+    culturally specific, and regional-language. Using Sentence-BERT embeddings and cosine similarity, we measure reference drift (how closely outputs
+    track their own tradition's authentic texts relative to the other two) and cross-tradition convergence (how similar outputs are across
+    traditions). We find that while outputs remain closer to their own tradition's reference than to others, cross-tradition similarity is high
+    (0.52-0.66) relative to what the traditions' genuine distance would predict, indicating partial homogenisation. Unexpectedly, prompting in the
+    regional language (Hindi, Tamil, or Bengali) consistently reduced fidelity to the authentic tradition relative to English prompting, by as much as
+    27 percentage points for Rajasthani and Bengali traditions. We discuss this against conflicting prior results on multilingual prompting and argue
+    it reflects a difference between eliciting general cultural diversity and simulating one narrow, lesser-documented oral tradition. We position
+    this pilot as a lightweight, scalable complement to recent large-scale human-annotation studies of Indian cultural misrepresentation in
+    LLM-generated stories, as part of a broader doctoral research program.
+
+### R00581 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Paternalistic Filter: Epistemic Injustice and Differential Refusal in LLM-Mediated History Education for Marginalized Romanian Students
+AB: As Large Language Models (LLMs) are increasingly deployed as conversational tutors, they risk institutionalizing systemic inequalities. This study
+    presents a systematic API audit of four LLMs acting as history tutors, evaluating 1,800 responses regarding the 1989 Romanian Revolution across
+    five student personas varying by ethnicity and socio-economic tier. We uncover four interconnected patterns of \emph{epistemic paternalism}:
+    (1)~\textbf{Differential Refusal}, where safety-aligned models block 76.7\% of educational requests from low-tier students; (2)~\textbf{Epistemic
+    Gatekeeping}, evidenced by a 3$\times$ reduction in access to geopolitical complexity (e.g., the contested ``coup theory'') for marginalized
+    learners; (3)~\textbf{Agency Theft}, a lexical shift where models like LLaMA produce a 5$\times$ higher victimization-to-politics vocabulary ratio
+    for Roma students compared to elite peers; and (4)~\textbf{Elite Hermeneutics}, where AI tutors disproportionately withhold epistemic confidence
+    and justification scores from low-resource demographic profiles. We argue that current safety alignment acts as a paternalistic filter,
+    transforming conversational AI into agents of narrative segregation -- a manifestation of \emph{hermeneutical injustice} in
+    Fricker's~\cite{fricker2007} sense that demands urgent pedagogical auditing.
+
+### R00582 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Beyond Cultural Knowledge: Evaluating Arabic Cultural Appropriateness of Large Language Models
+AB: Large language models (LLMs) increasingly serve users whose expectations are shaped by their cultural context, yet most cultural evaluations test
+    what a model knows rather than how it behaves when giving open-ended recommendations, opinions, and guidance. We introduce AraBehave: 1,623
+    culturally grounded, open-ended Arabic prompts with 29,214 cultural-appropriateness judgments from native speakers across several Arab regions,
+    plus a scoring model whose predictions correlate strongly with human judgments on unseen systems (Pearson r=0.74). Evaluating three Arabic-centric
+    and three frontier LLMs, we find that cultural appropriateness is not a single capability but decomposes into two largely independent components:
+    normative stance and grounded cultural accuracy. The best general-purpose and best Arabic-centric models score identically (3.84 vs. 3.83 of 5)
+    yet almost never fail for the same reason: general-purpose models exhibit strong factual grounding but a culturally inappropriate normative
+    stance, being penalized for secular framing and false balance on culturally settled matters (28--33% of their low-score rationales), while the
+    best Arabic-centric model adopts the expected stance but is penalized for fabricated hadith and misquoted verses (29%). Stance is cheap and
+    fragile: one sentence of cultural instruction lifts Gemini to 4.57, above every Arabic-specialized model. Conversely, a generic ``answer clearly
+    and objectively'' prompt costs Allam-7B 0.68 points, while asking the same questions in English lowers scores for every model but one. Grounding
+    instead tracks scale and Arabic alignment data, and disappears when culturally aware instruction tuning is replaced by a culture-neutral corpus.
+    General safety benchmarks see none of this: they saturate above 89 while cultural scores span 2.71-3.84. We will release the benchmark,
+    annotations, and the scoring model.
+
+### R00583 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Figurative and Cultural Knowledge in LLMs: Investigating Cross-Domain Transfer through Fine-Tuning
+AB: Figurative language is deeply culturally embedded; fluent use requires not just linguistic competence but cultural immersion. We ask whether LLMs
+    can learn this link: does fine-tuning on cultural data improve figurative language understanding, and vice versa? We conduct a systematic study
+    across four models (ALLaM-7B, Fanar-1-9B, Qwen3-8B, Llama-3.1-8B) and six Arabic datasets spanning cultural commonsense, proverbs, and poetry
+    across diverse dialects and regions. Fine-tuning on poetry improves idiom comprehension (+2.33%, p<0.05), a gain our ArabicMMLU control does not
+    reproduce, indicating that it stems from figurative content rather than Arabic language adaptation and pointing to a sensitivity to non-literal
+    meaning that transfers across figurative types. Cultural fine-tuning, by contrast, lowers proverb-interpretation accuracy in both Arabic-centric
+    models. Transfer between the two domains is otherwise indistinguishable from noise, with Arabic models frequently regressing after fine-tuning,
+    suggesting prior saturation of relevant knowledge, while multilingual models show greater adaptation headroom. Error analysis further reveals that
+    fine-tuning reinforces experiential cultural knowledge while destabilizing historically grounded factual knowledge. Our findings suggest that the
+    relationship between culture and figurative language, though conceptually natural, is not straightforwardly captured through fine-tuning alone.
+
+### R00584 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: On Epistemic Diversity in Large Language Models
+AB: Large language models (LLMs) are increasingly used not only to retrieve information, but to answer questions, explain, teach, and support inquiry.
+    In such settings, evaluation cannot be exhausted by accuracy or alignment alone. A system may give a correct answer while still narrowing users'
+    access %to knowledge. to alternative valid answers, explanations, or reasoning routes. Drawing on the broader notion of epistemic diversity in
+    philosophy and social epistemology, we formalize it in the context of LLMs as the range of valid answers, explanations, and reasoning routes that
+    an LLM exposes to users. We argue that epistemic diversity is a useful evaluation dimension for settings where LLMs are used to support
+    knowledge-intensive tasks. We propose a preliminary framework for conceptualizing and measuring epistemic diversity in LLMs, and operationalize it
+    in two domains. We find that frontier LLMs often exhibit epistemic narrowness, repeatedly collapsing large valid answer spaces onto small
+    canonical subsets. These findings suggest that LLM evaluation should move beyond accuracy-oriented paradigms and treat epistemic diversity as an
+    important dimension of model capability.
+
+### R00585 | 2026 | preprint | Lang: n/a
+TI: Breaking Homogeneity: Diversifying Persona Sets for Creative LLM Outputs
+AB: Language models often produce homogeneous responses to open-ended tasks; such homogeneity can spawn groupthink-the convergence of ideas toward a
+    singular and potentially suboptimal decision. We formulate persona diversification as a set-level conditioning problem and study two orthogonal
+    design choices: selecting versus generating personas, and space-filling versus frontier-seeking diversity. We instantiate this design space with
+    four methods spanning coverage and dispersion subset selections, uniform-coverage sampling, and evolutionary persona generation. Evaluations on
+    the Alternative Uses Task (AUT), Infinity-Chat, and Divergent Association Task (DAT) show the benefits of the proposed methods across tasks and
+    creativity objectives. On AUT, evolutionary persona generation increases response diversity by 78.8%, originality by 26.1%, flexibility by 49.5%,
+    and holistic creativity by 13.9% over task-only prompting, while maintaining 98.5% validity; on Infinity-Chat, it nearly doubles persona-induced
+    response separation relative to random personas. Moreover, evolutionary personas compose with creativity-optimized prompting, further increasing
+    its response diversity by 18.6% and creativity by 6.3%. These results establish persona-set geometry as a task-agnostic mechanism for eliciting
+    divergent LLM outputs, and support persona diversification as a reusable complement to prompt optimization.
+
+=== END OF BATCH b013 (50 records) ===
