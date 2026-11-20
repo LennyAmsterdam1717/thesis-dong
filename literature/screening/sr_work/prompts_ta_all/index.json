@@ -1,0 +1,512 @@
+[
+ {
+  "label": "A:b001@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b001.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b001@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b001.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b002@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b002.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b002@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b002.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b003@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b003.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b003@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b003.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b004@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b004.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b004@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b004.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b005@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b005.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b005@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b005.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b006@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b006.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b006@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b006.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b007@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b007.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b007@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b007.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b008@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b008.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b008@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b008.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b009@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b009.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b009@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b009.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b010@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b010.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b010@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b010.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b011@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b011.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b011@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b011.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b012@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b012.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b012@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b012.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b013@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b013.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b013@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b013.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b014@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b014.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b014@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b014.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b015@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/A_b015.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b015@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+  "context": {
+   "review_id": "24d7279e-0219-488e-908c-cfe1bdae0232",
+   "dataset": "03563dbae9c74eda595e92f689bf9568aa97ef03b69f53b859b1a57bf8bd6bb9",
+   "stage": "ta",
+   "protocol_hash": "6fe9be713f1a9d4588a7d5ac26e00d50127bc06e56a0c43fd4707ccf1ab3fba5",
+   "config_hash": "76847f88a9af1e4453600936e543ab1f8b31376a4c32c8ecf2ab8222d5d907cf",
+   "content_id": "df9b576e2cca7a6056cd2203935b5a76ebb54b2807f7417f3106f139be54103a",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/screening_protocol.md",
+   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+  },
+  "prompt_file": "/Users/lennypam/Desktop/Thesis dong/thesis-dong/literature/screening/sr_work/prompts_ta_all/B_b015.txt",
+  "model": "sonnet"
+ }
+]
