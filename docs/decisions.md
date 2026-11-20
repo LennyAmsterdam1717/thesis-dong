@@ -61,3 +61,18 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Known trade-off:** title-only concept terms lower sensitivity; mitigated by R4b and the R5 Google Scholar check. To be stated in the methods.
 - **OpenAlex without API key:** cursor paging now needs a key, so the script uses page paging; heavy boolean queries are paced at 1 per 2.5 s. No personal data sent.
 - **Pilot:** `literature/screening/pilot_labels.csv` holds blank labels for batch **b001 (R00001–R00050)** for Frank. No AI screening has been run on b001 or any other batch. Note: b001 is the first 50 records in input order, so all come from R1a (uncertainty, arXiv/OpenAlex, mostly early 2025) and the seed is not in it (it is in b039). Frank decides whether to add b039 (or another spread of batches) to the pilot.
+
+## 2026-11-20 – Narrowing 1,854 records toward 200–400 (options; awaiting Frank's choice)
+
+- **Frank:** 1,854 is too many for 2–3 RQs. Keep R2 (a+b), R1b and R4b complete; narrow R1a and R3; aim at 200–400 unique records; afterwards rebuild the pilot as one mixed batch of 25 records sampled across all rounds, including the seed. Do not add b039. No screening and no new search until Frank chooses.
+- **Finding:** R1b + R2a + R2b + R4b alone give **1,008 unique records** (R4a adds 125 more). So the 200–400 goal cannot be reached by narrowing R1a and R3 only; the "keep complete" rounds have to be narrowed too, or the goal relaxed. Much of R2a/R1b from OpenAlex is off-topic (stemmed matching: e.g. "financial planning" in infrastructure projects, student trust in ChatGPT).
+- **Seed:** seed 1 (R01687) is only in R4a (R4b holds its references/citations, not the seed itself), so it has to be included explicitly if R4a is cut.
+- **R1a/R3 options** (unique records added on top of R1b + R2 + R4b + R4a = 1,133); computed from the existing exports and OpenAlex citation counts retrieved 2026-11-20 (`sr_work/citation_counts.json`, `literature/search/narrowing_options.py`):
+  - O1 2026 only: +468. Trade-off: loses all 2025 work, including most foundational recent methods.
+  - O2 "bridge": R1a kept only with a knowledge or finance term, R3 only with an uncertainty or finance term: +202 (R1a 133, R3 71). Trade-off: keeps the thesis's bridge (certainty × knowledge × finance) but drops general UQ/knowledge methods papers, which become background or come back via citation chasing.
+  - O3 surveys + well-cited (≥ 20 citations if 2025, ≥ 5 if 2026): +78 (R1a 58, R3 20); strict (≥ 50 / ≥ 10): +43 (R1a 33, R3 10). Trade-off: citation counts favour 2025, well-known groups and arXiv-visible work; direction 5 (knowledge acquisition) becomes thin (10–20 records); surveys are E2 under the protocol, so this option needs a protocol amendment or would only feed background.
+- **Combinations that reach the target** (all relax "keep R1b/R2 complete"; precision filter = an LLM term in the **title**):
+  - Y: R1b/R2 with LLM term in title **and** 2026 only; R4b complete; R1a/R3 O3-strict → **394 unique (+ seed)**. Weak spots: R3 = 10 records; no 2025 finance papers.
+  - X: R1b/R2 with LLM term in title, R2a also needs an uncertainty/consistency/reliability/risk term; R4b complete; R1a/R3 O3-strict → **490 (+ seed)**.
+  - For reference: R1b/R2/R4b with LLM term in title for R1b/R2 = 522 before any R1a/R3 records; R2 + R4b complete with R1b filtered + O3-strict = 915.
+- **Not yet decided:** whether R4a stays (Frank's message does not mention it); which option; whether 200–400 or the "complete" rule gives way.
