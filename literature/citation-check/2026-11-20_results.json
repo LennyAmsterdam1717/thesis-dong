@@ -1,0 +1,884 @@
+[
+ {
+  "id": "R00508",
+  "record_title": "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations",
+  "record_year": "2026",
+  "record_first_author": "Rania Elbadry",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2605.09195",
+    "title_match": true,
+    "meta": {
+     "title": "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations",
+     "authors": [
+      "Rania Elbadry",
+      "Ahmed Heakl",
+      "Fan Zhang",
+      "Dani Bouch",
+      "Yuxia Wang",
+      "Preslav Nakov",
+      "Zhuohan Xie"
+     ],
+     "published": "2026-05-09",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00473",
+  "record_title": "Convergent Hallucination in Multi-LLM Consensus: A Two-Layer Guard with Empirical Evidence in UK/EU Regulated Domains",
+  "record_year": "2026",
+  "record_first_author": "Jaqueline Martins",
+  "checks": [
+   {
+    "source": "DOI resolver",
+    "id": "10.5281/zenodo.21314594",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "Convergent Hallucination in Multi-LLM Consensus: A Two-Layer Guard with Empirical Evidence in UK/EU Regulated Domains",
+     "authors": [
+      "Jaqueline Martins"
+     ],
+     "year": 2026,
+     "venue": "Zenodo",
+     "type": "article"
+    },
+    "crossref_title_check": false
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00038",
+  "record_title": "Robust Uncertainty Quantification for Self-Evolving Large Language Models via Continual Domain Pretraining",
+  "record_year": "2025",
+  "record_first_author": "Xiaofan Zhou",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2510.22931",
+    "title_match": true,
+    "meta": {
+     "title": "Robust Uncertainty Quantification for Self-Evolving Large Language Models via Continual Domain Pretraining",
+     "authors": [
+      "Xiaofan Zhou",
+      "Lu Cheng"
+     ],
+     "published": "2025-10-27",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00014",
+  "record_title": "Popular but Wrong: Understanding and Mitigating LLM Overconfidence through Knowledge Popularity",
+  "record_year": "2025",
+  "record_first_author": "Shiyu Ni",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2505.17537",
+    "title_match": true,
+    "meta": {
+     "title": "Popular but Wrong: Understanding and Mitigating LLM Overconfidence through Knowledge Popularity",
+     "authors": [
+      "Shiyu Ni",
+      "Keping Bi",
+      "Jiafeng Guo",
+      "Xueqi Cheng"
+     ],
+     "published": "2025-05-23",
+     "comment": "EMNLP2026 Main",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00002",
+  "record_title": "Hallucination, monofacts, and miscalibration: An empirical investigation",
+  "record_year": "2026",
+  "record_first_author": "Miranda Muqing Miao",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2502.08666",
+    "title_match": true,
+    "meta": {
+     "title": "Hallucination, Monofacts, and Miscalibration: An Empirical Investigation",
+     "authors": [
+      "Miranda Muqing Miao",
+      "Michael Kearns"
+     ],
+     "published": "2025-02-11",
+     "comment": "Code available at https://github.com/mmiao2/Hallucination.git",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   },
+   {
+    "source": "DOI resolver",
+    "id": "10.1073/pnas.2533582123",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "Hallucination, monofacts, and miscalibration: An empirical investigation",
+     "authors": [
+      "Miranda Muqing Miao",
+      "Michael Kearns"
+     ],
+     "year": 2026,
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "journal-article"
+    },
+    "crossref_title_check": true
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00047",
+  "record_title": "Influential Training Data Retrieval for Explaining Verbalized Confidence of LLMs",
+  "record_year": "2026",
+  "record_first_author": "Yuxi Xia",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2601.10645",
+    "title_match": true,
+    "meta": {
+     "title": "Influential Training Data Retrieval for Explaining Verbalized Confidence of LLMs",
+     "authors": [
+      "Yuxi Xia",
+      "Loris Schoenegger",
+      "Benjamin Roth"
+     ],
+     "published": "2026-01-15",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00049",
+  "record_title": "Self-Aware Knowledge Probing: Evaluating Language Models' Relational Knowledge through Confidence Calibration",
+  "record_year": "2026",
+  "record_first_author": "Christopher Kissling",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2601.18901",
+    "title_match": true,
+    "meta": {
+     "title": "Self-Aware Knowledge Probing: Evaluating Language Models' Relational Knowledge through Confidence Calibration",
+     "authors": [
+      "Christopher Kissling",
+      "Elena Merdjanovska",
+      "Alan Akbik"
+     ],
+     "published": "2026-01-26",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00341",
+  "record_title": "Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance Information Delivery in Kenya",
+  "record_year": "2026",
+  "record_first_author": "AMOS MBEKI NYAGAR",
+  "checks": [
+   {
+    "source": "DOI resolver",
+    "id": "10.21203/rs.3.rs-9770645/v1",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented\nGeneration Approach to Insurance Information Delivery in Kenya",
+     "authors": [
+      "AMOS MBEKI NYAGAR"
+     ],
+     "year": 2026,
+     "venue": "Springer Science and Business Media LLC",
+     "type": "posted-content"
+    },
+    "crossref_title_check": true
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00413",
+  "record_title": "When Financial Fine-tuning Fails: A Three-Level Detectability Analysis of Numerical Hallucination in Domain-Adapted Language Models",
+  "record_year": "2026",
+  "record_first_author": "Xiaodong Li",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2609.04806",
+    "title_match": true,
+    "meta": {
+     "title": "When Financial Fine-tuning Fails: A Three-Level Detectability Analysis of Numerical Hallucination in Domain-Adapted Language Models",
+     "authors": [
+      "Xiaodong Li",
+      "Peiwei Liu"
+     ],
+     "published": "2026-09-04",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   },
+   {
+    "source": "DOI resolver",
+    "id": "10.1016/j.neucom.2026.135011",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "When financial fine-tuning fails: A three-level detectability analysis of numerical hallucination in domain-adapted language models",
+     "authors": [
+      "Xiaodong Li",
+      "Peiwei Liu"
+     ],
+     "year": 2026,
+     "venue": "Neurocomputing",
+     "type": "journal-article"
+    },
+    "crossref_title_check": true
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00537",
+  "record_title": "Evaluation Dimension Determines Conclusion: A Systematic Study of SFT and CPT Effects on Institutional Financial Knowledge Injection",
+  "record_year": "2026",
+  "record_first_author": "Yahua Ruan",
+  "checks": [
+   {
+    "source": "DOI resolver",
+    "id": "10.5281/zenodo.20972215",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "Evaluation Dimension Determines Conclusion: A Systematic Study of SFT and CPT Effects on Institutional Financial Knowledge Injection",
+     "authors": [
+      "Yahua Ruan"
+     ],
+     "year": 2026,
+     "venue": "Zenodo",
+     "type": "article"
+    },
+    "crossref_title_check": false
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00039",
+  "record_title": "The Illusion of Certainty: Uncertainty Quantification for LLMs Fails under Ambiguity",
+  "record_year": "2025",
+  "record_first_author": "Tim Tomov",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2511.04418",
+    "title_match": true,
+    "meta": {
+     "title": "The Illusion of Certainty: Uncertainty Quantification for LLMs Fails under Ambiguity",
+     "authors": [
+      "Tim Tomov",
+      "Dominik Fuchsgruber",
+      "Tom Wollschläger",
+      "Stephan Günnemann"
+     ],
+     "published": "2025-11-06",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00066",
+  "record_title": "Why Don't You Know? Evaluating the Impact of Uncertainty Sources on Uncertainty Quantification in LLMs",
+  "record_year": "2026",
+  "record_first_author": "Maiya Goloburda",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2604.10495",
+    "title_match": true,
+    "meta": {
+     "title": "Why Don't You Know? Evaluating the Impact of Uncertainty Sources on Uncertainty Quantification in LLMs",
+     "authors": [
+      "Maiya Goloburda",
+      "Roman Vashurin",
+      "Fedor Chernogorskii",
+      "Nurkhan Laiyk",
+      "Daniil Orel",
+      "Preslav Nakov",
+      "Maxim Panov"
+     ],
+     "published": "2026-04-12",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00104",
+  "record_title": "Semantic Uncertainty Quantification Needs Factual Equivalence",
+  "record_year": "2026",
+  "record_first_author": "Joseph Hoche",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2609.34967",
+    "title_match": true,
+    "meta": {
+     "title": "Semantic Uncertainty Quantification Needs Factual Equivalence",
+     "authors": [
+      "Joseph Hoche",
+      "Quentin Guimard",
+      "Gianni Franchi"
+     ],
+     "published": "2026-09-28",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00012",
+  "record_title": "Why Uncertainty Estimation Methods Fall Short in RAG: An Axiomatic Analysis",
+  "record_year": "2025",
+  "record_first_author": "Heydar Soudani",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2505.07459",
+    "title_match": true,
+    "meta": {
+     "title": "Why Uncertainty Estimation Methods Fall Short in RAG: An Axiomatic Analysis",
+     "authors": [
+      "Heydar Soudani",
+      "Evangelos Kanoulas",
+      "Faegheh Hasibi"
+     ],
+     "published": "2025-05-12",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00319",
+  "record_title": "Same Person, Different Advice: Auditing LLM Financial Advice with Repeated Risk-Tolerance Responses",
+  "record_year": "2026",
+  "record_first_author": "Soovadeep Bakshi",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2610.23060",
+    "title_match": true,
+    "meta": {
+     "title": "Same Person, Different Advice: Auditing LLM Financial Advice with Repeated Risk-Tolerance Responses",
+     "authors": [
+      "Soovadeep Bakshi",
+      "Apurba Bose",
+      "Aishwarya Bose",
+      "Sandip Nandi"
+     ],
+     "published": "2026-10-16",
+     "comment": "23 pages, 5 figures, 9 tables",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00571",
+  "record_title": "The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation",
+  "record_year": "2026",
+  "record_first_author": "Mingyi Liu",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2603.24124",
+    "title_match": true,
+    "meta": {
+     "title": "The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation",
+     "authors": [
+      "Mingyi Liu"
+     ],
+     "published": "2026-03-25",
+     "comment": "25 pages, 3 figures, 10 tables, 24 experiments across 5 benchmarks. v2: added SINdex head-to-head (Exp 27), NLI validation (Exp 28), decoding protocol analysis. Code: https://github.com/DigitLion/ucbd-experiment",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00559",
+  "record_title": "What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models",
+  "record_year": "2025",
+  "record_first_author": "Dustin Wright",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2510.04226",
+    "title_match": true,
+    "meta": {
+     "title": "What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models",
+     "authors": [
+      "Dustin Wright",
+      "Sarah Masud",
+      "Jared Moore",
+      "Srishti Yadav",
+      "Maria Antoniak",
+      "Peter Ebert Christensen",
+      "Chan Young Park",
+      "Isabelle Augenstein"
+     ],
+     "published": "2025-10-05",
+     "comment": "Accepted to EMNLP 2026; 18 pages, 8 figures, 4 tables; v2: Fixed the modeling for table 3, random effect is the model version; v3: Fixed minor formatting issues in tables 2 and 3; v4: Fixed some typos and model description; v5: Updated metadata; v6: Improved search baseline, writing revisions, added comparisons to semantic similarity only approaches; v7 changelog: EMNLP camera ready",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00584",
+  "record_title": "On Epistemic Diversity in Large Language Models",
+  "record_year": "2026",
+  "record_first_author": "Elisabeth Kirsten",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2609.04835",
+    "title_match": true,
+    "meta": {
+     "title": "On Epistemic Diversity in Large Language Models",
+     "authors": [
+      "Elisabeth Kirsten",
+      "Nicole Krämer",
+      "Muhammad Bilal Zafar"
+     ],
+     "published": "2026-09-04",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00564",
+  "record_title": "Epistemic diversity across language models mitigates knowledge collapse",
+  "record_year": "2025",
+  "record_first_author": "Damian Hodel",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2512.15011",
+    "title_match": true,
+    "meta": {
+     "title": "Epistemic diversity across language models mitigates knowledge collapse",
+     "authors": [
+      "Damian Hodel",
+      "Jevin D. West"
+     ],
+     "published": "2025-12-17",
+     "comment": "30 pages, 21 figures. v3 changelog: updated introduction. v2 changelog: added experimental variations, updated theory, writing revisions, updated metadata",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00003",
+  "record_title": "Mind the Confidence Gap: Overconfidence, Calibration, and Distractor Effects in Large Language Models",
+  "record_year": "2025",
+  "record_first_author": "Prateek Chhikara",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2502.11028",
+    "title_match": true,
+    "meta": {
+     "title": "Mind the Confidence Gap: Overconfidence, Calibration, and Distractor Effects in Large Language Models",
+     "authors": [
+      "Prateek Chhikara"
+     ],
+     "published": "2025-02-16",
+     "comment": "Published in Transactions on Machine Learning Research (TMLR)",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00063",
+  "record_title": "Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs",
+  "record_year": "2026",
+  "record_first_author": "Tianyi Zhao",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2604.01457",
+    "title_match": true,
+    "meta": {
+     "title": "Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs",
+     "authors": [
+      "Tianyi Zhao",
+      "Yinhan He",
+      "Wendy Zheng",
+      "Yujie Zhang",
+      "Chen Chen"
+     ],
+     "published": "2026-04-01",
+     "comment": "COLM 2026",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00118",
+  "record_title": "Competing Biases underlie Overconfidence and Underconfidence in LLMs",
+  "record_year": "2026",
+  "record_first_author": "Dharshan Kumaran",
+  "checks": [
+   {
+    "source": "DOI resolver",
+    "id": "10.1038/s42256-026-01217-9",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "Competing Biases underlie Overconfidence and Underconfidence in LLMs",
+     "authors": [
+      "Dharshan Kumaran",
+      "Stephen M. Fleming",
+      "Larisa Markeeva",
+      "Joe Heyward",
+      "Andrea Banino",
+      "Mrinal Mathur",
+      "Razvan Pascanu",
+      "Simon Osindero",
+      "Benedetto De Martino",
+      "Petar Veličković",
+      "Viorica Patraucean"
+     ],
+     "year": 2026,
+     "venue": "Nature Machine Intelligence",
+     "type": "journal-article"
+    },
+    "crossref_title_check": true
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00159",
+  "record_title": "Humans overrely on overconfident language models, across languages",
+  "record_year": "2025",
+  "record_first_author": "Neil Rathi",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2507.06306",
+    "title_match": true,
+    "meta": {
+     "title": "Humans overrely on overconfident language models, across languages",
+     "authors": [
+      "Neil Rathi",
+      "Dan Jurafsky",
+      "Kaitlyn Zhou"
+     ],
+     "published": "2025-07-08",
+     "comment": "camera ready",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00172",
+  "record_title": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+  "record_year": "2026",
+  "record_first_author": "Deepthika S",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2610.31579",
+    "title_match": true,
+    "meta": {
+     "title": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+     "authors": [
+      "Deepthika S",
+      "Pawni Yadav",
+      "B. Sankar"
+     ],
+     "published": "2026-10-22",
+     "comment": "49 pages; 32 figures; 7 tables",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00173",
+  "record_title": "What large language models know and what people think they know",
+  "record_year": "2025",
+  "record_first_author": "Mark Steyvers",
+  "checks": [
+   {
+    "source": "DOI resolver",
+    "id": "10.1038/s42256-024-00976-7",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "What large language models know and what people think they know",
+     "authors": [
+      "Mark Steyvers",
+      "Heliodoro Tejeda",
+      "Aakriti Kumar",
+      "Catarina Belem",
+      "Sheer Karny",
+      "Xinyue Hu",
+      "Lukas W. Mayer",
+      "Padhraic Smyth"
+     ],
+     "year": 2025,
+     "venue": "Nature Machine Intelligence",
+     "type": "journal-article"
+    },
+    "crossref_title_check": true
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00407",
+  "record_title": "Confidently Wrong: Detecting Hallucinations in Financial Question Answering from LLM Internal States",
+  "record_year": "2026",
+  "record_first_author": "Richard Zhe Wang",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2607.11414",
+    "title_match": true,
+    "meta": {
+     "title": "Confidently Wrong: Detecting Hallucinations in Financial Question Answering from LLM Internal States",
+     "authors": [
+      "Richard Zhe Wang"
+     ],
+     "published": "2026-07-13",
+     "comment": "Accepted at the 7th ACM International Conference on AI in Finance (ICAIF '26), Milan, Italy, November 14-17, 2026. 8 pages, 2 figures, 5 tables",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   },
+   {
+    "source": "DOI resolver",
+    "id": "10.1145/3858063.3858685",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "Confidently Wrong: Detecting Hallucinations in Financial Question Answering from LLM Internal States",
+     "authors": [
+      "Richard Zhe Wang"
+     ],
+     "year": 2026,
+     "venue": "Proceedings of the 7th ACM International Conference on AI in Finance",
+     "type": "proceedings-article"
+    },
+    "crossref_title_check": true
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00411",
+  "record_title": "Ordinal Gates, Cardinal Bets: Matching LLM Confidence to the Financial Decision Operator",
+  "record_year": "2026",
+  "record_first_author": "Rayansh Singh",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2609.00187",
+    "title_match": true,
+    "meta": {
+     "title": "Ordinal Gates, Cardinal Bets: Matching LLM Confidence to the Financial Decision Operator",
+     "authors": [
+      "Rayansh Singh",
+      "Sara Rezaeimanesh"
+     ],
+     "published": "2026-08-31",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00016",
+  "record_title": "Revisiting Uncertainty Estimation and Calibration of Large Language Models",
+  "record_year": "2025",
+  "record_first_author": "Linwei Tao",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2505.23854",
+    "title_match": true,
+    "meta": {
+     "title": "Revisiting Uncertainty Estimation and Calibration of Large Language Models",
+     "authors": [
+      "Linwei Tao",
+      "Yi-Fan Yeh",
+      "Minjing Dong",
+      "Tao Huang",
+      "Philip Torr",
+      "Chang Xu"
+     ],
+     "published": "2025-05-29",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "R00079",
+  "record_title": "How Do Uncertainty Estimators Align with Hallucination Occurrence in LLMs?",
+  "record_year": "2026",
+  "record_first_author": "Yedidia Agnimo",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2605.27016",
+    "title_match": true,
+    "meta": {
+     "title": "How Do Uncertainty Estimators Align with Hallucination Occurrence in LLMs?",
+     "authors": [
+      "Yedidia Agnimo",
+      "Anna Korba",
+      "Annabelle Blangero",
+      "Nicolas Chesneau",
+      "Karteek Alahari"
+     ],
+     "published": "2026-05-26",
+     "comment": "50 pages, 11 figures, 18 tables",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "R00404",
+  "record_title": "FinVerBench: Benchmark Validity and Calibration in Large Language Model Financial Statement Verification",
+  "record_year": "2026",
+  "record_first_author": "Silu Panda",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2605.29586",
+    "title_match": true,
+    "meta": {
+     "title": "FinVerBench: Benchmark Validity and Calibration in Large Language Model Financial Statement Verification",
+     "authors": [
+      "Silu Panda"
+     ],
+     "published": "2026-05-28",
+     "comment": "37 pages, 9 figures",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ }
+]
