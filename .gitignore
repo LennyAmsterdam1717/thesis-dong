@@ -1,0 +1,14 @@
+# Papers and documents (kept local, not pushed)
+*.pdf
+*.doc
+*.docx
+
+# Office temp/lock files
+~$*
+
+# macOS
+.DS_Store
+
+# Extracted full texts and raw datasets (kept local)
+literature/screening/fulltext_txt/
+experiments/**/data/
