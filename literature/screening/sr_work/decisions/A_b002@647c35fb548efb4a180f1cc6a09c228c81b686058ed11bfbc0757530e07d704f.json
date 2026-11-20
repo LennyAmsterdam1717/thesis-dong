@@ -1,0 +1,305 @@
+{
+"label": "A:b002@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00001",
+"d": "include",
+"code": "INC",
+"why": "Entropy confidence and calibration of GPT-4/Llama in Text-to-SQL"
+},
+{
+"id": "R00002",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination/miscalibration; models are n-gram and fine-tuned transformers, LLM status unclear"
+},
+{
+"id": "R00003",
+"d": "include",
+"code": "INC",
+"why": "Calibration and overconfidence across nine LLMs"
+},
+{
+"id": "R00004",
+"d": "include",
+"code": "INC",
+"why": "Token-level UQ method for LLMs"
+},
+{
+"id": "R00005",
+"d": "include",
+"code": "INC",
+"why": "LLM UQ via multi-response semantic and knowledge similarity"
+},
+{
+"id": "R00006",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of LLM uncertainty estimation"
+},
+{
+"id": "R00007",
+"d": "include",
+"code": "INC",
+"why": "LLM epistemic uncertainty estimation via sampled entropy"
+},
+{
+"id": "R00008",
+"d": "unclear",
+"code": "UNC",
+"why": "Semantic entropy for medical VLMs; unclear if counts as LLMs"
+},
+{
+"id": "R00009",
+"d": "exclude",
+"code": "E3",
+"why": "VLM perception for robot belief-space planning, not LLM uncertainty"
+},
+{
+"id": "R00010",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM UQ framework in medicine; unclear if empirically evaluated"
+},
+{
+"id": "R00011",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence scorers for hallucination detection"
+},
+{
+"id": "R00012",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty estimation methods analysed in RAG LLMs"
+},
+{
+"id": "R00013",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy as LLM uncertainty and knowledge boundary signal"
+},
+{
+"id": "R00014",
+"d": "include",
+"code": "INC",
+"why": "LLM overconfidence and knowledge popularity"
+},
+{
+"id": "R00015",
+"d": "include",
+"code": "INC",
+"why": "UQ-based hallucination detection in RAG LLM outputs"
+},
+{
+"id": "R00016",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty calibration across 80 LLMs"
+},
+{
+"id": "R00017",
+"d": "exclude",
+"code": "E5",
+"why": "Training data attribution, not LLM confidence or factual knowledge"
+},
+{
+"id": "R00018",
+"d": "include",
+"code": "INC",
+"why": "MLLM step-level confidence calibration and knowledge boundaries"
+},
+{
+"id": "R00019",
+"d": "include",
+"code": "INC",
+"why": "Verbalized confidence in long-form LLM generation"
+},
+{
+"id": "R00020",
+"d": "include",
+"code": "INC",
+"why": "Adaptive uncertainty estimation in LLM chemistry reasoning"
+},
+{
+"id": "R00021",
+"d": "include",
+"code": "INC",
+"why": "Conformal uncertainty quantification for black-box LLMs"
+},
+{
+"id": "R00022",
+"d": "include",
+"code": "INC",
+"why": "Hidden-state uncertainty probes for LLM factuality"
+},
+{
+"id": "R00023",
+"d": "exclude",
+"code": "E3",
+"why": "Clinical trial enrollment prediction, not LLM-focused"
+},
+{
+"id": "R00024",
+"d": "include",
+"code": "INC",
+"why": "Context-aware confidence estimation for LLMs"
+},
+{
+"id": "R00025",
+"d": "include",
+"code": "INC",
+"why": "Reasoning budget effects on LLM confidence calibration"
+},
+{
+"id": "R00026",
+"d": "include",
+"code": "INC",
+"why": "Stepwise confidence estimation for LLM EHR agent"
+},
+{
+"id": "R00028",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence calibration and risk-controlled refusal"
+},
+{
+"id": "R00029",
+"d": "include",
+"code": "INC",
+"why": "LLM knowledge boundaries and entropy-based confidence"
+},
+{
+"id": "R00030",
+"d": "include",
+"code": "INC",
+"why": "Graph-based confidence estimation for LLM reasoning"
+},
+{
+"id": "R00032",
+"d": "include",
+"code": "INC",
+"why": "Token-level uncertainty estimation for LLM entity linking"
+},
+{
+"id": "R00033",
+"d": "include",
+"code": "INC",
+"why": "Entropy-based uncertainty guiding medical LLM reasoning"
+},
+{
+"id": "R00034",
+"d": "include",
+"code": "INC",
+"why": "Epistemic uncertainty quantification of LLMs in contextual QA"
+},
+{
+"id": "R00035",
+"d": "exclude",
+"code": "E2",
+"why": "Survey/tutorial on UQ for hallucination detection"
+},
+{
+"id": "R00036",
+"d": "include",
+"code": "INC",
+"why": "Activation-based LLM confidence and abstention, finance setting"
+},
+{
+"id": "R00037",
+"d": "include",
+"code": "INC",
+"why": "Systematic evaluation of LLM uncertainty estimators"
+},
+{
+"id": "R00038",
+"d": "include",
+"code": "INC",
+"why": "Conformal prediction and abstention for LLMs under continual pretraining"
+},
+{
+"id": "R00039",
+"d": "include",
+"code": "INC",
+"why": "LLM UQ failure under ambiguity"
+},
+{
+"id": "R00040",
+"d": "include",
+"code": "INC",
+"why": "Probability-based uncertainty estimation for LLMs"
+},
+{
+"id": "R00041",
+"d": "unclear",
+"code": "UNC",
+"why": "Theoretical hallucination/uncertainty framework; empirical evaluation unclear"
+},
+{
+"id": "R00042",
+"d": "include",
+"code": "INC",
+"why": "Black-box semantic structural entropy UQ for LLMs"
+},
+{
+"id": "R00043",
+"d": "include",
+"code": "INC",
+"why": "Calibrated uncertainty probes for LLM judges"
+},
+{
+"id": "R00044",
+"d": "include",
+"code": "INC",
+"why": "Robust UQ for LLM factual generation"
+},
+{
+"id": "R00045",
+"d": "exclude",
+"code": "E3",
+"why": "Audio-language classification, not LLMs"
+},
+{
+"id": "R00046",
+"d": "include",
+"code": "INC",
+"why": "LLM verbal confidence and abstention decisions"
+},
+{
+"id": "R00047",
+"d": "include",
+"code": "INC",
+"why": "Tracing LLM verbalized confidence to training data"
+},
+{
+"id": "R00048",
+"d": "include",
+"code": "INC",
+"why": "Verbal confidence calibration of LLMs in RAG"
+},
+{
+"id": "R00049",
+"d": "include",
+"code": "INC",
+"why": "Relational knowledge probing with confidence calibration in LMs"
+},
+{
+"id": "R00050",
+"d": "exclude",
+"code": "E3",
+"why": "VLM embedding uncertainty for classification, not LLMs"
+},
+{
+"id": "R00051",
+"d": "include",
+"code": "INC",
+"why": "Hidden-state confidence estimation for LLM outputs"
+},
+{
+"id": "R00052",
+"d": "include",
+"code": "INC",
+"why": "Epistemic uncertainty estimation for LLMs via distillation"
+}
+]
+}

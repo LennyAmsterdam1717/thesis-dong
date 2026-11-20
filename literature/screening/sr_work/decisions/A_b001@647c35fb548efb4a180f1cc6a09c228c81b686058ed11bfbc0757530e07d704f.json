@@ -1,0 +1,155 @@
+{
+"label": "A:b001@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00027",
+"d": "include",
+"code": "INC",
+"why": "LLM hate speech detection with calibration and overconfident self-reported certainty analysed"
+},
+{
+"id": "R00031",
+"d": "include",
+"code": "INC",
+"why": "Measures LLM uncertainty across multi-round answers for contract detection"
+},
+{
+"id": "R00082",
+"d": "include",
+"code": "INC",
+"why": "Token-probability uncertainty quantification for multimodal RAG with VLMs"
+},
+{
+"id": "R00129",
+"d": "include",
+"code": "INC",
+"why": "LLM fact-checking agents with adaptive confidence calibration evaluated"
+},
+{
+"id": "R00132",
+"d": "exclude",
+"code": "E5",
+"why": "Physical thermodynamic model; semantic entropy not LLM output uncertainty"
+},
+{
+"id": "R00200",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework, no empirical evaluation"
+},
+{
+"id": "R00250",
+"d": "exclude",
+"code": "E2",
+"why": "Literature review"
+},
+{
+"id": "R00285",
+"d": "exclude",
+"code": "E5",
+"why": "Student writing study; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00289",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception survey; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00296",
+"d": "exclude",
+"code": "E5",
+"why": "Qualitative EFL case study; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00302",
+"d": "exclude",
+"code": "E5",
+"why": "Student ChatGPT usage study; no LLM confidence or knowledge angle"
+},
+{
+"id": "R00367",
+"d": "exclude",
+"code": "E4",
+"why": "Finance agent architecture, no uncertainty or knowledge angle"
+},
+{
+"id": "R00375",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; multi-LLM finance consensus may relate to consistency"
+},
+{
+"id": "R00380",
+"d": "exclude",
+"code": "E5",
+"why": "Pragmatic failure typology; no confidence or knowledge analysis"
+},
+{
+"id": "R00384",
+"d": "exclude",
+"code": "E5",
+"why": "RAG hallucination mitigation evaluated on accuracy only"
+},
+{
+"id": "R00414",
+"d": "exclude",
+"code": "E2",
+"why": "Survey"
+},
+{
+"id": "R00440",
+"d": "exclude",
+"code": "E2",
+"why": "Survey"
+},
+{
+"id": "R00462",
+"d": "include",
+"code": "INC",
+"why": "Hallucination detection from token log-probability signals"
+},
+{
+"id": "R00494",
+"d": "include",
+"code": "INC",
+"why": "Knowledge boundary perception via probabilistic, consistency and verbalized confidence"
+},
+{
+"id": "R00496",
+"d": "exclude",
+"code": "E5",
+"why": "Knowledge distillation for temporal KG reasoning, no concept"
+},
+{
+"id": "R00559",
+"d": "include",
+"code": "INC",
+"why": "Epistemic diversity and whose knowledge across 27 LLMs"
+},
+{
+"id": "R00566",
+"d": "unclear",
+"code": "UNC",
+"why": "Cultural knowledge benchmark for MLLMs; unclear if factual knowledge representation analysed"
+},
+{
+"id": "R00600",
+"d": "exclude",
+"code": "E5",
+"why": "LLM-based knowledge graph construction protocol, no concept"
+},
+{
+"id": "R00616",
+"d": "exclude",
+"code": "E5",
+"why": "Plot diversity of stories, not factual knowledge or confidence"
+},
+{
+"id": "R00638",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual argument paper without empirical analysis"
+}
+]
+}

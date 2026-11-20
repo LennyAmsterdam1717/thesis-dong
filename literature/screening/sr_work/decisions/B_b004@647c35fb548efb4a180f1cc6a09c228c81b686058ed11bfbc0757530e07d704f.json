@@ -1,0 +1,305 @@
+{
+"label": "B:b004@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00104",
+"d": "include",
+"code": "INC",
+"why": "Semantic uncertainty quantification for LLMs, evaluated empirically"
+},
+{
+"id": "R00105",
+"d": "include",
+"code": "INC",
+"why": "Overconfidence and verbal uncertainty of LLMs measured empirically"
+},
+{
+"id": "R00106",
+"d": "include",
+"code": "INC",
+"why": "Black-box LLM uncertainty decomposition method with evaluation"
+},
+{
+"id": "R00107",
+"d": "unclear",
+"code": "UNC",
+"why": "Field-level confidence for VLMs; unclear if LLM scope; finance documents"
+},
+{
+"id": "R00108",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of LLM uncertainty quantification"
+},
+{
+"id": "R00109",
+"d": "include",
+"code": "INC",
+"why": "Stated-confidence calibration of language models across domains"
+},
+{
+"id": "R00110",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy as RL reward to reduce LLM hallucination"
+},
+{
+"id": "R00111",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests semantic entropy uncertainty in LLMs"
+},
+{
+"id": "R00112",
+"d": "include",
+"code": "INC",
+"why": "Multi-granular uncertainty features for LLM hallucination detection"
+},
+{
+"id": "R00113",
+"d": "exclude",
+"code": "E3",
+"why": "TF-IDF/SVM detector calibration, not LLM confidence"
+},
+{
+"id": "R00114",
+"d": "exclude",
+"code": "E2",
+"why": "Position paper"
+},
+{
+"id": "R00115",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical essay, no empirical analysis"
+},
+{
+"id": "R00116",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy calibration and hallucination detection across 3 LLMs"
+},
+{
+"id": "R00117",
+"d": "unclear",
+"code": "UNC",
+"why": "Uncertainty/calibration framework for LLMs; evaluation only planned"
+},
+{
+"id": "R00118",
+"d": "include",
+"code": "INC",
+"why": "LLM overconfidence and confidence updating studied empirically"
+},
+{
+"id": "R00119",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of uncertainty estimation in LLMs"
+},
+{
+"id": "R00120",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; LLM framework with uncertainty quantification, finance-related"
+},
+{
+"id": "R00121",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty signals for LLM hallucination risk scoring"
+},
+{
+"id": "R00122",
+"d": "include",
+"code": "INC",
+"why": "Quantization effect on token-probability confidence of small LM"
+},
+{
+"id": "R00123",
+"d": "include",
+"code": "INC",
+"why": "LLM judge confidence calibration and abstention evaluated"
+},
+{
+"id": "R00124",
+"d": "include",
+"code": "INC",
+"why": "Log-likelihood as LLM confidence signal, calibration compared"
+},
+{
+"id": "R00125",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy for LLM uncertainty in geotechnical design"
+},
+{
+"id": "R00126",
+"d": "include",
+"code": "INC",
+"why": "Conformal prediction and calibration of LLM hallucination risk"
+},
+{
+"id": "R00127",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; vision-language hallucination detection via uncertainty"
+},
+{
+"id": "R00128",
+"d": "unclear",
+"code": "UNC",
+"why": "System with LLM reasoning and confidence calibration; unclear if LLM confidence"
+},
+{
+"id": "R00130",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM agents' reported confidence calibration; architecture-focused abstract"
+},
+{
+"id": "R00131",
+"d": "exclude",
+"code": "E5",
+"why": "Prediction uncertainty in hydrology, not LLM confidence"
+},
+{
+"id": "R00133",
+"d": "exclude",
+"code": "E3",
+"why": "No abstract; title shows no LLM, fund classification"
+},
+{
+"id": "R00134",
+"d": "include",
+"code": "INC",
+"why": "Step-wise LLM uncertainty estimation identifying knowledge deficiencies"
+},
+{
+"id": "R00135",
+"d": "exclude",
+"code": "E2",
+"why": "Special issue preface"
+},
+{
+"id": "R00136",
+"d": "include",
+"code": "INC",
+"why": "Calibrating LLM sensor confidence scores per tenant"
+},
+{
+"id": "R00137",
+"d": "exclude",
+"code": "E3",
+"why": "AI-text detector classifier, not LLM uncertainty"
+},
+{
+"id": "R00138",
+"d": "exclude",
+"code": "E3",
+"why": "Classical ML nephrotoxicity model"
+},
+{
+"id": "R00139",
+"d": "exclude",
+"code": "E3",
+"why": "BERT classifier calibration, not generative LLM"
+},
+{
+"id": "R00140",
+"d": "include",
+"code": "INC",
+"why": "LLM uncertainty quantification and calibration in financial legal calculation"
+},
+{
+"id": "R00141",
+"d": "exclude",
+"code": "E2",
+"why": "Review/commentary of another paper"
+},
+{
+"id": "R00142",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; agentic AI overconfidence, unclear LLM focus"
+},
+{
+"id": "R00143",
+"d": "include",
+"code": "INC",
+"why": "Token-probability uncertainty metrics for T5 translation"
+},
+{
+"id": "R00144",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty-aware ensemble using LLM self-assessment"
+},
+{
+"id": "R00145",
+"d": "unclear",
+"code": "UNC",
+"why": "User study with confidence-adaptive LLM explanations; confidence role unclear"
+},
+{
+"id": "R00146",
+"d": "include",
+"code": "INC",
+"why": "LLM knowledge boundary and confidence estimation for tool calls"
+},
+{
+"id": "R00147",
+"d": "include",
+"code": "INC",
+"why": "LLM uncertainty measures compared with human uncertainty"
+},
+{
+"id": "R00148",
+"d": "unclear",
+"code": "UNC",
+"why": "Overview of LLM sentiment variability with case study; may be review"
+},
+{
+"id": "R00149",
+"d": "exclude",
+"code": "E2",
+"why": "Position paper"
+},
+{
+"id": "R00150",
+"d": "unclear",
+"code": "UNC",
+"why": "Verbalized confidence calibration in VLMs; LLM scope uncertain"
+},
+{
+"id": "R00151",
+"d": "include",
+"code": "INC",
+"why": "LLM response consistency/confidence estimation versus human perception"
+},
+{
+"id": "R00152",
+"d": "include",
+"code": "INC",
+"why": "Truth directions in LLM representations, selective QA"
+},
+{
+"id": "R00153",
+"d": "exclude",
+"code": "E5",
+"why": "LLM agents as social simulation, no LLM certainty or knowledge"
+},
+{
+"id": "R00154",
+"d": "exclude",
+"code": "E5",
+"why": "Fine-tuned LLM for diagnosis, accuracy only"
+},
+{
+"id": "R00155",
+"d": "unclear",
+"code": "UNC",
+"why": "MLLM hallucination with visual-uncertainty awareness and refusal"
+}
+]
+}

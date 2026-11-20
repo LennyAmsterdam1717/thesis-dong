@@ -1,0 +1,245 @@
+{
+"label": "A:b005@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00156",
+"d": "include",
+"code": "INC",
+"why": "Consistency-based black-box UQ for LLM confidence"
+},
+{
+"id": "R00157",
+"d": "exclude",
+"code": "E5",
+"why": "Apology preferences; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00158",
+"d": "exclude",
+"code": "E5",
+"why": "General user trust survey, not LLM confidence"
+},
+{
+"id": "R00159",
+"d": "include",
+"code": "INC",
+"why": "Multilingual epistemic markers, overconfidence and human reliance"
+},
+{
+"id": "R00160",
+"d": "include",
+"code": "INC",
+"why": "Inference-time uncertainty calibration vs human uncertainty"
+},
+{
+"id": "R00161",
+"d": "include",
+"code": "INC",
+"why": "Verbalized confidence calibration via critiques"
+},
+{
+"id": "R00162",
+"d": "exclude",
+"code": "E5",
+"why": "Agent research benchmark; no confidence or knowledge analysis"
+},
+{
+"id": "R00163",
+"d": "exclude",
+"code": "E5",
+"why": "Clinical reasoning benchmark; confidence only incidental"
+},
+{
+"id": "R00164",
+"d": "include",
+"code": "INC",
+"why": "Certainty framing of LLM rationales and user trust"
+},
+{
+"id": "R00165",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty granularity display and user verification"
+},
+{
+"id": "R00166",
+"d": "exclude",
+"code": "E5",
+"why": "Code review workflow design; no LLM confidence analysis"
+},
+{
+"id": "R00167",
+"d": "include",
+"code": "INC",
+"why": "Certainty framing of LLM rationales, user trust calibration"
+},
+{
+"id": "R00168",
+"d": "exclude",
+"code": "E5",
+"why": "Video-LLM citation verification; no uncertainty analysis"
+},
+{
+"id": "R00169",
+"d": "unclear",
+"code": "UNC",
+"why": "Quantized LLM personality with entropy and confidence-gap analysis"
+},
+{
+"id": "R00170",
+"d": "exclude",
+"code": "E5",
+"why": "Children designing chatbot traits; not LLM confidence measurement"
+},
+{
+"id": "R00171",
+"d": "exclude",
+"code": "E5",
+"why": "Robot navigation explanations and trust"
+},
+{
+"id": "R00172",
+"d": "include",
+"code": "INC",
+"why": "Confident wrong LLM, human confidence calibration and deference"
+},
+{
+"id": "R00173",
+"d": "include",
+"code": "INC",
+"why": "Calibration gap between LLM confidence and human perception"
+},
+{
+"id": "R00174",
+"d": "exclude",
+"code": "E5",
+"why": "Parent perceptions qualitative study, no confidence analysis"
+},
+{
+"id": "R00175",
+"d": "exclude",
+"code": "E5",
+"why": "Sentiment-aware chatbot, no abstract, no concept in title"
+},
+{
+"id": "R00176",
+"d": "exclude",
+"code": "E5",
+"why": "User reliance perceptions, no LLM confidence"
+},
+{
+"id": "R00177",
+"d": "exclude",
+"code": "E5",
+"why": "Technology acceptance trust survey"
+},
+{
+"id": "R00178",
+"d": "exclude",
+"code": "E5",
+"why": "Physiological trust calibration, title lacks LLM confidence"
+},
+{
+"id": "R00179",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM reality distortion with Confidence Manipulation Score; unclear role"
+},
+{
+"id": "R00180",
+"d": "exclude",
+"code": "E5",
+"why": "XAI on credit-risk ML models, no LLM uncertainty analysis"
+},
+{
+"id": "R00181",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual theoretical essay, no empirical study"
+},
+{
+"id": "R00182",
+"d": "exclude",
+"code": "E2",
+"why": "Narrative review of agricultural multi-agent LLMs"
+},
+{
+"id": "R00183",
+"d": "unclear",
+"code": "UNC",
+"why": "Epistemic/aleatoric uncertainty used in LLM bias detection"
+},
+{
+"id": "R00184",
+"d": "exclude",
+"code": "E2",
+"why": "Commentary on LLMs in emergency triage"
+},
+{
+"id": "R00185",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty, overconfidence detection and abstention for LLM outputs"
+},
+{
+"id": "R00186",
+"d": "include",
+"code": "INC",
+"why": "Confidence-weighted hallucination score, knowledge boundary stress-test"
+},
+{
+"id": "R00187",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review"
+},
+{
+"id": "R00188",
+"d": "exclude",
+"code": "E5",
+"why": "EFL writing quasi-experiment, no concept"
+},
+{
+"id": "R00189",
+"d": "unclear",
+"code": "UNC",
+"why": "Framework with uncertainty-aware reasoning; evaluation details unclear"
+},
+{
+"id": "R00190",
+"d": "exclude",
+"code": "E2",
+"why": "Study plan only, no results (protocol)"
+},
+{
+"id": "R00191",
+"d": "unclear",
+"code": "UNC",
+"why": "Confidence-monitoring LLM architecture; empirical evaluation unclear"
+},
+{
+"id": "R00192",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic review"
+},
+{
+"id": "R00193",
+"d": "exclude",
+"code": "E5",
+"why": "Depression diagnosis XAI pipeline, no LLM confidence analysis"
+},
+{
+"id": "R00194",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception survey"
+},
+{
+"id": "R00195",
+"d": "exclude",
+"code": "E5",
+"why": "Attachment style and LLM dependency survey"
+}
+]
+}

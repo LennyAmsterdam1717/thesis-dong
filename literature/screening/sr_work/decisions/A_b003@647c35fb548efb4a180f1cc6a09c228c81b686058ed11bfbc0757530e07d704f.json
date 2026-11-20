@@ -1,0 +1,305 @@
+{
+"label": "A:b003@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00053",
+"d": "include",
+"code": "INC",
+"why": "Evidential uncertainty quantification for large vision-language model misbehaviors"
+},
+{
+"id": "R00054",
+"d": "exclude",
+"code": "E5",
+"why": "Statistical confidence sets for LLM rankings, not output confidence"
+},
+{
+"id": "R00055",
+"d": "include",
+"code": "INC",
+"why": "Long-form claim-level uncertainty quantification for LLMs"
+},
+{
+"id": "R00056",
+"d": "include",
+"code": "INC",
+"why": "Benchmark for uncertainty in RAG LLMs via conformal prediction"
+},
+{
+"id": "R00057",
+"d": "unclear",
+"code": "UNC",
+"why": "Logit-level uncertainty in vision-language models; unclear if LLM-based"
+},
+{
+"id": "R00058",
+"d": "include",
+"code": "INC",
+"why": "Confidence-first calibration of LLM verbalized confidence"
+},
+{
+"id": "R00059",
+"d": "include",
+"code": "INC",
+"why": "Entropy-based selective prediction and calibration in LLMs"
+},
+{
+"id": "R00060",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy estimation for hallucination detection"
+},
+{
+"id": "R00061",
+"d": "include",
+"code": "INC",
+"why": "Gradient-norm epistemic uncertainty tested on LLM QA correctness"
+},
+{
+"id": "R00062",
+"d": "include",
+"code": "INC",
+"why": "Calibrating LLM uncertainty estimates to correctness"
+},
+{
+"id": "R00063",
+"d": "include",
+"code": "INC",
+"why": "Mechanistic analysis of verbalized overconfidence in LLMs"
+},
+{
+"id": "R00064",
+"d": "include",
+"code": "INC",
+"why": "Automated design of LLM uncertainty quantification methods"
+},
+{
+"id": "R00065",
+"d": "include",
+"code": "INC",
+"why": "Long-form LLM uncertainty quantification method"
+},
+{
+"id": "R00066",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty sources and UQ methods evaluated on LLMs"
+},
+{
+"id": "R00067",
+"d": "include",
+"code": "INC",
+"why": "Claim-level uncertainty for long-form LLM generation"
+},
+{
+"id": "R00068",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM claim-strength assessment and overconfidence risk; confidence measurement unclear"
+},
+{
+"id": "R00069",
+"d": "include",
+"code": "INC",
+"why": "Token and verbalized confidence calibration in multimodal LLMs"
+},
+{
+"id": "R00070",
+"d": "include",
+"code": "INC",
+"why": "UQ methods for LLM function-calling"
+},
+{
+"id": "R00071",
+"d": "include",
+"code": "INC",
+"why": "Zero-shot confidence estimation signals for small LLMs"
+},
+{
+"id": "R00072",
+"d": "include",
+"code": "INC",
+"why": "Generation-efficient LLM uncertainty estimation"
+},
+{
+"id": "R00073",
+"d": "include",
+"code": "INC",
+"why": "LVLM confidence estimation and calibration, includes financial documents"
+},
+{
+"id": "R00074",
+"d": "include",
+"code": "INC",
+"why": "Confidence estimation for LLM judges"
+},
+{
+"id": "R00075",
+"d": "include",
+"code": "INC",
+"why": "Verbalized confidence calibration in LLMs"
+},
+{
+"id": "R00076",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty quantification for diffusion language models"
+},
+{
+"id": "R00077",
+"d": "exclude",
+"code": "E2",
+"why": "Position paper arguing about UQ, no empirical study"
+},
+{
+"id": "R00078",
+"d": "unclear",
+"code": "UNC",
+"why": "Entropy-based uncertainty signals for RL post-training; LLM confidence link unclear"
+},
+{
+"id": "R00079",
+"d": "include",
+"code": "INC",
+"why": "Evaluates 46 uncertainty estimators against LLM hallucination"
+},
+{
+"id": "R00080",
+"d": "include",
+"code": "INC",
+"why": "Input-induced uncertainty quantification for LLMs"
+},
+{
+"id": "R00081",
+"d": "unclear",
+"code": "UNC",
+"why": "Conformal uncertainty for generative models; LLM focus partial"
+},
+{
+"id": "R00083",
+"d": "include",
+"code": "INC",
+"why": "Ambiguity and UQ metrics for LLM error prediction"
+},
+{
+"id": "R00084",
+"d": "include",
+"code": "INC",
+"why": "Self-assessment confidence estimation for LLMs"
+},
+{
+"id": "R00085",
+"d": "include",
+"code": "INC",
+"why": "Benchmark of LLM overconfidence and incomplete knowledge"
+},
+{
+"id": "R00086",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM agents with calibrated confidence scores; LLM-confidence focus unclear"
+},
+{
+"id": "R00087",
+"d": "include",
+"code": "INC",
+"why": "Probe-based uncertainty estimation for LLM hallucination"
+},
+{
+"id": "R00088",
+"d": "include",
+"code": "INC",
+"why": "Selective prediction alignment of LLMs"
+},
+{
+"id": "R00089",
+"d": "include",
+"code": "INC",
+"why": "Span-level uncertainty quantification for LLM output"
+},
+{
+"id": "R00090",
+"d": "include",
+"code": "INC",
+"why": "Step-level confidence calibration for LLM agents"
+},
+{
+"id": "R00091",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence estimation in healthcare and finance prediction"
+},
+{
+"id": "R00092",
+"d": "include",
+"code": "INC",
+"why": "High-confidence errors and miscalibration in LLMs"
+},
+{
+"id": "R00093",
+"d": "include",
+"code": "INC",
+"why": "LLM fact-checking with confidence calibration and abstention"
+},
+{
+"id": "R00094",
+"d": "include",
+"code": "INC",
+"why": "Confidence estimation and calibration for financial vision-language models"
+},
+{
+"id": "R00095",
+"d": "include",
+"code": "INC",
+"why": "Claim-level confidence calibration for LLMs"
+},
+{
+"id": "R00096",
+"d": "include",
+"code": "INC",
+"why": "Claim-level uncertainty quantification for LLMs"
+},
+{
+"id": "R00097",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence estimation and calibration method"
+},
+{
+"id": "R00098",
+"d": "include",
+"code": "INC",
+"why": "Aleatoric uncertainty estimation in LLMs"
+},
+{
+"id": "R00099",
+"d": "include",
+"code": "INC",
+"why": "Probing hidden knowledge and miscalibrated readouts in language models"
+},
+{
+"id": "R00100",
+"d": "include",
+"code": "INC",
+"why": "LLM verbal uncertainty markers compared with humans"
+},
+{
+"id": "R00101",
+"d": "include",
+"code": "INC",
+"why": "Single-pass LLM uncertainty quantification from activations"
+},
+{
+"id": "R00102",
+"d": "exclude",
+"code": "E3",
+"why": "Selective prediction certification across ML systems, not LLM-focused"
+},
+{
+"id": "R00103",
+"d": "exclude",
+"code": "E2",
+"why": "Tutorial on UQ in medical imaging"
+}
+]
+}

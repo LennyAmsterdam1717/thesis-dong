@@ -1,0 +1,305 @@
+{
+"label": "A:b004@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00104",
+"d": "include",
+"code": "INC",
+"why": "Semantic UQ method for LLMs, evaluated"
+},
+{
+"id": "R00105",
+"d": "include",
+"code": "INC",
+"why": "Overconfidence and verbal uncertainty of LLMs measured"
+},
+{
+"id": "R00106",
+"d": "include",
+"code": "INC",
+"why": "Black-box LLM uncertainty decomposition"
+},
+{
+"id": "R00107",
+"d": "include",
+"code": "INC",
+"why": "Field-level confidence estimation for VLMs, financial documents"
+},
+{
+"id": "R00108",
+"d": "exclude",
+"code": "E2",
+"why": "Survey"
+},
+{
+"id": "R00109",
+"d": "include",
+"code": "INC",
+"why": "LLM stated-confidence calibration study"
+},
+{
+"id": "R00110",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy as uncertainty reward to reduce hallucination"
+},
+{
+"id": "R00111",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests semantic entropy uncertainty in LLMs"
+},
+{
+"id": "R00112",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty features for LLM hallucination detection"
+},
+{
+"id": "R00113",
+"d": "exclude",
+"code": "E3",
+"why": "TF-IDF/SVM detectors calibrated, not LLMs"
+},
+{
+"id": "R00114",
+"d": "exclude",
+"code": "E2",
+"why": "Position paper without analysis"
+},
+{
+"id": "R00115",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical essay, not empirical study"
+},
+{
+"id": "R00116",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy and calibration benchmarked on LLMs"
+},
+{
+"id": "R00117",
+"d": "unclear",
+"code": "UNC",
+"why": "Uncertainty/calibration framework; unclear whether empirically evaluated"
+},
+{
+"id": "R00118",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence biases studied"
+},
+{
+"id": "R00119",
+"d": "exclude",
+"code": "E2",
+"why": "Survey"
+},
+{
+"id": "R00120",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; LLM framework with uncertainty quantification, finance-related"
+},
+{
+"id": "R00121",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty signals for medical LLM hallucination risk"
+},
+{
+"id": "R00122",
+"d": "include",
+"code": "INC",
+"why": "Quantization effect on LM confidence calibration"
+},
+{
+"id": "R00123",
+"d": "include",
+"code": "INC",
+"why": "LLM judge confidence calibration and abstention"
+},
+{
+"id": "R00124",
+"d": "include",
+"code": "INC",
+"why": "Log-likelihood confidence calibration in LLM MCQA"
+},
+{
+"id": "R00125",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy uncertainty for LLM outputs"
+},
+{
+"id": "R00126",
+"d": "include",
+"code": "INC",
+"why": "Conformal uncertainty and calibration audit of LLMs"
+},
+{
+"id": "R00127",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; UQ hallucination detection in vision-language models"
+},
+{
+"id": "R00128",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM system with confidence calibration; unclear if LLM confidence measured"
+},
+{
+"id": "R00130",
+"d": "include",
+"code": "INC",
+"why": "LLM agents' reported confidence calibration tested"
+},
+{
+"id": "R00131",
+"d": "unclear",
+"code": "UNC",
+"why": "ChatGPT prediction uncertainty quantification; unclear LLM confidence focus"
+},
+{
+"id": "R00133",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; confidence-aware selective prediction in finance, LLM use unclear"
+},
+{
+"id": "R00134",
+"d": "include",
+"code": "INC",
+"why": "Step-wise uncertainty estimation for LLM knowledge gaps"
+},
+{
+"id": "R00135",
+"d": "exclude",
+"code": "E2",
+"why": "Special issue preface"
+},
+{
+"id": "R00136",
+"d": "include",
+"code": "INC",
+"why": "Calibrating LLM sensor confidence scores"
+},
+{
+"id": "R00137",
+"d": "exclude",
+"code": "E3",
+"why": "AI-text detector classifier, not LLM uncertainty"
+},
+{
+"id": "R00138",
+"d": "exclude",
+"code": "E3",
+"why": "Random forest toxicity model, not LLM"
+},
+{
+"id": "R00139",
+"d": "exclude",
+"code": "E3",
+"why": "BERT classifier calibration, not generative LLM"
+},
+{
+"id": "R00140",
+"d": "include",
+"code": "INC",
+"why": "LLM uncertainty quantification and calibration, financial legal calculation"
+},
+{
+"id": "R00141",
+"d": "exclude",
+"code": "E2",
+"why": "Review of another paper"
+},
+{
+"id": "R00142",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; agentic AI overconfidence model, LLM focus unclear"
+},
+{
+"id": "R00143",
+"d": "include",
+"code": "INC",
+"why": "Token-probability confidence metrics for LM translation"
+},
+{
+"id": "R00144",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty-aware LLM ensemble using self-assessment"
+},
+{
+"id": "R00145",
+"d": "unclear",
+"code": "UNC",
+"why": "Confidence-adaptive LLM explanations; confidence role unclear"
+},
+{
+"id": "R00146",
+"d": "include",
+"code": "INC",
+"why": "LLM knowledge boundary and confidence estimation"
+},
+{
+"id": "R00147",
+"d": "include",
+"code": "INC",
+"why": "LLM uncertainty measures vs human uncertainty"
+},
+{
+"id": "R00148",
+"d": "unclear",
+"code": "UNC",
+"why": "Overview of LLM output variability; may be review or analysis"
+},
+{
+"id": "R00149",
+"d": "exclude",
+"code": "E2",
+"why": "Position paper"
+},
+{
+"id": "R00150",
+"d": "include",
+"code": "INC",
+"why": "Verbalized confidence calibration in VLMs"
+},
+{
+"id": "R00151",
+"d": "include",
+"code": "INC",
+"why": "LLM consistency/confidence metrics vs human perception"
+},
+{
+"id": "R00152",
+"d": "include",
+"code": "INC",
+"why": "Truth directions in LLM representations, selective QA"
+},
+{
+"id": "R00153",
+"d": "exclude",
+"code": "E5",
+"why": "Polarization simulation; no LLM certainty or knowledge"
+},
+{
+"id": "R00154",
+"d": "exclude",
+"code": "E5",
+"why": "Medical diagnosis fine-tuning, no confidence or knowledge analysis"
+},
+{
+"id": "R00155",
+"d": "unclear",
+"code": "UNC",
+"why": "MLLM visual uncertainty and refusal; unclear confidence analysis"
+}
+]
+}
