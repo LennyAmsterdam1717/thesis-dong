@@ -1,0 +1,705 @@
+BATCH b030 -- 39 records: R01205 .. R01243
+
+### R01205 | 2025 | article/None | Lang: en
+TI: AI with agency: a vision for adaptive, efficient, and ethical healthcare
+AB: The healthcare industry continues to face significant operational challenges in patient care, resource allocation, and administrative processes.
+    For instance, despite spending 16.8% of its gross domestic product on healthcare by 2015, the United States reported higher rates of preventable
+    hospitalizations and lower life expectancy compared to countries that spent nearly half as much (Papanicolas et al., 2019). In fact, the average
+    life expectancy in the United States was 78.8 years, falling short of the 80.6-year average among OECD countries (Papanicolas et al., 2019).
+    Moreover, 73.2% of insured adults reported experiencing at least one administrative burden that led them to delay or forgo medical care (Kyle &
+    Frakt, 2021). These inefficiencies stem not only from financial concerns but also from deeply embedded flaws in the administrative and
+    technological infrastructure of the healthcare system. Such persistent inefficiencies highlight a need not merely for automation, but for
+    intelligent, adaptive systems capable of navigating complexity in real time.A major driver of these challenges is administrative overhead.
+    Healthcare institutions allocate approximately 20% of their budgets to administrative tasks, while American physicians spend around 13% of their
+    work time on similar responsibilities (Cutler & Ly, 2011). Compounding this issue are fragmented workflows, excessive documentation, and poorly
+    integrated clinical systems, which increase physician burnout and the likelihood of clinical errors (Zhang & Padman, 2014). For example, some
+    computerized provider order entry systems are not tailored to patient needs, requiring 10% more physical effort than manual order selection (Zhang
+    & Padman, 2014). Additionally, order sets can become outdated quickly, reducing their clinical value. These challenges underscore the need for a
+    more intelligent system to ease administrative burdens and support effective clinical decision-making. What is needed is not just an AI system
+    that follows static rules, but one that learns, evolves, and operates with autonomy.Agentic artificial intelligence (AI) offers a promising
+    solution by autonomously managing complex healthcare tasks, reducing human error, and enhancing efficiency (Acharya et al., 2025). Using machine
+    learning (ML) algorithms, agentic AI adapts to real-time healthcare environments (Jiang et al., 2017).Unlike conventional AI, which depends on
+    fixed rules, agentic AI acts on its own to achieve healthcare goals and continuously updates its behavior as new information comes in. It can
+    streamline workflows, enhance diagnostic accuracy, and reduce administrative workload (Jiang et al., 2017;Wubineh et al., 2014). Some agentic AI
+    systems have been shown to lower cognitive workload by up to 52% (Zhang & Padman, 2014). Predictive models powered by agentic AI can identify
+    patients at risk of disease progression or complications, resulting in fewer hospitalizations, reduced healthcare costs, and better outcomes
+    (Khaleelullah et al., 2024). For instance, AI-based monitoring systems can detect subtle changes in vital signs, predict deterioration, and alert
+    clinicians before critical issues develop, enabling timely intervention.Because agentic AI is goal-driven and adapts over time, it is especially
+    well-suited to handle the complexity of hospital environments and ever-changing patient needs. In addition, agentic AI can optimize hospital
+    resource management by dynamically adjusting staffing, supply distribution, and patient flow based on real-time data (Acharya et al., 2025). This
+    perspective introduces an agentic AI framework designed to automate, optimize, and personalize medical services. Unlike traditional ML models,
+    agentic AI continuously learns from routine data and adjusts its responses to match evolving healthcare demands. This combination of adaptiveness
+    and autonomy makes agentic AI not just an innovation, but a necessity for the future of healthcare delivery. By reducing administrative burdens,
+    enhancing clinical decision-making, and streamlining operations, agentic AI has the potential to transform healthcare delivery and improve both
+    outcomes and cost-effectiveness.Reclaiming Time for Care: The Potential Administrative Power of Agentic AI AI enhances administrative efficiency
+    by automating routine tasks such as medical documentation, insurance claims processing, patient scheduling, and staff coordination (Bekbolatova et
+    al., 2024;Knight et al., 2023). In the United States, healthcare professionals spend approximately 25% of their working hours on administrative
+    duties (Bekbolatova et al., 2024). This administrative burden contributes to physician burnout, which in turn affects the quality of care
+    delivered to patients (Esmaeilzadeh, 2024). Automating repetitive and time-consuming administrative tasks can therefore free up valuable time for
+    medical professionals to focus more on direct patient care. Agentic AI builds upon this by not only executing administrative tasks but also
+    proactively refining and restructuring workflows. AI-driven automation addresses this issue by significantly reducing manual workloads, enabling
+    healthcare providers to allocate their time more intelligently and efficiently (Alowais et al., 2023;Liu et al., 2023).One of the most
+    time-consuming administrative tasks is the documentation of clinical history. Physicians often spend more than an hour documenting electronic
+    health records (EHRs) for every hour spent with patients, contributing to both burnout and inefficiencies (Reddy, 2024). To address this,
+    AI-powered natural language processing and voice recognition technologies are being integrated into EHR systems to assist with medical
+    transcription (Sahithya et al., 2024). These tools allow physicians to dictate patient notes, which are then structured into standardized
+    documents by AI. When these systems use agentic AI, they can learn each clinician's preferences over time to improve documentation quality. This
+    reduces documentation errors, improves the accuracy of patient records, and minimizes delays in administrative processing (Al-Antari, 2023). These
+    innovations also support interdepartmental coordination, improve hospital logistics, and enhance physician productivity (Tierney et al.,
+    2024;Dicuonzo et al., 2023). In addition, automated documentation tools help ensure regulatory compliance by maintaining records that meet legal
+    and ethical standards, thereby reducing the risk of malpractice claims and institutional penalties (Bekbolatova et al., 2024).AI also improves the
+    processing of insurance claims by identifying errors, ensuring compliance, and detecting fraudulent activity. Traditional claims processing is
+    often time-consuming, prone to human error, and financially inefficient, leading to delayed reimbursements and financial losses for healthcare
+    providers (Wolff et al., 2020). AI-based systems can analyze large volumes of claims data, flag inconsistencies, and verify compliance with
+    regulations, ultimately reducing administrative workloads (Senapati, Sarkar and Chen, 2024). These optimizations lead to fewer rejected claims,
+    better cash flow, and improved patient satisfaction due to faster approvals (Erion et al., 2022). AI also detects suspicious patterns in claims,
+    helping to prevent financial losses from fraud (Johnson, Albizri and Simsek, 2022). Agentic AI would let these systems spot fraud and errors more
+    accurately by learning from feedback and by adjusting to new billing rules in real time. Thus, by automating insurance processing, AI strengthens
+    the financial health of healthcare institutions and allows clinical staff to redirect their focus toward patient care. Additionally, it improves
+    billing transparency and speeds up reimbursements (Francisco et al., 2024).In patient scheduling, AI increases efficiency by predicting no-shows,
+    optimizing real-time appointment availability, and adjusting schedules accordingly. One study found that AI-supported reminders reduced no-show
+    rates from 19.3% to 15.9%, which helped ensure timely treatment and better use of provider time (Knight et al., 2023). Furthermore, agentic AI
+    would go even further by learning from patient behavior and clinic flow changes. It could adjust scheduling priorities and timing with minimal
+    human input. These systems reduce waiting times, minimize administrative delays, and prevent resource wastage, improving the overall delivery of
+    healthcare services. Virtual assistants powered by AI also help patients schedule appointments and handle inquiries, reducing the workload of
+    administrative staff and improving the patient experience (Wu et al., 2023). These tools promote smoother operations, better coordination between
+    providers and patients, and more effective resource use. Moreover, AI-powered assistants enhance accessibility by helping patients with
+    disabilities or language barriers navigate healthcare services (Joshi et al., 2022).Finally, AI strengthens staff coordination by optimizing
+    workforce management, automating administrative scheduling tasks, and projecting staffing needs based on real-time patient demand. AI scheduling
+    systems analyze historical data, seasonal patterns, and patient inflow trends to assign personnel efficiently and maintain proper coverage during
+    peak periods (Shahzad et al., 2023). This helps prevent employee burnout while ensuring that high-quality patient care is maintained (Cheng, Li
+    and Xu, 2022). Predictive analytics can also assist administrators in anticipating staffing shortages and reallocating resources dynamically
+    (Aminizadeh et al., 2024). Agentic staff coordination systems would respond to changing demands. It would reallocate staff and update schedules on
+    their own in real time. This helps maintain workforce resilience and ensures effective clinical coverage. By integrating AI into staff
+    coordination, healthcare facilities can enhance workforce efficiency, improve operational resilience, and raise the standard of care.However, it
+    is crucial that AI is implemented with care, so that over-optimization does not result in staff reductions that compromise patient care (Wang et
+    al., 2024). Agentic systems can be designed to prevent such over-optimizations by balancing administrative efficiency with patient-first
+    policies.The application of AI in Clinical Decision Support Systems (CDSS) has enhanced diagnostic accuracy by reducing medical errors and
+    improving patient outcomes (Ouanes & Farhah, 2024). AI-powered CDSS provides clinicians with real-time predictive data, evidence-based
+    recommendations, and risk assessments.One study found that such systems led to a 5% change in treatment decisions, driven by more accurate
+    diagnoses and improved decision-making processes (Al-Antari, 2023). By leveraging large datasets and integrating genetic, lifestyle, and
+    environmental factors, AI enables the automation of personalized treatment plans that enhance patient care (Ilan, 2021). With agentic AI, these
+    systems move beyond fixed rules by constantly updating their diagnostic models based on real-world clinical data, making their recommendations
+    more accurate and tailored to current One of the most of AI in CDSS is diagnostic it has human in detecting et al., 2022). AI-powered tools have
+    significantly improved in to is et al., 2022). AI has also by identifying at more thereby clinicians to timely and treatment et al., 2023). In AI
+    helps detect and to and delays in et al., technologies are especially valuable in with to medical a and In for instance, automated diagnostic
+    systems have accuracy in identifying and for in et al., 2022). Such systems reduce the need for manual diagnostic workflows, and effective care to
+    By automating diagnostic agentic AI systems not only and diagnostic but also autonomously learn from each new which improves its accuracy over
+    time. concerns be to and verify to ensure the and of diagnostic recommendations et al., 2023). Agentic AI systems therefore to and on just The
+    that is not only from a technological and clinical but also from ethical and legal needs with and to detect flag and AI et al., AI-based CDSS has
+    in in the of and on large these AI models enhance the accuracy of or contributing to alert et al., 2023). AI also in health care by enabling
+    treatment and personalized recommendations for (Alowais et al., 2023). These systems can and trends timely and improved patient Agentic AI enables
+    these systems to over time as they This improves the accuracy of health and reduces the data AI in health or care for (Francisco et al., 2024).
+    Agentic models therefore have and their patient to ensure and AI clinical decision-making is in accuracy and AI can analyze patient and data to
+    identify potential before they thereby reducing errors and patient risk (Wu et al., 2023). In complex among or patients, AI can detect and adjust
+    accordingly. These systems are especially in are (Francisco et al., 2024). By AI into workflows, clinicians can minimize errors, improve and
+    optimize Agentic AI would further improve this by continuously learning from patient recommendations, and evolving AI enhances clinical with
+    learning can patient and current health data to identify and personalized treatment (Reddy, 2024). In care AI-powered monitoring systems
+    continuously patient and can predict before critical et al., 2024). In AI support tools real-time recommendations based on and risk (Reddy, 2024).
+    These that AI in clinical support beyond to enhance treatment efficiency, and overall clinical With agentic these systems patient data and
+    treatment in real time. This of adaptiveness is for managing and changing AI also a in real-time disease monitoring and adaptive treatment et al.,
+    Agentic CDSS would the between and care by personalized treatment that changes in patient of the most operational challenges in healthcare is in
+    the AI offers a solution by resource needs, data on historical seasonal patterns, and such as and et al., 2023). It also enables real-time by
+    identifying patients and them for care. Agentic AI enhances this by autonomously refining in to evolving patterns and treatment this that the
+    system learns from each and improves for future This reduces waiting for and improves overall healthcare by enabling to timely and effective care
+    et al., 2023). on AI-based systems models to or in the of patient (Wang et al., the AI improves efficiency by automating tasks such as and Agentic
+    AI could this by autonomously identifying learning from its and them in real time to the changing patient volumes with institutional AI-driven
+    systems allow for real-time monitoring of patient with a of operational processes than data This enables administrators to identify and staff or
+    resources dynamically in to patient et al., 2023). AI systems can also and resource reducing staff and optimizing hospital (Johnson, Albizri and
+    Simsek, 2022). For example, the has an effective between and accuracy in clinical tasks, making it for real-time in environments et al., 2023). In
+    AI can support scheduling to allocate minimize between and improve et al., 2022). When by agentic scheduling systems can become with clinical need
+    and real-time these AI-based resource be with ethical to that compromise patient care quality (Esmaeilzadeh, 2024).AI also contributes to
+    predictive of medical learning can analyze operational data from such as and systems to detect of This enables to schedule reducing the risk of
+    and that can patient care (Senapati, Sarkar and Chen, 2024). Predictive reduces operational costs, and improves the of AI tools can also
+    continuously to diagnostic delays, ensuring these tools are for critical use (Aminizadeh et al., 2024). with agentic AI, these tools can
+    autonomously to environmental and could their schedules human AI-based systems significant which be for healthcare systems et al., addition, AI
+    supply healthcare Predictive analytics enables AI systems to and prevent supply the systems a vital in efficiently and to the of need (Bekbolatova
+    et al., 2024). quality systems also for and helping to ensure product of and reduces financial losses due to (Reddy, 2024). Agentic AI makes
+    supply more and by adjusting and based on real-time patient needs, helping improve care in these tools enhance and reduce costs, healthcare by
+    institutions over (Joshi et al., 2022). AI has also the of the enhanced and for (Alowais et al., 2023). These systems and allow to complex with In
+    addition, AI with by patient and health records to personalized improving outcomes and reducing and 2023). can also routine enabling to focus on
+    more critical of the et al., 2023). Agentic systems further and by learning from feedback and adjusting their the of its which increase in care
+    institutions (Francisco et al., application of AI in healthcare has with it could between and to the healthcare system (Wolff et al., and 2023).
+    these the of conventional AI The of agentic AI, capable of and adaptive even by healthcare systems to optimize in real from improved management,
+    reduced hospital better resource and the automation of administrative By enhancing clinical decision-making and optimizing hospital operations, AI
+    increases healthcare efficiency while medical (Bekbolatova et al., 2024). Agentic AI systems can this further by autonomously reallocating
+    resources and dynamically updating based on institutional Thus, agentic AI can go beyond static optimizations to managing in to AI significant in
+    and regulatory compliance, which can financial on healthcare providers (Aminizadeh et al., 2024). The of AI can help these challenges by resource
+    to each healthcare In agentic AI can learn from to efficiency models that maintain care quality while operational of the AI reduces is disease and
+    more AI-powered technologies have improved the of such as and reducing on and diagnostic et al., et al., 2023). also reduces the need for AI can
+    and assist in identifying making the diagnostic more et al., 2023). in to AI technologies that institutions not experience these et al., et al.,
+    Agentic AI could help this by autonomously diagnostic to with the resources in AI-driven management also contributes to By patient and AI can
+    predict which reduces and preventable hospitalizations, both of which are major to healthcare (Francisco et al., 2024). For such as and AI helps
+    optimize and reduce thereby treatment and reducing from (Al-Antari, 2023). Agentic AI these by learning from patient outcomes and dynamically
+    refining to prevent and optimize and hospital are significant in AI helps reduce these by improving diagnostic accuracy and ensuring that
+    treatment is from the AI-based support tools have been shown to lower leading to fewer and (Ouanes and Farhah, 2024). For instance, AI can
+    accurately between and reducing the need for (Johnson, Albizri and Simsek, 2022). In AI models disease risk and support which can prevent (Cheng,
+    Li and Xu, 2022). Agentic AI further contributes by proactively care and adjusting recommendations as new patient data helping institutions care.
+    AI also strengthens hospital supply management by improving and Predictive analytics can supply and maintain (Sahithya et al., 2024). the
+    AI-driven systems efficiently and critical resources to (Aminizadeh et al., 2024). AI systems can also and to prevent and financial due to these
+    tools support financial compromise patient care. in lead to that over outcomes for patients (Wang et al., 2023). is needed to ensure Agentic AI
+    can help this by ethical into its so that not patient and automated billing are by AI. These systems can identify suspicious billing patterns,
+    detect or claims, and prevent losses due to insurance fraud (Erion et al., et al., 2024). a from faster reimbursements and reduced administrative
+    burdens, improving their overall financial health and 2021). Moreover, agentic systems can improve fraud by continuously refining models in to
+    billing and fraud the AI contributes to healthcare system and improves reduces the need for and infrastructure costs, especially in or et al.,
+    2021). Additionally, AI-powered and assistants can handle patient inquiries, clinicians to focus on more critical (Sahithya et al., 2024). With
+    agentic these systems could into adaptive and support that could be capable of navigating complex patient needs healthcare also a in and clinical
+    helping reduce and Traditional is time-consuming and often and of AI this by large datasets to identify promising more efficiently (Alowais et
+    al., 2023). Agentic AI enhances this by and in real time, thereby reducing the of and improving This contributes to faster to and reduces the of
+    innovation, making more AI offers a from traditional AI by and behavior into healthcare AI is to healthcare by enhancing administrative
+    efficiency, improving clinical decision-making, streamlining operations, and In AI can scheduling, documentation, insurance claims, and which
+    reduces the burden on physicians and minimizes human error, but these are enhanced AI systems with agentic that real-time based on changing
+    priorities and feedback AI-powered Clinical Decision Support Systems can improve diagnostic accuracy management, and predict clinical
+    deterioration, thereby reducing and medical AI can streamline hospital resource allocation, enables effective and enhances supply to ensure of
+    medical When agentic AI these they become systems that in with and changes. AI can reduce healthcare by and improving fraud which would support
+    better financial for healthcare AI-driven automation has the potential to healthcare delivery more and for human By automating repetitive
+    administrative tasks, AI can allow healthcare to focus more on direct patient care. Agentic AI a of resilience to these systems by making them not
+    only automated but continuously in real-world Agentic AI ensures that such automation adaptive even in the of tasks based on clinical AI-supported
+    clinical decision-making can enhance patient care by that personalize and improve Predictive analytics can further operational efficiency by
+    hospital optimizing patient flow, and enabling resource The of these can support the of a more and financially healthcare system. With agentic AI
+    at its the healthcare system can become an adaptive that to meet both patient and provider its the of AI into healthcare concerns around patient
+    and data a AI on large which increases the risk of data and of health Furthermore, AI on datasets can in and among with such as the and and the be
+    and of AI In to regulatory compliance, and address ethical especially AI systems or responsibilities for errors is also especially systems
+    clinical The for instance, healthcare AI tools as and around and these legal and to Furthermore, the legal for AI-driven clinical When an system
+    contributes to a or it is with the the or the which a significant ethical and legal is healthcare institutions use EHR systems, making it to AI
+    data between AI systems and infrastructure standardized and in technological In to face barriers to agentic AI. These the need for real-time data
+    processing and tools that clinicians can systems are not designed to support learning models or recommendations, which in clinical real-time and
+    with are These often processing, and AI which study of hospital AI the of an AI and time, at approximately resulting in a over a a despite reduced
+    time for et al., 2024). These highlight that agentic AI systems significant financial and their efficiency can the this of more than just It
+    infrastructure coordination and For even be of or concerns and between institutions that can to AI and that also coordination, and of time, an
+    working and before is et al., 2024). These be for in and infrastructure especially for health systems on It is also critical to ensure that AI
+    enhances than human clinical on AI could clinical decision-making among healthcare AI be as a support that human than as an Additionally, on AI
+    result in reduced human the risk of the and the of are to ensure patient of agentic AI in clinical also and risk management such as and monitoring
+    are vital for the and of agentic AI. Furthermore, is legal and at every to ensure systems and is the potential for AI to healthcare institutions
+    are more to from AI while countries the infrastructure and to such in AI models, such as or treatment recommendations, can also patient These
+    tools clinical and be continuously patient to ensure and AI addresses of these challenges by continuously to new data and by the of ethical into
+    its decision-making processes. What sets agentic AI is its potential to dynamically ethical and at This allows healthcare to be and more and
+    improve the of AI, models become more and AI can help clinicians and be from and ethical ensuring clinicians can both AI and their This especially
+    in agentic AI, systems are not merely but are making that clinical In the of agentic AI, is clinicians have to be to not only the outcomes but
+    also the processes that the AI also the potential to personalize by integrating genetic, lifestyle, and environmental data into care This is
+    especially promising for disease and management, personalized can significantly improve The use of of and technologies makes health monitoring AI
+    to patient data in real time. These support disease timely and improve disease the use of agentic AI, these systems would not only patient data
+    but also autonomously adjust treatment recommendations in to real-time health changes. This healthcare from a into a Thus, the of agentic AI a in
+    healthcare that the between and healthcare It is capable of continuously learning and making it for the ever-changing of To the potential of
+    agentic AI, in and to ensure these systems and Furthermore, regulatory to support the of agentic these systems only human than By agentic AI,
+    healthcare can toward a system that is continuously and to high-quality and patient agentic AI is not for healthcare It a toward and future focus
+    on ensuring that AI a of healthcare with and designed AI models are for traditional AI has delivered to healthcare decision-making, and its on
+    balancing automation with human ensuring ethical and high-quality care that is to agentic AI to become the of a healthcare system that does not
+    just respond to but and it in of better outcomes for agentic AI offers the of a healthcare that is continuously and evolving to meet current and
+    future
+
+### R01206 | 2025 | preprint | Lang: n/a
+TI: Hallucinations and Truth: A Comprehensive Accuracy Evaluation of RAG, LoRA and DoRA
+AB: Recent advancements in Generative AI have significantly improved the efficiency and adaptability of natural language processing (NLP) systems,
+    particularly through Retrieval-Augmented Generation (RAG), Low-Rank Adaptation (LoRA), and Weight-Decomposed Low-Rank Adaptation (DoRA). RAG
+    integrates external knowledge to enhance factual consistency in generative outputs, while LoRA enables parameter-efficient fine-tuning of large
+    language models (LLMs). DoRA further refines this process by optimizing fine-tuning through adaptive parameter ranking and domain-aware weight
+    adjustments, improving learning efficiency while maintaining inference performance. This paper presents a large-scale empirical evaluation of RAG,
+    LoRA, and DoRA, with model fine-tuning and generation performance assessed on 20,000 FAQ-based queries, while the knowledge base spans 400,000
+    entries. The study analyzes key performance metrics such as accuracy, relevance, and inference latency. Experimental results demonstrate that DoRA
+    achieves the highest accuracy (90.1%), relevance score (0.88), and lowest latency (110 ms per query), outperforming both LoRA and RAG in
+    real-world, domain-specific generative AI applications. Furthermore, this study examines the trade-offs between fine-tuning efficiency,
+    computational cost, and real-time adaptability across different models. Findings highlight RAG's effectiveness in knowledge grounding, LoRA's
+    cost-efficient domain adaptation, and DoRA's ability to balance fine-tuning efficiency with model precision. These insights provide practical
+    guidance for deploying AI-driven generative systems in accuracy-critical domains such as healthcare, finance, and legal services, ensuring
+    scalability, reliability, and optimal performance in dynamic environments.
+
+### R01207 | 2025 | preprint | OpenAlex: article/None | Lang: en
+TI: Hyper-RAG: Combating LLM Hallucinations using Hypergraph-Driven Retrieval-Augmented Generation
+AB: Large language models (LLMs) have transformed various sectors, including education, finance, and medicine, by enhancing content generation and
+    decision-making processes. However, their integration into the medical field is cautious due to hallucinations, instances where generated content
+    deviates from factual accuracy, potentially leading to adverse outcomes. To address this, we introduce Hyper-RAG, a hypergraph-driven
+    Retrieval-Augmented Generation method that comprehensively captures both pairwise and beyond-pairwise correlations in domain-specific knowledge,
+    thereby mitigating hallucinations. Experiments on the NeurologyCrop dataset with six prominent LLMs demonstrated that Hyper-RAG improves accuracy
+    by an average of 12.3% over direct LLM use and outperforms Graph RAG and Light RAG by 6.3% and 6.0%, respectively. Additionally, Hyper-RAG
+    maintained stable performance with increasing query complexity, unlike existing methods which declined. Further validation across nine diverse
+    datasets showed a 35.5% performance improvement over Light RAG using a selection-based assessment. The lightweight variant, Hyper-RAG-Lite,
+    achieved twice the retrieval speed and a 3.3% performance boost compared with Light RAG. These results confirm Hyper-RAG's effectiveness in
+    enhancing LLM reliability and reducing hallucinations, making it a robust solution for high-stakes applications like medical diagnostics.
+
+### R01208 | 2025 | preprint | OpenAlex: article/None | Lang: en
+TI: Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models
+AB: Edgar Allan Poe noted, "Truth often lurks in the shadow of error," highlighting the deep complexity intrinsic to the interplay between truth and
+    falsehood, notably under conditions of cognitive and informational asymmetry. This dynamic is strikingly evident in large language models (LLMs).
+    Despite their impressive linguistic generation capabilities, LLMs sometimes produce information that appears factually accurate but is, in
+    reality, fabricated, an issue often referred to as 'hallucinations'. The prevalence of these hallucinations can mislead users, affecting their
+    judgments and decisions. In sectors such as finance, law, and healthcare, such misinformation risks causing substantial economic losses, legal
+    disputes, and health risks, with wide-ranging consequences.In our research, we have methodically categorized, analyzed the causes, detection
+    methods, and solutions related to LLM hallucinations. Our efforts have particularly focused on understanding the roots of hallucinations and
+    evaluating the efficacy of current strategies in revealing the underlying logic, thereby paving the way for the development of innovative and
+    potent approaches. By examining why certain measures are effective against hallucinations, our study aims to foster a comprehensive approach to
+    tackling this issue within the domain of LLMs.
+
+### R01209 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Introducing a New Brexit-Related Uncertainty Index: Its Evolution and Economic Consequences
+AB: Important game-changer economic events and transformations cause uncertainties that may affect investment decisions, capital flows, international
+    trade, and macroeconomic variables. One such major transformation is Brexit, which refers to the multiyear process through which the UK withdrew
+    from the EU. This study develops and uses a new Brexit-Related Uncertainty Index (BRUI). In creating this index, we apply Text Mining, Context
+    Window, Natural Language Processing (NLP), and Large Language Models (LLMs) from Deep Learning techniques to analyse the monthly country reports
+    of the Economist Intelligence Unit from May 2012 to January 2025. Additionally, we employ a standard vector autoregression (VAR) analysis to
+    examine the model-implied responses of various macroeconomic variables to BRUI shocks. While developing the BRUI, we also create a complementary
+    COVID-19 Related Uncertainty Index (CRUI) to distinguish the uncertainties stemming from these distinct events. Empirical findings and comparisons
+    of BRUI with other earlier-developed uncertainty indexes demonstrate the robustness of the new index. This new index can assist British
+    policymakers in measuring and understanding the impacts of Brexit-related uncertainties, enabling more effective policy formulation.
+
+### R01210 | 2025 | preprint | Lang: n/a
+TI: FRED: Financial Retrieval-Enhanced Detection and Editing of Hallucinations in Language Models
+AB: Hallucinations in large language models pose a critical challenge for applications requiring factual reliability, particularly in high-stakes
+    domains such as finance. This work presents an effective approach for detecting and editing factually incorrect content in model-generated
+    responses based on the provided context. Given a user-defined domain-specific error taxonomy, we construct a synthetic dataset by inserting tagged
+    errors into financial question-answering corpora and then fine-tune four language models, Phi-4, Phi-4-mini, Qwen3-4B, and Qwen3-14B, to detect
+    and edit these factual inaccuracies. Our best-performing model, fine-tuned Phi-4, achieves an 8% improvement in binary F1 score and a 30% gain in
+    overall detection performance compared to OpenAI-o3. Notably, our fine-tuned Phi-4-mini model, despite having only 4 billion parameters, maintains
+    competitive performance with just a 2% drop in binary detection and a 0.1% decline in overall detection compared to OpenAI-o3. Our work provides a
+    practical solution for detecting and editing factual inconsistencies in financial text generation while introducing a generalizable framework that
+    can enhance the trustworthiness and alignment of large language models across diverse applications beyond finance. Our code and data are available
+    at https://github.com/pegasi-ai/shield.
+
+### R01211 | 2025 | preprint | Lang: n/a
+TI: FAITH: A Framework for Assessing Intrinsic Tabular Hallucinations in Finance
+AB: Hallucination remains a critical challenge for deploying Large Language Models (LLMs) in finance. Accurate extraction and precise calculation from
+    tabular data are essential for reliable financial analysis, since even minor numerical errors can undermine decision-making and regulatory
+    compliance. Financial applications have unique requirements, often relying on context-dependent, numerical, and proprietary tabular data that
+    existing hallucination benchmarks rarely capture. In this study, we develop a rigorous and scalable framework for evaluating intrinsic
+    hallucinations in financial LLMs, conceptualized as a context-aware masked span prediction task over real-world financial documents. Our main
+    contributions are: (1) a novel, automated dataset creation paradigm using a masking strategy; (2) a new hallucination evaluation dataset derived
+    from S&P 500 annual reports; and (3) a comprehensive evaluation of intrinsic hallucination patterns in state-of-the-art LLMs on financial tabular
+    data. Our work provides a robust methodology for in-house LLM evaluation and serves as a critical step toward building more trustworthy and
+    reliable financial Generative AI systems.
+
+### R01212 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths
+AB: "Fedspeak", the stylized and often nuanced language used by the U.S. Federal Reserve, encodes implicit policy signals and strategic stances. The
+    Federal Open Market Committee strategically employs Fedspeak as a communication tool to shape market expectations and influence both domestic and
+    global economic conditions. As such, automatically parsing and interpreting Fedspeak presents a high-impact challenge, with significant
+    implications for financial forecasting, algorithmic trading, and data-driven policy analysis. In this paper, we propose an LLM-based,
+    uncertainty-aware framework for deciphering Fedspeak and classifying its underlying monetary policy stance. Technically, to enrich the semantic
+    and contextual representation of Fedspeak texts, we incorporate domain-specific reasoning grounded in the monetary policy transmission mechanism.
+    We further introduce a dynamic uncertainty decoding module to assess the confidence of model predictions, thereby enhancing both classification
+    accuracy and model reliability. Experimental results demonstrate that our framework achieves state-of-the-art performance on the policy stance
+    analysis task. Moreover, statistical analysis reveals a significant positive correlation between perceptual uncertainty and model error rates,
+    validating the effectiveness of perceptual uncertainty as a diagnostic signal.
+
+### R01213 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Disentangling the Drivers of LLM Social Conformity: An Uncertainty-Moderated Dual-Process Mechanism
+AB: As large language models (LLMs) integrate into collaborative teams, their social conformity -- the tendency to align with majority opinions -- has
+    emerged as a key concern. In humans, conformity arises from informational influence (rational use of group cues for accuracy) or normative
+    influence (social pressure for approval), with uncertainty moderating this balance by shifting from purely analytical to heuristic processing. It
+    remains unclear whether these human psychological mechanisms apply to LLMs. This study adapts the information cascade paradigm from behavioral
+    economics to quantitatively disentangle the two drivers to investigate the moderate effect. We evaluated nine leading LLMs across three
+    decision-making scenarios (medical, legal, investment), manipulating information uncertainty (q = 0.667, 0.55, and 0.70, respectively). Our
+    results indicate that informational influence underpins the models' behavior across all contexts, with accuracy and confidence consistently rising
+    with stronger evidence. However, this foundational mechanism is dramatically modulated by uncertainty. In low-to-medium uncertainty scenarios,
+    this informational process is expressed as a conservative strategy, where LLMs systematically underweight all evidence sources. In contrast, high
+    uncertainty triggers a critical shift: while still processing information, the models additionally exhibit a normative-like amplification, causing
+    them to overweight public signals (beta > 1.55 vs. private beta = 0.81).
+
+### R01214 | 2025 | preprint | Lang: n/a
+TI: Learned Hallucination Detection in Black-Box LLMs using Token-level Entropy Production Rate
+AB: Hallucinations in Large Language Model (LLM) outputs for Question Answering (QA) tasks can critically undermine their real-world reliability. This
+    paper introduces a methodology for robust, one-shot hallucination detection, specifically designed for scenarios with limited data access, such as
+    interacting with black-box LLM APIs that typically expose only a few top candidate log-probabilities per token. Our approach derives uncertainty
+    indicators directly from these readily available log-probabilities generated during non-greedy decoding. We first derive an Entropy Production
+    Rate (EPR) that offers baseline performance, later augmented with supervised learning. Our learned model leverages the entropic contributions of
+    the accessible top-ranked tokens within a single generated sequence, without multiple re-runs per query. Evaluated across diverse QA datasets and
+    multiple LLMs, this estimator significantly improves token-level hallucination detection over state-of-the-art methods. Crucially, high
+    performance is demonstrated using only the typically small set of available log-probabilities (e.g., top-10 per token), confirming its practical
+    efficiency and suitability for API-constrained deployments. This work provides a lightweight technique to enhance the trustworthiness of LLM
+    responses, at the token level, after a single generation pass, for QA and Retrieval-Augmented Generation (RAG) systems. Our experiments confirmed
+    the performance of our method against existing approaches on public dataset as well as for a financial framework analyzing annual company reports.
+
+### R01215 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Methodological Insights into Structural Causal Modelling and Uncertainty-Aware Forecasting for Economic Indicators
+AB: This paper presents a methodological approach to financial time series analysis by combining causal discovery and uncertainty-aware forecasting.
+    As a case study, we focus on four key U.S. macroeconomic indicators -- GDP, economic growth, inflation, and unemployment -- and we apply the
+    LPCMCI framework with Gaussian Process Distance Correlation (GPDC) to uncover dynamic causal relationships in quarterly data from 1970 to 2021.
+    Our results reveal a robust unidirectional causal link from economic growth to GDP and highlight the limited connectivity of inflation, suggesting
+    the influence of latent factors. Unemployment exhibits strong autoregressive dependence, motivating its use as a case study for probabilistic
+    forecasting. Leveraging the Chronos framework, a large language model trained for time series, we perform zero-shot predictions on unemployment.
+    This approach delivers accurate forecasts one and two quarters ahead, without requiring task-specific training. Crucially, the model's
+    uncertainty-aware predictions yield 90\% confidence intervals, enabling effective anomaly detection through statistically principled deviation
+    analysis. This study demonstrates the value of combining causal structure learning with probabilistic language models to inform economic policy
+    and enhance forecasting robustness.
+
+### R01216 | 2025 | preprint | Lang: n/a
+TI: GrACE: A Generative Approach to Better Confidence Elicitation and Efficient Test-Time Scaling in Large Language Models
+AB: Assessing the reliability of Large Language Models (LLMs) by confidence elicitation is a prominent approach to AI safety in high-stakes
+    applications, such as healthcare and finance. Existing methods either require expensive computational overhead or suffer from poor calibration,
+    making them impractical and unreliable for real-world deployment. In this work, we propose GrACE, a Generative Approach to Confidence Elicitation
+    that enables scalable and reliable confidence elicitation for LLMs. GrACE adopts a novel mechanism in which the model expresses confidence by the
+    similarity between the last hidden state and the embedding of a special token appended to the vocabulary, in real-time. We fine-tune the model for
+    calibrating the confidence with targets associated with accuracy. Extensive experiments show that the confidence produced by GrACE achieves the
+    best discriminative capacity and calibration on open-ended generation tasks without resorting to additional sampling or an auxiliary model.
+    Moreover, we propose two confidence-based strategies for test-time scaling with GrACE, which not only improve the accuracy of the final decision
+    but also significantly reduce the number of required samples, highlighting its potential as a practical solution for deploying LLMs with reliable,
+    on-the-fly confidence estimation.
+
+### R01217 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: D$^2$HScore: Reasoning-Aware Hallucination Detection via Semantic Breadth and Depth Analysis in LLMs
+AB: Although large Language Models (LLMs) have achieved remarkable success, their practical application is often hindered by the generation of
+    non-factual content, which is called "hallucination". Ensuring the reliability of LLMs' outputs is a critical challenge, particularly in
+    high-stakes domains such as finance, security, and healthcare. In this work, we revisit hallucination detection from the perspective of model
+    architecture and generation dynamics. Leveraging the multi-layer structure and autoregressive decoding process of LLMs, we decompose hallucination
+    signals into two complementary dimensions: the semantic breadth of token representations within each layer, and the semantic depth of core
+    concepts as they evolve across layers. Based on this insight, we propose \textbf{D$^2$HScore (Dispersion and Drift-based Hallucination Score)}, a
+    training-free and label-free framework that jointly measures: (1) \textbf{Intra-Layer Dispersion}, which quantifies the semantic diversity of
+    token representations within each layer; and (2) \textbf{Inter-Layer Drift}, which tracks the progressive transformation of key token
+    representations across layers. To ensure drift reflects the evolution of meaningful semantics rather than noisy or redundant tokens, we guide
+    token selection using attention signals. By capturing both the horizontal and vertical dynamics of representation during inference, D$^2$HScore
+    provides an interpretable and lightweight proxy for hallucination detection. Extensive experiments across five open-source LLMs and five widely
+    used benchmarks demonstrate that D$^2$HScore consistently outperforms existing training-free baselines.
+
+### R01218 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions
+AB: Driven by the rapid advancements of Large Language Models (LLMs), LLM-based agents have emerged as powerful intelligent systems capable of
+    human-like cognition, reasoning, and interaction. These agents are increasingly being deployed across diverse real-world applications, including
+    student education, scientific research, and financial analysis. However, despite their remarkable potential, LLM-based agents remain vulnerable to
+    hallucination issues, which can result in erroneous task execution and undermine the reliability of the overall system design. Addressing this
+    critical challenge requires a deep understanding and a systematic consolidation of recent advances on LLM-based agents. To this end, we present
+    the first comprehensive survey of hallucinations in LLM-based agents. By carefully analyzing the complete workflow of agents, we propose a new
+    taxonomy that identifies different types of agent hallucinations occurring at different stages. Furthermore, we conduct an in-depth examination of
+    eighteen triggering causes underlying the emergence of agent hallucinations. Through a detailed review of a large number of existing studies, we
+    summarize approaches for hallucination mitigation and detection, and highlight promising directions for future research. We hope this survey will
+    inspire further efforts toward addressing hallucinations in LLM-based agents, ultimately contributing to the development of more robust and
+    reliable agent systems.
+
+### R01219 | 2025 | preprint | Lang: n/a
+TI: OpenEstimate: Evaluating LLMs on Reasoning Under Uncertainty with Real-World Data
+AB: Real-world settings where language models (LMs) are deployed -- in domains spanning healthcare, finance, and other forms of knowledge work --
+    require models to grapple with incomplete information and reason under uncertainty. Yet most LM evaluations focus on problems with well-defined
+    answers and success criteria. This gap exists in part because natural problems involving uncertainty are difficult to construct: given that LMs
+    have access to most of the same knowledge as humans, it is non-trivial to design questions for which LMs will struggle to produce correct answers,
+    but which humans can answer reliably. As a result, LM performance on reasoning under uncertainty remains poorly characterized. To address this
+    gap, we introduce OpenEstimate, an extensible, multi-domain benchmark for evaluating LMs on numerical estimation tasks that require models to
+    synthesize significant amounts of background information and express predictions as probabilistic priors. We assess these priors for accuracy and
+    calibration, quantifying their usefulness relative to samples from the true distribution of interest. Across six frontier LMs, we find that
+    LM-elicited priors are often inaccurate and overconfident. Performance improves modestly depending on how uncertainty is elicited from the model,
+    but is largely unaffected by changes in sampling strategy, reasoning effort, or prompt design. The OpenEstimate benchmark thus offers a
+    challenging evaluation for frontier LMs and a platform for developing models that are better at probabilistic estimation and reasoning under
+    uncertainty.
+
+### R01220 | 2025 | preprint | Lang: n/a
+TI: Multi-Modal Fact-Verification Framework for Reducing Hallucinations in Large Language Models
+AB: While Large Language Models have transformed how we interact with AI systems, they suffer from a critical flaw: they confidently generate false
+    information that sounds entirely plausible. This hallucination problem has become a major barrier to deploying these models in real-world
+    applications where accuracy matters. We developed a fact verification framework that catches and corrects these errors in real-time by cross
+    checking LLM outputs against multiple knowledge sources. Our system combines structured databases, live web searches, and academic literature to
+    verify factual claims as they're generated. When we detect inconsistencies, we automatically correct them while preserving the natural flow of the
+    response. Testing across various domains showed we could reduce hallucinations by 67% without sacrificing response quality. Domain experts in
+    healthcare, finance, and scientific research rated our corrected outputs 89% satisfactory a significant improvement over unverified LLM responses.
+    This work offers a practical solution for making LLMs more trustworthy in applications where getting facts wrong isn't an option.
+
+### R01221 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Consistency Is the Key: Detecting Hallucinations in LLM Generated Text By Checking Inconsistencies About Key Facts
+AB: Large language models (LLMs), despite their remarkable text generation capabilities, often hallucinate and generate text that is factually
+    incorrect and not grounded in real-world knowledge. This poses serious risks in domains like healthcare, finance, and customer support. A typical
+    way to use LLMs is via the APIs provided by LLM vendors where there is no access to model weights or options to fine-tune the model. Existing
+    methods to detect hallucinations in such settings where the model access is restricted or constrained by resources typically require making
+    multiple LLM API calls, increasing latency and API cost. We introduce CONFACTCHECK, an efficient hallucination detection approach that does not
+    leverage any external knowledge base and works on the simple intuition that responses to factual probes within the generated text should be
+    consistent within a single LLM and across different LLMs. Rigorous empirical evaluation on multiple datasets that cover both the generation of
+    factual texts and the open generation shows that CONFACTCHECK can detect hallucinated facts efficiently using fewer resources and achieves higher
+    accuracy scores compared to existing baselines that operate under similar conditions. Our code is available here.
+
+### R01222 | 2025 | preprint | Lang: n/a
+TI: Going All-In on LLM Accuracy: Fake Prediction Markets, Real Confidence Signals
+AB: Large language models are increasingly used to evaluate other models, yet these judgments typically lack any representation of confidence. This
+    pilot study tests whether framing an evaluation task as a betting game (a fictional prediction market with its own LLM currency) improves
+    forecasting accuracy and surfaces calibrated confidence signals. We generated 100 math and logic questions with verifiable answers. Six Baseline
+    models (three current-generation, three prior-generation) answered all items. Three Predictor models then forecasted, for each question-baseline
+    pair, if the baseline would answer correctly. Each predictor completed matched runs in two conditions: Control (simple correct/incorrect
+    predictions) and Incentive (predictions plus wagers of 1-100,000 LLMCoin under even odds, starting from a 1,000,000 LLMCoin bankroll). Across
+    5,400 predictions per condition, Incentive runs showed modestly higher accuracy (81.5% vs. 79.1%, p = .089, d = 0.86) and significantly faster
+    learning across rounds (12.0 vs. 2.9 percentage-point improvement from Round 1 to Round 4, p = .011). Most notably, stake size tracked confidence.
+    "Whale" bets of 40,000+ coins were correct ~99% of the time, while small bets (<1,000 coins) showed only ~74% accuracy. The key finding is not
+    that fictional money makes models smarter; accuracy gains were modest and did not reach statistical significance (p = .089) in this pilot. Rather,
+    the betting mechanic created a legible confidence signal absent from binary yes/no outputs. This suggests that simple financial framing may help
+    transform LLMs into risk-aware forecasters, making their internal beliefs visible and usable. The protocol offers a foundation for future work for
+    meta-evaluation systems and what may become LLM-to-LLM prediction markets.
+
+### R01223 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%
+AB: Large language models (LLMs) produce fluent but unsupported answers - hallucinations - limiting safe deployment in high-stakes domains. We propose
+    ECLIPSE, a framework that treats hallucination as a mismatch between a model's semantic entropy and the capacity of available evidence. We combine
+    entropy estimation via multi-sample clustering with a novel perplexity decomposition that measures how models use retrieved evidence. We prove
+    that under mild conditions, the resulting entropy-capacity objective is strictly convex with a unique stable optimum. We evaluate on a controlled
+    financial question answering dataset with GPT-3.5-turbo (n=200 balanced samples with synthetic hallucinations), where ECLIPSE achieves ROC AUC of
+    0.89 and average precision of 0.90, substantially outperforming a semantic entropy-only baseline (AUC 0.50). A controlled ablation with
+    Claude-3-Haiku, which lacks token-level log probabilities, shows AUC dropping to 0.59 with coefficient magnitudes decreasing by 95% -
+    demonstrating that ECLIPSE is a logprob-native mechanism whose effectiveness depends on calibrated token-level uncertainties. The perplexity
+    decomposition features exhibit the largest learned coefficients, confirming that evidence utilization is central to hallucination detection. We
+    position this work as a controlled mechanism study; broader validation across domains and naturally occurring hallucinations remains future work.
+
+### R01224 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models
+AB: Large Language Models (LLMs) like LLaMA, Mistral, and Gemma are increasingly used in decision-critical domains such as healthcare, law, and
+    finance, yet their reliability remains uncertain. They often make overconfident errors, degrade under input shifts, and lack clear uncertainty
+    estimates. Existing evaluations are fragmented, addressing only isolated aspects. We introduce the Composite Reliability Score (CRS), a unified
+    framework that integrates calibration, robustness, and uncertainty quantification into a single interpretable metric. Through experiments on ten
+    leading open-source LLMs across five QA datasets, we assess performance under baselines, perturbations, and calibration methods. CRS delivers
+    stable model rankings, uncovers hidden failure modes missed by single metrics, and highlights that the most dependable systems balance accuracy,
+    robustness, and calibrated uncertainty.
+
+### R01225 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification
+AB: Small language models (SLMs) are increasingly used for financial classification due to their fast inference and local deployability. However,
+    compared with large language models, SLMs are more prone to factual hallucinations in reasoning and exhibit weaker classification performance.
+    This raises a natural question: Can mitigating factual hallucinations improve SLMs' financial classification? To address this, we propose a
+    three-step pipeline named AAAI (Association Identification, Automated Detection, and Adaptive Inference). Experiments on three representative SLMs
+    reveal that: (1) factual hallucinations are positively correlated with misclassifications; (2) encoder-based verifiers effectively detect factual
+    hallucinations; and (3) incorporating feedback on factual errors enables SLMs' adaptive inference that enhances classification performance. We
+    hope this pipeline contributes to trustworthy and effective applications of SLMs in finance.
+
+### R01226 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Hallucination Detection and Mitigation in Large Language Models
+AB: Large Language Models (LLMs) and Large Reasoning Models (LRMs) offer transformative potential for high-stakes domains like finance and law, but
+    their tendency to hallucinate, generating factually incorrect or unsupported content, poses a critical reliability risk. This paper introduces a
+    comprehensive operational framework for hallucination management, built on a continuous improvement cycle driven by root cause awareness. We
+    categorize hallucination sources into model, data, and context-related factors, allowing targeted interventions over generic fixes. The framework
+    integrates multi-faceted detection methods (e.g., uncertainty estimation, reasoning consistency) with stratified mitigation strategies (e.g.,
+    knowledge grounding, confidence calibration). We demonstrate its application through a tiered architecture and a financial data extraction case
+    study, where model, context, and data tiers form a closed feedback loop for progressive reliability enhancement. This approach provides a
+    systematic, scalable methodology for building trustworthy generative AI systems in regulated environments.
+
+### R01227 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: A Geometric Taxonomy of Hallucinations in LLMs
+AB: Hallucinations in deployed language models can have real consequences for downstream decisions in domains such as healthcare, legal, and financial
+    services. In production, detection has to run on what the deployed system can see: the query, the response, and often a source document. White-box
+    access to model internals and multi-sample querying are not generally available behind a third-party API. Within this setting - black-box,
+    single-pass, only question/answer available - the dominant baseline is NLI, which returns a value but no diagnosis when it fails. We argue that
+    operating directly on the geometry of the embedding space provides detection methods whose successes and failures are interpretable as structural
+    properties of contrastive sentence-encoder training \citep{wang2020understanding}. The contribution is: given an operationally-motivated taxonomy,
+    geometry predicts which types of hallucination are detectable and which are not - and the predictions hold. We propose three operational types
+    organized by the relation of the response embedding to the plausibility region of grounded responses on the unit hypersphere, and derive from the
+    alignment objective a prediction for each: (1)query-proximate unfaithfulness is detectable by an angular ratio; (2)confabulation outside the
+    plausibility region produces a directional signature that outperforms NLI on expert-annotated error; (3)factual errors sharing vocabulary and
+    frame with correct answers are not separable by angular geometry. To validate on content resembling deployment, we built a 212-pair
+    human-confabulated dataset across nine domains using provoked confabulation.
+
+### R01228 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Neuro-Symbolic Financial Reasoning via Deterministic Fact Ledgers and Adversarial Low-Latency Hallucination Detector
+AB: Standard Retrieval-Augmented Generation (RAG) architectures fail in high-stakes financial domains due to two fundamental limitations: the inherent
+    arithmetic incompetence of Large Language Models (LLMs) and the distributional semantic conflation of dense vector retrieval (e.g., mapping "Net
+    Income" to "Net Sales" due to contextual proximity). In deterministic domains, a 99% accuracy rate yields 0% operational trust. To achieve
+    zero-hallucination financial reasoning, we introduce the Verifiable Numerical Reasoning Agent (VeNRA). VeNRA shifts the RAG paradigm from
+    retrieving probabilistic text to retrieving deterministic variables via a strictly typed Universal Fact Ledger (UFL). We mathematically bound this
+    ledger using a novel Double-Lock Grounding algorithm. Coupled with deterministic Python execution, this neuro-symbolic routing compresses systemic
+    hallucination rates to a near-zero 1.2%. Recognising that upstream parsing anomalies inevitably occur, we introduce the VeNRA Sentinel: a
+    3-billion parameter SLM trained to forensically audit candidate using a single-token inference budget with optional post-hoc reasoning. To train
+    the Sentinel, we steer away from traditional hallucination datasets in favour of Adversarial Simulation, programmatically sabotaging financial
+    records to simulate Ecological Errors. The compact Sentinel consequently outperforms 70B+ frontier models in error detection. Through Loss
+    Dilution phenomenon in Reverse-CoT training, we present a novel Micro-Chunking loss algorithm to stabilise gradients under extreme verdict
+    penalisation, yielding a 28x latency speedup without sacrificing forensic rigor.
+
+### R01229 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Can LLMs Capture Expert Uncertainty? A Comparative Analysis of Value Alignment in Ethnographic Qualitative Research
+AB: Qualitative analysis of open-ended interviews plays a central role in ethnographic and economic research by uncovering individuals' values,
+    motivations, and culturally embedded financial behaviors. While large language models (LLMs) offer promising support for automating and enriching
+    such interpretive work, their ability to produce nuanced, reliable interpretations under inherent task ambiguity remains unclear. In our work we
+    evaluate LLMs on the task of identifying the top three human values expressed in long-form interviews based on the Schwartz Theory of Basic Values
+    framework. We compare their outputs to expert annotations, analyzing both performance and uncertainty patterns relative to the experts. Results
+    show that LLMs approach the human ceiling on set-based metrics (F1, Jaccard) but struggle to recover exact value rankings, as reflected in lower
+    RBO scores. While the average Schwartz value distributions of most models closely match those of human analysts, their uncertainty structures
+    across the Schwartz values diverge from expert uncertainty patterns. Among the evaluated models, Qwen performs closest to expert-level agreement
+    and exhibits the strongest alignment with expert Schwartz value distributions. LLM ensemble methods yield consistent gains across metrics, with
+    Majority Vote and Borda Count performing best. Notably, systematic overemphasis on certain Schwartz values, like Security, suggests both the
+    potential of LLMs to provide complementary perspectives and the need to further investigate model-induced value biases. Overall, our findings
+    highlight both the promise and the limitations of LLMs as collaborators in inherently ambiguous qualitative value analysis.
+
+### R01230 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: FinReflectKG -- HalluBench: GraphRAG Hallucination Benchmark for Financial Question Answering Systems
+AB: As organizations increasingly integrate AI-powered question-answering systems into financial information systems for compliance, risk assessment,
+    and decision support, ensuring the factual accuracy of AI-generated outputs becomes a critical engineering challenge. Current Knowledge Graph
+    (KG)-augmented QA systems lack systematic mechanisms to detect hallucinations - factually incorrect outputs that undermine reliability and user
+    trust. We introduce FinBench-QA-Hallucination, a benchmark for evaluating hallucination detection methods in KG-augmented financial QA over SEC
+    10-K filings. The dataset contains 755 annotated examples from 300 pages, each labeled for groundedness using a conservative evidence-linkage
+    protocol requiring support from both textual chunks and extracted relational triplets. We evaluate six detection approaches - LLM judges,
+    fine-tuned classifiers, Natural Language Inference (NLI) models, span detectors, and embedding-based methods under two conditions: with and
+    without KG triplets. Results show that LLM-based judges and embedding approaches achieve the highest performance (F1: 0.82-0.86) under clean
+    conditions. However, most methods degrade significantly when noisy triplets are introduced, with Matthews Correlation Coefficient (MCC) dropping
+    44-84 percent, while embedding methods remain relatively robust with only 9 percent degradation. Statistical tests (Cochran's Q and McNemar)
+    confirm significant performance differences (p < 0.001). Our findings highlight vulnerabilities in current KG-augmented systems and provide
+    insights for building reliable financial information systems, where hallucinations can lead to regulatory violations and flawed decisions. The
+    benchmark also offers a framework for integrating AI reliability evaluation into information system design across other high-stakes domains such
+    as healthcare, legal, and government.
+
+### R01231 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: TrustTrade: Human-Inspired Selective Consensus Reduces Decision Uncertainty in LLM Trading Agents
+AB: Large language models (LLMs) are increasingly deployed as autonomous agents in financial trading. However, they often exhibit a hazardous
+    behavioral bias that we term uniform trust, whereby retrieved information is implicitly assumed to be factual and heterogeneous sources are
+    treated as equally informative. This assumption stands in sharp contrast to human decision-making, which relies on selective filtering,
+    cross-validation, and experience-driven weighting of information sources. As a result, LLM-based trading systems are particularly vulnerable to
+    multi-source noise and misinformation, amplifying factual hallucinations and leading to unstable risk-return performance. To bridge this
+    behavioral gap, we introduce TrustTrade (Trust-Rectified Unified Selective Trader), a multi-agent selective consensus framework inspired by human
+    epistemic heuristics. TrustTrade replaces uniform trust with cross-agent consistency by aggregating information from multiple independent LLM
+    agents and dynamically weighting signals based on their semantic and numerical agreement. Consistent signals are prioritized, while divergent,
+    weakly grounded, or temporally inconsistent inputs are selectively discounted. To further stabilize decision-making, TrustTrade incorporates
+    deterministic temporal signals as reproducible anchors and a reflective memory mechanism that adapts risk preferences at test time without
+    additional training. Together, these components suppress noise amplification and hallucination-driven volatility, yielding more stable and
+    risk-aware trading behavior. Across controlled backtesting in high-noise market environments (2024 Q1 and 2026 Q1), the proposed TrustTrade
+    calibrates LLM trading behavior from extreme risk-return regimes toward a human-aligned, mid-risk and mid-return profile.
+
+### R01232 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Do Hallucination Neurons Generalize? Evidence from Cross-Domain Transfer in LLMs
+AB: Recent work identifies a sparse set of "hallucination neurons" (H-neurons), less than 0.1% of feed-forward network neurons, that reliably predict
+    when large language models will hallucinate. These neurons are identified on general-knowledge question answering and shown to generalize to new
+    evaluation instances. We ask a natural follow-up question: do H-neurons generalize across knowledge domains? Using a systematic cross-domain
+    transfer protocol across 6 domains (general QA, legal, financial, science, moral reasoning, and code vulnerability) and 5 open-weight models (3B
+    to 8B parameters), we find they do not. Classifiers trained on one domain's H-neurons achieve AUROC 0.783 within-domain but only 0.563 when
+    transferred to a different domain (delta = 0.220, p < 0.001), a degradation consistent across all models tested. Our results suggest that
+    hallucination is not a single mechanism with a universal neural signature, but rather involves domain-specific neuron populations that differ
+    depending on the knowledge type being queried. This finding has direct implications for the deployment of neuron-level hallucination detectors,
+    which must be calibrated per domain rather than trained once and applied universally.
+
+### R01233 | 2026 | preprint | Lang: n/a
+TI: Confidence Should Be Calibrated More Than One Turn Deep
+AB: Large Language Models (LLMs) are increasingly applied in high-stakes domains such as finance, healthcare, and education, where reliable multi-turn
+    interactions with users are essential. However, existing work on confidence estimation and calibration, a major approach to building trustworthy
+    LLM systems, largely focuses on single-turn settings and overlooks the risks and potential of multi-turn conversations. In this work, we introduce
+    the task of multi-turn calibration to reframe calibration from a static property into a dynamic challenge central to reliable multi-turn
+    conversation, where calibrating model confidence at each turn conditioned on the conversation history is required. We first reveal the risks of
+    this setting: using Expected Calibration Error at turn T (ECE@T), a new metric that tracks calibration dynamics over turns, we show that user
+    feedback (e.g., persuasion) can degrade multi-turn calibration. To address this, we propose MTCal, which minimises ECE@T via a surrogate
+    calibration target, and further leverage calibrated confidence in ConfChat, a decoding strategy that improves both factuality and consistency of
+    the model response in multi-turn interactions. Extensive experiments demonstrate that MT-Cal achieves outstanding and consistent performance in
+    multi-turn calibration, and ConfChat preserves and even enhances model performance in multi-turn interactions. Our results mark multi-turn
+    calibration as one missing link for scaling LLM calibration toward safe, reliable, and real-world use.
+
+### R01234 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Reducing Detail Hallucinations in Long-Context Regulatory Understanding via Targeted Preference Optimization
+AB: Large language models (LLMs) frequently produce \emph{detail hallucinations} when processing long regulatory documents, including subtle errors in
+    threshold values, units, scopes, obligation levels, and conditions that preserve surface plausibility while corrupting safety-critical parameters.
+    We formalize this phenomenon through a fine-grained \emph{Detail Error Taxonomy} of five error types and introduce \textbf{DetailBench}, a
+    benchmark built from 172 real regulatory documents and 150 synthetic documents spanning three jurisdictions, with human-annotated detail-level
+    ground truth comprising 13,000 preference pairs. We propose \textbf{DetailDPO}, a targeted preference optimization framework that constructs
+    contrastive pairs differing in exactly one detail dimension, concentrating DPO gradient signal on detail-bearing~tokens. We provide theoretical
+    analysis showing why \emph{minimal detail perturbation} pairs yield gradient concentration under mild assumptions. Experiments on the Qwen2.5
+    family (7B, 14B, 72B) and Llama-3.1-8B across three context-length tiers (8K--64K tokens) show that DetailDPO reduces the Detail Error Rate by
+    42--61\% relative to baselines, with consistent gains across all five error types and cross-domain transfer to financial and medical documents.
+
+### R01235 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: FinGround: Detecting and Grounding Financial Hallucinations via Atomic Claim Verification
+AB: Financial AI systems must produce answers grounded in specific regulatory filings, yet current LLMs fabricate metrics, invent citations, and
+    miscalculate derived quantities. These errors carry direct regulatory consequences as the EU AI Act's high-risk enforcement deadline approaches
+    (August 2026). Existing hallucination detectors treat all claims uniformly, missing 43% of computational errors that require arithmetic
+    re-verification against structured tables. We present FinGround, a three-stage verify-then-ground pipeline for financial document QA. Stage 1
+    performs finance-aware hybrid retrieval over text and tables. Stage 2 decomposes answers into atomic claims classified by a six-type financial
+    taxonomy and verified with type-routed strategies including formula reconstruction. Stage 3 rewrites unsupported claims with paragraph- and
+    table-cell-level citations. To cleanly isolate verification value from retrieval quality, we propose retrieval-equalized evaluation as standard
+    methodology for RAG verification research: when all systems receive identical retrieval, FinGround still reduces hallucination rates by 68% over
+    the strongest baseline ($p < 0.01$). The full pipeline achieves a 78% reduction relative to GPT-4o. An 8B distilled detector retains 91.4% F1 at
+    18x lower per-claim latency, enabling $0.003/query deployment, supported by qualitative signals from a four-week analyst pilot.
+
+### R01236 | 2026 | preprint | Lang: n/a
+TI: Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than
+    Llama-Guard-3-8B
+AB: Deploying large language models in financial-services and agentic settings requires safety classifiers that simultaneously handle prompt
+    injection, regulatory compliance, and general harm, a combination no existing open guardrail addresses in a single inference pass. Semalith v1.4
+    is a 184M-parameter DeBERTa-v3-base classifier performing simultaneous three-axis safety classification including prompt injection, general harm,
+    and financial-services regulatory compliance, in a single forward pass. Its 22-class head (BENIGN, nine prompt-injection sub-types, general-harm,
+    eleven BFSI labels) is trained with a 4-class auxiliary super-category head under jointly weighted loss, on a 76,204-row corpus mined from 49
+    public sources with SHA-1 deduplication against every held-out evaluation set, with 21 of 22 benchmarks at zero contamination (max 0.22%). Against
+    Llama-Guard-3-8B on 22 held-out benchmarks, Semalith v1.4 wins every prompt-injection evaluation (7/7) and 11 of 18 benchmarks overall at 44x
+    fewer parameters, with FPR = 0.000 on 208 benign agentic prompts vs 0.063 for Llama-Guard-3-8B. On general-harm benchmarks (WildGuardMix, HEx-PHI,
+    HarmBench), Llama-Guard-3 leads; this complementary split is documented in Section 4. Six measured weak spots are disclosed in Section 6.
+    Deployment guidance: v1.3 is recommended for conversational moderation deployments (ToxicChat F1 0.624); v1.4 is recommended when BFSI label
+    coverage or zero-FPR on benign agentic prompts is the priority.
+
+### R01237 | 2026 | preprint | Lang: n/a
+TI: K-FinHallu: A Hallucination Detection Benchmark for Multi-Turn RAG in Korean Finance
+AB: Large Language Models (LLMs) have advanced financial automation through Retrieval-Augmented Generation (RAG), yet hallucinations remain a critical
+    barrier to deployment in high-stakes environments. Existing benchmarks focus on single-turn, English-centric tasks, leaving the multi-turn
+    dynamics and linguistic-regulatory nuances of the Korean financial domain unaddressed. We introduce K-FinHallu, the first benchmark for
+    hallucination detection in multi-turn Korean financial RAG. We construct multi-turn dialogues from authentic Korean financial documents and inject
+    hallucinations under a proposed hierarchical taxonomy based on context answerability that explicitly accounts for justified abstention.
+    Benchmarking frontier and open-source LLMs as hallucination detectors, we find that even the strongest models struggle with fine-grained financial
+    diagnostics and refusal behavior. While fine-tuning an 8B model on our training split yields performance competitive with frontier LLMs, justified
+    abstention remains the weakest axis across all evaluated models.
+
+### R01238 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: FinVerBench: Benchmark Validity and Calibration in Large Language Model Financial Statement Verification
+AB: We introduce FinVerBench, a benchmark and validity study for financial statement verification: determining whether a set of corporate financial
+    statements is numerically consistent from the information shown to the model. FinVerBench is built from SEC 10-K XBRL filings for 43 S&P 500
+    companies and defines a four-category error taxonomy covering arithmetic, cross-statement linkage, year-over-year, and magnitude perturbations. We
+    attempt fifteen contemporary LLM evaluations and report fourteen complete runs; a Gemini 2.5 Pro run is excluded from the main comparison because
+    40/108 gateway calls failed. All binary metrics exclude underdetermined positive instances whose perturbed line item is not rendered, leaving a
+    105-instance observable diagnostic subset (43 clean, 62 error-injected). Under the original guided-checklist prompt on the unrounded diagnostic
+    subset, nine of fourteen complete LLM runs produce 95-100% false positives on clean statements, while one run achieves 0% observed false
+    positives. Benchmark rendering choices materially affect measured recall: on a realistic rounded variant of the same observable subset, the
+    calibrated model's recall is 79.0% with 0% observed FPR, compared with 100.0% recall on the unrounded diagnostic variant. These results support a
+    construct-validity conclusion rather than a final leaderboard: financial statement verification is not merely arithmetic detection, but calibrated
+    judgment under incomplete observability, prompt-induced assumptions, and realistic numerical rendering. FinVerBench and all code are publicly
+    available.
+
+### R01239 | 2026 | preprint | Lang: n/a
+TI: Fighting Numerical Hallucinations via Data-centric Compilation for Online Financial QA
+AB: Large Language Models (LLMs) have significantly advanced online data services, particularly in the domain of financial question answering (FinQA).
+    However, such systems remain susceptible to numerical reasoning hallucinations, which critically undermine reliability in high-stakes financial
+    applications. Although retrieval-augmented generation (RAG) has been widely adopted to ground responses in external knowledge, it introduces three
+    persistent challenges: noise sensitivity, calculation fragility, and an auditability crisis. Existing model-centric approaches, which primarily
+    focus on optimizing either the retriever or generator in isolation, still struggle to address these issues in an integrated manner. In this work,
+    we pioneer a data-centric paradigm and propose a novel framework, the Data-centric Reasoning Compiler (DCRC). The framework operates through three
+    cohesive phases: (1) adversarial data construction, which synthesizes training examples with controlled noise to teach robustness; (2) multi-stage
+    training that cultivates a Data-centric Structuring Agent (DSA) capable of explicit evidence auditing and program synthesis; and (3) a
+    compile-and-execute inference process, where the DSA transforms user queries and retrieved documents into verifiable, executable reasoning
+    programs. This data-driven framework ensures faithful numerical reasoning by design. We conduct extensive experiments on established offline
+    benchmarks and further validate our framework through deployment in a real-world online financial QA system.
+
+### R01240 | 2026 | preprint | Lang: n/a
+TI: Multi-Agent Framework for Audit Risk Assessment with Explicit Uncertainty and Evidence Conflict Modeling
+AB: Audit risk assessment increasingly benefits from combining heterogeneous evidence sources, yet existing approaches typically produce point
+    predictions without quantifying how well different evidence streams agree. We propose UMAR (Uncertainty-Aware Multi-Agent Risk Assessment), a
+    framework that employs three specialized agents: an MD&A Text Agent, a Financial Ratio Agent, and a CAM Agent, each producing independent risk
+    scores with calibrated uncertainty estimates. An Uncertainty Aggregator based on Dempster-Shafer evidence theory fuses these scores while
+    explicitly measuring inter-agent conflict. We evaluate UMAR on a U.S. dataset of 3,200 firm-year observations from SEC 10-K filings (2019-2023),
+    with financial restatement as the target label. Experimental results show that UMAR achieves an AUROC of 0.782 and a PR-AUC of 0.341,
+    outperforming logistic regression, XGBoost, FinBERT, and single-agent and dual-agent LLM baselines. UMAR attains the lowest expected calibration
+    error (ECE = 0.052) among all methods and identifies evidence-conflict patterns that correlate with actual restatement risk, offering auditors
+    potentially actionable and interpretable risk signals.
+
+### R01241 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Hallucination Snowball: Modeling Error Propagation as State Transitions in Multi-Agent LLM Pipelines
+AB: Sequential multi-agent LLM pipelines chain specialized agents without verification at handoffs, creating a structural flaw with measurable and
+    severe consequences. We show that hallucinations injected at Stage 1 do not merely persist; they transform: raw numerical facts become derived
+    computations, then narrative prose, then editorially approved conclusions. At each transformation, detectability degrades near-irreversibly. We
+    formalize this as the hallucination snowball effect, a first-order Markov process over four states (Raw Fact $\to$ Derived $\to$ Narrative $\to$
+    Invisible) with empirically measured per-boundary escape probabilities of 24.6%, 48.3%, and 89.3%. Across 346 automatically injected
+    hallucinations in a 4-agent financial analysis pipeline on FinanceBench, gpt-4o detection drops from 72.0% at Stage 1 to 50.9% at Stage 4, and
+    23.7% of hallucinations survive completely undetected in the final output. Even the strongest model tested (Qwen3.5-397B-A17B, 87.0% at Stage 1)
+    faces a structural ceiling; projected Stage 4 detection is only ${\sim}$60--65%. Critically, boundary gates using identical RAG verification tools
+    reduce hallucination survival from 58.4% to 16.2% versus end-of-pipeline checking (Cohen's $h = -0.911$, $p < 0.000001$), while end-checking alone
+    achieves merely 2.3 pp improvement over no verification. When you verify matters more than whether you verify. Our model predicts survival for
+    $n$-agent linear pipelines and prescribes optimal verification resource allocation: invest at $S_1{\to}S_2$ first, where 75.4% of hallucinations
+    are still catchable, not at $S_3{\to}S_4$ where 89.3% have already escaped.
+
+### R01242 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Beyond Logprobs: A Multi-Signal Confidence Engine for LLM-Based Document Field Extraction
+AB: In high-stakes document processing pipelines, including financial reconciliation, compliance verification, and procurement automation, an LLM
+    extraction that is silently wrong is more dangerous than one that is visibly absent. The central challenge is not extraction accuracy alone but
+    reliable confidence estimation: knowing, field by field, whether an extraction can be trusted for automation or deferred to human review.
+    Token-level log-probabilities, verbalized confidence, and multi-sample self-consistency all collapse toward all-positive behaviour at practical
+    thresholds, offering no reliable separation between trustworthy and untrustworthy extractions. We present ExtractConf, a cross-domain,
+    field-agnostic confidence engine that grounds confidence estimation in two structurally different readings of the same document. A field-guided
+    Hunter call extracts each field under schema-slot completion pressure; a document-guided Mapper call scans holistically and surfaces values
+    grounded in document content. This asymmetry yields different failure modes: Hunter hallucinates values for absent fields, while Mapper misses
+    visually non-salient ones. Their disagreement is independently informative. ExtractConf fuses cross-call disagreement, LLM-internal uncertainty,
+    OCR, image quality, and spatial layout into a classifier requiring no domain-specific rules or retraining. On DocILE (55-field invoices, 26%
+    failure rate), it achieves 0.928 ROC AUC and reduces selective prediction risk by 70% over logprob-mean. At 80% coverage, accuracy reaches 99.1%,
+    enabling a practical human-in-the-loop workflow. Zero-shot transfer to CORD receipts achieves 0.858 AUC; lightweight Lasso recalibration reduces
+    ECE by 89% and Brier by 43%, confirming the signals generalise across document domains.
+
+### R01243 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: FinBench: Time-Gated Calibration and Uncertainty Benchmarking for Agentic Financial Forecasting
+AB: Large language models (LLMs) are increasingly used as components of agentic systems that observe, plan, and act. In finance, even "assistive"
+    systems become decision-relevant once their outputs are used to size trades or allocate risk. A key failure mode is the confidence--competence
+    gap: a model that is only slightly better than chance but consistently overconfident will, under typical bet-sizing rules, generate negative
+    long-run growth. Existing benchmarks emphasize semantic understanding or point accuracy, but do not directly test probabilistic calibration under
+    the temporal constraints and non-stationarity that define real markets. We introduce FinBench, a benchmark designed to evaluate calibration and
+    uncertainty quality for financial forecasting in a setting that is (i) strictly time-gated to avoid look-ahead bias and (ii) evaluated with
+    strictly proper scoring rules that penalize hallucinated confidence. FinBench tasks require models to output (a) a probability of positive return
+    and (b) an 80% prediction interval for realized log return; evaluation uses the Brier score and the Winkler interval score, along with skill
+    scores against hard baselines. This paper describes the benchmark specification and reports a small pilot run (one trading day; three liquid
+    tickers; 33 forecasts) as a sanity check of the pipeline. The pilot illustrates how calibration-sensitive metrics distinguish between "confident
+    but fragile" behavior and uncertainty-aware forecasting.
+
+=== END OF BATCH b030 (39 records) ===

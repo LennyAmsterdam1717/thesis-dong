@@ -1,0 +1,657 @@
+BATCH b034 -- 50 records: R01394 .. R01443
+
+### R01394 | 2026 | article/None | Lang: en
+TI: The Grand Convergence Model: A Three-Part Systems Framework for Structural Risk, Empirical Calibration, and Residence Exposure in Advanced
+    Economies During the AI-Automation Era
+AB: This record contains the Grand Convergence Model working-paper series, a three-part framework for analysing structural instability in advanced
+    economies during the AI-automation era. Working Paper No. 1 introduces the Grand Convergence Model: a scenario-based systems framework examining
+    how automation and AI penetration, demographic contraction, financial fragility, environmental stress, geopolitical fragmentation, social
+    cohesion, and policy capacity interact under conditions of structural transition. Working Paper No. 2 provides the empirical scaffolding for the
+    model. It identifies observable indicators for the model’s measurable stress domains and introduces the Composite Convergence Index (CCI), a
+    weighted monitoring instrument designed to track the accumulation of cross-domain structural pressures over time. Working Paper No. 3, Reach
+    Without Residence, extends the framework by introducing the residence–wilting matrix, the concept of delamination risk, and the proposed Residence
+    Gap Index (RGI). It distinguishes economies whose resident base is structurally wilting from economies whose headline activity is weakly attached
+    to resident employment, household income, and demographic anchoring. Together, the three papers develop a unified analytical architecture for
+    examining post-labour economic risk: first as a threshold problem, then as an empirical monitoring problem, and finally as a
+    residence-and-brittleness problem. The purpose of the Grand Convergence Model is not to predict collapse, but to provide a systems-level
+    analytical map for policymakers, researchers, and institutions navigating the structural transition toward post-labour economic conditions.
+    License: CC BY-NC-ND 4.0. AI Collaboration Note: Portions of the analytical development, editing, and structural refinement of these working
+    papers were conducted with the assistance of AI language models. All conceptual design, interpretation, and final authorship remain the
+    responsibility of the author.
+
+### R01395 | 2025 | preprint | Lang: n/a
+TI: OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking
+AB: Machine writing with large language models often relies on retrieval-augmented generation. However, these approaches remain confined within the
+    boundaries of the model's predefined scope, limiting the generation of content with rich information. Specifically, vanilla-retrieved information
+    tends to lack depth, novelty, and suffers from redundancy, which negatively impacts the quality of generated articles, leading to shallow,
+    unoriginal, and repetitive outputs. To address these issues, we propose OmniThink, a slow-thinking machine writing framework that emulates the
+    human-like process of iterative expansion and reflection. The core idea behind OmniThink is to simulate the cognitive behavior of learners as they
+    slowly deepen their knowledge of the topics. Experimental results demonstrate that OmniThink improves the knowledge density of generated articles
+    without compromising metrics such as coherence and depth. Human evaluations and expert feedback further highlight the potential of OmniThink to
+    address real-world challenges in the generation of long-form articles. Code is available at https://github.com/zjunlp/OmniThink.
+
+### R01396 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Zep: A Temporal Knowledge Graph Architecture for Agent Memory
+AB: We introduce Zep, a novel memory layer service for AI agents that outperforms the current state-of-the-art system, MemGPT, in the Deep Memory
+    Retrieval (DMR) benchmark. Additionally, Zep excels in more comprehensive and challenging evaluations than DMR that better reflect real-world
+    enterprise use cases. While existing retrieval-augmented generation (RAG) frameworks for large language model (LLM)-based agents are limited to
+    static document retrieval, enterprise applications demand dynamic knowledge integration from diverse sources including ongoing conversations and
+    business data. Zep addresses this fundamental limitation through its core component Graphiti -- a temporally-aware knowledge graph engine that
+    dynamically synthesizes both unstructured conversational data and structured business data while maintaining historical relationships. In the DMR
+    benchmark, which the MemGPT team established as their primary evaluation metric, Zep demonstrates superior performance (94.8% vs 93.4%). Beyond
+    DMR, Zep's capabilities are further validated through the more challenging LongMemEval benchmark, which better reflects enterprise use cases
+    through complex temporal reasoning tasks. In this evaluation, Zep achieves substantial results with accuracy improvements of up to 18.5% while
+    simultaneously reducing response latency by 90% compared to baseline implementations. These results are particularly pronounced in
+    enterprise-critical tasks such as cross-session information synthesis and long-term context maintenance, demonstrating Zep's effectiveness for
+    deployment in real-world applications.
+
+### R01397 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Integrate Temporal Graph Learning into LLM-based Temporal Knowledge Graph Model
+AB: Temporal Knowledge Graph Forecasting (TKGF) aims to predict future events based on the observed events in history. Recently, Large Language Models
+    (LLMs) have exhibited remarkable capabilities, generating significant research interest in their application for reasoning over temporal knowledge
+    graphs (TKGs). Existing LLM-based methods have integrated retrieved historical facts or static graph representations into LLMs. Despite the
+    notable performance of LLM-based methods, they are limited by the insufficient modeling of temporal patterns and ineffective cross-modal alignment
+    between graph and language, hindering the ability of LLMs to fully grasp the temporal and structural information in TKGs. To tackle these issues,
+    we propose a novel framework TGL-LLM to integrate temporal graph learning into LLM-based temporal knowledge graph model. Specifically, we
+    introduce temporal graph learning to capture the temporal and relational patterns and obtain the historical graph embedding. Furthermore, we
+    design a hybrid graph tokenization to sufficiently model the temporal patterns within LLMs. To achieve better alignment between graph and
+    language, we employ a two-stage training paradigm to finetune LLMs on high-quality and diverse data, thereby resulting in better performance.
+    Extensive experiments on three real-world datasets show that our approach outperforms a range of state-of-the-art (SOTA) methods.
+
+### R01398 | 2026 | preprint | OpenAlex: article/None | Lang: en
+TI: LLMs as Repositories of Factual Knowledge: Limitations and Solutions
+AB: LLMs' sources of knowledge are data snapshots containing factual information about entities collected at different timestamps and from different
+    media types (e.g. wikis, social media, etc.). Such unstructured knowledge is subject to change due to updates through time from past to present.
+    Equally important are the inconsistencies and inaccuracies occurring in different information sources. Consequently, the model's knowl edge about
+    an entity may be perturbed while training over the sequence of snapshots or at inference time, resulting in inconsistent and inaccurate model
+    performance. In this work, we study the appropriateness of Large Language Models (LLMs) as repositories of factual knowledge. We consider
+    twenty-four state of-the-art LLMs that are either closed-, partially (weights), or fully (weight and training data) open-source. We evaluate their
+    reliability in responding to time-sensitive factual questions in terms of accuracy and consistency when prompts are perturbed. We further evaluate
+    the effectiveness of state-of-the-art methods to improve LLMs' accuracy and consistency. We then propose “ENtity-Aware Fine-tuning” (ENAF), a soft
+    neurosymbolic approach aimed at providing structured representation of entities during fine-tuning to reduce inconsistencies and improve response
+    stability under prompt variations.
+
+### R01399 | 2025 | preprint | Lang: n/a
+TI: Factual Knowledge in Language Models: Robustness and Anomalies under Simple Temporal Context Variations
+AB: This paper explores the robustness of language models (LMs) to variations in the temporal context within factual knowledge. It examines whether
+    LMs can correctly associate a temporal context with a past fact valid over a defined period, by asking them to differentiate correct from
+    incorrect contexts. The LMs' ability to distinguish is analyzed along two dimensions: the distance of the incorrect context from the validity
+    period and the granularity of the context. To this end, a dataset called TimeStress is introduced, enabling the evaluation of 18 diverse LMs.
+    Results reveal that the best LM achieves a perfect distinction for only 11% of the studied facts, with errors, certainly rare, but critical that
+    humans would not make. This work highlights the limitations of current LMs in temporal representation.
+
+### R01400 | 2025 | preprint | Lang: n/a
+TI: Systematic Knowledge Injection into Large Language Models via Diverse Augmentation for Domain-Specific RAG
+AB: Retrieval-Augmented Generation (RAG) has emerged as a prominent method for incorporating domain knowledge into Large Language Models (LLMs). While
+    RAG enhances response relevance by incorporating retrieved domain knowledge in the context, retrieval errors can still lead to hallucinations and
+    incorrect answers. To recover from retriever failures, domain knowledge is injected by fine-tuning the model to generate the correct response,
+    even in the case of retrieval errors. However, we observe that without systematic knowledge augmentation, fine-tuned LLMs may memorize new
+    information but still fail to extract relevant domain knowledge, leading to poor performance. In this work, we present a novel framework that
+    significantly enhances the fine-tuning process by augmenting the training data in two ways -- context augmentation and knowledge paraphrasing. In
+    context augmentation, we create multiple training samples for a given QA pair by varying the relevance of the retrieved information, teaching the
+    model when to ignore and when to rely on retrieved content. In knowledge paraphrasing, we fine-tune with multiple answers to the same question,
+    enabling LLMs to better internalize specialized knowledge. To mitigate catastrophic forgetting due to fine-tuning, we add a domain-specific
+    identifier to a question and also utilize a replay buffer containing general QA pairs. Experimental results demonstrate the efficacy of our method
+    over existing techniques, achieving up to 10\% relative gain in token-level recall while preserving the LLM's generalization capabilities.
+
+### R01401 | 2025 | preprint | Lang: n/a
+TI: Towards Fully Exploiting LLM Internal States to Enhance Knowledge Boundary Perception
+AB: Large language models (LLMs) exhibit impressive performance across diverse tasks but often struggle to accurately gauge their knowledge
+    boundaries, leading to confident yet incorrect responses. This paper explores leveraging LLMs' internal states to enhance their perception of
+    knowledge boundaries from efficiency and risk perspectives. We investigate whether LLMs can estimate their confidence using internal states before
+    response generation, potentially saving computational resources. Our experiments on datasets like Natural Questions, HotpotQA, and MMLU reveal
+    that LLMs demonstrate significant pre-generation perception, which is further refined post-generation, with perception gaps remaining stable
+    across varying conditions. To mitigate risks in critical domains, we introduce Confidence Consistency-based Calibration ($C^3$), which assesses
+    confidence consistency through question reformulation. $C^3$ significantly improves LLMs' ability to recognize their knowledge gaps, enhancing the
+    unknown perception rate by 5.6% on NQ and 4.9% on HotpotQA. Our findings suggest that pre-generation confidence estimation can optimize
+    efficiency, while $C^3$ effectively controls output risks, advancing the reliability of LLMs in practical applications.
+
+### R01402 | 2025 | preprint | Lang: n/a
+TI: Enhancing Chest X-ray Classification through Knowledge Injection in Cross-Modality Learning
+AB: The integration of artificial intelligence in medical imaging has shown tremendous potential, yet the relationship between pre-trained knowledge
+    and performance in cross-modality learning remains unclear. This study investigates how explicitly injecting medical knowledge into the learning
+    process affects the performance of cross-modality classification, focusing on Chest X-ray (CXR) images. We introduce a novel Set Theory-based
+    knowledge injection framework that generates captions for CXR images with controllable knowledge granularity. Using this framework, we fine-tune
+    CLIP model on captions with varying levels of medical information. We evaluate the model's performance through zero-shot classification on the
+    CheXpert dataset, a benchmark for CXR classification. Our results demonstrate that injecting fine-grained medical knowledge substantially improves
+    classification accuracy, achieving 72.5\% compared to 49.9\% when using human-generated captions. This highlights the crucial role of
+    domain-specific knowledge in medical cross-modality learning. Furthermore, we explore the influence of knowledge density and the use of
+    domain-specific Large Language Models (LLMs) for caption generation, finding that denser knowledge and specialized LLMs contribute to enhanced
+    performance. This research advances medical image analysis by demonstrating the effectiveness of knowledge injection for improving automated CXR
+    classification, paving the way for more accurate and reliable diagnostic tools.
+
+### R01403 | 2025 | preprint | Lang: n/a
+TI: Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference
+AB: Despite the advancements made in Vision Large Language Models (VLLMs), like text Large Language Models (LLMs), they have limitations in addressing
+    questions that require real-time information or are knowledge-intensive. Indiscriminately adopting Retrieval Augmented Generation (RAG) techniques
+    is an effective yet expensive way to enable models to answer queries beyond their knowledge scopes. To mitigate the dependence on retrieval and
+    simultaneously maintain, or even improve, the performance benefits provided by retrieval, we propose a method to detect the knowledge boundary of
+    VLLMs, allowing for more efficient use of techniques like RAG. Specifically, we propose a method with two variants that fine-tune a VLLM on an
+    automatically constructed dataset for boundary identification. Experimental results on various types of Visual Question Answering datasets show
+    that our method successfully depicts a VLLM's knowledge boundary, based on which we are able to reduce indiscriminate retrieval while maintaining
+    or improving the performance. In addition, we show that the knowledge boundary identified by our method for one VLLM can be used as a surrogate
+    boundary for other VLLMs. Code will be released at https://github.com/Chord-Chen-30/VLLM-KnowledgeBoundary
+
+### R01404 | 2025 | preprint | Lang: n/a
+TI: Erasing Without Remembering: Implicit Knowledge Forgetting in Large Language Models
+AB: In this paper, we investigate knowledge forgetting in large language models with a focus on its generalisation, ensuring that models forget not
+    only specific training samples but also related implicit knowledge. To this end, we begin by identifying a broader unlearning scope that includes
+    both target data and logically associated samples, including rephrased, subject-replaced, relation-reversed, and one-hop reasoned data. We then
+    conduct a rigorous evaluation of 15 state-of-the-art methods across three datasets, revealing that unlearned models still recall paraphrased
+    answers and retain target facts in their intermediate layers. This motivates us to take a preliminary step toward more generalised implicit
+    knowledge forgetting by proposing PerMU, a novel probability perturbation-based unlearning paradigm. PerMU simulates adversarial unlearning
+    samples to eliminate fact-related tokens from the logit distribution, collectively reducing the probabilities of all answer-associated tokens.
+    Experiments are conducted on a diverse range of datasets, including TOFU, Harry Potter, ZsRE, WMDP, and MUSE, using models ranging from 1.3B to
+    13B in scale. The results demonstrate that PerMU delivers up to a 50.40% improvement in unlearning vanilla target data while maintaining a 40.73%
+    boost in forgetting implicit knowledge. Our code can be found in https://github.com/MaybeLizzy/PERMU.
+
+### R01405 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Enhancing LLM Reliability via Explicit Knowledge Boundary Modeling
+AB: Large language models (LLMs) are prone to hallucination stemming from misaligned self-awareness, particularly when processing queries exceeding
+    their knowledge boundaries. While existing mitigation strategies employ uncertainty estimation or query rejection mechanisms, they suffer from
+    computational efficiency and sacrificed helpfulness. To address these issues, we propose the Explicit Knowledge Boundary Modeling (EKBM)
+    framework, integrating fast and slow reasoning systems to harmonize reliability and usability. The framework first employs a fast-thinking model
+    to generate confidence-labeled responses, enabling immediate utilization of high-confidence outputs, whereas uncertain predictions trigger a slow
+    refinement model for accuracy improvement. To align model behavior with our proposed object, we propose a hybrid training pipeline, enhancing
+    self-awareness without degrading task performance. Evaluations on dialogue state tracking tasks demonstrate that EKBM achieves superior model
+    reliability over uncertainty-based baselines. Further analysis reveals that refinement substantially boosts accuracy while maintaining low
+    computational overhead. The framework establishes a scalable paradigm for deploying reliable LLMs in error-sensitive applications, effectively
+    balancing accuracy and practical utility.
+
+### R01406 | 2025 | preprint | Lang: n/a
+TI: From Style to Facts: Mapping the Boundaries of Knowledge Injection with Finetuning
+AB: Finetuning provides a scalable and cost-effective means of customizing language models for specific tasks or response styles, with greater
+    reliability than prompting or in-context learning. In contrast, the conventional wisdom is that injecting knowledge via finetuning results in
+    brittle performance and poor generalization. We argue that the dichotomy of "task customization" (e.g., instruction tuning) and "knowledge
+    injection" (e.g., teaching new facts) is a distinction without a difference. We instead identify concrete factors that explain the heterogeneous
+    effectiveness observed with finetuning. To this end, we conduct a large-scale experimental study of finetuning the frontier Gemini v1.5 model
+    family on a spectrum of datasets that are artificially engineered to interpolate between the strengths and failure modes of finetuning. Our
+    findings indicate that question-answer training data formats provide much stronger knowledge generalization than document/article-style training
+    data, numerical information can be harder for finetuning to retain than categorical information, and models struggle to apply finetuned knowledge
+    during multi-step reasoning even when trained on similar examples -- all factors that render "knowledge injection" to be especially difficult,
+    even after controlling for considerations like data augmentation and information volume. On the other hand, our findings also indicate that it is
+    not fundamentally more difficult to finetune information about a real-world event than information about what a model's writing style should be.
+
+### R01407 | 2025 | preprint | Lang: n/a
+TI: External Knowledge Injection for CLIP-Based Class-Incremental Learning
+AB: Class-Incremental Learning (CIL) enables learning systems to continuously adapt to evolving data streams. With the advancement of pre-training,
+    leveraging pre-trained vision-language models (e.g., CLIP) offers a promising starting point for CIL. However, CLIP makes decisions by matching
+    visual embeddings to class names, overlooking the rich contextual information conveyed through language. For instance, the concept of ``cat'' can
+    be decomposed into features like tail, fur, and face for recognition. Besides, since the model is continually updated, these detailed features are
+    overwritten in CIL, requiring external knowledge for compensation. In this paper, we introduce ExterNal knowledGe INjEction (ENGINE) for
+    CLIP-based CIL. To enhance knowledge transfer from outside the dataset, we propose a dual-branch injection tuning framework that encodes
+    informative knowledge from both visual and textual modalities. The visual branch is enhanced with data augmentation to enrich the visual features,
+    while the textual branch leverages GPT-4 to rewrite discriminative descriptors. In addition to this on-the-fly knowledge injection, we also
+    implement post-tuning knowledge by re-ranking the prediction results during inference. With the injected knowledge, the model can better capture
+    informative features for downstream tasks as data evolves. Extensive experiments demonstrate the state-of-the-art performance of ENGINE. Code is
+    available at: https://github.com/LAMDA-CL/ICCV25-ENGINE
+
+### R01408 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Inside-Out: Hidden Factual Knowledge in LLMs
+AB: This work presents a framework for assessing whether large language models (LLMs) encode more factual knowledge in their parameters than what they
+    express in their outputs. While a few studies hint at this possibility, none has clearly defined or demonstrated this phenomenon. We first propose
+    a formal definition of knowledge, quantifying it for a given question as the fraction of correct-incorrect answer pairs where the correct one is
+    ranked higher. This gives rise to external and internal knowledge, depending on the information used to score individual answer candidates: either
+    the model's observable token-level probabilities or its intermediate computations. Hidden knowledge arises when internal knowledge exceeds
+    external knowledge. We then present a case study, applying this framework to three popular open-weights LLMs in a closed-book QA setup. Our
+    results indicate that: (1) LLMs consistently encode more factual knowledge internally than what they express externally, with an average relative
+    gap of 40%. (2) Surprisingly, some knowledge is so deeply hidden that a model can internally know an answer perfectly, yet fail to generate it
+    even once, despite large-scale repeated sampling of 1,000 answers. This reveals fundamental limitations in the generation capabilities of LLMs,
+    which (3) put a practical constraint on scaling test-time compute via repeated answer sampling in closed-book QA: significant performance
+    improvements remain inaccessible because some answers are practically never sampled, yet if they were, we would be guaranteed to rank them first.
+
+### R01409 | 2025 | preprint | Lang: n/a
+TI: J&H: Evaluating the Robustness of Large Language Models Under Knowledge-Injection Attacks in Legal Domain
+AB: As the scale and capabilities of Large Language Models (LLMs) increase, their applications in knowledge-intensive fields such as legal domain have
+    garnered widespread attention. However, it remains doubtful whether these LLMs make judgments based on domain knowledge for reasoning. If LLMs
+    base their judgments solely on specific words or patterns, rather than on the underlying logic of the language, the ''LLM-as-judges'' paradigm
+    poses substantial risks in the real-world applications. To address this question, we propose a method of legal knowledge injection attacks for
+    robustness testing, thereby inferring whether LLMs have learned legal knowledge and reasoning logic. In this paper, we propose J&H: an evaluation
+    framework for detecting the robustness of LLMs under knowledge injection attacks in the legal domain. The aim of the framework is to explore
+    whether LLMs perform deductive reasoning when accomplishing legal tasks. To further this aim, we have attacked each part of the reasoning logic
+    underlying these tasks (major premise, minor premise, and conclusion generation). We have collected mistakes that legal experts might make in
+    judicial decisions in the real world, such as typos, legal synonyms, inaccurate external legal statutes retrieval. However, in real legal
+    practice, legal experts tend to overlook these mistakes and make judgments based on logic. However, when faced with these errors, LLMs are likely
+    to be misled by typographical errors and may not utilize logic in their judgments. We conducted knowledge injection attacks on existing general
+    and domain-specific LLMs. Current LLMs are not robust against the attacks employed in our experiments. In addition we propose and compare several
+    methods to enhance the knowledge robustness of LLMs.
+
+### R01410 | 2025 | preprint | Lang: n/a
+TI: Ignite Forecasting with SPARK: An Efficient Generative Framework for Refining LLMs in Temporal Knowledge Graph Forecasting
+AB: Temporal Knowledge Graph (TKG) forecasting is crucial for predicting future events using historical data. With the surge of Large Language Models
+    (LLMs), recent studies have begun exploring their integration into TKG forecasting and achieved some success. However, they still face limitations
+    such as limited input length, inefficient output generation, and resource-intensive refinement, which undermine their performance and practical
+    applicability. To address these limitations, we introduce SPARK, a Sequence-level Proxy-Adapting framework for Refining LLMs in TKG forecasting.
+    Inspired by inference-time algorithms adopted in controlling generation, SPARK offers a cost-effective, plug-and-play solution through two key
+    innovations: (1) Beam Sequence-Level Generation, which reframes TKG forecasting as a top-K sequence-level generation task, using beam search for
+    efficiently generating next-entity distribution in a single forward pass. (2) TKG Adapter for Refinement, which employs traditional TKG models as
+    trainable proxy adapters to leverage global graph information and refine LLM outputs, overcoming both the input length and the resource-intensive
+    fine-tuning problems. Experiments across diverse datasets validate SPARK's forecasting performance, robust generalization capabilities, and high
+    efficiency. We release source codes at https://github.com/yin-gz/SPARK.
+
+### R01411 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Memorizing is Not Enough: Deep Knowledge Injection Through Reasoning
+AB: Although large language models (LLMs) excel in knowledge recall and reasoning, their static nature leads to outdated information as the real world
+    evolves or when adapting to domain-specific knowledge, highlighting the need for effective knowledge injection. However, current research on
+    knowledge injection remains superficial, mainly focusing on knowledge memorization and retrieval. This paper proposes a four-tier knowledge
+    injection framework that systematically defines the levels of knowledge injection: memorization, retrieval, reasoning, and association. Based on
+    this framework, we introduce DeepKnowledge, a synthetic experimental testbed designed for fine-grained evaluation of the depth of knowledge
+    injection across three knowledge types (novel, incremental, and updated). We then explore various knowledge injection scenarios and evaluate the
+    depth of knowledge injection for each scenario on the benchmark. Experimental results reveal key factors to reach each level of knowledge
+    injection for LLMs and establish a mapping between the levels of knowledge injection and the corresponding suitable injection methods, aiming to
+    provide a comprehensive approach for efficient knowledge injection across various levels.
+
+### R01412 | 2025 | preprint | Lang: n/a
+TI: Understanding LLM Behaviors via Compression: Data Generation, Knowledge Acquisition and Scaling Laws
+AB: Large Language Models (LLMs) have demonstrated remarkable capabilities across numerous tasks, yet principled explanations for their underlying
+    mechanisms and several phenomena, such as scaling laws, hallucinations, and related behaviors, remain elusive. In this work, we revisit the
+    classical relationship between compression and prediction, grounded in Kolmogorov complexity and Shannon information theory, to provide deeper
+    insights into LLM behaviors. By leveraging the Kolmogorov Structure Function and interpreting LLM compression as a two-part coding process, we
+    offer a detailed view of how LLMs acquire and store information across increasing model and data scales -- from pervasive syntactic patterns to
+    progressively rarer knowledge elements. Motivated by this theoretical perspective and natural assumptions inspired by Heap's and Zipf's laws, we
+    introduce a simplified yet representative hierarchical data-generation framework called the Syntax-Knowledge model. Under the Bayesian setting, we
+    show that prediction and compression within this model naturally lead to diverse learning and scaling behaviors observed in LLMs. In particular,
+    our theoretical analysis offers intuitive and principled explanations for both data and model scaling laws, the dynamics of knowledge acquisition
+    during training and fine-tuning, factual knowledge hallucinations in LLMs. The experimental results validate our theoretical predictions.
+
+### R01413 | 2025 | preprint | Lang: n/a
+TI: On Linear Representations and Pretraining Data Frequency in Language Models
+AB: Pretraining data has a direct impact on the behaviors and quality of language models (LMs), but we only understand the most basic principles of
+    this relationship. While most work focuses on pretraining data's effect on downstream task behavior, we investigate its relationship to LM
+    representations. Previous work has discovered that, in language models, some concepts are encoded `linearly' in the representations, but what
+    factors cause these representations to form? We study the connection between pretraining data frequency and models' linear representations of
+    factual relations. We find evidence that the formation of linear representations is strongly connected to pretraining term frequencies;
+    specifically for subject-relation-object fact triplets, both subject-object co-occurrence frequency and in-context learning accuracy for the
+    relation are highly correlated with linear representations. This is the case across all phases of pretraining. In OLMo-7B and GPT-J, we discover
+    that a linear representation consistently (but not exclusively) forms when the subjects and objects within a relation co-occur at least 1k and 2k
+    times, respectively, regardless of when these occurrences happen during pretraining. Finally, we train a regression model on measurements of
+    linear representation quality in fully-trained LMs that can predict how often a term was seen in pretraining. Our model achieves low error even on
+    inputs from a different model with a different pretraining dataset, providing a new method for estimating properties of the otherwise-unknown
+    training data of closed-data models. We conclude that the strength of linear representations in LMs contains signal about the models' pretraining
+    corpora that may provide new avenues for controlling and improving model behavior: particularly, manipulating the models' training data to meet
+    specific frequency thresholds.
+
+### R01414 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Knowledge Acquisition on Mass-shooting Events via LLMs for AI-Driven Justice
+AB: Mass-shooting events pose a significant challenge to public safety, generating large volumes of unstructured textual data that hinder effective
+    investigations and the formulation of public policy. Despite the urgency, few prior studies have effectively automated the extraction of key
+    information from these events to support legal and investigative efforts. This paper presented the first dataset designed for knowledge
+    acquisition on mass-shooting events through the application of named entity recognition (NER) techniques. It focuses on identifying key entities
+    such as offenders, victims, locations, and criminal instruments, that are vital for legal and investigative purposes. The NER process is powered
+    by Large Language Models (LLMs) using few-shot prompting, facilitating the efficient extraction and organization of critical information from
+    diverse sources, including news articles, police reports, and social media. Experimental results on real-world mass-shooting corpora demonstrate
+    that GPT-4o is the most effective model for mass-shooting NER, achieving the highest Micro Precision, Micro Recall, and Micro F1-scores.
+    Meanwhile, o1-mini delivers competitive performance, making it a resource-efficient alternative for less complex NER tasks. It is also observed
+    that increasing the shot count enhances the performance of all models, but the gains are more substantial for GPT-4o and o1-mini, highlighting
+    their superior adaptability to few-shot learning scenarios.
+
+### R01415 | 2025 | preprint | Lang: n/a
+TI: Analyzing LLMs' Knowledge Boundary Cognition Across Languages Through the Lens of Internal Representations
+AB: While understanding the knowledge boundaries of LLMs is crucial to prevent hallucination, research on the knowledge boundaries of LLMs has
+    predominantly focused on English. In this work, we present the first study to analyze how LLMs recognize knowledge boundaries across different
+    languages by probing their internal representations when processing known and unknown questions in multiple languages. Our empirical studies
+    reveal three key findings: 1) LLMs' perceptions of knowledge boundaries are encoded in the middle to middle-upper layers across different
+    languages. 2) Language differences in knowledge boundary perception follow a linear structure, which motivates our proposal of a training-free
+    alignment method that effectively transfers knowledge boundary perception ability across languages, thereby helping reduce hallucination risk in
+    low-resource languages; 3) Fine-tuning on bilingual question pair translation further enhances LLMs' recognition of knowledge boundaries across
+    languages. Given the absence of standard testbeds for cross-lingual knowledge boundary analysis, we construct a multilingual evaluation suite
+    comprising three representative types of knowledge boundary data. Our code and datasets are publicly available at
+    https://github.com/DAMO-NLP-SG/LLM-Multilingual-Knowledge-Boundaries.
+
+### R01416 | 2025 | preprint | Lang: n/a
+TI: CoLoTa: A Dataset for Entity-based Commonsense Reasoning over Long-Tail Knowledge
+AB: The rise of Large Language Models (LLMs) has redefined the AI landscape, particularly due to their ability to encode factual and commonsense
+    knowledge, and their outstanding performance in tasks requiring reasoning. Despite these advances, hallucinations and reasoning errors remain a
+    significant barrier to their deployment in high-stakes settings. In this work, we observe that even the most prominent LLMs, such as OpenAI-o1,
+    suffer from high rates of reasoning errors and hallucinations on tasks requiring commonsense reasoning over obscure, long-tail entities. To
+    investigate this limitation, we present a new dataset for Commonsense reasoning over Long-Tail entities (CoLoTa), that consists of 3,300 queries
+    from question answering and claim verification tasks and covers a diverse range of commonsense reasoning skills. We remark that CoLoTa can also
+    serve as a Knowledge Graph Question Answering (KGQA) dataset since the support of knowledge required to answer its queries is present in the
+    Wikidata knowledge graph. However, as opposed to existing KGQA benchmarks that merely focus on factoid questions, our CoLoTa queries also require
+    commonsense reasoning. Our experiments with strong LLM-based KGQA methodologies indicate their severe inability to answer queries involving
+    commonsense reasoning. Hence, we propose CoLoTa as a novel benchmark for assessing both (i) LLM commonsense reasoning capabilities and their
+    robustness to hallucinations on long-tail entities and (ii) the commonsense reasoning capabilities of KGQA methods.
+
+### R01417 | 2025 | preprint | Lang: n/a
+TI: Give LLMs a Security Course: Securing Retrieval-Augmented Code Generation via Knowledge Injection
+AB: Retrieval-Augmented Code Generation (RACG) leverages external knowledge to enhance Large Language Models (LLMs) in code synthesis, improving the
+    functional correctness of the generated code. However, existing RACG systems largely overlook security, leading to substantial risks. Especially,
+    the poisoning of malicious code into knowledge bases can mislead LLMs, resulting in the generation of insecure outputs, which poses a critical
+    threat in modern software development. To address this, we propose a security-hardening framework for RACG systems, CodeGuarder, that shifts the
+    paradigm from retrieving only functional code examples to incorporating both functional code and security knowledge. Our framework constructs a
+    security knowledge base from real-world vulnerability databases, including secure code samples and root cause annotations. For each code
+    generation query, a retriever decomposes the query into fine-grained sub-tasks and fetches relevant security knowledge. To prioritize critical
+    security guidance, we introduce a re-ranking and filtering mechanism by leveraging the LLMs' susceptibility to different vulnerability types. This
+    filtered security knowledge is seamlessly integrated into the generation prompt. Our evaluation shows CodeGuarder significantly improves code
+    security rates across various LLMs, achieving average improvements of 20.12\% in standard RACG, and 31.53\% and 21.91\% under two distinct
+    poisoning scenarios without compromising functional correctness. Furthermore, CodeGuarder demonstrates strong generalization, enhancing security
+    even when the targeted language's security knowledge is lacking. This work presents CodeGuarder as a pivotal advancement towards building secure
+    and trustworthy RACG systems.
+
+### R01418 | 2025 | preprint | Lang: n/a
+TI: Keep the General, Inject the Specific: Structured Dialogue Fine-Tuning for Knowledge Injection without Catastrophic Forgetting
+AB: Large Vision Language Models have demonstrated impressive versatile capabilities through extensive multimodal pre-training, but face significant
+    limitations when incorporating specialized knowledge domains beyond their training distribution. These models struggle with a fundamental dilemma:
+    direct adaptation approaches that inject domain-specific knowledge often trigger catastrophic forgetting of foundational visual-linguistic
+    abilities. We introduce Structured Dialogue Fine-Tuning (SDFT), an effective approach that effectively injects domain-specific knowledge while
+    minimizing catastrophic forgetting. Drawing inspiration from supervised fine-tuning in LLMs and subject-driven personalization in text-to-image
+    diffusion models, our method employs a three-phase dialogue structure: Foundation Preservation reinforces pre-trained visual-linguistic alignment
+    through caption tasks; Contrastive Disambiguation introduces carefully designed counterfactual examples to maintain semantic boundaries; and
+    Knowledge Specialization embeds specialized information through chain-of-thought reasoning. Experimental results across multiple domains confirm
+    SDFT's effectiveness in balancing specialized knowledge acquisition with general capability retention. Our key contributions include a
+    data-centric dialogue template that balances foundational alignment with targeted knowledge integration, a weighted multi-turn supervision
+    framework, and comprehensive evaluation across diverse knowledge types.
+
+### R01419 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Memorization and Knowledge Injection in Gated LLMs
+AB: Large Language Models (LLMs) currently struggle to sequentially add new memories and integrate new knowledge. These limitations contrast with the
+    human ability to continuously learn from new experiences and acquire knowledge throughout life. Most existing approaches add memories either
+    through large context windows or external memory buffers (e.g., Retrieval-Augmented Generation), and studies on knowledge injection rarely test
+    scenarios resembling everyday life events. In this work, we introduce a continual learning framework, Memory Embedded in Gated LLMs (MEGa), which
+    injects event memories directly into the weights of LLMs. Each memory is stored in a dedicated set of gated low-rank weights. During inference, a
+    gating mechanism activates relevant memory weights by matching query embeddings to stored memory embeddings. This enables the model to both recall
+    entire memories and answer related questions. On two datasets - fictional characters and Wikipedia events - MEGa outperforms baseline approaches
+    in mitigating catastrophic forgetting. Our model draws inspiration from the complementary memory system of the human brain.
+
+### R01420 | 2025 | preprint | Lang: n/a
+TI: MAC-Tuning: LLM Multi-Compositional Problem Reasoning with Enhanced Knowledge Boundary Awareness
+AB: The hallucination of non-existent facts by LLMs is an important problem given its widespread adoption across various applications. Previous
+    research addresses this problem by analyzing the internal parameterized knowledge boundaries to estimate confidence. However, these studies focus
+    on the single-problem setting and have not explored the more challenging multi-problem setting, which requires accurately answering multiple
+    questions simultaneously. We introduce a novel method for the multi-problem setting, Multiple Answers and Confidence Stepwise Tuning (MAC-Tuning),
+    that separates the learning of answer prediction and confidence estimation during fine-tuning on instruction data. Extensive experiments
+    demonstrate that our method outperforms baselines by up to 25\% in average precision.
+
+### R01421 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LecEval: An Automated Metric for Multimodal Knowledge Acquisition in Multimedia Learning
+AB: Evaluating the quality of slide-based multimedia instruction is challenging. Existing methods like manual assessment, reference-based metrics, and
+    large language model evaluators face limitations in scalability, context capture, or bias. In this paper, we introduce LecEval, an automated
+    metric grounded in Mayer's Cognitive Theory of Multimedia Learning, to evaluate multimodal knowledge acquisition in slide-based learning. LecEval
+    assesses effectiveness using four rubrics: Content Relevance (CR), Expressive Clarity (EC), Logical Structure (LS), and Audience Engagement (AE).
+    We curate a large-scale dataset of over 2,000 slides from more than 50 online course videos, annotated with fine-grained human ratings across
+    these rubrics. A model trained on this dataset demonstrates superior accuracy and adaptability compared to existing metrics, bridging the gap
+    between automated and human assessments. We release our dataset and toolkits at https://github.com/JoylimJY/LecEval.
+
+### R01422 | 2025 | preprint | Lang: n/a
+TI: VAEmo: Efficient Representation Learning for Visual-Audio Emotion with Knowledge Injection
+AB: Audiovisual emotion recognition (AVER) aims to infer human emotions from nonverbal visual-audio (VA) cues, offering modality-complementary and
+    language-agnostic advantages. However, AVER remains challenging due to the inherent ambiguity of emotional expressions, cross-modal expressive
+    disparities, and the scarcity of reliably annotated data. Recent self-supervised AVER approaches have introduced strong multimodal
+    representations, yet they predominantly rely on modality-specific encoders and coarse content-level alignment, limiting fine-grained emotional
+    semantic modeling. To address these issues, we propose VAEmo, an efficient two-stage framework for emotion-centric joint VA representation
+    learning with external knowledge injection. In Stage~1, a unified and lightweight representation network is pre-trained on large-scale
+    speaker-centric VA corpora via masked reconstruction and contrastive objectives, mitigating the modality gap and learning expressive,
+    complementary representations without emotion labels. In Stage~2, multimodal large language models automatically generate detailed affective
+    descriptions according to our well-designed chain-of-thought prompting for only a small subset of VA samples; these rich textual semantics are
+    then injected by aligning their corresponding embeddings with VA representations through dual-path contrastive learning, further bridging the
+    emotion gap. Extensive experiments on multiple downstream AVER benchmarks show that VAEmo achieves state-of-the-art performance with a compact
+    design, highlighting the benefit of unified cross-modal encoding and emotion-aware semantic guidance for efficient, generalizable VA emotion
+    representations.
+
+### R01423 | 2025 | preprint | Lang: n/a
+TI: Pre-training vs. Fine-tuning: A Reproducibility Study on Dense Retrieval Knowledge Acquisition
+AB: Dense retrievers utilize pre-trained backbone language models (e.g., BERT, LLaMA) that are fine-tuned via contrastive learning to perform the task
+    of encoding text into sense representations that can be then compared via a shallow similarity operation, e.g. inner product. Recent research has
+    questioned the role of fine-tuning vs. that of pre-training within dense retrievers, specifically arguing that retrieval knowledge is primarily
+    gained during pre-training, meaning knowledge not acquired during pre-training cannot be sub-sequentially acquired via fine-tuning. We revisit
+    this idea here as the claim was only studied in the context of a BERT-based encoder using DPR as representative dense retriever. We extend the
+    previous analysis by testing other representation approaches (comparing the use of CLS tokens with that of mean pooling), backbone architectures
+    (encoder-only BERT vs. decoder-only LLaMA), and additional datasets (MSMARCO in addition to Natural Questions). Our study confirms that in DPR
+    tuning, pre-trained knowledge underpins retrieval performance, with fine-tuning primarily adjusting neuron activation rather than reorganizing
+    knowledge. However, this pattern does not hold universally, such as in mean-pooled (Contriever) and decoder-based (LLaMA) models. We ensure full
+    reproducibility and make our implementation publicly available at https://github.com/ielab/DenseRetriever-Knowledge-Acquisition.
+
+### R01424 | 2025 | preprint | Lang: n/a
+TI: Bidirectional LMs are Better Knowledge Memorizers? A Benchmark for Real-world Knowledge Injection
+AB: Despite significant advances in large language models (LLMs), their knowledge memorization capabilities remain underexplored, due to the lack of
+    standardized and high-quality test ground. In this paper, we introduce a novel, real-world and large-scale knowledge injection benchmark that
+    evolves continuously over time without requiring human intervention. Specifically, we propose WikiDYK, which leverages recently-added and
+    human-written facts from Wikipedia's "Did You Know..." entries. These entries are carefully selected by expert Wikipedia editors based on criteria
+    such as verifiability and clarity. Each entry is converted into multiple question-answer pairs spanning diverse task formats from easy cloze
+    prompts to complex multi-hop questions. WikiDYK contains 12,290 facts and 77,180 questions, which is also seamlessly extensible with future
+    updates from Wikipedia editors. Extensive experiments using continued pre-training reveal a surprising insight: despite their prevalence in modern
+    LLMs, Causal Language Models (CLMs) demonstrate significantly weaker knowledge memorization capabilities compared to Bidirectional Language Models
+    (BiLMs), exhibiting a 23% lower accuracy in terms of reliability. To compensate for the smaller scales of current BiLMs, we introduce a modular
+    collaborative framework utilizing ensembles of BiLMs as external knowledge repositories to integrate with LLMs. Experiment shows that our
+    framework further improves the reliability accuracy by up to 29.1%.
+
+### R01425 | 2025 | preprint | Lang: n/a
+TI: Through a Compressed Lens: Investigating The Impact of Quantization on Factual Knowledge Recall
+AB: Quantization methods are widely used to accelerate inference and streamline the deployment of large language models (LLMs). Although
+    quantization's effects on various LLM capabilities have been extensively studied, one critical area remains underexplored: factual knowledge
+    recall (FKR), the process by which LLMs access stored knowledge. To this end, we conduct comprehensive experiments using three common quantization
+    techniques at distinct bit widths, in conjunction with interpretability-driven analyses on two tasks, knowledge memorization and latent multi-hop
+    reasoning. We show that quantization typically results in information loss within LLMs, consequently diminishing their capacity for FKR. This
+    effect is particularly amplified in smaller models within the same architectural families. However, models quantized at reduced bit precision do
+    not consistently exhibit inferior performance and occasionally quantization may even enhance model FKR. We find that BitSandBytes demonstrates
+    highest preservation of the original full-precision model's FKR. Despite variability across models and methods, quantization causes modest
+    performance degradation and remains an effective compression strategy.
+
+### R01426 | 2025 | preprint | Lang: n/a
+TI: RADAR: Enhancing Radiology Report Generation with Supplementary Knowledge Injection
+AB: Large language models (LLMs) have demonstrated remarkable capabilities in various domains, including radiology report generation. Previous
+    approaches have attempted to utilize multimodal LLMs for this task, enhancing their performance through the integration of domain-specific
+    knowledge retrieval. However, these approaches often overlook the knowledge already embedded within the LLMs, leading to redundant information
+    integration. To address this limitation, we propose Radar, a framework for enhancing radiology report generation with supplementary knowledge
+    injection. Radar improves report generation by systematically leveraging both the internal knowledge of an LLM and externally retrieved
+    information. Specifically, it first extracts the model's acquired knowledge that aligns with expert image-based classification outputs. It then
+    retrieves relevant supplementary knowledge to further enrich this information. Finally, by aggregating both sources, Radar generates more accurate
+    and informative radiology reports. Extensive experiments on MIMIC-CXR, CheXpert-Plus, and IU X-ray demonstrate that our model outperforms
+    state-of-the-art LLMs in both language quality and clinical accuracy.
+
+### R01427 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Tracing Multilingual Factual Knowledge Acquisition in Pretraining
+AB: Large Language Models (LLMs) are capable of recalling multilingual factual knowledge present in their pretraining data. However, most studies
+    evaluate only the final model, leaving the development of factual recall and crosslingual consistency throughout pretraining largely unexplored.
+    In this work, we trace how factual recall and crosslingual consistency evolve during pretraining, focusing on OLMo-7B as a case study. We find
+    that both accuracy and consistency improve over time for most languages. We show that this improvement is primarily driven by the fact frequency
+    in the pretraining corpus: more frequent facts are more likely to be recalled correctly, regardless of language. Yet, some low-frequency facts in
+    non-English languages can still be correctly recalled. Our analysis reveals that these instances largely benefit from crosslingual transfer of
+    their English counterparts -- an effect that emerges predominantly in the early stages of pretraining. We pinpoint two distinct pathways through
+    which multilingual factual knowledge acquisition occurs: (1) frequency-driven learning, which is dominant and language-agnostic, and (2)
+    crosslingual transfer, which is limited in scale and typically constrained to relation types involving named entities. We release our code and
+    data to facilitate further research at https://github.com/cisnlp/multilingual-fact-tracing.
+
+### R01428 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: R1-Searcher++: Incentivizing the Dynamic Knowledge Acquisition of LLMs via Reinforcement Learning
+AB: Large Language Models (LLMs) are powerful but prone to hallucinations due to static knowledge. Retrieval-Augmented Generation (RAG) helps by
+    injecting external information, but current methods often are costly, generalize poorly, or ignore the internal knowledge of the model. In this
+    paper, we introduce R1-Searcher++, a novel framework designed to train LLMs to adaptively leverage both internal and external knowledge sources.
+    R1-Searcher++ employs a two-stage training strategy: an initial SFT Cold-start phase for preliminary format learning, followed by RL for Dynamic
+    Knowledge Acquisition. The RL stage uses outcome-supervision to encourage exploration, incorporates a reward mechanism for internal knowledge
+    utilization, and integrates a memorization mechanism to continuously assimilate retrieved information, thereby enriching the model's internal
+    knowledge. By leveraging internal knowledge and external search engine, the model continuously improves its capabilities, enabling efficient
+    retrieval-augmented reasoning. Our experiments demonstrate that R1-Searcher++ outperforms previous RAG and reasoning methods and achieves
+    efficient retrieval. The code is available at https://github.com/RUCAIBox/R1-Searcher-plus.
+
+### R01429 | 2025 | preprint | Lang: n/a
+TI: RECIPE-TKG: From Sparse History to Structured Reasoning for LLM-based Temporal Knowledge Graph Completion
+AB: Temporal Knowledge Graphs (TKGs) represent dynamic facts as timestamped relations between entities. TKG completion involves forecasting missing or
+    future links, requiring models to reason over time-evolving structure. While LLMs show promise for this task, existing approaches often
+    overemphasize supervised fine-tuning and struggle particularly when historical evidence is limited or missing. We introduce RECIPE-TKG, a
+    lightweight and data-efficient framework designed to improve accuracy and generalization in settings with sparse historical context. It combines
+    (1) rule-based multi-hop retrieval for structurally diverse history, (2) contrastive fine-tuning of lightweight adapters to encode relational
+    semantics, and (3) test-time semantic filtering to iteratively refine generations based on embedding similarity. Experiments on four TKG
+    benchmarks show that RECIPE-TKG outperforms previous LLM-based approaches, achieving up to 30.6\% relative improvement in Hits@10. Moreover, our
+    proposed framework produces more semantically coherent predictions, even for the samples with limited historical context.
+
+### R01430 | 2025 | preprint | Lang: n/a
+TI: Data Mixing Can Induce Phase Transitions in Knowledge Acquisition
+AB: Large Language Models (LLMs) are typically trained on data mixtures: most data come from web scrapes, while a small portion is curated from
+    high-quality sources with dense domain-specific knowledge. In this paper, we show that when training LLMs on such data mixtures, knowledge
+    acquisition from knowledge-dense datasets, unlike training exclusively on knowledge-dense data (arXiv:2404.05405), does not always follow a smooth
+    scaling law but can exhibit phase transitions with respect to the mixing ratio and model size. Through controlled experiments on a synthetic
+    biography dataset mixed with web-scraped data, we demonstrate that: (1) as we increase the model size to a critical value, the model suddenly
+    transitions from memorizing very few to most of the biographies; (2) below a critical mixing ratio, the model memorizes almost nothing even with
+    extensive training, but beyond this threshold, it rapidly memorizes more biographies. We attribute these phase transitions to a capacity
+    allocation phenomenon: a model with bounded capacity must act like a knapsack problem solver to minimize the overall test loss, and the optimal
+    allocation across datasets can change discontinuously as the model size or mixing ratio varies. We formalize this intuition in an
+    information-theoretic framework and reveal that these phase transitions are predictable, with the critical mixing ratio following a power-law
+    relationship with the model size. Our findings highlight a concrete case where a good mixing recipe for large models may not be optimal for small
+    models, and vice versa.
+
+### R01431 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG
+AB: Large language models (LLMs) augmented with retrieval systems have significantly advanced natural language processing tasks by integrating
+    external knowledge sources, enabling more accurate and contextually rich responses. To improve the robustness of such systems against noisy
+    retrievals, Retrieval-Augmented Fine-Tuning (RAFT) has emerged as a widely adopted method. However, RAFT conditions models to generate answers
+    even in the absence of reliable knowledge. This behavior undermines their reliability in high-stakes domains, where acknowledging uncertainty is
+    critical. To address this issue, we propose Divide-Then-Align (DTA), a post-training approach designed to endow RAG systems with the ability to
+    respond with "I don't know" when the query is out of the knowledge boundary of both the retrieved passages and the model's internal knowledge. DTA
+    divides data samples into four knowledge quadrants and constructs tailored preference data for each quadrant, resulting in a curated dataset for
+    Direct Preference Optimization (DPO). Experimental results on three benchmark datasets demonstrate that DTA effectively balances accuracy with
+    appropriate abstention, enhancing the reliability and trustworthiness of retrieval-augmented systems.
+
+### R01432 | 2025 | preprint | Lang: n/a
+TI: UAQFact: Evaluating Factual Knowledge Utilization of LLMs on Unanswerable Questions
+AB: Handling unanswerable questions (UAQ) is crucial for LLMs, as it helps prevent misleading responses in complex situations. While previous studies
+    have built several datasets to assess LLMs' performance on UAQ, these datasets lack factual knowledge support, which limits the evaluation of
+    LLMs' ability to utilize their factual knowledge when handling UAQ. To address the limitation, we introduce a new unanswerable question dataset
+    UAQFact, a bilingual dataset with auxiliary factual knowledge created from a Knowledge Graph. Based on UAQFact, we further define two new tasks to
+    measure LLMs' ability to utilize internal and external factual knowledge, respectively. Our experimental results across multiple LLM series show
+    that UAQFact presents significant challenges, as LLMs do not consistently perform well even when they have factual knowledge stored. Additionally,
+    we find that incorporating external knowledge may enhance performance, but LLMs still cannot make full use of the knowledge which may result in
+    incorrect responses.
+
+### R01433 | 2025 | preprint | Lang: n/a
+TI: When Language Shapes Thought: Cross-Lingual Transfer of Factual Knowledge in Question Answering
+AB: Multilingual large language models (LLMs) offer promising opportunities for cross-lingual information access, yet their use of factual knowledge
+    remains highly sensitive to the input language. Prior work has addressed this through English prompting and evaluation, assuming that
+    English-based reasoning is universally beneficial. In this work, we challenge that assumption by exploring factual knowledge transfer from
+    non-English to English through the lens of Language and Thought Theory. We introduce Language-to-Thought (L2T) prompting, which aligns the model's
+    internal ''thinking'' language with the source of knowledge. Across three languages and four models, L2T consistently outperforms English-based
+    reasoning, reversing the expected advantage of English prompts. Our code is available at https://github.com/GeomeunByeol/Language2Thought.
+
+### R01434 | 2025 | preprint | Lang: n/a
+TI: G2S: A General-to-Specific Learning Framework for Temporal Knowledge Graph Forecasting with Large Language Models
+AB: Forecasting over Temporal Knowledge Graphs (TKGs) which predicts future facts based on historical ones has received much attention. Recent studies
+    have introduced Large Language Models (LLMs) for this task to enhance the models' generalization abilities. However, these models perform
+    forecasting via simultaneously learning two kinds of entangled knowledge in the TKG: (1) general patterns, i.e., invariant temporal structures
+    shared across different scenarios; and (2) scenario information, i.e., factual knowledge engaged in specific scenario, such as entities and
+    relations. As a result, the learning processes of these two kinds of knowledge may interfere with each other, which potentially impact the
+    generalization abilities of the models. To enhance the generalization ability of LLMs on this task, in this paper, we propose a
+    General-to-Specific learning framework (G2S) that disentangles the learning processes of the above two kinds of knowledge. In the general learning
+    stage, we mask the scenario information in different TKGs and convert it into anonymous temporal structures. After training on these structures,
+    the model is able to capture the general patterns across different TKGs. In the specific learning stage, we inject the scenario information into
+    the structures via either in-context learning or fine-tuning modes. Experimental results show that G2S effectively improves the generalization
+    abilities of LLMs.
+
+### R01435 | 2025 | preprint | Lang: n/a
+TI: Decoupling Reasoning and Knowledge Injection for In-Context Knowledge Editing
+AB: Knowledge editing aims to efficiently update Large Language Models (LLMs) by modifying specific knowledge without retraining the entire model.
+    Among knowledge editing approaches, in-context editing (ICE) offers a lightweight solution by injecting new knowledge directly into the input
+    context, leaving model parameters unchanged. However, existing ICE approaches do not explicitly separate the newly injected knowledge from the
+    model's original reasoning process. This entanglement often results in conflicts between external updates and internal parametric knowledge,
+    undermining the consistency and accuracy of the reasoning path.In this work, we conduct preliminary experiments to examine how parametric
+    knowledge influences reasoning path planning. We find that the model's reasoning is tightly coupled with its internal knowledge, and that naively
+    injecting new information without adapting the reasoning path often leads to performance degradation, particularly in multi-hop tasks. To this
+    end, we propose DecKER, a novel ICE framework that decouples reasoning from knowledge editing by generating a masked reasoning path and then
+    resolving knowledge edits via hybrid retrieval and model-based validation. Experiments on multi-hop QA benchmarks show that DecKER significantly
+    outperforms existing ICE methods by mitigating knowledge conflicts and preserving reasoning consistency. Our code is available at:
+    https://github.com/bebr2/DecKER .
+
+### R01436 | 2025 | preprint | Lang: n/a
+TI: FictionalQA: A Dataset for Studying Memorization and Knowledge Acquisition
+AB: When language models are trained on textual data, they acquire both knowledge about the structure of language as well as knowledge of facts about
+    the world. At inference time, their knowledge of facts can be leveraged to solve interesting problems and perform useful knowledge work for users.
+    It is well known that language models can verbatim memorize long sequences from their training data. However, it is much less well understood how
+    language models memorize facts seen during training. In this work, we propose a new dataset to specifically empower researchers to study the dual
+    processes of fact memorization and verbatim sequence memorization. The dataset consists of synthetically-generated, webtext-like documents about
+    fictional events, as well as question-answer pairs about the events. We conduct training experiments showing how synthetic data about fictional
+    events can be useful for studying different forms of memorization. We also document some challenges in effectively building realistic, fictional
+    synthetic data.
+
+### R01437 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Socratic RL: A Novel Framework for Efficient Knowledge Acquisition through Iterative Reflection and Viewpoint Distillation
+AB: Current Reinforcement Learning (RL) methodologies for Large Language Models (LLMs) often rely on simplistic, outcome-based reward signals (e.g.,
+    final answer correctness), which limits the depth of learning from each interaction. This paper introduces Socratic Reinforcement Learning
+    (Socratic-RL), a novel, process-oriented framework designed to address this limitation. Socratic-RL operates on the principle that deeper
+    understanding is achieved by reflecting on the causal reasons for errors and successes within the reasoning process itself. The framework employs
+    a decoupled "Teacher-Student" architecture, where a "Teacher AI" analyzes interaction histories, extracts causal insights, and formulates them
+    into structured "viewpoints." These viewpoints, acting as distilled guidance, are then used by a "Student AI" to enhance its subsequent reasoning.
+    A key innovation is the iterative self-improvement of the Teacher AI, enabling its reflective capabilities to evolve through a meta-learning loop.
+    To manage the accumulation of knowledge, a distillation mechanism compresses learned viewpoints into the Student's parameters. By focusing on
+    process rather than just outcome, Socratic-RL presents a pathway toward enhanced sample efficiency, superior interpretability, and a more scalable
+    architecture for self-improving AI systems. This paper details the foundational concepts, formal mechanisms, synergies, challenges, and a concrete
+    research roadmap for this proposed framework.
+
+### R01438 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Mr. Snuffleupagus at SemEval-2025 Task 4: Unlearning Factual Knowledge from LLMs Using Adaptive RMU
+AB: Large Language Models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation. However, their tendency
+    to memorize training data raises concerns regarding privacy, copyright compliance, and security, particularly in cases involving Personally
+    Identifiable Information (PII). Effective machine unlearning techniques are essential to mitigate these risks, yet existing methods remain
+    underdeveloped for LLMs due to their open-ended output space. In this work, we apply the Adaptive Representation Misdirection Unlearning (RMU)
+    technique to unlearn sensitive information from LLMs. Through extensive experiments, we analyze the effects of unlearning across different decoder
+    layers to determine the most effective regions for sensitive information removal. Our technique ranked 4th on the official leaderboard of both 1B
+    parameter and 7B parameter models.
+
+### R01439 | 2025 | preprint | Lang: n/a
+TI: Dynamic Weight Grafting: Localizing Finetuned Factual Knowledge in Transformers
+AB: When an LLM learns a new fact during finetuning (e.g., new movie releases, newly elected pope, etc.), where does this information go? Are entities
+    enriched with relation information immediately, or do models recall information just-in-time before a prediction? Or, are "all of the above" true,
+    with LLMs implementing multiple redundant heuristics? Existing localization approaches (e.g., activation patching) are ill-suited for this
+    analysis because they usually replace parts of the residual stream, thus overriding previous information. To fill this interpretability gap, we
+    propose dynamic weight grafting, an analysis technique that selectively grafts subsets of weights from a finetuned model onto a pretrained model.
+    Using this technique, we show two separate pathways for retrieving finetuned relation information: 1) "enriching" the residual stream with
+    relation information while processing the tokens that correspond to an entity (e.g., "Zendaya" in "Zendaya co-starred with Timothée Chalamet" and
+    2) "recalling" this information at the final token position before generating a target fact. In some cases, models need information from both of
+    these pathways to correctly generate finetuned facts while, in other cases, either the "enrichment" or "recall" pathway alone is sufficient. We
+    localize the "recall" pathway to model components -- finding that "recall" occurs via both task-specific attention mechanisms and an
+    entity-specific extraction step in the feedforward networks of the final layers before prediction. By targeting model components and parameters,
+    as opposed to just activations, we are able to understand the mechanisms by which finetuned knowledge is retrieved during generation.
+
+### R01440 | 2025 | preprint | Lang: n/a
+TI: Hierarchical Knowledge Injection for Improving LLM-based Program Repair
+AB: Prompting LLMs with bug-related context (e.g., error messages, stack traces) improves automated program repair, but many bugs still remain
+    unresolved. In real-world projects, developers often rely on broader repository and project-level context beyond the local code to resolve such
+    bugs. In this paper, we investigate how automatically extracting and providing such knowledge can improve LLM-based program repair. We propose a
+    layered knowledge injection framework that incrementally augments LLMs with structured context. It starts with the Bug Knowledge Layer, which
+    includes information such as the buggy function and failing tests; expands to the Repository Knowledge Layer, which adds structural dependencies,
+    related files, and commit history; and finally injects the Project Knowledge Layer, which incorporates relevant details from documentation and
+    previously fixed bugs. We evaluate this framework on a dataset of 314 bugs from BugsInPy using two LLMs (Llama 3.3 and GPT-4o-mini), and analyze
+    fix rates across six bug types. By progressively injecting knowledge across layers, our approach achieves a fix rate of 79% (250/314) using Llama
+    3.3, a significant improvement of 23% over previous work. All bug types show improvement with the addition of repository-level context, while only
+    a subset benefit further from project-level knowledge, highlighting that different bug types require different levels of contextual information
+    for effective repair. We also analyze the remaining unresolved bugs and find that more complex and structurally isolated bugs, such as Program
+    Anomaly and GUI bugs, remain difficult even after injecting all available information. Our results show that layered context injection improves
+    program repair and suggest the need for interactive and adaptive APR systems.
+
+### R01441 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LLM Hypnosis: Exploiting User Feedback for Unauthorized Knowledge Injection to All Users
+AB: We describe a vulnerability in language models (LMs) trained with user feedback, whereby a single user can persistently alter LM knowledge and
+    behavior given only the ability to provide prompts and upvote / downvote feedback on LM outputs. To implement the attack, the attacker prompts the
+    LM to stochastically output either a "poisoned" or benign response, then upvotes the poisoned response or downvotes the benign one. When feedback
+    signals are used in a subsequent preference tuning behavior, LMs exhibit increased probability of producing poisoned responses even in contexts
+    without malicious prompts. We show that this attack can be used to (1) insert factual knowledge the model did not previously possess, (2) modify
+    code generation patterns in ways that introduce exploitable security flaws, and (3) inject fake financial news. Our finding both identifies a new
+    qualitative feature of language model preference tuning (showing that it even highly restricted forms of preference data can be used to exert
+    fine-grained control over behavior), and a new attack mechanism for LMs trained with user feedback (extending work on pretraining-time data
+    poisoning and deployment-time prompt injection).
+
+### R01442 | 2025 | preprint | Lang: n/a
+TI: SPARQL Query Generation with LLMs: Measuring the Impact of Training Data Memorization and Knowledge Injection
+AB: Nowadays, the importance of software with natural-language user interfaces cannot be underestimated. In particular, in Question Answering (QA)
+    systems, generating a SPARQL query for a given natural-language question (often named Query Building) from the information retrieved from the same
+    question is the central task of QA systems working over Knowledge Graphs (KGQA). Due to the rise of Large Language Models (LLMs), they are
+    considered a well-suited method to increase the quality of the question-answering functionality, as there is still a lot of room for improvement,
+    aiming for enhanced quality and trustworthiness. However, LLMs are trained on web data, where researchers have no control over whether the
+    benchmark or the knowledge graph was already included in the training data. In this paper, we introduce a novel method that evaluates the quality
+    of LLMs by generating a SPARQL query from a natural-language question under various conditions: (1) zero-shot SPARQL generation, (2) with
+    knowledge injection, and (3) with "anonymized" knowledge injection. This enables us, for the first time, to estimate the influence of the training
+    data on the QA quality improved by LLMs. Ultimately, this will help to identify how portable a method is or whether good results might mostly be
+    achieved because a benchmark was already included in the training data (cf. LLM memorization). The developed method is portable, robust, and
+    supports any knowledge graph; therefore, it could be easily applied to any KGQA or LLM, s.t., generating consistent insights into the actual LLM
+    capabilities is possible.
+
+### R01443 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: MEKiT: Multi-source Heterogeneous Knowledge Injection Method via Instruction Tuning for Emotion-Cause Pair Extraction
+AB: Although large language models (LLMs) excel in text comprehension and generation, their performance on the Emotion-Cause Pair Extraction (ECPE)
+    task, which requires reasoning ability, is often underperform smaller language model. The main reason is the lack of auxiliary knowledge, which
+    limits LLMs' ability to effectively perceive emotions and reason causes. To address this issue, we propose a novel \textbf{M}ulti-source
+    h\textbf{E}terogeneous \textbf{K}nowledge \textbf{i}njection me\textbf{T}hod, MEKiT, which integrates heterogeneous internal emotional knowledge
+    and external causal knowledge. Specifically, for these two distinct aspects and structures of knowledge, we apply the approaches of incorporating
+    instruction templates and mixing data for instruction-tuning, which respectively facilitate LLMs in more comprehensively identifying emotion and
+    accurately reasoning causes. Experimental results demonstrate that MEKiT provides a more effective and adaptable solution for the ECPE task,
+    exhibiting an absolute performance advantage over compared baselines and dramatically improving the performance of LLMs on the ECPE task.
+
+=== END OF BATCH b034 (50 records) ===

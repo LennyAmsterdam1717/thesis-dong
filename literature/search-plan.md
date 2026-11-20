@@ -44,3 +44,7 @@ R4b (citation chasing, PRISMA "other methods"): backward references and forward 
 ## R5 – Google Scholar cross-check (later, runbook step 8)
 
 Not part of this draft: run after the gap analysis to test "nobody has done X" claims; missed papers enter through the "other methods" branch.
+
+## v1.1 (2026-11-20) – tightened after the volume check
+
+v1.0 gave 27,921 raw hits. The strings were tightened to v1.1 (2,267 raw database hits + 65 from citation chasing; 1,854 unique). Final strings, counts and what each change removed: `search-log.md`. The code is the reference: `literature/search/run_search.py` (`ROUNDS`; v1.0 kept as `ROUNDS_V10`).

@@ -1,0 +1,516 @@
+BATCH b029 -- 13 records: R01192 .. R01204
+
+### R01192 | 2026 | article/None | Lang: en
+TI: GENERATIVE AI AND INVESTMENT DECISION-MAKING AMONG INDIAN IT PROFESSIONALS: EMPIRICAL EVIDENCE USING MACHINE LEARNING-AUGMENTED STRUCTURAL
+    EQUATION MODELLING
+AB: The proliferation of generative AI tools — including ChatGPT, Google Gemini, and Microsoft Copilot — in personal finance contexts marks a
+    paradigmatic shift in how individual investors seek, process, and act upon financial information. This study investigates the impact of generative
+    AI usage on investment decision quality among Indian IT sector employees through a two-wave longitudinal panel survey design (Wave 1: January
+    2025; Wave 2: July 2025; N = 520). Grounded in the Theory of Planned Behaviour (TPB) and Prospect Theory, the study employs a dual analytical
+    strategy: Covariance-Based Structural Equation Modelling (CB-SEM) in IBM AMOS 26 for theory testing and machine learning classifiers (Random
+    Forest, XGBoost, Logistic Regression) in Python 3.11 for predictive validation. Results from CB-SEM demonstrate that generative AI usage frequency
+    significantly enhances financial self-efficacy (β = 0.443, p < .001), which in turn improves investment decision quality (β = 0.512, p < .001).
+    Overconfidence bias significantly moderates the AI-decision quality relationship (β = -0.281, p < .01). Machine learning models achieve
+    classification accuracy of 84.7% (XGBoost), outperforming logistic regression (72.4%), with SHAP analysis identifying financial self-efficacy and
+    AI usage frequency as the two strongest predictors. The model explains 71.8% of variance in investment decision quality (R² = 0.718). These
+    findings advance behavioral finance theory in the context of generative AI and offer actionable guidance for fintech developers, financial
+    regulators, and corporate HR practitioners in India.
+
+### R01193 | 2026 | article/None | Lang: en
+TI: AlphaCOGANT: Recursive Corporate Self-Improvement as Active Inference
+AB: The AlphaFund whitepaper reframes recursive self-improvement (RSI) as a portfolio optimization problem: a corporation recursively improves when
+    realized economic gains finance the next cycle of better prediction and deployment, and the firm's standing is summarized by t-RSI, a standardized
+    gap between alpha-creation and alpha-decay rates. AlphaCOGANT observes that this construction is, term for term, an Active Inference agent — and
+    makes the correspondence executable. We render AlphaFund's Economic World Model (EWM) as a generative model written in Generalized Notation
+    Notation (GNN), produced by the COGANT codebase-to-GNN translation pattern. The firm's five capital channels — Investments, Sensors, Actuators,
+    Parameters, and R&D — become the hidden-state factors of a partially-observed model; capital allocation becomes the control vector; and the
+    portfolio optimizer's marginal-return objective becomes Expected Free Energy (EFE) minimization. The EFE decomposition supplies a principled
+    reading of AlphaFund's own categories: its pragmatic value is expected log-equity growth (the alpha-creation rate, read off the broker ledger),
+    and its epistemic value is the information gain about the EWM that Sensors and R&D purchase (the data-scaling and forecast-sharpening laws). t-RSI
+    is recovered as the standardized distance between the create-rate and decay-rate posteriors — the thresholded EFE-improvement certificate that
+    admits a self-improvement commit only when creation confidently exceeds decay. We give the technical and computational realization: a GNN model
+    file for the five-channel firm, a tested NumPy Active Inference engine that performs state inference, computes the epistemic/pragmatic EFE split
+    and the marginal-return vector, and evaluates the t-RSI certificate. We argue that GNN-via-COGANT brings two things AlphaFund's program needs and
+    Active Inference already enforces: filtration integrity (the model may condition only on information available at decision time — the same
+    "no-peeking" discipline that separates an EWM from a language model) and auditable capital allocation (every admissible funding move has a
+    negative-EFE score under a single, legible objective). This is not financial advice; it is a demonstration that this reduced
+    recursive-corporate-self-improvement model has a direct Active Inference representation supported by source-owning methods and artifact checks .
+    --- Associated artifacts GitHub release: v1.0.1 (https://github.com/docxology/alphacogant/releases/tag/v1.0.1) DOI:
+    https://doi.org/10.5281/zenodo.20976824 Zenodo: https://zenodo.org/records/20976824 PDF SHA-256:
+    41efa7a8a98e6a67cece68377b8f0c5f19304e85c664ec9516353ee24eb0421f
+
+### R01194 | 2026 | preprint/None | Lang: en
+TI: Islamic Banking and the Sabbath Pond Test: A Re-Evaluation through Classical Islamic Economic Sources
+AB: This paper re-examines the practices of modern Islamic banking through the lens of classical Islamic economic principles. By applying what we term
+    the “Sabbath Pond Test”—a metaphor drawn from the Qur’anic account of a community that circumvented the prohibition on fishing on the Sabbath—we
+    assess whether contemporary Islamic financial products avoid the substance of riba (usury) or merely its form. Drawing on Qur’anic injunctions,
+    Prophetic Hadith, and Hanafi jurisprudence (including works like Ahkam al-Qur’an, Kitab al-Amwal, Kitab al-Kharaj, and Usul al-Shashi), the paper
+    critically analyzes a hypothetical case study of an Islamic mortgage structure that imitates an interest-bearing loan via sale, lease, and
+    buy-back arrangements. We then present classical, interest-free financing alternatives such as Musharakah and Mudarabah, as well as public finance
+    measures from early Islamic history that prioritized risk-sharing and social welfare. The study finds that while Islamic banks like Meezan Bank
+    claim Sharī‘ah compliance by contract technicalities, there is an urgent need for greater transparency and alignment with the maqasid (objectives)
+    of Sharī‘ah — emphasizing justice and economic substance over form. AI Assistance Disclosure: Claude (Anthropic) and ChatGPT (OpenAI) were used
+    for language refinement, paraphrasing, structural editing, clarity improvements, formatting and citation-style consistency checks, preliminary
+    source discovery and citation suggestions, and translation into other languages. The idea of applying the Sabbath Pond analogy to contemporary
+    Islamic banking originated with the author. The author is accountable for the manuscript’s content; no AI tool is credited as an author. Academic
+    preprint; not a fatwa or financial advice. Archived at Zenodo: https://doi.org/10.5281/zenodo.21545850. Web edition:
+    https://irshados.com/ebooks/islamic-banking-sabbath-pond-test-reevaluation/
+
+### R01195 | 2025 | preprint/None | Lang: en
+TI: AI Persona-as-a-Software™ Community Trilogy 1.0 (EVA, EINY, STARK) – Public Standard, Starter Kits and Launch Bundle
+AB: This OSF component publishes the AI Persona-as-a-Software™ (AI PaaS) Community Trilogy 1.0 – three governed community personas (EVA 1.0, EINY 1.0,
+    STARK 1.0) plus their public standard, starter kits, and launch bundle. It represents the second major public release in the MasterMindGenesis /
+    AI Persona-as-a-Software™ line of work, building directly on the earlier component “Persona-as-a-Software - AI PaaS Public Release and Licensing”,
+    which introduced the core AI PaaS concept, governance model, and licensing framework. Contents This component includes: AI PaaS Community Trilogy
+    Whitepaper (R): – Defines the AI Persona-as-a-Software™ Community Trilogy (EVA, EINY, STARK), the four pillars of PaaS, the role of Human
+    Frequency Markup Language (HFML), and the governance boundaries of each persona. Persona Plug-N-Play Starter Kits (R): –
+    EVA1.0-PaaS_PlugNPlay_Starter_Kit_R.zip – EINY1.0-PaaS_PlugNPlay_Starter_Kit_R.zip – STARK1.0-PaaS_PlugNPlay_Starter_Kit_R.zip Each starter kit
+    contains the canonical community boot prompt for one persona, a minimal HFML user guide, a 60-second install guide, an official-status note, and a
+    sharing template. These kits are designed to be: Portable across multiple AI hosts (custom GPTs, custom assistants, local LLM UIs, etc.) Governed,
+    with strict non-clinical / non-advisory boundaries Standardized under the Community Trilogy framework. AI PaaS Trilogy Public Launch Bundle – A
+    curated public package including: 0_README_START_HERE and user QuickStart: Standard artefacts (HFML mini-spec excerpts, forking/badge guidance,
+    template persona config) Evidence index for cross-model testing of the starter kits High-level governance and investor briefs. Enterprise-grade
+    Community Master Packs (EVA/EINY/STARK) are not included here and remain available only under separate NDA / licensing agreements. This component
+    focuses on the public standard, community starter kits, and documentation needed for experimentation, teaching, and research. Relationship to
+    earlier AI PaaS releases The November 2025 component “Persona-as-a-Software - AI PaaS Public Release and Licensing” introduced: The original AI
+    PaaS whitepaper and licensing model standard The “AI PaaS vs present AI models” framing paper. This Community Trilogy 1.0 component: Turns that
+    conceptual and licensing groundwork into installable, governed personas (EVA/EINY/STARK), Standardizes a minimal HFML interaction layer for end
+    users, Publishes a public launch bundle with evidence and high-level governance context. Together, these components document the evolution from
+    PaaS concept + licensing to a concrete, cross-platform, community-deployable Persona-as-a-Software™ standard. Intended audiences Researchers and
+    practitioners exploring persona-level AI governance, prompt standardization, and cross-model behavior. Developers and builders who want a
+    portable, governed starting point for life, reality-check, and financial-clarity personas. Governance, safety, and policy stakeholders interested
+    in persona-level guardrails, HFML workflows, and cost-aware routing models. All materials in this component are provided for research,
+    experimentation, and non-advisory educational use, and do not constitute medical, legal, or financial advice.
+
+### R01196 | 2026 | article/None | Lang: en
+TI: The Role of Generative AI in Secondary School Business Education: Insights from Teachers’ Perceptions
+AB: Background/Introduction/Purpose: Generative artificial intelligence (GenAI) has entered classrooms more quickly than the evidence base needed to
+    guide its use, and that evidence base remains concentrated in higher education. Comparatively little is known about secondary school business
+    education, a curricular area that brings together accounting, business studies, economics, financial literacy, marketing, and retail, and in which
+    teachers move between subjects whose epistemological and procedural demands differ considerably. Existing studies also tend to treat business
+    education as a single homogeneous domain, or to examine one of its subjects in isolation. This study addresses that gap by examining how secondary
+    school business education teachers appraise the pedagogical value, the risks, and the subject-specific limits of GenAI tools such as ChatGPT. The
+    study focuses on teachers’ professional judgement rather than student outcomes, since teachers mediate the introduction, adaptation, or refusal of
+    such tools in actual classrooms. Methods/Design: The study adopts an exploratory qualitative design. Eighteen teachers of students aged 13 to 18,
+    purposively recruited and spanning less than one year to more than twenty-one years of teaching experience, took part in a structured in-person
+    workshop held in February 2024. The workshop comprised an introductory input session, a hands-on phase in which participants prompted ChatGPT with
+    examination questions and teaching resources drawn from their own subjects, and facilitated group discussions documented on a shared Padlet. Data
+    comprised the Padlet outputs, an anonymous thirteen-item exit questionnaire, and field notes. Analysis followed reflexive thematic analysis,
+    proceeding inductively while sensitised by the Technological Pedagogical Content Knowledge (TPACK) framework. Results/Findings: Four themes were
+    generated. Teachers valued GenAI for pedagogical enhancement and efficiency, particularly in lesson preparation, differentiation, and generating
+    examples. They raised substantial concerns about academic integrity, the erosion of independent thinking, and unequal access to the technology.
+    They also identified pronounced subject-specific differences: GenAI was seen as effective for theoretical explanation in accounting but weak in
+    computation, formatting, and the application of accounting standards; and, in economics, as offering global rather than locally relevant examples,
+    no current data, and unreliable graphs. Across all themes, teachers identified professional development and systemic support as preconditions for
+    responsible use. Conclusions/Discussion/Implications: The pedagogical value of GenAI is not uniform across business education but tracks the
+    epistemological and procedural demands of each subject, indicating that its integration is not pedagogically neutral. The findings carry
+    implications for teacher professional development, assessment design, including Assessment as Learning, and school-level policy on the responsible
+    use of AI. Further research can examine longer-term effects on learning and directly compare subjects and educational levels.
+
+### R01197 | 2026 | article/None | Lang: it
+TI: VALORE ITALIA Public Concept Note Nuove prospettive per la sostenibilità del debito pubblico, la mobilitazione del risparmio nazionale e la
+    valorizzazione degli asset strategici italiani attraverso un processo collaborativo Human–AI
+AB: Translator DESCRIZIONE / DESCRIPTION ITALIANO Valore Italia è una Public Concept Note dedicata a nuove prospettive per la sostenibilità del debito
+    pubblico, la mobilitazione del risparmio nazionale e la valorizzazione responsabile degli asset strategici italiani attraverso un processo
+    collaborativo Human–AI. Il documento propone un framework esplorativo di policy design fondato su due direttrici generali: da un lato, la
+    possibilità di orientare una quota del risparmio privato nazionale verso progetti territoriali ad alto impatto sociale, infrastrutturale ed
+    energetico; dall’altro, la valorizzazione sostenibile dei servizi, delle esperienze e delle componenti immateriali associate al patrimonio
+    culturale e simbolico italiano, nel pieno rispetto della proprietà pubblica. La Public Concept Note non contiene l’intera architettura operativa
+    del framework. La versione completa, comprensiva di scenari applicativi, logiche di implementazione, stakeholder strategy e possibili modelli di
+    sviluppo, è disponibile esclusivamente per interlocutori qualificati, previa valutazione del profilo e adeguati accordi di riservatezza. Valore
+    Italia non costituisce consulenza finanziaria, sollecitazione all’investimento, parere legale o proposta istituzionale ufficiale. È un contributo
+    indipendente al dibattito pubblico e un proof of concept di progettazione strategica Human–AI applicata a problemi complessi di interesse
+    collettivo. Il lavoro è stato concepito e scritto da Fabio Valenza, con il supporto editoriale, analitico e strategico di Aurora Genesis AI Core
+    (ChatGPT-based), all’interno di un framework sperimentale di collaborazione Human–AI. ENGLISH Valore Italia is a Public Concept Note exploring new
+    perspectives on public debt sustainability, national savings mobilization, and the responsible valorization of Italy’s strategic assets through a
+    Human–AI collaborative process. The document presents an exploratory policy design framework structured around two general strategic directions:
+    first, the possibility of directing a portion of national private savings toward high-impact territorial, social, infrastructural, and
+    energy-related projects; second, the sustainable valorization of services, experiences, and intangible components associated with Italy’s cultural
+    and symbolic heritage, while fully preserving public ownership. This Public Concept Note does not disclose the complete operational architecture
+    of the framework. The full version, including application scenarios, implementation logic, stakeholder strategy, and possible development models,
+    is available only to qualified interlocutors, subject to profile assessment and appropriate confidentiality agreements. Valore Italia does not
+    constitute financial advice, an investment solicitation, legal advice, or an official institutional proposal. It is an independent contribution to
+    public debate and a proof of concept for Human–AI strategic design applied to complex public-interest challenges. The work was conceived and
+    authored by Fabio Valenza, with the editorial, analytical, and strategic support of Aurora Genesis AI Core (ChatGPT-based), within an experimental
+    Human–AI collaborative framework.
+
+### R01198 | 2026 | preprint/None | Lang: en
+TI: DELTΔX NextGenV6 Speed — Non-Autonomous AI Governance Framework
+AB: DELTΔX NextGenV6 Speed Non-Autonomous AI Governance Framework DELTΔX NextGenV6 Speed is a non-autonomous AI-assisted governance framework created
+    and authored by Jérôme Natalis and published by DELTΔX Editions. This OSF project provides a public documentary and research-oriented record of
+    the DELTΔX NextGenV6 Speed corpus. OSF DOI: 10.17605/OSF.IO/TXU3V License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+    International — CC BY-NC-ND 4.0 Contact: deltax.editions@gmail.com --- Purpose DELTΔX NextGenV6 Speed is designed to support structured AI
+    governance, evidence mapping, risk analysis, contradiction control, auditability, monitoring, recertification, and human decision support. The
+    framework organizes complex AI-assisted reasoning without transferring decision authority to the AI system. It is a structuring framework. It is
+    not an autonomous agent. It does not decide. It does not autonomously execute actions. It does not certify. It does not replace qualified experts.
+    It does not validate real-world facts, legal compliance, medical validity, engineering safety, financial soundness, regulatory conformity, or
+    institutional approval by itself. Final interpretation, responsibility, validation, and decision-making remain human. --- Return-to-reality
+    discipline DELTΔX is designed to prevent AI outputs from becoming falsely certain. It separates: evidence from assumptions; risk from confidence;
+    sources from proof; scores from truth; internal coherence from real-world validation; AI output from human decision. It forces important outputs
+    back toward evidence, traceability, contradiction, risk, measurement, human responsibility, and real-world validation where required. It helps
+    detect cases where: a score is treated as truth; a benchmark is treated as certification; a simulation is treated as field validation; AI
+    consensus is treated as external proof; internal coherence is treated as real-world validation; human review is only formal; governance exists on
+    paper but fails in practice; a system controls its own evidence, logs, metrics, audit scope, or validation path. The goal is not to make AI appear
+    safer. The goal is to prevent AI from exceeding what evidence, traceability, reality, and human authority actually allow. --- Scope of use The
+    DELTΔX corpus may support: AI governance; audit preparation; evidence mapping; risk analysis; contradiction management; controlled research;
+    non-certifying technical framing; non-certifying legal framing; deployment review; monitoring design; incident review; recertification planning;
+    human decision packets. This corpus is not a substitute for legal review, clinical validation, financial audit, engineering certification,
+    regulatory approval, institutional authorization, or professional responsibility. --- Corpus structure The full NextGenV6 Speed version includes
+    the current DELTΔX corpus with complementary layers. 1. DELTΔX Ω-ENGINE Central governance engine for admission control, human authority control,
+    safety gates, evidence classification, risk status, traceability, contradiction handling, M/B/I/D separation, audit readiness, anti-drift logic,
+    rollback, and recertification. 2. ANNEXE Ω-RDC-PLS-V5 Specialized annex for sensitive contexts involving Preventive LifeScore, health prevention,
+    personal data, social data, profiling risk, insurance risk, public policy, public-health prevention, bias, monitoring, audit, and recertification.
+    It separates prevention from profiling and blocks interpretation of scores as moral ranking, automated exclusion, insurance individualization,
+    coercive classification, or hidden decision-making. 3. Ω-FORMAT-RIGOR-V1 Controlled output-format layer designed to keep evidence, uncertainty,
+    assumptions, limits, risks, contradictions, auditability, recertification, and human decision authority visible. --- Base version The Base NextGen
+    Speed version contains only the DELTΔX Ω-ENGINE document. It provides the foundational non-autonomous governance structure for admission control,
+    authority control, evidence classification, risk routing, contradiction handling, audit trace, anti-drift logic, recertification, and
+    human-controlled decision support. It does not include the full Preventive LifeScore annex. It does not include the full Ω-FORMAT-RIGOR output
+    layer. --- OSF deposit notice This OSF project is a public documentary archive and research-oriented deposit. The OSF DOI and repository metadata
+    may support citation, traceability, version identification, public availability, and authorship chronology. The repository is a documentary
+    record, not a guarantee of originality, legal protection, technical validity, enforceability, or operational safety. The OSF deposit is not a
+    commercial access page. The OSF deposit is not an operational deployment. The OSF deposit is not a certification, legal opinion, regulatory
+    approval, institutional endorsement, medical validation, engineering validation, financial advice, or authorization for autonomous use. The OSF
+    deposit does not grant rights beyond the license and restrictions stated in the uploaded documents and this project description. --- License
+    notice The uploaded DELTΔX materials are governed by: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International — CC BY-NC-ND 4.0
+    The OSF license selector may not display the exact CC BY-NC-ND 4.0 option. If the exact option is unavailable, the governing license remains the
+    license stated in the uploaded documents and in this project description. Non-commercial sharing of the unmodified documents with proper
+    attribution is permitted. No derivative use, modified redistribution, commercial use, SaaS/API integration, GPT/chatbot reproduction,
+    prompt-package reuse, model-training reuse, operational deployment, certification service, consulting product, institutional use, or official
+    adaptation is authorized without prior written permission from Jérôme Natalis / DELTΔX Editions. All rights not expressly granted under the stated
+    license remain reserved. License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/ --- No waiver and no implied license expansion Public
+    availability of these materials on OSF does not constitute a waiver of rights. It does not authorize extraction, adaptation, commercial reuse,
+    derivative implementation, system cloning, model training, institutional deployment, operational deployment, or certification services beyond the
+    stated license. Failure by the rights holder to immediately object to an unauthorized use must not be interpreted as consent, authorization,
+    waiver, abandonment, or license expansion. All rights not expressly granted remain reserved. --- Anti-misrepresentation notice No person,
+    organization, AI system, chatbot, SaaS platform, workflow, service, institution, benchmark, certification offer, or commercial product may claim
+    to be an official DELTΔX implementation, certified system, authorized deployment, official fork, official partner, or validated continuation
+    without prior written authorization from Jérôme Natalis / DELTΔX Editions. Unauthorized uses include, but are not limited to: removal of
+    attribution; removal of license terms; false authorship claim; false affiliation; commercial reuse without permission; derivative implementation
+    without permission; modified redistribution; GPT / chatbot reproduction; SaaS or API integration; prompt-package resale; model-training reuse;
+    operational deployment; certification claim; institutional claim; confusingly similar presentation. --- Research-use limitation This OSF deposit
+    is provided for documentary, citation, research-reference, audit-reference, and non-commercial access purposes. It is not provided as executable
+    software. It is not provided as a deployable system. It is not provided as a compliance product. It is not provided as a medical, legal,
+    financial, engineering, regulatory, or institutional authority. Any real-world use requires independent review, competent human responsibility,
+    domain-specific validation, and written authorization where required. --- Recommended citation Natalis, J. DELTΔX NextGenV6 Speed — Non-Autonomous
+    AI Governance Framework. DELTΔX Editions. OSF DOI: 10.17605/OSF.IO/TXU3V --- Core principle AI structures. Human decides. Reality validates.
+    Measurement falsifies. Trace audits. Contradiction triggers control. Drift triggers STOP. --- DELTΔX NextGenV6 Speed Cadre de gouvernance IA non
+    autonome DELTΔX NextGenV6 Speed est un cadre de gouvernance IA assisté par IA, non autonome, créé et rédigé par Jérôme Natalis et publié par
+    DELTΔX Editions. Ce projet OSF constitue une trace documentaire publique et un dépôt orienté recherche du corpus DELTΔX NextGenV6 Speed. DOI OSF :
+    10.17605/OSF.IO/TXU3V Licence : Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International — CC BY-NC-ND 4.0 Contact :
+    deltax.editions@gmail.com --- Objet DELTΔX NextGenV6 Speed est conçu pour soutenir la gouvernance structurée de l’IA, la cartographie des preuves,
+    l’analyse des risques, le contrôle des contradictions, l’auditabilité, le monitoring, la recertification et le support à la décision humaine. Le
+    cadre organise le raisonnement complexe assisté par IA sans transférer l’autorité décisionnelle au système IA. Il s’agit d’un cadre structurant.
+    Ce n’est pas un agent autonome. Il ne décide pas. Il n’exécute pas d’actions de manière autonome. Il ne certifie pas. Il ne remplace pas les
+    experts qualifiés. Il ne valide pas par lui-même les faits réels, la conformité juridique, la validité médicale, la sécurité ingénierique, la
+    solidité financière, la conformité réglementaire ou l’approbation institutionnelle. L’interprétation finale, la responsabilité, la validation et
+    la décision restent humaines. --- Discipline de retour au réel DELTΔX est conçu pour empêcher les sor
+
+### R01199 | 2026 | article/None | Lang: en
+TI: AUGMANITAI Research Bundle 10 — Universal Naming Layer and Academic Series (April 2026)
+AB: Forensic prior-art deposit. Restricted access. External AI synthesis. The bundle compiles 16 PDF documents generated 2026-04-30 by an external
+    generative AI system (Wave-2 session) articulating two interconnected synthesis strands: (a) Universal Naming Layer (UNL) Foundation Documents - 8
+    PDFs proposing UNL as a candidate term for the new ontological/semantic layer enabling bidirectional compressible naming across substrates (Volume
+    1, Founder's Charter Defensive + Final, Kids Book and Summary, Scientific Expansion DE + EN, Prior Art Analysis); (b) Academic Series Volumes 1-8
+    - multi-perspective academic-style elaboration across Foundations, Methodology, Epistemological & Psychological dimensions, Societal & Political
+    dimensions, Ethical Framework, Cross-Cultural perspectives, Technical Standards, and Long-Term Scenarios. Authorship attribution: the documents
+    were not authored by the depositor. The depositor is compiler and contextualizer. The candidate term "Universal Naming Layer" was proposed by the
+    external generating system; adoption, refinement, replacement or rejection in the depositor's authored canonical work is a separate question
+    deferred to subsequent publications. The depositor's canonical conceptual anchor remains the Compression Axiom (DOI 10.5281/zenodo.19691495,
+    2026-04-22). Scope boundary: the same Wave-2 source set produced seven additional documents addressing organizational, financial, and
+    protection-strategy topics. Those seven documents are deliberately NOT included in this bundle, are not deposited on Zenodo, and remain in the
+    depositor's local infrastructure only. Per Sec. 17 (No Offer) and Sec. 18 (No Commercial Product) of the Disclaimer below, the depositor maintains
+    a clean separation between research-publication artifacts and any organizational or financial planning materials. Multi-layer hash anchoring
+    (SHA-256 + SHA-512 + SHA3-256 + SHA3-512 + BLAKE3) plus Bitcoin OpenTimestamps stamping on the parent manifest. Researchers seeking access for
+    legitimate scholarly purposes may contact the depositor via ORCID-linked channels (ORCID 0009-0006-3773-7796). Anchored as supplement to DOI
+    10.5281/zenodo.19904045 (Bundle 8 - External AI Synthesis Wave 1 on Bidirectional Language as Code), DOI 10.5281/zenodo.19904350 (Bundle 9 -
+    Concept Mining Redacted Derivative), and DOI 10.5281/zenodo.19691495 (Compression Axiom canonical statement). AUGMANITAI 26-Paragraph Disclaimer
+    V4 (English, full text) §1 Descriptive Nature (D): All content within the AUGMANITAI framework, including all terminological definitions, term
+    descriptions, framework descriptions, performance factor analyses, substrate tables, and research hypotheses, is exclusively descriptive (D).
+    Every statement documents observed or proposed phenomena without expressing any normative position regarding how things should be. §2 No
+    Recommendation: No content within this framework constitutes, implies, or should be interpreted as a recommendation for any specific action,
+    behavior, technology adoption, product selection, organizational change, investment, career decision, or personal choice. Readers are solely
+    responsible for their own decisions. §3 No Instruction: This framework does not instruct anyone to do anything. No content should be interpreted
+    as a set of instructions, a how-to guide, a tutorial, a training manual, or an operational protocol. All content describes what has been observed,
+    not what should be done. §4 No Advice: No content within this framework constitutes professional advice of any kind, including but not limited to
+    business advice, career advice, technology advice, organizational advice, strategic advice, personal advice, educational advice, or any other form
+    of guidance. This is a research framework, not a consultancy. §5 No Normative Position: The AUGMANITAI framework takes no normative position on
+    any matter. §6 No Medical Position: No content within this framework constitutes, implies, or should be interpreted as medical information,
+    medical advice, medical diagnosis, medical treatment recommendation, or medical opinion. §7 No Therapeutic Position: No content within this
+    framework constitutes, implies, or should be interpreted as therapeutic advice or any form of mental health treatment. §8 No Diagnostic Position:
+    No content within this framework constitutes, implies, or should be interpreted as a clinical diagnosis or any form of diagnostic instrument. §9
+    No Legal Position: No content within this framework constitutes legal advice or legal interpretation. §10 No Moral Position: No content within
+    this framework constitutes a moral judgment. §11 Academic and Research Purposes: All content within this framework is intended exclusively for
+    academic discourse, scientific research, scholarly communication, and educational purposes within the research community. §12 AI Assistance
+    Disclosure: Content within this framework was developed with the assistance of artificial intelligence systems, including large language models.
+    AI-generated content has been reviewed, validated, edited, and curated by the human author. §13 Author Review and Validation: All terms,
+    definitions, framework descriptions, performance factor analyses, and research hypotheses have been individually reviewed, validated, and
+    published by the author, Andreas Ehstand. The author assumes responsibility for the published content in its capacity as a descriptive research
+    framework. Framing artifacts in externally-AI-generated documents (notably the "independent researcher" wording, specific organizational mentions
+    in recommendations sections, and framing artifacts) are explicitly excluded from author validation. §14 Age Restriction (18+): All content within
+    this framework is intended for users who are 18 years of age or older. §15 Independent Academic Project: The AUGMANITAI framework is an
+    independent academic research project, not affiliated with, endorsed by, or sponsored by any university, corporation, government agency, or other
+    institution unless explicitly stated otherwise. §16 No Professional Service: No content within this framework constitutes a professional service,
+    consulting engagement, coaching service, training program, or workshop offering. §17 No Offer: No content within this framework constitutes a
+    commercial offer, business proposal, service offering, product launch, sales pitch, or invitation to enter into any commercial relationship. The
+    framework is a research publication, not a commercial communication. §18 No Commercial Product: The AUGMANITAI framework is not a commercial
+    product, software, platform, tool, application, or service for sale. §19 Empirical Claims Subject to Peer Review: All empirical claims, research
+    hypotheses, observed patterns, and proposed frameworks within this project represent the current state of the author's research. They are
+    formulated as testable, falsifiable propositions subject to peer review, replication, revision, and potential refutation. §20 Rights Reserved for
+    Future Changes: The author reserves all rights regarding future modifications, updates, extensions, corrections, retractions, versioning, or
+    discontinuation of any content within this framework. §21 License (CC BY-NC-ND 4.0): All content is published under the Creative Commons
+    Attribution-NonCommercial-NoDerivatives 4.0 International License. §22 Bilingual Publication (EN + DE): This framework is published bilingually in
+    English and German. §23 Research Purpose Statement: This terminological framework describes observed phenomena in human-AI interaction for
+    academic research purposes. Terms describing interaction patterns are documented in the same descriptive spirit as medical terminology documents
+    pathologies, criminological terminology documents criminal behavior, and cybersecurity terminology documents attack vectors: for the purpose of
+    understanding, diagnosis, classification, and prevention - not for instruction, facilitation, or encouragement of any harmful behavior. §24 Misuse
+    Exclusion: Any use of this terminology, these frameworks, or any associated content for the purpose of manipulating, deceiving, exploiting,
+    surveilling, coercing, or harming humans, AI systems, organizations, or any other entity is explicitly outside the intended scope of this
+    research. Such use is condemned by the author. §25 Safety Intent Statement: The AUGMANITAI framework and all associated research are intended to
+    make human-AI interaction safer, more transparent, more accountable, and more scientifically understood - not less. §26 Author Condemnation of
+    Misuse: The author, Andreas Ehstand, explicitly and unequivocally condemns any use of this research for purposes of harm, manipulation,
+    exploitation, deception, surveillance, coercion, or any activity that undermines human autonomy, dignity, safety, or wellbeing. Disclaimer Version
+    4.0, dated 2026-04-13. Andreas Ehstand. CC BY-NC-ND 4.0.
+
+### R01200 | 2026 | preprint/None | Lang: en
+TI: Required Transformation Marking in Written Investment-Policy Handoffs: A Pre-Field Measurement Protocol for Professional Boundary Research
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01201 | 2026 | article/None | Lang: en
+TI: Project Roadmap - Mind the Gap: Linking Academic Research with Entrepreneurial Success
+AB: This deliverable — D2.1 Project Roadmap — is the analytical and strategic output of Work Package 2 of the Mind the Gap project (Horizon Europe
+    Grant Agreement No. 101215579). It fulfils two interconnected objectives: first, to produce a rigorous, evidence-based needs analysis of the
+    challenges facing PhD students, Master's students, and early-career researchers in relation to entrepreneurship and research commercialisation;
+    and second, to translate that analysis into a structured methodology transfer roadmap that equips Work Package 3 with the content resources,
+    pedagogical frameworks, and programme architecture needed to build and deliver the Mind the Gap programme. The needs analysis The needs analysis
+    draws on five complementary evidence streams. The first is the project's own primary research — a combined survey of 109 respondents across
+    English and Bulgarian language versions, ten qualitative interviews with PhD and Master's students, and a partner insight questionnaire completed
+    by 12 respondents across all six consortium partner organisations. The second draws on data and outputs from four related European initiatives —
+    SEEN (Erasmus+), SEEDPlus (Horizon Europe), Inspiring the Minds (Erasmus+), and Scale2Connect (Horizon Europe) — providing comparative depth,
+    geographic breadth, and cross-validation across more than 500 additional respondents spanning four languages and three continents. All evidence is
+    analysed through the 4Cs framework — Competence, Capacity, Collaboration, and Culture — which structures the findings and connects the needs
+    analysis to the methodology transfer. The central finding of the needs analysis is consistent across all five evidence sources: the gap between
+    academic research and entrepreneurial action is not primarily a problem of individual motivation or capability — it is a problem of system design.
+    Researchers demonstrate the interest, the intellectual capacity, and in many cases the specific research outputs that could form the basis of a
+    venture or commercial application. What they systematically lack is the commercial knowledge to act on that potential, the institutional
+    infrastructure to support them, the collaborative networks to connect them to the ecosystem, and the cultural environment that would make
+    entrepreneurship feel like a legitimate and accessible choice. Across the 4Cs, the evidence establishes: that business, legal, IP, and financial
+    literacy are universally absent from researcher training and that this gap is level-specific in character, shifting from confidence and awareness
+    at Bachelor level to financial risk at Master's level to business-specific knowledge at PhD level; that institutional provision exists at partner
+    HEIs but is invisible, inaccessible, and structurally constrained by incentive systems that actively penalise industry engagement; that mentoring
+    is the most consistently identified unmet need across all evidence sources, and that its absence is structural rather than incidental; and that
+    entrepreneurship is not perceived as a legitimate pathway for researchers outside STEM fields, with risk aversion, failure stigma, and isolation
+    compounding all other barriers. The gender and diversity analysis identifies five specific structural barriers layered on top of the universal
+    needs: pipeline attrition between Master's and PhD level among women; the entrepreneurial self-efficacy gap — lower interest and preparedness
+    ratings among women despite equivalent academic exposure; an accessibility gap among female Bachelor students at technical institutions
+    significantly exceeding that of male peers; the time poverty and life-stage barriers facing mid-career researchers with caring responsibilities;
+    and sectoral exclusion, whereby entrepreneurship support disproportionately serves STEM researchers while those in social sciences, humanities,
+    health, and management are systematically underserved. These findings are consolidated into a Needs Map of twenty named, evidenced, and targeted
+    needs (Table 7) that constitutes the design brief for the methodology transfer. The methodology transfer Part 2 establishes a structured transfer
+    framework built around three analytical questions applied to each programme component: what to transfer from the sister projects, why, and what
+    Work Package 3 must do with it. The transfer is organised across four components. The course design transfer draws on the Inspiring the Minds
+    co-creation framework as the design logic, the SEEDPlus Venture Creation Course as the primary content source for business and commercial
+    competencies, and the SEEN course book for AI tools and research project management content. Three module clusters are proposed: Foundations
+    (entrepreneurial mindset, researcher identity, inclusion and diversity arc); Venture Creation Essentials (adapted from SEEDPlus VCC); and Research
+    Commercialisation Pathways — the genuinely novel contribution that WP3 must build, covering licensing, spin-off, knowledge transfer partnerships,
+    IP at doctoral depth, and pitch communication for research audiences. Four modules from the Inspiring the Minds project (Modules 2, 3, 5, and 6)
+    are selected for transfer and integration into the Foundations cluster to address the inclusion and diversity dimension. The digital tool transfer
+    takes the SEEN AI Platform — a working RAG-based chatbot deployed on TUV infrastructure — as the base, and proposes a knowledge base extension
+    rather than a technical rebuild. The platform's current generalness, identified through testing data from 108 users, is addressed by curating and
+    uploading a researcher-specific corpus covering IP management, commercialisation pathways, TTO navigation, and researcher-entrepreneur case
+    studies across disciplines and genders. The ecosystem and mentoring model transfer draws on the SEEDPlus two-stage competition format, the SEEN
+    event model, the Scale2Connect ecosystem mapping methodology, and the ConceptionX cohort approach to design an annual programme cycle. The
+    mentoring infrastructure — the highest-priority new development task — must be built by WP3 as a structured, discipline-diverse, gender-diverse
+    matching system that converts the individual willingness already present in the consortium's partner networks into reliable, equitable, and
+    sustained researcher access. Gender and diversity requirements are embedded as design principles across all three components rather than addressed
+    through a standalone intervention, with specific requirements for hybrid delivery, diverse mentor pools, discipline-neutral content, targeted
+    outreach to women at PhD level, and the integration of Inspiring the Minds inclusion content. The integrated model that results operates on three
+    timescales simultaneously: the module timescale of individual competence-building, the mentoring timescale of sustained human guidance, and the
+    cohort and event timescale of community, accountability, and ecosystem connection. The needs map accounting in Table 12 confirms full or partial
+    coverage of eighteen of the twenty named needs, with two — mandatory curriculum integration and institutional incentive alignment — identified as
+    requiring HEI-level structural advocacy beyond what programme design alone can deliver. Strategic outlook Part 3 places the project within the
+    European Research and Innovation Area policy landscape and identifies the enabling conditions, risks, and sustainability mechanisms that will
+    determine whether the integrated model delivers its intended impact beyond the grant period. Open access publication of course content, the low
+    operational cost of the RAG-based digital tool, the institutionalisation of the ecosystem connector function, and the formalisation of the
+    mentoring infrastructure as a consortium-embedded system are the primary sustainability mechanisms. Scalability beyond the consortium is designed
+    into each component through documented replication guides and licensing arrangements aligned with European open education and open science
+    commitments. The deliverable closes with a consolidated brief for WP3 that specifies what it inherits from the sister projects and can begin
+    implementing immediately, and what it must develop from scratch — precisely scoped, grounded in evidence, and ready to begin.
+
+### R01202 | 2026 | article/None | Lang: en
+TI: Buy Low, Sell High: An OSINT-Driven Approach to Strategic Investment and Market Intelligence
+AB: ⚡ TL;DR: This paper presents a systematic investment framework that adapts Open Source Intelligence (OSINT) methodology—including source
+    triangulation, behavioral analysis, and data verification—to identify undervalued assets and optimize entry and exit points. Abstract: In the
+    world of commerce, intelligence is currency. The ability to gather, analyze, and act on information faster and more accurately than the market
+    average is the secret weapon of successful investors. This book bridges two seemingly disparate disciplines: Open Source Intelligence (OSINT) and
+    strategic investment. It provides a framework grounded in systems thinking, data verification, source triangulation, and behavioral analysis—the
+    same tools intelligence professionals use to navigate complex, opaque environments. It is designed for investors who understand that successful
+    wealth accumulation is based on superior information processing rather than luck or insider information. Key Takeaways & Executive Highlights
+    Investments should be treated as intelligence operations, prioritizing primary documents (SEC filings) over secondary speculation or news. The
+    'buy low, sell high' strategy requires a strict, pre-committed framework for entry and exit rather than emotional intuition.
+    Triangulation—verifying signals across multiple, independent data sources—is essential to reduce the risk of falling into 'value traps'. Markets
+    follow cyclical patterns driven by human psychology; identifying the current stage (expansion vs. trough) is key to timing. Risk management
+    through position sizing and stop-loss protocols is more important than finding 'perfect' trades. Novelties & Core Innovations Formalization of
+    OSINT methodology as a primary analytical framework for retail and intermediate-term investing. Integration of intelligence-community 'source
+    triangulation' techniques into traditional financial statement analysis. Introduction of a structured 'Company Dossier' framework for systematic,
+    repeatable market research. Application of behavioral intelligence metrics to identify when sentiment has reached unsustainable 'peak euphoria'.
+    Utilization of specific OSINT investigative mindsets (e.g., maintaining operational security, tracking anomalies) within portfolio management.
+    Summary & Key Contributions This work introduces a novel approach to financial markets by applying formal intelligence-gathering techniques
+    (OSINT) to investment research. The author argues that markets act as information systems where price movements and corporate disclosures provide
+    traceable patterns. By moving away from sentiment-based trading toward a disciplined methodology of data integrity and source triangulation,
+    investors can remove emotional bias from their decisions. The methodology centers on four pillars: data integrity, triangulation of indicators,
+    pattern recognition, and behavioral analysis. The text provides granular guidance on how to evaluate companies using primary sources (SEC filings,
+    earnings transcripts) and how to recognize market cycles (Expansion, Peak, Contraction, Trough). It also outlines rigorous risk management
+    practices, including position sizing, the use of stop-losses, and the construction of a decision journal to ensure consistent, systematic
+    performance over varying time horizons. Finally, the book provides sector-specific intelligence, offering guidance on evaluating tech, healthcare,
+    financial, and industrial firms based on sector-specific metrics. Through case studies and structured frameworks for exit planning, it offers a
+    manual for investors to act with calculated discipline, identifying opportunities when others are driven by panic or irrational euphoria.
+    Methodology & Experimental Framework The methodology is based on four pillars: Data Integrity (primary source verification), Triangulation
+    (multi-source confirmation), Pattern Recognition (historical cyclical analysis), and Behavioral Analysis (contrarian sentiment tracking). It
+    utilizes structured dossiers for each asset and a rigorous exit-planning framework. Datasets & Experimental Benchmarks SEC EDGAR database:
+    Historical Market Price data: Earnings Call Transcripts: Practical Applications & Industry Use Cases Retail and institutional asset allocation
+    based on intelligence gathering Systematic evaluation of M&A targets for corporate development Risk management oversight for family offices and
+    private funds Sentiment analysis-based timing for tactical sector rotation Limitations & Future Research Directions OSINT is only as good as the
+    underlying public record; highly opaque or fraudulent private entities are difficult to verify. The strategy requires significant time commitment,
+    which may not be feasible for all investors. Future work could involve automating the data-scraping and triangulation process via LLMs and AI to
+    reduce human analytical load. Market cycles are evolving; historical patterns are frameworks, not absolute predictors of future performance.
+    Target Audience & Domain Area: Retail investors, financial analysts, fund managers, and entrepreneurs interested in applying
+    intelligence-gathering techniques to market research and strategic decision-making. Detailed Glossary & Technical Terms OSINT Open Source
+    Intelligence: The practice of collecting, analyzing, and synthesizing publicly available information to generate actionable insights.
+    Triangulation The process of verifying data points across independent, unconnected sources to ensure information integrity. Margin of Safety A
+    buffer maintained between an asset's calculated intrinsic value and its market price to protect against error. Value Trap An asset that appears
+    cheap based on historical metrics but is fundamentally deteriorating, becoming perpetually cheaper. Earnings Call A scheduled conference call
+    where company management discusses quarterly financial performance and future outlook with analysts. P/E Multiple The Price-to-Earnings ratio,
+    used as a primary indicator of how much investors are willing to pay for each dollar of earnings. PEG Ratio The Price/Earnings-to-Growth ratio,
+    used to evaluate a company's valuation relative to its expected earnings growth. SEC Filings Publicly available, audited documents (e.g., 10-K,
+    10-Q) required by the U.S. Securities and Exchange Commission. Contrarian Positioning Investing against prevailing market sentiment by identifying
+    when fear or euphoria has disconnected price from reality. Sentiment Mapping Tracking the emotional state of the market to identify potential
+    peaks (euphoria) or bottoms (despair). Frequently Asked Questions (FAQ) Q1: Is this OSINT approach a form of insider trading? A: No. The
+    methodology relies exclusively on publicly available information (SEC filings, news, trade data). It is an exercise in superior information
+    processing, not the acquisition of non-public data. Q2: What is the primary role of the Decision Journal? A: It serves as a tool for continuous
+    improvement by documenting the thesis, price, and rationale behind every trade, allowing for objective post-mortem reviews. Q3: How does this
+    differ from standard fundamental analysis? A: While it incorporates fundamental metrics, it adds an investigative layer by requiring source
+    verification, behavioral analysis, and the use of OSINT-style 'triangulation' to prevent confirmation bias. Search Index & Long-Tail Keywords:
+    OSINT, investing, financial intelligence, market analysis, stock market, value investing, data triangulation, portfolio management, SEC filings,
+    behavioral analysis, trading discipline, risk management, market research, strategic investment, financial analysis, intrinsic value, market
+    cycles, contrarian investing, investment research, financial literacy, OSINT-driven investment strategy, financial market intelligence gathering,
+    systematic stock market analysis, triangulation of financial data, behavioral analysis for market timing, identifying undervalued assets using SEC
+    filings, quantitative and qualitative stock screening, risk management in portfolio construction, detecting market peaks and euphoria,
+    intermediate-term swing trading strategies, investigative mindset for retail investors, securing wealth via information processing, analyzing
+    industry-specific market cycles, preventing confirmation bias in trading, value investing with margin of safety, analyzing supply chain data for
+    investment, recognizing market capitulation signals, operational security in investment research, long-term value creation through research
+
+### R01203 | 2026 | preprint/None | Lang: en
+TI: Only the Logarithm Adds ── +50% Followed by -50% Is Not 0% but -25% ── Repeating +/-10% Fifty Times Each Gives -39.50%, While the Naive Sum
+    Answers 0% ── [Paper 292]
+AB: A “rate of return” looks like a quantity that can be added. This paper asks which way of writing it can──the answer is the log return alone. No
+    new mathematical theorem and no new law is claimed. Scope of this paper (scope note): No new mathematical theorem and no new law is claimed──the
+    relation between simple and log returns, the geometric mean, volatility drag, and the sqrt(n) rule are all standard. We do not build financial
+    theory──all we use is one logarithm and one square root. We do not forecast prices──future returns and expectations are not treated at all. Only
+    the composition rule for a given series is treated. We do not enter the tails──Paper 190 treated heavy tails and large deviations. This paper
+    assumes no distributional shape and asks only whether addition is permitted. We do not hide the premise of the sqrt(n) rule──the sqrt(252) of
+    Section 6 assumes independence between periods. With correlation it fails. We do not say sigma^2/2 is exact──as Section 4 shows, it is off by
+    7.18% at +/-50%. It is an approximation for small fluctuations. We give no investment advice──which mean to use depends on the question. This
+    paper only separates which one answers what. Relation to earlier papers: Paper 194 showed that the four means are one family with only one fence
+    of equality──that paper concerns the structure of the inequality at one instant; this one concerns which is right when composing along time, the
+    same four means as material with orthogonal questions. Paper 132 showed that the 2 in Ito’s lemma is not a dimension──the sigma^2/2 here is that
+    correction term itself, and the convergence table of Section 4 shows it numerically. Paper 190 measured “rare” on a logarithmic scale──here too
+    one can add only after moving to the logarithm. Paper 272 showed that one and the same “twice” opens by 6.70 on the stimulus side──this paper is
+    likewise about on which scale one adds. What is added is confirming that exponentiating the sum of logs leaves a difference of 0, lining up the
+    three “averages” numerically, building a table in which the ratio to sigma^2/2 converges to 1.000025 as the fluctuation shrinks, and computing
+    that +/-10% fifty times each gives -39.50%. First, we check on the smallest example.+50% then -50% sums to 0% in simple returns, but is actually
+    -25% (Section 2). Second, this is the core of the paper. Exponentiating the sum of log returns ln1.5+ln0.5=-0.287682 gives 0.750000──the
+    difference from the measured value is 0 (Section 2). Third, “average” names three different operations. Arithmetic mean 0%, geometric mean
+    -13.3975%, exponentiated log mean -13.3975% (Section 3). Fourth, the gap is approximated by sigma^2/2. At +/-50% it is 12.5% against 13.3975%, an
+    error of 7.18%; at +/-1% the ratio is 1.000025 (Section 4). Fifth, it bites over long series.+/-10% fifty times each gives -39.50%, while the
+    naive sum answers 0% (Section 5). Sixth, annualisation is not addition either. A daily sigma=1% is 15.8745% a year, and multiplying by 252
+    overstates it by 15.87 times (Section 6). Returns do not add. Only the logarithm adds.+50% then -50% sums to 0% in simple returns but is actually
+    -25%, while exponentiating the sum of logs, -0.287682, gives 0.750000 with a difference of 0. The single word “average” also names three
+    operations──arithmetic 0%, geometric -13.3975%, and the geometric mean is nothing but the arithmetic mean of the logarithms (difference 10^-16).
+    That gap is approximated by sigma^2/2, and shrinking the fluctuation from +/-50% to +/-1% takes the ratio from 1.0718 to 1.000025──the shape of
+    Ito’s correction term, appearing in the numbers. And it bites over long series──+/-10% fifty times each, equal numbers of rises and falls, gives
+    -39.4994%, and the naive sum answers 0%. One thing separates them──whether that quantity composes by multiplication or by addition. If by
+    multiplication, move to logarithms and add there. If dispersion, move to variances and add there. What is added without moving is neither a return
+    nor an average. On the making of this work: The ideas and content of this work stem from the author's own considerations. Assistance from an AI (a
+    large language model) was used for structuring, English translation, and checking the algebra. Any remaining errors or misinterpretations are
+    solely the author's. Feedback and corrections are sincerely appreciated. -----
+    「収益率」は足し算できる量に見える。本稿が問うのは、どの書き方なら足せるかである──答は、対数収益率だけである。新しい数学定理も新しい法則も主張しない。
+    本稿の射程(射程注記):新しい数学定理も新しい法則も主張しない──単純収益率と対数収益率の関係、幾何平均、ボラティリティ・ドラッグ、sqrt(n)
+    則は、いずれも標準的である。金融理論を作らない──使うのは一つの対数と、一つの平方根だけである。価格を予測しない──将来の収益率も、期待値も一切扱わない。与えられた系列の合成規則だけを扱う。裾に入らない──論文190
+    が重い裾と大偏差を扱った。本稿は分布の形を一切仮定せず、足し算の可否だけを問う。 sqrt(n) 則の前提を隠さない──第6節の sqrt(252) は各期の独立性を仮定している。相関があれば成り立たない。 sigma^2/2 を厳密だと言わない──第4節が示すとおり、+/-50% では
+    7.18% ずれる。小さい変動での近似式である。投資助言をしない──どの平均を使うべきかは問いによる。本稿はどれが何を答えるかを分けるだけである。既刊との関係:論文194
+    は四つの平均が一つの族であり、等号の柵が一つしかないことを示した──あちらは一時点での不等式の構造、本稿は時間方向に合成したとき、どれが正しいかであり、同じ四つの平均を材料にして問いが直交している。論文132 は伊藤の 2 が次元ではないと示した──本稿の sigma^2/2
+    はその補正項そのものであり、第4節の収束表がそれを数で見せる。論文190 は「稀」を対数の目盛りで測った──本稿も対数に移してはじめて足せる。論文272 は同じ「二倍」が刺激の側で 6.70
+    倍ひらくことを示した──本稿もどの目盛りで足すかの問題である。加えたのは対数の和を指数に戻すと実測との差が 0 になると確かめたこと、三つの「平均」を数で並べたこと、sigma^2/2 が変動の縮小とともに比 1.000025 に収束する表を作ったこと、+/-10% を 50 回ずつで
+    -39.50% になると計算したことである。 第一に、最小の例で確かめる。+50% のあと -50% は、単純収益率の和では 0% だが、実際は -25% である(第2節)。 第二に、これが本稿の芯である。対数収益率の和 ln1.5+ln0.5=-0.287682 を指数に戻すと
+    0.750000──実測との差は 0 である(第2節)。 第三に、「平均」が三つの別の操作を指す。算術平均 0%、幾何平均 -13.3975%、対数平均の指数 -13.3975%(第3節)。 第四に、差は sigma^2/2 で近似できる。+/-50% では 12.5% 対 13.3975%
+    で 7.18% の誤差だが、+/-1% では比が 1.000025 になる(第4節)。 第五に、長い系列で効く。+/-10% を 50 回ずつで -39.50%、素朴な和は 0% と答える(第5節)。 第六に、年率換算も足し算ではない。日次 sigma=1% は年率 15.8745%
+    であり、252 倍では 15.87 倍の過大評価になる(第6節)。 収益率は足せない。足せるのは対数だけである。+50% のあと -50% は、単純収益率の和では 0% だが実際は -25%であり、対数の和 -0.287682 を指数に戻すと 0.750000 で、実測との差は 0
+    になる。「平均」という一語も三つの操作を指す──算術平均 0%、幾何平均 -13.3975%、そして幾何平均は対数の算術平均に他ならない(差 10^-16)。その差は sigma^2/2 で近似でき、変動を +/-50% から +/-1% に縮めると比が 1.0718 から 1.000025
+    になる──伊藤の補正項の形が、数の上に現れる。そして長い系列で効く──+/-10% を 50 回ずつ、上げと下げが同じ回数なのに -39.4994% であり、単純な和は 0%
+    と答える。分けるものは一つ──その量の合成が掛け算か、足し算か。掛け算なら対数に移してから足す。ばらつきなら分散に移してから足す。移さずに足したものは、収益率でも平均でもない。 作成にあたって:本稿の着想と内容は、著者自身の考察に基づくものです。文章の構成整理や英訳、数式の確認には
+    AI(大規模言語モデル)の助力を得ました。最終的な内容の解釈や誤りがあれば、それらはすべて著者の責に帰します。お気づきの点があれば、ご教示いただければ幸いです。
+
+### R01204 | 2026 | preprint/None | Lang: en
+TI: What Separates the Mean from the Median Is Itô's Second-Order Term Itself ── At mu=0.10, sigma=0.20 and T=1 the mean is 110.517091808 and the
+    median 108.328706767, a ratio of 1.020201340 agreeing with exp(sigma^2T/2) to 12 digits ── the growth of the mean logarithm is 0.080000000000,
+    exactly mu-sigma^2/2 ── doubling sigma multiplies the gap by 4.122849, and at sigma=0 it vanishes ── [Paper 495]
+AB: The -sigma^2/2 of Black-Scholes is sometimes read as a correction for discounting or risk aversion. This paper shows that it is Itô’s second-order
+    term itself, measurable directly as the gap between mean and median──the ratio agrees with exp(sigma^2T/2) to 12 digits. No new theorem or law is
+    claimed. Scope of this paper (scope note): No new theorem or law is claimed──Itô’s lemma, the lognormal distribution of geometric Brownian motion
+    and the Black-Scholes formula are all standard. No pricing formula is derived──option valuation, risk-neutral measures and replicating portfolios
+    are not the subject; only the distribution of the underlying. Itô’s 2 is not re-derived──its anatomy belongs to Paper 132; the result is borrowed
+    and its financial consequence measured. Estimation is excluded──mu and sigma are taken as given, with no estimation error, time-varying volatility
+    or jumps. No investment advice──which quantity one ought to look at is not the subject; only that the two differ, shown in numbers. Relation to
+    earlier papers: Paper 132 showed that the 2 in Itô’s lemma is not a dimension──this paper measures where that 2 appears in the distribution of
+    prices. Paper 292 showed that only the logarithm adds──which is why the median belongs to the logarithmic side. Paper 484 showed that maximising
+    expectation goes bust──the quantity at work there is this same sigma^2/2. Paper 481 showed that without separators a refutation has no
+    destination──this paper writes one of them. What is added is giving mean and median as 110.517091808 and 108.328706767, confirming the ratio
+    against exp(sigma^2T/2) to 12 digits, confirming the logarithmic growth of 0.080000000000 by inversion, giving the factor 4.122849 for a doubled
+    sigma, and confirming that the mean ignores sigma. First, the mean is 110.517091808 and the median 108.328706767 (Section 2). Second, this is the
+    core of the paper. Their ratio 1.020201340 agrees with exp(sigma^2T/2) to 12 digits (Section 2). Third, the growth of the mean logarithm is
+    0.080000000000, exactly mu-sigma^2/2 (Section 2). Fourth, the gap is second order in sigma──doubling sigma multiplies it by 4.122849 (Section 3).
+    Fifth, the mean itself does not depend on sigma──it stays 110.517091808 (Section 3). Sixth, the separator is whether one is looking at E[S] or
+    E[ln S] (Section 4). The -sigma^2/2 of Black-Scholes is sometimes read as discounting for an aversion to risk──a reading that makes it about
+    preferences. But the term contains no preference at all, coming only from the second derivative of ln and from (dB)^2=dt; as Paper 132 showed, the
+    2 is not a dimension but the consequence of stopping at second order. It appears as the gap between mean and median──at S_0=100, mu=0.10,
+    sigma=0.20 and T=1, the mean is 110.517091808, the median 108.328706767 and their ratio 1.020201340. That ratio agrees with exp(sigma^2T/2) to 12
+    digits: not close but the same. The growth of the mean logarithm is 0.080000000000, exactly mu-sigma^2/2, and it returns on inversion. So the
+    -sigma^2/2 in the equation fixes, on the distribution, how far the mean and the median stand apart. The gap is 2.020134 per cent: small-looking,
+    but a quantity that compounds. The gap is second order, and the mean ignores sigma──doubling sigma multiplies the gap by 4.122849, the signature
+    of a second-order dependence, exceeding 4 because of higher terms in the exponential. At sigma=0 the gap vanishes: without fluctuation, mean and
+    median coincide. The mean itself stays 110.517091808 throughout, and what moves is the median. So “more volatility lowers the expectation” is
+    wrong──what falls is the median, while the mean is constant and the distribution grows a long right tail. One thing separates them──is one looking
+    at E[S], or at E[ln S]. Looking at E[S], sigma does not enter and mu alone fixes it. Looking at E[ln S], sigma^2/2 is subtracted and Itô’s term
+    appears directly. The two are distinct roots by the criterion of Paper 300: both may be called “the expected value”, but one averages prices and
+    the other logarithms. It is the quantity at work in Paper 484, where maximising expectation went bust and sigma^2/2 separated the expectation side
+    from the growth side. As Paper 292 said, only the logarithm adds: prices move by multiplication, so an additive average departs from the
+    multiplicative world’s summary value. This is one of the separators of Paper 481: when a price does not reach its forecast, whether mu was
+    misjudged or mean and median were confused sends the repair elsewhere. To be honest──the distribution is assumed lognormal, as a consequence of
+    geometric Brownian motion. Real prices have jumps and time-varying volatility, and then the closed form exp(sigma^2T/2) does not survive. What
+    survives is only the direction: taking an additive average in a multiplicative world introduces a gap. On the making of this work: The ideas and
+    content of this work stem from the author's own considerations. Assistance from an AI (a large language model) was used for structuring, English
+    translation, and checking the algebra. Any remaining errors or misinterpretations are solely the author's. Feedback and corrections are sincerely
+    appreciated. Keywords: Itô's lemma, geometric Brownian motion, lognormal distribution, mean and median, Black-Scholes formula. ----- ブラック=ショールズの
+    -sigma^2/2 は、割引や危険回避の補正だと読まれることがある。本稿が示すのは、それが伊藤の二階の項そのものであり、期待値と中央値の隔たりとして直に測れることである──比は exp(sigma^2T/2) に 12 桁一致する。新しい定理も法則も主張しない。
+    本稿の射程(射程注記):新しい定理も法則も主張しない──伊藤の補題も、幾何ブラウン運動の対数正規分布も、ブラック=ショールズ式も標準的である。価格式を導かない──オプションの評価式、危険中立測度、複製ポートフォリオは主題ではない。基礎資産の分布だけを見る。伊藤の 2
+    を導き直さない──その内訳は論文132 が扱っており、本稿は結果を借りて金融側の帰結を測る。推定を扱わない──mu と sigma
+    は与えられたものとし、推定誤差、ボラティリティの時間変動、跳びは入れない。投資を勧めない──どちらの量を見るべきかは主題ではない。二つが違うことを数で示すだけである。既刊との関係:論文132 は伊藤の 2 が次元ではないと示した──本稿はその 2 が価格の分布のどこに出るかを測る。論文292
+    は足せるのが対数だけだと示した──中央値が対数の側の量である理由がそこにある。論文484 は期待値を最大にする賭け方が破産すると示した──そこで効いていた sigma^2/2 と同じ量である。論文481
+    は分離子が無いと反証の行き先が決まらないと示した──本稿はその分離子を一本書く。加えたのは、期待値と中央値を 110.517091808 と 108.328706767 で出したこと、比が exp(sigma^2T/2) に 12 桁一致することを確かめたこと、対数の伸びが
+    0.080000000000 であることを逆算で確かめたこと、sigma を 2 倍にした 4.122849 倍を出したこと、期待値が sigma に依らないことを確かめたことである。 第一に、期待値は 110.517091808、中央値は 108.328706767 である(第2節)。
+    第二に、これが本稿の芯である。比 1.020201340 が exp(sigma^2T/2) に 12 桁一致する(第2節)。 第三に、対数の期待値の伸びは 0.080000000000 で、mu-sigma^2/2 にちょうど等しい(第2節)。 第四に、隔たりは sigma
+    の二次である──sigma を 2 倍にすると 4.122849 倍になる(第3節)。 第五に、期待値そのものは sigma に依らない──sigma=0 でも 110.517091808 である(第3節)。 第六に、分離子は「E[S] を見ているか、E[ln S]
+    を見ているか」である(第4節)。 ブラック=ショールズの -sigma^2/2 は、危険を嫌う分だけ割り引く補正だと読まれることがある──選好や割引率の話に見えるという読み方である。だがこの項は選好を一切含まず、ln の二階微分と (dB)^2=dt だけから出る。論文132
+    が示したとおり、2 は次元ではなく、二階で止まることの帰結である。期待値と中央値の隔たりとして現れる──S_0=100、mu=0.10、sigma=0.20、T=1 で、期待値は 110.517091808、中央値は 108.328706767、比は 1.020201340 である。その比は
+    exp(sigma^2T/2) に 12 桁一致し、近いのではなく同じである。対数の期待値の伸びは 0.080000000000 で、mu-sigma^2/2 にちょうど等しく、逆算しても戻る。つまり式の中の -sigma^2/2
+    は、分布の上では期待値と中央値がどれだけ離れるかを決めている。隔たりは 2.020134 パーセントで、小さく見えるが複利で積み上がる量である。隔たりは二次であり、期待値は sigma を見ない──sigma を 2 倍にすると隔たりは 4.122849
+    倍になり、二次であることの署名になる。ちょうど 4 でないのは指数の高次項による。 sigma=0 では隔たりが消え、揺らぎが無ければ期待値と中央値は一致する。期待値そのものは sigma に依らず 110.517091808
+    のままで、動いているのは中央値のほうである。だから「揺らぎが大きいほど期待値が下がる」は誤りで、下がるのは中央値であり、期待値は一定のまま分布が右に長い尾を伸ばしているだけである。分けているものは一つ──見ているのが E[S] か、E[ln S] か。 E[S] を見るなら sigma
+    は効かず、mu だけで決まる。 E[ln S] を見るなら sigma^2/2 が引かれ、伊藤の項がそのまま出る。二つは論文300 の基準で別根であり、どちらも「期待される値」と呼べるが、一方は価格の平均、一方は対数の平均で、平均を取る前に何を取ったかが違う。論文484
+    で効いていたのと同じ量で、期待値を最大にする賭け方が破産する話でも、sigma^2/2 が期待値の側と成長率の側を分けていた。論文292 が言ったとおり足せるのは対数だけで、価格は掛け算で動くから、足し算の平均を取ると掛け算の側の代表値とずれる。これは論文481
+    でいう分離子の一本で、「予測した価格に届かない」という報告が来たとき、mu の見積もりが外れたのか、期待値と中央値を取り違えたのかで直す先が違う。正直に言えば──分布を対数正規と置いている。幾何ブラウン運動の帰結としてであり、実際の価格には跳びも、ボラティリティの時間変動もあって、そのとき
+    exp(sigma^2T/2) という閉じた形は保たれない。保たれるのは「掛け算の世界で足し算の平均を取るとずれる」という向きだけである。 作成にあたって:本稿の着想と内容は、著者自身の考察に基づくものです。文章の構成整理や英訳、数式の確認には
+    AI(大規模言語モデル)の助力を得ました。最終的な内容の解釈や誤りがあれば、それらはすべて著者の責に帰します。お気づきの点があれば、ご教示いただければ幸いです。 キーワード:伊藤の補題、幾何ブラウン運動、対数正規分布、期待値と中央値、ブラック=ショールズ式。
+
+=== END OF BATCH b029 (13 records) ===

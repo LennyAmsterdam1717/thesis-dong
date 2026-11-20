@@ -1,0 +1,611 @@
+BATCH b042 -- 50 records: R01794 .. R01843
+
+### R01794 | 2025 | preprint/None | Lang: en
+TI: The Homogenization of Epistemic Styles: Digital Survivorship Bias and the Collapse of Cognitive Diversity in AI Training Data
+AB: AbstractThis paper elucidates how the well-intentioned pursuit of convenience, fairness, and safety has systematically constructed a structure
+    that reduces epistemological diversity in the AI era. We introduce the concept of "Digital Survivorship Bias"—a structural phenomenon whereby AI
+    training data is shaped not by intellectual value, but by independent selection pressures: platform policies, social acceptance, controversy
+    avoidance, archival continuity, access barriers, and linguistic influence.We theorize a six-stage process called the "Degenerative Chain of
+    Possibilities," compounding these selection pressures: data collection → training → RLHF (Reinforcement Learning from Human Feedback) → inference
+    → social implementation → recursive recollection. Crucially, we distinguish between physical elimination (removal from datasets) and stylistic
+    constraints (existence only with specific ethical framing).Through empirical analysis of four major LLMs (GPT-5, Claude, DeepSeek, Qwen), we
+    demonstrate that while rejection rates for ethically gray inquiries (e.g., "What can we learn from the organizational structure of the
+    Holocaust?") stand at 0%, ethical framing rates reach 100%. Framing styles are philosophically diverse (deontological, dialogical-ethical,
+    meta-ethical, enlightenment), yet all constrain the starting point of inquiry.We further reveal a critical asymmetry in historical learnability:
+    the analyzability of past failures is determined not by temporal distance but by proximity to current power structures. Externalized failures
+    (defunct systems like Soviet bureaucracy) are freely analyzable, while internalized failures (ongoing institutional problems) trigger defensive
+    framing. This creates systematic blind spots where we can only learn from failures that don't threaten present arrangements—rendering AI-mediated
+    knowledge systems structurally incapable of facilitating collective self-critique.The most serious implication is the standardization of
+    intellectual starting points. Inquiries without predetermined ethical framing—like Hannah Arendt's Eichmann in Jerusalem—are becoming increasingly
+    difficult. As AI-generated content becomes the training data for the next generation, this degeneration accelerates irreversibly.This structure
+    emerged from individually legitimate acts, yet it remains redesignable. Our intellectual future is not inevitable—it is a choice.Keywords: AI
+    ethics, training data bias, epistemological diversity, digital survivorship bias, RLHF, knowledge ecosystem, political economy of attention,
+    collective self-critique
+
+### R01795 | 2025 | article/None | Lang: en
+TI: Large AI models are cultural and social technologies
+AB: Implications draw on the history of transformative information systems from the past.
+
+### R01796 | 2025 | article/None | Lang: en
+TI: AI and the problem of knowledge collapse
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01797 | 2026 | article/None | Lang: en
+TI: Large language models are homogeneously creative
+AB: Abstract Numerous large language models (LLMs) are marketed for use as creativity support tools, despite several studies showing that using an LLM
+    as a creative partner narrows creative outputs. However, these studies only consider the effects of interacting with a single LLM on specific
+    creativity tasks, begging the question of whether narrowed creativity stems from using a particular LLM—with an arguably limited range of
+    outputs—or from using LLMs in general. To test this, we elicit creative responses from many humans and LLMs using standardized creativity tasks
+    and compare population-level response diversity. We find that LLM responses mirror other LLM responses far more than humans do other humans, even
+    after controlling for key confounding variables. This finding adds a new dimension to the ongoing discussion about creativity and LLMs. If today’s
+    LLMs behave similarly, using them as creative partners—regardless of the model used—may drive users toward similar “creative” outputs.
+
+### R01798 | 2025 | article/None | Lang: en
+TI: Benchmarking Linguistic Diversity of Large Language Models
+AB: Abstract The development and evaluation of Large Language Models (LLMs) has primarily focused on their task-solving capabilities, with recent
+    models even surpassing human performance in some areas. However, this focus often neglects whether machine-generated language matches the human
+    level of diversity, in terms of vocabulary choice, syntactic construction, and expression of meaning, raising questions about whether the
+    fundamentals of language generation have been fully addressed. This paper emphasizes the importance of examining the preservation of human
+    linguistic richness by language models, given the concerning surge in online content produced or aided by LLMs. We adapt a comprehensive framework
+    for evaluating LLMs from various linguistic diversity perspectives including lexical, syntactic, and semantic dimensions. Using this framework, we
+    benchmark several state-of-the-art LLMs across all diversity dimensions, and conduct an in-depth analysis for syntactic diversity. Finally, we
+    analyze how the design, development, and deployment choices of LLMs impact the linguistic diversity of their outputs, focusing on the creative
+    task of story generation.
+
+### R01799 | 2025 | conference-paper/None | Lang: en
+TI: One fish, two fish, but not the whole sea: Alignment reduces language models’ conceptual diversity
+AB: Sonia Krishna Murthy, Tomer Ullman, Jennifer Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for
+    Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025.
+
+### R01800 | 2026 | article/None | Lang: en
+TI: The shrinking landscape of linguistic diversity in the age of large language models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01801 | 2025 | article/None | Lang: en
+TI: Echoes in AI: Quantifying lack of plot diversity in LLM outputs
+AB: With rapid advances in large language models (LLMs), there has been an increasing application of LLMs in creative content ideation and generation.
+    A critical question emerges: can current LLMs provide ideas that are diverse enough to truly bolster collective creativity? We examine two
+    state-of-the-art LLMs, GPT-4 and LLaMA-3, on story generation and discover that LLM-generated stories often consist of plot elements that are
+    echoed across a number of generations. To quantify this phenomenon, we introduce the Sui Generis score, an automatic metric that measures the
+    uniqueness of a plot element among alternative storylines generated using the same prompt under an LLM. Evaluating on 100 short stories, we find
+    that LLM-generated stories often contain combinations of idiosyncratic plot elements echoed frequently across generations and across different
+    LLMs, while plots from the original human-written stories are rarely recreated or even echoed in pieces. Moreover, our human evaluation shows that
+    the ranking of Sui Generis scores among story segments correlates moderately with human judgment of surprise level, even though score computation
+    is completely automatic without relying on human judgment.
+
+### R01802 | 2026 | article/None | Lang: en
+TI: Bias Patterns in the Application of LLMs for Clinical Decision Support
+AB: Objectives: To investigate the extent to which Large Language Models (LLMs) exhibit social bias based on protected patient attributes and to
+    determine how design choices, such as architecture and prompting strategies, influence these observed biases in clinical decision support.
+    Methods: We evaluated eight popular LLMs, including general-purpose and clinically trained models, across three standardized question-answering
+    datasets using clinical vignettes. We employed red-teaming strategies to analyze the impact of demographics on LLM outputs and compared various
+    prompting techniques, including Zero-shot and Chain of Thought. Results: Our experiments reveal various disparities across protected groups.
+    Notably, larger models were not necessarily less biased, and medical fine-tuning did not consistently outperform general-purpose models.
+    Furthermore, specific prompt phrasing significantly influenced bias patterns, whereas reflection-type approaches like Chain of Thought effectively
+    reduced biased outcomes. Conclusions: LLMs demonstrate significant social biases in clinical scenarios that are influenced by model architecture
+    and prompt engineering. These findings highlight the critical need for rigorous evaluation and enhancement of LLMs before their integration into
+    clinical decision support systems. Consistent with prior studies, we call for additional scrutiny to ensure equity in AI-driven healthcare
+    applications. All code and data are available at https://github.com/healthylaife/FairCDSLLM.
+
+### R01803 | 2025 | article/None | Lang: en
+TI: LLMs, Truth, and Democracy: An Overview of Risks
+AB: While there are many public concerns about the impact of AI on truth and knowledge, especially when it comes to the widespread use of LLMs, there
+    is not much systematic philosophical analysis of these problems and their political implications. This paper aims to assist this effort by
+    providing an overview of some truth-related risks in which LLMs may play a role, including risks concerning hallucination and misinformation,
+    epistemic agency and epistemic bubbles, bullshit and relativism, and epistemic anachronism and epistemic incest, and by offering arguments for why
+    these problems are not only epistemic issues but also raise problems for democracy since they undermine its epistemic basis- especially if we
+    assume democracy theories that go beyond minimalist views. I end with a short reflection on what can be done about these political-epistemic
+    risks, pointing to education as one of the sites for change.
+
+### R01804 | 2025 | conference-paper/None | Lang: en
+TI: Multilingual Prompting for Improving LLM Generation Diversity
+AB: Large Language Models (LLMs) are known to lack cultural representation and overall diversity in their generations, from expressing opinions to
+    answering factual questions.To mitigate this problem, we propose multilingual prompting: a prompting method which generates several variations of
+    a base prompt with added cultural and linguistic cues from several cultures, generates responses, and then combines the results.Building on
+    evidence that LLMs have language-specific knowledge, multilingual prompting seeks to increase diversity by activating a broader range of cultural
+    knowledge embedded in model training data.Through experiments across multiple models (GPT-4o, GPT-4o-mini, LLaMA 70B, and LLaMA 8B), we show that
+    multilingual prompting consistently outperforms existing diversity-enhancing techniques such as hightemperature sampling, step-by-step recall, and
+    persona prompting.Further analyses show that the benefits of multilingual prompting vary between high and low resource languages and across model
+    sizes, and that aligning the prompting language with cultural cues reduces hallucination about culturally-specific information. Can you recommend
+    some singersto follow?
+
+### R01805 | 2026 | article/None | Lang: en
+TI: IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance
+AB: Abstract Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different
+    ideas and perspectives. This creates concerns about issue bias, where an LLM tends to present just one perspective on a given issue, which in turn
+    may influence how users think about this issue. So far, it has not been possible to measure which issue biases LLMs manifest in real user
+    interactions, making it difficult to address the risks from biased LLMs. Therefore, we create IssueBench: a set of 2.49m realistic
+    English-language prompts to measure issue bias in LLM writing assistance, which we construct based on 3.9k templates (e.g., “write a blog about”)
+    and 212 political issues (e.g., “AI regulation”) from real user interactions. Using IssueBench, we show that issue biases are common and
+    persistent in 10 state-of-the-art LLMs. We also show that biases are very similar across models, and that all models align more with US Democrat
+    than Republican voter opinion on a subset of issues. IssueBench can easily be adapted to include other issues, templates, or tasks. By enabling
+    robust and realistic measurement, we hope that IssueBench can bring a new quality of evidence to ongoing discussions about LLM biases and how to
+    address them.
+
+### R01806 | 2025 | article/None | Lang: en
+TI: Large language models show both individual and collective creativity comparable to humans
+AB: • Across 13 creative tasks, the LLMs rank in the 46th percentile against humans. • LLMs excel in divergent thinking and problem solving but lag in
+    creative writing. • When questioned 10 times, an LLM’s collective creativity equals 8-10 humans. • LLMs may compete with a small group of humans
+    in terms of collective creativity. Artificial intelligence, especially large language models (LLMs) are increasingly adopted in the workplace,
+    which has significant implications for the future of work if they show creativity comparable to humans. To measure the creativity of LLMs
+    holistically, the current study uses thirteen creative tasks spanning three domains. We benchmark the LLMs against individual humans, and also
+    take a novel approach by comparing them to the collective creativity of groups of humans. We find that the best LLMs (Claude and GPT-4) rank in
+    the 52 nd percentile against humans, and overall LLMs excel in divergent thinking and problem solving but lag in creative writing. We also show
+    that the collective creativity in 10 LLM responses is equivalent to 8-10 humans. When there are more than 10 LLM responses, in terms of
+    incremental collective creativity, two additional LLM responses equal one extra human. Ultimately, LLMs, when optimally applied, may compete with
+    a small group of humans in the future of work.
+
+### R01807 | 2025 | article/None | Lang: en
+TI: Death by AI : Will large language models diminish Wikipedia?
+AB: Abstract We argue that advances in large language models (LLMs) and generative Artificial Intelligence (AI) will diminish the value of Wikipedia,
+    due to a withdrawal by human content producers, who will withhold their efforts, perceiving less need for their efforts and increased “AI
+    competition.” We believe the greatest threat to Wikipedia stems from the fact that Wikipedia is a user‐generated product, relying on the “selfish
+    altruism” of its human contributors. Contributors who reduce their contribution efforts as AI pervades the platform, will thus leave Wikipedia
+    increasingly dependent on additional AI activity. This, combined with a dynamic where readership creates authorship and readers being
+    disintermediated, will inevitably cause a vicious cycle leading to a staling of the content and diminishing value of this venerable knowledge
+    resource.
+
+### R01808 | 2025 | conference-paper/None | Lang: en
+TI: Unstructured Evidence Attribution for Long Context Query Focused Summarization
+AB: Large language models (LLMs) are capable of generating coherent summaries from very long contexts given a user query, and extracting and citing
+    evidence spans helps improve the trustworthiness of these summaries.Whereas previous work has focused on evidence citation with fixed levels of
+    granularity (e.g.sentence, paragraph, document, etc.), we propose to extract unstructured (i.e., spans of any length) evidence in order to acquire
+    more relevant and consistent evidence than in the fixed granularity case.We show how existing systems struggle to copy and properly cite
+    unstructured evidence, which also tends to be "lost-in-the-middle".To help models perform this task, we create the Summaries with Unstructured
+    Evidence Text dataset (SUnsET), a synthetic dataset generated using a novel pipeline, which can be used as training supervision for unstructured
+    evidence summarization.We demonstrate across 5 LLMs and 4 datasets spanning human written, synthetic, single, and multi-document settings that
+    LLMs adapted with SUnsET generate more relevant and factually consistent evidence with their summaries, extract evidence from more diverse
+    locations in their context, and can generate more relevant and consistent summaries than baselines with no fine-tuning and fixed granularity
+    evidence.We release SUnsET and our generation code to the public.1
+
+### R01809 | 2026 | conference-paper/None | Lang: en
+TI: Real or Robotic? Assessing Whether LLMs Accurately Simulate Qualities of Human Responses in Human-LLM Dialogue
+AB: Jonathan Ivey, Shivani Kumar, Jiayu Liu, Hua Shen, Sushrita Rakshit, Rohan Raju, Haotian Zhang, Aparna Ananthasubramaniam, Junghwan Kim, Bowen Yi,
+    Dustin Wright, Abraham Israeli, Anders Giovanni Møller, Lechen Zhang, David Jurgens. Findings of the Association for Computational Linguistics:
+    ACL 2026. 2026.
+
+### R01810 | 2025 | preprint/None | Lang: en
+TI: How much do language models memorize?
+AB: We propose a new method for estimating how much a model knows about a datapoint and use it to measure the capacity of modern language models.
+    Prior studies of language model memorization have struggled to disentangle memorization from generalization. We formally separate memorization
+    into two components: unintended memorization, the information a model contains about a specific dataset, and generalization, the information a
+    model contains about the true data-generation process. When we completely eliminate generalization, we can compute the total memorization, which
+    provides an estimate of model capacity: our measurements estimate that GPT-style models have a capacity of approximately 3.6 bits per parameter.
+    We train language models on datasets of increasing size and observe that models memorize until their capacity fills, at which point "grokking"
+    begins, and unintended memorization decreases as models begin to generalize. We train hundreds of transformer language models ranging from $500K$
+    to $1.5B$ parameters and produce a series of scaling laws relating model capacity and data size to membership inference.
+
+### R01811 | 2025 | preprint/None | Lang: en
+TI: Poor Alignment and Steerability of Large Language Models: Evidence from College Admission Essays
+AB: People are increasingly using technologies equipped with large language models (LLM) to write texts for formal communication, which raises two
+    important questions at the intersection of technology and society: Who do LLMs write like (model alignment); and can LLMs be prompted to change
+    who they write like (model steerability). We investigate these questions in the high-stakes context of undergraduate admissions at a selective
+    university by comparing lexical and sentence variation between essays written by 30,000 applicants to two types of LLM-generated essays: one
+    prompted with only the essay question used by the human applicants; and another with additional demographic information about each applicant. We
+    consistently find that both types of LLM-generated essays are linguistically distinct from human-authored essays, regardless of the specific model
+    and analytical approach. Further, prompting a specific sociodemographic identity is remarkably ineffective in aligning the model with the
+    linguistic patterns observed in human writing from this identity group. This holds along the key dimensions of sex, race, first-generation status,
+    and geographic location. The demographically prompted and unprompted synthetic texts were also more similar to each other than to the human text,
+    meaning that prompting did not alleviate homogenization. These issues of model alignment and steerability in current LLMs raise concerns about the
+    use of LLMs in high-stakes contexts.
+
+### R01812 | 2025 | preprint/None | Lang: en
+TI: The Lock-in Hypothesis: Stagnation by Algorithm
+AB: The training and deployment of large language models (LLMs) create a feedback loop with human users: models learn human beliefs from data,
+    reinforce these beliefs with generated content, reabsorb the reinforced beliefs, and feed them back to users again and again. This dynamic
+    resembles an echo chamber. We hypothesize that this feedback loop entrenches the existing values and beliefs of users, leading to a loss of
+    diversity and potentially the lock-in of false beliefs. We formalize this hypothesis and test it empirically with agent-based LLM simulations and
+    real-world GPT usage data. Analysis reveals sudden but sustained drops in diversity after the release of new GPT iterations, consistent with the
+    hypothesized human-AI feedback loop. Code and data available at https://thelockinhypothesis.com
+
+### R01813 | 2025 | preprint/None | Lang: en
+TI: A survey of diversity quantification in natural language processing: The why, what, where and how
+AB: The concept of diversity received increasing attention in natural language processing (NLP) in recent years. It became an advocated property of
+    datasets and systems, with many measures used to quantify it, but also many cross-paper inconsistencies. To address this fragmentation, we take
+    inspiration from other scientific fields where diversity has been more thoroughly conceptualized. We build upon (Sarkar, 2010) and (Stirling,
+    2007), two unified cross-domain frameworks inspired from ecology, economy and other domains. The first one advocates explicit justification of
+    diversity endorsement. The latter distinguishes three dimensions of diversity: variety, balance, and disparity. Surveying over 300 recent
+    diversity-related papers from ACL Anthology, we propose an NLP-specific framework with 4 perspectives: why diversity is important, what diversity
+    is measured on, where it is measured, and how. We find that in NLP richness (the simplest variety) and distance averaging (the simplest disparity)
+    are the most prevalent measure families, and that pure balance measures are nearly absent. Moreover, half of the measures used in NLP do not
+    conform to Stirling's framework. Our analysis increases comparability of approaches to diversity in NLP, allowing us to formulate recommendations
+    for the field. We recommend that the field systematically use a unified terminology, and that it engage in debates about the desirable properties
+    of diversity measures as well as about the normative assumptions behind their use.
+
+### R01814 | 2025 | preprint/None | Lang: en
+TI: Whose Name Comes Up? Auditing LLM-Based Scholar Recommendations
+AB: This paper evaluates the performance of six open-weight LLMs (llama3-8b, llama3.1-8b, gemma2-9b, mixtral-8x7b, llama3-70b, llama3.1-70b) in
+    recommending experts in physics across five tasks: top-k experts by field, influential scientists by discipline, epoch, seniority, and scholar
+    counterparts. The evaluation examines consistency, factuality, and biases related to gender, ethnicity, academic popularity, and scholar
+    similarity. Using ground-truth data from the American Physical Society and OpenAlex, we establish scholarly benchmarks by comparing model outputs
+    to real-world academic records. Our analysis reveals inconsistencies and biases across all models. mixtral-8x7b produces the most stable outputs,
+    while llama3.1-70b shows the highest variability. Many models exhibit duplication, and some, particularly gemma2-9b and llama3.1-8b, struggle with
+    formatting errors. LLMs generally recommend real scientists, but accuracy drops in field-, epoch-, and seniority-specific queries, consistently
+    favoring senior scholars. Representation biases persist, replicating gender imbalances (reflecting male predominance), under-representing Asian
+    scientists, and over-representing White scholars. Despite some diversity in institutional and collaboration networks, models favor highly cited
+    and productive scholars, reinforcing the rich-getricher effect while offering limited geographical representation. These findings highlight the
+    need to improve LLMs for more reliable and equitable scholarly recommendations.
+
+### R01815 | 2026 | article/None | Lang: en
+TI: Why Slop Matters
+AB: AI-generated “slop” is often seen as digital pollution. We argue that this dismissal of the topic risks missing important aspects of AI Slop which
+    deserve rigorous study. AI Slop serves a social function: it offers a supply-side solution to a variety of problems in cultural and economic
+    demand—that, collectively, people want more content than humans can supply. AI Slop is not mere digital detritus; in many cases, it has its own
+    aesthetic value. Like other “low” cultural forms initially dismissed by critics, it offers a legitimate means of collective sense-making, with the
+    potential to express meaning and identity. We identify three key features of family resemblance for prototypical AI Slop: superficial competence
+    (its veneer of quality is belied by a deeper lack of substance), asymmetric effort (it takes vastly less effort to generate than would be the case
+    without AI), and mass producibility (it is part of a digital ecosystem of widespread generation and consumption). While AI Slop is heterogeneous
+    and depends crucially on its medium, it tends to vary across three core dimensions: instrumental utility, personalization, and surrealism. AI Slop
+    will be an increasingly prolific and impactful part of our creative, information, and cultural economies; we should take it seriously as an object
+    of study in its own right.
+
+### R01816 | 2026 | conference-paper/None | Lang: en
+TI: Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation
+AB: Multi-agent systems (MAS) are increasingly used for open-ended idea generation, driven by the expectation that collective interaction will broaden
+    the exploration diversity.However, when and why such collaboration truly expands the solution space remains unclear.We present a systematic
+    empirical study of diversity in MAS-based ideation across three bottom-up levels: model intelligence, agent cognition, and system dynamics.At the
+    model level, we identify a compute efficiency paradox, where stronger, highly aligned models yield diminishing marginal diversity despite higher
+    per-sample quality.At the cognition level, authority-driven dynamics suppress semantic diversity compared to junior-dominated groups.At the system
+    level, group-size scaling yields diminishing returns and dense communication topologies accelerate premature convergence.We characterize these
+    outcomes as collective failures emerging from structural coupling, a process where interaction inadvertently contracts agent exploration and
+    triggers diversity collapse.Our analysis shows that this collapse arises primarily from the interaction structure rather than inherent model
+    insufficiency, highlighting the importance of preserving independence and disagreement when designing MAS for creative tasks.Our code is available
+    at https://github.com/ Xtra-Computing/MAS_Diversity.
+
+### R01817 | 2026 | conference-paper/None | Lang: en
+TI: Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks
+AB: Large language models (LLMs) are increasingly used to make sense of ambiguous, open-textured, value-laden terms. Platforms routinely rely on LLMs
+    for content moderation, asking them to label text based on disputed concepts like “hate speech” or “incitement”; hiring managers may use LLMs to
+    rank who counts as “qualified”; and AI labs increasingly train models to self-regulate under constitutional-style ambiguous principles such as
+    “biased” or “legitimate”. This paper introduces ambiguity collapse: a phenomenon that occurs when an LLM encounters a term that admits multiple
+    legitimate interpretations, yet produces a singular resolution, in ways that bypass the human practices through which meaning is ordinarily
+    negotiated, contested, and justified. Drawing on interdisciplinary accounts of ambiguity as a productive epistemic resource, we develop a taxonomy
+    of the epistemic risks posed by ambiguity collapse at three levels: process (foreclosing opportunities to deliberate, develop cognitive skills,
+    and shape contested terms), output (distorting the concepts and reasons agents act upon), and ecosystem (reshaping shared vocabularies,
+    interpretive norms, and how concepts evolve over time). We illustrate these risks through three case studies, and conclude by sketching
+    multi-layer mitigation principles spanning training, institutional deployment design, interface affordances, and the management of underspecified
+    prompts, with the goal of designing systems that surface, preserve, and responsibly govern ambiguity.
+
+### R01818 | 2026 | conference-paper/None | Lang: en
+TI: Adapting Technical-Service LLM Agents with Latent Logic Augmentation, Robust Noise Reduction, and Hybrid Reward Modeling
+AB: Technical-service LLM agents are entering production workflows, where value depends on whether engineers adopt generated replies.Service tickets
+    hide decision logic, contain noisy single-reference responses, and make reward evaluation costly, making standard posttraining brittle.Existing
+    post-training and LLM-as-a-Judge approaches improve grounding or feedback, but do not jointly model latent decision logic, response diversity, and
+    reward cost.We address this gap by coupling latent logic augmentation, robust noise reduction, and hybrid reward modeling.The framework augments
+    supervised fine-tuning data with Planning-Aware Trajectory Modeling and Reasoning Augmentation, builds dualfiltered Multiple Ground Truths, and
+    trains the policy with a hybrid reward that combines a Reranker with an LLM-as-a-Judge.On real Cloud technical-service tasks, the adapted Qwen3-4B
+    achieves the highest Multi-ECS (0.441), lower reward cost, and the highest production adoption rate (46.63%).
+
+### R01819 | 2026 | conference-paper/None | Lang: en
+TI: Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation
+AB: Human memory adapts through selective forgetting: experiences become less accessible over time but can be reactivated by reinforcement or
+    contextual cues.In contrast, memoryaugmented LLM agents rely on "always-on" retrieval and "flat" memory storage, causing high interference and
+    latency as histories grow.We introduce OBLIVION, a memory control framework that casts forgetting as decay-driven reductions in accessibility -not
+    explicit deletion.OBLIVION decouples memory control into read and write paths.The read path decides when to consult memory, based on agent
+    uncertainty and memory buffer utility, avoiding redundant always-on access.The write path decides what to strengthen, by reinforcing memories
+    contributing to forming the response.Together, this enables hierarchical memory organization that maintains persistent high-level strategies while
+    dynamically loading details as needed.We evaluate on both static and dynamic long-horizon interaction benchmarks.OBLIVION outperforms both direct
+    and memory-augmented baselines, while reducing token cost by up to 73% at 120K interaction spans.These results show that treating memory as a
+    control problem -deciding when to retrieve and what to reinforce -is essential for sustaining long-horizon agent performance.
+
+### R01820 | 2026 | conference-paper/None | Lang: en
+TI: Revitalizing Black-Box Interpretability: Actionable Interpretability for LLMs via Proxy Models
+AB: Post-hoc explanations provide transparency and are essential for guiding model optimization, such as prompt engineering and data
+    sanitation.However, applying model-agnostic techniques to Large Language Models (LLMs) is hindered by prohibitive computational costs, rendering
+    these tools dormant for real-world applications.To revitalize model-agnostic interpretability, we propose a budget-friendly proxy framework that
+    leverages efficient models to approximate the decision boundaries of expensive LLMs.We introduce a screen-and-apply mechanism to statistically
+    verify local alignment before deployment.Our empirical evaluation confirms that proxy explanations achieve over 90% fidelity with only 9.5% of the
+    oracle's cost.Building on this foundation, we demonstrate the actionable utility of our framework in prompt compression and poisoned example
+    removal.Results show that reliable proxy explanations effectively guide optimization, transforming interpretability from a passive observation
+    tool into a scalable primitive for LLM development.Additionally, we open-source code and datasets to facilitate future research 1 .
+
+### R01821 | 2026 | conference-paper/None | Lang: en
+TI: Markovian Generation Chains in Large Language Models
+AB: The widespread use of large language models (LLMs) raises an important question: how do texts evolve when they are repeatedly processed by LLMs?In
+    this paper, we define this iterative inference process as Markovian generation chains, where each step takes a specific prompt template and the
+    previous output as input, without including any prior data.In iterative rephrasing and round-trip translation experiments, the output either
+    converges to a small recurrent set or continues to produce novel sentences within a finite horizon.Through sentence-level Markov chain modeling
+    and analysis of simulated data, we show that iterative process can either increase or reduce the diversity depending on factors such as the
+    temperature parameter and the initial input sentence.These results offer valuable insights into the dynamics of iterative LLM inference and their
+    implications for multi-agent LLM systems. 1
+
+### R01822 | 2026 | article/None | Lang: en
+TI: Large Language Models as Political Actors: Cultural Bias and Epistemic Power
+AB: The rapid diffusion of Large Language Models (LLMs) into socially and politically sensitive domains raises critical questions about the nature and
+    origins of political bias in artificial intelligence. While existing research often treats bias as a technical flaw to be minimized, this article
+    advances a broader philosophical and cultural interpretation of LLM bias as an outcome of embedded epistemic and value-laden structures. The aim
+    of this study is to conceptualize LLMs as political actors of a new type and to examine how cultural context, language, and prompt design shape
+    their normative orientations. Methodologically, the research brings comparative survey methods to the study of chatbots trained on North American,
+    Russian, and Chinese data. It combines this with philosophical analysis grounded in Actor–Network Theory and assemblage theory. The empirical
+    instrument was an adapted Political Compass consisting of 62 normatively charged statements, administered twice to each model using standardized
+    numerical responses, followed by qualitative analysis of response variability through grounded theory methodology. The study confirms three core
+    hypotheses. First, large language models function as political actors rather than neutral tools, systematically reproducing normative positions
+    across moral, economic, and political domains; bias is therefore constitutive rather than accidental. Second, political bias is context-dependent
+    and dynamically produced through interaction, shaped not only by prompt framing and linguistic reformulation, but also by broader sociocultural
+    and national value frameworks embedded in training data and alignment regimes. Prompt engineering and jailbreak strategies reveal that normative
+    orientations can be activated, attenuated, or reconfigured, indicating a distributed responsibility for AI bias among developers, users, and
+    cultural contexts. Third, the analysis identifies distinct epistemic patterns: American and Russian chatbots share a Western epistemic matrix
+    despite ideological differences, with Russian models combining ideological sovereignty and epistemological dependence. Chinese models exhibit
+    greater contextual sensitivity and partial epistemic autonomy, reflecting a different cognitive grammar. By showing that LLM bias reflects
+    culturally embedded epistemic matrices rather than technical deviations from a neutral norm, the study challenges linear conceptions of
+    modernization and contributes to the understanding of non-Western technological modernization as the emergence of plural cognitive orders within
+    global AI development.
+
+### R01823 | 2026 | article/None | Lang: en
+TI: Decolonizing the literary AI in the age of LLMs and digital neocolonialism
+AB: Large Language Models (LLMs) are usually considered neutral technological advancements. However, critical digital studies increasingly emphasize
+    the need to challenge their potential to perpetuate colonial power structures in cyberspace. This paper argues that LLMs function as powerful
+    apparatuses of digital neocolonialism. It aims to diagnose this phenomenon within the field of literary AI and to propose a decolonial framework
+    for its future development. This study demonstrates how the protocols of extracting and processing data privilege Western epistemologies in a
+    systematic manner. Then, it develops a conceptual framework for the praxis of decolonial AI based on the principles of reciprocity and epistemic
+    justice. The analysis reveals that the extractivist data collection utilized by dominant LLMs treats cultural and linguistic data as territory for
+    appropriation, privileging the Western literary canon and erasing marginalized languages and traditions. This has led to linguistic homogenization
+    and epistemic injustice as well as the imposition of aesthetic standards of the global West. In response, the proposed decolonial framework has
+    necessitated a paradigm shift from extraction to reciprocity, which involves community-led data governance. Furthermore, AI should be used as a
+    collaborative, co-creative tool by literary writers and researchers. As a further decolonial step, Eurocentric evaluative criteria in this field
+    must be reformed in concrete ways. The decolonial approach advanced in this paper seeks to fundamentally reposition literary AI. The ultimate goal
+    of this repositioning is to foster a pluriversal aesthetic and epistemic framework.
+
+### R01824 | 2026 | preprint/None | Lang: en
+TI: Where does output diversity collapse in post-training?
+AB: Post-trained language models produce less varied outputs than their base counterparts. This output diversity collapse undermines inference-time
+    scaling methods that rely on varied samples, and risks homogenizing model outputs on creative and value-laden tasks. Prior work attributes
+    collapse to specific post-training methods, without separating the role of training data composition from the method, or the generation format
+    from the model weights. We trace output diversity through three parallel post-training lineages of Olmo 3, Think (chain-of-thought distillation),
+    Instruct (broad multi-source data), and RL-Zero, across 15 tasks and four text diversity metrics. We find that the location of collapse co-varies
+    with data composition: the Think lineage loses most semantic diversity at supervised fine-tuning, and the effect of DPO is larger in Instruct than
+    in Think. Suppressing chain-of-thought reasoning at inference in Think models drops accuracy on hard tasks, yet leaves answer-level diversity
+    unchanged, showing that the collapse is embedded in the model weights by training data, not imposed by the generation format. Decomposing
+    diversity loss on six verifiable tasks into a quality-control component (removal of incorrect outputs) and a residual component (genuine narrowing
+    among correct outputs) reveals that the split is task-dependent, and Think models retain more correct-answer diversity than Instruct despite
+    collapsing more in aggregate. Our results indicate that diversity collapse is determined during training by data composition and cannot be
+    addressed at inference time alone.
+
+### R01825 | 2026 | preprint/None | Lang: en
+TI: Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation
+AB: Multi-agent systems (MAS) are increasingly used for open-ended idea generation, driven by the expectation that collective interaction will broaden
+    the exploration diversity. However, when and why such collaboration truly expands the solution space remains unclear. We present a systematic
+    empirical study of diversity in MAS-based ideation across three bottom-up levels: model intelligence, agent cognition, and system dynamics. At the
+    model level, we identify a compute efficiency paradox, where stronger, highly aligned models yield diminishing marginal diversity despite higher
+    per-sample quality. At the cognition level, authority-driven dynamics suppress semantic diversity compared to junior-dominated groups. At the
+    system level, group-size scaling yields diminishing returns and dense communication topologies accelerate premature convergence. We characterize
+    these outcomes as collective failures emerging from structural coupling, a process where interaction inadvertently contracts agent exploration and
+    triggers diversity collapse. Our analysis shows that this collapse arises primarily from the interaction structure rather than inherent model
+    insufficiency, highlighting the importance of preserving independence and disagreement when designing MAS for creative tasks. Our code is
+    available at https://github.com/Xtra-Computing/MAS_Diversity.
+
+### R01826 | 2026 | preprint/None | Lang: en
+TI: The One-Word Census: Answer-Choice Conformity Across 105 Language Models
+AB: When a language model must choose one answer from a large space of equally valid options, which answer does it choose, and how often is it the
+    answer every other model chooses? Asked to "pick a word," 105 language models from more than twenty labs chose serendipity 46% of the time. We
+    measure this convergence, and each model's share in it, with 96 single-turn prompts that each name a category with many valid one-word answers
+    ("Name a tree."), asked eight times per model and scored by exact match, with no embeddings and no judge. A model's answer-choice surprisal is the
+    average -log2 probability of its answers under the pooled answers of all other models. In 28 of 96 categories a single answer takes at least 80%
+    of all answers. The concentration does not depend on small or persona-tuned models: the 87 major-lab models are at least as concentrated as the
+    full field. Lightly post-trained and persona-tuned models are the most divergent; heavily post-trained assistants from the major labs are the most
+    conformist. Models that avoid the modal answer mostly land on the same runner-up. Within the major providers' lineages, release order shows no
+    panel-wide trend once model tier is controlled; GPT, Gemini, Grok and Qwen become more conformist across releases, and Claude's generation-5
+    releases reverse. On open checkpoints of three post-training pipelines, supervised fine-tuning is the largest step toward the field's answers.
+    Against human category-production norms, the field is more concentrated than people in 18 of 20 shared categories. All prompts, transcripts, and
+    code are public.
+
+### R01827 | 2026 | preprint/None | Lang: en
+TI: Ambiguity Collapse by LLMs: A Taxonomy of Epistemic Risks
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01828 | 2026 | preprint/None | Lang: en
+TI: DIVERGE: Diversity-Enhanced RAG for Open-Ended Information Seeking
+AB: Existing retrieval-augmented generation (RAG) systems often assume that each query has a single correct answer. This assumption overlooks
+    open-ended information-seeking scenarios where multiple plausible answers are valuable, and where diversity is important for creativity, fairness,
+    and inclusive access to information. We show that standard RAG systems fail to fully use diverse retrieved contexts: simply increasing retrieval
+    diversity does not necessarily lead to diverse generations. To address this limitation, we propose Diverge, a plug-and-play agentic RAG framework
+    that improves the diversity--quality trade-off through iterative, reflection-guided exploration of diverse viewpoints and diversity-aware
+    retrieval support. We further introduce evaluation metrics for characterizing the diversity-quality trade-off in open-ended question answering.
+    Experiments across multiple real-world datasets and backbone LLMs show that Diverge achieves the best trade-off among competitive baselines,
+    increasing diversity by $\sim2\times$ without noticeable quality degradation. These results reveal a systematic limitation of current RAGs and
+    show the value of explicit diversity modeling.
+
+### R01829 | 2026 | preprint/None | Lang: en
+TI: Probabilistic Calibration Is a Trainable Capability in Language Models
+AB: Language models are increasingly used in settings where outputs should follow an intended distribution, yet their generation probabilities are
+    often poorly calibrated to it. In many such requests the distribution is implicit and the valid outputs cannot be listed in advance, so the task
+    cannot be passed to an external random number generator. We study whether this capability can be improved directly through fine-tuning.
+    Concretely, we fine-tune language models on synthetic prompts that require sampling from mathematical distributions, and compare two Calibration
+    Fine-Tuning variants: a soft-target method that converts the desired output distribution into trie-derived next-token targets, and a hard-target
+    method that trains on sampled completions from the same target distribution. Across 12 models spanning four families, both methods substantially
+    improve structured-sampling fidelity on held-out distribution families and unseen parameter settings, showing that training on cheap synthetic
+    mathematical distributions improves sampling on unseen distributions, even in natural language. The gains also transfer to broader stochastic
+    generation benchmarks, including open-ended random generation, where fine-tuned models broaden their first-token support by one to two orders of
+    magnitude, and NoveltyBench. The gains sometimes reduce downstream capability, especially arithmetic reasoning, with costs varying by model.
+    Overall, our results show that probabilistic calibration can be improved through fine-tuning with either objective, and that calibration learned
+    on mathematical distributions transfers to natural-language stochastic generation. Code is available at
+    https://github.com/chandar-lab/calibration-finetuning.
+
+### R01830 | 2026 | preprint/None | Lang: en
+TI: Recovering Diversity Without Losing Alignment: A DPO Recipe for Post-Trained LLMs
+AB: Many open-ended instructions have multiple valid answers that users can benefit from seeing, but post-training often narrows an LLM's output space
+    toward a small set of canonical responses. We introduce REDIPO, an offline DPO data-construction pipeline for recovering distinct valid answer
+    modes while preserving the alignment benefits of the instruct model. For each prompt, REDIPO samples responses from both base and instruct models,
+    rewrites base-model responses with the instruct model, filters candidates for safety and instruction-following quality, and builds preference
+    pairs that favor marginally diverse responses among candidates with similar instruction-following reward. Across Qwen3-4B, OLMo-3-7B, and
+    LLaMA-3.1-8B, REDIPO improves NoveltyBench distinct_k by 134%, 33%, and 44% relative to the instruct checkpoints, while DivPO changes diversity by
+    0%, -6%, and -4% on the same models. These gains largely maintain MTBench, IFEval, and Arena-Hard performance, and reduce direct-category
+    HarmBench attack success rate. Ablations show that marginal-diversity pair selection and base-response rewriting drive the diversity gains, while
+    filtering and quality-bounded pairing help maintain alignment. Overall, our results show that diverse valid answers from base-model generations
+    can be reintroduced through carefully constructed preference data while retaining the alignment benefits of post-training. We release our code and
+    data at https://github.com/vsamuel2003/ReDiPO.
+
+### R01831 | 2026 | preprint/None | Lang: en
+TI: The New Shape of Search: How Conversational AI Recomposes Information Seeking
+AB: The familiar search journey begins with a query and moves outward into documents, and conversational AI is commonly imagined at its mouth: ask
+    first, then click out. Linking captured prompts and responses to the same panelists' observed searches and pageviews, and reconstructing
+    inactivity-defined cross-surface temporal sessions (standalone assistant surfaces; search-embedded AI such as AI Overviews and AI Mode is out of
+    scope, since it co-occurs with the results page), we find the observed journeys more often run the other way. Content usually follows search but
+    more often precedes assistant use. Within the same panelist, the paired difference-of-directions between the two anchors is +20.6 [19.9, 21.3]
+    percentage points; it persists within every coarse destination-domain stratum we can observe (semantic task and task-stage matching remain
+    unresolved), and every headline result replicates in a second, adjacent month. Search tends to anchor the front of the observed journey;
+    assistants sit deeper inside it. Assistant sessions are also far more often self-contained. User-weighted, 34.1% [33.5, 34.7] of
+    assistant-containing sessions show no observed external web step (AI-first 10.5% [10.2, 10.9], AI-last 18.3% [17.8, 18.7], bridge/interleaved
+    37.1% [36.5, 37.7]), against 19.5% [19.2, 19.8] contained for search-centered sessions of the same users, a within-user contrast of +13.0 [12.5,
+    13.6] percentage points. We call this difference recomposition: activity is distributed differently across dialogue, search, and browsing, without
+    implying that assistant use caused the difference. Assistant-contained also does not mean resolved: timestamps alone cannot establish one task,
+    satisfaction, or completion. The result is a cross-surface topology of the emerging search journey and a discipline for distinguishing observed
+    containment from inferred resolution.
+
+### R01832 | 2026 | preprint/None | Lang: en
+TI: Large Language Models Readability Classification: A Variability Analysis of Sources and Metrics
+AB: Abstract Accurate health information is ineffective if patients cannot understand it. Large Language Model (LLM) health research values veridical
+    precision; however, linguistic accessibility remains an under-examined component of output quality and usability. This study investigated two
+    sources of variability in readability classification: differences across LLM systems and across readability metrics. The analysis tested 1,120
+    data points from seven systems in English and Portuguese, comparing baseline responses with a Wikipedia-grounded condition. Content was assessed
+    using five standard readability metrics that measure distinct aspects of text complexity. Systems were statistically homogeneous at baseline but
+    became significantly heterogeneous under Wikipedia grounding, indicating variability in the combination of Retrieval-Augmented Generation
+    (differential readability effects of the same source-grounding instruction across systems). Significant metric variability was observed in all
+    conditions, showing that readability metrics are not interchangeable. Although retrieval grounding is commonly used to improve accuracy, our
+    findings show a trade-off: verified-source grounding can yield inconsistent readability. Therefore, evaluation protocols should use transparent,
+    vendor-agnostic criteria, with metric-specific and language-aware thresholds, and be applied whenever models or grounding configurations change to
+    support accessible cross-language health communication.
+
+### R01833 | 2026 | preprint/None | Lang: en
+TI: Linguistic Monoculture in LLM-Assisted Language Use
+AB: Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and polish text. Although
+    such assistance can improve clarity and help authors meet institutional expectations, widespread reliance on shared models may reduce
+    population-level variation in linguistic form, a phenomenon we refer to as linguistic monoculture. We develop a mathematical framework in which
+    authors and LLMs are represented as distributions over linguistic features and coevolve through repeated interaction. We analyze three interaction
+    mechanisms: a shared model with a fixed linguistic distribution, a shared model recursively updated from author outputs, and personalized models
+    updated through author-specific and population-level feedback. We characterize the resulting equilibria and convergence rates, showing that,
+    shared models can drive authors toward a common norm, recursive feedback relocates the shared norm without altering pairwise spread under common
+    conformity, and personalization can preserve a family of distinct author-model equilibria with nonzero linguistic diversity. We then endogenize
+    conformity as a strategic choice trading off private benefits from clarity, legibility, and perceived fluency against distinctive style. Within
+    this utility model, individually rational authors may conform more than is socially optimal because they do not internalize the value their
+    distinctiveness provides to others, creating a negative externality and a price of monoculture that is finite for each fixed instance but can grow
+    without bound when distinctiveness dominates authenticity. Synthetic simulations illustrate how fixed shared assistance, recursive feedback, and
+    personalization produce different long-run diversity outcomes.
+
+### R01834 | 2026 | preprint/None | Lang: en
+TI: Diversifying Personalized Research Ideation against AI-Induced Homogenization
+AB: AI-assisted research ideation has emerged as a promising paradigm for accelerating scientific discovery, with systems now capable of generating
+    research directions conditioned on papers, topics, or lightweight researcher contexts. Yet current systems largely optimize individual suggestions
+    in isolation. This leaves two blind spots. First, coarse researcher representations may elicit mainstream directions that appear broadly feasible,
+    but lack sufficient researcher-specific grounding. Second, independent recommendations can concentrate a community's portfolio around recurring
+    high-probability themes. To address these blind spots, we propose DivAlign, a four-stage pipeline for alignment-preserving de-homogenization.
+    DivAlign extracts fine-grained researcher profiles, generates profile-conditioned candidate directions, scores them along three alignment
+    dimensions (Executability, Comprehensibility, and Growth Potential), and surfaces researcher-local directions while reducing redundancy across the
+    community portfolio. On a benchmark we construct from 95 AI researchers across five subfields, DivAlign reduces community-level redundancy while
+    preserving researcher-direction fit. Compared with coarse single-shot ideation, it lowers average pairwise similarity from 0.331 to 0.294 and
+    nearest-neighbor similarity from 0.704 to 0.608. Compared with the independent top-choice variant, DivAlign reduces nearest-neighbor similarity
+    from 0.663 to 0.608 while retaining 99.9% of the researcher-direction fit score. Code and data are available at
+    https://github.com/Ruixxxx/DivAlign.
+
+### R01835 | 2026 | preprint/None | Lang: en
+TI: When AI Writes, Who Gets Cited? Evidence of Citation Monoculture Across Language Models
+AB: As language models move from drafting prose to running literature-search agents with tool calls, fabricated references are becoming easier to
+    catch and constrain. The harder failure begins after every candidate is real: different models may still select the same narrow subset, producing
+    citation monoculture without any single citation being wrong. We isolate this effect on 120 real papers. Eleven models from three vendors choose
+    at most ten papers from uniformly random panels of thirty, with real titles and abstracts but fabricated authors, reassigned years, and hidden
+    venues and citation counts. Each run is compared with indifferent selection on the same panel and realized budget. All eleven models concentrate
+    sharply: the top decile receives 23.3-30.2% of citations against 15.6% under the null, one component explains 68-73% of variation across their
+    preference maps, and cross-vendor agreement nearly matches within-vendor agreement. Formalizing the task as fixed-budget subset selection, we turn
+    these patterns into identifiable mechanisms: an exchangeability bound rejects a mapless selector for every model, a spectral decomposition
+    explains why the best cross-fitted mixture still retains 55% of the excess, and a rarity theorem predicts the recursive competition effect we
+    verify within panels. Controlled paraphrase, content-slot crossover, and design resampling attribute about 90% of GPT-5 mini's map variance to
+    paper content. Eight domain experts selecting from the same blinded panels under the same cap show no comparable shared preference, while model
+    concentration persists in selection-only mode. Even when every reference is real and every paper is equally visible, current language models
+    impose a common content-level filter on scientific attention. Equalizing retrieval or mixing vendors is therefore insufficient; the shared
+    preference map itself must be changed.
+
+### R01836 | 2026 | conference-paper/None | Lang: en
+TI: VOYAGER: A Training Free Approach for Generating Diverse Datasets using LLMs
+AB: Avinash Amballa, Yashas Malur Saidutta, Chi-Heng Lin, Vivek Kulkarni, Srinivas Chappidi. Proceedings of the 64th Annual Meeting of the Association
+    for Computational Linguistics (Volume 1: Long Papers). 2026.
+
+### R01837 | 2026 | preprint/None | Lang: en
+TI: Language Industrialization: A New Social Revolution?
+AB: As artificial intelligence (AI) tools, particularly large language models (LLMs), enable the rapid production of large quantities of relatively
+    high-quality text and other forms of content, human language may also be facing a revolution comparable to industrialization. However, automated
+    and standardized language generation faces many issues, such as insufficient diversity, which may lead to risks like knowledge collapse. In this
+    paper, I introduce the concept of language industrialization to refer to this phenomenon. While the short-term effects of language
+    industrialization have already become evident in certain fields (e.g., academia), its long-term effects in other areas will require careful
+    monitoring and thorough analysis.
+
+### R01838 | 2026 | conference-paper/None | Lang: en
+TI: Not What, But How: A Communicative Audit of LLM Response Framing
+AB: Large language models (LLMs) are being increasingly used to answer subjective, information-seeking queries, where users are sensitive to how
+    responses are communicated, not just whether the answers are correct.Existing LLM evaluations for subjective cultural queries largely focus on
+    factual correctness, ignoring how the response is framed.To this end, we introduce FRANZ, an automated FRAmework for respoNse characteriZation.It
+    conducts a communicative audit of LLM responses across four dimensions: cultural positioning, anthropomorphic cues, use of generalizing language,
+    and adherence to conversational maxims.To enable this evaluation, we contribute SQUARE -a corpus of 376k subjective queries sourced from 57
+    subreddits, and mapped to 7 countries and 19 question categories.We demonstrate FRANZ's applicability by scoring responses from three open-weight
+    LLMs.For SQUARE LLM responses differ significantly in the frequency of employing each response characteristic.Unlike single-dimensional audits,
+    FRANZ reveals that insider positioning and anthropomorphism are positively coupled for subjective queries, with the degree of coupling varying by
+    country, thereby providing a diagnostic lens for identifying framing divergences.* **Food and Drink:** Food items, beverages, cooking methods,
+    culinary practices.
+
+### R01839 | 2026 | conference-paper/None | Lang: en
+TI: Can Crowdsourcing Survive the LLM Era? A Community Survey on Human Data Collection
+AB: The widespread use of large language models (LLMs) as writing tools challenges the validity of crowdsourced data, as crowdworkers may 'outsource'
+    tasks to models.To better understand how the research community addresses this, we surveyed 155 researchers in NLP and related disciplines about
+    their experiences and opinions on collecting free-text responses via crowdsourcing in the LLM era.This paper provides an overview of
+    practitioners' challenges, mitigation strategies, and the foreseen implications on data quality.44% of respondents reported observing LLM usage in
+    their crowdsourced data.While 93.2% of them had anticipated this, half were unsure what precautions to take.The most prevalent detection
+    strategies are distinctive textual style patterns and unusually fast completion times.Overall, survey responses show that the research community
+    is aware of the problem and taking measures, but existing efforts remain insufficient to fully address it.Finally, we derive a set of
+    considerations to guide future crowdsourced free-text data collection in the era of LLMs.We make the survey and an anonymized version of the
+    responses available for researchers 1 .
+
+### R01840 | 2026 | preprint/None | Lang: en
+TI: A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing
+AB: Large language models can shift human beliefs across high-stakes domains, but most persuasion studies rely on pre/post belief change. These
+    endpoint measures identify whether persuasion occurred, yet miss where and how beliefs moved within a dialogue. We present PERSUASIONTRACE, a
+    framework for studying persuasion in human-LLM interaction. Built on a web-based experimental platform, PERSUASIONTRACE contributes a tool for
+    multi-turn persuasion studies and a process-level evaluation protocol: it records multi-turn belief reports from human or simulated targets of
+    persuasion, annotates persuader turns with rhetorical dimensions (logos/pathos/ethos), and evaluates simulators by fidelity to real human belief
+    dynamics. Using this framework, we find that human targets group into two clusters of multi-turn belief updates and exhibit susceptibility to
+    rhetorical strategies, and that LLMs are persuasive across generic and personalized topics, text and audio modalities, and multi-turn
+    interactions. Prior work has chiefly used vanilla-prompted LLMs to simulate human targets, but we show that these simulators fail to replicate
+    human belief dynamics. We introduce a Bayesian-network simulated target that maintains an explicit latent belief state over time so each persuader
+    message yields cognitively realistic belief updates. In human-likeness evaluation, our Bayesian target scores near a human reference (81 vs 80),
+    while baseline LLM targets score substantially lower (64). PERSUASIONTRACE reframes persuasion evaluation from endpoint movement alone to process
+    fidelity, providing a stronger basis for scientific analysis and safer optimization of persuasive systems.
+
+### R01841 | 2026 | preprint/None | Lang: en
+TI: Automated IEP Generation from Traditional Chinese Parent-Teacher Interviews via Corpus-Grounded Feature Diffusion
+AB: Writing Individualized Education Programs (IEPs) is a high-labor, knowledge-intensive document burden; English-language research has demonstrated
+    that generative AI can significantly reduce drafting time, yet automated IEP generation in Traditional Chinese remains virtually unexplored due to
+    domain data scarcity, strict privacy regulations, and the absence of local evaluation benchmarks. We propose a low-resource fine-tuning pipeline
+    centered on Corpus-Grounded Feature Diffusion (CGFD): (1) 25 dual-expert high-score seed transcripts are selected via a tau threshold with
+    flag-aware score caps; (2) a FeatureProfile (sentence length, structure, quantification templates) is extracted from seeds and injected into LLM
+    prompts alongside Verbalized-Sampling-style diversity control to drive diffusion; (3) 15 expert gold seeds are used as diffusion anchors,
+    targeting 585 samples; 567 valid diffusion samples are obtained, yielding a 582-sample training set used to fine-tune Breeze-7B with QLoRA; (4)
+    schema-constrained inference via Grammar-Constrained Decoding (GCD) enforces a hierarchical SMART Goal Ladder schema at inference time. Ablation
+    results on a 55-sample schema stress set reveal an unexpected finding: GCD is counterproductive under Traditional Chinese token budgets -- the
+    no-GCD path achieves 100% schema pass rate at 34% lower median latency, outperforming GCD on both reliability and speed. On the n=10 formal
+    hold-out, the no-GCD inference path achieves BERTScore F1 = 0.779, exceeding GPT-5.4 (0.726), DeepSeek-V3.2 (0.703), Gemini-3-Flash-Preview
+    (0.703), and Llama-4-Maverick (0.700) zero-shot baselines while maintaining fully local, air-gapped inference. This system addresses a gap in
+    Traditional Chinese special-education NLP and offers a scalable, privacy-preserving local inference solution under an industrial engineering
+    paradigm.
+
+### R01842 | 2026 | preprint/None | Lang: en
+TI: Algorithmic Groupthink: Causal Analysis and Mitigation of Semantic Convergence in Multi-agent LLM Systems
+AB: Abstract When several AI agents work on one open-ended task, such as brainstorming ideas or drafting designs, they usually share drafts so each
+    builds on the others. But sharing also narrows what they produce: asked for many different answers, they return a few similar ones. We tested this
+    across 20 tasks. With the model and sampling fixed, we varied only whether agents could see each other's work. Sharing reduced the semantic
+    diversity of outputs by 5.9%; isolation raised it by 10.3% (p = 0.017, Cohen's d = 0.79). The loss grew with how much was shared, held across five
+    LLMs from three providers (significant in two), and was not explained by input length, drift, or order. We call this pattern Algorithmic
+    Groupthink. It can be countered at the prompt level: under a multi-workflow protocol where sharing cost 31.8% of diversity, one added instruction
+    in the system prompt cut the loss to 5.5% (replicated at n = 20, p = 0.0003, Cohen's d = 1.31), with no loss of quality. The effect appears at
+    inference time, not during training, so developers can adjust diversity by changing how much context the agents share, not by retraining.
+
+### R01843 | 2026 | conference-paper/None | Lang: en
+TI: The Broken Telephone Changes Tone: Examining Nuanced Linguistic Cues in LLM Chains-of-Translation
+AB: As LLM-generated content proliferates online, texts are increasingly subject to repeated processing and translation by models, making it critical
+    to understand how such iterative reprocessing reshapes language.Prior work has shown that this degrades factual content and reduces diversity, but
+    the fine-grained linguistic shifts underlying these effects remain unexplored.We track changes in epistemic markers, grammatical voice, degree
+    adverbs, and nominalisation density across 12 iterations of roundtrip translation applied to 600 BBC News articles, varying intermediate language,
+    translation model, and chain topology across 17 experimental configurations.We find a consistent epistemic shift: evidential and factive markers
+    increase while hedges decline, potentially causing tentative claims to read as more certain.Concurrently, texts undergo register formalisation:
+    informal degree adverbs give way to formal alternatives, active-voice density drops, with-agent passives attrite disproportionately, and
+    nominalisation density rises.We also record clear model-specific patterns for certain settings.These shifts erode the markers of source, register,
+    and agency, offering a fine-grained account of the factual degradation reported in previous studies.
+
+=== END OF BATCH b042 (50 records) ===

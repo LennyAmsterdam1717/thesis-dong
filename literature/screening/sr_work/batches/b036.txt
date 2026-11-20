@@ -1,0 +1,667 @@
+BATCH b036 -- 50 records: R01494 .. R01543
+
+### R01494 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations
+AB: Existing LLM hallucination mitigation methods, including prompt engineering and model optimization, either hardly alter models'internal knowledge
+    or have poor cross-domain generalization. Contrastive decoding mitigates hallucinations by using layer-wise differences in LLMs. However, prior
+    studies only explore transformer-based models (e.g., GPT), ignoring other effective frameworks like mixture-of-experts (MoE) models. Since MoE
+    alters the traditional transformer architecture, we conduct empirical studies to investigate whether similar layer-wise differences exist in MoEs.
+    Our results show that they do not exist in MoE with shared experts; nevertheless, across different MoEs, higher layers exhibit distinct expert
+    activation patterns between factual and non-factual outputs. Building on these, we propose EAACD, an expert-aware adaptive contrast decoding that
+    uses expert differences in MoE's higher layers to mitigate hallucinations on QA tasks. EAACD splits high-layer experts into a higher-reliability
+    group and several lower-reliability groups based on their confidence and consistency. It contrasts the higher-reliability group's prediction with
+    each lower-reliability group's prediction to calibrate the model's original predictions. To strengthen this contrast, EAACD amplifies
+    hallucinations from lower-reliability experts via attention and masking to provide stronger negative references. EAACD outperforms all baselines
+    on four datasets.
+
+### R01495 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations
+AB: Large language models confidently produce outdated answers, and no existing method can detect them. We show this is not an engineering failure but
+    a structural one: temporal drift, whether a stored fact has changed since training, is encoded as a direction in the residual stream geometrically
+    orthogonal to both correctness and uncertainty. Any method operating on correctness or uncertainty signals is therefore blind to drift by
+    construction. We verify this across six instruction-tuned models. A linear probe trained directly on drift labels achieves AUROC $0.83$--$0.95$;
+    methods based on token entropy, semantic entropy, CCS, and SAPLMA all remain near chance ($0.49$--$0.57$). Five tests confirm the geometric
+    orthogonality: weight cosines ($|\cos| \leq 0.14$), score correlations ($|r| \leq 0.20$), bidirectional null-space projection ($|Δ| \leq 0.008$),
+    iterative null-space projection with $k{=}10$, and difference-of-means dissociation. Mechanistically, the MLP retrieval circuit produces identical
+    dynamics for stale recall and confabulation ($r > 0.81$, six models), explaining why output confidence cannot separate them. A cross-cutoff
+    experiment holds inputs constant and varies only the model: the probe fires on the model whose training predates the fact's transition and stays
+    silent otherwise ($P(A{>}B) = 0.975$--$0.998$, twelve model pairs), confirming it reads model-internal knowledge state rather than input
+    properties. Our code and datasets will be publicly released.
+
+### R01496 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: IndustryBench: Probing the Industrial Knowledge Boundaries of LLMs
+AB: In industrial procurement, an LLM answer is useful only if it survives a standards check: recommended material must match operating condition,
+    every parameter must respect a regulated threshold, and no procedure may contradict a safety clause. Partial correctness can mask safety-critical
+    contradictions that aggregate LLM benchmarks rarely capture. We introduce IndustryBench, a 2,049-item benchmark for industrial procurement QA in
+    Chinese, grounded in Chinese national standards (GB/T) and structured industrial product records, organized by seven capability dimensions, ten
+    industry categories, and panel-derived difficulty tiers, with item-aligned English, Russian, and Vietnamese renderings. Our construction pipeline
+    rejects 70.3% of LLM-generated candidates at a search-based external-verification stage, calibrating how unreliable industrial QA remains after
+    LLM-only filtering. Our evaluation decouples raw correctness, scored by a Qwen3-Max judge validated at $κ_w = 0.798$ against a domain expert, from
+    a separate safety-violation (SV) check against source texts. Across 17 models in Chinese and an 8-model intersection over four languages, we find:
+    (i) the best system reaches only 2.083 on the 0--3 rubric, leaving substantial headroom; (ii) Standards & Terminology is the most persistent
+    capability weakness and survives item-aligned translation; (iii) extended reasoning lowers safety-adjusted scores for 12 of 13 models, primarily
+    by introducing unsupported safety-critical details into longer final answers; and (iv) safety-violation rates reshuffle the leaderboard -- GPT-5.4
+    climbs from rank 6 to rank 3 after SV adjustment, while Kimi-k2.5-1T-A32B drops seven positions. Industrial LLM evaluation therefore requires
+    source-grounded, safety-aware diagnosis rather than aggregate accuracy. We release IndustryBench with all prompts, scoring scripts, and dataset
+    documentation.
+
+### R01497 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Towards Understanding Continual Factual Knowledge Acquisition of Language Models: From Theory to Algorithm
+AB: Continual Pre-Training (CPT) is essential for enabling Language Models (LMs) to integrate new knowledge without erasing old. While classical CPT
+    techniques like data replay have become the standard paradigm, the mechanisms underlying how LMs acquire and retain facts over time, termed as
+    continual Factual Knowledge Acquisition (cFKA), remain unclear. In this work, we present a theoretical framework that characterizes the training
+    dynamics of cFKA using a single-layer Transformer, offering a unified explanation for the behavior of representative CPT methods. Our analysis
+    reveals that regularization-based methods merely adjust the convergence rate of parameters without altering the inherent forgetting tendency,
+    whereas data replay methods succeed in shifting convergence dynamics and stabilizing pretrained knowledge. Building on these insights, we propose
+    a novel generative data replay approach, called \textbf{S}electing \textbf{T}okens via attenti\textbf{O}n \textbf{C}ontribution~(STOC), which
+    identifies influential factual snippets to guide replay data generation. Extensive experiments on both synthetic and real-world datasets validate
+    our findings and demonstrate that STOC effectively enhances cFKA by mitigating catastrophic forgetting.
+
+### R01498 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: A Knowledge-Injection Framework for Zero-Shot Adaptation of LLMs to Delirium Prediction
+AB: Large language models show promise for clinical prediction, but zero-shot performance on specialized tasks is limited by incomplete domain
+    knowledge, especially for smaller locally deployable models. We present a lightweight knowledge-injection framework for zero-shot ICU delirium
+    prediction that augments a deterministic natural-language summary of structured electronic health record data with an external clinical knowledge
+    report at inference time, without fine-tuning or retrieval. We evaluate LLaMA 3.1 8B and LLaMA 3.3 70B on 3,160 ICU admissions from the MIMIC IV
+    dataset. Adding a clinically meaningful external knowledge report improves AUROC by 8.57 percentage points for the 8B model and 1.99 percentage
+    points for the 70B model compared to no external knowledge. Relative to a GPT-5.2 frontier-model reference without external knowledge report
+    (AUROC 68.86%), knowledge injection reduces the performance gap from 15.66 to 7.09 AUROC points for LLaMA 8B and from 5.30 to 3.31 AUROC points
+    for LLaMA 70B. Random control reports do not improve performance and often degrade it, indicating that gains depend on clinically meaningful
+    content rather than added prompt length alone. SHAP-based attribution further confirms that the injected knowledge is actively used during
+    prediction. These findings suggest that inference-time knowledge injection can narrow the gap between locally deployable open-weight models and
+    frontier closed models while preserving a practical, privacy-preserving workflow for resource-constrained clinical settings.
+
+### R01499 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: MixSD: Mixed Contextual Self-Distillation for Knowledge Injection
+AB: Supervised fine-tuning (SFT) is widely used to inject new knowledge into language models, but it often degrades pretrained capabilities such as
+    reasoning and general-domain performance. We argue this forgetting arises because fine-tuning targets from humans or external systems diverge from
+    the model's autoregressive distribution, forcing the optimizer to imitate low-probability token sequences. To address this problem, we propose
+    MixSD, a simple external-teacher-free method for distribution-aligned knowledge injection. Instead of training on fixed targets, MixSD constructs
+    supervision dynamically by mixing tokens from two conditionals of the base model itself: an expert conditional that observes the injected fact in
+    context, and a naive conditional that reflects the model's original prior. The resulting supervision sequences preserve the factual learning
+    signal while remaining substantially closer to the base model's distribution. We evaluate MixSD on two synthetic corpora that we construct to
+    study factual recall and arithmetic function acquisition in a controlled setting, together with established benchmarks for open-domain factual
+    question answering and knowledge editing. Across multiple model scales and settings, MixSD consistently achieves a better memorization-retention
+    trade-off compared to SFT and on-policy self distillation baselines, retaining up to 100% of the base model's held-out capability while
+    maintaining near-perfect training accuracy, whereas standard SFT retains as little as 1%. We further show that MixSD produces substantially
+    lower-NLL supervision targets under the base model and reduces harmful movement along Fisher-sensitive parameter directions. These results suggest
+    that aligning supervision with the model's native generation distribution is a simple and effective principle for knowledge injection that
+    mitigates catastrophic forgetting.
+
+### R01500 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: RAG-Match: Retrieval-Augmented Knowledge Injection and Hierarchical Reasoning for Calibrated Semantic Relevance
+AB: Semantic relevance judgment for search is particularly challenging in knowledge-intensive scenarios, where accurate ranking requires not only
+    semantic matching but also background grounding, multi-step reasoning, and well-calibrated decision boundaries. Existing relevance models mainly
+    rely on direct label supervision or shallow semantic similarity, which limits their ability to handle implicit intent, factual equivalence, and
+    fine-grained relevance distinctions. To address this issue, we propose \textsc{RAG-Match}, a three-stage framework that integrates
+    knowledge-augmented pretraining, hierarchical reasoning alignment, and preference-based decision calibration for relevance modeling. The key idea
+    is to first strengthen query-centered semantic grounding, then align the model with structured relevance reasoning, and finally correct
+    decision-level inconsistencies in difficult boundary cases. Experimental results on a real-world search relevance benchmark show that
+    \textsc{RAG-Match} consistently outperforms strong LLM-based baselines across multiple ranking metrics, demonstrating the effectiveness of
+    combining knowledge injection, reasoning supervision, and preference optimization for fine-grained relevance judgment.
+
+### R01501 | 2026 | preprint | Lang: n/a
+TI: Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement
+AB: Agentic reinforcement learning (RL) has proven effective for training LLM-based agents with external tool-use capabilities. However, we identify
+    that agentic RL training induces increasing redundant tool calls and blurs the model's intrinsic knowledge boundary, where the model fails to
+    distinguish when tools are needed versus when parametric knowledge suffices. Existing solutions based on reward shaping create coarse-grained
+    optimization targets that tend to incentivize indiscriminate tool-call suppression, leading to reward hacking. In this paper, we propose AKBE
+    (Agentic Knowledge Boundary Enhancement), an on-policy method that dynamically probes the model's intrinsic knowledge boundary through dual-path
+    (with-tool and no-tool) rollouts during training. We define the knowledge boundary as the per-instance determination of whether tools are required
+    and the minimum tool calls necessary. By comparing correctness across paths, AKBE categorizes trajectories and constructs targeted supervisory
+    signals that guide efficient tool-use patterns for each question. These signals are integrated seamlessly into the agentic RL training loop.
+    Experiments on seven QA benchmarks demonstrate that AKBE improves task accuracy by +1.85 on average and reduces tool calls by 18% over standard
+    agentic RL, yielding 25% higher tool productivity without any accuracy-efficiency trade-off. Further analysis suggests its plug-and-play
+    compatibility across different RL algorithms and the mechanism of each signal category. Our code is available at
+    https://github.com/CuSO4-Chen/AKBE.
+
+### R01502 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: KBF: Knowledge Boundary as Fingerprint for Language Model and Black-Box API Auditing
+AB: Relay and reseller APIs mediate access to large language models (LLMs), but users cannot directly verify which model serves them. We introduce
+    \name, a black-box auditing protocol based on stable factual recall near the knowledge boundary, including repeatable wrong answers. KBF generates
+    benign, renewable probes and calibrates audit decisions against reference self-variation. Across 16 production endpoints, KBF detects all 155
+    economically relevant substitutions without rejecting any of the 16 same-reference controls. KBF remains robust to deployment variation and
+    reaches 95\% TPR at a substitution rate as low as 15\% in mixed-routing simulations. Field audits flag 7 of 28 endpoints across six platforms as
+    statistically inconsistent with their references. After reference enrollment, even GPT-6 Astra costs only approximately \$0.67 per online audit at
+    the recorded API prices.
+
+### R01503 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: User-Aware Active Knowledge Acquisition for Emotional Support Dialogue
+AB: Emotional support plays an important role in dialogue systems, and its success depends on adapting to a user's evolving and implicit needs across
+    multi-turn interactions while leveraging the strong reasoning capacity of large language models. However, since signals about user needs are often
+    weak, indirect, and can only be disambiguated through multi-turn interaction, existing emotional support methods often struggle to acquire and
+    generalize relevant conversational knowledge efficiently. To bridge this gap, we introduce User-Aware Active Knowledge Acquisition (UKA), a
+    gradient-free active dialogue learning framework that explicitly represents uncertainty about user needs and incorporates active learning into
+    both knowledge acquisition and response selection.We propose a Theory-of-Mind uncertainty estimation mechanism that allows the model to prioritize
+    responses, thereby eliciting more informative user feedback. UKA is capable of efficiently exploring user-aligned conversational knowledge during
+    training while maintaining robustness at test time. Experiments across multiple dialogue benchmarks and model architectures demonstrate that our
+    approach consistently outperforms strong baselines in dialogue quality and user alignment.
+
+### R01504 | 2026 | preprint | OpenAlex: article/None | Lang: en
+TI: Knowledge boundary probing and demand-guided intervention for LLM-based power system code generation
+AB: Large language models (LLMs) can turn grid-analysis requests into executable programs for power-system simulation, but utilities and research
+    laboratories often require on-premise deployment. In this setting, first-pass failures frequently arise at an API-knowledge boundary , through
+    hallucinated functions, misused parameters, and mishandled result tables. We present PowerCodeBench , a parameterised benchmark generator released
+    as a frozen 2000-task suite for pandapower , and a deployment-time workflow that requires no weight updates. Documentation-driven L0–L3 probes
+    produce per-model API profiles for diagnosis, model comparison, documentation allocation, and backend calibration. A query-side demand estimator
+    selects layered API evidence before generation, while execution feedback routes targeted repair. Across ten open-weight LLMs (1.5B–480B) and four
+    mid-tier APIs, the validation-enabled workflow raises scalar-match accuracy by 32–56 percentage points after up to three repair rounds relative to
+    an unassisted first pass, for every model of at least 7B and every API. Open-weight models in the 70B–120B range reach the four-vendor mid-tier
+    accuracy range under matched no-tool conditions. Selective injection approaches the full-layer reference using 41% of its prompt tokens. Among
+    model–item pairs passing numerical checks under both workflows, engineering review confirms the requested analysis in 88% of full-workflow outputs
+    versus 66% under plain repair. Round-0 pilots on OpenDSS and PyPSA motivate staged onboarding from broad retrieval at cold start to calibrated
+    selective injection. Measured throughput, latency, energy, and allocated GPU memory establish a practical on-premise serving envelope.
+
+### R01505 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: MechLens: Late Crystallization of Factual Knowledge Explains Intervention Effectiveness in Language Models
+AB: Understanding where LLMs store factual knowledge is critical for hallucination mitigation. We systematically quantify Late Crystallization:
+    factual knowledge does not gradually emerge across layers but "crystallizes" abruptly at the final layers. Across five model families (Pythia,
+    Gemma, Qwen2.5, Llama-3.1, Mistral; 0.5--14B), 26.8%--93.4% of correct answers never enter top-10 predictions at any intermediate layer, with late
+    emergence (>80% depth) consistent across architectures. Cross-scale (Qwen2.5-14B) and cross-benchmark (MMLU: 98.2%) results confirm generality;
+    tuned lens rules out probe artifacts. A sentiment-classification control (0.5% for Qwen vs. 85.9% factual; 2.0% for Mistral vs. 26.8%) confirms
+    the phenomenon is specific to factual recall. Late Crystallization yields a crystallization-guided intervention principle: CAA outperforms DoLa on
+    moderate-crystallization models (Llama, Mistral; p<0.001), with a directionally consistent reversal on high-crystallization Qwen (+25.4% vs.
+    +15.5% MC1, p=0.069). LayerNorm ablation shows crystallization is intrinsic to the residual stream; LN scaling (x1.2) yields +11.8% MC1 with zero
+    inference overhead. We further reveal a Computability-Memorization Spectrum: computable knowledge crystallizes earlier (layer 22.1/28) than
+    memorized facts (28.0/28). We release MechLens supporting five model families.
+
+### R01506 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Decoupled Mixture-of-Experts for Parametric Knowledge Injection
+AB: Knowledge injection aims to equip large language models (LLMs) with external, domain-specific, or time-sensitive knowledge. Existing approaches
+    typically face a trade-off between flexibility and integration: retrieval-augmented generation keeps knowledge outside the model but only provides
+    prompt-level augmentation, whereas post-training based methods encode new knowledge into shared parameters but may introduce catastrophic
+    forgetting, knowledge conflict, and costly updates. In this paper, we propose Decoupled Mixture-of-Experts (DMoE), a modular architecture for
+    parametric knowledge injection that decouples both experts and the router from the base model. DMoE converts external knowledge corpora into
+    independently updatable expert modules and uses a lightweight uncertainty-aware router to activate relevant experts only when the base model lacks
+    sufficient knowledge during generation. To support efficient auto-regressive inference, DMoE attaches experts only to the final-layer feed-forward
+    network, preserving KV-cache reuse while enabling parameter-level knowledge augmentation. Experiments on knowledge-intensive benchmarks show that
+    DMoE consistently improves answer quality over retrieval and adapter-based baselines.
+
+### R01507 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: When the Same Musical Knowledge Forgets Differently: A Clean Probe of Pathway-Dependent Forgetting
+AB: A model can learn that the piano piece Für Elise is calm and reflective by listening to the audio or by reading a text description, but does it
+    matter which route that knowledge took when it is later at risk of being forgotten? Forgetting research in multimodal models measures what
+    knowledge is lost under adaptation, yet has not asked whether acquisition route affects how easily that knowledge is forgotten. We call this
+    untested premise the Pathway-Invariant Assumption. Music understanding enables a clean test because a music clip and a canonical text description
+    can be aligned to the same perceptual content, allowing the same knowledge unit to enter a model through listening or reading while the target
+    remains fixed. Across multiple architecturally distinct audio-language models, we observe a consistent asymmetry: text-pathway knowledge is
+    forgotten more than matched audio-pathway knowledge under identical adaptation pressure. To attribute this effect to route rather than confounds,
+    we introduce the Paired Pathway Controlled Protocol (PPCP), a three-phase design that establishes matched pathway baselines, activates both
+    pathways under symmetric supervision on the same knowledge pool, and applies identical forgetting pressure to both pathways. The gap is stable
+    across models and gain-controlled analyses, persists when contradictory overwrite is replaced by correct-label cross-domain learning, remains
+    under single-modality pressure, and is not removed by lightweight replay. Two independent routing-depth controls confirm that the effect is not
+    explained by architectural depth, pointing to input representation as the dominant factor. Under PPCP, our results demonstrate that forgetting is
+    highly route-dependent, establishing acquisition route as a new analytical dimension for forgetting research and multimodal system design.
+
+### R01508 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: DYNA : Dynamic Episodic Memory Networks for Augmenting Large Language Models with Temporal Knowledge Graphs in Continuous Learning
+AB: Large Language Models (LLMs) struggle to incorporate new knowledge without forgetting or costly retraining. We propose DYNA, a lightweight
+    framework that augments a frozen LLM with a temporal knowledge graph where events are nodes and temporal relations are directed, timestamped
+    edges. The graph serves as an external, updatable memory. At query time, DYNA retrieves relevant nodes via random walks and centrality measures,
+    then augments the LLM's response. Evaluated on three temporal recall tasks, DYNA reduces catastrophic forgetting by ~7% compared to fine-tuning
+    and improves temporal ordering by ~5% over standard RAG. Higher graph clustering coefficients correlate with better retrieval, showing that graph
+    structure matters. Contributions: (1) episodic memory as temporal KG, (2) retraining-free LLM augmentation, (3) graph properties as predictors of
+    retrieval performance.
+
+### R01509 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Islamic Large Language Models: From Knowledge Acquisition to Trustworthy and Hallucination-Resistant AI
+AB: Large language models (LLMs) are increasingly used for knowledge-intensive question answering, including religious and legal questions. Islamic
+    knowledge is a particularly demanding setting: answers are expected to be grounded in authoritative sources, citations must be exact, Arabic
+    varieties differ substantially from the language of classical sources, and legitimate jurisprudential disagreement must be represented rather than
+    collapsed into a single answer. This survey reviews the emerging field of Islamic LLMs and trustworthy Islamic AI. We organize the literature
+    around Arabic NLP and Arabic-centric LLMs, Islamic NLP resources, Qur'anic question answering, Islamic knowledge benchmarks, retrieval-augmented
+    generation, Islamic legal reasoning, inheritance reasoning, hallucination evaluation, and trustworthiness. We argue that fluency in Arabic is not
+    sufficient for Islamic AI. Reliable systems require curated sources, retrieval and verification modules, citation-aware generation, madhhab-aware
+    reasoning, human expert evaluation, and benchmarks that measure not only answer accuracy but also faithfulness, source validity, and reasoning
+    quality. The survey concludes with a research agenda for hallucination-resistant Islamic AI systems.
+
+### R01510 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: VL-MemKnG: Hybrid Memory with a Spatio-Temporal Knowledge Graph for Question Answering over Long Egocentric Navigation Trajectories
+AB: Answering navigation-relevant questions over long egocentric videos requires retrieving and organizing evidence distributed across distant
+    temporal moments while maintaining spatial and contextual consistency. Although long-context vision--language models can achieve strong answer
+    quality, they are computationally expensive for long trajectories and inefficient for repeated querying. Recent graph-based approaches such as
+    VL-KnG address this challenge through persistent spatio-temporal knowledge graphs, but graph-centric retrieval alone may underrepresent broader
+    temporal continuity and contextual cues. We present VL-MemKnG, a hybrid memory framework that extends VL-KnG by combining a spatio-temporal
+    knowledge graph with persistent segment-level contextual memory. The knowledge graph captures structured relational information and long-range
+    object associations, while segment-level memory preserves broader temporal context for long-horizon evidence retrieval. A hybrid
+    retrieval-and-reasoning module jointly operates over both memory representations to produce evidence-grounded answers and temporally organized
+    supporting evidence. We also introduce WalkieKnowledgeT+, an extension of WalkieKnowledge for long-horizon navigation-oriented video question
+    answering. The benchmark includes temporally distributed reasoning tasks requiring evidence aggregation across multiple non-cooccurring moments.
+    On WalkieKnowledgeT+, VL-MemKnG improves Top-1 retrieval accuracy from 58% to 67% and Recall@1 from 34.50% to 40.55%, outperforming all compared
+    methods, including Gemini 2.5 Pro and Qwen 3.5+. The gains are particularly pronounced on temporal-global and temporally scattered aggregation
+    questions, demonstrating the benefits of combining structured relational memory with segment-level contextual memory while maintaining efficient
+    query-time inference.
+
+### R01511 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Conflict-Aware Retriever Editing for Knowledge Injection Attacks on LLM-Based RAG Systems
+AB: Injecting malicious knowledge into retrieval-augmented generation (RAG) systems can manipulate retrieved evidence and mislead downstream
+    generation, posing a serious security threat for AI applications. Existing RAG injection attacks mainly rely on manipulating external knowledge
+    bases, such as crafting malicious corpus. However, the synthetic text crafted by such data-centric methods could be detectable, leading to the
+    failure of attacks. Beyond corpus manipulation, open-source retrievers are increasingly exposing RAG systems to model-centric attacks. In this
+    paper, we propose conflict-aware retriever editing, i.e., CAREATTACK, a model-centric retriever attack framework for malicious knowledge injection
+    in RAG. Specifically, CAREATTACK consists two stages of conflict-aware retriever editing and attack-preserving anchor repair. Conflict-aware
+    retriever editing adapts efficient closed-form parameter editing to the dense retrieval model, promoting malicious knowledge above benign
+    competing passages and resolving potential parameter conflicts through graph-based conflict detection and parameter editing projection. Then,
+    attack-preserving anchor repair performs lightweight calibration on the edited retriever to further eliminate the impact on non-target prompts
+    while preserving the attack effectiveness for target prompts. We instantiate CAREATTACK on Qwen3-Embedding-0.6B and BGE-M3, and conduct evaluation
+    on three benchmark datasets. Experimental results demonstrate our method substantially promote malicious passages into the retrieved knowledge of
+    RAG systems and can perform attacks for batches of target prompts and passages, given the access of retrieval model parameters. Since most RAG
+    systems are built upon open-source retrieval models, this work reveals a practical attack surface in RAG systems. Codes are public accessible at
+    https://anonymous.4open.science/r/CareAttack-3F1C.
+
+### R01512 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: TokenMem: Faithful Knowledge Injection for Frozen LLMs
+AB: Retrieval-augmented generation (RAG) enhances large language models (LLMs) with external knowledge, but suffers from knowledge conflicts: when
+    retrieved information contradicts parametric memory, the shared self-attention pathway produces unpredictable outputs. We present TokenMem, a
+    lightweight memory system that injects knowledge into frozen LLMs through a dedicated cross-attention channel, bypassing competition with
+    parametric memory in the residual stream. TokenMem trains only a thin gating adapter ($\sim$3-7M parameters) via a two-phase curriculum: first
+    learning general knowledge utilization, then strengthening faithful compliance under counterfactual knowledge. In controlled experiments on five
+    models spanning three families (Qwen3-4B/8B/14B, LLaMA-3.1-8B, OLMo-3-7B), TokenMem achieves 69-70% Knowledge Compliance (KC) on counterfactual
+    benchmarks, compared to 20-52% for vanilla RAG, a gap of up to 49 percentage points. Ablation studies show that the two-phase curriculum is
+    critical: removing Phase 2 collapses KC to near-zero. Mechanistic analysis reveals that the gate adapter learns a conflict-aware, layer-specific
+    injection strategy without explicit supervision.
+
+### R01513 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Scaling LLM Knowledge Boundaries via Distribution-Optimized Synthesis
+AB: Knowledge injection via synthetic data is crucial for enhancing Large Language Models (LLMs). However, current synthesis methods simply stop at
+    preset token counts or fixed data ratios, lacking awareness of knowledge distribution. This results in some domains being sparse while others are
+    redundant, limiting LLM knowledge boundaries. We revisit knowledge injection from a distribution perspective and hypothesize that an optimal
+    knowledge distribution exists to maximize knowledge boundary expansion. We propose KDoS (Knowledge Distribution-optimized Synthesis), a framework
+    that introduces knowledge density to drive synthesis through a three-stage feedback mechanism, shifting from blind generation to
+    distribution-optimized synthesis. We construct Wikipedia-based synthetic data with varying knowledge distributions and conduct experiments on
+    models from 0.6B to 16B (Qwen, Ling, LLaMA) and data scales from 1B to 5B tokens. Our key findings are: (1) an optimal knowledge distribution
+    consistently maximizes boundary expansion; (2) this distribution is stable across backbones and scales; (3) KDoS outperforms baselines across six
+    knowledge benchmarks. Our work offers a new perspective and practical framework for synthetic data-driven knowledge injection.
+
+### R01514 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LibEvoBench: Probing Temporal Knowledge Stratification in Code Generation Models
+AB: Large software projects often depend on older versions of libraries, even as APIs continue to evolve across releases. This creates a challenge for
+    LLMs: they must maintain knowledge of multiple API versions, not merely the latest or most common one. However, current LLMs are trained on
+    temporally mixed corpora and lack explicit mechanisms for such version-specific reasoning, leading to anachronistic errors - calling APIs as they
+    exist in a different library version. To systematically evaluate this phenomenon, we introduce LibEvoBench, a multi-task benchmark spanning
+    multiple versions of widely used Python libraries, along with a new metric, the Software Evolution Understanding Score (SEUS), to measure models'
+    consistency when working with evolving APIs. Our results show that state-of-the-art models are largely version-oblivious: performance degrades for
+    evolving APIs, while for stable APIs it remains the same across versions. Moreover, simply specifying the target version provides no benefit,
+    while relevant documentation significantly boosts models' accuracy. These findings highlight a systematic limitation of current training paradigms
+    and motivate new approaches for temporally grounded knowledge in code generation.
+
+### R01515 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: KbSD: Knowledge Boundary aware Self-Distillation for Behavioral Calibration in Agentic Search
+AB: Agentic search equips large language models with dynamic retrieval abilities, but existing reinforcement learning methods remain limited by reward
+    sparsity in knowledge boundary calibration -- deciding when to trust parametric memory, when to rely on retrieved evidence, and when to abstain.
+    Binary rewards can penalize undesirable outcomes, but provide little guidance on the reasoning process required to make calibrated decisions
+    across different knowledge states. To address this, we propose KbSD (Knowledge boundary Self-Distillation), a framework that tackles this
+    limitation through dense token-level supervision, outcome-level sparse rewards, and quadrant-adaptive optimization. KbSD constructs a
+    hint-augmented teacher, architecturally identical to the student, that receives explicit knowledge boundary signals -- including parametric
+    certainty, retrieval quality, and ground-truth answers -- to generate calibrated reasoning demonstrations. This information-asymmetric
+    self-distillation enables dense supervision without requiring a larger external model. To further account for the heterogeneous reasoning
+    distributions across knowledge states, we introduce a quadrant-adaptive distillation objective: reverse KL for concentrated integration, forward
+    KL for diverse refusal, and Pareto-optimal bidirectional KL for asymmetric quadrants requiring both precision and coverage. Experiments on
+    multiple benchmarks show that KbSD consistently improves both task accuracy and hallucination mitigation over strong baselines, with the largest
+    gains appearing in the challenging quadrants where sparse rewards are least informative.
+
+### R01516 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution
+AB: LLM-based coding agents have significantly advanced automated software issue resolution, yet they remain highly prone to factual errors caused by
+    insufficient repository understanding. Recent methods attempt to mitigate this limitation through pre-repair repository exploration; however,
+    their fix-driven strategies explore repositories without identifying the agent's knowledge gaps, often yielding imprecise context that fails to
+    bridge the underlying understanding deficit. In this paper, we propose ACQUIRE, a QA-driven framework for software issue resolution. Mirroring how
+    experienced developers first comprehend unfamiliar code before attempting a fix, ACQUIRE explicitly acquires repository knowledge prior to repair.
+    The framework decouples knowledge acquisition from patch generation through two stages: in the first stage, a Questioner and an Answerer
+    collaborate to acquire structured repository knowledge, where the Questioner poses targeted questions and the Answerer produces evidence-grounded
+    answers through autonomous exploration; in the second stage, the Resolver leverages the resulting QA knowledge to generate informed patches. By
+    transforming implicit knowledge gaps into explicit, factually reliable understanding, ACQUIRE accelerates knowledge-intensive repair stages and
+    enables more accurate resolution. Experiments on SWE-bench Verified demonstrate that ACQUIRE consistently outperforms representative pre-repair
+    methods, raising Pass@1 by up to 4.4 percentage points with modest additional cost and time.
+
+### R01517 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: ChronoQG: Towards a Temporally Expressive and Hop-Bounded Benchmark for Temporal Knowledge Graph Question Generation
+AB: Knowledge graph question generation (KGQG) aims to generate natural-language questions from structured graph evidence. Existing KGQG benchmarks,
+    however, are mostly built on static knowledge graphs and do not encode the temporal scopes of graph facts. As a result, they cannot evaluate
+    whether generated questions faithfully preserve temporal validity, event ordering, and answer-determining temporal constraints. In this paper, we
+    study temporal knowledge graph question generation (TKGQG), where a generated question must be faithful to both the support subgraph and the
+    temporal constraints required to identify the target answer. We propose ChronoQG, the first temporally expressive and hop-bounded benchmark
+    construction framework for TKGQG. ChronoQG integrates a comprehensive temporal-constraint taxonomy, topology-temporal subgraph sampling, and
+    trace-grounded question generation to construct temporally faithful questions. The framework produces four benchmark datasets from heterogeneous
+    temporal knowledge graphs, totaling 16,011 verified questions. We evaluate representative LLM-based KGQG methods and prompting baselines across
+    diverse TKGQG settings, including temporal-constraint counts, topological templates, and temporal-constraint types. The results show that existing
+    methods struggle to preserve temporal constraints, especially under multi-constraint settings and harder temporal-constraint types. These findings
+    reveal a clear gap between static KGQG and TKGQG, and establish ChronoQG as a challenging testbed for temporally faithful question generation.
+
+### R01518 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models
+AB: Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising
+    solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their use in
+    train-time knowledge injection, where, given a large corpus of facts, we train a hypernetwork to generate a fixed LoRA adapter that, when inserted
+    into the target model, enable the model to answer questions about those facts. In this work, we investigate whether hypernetworks can be used to
+    perform train-time knowledge injection and how this ability varies with scale. The scaling behavior of hypernetworks remains largely unstudied.
+    Our design decouples the hypernetwork's injection capacity from the target model's general capability, enabling, for the first time, a rigorous
+    study of scaling laws for hypernetwork architectures. We characterize how loss, reasoning accuracy, and out-of-distribution (OOD) generalization
+    vary with hypernetwork depth, width, and target network size. We construct a large-scale dataset, called MegaWikiQA, containing tens of millions
+    of multi-hop question-answer examples across 39 domains constructed from examples in Wikidata5M. Our results reveal: (i) hypernetwork-based
+    injection exhibits broadly predictive power law scaling along all architecture axes; and (ii) hypernetworks are capable of reliable OOD
+    generalization at increasing scales, suggesting that hypernetwork provides a promising alternative to other train-time adaptation methods such as
+    LoRA finetuning and full fine-tuning, exhibiting steeper scaling exponents in all OOD evaluations. Together, these results establish hypernetworks
+    as a principled and scalable substrate for train-time adaptation, and provide the first empirically grounded scaling laws to guide hypernetworks
+    for factual reasoning in large language models.
+
+### R01519 | 2026 | preprint | Lang: n/a
+TI: RING: Retrieval-Internalized Generation for Continual Large-Scale Knowledge Injection
+AB: Retrieval-augmented generation (RAG) improves factuality but adds latency and engineering overhead at serving time. We propose RING
+    (Retrieval-Internalized Generation), a holistic paradigm spanning both architecture and training that injects large-scale external knowledge into
+    a \textit{Mixture-of-Memory Experts} and learns parametric search over this internal memory via reinforcement learning, removing the external
+    retriever entirely. Training proceeds in three stages: continued pre-training injects new corpora into a Knowledge Expert via our novel
+    \textit{Dual Causal Attention}; supervised fine-tuning teaches a ``search-then-answer'' pattern; and reinforcement learning with hierarchical
+    rewards optimizes the routing-and-search policy over the parametric memory. Unlike prior parametric injection methods that pair internal memory
+    with a fixed or rule-based retriever, RING {learns} its retrieval policy directly from task signals. We further frame RING theoretically as a
+    search-free approximation to the classical RAG objective. To evaluate large-scale injection of genuinely {new} knowledge without test-time
+    leakage, we further construct News-2025, a benchmark built from news strictly post-dating the base LLM's pretraining cutoff. RING matches or
+    surpasses both search-based RAG and parametric injection baselines in accuracy and efficiency.
+
+### R01520 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Search2Skill: Skill Distillation Beyond Knowledge Boundaries Via Rubric-Based Reinforcement Learning
+AB: Reusable skills, which encapsulate the procedural knowledge required to solve real-world professional tasks, offer LLM-based agents a path toward
+    self-evolution in expert domains. Existing self-evolving skill methods construct skills internally from the model's parametric knowledge or
+    trajectories, and are therefore bounded by what the model already knows. However, the domain conventions and standard procedures underlying
+    professional skills often lie beyond this boundary and are hard to elicit from the agent alone. To address this issue, we therefore propose a
+    novel framework, Search2Skill, that automatically identifies the agent's capability gaps, searches external sources to address them, and distills
+    the retrieved evidence into structured, reusable skills. Specifically, Search2Skill is optimized by a rubric-based reinforcement learning scheme
+    that jointly improves when to search, how to search, and how to generate skills. Experiments on eight expert-level domains from three benchmarks
+    show that Search2Skill consistently outperforms both search-augmented and trajectory-based skill-learning baselines under both streaming and
+    held-out evaluation protocols. Further analyses show that the gains arise from skill abstraction rather than raw retrieved evidence, and that the
+    acquired skills transfer across model scales.
+
+### R01521 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity
+AB: When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer,
+    more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats up the
+    specificity hierarchy, trading informativeness for truthfulness. We ask whether LLMs have the ingredients to perform this retreat. Using a
+    T-REx-based benchmark that varies entity familiarity and referent specificity, we probe models to answer two questions: (i) do their activations
+    encode whether a referent falls inside the knowledge boundary, and (ii) do they anticipate the specificity of the referent they are about to
+    generate? We find that the answer to both is yes, but the two signals are not reconciled in generation. Models overwhelmingly prefer specific
+    referents even when the entity is unknown to them, and do so even when offered correct generic alternatives. The substrate for a Gricean retreat
+    is present, but the policy that would act on it is not. We position our findings as a first step toward Gricean alignment, training or steering
+    objectives that couple knowledge-boundary awareness to referent-specificity during generation.
+
+### R01522 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: L3Cube-IndicQuest v2: A Large-Scale Multilingual Benchmark for Evaluating Factual Knowledge of Large Language Models Across Indic Languages
+AB: We present L3Cube-IndicQuest v2, a large-scale gold-standard multilingual question-answering benchmark for evaluating the India-specific factual
+    knowledge of Large Language Models (LLMs). The benchmark comprises 3,471 curriculum-grounded English question--answer pairs spanning nine domains,
+    curated from educational curricula, competitive examination materials, and domain-specific reference books. We introduce a practical hybrid
+    construction strategy that combines context-grounded LLM-based question generation and validation with semantic deduplication and human
+    verification, enabling scalable creation of benchmark data while preserving annotation quality. The benchmark is translated into 19 Indic
+    languages, yielding a publicly released multilingual dataset of 69,420 question--answer pairs across 20 languages. We evaluate six LLMs under
+    three protocols: LLM-as-a-judge and two deterministic lexical criteria, exact-substring and word-overlap matching. All three produce almost the
+    same model ranking, showing that the results do not depend on the choice of judge. The frontier commercial model leads by a wide margin, and among
+    open-weight models Gemma4 31B outperforms the Indic-specialised Sarvam 30B in every evaluated Indic language.
+
+### R01523 | 2026 | preprint | Lang: n/a
+TI: Beyond Factual Knowledge: Benchmarking and Learning Step-Level Procedural Rule Reasoning in Large Language Models
+AB: Large language models (LLMs) excel at text understanding and generation, yet still struggle to reliably understand and apply externally provided
+    procedural rules at scale. To evaluate this capability, we introduce RuleWorld, a large-scale benchmark that reformulates rules as globally
+    reusable abstract units rather than instance-specific facts. In RuleWorld, several scenarios, including single-rule, parallel multi-rule, and
+    multi-hop reasoning, are settled for comprehensive evaluation. We further propose DynaRule, an end-to-end framework that injects the given rules
+    into the KV cache and turns retrieval into an internal, learnable, step-wise process. Specifically, DynaRule employs Stacked Step-Level Attention
+    Training with a special <search> token to enable dynamic rule re-attention and updating during inference. In this way, the model can re-attend to
+    the most relevant rules at each step, dynamically replacing outdated ones to support more stable multi-step reasoning. Experiments on RuleWorld
+    show that existing LLMs face challenges under large rule pools, while DynaRule improves average QA accuracy by up to 19 points and achieves over
+    85% Recall@1 at 10K rules, outperforming strong baselines by large margins. We make our code and dataset available here:
+    https://github.com/SharkSpicy-NLP/Beyond-Factual-Knowledge.
+
+### R01524 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: ST$^2$U: Stateful Test-Time Unlearning via Restricted Knowledge Boundary Control
+AB: Controlling restricted knowledge in large language models is essential for model alignment and safe deployment. Test-time unlearning avoids costly
+    retraining and parameter updates by intervening only during inference. However, existing activation-editing methods apply isolated pointwise
+    corrections, overlooking how autoregressive generation continually reconstructs hidden states from the prompt, cache, and generated prefix.
+    Consequently, later states may return to restricted knowledge regions after a locally successful correction, causing restricted knowledge
+    re-entry. In this work, we propose Stateful Test-Time Unlearning via restricted knowledge boundary control (ST$^2$U), which formulates test-time
+    unlearning as trajectory-wide boundary control. ST$^2$U first models restricted knowledge boundaries in low-dimensional invertible coordinates
+    while leaving orthogonal non-target components unchanged. During inference, ST$^2$U monitors risk along the trajectory, applies minimal boundary
+    corrections with contextual anchoring, and propagates historical correction states across tokens to mitigate knowledge re-entry. This
+    trajectory-wide control enables more persistent forgetting while preserving non-target capabilities and limiting inference overhead. Across three
+    benchmarks and three model families, ST$^2$U delivers the strongest overall balance, combining best or second-best retention with competitive
+    forgetting and substantially less restricted knowledge re-entry than test-time baselines (13.76--19.84% versus 30.44--59.10%).
+
+### R01525 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: From Memorization to Absorption: Mixed-Policy RL for Continual Knowledge Injection
+AB: Continual knowledge injection is essential for keeping large language models up-to-date in a fast-evolving world. Existing methods rely on
+    supervised fine-tuning (SFT), which memorizes injected facts in their training format but fails to generalize across paraphrasing, document
+    combinations, and reasoning. To address this, we propose Golden-GRPO Injection (GRIN), a three-stage self-learning framework for continual
+    knowledge injection. Golden-GRPO is a mixed-policy reinforcement learning algorithm designed specifically for knowledge injection, which injects a
+    golden answer to provide learning signal even when on-policy rollouts fail on novel facts. We further introduce Blank and Counter, two
+    document-level benchmarks targeting novel acquisition and counterfactual overwrite respectively, each evaluating single-fact recall, multi-source
+    retrieval, and inferential reasoning. Our experiments establish a clear empirical claim: mixed-policy reinforcement learning enables knowledge
+    absorption beyond what supervised fine-tuning can achieve. GRIN substantially outperforms SFT and mixed-policy RL baselines on the harder question
+    types while matching them on basic fact recall.
+
+### R01526 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning
+AB: Weak signals are early, low-visibility indicators that precede significant changes before those changes become established. Existing detection
+    methods, based on keyword frequency, topic modeling, or untyped graph topology, fail to capture the semantic and relational structure through
+    which such signals manifest. In this paper, we propose C-Unseen, a self-interpretable framework for weak signal detection in Dynamic Temporal
+    Knowledge Graphs (DTKGs). We define a weak signal as a rare, semantically coherent subgraph that proliferates across consecutive TKG snapshots.
+    The framework operates through two modules: a Rare Subgraphs Extractor, in which an LLM identifies subgraphs whose content is in tension with the
+    dominant snapshot narrative via chain-of-thought reasoning, and a Weak Signal Alerter, in which the persistence of these rare subgraphs is tracked
+    across time steps to isolate true weak signals. Experimental results demonstrate that C-Unseen outperforms keyword-, topic-, and graph-based
+    baselines.
+
+### R01527 | 2026 | preprint | Lang: n/a
+TI: CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases
+AB: LLMs are increasingly able to answer complex questions about enterprise-scale document collections. But evaluation is hard: companies don't want
+    to share internal communications, and synthetic datasets have been overly simple. We present CorporateBench (CB), a human-validated multi-task Q&A
+    benchmark whose scale approaches the conditions LLMs encounter in corporate communication networks, with evaluation corpora surpassing 230,000
+    documents. CB evaluates LLMs across two dimensions (information extraction and knowledge base querying) through four synthetically generated firms
+    ranging from 12 to 10,000 employees. Each corpus is sampled from a temporally evolving knowledge base describing a consistent world, guaranteeing
+    cross-document logical consistency even across hundreds of thousands of documents. We evaluate five LLMs on CB, revealing increasingly poor
+    performance as input size approaches realistic scales. CB provides LLM developers a metric for corporate communication reasoning, filling a
+    crucial gap in the benchmarking ecosystem.
+
+### R01528 | 2026 | preprint | Lang: n/a
+TI: KItCAT: Knowledge Injection via Input Corruption for Auto-regressive Training
+AB: LLMs acquire vast amounts of knowledge during pre-training, but often lack the specialized knowledge needed to answer questions from niche sources
+    such as manuals or technical documents unseen during pre-training. Continued pre-training (CPT) is widely used to inject such knowledge into model
+    parameters. However, niche documents seldom repeat facts, making it difficult for CPT to robustly acquire such knowledge. Recent works address
+    this by generating multiple paraphrases of the new knowledge, but paraphrasing is computationally expensive and typically requires powerful LLMs.
+    In this work, we introduce KItCAT: Knowledge Injection via Corrupted Auto-regressive Training, a lightweight training strategy that reduces the
+    need for paraphrasing in decoder-only LLMs. KItCAT augments standard next-token prediction by stochastically corrupting the input sequence. During
+    training, a random subset of input tokens is replaced with other vocabulary tokens while the original next-token labels are kept unchanged. This
+    simple intervention generates diverse training inputs from each sample, enabling large-scale data augmentation at negligible cost. We show that
+    KItCAT consistently improves over CPT across multiple datasets and model families. Code is available at
+    https://github.com/meghanadhpulivarthi/KItCAT.
+
+### R01529 | 2026 | preprint | Lang: n/a
+TI: Probing Factual Knowledge Transfer with Training Data Interventions
+AB: Do multilingual language models transfer factual knowledge across languages during continued pretraining, or do they mostly recall facts learned
+    directly from the target-language data? To answer this question more reliably, we propose an intervention-based framework: starting from an
+    English-pretrained model, we continue pretraining on Persian data from which specific facts have been systematically removed at varying levels of
+    granularity. We construct SIFT, a resource of 500 triples across 20 relations, stratified by the cultural origin of each fact's subject into
+    general (globally prominent) and Persian-related entities, designed for both systematic fact removal from training data and evaluation, with
+    natively written Persian cloze templates. Our results show that fact transfer is very limited: under the strictest removal condition, a large
+    majority of English-acquired facts fail to transfer into Persian. We further show that sentence-level co-occurrence removal is insufficient to
+    eliminate fact signal, and that easier (randomly selected) negative candidate sets substantially inflate apparent transfer by rewarding shallow
+    associative heuristics, while performance on a harder candidate set that allows for less reliance on heuristics is much lower. Finally, we show
+    that source-language entity frequency has a large influence, with Persian-related facts, which are orders of magnitude rarer in the English
+    corpus, hardly transferring.
+
+### R01530 | 2026 | preprint | Lang: n/a
+TI: From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification
+AB: Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are
+    domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate labels by embedding
+    similarity and prompt the LLM to choose among them. However, top-$K$ retrieval reduces the number of candidates but does not help the model tell
+    similar ones apart. When two similar labels both appear as candidates, the model lacks the signal to choose correctly between them. We propose a
+    framework that (1) identifies which label pairs the model struggles to distinguish, (2) expands the candidate set to include confusable labels,
+    and (3) generates targeted rules to differentiate between similar candidates. The framework requires no fine-tuning, and the generated rules
+    transfer to smaller, cheaper models. On three benchmarks (WOS, Flipkart, LEDGAR), our approach improves Macro F1 by up to 10.0pp over retrieval
+    baselines, with smaller models (2B--20B) gaining up to 11.5pp via cross-model transfer.
+
+### R01531 | 2026 | preprint | Lang: n/a
+TI: Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views
+AB: Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We find that auxiliary views,
+    conceptual reformulations, are key to this process. We design controlled experiments to isolate this. First, holding the token budget fixed,
+    allocating tokens from paraphrases to auxiliary views improves learning even for factual recall, which we use near-verbatim sentences from the
+    original document to test. Second, the effectiveness of auxiliary views is not contingent on the strength of the model that generates them. Third,
+    we establish that paraphrasing is helpful but only at smaller batch sizes. Fourth, we identify types of knowledge that aid learning in the
+    presence of prior knowledge gaps. Finally, we examine how these effects manifest mechanistically via layer-wise biases and compression. Together,
+    our findings suggest that auxiliary representations of knowledge are a key factor in the success of pre-training, and explains why data diversity
+    matters. Further, our results provide clear recipes for synthetic data augmentation along with implications on the self-improvement in LLMs.
+
+### R01532 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: SLATE: Are AI-Generated Slides Educationally Effective? A Benchmark for Language Teaching Quality and Learner Knowledge Acquisition
+AB: LLMs have achieved remarkable capabilities in generating language teaching slides. However, a critical mismatch persists between visual polish and
+    actual instructional effectiveness. To address this gap, we introduce SLATE (Slide-based Learning Assessment for Teaching Effectiveness), the
+    first benchmark that evaluates AI-generated language teaching slides through instructional effectiveness and learner knowledge acquisition. SLATE
+    transforms linguistics olympiad puzzles from low-resource languages with negligible web presence into 90 standardized instructional units
+    comprising 1,133 assessable items, paired with a structured course outline and matched near- and far-transfer test sets. This pretest-posttest
+    design eliminates pretrained knowledge leakage, ensuring gains reflect learning rather than prior recall. Using VLMs as scalable learner proxies
+    and directionally supported by a three-system human pilot, our results show that content validity exhibits a weak association with learning gain,
+    while pedagogical design exhibits a robust positive association. Moreover, most systems show a significant gap between near- and far-transfer
+    accuracy, and even frontier models can produce negative learning gains. SLATE reveals a dissociation between artifact quality and instructional
+    effectiveness, calling for a paradigm shift in how generative teaching systems are built, evaluated, and deployed.
+
+### R01533 | 2026 | preprint | Lang: n/a
+TI: A Temporal Knowledge Graph for Music Festival Lineup Forecasting
+AB: Music festival lineups emerge from complex relationships among artists, genres, releases, labels, and past performances, making the prediction of
+    future lineups a natural fit for temporal knowledge graph (TKG) forecasting. In this work, we present a TKG covering 380 festivals over 55 years,
+    comprising more than 90K festival performance quadruples along with information on festivals, artist tours, and artist metadata, and release it as
+    a resource for TKG forecasting evaluation. We formalize festival lineup forecasting as temporal link prediction between artists and festivals at
+    future timestamps. We evaluate six TKG forecasting models on this task, analyze their capabilities and limitations, and compare them against Large
+    Language Models applied zero-shot. Our resource complements existing TKG benchmarks by grounding evaluation in a concrete, real-world application
+    domain.
+
+### R01534 | 2026 | preprint | Lang: n/a
+TI: AraDynFact: Dynamic Evaluation of Factual Knowledge in Arabic
+AB: As Large Language Models (LLMs) continue to scale both in size and capabilities, their proficiency in the Arabic Language has seen significant
+    advancement. However, a critical gap remains: the extent of their factual knowledge and cultural sensitivity to the diverse Arabic-speaking world
+    remains largely underexplored. Current evaluation metrics often focus on translation or generic reasoning, failing to capture the rich historical,
+    social, and regional nuances inherent to Arabic culture. In addition, most benchmarks rely on heavy work, with human intervention in some steps,
+    making the evaluation of knowledge coverage expensive and slow. To address this deficiency, we introduce AraDynFact, a novel dynamic evaluation
+    framework designed to rigorously assess the factual Arabic knowledge embedded in LLMs. Unlike static benchmarks, AraDynFact employs a dynamic
+    approach to extract factual information and generate rich and answerable questions in a fast and automatic way. We apply AraDynFact to Arabic
+    Wikipedia and audit the performance of several state-of-the-art models, ranging from Arabic-centric specialized LLMs to high-resource general
+    purpose LLMs. In addition we found a high degree of correlation with existing, hand-crafted Arabic-centric benchmarks, confirming the potential of
+    our dynamic approach.
+
+### R01535 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: ListQA: A Benchmark for Evaluating List-Formatted Factual Knowledge Retrieval in Large Language Models
+AB: Many real-world questions demand not a single fact but an organized collection of them, yet existing factual knowledge benchmarks almost
+    exclusively target single answer retrieval. We introduce ListQA, a benchmark of 9,045 human-curated, cross-validated questions (audited error rate
+    of 1.7%) that require LLMs to recall multiple facts and compose them into structured lists of 3-10 elements. Questions range from flat lists
+    ("Which NCAA teams went undefeated between 2000 and 2024?") to hierarchical lists with sub-attributes ("...and what was their record and
+    result?"), spanning eight categories across 60+ countries. An evergreen design (explicit temporal constraints or historically immutable facts)
+    keeps ground truth valid without periodic updates. For evaluation, we frame element matching as a linear sum assignment problem: optimal bipartite
+    matching paired with LLM-based semantic grading jointly captures factual accuracy, hallucination, and format compliance. We benchmark 34 models (8
+    families, 42 configurations across standard and thinking enabled inference) and find: the best standard-inference model scores below 37%
+    LLM-Judge-F1, multi-faceted questions are harder across the board, and providing the source Wikipedia page lifts scores dramatically, confirming
+    that models can organize facts but struggle to retrieve them from parameters alone. Extended analyses cover base vs. instruction-tuned checkpoints
+    and token efficiency. We release the dataset and evaluation code.
+
+### R01536 | 2026 | preprint | Lang: n/a
+TI: AFCS: Atomic-Fact-Conditioned Synthesis for Factual Knowledge Pretraining
+AB: Synthetic data is increasingly used in language-model pretraining. Existing knowledge-corpus synthesis pipelines, including WRAP and Nemotron-CC,
+    usually take a source passage or document segment as input and generate rewritten or QA-style samples from that text. This can improve surface
+    form and prompt diversity, but it does not explicitly require fine-grained source facts -- especially secondary entities, list/table entries, and
+    precise temporal attributes -- to appear in the synthesized corpus. We propose AFCS (Atomic-Fact-Conditioned Synthesis), a pipeline that first
+    extracts source-supported atomic facts and then uses each retained fact to drive generation. AFCS uses structure-aware extraction over the
+    document tree, source-grounded verification, local context expansion, and multi-format generation. In continued-pretraining experiments with
+    OLMo-3-7B and a 32B base on the same FineWiki source corpus, AFCS outperforms WRAP and Nemotron-CC on SimpleQA, SimpleQA Verified, PopQA, and
+    HotpotQA. Granularity ablations show that fact-level synthesis improves over chunk-level, paragraph-level, and entity-level synthesis; and a
+    100B-token mid-training integration improves factual benchmarks and raises the 12-task general benchmark average by +1.09.
+
+### R01537 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Mixture-of-Memories: Low-Overhead Language Modeling with Modular Knowledge Injection
+AB: Large language models store substantial factual knowledge in their parameters, yet this knowledge is difficult to control, update, and reliably
+    elicit at inference time. Existing memory-augmented approaches typically rely on a single auxiliary mechanism, such as retrieval, parameter
+    updates, or neural memory, and therefore apply the same form of correction to tokens with very different knowledge demands. We propose
+    Mixture-of-Memories (MoM), a memory-augmented language modeling framework that separates routed neural memory from writable factual memory. MoM
+    combines a frozen base LM with two neural memory experts: a latent memory that provides low-latency hidden-state corrections and a lexical memory
+    that provides a token-space knowledge pathway. A lightweight Budget Router sets per-token mixture weights from uncertainty and disagreement
+    features, replacing the fixed interpolation of prior memory modules. For post-hoc updates, an external explicit memory stays outside the router,
+    because a router trained before facts are written learns to down-weight it; new facts are appended without retraining any component and used only
+    when an answer-level gate accepts the retrieved fact. Experiments across language modeling, factual QA, update analysis, and efficiency show that
+    MoM improves both predictive accuracy and updateability while retaining low inference overhead.
+
+### R01538 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: EpiLens: Lightweight RAG for Epidemiological Knowledge Acquisition
+AB: To prepare for future outbreaks, researchers need to know what studies have been done and what data they use. Mapping a large literature by hand
+    is slow, while large language models alone can misstate or conflate sources. We present EpiLens, a lightweight, open-source retrieval-augmented
+    generation package that applies a fixed retrieval template and output schema to every paper in a corpus and links outputs to source passages. We
+    build a corpus of 2,297 papers from the sources of a multi-pathogen parameter study and evaluate EpiLens's paper-classification workflow against
+    214 manually labelled papers. Run locally with an open-weight model, so that licensed full texts never leave our hardware, the classifier is
+    comparable to supervised baselines trained on the manual labels, and ahead of them on geography, despite the lack of task-specific training data.
+    The study's early extraction sheets cite published sources for 327 estimates. We link each estimate to a cited document or to corpus studies
+    included by a review. Then, we use the classifier's labels to compare the papers associated with different parameters and pathogens. EpiLens
+    labels more papers linked to reproduction numbers than fatality risks as model-based (53% versus 15%, compared with 62% versus 24% in the manual
+    labels). The gap is consistent with the frequent use of transmission models to estimate reproduction numbers and largely persists within
+    pathogens.
+
+### R01539 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Temporal Evidence-Parameter Co-Alignment for LLM Reasoning over Temporal Knowledge Graphs
+AB: Large Language Models (LLMs) often struggle with temporally grounded reasoning because their static parametric memory is misaligned with the
+    dynamic evolution of real-world knowledge. Although RAG and Parameter-Efficient Fine-Tuning (PEFT) provide practical ways to enhance LLMs, they
+    remain insufficient for temporal reasoning. Existing retrieval methods typically prioritize semantic relevance while overlooking temporal
+    validity, event order, and evolutionary dependencies, resulting in evidence that is relevant in isolation but temporally fragmented. Meanwhile,
+    conventional PEFT methods usually employ fixed and input-agnostic low-rank updates, making it difficult to capture time-dependent entity semantics
+    and relation drift. To address these limitations, we propose Temporal Evidence-Parameter Co-Alignment (TEPCA), a framework for LLM reasoning over
+    TKGs. TEPCA aligns LLM reasoning with temporal knowledge at both the evidence and parameter levels. At the evidence level, it introduces
+    time-constrained Dynamic Relevance-Guided Path (DRGP) pruning to preserve globally coherent temporal paths, together with Mutual-Information
+    (MI)-based pruning to retain query-informative local facts under temporal constraints. At the parameter level, it integrates Dynamic-Gated LoRA
+    (DG-LoRA), a timestamp-conditioned low-rank adaptation mechanism that dynamically modulates the effective adaptation subspace according to
+    temporal context. This design enables LLMs to better capture fine-grained entity evolution and time-dependent relation semantics while preserving
+    parameter efficiency. Experimental results on two TKG benchmarks demonstrate that TEPCA achieves state-of-the-art performance. Additional
+    evaluations of DG-LoRA on eight commonsense QA datasets further verify its general input-adaptive capacity, scalability across LLM backbones, and
+    interpretability.
+
+### R01540 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining
+AB: Training Arabic large language models faces challenges from noisy web data, dialectal variation, and the high cost of continual pretraining (CPT).
+    We introduce AQL-Lite (AQL: Arabic Quality Language), a time- and resource-efficient framework for adapting a multilingual LLM to Modern Standard
+    Arabic (MSA). AQL-Lite couples a quality-first curation pipeline (structural cleaning, heuristic and model-based filtering, MSA selection, and
+    deduplication) with a partial-parameter CPT recipe that trains RS-LoRA adapters across the network together with the last eight transformer blocks
+    and the embedding matrix, under layer-wise learning rates. At a matched 1B-token budget, CPT on AQL-curated data raises a four-benchmark Arabic
+    mean by 3.51 points over CPT on raw web text, which yields no gain over the base model. In a controlled 5B-token comparison, AQL-Lite recovers 94%
+    of the gain of full-parameter CPT (mean 73.19 vs. 73.58) in 52% of the wall-clock time and outperforms adapter-only baselines on every benchmark,
+    and a component ablation shows that adapters, unfrozen blocks, and embedding training each contribute. Scaled to 40B MSA tokens and
+    instruction-tuned on one million examples, the resulting 12B model scores 75.3 on the seven-benchmark Open Arabic LLM Leaderboard v2 (OALL v2)
+    suite. These results suggest that partial-parameter CPT on a carefully curated corpus is a practical route to efficient MSA adaptation.
+
+### R01541 | 2026 | preprint | Lang: n/a
+TI: What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models
+AB: Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. How these different
+    kinds of knowledge are learned as pretraining progresses remains unclear. Recent point-in-time models trained on web snapshots from different
+    years provide a way to probe how knowledge prevalence varies over time. Using these models, we propose a temporal variability score (TVS), defined
+    as the coefficient of variation of an item's negative log-likelihood across models. A higher score suggests that the knowledge may be less
+    consistently represented across years of web text. We evaluate six benchmarks covering diverse topics using six models from multiple open-source
+    model families. We find that low- and high-TVS items are learned similarly early in training, but high-TVS items improve faster later on. At the
+    end of the pretraining run, high-TVS items outperform low-TVS items in 34 of 36 model-benchmark settings, with an average advantage of 7.3 points
+    of chance-normalized accuracy. This pattern is most robust on knowledge-intensive tasks, even when comparing items of similar difficulty. Our
+    findings reveal differences in how knowledge is learned over the course of pretraining, with temporal variability providing a diagnostic of these
+    learning dynamics beyond aggregate benchmark scores.
+
+### R01542 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering
+AB: Recent advances in large language models (LLMs) have spurred growing interest in temporal knowledge graph question answering (TKGQA). Most
+    existing methods rely on semantic retrieval augmented generation (RAG), which suffers from fundamental limitations in complex temporal reasoning.
+    On the one hand, semantic-based RAG methods struggle to capture the multi-hop causal knowledge required for complex temporal reasoning. On the
+    other hand, these methods introduce excessive redundant knowledge, trapping LLMs in spurious reasoning chains that potentially result in erroneous
+    answers. To address these problems, we propose a Temporal Causal Chain-guided RAG (TCC-RAG) to retrieve a concise yet sufficient set of causal
+    knowledge to support complex temporal reasoning. Specifically, we reformulate the temporal knowledge graph into a multi-view causal cue graph,
+    with causal cues inducing connections that explicitly encode temporal evolution and causal dynamics. Based on the causal cue graph, we construct a
+    query-specific temporal causal chain to guide the retrieval process, enabling the model to focus on a concise set of causally relevant knowledge.
+    Finally, we introduce a causal evidence filter to refine the retrieved knowledge, ensuring its causal consistency with the underlying temporal
+    logic of the query. Experiments show that TCC-RAG achieves substantial performance gains of 10.72% and 8.40% on two TKGQA benchmarks, and delivers
+    a remarkable 62.97% improvement for multi-step temporal reasoning.
+
+### R01543 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: CoSTA: Co-Evolving Self-Play Timeline Agents for Complex Temporal Knowledge Graph Question Answering
+AB: Complex Temporal Knowledge Graph Question Answering (TKGQA) involves more than retrieving facts: the timestamp or validity interval of one fact
+    can constrain the search for another, while multiple intervals may jointly determine the answer. Existing single-agent TKGQA methods typically
+    investigate these facts within a single reasoning context, where evidence from different event histories can become interleaved and distractors
+    can misdirect subsequent retrieval. Distributing investigations across agents can separate event-specific evidence into distinct contexts, but
+    effective collaboration must still be learned because question decomposition, subtask investigation, and evidence synthesis are interdependent. To
+    address these limitations, we propose \textbf{Co}-Evolving \textbf{S}elf-Play \textbf{T}imeline \textbf{A}gents (CoSTA), which organizes facts
+    into navigable timelines, delegates investigations to workers, and uses a coordinator to synthesize their original timestamped observations. CoSTA
+    initializes a shared policy through role-conditioned distillation and jointly optimizes both roles through co-evolving self-play with final-answer
+    rewards. Across three benchmarks, CoSTA achieves state-of-the-art overall performance, with particularly strong gains on complex multi-fact
+    questions, while its compact variants outperform the evaluated closed-source LLM agents.
+
+=== END OF BATCH b036 (50 records) ===

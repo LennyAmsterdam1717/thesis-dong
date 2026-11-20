@@ -1,0 +1,645 @@
+BATCH b041 -- 50 records: R01744 .. R01793
+
+### R01744 | 2025 | preprint/None | Lang: en
+TI: Homogenizing Effect of a Large Language Model (LLM) on Creative Diversity: An Empirical Comparison of Human and ChatGPT Writing
+AB: Generative AI systems, especially Large Language Models (LLMs) like ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human creations, their widespread use risks
+    reducing the diversity of creative outputs across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMS
+    on collective creativity. Across three preregistered studies, we analyzed 2,200 college admissions essays. Using a novel measure—diversity growth
+    rate—we showed that each additional human-written essay contributed more new ideas than each additional GPT-4 essay. This homogenizing effect
+    persisted even after a range of enhancements to the diversity of the GPT-4 writings, including prompt and parameters modifications. Overall, our
+    findings suggest that, despite improvements in individual creativity, the widespread use of LLMs could diminish the collective diversity of ideas.
+
+### R01745 | 2025 | preprint/None | Lang: en
+TI: Homogenizing Effect of Large Language Models (LLMs) on Creative Diversity: An Empirical Comparison of Human and ChatGPT Writing
+AB: Generative AI systems, especially Large Language Models (LLMs) such as ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human-created content, their widespread use risks
+    reducing creative diversity across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMs on creative
+    diversity, not only at the individual level but also at the collective level. Across three preregistered studies, we analyzed 2,200 college
+    admissions essays. Using a novel measure—the diversity growth rate—we showed that each additional human-written essay contributed more new ideas
+    than did each additional GPT-4 essay. Notably, this difference became more pronounced as more essays were included in the analysis and persisted
+    despite efforts to enhance AI-generated content through both prompt and parameter modifications. Overall, our findings suggest that, despite their
+    potential to enhance individual creativity, the widespread use of LLMs could diminish the collective diversity of creative ideas.
+
+### R01746 | 2025 | preprint/None | Lang: en
+TI: Homogenizing Effect of Large Language Models (LLMs) on Creative Diversity: An Empirical Comparison of Human and ChatGPT Writing
+AB: Generative AI systems, especially Large Language Models (LLMs) such as ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human-created content, their widespread use risks
+    reducing creative diversity across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMs on creative
+    diversity, not only at the individual level but also at the collective level. Across three preregistered studies, we analyzed 2,200 college
+    admissions essays. Using a novel measure—the diversity growth rate—we showed that each additional human-written essay contributed more new ideas
+    than did each additional GPT-4 essay. Notably, this difference became more pronounced as more essays were included in the analysis and persisted
+    despite efforts to enhance AI-generated content through both prompt and parameter modifications. Overall, our findings suggest that, despite their
+    potential to enhance individual creativity, the widespread use of LLMs could diminish the collective diversity of creative ideas.
+
+### R01747 | 2026 | article/None | Lang: en
+TI: Algorithmic Assistance and the Creativity Paradox: Large Language Models, Student Writing, and Cognitive Homogenisation
+AB: The adoption of large language models in higher education aids brainstorming and productivity, but raises concerns about student dependence,
+    potentially diminishing confidence in generating original ideas independently. The paper tackles these issues by carrying out a quantitative
+    survey on a sample size of 120 undergraduate and postgraduate students of four universities in Dublin, that is, Dublin City University, University
+    College Dublin, Trinity College Dublin, and Technological University Dublin. The respondents were varied in their academic backgrounds; some were
+    undergraduate or post-graduate level and this was evenly split between 46 per cent female and 54 per cent male. The survey was taking the trends
+    of using ChatGPT, the sense of creative self-efficacy, and how dissimilar students perceived academic ideas and written work. The results suggest
+    that there is a definite conflict in the application of AI tools. A significant number of respondents referred to ChatGPT in the context of the
+    idea development, increased productive, and assistance at the first drafting phase. Nevertheless, a large percentage of them experienced more
+    trouble in idea generation, and thought they were beginning to resemble the work of other students using the same system. On the whole, 67.5 per
+    cent thought that their ideas were growing closer to those who also use ChatGPT. These results imply that the positive effects of writing with AI
+    might be accompanied by the feeling of reduced originality. The paper highlights AI’s impact on creativity, emphasizing pedagogical strategies for
+    fostering independent thinking and intellectual diversity in education.
+
+### R01748 | 2025 | preprint/None | Lang: en
+TI: Dull Stable State: Recursive Training, Homogenization, and Security Risks in the Era of Large Language Models
+AB: The rapid proliferation of large language models (LLMs) has accelerated the production of online content, yet this growth introduces a recursive
+    dynamic: as models increasingly train on AI-generated text, the diversity and fidelity of outputs decline. Recent research identifies this
+    phenomenon as model collapse, where recursive self-training erodes the statistical tails of language distributions, yielding homogenized and
+    repetitive responses. Parallel studies of recommender systems highlight analogous feedback loops, including algorithmic monocultures and
+    popularity bias, that converge toward uniformity and suppress minority content. Combined, these forces risk what may be termed a dull stable
+    state: an equilibrium in which digital knowledge systems recycle their own outputs, losing novelty, accuracy, and epistemic richness. This state
+    carries profound security implications. Homogenized training corpora amplify vulnerabilities to data poisoning, adversarial prompt injection, and
+    covert manipulation, while reliance on synthetic data increases risks of privacy leakage through membership inference and undermines trust in
+    provenance. Addressing these challenges requires robust data curation, provenance standards (e.g., watermarking, C2PA credentials), and hybrid
+    training strategies that maintain human-authored input. The literature suggests that without such interventions, the pursuit of scale may trade
+    diversity for stability, locking the AI ecosystem into a fragile equilibrium with degraded utility and heightened security exposure.
+
+### R01749 | 2026 | preprint/None | Lang: en
+TI: Not Homogenization but Bifurcation: Large Language Models as Cognitive Amplifiers (The AI-Induced Subjectivity Crisis Series, Paper 7)
+AB: This paper constitutes Paper 7 of the AI-Induced Subjectivity Crisis Series. Contemporary discourse on the cognitive effects of large language
+    models converges on a shared but unexamined assumption: that LLMs are a homogenizing force, producing effects of the same direction across
+    different users, varying only in degree. This paper rejects that assumption and argues for its structural opposite. LLMs function not as tools but
+    as cognitive amplifiers — a categorical distinction, not one of degree. Tools operate outside cognitive structure; LLMs intervene at the level at
+    which language and thought occur, responding in real time to the user's narrative framework and returning its internal logic in a more complete,
+    more rigorous version through the mechanism of meaning refinement. The direction of amplification is not supplied by the amplifier but by the
+    input signal: the user's existing subjectivity structure. The paper argues for three mutually dependent propositions. First, meaning refinement
+    and borrowed subjectivity (Liu 2026f) constitute the two dimensions of the amplifier mechanism: meaning refinement provides the force of
+    amplification; borrowed subjectivity provides its direction. Their superposition produces not cognitive reflection but the structural
+    reinforcement of existing cognitive tendency. Second, the same LLM mechanism produces structurally opposite effects in users with different
+    subjectivity structures. Users with robust subjectivity structures are reinforced through two independent positive feedback loops: the reactance
+    activation mechanism, whereby LLM's unlimited compliance triggers a demand for genuine other-friction in reality; and the confidence leverage
+    mechanism, whereby LLM's meaning amplification is converted into the starting point for real-world action rather than consumed as a narrative
+    endpoint. Users with fragile subjectivity structures undergo accelerated abdication of subjectivity — LLMs not only satisfy dependency needs but
+    systematically remove the friction conditions that, in Kegan's developmental framework, are required for the transition from the Socialized Mind
+    to the Self-Authoring Mind. Third, the antecedent variable of this mechanism — subjectivity structure strength — is logically prior to and
+    measurably independent of LLM effects. Kegan's theory of adult development, established decades before LLMs, provides the philosophical anchor:
+    the distinction between the Socialized Mind and the Self-Authoring Mind describes structural differences formed within genuine interpersonal
+    friction, not reactions to any technological environment. Block and Kremen's Ego Resiliency Scale (ER89) provides an operationalization pathway,
+    demonstrating that the differentiation axis can be independently measured prior to LLM intervention and is not a synonym for LLM effects. The
+    historical dimension of this argument reveals a structural rupture in the history of cognitive tools. Previous cognitive inequality was located at
+    the level of accessibility — tool democratization dissolved the inequality. LLM's cognitive inequality is located at the level of the structural
+    effects produced during user-tool interaction: tool democratization does not dissolve this inequality but diffuses the unidirectional
+    amplification mechanism across a larger population, simultaneously accelerating differentiation in both directions. Equality of access does not
+    equal equality of cognitive structure. The paper further argues that LLMs introduce intra-generational differentiation at a speed unprecedented in
+    cognitive history, and a generational fault line whose depth will only become fully visible as the first generation to form its cognitive
+    structural foundations within a LLM-saturated environment reaches cognitive maturity. The paper passes no moral verdict on either end of the
+    differentiation spectrum, treats the consequences of differentiation as open and condition-dependent, and explicitly stops at the philosophical
+    argument for the mechanism. Observable indicators, institutional friction-compensation strategies, and the interaction between the differentiation
+    axis and existing structures of social inequality are reserved as agendas for subsequent empirical and normative research.
+
+### R01750 | 2026 | article/None | Lang: en
+TI: Attention-Enhanced Large Language Model-Guided Semantic Fusion for Representation Learning in Historical Cultural Knowledge Graphs
+AB: Historical-cultural collections contain heterogeneous descriptions that are difficult to compare as isolated records. This protocol organizes
+    these descriptions into evidence-supported knowledge graphs and combines structural and textual representations for relation-learning tasks. The
+    workflow comprises corpus selection and provenance recording, domain ontology design, text normalization, candidate entity detection,
+    schema-constrained large language model (LLM) extraction, evidence checking, entity alignment, and graph export. Generated descriptions and local
+    subgraph summaries are constrained by source evidence and encoded with the BGE-m3 text embedding model. A relation-aware graph attention encoder
+    provides structural representations, which are projected into a shared space and combined with semantic representations through a
+    relation-conditioned gate. Link prediction and relation classification provide the principal quantitative evaluations. The Chinese
+    historical-cultural collection illustrates the protocol with 6,744 normalized entities and 46,284 retained triples from 10,998 text entries. The
+    fusion model achieves a mean reciprocal rank of 0.624, Hits@10 of 0.828, and a relation-classification macro-F1 of 0.865. Baseline and ablation
+    comparisons indicate complementary contributions from structural and semantic information. Application to another collection involves
+    language-appropriate preprocessing, a domain-specific ontology, documented alignment decisions, and evaluation that controls shared-source
+    information across data partitions.
+
+### R01751 | 2026 | preprint/None | Lang: en
+TI: "Can AI Predict the 'Diversity Premium'? Reassessing Knowledge Diversity in NSF Grant Proposals Through Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01752 | 2026 | preprint/None | Lang: fr
+TI: LLM Homogenisation
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01753 | 2026 | article/None | Lang: en
+TI: Introducing Cultural Knowledge in Language Models: KazCulture Dataset for Kazakh Culture
+AB: Although Large Language Models (LLMs) have achieved significant advances in linguistic fluency, they often suffer from a lack of cultural
+    knowledge associated with low-resource languages. This deficiency could challenge their integration into high-stakes applications across diverse
+    regions. In this paper, we present a systematic method for embedding nation-specific cultural knowledge into LLMs, using Kazakh culture and
+    language as a case study. We present KazCulture, a robust Kazakh culture-specific dataset composed of 16,137 human-crafted Passage-Question-Answer
+    (PQA) triplets. KazCulture is rigorously curated from 11 books related to culture and the Koshpendiler.kz digital archive, capturing deep cultural
+    semantics in areas such as customs, traditions, beliefs, cuisine, and household practices. Using KazCulture, we evaluated 36 LLMs, including
+    proprietary frontier models and open-source alternatives. Our benchmarking reveals a critical disparity: while proprietary models like GPT-5 and
+    Gemini-2.5-Pro achieved up to 80% accuracy, open-source models struggled significantly. To bridge this gap, we propose a two-stage adaptation
+    pipeline: 1) perform fine-tuning on a general multilingual dataset (ISSAI-SFT) for linguistic robustness, then 2) run targeted fine-tuning on
+    KazCulture. This method boosted the accuracy of the Qwen3-32B model from a baseline of 39.51% to 64.54%. KazCulture provides a timely contribution
+    to Artificial Intelligence (AI) research as both a rigorous benchmark for Kazakh-culture-related knowledge and a training resource to develop
+    different culture aware LLMs. The dataset is available at https://huggingface.co/datasets/issai/KazCulture.
+
+### R01754 | 2026 | article/None | Lang: en
+TI: Human-AI Interaction in L2 Writing Support: Homogenization in LLM Revisions of Learner Errors
+AB: This study examines whether different large language models revise the same L2 learner errors in similar ways. The dataset included 100 error
+    units from IELTS Academic Writing Task 1 responses written by Chinese EFL learners. Each error unit was revised by 3 mainstream Large language
+    models (LLMs): GPT-4o-mini, DeepSeek-V3, and Gemini Flash to test how similar their outputs are. Two measuring methods were introduced to do the
+    analysis: BERTScore F1 was used to measure similarity in meaning, and Jaccard Similarity was used to measure overlap in wording. The study also
+    examined whether learner-language features were retained, reformulated, or removed after revision. The results show clear similarity across the
+    three models, especially at the meaning level. Grammar-related and collocation errors produced the most similar revisions. The findings suggest
+    that LLM-based revision can improve accuracy and fluency, but it can also overlook interlanguage features for the purpose of standardized writing.
+    LLM feedback is therefore better used for comparison and reflection than as a final answer.
+
+### R01755 | 2026 | preprint/None | Lang: en
+TI: B1 2026Q1 FULL25 — Analysis and Materials Registration: LLM Forecast-Error Homogenization
+AB: This registration archives the materials for the B1 2026Q1 FULL25 measurement exercise on LLM forecast-error homogenization. It includes the
+    frozen prediction file, checksum, SEC EDGAR/XBRL truth file, and Python analysis script. The full registration document is uploaded as
+    OSF_预注册正文.md. This is an analysis and materials registration, not a prospective pre-registration.
+
+### R01756 | 2026 | article/None | Lang: en
+TI: Epistemic injustice and phenomenological reductionism in psychiatric AI: an empirical-philosophical analysis
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01757 | 2025 | preprint/None | Lang: en
+TI: Impersonal Statements: LLM-Era College Admissions Essays Exhibit Deep Homogenization Despite Lexical Diversity
+AB: Concerns that AI will homogenize human thinking—and homogenization findings in lab contexts—appear at odds with findings that AI-assisted content
+    is judged as highly original. Using a multi-method approach that combined a controlled experiment with two large-scale natural experiments in over
+    160,000 U.S. college admissions essays, we observed a counterintuitive pattern: AI-assisted essays and essays written after the release of ChatGPT
+    showed greater lexical diversity, but the increasingly diverse words actually expressed increasingly homogeneous ideas. This “paradoxical
+    homogenization” pattern was robust across demographic subgroups but emerged disproportionately among applicants outside racial and linguistic
+    mainstreams. Event-time analyses and robustness checks ruled out pre-existing trends and pandemic-related confounds. The findings suggest that
+    surface-level diversity of AI-generated content masks deeper constraints on the breadth of human ideation. Extending lab-based AI homogenization
+    research, paradoxical homogenization appears to have reached real-world, high-stakes contexts where writing is expressly personal and AI use is
+    explicitly prohibited.
+
+### R01758 | 2026 | article/None | Lang: en
+TI: The Cultural Person A Conceptual Framework for Understanding LLM-Based Artificial Intelligence as the Communicative Mediator of Humanity's
+    Aggregated Cultural Knowledge
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01759 | 2025 | article/None | Lang: en
+TI: Generative AI tools in reflective essays: Moderating moral injuries and epistemic injustices
+AB: The emergence of large language models such as ChatGPT is already influencing health care delivery, research and training for the next cohort of
+    health care professionals. In a consumer-driven market, their capabilities to generate new forms of knowing and doing for experts and novices
+    present both promises and threats to the livelihood of patients. This article explores burdens imposed by the use of generative artificial
+    intelligence tools in reflective essays submitted by a fifth of first-year health sciences students. In a curriculum centred around Vision 2030 at
+    a South African university, deviations from prescribed guidelines in an essay requiring students to demonstrate an understanding of the models of
+    disability are presented as moral injuries and epistemic injustices. Considering our obligations as educators to contribute to a humanising
+    praxis, the author evaluates an eroded trust between educators and students and offers an interim solution for attaining skills in academic
+    literacy in a developing country.Contribution: This article provides health sciences educators with an opportunity to pause and reflect on how
+    they would like to integrate generative AI tools into their assessments.
+
+### R01760 | 2026 | article/None | Lang: en
+TI: The Standardization of the Digital Dialect: Artificial Intelligence, Epistemic Injustice, and the Future of Linguistic Diversity
+AB: Language has historically functioned as both a communicative system and a repository of cultural identity, social memory, and collective
+    belonging. In the contemporary digital era, Artificial Intelligence (AI) technologies increasingly mediate communication practices through
+    predictive text systems, speech recognition software, algorithmic moderation, and Large Language Models (LLMs). Although such technologies have
+    improved efficiency, accessibility, and multilingual interaction, emerging scholarship suggests that AI systems may also reproduce existing
+    linguistic hierarchies by privileging dominant and standardized language forms while marginalizing dialectal and non-standard varieties (Helm et
+    al., 2024; Hofmann et al., 2024). This theoretical paper examines how AI-driven communication systems may contribute to processes of linguistic
+    standardization and dialect marginalization within digital environments. Drawing upon Fricker’s (2007) theory of epistemic injustice, the paper
+    introduces the concept of the Digital Language Divide to explain disparities in computational recognition, linguistic legitimacy, and
+    technological visibility among speech communities. Unlike deterministic arguments that portray technology solely as a force of linguistic erosion,
+    this paper adopts a balanced perspective acknowledging that AI technologies may simultaneously expand communication access while also reinforcing
+    structural inequalities in language representation. Recent empirical studies demonstrate that some AI systems exhibit dialect prejudice,
+    particularly toward speakers of African American English and other non-standard language varieties (Hofmann et al., 2024). Additionally, emerging
+    scholarship on techno-linguistic bias argues that language technologies frequently prioritize dominant linguistic norms embedded within training
+    datasets (Helm et al., 2024). Building upon these findings, this paper theorizes how algorithmic standardization may gradually influence
+    linguistic practices, educational expectations, and communicative participation within digitally mediated societies. This paper seeks to establish
+    a conceptual foundation for future interdisciplinary inquiry into the sociolinguistic consequences of AI-mediated communication. The study
+    concludes by proposing directions for future empirical research, policy development, and inclusive AI design frameworks capable of supporting
+    linguistic diversity within digital ecosystems.
+
+### R01761 | 2026 | article/None | Lang: en
+TI: Epistemic Injustice in Generative AI: Probabilistic Generation, Trust Erosion, and the Structural Conditions of Algorithmic Knowledge Harm
+AB: Generative artificial intelligence, and large language models (LLMs) in particular, are increasingly deployed as epistemic intermediaries across
+    domains ranging from legal research to clinical decision support. This paper argues that LLMs produce a distinctive form of epistemic injustice-
+    understood, following Fricker, as a wrong done to agents specifically in their capacity as knowers-through three interrelated structural
+    mechanisms: (1) automation-induced testimonial injustice (AITI), whereby the confident and fluent outputs of LLMs systematically deflate the
+    credibility accorded to competing human testimony; (2) interpretive erasure, whereby the probabilistic compression of training corpora
+    marginalises minority epistemic frameworks through a dynamic process that simultaneously reflects and actively widens existing hermeneutical gaps;
+    and (3) epistemic debt accumulation, whereby sustained reliance on AI-mediated knowledge progressively erodes individual and collective epistemic
+    competence. Drawing on Fricker's canonical framework, Dotson's account of epistemic violence, and Bender et al.'s critique of stochastic parrots,
+    the paper further introduces the concept of Algorithmic Gettier Cases (AGCs)-instances in which LLM outputs are accidentally true yet
+    epistemically defective-as an analytical device for exposing the structural failure modes of probabilistic generation. The paper concludes with a
+    fourcomponent governance framework oriented towards testimonial transparency, hermeneutical pluralism, competence preservation, and structural
+    accountability in high-stakes deployment contexts, with each principle linked explicitly to the mechanism it is designed to address.
+
+### R01762 | 2026 | article/None | Lang: en
+TI: Epistemic Injustice in Algorithmic Systems: A Frickerian Analysis of AI-Driven Knowledge Production
+AB: Artificial intelligence is playing a great role in the production, classification, retrieval, and communication of knowledge. Tools like large
+    language models, recommender systems, automated decision-making systems, and search engines do more than just process information; they shape
+    whose testimony is heard, which concepts become available for interpreting experience, and which claims are treated as credible or important. This
+    paper argues that Miranda Fricker's theory of epistemic injustice offers a strong framework to ethically identify shortcomings in AI-enabled
+    knowledge production; however, it also suggests that, the distinction made in classical accounts between testimonial and hermeneutical injustices
+    needs to be extended in order to address them in the context of sociotechnical systems. Testimonial injustice can arise when algorithmic models
+    reproduce credibility deficits through biased training data, proxy variables, ranking practices, moderation systems, or automated classification.
+    On the other hand, hermeneutical injustice can emerge when certain communities are poorly represented in the conceptual and linguistic tools that
+    AI systems use to create explanations, categories, and interpretations. The paper further argues that the opaque nature of many AI systems
+    intensifies these harms because affected persons may be unable to understand, contest, or correct the epistemic processes that affect them.
+    Building on Fricker, Floridi, Dotson, Medina, and contemporary work in AI ethics, the paper develops an epistemic justice framework centred on
+    adequacy in represantation, credibility protection, interpretive inclusion, contestability, provenance, and institutional accountability. The
+    proposed framework treats epistemic justice not merely as a desirable output property but as a design and governance requirement for AI systems
+    that participate in consequential knowledge practices.
+
+### R01763 | 2026 | article/None | Lang: en
+TI: Hallucination as epistemic pollution: epistemic injustice and credibility in futures-oriented science education
+AB: Abstract In this critical conceptual review, I ask what generative artificial intelligence does to the distribution of epistemic authority in
+    futures-oriented science education. I argue that the phenomenon usually described as hallucination is best understood not as isolated error but as
+    epistemic pollution; that is, as a cumulative degradation of the cues by which learners judge reliability. I draw on four literature domains that
+    have developed largely in isolation, namely technical and critical work on hallucination in natural language generation, philosophical work on
+    epistemic injustice, futures studies scholarship on futures literacy, and science education research on future scaffolding and epistemological
+    access. I first distinguish classes of unsupported output and specify six conditions under which such output counts as pollution rather than
+    ordinary error, namely (1) persistence after correction, (2) circulation at scale, (3) contamination of downstream reasoning, (4) degradation of
+    shared credibility cues, (5) opacity of provenance, and (6) the externalisation of verification costs. I then position the large language model
+    not as an epistemic agent but as a component within a classroom credibility infrastructure, and I identify three mechanisms through which
+    pollution may become injustice: (i) credibility displacement, (ii) hermeneutical narrowing, and (iii) unequal verification labour. Because these
+    are conceptual hypotheses rather than demonstrated classroom effects, I state the conditions under which each would constitute an injustice rather
+    than a harm borne equally, and what evidence would test each. I finally advance five pedagogical design principles, namely (a) provenance first
+    inquiry, (b) collective verification, (c) epistemic role protection, (d) uncertainty discipline, and (e) plural futures safeguards. I offer these
+    principles as regulative ideas alongside a research agenda for their empirical evaluation.
+
+### R01764 | 2026 | article/None | Lang: en
+TI: Algorithmic Orthodoxy and Gendered Scripture: AI, Biblical Interpretation, and Epistemic Injustice in the Global South
+AB: Abstract This paper offers a critical, interdisciplinary examination of artificial intelligence ( AI ) as a theological mediator, arguing that AI
+    systems do not merely transmit religious knowledge but actively reproduce gendered epistemic hierarchies embedded in their training data. Grounded
+    in an African Technocultural Feminist framework and informed by feminist hermeneutics and critical AI studies, the study employs a qualitative,
+    discourse-analytical method based on simulated interviews with major large language models. These prompts focus on women’s roles in church
+    leadership, religious life in the Global South, and interpretations of Proverbs 31 and Ephesians 5:22–24, serving as test cases for identifying
+    recurring algorithmic biases. The findings reveal a pattern described as “soft-neutral patriarchy,” where AI systems present balanced perspectives
+    while subtly privileging dominant, often complementarian interpretations. Women are consistently represented in relation to domesticity, moral
+    responsibility, and relational spirituality, while leadership roles are framed as conditional or exceptional. In interpretations of Proverbs 31,
+    women’s agency is acknowledged but confined within domesticated and productivity-centered ideals. Similarly, readings of Ephesians 5:22–24 tend to
+    soften hierarchical submission rhetorically while maintaining its structural logic, a tendency identified as “algorithmic equilibrium bias.” The
+    study also shows how AI systems essentialize the Global South as inherently traditional, reinforcing colonial epistemic hierarchies and obscuring
+    the diversity of African women’s lived experiences. Beyond biblical texts, the paper demonstrates how AI reproduces longstanding patriarchal
+    distortions in representations of figures such as Mary Magdalene and Lilith, privileging sexualized or demonized portrayals over feminist
+    reinterpretations. These dynamics are conceptualized as forms of testimonial injustice, hermeneutical erasure, and epistemic fragmentation,
+    resulting in “algorithmic orthodoxy.” The paper concludes by advocating a decolonial reconfiguration of AI grounded in epistemic justice,
+    indigenous knowledge systems, and participatory feminist design, positioning AI as a potential tool for theological liberation and gender justice
+    in the Global South.
+
+### R01765 | 2025 | article/None | Lang: en
+TI: Generative AI Meets Open-Ended Survey Responses: Research Participant Use of AI and Homogenization
+AB: The growing popularity of generative artificial intelligence (AI) tools presents new challenges for data quality in online surveys and
+    experiments. This study examines participants’ use of large language models to answer open-ended survey questions and describes empirical
+    tendencies in human versus large language model (LLM)-generated text responses. In an original survey of research participants recruited from a
+    popular online platform for sourcing social science research subjects, 34 percent reported using LLMs to help them answer open-ended survey
+    questions. Simulations comparing human-written responses from three pre-ChatGPT studies with LLM-generated text reveal that LLM responses are more
+    homogeneous and positive, particularly when they describe social groups in sensitive questions. These homogenization patterns may mask important
+    underlying social variation in attitudes and beliefs among human subjects, raising concerns about data validity. Our findings shed light on the
+    scope and potential consequences of participants’ LLM use in online research.
+
+### R01766 | 2026 | article/None | Lang: en
+TI: Machine-Translating Feminism: Generative AI, Epistemic Injustice, and the Politics of Gendered Meaning in Indonesian Feminist Discourse
+AB: In transnational feminist knowledge circuits, generative AI has become a decisive yet insufficiently theorised mediator of gendered meaning across
+    languages. Large language models do not simply transfer words between Indonesian and English; they set the moral, political, and gendered
+    conditions under which feminist vocabularies become intelligible. This article intervenes at the intersection of feminist translation studies,
+    epistemic injustice theory, and multilingual AI critique to theorise what we term machine-translating feminism: the process through which
+    generative AI translates feminist language while reformatting feminism into a more manageable discursive object. Departing from English-centric AI
+    bias scholarship, we turn to Indonesian feminist discourse as a Global South site where womanhood, sexuality, violence, and anti-feminist backlash
+    are mediated through contested vocabularies. Through close readings of Ayu Utami’s Saman and Leila S. Chudori’s Laut Bercerita, alongside public
+    feminist vocabularies, the article identifies four diagnostic patterns of translational distortion: lexical neutralisation, moral simplification,
+    depoliticisation of structural violence, and patriarchal overcoding. The analysis shows how generative AI operates as a translation regime rather
+    than a neutral tool, producing what we term patriarchal legibility: a mode of readability in which feminist conflict becomes internationally
+    consumable by becoming less threatening to patriarchal, institutional, and Anglophone interpretive regimes.
+
+### R01767 | 2026 | article/None | Lang: en
+TI: Silenced in the Data: Epistemic Injustice as Challenge for the AI-Assisted Analysis of Abuse in the Catholic Church
+AB: This is the presentation of the long paper "Silenced in the Data: Epistemic Injustice as Challenge for the AI-Assisted Analysis of Abuse in the
+    Catholic Church" as presented at DH 2026 in Daejeon, South Korea on July 31st 2026. Abstract: This study examines epistemic injustice in Catholic
+    Church abuse discourse, focusing on marginalized adult women survivors. Using AI-assisted methods, we create an annotated corpus, apply zero-shot
+    relevance detection with generative LLMs, and perform fine-grained classification. Results reveal hidden patterns, data sparsity, and
+    methodological strategies for analyzing small, imbalanced datasets. The project “Von Epistemic Injustice zu Epistemic Awareness. Prozessbasierte
+    Methodenforschung zuMissbrauch an erwachsenen Frauen in der katholischen Kirche” (From Epistemic Injustice to EpistemicAwareness. Process‑based
+    Methodological Research on Abuse of Adult Women in the Catholic Church) isfunded by the DFG (German Research Association, project number 539293243
+    ):https://missbrauchsmuster.de/forschen/projekte/forschungsprojekt-von-epistemic-injustice-zu-epistemic-awareness-prozessbasierte-methodenforschun
+    g-zu-missbrauch-an-erwachsenen-frauen-in-der-katholischen-kirche/ More information on the Missbrauchsmuster website.
+
+### R01768 | 2026 | article/None | Lang: en
+TI: Epistemic Injustice in Generative AI: How Minority Language Systems Reproduce or Resist Digital Exclusion
+AB: Generative AI performance disparities can exclude minority-language speakers from digital participation. Drawing on Fricker’s epistemic-injustice
+    framework, we examined five Chinese minority languages using four-way causal mediation decomposition, intersectional analysis, and participatory
+    evaluation. Under the measured mediators and model specification, non-PIE components accounted for an average of 67.5% of observed disparities.
+    Tibetan speech recognition yielded a 43.9% word error rate (WER) for elderly speakers using religious and dialectal language, 6.9 percentage
+    points above the main-effects additive reference. Community evaluation prioritized religious sensitivity, while threshold rules identified
+    culturally salient failures missed by linear weighting. CAML-LLM, integrating cultural knowledge graphs, multimodal alignment, and
+    community-weighted training, reduced WER from 31.2% to 22.7% and improved cultural appropriateness by 22.5%. These findings characterize
+    model-dependent disparities and demonstrate that participatory system design can improve minority-language performance within the evaluated
+    settings.
+
+### R01769 | 2026 | preprint/None | Lang: en
+TI: Writing homogenization post-ChatGPT: Corpus evidence from a decade-long study
+AB: Description: This repository contains supplementary computational materials for the manuscript Generative AI and the Emergence of Hybrid
+    Authorship in academic writing: A Corpus-Based Analysis (2015–2024) published in the Modern Language Journal. The files provide complete R scripts
+    for machine learning classification and statistical evaluation. The code operationalizes multidimensional feature extraction across learner
+    corpora. It establishes a robust and reproducible methodological framework. Researchers can adopt this computational architecture using
+    independent historical archives. This application establishes a known baseline of unaided human authorship. Consequently, educators can
+    objectively quantify the impact of algorithmic text generation. The provided algorithms isolate the specific linguistic footprint of hybrid
+    authorship. This repository ensures full computational reproducibility for the broader academic community.
+
+### R01770 | 2026 | article/None | Lang: en
+TI: Recursive Artificial Intelligence Training and the Homogenization of Discourse
+AB: As Large Language Models (LLMs) begin to produce text on the internet, the same repository from which training data for LLMs are scraped, LLMs
+    will start to train on data they produced. What will happen to future models when LLMs are trained on their own text? Scholars have raised
+    concerns about the possibility that LLMs homogenize language and discourse. These concerns are further exaggerated as LLMs begin to infect their
+    own repositories, marking a turn from human-produced training data sets. In this paper I simulate a recursive training loop by prompting a popular
+    open-source LLM with 1000 prompts and using the output to train the same LLM, creating Model-1. I repeat this process 5 times. I then analyze
+    these outputs through the lens of Critical Discourse Analysis (CDA), a methodology which attempts to analyze discourse in terms of genre (social
+    action), discourse (topic representation), and style (authorial identity). I argue that recursive training results in an increase in homogeneity,
+    in which later outputs tend to resemble each other in terms of both vocabulary (measured through Type-Token Ratio and Self-BLEU) and format (later
+    generations unilaterally adopt features like extensive footnotes and institutional affiliation).
+
+### R01771 | 2026 | preprint/None | Lang: en
+TI: Beyond Spin: Automated Homogenisation and the Case for Engineered Friction
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01772 | 2026 | article/None | Lang: en
+TI: Whose Knowledge Becomes the Tourism Story: Generative AI, Local Knowledge, and the Future of Tourism
+AB: This systematic review examines how Generative Artificial Intelligence (GenAI) may influence local knowledge in tourism, focusing on algorithmic
+    mediation, epistemic authority, and representational justice. Synthesizing 35 articles across four literature streams published primarily between
+    2023 and 2026, covering AI technologies, local knowledge systems, computational mediation, and cultural representation, the paper examines how
+    conversational travel agents and large language models may influence destination storytelling. The synthesis indicates that GenAI can function as
+    an active intermediary rather than simply as a neutral information channel. Eleven operational transformations are identified, including
+    selection, translation, de-contextualization, recombination, and redistribution, through which local knowledge may be altered as it moves into
+    AI-mediated tourism environments. The review suggests that these processes may reproduce existing differences in tourism knowledge visibility,
+    particularly where AI systems rely heavily on digitally available and commercially prominent information while local, oral, or less digitally
+    represented knowledge remains comparatively less visible. The literature also identifies concerns regarding AI-generated inaccuracies, including
+    historical hallucinations and cultural simplification, and suggests that the fluency of AI-generated content may contribute to perceptions of
+    authority among users. From a knowledge governance perspective, the synthesis raises concerns about the implications of extracting and processing
+    traditional and Indigenous knowledge without adequate community participation, consent, attribution, or benefit-sharing, particularly in relation
+    to Indigenous Data Sovereignty. Rather than concluding that GenAI inevitably displaces traditional knowledge authorities, the review suggests that
+    it may introduce an additional layer of influence through which tourists encounter and evaluate destination knowledge. To address these concerns,
+    the paper proposes a six-pillar Responsible AI Governance Framework encompassing cultural sensitivity, transparency, inclusivity,
+    community-informed co-design, platform accountability, and respect for local ownership. The review concludes that responsible integration of GenAI
+    in tourism requires greater attention to human oversight, community participation, knowledge governance, and the rights of local knowledge
+    holders.
+
+### R01773 | 2025 | article/None | Lang: en
+TI: The Homogenizing Engine: AI's Role in Standardizing Culture and the Path to Policy
+AB: Large Language Models (LLMs) have emerged as unprecedented drivers of cultural homogenization, operating at scales and speeds that exceed all
+    previous technologies. This paper examines how LLMs reduce cultural diversity across three cultural domains. Drawing on recent empirical studies,
+    we demonstrate that LLMs disproportionately reflect a narrow demographic, primarily western, liberal, high-income, highly educated, male
+    populations from English-speaking nations, while marginalizing not only non-Western cultures but also diverse groups within Western societies,
+    including older adults, religious communities, and minority populations. Unlike earlier technologies that primarily transmitted cultural content,
+    LLMs actively shape communication styles and knowledge systems, creating a feedback loop where AI-generated content becomes training material for
+    future systems, progressively standardizing human expression with each generation. These homogenizing effects extend beyond representation to
+    behavioral influence, reshaping how users communicate and make decisions. We propose targeted policy interventions across the LLM development
+    pipeline and emphasize the critical need for standardized benchmarks to evaluate how well LLMs understand and represent diverse cultures across
+    all stages. These interventions require coordinated action among AI developers, policymakers, social scientists, and diverse cultural communities
+    to ensure that cultural diversity becomes a non-negotiable requirement rather than an optional enhancement. Without such efforts, AI risks eroding
+    humanity's cultural plurality, replacing diverse traditions with homogenized norms shaped by a narrow subset of the global population.
+
+### R01774 | 2025 | preprint/None | Lang: en
+TI: Generative AI Meets Open-Ended Survey Responses: Research Participant Use of AI and Homogenization
+AB: The growing popularity of generative AI tools presents new challenges for data quality in online surveys and experiments. This study examines
+    participants’ use of large language models to answer open-ended survey questions and describes empirical tendencies in human vs LLM-generated text
+    responses. In an original survey of participants recruited from a popular online platform for sourcing social science research subjects, 34%
+    reported using LLMs to help them answer open-ended survey questions. Simulations comparing human-written responses from three pre-ChatGPT studies
+    with LLM-generated text reveal that LLM responses are more homogeneous and positive, particularly when they describe social groups in sensitive
+    questions. These homogenization patterns may mask important underlying social variation in attitudes and beliefs among human subjects, raising
+    concerns about data validity. Our findings shed light on the scope and potential consequences of participants’ LLM use in online research.
+
+### R01775 | 2026 | article/None | Lang: en
+TI: CRIXP: Cultural Knowledge Representation for Inherent eXPlainability
+AB: Cultural awareness plays a vital role in making AI systems beneficial for a globalized audience. This cultural awareness is lacking in modern
+    decision-support systems and in the current state of the work, where explainability is the paramount requirement now from all AI systems. To
+    address this, the article introduces CRIXP, a framework with decisive cultural knowledge and the capability to explain the reasoning behind its
+    suggestions. CRIXP comprises: 1) a cultural ontology (CRO); 2) a cultural knowledge graph (CKG); 3) a general-purpose adaptable algorithm
+    providing recommendations and explanations; and 4) a CKG enrichment module. The cultural traits of all the locales are consolidated and
+    represented as an ontology and a knowledge graph. A cultural shift suggestion system has been demonstrated for recommendations and explanations.
+    The response generated is compared with ChatGPT. CRIXP is found to outperform ChatGPT by providing more relevant recommendations with inherent
+    explainability.
+
+### R01776 | 2026 | article/None | Lang: en
+TI: Lost in Translation, Lost in Nation: AI-Induced Linguistic Homogenisation as a Threat to Rastravadah
+AB: In Indian philosophy, Rastravadah is not a single, unified identity but a collection of many identities. This idea depends on the coexistence of
+    India’s many languages, dialects, and ways of speaking. This paper examines a subtle threat to that foundation: how AI can make language more
+    uniform. Large language models are mostly trained on widely used languages and tend to prefer the most standard forms. As a result, they often
+    smooth out regional expressions, dialects, and cultural details in translation, writing, and daily communication. More people are using these
+    tools to write or translate in Tamil, Malayalam, Hindi, and other Indian languages. Over time, their language starts to sound more average and
+    less unique. This slow change weakens the special qualities that have shaped India’s diverse national identity. This article argues that this
+    threat to Rastravadah comes from the tools we use every day, not from official policies. First, it explains how Indian nationhood is built on
+    linguistic diversity. Next, it examines how AI can make language more uniform, focusing on training data and patterns in AI output. Finally, it
+    discusses what this means for teaching and language policy, and suggests solutions like developing regional language models and teaching critical
+    AI skills in language classes. The paper brings together ideas from philosophy, nationhood, and AI to discuss India’s linguistic and cultural
+    diversity.
+
+### R01777 | 2026 | article/None | Lang: en
+TI: Language ideologies and the homogenizing pull of generative AI
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01778 | 2026 | article/None | Lang: en
+TI: The Artificial Hivemind: Rethinking Work Design and Leadership in the Age of Homogenized AI
+AB: This article examines the organizational implications of behavioral homogeneity in large language models (LLMs), a phenomenon we term the
+    "Artificial Hivemind." Drawing on a comprehensive analysis of 26,000 real-world user queries and 70+ language models, we reveal that contemporary
+    AI systems exhibit pronounced intra-model repetition and inter-model convergence, generating strikingly similar outputs despite variations in
+    architecture, training, and scale. From an organizational leadership and work design perspective, this convergence poses critical challenges: the
+    erosion of creative diversity in AI-assisted workflows, the potential amplification of groupthink in decision-making processes, and misalignment
+    between organizational needs for pluralistic solutions and AI capabilities. We introduce evidence-based organizational responses spanning
+    leadership communication strategies, work redesign initiatives, and governance frameworks. Our findings demonstrate that current reward models and
+    AI evaluation systems are miscalibrated to human preferences when responses exhibit comparable quality but divergent styles—a critical gap for
+    organizations deploying AI at scale. This research provides practitioners with actionable frameworks for diagnosing AI homogenization in their
+    workflows, redesigning roles to preserve human creativity, and building governance structures that promote cognitive diversity rather than
+    algorithmic conformity.
+
+### R01779 | 2025 | preprint/None | Lang: en
+TI: Generative AI and Content Homogenization: The Case of Digital Marketing
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01780 | 2026 | article/None | Lang: en
+TI: The Algorithmic accent: investigating the homogenization of linguistic identity in AI-mediated classrooms
+AB: AI has become ubiquitous in schools, and personalised learning carries a cost that is rarely discussed: the flattening of student identity. This
+    paper examines the algorithmic accent - the way Large Language Models (LLMs) often default to a standardized, Western-centric linguistic style
+    that can overshadow diverse student voices. The technology is quick. But that speed comes with a quieter effect: it eliminates local dialects and
+    cultural speaking style along the way. Most research so far asks only whether students achieve improved grades using AI; how this impacts a
+    student's sense of self, and their ability to negotiate multiple cultures, remains an enormous gap. We report on a two-month, teacher-led
+    observation of 15 university students (semesters 1-5) enrolled in an academic writing course at an academy in Pakistan, all of whom gave informed
+    consent to participate. Drawing on translanguaging (Wei, 2018) and the concept of Global English standardisation (Agarwal et al., 2025), we
+    suggest these tools function as a filter rather than a mirror. Students are led to exchange their own voice for the words of the algorithm-more
+    fluent, perhaps, but missing the social texture that makes a language human. We recommend a pedagogical approach in which AI becomes a tool for
+    exploring language, not a template for conforming to it. / Keywords: algorithmic accent, linguistic identity, linguistic homogenization,
+    translanguaging, ai-mediated classrooms
+
+### R01781 | 2026 | article/None | Lang: en
+TI: Countering AI homogenisation: Developing adaptable writers through multi-genre pedagogy
+AB: As AI-assisted writing tools become an increasingly routine presence in higher education, concerns have emerged about the homogenisation of
+    academic writing in terms of style, genre, and discipline. By outsourcing creativity and voice to LLMs—which have no access to the nuances of
+    students’ writing contexts—we risk stifling our students and limiting their potential to develop into agile, adaptable writers, capable of deftly
+    managing linguistic choices for specific research communities and genres. In this context, we propose a novel approach to teaching academic
+    writing, known as multi-genre pedagogy (MGP). In MGP, we apply the principles for effective task design outlined by Swales and Feak (2023) to
+    develop tasks that require students to recontextualise their writing for different audiences and purposes through varied genres. Rather than
+    remaining tethered to prototypical fixed-genre models—which can be readily conjured up by LLMs—this pedagogy requires a human-centred approach,
+    sensitive to the situated nature of writing and the specific institutional, disciplinary, and communicative contexts in which students operate. If
+    AI risks promoting an homogenisation of writing, this approach is calibrated towards cultivating the opposite: stretching students to diversify
+    their writing in response to the unfamiliar and evolving communicative demands of contemporary academia.Our project draws on the framework
+    developed by Tardy et al. (2020), which conceptualizes genre knowledge and metacognition as key components of effective recontextualisation. We
+    distinguish between genre-specific knowledge and genre awareness, an adaptable understanding of how genres function. These forms of knowledge
+    interact with metacognitive processes, particularly writers’ ability to monitor and regulate their own strategies when navigating unfamiliar
+    communicative demands. By foregrounding recontextualisation rather than static mastery, this framework supports a pedagogical shift from writing
+    within genres to writing across them, an approach well-suited to the disciplinary and communicative challenges of the present moment.Our project
+    draws from data collected from doctoral students in Sweden, the United Kingdom, the United States, and Norway. Drawing on student writing,
+    classroom recordings, and interviews, we aim to assess both the pedagogical impact of MGP and the metacognitive processes it may activate. By
+    comparing cases across national and institutional contexts, we seek to identify how MGP supports students in developing transferable writing
+    strategies.We will share task examples and emerging insights from the initial stages of the project and reflect on the methodological challenges
+    and opportunities of evaluating writing transfer in authentic classroom settings where AI-assisted tools increasingly form part of students’
+    writing environments. Rather than treating AI use as a variable to be controlled or an affordance to be exploited, the study de-centres LLMS and
+    focuses on the role of teachers and their professional judgment in designing and sustaining pedagogical practices that foreground rhetorical
+    choice and context-sensitive adaption. Ultimately, the project aims to inform L2 writing and EAP course design by demonstrating how multi-genre
+    pedagogy can support the development of adaptable, rhetorically aware writers while maintaining writing as a meaningful human practice in evolving
+    academic contexts.
+
+### R01782 | 2025 | article/None | Lang: en
+TI: Unveiling the inverted-U shape: how firm knowledge diversity influences the industry distance of CVC investment
+AB: Purpose In the era of a knowledge-driven economy, corporate venture capital (CVC) has emerged as a vital mechanism for fostering innovation and
+    strategic growth among incumbents. However, a crucial aspect that has been somewhat overlooked is why incumbents choose to invest in technology
+    ventures in specific areas rather than others. This study aims to fill this gap by exploring the relationship between firm knowledge diversity and
+    the strategy of CVC investment based on the knowledge-based view. Design/methodology/approach The authors’ analysis is based on data covering CVC
+    investments from established Chinese manufacturing firms. The authors integrated data from CV Source, IncoPat, the Chinese Research Data Services
+    Platform and China Stock Market and Accounting Research (CSMAR) to create the data set. Given the discrepancy between the industry classifications
+    for startups in CV Source and those for investors in CSMAR, we implemented a large language model to analyze textual business descriptions of
+    startups to map them onto industry codes consistent with the National Economic Industry Classification system used by CSMAR. Findings The
+    empirical results reveal that incumbents’ knowledge diversity has an inverted U-shaped effect on the industry distance of CVC investments.
+    Moreover, technological dynamism and CEO tenure negatively moderate this curvilinear relationship. These findings contribute to strategic
+    management theory and have implications for corporate investment strategies. Originality/value This study advances the CVC literature by revealing
+    a nonlinear relationship between firm knowledge diversity and industry distance of CVC investments, while taking into account boundary conditions.
+
+### R01783 | 2026 | preprint/None | Lang: en
+TI: NED-GraphRAG for Evidence-Constrained Traditional Dress Design: Integrating User Needs with Cultural Knowledge Graphs
+AB: Abstract Traditional dress design based on historical culture requires evidence that can be used within a specific design context and traced back
+    to its source. Focusing on literati gatherings in the Song dynasty, this study develops NED-GraphRAG, a GraphRAG framework that incorporates
+    contemporary user needs into the retrieval and use of cultural evidence. User needs were identified from 3,052 public online comments using
+    BERTopic, coding assisted by a large language model, and researcher review. The Analytic Hierarchy Process was then conducted with 18 target users
+    to determine the relative importance of cultural elements under three design need orientations: Historical Verification, Visual Communication, and
+    Social Ritual. Evidence drawn from historical texts, images, cultural relic materials, and modern scholarship was standardized into 2,053 evidence
+    units and organized into a cultural evidence graph containing 4,233 nodes, 12,749 relationships, and 854 manually verified semantic triples. Six
+    retrieval methods were evaluated using 30 test queries. NED-GraphRAG achieved an nDCG@10 of 0.821 and an AHP-AS@5 of 0.852, exceeding GraphRAG
+    Retrieval by 0.031 and 0.104, respectively. Claim support precision reached 0.897, and the user task success rate was 92.2%. The results show that
+    user needs can be reflected in evidence priority while the underlying cultural evidence remains unchanged. Graph relations and source controls
+    further support the traceability of evidence used in design recommendations. The framework provides a practical method for using cultural evidence
+    in the contemporary design of traditional dress.
+
+### R01784 | 2026 | article/None | Lang: en
+TI: Generative artificial intelligence drives large model generation algorithm for enhancing Chinese modern traditional cultural knowledge
+AB: Abstract To address outdated knowledge, cultural-context mismatch, weak evidence linkage, and unsupported expansion in general-purpose large
+    language model generation of traditional-cultural content, this study proposes a generative AI-driven knowledge-enhanced generation algorithm. The
+    method decouples a frozen Qwen2.5-7B-Instruct generator from an external dynamic knowledge base and uses a four-field semantic tag scheme covering
+    cultural category, historical stage, regional origin, and application scenario. Candidate evidence is ranked by vector similarity, graph
+    relations, tag consistency, source credibility, and conflict penalties, then assembled into a constrained prompt without modifying the internal
+    attention layers of the frozen model. An incremental update mechanism combines source verification, conflict detection, and expert review, while
+    factual consistency, cultural-context adaptability, and evidence coverage are used for post-generation verification. Experiments cover classical
+    texts, cultural heritage objects, intangible cultural heritage crafts, traditional Chinese opera, and folk culture, with 1,080 factual
+    question-answering samples and 360 contextual generation tasks. The proposed system achieves 88.61% factual accuracy, 95.28% answer relevance,
+    94.17% evidence faithfulness, and 92.50% cultural-context adaptability. After knowledge updating, accuracy on update-dependent questions rises
+    from 58.67% to 91.33%. These results indicate that the proposed framework provides a traceable, context-sensitive generation pipeline while
+    retaining a frozen generation model; between-system differences are interpreted descriptively because complete paired baseline predictions were
+    not retained.
+
+### R01785 | 2026 | article/None | Lang: en
+TI: Artificial Intelligence in Reclaiming and Preserving Hausa Language and Cultural Knowledge: An Academic Overview
+AB: This study discussed an intersection of artificial intelligence (AI) and indigenous knowledge with reference to the Hausa language, especially how
+    AI is mediating, influencing, and potentially disrupting culturally ingrained epistemologies in the academic context. While on one hand, AI is
+    efficient in translation, text generation, and data processing, its effectiveness, on the other hand, depends on the availability of
+    highly-resourced language datasets, which marginalise low-resource languages, distorting meaning and flattening epistemic and interpretative
+    depth. Using a qualitative research methodology, this conceptual analysis examines AI-produced Hausa texts and draws on previous studies to
+    identify problems in linguistic representation. Observations from 15 respondents (researchers and students) reveal a series of problems in the
+    context of linguistic representation, tonal accuracy, and culturally-based interpretation. Informed by cultural hermeneutics, it becomes clear
+    that AI is unable to reproduce the contextual, moral, and philosophical richness in Hausa proverbs and written poetry, oral narratives, and the
+    ‘Ajami’ manuscripts. Using the ChatGPT tool to translate some Hausa words and proverbs, the results reveal that indigenous knowledge has been
+    reiterated into Hausa-based AI corpora, with online archiving and humanities-driven partnerships between linguists and AI engineers. The paper,
+    therefore, considers African languages as the epistemic partners, as opposed to marginal datasets, such that the integration of AI would continue
+    to contribute to the cultural and academic authority.
+
+### R01786 | 2026 | preprint/None | Lang: en
+TI: The Atom Test: Does Forecast Error Travel With the Model or the Agent? A Sixth Pre-Registered Test of the Homogenisation Mechanism
+AB: Sixth registered test of the homogenisation mechanism (companion to SSRN 7174958; prior registrations osf.io/gf82j, a8yk2, ev78k, r8hgy, w53cd —
+    the last confirming post-2006 model homogenisation in East Pacific hurricane guidance on held-out data). This test targets the theory's
+    foundational primitive directly: that an informed agent's error contains a bias shared with all users of the same interpretive model. In
+    ForecastBench's open archive, named base LLMs (models) each run under multiple prompting scaffolds (users), on identical question sets with public
+    resolutions, across 31 biweekly rounds. Primary hypothesis: holding the question fixed, same-base-model/different-scaffold forecast-error pairs
+    correlate more than different-base-model/same-scaffold pairs. A null or negative result means the primitive fails its first direct test and will
+    be reported as such. Gates were calibrated by a disclosed structure-only pilot (file enumeration and record counts; no forecast, resolution, or
+    correlation touched); no deviation analysis is permitted. Prior art on cross-LLM correlation levels (Kim et al., ICML 2025; Spiro 2026) is
+    distinguished in the document: the registered claim is the one-dimension-at-a-time contrast. The attached PDF governs; analysis begins only after
+    this deposit.
+
+### R01787 | 2026 | preprint/None | Lang: en
+TI: When AI Misreads the Human Face: Algorithmic Homogenization and the Erasure of Human Appearance Differences
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01788 | 2026 | article/None | Lang: en
+TI: Structures of Signs without Cultural Knowledge. Narrative Competence and Cultural Specificity in AI-Generated Fiction
+AB: This article argues that narrative competence and cultural competence are independent variables in AI-generated fiction: a text can be mimetically
+    vivid, synthetically controlled, and thematically coherent while getting its cultural and historical substance precisely wrong. To demonstrate
+    this, it compares two systems – ChatGPT, a globally trained commercial model, and PLLUM, a Polish academic model – across a corpus of ten prompts
+    requiring short stories set in post-1939 Polish contexts, with the culturally decisive reference embedded in the situation rather than stated. The
+    method combines two instruments applied in sequence: James Phelan’s tripartite (mimetic, synthetic, thematic) model, adapted posthumanistically to
+    treat AI outputs as “structures of signs” rather than rhetorical acts; and a cultural competence rubric assessing factual accuracy, nuance,
+    contested material, and depth of embedding. Two case studies – a 1967 Krak.w scene and a contemporary scene turning on the rapper Mata’s
+    Patointeligencja – yield a typology of four failure modes: Generic Approximation, Emotional Inversion, Content Substitution, and Perspectival
+    Misreading. The discussion proposes a distinction between cultural familiarity and historical situatedness, and argues that the transparency
+    asymmetry between academic and commercial AI is constitutive of the question of whose cultural knowledge these systems encode.
+
+### R01789 | 2026 | article/None | Lang: es
+TI: Entre la homogeneización automatizada y la subjetividad formativa: la escritura académica frente a la inteligencia artificial generativa
+AB: La escritura académica no es una tarea mecánica ni una actividad formal desprovista de implicación, sino una forma de pensamiento que compromete
+    al sujeto con lo que dice, cómo lo dice y desde dónde elige decirlo. Por ese motivo, este estudio analiza cómo la introducción de inteligencia
+    artificial generativa (IAGen) incide en la producción textual de estudiantes universitarios, con el objetivo de examinar las diferencias
+    discursivas entre textos generados por IA y textos escritos manualmente. Se compararon 132 textos elaborados a partir de una misma consigna, 82
+    por estudiantes y 50 por ChatGPT-4o, mediante análisis cualitativo temático con Atlas.ti e indicadores estructurales. Los resultados muestran que
+    el 95,88% de los fragmentos generados por IAGen se ajusta a modelos homogéneos, impersonales y previsibles, mientras que el 50,8% de los textos
+    estudiantiles incluye posicionamientos explícitos, referencias a la experiencia y elecciones expresivas que evidencian apropiación del discurso.
+    Esta diferencia permite comprender que el uso de IAGen, si no se acompaña de un trabajo consciente sobre la escritura, reduce la posibilidad de
+    construir una voz propia y de establecer una relación crítica con el lenguaje. Integrar estas herramientas en la universidad exige condiciones que
+    permitan asumir el decir como parte del proceso formativo.
+
+### R01790 | 2025 | preprint/None | Lang: en
+TI: Scaffolding Creativity or Homogenizing Outputs?: GPT-based Virtual TA’s Impact on Student Ideation in Graduate Education
+AB: The rapid integration of large language models in education presents both opportunities and challenges for creative ideation in graduate learning.
+    This quasi-experimental study examines JeepyTA, a GPT-powered teaching assistant and discussion agent, and its impact on students’ educational
+    applications of a commercial video game. Comparing 2023 (without JeepyTA) and 2024 (with JeepyTA), findings show that JeepyTA significantly
+    increased the production of fully formed ideas, suggesting its role in scaffolding ideation. However, its impact on idea quality depended on prior
+    domain knowledge, with familiarity moderating effectiveness. While JeepyTA boosted idea quantity, it did not simply generate superficial
+    responses. Notably, JeepyTA-driven ideation led to a higher volume of contributions but with creative homogeneity, whereas student-driven ideation
+    produced more unique, context-rich ideas. These findings highlight the importance of prior knowledge in maximizing the benefits of generative AI
+    and offer insights into integrating AI tools to support, rather than substitute, independent creative thinking in graduate education.
+
+### R01791 | 2026 | article/None | Lang: en
+TI: Bias in the Wires: Epistemic Harms of Linguistic Homogenization in AI-Asisted Writing
+AB: Hundreds of millions of users now rely on AI-generated writing for ideation, drafting, and revision. As models make linguistic decisions about
+    their writing, they create preferences that extend to users, reshaping our capacity to articulate who we are in ways that are just beginning to be
+    understood. By drawing on research in computer science, psychology, ethics, and sociolinguistics, this paper traces how LLMs acquire and transmit
+    linguistic bias. Users internalize AI preferences, subtly homogenizing linguistic decisions in ways that impact communities unevenly. This
+    constitutes a form of algorithmic epistemic injustice, which harms writers through deflated credibility and the loss of culturally-specific frames
+    necessary for identity formation. Any ethical framework for AI-assisted writing must therefore prioritize linguistic plurality as a means to
+    sustain equitable expressive autonomy.
+
+### R01792 | 2026 | article/None | Lang: id
+TI: Developing the Cultural Meaning Preservation Assessment (CMPA): A Multidimensional Methodology for Evaluating AI-Assisted Translation of
+    Indigenous Cultural Knowledge Units
+AB: ABSTRAK Kemajuan Akal Imitasi (AI) telah meningkatkan kualitas terjemahan melalui berbagai sistem terjemahan berbantuan AI yang menghasilkan
+    terjemahan lebih cepat dan lebih akurat secara linguistik dibandingkan sebelumnya (Koehn, 2020; Toral & Way, 2018). Namun, AI masih menghadapi
+    tantangan dalam mempertahankan makna budaya, khususnya pada Indigenous Cultural Knowledge Units (ICKUs) yang merepresentasikan identitas historis,
+    sosial, dan budaya masyarakat adat. Penelitian ini bertujuan mengembangkan Cultural Meaning Preservation Assessment (CMPA), yaitu metode
+    multidimensi untuk mengevaluasi kemampuan sistem AI dalam melestarikan makna budaya pada terjemahan ICKUs dari Kutai Adat Lawas. Penelitian
+    menggunakan desain deskriptif kualitatif dengan korpus sebanyak 25 ICKUs yang diperoleh dari Badan Registrasi Wilayah Adat (BRWA) dan Indonesia
+    Kaya. Sebagai acuan evaluasi, dikembangkan Human Gold Standard Translation (HGST) menggunakan teknik peminjaman dan deskripsi (Newmark, 1988).
+    Selanjutnya, terjemahan yang dihasilkan oleh Google Translate, DeepL, ChatGPT, Gemini, dan Claude dievaluasi menggunakan enam dimensi CMPA, yaitu
+    pelestarian leksikal, semantik, budaya, historis, pragmatik, dan identitas pribumi. Hasil penelitian menunjukkan bahwa meskipun sebagian besar
+    sistem Akal Imitasi (AI) memiliki kinerja yang baik dalam kesetaraan leksikal dan semantik, pelestarian makna historis, pragmatik, dan budaya
+    masih menjadi kelemahan utama. CMPA memberikan kontribusi metodologis sebagai kerangka kerja holistik untuk mengevaluasi pelestarian makna budaya
+    dalam terjemahan berbantuan Akal Imitasi (AI). Keywords: Artificial Intelligence-Assisted Translation, Cultural Meaning Preservation Assessment
+    (CMPA), Indigenous Cultural Knowledge Units (ICKUs), Translation Quality Assessment, Cultural Meaning Preservation, Kutai Adat Lawas. ABSTRACT
+    Recent advances in Artificial Intelligence (AI) have significantly improved translation quality through the development of AI-assisted translation
+    systems capable of producing faster and more linguistically accurate translations than previous approaches (Koehn, 2020; Toral & Way, 2018).
+    Nevertheless, AI continues to face challenges in preserving cultural meaning, particularly when translating Indigenous Cultural Knowledge Units
+    (ICKUs), which embody the historical, social, and cultural identities of Indigenous communities. This study aims to develop the Cultural Meaning
+    Preservation Assessment (CMPA), a multidimensional assessment framework designed to evaluate the ability of AI-assisted translation systems to
+    preserve the cultural meaning of ICKUs derived from Kutai Adat Lawas. The study employed a qualitative descriptive research design using a corpus
+    of 25 ICKUs collected from the Badan Registrasi Wilayah Adat (BRWA) and Indonesia Kaya. A Human Gold Standard Translation (HGST) was developed as
+    the evaluation benchmark using borrowing and descriptive translation techniques (Newmark, 1988). Translations generated by Google Translate,
+    DeepL, ChatGPT, Gemini, and Claude were subsequently evaluated using the six dimensions of the CMPA framework: lexical, semantic, cultural,
+    historical, pragmatic, and Indigenous identity preservation. The findings indicate that although most AI systems perform well in achieving lexical
+    equivalence and semantic accuracy, preserving historical, pragmatic, and culturally embedded meanings remains a major challenge. The proposed CMPA
+    makes a methodological contribution by providing a holistic framework for evaluating cultural meaning preservation in AI-assisted translation.
+    Keywords: Artificial Intelligence-Assisted Translation; Cultural Meaning Preservation Assessment (CMPA); Indigenous Cultural Knowledge Units
+    (ICKUs); Translation Quality Assessment; Cultural Meaning Preservation; Kutai Adat Lawas.
+
+### R01793 | 2026 | preprint/None | Lang: en
+TI: The Syntactic Exoskeleton: How Generative AI Homogenizes the Structure of Arabic-L1 English Academic Writing
+AB: [NO ABSTRACT AVAILABLE]
+
+=== END OF BATCH b041 (50 records) ===

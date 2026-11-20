@@ -1,0 +1,144 @@
+BATCH b043 -- 11 records: R01844 .. R01854
+
+### R01844 | 2026 | conference-paper/None | Lang: en
+TI: Measuring AI-Induced Disempowerment: A Framework and Proposed Metrics
+AB: AI systems are embedded in economic production, public discourse, governance, and personal decision-making, yet there is little empirical
+    infrastructure for tracking whether this integration erodes humans' ability to meaningfully shape outcomes that affect their lives.We argue that
+    measuring AI-induced disempowerment is both urgent and tractable, and lay out a research agenda for doing so.We first operationalize
+    disempowerment through Sen's model of agency and a three-layer model of exposure, erosion, and lock-in, applied across economic, political, and
+    cultural domains at individual, institutional, and civilizational scales.We survey existing measurement efforts and show that current work
+    clusters almost entirely at exposure, leaving erosion and lock-in largely unaddressed.We then propose six concrete metrics (centaur evaluations,
+    disempowerment perception surveys, AI content saturation and cultural convergence monitoring, monitoring capital flow to and from human labor,
+    human task frontier tracking, and institutional ethnography) and identify which actors are best positioned to implement each.We close by
+    discussing limitations and open challenges, including construct validity across levels of analysis, causal attribution, the distinction between
+    disempowerment and adaptation, and the political economy of measurement.
+
+### R01845 | 2026 | preprint/None | Lang: en
+TI: "Code Is Cheap. Show Me the Talk.": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course
+AB: Generative Artificial Intelligence (GenAI) coding tools are transforming visualization education. They can assist with implementation and design,
+    but they can also let students bypass intended learning trajectories. In this paper, we share our retrospective experience managing and teaching
+    AI use in an upper-level visualization course. We implemented prompt injections, asked oral checkout questions, and taught two AI coding labs.
+    Prior to our coding labs, at least half of the students had already used AI tools in their assignments. In both AI coding labs, refinement
+    accounted for about half of students' prompting logs, and explanation was almost absent. In the lab where AI coding was optional, 44 of 78 (56.4%)
+    submissions preferred the scaffolded instructions over designing their own prompts. Students' final projects were more polished than in our
+    previous offering, but also more visually homogeneous. Our reflections point to the need for clearer AI use boundaries and instruction on
+    prompting, and for teaching students to question generic AI designs and adapt them to their data and story.
+
+### R01846 | 2026 | preprint/None | Lang: en
+TI: The Verification Paradox
+AB: When a student uses generative AI to produce academic work, the capacity to verify that work fails for two parties, for two reasons, at two
+    moments. The teacher, examining the finished artifact, cannot determine who performed the thinking. The student, situated inside the process of
+    production, cannot determine whether the material the system has supplied is correct, deep, or safe to build upon. This paper concerns the second
+    failure. It argues that a student operating outside their own domain of competence faces three distinct verification problems-correctness, depth,
+    and calibration-and that the third is the most consequential, because it is not a failure to check but a failure to recognize that anything
+    requires checking. The paper then argues that this predicament is not reducible to the familiar condition of novice ignorance. AI-sourced claims
+    differ structurally from textbook-sourced claims in a way that is independent of quality: no accountable party stands behind any particular
+    sentence, which removes the external correction mechanism that has historically made novice learning survivable. Following recent work on the
+    testimony gap, the paper shows this difference to be structural rather than incidental, and therefore permanent: it does not resolve as the
+    underlying systems improve. Finally, the paper argues that the most natural institutional response-verifying student understanding through oral
+    defense-cannot close the gap, because ownership and validity are independent variables. A student can genuinely own a false claim. Any instrument
+    that certifies ownership while remaining blind to validity does not merely fail to detect the problem; it launders it, converting an unverified
+    claim into credentialed knowledge.
+
+### R01847 | 2026 | preprint/None | Lang: en
+TI: More Is Not More: What Matters for Diversity in LLM Opinions?
+AB: Large language models are increasingly used to simulate diverse human opinions in open-ended tasks such as synthetic surveys, focus group
+    modeling, and public opinion prediction. However, LLM outputs exhibit systematic opinion homogenization. Practitioners have explored various
+    interventions to increase diversity, but the landscape remains fragmented: different methods are evaluated in isolation with incomparable metrics,
+    and in practice they are typically deployed and upgraded simultaneously, making it difficult to attribute gains to specific components. To advance
+    a more scientific understanding of LLM output diversity, we design a factorial experiment that separates two primary intervention dimensions:
+    input conditioning (operationalized through persona depth) and interaction architecture. We evaluate all conditions on 100 real-user open-ended
+    questions across 7 models, measuring diversity with multiple complementary metrics. Our findings challenge several common assumptions. First, more
+    persona detail does not monotonically increase diversity. The initial step of persona conditioning already captures the majority of the gain,
+    while further elaboration with demographic detail does not consistently improve and can reduce diversity on some models. Second, rather than
+    seeking a single best interaction architecture, we find that different architectures explore largely non-overlapping opinion regions. Combining
+    multiple architectures yields broader coverage than optimizing any one. Third, commonly attempted low-cost alternatives such as raising sampling
+    temperature and adding diversity instructions produce negligible effects compared to structured interventions. Overall, our work demonstrates that
+    diversity is not a product of scaling along any single dimension, but is highly sensitive to the structural form and combination of interventions.
+
+### R01848 | 2026 | article/None | Lang: ru
+TI: Модели автоматической генерации учебных заданий: сравнительный обзор
+AB: The article presents a comparative analysis of models for the automatic generation of assessment tasks for university courses in the context of a
+    growing mismatch between student and instructor numbers and an increase in cases of academic dishonesty.The aim of the study is to compare
+    existing generation models according to three criteria — task variability, effort required for implementation, and explainability of results — in
+    order to reduce instructors’ workload while preserving the quality of the educational process.The methodology includes an analysis of publications
+    from 2020–2025 and a classification of models into template-based, grammar-based, statistical, graph-based, recurrent neural networks,
+    evolutionary algorithms, and large language models (LLMs).Key findings: LLMs outperform alternative approaches in the diversity of generated
+    content and computational efficiency when pre-trained models are used. Template-based and grammar-based systems are constrained by low
+    variability, evolutionary algorithms require significantly more time, and recurrent networks are inferior in maintaining semantic coherence.
+    Critical drawbacks of LLMs are limited explainability and a tendency to hallucinate, which necessitates mandatory expert oversight of outputs.The
+    work has practical relevance for developers of educational systems and for instructors seeking to scale instruction while retaining pedagogical
+    control.
+
+### R01849 | 2026 | book/None | Lang: en
+TI: Guidelines for the Responsible Use of AI in STEM Education Research: Protecting Our Participant Communities and Research Integrity
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01850 | 2026 | preprint/None | Lang: en
+TI: Spicing up Genetic Netlist Generation with LLMs
+AB: Analog circuit topology synthesis remains challenging because useful designs occupy a tiny fraction of a combinatorial search space, and small
+    structural changes can induce highly nonlinear changes in behavior. Evolutionary algorithms are attractive because they can optimize over discrete
+    circuit topologies using only black-box evaluations, but they often require many SPICE simulations and may converge prematurely. We introduce
+    LLM-SPICEMixer, a hybrid synthesis framework that augments genetic netlist generation with IGEL (Inspiration-Guided Evolution with LLMs), an
+    LLM-based proposal operator. During search, IGEL prompts an LLM with high-performing circuits from the elite set and instructs it to generate a
+    new SPICE netlist, which is then evaluated by SPICE and selected using the same reward mechanism as conventional genetic operators. Thus, the LLM
+    contributes structured topology proposals while simulation remains the source of truth. We evaluate LLM-SPICEMixer on a challenging benchmark
+    task: synthesizing transistor-level circuits that implement a discriminant function for Iris classification. Compared with the genetic framework
+    without LLM guidance, LLM-SPICEMixer improves the median final training reward by 8.4% and the median validation-selected test reward by 8.8%. The
+    best validation-selected circuit achieves 93.3% test accuracy at the nominal tt corner and 85.9% average test accuracy across 17 process, voltage,
+    and temperature corners.
+
+### R01851 | 2026 | conference-paper/None | Lang: en
+TI: Narrowing the Horizon: Quantifying Topic Saliency Shifts in Generative Monoculture
+AB: As Large Language Models (LLMs) become central to how we access and share information, they play an increasingly powerful role in shaping global
+    knowledge.However, as these models evolve, their outputs risk converging into a generative monoculture, where the diversity of perspectives they
+    represent narrows over time.Studies at the model level often fail to pinpoint which specific topics or viewpoints are being marginalised or
+    amplified in this process.In this paper, we introduce a method to measure shifts in topic saliency across model families, tracking what gains or
+    loses prominence during post-training.Applying this approach to a case study of climate change discourse, we demonstrate how homogenisation
+    affects the representation of diverse solutions across different models.We also test interventions to counter this trend, showing that specialised
+    models can help preserve a broader range of perspectives.This underscores the importance of monitoring topic saliency to diagnose the risks of
+    monoculture and to ensure AI systems reflect a pluralism of ideas.Data and Code are accessible here.
+
+### R01852 | 2026 | preprint/None | Lang: en
+TI: Explicit Trajectory Diversity for RL-Based Post-Training of LLM Agents
+AB: LLM agents often admit multiple high-quality solutions to the same task, differing in reasoning structure, tool-use pattern, or interaction
+    trajectory. Yet existing notions of diversity in LLM post-training are mostly implicit, arising from general stochasticity and regularization
+    mechanisms rather than explicitly targeting task-relevant behavioral variation. While such implicit diversity can be useful, it does not directly
+    specify which forms of behavioral variation should be encouraged for a given task. In this work, we study explicit trajectory diversity in
+    RL-based post-training for LLMs. Our key idea is to define diversity through user-specified, task-specific trajectory descriptors, which map each
+    sampled trajectory to an interpretable behavioral representation, and then measure diversity as a set-level functional over the resulting
+    descriptor matrix. Building on this formulation, we introduce Trajectory-guided Joint Policy Optimization(TJPO), a single-policy framework that
+    optimizes explicit diversity over sampled trajectory groups, avoiding the need for population-based policy training, and instantiate it within
+    group-based policy optimization through trajectory-level learning signals. This design makes the diversity objective both interpretable and
+    controllable. Experiments on Sokoban and ALFWorld show that TJPO improves task-specific trajectory diversity while maintaining competitive task
+    performance. Descriptor and trajectory analyses show that the learned variation follows the specified behavioral dimensions and includes distinct
+    successful strategies. Extra experiment results suggest that explicitly shaping trajectory diversity can help LLM agents satisfy user requirements
+    and remain effective when task conditions change.
+
+### R01853 | 2026 | conference-paper/None | Lang: en
+TI: The Citation-Faithfulness Illusion: Measuring Whether Grounded Answers Preserve Source Disagreement
+AB: Grounding faithfulness is measured on two axes: whether the answer follows the retrieved context, and whether each claim is supported by the
+    source it cites.Both can be satisfied in full by an answer that picks one side of a genuinely contested question, cites a source that holds that
+    side, and drops the credible sources that disagree.We name this failure disagreement collapse, or the citationfaithfulness illusion, and treat it
+    as a constructvalidity hazard: a high citation score does not license the inference that the answer reflects the sources.Conflict-aware retrieval
+    already prescribes reflecting credible debate; our contribution is to make that prescription measurable.We define disagreement recall and
+    disagreement-attribution precision, both decoupled from answer correctness and conditioned on source credibility so that suppressing a debunked
+    claim is not penalized; a fivecomponent rubric with verbatim anchors; an annotation protocol for the credibility filter and for position identity;
+    a matched-pair diagnostic that holds retrieval and citation availability fixed; and a pre-registered two-judge pilot with human adjudication.No
+    empirical scores are reported; the contribution is the instrument and its frozen evaluation design.
+
+### R01854 | 2026 | preprint/None | Lang: en
+TI: Richness Is Not Evenness: Ordered Renyi Crossings under Self-Training
+AB: Recursive self-training of language models, a setting studied in model collapse, can reduce vocabulary while making frequent words, mostly
+    function words, less dominant. We fine-tune English GPT-2 on its own output for nine generations, vary the training-data sampling temperature, and
+    measure every model with one fixed sampler. As training temperature rises, Renyi entropy changes turn from loss to gain at distinct temperatures:
+    min-entropy first, then collision entropy, Shannon entropy and observed richness. Between the outer crossings, word types fall while the
+    most-common word becomes less dominant. Untruncated training at T = 1 lies in this interval: at 13,000 words, generation 9 has 24% fewer types
+    than generation 0 yet collision entropy is 0.91 bits higher. The ordering persists with a finer grid, different measurement samplers, a fixed word
+    budget and five fresh training seeds. Min-entropy again crosses before richness in four further settings (in Hindi only at interpolated roots) and
+    in 12 of 13 distinct measurements under eight text representations. Next-token identities and a categorical simulation isolate decoding and
+    sampling effects; the crossing order remains empirical. Fine-tuning on human text can produce the same split while likelihood improves, and no
+    single order's sign reliably identifies worse likelihood across the tested settings. We recommend reporting entropy profiles at stated budgets
+    with an independent quality measure.
+
+=== END OF BATCH b043 (11 records) ===

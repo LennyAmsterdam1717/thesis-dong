@@ -1,0 +1,140 @@
+{
+ "tool": "sr-screener 1.0.0",
+ "files": [
+  {
+   "file": "R1a_arxiv.ris",
+   "format": "ris",
+   "records": 363,
+   "databases": {
+    "arXiv": 363
+   }
+  },
+  {
+   "file": "R1a_openalex.ris",
+   "format": "ris",
+   "records": 335,
+   "databases": {
+    "OpenAlex": 335
+   }
+  },
+  {
+   "file": "R1b_arxiv.ris",
+   "format": "ris",
+   "records": 50,
+   "databases": {
+    "arXiv": 50
+   }
+  },
+  {
+   "file": "R1b_openalex.ris",
+   "format": "ris",
+   "records": 290,
+   "databases": {
+    "OpenAlex": 290
+   }
+  },
+  {
+   "file": "R2a_arxiv.ris",
+   "format": "ris",
+   "records": 48,
+   "databases": {
+    "arXiv": 48
+   }
+  },
+  {
+   "file": "R2a_openalex.ris",
+   "format": "ris",
+   "records": 404,
+   "databases": {
+    "OpenAlex": 404
+   }
+  },
+  {
+   "file": "R2b_arxiv.ris",
+   "format": "ris",
+   "records": 63,
+   "databases": {
+    "arXiv": 63
+   }
+  },
+  {
+   "file": "R2b_openalex.ris",
+   "format": "ris",
+   "records": 197,
+   "databases": {
+    "OpenAlex": 197
+   }
+  },
+  {
+   "file": "R3_arxiv.ris",
+   "format": "ris",
+   "records": 153,
+   "databases": {
+    "arXiv": 153
+   }
+  },
+  {
+   "file": "R3_openalex.ris",
+   "format": "ris",
+   "records": 203,
+   "databases": {
+    "OpenAlex": 203
+   }
+  },
+  {
+   "file": "R4a_arxiv.ris",
+   "format": "ris",
+   "records": 77,
+   "databases": {
+    "arXiv": 77
+   }
+  },
+  {
+   "file": "R4a_openalex.ris",
+   "format": "ris",
+   "records": 84,
+   "databases": {
+    "OpenAlex": 84
+   }
+  },
+  {
+   "file": "R4b_seed1_backward.ris",
+   "format": "ris",
+   "records": 23,
+   "databases": {
+    "OpenAlex citation chasing (backward)": 23
+   }
+  },
+  {
+   "file": "R4b_seed1_forward.ris",
+   "format": "ris",
+   "records": 42,
+   "databases": {
+    "OpenAlex citation chasing (forward)": 42
+   }
+  }
+ ],
+ "by_database": {
+  "arXiv": 754,
+  "OpenAlex": 1513,
+  "OpenAlex citation chasing (backward)": 23,
+  "OpenAlex citation chasing (forward)": 42
+ },
+ "raw_total": 2332,
+ "unique_total": 1854,
+ "duplicates_removed": 478,
+ "no_abstract": 223,
+ "overlap": {
+  "arXiv": 313,
+  "OpenAlex + arXiv": 416,
+  "OpenAlex": 1060,
+  "OpenAlex + OpenAlex citation chasing (forward)": 1,
+  "arXiv + OpenAlex citation chasing (backward)": 2,
+  "OpenAlex + OpenAlex citation chasing (forward) + arXiv": 1,
+  "OpenAlex + OpenAlex citation chasing (backward)": 1,
+  "OpenAlex citation chasing (backward)": 20,
+  "OpenAlex citation chasing (forward)": 40
+ },
+ "batches": 43,
+ "max_record_lines": 219
+}

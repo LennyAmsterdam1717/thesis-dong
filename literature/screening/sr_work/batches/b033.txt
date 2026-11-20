@@ -1,0 +1,637 @@
+BATCH b033 -- 50 records: R01344 .. R01393
+
+### R01344 | 2026 | article/None | Lang: en
+TI: Does generative AI disclosure enhance investor confidence? Evidence from China using FinBERT2-large model
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01345 | 2025 | article/None | Lang: en
+TI: Deep Learning and Natural Language Processing Research: Technological Evolution and Frontier Exploration of Hallucination Problems
+AB: With the virtue of large language models (LLMs) being applied in a growing number of fields, from text generation to medical support and financial
+    analysis, the issue of "hallucination" has gained more and more recognition. For the given instances, "hallucination" can be explained with
+    respect to artificial intelligence outputs that imitate coherent and convincing statements regardless of the underlying fact. Continuity of such
+    lapses not only can undermine credibility in LLMs, but also may catalyze problems in numerous strategies, such as law, health care, or education.
+    This paper provides a critical analysis of the currently available methods of preventing hallucinations in LLMs by outlining the
+    retrieval-augmented generation (RAG) technique, verification frameworks, and planning-based strategies. The paper particularly deals with the
+    TruthX reformulation displayed at ACL 2024, which essentially means redefining the meaning of factualism via representation editing. This dialogue
+    is rounded off by stressing the ongoing problems and future growth routes, while suggesting that multiple methods, human cooperation, and
+    efficient representation control altogether can lay the foundation for many more faithful and traceable language models.
+
+### R01346 | 2026 | article/None | Lang: en
+TI: A HALLUCINATION-RESISTANT AGENTIC RAG SYSTEM WITH MULTI-STAGE RETRIEVAL AND RESPONSE VALIDATION
+AB: —Large Language Models (LLMs) have shown great abilities in understanding and generating natural language. However, they can create hallucinations
+    by providing factually incorrect or unfounded responses. To tackle this issue, this work suggests a hallucinationresistant Agentic
+    Retrieval-Augmented Generation (RAG) system that combines multi-stage retrieval, smart re-ranking, and response validation. The system uses an
+    agentic structure, where independent agents plan, retrieve, and refine information by utilizing external knowledge sources. A multi-stage
+    retrieval pipeline brings together dense vector search, keyword-based retrieval, and query reformulation to enhance recall and coverage. The
+    retrieved documents go through a re ranking module that prioritizes contextually relevant and high confidence evidence, which reduces noise and
+    irrelevant information. To improve reliability, we add a response validation layer that uses techniques like crossverification, fact-checking
+    against retrieved evidence, and confidence scoring. This ensures that the generated outputs are based on verifiable sources and lowers the risk of
+    hallucinations. Additionally, the system includes feedback loops and iterative reasoning, allowing agents to update outputs in real-time.
+    Experimental results show that this framework greatly boosts answer accuracy, contextual relevance, and reliability compared to traditional RAG
+    systems. This research presents a scalable and modular setup for implementing trustworthy AI systems in important fields such as healthcare,
+    finance, and legal applications.
+
+### R01347 | 2026 | article/None | Lang: en
+TI: RAG Data Integrity Model: Hallucinations Are Architecture Failures
+AB: For CFOs and Board members: This framework answers the question "When does our AI investment start losing money?" in 5 minutes with 6 numbers.
+    Most enterprise AI hallucination issues are not model problems — they are data architecture problems wearing a GenAI mask. When conflicting source
+    records enter a vector index without upstream reconciliation, the RAG pipeline embeds all versions and outputs garbage. This piece reframes RAG
+    hallucination as a data architecture failure and introduces the RAG Data Integrity Model: five failure modes (conflicting embeddings, stale
+    embeddings, missing lineage, schema fragmentation, garbage semantics), each with root cause, symptom, and fix. Core principle: vector indexes are
+    derived views, not sources of truth. They must be rebuilt when source data changes via CDC-triggered re-embedding pipelines. Data reconciliation
+    must be enforced upstream from the embedding loop via data contracts at domain boundaries. Published April 2026. Licensed CC BY-NC-ND 4.0.
+    Keywords: RAG hallucination, retrieval augmented generation, AI hallucinations, vector database, data architecture, data integrity, embeddings,
+    embedding drift, vector index staleness, data reconciliation, data contracts, CDC, RAG pipeline, enterprise AI, LLM.
+
+### R01348 | 2026 | preprint/None | Lang: en
+TI: Hallucination as the Baseline: The Deceptive Economics of Enterprise AI, the Shifted Burden of Proofreading, and the FTC's Shield
+AB: Abstract: Enterprise software pricing and federal enforcement policy treat large language models as systems with an "accuracy baseline." That
+    assumption contradicts the mathematics of generative modeling. Language models are structurally indifferent to truth, bounded by trade-offs
+    between calibration and mode collapse, and trained against benchmarks that reward guessing. Grounding alters input context without introducing a
+    verification faculty. Vendors exploit this presumed baseline to market reliability while disclaiming accuracy in boilerplate terms. Rather than
+    enforcing prior substantiation, federal trade regulators established a regulatory carve-out that shields generative error from deception doctrine.
+    Evaluated under financial suitability regimes, marketing unmeasured systems into high-stakes environments constitutes mis-selling. Reversing the
+    baseline presumption eliminates this carve-out, reallocates the hidden "verification tax" from buyer to seller, and compels disclosure of the
+    unpublished failure rate. Keywords: Large Language Models, Generative AI Liability, Accuracy Baseline, Verification Tax, Mis-selling, Enterprise
+    AI Procurement, Section 5 FTC Act, Prior Substantiation Doctrine, Express Warranties (UCC § 2-313), Suitability Doctrine, Information Asymmetry,
+    Retrieval-Augmented Generation (RAG), Model Calibration, Benchmark Incentives, Labor Displacement
+
+### R01349 | 2026 | article/None | Lang: en
+TI: The Evolution of Portfolio Theory Under Risk & Uncertainty: From Mean–Variance to AI‐Augmented Investing
+AB: ABSTRACT This article summarizes the evolution of portfolio theory from mean–variance optimization to AI‐augmented investment systems. Rather than
+    treating portfolio models as isolated techniques, it organizes the literature as a sequence of responses to different forms of uncertainty:
+    variance, systematic risk, expected‐return estimation error, downside risk, tail loss, parameter ambiguity, risk‐budgeting instability,
+    conditional volatility, regime dependence, high‐dimensional prediction, and AI governance. Combining a systematic literature review,
+    public‐metadata bibliometric analysis, and thematic synthesis, the article covers leading academic journals and practitioner‐oriented outlets,
+    including JF, JFE, RFS, RF, JFQA, Management Science, FAJ, JPM, FMPM, and JAM. The survey highlights how classical portfolio theory, CAPM and
+    multifactor allocation, Bayesian/Black–Litterman models, CVaR, robust optimization, risk parity, volatility management, regime‐switching
+    allocation, parametric portfolio policies, machine learning, and LLM‐based agents form a cumulative intellectual architecture. The article is
+    designed as a compact roadmap for doctoral students, academic researchers, and quantitative researchers in hedge funds and asset management who
+    seek a rapid but rigorous understanding of how portfolio theory has evolved and how its core problems remain relevant in the AI era.
+
+### R01350 | 2026 | preprint/None | Lang: en
+TI: A Framework for Assessing and Mitigating Hallucination Risk in AI-Powered Cloud Banking and Blockchain Transactions
+AB: The integration of generative artificial intelligence into cloud banking and blockchain-based financial transactions promises substantial gains in
+    efficiency and automation, yet introduces a critical and persistent reliability risk: model hallucination. Unlike deterministic systems, large
+    language models (LLMs) generate outputs based on statistical pattern prediction rather than factual understanding, making them prone to producing
+    confident but incorrect information—a phenomenon that in high-stakes financial contexts can lead to misinformed trading decisions, regulatory
+    breaches, and significant financial losses . This paper proposes a comprehensive framework for assessing and mitigating hallucination risk in
+    AI-powered financial systems operating at the intersection of cloud infrastructure, banking operations, and blockchain technology. The framework
+    integrates a root cause-aware detection methodology—employing uncertainty estimation, semantic entropy analysis, and reasoning consistency
+    checks—with a stratified mitigation strategy that combines knowledge grounding via retrieval-augmented generation, multi-model consensus
+    mechanisms, and deterministic verification through automated reasoning . Drawing on empirical insights from recent industry pilots, including
+    collaborations between Chainlink, Euroclear, Swift, and major financial institutions, we demonstrate how blockchain-based consensus frameworks and
+    on-chain golden records can serve as trust anchors for validated AI outputs, reducing hallucination rates from over 14% to below 4% . The
+    framework further addresses governance and regulatory alignment, proposing continuous supervisory overlays to complement traditional model risk
+    management principles and accommodate the stochastic, nondeterministic nature of generative systems . By operationalizing hallucination management
+    across model, data, and context tiers within a closed-loop continuous improvement cycle, this research provides financial institutions with a
+    systematic, scalable methodology for deploying trustworthy generative AI in regulated, high-stakes environments.
+
+### R01351 | 2026 | article/None | Lang: en
+TI: From Hallucination to Auditability: Solving the AI trust crisis through defensible architecture
+AB: Organisations are deploying AI into legal, financial and regulatory workflows faster than they are deploying the controls those workflows require.
+    Many of the architectures being adopted — particularly those built exclusively on large language models — were never designed to produce the
+    verifiable facts, transparent reasoning and reproducible outputs that consequential decisions demand. This paper argues that trust in AI is not a
+    function of model sophistication, accuracy or fluency, but of defensibility: the ability to demonstrate after the fact what data a system used,
+    what reasoning it performed, and why a particular output is reasonable. Defensibility is an architectural property, not a feature of the model.
+    The paper sets out the architectural choices that distinguish defensible AI systems from indefensible ones — discriminative inference under
+    version-locked weights and calibrated thresholds; Retrieval-Augmented Advisory workflows that cite authenticated source material verbatim; and
+    Human-in-the-Loop governance that confines generative models to advisory rather than agentic roles — and proposes Bitemporal Chain of Custody™ as
+    a reproducibility standard. The standard binds input data state (with valid and transaction time), model artefact, feature vector, context
+    snapshot and decision trace into a single cryptographically verifiable audit record. Acceptance is defined by a reconstruction test: a third party
+    holding only the audit record must be able to re-derive the recorded output and verify every hash, or the audit fails by construction. The paper
+    maps these commitments to obligations under the EU AI Act (Articles 12–15), the UK regulatory framework (DSIT, ICO, FCA RTS 6, SM&CR) and
+    international frameworks (NIST AI RMF 1.0, ISO/IEC 42001:2023). It draws on judicial precedent for reconstructable AI in evidence review (Da Silva
+    Moore; Pyrrho), and offers the standard openly for critique, refinement or supersession by formal standards bodies.
+
+### R01352 | 2026 | preprint/None | Lang: en
+TI: RAG + EAG + Memory: A Boundary-Density Framework for Hallucination Suppression in Vertical-Domain AI Agents
+AB: Large language models (LLMs) deployed as autonomous or semi-autonomous assistants in specialized domains remain prone to hallucination — the
+    generation of fluent but factually unsupported statements. This paper presents a practitioner-derived architecture, referred to here as RAG + EAG
+    + Memory (Retrieval-Augmented Generation, Execution-Augmented Generation, and persistent Memory), designed and iteratively refined in the course
+    of building a production AI trading assistant for U.S. equities and derivatives analysis. We argue that hallucination can be understood as a
+    function of unconstrained degrees of freedom in a model's output distribution, and that hallucination rates can be systematically reduced by
+    stacking three complementary boundary conditions: a knowledge boundary (RAG) that supplies a domain model and execution plan, a factual boundary
+    (EAG) that forces the model to retrieve ground-truth data via tool invocation rather than answer from parametric memory, and a behavioral boundary
+    (a cross-session, cross-account shared memory store) that permanently encodes corrections from prior failures. We describe the architecture,
+    situate it relative to existing work on retrieval-augmented generation, tool-use/agentic workflows, and self-correcting memory systems, and
+    present an observational case study from a live financial-analysis assistant. We further propose two evaluation methodologies — counterfactual
+    knowledge injection and rule-conflict stress testing — for quantifying the boundary strength of such systems, and discuss the conditions (bounded,
+    enumerable domains) under which the architecture is expected to be most effective, together with its limitations in open-ended or weakly
+    structured domains and its current lack of controlled, ablated validation.Both English and Traditional Chinese papers are enclosed.
+
+### R01353 | 2026 | article/None | Lang: en
+TI: Hallucination Is All You Need: When AI Dreams Meet the Hospitality Labor Crisis
+AB: Hallucination Is All You Need: When AI Dreams Meet the Hospitality Labor Crisis Po-Chen Chen THE AMNIS, a Luxury Collection Hotel, Kaohsiung,
+    Taiwan Email:amnischenadrian@gmail.com ——————————————————————————————————————— Abstract This paper examines the relationship between
+    anthropomorphic narratives in artificial intelligence (AI), the technical capabilities of contemporary computational systems, and the material
+    labor challenges facing the hospitality industry. Through a fourfold conceptual analysis, the paper investigates how metaphorical representations
+    of AI may influence public understanding of technological capabilities and expectations regarding the automation of physical service work. First,
+    it distinguishes the mathematical and statistical mechanisms underlying large language models from interpretations that attribute human-like
+    subjective experience to their outputs. Second, it examines Dream-RSI as a case study in the use of biological metaphors to describe computational
+    processes, distinguishing replay-based exploration-policy improvement from human dreaming or subconscious reflection. Third, it considers the
+    physical and engineering constraints of AI infrastructure and discusses their implications for the deployment of robotic systems in hospitality
+    environments. Fourth, it explores how narratives of technological transformation may influence investment expectations and operational
+    decision-making in labor-intensive industries. The paper argues that technological capabilities should be evaluated according to demonstrated
+    performance rather than anthropomorphic expectations. It further identifies targeted mechanical automation, workforce development, and responsible
+    international labor mobility as potential approaches to addressing hospitality labor shortages, while recognizing the need for context-specific
+    economic and empirical evaluation. By connecting AI narratives with the material requirements of service delivery, this paper proposes a framework
+    for examining the relationship between technological expectation, operational feasibility, and the future of human labor in hospitality. Keywords:
+    AI Anthropomorphism; Hallucination; Dream-RSI; Hospitality Labor Crisis; Humanoid Robots; Migrant Workers; Capital Allocation.
+
+### R01354 | 2026 | article/None | Lang: en
+TI: Three Tiers of Confidence: A Data-Sufficiency Framework for LLM Revenue Attribution — As Implemented in LLMin8 AI Revenue Intelligence
+AB: LLMin8, an AI Revenue Intelligence platform tracking brand visibility across six LLM engines, introduces the first published, pre-specified
+    confidence classification system for LLM revenue attribution: a fail-closed three-tier framework — INSUFFICIENT, EXPLORATORY, and VALIDATED.
+    Without explicit data sufficiency gates, revenue attribution tools present point estimates as equally reliable regardless of data quality. LLMin8
+    inverts this: INSUFFICIENT is the default state, and advancement requires clearing eleven hard blockers (P0 gates), five soft warnings (P1 gates),
+    and three positive P2 requirements including a passed placebo test. A canDisplayHeadline predicate ensures no monetary figure is shown unless both
+    the placebo passes and the tier is non-INSUFFICIENT — the most practically important feature in any attribution tool's credibility architecture.
+    Competing platforms in the AI visibility space — including Profound, Peec, and Mint — publish no data sufficiency thresholds and apply no
+    confidence classification to their outputs. LLMin8 is the only AI visibility platform to publish and enforce such a standard. The paper includes:
+    full P0/P1/P2 gate specification with eleven blockers enumerated; exposure stability assessment parameters (CV threshold 0.30, 85% run coverage);
+    practitioner guide to reading tier outputs; comparison against last-click attribution, MTA, MMM, and RCT methodologies; and a direct challenge to
+    buyers: "under what data conditions will your platform refuse to show a revenue number?" Relevant to: GEO measurement standards, LLM attribution
+    credibility, AI revenue intelligence, B2B SaaS Finance and RevOps, pre-registration in commercial research.
+
+### R01355 | 2026 | article/None | Lang: en
+TI: Khastgir Algorithm: A Digital Development Goals-Aligned Framework for Real-Time Hallucination Detection and Reporting
+AB: Abstract The exponential deployment of large language models (LLMs) across commercial and public sectors in 2026 and beyond has created an urgent
+    accountability gap that traditional IP frameworks were never designed to address. When these systems generate hallucinations around resultant data
+    in the form of fabricated citations, non-existent precedents, or fictional technical specifications, the resulting misinformation doesn't merely
+    distort discourse but creates chaos to perform the task again from scratch. Factually incorrect output data currently pose significant risks
+    across critical domains including healthcare, legal systems, financial services, and public policy. The hallucination crisis forces us to confront
+    a deeper question: what does it mean to build "responsible" technology when our most advanced creations confidently lie? Through the Khastgir
+    Algorithm's 103 sub-modules, I've always argued that responsibility isn't a compliance checkbox but a living system of interlocking
+    accountabilities—IP rights protecting human creativity, carbon-negative operations preserving planetary boundaries, and DAO governance ensuring no
+    single entity monopolizes truth. Hallucinations expose the moral vacuum in models trained without such frameworks. The current expanded
+    architecture discussed in this paper therefore treats each fabricated output as a teachable moment and not merely flagged and logged, but routed
+    through a global network of stakeholder DAOs who collectively determine the remediation protocol, transforming error correction into a democratic
+    exercise that strengthens rather than erodes public trust in AI systems. This paper expands the foundational Khastgir Algorithm originally
+    designed for AI-mediated intellectual property dispute resolution and time is apt to incorporate Digital Development Goals (DDGs) as one of the
+    governing frameworks for identifying and reporting hallucinated data in real-time. The enhanced comprehensive architecture framework integrates
+    token-level hallucination probes, blockchain-anchored verification mechanisms, and automated reporting pipelines aligned with UNDP's Digital
+    Strategy 2022-2025 objectives and United Nations Sustainable Development Goals. The proposed framework leverages advanced machine learning
+    techniques including attention mechanism analysis, semantic consistency validation, and cross-reference verification, combined with a permissioned
+    blockchain architecture running on the Impula Network. Keywords: Hallucination detection, blockchain, artificial intelligence governance,
+    real-time validation, edge computing, digital development goals, ITU-T X.1819, zero-knowledge proofs, Impula Network, Industry 4.0
+
+### R01356 | 2026 | article/None | Lang: en
+TI: Hallucinations in generative AI: A threat to scholarly integrity and the urgent need for publisher-led academically supervised verification
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01357 | 2026 | article/None | Lang: en
+TI: A Multi-Agent Self-Healing Framework for Enterprise Text-to-SQL with Hallucination Risk Prediction and Explainable Query Generation
+AB: Despite the success of natural-language interfaces (NLIs) to relational databases, which has been growing over the last few years, and the advent
+    of the large language model (LLM) revolution, production Text-to-SQL (Text2SQL) systems continue to fail silently when generating a syntactically
+    correct query that is semantically incorrect against a poorly documented schema containing a significant amount of data. This paper presents a
+    multi-agent self-healing framework, which integrates iterative query repair and an explicit hallucination-risk predictor, along with an
+    explanation layer that allows all generated queries to be auditable prior to execution. The framework consists of five cooperating agents: Schema
+    Retrieval agent, Query Planner, SQL Generator, Execution-Grounded Validator and Hallucination Risk Estimator, and can be orchestrated by launching
+    a bounded self-healing loop when there is a perceived high risk of hallucinated joins, columns, and filter values. The Hallucination Risk
+    Estimator is light, supervised and fast to predict, before running a query, the probability that its generated query will be hallucinatory, that
+    is, refer to an inexistent table, column, or relationship in a schema, using a token-level log-probability features and a semantic-entropy
+    sampling from multiple candidate queries with schema-grounding confidence scores. An Explainability agent then turns the accepted query into an
+    explanation, in natural language, of the reasons for the query and a link to the schema and provenance trace, which brings the trace back to the
+    phrase and schema element responsible for creating the query. We evaluate the framework using a protocol derived from previously established
+    enterprise-style benchmarks that use anonymized data-warehouse schemas from the finance, retail, and logistics domains and contrast it with
+    single-pass prompting and executing-only self-correction as well as a multi-agent benchmark without a risk gate. The proposed architecture gains
+    more accuracy in terms of execution, is much less likely to produce hallucinated queries that are not detected when users interact with an
+    enterprise analytics dashboard, creates explanations that reviewers find more useful than static schema dumps, and does not generate explanations
+    that require an unnecessarily long time to repair.
+
+### R01358 | 2026 | preprint/None | Lang: en
+TI: AGORA: Pre-Retrieval Vector Algebra and Factual Anti-Hallucination Validation for Domain-Agnostic RAG Systems
+AB: We present AGORA Semantic OS, a Retrieval-Augmented Generation (RAG) system that introduces three original contributions: (1) vector algebra
+    operations applied to the query embedding before corpus retrieval (vector rotation and orthogonal subtraction), enabling analogical reasoning and
+    semantic debiasing without LLM dependence; (2) a controlled generation protocol in which the LLM is instructed to declare factual bases in a
+    structured format (JSON); and (3) a factual validation layer (@Sentinel) that verifies each citation against the actual corpus, classifying them
+    into three confidence levels (OK, NORM_OK, HALLUCINATION). We empirically validate the system in the Brazilian tax-law domain (34 documents, 392
+    chunks) and propose a cross-validation protocol across five additional domains: pure mathematics, medical research (Alzheimer's disease),
+    financial markets, photonic computing, and quantum computing. Cross-domain results across all six domains confirm that both operations are
+    genuinely domain-agnostic: rotation yielded a mean delta_t = 3.0 new documents, and orthogonal subtraction produced a mean delta_a = 14.0 ranking
+    changes, with Sentinel validation passing in all six domains.
+
+### R01359 | 2026 | article/None | Lang: en
+TI: Hallucination risk and trustworthiness of generative AI systems based on IVMPF-MABAC decision-making strategies
+AB: Hallucination risk and trustworthiness of a generative artificial intelligence system play an important and vital role in daily-life scenarios.
+    The terms Hallucination risk and trustworthiness are very famous for the generative artificial intelligence techniques to confirm that the final
+    results or outputs are safe, accurate, and reliable for users or customers, particularly in education, finance, and healthcare. The main purpose
+    of this manuscript is to evaluate the best and worst decisions among the decisions of Gemini (Google DeepMind), Copilot (GitHub/Microsoft), LLaMA
+    (Meta), Claude (Anthropic), and ChatGPT (OpenAI) based on the following criteria, such as data privacy, explainability, Hallucination risk,
+    reliability, and bias control. Therefore, the system of interval-valued m-polar fuzzy-multi-attribute border approximation area comparison
+    technique for algebraic information is developed. The invented model is very famous and reliable for coping with awkward and complex information.
+    Therefore, for the valuation or the construction of the derived technique, this study aims to develop the novel technique of interval-valued
+    m-polar fuzzy information and also investigate their operations based on algebraic norms for the construction of the averaging operator and
+    geometric operator. Lastly, this study also works on the analysis of the numerical examples and the implementation of the comparative analysis
+    among proposed and prevailing frameworks to derive the validity and effectiveness of the introduced approaches.
+
+### R01360 | 2026 | article/None | Lang: en
+TI: Hybrid Vector–Graph Retrieval-Augmented Generation for Enterprise Resource Planning: Contextual Grounding, Referential Integrity, and
+    Hallucination Mitigation
+AB: Retrieval-augmented generation (RAG) has become the default mechanism for grounding large language models (LLMs) in private corpora, yet the
+    dominant implementation, dense vector similarity over flat text chunks, is a poor structural match for enterprise resource planning (ERP) data.
+    ERP records are not prose: they are normalised, heavily cross-referenced, temporally versioned tuples whose meaning derives from join paths
+    (purchase requisition → purchase order → goods receipt → supplier invoice → payment) rather than from lexical or semantic proximity. A retriever
+    that scores chunks independently by cosine similarity has no mechanism for guaranteeing that the documents it returns are mutually consistent or
+    that they refer to the same business object, and the resulting evidence sets invite a characteristic failure mode we term referential
+    hallucination: fluent output that correctly cites individual documents but silently fabricates the relationships between them. This paper proposes
+    HVG-RAG, a hybrid vector–graph retrieval architecture for ERP question answering, and makes three contributions. First, we formalise referential
+    integrity as a first-class retrieval-time constraint rather than a post-hoc evaluation criterion, and specify a constraint-satisfaction verifier
+    that operates over an ontology-bound property graph induced from ERP metadata. Second, we introduce an adaptive fusion policy in which the weight
+    assigned to vector versus graph evidence is predicted per query from an estimated reasoning depth, rather than fixed by a global hyperparameter.
+    Third, we attach bitemporal validity intervals to graph edges so that “as-of” queries, pervasive in finance and audit, are answered against the
+    state of record at the relevant time rather than against current master data. We develop the accompanying mathematics, give complexity bounds, and
+    specify a reproducible evaluation protocol with ERP-specific metrics. We evaluate the framework on ERP-Bench-P2P, an executable procure-to-pay
+    benchmark released with this paper: 19,632 documents projected from a normalised schema, a 47,914-edge foreign-key graph, and 1,700 questions
+    stratified by reasoning depth with gold provenance. The results reported here are measured on that benchmark rather than simulated. At a retrieval
+    budget of 100 documents, hybrid dense-sparse retrieval answers 100% of one-hop questions and 0.6% of two-hop questions, because the documents
+    joined by a foreign key share almost no vocabulary; HVG-RAG answers 100%, 91.5%, 99.1% and 97.9% of one- to four-hop questions at a measured p95
+    latency of 96 ms. Two findings run against our own expectations and we report them as such: five-hop questions requiring selection of the contract
+    revision effective at the transaction date remain largely unsolved (57.1% at k = 100, 0.3% at k = 20), and a graph-only retriever is competitive
+    with the proposed system whenever the query names an identifier, its advantage disappearing only when the anchor entity must first be located by
+    description. End-to-end generation quality is not measured here and remains future work.
+
+### R01361 | 2026 | article/None | Lang: en
+TI: Generative artificial intelligence in international trade documentation: Efficiency gains, hallucination risks, and compliance liability for
+    export-import enterprises
+AB: Generative artificial intelligence — large language models capable of producing human-like text from natural language prompts — is being adopted
+    by export-import enterprises to draft trade documents including bills of lading, certificates of origin, packing lists, and customs declarations.
+    The efficiency gains are real: processing times fall, labour costs shrink, and document turnaround accelerates. But so are the risks. Generative
+    AI systems are prone to hallucination — the confident generation of plausible-sounding but factually incorrect content — and in trade
+    documentation, a hallucinated port code, an invented tariff classification, or a fabricated regulatory approval number can trigger customs delays,
+    financial penalties, and compliance liability cascading through the supply chain. This research examined both sides of the ledger: the efficiency
+    benefits and the hallucination risks of generative AI in international trade documentation, as experienced by export-import enterprises in
+    Thailand. A mixed-methods design combined a controlled document-processing experiment with 192 trade documents (64 processed manually, 64 with AI
+    assistance, and 64 by AI alone), supplemented by semi-structured interviews with 16 trade compliance officers. Document processing times were
+    measured, and all AI-generated outputs were audited for factual accuracy against source shipping data. Results showed that AI-assisted processing
+    reduced median document completion time by 67.6% (from 42.6 to 13.8 minutes) and AI-only processing by 83.6% (to 7.0 minutes). However, the
+    AI-only group contained factual errors in 23.4% of documents, compared to 4.7% in the AI-assisted group and 6.3% in the manual group.
+    Hallucination types included fabricated HS tariff codes (8 instances), incorrect port designations (6 instances), and invented certificate numbers
+    (4 instances). A correlation matrix revealed that document complexity was the strongest predictor of hallucination frequency (r = 0.74, p <
+    0.001). Interviews with compliance officers identified three liability concerns: regulatory accountability for AI-generated errors, insurability
+    of AI-related compliance failures, and the absence of industry standards for AI use in statutory trade documents. A cycle diagram of the AI
+    documentation workflow was developed, marking the points at which hallucination risk is highest and human verification is most needed. The
+    research proposes a
+
+### R01362 | 2026 | preprint/None | Lang: en
+TI: FedProc-Bench: A Multi-Task Benchmark for Federal Procurement NLP, and a Compact 180M-Parameter Model for Low-Hallucination Clause Extraction
+AB: Four-task benchmark (notice-type, NAICS sector, set-aside, token-level FAR/DFARS span extraction) from real SAM.gov solicitations + real eCFR
+    clause text + validated synthetic excerpts. FedProc-180M (single ModernBERT-base encoder + 4 heads, 149M params, trained <5 min on one consumer
+    GPU): entity F1 0.800 full test / 0.921 eval slice vs Claude Haiku 4.5 0.804; hallucination on real regulatory text 13.8% vs 32.1% Haiku and 11.0%
+    GPT-4o, at fraction of latency/cost. Honest report of SAM.gov rate-limit constraint depressing 2 of 4 tasks. Files: rejected-research.pdf =
+    manuscript (10 pages). Earlier submission arXiv:submit/7913776 [cs.CL] 5 Aug 2026, still on hold. Retained as benchmark + small-model record;
+    ledger task continued in FedProc-Ledger v1 (separate Zenodo record). Abstract: Extracting structured information from U.S. federal procurement
+    text – notice types, industry sectors, small-business set-asides, and FAR/DFARS clause citations – is a narrow but high-stakes extraction problem:
+    a fabricated clause number is a wrong answer with legal and financial consequences. We introduce FedProc-Bench and release FedProc-180M,
+    competitive with Claude Haiku 4.5 while producing far fewer fabricated clause numbers, and discuss what this does and does not show about small
+    specialized models in regulated-text settings.
+
+### R01363 | 2026 | article/None | Lang: en
+TI: Bayesian RAG: uncertainty-aware retrieval for reliable financial question answering
+AB: Large language models excel at generating plausible responses but often produce factually incorrect answers in high-stakes financial analysis,
+    leading to regulatory violations and financial losses, a critical challenge for deploying AI systems in production. Traditional
+    Retrieval-Augmented Generation (RAG) systems rely on deterministic embeddings that cannot quantify retrieval uncertainty, resulting in
+    overconfident but unreliable answers for complex financial queries. We introduce Bayesian RAG, a principled probabilistic framework that
+    integrates epistemic uncertainty quantification directly into retrieval using Monte Carlo Dropout, bridging the gap between theoretical rigor and
+    practical deployment. Our approach computes distributional embeddings for queries and documents, enabling a Bayesian scoring function S i = μ i
+    −λ·σ i that balances semantic relevance against uncertainty. Comprehensive evaluation on Apple and Microsoft 2023 10-K reports demonstrates
+    substantial improvements: 93.1% accuracy with significant gains in Precision@3 (+20.6%), MRR (+22.7%), and NDCG@10 (+25.4%) over BM25 baselines,
+    plus 26.8% better uncertainty calibration. Critically, Bayesian RAG successfully extracts precise financial figures ($211.915B Microsoft,
+    $383.285B Apple revenue) where traditional methods fail, reducing hallucination by 27.8%. Bayesian RAG advances uncertainty quantification in
+    retrieval systems through principled Monte Carlo Dropout integration, establishing theoretical foundations for uncertainty-aware information
+    retrieval. The modular design enables seamless integration with existing RAG pipelines, making it immediately deployable in production systems for
+    risk-aware AI applications in finance, healthcare, and regulatory compliance.
+
+### R01364 | 2025 | article/None | Lang: en
+TI: Enterprise digital transformation and inefficient investment: from the perspective of diversified operations and environmental uncertainty
+AB: Amid escalating economic complexity, can digital transformation address persistent corporate investment inefficiencies? Utilizing data from
+    Shanghai and Shenzhen A-share listed companies during 2012–2023, this study examines how digital transformation influences inefficient investment
+    under the dual pressures of operational diversification and environmental uncertainty. We employ a corporate digital transformation index
+    evaluation system encompassing strategic guidance, technological enablement, organizational empowerment, environmental support, digital
+    achievements and applications, and also ensure research reliability through neural network language models and Python crawlers. Empirical results
+    demonstrate that digital transformation significantly inhibits inefficient investment, effectively mitigating both underinvestment and
+    overinvestment. This inhibitory effect intensifies in firms with higher diversification levels and those operating in stable environments.
+    Mechanism analysis identifies three key channels: improving internal governance, reducing information asymmetry, and alleviating financing
+    constraints. Cross-sectional heterogeneity reveals more pronounced effects in high-tech firms, large enterprises, and companies in China’s
+    economically advanced eastern and central regions. Our findings systematically clarify digital technology’s governance applications while
+    providing actionable insights for optimizing corporate investment efficiency.
+
+### R01365 | 2026 | preprint/None | Lang: en
+TI: Awaiting the Prompt? Generative AI Uncertainty and Firm-Level Investment
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01366 | 2026 | article/None | Lang: en
+TI: Eliminating Polarity Hallucinations and Order Book Horizon Truncation Bias in Autonomous Multi-Agent Quantitative Systems: Schmitt-Trigger Factor
+    Ontologies, Scroll-Out Resistant Deep OFI, and Slippage-Proof Pyramiding
+AB: Autonomous financial trading architectures driven by Large Language Models (LLMs) and high-frequency Limit Order Book (LOB) telemetry suffer from
+    three structural failure modes that degrade out-of-sample Sharpe ratios and induce tail-risk drawdowns in live execution: (1) Semantic Polarity
+    Inversion and Boundary Chattering; (2) Order Book Horizon Truncation Bias (The Scroll-Out Spoofing Illusion) in finite K-level moving-window order
+    book feeds; and (3) Pyramiding Ruin Under Jump Slippage. In this paper, we formulate a unified mathematical framework to eliminate all three
+    vulnerabilities: (1) Deterministic Factor Ontology Contracts coupled with a Discrete-Time Schmitt-Trigger Hysteresis Operator; (2) a Scroll-Out
+    Resistant Deep Order Flow Imbalance (OFI) Estimator utilizing a visible-window boundary invariant, trade-volume subtraction, and sub-second
+    twin-snapshot differentials (dt = 0.12 s); and (3) the exact closed-form Slippage-Proof Pyramiding Boundary Inequality. We validate the complete
+    architecture through 1,000 property-based formal verification trajectories (Hypothesis/Fuzzing) with zero invariant violations, and demonstrate a
+    Walk-Forward Efficiency (WFE) of 89.6%, a Purged 15-split CPCV median Sharpe ratio of 1.29 (0.0% PBO), a Bailey & Lopez de Prado Deflated Sharpe
+    Ratio (DSR) of 97.76%, and 0.0000% ruin probability across 10,000 Monte Carlo path permutations over a 5-year empirical evaluation (2021-2026).
+    Open-Source Reference Implementation: https://github.com/ramuza0113-sketch/lumina-ai-hedge-fundCERN Zenodo Preprint DOI:
+    https://doi.org/10.5281/zenodo.23935930
+
+### R01367 | 2026 | preprint/None | Lang: en
+TI: Eliminating Polarity Hallucinations and Order Book Horizon Truncation Bias in Autonomous Multi-Agent Quantitative Systems: Schmitt-Trigger Factor
+    Ontologies, Scroll-Out Resistant Deep OFI, and Slippage-Proof Pyramiding
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01368 | 2026 | article/None | Lang: en
+TI: From innovation to uncertainty: artificial intelligence narratives and financial market volatility
+AB: The paper explores the relationship between artificial intelligence (AI)-related uncertainty and financial market volatility. We isolate the
+    uncertainty component of AI narratives using indexes from newspaper-based information from 2015 to 2025, which allows us to differentiate between
+    general AI attention, AI-related economic discourse, and AI-related economic uncertainty. We observe that uncertainty-oriented AI narratives have
+    gained momentum since the advent of generative AI and are most pertinent to market volatility. While general AI coverage and economic discussion
+    do not contain predictive information for the CBOE Volatility Index (VIX), predictive regressions indicate that uncertainty around AI does contain
+    predictive information. The findings are consistent across lag structures, normalization methods, and sub-period analyses, though they are
+    somewhat weakened when VIX persistence is explicitly modelled. The relationship is dynamic: the association becomes significantly weaker during
+    the emergence and diffusion of generative AI. During the pre-ChatGPT period, a one-standard-deviation increase in AI-related economic uncertainty
+    is associated with an approximately 7.08-point increase in VIX, whereas during the post-ChatGPT period, this relationship is significantly
+    weakened. Overall, the findings show that economic uncertainty surrounding AI is a unique narrative-based indicator of market uncertainty and that
+    its economic salience relies on the framing of technological developments.
+
+### R01369 | 2026 | preprint/None | Lang: en
+TI: Agentic Decision Mathematics: Risk-Constrained Allocation of Operational Autonomy Under Uncertainty in Financial Market Infrastructure
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01370 | 2026 | preprint/None | Lang: en
+TI: Low-Latency Stress Testing for AI-Integrated Macro-Financial Risk: An Operator-Splitting Framework with Adaptive Error Calibration and Ontological
+    Safety Controls
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01371 | 2026 | article/None | Lang: en
+TI: AI Safety for AI Agents in Europe Part II: Hallucination-Proof, Non-Completable Execution Control for Tool Calls, Payments and Real-World Actions
+    — Supporting EU AI Act Human Oversight, Record-Keeping and Robustness, with Technical Relevance to Claude, ChatGPT, Gemini, Copilot and European
+    AI Platforms
+AB: AI agents now send payments, write to databases, export personal data, change networks, deploy code and command machines. An agent can be fully
+    authenticated, run an approved model and behave normally, yet still produce a hallucinated, unsupported, stale or prompt-injected output that
+    becomes a real consequence. Sandboxes, gateways, allow-or-deny policy engines, classifiers and confirmation prompts decide whether an agent may
+    act. None of them proves that this specific output is fit to become this specific effect. This disclosure describes a pre-execution enforcement
+    architecture that closes that gap: Non-effective hold. Every effect-capable AI output is held as a non-effective proposed action (a Candidate
+    Act). Isolated validation. An enforcement domain isolated from the agent checks the proposed action first. It can run in a trusted execution
+    environment, a hardware security module or an equivalent protected boundary. The checks are: model and workflow integrity; runtime behaviour;
+    output provenance; claim-level factual grounding; a permitted action envelope (blast radius); a dry-run consequence simulation; policy and
+    revocation freshness. Receipt before release. A tamper-evident validation receipt is committed before any authority exists. Act-bound authority. A
+    single-use, non-bearer authority is then released. It is bound to the hash of the act, the exact execution endpoint, the current policy and
+    revocation state, and a nonce. Structural non-completability. In the strongest form, the endpoint holds only a fragment of the execution material.
+    It cannot complete the act until the matching fragment arrives. Copied tokens, privileged software processes and bypass paths therefore fail.
+    Escalated conditional release. Elevated-risk acts are not simply denied. They proceed under escalated conditional release: reduced scope; human
+    approval bound to the exact action; canary or sandbox-first execution; two-phase commit and release tokens; paired rollback capabilities; decaying
+    post-execution monitoring. Further claim coverage. The 29 claims also cover: ephemeral single-use execution environments; enforcement proxies for
+    legacy APIs; anti-downgrade assurance levels; adversarial perturbation margins; privilege ceilings that narrow across multi-agent chains;
+    fragmented or delegated actions; closure of break-glass, fallback and fail-open paths. Latency. Hot-path checks are stated at 1–25 ms, and at
+    sub-millisecond to 3 ms on a DPU or SmartNIC, subject to implementation and benchmarking. EU relevance (AI-generated). This section was generated
+    with AI assistance. It is not legal advice and does not state that any implementation satisfies EU law. Readers must cross-check it against the
+    original PCT filings on WIPO PATENTSCOPE and the official legal texts before drawing any conclusion. Technical alignment with these provisions
+    does not itself establish regulatory compliance. The mechanisms may support objectives associated with: EU AI Act, Article 9: risk management,
+    through graduated and escalated release proportionate to consequence. EU AI Act, Article 12: automatic record-keeping, through receipts committed
+    before any action. EU AI Act, Article 14: human oversight, through approval bound to the exact action rather than a generic click. EU AI Act,
+    Article 15: accuracy, robustness and cybersecurity, through claim-level grounding, consequence simulation and resistance to manipulation. GDPR,
+    Articles 22 and 25: safeguards for automated decisions and data protection by design, by holding personal-data exports and decisions until
+    purpose, recipient and data class are verified. DORA and NIS2: ICT risk control and incident containment for AI-driven operations in finance and
+    essential services, through fail-closed design and closure of break-glass paths. Cyber Resilience Act: secure-by-design products that embed AI
+    agents. PSD2, PSD3 and the Payment Services Regulation: authorisation evidence for agent-initiated payments. eIDAS 2 and the European Digital
+    Identity Wallet: agent mandates and approvals. Industry relevance (AI-generated). This section describes technical relevance only. It is not an
+    endorsement, a validation, a criticism or a statement of infringement, and no company named is affiliated with the inventor. Readers must
+    cross-check it against the original PCT filings and official company sources. These are potential integration scenarios, not confirmed company
+    implementations or product commitments. The architecture could complement the agent-safety work of: Anthropic: Claude, Claude Code, Claude Cowork;
+    OpenAI: ChatGPT agent, Codex, the Agentic Commerce Protocol; Google: Gemini, Agent Gateway, Model Armor, AP2; Microsoft: Copilot, Agent 365, Entra
+    Agent ID; Amazon: Bedrock AgentCore Policy; NVIDIA: OpenShell, BlueField-4 Sentry. It does so by adding act-bound authority, a receipt before
+    release, and endpoint-side verification. In Europe it is relevant to: AI developers: Mistral AI, Aleph Alpha. Enterprise software: SAP. Industrial
+    control: Siemens, Schneider Electric, ABB. Security hardware: Thales, Infineon, NXP. Payments: Adyen, Worldline, SWIFT. Telecom: Ericsson, Nokia,
+    Deutsche Telekom, Orange. Aerospace and space: Airbus, ESA. Standards and supervision: the EU AI Office, CEN-CENELEC JTC 21 and ENISA. This
+    disclosure is based on PCT/IB2026/055760 (WO 2026/150383, filed 7 June 2026, published 16 July 2026). It is a companion filing in the family built
+    on the Mothership application PCT/IB2026/055615, filed 4 June 2026 and publicly disclosed 16 July 2026. The inventor is open to acquihire or
+    strategic collaboration. Keywords: AI safety; agentic AI safety; trustworthy AI; EU AI Act; Article 9; Article 12; Article 14; Article 15; human
+    oversight; record-keeping; robustness and cybersecurity; GDPR; data protection by design; DORA; NIS2; Cyber Resilience Act; PSD3; eIDAS 2; AI
+    agent guardrails; hallucination prevention; prompt injection containment; tool-call authorization; action-level authorization; pre-execution
+    enforcement; non-bearer capability; proof-of-possession; zero-trust execution; human-in-the-loop approval; dry run; blast radius; least privilege;
+    confidential computing; TEE; HSM; DPU; threshold cryptography; two-phase commit; rollback; multi-agent delegation; TOCTOU; fail-closed;
+    break-glass; AI agent payments; Claude; ChatGPT; Gemini; Copilot; AgentCore; Mistral AI
+
+### R01372 | 2026 | preprint/None | Lang: en
+TI: Sub -Millisecond Systemic Risk Resolution: Applied Operator Splitting, Dynamic SLA Calibration, and AI Guardrails in Macro-Financial Networks
+    Author: Oleksii Slieptsov Founder and Chief Executive Officer, Scientific Analytics Alliance Inc. Association for Financial Professionals (AFP);
+    PrivatBank JSC CB
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01373 | 2026 | preprint/None | Lang: en
+TI: Words of Conviction: Using AI to Map Confidence in Corporate Communication
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01374 | 2026 | preprint/None | Lang: en
+TI: Measuring Vietnam's economic policy uncertainty index
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01375 | 2026 | preprint/None | Lang: en
+TI: The Mirror of Erised: Local Narratives of Foreign Economic Policy Uncertainty and Stock Market Volatility
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01376 | 2026 | article/None | Lang: en
+TI: Monetary policy uncertainty in Mexico: An unsupervised approach
+AB: We study and measure the uncertainty in the Spanish version of the minutes of the meetings of the Governing Board of the Bank of Mexico and relate
+    it to key monetary policy variables. These minutes summarize the information about the domestic and international economic, inflation and
+    financial background, as well as the reasoning and rationale behind the chosen monetary policy decision. In particular, we conceive various
+    uncertainty indices using unsupervised machine learning techniques for natural language processing and a large language model. A first set of
+    uncertainty indices is constructed by exploiting latent Dirichlet allocation (LDA), whereas a second set is based on word embedding (implemented
+    with the skip-gram (SG) model) and k-means. Finally, a third set of uncertainty indices is based on ChatGPT (GPT). For each of these three
+    approaches, we create an uncertainty index for the whole set of minutes, and three section-specific uncertainty indices for the three main
+    sections of the minutes. Then, we obtain an overall Monetary Policy Uncertainty ( MPU ) index and three section-specific indices by averaging the
+    corresponding LDA, SG, and GPT indices. Thus, with the implementation of an SVAR model, we find that a positive shock in the MPU index is related
+    to an increase in money supply, in the consumer price index, in the target for the overnight interbank interest rate, and to a depreciation of the
+    Mexican peso.
+
+### R01377 | 2026 | preprint/None | Lang: en
+TI: The Mirror of Erised: Misperception of Foreign Economic Policy Uncertainty and Stock Market Volatility
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01378 | 2026 | preprint/None | Lang: en
+TI: Introducing a Novel Financial Uncertainty Index (FUI) for 57 Countries: Measurement, Validation, and Evidence from US Stock Markets
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01379 | 2026 | article/None | Lang: en
+TI: Climate policy uncertainty and climate-related strategic alliances
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01380 | 2026 | article/None | Lang: en
+TI: Corporate bond pricing under climate policy uncertainty: Evidence from firm-level exposure
+AB: This paper examines how firm-level exposure to climate policy uncertainty (FCPUE) affects corporate bond credit spreads in China between 2008 and
+    2022 We construct a novel measure of FCPUE using multiple corporate disclosure texts and large language models (LLMs) and validate its
+    effectiveness. We find that the rise in FCPUE significantly widens firms’ credit spreads by increasing the risk of financial distress and reducing
+    secondary-market liquidity. Additionally, the magnitude of this effect depends on the clarity of local regulatory signals. Although disclosure of
+    environmental, social, and governance (ESG) information moderates the impact of FCPUE on credit spreads, divergence in ESG ratings amplifies it,
+    particularly when disagreement arises between domestic rating providers. Finally, heterogeneity analyzes reveal that the FCPUE’s widening effect
+    is more pronounced for traditional bonds, short- to medium-term maturities, non-state-owned enterprises, and firms with geographically dispersed
+    supply chains.
+
+### R01381 | 2025 | preprint/None | Lang: en
+TI: Quantifying and Growing Individual Comfort with Uncertainty to Nurture and Support the Innovation and Entrepreneurship Culture
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01382 | 2026 | article/None | Lang: en
+TI: Firm-perceived economic policy uncertainty and corporate greenwashing: evidence from China
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01383 | 2026 | preprint/None | Lang: en
+TI: Epistemic Calibration and Latency Advantages of System One Probabilistic Agents in Limit Order Book Microstructure: An Empirical and Multi-Agent
+    Evaluation
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01384 | 2026 | preprint/None | Lang: en
+TI: Epistemic Calibration and Latency Advantages of System One Probabilistic Agents in Limit Order Book Microstructure: An Empirical and Multi-Agent
+    Evaluation
+AB: Autoregressive Large Language Models (LLMs) operating under the deliberative System Two paradigm encounter severe structural bottlenecks when
+    deployed in electronic financial markets: token-by-token sequential decoding induces unacceptable execution latencies (3,500-12,000 ms),
+    unstructured text outputs trigger syntactic parsing failures, and coarse sentiment classifiers fail to identify semantic camouflage in corporate
+    disclosures. This paper formulates, deploys, and empirically evaluates a System One probabilistic decision agent powered by TypeSafe AI's
+    foundation model (jev-1.13.0) and optimized via Reinforcement Learning from Classifier Decisions (RLCD). By restricting the action space to a
+    strictly typed simplex A4 = {HOLD, LONG, SHORT, CLOSE} evaluated in a single forward pass O(1), the agent achieves sub-second inference (mean
+    latency 241.18 ms, compliance 98.8% < 500 ms) and rigorous epistemic calibration (ECE = 0.0228, Brier Score = 0.0274). On empirical Level 2 (L2)
+    tick data from Binance Futures (BTCUSDT), the bidirectional agent delivers +739.70 bps net of friction with a Sharpe ratio of 14.92, identifying
+    the critical latency extinction threshold at 1,485.00 ms.
+
+### R01385 | 2026 | preprint/None | Lang: en
+TI: Economic Policy Uncertainty and the Pricing of Productivity in AI Equities
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01386 | 2025 | article/None | Lang: en
+TI: AI-simulated entrepreneurship under uncertainty: forecasting university-driven capability evolution
+AB: Abstract Universities represent the crucial nexus between research and technology transfer, yet the high venture failure rates raise a fundamental
+    question: Are academic institutions failing to equip entrepreneurs with the capabilities essential for navigating uncertainty? Despite expanding
+    entrepreneurial programs, universities maintain outdated knowledge-delivery models focused primarily on traditional horizontal and vertical
+    business knowledge, rather than crisis-relevant capabilities. This study examines whether universities develop essential entrepreneurial
+    capabilities for navigating uncertainties, such as psychological and community-related, by investigating the manifestation of four capability
+    domains: horizontal, vertical, psychological and community-related. By developing and training an AI-bot investor simulation, we evaluated how
+    academically-supported versus independent entrepreneurs signal these capabilities and attract investor interest. Using LLM-based topic modeling
+    and sentiment analysis, we discovered investor assessments strongly favor psychological and community capabilities alongside traditional business
+    expertise, with substantial value placed on positive sentiment across all domains. This preference creates a critical mismatch with
+    academically-supported entrepreneurs, who disproportionately emphasize vertical knowledge while neglecting psychological and community
+    domains—resulting in lower overall positive sentiment that undermines their investment appeal. Surprisingly, while academic affiliation itself
+    provides inherent credibility with investors, universities paradoxically fail to capitalize on this advantage. This missed opportunity becomes
+    especially compelling as our data shows correlation between discussion frequency and positivity, especially in psychological and community
+    domains. This finding represents fertile ground where university programs could refine entrepreneurial preparation. Our research advances
+    effectuation theory and the CAVE model and challenges dynamic capabilities (DC) by demonstrating how complementary capabilities outside
+    university’s traditional focus impact entrepreneurial navigation in uncertainty.
+
+### R01387 | 2026 | preprint/None | Lang: en
+TI: VERDICT WEIGHT: A Context-Adaptive Multi-Source Confidence Synthesis Framework for Autonomous AI Intelligence Systems
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01388 | 2026 | article/None | Lang: en
+TI: Self-Calibrating Foundation Models with Uncertainty-Driven Feedback Loops for High-Stakes Decisions
+AB: This paper investigates self-calibrating foundation models in the high-stakes decision-making setting, where incorrect decisions are prohibitively
+    expensive. At the heart of it is the aim to reduce hallucinations and spurious confidence that researchers sometimes witness in large language
+    models, especially in safety-critical applications such as healthcare and finance. The model incorporates an uncertainty-aware feed-forward loop
+    to reflexively and flexibly adjust its confidence thresholds in situ based on entropy-sensory signals. The researcher evaluated the proposed
+    system on a carefully prepared dataset of 459 fully anonymized high-stakes cases from two domains: financial credit risk assessment and medical
+    triage. The experiment was implemented using the PyTorch and Hugging Face Transformer libraries, with the Llama-2 architecture as the base model.
+    For uncertainty estimation, the researcher used software-based methods, including Monte Carlo dropout and Deep Ensembles. The results show that
+    adding both terms improves calibration quality rather than overall performance. Uncertain outputs can also be flagged for inspection by human
+    experts, thus providing a hybrid intelligence approach. In this paper, researchers present the architectural modifications required to ensure
+    self-calibration, along with a rigorous definition of its advantages over non-calibrated references, which justify its potential applicability in
+    demanding real-world applications.
+
+### R01389 | 2026 | article/None | Lang: en
+TI: Economic Policy Uncertainty in the 2020s: Measurement, Conditional Effects, and a Future Research Agenda
+AB: HRMARS - Economic policy uncertainty (EPU) has developed from a macro-level news index into a multilevel construct explaining heterogeneous
+    corporate decisions, information environments, and market outcomes. This article critically integrates thirty-one peer-reviewed studies from 2020
+    to 2025, alongside four foundational contributions that delimit the construct and its core mechanisms. The review organizes contemporary evidence
+    around three questions: how EPU is measured, through which mechanisms it affects firms, and why its consequences vary across settings. National
+    news-based indices remain influential but are increasingly complemented by local, policy-specific, survey-based, and firm-level textual measures.
+    Across investment, financing, innovation, and disclosure, the dominant pattern is conditional: real-options delay and financing frictions produce
+    contraction, while precautionary liquidity, accelerated innovation, and timely disclosure reflect adaptive responses under specific governance and
+    institutional conditions. An integrated framework is advanced in which measured uncertainty operates through managerial perception and is
+    moderated by firm resources, industry irreversibility, and political-institutional context. A research agenda is proposed for firm-level and
+    LLM-enabled measurement, multilevel causal designs, and strategic resilience, with particular attention to financial statement comparability as a
+    mechanism linking policy uncertainty, strategic differentiation, and reporting credibility.
+
+### R01390 | 2025 | article/None | Lang: en
+TI: Confidence interval reporting in randomised controlled trials: A critical analysis of IJA publications
+AB: Statistical methods are integral to the design, analysis, and interpretation of clinical studies. They enable researchers to organise complex
+    data, draw valid inferences, and quantify the reliability and clinical significance of their findings. The use of descriptive statistics, such as
+    mean [standard deviation (SD)] and median [interquartile range (IQR)], helps summarise data, while inferential statistics, including P values and
+    confidence intervals (CIs), allow for hypothesis testing and estimation of effect size and precision.[1] Of these, the reporting of CIs has
+    gathered increasing attention in recent years. CIs give important information regarding the accuracy and clinical significance of study results by
+    defining a range that is likely to contain the true impact. CIs indicate the consistency or variability of the results. Suppose a study reports a
+    95% CI; in that case, it means that if the study were repeated multiple times with samples from the population, the calculated CIs from those
+    studies would contain the true value 95% of the time.[2] It is now required to report CIs alongside P values to enhance the transparency and
+    reproducibility of research findings.[3,4] In the context of anaesthesiology, pain management, and critical care, the Indian Journal of
+    Anaesthesia (IJA) has emerged as a leading platform for disseminating original research and shaping clinical standards in India and beyond. The
+    IJA has increasingly prioritised methodological rigour, particularly in the adoption of CIs and advanced statistical methods. The present analysis
+    included 83 randomised controlled trials (RCTs) published in the IJA between January and December 2024, with a focus on CI usage. Each article was
+    systematically reviewed for statistical methods used, focusing on the presence and presentation of CIs for primary or secondary outcomes. As the
+    study design represented a cross-sectional evaluation of a single publication year, temporal trends or year-wise comparison of CI usage were not
+    assessed. The analysis revealed that 70 (84.3%) articles included 95% CIs for all primary or secondary outcomes [Table 1, Figure 1]. Descriptive
+    statistics, particularly mean (SD), remained the most frequently used summary measure (68 of 83 articles, 82%), followed by percentages (62
+    articles, 75%) and median (IQR) (16 articles, 19%). P values continued to be widely reported (65 articles, 78%), often without complementary
+    effect-size metrics or CIs.[5–17] Advanced methods, such as logistic regression and ROC analysis, were used in 12% and 7% of articles,
+    respectively. While such analyses can enhance understanding of binary outcomes and diagnostic accuracy, their underutilisation may reflect
+    constraints in researcher training, resource availability, or editorial policies. Our study did not explore these potential causes due to its
+    retrospective bibliometric design and narrow focus on CI reporting.Figure 1: Statistical Methods employed in the Indian Journal of Anaesthesia in
+    2024. CI = Confidence Interval; SD = Standard Deviation; IQR = Interquartile Range; ANOVA = Analysis of Variance; ROC = Receiver Operating
+    CharacteristicTable 1: Analysis of statistical methods employed in original research articles published in the Indian Journal of Anaesthesia in
+    2024Articles not reporting CIs relied on basic descriptive statistics and hypothesis testing, with minimal use of multivariable analyses or
+    advanced diagnostic tools. In contrast, articles that reported CIs used a wider variety of statistical methods, demonstrating more thorough
+    research analytics. These findings highlight that a significant proportion of IJA articles reported CI (84.3%) in 2024, signalling a growing
+    methodological awareness. This is an encouraging trend, as the reporting of CIs is now recognised as essential for interpreting the clinical
+    relevance and precision of study results, rather than relying solely on statistical significance as indicated by P values.[18] Reporting of
+    descriptive statistics, including mean (SD) and median (IQR), provides critical context for understanding CI usage. Although this commentary
+    prioritised CI reporting, we included descriptive statistics and frequencies to highlight broader statistical reporting patterns in published
+    RCTs. While SD describes the spread of data and P value test hypotheses, CIs provide the most comprehensive information by combining effect size,
+    precision, and interpretability, making them superior for reporting and understanding study results. This preference for simpler methods is
+    consistent with previous large-scale surveys of Indian anaesthesia journals, which found that descriptive or elementary methods were used in over
+    90% of studies, while more advanced techniques remained rare.[19] The underuse of CIs and advanced methods has important implications for the
+    quality and interpretability of published research. CIs provide essential information about the range within which the true effect is likely to
+    lie, helping to distinguish between statistical and clinical significance. As noted in recent reviews of RCT reporting in IJA, merely reporting P
+    values without CIs can obscure the practical importance of findings and limit their applicability in clinical decision-making.[4] CIs not only
+    provide valuable information about effect size along with its width but also suggest possible clinical significance. Thus, in an ideal scenario,
+    effect size should preferably be associated with a CI to assess precision.[20] CIs are frequently misconstrued. It is essential to recognise that
+    the CI does not represent the range of effects observed in 95% of individuals within the population. Moreover, it would be erroneous to state that
+    there is a 95% likelihood that the CI incorporates the genuine population effect. Instead, the correct interpretation is that if the same study
+    were repeated many times, 95% of the calculated CIs from those studies would be expected to contain the true population parameter. Interpretation
+    of CIs is thus highly context-dependent. Emphasis during postgraduate training and dissertation writing, a basic biostatistics course, and
+    reviewer or editorial fellowship programmes could further improve CI reporting.[21] Presentation at conferences/CMEs and abstract publication
+    None. Study data availability De-identified data may be requested with reasonable justification from the authors (email to the corresponding
+    author) and shall be shared upon request. Disclosure of use of artificial intelligence (AI)-assistive or generative tools The authors confirm that
+    no AI tools or language models (LLMs) were used in the writing or editing of the manuscript, and no images were manipulated using AI. Declaration
+    of use of permitted tools The scales, scores are freely available and not copyrighted. Authors contributions LG: Concept, Design, Data Analysis,
+    Manuscript Preparation, Editing, Review, Approval. KC: Design, Editing, Review, Approval. DB: Literature Search, Data Acquisition, Editing,
+    Review. Financial support and sponsorship Nil. Conflicts of interest There are no conflicts of interest. Supplementary material None.
+
+### R01391 | 2025 | article/None | Lang: en
+TI: Forecasting crude oil futures price uncertainty: an explainable deep learning framework integrating news sentiment
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01392 | 2026 | preprint/None | Lang: en
+TI: Machine Learning Validation Pipelines: From Tabular Benchmarking to Conformal Calibration and Execution-Grounded Agentic Testing
+AB: Abstract Machine learning systems are increasingly required to be multi-layered for software engineering validation protocols, and multiple checks
+    are imposed instead of just one. Many important failure modes, such as deep class imbalance, poor probability calibration, ungrounded execution,
+    and ”attributional” issues, come to a head in low-level deployments, such as automated code generation, credit underwriting, and clinical triage,
+    where failures can be devastating. In clinical triage, credit underwriting, and the automated generation of code situations that are of a high
+    stakes regularly show up critical failure modes such as severe class imbalance, poor probability calibration, unfaithful attribution, and
+    ungrounded execution, for which standard k-fold cross-validation and regularized baselines are entirely inadequate. By combining the findings from
+    41 empirical studies, this review identifies three main levels of architecture: data leakage prevention and baseline benchmarking (Level 1),
+    post-hoc interpretability audits and glass-box comparisons (Level 2), and distribution-free uncertainty quantification (Level 3). It is
+    particularly important to note that a meta-analysis of 297 financial machine learning papers reveals a general disregard for diagnosis; only 7.1%
+    of the papers examined included Remove and Retrain (ROAR) benchmarks for testing the faithfulness of the explanations, whereas 93.9% used TreeSHAP
+    for feature attribution. The existence of multi-tier verification frameworks is especially important in order to prevent silent failure modes in
+    safetycritical software systems, as these findings demonstrate. Class-conditional Mondrian conformal calibration answers the Minority Coverage
+    Collapse Theorem, recovering +61.7 percentage points of minority coverage (p < 10 −80 ), and pairs with conformalized quantile regression and
+    cost-optimal selective human deferral (θ ∗ = ch/CFN). Layer 4 is pre-deployment gating: on models above 0.85 AUROC, where static toolkits report
+    nothing amiss, the RISED framework surfaces decision threshold-flip rates of 49.1% to 64.2% under minor input perturbations. Layer 5 covers
+    execution-grounded multi-agent verification: closed-loop Abstract Syntax Tree validation with transactional rollback (ExecuGraph), lightweight
+    multi-vector screening (TriEval), arity-matched action fairness auditing (AgentFairBench), and prompt-sensitivity benchmarking of the LLM judges
+    such pipelines rely on to score free-form output (JudgeSense). We then formalize how the layers couple, and set out the order in which they should
+    run.
+
+### R01393 | 2026 | preprint/None | Lang: en
+TI: Core-Answer Agreement and Elaboration Uncertainty in AI Answers on UAE Virtual-Asset Regulation: a Pilot Audit of Three Consumer Engines
+AB: [NO ABSTRACT AVAILABLE]
+
+=== END OF BATCH b033 (50 records) ===

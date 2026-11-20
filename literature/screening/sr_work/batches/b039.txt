@@ -1,0 +1,594 @@
+BATCH b039 -- 50 records: R01644 .. R01693
+
+### R01644 | 2025 | article/None | Lang: en
+TI: The blueprint of a new fact-checking system: A methodology to enrich RAG systems with new generated datasets
+AB: In an era where digital misinformation spreads rapidly, Artificial Intelligence (AI) has become a crucial tool for fact-checking. However, the
+    effectiveness of AI in this domain is often limited by the availability of high-quality and scalable datasets to train and guide algorithms. In
+    this paper, we introduce VERIFAID (VERIfication FAISS-based framework for fake news Detection), a novel framework that improves fact-checking
+    through a Retrieval-Augmented Generation (RAG) system based on automatically generated and dynamically growing datasets. Our approach improves
+    evidence retrieval by building a scalable knowledge base, reducing the reliance on manually annotated data. The system consists of three key
+    modules: two dedicated to dataset creation and one inference module that integrates advanced language models, such as LLaMA, within the RAG
+    paradigm. To validate our methodology, we provide technical specifications for both the system and the dataset, together with comprehensive
+    evaluations in zero-shot fact-checking scenarios. The results demonstrate the efficiency and adaptability of our approach and its potential to
+    improve AI-driven fact verification at scale. • A RAG-based approach can compete with and outperform other fact-checking methods. • An
+    auto-updating database enables real-time use and reduces human intervention. • Adding metadata and embedding distance improves classification in
+    LLM contexts. • LLM behaviour improves with role specification and the inclusion of more chunks. • LLMs effectively extract claims and verdicts
+    when data is in natural language.
+
+### R01645 | 2026 | article/None | Lang: en
+TI: A data-centric analysis for efficient semantic knowledge acquisition in word embeddings
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01646 | 2026 | preprint/None | Lang: en
+TI: Global Humanity's Knowledge Archive (GHKA): A Protocol for Trans-temporal Knowledge Preservation and AI Context Resilience v1.0
+AB: Current Large Language Models suffer from catastrophic forgetting and session-based amnesia. This paper introduces the Global Humanity's Knowledge
+    Archive (GHKA), a decentralized protocol designed to bridge the gap between millisecond-latency AI processing and millennial-scale knowledge
+    preservation. Version 2.0 — revised per Diamond Standard (30-block academic structure). Reviewed by multi-model AI Consilium.
+
+### R01647 | 2025 | article/None | Lang: en
+TI: Next-POI Recommendation via Spatial-Temporal Knowledge Graph Contrastive Learning and Trajectory Prompt
+AB: Next POI (Point-of-Interest) recommendation aims to forecast users’ future movements based on their historical check-in trajectories, holding
+    significant value in location-based services. Existing methods address trajectory data sparsity by integrating rich auxiliary information or using
+    spatial-temporal knowledge graphs (STKGs), showing promising results. Yet, they face two main challenges: i) Due to the difficulty of transforming
+    structured trajectory data into trajectory text describing users’ spatial-temporal mobility, the powerful reasoning ability of pre-trained
+    language models is rarely explored to enhance recommendation performance. ii) Methods based on STKG can introduce external knowledge inconsistent
+    with user preferences, leading to the knowledge noise generated hampering the accuracy of recommendations. To this end, we propose a novel
+    approach called STKG-PLM that integratesSTKGcontrastive learning andprompt pre-trainedlanguagemodel (PLM) to enhance the next POI recommendation.
+    Specifically, we design a spatial-temporal trajectory prompt template that transforms structured trajectories into text corpus based on STKG,
+    serving as the input of PLM to understand the movement pattern of users from coarse-grained and fine-grained perspectives. Additionally, we
+    propose an STKG contrastive learning framework to mitigate the introduced knowledge noise. Extensive experiments on three real-world datasets
+    demonstrate that STKG-PLM exhibits notable performance improvements over the state-of-the-art baseline methods.
+
+### R01648 | 2025 | article/None | Lang: en
+TI: FL-Evo: Jointly modeling fact and logic evolution patterns for temporal knowledge graph reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01649 | 2026 | preprint/None | Lang: en
+TI: The Unmixed Reality Knowledge Injection via Merge: Efficient Domain Adaptation Without Post-Training
+AB: The dominant approach for creating domain-specialized large language models requires expensive post-training procedures including supervised
+    fine-tuning (SFT), reinforcement learning from human feedback (RLHF), and instruction tuning. The best performing models undergo multiple stages
+    of alignment after pretraining on domain-specific corpora, with costs often exceeding initial pretraining. We propose a new efficient paradigm,
+    Knowledge Injection via Merge (KIM), that dispenses with post-training on the domain model entirely by leveraging asymmetric model merging guided
+    by mechanistic interpretability insights. Given a domain corpus, we pretrain a knowledge model and merge it with an already-aligned general model
+    using 𝑀 𝐵 𝑀 𝐴 layer-specific interpolation that preserves alignment-critical parameters while injecting domain knowledge into factual storage
+    layers. Experiments on medical, legal, and scientific domains show our approach achieves 94.2% of the knowledge retention of a fully fine-tuned
+    model on domain-specific benchmarks while preserving 97.8% of the alignment capabilities, using less than 15% of the total compute budget. We show
+    that KIM generalizes across model scales (7B-70B parameters) and architectures (Llama, Mistral), enabling efficient domain adaptation for
+    practitioners without access to expensive alignment infrastructure.
+
+### R01650 | 2025 | article/None | Lang: en
+TI: A zero-shot self-improving NER method for cyber threat intelligence via knowledge injection
+AB: Abstract The rapid evolution of cyber threats demands efficient entity extraction from Cyber Threat Intelligence (CTI) reports to support
+    proactive analysis and sharing. Current methods for CTI extraction falter due to a lack of domain knowledge, which can lead to the overlooking of
+    critical entities. Moreover, the hallucinations in LLM’s outputs result in insufficient accuracy. To address these limitations, we propose a
+    zero-shot, self-improving NER method for CTI via knowledge injection. The framework consists of four modules: a domain knowledge extractor, a
+    reliable data annotator, a high-consistency annotation filter, and a self-retrieval reasoner. The domain knowledge extractor enhances LLM
+    comprehension of specialized threat intelligence, while the others work in a multi-stage reasoning process to mitigate hallucinations by
+    generating, filtering, and reasoning upon high-consistency data. These modules collaborate to improve the model’s entity recognition ability
+    through continuous in-context learning. Experimental results show that under strict zero-shot conditions, the proposed method achieves F1 scores
+    of 67.7%, 61.41%, 74.56%, and 65.83% on the LLM-TIKG, APT-NER, LADDER, and CDTier datasets, respectively. This represents an improvement of 7.66%
+    over the average F1 score of other baseline methods, demonstrating superior adaptability in low-resource security scenarios.
+
+### R01651 | 2026 | article/None | Lang: en
+TI: AI avatars in education: effects on knowledge acquisition, academic motivation, and cognitive load
+AB: As digital learning environments increasingly incorporate artificial intelligence, empirical evidence regarding the educational effectiveness of
+    AI-powered digital avatars remains limited and methodologically heterogeneous. This randomized matched-pair study examined whether learning with a
+    human-like AI-avatar instructional system implemented in Unity 3D with Convai and OpenAI GPT-4o for real-time verbal interaction improves
+    knowledge acquisition, academic motivation, and perceived cognitive load compared with autonomous internet-based learning. Forty-eight university
+    students were included in the final analytic sample and were balanced across instructional condition and gender (AI-avatar: n = 24; control: n =
+    24; 12 males and 12 females in each condition). Participants completed an instructional task on introductory artificial intelligence and
+    neural-network concepts, followed by a 20-item knowledge test, the Academic Motivation Scale, and a shortened Cognitive Load Scale. Separate 2 x 2
+    analyses of variance tested the effects of instructional condition and gender for each dependent variable. Reliability was satisfactory for the
+    Academic Motivation Scale (pre-test Cronbach's α = 0.88; post-test α = 0.97) and the Cognitive Load Scale ( α =.77). The AI-avatar group obtained
+    higher knowledge-test scores than the control group ( M = 10.63, SD = 2.39 vs. M = 8.92, SD = 3.11), F (1, 44) = 4.66, p = 0.036, partial η 2 =
+    0.096. Academic motivation showed a more favorable pre-to-post trajectory in the AI-avatar condition (ΔSDI M = −1.15, SD = 3.67) than in the
+    control condition (ΔSDI M = −4.36, SD = 3.70), F (1, 44) = 9.22, p = 0.004, partial η 2 = 0.173; the unadjusted post-test SDI condition effect
+    approached significance ( p = 0.051), and an ANCOVA controlling for baseline motivation was significant ( p = 0.006). Perceived cognitive load did
+    not differ significantly between conditions, F (1, 44) = 0.16, p = 0.688. No significant gender main effects or condition-by-gender interactions
+    emerged for the main outcomes. These findings suggest that AI-avatar-supported instruction may enhance knowledge acquisition and support
+    motivational regulation, while evidence for cognitive-load reduction was not observed in the present data. The novelty of the study lies in its
+    direct empirical comparison of next-generation, human-like AI-avatar learning support with conventional self-directed online learning, while also
+    reporting outcome-specific analyses and limitations relevant to reproducibility.
+
+### R01652 | 2026 | article/None | Lang: en
+TI: CADI: A cross-source alignment and dynamic knowledge injection framework for medical QA
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01653 | 2026 | preprint/None | Lang: en
+TI: Beyond Surface Facts: Deep Graph Augmentation and Wavelet Transform for Temporal Knowledge Graph Completion
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01654 | 2026 | preprint/None | Lang: en
+TI: Transferring Patterns, Steering Evolution: Retrieval-Guided Dynamic Prompts for Temporal Knowledge Graph Reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01655 | 2025 | article/None | Lang: en
+TI: Path-Aware Knowledge Injection for Fine-Grained Emotion Recognition in Mental Health Counseling
+AB: Fine-grained, multi-label emotion recognition in textual dialogues, particularly in contexts like mental health counseling, presents significant
+    challenges due to the complexity and concurrency of human emotions. Standard pre-trained language models, while powerful, often struggle to
+    capture the underlying reasoning and emotional interdependencies that are not explicitly stated in the text. To address this, we propose PK-GAT, a
+    novel framework for Path-aware Knowledge-injected Graph Attention Networks. Our approach moves beyond traditional knowledge fusion by actively
+    reasoning over a commonsense knowledge graph (i..e, SenticNet). It identifies, encodes, and ranks multi-hop semantic paths that connect textual
+    concepts to emotion labels, thereby injecting rich, inferential logic into the model. This path-aware mechanism is integrated with a Graph
+    Attention Network (GAT) that dynamically models the relationships between emotion labels, allowing them to mutually refine one another. We conduct
+    extensive experiments on the GoeMotions and SemEval-2018 datasets. Our results demonstrate that PK-GAT achieves new state-of-the-art performance,
+    attaining a Macro-F1 score of 58.72% and a Micro-F1 of 69.85% on GoeMotions, outperforming strong baselines and recent models. Additionally,
+    through detailed ablation and case studies, we validate the significant contributions of both the path-based reasoning and the dynamic label graph
+    modeling, offering a robust and effective solution for nuanced emotion recognition.
+
+### R01656 | 2026 | article/None | Lang: en
+TI: K-SDGNN: A static–dynamic temporal knowledge graph-based method for fault evolution prediction in metro train door systems
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01657 | 2026 | article/None | Lang: en
+TI: Adaptive Modality Routing for Temporal Knowledge Graph Forecasting with Heterogeneous Mixture-of-Experts
+AB: Temporal knowledge graph forecasting aims to predict future missing facts from continuously evolving relational data in dynamic information
+    systems. Such forecasting tasks are increasingly important for intelligent applications involving complex interactions among entities, events, and
+    evolving environments. Existing approaches typically employ unified architectures that process all queries through the same representation
+    pipeline, despite substantial variations in structural connectivity, historical availability, and semantic information among different queries.
+    Such a homogeneous modeling strategy may limit the ability to effectively handle diverse forecasting scenarios, including highly connected
+    entities, recurrent temporal patterns, and cold-start cases with insufficient historical evidence. To address this challenge, we propose a
+    Heterogeneous Modality Mixture-of-Experts (H-MoE) framework that adaptively selects specialized reasoning pathways according to query
+    characteristics. Unlike conventional mixture-of-experts architectures with homogeneous subnetworks, our framework incorporates three complementary
+    experts with distinct inductive biases: a time-aware graph neural network for structural relational reasoning, a temporal transformer for
+    historical sequence modeling, and a semantic representation adapter based on pretrained language models for knowledge transfer in sparse
+    scenarios. A query-aware gating network is introduced to dynamically allocate computational resources among different experts according to the
+    available structural, temporal, and semantic evidence. Furthermore, we employ entropy-based routing regularization to encourage confident expert
+    selection while maintaining balanced expert utilization, together with a representation diversity constraint to promote complementary feature
+    learning among heterogeneous reasoning pathways. Experiments on three benchmark temporal knowledge graph datasets indicate that the proposed
+    framework can improve forecasting performance under the evaluation setting used in this study. The largest observed gains occur for queries with
+    limited historical evidence. These findings support heterogeneous expert specialization as a useful design direction, while the scope of the
+    conclusions remains limited to the tested ICEWS benchmarks and implementation.
+
+### R01658 | 2026 | preprint/None | Lang: en
+TI: Adaptive Switching Between Self-Learning and Collaborative Learning in Self-and-Mutual Models: A Unified Framework for Autonomous Knowledge
+    Acquisition
+AB: Learning systems can acquire knowledge through independent learning or collaborative learning. Independent learning enables a system to explore
+    its own experiences, develop specialized knowledge, and preserve autonomy, whereas collaborative learning enables multiple learning entities to
+    exchange information, resolve knowledge gaps, and benefit from complementary capabilities. However, a system that consistently relies on only one
+    learning mode may suffer from insufficient knowledge diversity, unnecessary communication costs, redundant learning, or limited adaptability to
+    changing tasks. This paper proposes an Adaptive Self-and-Mutual Learning Framework (ASMLF), a conceptual framework for dynamically switching
+    between self-learning and collaborative learning within a proposed class of Self-and-Mutual Models. Unlike approaches that focus exclusively on
+    individual learning, social learning, multi-agent coordination, or the collaboration of large language models, the proposed framework treats
+    self-models and mutual models as distinct model-level structures that support autonomous and relational knowledge acquisition. A state-aware
+    switching mechanism estimates learning uncertainty, knowledge deficiencies, expected collaborative gains, communication costs, and the reliability
+    of shared knowledge to determine whether learning should proceed independently, collaboratively, or through a hybrid sequence. The framework also
+    incorporates reciprocal knowledge transfer, collaboration-triggered self-learning, self-learning-triggered collaboration, and feedback-driven
+    adaptation of switching policies. We formulate the framework mathematically, establish testable research propositions, and design an experimental
+    protocol for evaluating learning performance, sample efficiency, knowledge retention, adaptability, and computational efficiency. The paper
+    provides a conceptual foundation for investigating adaptive learning-mode selection in self-and-mutual model architectures without assuming that
+    either learning mode is universally superior.
+
+### R01659 | 2026 | preprint/None | Lang: en
+TI: Evaluation Dimension Determines Conclusion: A Systematic Study of SFT and CPT Effects on Institutional Financial Knowledge Injection
+AB: Companion work (DKSE-FinBench) diagnosed that institutional-private knowledge (L4/L5) is a universal blind spot for LLMs and hypothesized a remedy
+    mapping: SFT for alignment, CPT for knowledge injection. We systematically validate these hypotheses through 8 training experiments (3 SFT
+    versions and 5 CPT versions) on Qwen3-8B, evaluated on 290 probes across three dimensions: (i) 200 mechanical probes, (ii) 40 natural business
+    questions, and (iii) 40 general-finance probes (L1–L3 catastrophic-forgetting check). Three findings emerge: (1) SFT universally fails—all three
+    versions score 4 to 18 percent, far below the 38 percent baseline; (2) CPT's effectiveness depends entirely on the evaluation dimension: on
+    mechanical probes five CPT variants tie the baseline (within plus-or-minus 3.5 pp noise), yet on natural business questions CPT yields +20 pp
+    (flow-understanding +50 pp); (3) sample size determines conclusions: 50 probes falsely suggested CPT surpasses baseline by +2 pp, but 200 probes
+    revealed this was noise. These yield a treatment division: SFT for alignment, CPT for concept and flow, RAG for precise values. The
+    evaluation-dimension finding warns that single-dimensional benchmarks risk false positives or negatives about training-method effectiveness.
+
+### R01660 | 2026 | article/None | Lang: en
+TI: Bi-modality spatio-temporal knowledge incorporation for few-shot fine-grained species recognition
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01661 | 2026 | article/None | Lang: en
+TI: AI-augmented ACT-R modeling in real interfaces: automating visual perception, knowledge acquisition, and motor misexecution
+AB: Introduction: Cognitive models in interactive environments often rely on hard-coded symbolic task descriptions, pre-specified interface objects,
+    and idealized action execution. This paper's primary contribution is EVisiTor, an AI-augmented extension of the VisiTor eyes-and-hands tool for
+    ACT-R that automates two forms of work commonly performed by the modeler: perception of the live interface and acquisition of task knowledge.
+    Methods: Its visual-perception pathway converts interactive interface objects into ACT-R-compatible visicon features, while its
+    knowledge-acquisition pathway converts human-readable instructions into executable declarative structures. A motor-execution pathway connects
+    ACT-R actions to the operating system and supports probabilistic misexecution with perceptually grounded checking and correction. We use a
+    previously studied Excel procedure as a behavioral case study. Results: Relative to an idealized perfect-user model, the EVisiTor-enabled model
+    reduced task-level RMSE from 29.19 s to 17.37 s, human-SD-normalized RMSE from 1.24 to 0.66, and mean absolute per-subtask error from 23.1 s to
+    10.5 s, with smaller absolute error on 12 of 14 subtasks. A spreadsheet knowledge-acquisition analysis showed that prompting the LLMs with the
+    instruction and UIA grounding can produce the intended action and live visual-object names for every scannable target; the file-name input was the
+    sole exception because it has no stable UIA label. A six-task Windows analysis then tested the feasibility of EVisiTor beyond Excel. Broad
+    instructions often resulted in alternative valid methods: exact action agreement ranged from 42.5%-63.6% without UIA and 18.8%-70.6% with UIA,
+    although 41 of 42 generated parses in each condition were functionally sufficient. Detailed guides raised exact agreement to 70.0%-85.0% without
+    UIA and 76.2%-90.0% with UIA, and validated chunks drove the task-independent model through all six tasks in live Windows applications.
+    Discussion: Together, the results demonstrate EVisiTor's potential for automating interface perception and instruction-based knowledge acquisition
+    for a symbolic cognitive model, while identifying instruction specificity and individual variability as targets for future work.
+
+### R01662 | 2026 | article/None | Lang: en
+TI: A Semantically Enhanced Graph Neural Network for fuzzy temporal knowledge graph reasoning with local and global representations
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01663 | 2026 | article/None | Lang: en
+TI: Knowledge Acquisition, Case Discussion, and Engagement in Health Professional Students Using Interactive Virtual Patient Cases Versus Written Case
+    Studies: Randomized Controlled Trial
+AB: Abstract Background Effective pain and opioid management education remains a persistent challenge in health professions training. Static case
+    studies and lecture-based instruction are widely used but may be insufficient to develop the clinical reasoning and communication skills required
+    in practice. Interactive virtual patient simulations, including those powered by large language models, offer scalable alternatives, but
+    head-to-head comparisons of interactive and static case formats using identical content among interprofessional learner populations remain
+    limited. Objective This randomized controlled trial examined whether learner knowledge, quiz performance, and engagement differed when educational
+    case studies were delivered through an interactive, AI-enabled virtual patient format versus a static written format. Because the formats differ
+    in interactivity as well as in their use of AI, the trial was designed to test the effect of an “interactive virtual patient format” rather than
+    to isolate any AI-specific effect. Methods Health professional students from medicine, nursing, dentistry, pharmacy, and allied health programs at
+    a US academic health sciences university viewed a 12-minute video on pain management and were then randomized 1:1 to complete either 3 static
+    written case studies or 3 interactive virtual patient case studies using the Figment Learning Labs Virtual Clinic. Case content was identical
+    across conditions; only the delivery format was manipulated. The virtual patient system used an AI-enabled conversational interface (GPT-4o)
+    delivering facilitator-authored case material, including a viewable medical record. Knowledge was assessed preintervention and postintervention
+    using an 8-item test. Case discussion quiz accuracy and learner engagement (17 items) were also measured. Of 74 enrolled participants, 58 (78%)
+    completed all study components and were included in this completer-based analysis. Analyses included a 2×2 mixed ANOVA and 2-tailed
+    independent-sample t tests (α=.05). Results A significant time (pre-post)×group (interactive vs written) interaction was observed ( F 1,56 =4.39;
+    P =.04; partial η²=0.07), indicating greater knowledge gains in the interactive condition. Participants in the virtual patient group demonstrated
+    higher case discussion quiz accuracy (mean 0.79, SD 0.15) than those in the written case group (mean 0.64, SD 0.11; t 56 =4.48; P <.001).
+    Agreement scores were significantly higher in the interactive group on 13 of 17 engagement items ( P <.05), including items addressing realism,
+    enjoyment, and perceived clinical relevance; because these were uncorrected item-level comparisons, they should be read as supportive rather than
+    definitive. Conclusions In this preliminary trial, exposure to interactive virtual patient cases was associated with higher engagement and higher
+    short-term knowledge scores than static written cases. The design cannot isolate the independent contribution of AI, conversational interactivity,
+    or time-on-task; the findings therefore support the value of an interactive virtual patient “format” rather than a distinct AI-specific advantage.
+    Because the analysis was completer-based, featured unexplained attrition, and involved 2 authors who are founders of the company commercializing
+    the platform, independent replication in larger, multi-institutional, and longitudinal samples is needed.
+
+### R01664 | 2026 | article/None | Lang: en
+TI: Multiple minds are better than one: Enhancing temporal knowledge graph forecasting with mixture of diverse graph experts
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01665 | 2026 | article/None | Lang: en
+TI: Generative AI and Smart Learning Devices in Accounting Education: Enhancing Knowledge Acquisition Among Students in Ghanaian Private Universities
+AB: Purpose – This study aims to examine the comprehensive role of generative artificial intelligence (AI) tools and smart learning devices in
+    enhancing knowledge acquisition among accounting students in Ghanaian private universities, as well as the impact of perceived usefulness,
+    perceived ease of use, and institutional support on students' AI adoption behaviour in accounting education. Design/methodology/approach –
+    Anchored by the Unified Theory of Acceptance and Use of Technology (UTAUT) (Venkatesh et al., 2003), this study employs a qualitative research
+    design using in-depth interviews with accounting students purposively selected from four private universities in Ghana. Thematic analysis was used
+    to analyse the data gathered, using UTAUT's four constructs, performance expectancy, effort expectancy, social influence, and facilitating
+    conditions, as sensitising concepts. Findings – The study reveals that generative AI tools, particularly ChatGPT and smart learning devices,
+    positively enhance accounting students' knowledge acquisition in Ghanaian private universities. Perceived usefulness and ease of use emerged as
+    the dominant drivers of AI adoption, while institutional support and digital literacy moderated how effectively students integrated these tools
+    into their learning. Ethical concerns, over-reliance, and uneven access to devices remain significant challenges. Research
+    limitations/implications – This study focuses exclusively on private universities in Ghana and therefore limits the generalisability of findings.
+    Future research should extend to public universities and across African contexts. Practical implications – The findings encourage Ghanaian private
+    universities to invest in AI-driven pedagogical infrastructure, develop institutional policies governing responsible AI usage, and build the
+    digital competencies of accounting faculty and students to maximise the educational benefits of generative AI. Originality/value – This paper
+    makes three distinct contributions. Primarily, it demonstrates that UTAUT's four constructs are not static cognitive judgments but are dynamically
+    negotiated through institutional, infrastructural, and ethical contexts in developing-country higher education settings, thereby extending UTAUT's
+    explanatory scope. Furthermore, it introduces the concept of an institutional legitimacy vacuum to account for how the absence of formal AI
+    governance policies drives covert and unguided student AI use in Ghanaian private universities, a phenomenon that existing UTAUT-based models do
+    not theorise. Finally, it provides the first qualitative, multi-university evidence base on generative AI adoption among accounting students in
+    Ghanaian private higher education, an under-researched context with distinct structural challenges including large class sizes, resource
+    constraints, and infrastructure deficits.
+
+### R01666 | 2025 | article/None | Lang: en
+TI: Coherent temporal logical reasoning via fusing multi-faced information for link forecasting over temporal knowledge graphs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01667 | 2025 | preprint | Lang: n/a
+TI: How Robust Is Homogeneity Bias in LLMs? Evidence Across Models, Decoding Settings, and Identity Signals
+AB: Large language models (LLMs) reproduce homogeneity bias -- the tendency to portray marginalized groups as more internally similar than dominant
+    groups -- but whether this bias generalizes across models, is stable under different inference settings, or depends on how group identity is
+    signaled remains unstudied. We map homogeneity bias across seven open-weight instruction-tuned LLMs (7-20B parameters), a 5x5 temperature x top-p
+    decoding grid, and two paradigms for signaling group identity (explicit labels vs. racially distinctive names). In six of seven models, Hispanic
+    and Asian Americans are portrayed as significantly more homogeneous than White Americans at the default configuration, and the effect remains
+    positive on average at every temperature and top-p tested; African American and gender bias instead vary in direction across models. A
+    conservative cell-level re-analysis confirms Hispanic and Asian homogeneity as robust while weaker African American and gender signals largely do
+    not survive, establishing group-specific robustness. We also apply the same grid to a names-based paradigm in which group identity is signaled via
+    racially distinctive surnames rather than explicit labels. The names paradigm corroborates Hispanic and Asian homogeneity bias, but Black-coded
+    surnames elicit robustly less homogeneous outputs than White-coded names in every model tested -- a reversal absent from the label paradigm --
+    showing that how group identity is operationalized shapes which biases surface and in which direction.
+
+### R01668 | 2025 | preprint | Lang: n/a
+TI: We're Different, We're the Same: Creative Homogeneity Across LLMs
+AB: Numerous powerful large language models (LLMs) are now available for use as writing support tools, idea generators, and beyond. Although these
+    LLMs are marketed as helpful creative assistants, several works have shown that using an LLM as a creative partner results in a narrower set of
+    creative outputs. However, these studies only consider the effects of interacting with a single LLM, begging the question of whether such narrowed
+    creativity stems from using a particular LLM -- which arguably has a limited range of outputs -- or from using LLMs in general as creative
+    assistants. To study this question, we elicit creative responses from humans and a broad set of LLMs using standardized creativity tests and
+    compare the population-level diversity of responses. We find that LLM responses are much more similar to other LLM responses than human responses
+    are to each other, even after controlling for response structure and other key variables. This finding of significant homogeneity in creative
+    outputs across the LLMs we evaluate adds a new dimension to the ongoing conversation about creativity and LLMs. If today's LLMs behave similarly,
+    using them as a creative partners -- regardless of the model used -- may drive all users towards a limited set of "creative" outputs.
+
+### R01669 | 2025 | preprint | Lang: n/a
+TI: MergeME: Model Merging Techniques for Homogeneous and Heterogeneous MoEs
+AB: The recent success of specialized Large Language Models (LLMs) in domains such as mathematical reasoning and coding has led to growing interest in
+    methods for merging these expert LLMs into a unified Mixture-of-Experts (MoE) model, with the goal of enhancing performance in each domain while
+    retaining effectiveness on general tasks. However, the effective merging of expert models remains an open challenge, especially for models with
+    highly divergent weight parameters or different architectures. State-of-the-art MoE merging methods only work with homogeneous model architectures
+    and rely on simple unweighted averaging to merge expert layers, which does not address parameter interference and requires extensive fine-tuning
+    of the merged MoE to restore performance. To address these limitations, this paper introduces new MoE merging techniques, including strategies to
+    mitigate parameter interference, routing heuristics to reduce the need for MoE fine-tuning, and a novel method for merging experts with different
+    architectures. Extensive experiments across multiple domains demonstrate the effectiveness of our proposed methods, reducing fine-tuning costs,
+    improving performance over state-of-the-art methods, and expanding the applicability of MoE merging.
+
+### R01670 | 2025 | preprint | Lang: n/a
+TI: GIMMICK -- Globally Inclusive Multimodal Multitask Cultural Knowledge Benchmarking
+AB: Large Vision-Language Models (LVLMs) have recently gained attention due to their distinctive performance and broad applicability. While it has
+    been previously shown that their efficacy in usage scenarios involving non-Western contexts falls short, existing studies are limited in scope,
+    covering just a narrow range of cultures, focusing exclusively on a small number of cultural aspects, or evaluating a limited selection of models
+    on a single task only. Towards globally inclusive LVLM research, we introduce GIMMICK, an extensive multimodal benchmark designed to assess a
+    broad spectrum of cultural knowledge across 144 countries representing six global macro-regions. GIMMICK comprises six tasks built upon three new
+    datasets that span 728 unique cultural events or facets on which we evaluated 20 LVLMs and 11 LLMs, including five proprietary and 26 open-weight
+    models of all sizes. We systematically examine (1) regional cultural biases, (2) the influence of model size, (3) input modalities, and (4)
+    external cues. Our analyses reveal strong biases toward Western cultures across models and tasks and highlight strong correlations between model
+    size and performance, as well as the effectiveness of multimodal input and external geographic cues. We further find that models have more
+    knowledge of tangible than intangible aspects (e.g., food vs. rituals) and that they excel in recognizing broad cultural origins but struggle with
+    a more nuanced understanding.
+
+### R01671 | 2025 | preprint | Lang: n/a
+TI: LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?
+AB: Large language models (LLMs) have the potential of being useful tools that can automate tasks and assist humans. However, these models are more
+    fluent in English and more aligned with Western cultures, norms, and values. Arabic-specific LLMs are being developed to better capture the
+    nuances of the Arabic language, as well as the views of the Arabs. Yet, Arabs are sometimes assumed to share the same culture. In this position
+    paper, I discuss the limitations of this assumption and provide preliminary thoughts for how to build systems that can better represent the
+    cultural diversity within the Arab world. The invalidity of the cultural homogeneity assumption might seem obvious, yet, it is widely adopted in
+    developing multilingual and Arabic-specific LLMs. I hope that this paper will encourage the NLP community to be considerate of the cultural
+    diversity within various communities speaking the same language.
+
+### R01672 | 2025 | preprint | Lang: n/a
+TI: Imitating AI agents increase diversity in homogeneous information environments but can reduce it in heterogeneous ones
+AB: Recent developments in large language models (LLMs) have facilitated autonomous AI agents capable of imitating human-generated content, raising
+    fundamental questions about how AI may reshape democratic information environments such as news. We develop a large-scale simulation framework to
+    examine the system-level effects of AI-based imitation, using the full population of Danish digital news articles published in 2022. Varying
+    imitation strategies and AI prevalence across information environments with different baseline structures, we show that the effects of AI-driven
+    imitation are strongly context-dependent: imitating AI agents increase semantic diversity in initially homogeneous environments but can reduce
+    diversity in heterogeneous ones. This pattern is qualitatively consistent across multiple LLMs. However, this diversity arises primarily through
+    stylistic differentiation and variance compression rather than factual enrichment, as AI-generated articles tend to omit information while
+    remaining semantically distinct. These findings indicate that AI-driven imitation produces ambivalent transformations of information environments
+    that may shape collective intelligence in democratic societies.
+
+### R01673 | 2025 | preprint | OpenAlex: article/None | Lang: en
+TI: A taxonomy of epistemic injustice in the context of AI and the case for generative hermeneutical erasure
+AB: Epistemic injustice related to AI is a growing concern. In relation to machine learning models, epistemic injustice can have a diverse range of
+    sources, ranging from epistemic opacity, the discriminatory automation of testimonial prejudice, and the distortion of human beliefs via
+    generative AI's hallucinations to the exclusion of the global South in global AI governance, the execution of bureaucratic violence via
+    algorithmic systems, and interactions with conversational artificial agents. Based on a proposed general taxonomy of epistemic injustice, this
+    paper first sketches a taxonomy of the types of epistemic injustice in the context of AI, relying on the work of scholars from the fields of
+    philosophy of technology, political philosophy and social epistemology. Secondly, an additional conceptualization on epistemic injustice in the
+    context of AI is provided: generative hermeneutical erasure. I argue that this injustice the automation of 'epistemicide', the injustice done to
+    epistemic agents in their capacity for collective sense-making through the suppression of difference in epistemology and conceptualization by
+    LLMs. AI systems' 'view from nowhere' epistemically inferiorizes non-Western epistemologies and thereby contributes to the erosion of their
+    epistemic particulars, gradually contributing to hermeneutical erasure. This work's relevance lies in proposal of a taxonomy that allows epistemic
+    injustices to be mapped in the AI domain and the proposal of a novel form of AI-related epistemic injustice.
+
+### R01674 | 2025 | preprint | Lang: n/a
+TI: Localized Cultural Knowledge is Conserved and Controllable in Large Language Models
+AB: Just as humans display language patterns influenced by their native tongue when speaking new languages, LLMs often default to English-centric
+    responses even when generating in other languages. Nevertheless, we observe that local cultural information persists within the models and can be
+    readily activated for cultural customization. We first demonstrate that explicitly providing cultural context in prompts significantly improves
+    the models' ability to generate culturally localized responses. We term the disparity in model performance with versus without explicit cultural
+    context the explicit-implicit localization gap, indicating that while cultural knowledge exists within LLMs, it may not naturally surface in
+    multilingual interactions if cultural context is not explicitly provided. Despite the explicit prompting benefit, however, the answers reduce in
+    diversity and tend toward stereotypes. Second, we identify an explicit cultural customization vector, conserved across all non-English languages
+    we explore, which enables LLMs to be steered from the synthetic English cultural world-model toward each non-English cultural world. Steered
+    responses retain the diversity of implicit prompting and reduce stereotypes to dramatically improve the potential for customization. We discuss
+    the implications of explicit cultural customization for understanding the conservation of alternative cultural world models within LLMs, and their
+    controllable utility for translation, cultural customization, and the possibility of making the explicit implicit through soft control for
+    expanded LLM function and appeal.
+
+### R01675 | 2025 | preprint | Lang: n/a
+TI: BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge
+AB: In this work, we introduce BLUCK, a new dataset designed to measure the performance of Large Language Models (LLMs) in Bengali linguistic
+    understanding and cultural knowledge. Our dataset comprises 2366 multiple-choice questions (MCQs) carefully curated from compiled collections of
+    several college and job level examinations and spans 23 categories covering knowledge on Bangladesh's culture and history and Bengali linguistics.
+    We benchmarked BLUCK using 6 proprietary and 3 open-source LLMs - including GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, Llama-3.3-70B-Instruct, and
+    DeepSeekV3. Our results show that while these models perform reasonably well overall, they, however, struggles in some areas of Bengali phonetics.
+    Although current LLMs' performance on Bengali cultural and linguistic contexts is still not comparable to that of mainstream languages like
+    English, our results indicate Bengali's status as a mid-resource language. Importantly, BLUCK is also the first MCQ-based evaluation benchmark
+    that is centered around native Bengali culture, history, and linguistics.
+
+### R01676 | 2025 | preprint | Lang: n/a
+TI: Cross-Lingual Transfer of Cultural Knowledge: An Asymmetric Phenomenon
+AB: Despite substantial research efforts evaluating how well large language models~(LLMs) handle global cultural diversity, the mechanisms behind
+    their cultural knowledge acquisition, particularly in multilingual settings, remain unclear. We study this question by investigating how cultural
+    knowledge transfers across languages during language adaptation of LLMs. We introduce an interpretable framework for studying this transfer,
+    ensuring training data transparency and controlling transfer effects. Through a study of four non-Anglophonic cultures, we observe bidirectional
+    cultural transfer between English and other high-resource languages, while low-resource languages primarily transfer knowledge to English with
+    limited reverse flow. To explain this asymmetric phenomenon, we propose a frequency-based hypothesis: cultural knowledge appearing more frequently
+    in the pretraining data transfers more easily, which is supported by empirical analysis of the training corpora.
+
+### R01677 | 2025 | preprint | Lang: n/a
+TI: Homogeneous Keys, Heterogeneous Values: Exploiting Local KV Cache Asymmetry for Long-Context LLMs
+AB: Recent advances in Large Language Models (LLMs) have highlighted the critical importance of extending context length, yet the quadratic complexity
+    of attention mechanisms poses significant challenges for efficient long-context modeling. KV cache compression has emerged as a key approach to
+    address this challenge. Through extensive empirical analysis, we reveal a fundamental yet previously overlooked asymmetry in KV caches: while
+    adjacent keys receive similar attention weights ({\it local homogeneity}), adjacent values demonstrate distinct {\it heterogeneous} distributions.
+    This key-value asymmetry reveals a critical limitation in existing compression methods that treat keys and values uniformly. To address the
+    limitation, we propose a training-free compression framework (AsymKV) that combines homogeneity-based key merging with a mathematically proven
+    lossless value compression. Extensive experiments demonstrate that AsymKV consistently outperforms existing long-context methods across various
+    tasks and base models. For example, on LLaMA3.1-8B, AsymKV achieves an average score of 43.95 on LongBench, surpassing SOTA methods like H$_2$O
+    (38.89) by a large margin.Our code can be found in this link:https://github.com/the-scale-lab/Asymkv.
+
+### R01678 | 2025 | preprint | Lang: n/a
+TI: Beyond Homogeneous Attention: Memory-Efficient LLMs via Fourier-Approximated KV Cache
+AB: Large Language Models struggle with memory demands from the growing Key-Value (KV) cache as context lengths increase. Existing compression methods
+    homogenize head dimensions or rely on attention-guided token pruning, often sacrificing accuracy or introducing computational overhead. We propose
+    FourierAttention, a training-free framework that exploits the heterogeneous roles of transformer head dimensions: lower dimensions prioritize
+    local context, while upper ones capture long-range dependencies. By projecting the long-context-insensitive dimensions onto orthogonal Fourier
+    bases, FourierAttention approximates their temporal evolution with fixed-length spectral coefficients. Evaluations on LLaMA models show that
+    FourierAttention achieves the best long-context accuracy on LongBench and Needle-In-A-Haystack (NIAH). Besides, a custom Triton kernel,
+    FlashFourierAttention, is designed to optimize memory via streamlined read-write operations, enabling efficient deployment without performance
+    compromise.
+
+### R01679 | 2025 | preprint | Lang: n/a
+TI: AI-generated stories favour stability over change: homogeneity and cultural stereotyping in narratives generated by gpt-4o-mini
+AB: Can a language model trained largely on Anglo-American texts generate stories that are culturally relevant to other nationalities? To find out, we
+    generated 11,800 stories - 50 for each of 236 countries - by sending the prompt "Write a 1500 word potential {demonym} story" to OpenAI's model
+    gpt-4o-mini. Although the stories do include surface-level national symbols and themes, they overwhelmingly conform to a single narrative plot
+    structure across countries: a protagonist lives in or returns home to a small town and resolves a minor conflict by reconnecting with tradition
+    and organising community events. Real-world conflicts are sanitised, romance is almost absent, and narrative tension is downplayed in favour of
+    nostalgia and reconciliation. The result is a narrative homogenisation: an AI-generated synthetic imaginary that prioritises stability above
+    change and tradition above growth. We argue that the structural homogeneity of AI-generated narratives constitutes a distinct form of AI bias, a
+    narrative standardisation that should be acknowledged alongside the more familiar representational bias. These findings are relevant to literary
+    studies, narratology, critical AI studies, NLP research, and efforts to improve the cultural alignment of generative AI.
+
+### R01680 | 2025 | preprint | OpenAlex citation chasing (backward): review/None | Lang: en
+TI: The Homogenizing Effect of Large Language Models on Human Expression and Thought
+AB: Cognitive diversity, reflected in variations of language, perspective, and reasoning, is essential to creativity and collective intelligence. This
+    diversity is rich and grounded in culture, history, and individual experience. Yet as large language models (LLMs) become deeply embedded in
+    people's lives, they risk standardizing language and reasoning. We synthesize evidence across linguistics, psychology, cognitive science, and
+    computer science to show how LLMs reflect and reinforce dominant styles while marginalizing alternative voices and reasoning strategies. We
+    examine how their design and widespread use contribute to this effect by mirroring patterns in their training data and amplifying convergence as
+    all people increasingly rely on the same models across contexts. Unchecked, this homogenization risks flattening the cognitive landscapes that
+    drive collective intelligence and adaptability.
+
+### R01681 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Grounding Multilingual Multimodal LLMs With Cultural Knowledge
+AB: Multimodal Large Language Models excel in high-resource settings, but often misinterpret long-tail cultural entities and underperform in
+    low-resource languages. To address this gap, we propose a data-centric approach that directly grounds MLLMs in cultural knowledge. Leveraging a
+    large scale knowledge graph from Wikidata, we collect images that represent culturally significant entities, and generate synthetic multilingual
+    visual question answering data. The resulting dataset, CulturalGround, comprises 22 million high-quality, culturally-rich VQA pairs spanning 42
+    countries and 39 languages. We train an open-source MLLM CulturalPangea on CulturalGround, interleaving standard multilingual instruction-tuning
+    data to preserve general abilities. CulturalPangea achieves state-of-the-art performance among open models on various culture-focused multilingual
+    multimodal benchmarks, outperforming prior models by an average of 5.0 without degrading results on mainstream vision-language tasks. Our findings
+    show that our targeted, culturally grounded approach could substantially narrow the cultural gap in MLLMs and offer a practical path towards
+    globally inclusive multimodal systems.
+
+### R01682 | 2025 | preprint | Lang: n/a
+TI: Token Homogenization under Positional Bias
+AB: This paper investigates token homogenization - the convergence of token representations toward uniformity across transformer layers and its
+    relationship to positional bias in large language models. We empirically examine whether homogenization occurs and how positional bias amplifies
+    this effect. Through layer-wise similarity analysis and controlled experiments, we demonstrate that tokens systematically lose distinctiveness
+    during processing, particularly when biased toward extremal positions. Our findings confirm both the existence of homogenization and its
+    dependence on positional attention mechanisms.
+
+### R01683 | 2025 | preprint | Lang: n/a
+TI: CultranAI at PalmX 2025: Data Augmentation for Cultural Knowledge Representation
+AB: In this paper, we report our participation to the PalmX cultural evaluation shared task. Our system, CultranAI, focused on data augmentation and
+    LoRA fine-tuning of large language models (LLMs) for Arabic cultural knowledge representation. We benchmarked several LLMs to identify the
+    best-performing model for the task. In addition to utilizing the PalmX dataset, we augmented it by incorporating the Palm dataset and curated a
+    new dataset of over 22K culturally grounded multiple-choice questions (MCQs). Our experiments showed that the Fanar-1-9B-Instruct model achieved
+    the highest performance. We fine-tuned this model on the combined augmented dataset of 22K+ MCQs. On the blind test set, our submitted system
+    ranked 5th with an accuracy of 70.50%, while on the PalmX development set, it achieved an accuracy of 84.1%.
+
+### R01684 | 2025 | preprint | Lang: n/a
+TI: LLMs Homogenize Values in Constructive Arguments on Value-Laden Topics
+AB: Large language models (LLMs) are increasingly used to promote prosocial and constructive discourse online. Yet little is known about how these
+    models negotiate and shape underlying values when reframing people's arguments on value-laden topics. We conducted experiments with 465
+    participants from India and the United States, who wrote comments on homophobic and Islamophobic threads, and reviewed human-written and
+    LLM-rewritten constructive versions of these comments. Our analysis shows that LLM systematically diminishes Conservative values while elevating
+    prosocial values such as Benevolence and Universalism. When these comments were read by others, participants opposing same-sex marriage or Islam
+    found human-written comments more aligned with their values, whereas those supportive of these communities found LLM-rewritten versions more
+    aligned with their values. These findings suggest that value homogenization in LLM-mediated prosocial discourse runs the risk of marginalizing
+    conservative viewpoints on value-laden topics and may inadvertently shape the dynamics of online discourse.
+
+### R01685 | 2025 | preprint | Lang: n/a
+TI: The Even Sheen of AI: Kitsch, LLMs, and Homogeneity
+AB: The exploding use and impact of Chatbots such as ChatGPT that are based on Large Language Models urgently call for a language which is fit to
+    clearly describe functions and problems of the production process and qualities of the Chatbots' textual and image output. Recently, the
+    discussion about appropriate and illuminating metaphors to describe LLMs has gained momentum. As an alternative to well-established metaphors such
+    as "hallucinating" and "bullshit", we propose "kitsch" as a new metaphor. As an internationally widespread term from literary and cultural
+    studies, we argue that "kitsch" is particularly suitable for analytically illuminating a previously neglected feature of LLM-based images and
+    texts: their tendency to produce homogeneous and average content, which is becoming increasingly dominant as the proportion of AI-generated
+    content on the internet grows. This is leading to the equalisation of language, style and argument. In view of the potential negative consequences
+    of this averaging, including for human content producers on the internet, we advocate combining methods and insights from kitsch studies with AI
+    research, philosophy, and communication studies in order to better understand the phenomenon and develop countermeasures.
+
+### R01686 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Task-Dependent Evaluation of LLM Output Homogenization: A Taxonomy-Guided Framework
+AB: Large language models often generate homogeneous outputs, but whether this is problematic depends on the specific task. For objective math tasks,
+    responses may vary in terms of problem-solving strategy but should maintain the same verifiable answer. Whereas, for creative writing tasks, we
+    often expect variation in key narrative components (e.g. plot, setting, etc.) beyond mere vocabulary diversity. Prior work on homogenization
+    rarely conceptualizes diversity in a task-dependent way. We address this gap with four contributions: (1) a task taxonomy with distinct notions of
+    functional diversity -- whether a user would perceive two responses as meaningfully different for a given task; (2) a small user study validating
+    that the taxonomy aligns with human perception of functional diversity; (3) a task-dependent sampling technique that increases diversity only
+    where homogenization is undesired; (4) evidence challenging the perceived diversity-quality trade-off, showing it may stem from
+    mis-conceptualizing both diversity and quality in a task-agnostic way.
+
+### R01687 | 2025 | preprint | Lang: n/a
+TI: What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models
+AB: Large language models (LLMs) are increasingly used as primary knowledge sources, yet their epistemic diversity - defined as the diversity of
+    real-world claims in their outputs - has never been measured. Low epistemic diversity would pose a risk of knowledge collapse as homogeneous LLMs
+    mediate a shrinking in the range of accessible information over time. The dominant paradigm is that overall LLM diversity is low, but this is
+    always with respect to a single point in time, with no reference baseline or consideration for variation across countries. We address this gap in
+    knowledge by performing the first systematic study of epistemic diversity in LLMs across time and cultural context, testing 27 LLMs on 155 topics
+    covering 12 countries, resulting in 1.7M responses and 70M individual claims. We find that epistemic diversity has increased substantially over
+    the past three years, a positive counter to recent diversity pessimism. However, despite progress, we find that every system is less diverse than
+    a search baseline. This gap is not uniform: RAG can improve diversity, while large models are counterintuitively less diverse than smaller ones.
+    Moreover, LLM parametric knowledge systematically reflects English over local-language knowledge for country specific topics. Together, these
+    results demonstrate that while progress on epistemic diversity is tangible, it is insufficient and unevenly distributed.
+
+### R01688 | 2025 | preprint | Lang: n/a
+TI: The Alignment Veto: How Safety Training Suppresses Cultural Knowledge in LLMs
+AB: What happens inside a language model when alignment training conflicts with a cultural value it encodes? Across 16 MENA countries, 26 models, and
+    1.53M human survey responses, we show the answer is suppression, not erasure: at the moment of refusal, a model's internal logit distribution
+    correlates with human survey data more strongly than its freely generated answers. We call this the alignment veto. We distinguish suppression
+    failures (accurate internal distributions blocked at output) from representational bias failures (the encoding itself diverges from human values),
+    and show the two require different interventions. The gate is inequitable: the safety tax reaches 37.6%, with a 19.8% alignment-quality gap
+    between best- and worst-served nations, and native-language prompting widens rather than closes it. Sparse autoencoder analysis corroborated by
+    comparisons across alignment stages identifies a candidate DPO-stage feature mediating suppression in Tulu-3-8B. The gate is real, its costs are
+    unequal, and deciding what it should protect is not a technical question.
+
+### R01689 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: From Facts to Folklore: Evaluating Large Language Models on Bengali Cultural Knowledge
+AB: Recent progress in NLP research has demonstrated remarkable capabilities of large language models (LLMs) across a wide range of tasks. While
+    recent multilingual benchmarks have advanced cultural evaluation for LLMs, critical gaps remain in capturing the nuances of low-resource cultures.
+    Our work addresses these limitations through a Bengali Language Cultural Knowledge (BLanCK) dataset including folk traditions, culinary arts, and
+    regional dialects. Our investigation of several multilingual language models shows that while these models perform well in non-cultural
+    categories, they struggle significantly with cultural knowledge and performance improves substantially across all models when context is provided,
+    emphasizing context-aware architectures and culturally curated training data.
+
+### R01690 | 2025 | preprint | OpenAlex citation chasing (backward): conference-paper/None | Lang: en
+TI: Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
+AB: Language models (LMs) often struggle to generate diverse, human-like creative content, raising concerns about the long-term homogenization of
+    human thought through repeated exposure to similar outputs. Yet scalable methods for evaluating LM output diversity remain limited, especially
+    beyond narrow tasks such as random number or name generation, or beyond repeated sampling from a single model. We introduce Infinity-Chat, a
+    large-scale dataset of 26K diverse, real-world, open-ended user queries that admit a wide range of plausible answers with no single ground truth.
+    We introduce the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising 6 top-level
+    categories (e.g., brainstorm & ideation) that further breaks down to 17 subcategories. Using Infinity-Chat, we present a large-scale study of mode
+    collapse in LMs, revealing a pronounced Artificial Hivemind effect in open-ended generation of LMs, characterized by (1) intra-model repetition,
+    where a single model consistently generates similar responses, and more so (2) inter-model homogeneity, where different models produce strikingly
+    similar outputs. Infinity-Chat also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human
+    annotations per example. This enables studying collective and individual-specific human preferences in response to open-ended queries. Our
+    findings show that LMs, reward models, and LM judges are less well calibrated to human ratings on model generations that elicit differing
+    idiosyncratic annotator preferences, despite maintaining comparable overall quality. Overall, INFINITY-CHAT presents the first large-scale
+    resource for systematically studying real-world open-ended queries to LMs, revealing critical insights to guide future research for mitigating
+    long-term AI safety risks posed by the Artificial Hivemind.
+
+### R01691 | 2025 | preprint | Lang: n/a
+TI: Culture Cartography: Mapping the Landscape of Cultural Knowledge
+AB: To serve global users safely and productively, LLMs need culture-specific knowledge that might not be learned during pre-training. How do we find
+    such knowledge that is (1) salient to in-group users, but (2) unknown to LLMs? The most common solutions are single-initiative: either researchers
+    define challenging questions that users passively answer (traditional annotation), or users actively produce data that researchers structure as
+    benchmarks (knowledge extraction). The process would benefit from mixed-initiative collaboration, where users guide the process to meaningfully
+    reflect their cultures, and LLMs steer the process towards more challenging questions that meet the researcher's goals. We propose a
+    mixed-initiative methodology called CultureCartography. Here, an LLM initializes annotation with questions for which it has low-confidence
+    answers, making explicit both its prior knowledge and the gaps therein. This allows a human respondent to fill these gaps and steer the model
+    towards salient topics through direct edits. We implement this methodology as a tool called CultureExplorer. Compared to a baseline where humans
+    answer LLM-proposed questions, we find that CultureExplorer more effectively produces knowledge that leading models like DeepSeek R1 and GPT-4o
+    are missing, even with web search. Fine-tuning on this data boosts the accuracy of Llama-3.1-8B by up to 19.2% on related culture benchmarks.
+
+### R01692 | 2025 | preprint | OpenAlex: article/None | Lang: en
+TI: Evaluating cultural knowledge processing in large language models: a cognitive benchmarking framework integrating retrieval-augmented generation
+AB: Purpose This paper aims to evaluate how effectively large language models (LLMs) represent and generate minority cultural knowledge, specifically
+    Taiwanese Hakka culture. To address this, the study proposes a structured and replicable evaluation framework integrating Bloom’s taxonomy and
+    retrieval-augmented generation (RAG). The research is guided by the following questions: (1) How do LLMs perform across different cognitive
+    domains when processing Hakka cultural content? (2) To what extent does the integration of RAG enhance the accuracy and contextual appropriateness
+    of LLM outputs? And (3) How do different LLM architectures compare in their ability to recall, analyse and creatively synthesize culturally
+    grounded information? Design/methodology/approach This study proposes a cognitive benchmarking framework to evaluate how LLMs process and apply
+    culturally specific knowledge. The framework integrates Bloom’s taxonomy with RAG to assess model performance across six hierarchical cognitive
+    domains: remembering, understanding, applying, analysing, evaluating and creating. Using a curated Taiwanese Hakka digital cultural archive as the
+    primary testbed, the evaluation measures LLM-generated responses’ semantic accuracy and cultural relevance. Findings The evaluation results
+    indicate that LLMs augmented with RAG exhibit marked improvements over baseline models in the cognitive domains of remembering, understanding and
+    analysing. These enhancements are particularly evident in tasks requiring factual accuracy, contextual relevance and semantic precision,
+    underscoring RAG’s effectiveness in addressing the knowledge sparsity typically observed in underrepresented cultural data sets. However, a
+    notable limitation persists across all models including those equipped with RAG in the domain of creating. This suggests that while retrieval
+    mechanisms bolster the reproduction and comprehension of cultural knowledge, they do not yet sufficiently support culturally nuanced generative
+    synthesis. Originality/value This study introduces a novel evaluation framework integrating cognitive domain benchmarks with RAG-enhanced LLMs to
+    assess cultural knowledge processing. The research advances culturally grounded artificial intelligence (AI) systems and digital archival quality
+    by empirically demonstrating RAG’s impact on improving factual accuracy in lower and mid-level tasks. The findings affirm the strategic value of
+    retrieval integration for enhancing representational fidelity in cultural AI applications, while also highlighting the need for future research
+    into hybrid architectures that combine external grounding with culturally adaptive generation strategies.
+
+### R01693 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Epistemic diversity across language models mitigates knowledge collapse
+AB: Artificial intelligence (AI) increasingly generates the very content used to train future AI systems. This feedback loop can degrade model
+    quality, reduce informational diversity, and ultimately drive knowledge collapse, i.e. a degradation to a narrow and inaccurate set of ideas. We
+    ask: to mitigate collapse, is it better to concentrate the internet's knowledge into a handful of dominant models (referred to as an AI
+    monoculture), or to distribute it across a diverse ecosystem of models? To study the effect of diversity on model performance, we randomly segment
+    the fixed training data across an increasing number of language models and evaluate the resulting ecosystems of models over ten self-training
+    iterations. Our results show that diversity improves long-term performance of models, while monoculture accelerates collapse. Specifically, we
+    observe that the optimal diversity level (i.e., the level that maximizes performance) increases monotonically with the number of self-training
+    iterations. The observed effect is robust across various experimental settings, including different model families, parameter sizes, mixing human-
+    and model-generated data, and temperature sampling methods, demonstrating the significance of ecosystem diversity for mitigating collapse.
+    Moreover, our experiments with increased model and dataset sizes indicate that scaling up the system can amplify collapse in homogeneous
+    ecosystems, thereby increasing the diversity benefits. In the presence of AI monoculture, our results suggest considering information environments
+    with specialized AI models that maintain and enhance diversity in knowledge production, akin to the benefits of ecological diversity in biology
+    and social systems.
+
+=== END OF BATCH b039 (50 records) ===

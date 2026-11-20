@@ -1,0 +1,544 @@
+BATCH b038 -- 50 records: R01594 .. R01643
+
+### R01594 | 2026 | preprint/None | Lang: en
+TI: AXIOM: Zero-Retrieval Knowledge Injection for Offline Medical LLMs via Hyperdimensional Computing
+AB: Retrieval-Augmented Generation (RAG) has become the dominant paradigm for grounding Large Language Models (LLMs) in external knowledge. However,
+    standard RAG incurs significant latency from vector-database searches and struggles to operate in fully offline, resource-constrained environments
+    such as rural clinics or field hospitals. We introduce AXIOM (Axiomatic Hyperdimensional Injection for Offline Medical LLMs), a neurosymbolic
+    architecture that replaces the retrieve-then-generate pipeline with three tightly integrated components: A Relational Contextual Distiller that
+    compresses a multi-gigabyte medical corpus into a hierarchy of 10,000-dimensional Hyperdimensional Computing (HDC) "Axiom Maps" using holographic
+    binding and superposition. A Zero-Retrieval Latent Priming mechanism that injects the Axiom Map directly into the KV-cache of a quantised Small
+    Language Model (SLM), eliminating the retrieval step entirely. A Neurosymbolic Safety Governor that performs real-time token-level hallucination
+    detection by comparing generated tokens against the Axiom Map in HDC space. Evaluated on both a controlled synthetic knowledge graph (F1=0.995,
+    99% retrieval accuracy) and real-world medical datasets (PubMedQA and MedQA at 10,000 facts extracted via NER), AXIOM achieves a 565x compression
+    ratio over FAISS in bipolar mode, >98% hallucination catch rates on noisy clinical data (F1 > 0.97 at both 5K and 10K scales), and a 29.7x query
+    speedup—all while running entirely offline on commodity hardware. Keywords: Retrieval-Augmented Generation, RAG, Hyperdimensional Computing,
+    Offline AI, Medical LLMs, Edge Computing, Neurosymbolic AI
+
+### R01595 | 2025 | article/None | Lang: en
+TI: Diachronic semantic encoding based on pre-trained language model for temporal knowledge graph reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01596 | 2026 | preprint/None | Lang: en
+TI: Structure-Grounded Semantic Calibration with LLMs for Temporal Knowledge Graph Reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01597 | 2026 | article/None | Lang: en
+TI: Zero-shot temporal knowledge graph completion: An LLM-guided approach
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01598 | 2026 | article/None | Lang: en
+TI: Process-aware programming assessment through temporal knowledge graph reasoning and LLM verification
+AB: Automated programming assessment systems predominantly evaluate final code submissions while ignoring the problem-solving processes that reveal
+    genuine learning, and large language model (LLM)-based feedback systems suffer from hallucinations due to the absence of structured domain
+    knowledge grounding. This paper proposes a Process-AwareEvaluation Framework that is based on a combination of temporal knowledge graph reasoning
+    with KG-augmented LLM verification, which can be used for the overall assessment of programming assignments. The proposed framework includes four
+    modules that are tightly coupled and connected: Process-Aware Temporal Knowledge Graphs(PA-TKG), which models the evolution of code, concept
+    coverage, and problem-solving activities as a timestamped heterogeneous graph structure; Composition-based Graph Convolutional Networks (CompGCN),
+    which learn embeddings of relation-aware representations across different edge types; Contrastive Process Pattern Learning(CPPL)with a
+    dual-encoder architecture that compares static code structure to dynamic development patterns to detect anomalous behavior; and KG-Guided
+    Chain-of-Thought Verification (KG-CoTV), which constrains LLM reasoning against valid learning paths derived from a knowledge graph. The
+    experiments conducted using two publicly available datasets demonstrated that the proposed framework achieved a process evaluation score of 0.912,
+    indicating a 26.1 percent increase compared to the best performing baseline, as well as 62.8 percent higher anomaly detection accuracy and an 83.3
+    percent decrease in feedback hallucination rates. Ablation studies were also performed to verify the contributions of each module toward the
+    overall framework performance, where it was found that the Process-Aware Temporal Knowledge Graphs (PA-TKG)provided the most significant
+    representational basis. The core non-LLM pipeline (graph construction, embedding, anomaly detection, and constraint checking)takes less than 500
+    ms to process submissions; when combined with LLM inference for feedback generation, the total end-to-end latency averages 3.26 s on an NVIDIA
+    A100 GPU, making the proposed framework suitable for near-real-time deployment in educational environments.
+
+### R01599 | 2026 | article/None | Lang: en
+TI: Learning from surprise: Fusing LLM-guided test-time adaptation for temporal knowledge graphs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01600 | 2026 | preprint/None | Lang: en
+TI: Active Topological Learning (ATL): A Geometric Framework for Targeted Knowledge Injection in Small Language Models
+AB: We propose Active Topological Learning (ATL), a geometric methodology for surgically inserting targeted conceptual knowledge into the embedding
+    space of pre-trained Small Language Models (SLMs). Current fine-tuning paradigms require large datasets, significant compute, and risk degrading
+    existing model knowledge. ATL addresses this by operating at the geometric level: detecting conceptual voids using the Quality Signal metric,
+    measuring existing manifold structure via Angular Pre-Survey, designing a geometrically derived Micro-Corpus, and training exclusively along
+    identified load-bearing dimensions using anisotropic gradient masking. We demonstrate that a synthetic concept with zero pre-training bias can be
+    teleported from a random sub-word cluster to a precisely localized topological neighbourhood in the quantum computing manifold in under 40 seconds
+    on consumer laptop hardware, without causing catastrophic forgetting in unrelated semantic regions. Subsequent natural language semantic retrieval
+    confirms the inserted concept is discoverable by naive queries without prior knowledge of its existence. We identify a Semantic Singularity upper
+    bound on training intensity and propose the concept of a minimum propagation radius R for bridge resolution. We suggest these findings raise open
+    questions about just-in-time knowledge injection and the feasibility of on-demand model specialisation in resource-constrained deployments,
+    ultimately proposing that the SLM serves best as a fluid topological substrate paving the way for deterministic external graph routing.
+
+### R01601 | 2026 | article/None | Lang: en
+TI: Unifying temporal knowledge Graph and LLMs for Biomedical Hypothesis generation via temporal soft Prompting
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01602 | 2026 | article/None | Lang: en
+TI: Effective Reinforcement Learning for Remote Sensing Vision-Language Models via Supervised Knowledge Injection
+AB: While Vision-Language Models (VLMs) have demonstrated impressive capabilities in general-domain visual understanding, their performance in remote
+    sensing tasks remains limited due to domain discrepancies and the scarcity of remote sensing data in typical vision-language pretraining corpora.
+    Recent advances show that reinforcement learning (RL) can enhance VLMs’ reasoning capabilities by guiding models to perform intermediate “thought”
+    steps before answering. However, applying RL directly to remote sensing scenarios is often ineffective, as VLMs lack fundamental domain knowledge
+    to begin with. To address this, we propose a novel paradigm that first equips VLMs with remote sensing knowledge in remote sensing visual
+    grounding task through supervised fine-tuning (SFT) on a curated dataset of CoT samples specific to remote sensing. We then conduct RL to further
+    strengthen the learned capabilities. Experiments on the in-domain dataset show that our RL-enhanced model outperforms its SFT-only counterpart.
+    Furthermore, evaluations on the out-of-domain dataset demon-strate that our method fosters better generalization in remote sensing reasoning. Our
+    approach offers a promising direction for adapting general-purpose VLMs to domain-specific visual understanding tasks.
+
+### R01603 | 2025 | article/None | Lang: en
+TI: QUARTER: An LLM-enhanced quaternion graph attention network for entity alignment between temporal knowledge graphs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01604 | 2025 | article/None | Lang: en
+TI: Dynamic link prediction: Using language models and graph structures for temporal knowledge graph completion with emerging entities and relations
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01605 | 2025 | article/None | Lang: en
+TI: Revolutionizing safety training: enhancing safety knowledge acquisition, retention, and user experience with adaptive VR-LLM integration
+AB: Safety training is essential for preventing industrial accidents. The integration of Virtual Reality (VR) and Large Language Models (LLMs) holds
+    transformative potential for safety training, as each technology has critical limitations when used alone. While VR provides realistic, risk-free
+    simulations, it lacks adaptability to individual learning needs. Conversely, LLMs offer personalized feedback but lack contextual immersion.
+    Guided by adaptive learning theory, this study proposes a framework which integrating VR and LLMs for safety training, namely AIVR. AIVR consists
+    three core components: an AI tutoring system, that leveraging LLMs for personalized content generation; an adaptive learning system that
+    continuously assesses learner performance and adjusts training content to address individual knowledge gaps; a VR system that contributes adaptive
+    navigation support by visually emphasizing weak points, highlighting relevant areas in the immersive environment, and restructuring interaction
+    paths in response to learner progress.This study then compared AIVR with traditional VR and slide-based instruction in an experiment assessing
+    knowledge acquisition, retention, and user experience. Results demonstrated that AIVR significantly improved knowledge acquisition and retention,
+    and outperformed the other methods in self-efficacy and technology acceptance. The findings also indicated that AIVR's personalization enhanced
+    engagement and reduced anxiety. These results highlight the effectiveness of applying adaptive learning theory to combine immersive and
+    intelligent technologies for enhancing safety training.
+
+### R01606 | 2026 | article/None | Lang: en
+TI: Replication Package: IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection
+AB: This dataset includes the replication package for paper: "IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge
+    Injection". The package includes the enhanced IaC-eval framework code and its related revised dataset. It also contains the complete
+    implementation of the knowledge injection techniques, along with their experiments and the associated results. The scripts for statistical
+    analysis are also provided in the package.
+
+### R01607 | 2026 | article/None | Lang: en
+TI: Anticipating Object Interactions Via Aggregation and Distillation of Spatio-Temporal Knowledge From Vision Language Models
+AB: The increasing prevalence of wearable cameras has driven the development of egocentric (first-person) systems that assist human activities
+    proactively by anticipating imminent interactions. A central challenge in this domain is active object interaction anticipation from first-person
+    video-predicting what interaction will occur, when it will happen, and where it will take place. This involves forecasting (1) what interaction
+    category (verb-noun pair), (2) when (time-to-interaction), and (3) where (the active object's location, bounding box in the last observed frame).
+    However, existing approaches rely on limited prior knowledge about active objects and their state changes, and they struggle to (1) predict
+    diverse state-change interactions, (2) handle temporal uncertainty of changes, and (3) localize the active object accurately in the presence of
+    spatial distractors. To address these problems, we propose ST-KAD. It consists of a Spatial-Temporal Knowledge Aggregator that integrates rich
+    commonsense priors to enhance what-when-where interaction anticipation and guides the model's attention toward informative cues, and a
+    Teacher-Student Distillation framework that enables efficient inference without access to oracle inputs by transferring knowledge from an
+    oracle-informed teacher model to a query-based student decoder. On two egocentric anticipation benchmarks (Ego4D-STA, EPIC-Kitchens-STA), ST-KAD
+    sets a new state of the art, demonstrating accurate what-when-where prediction of future interactions. Moreover, results on four active object
+    detection benchmarks (Ego4D-AOD, EPIC-Kitchens-AOD, MECCANO, 100DOH) further confirm that our prior-informed aggregation and teacher-student
+    distillation generalize beyond anticipation to spatial localization, validating the generality of the design.
+
+### R01608 | 2026 | article/None | Lang: en
+TI: A unified LLM-KG framework for low‑annotation urban rail transit signal system operation: knowledge acquisition and dynamic update
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01609 | 2026 | article/None | Lang: en
+TI: Refusal-Aware Instruction Tuning for Hallucination Mitigation near Uncertain Knowledge Boundaries
+AB: The rapid deployment of large language models has exposed significant vulnerabilities in their reliability, particularly concerning their
+    propensity to hallucinate when confronted with queries that exceed their internalized knowledge capacities. This paper investigates the critical
+    challenge of mitigating hallucinations near uncertain knowledge boundaries through a novel paradigm termed refusal-aware instruction tuning.
+    Conventional instruction tuning often inadvertently encourages models to generate responses even when uncertain, prioritizing fluency and
+    helpfulness over factual accuracy. To counteract this phenomenon, we propose a systematic framework that integrates uncertainty quantification
+    directly into the instruction tuning pipeline, teaching models to explicitly refuse to answer when a query falls outside their reliable knowledge
+    distribution. By formalizing the concept of uncertain knowledge boundaries, we develop a specialized dataset curation strategy that identifies
+    low-confidence regions and pairs them with appropriate refusal responses. Our methodology is subsequently evaluated through extensive empirical
+    analysis, demonstrating that refusal-aware instruction tuning substantially reduces hallucination rates without compromising the utility of the
+    model on well-known facts. The findings suggest that aligning models with their own epistemic limitations is a fundamental requirement for
+    deploying trustworthy artificial intelligence systems in high-stakes domains.
+
+### R01610 | 2026 | article/None | Lang: en
+TI: An Automated Artistic Image Aesthetic Evaluation Framework via Expert Knowledge Injection into Large Vision-Language Models
+AB: Image aesthetic assessment (IAA) has progressed from handcrafted visual features to deep neural models, yet fine-art evaluation remains difficult
+    because aesthetic judgment depends on style, historical context, and formal composition. Large Vision-Language Models (LVLMs) offer strong
+    multimodal reasoning capabilities, but their direct application to art critique can produce generic descriptions, unstable scores, and weakly
+    interpretable judgments. We therefore propose the Aesthetic Expert Knowledge Injection (AEKI) framework, which translates formal art principles
+    into structured, machine-executable instructions. AEKI operationalizes four dimensions—Contrast & Harmony, Rhythm & Flow, Symmetry & Balance, and
+    Variety & Unity—and assigns style-dependent weights w* across 16 artistic categories. The resulting three-stage pipeline performs style anchoring,
+    expert-weight allocation, and structured instruction compilation before LVLM inference. We evaluate the framework on a multi-category painting
+    collection and a balanced subset annotated by human evaluators. Comparisons with zero-shot LVLM baselines show improved alignment in both
+    numerical scoring and critique professionalism, while ablation experiments clarify the contributions of style anchoring and dynamic weighting.
+    These results indicate that domain knowledge can be incorporated into LVLM evaluation through a transparent rule-based layer, supporting
+    applications in digital curation, computational aesthetics, and art education.
+
+### R01611 | 2026 | article/None | Lang: en
+TI: From Decomposition to Validation: A Multi-stage Framework for Temporal Knowledge Graph Question Answering with LLMs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01612 | 2026 | article/None | Lang: en
+TI: Enhanced temporal knowledge graph reasoning through TKG-LPEHD: LLM-driven dynamic fusion of graph and rule-based methods
+AB: Temporal Knowledge Graphs are essential for understanding dynamic, time-evolving real-world scenarios. However, the effective modeling of temporal
+    validity during reasoning remains a critical and often overlooked challenge. Conventional methods relying on static representations or predefined
+    temporal windows struggle to capture the context-dependent nature of rule applicability over time, leading to inaccurate predictions and a
+    constrained understanding of evolving relationships. To address these issues, this study proposes TKG-LPEHD, a novel framework that deeply
+    integrates rule-based reasoning, graph-based reasoning and large language models to dynamically model the temporal validity of rules. A key
+    feature is the LLM-guided mechanism for dynamic rule extraction and dynamic weight fusion reasoning. The framework employs an LLM-guided
+    three-dimensional relational path sampling strategy with LLM assisted validity assessment, and fuses rule-based and graph-based reasoning through
+    dynamic weights to ensure both high quality and temporal relevance of inference rules. The design further optimizes Neo4j storage architecture,
+    temporal SPARQL query engineering and systematically tuned prompt engineering to facilitate real-world deployment. Evaluations on public
+    benchmarks and a confidential Chinese temporal knowledge dataset demonstrate that the proposed approach significantly outperforms state-of-the-art
+    methods and achieves outstanding performance on long-range temporal reasoning tasks. This research not only validates the paradigm of explicitly
+    incorporating temporal validity as a core reasoning dimension but also provides a more explainable and time-aware solution for high-stakes
+    applications including financial forecasting and geopolitical analysis.
+
+### R01613 | 2026 | article/None | Lang: en
+TI: Subject-Based Influence of Artificial Intelligence Chatbots on Undergraduates’ Research Project Writing and Knowledge Acquisition in Benue State
+    University, Markudi
+AB: Subject-based influence of artificial intelligence chatbots on undergraduates’ research project writing and knowledge acquisition was studied
+    using a descriptive comparative survey research design of the cross-sectional type. Two research questions and two hypotheses were used to guide
+    the study. The population of the study comprised all the 259 final-year undergraduates in the Department of Science and Mathematics Education,
+    Benue State University (now Rev Fr Mosses Orshio Adasu University), Makurdi, Nigeria. From the population, a random sample of 102 final-year
+    undergraduates was drawn and used for the study. Artificial Intelligence Chatbot and Research Questionnaire (AICRQ) and Research Knowledge
+    Acquisition Test (RKAT) were validated by experts and trial tested on 25 students (not part of the main sample studied) and a reliability
+    coefficient of 0.78 and 0.81 were obtained using Cronbach’s Alpha. The research questions were answered by mean and standard deviation, while the
+    hypotheses were tested using One-way ANOVA at 0.05 level of significance. The study found that a significant difference in the extent to which
+    science education undergraduates from different course programmes utilize AI chatbots for research project writing with further Tukey Honestly
+    Significant Difference (HSD) statistic. The study also found that a significant mean difference exists in the influence of AI chatbot usage on
+    research knowledge acquisition among science education undergraduates from different course programmes with Tukey HSD statistic. Based on the
+    findings of the study, it was recommended that lecturers in should integrate guided AI chatbots usage into teaching and research supervision
+    processes to enhance undergraduates’ research project writing skills and knowledge acquisition.
+
+### R01614 | 2025 | article/None | Lang: en
+TI: Search engine versus affective thought-guided chatbot for knowledge acquisition: the mediating roles of perceived social, expressive and
+    diagnostic transparency and cognitive effort
+AB: Purpose This study aims to investigate the effects of different types of chatbots on knowledge learning performance and continuous usage intention
+    by designing thought-guided and affective thought-guided chatbots. Drawing on coping theory, the study further seeks to uncover the underlying
+    mechanism, focusing on perceptions of three nuanced aspects of transparency—social, expressive and diagnostic—and cognitive effort in
+    human–artificial intelligence interactions. Design/methodology/approach Two experiments were conducted to investigate the impacts. A
+    within-subjects experiment compared search engines and popular simple chatbots. A between-subjects experiment added thought-guided and affective
+    thought-guided chatbots. Analysis of variance and partial least squares structural equation modeling were employed to analyze the differences and
+    relationships. Findings Results indicate that, despite users’ initial preference for selecting chatbots, there are no differences in terms of
+    knowledge learning performance and continuous usage intention between the search engine and the simple chatbot. Among the four tools for knowledge
+    acquisition, the affective thought-guided chatbot achieves the best knowledge learning performance, and the thought-guided chatbot shows the
+    lowest continuous usage intention. The mechanism test reveals that, compared to the search engine, the affective thought-guided chatbot increases
+    users’ perceptions of all three aspects of transparency and cognitive effort. Whereas the thought-guided chatbot only increases perceived
+    expressive transparency and cognitive effort. Furthermore, perceived expressive transparency and perceived diagnostic transparency improve
+    knowledge learning performance, perceived social transparency and perceived diagnostic transparency promote continuous usage intention and
+    cognitive effort enhances knowledge learning performance but weakens continuous usage intention. Originality/value This study contributes to the
+    literature by concretizing coping theory in the chatbot context and dissecting interaction transparency into three nuanced aspects from a more
+    detailed perspective. It addresses the ongoing debate over whether chatbots will replace search engines. It further introduces two innovative
+    types of chatbots and presents a comprehensive framework to reveal the underlying mechanism.
+
+### R01615 | 2026 | article/None | Lang: en
+TI: Hallucination as a Latent Space Signal: Knowledge Boundary Detection and Cross-Model Routing via Latent Vectors
+AB: A conceptual note on interpreting LLM hallucination as a latent-space boundary signal rather than mere error. The work introduces the idea of
+    hallucination as a “gradient of ignorance” and sketches an experimental protocol for boundary detection and cross-model routing via latent
+    vectors.
+
+### R01616 | 2025 | article/None | Lang: en
+TI: Knowledge injection methods in question answering
+AB: Objectives. Despite the recent success of large language models, which are now capable of solving a wide range of tasks, a number of practical
+    issues remain unsolved. For example, users of systems providing question answering (QA) services may experience a lack of commonsense knowledge
+    and reasoning proficiency. The present work considers knowledge injection methods as a means of providing functional enhancements to large
+    language models by providing necessary facts and patterns from external sources. Methods. Knowledge injection methods leveraged in relevant QA
+    systems are classified, analyzed, and compared. Self-supervised learning, fine-tuning, attention mechanism and interaction tokens for supporting
+    information injection are considered along with auxiliary approaches for emphasizing the most relevant facts. Results. The reviewed QA systems
+    explicitly show the accuracy increase on the CommonsenseQA benchmark compared to pretrained language model baseline due to knowledge injection
+    methods exploitation. At the same time, in general the higher results are related to knowledge injection methods based on language models and
+    attention mechanism. Conclusions. The presented systematic review of existing external knowledge injection methods for QA systems confirms the
+    continuing validity of this research direction. Such methods are not only capable of increasing the accuracy of QA systems but also mitigating
+    issues with interpretability and factual obsolescence in pretrained models. Further investigations will be carried out to improve and optimize
+    different aspects of the current approaches and develop conceptually novel ideas.
+
+### R01617 | 2026 | article/None | Lang: en
+TI: A Provable Optimization Framework for Knowledge Forgetting in Transformer Models
+AB: As Transformer-based language models increasingly serve as repositories of factual knowledge, the ability to selectively forget specific
+    information becomes crucial for correcting outdated facts, mitigating harmful content, or adhering to privacy regulations. However, current model
+    editing methods either lack formal guarantees or incur undesirable interference with unrelated knowledge. In this work, we propose Provable
+    Knowledge Forgetting (PKF), a rigorous framework that enables targeted suppression of factual information while preserving the model’s overall
+    functionality. PKF formulates forgetting as a constrained optimization problem bounded by a Semantic Forgetting Bound, which quantifies the safe
+    deviation from the model’s original behavior using Fisher Information. To make this tractable, we introduce a low-rank Fisher projection mechanism
+    that ensures localized edits and a regularization term that minimizes semantic drift. We validate PKF on three benchmark datasets CounterFact,
+    zsRE, and TriviaQA using five evaluation metrics: Forget@1, AvgKL, Knowledge Interference Score (KIS), KISnorm, and Neighborhood Consistency Rate
+    (NCR). Our experiments show that PKF outperforms strong baselines such as ROME, MEND, and KE, achieving over 94% forgetting success with
+    significantly lower interference. This work offers a scalable, theoretically grounded solution for controllable forgetting in language models,
+    with implications for safety, compliance, and model lifespan management.
+
+### R01618 | 2026 | article/None | Lang: en
+TI: ChatGPT in management education: Associations among perceived affordances, autonomous motivation, perceived knowledge acquisition, and continuance
+    intention
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01619 | 2026 | article/None | Lang: en
+TI: Structure-aware generative framework for temporal knowledge graph reasoning with historical evidence
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01620 | 2025 | article/None | Lang: en
+TI: Impact of technology literacy, information literacy, and user satisfaction on the adoption of GAI-ChatGPT for learning, knowledge acquisition, and
+    knowledge dissemination among Chinese students
+AB: Generative artificial intelligence (GAI), particularly ChatGPT tool, is significantly transforming both higher-educational settings and everyday
+    life, making technology literacy (TL) and information literacy (IL) an essential competency in today's digital era. In the rapidly evolving field
+    of GAI education, understanding how students’ existing TL, IL, and satisfaction influence their adoption of ChatGPT is essential. Yet the role of
+    these individual constructs in shaping ChatGPT adoption for learning, knowledge acquisition, and knowledge dissemination remains inadequately
+    investigated. In response, this research integrates Cognitive Load Theory as fundamental for TL & IL, and satisfaction into the traditional
+    Unified Theory of Acceptance and Use of Technology (UTAUT) framework to probe and validate its applicability in inducing students’ adoption
+    intention of ChatGPT for learning, knowledge acquisition, and dissemination. Data were acquired from 620 university students in China via a
+    self-administered questionnaire and analyzed through structural equation modeling (SEM) with SmartPLS. The study discovered that the core UTAUT
+    constructs (performance expectancy, effort expectancy, and facilitating conditions) significantly enhance student satisfaction with ChatGPT, while
+    social influence and satisfaction robustly drive their adoption. Furthermore, TL and IL directly affect satisfaction and adoption, as well as
+    moderate the association between satisfaction and the intention to adopt ChatGPT. These findings offer valuable theoretical contributions
+    (extended UTAUT with TL, IL, and satisfaction as moderating constructs resulting in the validated UTAUT-TLILS model, where PE, EE, and FC along
+    with TL and IL accounted for 59.8% variance in satisfaction) and practical implications (highlights the need for universities and institutions to
+    strategically make TL and IL courses mandatory by integrating it in educational curriculum systems, teaching and relevant subject settings) for
+    the effective utilization of ChatGPT among students.
+
+### R01621 | 2025 | article/None | Lang: en
+TI: Chat-GPT in Education: Learning Outcomes and Facilitating Knowledge Acquisition
+AB: Researches are required to determine how well AI-based Chabot succeeds in reaching learning outcomes and speeding up information acquisition. The
+    current study is carried out to understand the effects of Chat GPT on learning outcomes including understanding, engagement, and retention.
+    Moreover, it assesses the learners’ perceptions and experiences in enhancing learning and knowledge acquisition, which may help to find out the
+    key factors that contribute to Chat-GPT's effectiveness such as use interface design, customization, and adaptability. This study investigates the
+    usage of Chat-GPT, and AI-based Chabot in order to improve learning outcomes and speed up knowledge acquisition in higher education. However,
+    there is little empirical evidence about its efficacy, despite increased interest. The study evaluated students' opinions of Chat-GPT's
+    educational usefulness as well as its effects on engagement, comprehension, and knowledge retention. Questionnaire was used to gather information
+    from 540 postgraduate students at three different universities in Bahawalpur using a descriptive methodology with random sampling technique. By
+    encouraging interaction, self-evaluation, and individualized learning, Chat-GPT has a good impact on both academic achievement and personal
+    development, according to analysis using SPSS and thematic approaches. However, ethical issues like plagiarism and abuse draw attention to the
+    necessity of appropriate training is highly noticed during this study. According to these study findings, the Chat-GPT has the potential to
+    revolutionize education for teachers, students, and instructional designers. References Adiguzel, T., Kaya, M. H., & Cansu, F. K. (2023).
+    Revolutionizing education with AI: Exploring the transformative potential of ChatGPT. Contemporary Educational Technology, 15(3), ep429.
+    https://doi.org/10.30935/cedtech/13152 Amani, S., White, L., Balart, T., Arora, L., Shryock, D. K. J., Brumbelow, D. K., & Watson, D. K. L.
+    (2023). Generative AI perceptions: A survey to measure the perceptions of faculty, staff, and students on generative AI tools in academia. arXiv.
+    https://arxiv.org/abs/2304.14415 Anderson, M. C., & Neely, J. H. (1996). Interference and inhibition in memory retrieval. In E. L. Bjork & R. A.
+    Bjork (Eds.), Memory (pp. 237–313). Academic Press. Crawford, J., Cowling, M., & Allen, K. A. (2023). Leadership is needed for ethical ChatGPT:
+    Character, assessment, and learning using artificial intelligence (AI). Journal of University Teaching & Learning Practice, 20(3), 02.
+    https://doi.org/10.53761/1.20.3.02 Currie, G., Hawk, K. E., & Rohren, E. M. (2020). Ethical principles for the application of artificial
+    intelligence (AI) in nuclear medicine. European Journal of Nuclear Medicine and Molecular Imaging, 47, 748–752.
+    https://doi.org/10.1007/s00259-019-04599-8 Farrokhnia, M., Banihashem, S. K., Noroozi, O., & Wals, A. (2023). A SWOT analysis of ChatGPT:
+    Implications for educational practice and research. Innovations in Education and Teaching International. Advance online publication.
+    https://doi.org/10.1080/14703297.2023.2195846 Islam, I., & Islam, M. N. (2023). Opportunities and challenges of ChatGPT in academia: A conceptual
+    analysis. Authorea. https://doi.org/10.22541/au.167517611.17771293/v1 Lin, Z. (2023). Why and how to embrace AI such as ChatGPT in your academic
+    life. https://doi.org/10.31219/osf.io/su3wh Lo, C. K. (2023). What is the impact of ChatGPT on education? A rapid review of the literature.
+    Education Sciences, 13(4), 410. https://doi.org/10.3390/educsci13040410 Lund, B. D., Wang, T., Mannuru, N. R., Nie, B., Shimray, S., & Wang, Z.
+    (2023). ChatGPT and a new academic reality: Artificial intelligence-written research papers and the ethics of the large language models in
+    scholarly publishing. Journal of the Association for Information Science and Technology, 74(5), 570–581. https://doi.org/10.1002/asi.24750 Magana,
+    A. J., & Silva Coutinho, G. (2017). Modeling and simulation practices for a computational thinking-enabled engineering workforce. Computer
+    Applications in Engineering Education, 25(1), 62–78. https://doi.org/10.1002/cae.21779 Malik, A., Khan, M. L., & Hussain, K. (2023). How is
+    ChatGPT transforming academia? Examining its impact on teaching, research, assessment, and learning. SSRN. https://doi.org/10.2139/ssrn.4413515
+    McGeoch, J. A. (1932). Forgetting and the law of disuse. Psychological Review, 39(4), 352–370. https://doi.org/10.1037/h0069819 Mijwil, M. M.,
+    Hiran, K. K., Doshi, R., Dadhich, M., Al-Mistarehi, A. H., & Bala, I. (2023). ChatGPT and the future of academic integrity in the artificial
+    intelligence era: A new frontier. *Al-Salam Journal for Engineering and Technology, 2*(2), 116–127. https://doi.org/10.55145/ajest.2023.02.02.014
+    Oviedo-Trespalacios, O., Peden, A. E., Cole-Hunter, T., Costantini, A., Haghani, M., Kelly, S., ... & Reniers, G. (2023). The risks of using
+    ChatGPT to obtain common safety-related information and advice. SSRN. https://doi.org/10.2139/ssrn.4346827 Radford, A., Narasimhan, K., Salimans,
+    T., & Sutskever, I. (2018). Improving language understanding by generative pre-training. OpenAI.
+    https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf Rafiq-uz-Zaman, M. (2024). Evaluation of challenges
+    faced by the early childhood care and education due to the shortage of teachers in Punjab, Pakistan. Journal of Childhood Literacy and Societal
+    Issues, 3(2), 58–74. Rafiq-uz-Zaman, M., & Nadeem, M. A. (2024). Comparative analysis of skill-based education curriculum in Pakistan and India: A
+    contemporary review. International Journal of Academic Research for Humanities, 4(3), 188–197. Sallam, M. (2023). ChatGPT utility in healthcare
+    education, research, and practice: Systematic review on the promising perspectives and valid concerns. Healthcare, 11(6), 887.
+    https://doi.org/10.3390/healthcare11060887 Sardana, D., Fagan, T. R., & Wright, J. T. (2023). ChatGPT: A disruptive innovation or disrupting
+    innovation in academia? The Journal of the American Dental Association, 154(5), 361–364. https://doi.org/10.1016/j.adaj.2023.03.008 Shidiq, M.
+    (2023). The use of artificial intelligence-based ChatGPT and its challenges for the world of education: From the viewpoint of the development of
+    creative writing skills. Proceeding of International Conference on Education, Society and Humanity, 1(1), 353–357. Susnjak, T. (2022). ChatGPT:
+    The end of online exam integrity? arXiv. https://arxiv.org/abs/2212.09292 Udvaros, J., & Takáč, O. (2022). Technical IT solutions in teaching. In
+    INTED2022 Proceedings (pp. 4047–4052). IATED. Van Merriënboer, J. J. G., & Sweller, J. (2010). Cognitive load theory in health professional
+    education: Design principles and strategies. Medical Education, 44(1), 85–93. https://doi.org/10.1111/j.1365-2923.2009.03498.x Ventayen, R. J. M.
+    (2023). OpenAI ChatGPT generated results: Similarity index of artificial intelligence-based contents. SSRN. https://doi.org/10.2139/ssrn.4332664
+    Wardat, Y., Tashtoush, M. A., AlAli, R., & Jarrah, A. M. (2023). ChatGPT: A revolutionary tool for teaching and learning mathematics. Eurasia
+    Journal of Mathematics, Science and Technology Education, 19(7), em2286. https://doi.org/10.29333/ejmste/13272 Xie, H., Chu, H.-C., Hwang, G.-J.,
+    & Wang, C. C. (2020). Trends and development in technology-enhanced adaptive/personalized learning: A systematic review of journal publications
+    from 2007 to 2017. Computers & Education, 140, 103599. https://doi.org/10.1016/j.compedu.2019.103599
+
+### R01622 | 2026 | article/None | Lang: en
+TI: ASKG: Adaptive Spatio-Temporal Knowledge Grounding for Candidate-Constrained Point-of-Interest Recommendation
+AB: Candidate-constrained point-of-interest (POI) recommendation asks a large language model (LLM) to infer a user’s next destination from an ordered
+    trajectory and a fixed set of candidate descriptions. The model expresses its decision by generating the corresponding candidate label. Unlike
+    item recommendation, this task must reconcile semantic preference with physical reachability and changes in visit intent. However, existing
+    retrieval-augmented methods often select evidence by text similarity and serialize graph facts as independent sentences. They can consequently
+    retrieve a topically relevant but geographically implausible venue and lose the relations that explain how a candidate fits the user’s current
+    context. We propose Adaptive Spatio-Temporal Knowledge Grounding (ASKG) to carry visit-relevant POI evidence from retrieval to label generation.
+    ASKG adjusts graph-semantic and geographic recall to the user’s activity range, gives greater weight to evidence associated with recent visits,
+    and preserves typed relations within a fixed graph-token budget. The candidate prompt then queries these graph tokens directly. A
+    candidate-aligned objective trains the LLM to distinguish among the valid labels. It is a weighted combination of full-vocabulary language
+    modeling and a cross-entropy loss restricted to the n valid candidate labels. Under a candidate-constrained protocol with 10 options on Yelp and
+    20 on Foursquare, the reported experiments with three LLM backbones per dataset show that ASKG attains the highest MRR in all six dataset–backbone
+    settings and the highest ACC in five. On average across the six dataset–backbone settings, ASKG achieves a relative improvement of 5.9% in MRR and
+    8.3% in ACC over the strongest baseline.
+
+### R01623 | 2026 | article/None | Lang: en
+TI: Structured prompt-guided knowledge injection for medical image segmentation
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01624 | 2025 | article/None | Lang: en
+TI: LLM4Game: Multi-agent reinforcement learning with knowledge injection for dynamic defense resource allocation in cloud storage
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01625 | 2025 | article/None | Lang: en
+TI: Simplifying knowledge acquisition of ancient Chinese agricultural books: a method for structure function recognition of bibliographic summaries
+AB: Purpose This research aims to extract structured knowledge from bibliographic summaries of ancient Chinese agricultural books while addressing
+    data imbalance issues. Through the recognition of structural functions, this approach facilitates accurate comprehension of summary content.
+    Design/methodology/approach The study develops a framework for categorizing structural functions of summaries into six components: title
+    information, responsible person information, book formation process, edition information, document content and evaluative information. To address
+    the few-shot learning challenge in Chinese agricultural bibliographic summaries, the study implements data augmentation for underrepresented
+    categories. Four methods are employed to resolve class imbalance: synonym replacement, random swapping, random deletion and back translation.
+    Large language models, such as ChatGPT, are utilized to augment samples in minority classes, with t-SNE visualization employed to validate the
+    augmentation’s effectiveness. Then BERT-BiLSTM model is implemented for structural function recognition in agricultural bibliographic summaries.
+    Findings Data enhancement based on large language models can effectively extend the original samples and retain the semantic relationship of the
+    original samples. On this basis, the structural function recognition experiment using BERT-BiLSTM model can identify the structural function of
+    the Chinese agricultural bibliographic summaries more accurately. Originality/value This research presents an innovative method for structuring
+    Chinese agricultural bibliographic summaries and pioneers the application of large language models in this domain. It addresses the challenge of
+    making historical Chinese agricultural bibliographic summaries more accessible and transmittable.
+
+### R01626 | 2025 | article/None | Lang: en
+TI: Precision through progression: Empowering temporal knowledge graph reasoning with knowledge-guided chain of thought
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01627 | 2026 | article/None | Lang: en
+TI: Temporal knowledge graph construction from football match videos
+AB: Abstract In the current landscape of sports data analysis, particularly in football, the automatic extraction of information from match videos is
+    a key challenge. Traditional video annotation techniques rely on the generation of natural language descriptions from videos or detection analysis
+    of static frames. The first approach has limitations in the level of detail of the information extracted, while the second does not analyze the
+    information at a high semantic level. This work presents an efficient framework for the automatic construction of Temporal Knowledge Graphs from
+    unlabeled football match videos, using computer vision techniques and multimodal large-language models. The constructed graph refers to the entire
+    video of the match and contains information on the positional values of the players on the field, jersey number identification, team recognition,
+    interactions, and ball possession. The framework implements a solution for handling failures without keyframe loss, as well as support for
+    parallel processing. In addition, we propose two metrics to assess the quality of the resulting graph in terms of overall consistency and missing
+    information.
+
+### R01628 | 2026 | preprint/None | Lang: en
+TI: Knowledge-Guided Data Cleaning: From Knowledge Acquisition to Reliable Decisions
+AB: Data cleaning requires identifying errors and determining which changes the available evidence supports. Integrity constraints reveal
+    inconsistencies, while trusted reference data, statistical regularities, and human feedback help locate errors and select corrections. This survey
+    examines how knowledge supports these decisions, connecting its representation, acquisition, and reuse with candidate generation, evidence
+    combination, and repair selection. We compare methods according to how they obtain knowledge, establish its applicability, and respond when
+    evidence conflicts or confidence is insufficient. The comparison distinguishes factual correctness, constraint consistency, and downstream task
+    utility, which lead systems to select different operations and require different evaluation criteria. It also explains how experimental
+    assumptions about known error locations, candidate coverage, and accepted predictions affect comparisons across studies. As machine learning and
+    large language models extend cleaning into table transformation and preparation planning, knowledge must support both local repairs and
+    coordination across processing steps. Building on these connections, we identify research directions in checking knowledge applicability,
+    selecting responses to conflicts, and acquiring information according to unresolved decisions.
+
+### R01629 | 2025 | article/None | Lang: en
+TI: Environment-specific knowledge acquisition system for home service robots via brain-inspired memory and commonsense knowledge
+AB: Home-service robots are expected to enhance the quality of daily life. Two types of knowledge, commonsense and environment-specific knowledge, are
+    required for home-service robots. Current robots can handle audio-visual-based common knowledge, task planning, and action generation.
+    Additionally, several systems that handle environment-specific knowledge have been developed. Previously proposed brain-inspired models can
+    integrate visual and location information to represent episodes; however, it is difficult to obtain novel environment-specific knowledge. In this
+    study, we propose a system that efficiently acquires novel environment-specific knowledge by combining environment-specific knowledge stored in a
+    brain-inspired memory system with commonsense knowledge inferred by large language models (LLMs). We verified the performance of common-sense
+    retrieval from LLMs and evaluated the effectiveness of combining environment-specific knowledge and commonsense knowledge in the home environment.
+
+### R01630 | 2025 | article/None | Lang: en
+TI: Knowledge attention via radial basis functions for temporal knowledge graphs completion
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01631 | 2026 | preprint/None | Lang: en
+TI: Multi-modal Retrieval-augmented Traffic Prediction with Scalable Spatio-temporal Knowledge Base
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01632 | 2026 | article/None | Lang: en
+TI: Dense Retrieval for Electronic Health Record With Knowledge Injection and Synthetic Data
+AB: Electronic Health Records (EHRs) are pivotal in clinical practices, yet their retrieval remains a challenge mainly due to semantic gap issues.
+    Recent advancements in dense retrieval offer promising solutions but existing models, both general-domain and biomedical-domain, fall short due to
+    insufficient medical knowledge or mismatched training corpora. Previous EHR retrievers generally focus on a small set of queries and fail to
+    generalize. This paper introduces DR.EHR, a series of dense retrieval models specifically tailored for EHR retrieval. We propose a two-stage
+    training pipeline utilizing MIMIC-IV discharge summaries to address the need for extensive medical knowledge and large-scale training data. The
+    first stage involves medical entity extraction and knowledge injection from a biomedical knowledge graph, while the second stage employs large
+    language models to generate diverse training data. We train two variants of DR.EHR, with 110 M and 7B parameters, respectively. Evaluated on the
+    CliniQ benchmark, our models significantly outperforms all existing dense retrievers, achieving state-of-the-art results. Detailed analyses
+    confirm our models' superiority across various match and query types, particularly in challenging semantic matches such as implication and
+    abbreviation. Ablation studies validate the effectiveness of each pipeline component, and supplementary experiments on EHR QA datasets demonstrate
+    the models' generalizability on various EHR corpus and natural language questions including complex ones with multiple entities. This work
+    significantly advances EHR retrieval, offering a robust solution for clinical applications.
+
+### R01633 | 2026 | preprint/None | Lang: en
+TI: Hierarchical Skill Resolution: Enabling Skill Inheritance and Deterministic Knowledge Injection for AI Agents
+AB: Agent skills — packaged units of specialized instructions consumed by large language model (LLM) agents — are rapidly becoming the standard
+    primitive for distributing organizational knowledge to AI systems. However, the prevailing activation mechanism is probabilistic: the model itself
+    decides, via semantic inference over skill descriptions, whether to load a skill. This paper identifies two structural gaps that this design
+    leaves open for enterprise adoption. First, the consumption gap: there is no guarantee that a skill is loaded when a workflow phase requires it,
+    and no observability when it is not. Second, the inheritance gap: no current skill system supports hierarchical specialization — a global
+    headquarters publishing base skills that country subsidiaries and business units extend with local regulatory and operational overrides. We
+    propose the Skill Resolver, a pre-dispatch component that deterministically injects phase-mandatory skills into agent context, and Hierarchical
+    Skill Resolution (HSR), a resolution pattern built on top of it that enables scope-based inheritance, override precedence, non-overridable
+    invariants, and per-artifact lineage. We show how HSR composes naturally with emerging distribution infrastructure — in particular Microsoft's
+    Agent Package Manager (APM) — forming a three-plane architecture that separates distribution, consumption, and federated governance of agentic
+    knowledge. The pattern is targeted at multinational and multi-entity organizations, where the absence of inheritance currently forces
+    copy-and-modify practices with predictable drift, audit loss, and linear maintenance cost.
+
+### R01634 | 2026 | preprint/None | Lang: en
+TI: Goal-Driven Bidirectional Knowledge Acquisition for Domain Expert Agents
+AB: This paper proposes Goal-Driven Bidirectional Knowledge Acquisition (GDBA), a framework for constructing domain expert knowledge bases. Thread A
+    collects absolute rules bottom-up; Thread B derives knowledge top-down from intent goals. Convergence rate classifies knowledge into static
+    database or dynamic index. Validated across gaming, industrial, and commercial domains. Independent of specific LLM implementations.
+
+### R01635 | 2026 | article/None | Lang: en
+TI: Beyond intuition: Zero-shot policy synthesis and execution for temporal knowledge graph question answering
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01636 | 2026 | preprint/None | Lang: en
+TI: Completeness-Gated Temporal Knowledge Management System (CGTKMS) v2.0 — Final Research Architecture
+AB: Current Large Language Models (LLMs) produce erroneous answers on temporally evolving knowledge at rates of 18–23%, confidently recommending
+    deprecated APIs, outdated patterns, and obsolete frameworks years after they have been superseded. This paper presents CGTKMS v2.0 — a hardened,
+    implementation-ready architecture that solves the temporal knowledge problem through architectural separation of concerns rather than weight
+    modification. The system introduces a dedicated Management Neuron — an autonomous external system that organizes knowledge in dated, topic-indexed
+    temporal buckets, computes coverage completeness via a 3-stage semantic equivalence pipeline, and gates the retirement of old knowledge on
+    verified completeness of new knowledge. The LLM is treated as a pure inference engine and never participates in knowledge management decisions.
+    v2.0 resolves seven critical gaps identified in v1.0, most importantly the parametric knowledge override problem — the empirically confirmed
+    failure where LLMs default to training data even when clean external context is provided. The solution integrates a three-layer defense: context
+    framing, CLEAR-style output verification, and RL-based parametric/contextual knowledge balancing. Novel contributions include: (1) coverage-gated
+    archival threshold, (2) semantic knowledge mutation taxonomy (DEPRECATED / REPLACED / NET-NEW / VERSIONED), (3) domain-calibrated adaptive
+    thresholds, (4) cold start bootstrap protocol, (5) diff worker hallucination defense via ensemble voting, (6) cross-bucket dependency chain
+    management, and (7) tiered adversarial ingestion protection. Projected outcome: temporal error rate reduced from ~20% to ~2.8%, with ~99%
+    old-knowledge retention and full backward compatibility. Implementable with current open-source tools: Qdrant, vLLM, Ollama, FastAPI, LoRA
+    adapters. This is the v2.0 final document. v1.0 (original architecture proposal) is linked as a related work.
+
+### R01637 | 2026 | article/None | Lang: en
+TI: Explainable Temporal Knowledge Graph Forecasting via Frequency-Tendency Modeling
+AB: The ability to forecast future events in an interpretable manner is crucial for analyzing dynamic systems. Temporal knowledge graphs (TKGs)
+    provide a structured framework for this task, where rule-based methods are prized for their transparency. However, current approaches suffer from
+    a recency bias, relying heavily on the latest events while overlooking information about rule activations, such as their long-term frequency and
+    short-term tendency. To address these limitations, we introduce FETA, a novel rule-based framework for explainable temporal knowledge graphs
+    forecasting that systematically incorporates these global temporal patterns. FETA comprises two innovative components: a Frequency Enhanced Module
+    (FEM) that refines predictions by aggregating long-term historical signals, and a Tendency Aware Module (TAM) that captures the evolving dynamics
+    of rule utility through the divergence between long-term and short-term behaviors. Extensive experiments on benchmark datasets, including ICEWS14,
+    ICEWS18, ICEWS05-15, and GDELT, validate that FETA achieves new state-of-the-art results, outperforming embedding-based, rule-based, and large
+    language model-based baselines. The strong performance in cross-dataset and low-resource settings further underscores its capability for reliable
+    and interpretable temporal forecasting.
+
+### R01638 | 2026 | article/None | Lang: en
+TI: TDR2A: Time-sensitive decomposition-retrieval-reorganization agent for temporal knowledge graph question answering
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01639 | 2026 | article/None | Lang: en
+TI: VERBATIM FORGETTING, KNOWLEDGE FORGETTING, AND PRIVACY LEAKAGE AS PREDICTORS OF RETAINED UTILITY FOLLOWING MODEL UNLEARNING
+AB: This analysis examines whether model unlearning reconciles information removal with useful performance, addressing international debates on
+    accountable language model deployment. A secondary analysis uses published benchmark results from 2024, comprising eight unlearning methods
+    evaluated in news and books, yielding 16 analytical observations. Descriptive statistics, Spearman correlations and exploratory individual method
+    exclusions characterize performance relationships. Verbatim residual memorization correlates positively with retained utility in news and books,
+    with coefficients of 0.904 and 0.944; corresponding knowledge residual correlations are 0.880 and 0.919. These directions persist across
+    individual method exclusions. Absolute privacy leakage exhibits contrasting associations with utility, reaching 0.252 in news and 0.994 in books,
+    while the news association changes sign under exclusions. Four observations combine zero residual memorization with zero retained utility,
+    demonstrating that suppressed recall can accompany broader performance deterioration. These descriptive findings refine selective forgetting
+    evaluation by distinguishing consistent memorization relationships from setting dependent privacy patterns. Deployment assessments should evaluate
+    removal, disclosure and retained capability separately before accepting an unlearning intervention.
+
+### R01640 | 2026 | preprint/None | Lang: en
+TI: Graph Topology as Attention: Structured Knowledge Injection Beyond Text
+AB: Walk-encoded graph topology improves multi-hop reasoning by +0.468 over baseline while preserving sanity better than flat text (-0.133 vs. -0.333
+    degradation). A powered study (552 queries, 4 conditions, 3 runs) on Qwen3-30B establishes that knowledge graph structure is a viable injection
+    channel for language models -- not by serializing the graph as text, but by encoding walks as cache tensors that the attention mechanism reads
+    directly. A companion decomposition study on Qwen2.5-1.5B shows that direct KV-cache injection achieves perfect topology recovery (1.000), with K
+    and V tensors contributing superadditively (each alone: 0.333; combined: 1.000). Scrambled controls confirm the signal is topological, not lexical
+    -- the model is reading the graph, not the words.
+
+### R01641 | 2025 | article/None | Lang: en
+TI: Sentence-graph-level knowledge injection with multi-task learning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01642 | 2026 | preprint/None | Lang: en
+TI: Thinking-Triggered Aspect Learning for Autonomous Knowledge Acquisition and Transfer in Robots
+AB: Autonomous robots require not only reliable task execution but also the ability to identify what new local knowledge should be learned, when
+    explicit thinking is necessary, and when learned knowledge can be reused automatically. However, existing methods often bind learned knowledge to
+    predefined tasks or fixed reasoning procedures, making it difficult to autonomously discover reusable local concerns and reduce repeated reasoning
+    after adaptation. This paper proposes a thinking-triggered aspect learning framework for autonomous knowledge acquisition and transfer. Routine
+    behavior is handled by automatic models, while novelty, uncertainty, or periodic heartbeat inspection triggers thinking to localize unresolved
+    concerns. The robot then discovers task-independent aspects containing relevant factors, applicability conditions, handling principles, and local
+    automatic models. Validated aspects are reused across tasks and domains, while aspect-specific calibration and checkpoint decay progressively
+    convert explicit thinking into automatic processing; environmental changes can reactivate thinking and initiate new aspect acquisition.
+    Experiments show aspect and factor F1 scores of 0.975 and 0.965, perfect zero-shot cross-task and cross-domain transfer in all successfully
+    validated source runs, and a reduction in thinking rate from 0.508 to 0.100 after familiarization; the proposed method also reduces LLM calls by
+    76.4% compared with Always Think while achieving 0.976 post-validation detection and handling success.
+
+### R01643 | 2026 | article/None | Lang: en
+TI: Mining latent clue chains to enhance performance in few-shot out-of-graph link prediction in temporal knowledge graphs
+AB: [NO ABSTRACT AVAILABLE]
+
+=== END OF BATCH b038 (50 records) ===

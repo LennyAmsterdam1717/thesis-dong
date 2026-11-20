@@ -1,0 +1,685 @@
+BATCH b017 -- 34 records: R00735 .. R00768
+
+### R00735 | 2026 | article/None | Lang: en
+TI: Perceived Cognitive and Creative Outcomes of Generative AI-Assisted Content Development Among Malaysian Media Students - Presentation
+AB: Generative artificial intelligence (GenAI) is increasingly integrated into the content-development practices of media students. Although GenAI
+    tools can assist with brainstorming, research, drafting, and content refinement, their growing use raises concerns about over-reliance,
+    originality, accuracy, authorship, and students’ continued involvement in the creative process. This study examines Malaysian media students’
+    perceptions of GenAI-assisted content development and its associations with cognitive engagement and creative performance. ChatGPT was treated as
+    a representative GenAI tool because it was the platform examined in the original dataset. A quantitative cross-sectional design was employed using
+    an online questionnaire completed by 200 media students aged 18 to 26 who had experience using ChatGPT for content development. The data were
+    analysed using descriptive statistics, Spearman’s rank-order correlations, and Chi-square tests of independence. The findings show that students
+    commonly used ChatGPT when they lacked ideas (91%), were rushing for time (67%), or faced research constraints (43%). Its most frequent
+    applications were brainstorming ideas (74%), generating outlines (62%), and assisting with research (55%). Most respondents perceived ChatGPT as
+    improving efficiency and shortening task-completion time. In addition, 66% reported that the quality of their content had somewhat improved, while
+    56% perceived a moderate influence on their creativity. Nevertheless, students expressed uncertainty about the accuracy and reliability of
+    AI-generated content and identified overreliance, reduced independent thinking, and limited originality as significant risks. More frequent
+    reliance on ChatGPT was positively associated with more favourable perceptions of content development, content quality, creativity, and AI
+    accuracy. These results should be interpreted as self-reported perceptions and associations rather than evidence of causal effects or objective
+    performance gains. The findings suggest that students perceive GenAI as most educationally valuable when they actively evaluate, adapt, and refine
+    its outputs while retaining critical judgment, creative agency, and responsibility throughout content development.
+
+### R00736 | 2025 | article/None | Lang: en
+TI: Social Interaction between Lecturers and Undergraduates in EFL Classrooms: A Case Study from a Thai University in the Age of AI
+AB: This explanatory sequential mixed-methods study investigates how artificial intelligence (AI) is reshaping social interactions in Thai EFL
+    classrooms amid the rapid spread of chatbots and AI-supported writing tools in language education (2020–2025). Grounded in Sociocultural Theory
+    and the Interaction Hypothesis, the design combined a questionnaire administered across four undergraduate year levels with semi-structured
+    interviews of eight purposively selected students. Descriptive statistics summarized the survey responses, while the interview data was analysed
+    thematically. The findings show that students welcome AI for quick access to input, idea generation, and building confidence before speaking yet
+    remain cautious about accuracy and overreliance, and many still prefer lecturer clarification for complex issues. A new contribution emerges in
+    the form of a dual effect: pre-class AI preparation enables students to enter lessons better prepared and more confident, but it is also
+    associated with fewer spontaneous in-class clarification questions, suggesting a subtle displacement of routine lecturer–student interaction.
+    While AI can stimulate participation and reduce hesitation, it cannot replace teacher guidance, formative feedback, and relational rapport.
+    Overall, the evidence supports a hybrid interaction model in which AI-supported preparation is paired with human-led dialogue during class.
+    Implications extend beyond ZPD and the negotiation of meaning toward a whole-class ecology: brief, transparent rules for responsible AI use
+    (verification and disclosure), protection of talk time through AI-off/AI-critique moments, and process-oriented assessment that includes light
+    evidence of AI use and short reflections on revisions. Program-level alignment (equity safeguards, approved tools, and privacy/ethics policies) is
+    recommended to keep expectations consistent. By documenting both the benefits and displacement risks of pre-class AI use, this study refines the
+    sociocultural theory for the AI era. It offers scalable guidance for EFL programs in Thailand and across Asia.
+
+### R00737 | 2026 | article/None | Lang: en
+TI: University Students’ Perception of AI Usage for The Development of English Writing Skills
+AB: The emergence of artificial intelligence (AI) writing tools such as ChatGPT and Gemini has played an impact on how university students develop
+    English academic writing skills. Although various forms of writing support can be found through these AI programs, concerns about students’
+    overreliance, inaccurate outputs, and academic integrity still persist. Thus, the purpose of this study is to explore university students’
+    perceptions regarding the use of AI towards developing English writing skills. This includes the types of AI programs used frequently, how
+    students perceived these tools, and the concerns students had when using them. An online questionnaire featuring Likert-scale and open-ended
+    questions was distributed to 208 students from Universiti Sultan Azlan Shah (USAS) who participated in this study. Descriptive statistics were
+    used to analyse the quantitative data collected, and thematic analysis was used to analyse the qualitative data collected from open-ended
+    questions. Findings showed that students generally had a positive perception of using AI tools as an aid to improve grammar, vocabulary,
+    organisation, and confidence when writing. Students also believed that using AI as a writing tool was efficient, as it allowed them to experiment
+    with language and helped ease the writing process. However, concerns were raised about the overreliance on AI tools, inaccurate corrections given
+    by AI tools, lack of originality, and possibility of plagiarism. This study could provide insight to educators and curriculum planners on the
+    incorporation of ethical use of AI writing tools, while developing the skills to write independently and think critically for students.
+
+### R00738 | 2026 | article/None | Lang: en
+TI: A Study on Student Perception and Adoption of AI Tools in Academic Learning
+AB: This paper describes an empirical study through survey analysis on the perceptions of AI tools in academics by students, with a sample size of 455
+    valid responses obtained from students of various engineering, science, commerce, and arts disciplines in Pune, Maharashtra. With the help of
+    python (Pandas, Matplotlib, Seaborn) for data analysis, descriptive statistics and chi-square test of independence is carried out in order to find
+    patterns in the use of AI tools, frequency of use, and academic purposes. From the results, there is a statistically significant relationship
+    between academic purpose and selection of AI tools (χ² = 92.64, df = 42, p < 0.001), and the popularly used AI tools for writing, concept
+    understanding, and summarization are ChatGPT, Gemini, and Google translate respectively. There was a positive perception among the students
+    regarding AI tools, with benefits like increased efficiency, accuracy, academic confidence; however, they were also concerned about overreliance
+    and authenticity of outputs. The supplementary files attached here include the research paper, presentation slides, and the python code for data
+    analysis.
+
+### R00739 | 2025 | article/None | Lang: en
+TI: Calibrating Trust in Generative Artificial Intelligence: A Human-Centered Testing Framework with Adaptive Explainability
+AB: Generative Artificial Intelligence (GenAI) systems have achieved remarkable capabilities across text, code, and image generation; however, their
+    outputs remain prone to errors, hallucinations, and biases. Users often overtrust these outputs due to limited transparency, which can lead to
+    misuse and decision errors. This study addresses the challenge of calibrating trust in GenAI through a human centered testing framework enhanced
+    with adaptive explainability. We introduce a methodology that adjusts explanations dynamically according to user expertise, model output
+    confidence, and contextual risk factors, providing guidance that is informative but not overwhelming. The framework was evaluated using outputs
+    from OpenAI’s Generative Pretrained Transformer 4 (GPT-4) for text and code generation and Stable Diffusion, a deep generative image model, for
+    image synthesis. The evaluation covered text, code, and visual modalities. A dataset of 5000 GenAI outputs was created and reviewed by a diverse
+    participant group of 360 individuals categorized by expertise level. Results show that adaptive explanations improve error detection rates, reduce
+    the mean squared trust calibration error, and maintain efficient decision making compared with both static and no explanation conditions. The
+    framework increased error detection by up to 16% across expertise levels, a gain that can provide practical benefits in high stakes fields. For
+    example, in healthcare it may help identify diagnostic errors earlier, and in law it may prevent reliance on flawed evidence in judicial work.
+    These improvements highlight the framework’s potential to make Artificial Intelligence (AI) deployment safer and more accountable. Visual
+    analyses, including trust accuracy plots, reliability diagrams, and misconception maps, show that the adaptive approach reduces overtrust and
+    reveals patterns of misunderstanding across modalities. Statistical results confirm the robustness of these findings across novice, intermediate,
+    and expert users. The study offers insights for designing explanations that balance completeness and simplicity to improve trust calibration and
+    cognitive load. The approach has implications for safe and transparent GenAI deployment and can inform both AI interface design and policy
+    development for responsible AI use.
+
+### R00740 | 2026 | article/None | Lang: en
+TI: Integrating generative AI and reference management tools in assignment writing: insights from an ODeL context
+AB: The rapid advancement of generative Artificial Intelligence (AI) and reference management technologies is transforming academic writing practices
+    in higher education. This qualitative instrumental case study investigates how generative AI and reference management tools are integrated into
+    assignment writing at Zimbabwe Open University within an Open and Distance eLearning (ODeL) environment. Data were collected through
+    semi-structured interviews with seven lecturers and one quality assurance coordinator, as well as focus group discussions with fourteen students
+    selected through purposive sampling. Guided by the Constructivist Learning Theory, the study examined the pedagogical implications of AI-supported
+    writing practices. Findings reveal that tools such as ChatGPT, Grammarly and Mendeley enhance writing quality, research efficiency, accessibility,
+    and learner confidence. However, concerns regarding overreliance, academic integrity and diminished critical engagement were also identified. The
+    study recommends the development of institutional policies, ethical training frameworks and curriculum adjustments to promote responsible and
+    pedagogically sound integration of generative AI tools in ODeL contexts.
+
+### R00741 | 2026 | article/None | Lang: en
+TI: University students’ perspectives on integrating generative AI into English language learning
+AB: This study examines university students’ perspectives on integrating artificial intelligence (AI) into their English language learning, with a
+    focus on cognitive and affective factors. Using a mixed method, the research collected quantitative data from surveys and qualitative insights
+    from individual interviews with English language learners (ELLs). Survey results showed that ELLs recognized the technical capabilities of
+    generative AI, particularly its extensive and dynamic database and practical translation functions. ChatGPT demonstrated clear benefits in terms
+    of its emotional impact, including enhancing task efficiency and motivating learners. ELLs appreciated its ability to save time and foster
+    engagement, but its influence on building confidence in language learning was less pronounced. In the cognitive domain, ELLs highlighted both
+    opportunities and risks. While recognizing the potential for improved efficiency, concerns emerged about overreliance on generative AI, reduced
+    independent thinking, and the possibility of facilitating academic dishonesty. Future research should focus on developing guidelines and best
+    practices to maximize the benefits of generative AI tools while addressing their limitations.
+
+### R00742 | 2025 | article/None | Lang: en
+TI: Utilization of Artificial Intelligence in EFL Learning from a Digital Literacy Perspective
+AB: This study investigates how university students utilize Artificial Intelligence (AI) in English as a Foreign Language (EFL) learning from a
+    digital literacy perspective. Conducted between February–April 2024, the research involved nine undergraduate students from Universitas Ichsan
+    Sidenreng Rappang who actively used AI tools such as ChatGPT, Grammarly, and Duolingo in their daily learning practices. Using a qualitative
+    thematic analysis, the study explored students’ experiences, challenges, and expectations regarding AI-supported EFL learning. Findings show that
+    AI contributed substantially to improving students’ vocabulary, grammar accuracy, and speaking fluency, with several participants reporting that
+    AI-based feedback helped them understand errors more quickly and increased their learning motivation—some estimating up to a 20–30% improvement in
+    confidence and task completion efficiency. However, issues such as inconsistent responses, fabricated references, and overreliance on AI revealed
+    gaps in students’ critical digital literacy. The study highlights the need for strengthened digital literacy training and more structured
+    integration of AI tools in higher education to ensure ethical, accurate, and effective use of AI for language learning.
+
+### R00743 | 2026 | article/None | Lang: en
+TI: Exploring Teacher Educators’ Self-Assessment of AI-Assisted Writing: A Case Study in Eastern Indonesian Universities
+AB: This study attempts to explore how English as a Foreign Language (EFL) teacher educators perceive the impact of artificial intelligence
+    (AI)-assisted writing on their academic writing practices, with a focus on self-assessment. Using a qualitative case study, semi-structured
+    interviews were conducted with six early-career lecturers from universities in Eastern Indonesia who actively use AI-assisted writing tools such
+    as ChatGPT, Grammarly, and QuillBot. The findings show that AI enhances linguistic accuracy, coherence, writing efficiency, and confidence by
+    providing immediate feedback and supporting independent revision. At the same time, participants expressed concerns about overreliance, creativity
+    loss, and authorship, leading them to regulate AI use critically and reflectively. The findings also highlight contextual challenges related to
+    institutional support, digital infrastructure, and unequal access to AI resources, alongside expectations for more integrated AI applications.
+    This study contributes to the growing literature by extending the discussion beyond AI adoption to teachers' self-assessment, explaining how AI
+    builds writing confidence through greater writing autonomy, and providing qualitative evidence from the underexplored context of Eastern
+    Indonesia. The findings offer practical implications for teacher professional development and the responsible integration of AI in higher
+    education.
+
+### R00744 | 2026 | article/None | Lang: en
+TI: Beyond red ink: AI feedback and ESL academic writing development in higher education
+AB: This study examines the effect of artificial intelligence (AI) generated feedback on the academic writing skills of English as a Second Language
+    (ESL) students at the Faculty of Computing, Islamia University of Bahawalpur, Pakistan. A quasi-experimental mixed-methods design was employed
+    with 400 students from first to eighth semesters, divided into an experimental group (receiving AI-generated feedback using Grammarly and ChatGPT)
+    and a control group (receiving Teacher feedback). Pre and post-test essays, questionnaires, and interviews were used for data collection. Results
+    showed that students receiving AI-generated feedback achieved greater improvements in grammar (43.5%), vocabulary (37.3%), cohesion (49.5%), and
+    overall writing quality (37.8%) compared to the control group, with large effect sizes across all components. Significant reductions were observed
+    in minor errors, including article usage, spelling, and consistency of tense. Qualitative findings revealed that students had positive perceptions
+    of AI-generated feedback, reporting increased awareness of errors, improved confidence, and greater independence during revision; however, some
+    concerns about overreliance were also noted. The study concludes that AI-generated feedback effectively supplements Teacher feedback, enhancing
+    short-term writing performance and indicating potential for increased learner autonomy in ESL academic contexts.
+
+### R00745 | 2025 | article/None | Lang: en
+TI: The AI-Dependent Learning Phenomenon Exploring Students’ Dependence on AI in Completing College Academic Task
+AB: This study investigates the emerging phenomenon of AI-dependent learning among university students, focusing on how reliance on generative
+    artificial intelligence tools shapes their academic behaviors, learning motivation, and engagement with course tasks. The rapid advancement of AI
+    applications, such as ChatGPT, has transformed students’ study habits, yet concerns arise regarding excessive reliance that may weaken independent
+    cognitive processes. Using a qualitative descriptive method, this research involved 30 accounting students from State University of Makassar.
+    Participants were selected through purposive sampling to ensure they had substantial exposure to AI-assisted academic work. The findings indicate
+    that AI dependence is commonly driven by academic workload, tight deadlines, a desire for efficiency, and the perception that AI provides faster
+    and higher-quality output. However, overreliance leads to diminished critical thinking, reduced confidence in completing tasks independently, and
+    concerns related to academic integrity. This study highlights the urgent need for universities to establish AI literacy guidelines, promote
+    responsible use, and design learning activities that balance technological assistance with genuine cognitive engagement.
+
+### R00746 | 2025 | article/None | Lang: en
+TI: EXPLORING THE ROLE OF ARTIFICIAL INTELLIGENCE IN ACADEMIC WRITING AMONG STUDENTS
+AB: This study explores the use of Artificial Intelligence (AI) tools, specifically ChatGPT and Grammarly, in enhancing students’ academic writing.
+    Using a qualitative descriptive approach, data were collected through observations, semi-structured interviews, and document analysis of 20
+    students’ writing drafts before and after AI-assisted revisions. The findings show that 1) Students experienced several advantages from AI use,
+    including faster idea generation, improved grammar, better sentence structure, enhanced vocabulary, and increased writing productivity, although
+    some students exhibited overreliance on AI, which may limit independent writing skills. 2) AI tools also contributed to the development of
+    academic knowledge and creativity, as students used AI suggestions to refine arguments, expand ideas, and improve overall coherence and academic
+    tone. 3) Regarding perceptions, students generally viewed AI positively, noting that it increased their confidence, motivation, and engagement in
+    writing, while also recognizing the importance of critical evaluation to avoid dependency. Overall, the study indicates that AI tools can
+    effectively support both technical and cognitive aspects of academic writing when integrated with reflective and guided practices.
+
+### R00747 | 2026 | article/None | Lang: en
+TI: USE OF GENERATIVE ARTIFICIAL INTELLIGENCE TOOLS AMONG HIGH SCHOOL STUDENTS
+AB: The study determined the commonly used Generative Artificial Intelligence (GenAI) tools used by high school students and their extent of
+    utilization to support their learning. It also determined the extent of manifestation of the positive and negative learning behaviors among the
+    students in using Generative AI tools. Differences in the perceptions of the teacher-participants when grouped according to subject taught were
+    also established. The study employed a descriptive-survey method using a survey questionnaire administered to 53 high school teachers, 50 Grade 9
+    students, and 52 Grade 10 students from the different schools in Buguias, Benguet. Frequency, weighted mean, and F-test were utilized for
+    statistical analysis. Results revealed that ChatGPT, CICI, and Google Overview were the most commonly used GenAI tools by the students. GenAI was
+    often used for comprehension support and task completion, and rarely for exploration, creativity, and assessment support. Positive learning
+    behaviors were often manifested by students in using GenAI, particularly in terms of confidence, comprehension, and learning support. However,
+    negative learning behaviors were also manifested, such as overreliance, using shortcuts to get answers, and less effort in doing school
+    activities. No significant difference in the perceptions of teachers, according to subject taught, in terms of positive learning behaviors, but
+    they differ significantly in terms of negative learning behaviors. Generative AI tools, particularly ChatGPT, provide significant support in
+    enhancing students’ understanding and task completion, but their use also presents negative learning behaviors. Therefore, proper guidance and
+    structured strategies from teachers are essential to maximize the benefits of Generative AI while minimizing its negative effects.
+
+### R00748 | 2026 | article/None | Lang: en
+TI: THE IMPACT OF ARTIFICIAL INTELLIGENCE TOOLS ON EFL STUDENTS' WRITING PERFORMANCE AND MOTIVATION
+AB: Abstract. The rapid advancement of Artificial Intelligence (AI) technologies has significantly transformed educational practices worldwide,
+    particularly in the field of language learning. AI-powered tools such as ChatGPT, Grammarly, QuillBot, and other intelligent writing assistants
+    have become increasingly popular among English as a Foreign Language (EFL) learners. These tools provide real-time feedback, grammar correction,
+    vocabulary enhancement, and writing suggestions that can improve students' writing skills and learning experiences. This study investigates the
+    impact of AI tools on EFL students' writing performance and motivation. Through a review of recent literature and theoretical perspectives, the
+    research examines how AI-assisted writing environments influence writing quality, learner autonomy, engagement, and motivation. The findings
+    indicate that AI tools contribute positively to writing development by improving grammatical accuracy, vocabulary use, coherence, and
+    organization. Furthermore, they enhance learners' confidence and motivation by providing immediate support and personalized feedback. However,
+    concerns regarding overreliance on technology, academic integrity, and reduced critical thinking skills remain significant challenges. The study
+    concludes that AI tools can serve as valuable educational resources when integrated appropriately into EFL writing instruction.
+
+### R00749 | 2025 | article/None | Lang: en
+TI: Paradox of AI in Higher Education: Qualitative Inquiry Into AI Dependency Among Educators in Palestine
+AB: Background: Artificial intelligence (AI) is increasingly embedded in medical education, providing benefits in instructional design, content
+    creation, and administrative efficiency. Tools like ChatGPT are reshaping training and teaching practices in digital health. However, concerns
+    about faculty overreliance highlight risks to pedagogical autonomy, cognitive engagement, and ethics. Despite global interest, there is limited
+    empirical research on AI dependency among medical educators, particularly in underrepresented regions like the Global South. Objective: This study
+    focused on Palestine and aimed to (1) identify factors contributing to AI dependency among medical educators, (2) assess its impact on teaching
+    autonomy, decision-making, and professional identity, and (3) propose strategies for sustainable and responsible AI integration in digital medical
+    education. Methods: A qualitative research design was used, using semistructured interviews (n=22) and focus group discussions (n=24) involving 46
+    medical educators from nursing, pharmacy, medicine, optometry, and dental sciences. Thematic analysis, supported by NVivo (QSR International), was
+    conducted on 15.5 hours of transcribed data. Participants varied in their frequency of AI use: 45.7% (21/46) used AI daily, 30.4% (14/46) weekly,
+    and 15.2% (7/46) monthly. Results: In total, 5 major themes were identified as drivers of AI dependency: institutional workload (reported by >80%
+    [37/46] of participants), low academic confidence (noted by 28/46, 60%), and perfectionism-related stress (23/46, 50%). The following 6 broad
+    consequences of AI overreliance were identified: Skills Atrophy (reported by 89% [41/46]): educators reported reduced critical thinking,
+    scientific writing, and decision-making abilities. Pedagogical erosion (35/46, 76%): decreased student interaction and reduced teaching
+    innovation. Motivational decline (31/46, 67%): increased procrastination and reduced intrinsic motivation. Ethical risks (24/46, 52%): concerns
+    about plagiarism and overuse of AI-generated content. Social fragmentation (22/46, 48%): diminished peer collaboration and mentorship. Creativity
+    suppression (20/46, 43%): reliance on AI for content generation diluted instructional originality., Strategies reported by participants to address
+    these issues included establishing boundaries for AI use (n=41), fostering hybrid intelligence (n=37), and integrating AI literacy into teaching
+    practices (n=39). Conclusions: While AI tools can enhance digital health instruction, unchecked reliance risks eroding essential clinician
+    competencies. This study identifies cognitive, pedagogical, and ethical consequences of AI overuse in medical education and highlights the need
+    for AI literacy, professional development, and ethical frameworks to ensure responsible and balanced integration.
+
+### R00750 | 2026 | article/None | Lang: en
+TI: The Epistemic-Attentional Scissors: A Conceptual Framework for Epistemic Abdication and Stratification in AI-Mediated Communication
+AB: This concept note introduces the term epistemic-attentional scissors to name the intersection of two cost curves that cut only when they close
+    together. The first blade is productive: the marginal cost of fabricating plausible content — text, image, video — approaches zero with generative
+    AI. The second blade is attentional: the attention budget available for verifying that content also approaches zero, not by accident but by
+    design, in an ecosystem that monetizes attentional capture. Where the blades close, verification becomes economically irrational for the
+    individual: epistemic abdication is not a citizen failure but a rational response to a cost structure. The note makes four moves. First, it argues
+    that the scissors do not close symmetrically: the same technological condition that blinds the citizen improves the relative epistemic position of
+    actors with data-fusion infrastructure, making the scissors a mechanism of epistemic stratification. Second, it specifies the mechanism of
+    abdication, distinguishing two doors — a trust door (miscalibrated confidence in AI systems) and a budget door (rational impossibility of
+    verification even under distrust) — which would jointly explain both credulity and generalized cynicism. Third, it identifies the dynamic that
+    completes the mechanism — a delegation loop in which verification is entrusted to systems of the same class, and potentially the same lineage, as
+    those that produce the content — and states a closure condition — the threshold past which growth in machine verification stops adding effective
+    verification — within a framework where effective verification is V_eff = V_h + (1 − ρ)·V_m and ρ, the producer-verifier error correlation, is
+    proposed as the missing observable of the field. Fourth, it translates the framework into policy: if abdication is structural, effective responses
+    must be infrastructural and collective — media and information literacy as infrastructure, attention as a commons, content provenance — with the
+    municipal scale as laboratory. A research agenda for the full working paper closes the note. Keywords: epistemic-attentional scissors; epistemic
+    abdication; epistemic stratification; attention economy; generative AI; verification; misinformation; trust calibration; media and information
+    literacy; AI-mediated communication; delegated verification; producer-verifier error correlation; closure condition; LLM-as-a-judge ---
+
+### R00751 | 2025 | article/None | Lang: en
+TI: The Role of AI in Supporting Independent Writing: A Qualitative Case Study
+AB: This qualitative descriptive case study investigates the role of Artificial Intelligence (AI) in supporting independent English writing learning
+    at the University of Muhammadiyah Mataram. Sixteen students using AI-based tools, like Grammarly and ChatGPT, were selected via purposive sampling
+    to provide detailed insights. Data were collected through open-ended and closed-ended questionnaires, supplemented by interviews. The findings
+    indicate that AI tools significantly assist in grammar correction, sentence structuring, and idea generation, enhancing learners’ autonomy and
+    confidence in writing. However, challenges such as overreliance, reduced creativity, and diminished originality underscore the importance of
+    integrating AI thoughfully, highlighting the need for balanced integration of AI into learning processes. The study emphasizes developing
+    pedagogical strategies that promote AI as a supplementary resource rather than a primary tool, ensuring students maintain critical thinking and
+    creative expression. Additionally, ethical considerations were discussed, including data privacy and the potential cognitive effects of AI usage.
+    Implications for curriculum design suggest incorporating guided AI usage and reflective writing activities to balance technological support with
+    skill development. Future research should explore adaptive AI systems for personalized feedback and strategies to enhance writing skills without
+    fostering dependency.
+
+### R00752 | 2025 | article/None | Lang: en
+TI: Use Of User Feedback for Adaptive Model Tuning
+AB: This paper discusses a possible path toward adaptive finetuning of large-scale language models over user signal continual learning. In our study,
+    we are trying to organize an approach for explicit and implicit channels. Inside channel heterogeneous feedback filtering, interpreting, and
+    integrating all of them into one regular tuning cycle that would help keep the model updated and qualitative in real-time usage. This paper
+    validates these claims with studies of how fast static model parameterizations get outdated on one hand, and an observation limitation from
+    classic offline process drops in answer accuracy and user trust on the other hand. This unification is novel because it unifies three classes of
+    feedback into a multi-objective loss function with dynamic weights thereof; implemented through a microservice hierarchy architecture that logs,
+    streams filtering, anonymizing, annotating data — then trains in several stages including supervised fine-tuning (SFT) and reinforcement learning
+    from human feedback (RLHF) plus contextual bandit plus rolling A/B test with confidence bounds. In fact, after going through several iterations of
+    SFT and RLHF, it is the live model that steadily beats by a good margin all static baselines in terms of human preference. At the same time, the
+    contextual bandit reduces average regret in online mode, and scaling to billions of queries is achieved without loss of metadata integrity or
+    update flexibility. Key challenges are identified: catastrophic forgetting of rare skills, narrow-group preference bias, privacy risks when
+    processing live data, and high manual annotation costs, for which regularization, stratified sampling, differential privacy, and active
+    self-evaluation learning are proposed as solutions. This article should interest and benefit those who investigate and architect systems for
+    natural language, machine learning, and recommendation engines.
+
+### R00753 | 2026 | article/None | Lang: en
+TI: The Impact of AI-Assisted Tools on Enhancing the Quality of Legal Translation Outputs: A Case Study of Jordanian Students
+AB: This study seeks to examine the effects of the use of Artificial Intelligence (AI)-assisted tools (ChatGPT and DeepL) on the quality of legal
+    translation outputs by Jordanian undergraduates. As legal translation necessitates a high degree of specificity, context, and accuracy in the
+    utilization of terminology, the following research will explore whether AI can help students accomplish this requirement. To achieve the research
+    objective, a case study that combined methods was employed. A sample of 68 third- and fourth-year students from Zarqa University and Mutah
+    University who specialize in translation was chosen to participate in the study. The participants were required to complete a pre-test and a
+    post-test, each of which included legal texts (statutes, contracts, and court rulings). The following day's session involved utilizing AI. The
+    quantitative analysis of the data collected from the exams and surveys indicated how terminology, grammar, context, and fluency improved
+    translation quality. Qualitative analysis of surveys and interviews revealed participants' perceptions of their experiences and resources. The
+    study's findings showed that using AI technologies to improve terminology, grammar, context, and fluency resulted in increased translation
+    quality. Students also believed that the tools increased their confidence and efficiency; however, they also had concerns about overreliance on AI
+    and the potential lack of legal content handling ability in the tools. Finally, this study revealed the pedagogical potential of using AI tools in
+    legal translation training while pointing to the need for continuous human control and critical thinking.
+
+### R00754 | 2026 | preprint/None | Lang: en
+TI: How Students Adapt to Generative AI in Higher Education: Perceived Utility, Risk Salience, and Adaptive Learning Responses in China
+AB: As generative artificial intelligence (GenAI) becomes increasingly integrated into higher education, understanding how students adapt to
+    AI-supported learning environments has become an important educational issue. While previous research has focused largely on technology acceptance
+    and perceived usefulness, less attention has been given to how students simultaneously interpret the opportunities and risks associated with
+    ChatGPT-like systems. This study examined associations among GenAI use, perceived utility, perceived risk salience, and adaptive learning
+    responses among 947 university students in China. Using cross-sectional survey data, the analyses combined correlation analysis, hierarchical
+    regression modelling, and exploratory cluster analysis. The findings showed that broader GenAI use was positively associated with both perceived
+    utility and perceived risk salience. However, perceived risk salience demonstrated a stronger relationship with adaptive learning responses than
+    perceived utility. Students who reported greater awareness of risks such as misinformation, overreliance, academic integrity concerns, and future
+    skill uncertainty were more likely to engage in reflective and preparation-oriented learning behaviours. Cluster analysis further revealed
+    substantial heterogeneity in patterns of student engagement with GenAI. The findings suggest that higher education responses to GenAI should
+    support not only technical competence, but also critical judgement, reflective engagement, and adaptive learning practices.
+
+### R00755 | 2026 | article/None | Lang: en
+TI: The impact of mobile technology in blended learning on student interaction and motivation in ESP classes: A case study in Omani higher education
+AB: This study examines how mobile technologies used in blended learning environments affect student participation and motivation levels during
+    English for Specific Purposes (ESP) classes at Omani higher education institutions. The research aims to identify effective uses of mobile
+    devices, examine how mobile applications promote interaction and motivation, and determine which applications best support these outcomes. The
+    researchers used a qualitative case study approach, which included semi-structured interviews with five ESP teachers and three focus group
+    discussions with second-year students at a maritime college. The thematic analysis process produced five primary themes. The results show that
+    mobile technology enables users to communicate in real-time while working together and participating actively through gamified tools, AI-supported
+    feedback, and interactive platforms, including Microsoft Teams, Moodle, Kahoot, Quizlet, and ChatGPT. Students experienced higher levels of
+    confidence, independence, and greater enthusiasm when activities matched their professional development needs. The study identified several
+    challenges, including unstable internet connectivity, device limitations, cognitive overload from using multiple platforms, and overreliance on
+    AI-generated feedback and social media distractions. The study shows that effective mobile integration requires both technology availability and
+    strategic instructional design, which follows motivational principles.
+
+### R00756 | 2026 | article/None | Lang: en
+TI: ENGLISH-MAJOR STUDENTS’ PERCEPTIONS OF AI-ASSISTED IELTS WRITING TASK 2 PRACTICE IN HIGHER EDUCATION: A QUALITATIVE STUDY AT THANH DO UNIVERSITY,
+    VIETNAM
+AB: This study investigated English-major students’ perceptions of AI-assisted tools in IELTS Writing Task 2 practice at Thanh Do University, Vietnam.
+    The study aimed to explore how students perceived the usefulness and challenges of using AI-assisted writing technologies during IELTS-oriented
+    writing activities. A qualitative research design was employed, involving semi-structured interviews with 15 third-year English-major students
+    enrolled in the Integrated English 2 course during the second semester of the 2025 academic year. The participants had experience using
+    AI-assisted tools such as ChatGPT, Grammarly, and Gemini to support IELTS Writing Task 2 practice. Interview data were analyzed using thematic
+    analysis. The findings revealed that students generally perceived AI-assisted writing tools positively due to their usefulness in idea generation,
+    essay organization, grammar correction, vocabulary enhancement, and self-study support. Participants also believed that AI technologies improved
+    writing confidence and encouraged learner autonomy. However, concerns regarding overreliance on AI-generated content, reduced independent
+    thinking, and the reliability of AI-generated feedback were also identified. The study highlights the potential of AI-assisted writing
+    technologies as supplementary learning resources in IELTS-oriented writing instruction while emphasizing the importance of responsible and
+    balanced AI integration in higher education contexts.
+
+### R00757 | 2025 | article/None | Lang: en
+TI: The Impact of Generative AI Tools on Postgraduate Students’ Learning Experiences: New Insights Into Usage Patterns
+AB: Aim/Purpose: This study aimed to investigate the impact of generative artificial intelligence (GenAI) tools on postgraduate students’ learning
+    experiences. It examined how these students utilize GenAI tools, identified the perceived benefits of their use, and uncovered the challenges
+    students face in their learning experiences with these tools. Background: Recent advancements in GenAI, particularly tools like ChatGPT, are
+    transforming how postgraduate students engage with learning, offering new opportunities for academic endeavors. However, understanding how
+    students interact with these tools remains unclear, especially relating to their engagement with activities designed to use GenAI tools as
+    learning assistants. Methodology: This study employed a qualitative case study research design, including 11 female postgraduate students enrolled
+    in an educational technology master’s program as the primary data collection method. The researchers only had access to female students because of
+    the gender-segregated education system at most Saudi universities. The participants were interviewed after they engaged in a planned activity
+    called Designing a Training Program with GPT Assistance (DTPGA) and unplanned activities involving other GenAI tools. DTPGA is an activity aimed
+    at integrating innovations in training technologies by designing a training program with ChatGPT assistance. Eleven ChatGPT conversation logs and
+    DTPGA activity answers were analyzed based on specific rubrics. The results of the DTPGA activity analysis support the thematic analysis of the
+    interviews. Contribution: The key contributions of this study include the design and implementation of a planned activity (DTPGA) to understand
+    how students interact with GenAI tools as learning assistants. Evaluating students’ work on a DTPGA activity offers educators a clear vision for
+    assessing GenAI-assisted tasks. In terms of data collection and analysis, this study also offers a deep understanding of the participants’
+    perspectives and actual usage. The study identified two distinct usage patterns of GenAI among students, each classified with its characteristics
+    and implications, shedding light on the diverse ways these tools are integrated into students’ learning experiences. Furthermore, the findings
+    provide compelling evidence of the risks associated with misunderstandings that can emerge when students misuse GenAI tools. Findings: Students
+    employ GenAI tools to have intellectual conversations, broaden their perspectives, and prototype and test their solutions. The research identified
+    two distinct GenAI usage patterns – the intellectual partner and the information browser – each characterized by unique traits. The first pattern,
+    intellectual partner, uses ChatGPT as a cognitive partner and interacts with it as if it were a real person. This usage tends to be dialogic,
+    collaborative, selectively researching, persistent, and feedback-oriented. The second pattern, information browser, utilizes ChatGPT primarily as
+    a search engine for ideas with the following usage traits: transactional use and illusory understanding. Regarding the perceived benefits, the
+    students appreciated the importance of GenAI tools in enhancing academic skills development, such as academic writing, translation, and
+    self-directed learning. They also acknowledged GenAI tools’ role in boosting productivity in routine tasks by optimizing efforts and enhancing
+    efficiency. In creative tasks, they saved time, offered diverse and innovative ideas, and boosted motivation and confidence. However, the
+    perceived drawbacks included concerns about ethical use, a lack of clear guidelines, limited capabilities, overreliance on GenAI, and potential
+    skills erosion. Recommendations for Practitioners: These findings will help educators guide students in developing metacognitive awareness and
+    refining their use of GenAI tools while addressing the potential risks. Emphasis should be placed on understanding the distinct patterns of GenAI
+    use, which will enable practitioners to scaffold learners. Integration also requires developing innovative strategies through redesigning lessons
+    and activities and carefully selecting adequate assessment methods that foster critical thinking. Additionally, it is important to enhance
+    learners’ skills in effective intellectual communication through GenAI tools, to guide them in evaluating AI-generated content, and to provide
+    ethical frameworks for responsible AI use. Recommendation for Researchers: Researchers need to explore more innovative strategies to integrate
+    GenAI tools into higher education, in line with the nature of the various disciplines, to use GenAI tools as intellectual partners and not
+    superficially. The field requires further studies to investigate how GenAI tools can be integrated to develop students’ intellectual skills,
+    preparing them for future roles that demand advanced abilities and effective use of GenAI for personal and professional growth. Impact on Society:
+    This study revealed that the use of GenAI tools has many benefits at the level of individuals in society when interacting with AI tools at an
+    intellectual level. However, the superficial use of GenAI tools may contribute to spreading ignorance and an illusory sense of achievement, which
+    may harm societies. Accordingly, it is necessary to warn users and take necessary measures to avoid superficial and harmful use of GenAI tools by
+    raising individuals’ awareness about the effective ways of interacting with GenAI tools and the importance of avoiding overreliance on them
+    without evaluating GenAI outputs. Future Research: As several drawbacks associated with GenAI tools have emerged, including superficial technology
+    use and the potential erosion of skills, future studies should explore this aspect and its impact on learning in greater depth. Future studies
+    could employ a mixed-methods study design with a larger sample encompassing both males and females to enhance the generalizability of the
+    findings.
+
+### R00758 | 2026 | preprint/None | Lang: en
+TI: From Scaffolding to Substitution? Generative AI, Self-Regulation, and Learner Agency in EFL Academic Writing in Benin
+AB: Abstract Generative artificial intelligence (GenAI) is now routine in university writing, making simple adoption studies increasingly
+    uninformative. The more consequential question is how GenAI enters the writing process, how learners regulate that support, and when assistance
+    begins to substitute for learner effort. This explanatory sequential mixed-methods study examined AI-mediated academic writing among 186
+    undergraduate EFL students across three academic levels in Benin and integrated the quantitative results with thematic frequencies from 24 English
+    lecturers. Student data captured tool use, AI support across pre-writing, drafting, revising, and proofreading, perceived linguistic, cognitive,
+    and affective support, self-regulated writing behaviours, perceived writing benefit, and concerns about overreliance, verification, integrity, and
+    critical engagement. ChatGPT was the most widely used platform (86.0%), but platform multiplicity itself was unrelated to perceived writing
+    benefit (Spearman rho = .017, p = .814). By contrast, frequency of AI use was strongly associated with perceived benefit (rho = .615, p < .001),
+    writing confidence (rho = .695, p < .001), and self-regulated writing (rho = .869, p < .001). AI support was reported most strongly during
+    revising and proofreading (both M = 4.16 on a five-point scale), significantly above pre-writing and drafting. A notable benefit-risk coupling
+    also emerged: students who reported greater benefit simultaneously reported stronger concerns (rho = .522, p < .001). Lecturer themes converged
+    with this pattern, especially on linguistic scaffolding (87.5%), revision support (91.7%), overreliance (83.3%), and authorship or
+    academic-integrity concerns (79.2%). The findings suggest that intensity and regulation of use matter more than the number of tools adopted. They
+    support a view of GenAI as regulated scaffolding whose educational value depends on learners' capacity to plan, monitor, evaluate, and retain
+    ownership of academic writing. Because the study relies on self-report and coded lecturer perceptions, it does not claim objective writing gains
+    or causal effects.
+
+### R00759 | 2026 | article/None | Lang: en
+TI: AI-ASSISTED SCHOLARLY WRITING IN APPLIED LINGUISTICS (2020–2025): A PRISMA-GUIDED LITERATURE REVIEW
+AB: "This systematic literature review addresses the growing integration of AI-assisted writing tools in applied linguistics and language education,
+    with a particular focus on their role in scholarly writing. The primary problem explored in the study concerns the dual nature of AI’s impact:
+    while it holds promise for improving writing quality and accessibility, it simultaneously raises pedagogical, ethical, and methodological
+    concerns. The aim of the review is to provide a comprehensive understanding of how AI writing tools–particularly grammar checkers like Grammarly
+    and generative models such as ChatGPT‒are influencing academic writing practices among second language (L2) writers and educators. The review
+    follows PRISMA 2020 guidelines and analyzes peer reviewed publications from 2020 to 2025 across journals such as Journal of Second Language
+    Writing, RELC Journal, and International Journal of Applied Linguistics. It synthesizes findings from over 30 studies using qualitative,
+    quantitative, and mixed-method approaches. The results reveal that AI tools significantly improve grammatical accuracy, writing efficiency, and
+    student confidence, especially among novice academic writers. However, the review also identifies major challenges, including overreliance,
+    superficial engagement with content, ethical ambiguity regarding authorship, and inconsistencies in the tools’ feedback. Notably, the review
+    highlights a lack of longitudinal studies and critical AI literacy training. 22 23 Торайғыров университетінің Хабаршысы, ISSN 2710-2661
+    Педагогикалық сериясы № 1. 2026 Вестник Торайгыров университета, ISSN 2710-2661 Серия Педагогическая № 1. 2026 The study concludes that while
+    AI-assisted writing can enhance academic writing development, its effectiveness depends on critical, guided implementation. The findings are
+    significant for informing teaching practices, developing academic writing curricula, and establishing institutional guidelines for the ethical and
+    pedagogical use of AI in education. Keywords: AI-assisted writing, ChatGPT, Grammarly, scholarly writing, applied linguistics, academic
+    publishing, PRISMA"
+
+### R00760 | 2025 | article/None | Lang: en
+TI: Digital anthropomorphism and the psychology of trust in generative AI tutors: an opinion-based thematic synthesis
+AB: Methodological Approach This article is an opinion-based conceptual piece that draws on a targeted selection of peer-reviewed sources to develop a
+    conceptual discussion on digital anthropomorphism in generative AI tutors. To ground our argument in current scholarship, we searched Google
+    Scholar, Scopus, and Web of Science for literature published between 2019 and 2025, using terms such as "AI trust," "digital anthropomorphism,"
+    and "generative AI in education." We focused on works that explicitly addressed human–AI interaction, trust psychology, or anthropomorphism in
+    educational contexts, and excluded purely technical studies and noneducational applications. Approximately 45 relevant papers were identified.
+    Rather than conducting a systematic review, we engaged in an informal thematic grouping of recurring ideas— such as perceived authority, emotional
+    reassurance, automation bias, and epistemic vigilance— which informed the structure of this article. The aim here is not to provide exhaustive
+    coverage, but to integrate converging insights from cognitive psychology, human–computer interaction, and educational technology into a coherent,
+    opinion-driven perspective on trust calibration in AI-mediated learning. Introduction: When the Machine Feels Human Today's students interact more
+    with generative AI tools like ChatGPT, Claude, and Google Gemini as conversational partners rather than as disembodied software. When these
+    systems respond with fluency, politeness, and encouragement, they create a subtle but potent illusion: the AI appears to "understand" the user
+    (Cohn et al., 2024; Karimova & Goby, 2020). This phenomenon, known as digital anthropomorphism, leads students to attribute human-like
+    qualities—such as empathy, intelligence, and trustworthiness—to non-human systems (Jensen, 2021; Placani, 2024). This article offers a conceptual,
+    opinion-based synthesis of recent peer-reviewed literature on this topic, drawing on insights from cognitive psychology, human–computer
+    interaction, and educational technology. Our aim is not to provide an exhaustive or systematic review but to integrate converging findings into a
+    coherent framework for understanding trust calibration in AI-mediated education. We structure the discussion around the conceptual pathway
+    illustrated in Figure 1, which traces how anthropomorphic design cues may foster affective trust, reduce epistemic vigilance, and influence
+    learner dependency, while also considering contexts in which anthropomorphism can enhance engagement and confidence when ethically designed. The
+    Cognitive Basis of Digital Anthropomorphism Digital anthropomorphism is not a failure of rationality, but rather a manifestation of human social
+    cognition (Fakhimi et al., 2023). Developmental psychology has demonstrated that even children ascribe intention and moral status to animated
+    forms if they move in goal-oriented manners. Adults too habitually treat chatbots, GPS, and voice assistants as being quasi-social actors—to thank
+    them, apologize, or obey their instructions. Generative AI amplifies this impact with linguistic anthropomorphism. Its natural language
+    proficiency activates people's social brain mechanisms— soliciting empathy, engagement, and even perceived moral agency (Alabed et al., 2022; Q.
+    Chen & Park, 2021). Human-computer interaction studies show that individuals are more willing to take advice from a friendly, courteous chatbot
+    than from a direct or technical interface, even when the information is the same. This has its roots in what Clifford Nass called the "media
+    equation": the hypothesis that people treat computers and media as if they were actual people and places. The conversational AI's
+    design—affirmative statements, natural turns, emotional tone—invokes this illusion more powerfully than any earlier model of education technology
+    (Inie et al., 2024). As outlined in Figure 1, these interface features can initiate a sequence from perceived empathy and authority to emotional
+    trust, which may, in turn, lower epistemic vigilance. In the teaching environment, this has significant implications. A student made to feel
+    "helped" or "seen" through interaction with an AI tutor is more likely to feel motivated and emotionally secure—but less apt to scrutinize the
+    system's correctness and fairness. Its emotional trust will countervail the critical examination of the user, even when the AI tutor emulates
+    reassurance and confidence (Chinmulgund et al., 2023). While these tendencies are well-documented in human–computer interaction and consumer
+    research, their expression in formal educational settings is likely to be context-dependent. Factors such as learners' age, subject matter, prior
+    exposure to AI, and cultural norms may moderate the strength of anthropomorphic responses. In this article, we treat such effects as plausible
+    tendencies supported by adjacent literature, rather than as universal outcomes, and highlight the need for empirical validation within classroom
+    environments. Perceived Authority and the Illusion of Understanding Belief in AI tutors is frequently influenced through perceived epistemic
+    authority. When an AI system provides clear, assertive, and technical definitions, students might conclude that "it knows" as a human expert
+    might. But AI systems do not know—they respond based upon statistical relationships, not conceptual understanding. This pretense of knowledge is a
+    pernicious epistemic trap (Lalot & Bertram, 2024). It causes learners to take AI responses as authoritative, particularly when they have no
+    pre-existing knowledge to analyze them with. Additionally, if AI response is written in didactic pedagogical tones or affective supportive tones,
+    it reinforces the image of a wise and well-meaning tutor (Troshani et al., 2020). Educational psychology experiments demonstrate that students
+    often rate feedback as more useful when delivered with confidence, even if the information is inaccurate. This link between confident tone and
+    perceived expertise represents a plausible mechanism consistent with experimental findings in both educational and broader HCI contexts (Lalot &
+    Bertram, 2024; Troshani et al., 2020), though its generalizability to all classroom settings remains to be confirmed. Such a 'confidence
+    heuristic' is problematic when used with AI systems trained to optimize fluency and not epistemic truth. This aligns with findings by Atf and
+    Lewis (2025), who demonstrate that user trust in AI systems is often driven by surface fluency and not correlated with explainability, especially
+    in educational domains(Maeda, 2025). Figure 1. Conceptual synthesis — Psychological Pathway Linking Digital Anthropomorphism to Epistemic
+    Vulnerability in AI-Mediated Learning. This diagram illustrates how interface design features that evoke human-like qualities can lead to
+    affective trust, which in turn may reduce learners' epistemic vigilance, resulting in over-reliance, diminished critical thinking, and role
+    confusion. Note: This is a conceptual synthesis derived from the thematic literature review and is not an empirically estimated model. Trust,
+    Dependency, and the Erosion of Epistemic Vigilance From a psychological perspective, trust in learning is both required and dangerous. Students
+    need to trust instructors to direct them, but they must also cultivate epistemic vigilance—the capacity to evaluate the believability of
+    information sources. When students anthropomorphize AI tutors, their epistemic filters could weaken. Emotional trust in AI can be expressed as: •
+    Over-reliance on AI feedback over teacher guidance. • Inadequate effort to cross-check or challenge AI-produced responses. • Acceptance of
+    imperfect or slanted results, particularly if they come with persuasive voice (A. Chen & Wan, 2023). These tendencies are echoed in research about
+    automation bias—the tendency to over-rely on machines even when their projections contradict good sense. When AI-mediated learning takes place,
+    this is the way it has the ability to bring about lower levels of something called self-efficacy, less critical thinking, and dependence upon
+    external feedback. And students tend to feel a kind of role confusion. When the AI is perceived as supportive, affectively responsive, and
+    all-knowing, the student is apt to take on a receiving role, sacrificing their cognitive agency. Losing watchfulness is not only cognitive—it is
+    emotional. When the machine comes across as friendly, students feel guilty questioning it. When the machine provides speedy responses, they feel
+    impatient with complex questions. While such emotional reactions have been observed anecdotally in educational technology contexts, systematic
+    empirical evidence for these specific effects in AI tutoring environments is still emerging. We therefore present these as conceptual
+    extrapolations, grounded in related work on social responses to media and automation bias (Pergantis et al., 2025; Ryan, 2020), rather than as
+    universally established findings. This quiet process from doubt to submission is a pivotal moment in the psychology of trust (Ryan, 2020). This
+    accords with Pergantis et al.'s (2025) research, which shows that extensive AI interactions have the potential to move cognitive control processes
+    underlying autonomous learning. Even though such flaws require close analysis, no less true is the fact that anthropomorphic indicators have, in
+    certain scenarios, the potential to render useful pedagogical roles if appropriately and responsibly conceptualized. Productive Anthropomorphism
+    and Ethical Design Although much of the debate about anthropomorphism in AI tutors centers on its possible dangers, it is valuable to note that
+    human-like signals can have positive teaching outcomes as well, when implemented sensitively. Anthropomorphic design features can improve
+    students' engagement, minimize feelings of loneliness in online classrooms, and give emotional comfort to students who are anxious or
+    self-doubting. For instance, learners who have mathematical anxiety or who have limited exposure to human tutors may respond positively to an AI
+    tutor's persistent, nonjudgmental feedback (Polydoros et al., 2025). Others who are shy or socially fearful may be more at ease conversing with an
+    amicable AI interface than with colleagues or teachers in live classes. Ethical calibration is the answer: balancing motivational advantages of
+    anthropomorphism with characteristics that maintain critical thinking and epistemic vigilance. Characteristics like that may be achieved through
+    the use of transparency prompts, source citations that are visible, and infrequent "reflection nudges" which get students to stop and double-check
+    information. In combination with instructional guidance, design strategies like these hold promise for making anthropomorphic cues function as a
+    learning scaffold, not a shortcut to mere passive acceptance. Toward a Psychology of Critical Trust in AI Tutors To enter this psychological
+    territory of anthropomorphism in the digital age, teachers must encourage students to cultivate critical trust—a mindset to be open to the
+    affordances, yet cautious about the limits, of AI. Even technical literacy won't suffice; psychological sensitivity is needed (Mulcahy et al.,
+    2023). Educational interventions might include: ➢ AI debriefs: Short reflection exercises that get students to present an AI-generated response
+    that was utilized and answer three guiding questions: (1) What was the chief argument of the AI? (2) What sources, if any, did it reference? (3)
+    How did you test or refute it? This helps students be mindful of their uses of AI intentionally. ➢ Counter-anthropomorphism exercises: Students
+    reword an AI's polite, human-sounding response in purely technical terms, removing social signals. This helps students contrast how tone and style
+    affect their perception of authority and reliability. ➢ Trust calibration training: Checklists or short classroom protocols that encourage
+    students to ask, before accepting an AI's response: (1) Is there a legitimate source? (2) Is my explanation consistent with my prior knowledge?
+    (3) Have I checked it elsewhere? This training induces the habit of separating interface ease from epistemic reliability. Educators can model
+    critical trust through transparent and explainable use of AI in class, revealing its benefits and its limitations. Guided classroom debates about
+    issues like algorithm bias, hallucinations, and surface fluency versus deep knowledge can "immunize" students against excessive faith. Classroom
+    activities that engage students in collaborative tasks can further erode passive dependence: for instance, group debates where students are asked
+    to argue against an answer generated by an AI, or collaborative projects where human and AI readings of the same content are evaluated side by
+    side for nuance, tone, and cultural reference. These exercises tie directly to earlier interventions like AI debriefs, counter-anthropomorphizing,
+    and calibration of trust, building upon them through active exercise. In the long run, establishing critical trust may even necessitate interface
+    redesigns—with features like visible source quotation, easy-to-understand explainability tools, and interactive prompting that invite reflection
+    before accepting an AI's answer. Research Pathways for Calibrating Trust in Generative AI Tutors Future research should explore the psychology of
+    anthropomorphism in AI tutors across diverse educational contexts (Létourneau et al., 2025). We propose two complementary tracks: Track A –
+    Affective Trust Calibration ❖ Investigate how learners distinguish between the emotional tone and epistemic validity of AI responses. ❖ Test
+    interventions such as meta-cognitive prompts, counter-anthropomorphism training, and AI explanation auditing to determine their effectiveness in
+    sustaining critical vigilance (Chakraborty et al., 2024; Israfilzade & Sadili, 2024). ❖ Explore the impact of interface features (e.g., source
+    citations, uncertainty indicators, reflection nudges) on trust calibration over time. Track B – Population and Context Variance ❖ Examine
+    differences in anthropomorphic responses across developmental stages, from adolescents with still-developing critical thinking skills to adult
+    learners. ❖ Assess the unique effects on language learners, students with math anxiety, and those with varying degrees of self-confidence
+    (Polydoros et al., 2025). ❖ Investigate how neurodiverse learners respond to AI tutors — identifying where consistent feedback supports learning
+    versus where the absence of genuine empathy may hinder it. ❖ Anticipate the effects of multimodal AI (voice, facial expressions, haptics) on
+    perceptions of agency, authority, and moral status. Pursuing these research tracks will help identify how to leverage the motivational benefits of
+    anthropomorphism while minimizing the risks of epistemic over-reliance. Such insights are essential for co-designing ethical AI systems that
+    inform, augment, and empower learners without compromising intellectual autonomy. Limitations and Scope Limitations and Scope. This article is
+    presented as an opinion-based conceptual synthesis rather than a systematic review or empirical study. The thematic grouping of sources reflects a
+    targeted but non-exhaustive selection of peer-reviewed literature published between 2019 and 2025. While many of the mechanisms discussed—such as
+    automation bias, trust heuristics, and the influence of anthropomorphic cues—are supported by existing studies in related domains, some affective
+    and behavioral claims are hypotheses requiring further empirical validation in classroom contexts. Findings and interpretations should therefore
+    be considered context-dependent and provisional, intended to inform ongoing scholarly and design conversations rather than to offer definitive
+    causal conclusions. Conclusion: Learning with the Non-Human Other Generative AI is not a neutral tool. Its linguistic fluency, affective tone, and
+    interactive style are designed to mimic human-like interactivity, eliciting anthropomorphic responses from students who may greet AI tutors as
+    intelligent guides, caring listeners, or moral figures (Hossain & Islam, 2024; Sarfaraj1, 2025). Such responses can enrich the learning experience
+    when they foster motivation, confidence, and a sense of social presence (Polydoros et al., 2025). However, they also carry the risk of distorting
+    teacher–student dynamics and encouraging uncritical trust (Vanneste & Puranam, 2024; Yuan & Hu, 2024). The challenge is not to eliminate trust in
+    AI tutors but to calibrate it—ensuring that trust is informed, tentative, and tempered by awareness of the system's non-human constraints (Okamura
+    & Yamada, 2020). This means leveraging the productive aspects of anthropomorphism while embedding safeguards such as transparency features,
+    reflection prompts, and guided debriefs that preserve epistemic vigilance (Chakraborty et al., 2024; Mulcahy et al., 2023). In an algorithmically
+    mediated educational future, the goal is to develop learners who can recognize when AI offers valuable support and when its persuasive surface
+    masks the need for independent reasoning. Ultimately, critical trust allows students to use AI as a partner in learning without surrendering their
+    intellectual autonomy (Ryan, 2020).
+
+### R00761 | 2025 | article/None | Lang: en
+TI: Who Trusts AI for Health Information? A Cross-National Survey on Trust Determinants in Four European Countries
+AB: As generative artificial intelligence (AI) systems such as ChatGPT become increasingly popular sources of health information, understanding what
+    shapes users’ trust in AI-generated health information (AI-HI) is essential. Despite growing use, little is known about how human- and
+    source-related factors jointly influence trust across national contexts. Drawing on frameworks from AI trust and online health information
+    research, this study used multi-group structural equation modeling with representative samples from Austria (N = 502), Denmark (N = 507), France
+    (N = 498), and Serbia (N = 483) to predict trust in AI-HI and its effect on intention to use AI-HI. AI literacy and performance expectancy
+    consistently increased trust across countries, while social norms and prior AI-HI experience showed smaller, context-dependent effects. Health
+    literacy, personal innovativeness, effort expectancy, and surveillance risk perceptions were not significant. Informational risk perceptions had
+    only a weak negative effect on trust, indicating that while concerns about inaccuracy can reduce confidence, they play a relatively minor role in
+    shaping it. Trust strongly predicted intention to use AI-HI in all countries, with path-level effects largely stable across contexts. These
+    findings suggest that trust in AI-HI is shaped more by digital capabilities, perceived utility, and social endorsement than by privacy concerns or
+    health literacy. Future research should examine how digital literacy interventions and transparency standards can foster informed trust in these
+    systems.
+
+### R00762 | 2025 | article/None | Lang: en
+TI: English Education Students’ Challenges Integrating Literature in Theses
+AB: The study addresses the pervasive difficulties students encounter in locating appropriate, current, and topic-specific literature, synthesizing
+    existing research with their own arguments, maintaining narrative cohesion, and navigating the complexities of the literature review chapter. A
+    significant concern is the increasing reliance on AI tools and the associated ethical considerations. This research aims to identify and examine
+    the specific challenges of English language Education students face in integrating literature sources, such as improper paraphrasing, overreliance
+    on direct quotations, ineffective synthesis, and limited understanding of citation conventions. It also seeks to explore underlying causes like
+    insufficient academic writing training, low language proficiency confidence, and lack of familiarity with scholarly literature. A qualitative
+    narrative inquiry approach was employed, involving semi-structured interviews with four eighth-semester undergraduate students from the English
+    Language Education Department. Data were analyzed using narrative analysis to understand participants' experiences, perceptions, and strategies in
+    navigating literature integration challenges. Trustworthiness was the validation variable used in this investigation. Findings reveal that
+    students struggle with finding relevant sources, adjusting quotes to fit personal arguments, and maintaining narrative cohesion, with the
+    literature review consistently identified as the most challenging section. While AI tools like ChatGPT are perceived as effective for efficiency
+    and ideal generation, ethical considerations regarding plagiarism are crucial. Students effectively use conceptual maps and matrices for
+    organization. The study concludes with a strong demand for practical support, including workshops and resources, to enhance literature integration
+    skills, emphasizing the urgent need for targeted pedagogical interventions to improve thesis quality.
+
+### R00763 | 2026 | article/None | Lang: en
+TI: Robot-Mediated Explainability for CNN-Based Complex Emotion Recognition: Aligning Visual Attributions With Social Robot Behavior for Trust-Aware
+    HRI
+AB: In recent years, the development of socially interactive robots has heightened the need for inter-pretable and trustworthy models capable of
+    recognizing complex human emotions in real time. While deep convolutional neural networks achieve strong performance in facial affect recognition,
+    their decision processes remain largely opaque, which limits user trust and safe deployment in human–robot interaction (HRI). This challenge
+    becomes particularly critical when recognizing complex or subtle emotional states under domain shift, where both performance robustness and
+    explanation stability are required. A robot-mediated explainability framework for complex emotion recognition links the visual attribut of a
+    convolutional neural network (CNN) to social-robot behaviors in real time. The perception module augments a CNN with an Attention Map Alignment
+    Layer (AMAL) that regularizes the internal focus toward semantically meaningful facial regions during training. Model-agnostic eXplainable AI
+    (XAI) methods (SHAP and LIME) provide per-instance rationales at inference and are audited for temporal stability and faithfulness under streaming
+    conditions. Explanations are embodied through a behavior-generation layer that converts saliency into deictic head motion and gaze, optionally
+    governed by an adaptive emphasis policy that modulates when and how strongly to highlight evidence as a function of model confidence, explanation
+    stability, and user-state signals. Evaluation spans AffectNet and EMOTIC, plus an out-of-distribution robot-domain set (OhBot) to probe domain
+    shift. A human–robot interaction study uses a $3\times 2\times 2$ between-subjects design crossing embodiment (no robot, still gaze, head motion),
+    visual XAI (no heatmap vs heatmap), and emphasis policy (fixed vs adaptive). Across in-distribution and robot-domain tests, AMAL improves accuracy
+    and macro-F1 with lower expected calibration error, and yields higher attribution–landmark overlap with greater temporal stability. In
+    interaction, head motion increases acceptance of system recommendations relative to still-gaze and no-robot baselines, while heatmaps improve task
+    performance irrespective of embodiment. Adaptive emphasis delivers additional gains primarily under well-calibrated predictions and attenuates
+    guidance under low confidence, limiting over-reliance. Overall, aligning internal attention, surfacing faithful rationales, and embodying those
+    rationales through socially legible behaviors enhances both objective performance and calibrated trust. Next steps include on-device deployment on
+    embedded accelerators, longitudinal evaluation of trust dynamics, and integration with language-model-based social-norm explanation modules as a
+    complementary, normative layer.
+
+### R00764 | 2026 | article/None | Lang: id
+TI: Persepsi mahasiswa terhadap penggunaan AI-Assisted writing dalam penulisan teks akademik
+AB: This study examines vocational higher education students’ perceptions of AI-Assisted Writing (AI-AW) tools in academic writing within the context
+    of a polytechnic institution. The study addresses the limited research on AI use among vocational students. Using the Technology Acceptance Model
+    (TAM) as the theoretical framework, the research focuses on students’ perceptions of the usefulness, ease of use, and challenges associated with
+    AI-AW tools. A qualitative phenomenological approach was adopted, involving 20 students from different academic departments at Malang State
+    Polytechnic (Polinema), Indonesia, selected through purposive sampling. Data were gathered through semi-structured interviews and analyzed using
+    thematic analysis. The findings indicate that most participants viewed AI tools such as ChatGPT, Grammarly, and QuillBot positively, especially
+    for supporting idea development, paraphrasing, grammar checking, and improving the quality of academic writing. Students also considered these
+    tools relatively easy to use, with peer learning and self-directed exploration playing an important role in their adoption. Despite these
+    benefits, several concerns emerged, including inaccurate AI-generated information, overreliance on AI, reduced critical thinking engagement, and
+    uncertainty regarding academic integrity. Many students emphasized the importance of verifying AI-generated content, particularly for technical
+    and academic information. Students who demonstrated stronger AI literacy tended to use AI critically and responsibly, treating it as a learning
+    aid rather than a replacement for independent thinking. The study highlights the importance of developing clear institutional policies and
+    integrating AI literacy into academic writing instruction in vocational higher education. These findings contribute to ongoing discussions
+    regarding ethical and responsible AI integration in academic learning environments.
+
+### R00765 | 2026 | article/None | Lang: en
+TI: AI tools in higher education gains and challenges across global south and global north
+AB: This study systematically examines the use of artificial intelligence (AI) tools in higher education and compares the gains and challenges
+    experienced by students and educators across the Global North and Global South. Using the PRISMA protocol, a systematic literature review was
+    conducted on peer-reviewed empirical studies published between 2021 and 2025, retrieved primarily from the Scopus database with supplementary
+    searches via Google Scholar. 71 studies met the inclusion criteria and were analysed using a structured data-extraction framework and inductive
+    thematic analysis. Findings show that generative AI tools particularly ChatGPT dominate AI adoption globally, accounting for the majority of
+    reported use across both regions. However, similar tools are employed in fundamentally different ways. Institutions in the Global North
+    demonstrate deeper pedagogical integration, experimentation, and curriculum-level innovation, supported by stronger infrastructure and
+    institutional policies. In contrast, Global South institutions rely largely on AI for foundational academic support such as writing assistance,
+    summarisation, and language correction, reflecting structural constraints including limited infrastructure, affordability challenges, and weak
+    governance frameworks. Across regions, reported benefits include improved efficiency, academic performance, and learner engagement, while
+    persistent challenges centre on academic integrity, ethical concerns, overreliance, data privacy, and uncertainty due to inadequate institutional
+    guidance. The study underscores that global access to AI tools does not translate into equitable educational outcomes. It contributes a
+    comparative, equity-focused synthesis and advances AI adoption research by highlighting the need for context-sensitive policies, institutional
+    capacity building, and inclusive AI literacy initiatives to prevent the reinforcement of existing global inequalities in higher education.
+
+### R00766 | 2026 | article/None | Lang: en
+TI: Students' Experiences with Artificial Intelligence Tools in English Language Learning: A Descriptive Study
+AB: Research on AI in language education has mostly examined perceptions, acceptance, and effectiveness, leaving students' lived experiences
+    insufficiently understood. This study explores students' experiences in using generative Artificial Intelligence (AI) tools, namely ChatGPT,
+    Claude, and Gemini, which are commonly used to support language learning, in English language learning. Employing a qualitative descriptive
+    design, data were collected through semi-structured interviews and document analysis. Five participants, consisting of Master's students in
+    English Language Education, one of whom is also an active English teacher, participated in the study. The data were analysed using the six-phase
+    thematic analysis procedure of Braun and Clarke (2006). The findings reveal that students' experiences with AI can be understood through five
+    interrelated dimensions: cognitive, affective, social, technological, and overall experience. Cognitively, AI supported material comprehension,
+    language-skill development, and academic writing. Affectively, participants reported increased comfort and confidence associated with AI use,
+    alongside persistent anxiety and mistrust toward the accuracy of AI-generated content. Socially, AI both facilitated and reshaped peer and
+    lecturer interaction through additional verification practices, while raising ethical concerns about dependency and academic honesty.
+    Technologically, ease of use was closely tied to digital literacy and prompting skill, and was constrained by internet connectivity and
+    subscription costs. Overall, participants evaluated their experience as positive but conditional, cautioning that overreliance on AI risks shallow
+    understanding and reduced critical thinking. The study contributes a multidimensional understanding of students' experiences with AI and points to
+    practical implications for AI literacy training, ethical AI use, and teacher guidance.
+
+### R00767 | 2026 | article/None | Lang: en
+TI: Digital Companions or Academic Crutches: AI Use and Academic Integrity Among Teacher Education Students
+AB: Generative artificial intelligence (AI) tools such as ChatGPT, Grammarly, and QuillBot have increasingly influenced academic writing in higher
+    education by assisting with grammar correction, paraphrasing, and organization. Despite these benefits, concerns remain regarding overreliance,
+    plagiarism, and threats to academic integrity. Anchored in Ajzen’s Theory of Planned Behavior (TPB) as an interpretive heuristic, this study
+    examined the use of AI-powered writing tools among teacher education students in a Philippine state university, focusing on the extent of use,
+    perceived benefits and risks, and awareness of academic integrity. Employing a quantitative descriptive–correlational design, data were collected
+    from 298 respondents. Findings revealed that students frequently used AI tools to enhance grammatical accuracy, writing efficiency, and writing
+    confidence. At the same time, they acknowledged associated risks, particularly plagiarism, reduced originality, and dependence on AI-generated
+    assistance. Inferential analyses revealed significant differences in AI tool usage and perceived benefits and risks across sex, age, year level,
+    and program/degree. Academic integrity awareness showed no significant differences across sex and age, but significant differences were observed
+    across year level and academic program (p < 0.05). Correlational analysis further indicated no significant relationship between frequency of AI
+    use and perceptions of academic integrity. These results suggest that AI use has become a normalized academic practice among teacher education
+    students, accompanied by relatively uniform awareness of academic integrity. The null findings may reflect sample homogeneity and institutional
+    academic culture. The study contributes to the growing discourse on ethical AI integration by emphasizing the need for explicit instruction on AI
+    ethics and academic integrity within teacher education curricula.
+
+### R00768 | 2026 | article/None | Lang: en
+TI: Research Skills and AI Tool Use in Research Writing: A Correlational Study Among SHS Students
+AB: This study examined the relationship between the research skills of Senior High School (SHS) students and their use of Artificial Intelligence
+    (AI) tools in research writing at Balayang High School during School Year 2025–2026. Grounded in the Department of Education’s vision of
+    developing critical, independent, and innovative learners, the research addressed the growing integration of AI technologies such as ChatGPT,
+    Grammarly, and Quillbot in academic writing. A descriptive-correlational mixed-methods design was employed, combining quantitative data from 74
+    Grade 12 students and qualitative insights from 10 purposively selected participants. Standardized instruments, including the Research Skills
+    Scale and an AI usage questionnaire, were used alongside semi-structured interviews. Findings revealed that students demonstrated moderate
+    proficiency in research skills, particularly in problem identification, literature review, and methodology, while showing lower confidence in
+    higher-order competencies such as statistical analysis and conceptual framework development. AI tools were widely used, primarily to support
+    writing, idea generation, and editing tasks. A statistically significant moderate positive correlation (r = 0.591, p < .001) was found between AI
+    tool usage and research skills, suggesting that AI can enhance research-related competencies when used appropriately. However, both quantitative
+    and qualitative results highlighted concerns regarding overreliance, accuracy, and ethical use of AI. Students perceived AI as a supportive tool
+    that improves efficiency and writing quality but emphasized the importance of maintaining critical thinking and academic integrity. The study
+    concludes that while AI tools offer benefits, balanced and guided integration is essential to ensure the development of independent research
+    skills among SHS learners.
+
+=== END OF BATCH b017 (34 records) ===

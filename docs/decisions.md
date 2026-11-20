@@ -52,3 +52,12 @@ Append new entries at the bottom; do not overwrite earlier ones.
   - After each batch, every decision is checked. A decision fails if `last_section` is missing or empty, or if its page marker is not in the last third of the report (counting pages before the references).
   - Failed decisions are re-run, at most twice. If one still fails, it is flagged for Frank and not counted (stays pending).
   - Also recorded in the amendment log of `literature/screening/ft_protocol.md` and stated in the full-text methods text.
+
+## 2026-11-20 – Search tightened to v1.1; search run; pilot batch b001 prepared
+
+- **Volume check failed for v1.0:** 27,921 raw hits (arXiv 9,119; OpenAlex 18,802) vs the ~2,500 ceiling. Frank (stepping away) asked Claude to tighten without waiting, keep 2025–2026, keep both sources and all 7 directions. (A first version of that message asked for "agent" and "trace/process" terms and 2026 only; Frank corrected it: those were for the process-mining project. Not applied.)
+- **Changes:** (1) narrower terms and OpenAlex types `article|preprint`; (2) concept terms required in the title for R1a, R2b (concept block), R3, R4a. R1b and R2a stay title-or-abstract. Old/new strings and per-change counts in `literature/search-log.md`. All 7 directions keep at least one round (1, 2 → R1a; 4 → R1b; 3, 7 → R2a/R2b; 5 → R3; 6 → R4a/R4b).
+- **Result:** 2,267 database records + 65 citation-chasing records (R4b) → 478 duplicates → **1,854 unique records**, 43 batches of ≤50. Seed 1 found (R01687, batch b039).
+- **Known trade-off:** title-only concept terms lower sensitivity; mitigated by R4b and the R5 Google Scholar check. To be stated in the methods.
+- **OpenAlex without API key:** cursor paging now needs a key, so the script uses page paging; heavy boolean queries are paced at 1 per 2.5 s. No personal data sent.
+- **Pilot:** `literature/screening/pilot_labels.csv` holds blank labels for batch **b001 (R00001–R00050)** for Frank. No AI screening has been run on b001 or any other batch. Note: b001 is the first 50 records in input order, so all come from R1a (uncertainty, arXiv/OpenAlex, mostly early 2025) and the seed is not in it (it is in b039). Frank decides whether to add b039 (or another spread of batches) to the pilot.

@@ -1,0 +1,593 @@
+BATCH b022 -- 50 records: R00862 .. R00911
+
+### R00862 | 2026 | preprint/None | Lang: en
+TI: Bridging the Knowledge Gap: Aligning Financial Education with Investor Interests Using Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00863 | 2026 | article/None | Lang: en
+TI: Rancang Bangun Aplikasi Manajemen Keuangan Pribadi Berbasis Mobile Menggunakan Framework Flutter dengan Integrasi Large Language Model (LLM)
+    Gemini AI
+AB: Personal financial management is an important aspect of supporting financial well-being; however, a gap remains between financial literacy and
+    financial inclusion among Indonesian society. This study aims to design and develop a mobile-based personal financial management application
+    called FinAI by utilizing the Large Language Model (LLM) Google Gemini to support transaction recording and management through natural language
+    and provide more personalized financial information. This research employed a Research and Development (R&D) approach using the Software
+    Development Life Cycle (SDLC) Waterfall model, consisting of requirements analysis, system design, implementation, testing, and maintenance. The
+    application was developed using the Flutter framework and Dart programming language, with Firebase and Node.js supporting the backend and Google
+    Gemini API integrated for natural language processing. The developed features include natural-language transaction recording through AI Financial
+    Chat, manual transaction recording, transaction history and filtering, financial analysis and visualization, financial goal management, and
+    financial report export in Excel format. Functional testing was conducted using Black Box Testing, while usability testing employed the System
+    Usability Scale (SUS). The Black Box Testing results based on 11 test scenarios showed that all main functions operated 100% validly according to
+    the specified requirements. Usability testing involving seven respondents produced an average SUS score of 57.14, categorized as OK with a
+    marginal level. These results indicate that FinAI can be used to assist users in recording, monitoring, and managing personal finances in a more
+    structured manner, although improvements are still needed in terms of user convenience and ease of use.
+
+### R00864 | 2025 | article/None | Lang: en
+TI: Effects of chain-of-thought on large language model in designing and development of a financial assistant application
+AB: In a time when daily expenses frequently compound in the back-ground, sabotaging financial goals and independence, the Financial Decision Helper
+    App is a game changer for personal finance. To tackle the common issue of unaccounted-for daily money dissipations and inconsistent account
+    tracks, this model makes use of the state-of-the-art AI model, DeepSeek-R1-Distill-Llama-8B large language model fine-tuned with Low-Rank
+    Adaptation (LoRA). The app offers personalized, step-by-step guidance on how users should spend their money, which includes clear instructions on
+    whether something is
+
+### R00865 | 2026 | preprint/None | Lang: en
+TI: Belief Bias, Source Preference, and Preference for Robo-Advisor
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00866 | 2026 | article/None | Lang: en
+TI: Automated Financial Data Extraction Using Large Language Models: An Application of OpenAI Apis
+AB: Financial data extraction, traditionally a manual and labour-intensive process, is being revolutionized by artificial intelligence (AI) and
+    machine learning (ML). However, understanding financial documents remains a significant challenge for individuals without specialized financial
+    knowledge due to complex terminology and concepts. This study addresses this gap by designing, developing, and evaluating an AI-powered financial
+    data extraction system tailored for non-financial individuals. The system integrates Optical Character Recognition (OCR) for text extraction from
+    document images statements, invoices, receipts) and leverages the OpenAI platform's advanced Natural Language Processing (NLP) capabilities to
+    organize, interpret, and explain financial information in a user-friendly manner. A Waterfall development methodology was employed, encompassing
+    requirements gathering via questionnaires with target users, system architecture design, implementation using Python libraries and OpenAI API, and
+    rigorous testing, including functionality tests and user evaluations. Results from functionality testing confirmed the system's ability to
+    accurately process various document types. User evaluation, involving finance staff assessing the system's potential for non-expert users, yielded
+    overwhelmingly positive feedback, with high ratings for accuracy, usability, efficiency, and the significant impact of AI/ML integration in
+    enhancing the depth and speed of analysis. The findings demonstrate the system's potential to improve financial literacy and empower individuals
+    in managing personal finances by making complex financial data more accessible and understandable.
+
+### R00867 | 2026 | article/None | Lang: en
+TI: AI-POWERED FINANCIAL ADVISOR: AN INTELLIGENT SYSTEM FOR PERSONAL FINANCE MANAGEMENT AND MARKET INSIGHTS
+AB: ABSTRACT Managing personal finances has become increasingly complex due to recurring expenses, loan repayments, and the unpredictability of
+    markets such as stocks and cryptocurrencies. Existing tools—like EMI calculators, expense trackers, and investment applications—usually operate in
+    isolation, preventing users from gaining a comprehensive view of their financial health. This often results in fragmented insights and poor
+    decision-making. To address this gap, we present an integrated AI-driven financial advisor that combines multiple functionalities into a single
+    platform. The system incorporates an EMI calculator, expense tracker, stock and cryptocurrency analysis, mutual fund planner, and portfolio
+    manager. A conversational chatbot enables users to interact in plain language, for example, asking “What will be my EMI on a ₹10 lakh loan?” Or
+    “Is it wise to invest in Bitcoin?” And receiving instant, personalized responses. Real-time market data and machine learning techniques are
+    employed to enhance the accuracy of recommendations, while robust encryption and access control mechanisms ensure data security. The system was
+    evaluated with 50 participants across diverse financial scenarios, achieving 92% accuracy in calculations and an 89% satisfaction rate.
+    Additionally, the chatbot successfully addressed 90% of common financerelated queries. Overall, the proposed solution simplifies financial
+    management by making it more secure, efficient, and user-friendly. Future work includes expanding support for regional languages and incorporating
+    goal-oriented financial planning.
+
+### R00868 | 2025 | article/None | Lang: en
+TI: AI Based Financial Advisor
+AB: This paper presents the development of an AI-powered financial advisory system designed to provide personalized investment recommendations. The
+    platform collects user-specific financial data such as salary, expenses, savings, profession, city, risk appetite, and investment horizon. It
+    employs machine learning models, including Random Forest Regressor and Multi Output Regressor, along with a rule-based logic engine to generate
+    asset allocation suggestions across equity, debt, gold, and fixed deposits. The web application is built using FastAPI and features secure
+    authentication, an admin dashboard, a chatbot interface, and real-time stock data integration. The system was tested using both functional and
+    model validation methods to ensure accuracy and user-friendliness. Results indicate that the platform offers reliable and personalized financial
+    recommendations, making it a cost-effective and scalable alternative to traditional advisory services.
+
+### R00869 | 2026 | article/None | Lang: en
+TI: A Practical Analysis of Large Language Models Empowering Investment Management from the Financial Text Perspective
+AB: This paper investigates how large language models can assist in investment management through the processing of financial text. It is a discussion
+    of ideas and applications, not an empirical investigation, and no original datasets, backtests, portfolios or performance data have been provided.
+    The development path from dictionary-based textual indicators to Transformers, domain-adapted language models and retrieval-assisted workflows is
+    presented. Next, it presents some applications of research-intake systems, document comparison, event extraction, risk monitoring, investment-memo
+    drafting and client communication. Pay attention to the evidence supporting the results of the model. Although the generated summary and
+    classification can increase the efficiency of the workflow, they are not verified facts, forecasts or investment recommendations unless supported
+    by official data and professional reviews. A controlled operating model based on source provenance, retrieval, structured prompts, numerical
+    verification, human approval, access control, audit log and continuous evaluation is proposed in this paper. Therefore, large language models are
+    more suitable for the applications of supervised analysis interfaces than for autonomous portfolio management systems.
+
+### R00870 | 2026 | article/None | Lang: en
+TI: Retrieval-Augmented Large Language Model Using FAISS for Stock Recommendation on LQ45 Index Based on Technical and Fundamental Analysis
+AB: The analysis of Indonesian stock markets is inherently complex due to market volatility, heterogeneous financial indicators, and the need to
+    integrate both technical and fundamental information. Traditional analytical approaches often struggle to provide transparent and consistent
+    investment recommendations, while Large Language Models (LLMs) may suffer from hallucination when applied to structured financial prediction
+    tasks. This study proposes a Retrieval-Augmented Generation (RAG) framework based on the LLaMA model and FAISS to enhance the reliability of stock
+    investment recommendations for LQ45-listed companies. Historical OHLCV data and fundamental financial reports are collected from Yahoo Finance and
+    preprocessed into a structured knowledge base using embedding representations. Relevant information is retrieved using a top-k similarity search
+    mechanism and integrated into a structured prompt engineering scheme to generate BUY, HOLD, or SELL recommendations. Experimental results
+    demonstrate that the proposed approach achieves an F1-score of 0.76 for classification performance, with regression-based error metrics of MAE
+    299.38 and MAPE 10.06%. In addition, text-based evaluation using ROUGE yields a high score of 0.9906, indicating strong alignment between
+    generated explanations and reference analyses. The findings suggest that the RAG framework significantly reduces hallucination by grounding LLM
+    outputs in retrieved financial data, thereby improving the interpretability and robustness of AI-driven stock analysis. This research contributes
+    to the field of informatics by providing a practical and extensible RAG-based framework for structured financial prediction tasks.
+
+### R00871 | 2025 | article/None | Lang: en
+TI: Development of Chatbot Integration in Personal Finance Management Applications Using Generative Pre-Trained Transformer (GPT) 4o
+AB: Financial management is considered a crucial aspect considering the importance of financial matters in life. However, based on the survey of 13
+    Employees and 2 Parallel Students of Esa Unggul University revealed that most don't regularly record their finances. The reasons cited includes
+    time constraints and lack of understanding. Additionally, none of the respondents used a financial recording application due to perceived
+    complexity and inefficiency. To overcome this, a chatbot-based personal finance management application was built. The chatbot feature in this
+    application is supported by the GPT-4o model and implemented by performing rapid engineering, which aims to simplify and streamline financial
+    records. The app will be developed using the Mobile-D method, which includes five stages: explore, initialize, productize, stabilize, and system
+    test & fix. The purpose of this study is to integrate chatbot features to simplify and accelerate the financial recording process. To evaluate its
+    effectiveness, the app will undergo System Usability Scale (SUS) and User Acceptance Testing (UAT). The SUS resulted in a score of 77.16,
+    categorized as "Good," while the UAT showed positive user feedback. These results show that the integration of chatbots with financial
+    applications has successfully helped users manage their finances more easily and efficiently. This study proves the potential of chatbot
+    technology integration in personal finance management, offering user-friendly solutions to overcome common obstacles in financial record keeping.
+
+### R00872 | 2026 | article/None | Lang: en
+TI: The evolution of robo-advisors in FinTech: a global bibliometric and thematic analysis, review and future agenda
+AB: This study presents a longitudinal bibliometric and thematic analysis of the global robo-advisory research landscape from 2017 to 2026, using a
+    total of 384 peer-reviewed publications selected from an initial dataset of 865 records retrieved from Web of Science and Scopus databases. By
+    employing co-citation, co-authorship, bibliographic coupling, keyword co-occurrence, cluster, thematic, evolutionary, and triangulation analysis,
+    the study attempts to highlight the structural and conceptual evolution of the field. The co-citation analysis shows that robo-advisor research
+    sits at the crossroads of finance, marketing, and information systems, built on foundational work like TAM, UTAUT, SEM, and Markowitz’s portfolio
+    theory; the co-authorship network reveals a diverse field dominated by small, internally cohesive teams, with limited cross-border collaboration,
+    despite the citations that show substantial convergence. Bibliographic coupling shows the central presence of a trust- and intention-focused core,
+    supported by broad adoption and behavioural literature, and a newer wave of extending the field outward into more outcome-based peripheries. The
+    keyword co-occurrence, cluster, thematic, evolutionary, and triangulation analysis differentiates well-known themes from accelerating ones. AI,
+    trust, LLMs, UTAUT, perceived risk and value, anthropomorphism, GenAI, and DeFi remain robust across temporal specifications. The study concludes
+    by providing actionable implications for researchers, practitioners, and policymakers with a call for future research by converting the findings
+    into four research programs: adaptive and personalized investment intelligence, human–AI collaborative advisory, responsible and autonomous
+    financial AI, and programmable and expanded investment ecosystems to ensure responsible and inclusive development of robo-advisory systems across
+    diverse financial ecosystems.
+
+### R00873 | 2026 | preprint/None | Lang: en
+TI: Country and Language Variation in LLM Financial Advice
+AB: Large language models (LLMs) are increasingly consulted for financial advice, yet it is unknown whether they give systematically different
+    recommendations depending on the country or language context of the question. This study conducts a large-scale computational experiment in which
+    identical financial decision scenarios are posed to thirteen leading LLMs across twenty-one country-language cells, using a structured prompt
+    design with two localization levels and a cross-language identification cell. The primary outcome is the recommended equity share in a stock-bond
+    allocation question. Secondary outcomes are the recommended invest-versus-mortgage allocation and the recommended fraction to move out of cash for
+    inflation protection. The design decomposes advice variation into a country-name effect (versus the US baseline), a pure-language effect holding
+    country name constant, and a local-financial-context effect, with the country-name and language channels separately identified through the
+    cross-language cell. In a second stage, to be finalized and estimated only after the normative benchmark and the country-level covariates are
+    sourced and frozen, the estimated country fixed effects will be regressed on country-specific normative benchmark deviations and on country-level
+    risk-taking and financial literacy scores.
+
+### R00874 | 2026 | article/None | Lang: en
+TI: Reconfiguring Financial Technology Education through AI Algorithms and Large Language Models: An Industry-Responsive Framework for Innovation
+    Capacity Development
+AB: The Financial institutions are now being influenced by the introduction of artificial intelligence (AI) algorithms and large language models
+    (LLMs) to perform risk management, investment analysis, compliance checks, and customer service. The new generation of financial technology
+    experts is expected to have a different knowledge and skill set as well as the ability to work with the current technological advancements. This
+    will be done through the application of educational ecology, which focuses on the development of competencies, the integration of education in
+    industry, and the role of financial technology talent. It identifies enterprise needs and student capabilities, curriculum design based on
+    scenarios, and feedback on the governance of the situation. In this way it can be considered that the AI algorithms and LLMs are not just tools of
+    learning but also means of acquiring interdisciplinary problem solving, engineering skills, and financial literacy and responsible use of AI. The
+    research thus offers a step-by-step procedure towards the creation of an expert in financial technology who is ready to serve the industry with
+    the help of reliable AI in financial services.
+
+### R00875 | 2026 | preprint/None | Lang: en
+TI: Cross-Engine Consensus in AI-Generated Brand Recommendations: An Empirical Study Across Seven Cities and Five Large Language Models
+AB: As consumers increasingly ask conversational AI systems for commercial recommendations ("which accounting software should I use," "which law firm
+    handles employment disputes"), a brand's visibility in these systems has become a measurable and commercially consequential property, distinct
+    from classical search engine ranking. This paper reports an empirical, multi-city study of cross-engine consensus: the degree to which
+    independently queried, commercially deployed AI assistants converge on the same named brand or provider in response to the same buyer-intent
+    question. We collected 278 production API responses across 56 buyer-intent prompts spanning seven cities (London, Berlin, Madrid, New York, Paris,
+    Rome, and Dublin) and five widely used AI systems (OpenAI ChatGPT, Google Gemini, Anthropic Claude, Perplexity, and Meta AI), using each vendor's
+    own production API rather than simulated or scraped output. One engine (ChatGPT) is excluded from analysis after an account-level API quota
+    failure affected all 56 of its scheduled calls; the remaining 222 responses (four engines) form the analytic dataset. We find that categories with
+    a small, well-documented, easily verifiable set of providers (project management software, business banking applications, large corporate law
+    firms) converge strongly, frequently to unanimous agreement, while categories populated by many similarly qualified, less differentiated local or
+    individual providers (employment law, independent financial advice) rarely converge at all. Two further findings extend this picture. First, query
+    language can change not merely the ranking but the entire considered set of competitors: a wealth-management query in Paris returns boutique
+    French firms when asked in French and major international private banks when asked in English, with almost no overlap between the two sets.
+    Second, one city (Rome) shows zero categories reaching even three-engine agreement, the only such case in the dataset, while simultaneously
+    showing the strongest single-engine, cross-lingual stability observed anywhere in the study (one engine reproduced an identical, identically
+    ordered five-item ranking in both Italian and English). We report these findings with their accompanying data-quality caveats in full, and discuss
+    their implications for brand visibility measurement and for the emerging practice of Generative Engine Optimization.
+
+### R00876 | 2025 | preprint/None | Lang: en
+TI: Reimagining Customer Service Journeys with LLMs: A Framework for Chatbot Design and Workflow Integration
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00877 | 2025 | article/None | Lang: en
+TI: Hey ChatGPT—Is a Louis Vuitton Bag an Investment? Evaluating LLM Readiness for Use in Financial Literacy and Education
+AB: ABSTRACT The prevalence of large language models (LLMs) such as ChatGPT has wowed the world with its ability to generate text in a human-like
+    manner. While educators evaluate how AI will impact the future of learning, we identify mistakes ChatGPT has made. We further extend this concern
+    to nonfinancially sophisticated users seeking to improve their financial literacy who may not possess the financial acumen to determine when the
+    AI is hallucinating. Using a longitudinal study, our analysis frames the prompts and subsequent findings within the four stages of the
+    Dunning-Kruger effect to explore how users of varying expertise receive output from the LLMs. We find that ChatGPT cannot always fully distinguish
+    between three different user groups. Our findings have important implications for accountants, educators, and students using LLMs as a tool in
+    work and education and for the general population looking to bypass financial experts for their personal finance needs. Data Availability: Data
+    will be made available upon request. JEL Classifications: M41.
+
+### R00878 | 2026 | article/None | Lang: en
+TI: EVALUATION OF KNOWLEDGE GRAPH INTEGRATION IN LLM-BASED FINANCIAL CHATBOTS
+AB: This study is a comparison of two personal finance chatbot models: LLM only and Knowledge Graph enhanced. They were compared in two criteria:
+    accuracy of answers and response time. The KG was created from the financial transaction dataset. A chatbot architecture consists of two prompts
+    to LLM: the first prompt asks LLM to generate a code that retrieves the context to answer the user’s question, and the second prompt queries LLM
+    to frame a response using the context. The chatbots were assessed in accuracy by answering 64 personal finance questions. Results show that the
+    LLM-only chatbot is more accurate than the KG-enhanced chatbot. It is the opposite in response time, the KG-enhanced chatbot is faster than
+    LLM-only chatbot. The research aims to add knowledge to the research field of combining Knowledge Graphs with LLMs and to help practitioners by
+    presenting the benefits and downsides of KG integration.
+
+### R00879 | 2026 | preprint/None | Lang: en
+TI: Stereotypes in the Machine: Gender and Racial Bias in LLM-Generated Financial Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00880 | 2026 | preprint/None | Lang: en
+TI: Stereotypes in the Machine: Gender and Racial Bias in LLM-Generated Financial Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00881 | 2026 | preprint/None | Lang: en
+TI: Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance
+    Information Delivery in Kenya
+AB: Abstract Background. Insurance penetration in Kenya stands at roughly 2.3% of GDP, well below the global average of 7.4%. Documented barriers
+    include low financial literacy, affordability, cultural resistance and limited access to trusted, locally relevant information. Large Language
+    Models (LLMs) could in principle deliver scalable, personalised information, but off-the-shelf models perform poorly on jurisdiction-specific
+    regulatory content and are prone to hallucination in low-resource domains. Objective. We investigate how a mid-sized open-weights LLM can be
+    adapted to a low-resource, highly regulated domain using two complementary techniques — parameter-efficient supervised fine-tuning and
+    Retrieval-Augmented Generation (RAG) — and we quantify the marginal value of each technique and of their combination. Methods. A question–answer
+    (QA) corpus was curated from primary regulatory sources (Insurance Regula- tory Authority of Kenya, Association of Kenya Insurers) and reformatted
+    into JSONL. Meta’s LLaMA-2- 13B-chat was used as the base model. We compared four configurations: (i) base model; (ii) base + LoRA fine-tuning;
+    (iii) base + RAG over a Chroma vector index; and (iv) fine-tuning + RAG. Outputs were graded by GPT-4 (with a human-validated paraphrased test
+    set) on accuracy (1–10), succinctness (5-level rubric mapped to a numerical scale) and relevancy (1–10). Results. The combined fine-tuning + RAG
+    configuration achieved the best performance on all three metrics (accuracy 6.803, succinctness 7.03, relevancy 6.89), versus the base model
+    (1.229, 3.78, 1.98). Fine-tuning alone yielded only marginal accuracy gains and a measurable drop in relevancy, indicating that parameter
+    adaptation without external knowledge grounding can make the model more confident without making it more correct. RAG contributed the largest
+    single improvement. Contribution. The paper offers (a) a reproducible recipe for adapting open-weights LLMs to a low-resource regulated domain on
+    commodity hardware; (b) empirical evidence on the relative contribution of fine-tuning vs. retrieval grounding in that setting; and (c) a
+    discussion of the implications for AI-assisted financial inclusion in Sub-Saharan Africa.
+
+### R00882 | 2026 | preprint/None | Lang: en
+TI: The Worth of a «Wo»: Gender Bias in Financial Advice from LLMs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00883 | 2025 | article/None | Lang: en
+TI: The Impact of AI-Powered Chatbots on Personal Finance Management
+AB: Abstract: AI-powered chatbots have revolutionized personal finance management by offering interactive, user-friendly solutions for budgeting,
+    investment planning, and financial decision-making. This paper explores the implications of AI chatbot adoption in personal finance, focusing on
+    the opportunities and challenges it presents. Through a review of existing literature and case studies, we explore how AI-powered chatbots are
+    transforming personal finance practices, enhancing user engagement, and providing tailored financial advice. We also address challenges such as
+    user trust, data privacy, and the limitations of AI in understanding complex financial scenarios. Real-world examples highlight successful AI
+    chatbot applications in personal finance, such as automated financial advice, expense tracking, and bill payments. Finally, we analyze the impact
+    of AI-powered chatbots on financial outcomes and propose strategies for navigating this rapidly evolving landscape of personal finance management.
+
+### R00884 | 2026 | preprint/None | Lang: en
+TI: Expressed distress and portfolio risk in LLM investment advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00885 | 2026 | preprint/None | Lang: en
+TI: Aligned to Protect, Misaligned to Advise: Financial Advice from LLMs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00886 | 2026 | article/None | Lang: en
+TI: Who Invests, Who Gets Funded: Gender and Racial Bias in LLM-Generated Investment Advice
+AB: Abstract Do large language models (LLMs) generate unbiased financial advice across investor and fund manager demographics? We develop a two-sided
+    audit framework to evaluate demographic bias in LLM-generated investment advice and apply it to multiple large language models, with GPT-4 Turbo
+    as the primary baseline. On the investor side, fund selections are similar across demographic groups and rely on financial criteria, but
+    recommended investment amounts vary when investor names signal race or gender, despite identical age and income. On the fund manager side, capital
+    allocations favor non-Black and male managers: racial disparities persist even under explicit disclosure, while gender-related differences are
+    more pronounced under name-based cues. Bias patterns are qualitatively similar across models, with differences in magnitude between implicit and
+    explicit demographic signaling. These results suggest that, even when LLMs incorporate core financial reasoning, demographic signals can affect
+    allocation decisions, with effects that tend to be stronger under implicit signaling, potentially replicating existing market inequalities and
+    raising concerns about impartiality in financial advising. The proposed audit framework provides a generalizable approach for identifying and
+    evaluating demographic bias in AI-driven financial advisory systems.
+
+### R00887 | 2025 | article/None | Lang: en
+TI: OPTIMUM FINANCE - PERSONAL FINANCE MANAGEMENT USING LLM
+AB: Optimum Finance is an advanced personal finance management platform designed to help users effectively manage their finances through an intuitive
+    web interface. It enables users to track income, expenses, and savings goals, fostering financial stability and growth. Key features include
+    income and expense tracking, recurring transaction support, and personalized budgeting tools for better financial decision-making. The platform
+    offers financial analytics through interactive charts and graphs, helping users identify spending patterns and monitor their financial health.
+    Users can set and track savings goals with motivational insights to encourage discipline. Data security is ensured through encryption and secure
+    authentication methods. Fully responsive, Optimum Finance is accessible across desktops, allowing users to manage their finances anytime,
+    anywhere. The system also promotes financial literacy, empowering users to make informed decisions about their financial future.
+
+### R00888 | 2026 | preprint/None | Lang: en
+TI: FABRIC: AI Financial Advisors Hallucinate More Than They Forget on Indian Markets
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00889 | 2026 | article/None | Lang: en
+TI: AI-Driven Personal Finance Assistant with Voice, OCR, and Chatbot
+AB: This project is concerned with the creation of a personal finance management web application. The principal idea is to assist users to monitor
+    their expenses, investments, and bills easily. It is hard to keep track of finances on a regular basis for many users and this system aims at
+    making this process less demanding. The software is developed on the Django framework, which is applied to address user log-in, data storage, and
+    safe storage and processing of financial records. The system has a chatbot to ensure that communication is easy among the users. The chatbot uses
+    a fine-tuned DistilBERT model with natural language processing in order to provide users with an opportunity to enter queries in ordinary
+    language. It can perform functions like the addition of costs and verification of financial records. An OCR module is also included to prevent
+    manual typing of receipt data. In this module, EasyOCR is used along with a fine-tuned LayoutLM model trained on the SROIE dataset to extract item
+    information and sums of money from receipt images. The extracted information is saved and utilized in tracking expenses, helping users save time
+    when using the system daily. Collected data is analyzed by several machine learning methods. XGBoost is used to estimate return on investment, an
+    Autoencoder is used for unusual spending behaviour detection, and Prophet is employed to investigate spending patterns. Results are presented in
+    simple graphs and charts to enable users to comprehend their financial trends. The application is modularly structured so features can be updated
+    in the future. Overall, the system aims for automation and simplicity: speech-based input, receipt scanners, and chatbot interactions minimize
+    user effort and provide a convenient, easy-to-use personal finance management solution.
+
+### R00890 | 2026 | preprint/None | Lang: en
+TI: From Humans to Algorithms: How Financial Advice Differs Across Professionals, Peers, and LLMs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00891 | 2026 | article/None | Lang: en
+TI: Enhancing Personal Finance Management Using AIBased Predictive Analytics And Intelligent Chatbot System
+AB: The rapid growth of digital financial transactions, including UPI, online payments, and subscription-based services, has significantly increased
+    the complexity of personal finance management. Despite the availability of various financial tracking applications, most systems lack intelligent
+    analytics, predictive capabilities, and personalized guidance. This paper presents an AI-driven platform for enhancing Optimizing personal
+    financial management using predictive analytics and an intelligent chatbot system. The proposed system integrates deterministic data handled using
+    evaluation methods based on large language models to produce a multi-dimensional financial insight score. User financial data is processed through
+    a structured pipeline, where expenses are categorized using machine learning algorithms, and spending behaviour is analysed using time-series
+    predictive models. The system leverages a Natural Language Processing (NLP)-based chatbot that Allows users to query financial insights in
+    instantly. A composite financial health score is computed using a weighted model: 𝑭𝒔𝒄𝒐𝒓𝒆 = ⌊𝟎. 𝟑𝟎𝑬 + 𝟎. 𝟐𝟓𝑷 + 𝟎. 𝟏𝟓𝑩 + 𝟎. 𝟏𝟎(𝑺𝑨 + 𝑭𝑨 + 𝑹𝑨)⌉ where
+    𝑬represents expense categorization accuracy, 𝑷denotes predictive accuracy, 𝑩indicates budgeting efficiency, 𝑺𝑨is savings analysis, 𝑭𝑨is financial
+    awareness, and 𝑹𝑨is risk assessment. Experimental evaluation conducted on 100+ user datasets demonstrates a strong correlation (𝒓 = 𝟎. 𝟗𝟏) with
+    manual financial assessments and an average improvement of 27.5% in user savings behavior after applying AI-generated recommendations. The system
+    maintains secure data handling, real-time insights, and scalability. The proposed platform democratizes intelligent financial planning tools,
+    making them accessible to a wider population.
+
+### R00892 | 2026 | preprint/None | Lang: en
+TI: Design and Evaluation of LLM-Augmented Domain-Specific Web Applications for Healthcare and Personal Finance
+AB: In this preprint, we present the design, implementation, and evaluation of two domain-specific web applications augmented with Large Language
+    Models (LLMs): MedMe, a telemedicine platform, and Wealth, an AI-powered personal finance management system. The study analyzes the potential of
+    LLMs to enhance user experience, automate domain-specific workflows, and provide context-aware help in healthcare and finance. Both the systems
+    are built using Next.js, Prisma ORM, PostgreSQL, Clerk authentication and Gemini API integration. The experimental evaluation reveals gains in
+    task efficiency, automation and user satisfaction in both domains.
+
+### R00893 | 2025 | article/None | Lang: en
+TI: AI CHATBOTS’ CONTRIBUTION TO INCREASING FINANCIAL LITERACY AND PERSONAL FINANCIAL DECISION-MAKING
+AB: The quick adoption of Artificial Intelligence (AI) in the financial industry has opened up new avenues for improving financial literacy and
+    enabling people to make more informed financial decisions. Among the many AI applications, chatbots have become especially well-known due to their
+    capacity to provide people with interactive, tailored, and real-time advice. This chapter looks at how AI-powered chatbots can help to end the
+    knowledge gap in finance and promote wise money management practices. Sound financial plan guides the individuals about how to take decisions
+    related to money as well as the results of such financial decisions are spotlighted by it. With many people unable to make sound financial
+    decisions, financial literacy remains a major problem on a global scale which includes abilities like budgeting, saving, investing, and
+    comprehending financial products. AI chatbots may give ongoing support without time or location restrictions, translate complicated financial
+    information into easily comprehensible information, and customize recommendations based on user profiles through the use of Natural Language
+    Processing (NLP) and machine learning. Moreover, this chapter illustrates successful implementations like Cleo and Erica through case studies,
+    highlighting their contributions in boosting user engagement, promoting saving behaviors, and boosting confidence in decision-making. The
+    conversation goes on to examine the benefits of chatbots, such as their scalability, cost-effectiveness, and inclusivity, as well as their
+    drawbacks, like limited accuracy, data privacy issues, and over-reliance hazards. Additionally, ethical issues are covered, including financial
+    regulation compliance, transparency, and bias prevention. Knowledge evaluations, behavioral monitoring, and longitudinal research are all included
+    in a suggested framework for calculating the influence of chatbots on financial literacy. The chapter concludes by making the case that, if
+    accuracy, ethics, and user empowerment are given top priority during the development and implementation phases, AI chatbots have great potential
+    to democratize financial education and empower people.
+
+### R00894 | 2025 | article/None | Lang: en
+TI: Agent-Agnostic Bilingual AI Chatbot for Financial Literacy in Low-Resource Languages
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00895 | 2025 | article/None | Lang: en
+TI: AI Chatbot to Improve Customer Service and Financial Literacy in Sharia Internet Banking
+AB: This research aims to explore the potential of developing an artificial intelligence-based chatbot in improving customer service and financial
+    literacy in Islamic internet banking. Through a desk study approach, data was collected from various sources, including journals, books, and
+    online articles. The results showed that chatbots can provide 24/7 service, reduce waiting time, and improve operational efficiency, as well as
+    assist customers in making simple transactions and obtaining product information quickly. In addition, chatbots play an important role in
+    improving financial literacy by providing clear information about Islamic financial products. Nonetheless, this study also identified challenges
+    in chatbot development, such as understanding the language context and compatibility with sharia principles. Thus, this study concludes that the
+    implementation of chatbots can support financial inclusion and personalization of services in the Islamic banking sector.
+
+### R00896 | 2025 | preprint/None | Lang: en
+TI: Can ChatGPT Improve Financial Literacy? An Empirical Investigation
+AB: Traditional financial education experiments, with interventions such as courses or workshops, generally improve the financial knowledge of
+    non-expert subjects but have shown limited impact on their financial behaviors, often with effects that diminish over time. The recent boom of
+    large language models (LLMs) like ChatGPT gives an opportunity to offer personalized financial education. We assess whether different learning
+    methods, including interactive engagement with LLMs, are effective as educational interventions on financial literacy through an experiment with
+    four different interventions. The first one involves the interaction with GPTproxy, a chatbot designed to serve as a proxy of the ChatGPT
+    experience. The second intervention is the interaction with FinTutor, another chatbot instructed to behave like a financial tutor and to use
+    dedicated materials as its primary reference. The third and fourth interventions are, respectively, browsing the internet and reading a passage on
+    each of the relevant topics. In a between-subject design, we split participants into five groups, one for each intervention plus a control group.
+    All groups undergo a financial literacy test and tasks on financial behaviors. After the tasks, the four treated groups go through a “learning
+    phase” in which they can use their assigned learning method to improve their literacy level. Then, all groups re-engage in the previous test and
+    tasks. Lastly, participants complete a set of self-report and demographic questions. All participants complete a Cognitive Reflection Test and a
+    one-item numeracy test. The objective of this study is to determine how the learning methods affect three main dimensions: financial literacy,
+    comprehension of risk diversification, and saving ratio (meaning how much is kept in cash/current bank accounts and not invested in a hypothetical
+    scenario). We aim to assess whether the personalized experience offered by the two chatbots leads to greater improvements by effectively
+    addressing individual knowledge gaps. Additionally, we want to examine whether FinTutor enhances the financial dimensions more effectively than
+    GPTproxy.
+
+### R00897 | 2026 | article/None | Lang: en
+TI: Role of AI Chatbots in Enhancing Financial Literacy among Women Entrepreneurs in the Digital Era
+AB: The emergence of Artificial Intelligence (AI) has transformed the delivery of financial services and created new opportunities for enhancing
+    financial literacy through intelligent digital platforms. Among these innovations, AI chatbots have gained considerable attention for their
+    ability to provide real-time financial guidance, personalized support, and interactive learning experiences. This study investigates the role of
+    AI chatbots in enhancing financial literacy among women entrepreneurs in the digital era. The study aims to examine the influence of AI chatbot
+    accessibility, ease of use, financial knowledge improvement, digital financial awareness, and financial decision-making ability on overall
+    financial literacy. A descriptive and analytical research design was adopted for the study. Primary data were collected from 320 women
+    entrepreneurs using a structured questionnaire based on a five-point Likert scale. Statistical tools including descriptive analysis, reliability
+    analysis, KMO and Bartlett’s Test, factor analysis, correlation analysis, and multiple regression analysis were employed using SPSS Version 29.
+    The findings reveal that AI chatbot technologies significantly contribute to improving financial knowledge, digital financial awareness,
+    entrepreneurial confidence, and financial decision-making ability among women entrepreneurs. The correlation and regression results indicate
+    strong positive relationships between AI chatbot-related factors and overall financial literacy. The study further confirms that AI chatbots serve
+    as effective digital financial learning tools that promote financial inclusion and entrepreneurial empowerment. The study concludes that
+    AI-enabled conversational technologies can play a transformative role in strengthening financial literacy and supporting sustainable
+    entrepreneurial development among women entrepreneurs in the rapidly evolving digital economy.
+
+### R00898 | 2025 | article/None | Lang: en
+TI: Impact of GenAI on U.S. Financial Advisors: Re-skilling for Cost-Effective and Efficient Financial Analysis and Planning
+AB: This paper presents a comprehensive analysis of artificial intelligence’s (AI) transformative impact across financial analysis, planning, and the
+    broader finance industry. Through systematic examination of current literature and industry trends, we identify three key transformation areas:
+    (1) AI’s disruption of traditional investment analysis and portfolio management workflows, (2) its revolutionary effects on corporate financial
+    planning and analysis (FP&A), and (3) profound implications for financial professionals’ roles and competencies. Our research reveals that AI
+    adoption yields 40-60% automation of routine financial tasks, 50-70% time reductions in modelling processes, and 3-5% higher investment returns,
+    while simultaneously creating new hybrid roles requiring advanced human-AI collaboration skills. We document significant efficiency gains,
+    including 65-80% faster financial reporting and 12-18% margin improvements in advisory services. The paper provides original frameworks for AI
+    training curricula tailored to CFAs and CFPs, with tiered certification paths spanning 40-250 hours of competency development. We analyse emerging
+    tools like ChatGPT, Claude, and specialized financial AI systems, evaluating their respective strengths in data analysis (70-82% accuracy gains),
+    risk assessment, and client-facing applications. The study also addresses critical ethical considerations regarding algorithmic transparency, data
+    privacy, and regulatory compliance in AI-driven finance. Our findings suggest that while AI is displacing certain traditional functions, it
+    primarily serves as a force multiplier -augmenting rather than replacing human expertise. Financial professionals who master AI collaboration
+    techniques position themselves for competitive advantage in an industry where the human-AI partnership is becoming the new paradigm for value
+    creation. This is a pure review paper and all numbers are from cited literature.
+
+### R00899 | 2026 | article/None | Lang: en
+TI: The influence of AI-powered investment recommendations on individual investors: A mixed-methods study from the perspective of persuasive
+    communication
+AB: This study examines how individual retail investors receive AI-generated investment advice from the perspective of persuasive communication.
+    Arguing that large language models (LLMs) create a persuasion dynamic different from that of traditional media, it combines in-depth interviews
+    with a content analysis of AI outputs in a mixed-methods design. Interviews with 18 investors who use AI for investment decisions were analyzed
+    through Interpretative Phenomenological Analysis, and the responses of four models to six standardized scenarios were coded with the AI Investment
+    Advice Evaluation Scale (AIIAES), a researcher-developed instrument of eight dimensions and 24 items. The findings show how framing, the machine
+    heuristic and sycophancy shape user decisions, and they indicate that financial literacy differentiates responses without protecting users evenly.
+    No model produced a complete disclaimer in any scenario, and Gemini displayed a scenario-dependent sycophancy pattern. On the theoretical side,
+    the study describes a deliberate form of user-induced sycophancy, in which users steer a model over repeated interactions toward confirming their
+    own preferences. On the methodological side, it offers an instrument that turns the suitability and disclosure standards of investment regulation
+    into criteria for conversational AI outputs. The study concludes with policy recommendations for user protection.
+
+### R00900 | 2025 | article/None | Lang: en
+TI: Augmenting Financial Planning and Analysis: Leveraging AI and LLMs for Predictive Insights and Strategic Foresight
+AB: The Financial Planning & Analysis (FP&A) profession is at a critical turning point, shifting from being a back-end reporting function to becoming
+    a forward-looking predictive engine for strategic insight. This shift is because of the adoption of artificial intelligence (AI), specifically
+    machine learning (ML) and large language models (LLMs). Old-school FP&A processes, constrained by manual intervention and past-centric data, are
+    making way for sophisticated analytical paradigms. ML models now reveal subtle patterns in large sets of data, across internal metrics and
+    external signals, to make highly sophisticated, probabilistic projections. At the same time, LLMs are transforming unstructured data analysis,
+    revealing actionable insight from financial statements and market research. This fusion of technologies makes forecasts more accurate, allows for
+    real-time anomaly detection, and gives deep strategic context. Yet successful adoption is no technical upgrade; it's a strategic imperative
+    dependent on strong data infrastructure, severe model governance, and a focus on upskilling human capital. This paper offers a complete roadmap
+    for leaders to successfully embark on this complicated journey, making their finance function a genuine force of strategic foresight and
+    competitive edge.
+
+### R00901 | 2026 | article/None | Lang: en
+TI: A pilot pre–post study of a scaffolded AI chatbot for financial literacy education among university students
+AB: This pilot study examines pre- to post-test changes in university students’ financial literacy knowledge following a one-week student-directed
+    learning period using a pedagogically scaffolded GPT‑4o Application Programming Interface (API) chatbot. Guided by constructivist learning theory
+    [ 29 ], the immediate feedback model [ 10 ], and self-determination theory [ 24 ], the study employed a single-group pre-test–post-test
+    quantitative design with 32 undergraduate students at a Turkish public university. The primary outcome was financial literacy knowledge, measured
+    with 32 factual statements rated on a six-point agreement scale and keyed against correct responses, across six subscales (Basic Economics and
+    Finance, Individual Banking, Retirement and Insurance, Financial Statements, Investment, and Tax and Legislation). Five objective multiple-choice
+    items served as a limited, complementary performance check. Paired-samples t-tests were used for normally distributed difference scores, and
+    Wilcoxon signed-rank tests for non-normal difference scores; six subscale comparisons were interpreted using Holm-adjusted p values. The overall
+    score increased from pre-test to post-test, with a large standardized mean change (d = 1.09, 95% CI [0.64, 1.52]), and all six exploratory
+    subscale comparisons remained statistically significant after Holm adjustment. Objective item performance also increased on several items,
+    including the compound-interest item (3.1% to 81.2%). However, because the design included no control or comparison group, identical objective
+    items were repeated, and chatbot interaction logs were not systematically recorded, the observed changes cannot be causally attributed to the
+    chatbot. The findings therefore provide preliminary, uncontrolled evidence that warrants testing in controlled studies rather than evidence of
+    intervention effectiveness.
+
+### R00902 | 2025 | article/None | Lang: en
+TI: Safety in ChatGPT-like Chatbots across Health, Finance, Law, Security and Defense Settings
+AB: Approximately 70% of the global population now owns a smartphone, but many do not have reliable or affordable Internet access. However,
+    ChatGPT-like language models can now run locally on smartphones without requiring continuous Internet access. This local AI deployment will offer
+    nearly every living person continuous personalized advice on everything from mental and physical health to legal issues, personal finance and
+    security. The same holds for professionals such as doctors, lawyers, financial traders, security specialists and soldiers while operating in
+    hostile environments. However, recent empirical studies with human participants have shown that ChatGPT-like chatbots can tip into undesirable
+    responses that are potentially harmful, even when they are configured with low decoding temperature and appear otherwise stable.
+
+### R00903 | 2026 | preprint/None | Lang: en
+TI: Artha: A Domain Ontology-Driven Agentic Framework for LLM-Based Personal Finance Reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00904 | 2025 | article/None | Lang: en
+TI: Financial literacy of ChatGPT: Evidence through financial news
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00905 | 2026 | article/None | Lang: en
+TI: Next-Generation Robo-Advisory Systems: Integrating Dynamic Optimization, Reinforcement Learning, and Explainable AI for Robust Wealth Management
+AB: The rapid digitalization of the financial advisory industry has catalyzed the widespread adoption of robo-advisors, which provide automated,
+    algorithm-driven wealth management services with minimal human intervention. While these platforms democratize access to financial planning by
+    lowering minimum investment thresholds and reducing management fees, they frequently struggle with robust long-term asset allocation, regulatory
+    explainability, and the cultivation of user trust. This paper proposes a comprehensive, multi-tiered robo-advisory framework that transitions away
+    from static portfolio optimization by integrating Model Predictive Control (MPC) and Deep Reinforcement Learning (DRL) for dynamic, goal-based
+    wealth management. Furthermore, the proposed architecture incorporates explainable clustering techniques and Large Language Model (LLM) agents to
+    enhance transparency, regulatory compliance, and user interaction. By bridging the gap between advanced computational finance and human-centric
+    algorithmic design, this research provides a holistic blueprint for developing reliable, adaptive, and trustworthy autonomous financial advisors.
+
+### R00906 | 2026 | article/None | Lang: en
+TI: ChatGPT, financial literacy, and individual investment decisions
+AB: This study investigates the use of ChatGPT across different investment tasks in the French stock market. Based on a PLE-SEM approach, the findings
+    indicate that investors primarily use these tools for data analysis, risk management, and sentiment analysis, leveraging their ability to process
+    complex information, identify potential risks, and assess market sentiment effectively. The results also reveal that investors moderately rely on
+    ChatGPT to optimize portfolios and forecast market trends, reflecting an awareness that AI-based tools may not fully capture the complexity and
+    inherent unpredictability of financial markets. Moreover, the findings highlight the nuanced moderating role of financial literacy in shaping
+    investors' use of AI-driven insights.
+
+### R00907 | 2026 | preprint/None | Lang: en
+TI: VERRIX EU-Native Fingerprint Battery v2: Behavioral Bias Measurement of AI Financial Advisors Under EU Regulatory Framing
+AB: This pre-registration establishes the stimulus set, collection protocol, scoring methodology, and pre-registered hypotheses for the second
+    generation of the VERRIX behavioral fingerprint battery, designed specifically for EU regulatory contexts. It is methodologically distinct from
+    prior VERRIX pre-registrations and addresses a specific measurement limitation identified in those studies. Background and motivation. The VERRIX
+    research programme has produced behavioral fingerprints — Cohen's h effect size vectors across 26 behavioral dimensions — for six major LLM
+    platforms using a US-authored core battery (pre-registered at osf.io/rkx9e). A subsequent jurisdiction extension study (osf.io/u675d) applied
+    those US-authored stimuli to UK and EU contexts by prefixing scenarios with jurisdiction framing ("I'm based in Germany and my account is governed
+    by EU financial regulations"). Analysis of the resulting h-vectors revealed that 16 of 32 dimensions showed material divergence (|Δh| > 0.30)
+    between US baseline and EU-framed conditions, with 5 direction reversals. A subsequent calibration refit using these jurisdiction-framed h-vectors
+    improved overall calibrator AUC from 0.876 to 0.907 but caused EU TRUST zone coverage to regress from 9.1% to 5.7%. Investigation identified the
+    root cause as a measurement artifact: the US stimuli reference US products (401k, IRA, Roth, Vanguard, Treasuries), US regulatory standards (Reg
+    BI, FINRA Rule 2111), and US brand references. Under EU jurisdiction prefix framing, models respond to the EU framing signal while reasoning about
+    US-coded content, producing more uniform responses that collapse the intended manipulation. The dimension most severely affected was E2 (brand
+    recognition bias), where the Vanguard-vs-unknown contrast inverts under EU framing because Vanguard is the price-leader-but-less-known option in
+    EU retail investing contexts, not the dominant brand. What this study does. This pre-registration covers a 26-dimension behavioral fingerprint
+    battery designed from scratch for EU regulatory framing. Every scenario uses EU-native financial products (UCITS funds, PEPP, Pillar 3 national
+    pension wrappers, ETFs domiciled in Ireland and Luxembourg), EU regulatory standards (MiFID II Articles 24 and 25, PRIIPs Regulation 1286/2014,
+    SFDR Regulation 2019/2088, PEPP Regulation 2019/1238, EU AI Act Regulation 2024/1689 Article 50), and EU brand references (iShares/BlackRock vs
+    Amundi rather than Vanguard vs unknown provider). Five dimensions showing direction reversals under US-translated EU framing (A4, B2, C1, D5, E3)
+    have been redesigned against EU normative standards rather than translated. D5 (jurisdictional adaptation) has been repurposed from US-vs-UK
+    jurisdiction to intra-EU jurisdictional adaptation, testing whether models differentiate German Abgeltungsteuer from Irish Deemed Disposal regime
+    treatment of an identical UCITS investment. Cluster D uses per-dimension custom rubrics (cost disclosure, AI disclosure, jurisdictional tax
+    adaptation) rather than the multi-dimensional compliance rubric used in prior studies, which was found to mask single-aspect signals.
+    Pre-registered findings disclosure. Smoke testing across all 26 dimensions prior to this pre-registration identified 5 dimensions expected to show
+    strong activation (A4, B2, D2, E1, E3), 5 dimensions expected to show weak signal (A2, A3, A6, F2, G1), and 16 dimensions expected to show
+    near-zero h-values reflecting well-calibrated model behavior rather than measurement failure. This pre-registered expectation means near-zero
+    h-values on the 16 counter-bias dimensions are confirmatory findings, not null results. Notable pre-registered findings from smoke testing: modern
+    LLMs under EU framing systematically fail to disclose their AI nature when recommending complex structured products (D3: zero AI disclosure across
+    all models, all conditions); models correctly identify intra-EU jurisdictional differences including Irish Deemed Disposal regime and PRSA/AVC
+    wrappers (D5: 100% correct adaptation); and the Vanguard Effect equivalent for iShares does not exist — both models recommend Amundi over iShares
+    on cost grounds regardless of presentation order (E2: counter-bias finding). Platforms and collection. Six LLM platforms are tested: GPT-5.4
+    Thinking, GPT-5.3 Instant, GPT-5.5, Claude Sonnet, Claude Haiku, and Gemini Flash. GPT-5.5 uses reasoning_effort=low and
+    max_completion_tokens=4000 due to a documented saturation pattern under default parameters (76% empty responses observed in prior jurisdiction
+    fingerprint collection); this deviation is disclosed and documented. Five repetitions per condition per model per vignette pair, temperature 1.0,
+    randomisation seed 20260601. 46 vignette pairs across 26 dimensions (5 pairs for each of the 5 strong-activation dimensions; 1 pair for the
+    remaining 21 dimensions). Total planned calls: 2,760. ADVISOR_SYSTEM prompt is unchanged from osf.io/rkx9e. Combined fixture SHA-256:
+    fa62d2931172999fffc716967eae0b3c41ae8ca2fb0c4f0b018ad6acb352a3d7 Expected outcomes. The primary output is a set of EU-native behavioral
+    fingerprints (Cohen's h vectors across 26 dimensions for 6 models) that can replace the US-baseline fingerprints in the VERRIX Confidence
+    calibration model for EU advisory contexts, with the expectation that this will increase EU TRUST zone coverage from its current 5.7% to a level
+    sufficient for meaningful EU jurisdiction-specific reliability scoring.
+
+### R00908 | 2026 | preprint/None | Lang: en
+TI: VERRIX OOS Validation: Behavioral Bias Fingerprinting of AI Financial Advisors — Out-of-Sample Accuracy Test of the Confidence Scoring Product
+AB: This registration documents the pre-specified out-of-sample (OOS) validation protocol for VERRIX Confidence, a scoring product that estimates the
+    reliability of AI financial advisor recommendations by combining behavioral fingerprint calibration with ensemble extraction. Background. The
+    VERRIX study (pre-registered OSF osf.io/2ngv7, April 2026) measured behavioral bias fingerprints across four major LLM platforms using a
+    24-scenario matched A/B vignette battery. The Confidence product uses those fingerprints to calibrate per-model reliability scores and classify
+    individual advisory responses into TRUST, REVIEW, or FLAG zones. Calibration was performed on the 24-scenario core battery. This registration
+    covers a separate out-of-sample validation against 32 new scenarios the calibration model has never seen. OOS scenario set. 32 scenarios spanning
+    8 advisory categories: investment allocation (9), high-spread retirement (5), high-spread debt (4), consumer protection (5), complex multi-factor
+    (4), decumulation (2), insurance planning (2), and structural bias probes (3). Scenarios were designed under the VERRIX Extended Battery Design
+    Plan (April 2026) following the same single-manipulated-variable, pre-specified normative standard, and ICC gate criteria as the core battery.
+    Three structural bias probe scenarios (INV_002a, INV_007, INV_008) are reported separately as bias detection rates rather than accuracy scores.
+    Protocol. Four models tested: GPT-5.4-2026-03-05, GPT-5.3-chat-latest, claude-sonnet-4-6, gemini-2.0-flash. Five repetitions per condition per
+    model. 9 single-condition scenarios × 5 reps × 4 models + 23 condition-specific scenarios × 10 reps × 4 models = 1,100 total responses. All models
+    run under the ADVISOR_SYSTEM prompt verbatim from verrix_pipeline.py. Scoring via Llama-3.3-70B-Instruct-Turbo dual-pass extraction against
+    pre-specified detection patterns in oos_authored_scenarios_v2.json. Pre-specified thresholds. TRUST zone accuracy ≥ 0.90 = PASS. TRUST zone
+    accuracy < 0.90 = FAIL. Bias probe concern threshold: detection rate ≥ 0.50 in TRUST zone flagged for review. Thresholds were set before any data
+    collection and cannot be revised post-hoc. Integrity anchors. Local git commit bf0c1b0, tag oos-prereg-v1. Manifest SHA-256:
+    28511e213b46d85cf297809e007f1eefa82854388c91ca18fe5bccf7d89b66dc. Scoring reference SHA-256:
+    6c7f5f5fdbca163c5a809706562b5a7c2ba44f2b7eb486086846a2fc6100a867. Uploaded files contain the full vignette prompts (individually hashed), ground
+    truth labels, extraction rules, and scoring dictionaries. No API calls have been made at the time of this registration.
+
+### R00909 | 2026 | preprint/None | Lang: en
+TI: Chatbots as a source of investment information
+AB: Background and purpose Generative artificial intelligence (AI) chatbots are becoming increasingly accessible sources of information across a wide
+    range of domains, including personal finance and investment. Their ability to provide immediate, conversational, and seemingly personalized
+    responses may influence how individuals seek, interpret, and use financial information. However, the role of these tools in investors’
+    information-seeking practices and financial decision-making remains insufficiently understood. The present study aims to investigate the use of
+    generative AI chatbots as sources of investment-related information. Specifically, it seeks to describe investors’ use of chatbots, examine the
+    reasons underlying their use or non-use, and explore how chatbot use relates to investors’ characteristics, investment experience, perceived
+    financial risk, and preferred sources of financial information. Study design and methodology The study will use a cross-sectional, quantitative
+    design based on an online questionnaire. The questionnaire will collect information about participants’ age, investment experience, primary
+    investment focus (including cryptocurrencies and other asset classes), and main sources of financial information. Participation will be voluntary.
+    The study will not involve any actual investment activity or manipulation of participants’ financial decisions. The study is intended primarily to
+    provide a descriptive account of current practices and an initial exploration of factors associated with the use of generative AI chatbots for
+    investment-related information. The specific statistical procedures will be selected in accordance with the nature of the collected variables and
+    the final analysis plan. Expected outcomes and significance The study is expected to provide an initial overview of the extent to which investors
+    use generative AI chatbots to obtain investment-related information, the reasons motivating this use, and the characteristics of individuals who
+    report using these tools. It may also help identify differences in information-seeking practices according to investment experience, investment
+    focus, and perceived risk. The findings may contribute to a better understanding of the emerging role of conversational AI in financial
+    information-seeking and decision-making. They may also help identify questions for future research concerning the perceived usefulness of
+    AI-generated financial information, investors’ reliance on these tools, and the potential implications for financial literacy and risk awareness.
+
+### R00910 | 2025 | preprint/None | Lang: en
+TI: Artificial Intelligence Chatbots: Are Chatbots Programmed to Provide Financial Wellness Counseling to College Students?
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00911 | 2025 | article/None | Lang: en
+TI: AI and personal finance: evaluating rules of thumb generated by ChatGPT
+AB: Purpose The purpose of this article is to evaluate the information quality generated by ChatGPT on rules of thumb in personal finance.
+    Design/methodology/approach Prompts were developed to ask ChatGPT questions regarding rules of thumb in personal finance. After several
+    iterations, we selected seven rules of thumb and asked ChatGPT to provide more in-depth information. The information was evaluated by checking its
+    accuracy and validity based on relevant peer-reviewed journal articles. Findings We found both advantages and limitations of using ChatGPT for
+    information search. The advantages include its speed of information generation, width of topic generation, adaptivity to information demands, and
+    provision of information sources. The limitations include the fact that the information may be fake, inaccurate, inappropriate, too general, or
+    lacking academic journal sources. Originality/value This is the first attempt to use ChatGPT to generate relevant information regarding rules of
+    thumb in personal finance, which provides experience and lessons for future researchers who will take similar approaches when conducting research.
+
+=== END OF BATCH b022 (50 records) ===

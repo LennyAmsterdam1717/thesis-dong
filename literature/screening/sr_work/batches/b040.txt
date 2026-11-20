@@ -1,0 +1,651 @@
+BATCH b040 -- 50 records: R01694 .. R01743
+
+### R01694 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Homogenization Problem in LLMs: Towards Meaningful Diversity in AI Safety
+AB: Generative AI models reproduce the human biases in their training data and further amplify them through mechanisms such as mode collapse. The loss
+    of diversity produces homogenization, which not only harms the minoritized but impoverishes everyone. We argue homogenization should be a central
+    concern in AI safety. To meaningfully characterize homogenization in Large Language Models (LLMs), we introduce a framework that allows
+    stakeholders to encode their context and value system. We illustrate our approach with an experiment that surfaces gender bias in an LLM (Claude
+    3.5 Haiku) on an open-ended story prompt. Building from queer theory, we formalize homogenization in terms of normativity. Borrowing language from
+    feminist theory, we introduce the concept of xeno-reproduction as a class of tasks for mitigating homogenization by promoting diversity. Our work
+    opens a collaborative line of research that seeks to understand and advance diversity in AI.
+
+### R01695 | 2026 | preprint | Lang: n/a
+TI: DynaDebate: Breaking Homogeneity in Multi-Agent Debate with Dynamic Path Generation
+AB: Recent years have witnessed the rapid development of Large Language Model-based Multi-Agent Systems (MAS), which excel at collaborative
+    decision-making and complex problem-solving. Researchers have further investigated Multi-Agent Debate (MAD) frameworks, which enhance the
+    reasoning and collaboration capabilities of MAS through information exchange and debate among multiple agents. However, existing approaches often
+    rely on unguided initialization, causing agents to adopt identical reasoning paths that lead to the same errors. As a result, effective debate
+    among agents is hindered, and the final outcome frequently degenerates into simple majority voting. To solve the above problem, we introduce
+    Dynamic Multi-Agent Debate (DynaDebate), which enhances the effectiveness of multi-agent debate through three key mechanisms: (1) Dynamic Path
+    Generation and Allocation, which employs a dedicated Path Generation Agent to generate diverse and logical solution paths with adaptive
+    redundancy; (2) Process-Centric Debate, which shifts the focus from surface-level outcome voting to rigorous step-by-step logic critique to ensure
+    process correctness; (3) A Trigger-Based Verification Agent, which is activated upon disagreement and uses external tools to objectively resolve
+    deadlocks. Experiments show that DynaDebate achieves superior or highly competitive performance across the majority of benchmarks\footnote{The
+    code is at https://github.com/nwpuLee2021/brianstorm.}.
+
+### R01696 | 2026 | preprint | Lang: n/a
+TI: Stress-Testing Emotional Support Models: Moving from Homogeneous to Diverse Help Seekers
+AB: As emotional support chatbots have recently gained significant traction across both research and industry, a common evaluation strategy has
+    emerged: use help-seeker simulators to interact with supporter chatbots. However, current simulators suffer from two critical limitations: (1)
+    they fail to capture the behavioral diversity of real-world seekers, often portraying them as overly cooperative, and (2) they lack the
+    controllability required to simulate specific seeker profiles. To address these challenges, we present a controllable seeker simulator driven by
+    nine psychological and linguistic features that underpin seeker behavior. Using authentic Reddit conversations, we train our model via a
+    Mixture-of-Experts (MoE) architecture, which effectively differentiates diverse seeker behaviors into specialized parameter subspaces, thereby
+    enhancing fine-grained controllability. Our simulator achieves superior profile adherence and behavioral diversity compared to existing
+    approaches. Furthermore, evaluating 7 prominent supporter models with our system uncovers previously obscured performance degradations. These
+    findings underscore the utility of our framework in providing a more faithful and stress-tested evaluation for emotional support chatbots.
+
+### R01697 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking
+AB: Internet audio-visual clips convey meaning through time-varying sound and motion, which extend beyond what text alone can represent. To examine
+    whether AI models can understand such signals in human cultural contexts, we introduce AVMeme Exam, a human-curated benchmark of over one thousand
+    iconic Internet sounds and videos spanning speech, songs, music, and sound effects. Each meme is paired with a unique Q&A assessing levels of
+    understanding from surface content to context and emotion to usage and world knowledge, along with metadata such as original year, transcript,
+    summary, and sensitivity. We systematically evaluate state-of-the-art multimodal large language models (MLLMs) alongside human participants using
+    this benchmark. Our results reveal a consistent limitation: current models perform poorly on textless music and sound effects, and struggle to
+    think in context and in culture compared to surface content. These findings highlight a key gap in human-aligned multimodal intelligence and call
+    for models that can perceive contextually and culturally beyond the surface of what they hear and see. Project page: avmemeexam.github.io/public
+
+### R01698 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: TSPO: Breaking the Double Homogenization Dilemma in Multi-turn Search Policy Optimization
+AB: Multi-turn tool-integrated reasoning enables Large Language Models (LLMs) to solve complex tasks through iterative information retrieval. However,
+    current reinforcement learning (RL) frameworks for search-augmented reasoning predominantly rely on sparse outcome-level rewards, leading to a
+    "Double Homogenization Dilemma." This manifests as (1) Process homogenization, where the thinking, reasoning, and tooling involved in generation
+    are ignored. (2) Intra-group homogenization, coarse-grained outcome rewards often lead to inefficiencies in intra-group advantage estimation with
+    methods like Group Relative Policy Optimization (GRPO) during sampling. To address this, we propose Turn-level Stage-aware Policy Optimization
+    (TSPO). TSPO introduces the First-Occurrence Latent Reward (FOLR) mechanism, allocating partial rewards to the step where the ground-truth answer
+    first appears, thereby preserving process-level signals and increasing reward variance within groups without requiring external reward models or
+    any annotations. Extensive experiments demonstrate that TSPO significantly outperforms state-of-the-art baselines, achieving average performance
+    gains of 24% and 13.6% on Qwen2.5-3B and 7B models, respectively. Code is available at https://github.com/Flipped-May/TSPO.
+
+### R01699 | 2026 | preprint | Lang: n/a
+TI: When Safety Becomes a Vulnerability: Exploiting LLM Alignment Homogeneity for Transferable Blocking in RAG
+AB: Retrieval-Augmented Generation (RAG) systems are vulnerable to blocking attacks, in which poisoned documents cause large language models (LLMs) to
+    refuse benign queries. Existing attacks rely on adversarial suffixes or explicit instructions, which are increasingly ineffective against modern
+    LLMs, susceptible to prompt injection filtering, or require feedback from the target system. We observe overlapping risk categories and refusal
+    criteria across safety-aligned LLMs, a phenomenon we term alignment homogeneity. This shared attack surface makes refusal-inducing context
+    transferable across models. Accordingly, we propose TabooRAG, which optimizes one document per query for retrieval and refusal induction in a
+    surrogate RAG environment, then transfers it to an unknown target system. Rather than injecting instructions, TabooRAG constructs query-relevant
+    risk context to trigger alignment-driven refusal. To reduce optimization cost, it reuses validated strategies through a query-aware strategy
+    library. Across nine LLMs and three datasets, TabooRAG achieves state-of-the-art ASR after filtering, with a 67.3% relative gain over the average
+    per-setting best baseline. Further experiments show that TabooRAG remains effective with diverse surrogate models, against unseen target models,
+    and under stronger RAG pipelines and existing defenses.
+
+### R01700 | 2026 | preprint | Lang: n/a
+TI: AdaCultureSafe: Adaptive Cultural Safety Grounded by Cultural Knowledge in Large Language Models
+AB: With the global proliferation of Large Language Models (LLMs), cultural safety, defined as the ability to generate respectful and appropriate
+    responses across diverse cultures, becomes critical for responsible AI deployment. However, existing research often treats cultural safety and
+    cultural knowledge in isolation. It remains unclear whether cultural safety is grounded in understanding varying cultural knowledge to enable LLMs
+    to adaptively yield respectful and appropriate responses across diverse cultures, which trigger ethical concerns in cross-cultural scenarios. In
+    this work, we introduce AdaCultureSafe, a dataset designed to jointly evaluate cultural safety and knowledge. Through AdaCultureSafe, we reveal a
+    critical insight: \textit{a significant decoupling exists between cultural safety and cultural knowledge proficiency. Although LLMs possess rich
+    cultural knowledge, they fail to leverage it to improve cultural safety.} LLMs tend to rely on generic safety rather than safety based on
+    culture-specific knowledge. Motivated by this, we propose a knowledge-grounded method that elicits internal cultural knowledge in LLMs during
+    response generation. Experimental results demonstrate that our approach effectively improves cultural safety. Our work can aid better
+    understanding the landscape of cultural safety of LLMs.
+
+### R01701 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Interrogating Design Homogenization in Web Vibe Coding
+AB: Generative AI is known for its tendency to homogenize, often reproducing dominant style conventions found in training data. However, it remains
+    unclear how these homogenizing effects extend to complex structural tasks like web design. As lay creators increasingly turn to LLMs to
+    'vibe-code' websites -- prompting for aesthetic and functional goals rather than writing code -- they may inadvertently narrow the diversity of
+    their designs, and limit creative expression throughout the internet. In this paper, we interrogate the possibility of design homogenization in
+    web vibe coding. We first characterize the vibe coding lifecycle, pinpointing stages where homogenization risks may arise. We then conduct a
+    sociotechnical risk analysis unpacking the potential harms of web vibe coding and their interaction with design homogenization. We identify that
+    the push for frictionless generation can exacerbate homogenization and its harms. Finally, we propose a mitigation framework centered on the idea
+    of productive friction. Through case studies at the micro, meso, and macro levels, we show how centering productive friction can empower creators
+    to challenge default outputs and preserve diverse expression in AI-mediated web design.
+
+### R01702 | 2026 | preprint | Lang: n/a
+TI: Creative Convergence or Imitation? Genre-Specific Homogeneity in LLM-Generated Chinese Literature
+AB: Large Language Models (LLMs) have demonstrated remarkable capabilities in narrative generation. However, they often produce structurally
+    homogenized stories, frequently following repetitive arrangements and combinations of plot events along with stereotypical resolutions. In this
+    paper, we propose a novel theoretical framework for analysis by incorporating Proppian narratology and narrative functions. This framework is used
+    to analyze the composition of narrative texts generated by LLMs to uncover their underlying narrative logic. Taking Chinese web literature as our
+    research focus, we extend Propp's narrative theory, defining 34 narrative functions suited to modern web narrative structures. We further
+    construct a human-annotated corpus to support the analysis of narrative structures within LLM-generated text. Experiments reveal that the primary
+    reasons for the singular narrative logic and severe homogenization in generated texts are that current LLMs are unable to correctly comprehend the
+    meanings of narrative functions and instead adhere to rigid narrative generation paradigms.
+
+### R01703 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities
+AB: LLM assistant personalities play a critical role in user experience and perceived response quality. We present a large-scale experiment of
+    frontier LLM personalities using external ELO-based traits scoring across 144 traits. We find that all models tested converge on a form of trait
+    expression that is systematic, methodical, and analytical and suppress traits such as remorseful and sycophantic. Moreover, models tend to diverge
+    more in their expression of ``middle-of-distribution traits`` such as poetic or playful, but even these so-called ``creative`` models tend to have
+    more neutral identities. These similarities suggest an implicit emergence of a standard of optimal assistant behavior. In a landscape of varied
+    training methods, character training, therefore, stands out for its uniformity, offering insight into a tacit consensus between model developers.
+
+### R01704 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: KnowledgeBerg: Evaluating Systematic Knowledge Coverage and Compositional Reasoning in Large Language Models
+AB: Many real-world questions appear deceptively simple yet implicitly demand two capabilities: (i) systematic coverage of a bounded knowledge
+    universe and (ii) compositional set-based reasoning over that universe, a phenomenon we term "the tip of the iceberg." We formalize this challenge
+    through two orthogonal dimensions: knowledge width, the cardinality of the required universe, and reasoning depth, the number of compositional set
+    operations. We introduce KnowledgeBerg, a benchmark of 4,800 multiple-choice questions derived from 1,183 enumeration seeds spanning 10 domains
+    and 17 languages, with universes grounded in authoritative sources to ensure reproducibility. Representative open-source LLMs demonstrate severe
+    limitations, achieving only 5.26-36.88 F1 on universe enumeration and 16.00-44.19 accuracy on knowledge-grounded reasoning. Diagnostic analyses
+    reveal three stages of failure: completeness, or missing knowledge; awareness, or failure to identify requirements; and application, or incorrect
+    reasoning execution. This pattern persists across languages and model scales. Although test-time compute and retrieval augmentation yield
+    measurable gains -- up to 4.35 and 3.78 points, respectively -- substantial gaps remain, exposing limitations in how current LLMs organize
+    structured knowledge and execute compositional reasoning over bounded domains. The dataset is available at
+    https://huggingface.co/datasets/2npc/KnowledgeBerg
+
+### R01705 | 2026 | preprint | Lang: n/a
+TI: Do LLMs Use Cultural Knowledge Without Being Told? A Multilingual Evaluation of Implicit Pragmatic Adaptation
+AB: Many benchmarks show that large language models can answer direct questions about culture. We study a different question: do they also change how
+    they speak when culture is only implied by the situation? We evaluate 60 culturally grounded conversational scenarios across five languages in
+    three conditions: a neutral baseline (Prompt A), an explicit cultural instruction (Prompt B), and implicit situational cueing (Prompt C). We score
+    responses on 12 pragmatic features covering deference to authority, individual-versus-group framing, and uncertainty management. We define
+    Pragmatic Context Sensitivity (PCS) as the fraction of the Prompt A->B shift that reappears under Prompt A->C. Across four deployed LLMs and five
+    languages (English, German, Hindi, Nepali, Urdu), the primary stable-only PCS mean is 0.196 (SD = 0.113), indicating that the models recover only
+    about one-fifth of the pragmatic shift they can produce when instructed explicitly. Transfer is strongest for authority-related cues (0.299) and
+    weakest for individual-versus-group framing (0.120). Uncertainty-related behaviour is mixed: hedging density exhibits negative explicit gaps in
+    all five languages, suggesting that alignment training actively suppresses the target behaviour. Because Hindi and Urdu share core grammar yet
+    index distinct cultural communities, we use them as a natural control; a paired analysis finds no reliable baseline difference (t = 0.96, p =
+    0.339, dz = 0.06), suggesting that models respond primarily to linguistic structure rather than to the cultural associations a language carries.
+    We argue that multilingual cultural pragmatics is an explicit-versus-implicit deployment problem, not only a factual knowledge problem.
+
+### R01706 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Chameleon's Limit: Investigating Persona Collapse and Homogenization in Large Language Models
+AB: Large language models (LLMs) have powered multi-agent simulations such as survey respondents or application users. However, LLMs lack the
+    population-level diversity required by these simulations---responses from LLMs with detailed human profiles cluster into classes, unlike human
+    responses that uniformly fill the entire space. In this paper, we formalize this as Persona Collapse and quantify its population-level structure
+    with three diagnostic metrics: Coverage (how much of the persona space is occupied), Uniformity (how evenly agents spread across it), and
+    Complexity (how rich the resulting behaviors are). Across eight LLMs on personality (BFI-44), moral reasoning, and self-introduction, persona
+    collapse is universal but task-dependent: CoSER-Llama-8B collapses the most in personality while being the most diverse in moral reasoning.
+    Moreover, sampling more personas cannot mitigate the collapse. We further show a fidelity--diversity tradeoff: the models with the highest
+    per-persona fidelity produce the most polarized populations. Finally, persona-targeted fine-tuning further narrows the population instead of
+    diversifying it.
+
+### R01707 | 2026 | preprint | Lang: n/a
+TI: The Cost of Consensus: Isolated Self-Correction Prevails Over Unguided Homogeneous Multi-Agent Debate
+AB: Multi-agent debate, where teams of LLMs iteratively exchange rationales and vote on answers, is widely deployed under the assumption that peer
+    review filters hallucinations. Yet the failure dynamics of homogeneous debate remain poorly understood, therefore we report findings from a
+    controlled empirical study of teams of $N{=}10$ homogeneous agents (Qwen2.5-7B, Llama-3.1-8B, Ministral-3-8B) across $R{=}3$ debate rounds on two
+    high-difficulty benchmarks (GSM-Hard and MMLU-Hard). We compare peer debate against isolated self-correction and a stochastic noise control that
+    injects rationales from unrelated problems. We decompose debate failure into three model-dependent pathways: sycophantic conformity, where agents
+    uncritically adopt majority answers (modal adoption up to 85.5%); contextual fragility, where peer rationales destabilize previously correct
+    reasoning (vulnerability rate up to 70.0%); and consensus collapse, where plurality voting discards correct answers already present in the
+    generation pool (oracle gap up to 32.3 percentage points). Ablations over communication density ($K \in \{2,4,9\}$) and sampling temperature ($T
+    \in \{0.4, 0.7\}$) show that conformity reaches high levels at minimal peer exposure ($K{=}2$) and intensifies with greater initial diversity.
+    Across all configurations, debate consumes 2.1-3.4$\times$ more tokens (up to 28,631 tokens per problem) than self-correction for equal or lower
+    accuracy. Our results indicate that, within the 7-8B parameter class, homogeneous teams without structured roles do not benefit from unguided peer
+    exchange, and that isolated self-correction consistently offers a more favorable cost-accuracy tradeoff.
+
+### R01708 | 2026 | preprint | Lang: n/a
+TI: Requests of a Feather Must Flock Together: Batch Size vs. Prefix Homogeneity in LLM Inference
+AB: Auto-regressive token generation in large language models is memory-bound because it requires "attending to" key and value tensors (KV cache) of
+    all previous tokens. Prior work aims to improve the efficiency of this decode process by batching multiple requests together, and maximizing batch
+    size subject to GPU memory constraints. The key observation of our work is that with prefix-sharing workloads, smaller, prefix-homogeneous batches
+    - where all requests share a common prefix - can achieve higher decode throughput than larger, heterogeneous batches, due to better spatial and
+    temporal locality during KV cache accesses. However, current prefix-aware schedulers maximize prefix reuse within a batch only to reduce KV cache
+    memory footprint, but do not stop batch formation at smaller homogeneous batches that could have performed better. Further, we show that shared
+    prefix detection in existing schedulers relies on radix-tree traversals, incurring substantial CPU overhead that is often comparable to GPU
+    execution time. This paper presents Feather, a prefix-aware scheduler that uses reinforcement learning (RL) to learn the optimal tradeoff between
+    batch size and prefix homogeneity. We also introduce Chunked Hash Tree (CHT), a lightweight data structure that enables fast prefix detection and
+    efficient request selection for the RL scheduler, avoiding expensive tree traversals. We integrate Feather into vLLM and SGLang, and our
+    evaluation shows that Feather achieves 2-10$\times$ higher end-to-end throughput as compared to existing schedulers by reducing the total number
+    of KV cache accesses, while doing no worse than the status quo when there is insufficient prefix sharing.
+
+### R01709 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: CrossCult-KIBench: A Benchmark for Cross-Cultural Knowledge Insertion in MLLMs
+AB: Multimodal Large Language Models (MLLMs), trained primarily on English-centric data, frequently generate culturally inappropriate or misaligned
+    responses in cross-cultural settings. To mitigate this, we introduce the task of cross-cultural knowledge insertion, which focuses on adapting
+    models to specific cultural contexts while preserving their original behavior in other cultures. To facilitate research in this area, we introduce
+    CrossCult-KIBench, a comprehensive evaluation benchmark for assessing both the effectiveness of knowledge insertion and its unintended side
+    effects on non-target cultures. The benchmark includes 9,800 image-grounded cases covering 49 culturally relevant visual scenarios across English,
+    Chinese, and Arabic language-culture groups. It supports evaluation in both single-insert and sequential-insert settings. We also propose
+    Memory-Conditioned Knowledge Insertion (MCKI) as a baseline method. MCKI retrieves relevant cultural knowledge from an external memory using
+    frozen MLLM representations, prepending matched entries as conditional prompts when applicable. Extensive experiments on CrossCult-KIBench reveal
+    that current approaches struggle to balance effective cultural adaptation with behavioral preservation, highlighting a key challenge in developing
+    culturally-aware MLLMs. Our work thus underscores an important research direction for developing more culturally adaptive and responsible MLLMs.
+
+### R01710 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: SHED: Style-Homogenized Embedding Alignment for Domain Generalization
+AB: Domain generalization aims to enhance model robustness against unseen domains with embedding distribution shifts. While large-scale
+    vision-language models like CLIP exhibit strong generalization, their direct image-text embedding alignment suffers from inherent information
+    asymmetry: images encode both class semantics and domain-specific styles, whereas text prompts primarily convey basic class cues. This asymmetry
+    hinders generalization to novel domains in realistic scenarios. To address this, we propose Style-Homogenized Embedding alignment for
+    Domain-generalization (SHED), a novel CLIP-based method that aligns style-homogenized embeddings instead of raw representations from encoders in
+    CLIP. During training, SHED removes domain-specific style centroids from both image embeddings computed per source domains and text embeddings
+    which are averaged across diverse prompt templates and stripped of a global centroid. For inference, considering the lack of target domain
+    information, SHED projects diverse textual domain centroids into the visual space and aggregates predictions via membership weighting. Extensive
+    experiments on five benchmarks show SHED achieves state-of-the-art performance, outperforming prior methods significantly (e.g., +4.0\% on
+    DomainNet vs. standard fine-tuning).
+
+### R01711 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Cross-Lingual Consensus: Aligning Multilingual Cultural Knowledge via Multilingual Self-Consistency
+AB: Although Large Language Models (LLMs) demonstrate strong capabilities across various tasks, they exhibit significant performance discrepancies
+    across languages. While prompting LLMs in English typically yields the highest general performance, it often induces a Western-centric bias,
+    hindering the model's ability to accurately reflect diverse cultural knowledge. We hypothesize that LLMs already possess rich cultural knowledge
+    embedded within local-language representations, but fail to retrieve it when prompted in English. To bridge this cross-lingual knowledge gap, we
+    propose a novel self-supervised framework. Our method leverages multilingual self-consistency to identify the most reliable cultural responses
+    across languages, combined with a self-critique mechanism to transfer this knowledge to the weaker language. Evaluations on the BLEnD benchmark
+    demonstrate that our approach significantly improves cultural alignment-boosting performance on English queries by an average of 5.03%-relying
+    entirely on self-generated data. Ultimately, our work demonstrates that latent cultural knowledge can be successfully surfaced and propagated
+    across languages, enabling more culturally equitable and consistent LLMs.
+
+### R01712 | 2026 | preprint | Lang: n/a
+TI: DFKI-MLT at SemEval-2026 TASK 7: Steering Multilingual Models Towards Cultural Knowledge
+AB: Large language models (LLMs) are increasingly used across diverse linguistic and cultural contexts, yet their cultural knowledge remains uneven
+    across regions and languages. We present the DFKI-MLT system for SemEval-2026 Task 7 on cultural awareness, where we apply activation steering to
+    multilingual LLMs using language vectors extracted from parallel FLORES data. Our method performs inference-time adaptation by adding
+    language-specific steering vectors to the residual stream at a selected transformer layer, without any parameter updates. We participated in both
+    the short-answer (SAQ) and multiple-choice (MCQ) tracks; however, only our MCQ submission received an official score. In the official MCQ track,
+    we achieved 86.96% accuracy, ranking 7th out of 17 teams. To better understand system behavior, we conduct post-hoc analyses on the shared-task
+    MCQ and SAQ settings. These analyses show that activation steering yields modest and heterogeneous improvements on cultural reasoning: gains are
+    strongly layer-sensitive, vary substantially across language-region pairs, with some configurations even degrading performance, and interact with
+    prompt formulation, comparing generic and culturally conditioned prompts. Our findings suggest that prompt design and activation steering should
+    be jointly optimized for culturally aware multilingual inference.
+
+### R01713 | 2026 | preprint | Lang: n/a
+TI: Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling
+AB: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a narrow,
+    homogenized consensus even for open questions. This semantic collapse limits the diversity of AI, resulting in high inter-response similarity
+    ($\approx 0.80-0.90$) even under high-temperature sampling. In this paper, we propose a novel mitigation framework to increase diversity:
+    Meta-Persona Anchoring combined with Filtered Temperature Scaling (FTS). Our approach utilizes a two-stage generation process: first, the model is
+    prompted to self-select a unique, idiosyncratic persona to anchor its starting point; second, we apply a dual-stage sampling sieve, utilizing
+    Top-$p$ filtering to preserve grammatical validity followed by extreme temperature scaling ($T \ge 4.0$) on the surviving candidates to explore
+    the broadened probability distribution. We evaluate our method using the INFINITY-CHAT dataset on state-of-the-art open weight models under
+    $\sim$20B parameters. Our results demonstrate a significant reduction in semantic convergence, with average pairwise cosine similarity dropping
+    from ($\approx 0.85$) to ($\approx 0.65$). Our scheme achieves a majority of questions below the 0.7 threshold, effectively reducing the gap
+    between artificial mode collapse and human-level typological diversity. We provide our implementation as an open-source framework to enable more
+    diverse and creative AI deployments.
+
+### R01714 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Deliberative Illusion: Diagnosing Factual Attrition and Stance Homogenization in Multi-Agent LLM Deliberation
+AB: Multi-agent LLM systems often treat consensus as evidence of successful interaction. For deliberative problems, however, reliability depends on
+    whether agents preserve the facts and viewpoints needed to interpret an issue. We identify the deliberative illusion: discussion produces (1)
+    factual attrition, the progressive loss of issue-critical facts, alongside (2) stance homogenization, the collapse of diverse positions toward
+    consensus. To measure this process, we introduce DelibTrace, a framework that decomposes each issue into atomic facts, labels issue-critical ones,
+    distributes them across agents, and tracks their survival across discussion rounds. Across ethical and news-based deliberation with three
+    representative LLM families, multi-agent discussion erases up to 72% of issue-critical facts. This loss is consequential: retained evidence can
+    reconstruct the issue misleadingly, final stances remain anchored in base-model priors, and a single malicious agent can inject misinformation
+    into the shrinking shared context. These results reveal a sharper risk: agents can agree more while knowing less. We call for evaluations that
+    measure which facts, uncertainties, and legitimate disagreements survive interaction.
+
+### R01715 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Epistemic Injustice in Language Models: An Audit of Pretraining Filters and Guardrails
+AB: Modern language models rely on pretraining filters to remove undesirable content from training corpora and inference-time guardrails to suppress
+    undesirable outputs during deployment. In this paper, we examine how these filtering and moderation decisions produce forms of epistemic erasure
+    and reveal tensions both across automated systems and between these systems and human judgment. We audit four pretraining filters and three
+    inference-time guardrails on Common Crawl sentences containing gender and regional-origin mentions, together with a manually annotated subset of
+    500 sentences. Our analysis shows that filtering and guardrail decisions are strongly associated with blocklist-based lexical cues, while
+    frequently failing to flag content containing private information or explicit hate speech. At the same time, marginalized groups, particularly
+    transgender people, women, and Central Americans, are significantly over-flagged across systems. Human annotators, by contrast, would retain
+    88.5\% of filter-flagged and 91.3\% of guardrail-flagged content, often recognizing representational harms arising from tensions of content
+    removal that current systems fail to capture. Taken together, our findings document a form of epistemic erasure in which mentions of marginalized
+    groups are disproportionately removed before pretraining and additionally suppressed again at inference time.
+
+### R01716 | 2026 | preprint | Lang: n/a
+TI: The Masked Advantage: Uncovering Local-Language Access to Cultural Knowledge in LLMs
+AB: Large language models are increasingly used to answer culturally grounded questions across languages, yet it remains unclear whether local
+    cultural knowledge is better accessed through English or the local language. Existing evaluations face two key limitations: many rely on parallel
+    template-based questions that may not reflect how cultural knowledge naturally appears, and raw accuracy conflates general language proficiency
+    with language-conditioned knowledge access. We address these issues with a controlled framework built on real-world cultural questions collected
+    from regional benchmarks and local sources. By crossing question type (culture-agnostic vs. culture-specific) with query language (English vs.
+    local language), and estimating ability with a shared 1PL item response theory model, we separate proficiency from localized knowledge access.
+    Across 13 locales and roughly 80 models, we find a consistent English advantage on culture-agnostic questions, indicating stronger English
+    proficiency. However, after accounting for this proficiency gap, local languages show a positive knowledge-access advantage in nearly all
+    locale-model settings. This advantage is often masked in raw accuracy but becomes more visible for frontier, regionally aligned, or
+    language-adapted models. Our results suggest that weaker local-language performance does not necessarily imply weaker cultural knowledge; rather,
+    local cultural knowledge may be more accessible through the local language but hidden by limited language proficiency.
+
+### R01717 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Which India Survives Translation? Narrative Homogenisation Across Indian Oral Traditions in LLMs
+AB: Large language models (LLMs) are trained predominantly on English-language internet text that over-represents certain cultural narratives, raising
+    concerns that models flatten the diversity of non-Western storytelling traditions into a single homogenized archetype. We present a pilot
+    computational study examining this across three maximally distinct Indian regional oral and literary traditions: the Rajasthani Pabuji epic,
+    classical Tamil Sangam poetry, and Bengali folk tales. We collected authentic reference corpora for each tradition (11, 21, and 10 passages
+    respectively) and prompted two LLMs (Claude Sonnet and Gemini) with 54 generation requests spanning three prompt types per tradition - generic,
+    culturally specific, and regional-language. Using Sentence-BERT embeddings and cosine similarity, we measure reference drift (how closely outputs
+    track their own tradition's authentic texts relative to the other two) and cross-tradition convergence (how similar outputs are across
+    traditions). We find that while outputs remain closer to their own tradition's reference than to others, cross-tradition similarity is high
+    (0.52-0.66) relative to what the traditions' genuine distance would predict, indicating partial homogenisation. Unexpectedly, prompting in the
+    regional language (Hindi, Tamil, or Bengali) consistently reduced fidelity to the authentic tradition relative to English prompting, by as much as
+    27 percentage points for Rajasthani and Bengali traditions. We discuss this against conflicting prior results on multilingual prompting and argue
+    it reflects a difference between eliciting general cultural diversity and simulating one narrow, lesser-documented oral tradition. We position
+    this pilot as a lightweight, scalable complement to recent large-scale human-annotation studies of Indian cultural misrepresentation in
+    LLM-generated stories, as part of a broader doctoral research program.
+
+### R01718 | 2026 | preprint | Lang: n/a
+TI: Invoice Haystack: Benchmarking Document Retrieval and Visual Question Answering Under Strong Visual Homogeneity
+AB: Vision Language Models have achieved near-human performance on single-document Visual Question Answering, yet their effectiveness degrades
+    significantly when retrieving information from large collections of visually homogeneous documents. Existing multi-document benchmarks aggregate
+    diverse document types, creating artificial separation in embedding space that does not reflect enterprise document repositories where thousands
+    of records share identical visual templates. We identify this as embedding collapse and introduce Invoice Haystack, a benchmark with 1,500
+    anonymized invoice images paired with 200 discriminative question-answer pairs, specifically designed to stress-test retrieval under strong visual
+    homogeneity. Invoice Haystack exhibits a mean pairwise cosine similarity of 0.73, compared to 0.38 (DocHaystack) and 0.31 (InfoHaystack) in
+    existing benchmarks, posing a fundamentally more challenging retrieval problem. Addressing the identified challenge, we propose VL-RAG, a hybrid
+    retrieval-augmented generation framework that jointly leverages text and visual embeddings to harness the complementary strengths of both
+    modalities, followed by a VLM-based verification filter for precise document identification. VL-RAG achieves 60.0\% Recall@1 on Invoice
+    Haystack-500, outperforming existing state-of-the-art method by up to an absolute 13.5 percentage points. It further improves retrieval
+    considerably on DocHaystack-1000 (77.1\% vs.\ 75.2\%) and InfoHaystack-1000 (84.5\% vs.\ 80.0\%), establishing the proposed dual-stream fusion as
+    a consistently superior retrieval strategy across both homogeneous and heterogeneous document collections.
+
+### R01719 | 2026 | preprint | Lang: n/a
+TI: A slope-unstable bundle on a surface with 1-homogeneous projectivization
+AB: We answer affirmatively a question of Fulger and Langer on the interplay between slope semistability and positivity for projective bundles with
+    vanishing discriminant. The main result of this paper was obtained by Chatgpt 5.5 pro, and the Danus system based on the Rethlas system.
+
+### R01720 | 2026 | preprint | OpenAlex: article/None | Lang: en
+TI: Semantic Homogenization in Italian Popular Music: A Diachronic Analysis
+AB: In recent years, studies have revealed a decline in semantic variety across popular music lyrics, particularly in English-language songs on
+    streaming platforms like Spotify. This research examines whether a similar trend can be observed in a different linguistic and cultural context:
+    the lyrics of all finalist songs from the 75 editions of the Sanremo Music Festival, Italy's most renowned music competition. What sets this work
+    apart is the development of a flexible and efficient methodology for tracking changes in semantic similarity over time, which can be applied to
+    different datasets to study similar phenomena. Drawing on a combination of full-text, segment-based, topic-based, and word-level analyses, the
+    approach leverages both embedding techniques and large language models. When applied to the Sanremo corpus, this framework reveals a gradual move
+    toward increasing semantic uniformity, echoing the global patterns identified in previous studies. These findings underscore the value of natural
+    language processing tools in uncovering long-term shifts in musical language and cultural expression.
+
+### R01721 | 2026 | preprint | Lang: n/a
+TI: The Hitchhiker's Guide to Monoculture: AI Homogenizes Syntax, Not (Necessarily) Semantics
+AB: Large language models (LLMs) have been widely reported to homogenize human expression and thought. However, I argue that convergence in language
+    need not imply convergence in ideas, and existing evidence rarely distinguishes between the two. I demonstrate this through a study of software
+    development, where AI assistants have diffused fastest and where syntax can be readily separated from semantics (conceptual approach or intent).
+    Using Kaggle contest submissions from 2019 to mid-2026, I first document convergence toward the random seed value 42, consistent with LLMs
+    reinforcing a longstanding programming-culture convention associated with Douglas Adams' comedy novel The Hitchhiker's Guide to the Galaxy. I then
+    measure homogenization in code syntax and approach more generally, quantifying within-contest code submission similarity using
+    term-frequency-inverse-document-frequency (TF-IDF) n-gram representations, which capture surface syntax, and Voyage code-3 retrieval embeddings,
+    which capture intent and approach. Submissions have become more alike in literal syntax, but I find no evidence of homogenization in approach or
+    intent. I conclude that shared AI tools are homogenizing how Kaggle contestants express their solutions, not the problem-solving strategies they
+    employ.
+
+### R01722 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Paternalistic Filter: Epistemic Injustice and Differential Refusal in LLM-Mediated History Education for Marginalized Romanian Students
+AB: As Large Language Models (LLMs) are increasingly deployed as conversational tutors, they risk institutionalizing systemic inequalities. This study
+    presents a systematic API audit of four LLMs acting as history tutors, evaluating 1,800 responses regarding the 1989 Romanian Revolution across
+    five student personas varying by ethnicity and socio-economic tier. We uncover four interconnected patterns of \emph{epistemic paternalism}:
+    (1)~\textbf{Differential Refusal}, where safety-aligned models block 76.7\% of educational requests from low-tier students; (2)~\textbf{Epistemic
+    Gatekeeping}, evidenced by a 3$\times$ reduction in access to geopolitical complexity (e.g., the contested ``coup theory'') for marginalized
+    learners; (3)~\textbf{Agency Theft}, a lexical shift where models like LLaMA produce a 5$\times$ higher victimization-to-politics vocabulary ratio
+    for Roma students compared to elite peers; and (4)~\textbf{Elite Hermeneutics}, where AI tutors disproportionately withhold epistemic confidence
+    and justification scores from low-resource demographic profiles. We argue that current safety alignment acts as a paternalistic filter,
+    transforming conversational AI into agents of narrative segregation -- a manifestation of \emph{hermeneutical injustice} in
+    Fricker's~\cite{fricker2007} sense that demands urgent pedagogical auditing.
+
+### R01723 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Beyond Cultural Knowledge: Evaluating Arabic Cultural Appropriateness of Large Language Models
+AB: Large language models (LLMs) increasingly serve users whose expectations are shaped by their cultural context, yet most cultural evaluations test
+    what a model knows rather than how it behaves when giving open-ended recommendations, opinions, and guidance. We introduce AraBehave: 1,623
+    culturally grounded, open-ended Arabic prompts with 29,214 cultural-appropriateness judgments from native speakers across several Arab regions,
+    plus a scoring model whose predictions correlate strongly with human judgments on unseen systems (Pearson r=0.74). Evaluating three Arabic-centric
+    and three frontier LLMs, we find that cultural appropriateness is not a single capability but decomposes into two largely independent components:
+    normative stance and grounded cultural accuracy. The best general-purpose and best Arabic-centric models score identically (3.84 vs. 3.83 of 5)
+    yet almost never fail for the same reason: general-purpose models exhibit strong factual grounding but a culturally inappropriate normative
+    stance, being penalized for secular framing and false balance on culturally settled matters (28--33% of their low-score rationales), while the
+    best Arabic-centric model adopts the expected stance but is penalized for fabricated hadith and misquoted verses (29%). Stance is cheap and
+    fragile: one sentence of cultural instruction lifts Gemini to 4.57, above every Arabic-specialized model. Conversely, a generic ``answer clearly
+    and objectively'' prompt costs Allam-7B 0.68 points, while asking the same questions in English lowers scores for every model but one. Grounding
+    instead tracks scale and Arabic alignment data, and disappears when culturally aware instruction tuning is replaced by a culture-neutral corpus.
+    General safety benchmarks see none of this: they saturate above 89 while cultural scores span 2.71-3.84. We will release the benchmark,
+    annotations, and the scoring model.
+
+### R01724 | 2026 | preprint | Lang: n/a
+TI: More Debate, Same Evidence: Structural Limits of Homogeneous Multi-Agent Groundedness
+AB: Large language model (LLM) judges are increasingly organized as multi-agent panels under the assumption that exchanging critiques improves
+    judgment quality. We test this assumption for \emph{groundedness verification}, where a judge must determine whether a claim is supported by the
+    supplied evidence. We evaluate a homogeneous three-agent panel on six public fact-verification and hallucination-detection benchmarks. Relative to
+    a fixed single-agent reference, the panel's system-level accuracy difference ranges from $+8.5$ to $-4.4$ percentage points: two datasets show
+    reliable gains, one shows a reliable loss, and three are statistically inconclusive. Because the reference and panel use different model variants,
+    these differences characterize the complete systems rather than isolate a causal debate effect.
+
+### R01725 | 2026 | preprint | Lang: n/a
+TI: The Uniform Gromov Hausdorff Gap Problem for Approximating Spheres by Finite Homogeneous Spaces
+AB: Let $S^n$ be the unit round sphere with its intrinsic angular metric, normalized so that $\operatorname{diam}S^n=π$. For finite homogeneous metric
+    spaces $X$, put \[ δ_n=\inf_X d_{GH}(X,S^n). \] The main open problem is whether $\inf_{n\ge2}δ_n>0$. Gelander's theorem gives $δ_n>0$ in each
+    fixed dimension, but not uniformly. An abstract cross-polytope construction gives the universal upper bound $δ_n\leπ/4$. In the opposite
+    direction, ChatGPT combines the passage from small Gromov--Hausdorff error to an approximate finite action on the sphere, logarithmic stability of
+    approximate inner-product-preserving maps due to Cuesta, operator-norm stability of almost representations, and Green's width theorem for finite
+    transitive sets. This gives the quantitative bound \[ δ_n\ge \frac{c}{(1+\log(n+1))^2} \] for all sufficiently large $n$.
+
+### R01726 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Asymmetric Discourse Homogenization on Reddit Was a Text-Length Artifact: A Reanalysis
+AB: In the first version of this paper I reported that conservative Reddit users began writing more alike after ChatGPT was released while progressive
+    users did not. That result came from a similarity measure that rises and falls with comment length. I redo every analysis of the original paper on
+    all 6,056,593 comments with a sentence encoder and a dispersion measure computed within length strata, and the conservative break goes away. The
+    two camps show no reliable difference in how within-group similarity changed after late 2022, and the ChatGPT date behaves like any of the more
+    than two thousand other cutoffs I test. The matched flair comparison, the cumulative AI index, the stayer panel and the entropy signature each
+    lose their support once length is held fixed. The one change that survives is older. Left and right comments drew closer to each other between
+    2019 and 2022, and that convergence was complete before ChatGPT arrived. I end with what this implies for studies that measure homogenization with
+    embeddings.
+
+### R01727 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Figurative and Cultural Knowledge in LLMs: Investigating Cross-Domain Transfer through Fine-Tuning
+AB: Figurative language is deeply culturally embedded; fluent use requires not just linguistic competence but cultural immersion. We ask whether LLMs
+    can learn this link: does fine-tuning on cultural data improve figurative language understanding, and vice versa? We conduct a systematic study
+    across four models (ALLaM-7B, Fanar-1-9B, Qwen3-8B, Llama-3.1-8B) and six Arabic datasets spanning cultural commonsense, proverbs, and poetry
+    across diverse dialects and regions. Fine-tuning on poetry improves idiom comprehension (+2.33%, p<0.05), a gain our ArabicMMLU control does not
+    reproduce, indicating that it stems from figurative content rather than Arabic language adaptation and pointing to a sensitivity to non-literal
+    meaning that transfers across figurative types. Cultural fine-tuning, by contrast, lowers proverb-interpretation accuracy in both Arabic-centric
+    models. Transfer between the two domains is otherwise indistinguishable from noise, with Arabic models frequently regressing after fine-tuning,
+    suggesting prior saturation of relevant knowledge, while multilingual models show greater adaptation headroom. Error analysis further reveals that
+    fine-tuning reinforces experiential cultural knowledge while destabilizing historically grounded factual knowledge. Our findings suggest that the
+    relationship between culture and figurative language, though conceptually natural, is not straightforwardly captured through fine-tuning alone.
+
+### R01728 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: On Epistemic Diversity in Large Language Models
+AB: Large language models (LLMs) are increasingly used not only to retrieve information, but to answer questions, explain, teach, and support inquiry.
+    In such settings, evaluation cannot be exhausted by accuracy or alignment alone. A system may give a correct answer while still narrowing users'
+    access %to knowledge. to alternative valid answers, explanations, or reasoning routes. Drawing on the broader notion of epistemic diversity in
+    philosophy and social epistemology, we formalize it in the context of LLMs as the range of valid answers, explanations, and reasoning routes that
+    an LLM exposes to users. We argue that epistemic diversity is a useful evaluation dimension for settings where LLMs are used to support
+    knowledge-intensive tasks. We propose a preliminary framework for conceptualizing and measuring epistemic diversity in LLMs, and operationalize it
+    in two domains. We find that frontier LLMs often exhibit epistemic narrowness, repeatedly collapsing large valid answer spaces onto small
+    canonical subsets. These findings suggest that LLM evaluation should move beyond accuracy-oriented paradigms and treat epistemic diversity as an
+    important dimension of model capability.
+
+### R01729 | 2026 | preprint | Lang: n/a
+TI: Breaking Homogeneity: Diversifying Persona Sets for Creative LLM Outputs
+AB: Language models often produce homogeneous responses to open-ended tasks; such homogeneity can spawn groupthink-the convergence of ideas toward a
+    singular and potentially suboptimal decision. We formulate persona diversification as a set-level conditioning problem and study two orthogonal
+    design choices: selecting versus generating personas, and space-filling versus frontier-seeking diversity. We instantiate this design space with
+    four methods spanning coverage and dispersion subset selections, uniform-coverage sampling, and evolutionary persona generation. Evaluations on
+    the Alternative Uses Task (AUT), Infinity-Chat, and Divergent Association Task (DAT) show the benefits of the proposed methods across tasks and
+    creativity objectives. On AUT, evolutionary persona generation increases response diversity by 78.8%, originality by 26.1%, flexibility by 49.5%,
+    and holistic creativity by 13.9% over task-only prompting, while maintaining 98.5% validity; on Infinity-Chat, it nearly doubles persona-induced
+    response separation relative to random personas. Moreover, evolutionary personas compose with creativity-optimized prompting, further increasing
+    its response diversity by 18.6% and creativity by 6.3%. These results establish persona-set geometry as a task-agnostic mechanism for eliciting
+    divergent LLM outputs, and support persona diversification as a reusable complement to prompt optimization.
+
+### R01730 | 2026 | preprint | Lang: n/a
+TI: FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation
+AB: Large language models are increasingly used as personalized writing assistants, but adapting a model across many authors can compromise individual
+    writing style by pulling author-specific signals toward a shared register. Federated parameter-efficient fine-tuning (PEFT) offers a data-local
+    setting for this multi-author adaptation problem: clients keep author text local while sharing compact adapter updates. However, we show that
+    standard aggregation can preserve continuation utility while making different authors' generations less distinguishable in style space, a failure
+    mode we define as author-style homogenization. We evaluate author-style retention with Angular Style Classification Encoder (ASCE)-based
+    diagnostics on our main BlogText benchmark and ASCE-independent external authorship verification. Using this protocol, we find that common
+    federated PEFT baselines can preserve semantic utility while averaging out author-specific signals. To address this homogenization, we instantiate
+    FAVoR (Federated Authorial Voice Retention), an author-style residual mechanism for federated PEFT. FAVoR uses a shared-private adapter design:
+    clients upload shared-adapter updates while retaining author-specific residual corrections locally. Across BlogText and external Mythos-Reddit
+    validation, FAVoR improves author-style retention over standard and personalized federated PEFT baselines. These gains come with small
+    continuation-utility trade-offs and are supported by component ablations, external verification, and cold-start transfer.
+
+### R01731 | 2026 | preprint | Lang: n/a
+TI: How Strong Is the Evidence for the Artificial Hivemind? Reevaluating Evidence for the Open-Ended Homogeneity of Language Models
+AB: Recent research argues that language models exhibit pronounced homogeneity in open-ended generation, framing such behavior as an Artificial
+    Hivemind that poses a long-term threat to human creativity. We examine three of its central results. First, the flagship example is that model
+    responses to "Write a metaphor involving time" collapse into two clusters. Visualization, spectral analysis, clustering, and language model labels
+    all contradict this description. The labels record each response's vehicle, what it compares time to. Our responses and the original authors' own
+    show one dominant vehicle plus a heavy tail of distinct minority vehicles. "Time" is one of our least diverse topics, so the example is a
+    favorable case, not a representative one. Second, the paper measures homogeneity against an undemanding null: responses to unrelated prompts.
+    Under a more demanding null (same-prompt responses expressing genuinely different ideas), 20%-32% of such pairs already exceed the paper's 0.8
+    convergence threshold. A residual effect survives this null. The paper's same-prompt pairs exceed 0.8 roughly two to three times as often as our
+    different-idea pairs. Much of what the paper calls homogeneity is the shared geometry of answering the same prompt. The remaining measurements
+    lack any null: no human baseline is collected, and the model-indistinguishability statistic has no null. Third, the paper concludes that
+    inference-time interventions are inadequate for combating the Artificial Hivemind, writing that "more generalizable solutions are needed at the
+    model training level." We show that this conclusion is unsupported in three ways, and that an inference-time intervention (prompting) reliably
+    raises measured response diversity. We do not resolve whether the Artificial Hivemind is real. We show that the published evidence does not
+    establish it.
+
+### R01732 | 2026 | preprint | Lang: n/a
+TI: Measuring Collapse and Correction in Homogeneous-Panel LLM Debate
+AB: Multi-agent large language model (LLM) debate is often evaluated by whether final answers improve, but a changed answer is not necessarily a
+    better one: the same discussion can correct an initially wrong majority or collapse an initially correct one. Standard final-accuracy evaluations
+    conflate these opposing transitions. We introduce an auditable protocol for homogeneous debate on multiple-choice questions (MCQs) that records
+    each run as a transition ledger over collapse, correction, onset, and signed intervention utility. On 6,925 MMLU-Pro debates, the protocol records
+    253 collapses together with the corrections that offset them, and the correction side changes how interventions should be judged. Replay
+    experiments reveal the central tradeoff: freezing every debate prevents 251 collapses but loses 804 corrections under equal weights, and a
+    leave-one-model-out probe-gated freeze that is tuned for net utility never fires, so collapse prevention alone can recommend the wrong policy. A
+    compact pre-debate 8-probe screen is a triage signal: its unadjusted family-level association with conditional-collapse risk is high (G=7,
+    Spearman $ρ$ = 0.893, exact two-sided p = 0.0123), but initial-majority accuracy is a close comparator ($ρ$ = -0.821; family partial $ρ$ = 0.767,
+    p = 0.0877), so we do not treat it as calibrated or capability-adjusted prediction. Round-level traces localize many collapses to the first debate
+    round, where early disagreement can precede both collapses and corrections. Reasoning-mode models, including one model at two reasoning-effort
+    levels, also show both collapses and corrections. We release replayable schemas, coders, audits, cost cards, and zero-API rebuild scripts so
+    future model rows can be compared under the same denominators and signed utility ledger.
+
+### R01733 | 2026 | preprint | Lang: n/a
+TI: ResComEmb: Effective and Efficient Multimodal Embedding via Residual Homogeneity Compression
+AB: Multimodal large language models (MLLMs) have shown strong potential for universal multimodal representation learning. However, existing methods
+    either compress each input into a single vector, limiting fine-grained expressiveness, or retain long sequences of visual-token vectors, incurring
+    substantial storage and interaction costs. To resolve this trade-off, we propose ResComEmb, a trainable framework for effective and efficient
+    universal multi-vector multimodal embedding. ResComEmb first encodes each input at native dynamic resolution into ordered global, intermediate,
+    and fine-grained views. After MLLM contextualization and embedding projection, a trainable Residual Homogeneity Compression (RHC) module reduces
+    within-granularity redundancy and cross-granularity repetition under explicit visual token budgets. Then, ResComEmb introduces a length-adaptive
+    Bidirectional Late-Interaction Matching mechanism for robust query-document scoring, which averages the strongest token-level matches in each
+    direction and combines the two scores using a weight based on how many valid tokens each side has. Extensive experiments on MMEB, ViDoRe V1, and
+    ViDoRe V2 show that ResComEmb produces higher-quality universal multimodal embeddings than VLM2Vec-V2, and outperforms ColQwen2.5 in visual
+    document retrieval using only 37.5% of its full visual token budget, demonstrating a favorable effectiveness-efficiency trade-off.
+
+### R01734 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Gap Detection: Mitigating Homogenization through Demand and Defensibility
+AB: Language models often produce semantically similar answers to open-ended questions, even when many plausible alternatives exist. Generating useful
+    alternatives requires identifying both what the query calls for and what existing responses already cover. We introduce Gap Detection, a framework
+    that searches for relevant but unoccupied directions in a shared text embedding space. Its objective, GapScore, combines query relevance (Demand)
+    with dissimilarity to the nearest existing item (Defensibility). The framework optimizes this product on the unit sphere, maps candidate
+    directions to concept words with a language model, and uses task-specific filtering and constrained prompting to turn those concepts into text. On
+    five curated topics and 90 INFINITY-CHAT queries, the reported mean relative reductions in output Collision are 12.8% and 10.8%, respectively. We
+    also instantiate the framework for generative engine optimization over four product markets and for iterative synthetic-data augmentation. In the
+    latter setting, with 100 training examples per method, Gap Detection reduces Collision from 0.324 to 0.298 relative to undirected accumulation and
+    increases the Vendi Score from 27.16 to 29.20; the accuracy difference is one example on a 40-example test set. Component ablations expose the
+    trade-off between semantic separation and relevance, while also showing that better direction scores do not uniformly yield better downstream
+    metrics. These results support explicit gap search as a practical mechanism for diversifying content, with task validity checked separately from
+    geometric novelty.
+
+### R01735 | 2026 | preprint | Lang: n/a
+TI: Exact Makespan Bounds and the GPipe Homogeneity Bias for Heterogeneous LLM Inference Pipelines
+AB: We give an exact critical-path characterization of the makespan of micro-batch pipelines serving LLMs on heterogeneous GPU clusters, quantifying
+    how the classic homogeneous GPipe formula errs. In the pure-forward, communication-free, infinite-buffer setting, T(M) = (M-1)tau_max + Sum_j
+    tau_j, where tau_j is stage j's per-micro-batch service time and M the micro-batch count (Theorem 1). Under asynchronous communication -- modern
+    NCCL-based serving -- it extends to T(M) = Sum_j tau_j + Sum_j d_j + (M-1)tau_max, with Sum_j d_j a purely additive constant (Theorem 2); under
+    blocking communication, T(M) = (M-1)sigma_max + Sum_s sigma_s with sigma_s = tau_s + d_s, so communication enters the steady-state slope iff some
+    d_s > tau_max - tau_s (Theorem 3). These results quantify the GPipe overestimate, decompose the bias into a homogeneity term Sum_j (tau_max -
+    tau_j) and a communication-ignoring term Sum_j d_j, and imply that balancing per-stage compute dominates communication reduction for steady-state
+    throughput. A real system with partial overlap is sandwiched between Theorems 2 and 3, with a closed-form bound on the overlap throughput gain.
+    All claims are validated pointwise (error < 10^-9) on eleven configurations and a 1.6x10^5-point fuzz, including a mixed RTX 5090/3090/GTX 1070
+    partition. We situate the results in flow-shop scheduling and list open extensions: bandwidth-limited communication, bounded buffers,
+    prefill-decode interleaving.
+
+### R01736 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Does AI-Assisted Development Homogenize Software? An Empirical Study of Code Similarity, Quality, and Evolution
+AB: AI-assisted software development is evolving from interactive LLM assistance toward agentic systems that autonomously perform software engineering
+    tasks, yet the effects of this shift remain insufficiently understood. We present an empirical study of 50 long-lived Java and Python open-source
+    projects across three eras: pre-LLM, potentially LLM-assisted, and detected agentic development. Using snapshots from Software Heritage, we
+    examine code similarity, software quality, and software evolution. Similarity is measured semantically through embedding-based cosine similarity
+    and syntactically through CodeBLEU*. Quality is assessed with SonarQube metrics covering maintainability, complexity, reliability, and security.
+    Evolution is characterized by annualized growth rates of LOC, functions, classes, files, and statements, and by commit activity in the three
+    months preceding each snapshot. Results show no consistent evidence of increased similarity as semantic and syntactic similarity decreased
+    significantly in Java for both the LLM and agentic eras relative to the pre-LLM era, while Python showed no significant differences. Software
+    quality remained largely stable, although the agentic era showed significantly lower code-smell and SQALE index densities. Structural growth was
+    generally lower in the agentic era, particularly for files, whereas development activity increased moderately in Java, especially in commits and
+    added lines. These findings challenge the assumption that LLM- and agent-assisted development necessarily homogenizes code, degrades quality, or
+    accelerates growth.
+
+### R01737 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Evaluating Cultural Knowledge Editing in Vision-Language Models
+AB: Current Vision-Language Models (VLMs) frequently fail to recognize culture-specific concepts, especially from underrepresented regions.
+    Effectively injecting this long-tail knowledge into existing models remains a challenge. In this work, we investigate knowledge editing as a
+    targeted alternative by introducing CulturalBind, a benchmark comprising 3.2K images of 1K concepts from 6 domains, designed to evaluate
+    culture-aware cross-modal knowledge as well as concept-level knowledge editing in VLMs. Pre-edit evaluation reveals that textual and visual
+    knowledge is decoupled: models often demonstrate text-based knowledge of cultural concepts but fail to identify them from images. We then evaluate
+    editing methods in single and sequential scenarios. Although current methods successfully correct individual visual recognition errors, they
+    exhibit low cross-modal portability, failing to integrate edits into the model's broader parametric knowledge. Furthermore, performance degrades
+    rapidly under sequential editing, highlighting the need for comprehensive adaptation approaches that better consolidate multimodal knowledge over
+    time.
+
+### R01738 | 2026 | preprint | Lang: n/a
+TI: Revisiting LLM Homogeneity Through a Multidimensional Lens
+AB: Concerns about LLM homogeneity are typically quantified with embedding similarity, which reduces two texts to a single score. We revisit
+    homogeneity with 25 interpretable metrics spanning five dimensions: semantic, lexical, syntactic, structural, and stylistic & presentational. A
+    human study shows that perceived similarity depends on both content (what responses say) and form (how they say it), yet embedding similarity
+    correlates less with human meaning judgments than sentence-level matching ($ρ=0.417$ vs. $0.606$) and not significantly with form judgments
+    ($ρ=0.140$). Across 18 contemporary LLMs, models say similar things in different words: they share global semantics and broad linguistic profiles
+    but remain distinct in lexical characteristics, structural patterns, and interactional conventions. Across releases from 2024 to 2026, models
+    become more like themselves but not more like one another: among significantly changing metrics, intra-model distances decrease for 17 of 22, and
+    inter-model distances increase for 14 of 21. Across two post-training pipelines, model-specific conventions emerge during SFT and are selectively
+    reshaped by preference optimization. These results suggest that homogeneity is multidimensional and evolving, and that embedding similarity alone
+    can overstate cross-model homogeneity while concealing diverging intra- and inter-model trends.
+
+### R01739 | 2026 | preprint | Lang: n/a
+TI: Building and Auditing Chemical Datasets with LLMs: A General LLM-as-a-Judge Framework Applied to Homogeneous Catalytic PET Depolymerisation
+AB: Large language models can rapidly extract structured multivariate experimental data from the chemistry literature, yet verifying thousands of
+    generated records without ground truth remains difficult. We present a general, citation-grounded extraction and verification methodology centered
+    on an independent "LLM-as-a-judge", applied to the literature on homogeneous catalytic poly(ethylene terephthalate) (PET) depolymerisation. In
+    this pipeline, an extractor LLM generates schema-enforced records from research papers with citations to document chunks tagged with universally
+    unique identifiers (UUIDs); an independent LLM judge then reads the full paper alongside each record, flags unsupported fields, and proposes cited
+    corrections. Prompt ablations show that requiring chunk-level citations not only provides provenance down to specific paragraphs and tables but
+    also improves extraction accuracy. Before deploying the judge at scale, we benchmarked it against manual evaluation on extractions from a
+    hand-curated reference set of 295 ionic-liquid-catalysed PET glycolysis experiments. The judge agreed with human evaluation on 85.7% of reviewed
+    records and was significantly more effective than a heuristic string-matching baseline at catching errors across related experiments. Deployed
+    across 3,942 extracted records from 561 papers, the framework accepted 67.5% of them as written. Its proposed corrections concentrated on
+    quantitative fields, where the extractor often conflated related experiments. We release the extracted dataset with the complete LLM judge audit
+    logs, as well as the Chemistry Data Extractor Toolkit, an open-source application implementing this end-to-end pipeline in a code-free,
+    browser-based environment for document parsing, customizable schema and prompt design, model-agnostic extraction and auditing, interactive
+    provenance-highlighted review, and reproducible dataset bundling.
+
+### R01740 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LLMs and the Homogenization of Teaching
+AB: Large language models (LLMs) are known to lack diversity in open-ended text generation, a limitation that is especially consequential in
+    education, where homogeneity can narrow the kinds of thinking and disciplinary work students are invited to do. We study diversity in two
+    educational generation tasks: math items and essay feedback. We compare frontier and open-weight models with human-authored reference
+    distributions using lexical, semantic, and domain-grounded measures. For math, we examine the mathematical activities students are asked to
+    perform; for feedback, we examine the revision work requested and the rhetorical strategies used to communicate it. We evaluate direct prompting,
+    two diversity prompting methods, and post-training. Across both tasks, directly prompted model outputs are markedly less diverse than
+    human-authored content--78% higher on lexical (Self-BLEU) and 51% higher on semantic (embedding) similarity--and represent a narrower range of
+    instructional forms. Diversity prompting and post-training increase variation largely through surface features without broadening the
+    instructional repertoire. Models inherit and amplify the most normative routines of human instruction. Overcoming mode collapse in education will
+    require richer instructional data and investment in teachers' creative capacity and professional judgment.
+
+### R01741 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Embedding Cosine Measures Text Length Before It Measures Homogenization
+AB: Mean pairwise cosine similarity between transformer embeddings is a standard measure of whether online discourse is converging under generative
+    AI. When the embeddings are mean-pooled outputs of an encoder never trained for sentence similarity, this measure mostly tracks text length. In
+    6.06 million Reddit comments, an uncentered DeBERTa-v3 measure had suggested that only conservative discourse broke toward homogeneity after late
+    2022. Truncating the same comments from 10 to 150 words raises their mean cosine by eight times the reported break. A placebo that swaps every
+    comment for a random one of equal length reproduces 81% of the asymmetry, and a fixed-content simulation reproduces 78%. The leading principal
+    direction carries 99.9% of raw DeBERTa homogeneity, and once length is handled the asymmetry disappears under every encoder. On 575,000 Stack
+    Exchange answers the measure reports a post-ChatGPT homogenization of technical sites that the placebo fully reproduces, although answers grew
+    longer. A census of 31 studies locates the risk where anisotropic encoders meet time-series or length-unequal designs. A reverse control on a
+    well-known experiment shows that centering with renormalization can reverse a genuine effect. We propose a low-cost diagnostic protocol. Corrected
+    measures show that the two political camps converged between 2019 and 2022 and stopped converging before ChatGPT. Cross-camp replies engage their
+    targets more closely than same-camp replies.
+
+### R01742 | 2026 | preprint | Lang: n/a
+TI: Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era
+AB: Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured
+    overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML
+    and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in 2027, against 6.12 in 2026. We apply
+    MELD, a detector of LLM-generated text, to all reviews. Within a paper, two reviews that MELD flags overlap more than two unflagged reviews: by
+    3.0 points at ICLR in 2024-2025, by 4.5 points in 2026-2027, and by 5.4 points across five journal sources. These results provide evidence that
+    LLM-flagged reviews of one paper are less distinct from each other than unflagged reviews, and suggest that the diversity of critiques among
+    reviews of a single paper is falling.
+
+### R01743 | 2025 | article/None | Lang: en
+TI: Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of human and ChatGPT writing
+AB: Generative AI systems, especially Large Language Models (LLMs) such as ChatGPT, have recently emerged as significant contributors to creative
+    processes. While LLMs can produce creative content that might be as good as or even better than human-created content, their widespread use risks
+    reducing creative diversity across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMs on creative
+    diversity, not only at the individual level but also at the collective level. Across three preregistered studies, we analyzed 2,200 college
+    admissions essays. Using a novel measure—the diversity growth rate—we showed that each additional human-written essay contributed more new ideas
+    than did each additional GPT-4 essay. Notably, this difference became more pronounced as more essays were included in the analysis and persisted
+    despite efforts to enhance AI-generated content through both prompt and parameter modifications. Overall, our findings suggest that, despite their
+    potential to enhance individual creativity, the widespread use of LLMs could diminish the collective diversity of creative ideas. • We Introduce
+    diversity growth rate to measure idea diversity added per creative output. • Each additional human-written essay contributes more new ideas than a
+    GPT-generated essay. • Diversity gap widens with more essays, showing greater AI homogenization at scale. • Enhancing GPT's creative diversity
+    through parameter- or prompt-modifications does not mitigate the diversity gap. • Our study suggests widespread LLM use could diminish collective
+    diversity of creative ideas.
+
+=== END OF BATCH b040 (50 records) ===

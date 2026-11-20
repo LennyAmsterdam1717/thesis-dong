@@ -1,0 +1,682 @@
+BATCH b016 -- 31 records: R00704 .. R00734
+
+### R00704 | 2026 | article/None | Lang: en
+TI: Educational Strategies for Clinical Supervision of Artificial Intelligence Use
+AB: The emergence of artificial intelligence (AI), particularly large language models (LLMs), has the potential to fundamentally change medical
+    practice. Gains in efficiency, however, come with the risk of reduced independent critical thinking when AI is used improperly, a tradeoff that
+    extends to medical training. Overreliance on AI may lead to loss of previously acquired knowledge (“de-skilling”), failure to develop skills
+    (“never-skilling”), and reinforcement of incorrect practices (“mis-skilling”). Many of these deficiencies stem from the limited transparency of
+    LLM reasoning. Critical thinking remains essential for adaptability when facing uncertainty and bias, and the rapid integration of AI places this
+    skill at the forefront of medical education. This review proposes a structured framework for educators and learners to develop critical thinking
+    while engaging with AI in medical contexts. The use of AI in learning environments poses several risks. Because AI adoption is recent, both
+    educators and learners are vulnerable to these challenges, emphasizing the need for community-based learning in which roles are adaptive and
+    knowledge is shared. De-skilling and never-skilling can occur when AI is overly relied upon, resulting in off-loading of clinical reasoning that
+    limits skill development and reinforcement. Studies have found associations between greater AI use and reduced critical thinking, particularly
+    among younger participants. These findings are supported by a randomized clinical trial showing that performance on complex analytical tasks was
+    hindered by AI use. In another study, clinicians exposed to biased AI-generated diagnostic predictions were more likely to incorporate these
+    biases into their assessments, demonstrating the risk of mis-skilling. This effect correlates with baseline human performance: clinicians with
+    lower baseline performance were further disadvantaged by AI, whereas those who outperformed AI achieved improved results when AI was appropriately
+    integrated. To combat these risks, the authors propose a framework for educators to identify and navigate clinical encounters involving AI as
+    opportunities for teaching. When an educator observes a learner interacting with an AI tool, the DEFT-AI framework (diagnosis, evidence, feedback,
+    and teaching) is proposed to guide Socratic discussion. The process begins with diagnosis, discussion, and discourse, during which the learner
+    explains both their clinical reasoning and how and why they engaged with AI. In the evidence phase, the learner provides supporting and opposing
+    evidence for the clinical assessment and evaluates the strengths and limitations of AI in context. During the feedback phase, the educator
+    encourages self-reflection on gaps in their clinical reasoning and AI literacy. The teaching stage builds on this reflection, with targeted
+    instruction and recommendations that generally encourage continued AI engagement, though with variation in use and supervision. The authors
+    further characterize AI engagement using the centaur-cyborg model. In centaur behavior, users strategically divide tasks between themselves and
+    AI, reserving higher-risk decisions for human oversight. In cyborg behavior, humans and AI collaborate more tightly through iterative drafting and
+    refinement, which can be effective for discrete, low-risk tasks but carries greater risk of overreliance. Educators are encouraged to help
+    learners move flexibly between these modes through cognitive pauses and critical evaluation of AI use. Clinical guidelines, published literature,
+    and expert consultation should be applied to assess AI output, and prompts should be specific, context-aware, and unbiased. Providing examples and
+    requesting clear explanations of AI reasoning can further support critical adjudication. Overall, the authors support educational practices that
+    integrate with AI rather than disavow it. Verification and critical evaluation of AI output are central to effective AI education and, when
+    applied using the DEFT-AI method, can bolster both clinical reasoning and AI literacy. (Abstracted from N Engl J Med. 2025;393(8).
+    doi:10.1056/NEJMra2503232)
+
+### R00705 | 2025 | preprint/None | Lang: en
+TI: On the Influence of Artificial Intelligence on Human Problem-Solving: Empirical Insights for the Second Wave within a Multinational Longitudinal
+    Pilot Study
+AB: The swift integration of artificial intelligence and large language models into daily work is changing how humans solve problems. Following Wave
+    1, which identified context-dependent ethics and fragile trust, this paper shares intermediate results from Wave 2 of a multinational longitudinal
+    study. A diverse sample of 36 people completed a comprehensive survey and four graded problem vignettes. This captured their demographics, AI
+    proficiency, usage patterns, ethical perceptions, verification capabilities, and performance. Findings point to a consolidating hybrid
+    problem-solving culture. This culture uses a structured process where after an initial human framing, AI is strategically embedded for tasks
+    including research at 72.2 percent, checking correctness at 69.4 percent, ideation at 61.1 percent, and formulation at 61.1 percent. Consultation
+    with AI increases as tasks become more complex, rising from 11.1 percent on a simple task to 48.1 percent on a complex probability task and 44.0
+    percent on an optimization task. However, actual performance declines with this complexity, as accuracy drops from 90.3 percent to 46.7 percent.
+    Two systematic gaps also widen with complexity. One is a belief-performance gap where perceived correctness exceeds actual accuracy by 34.6
+    percentage points on the most complex tasks. The other is a proof-belief gap where verification capability lags behind confidence by 17.7
+    percentage points. Together with Wave 1, these results indicate a shift toward distributed human-AI cognition that is accompanied by verification
+    deficits. We outline planned Wave 3 interventions including verification scaffolds, trust-calibration training, and task-specific proof
+    requirements. These are designed to strengthen critical AI literacy and ensure reliable outcomes in complex problem-solving environments.
+
+### R00706 | 2025 | article/None | Lang: en
+TI: Artificial Intelligence in ESL/EFL Education: Evidence from Recent Reviews (2024–2025)
+AB: The advent of generative artificial intelligence (AI), exemplified by ChatGPT, has triggered a paradigm shift in English language education. This
+    study adopts a “review of reviews” design, synthesizing 14 systematic reviews, meta-analyses, and meta-syntheses (2024–2025). Articles were
+    identified through Scopus and Web of Science using a five-stage selection procedure and analyzed through thematic synthesis. A central
+    contribution is the articulation of a pedagogy-first, ethically grounded research agenda, which distinguishes this study from prior work. The
+    analysis highlights three dimensions: (1) the overall effectiveness of AI-enhanced instruction, (2) applications in writing and speaking, and (3)
+    evolving learner roles in engagement, self-regulation, and emotional experiences. The findings confirm AI’s strong potential to enhance productive
+    skills: automated feedback systems improve accuracy, cohesion, and revision processes in writing, while dialogue-based chatbots strengthen
+    speaking fluency, confidence, and willingness to communicate. These tools serve not only as technological aids but also as cognitive scaffolds and
+    interactive partners that reshape how learners engage with language. At the same time, the benefits are conditional, shaped by factors such as
+    intervention duration, interface design, learner characteristics, and educational context. Risks¾including overreliance, plagiarism, privacy
+    concerns, and uneven attention to the K-12 contexts¾temper these gains. Current research remains concentrated in higher education, limiting
+    cross-level generalizability. Unlike earlier reviews that cataloged applications or emphasized single-skill outcomes, this synthesis integrates
+    effectiveness data with pedagogical, affective, and ethical perspectives. It underscores the need for future research that is longitudinal,
+    context-sensitive, and multi-skilled, while ensuring innovation aligns with pedagogy and robust ethical safeguards.
+
+### R00707 | 2025 | article/None | Lang: en
+TI: P03-20 Transforming Preclinical Development with AI: A Case Study of the Bayer PRINCE Platform
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00708 | 2026 | article/None | Lang: en
+TI: Generative AI as a bounded elicitation and evidence-synthesis layer for pain assessment in older adults with cognitive impairment
+AB: Pain assessment in older adults with cognitive impairment remains challenging, particularly when changes in communication make self-report
+    difficult. Validated observational tools, caregiver and staff knowledge, clinical examination, and repeated within-person assessment remain the
+    foundation of care. However, information from these sources may be incomplete, conflicting, or documented across different settings. Generative
+    artificial intelligence (AI), including large language models, may help clinicians organize and review this information, but it should not
+    independently detect, diagnose, or determine treatment for pain. In this Perspective article, we propose a person-centered, clinician-governed
+    framework for the bounded use of generative AI in pain assessment. The framework organizes seven testable use cases under three core functions:
+    capacity-sensitive elicitation, source-attributed synthesis, and longitudinal support and communication. Potential applications include adaptive
+    pain interviews, identification of possible pain-related information in everyday language, structuring of behavioral observations, multi-informant
+    synthesis, synthesis of validated nonverbal indicators, longitudinal pain-related diaries, and caregiver communication support. Each application
+    requires clear limits, source identification, communication of uncertainty, consideration of alternative causes of distress, and mandatory
+    clinician verification before clinical action or documentation. We also examine risks related to suggestibility, bias, medication effects,
+    privacy, alert fatigue, workload, and overreliance on AI-generated outputs. A five-step research pathway is proposed that includes co-design,
+    technical testing, clinical validation, evaluation across populations and care settings, and risk-based governance. Generative AI should be
+    adopted only if prospective studies demonstrate meaningful value beyond validated assessment methods and usual clinical workflows without reducing
+    patient choice, replacing clinical judgment, or increasing workload.
+
+### R00709 | 2026 | article/None | Lang: en
+TI: Can AI Express Empathy? Computational Insights from Mental Health Dialogues
+AB: Abstract The growing demand for mental health support has accelerated the adoption of AI-powered chatbots intended to alleviate gaps in access to
+    care. The global AI mental health market is projected to reach 17.8 billion USD by 2030, yet it remains unclear whether AI-mediated therapeutic
+    conversations differ fundamentally from human-delivered therapy in emotional expression and linguistic style. This uncertainty raises critical
+    questions for clinical integration, user trust, and ethical deployment. This study investigated whether emotional expression patterns differ
+    between AI mental health conversations and human therapy sessions. A total of 1,000 AI chatbot conversations and 1,000 human therapy dialogues
+    were extracted from open-access datasets and analyzed using computational text analysis and machine learning. Emotional intensity was measured
+    across five domains (anxiety, depression, loneliness, positive affect, anger), alongside sentiment polarity, self-disclosure markers,
+    conversational structure, and linguistic features. Statistical tests used Benjamini–Hochberg FDR correction and effect size estimation. A Random
+    Forest classifier with 5-fold cross-validation evaluated the distinguishability of AI and human conversations. Results showed that emotional
+    expression was statistically indistinguishable across most domains. Machine learning classification yielded only 48.3% accuracy, equivalent to
+    chance performance. Key distinguishing features were structural rather than emotional word count and sentiment accounted for 44% of predictive
+    value. These findings suggest that users express emotions in comparable ways to AI and human therapists. AI chatbots should be positioned as
+    accessibility tools that supplement but never replace clinical care.
+
+### R00710 | 2026 | preprint/None | Lang: en
+TI: INTELLIGENT VIRTUAL ASSISTANT FOR SURVEY RESEARCH: FROM DEVELOPMENT TO FIELD EVALUATION
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00711 | 2025 | preprint/None | Lang: en
+TI: Adoption, usability and perceived clinical value of a UK AI clinical reference platform: a mixed-methods formative evaluation of real-world usage
+    and a 1,223-respondent user survey. (Preprint)
+AB: BACKGROUND The exponential growth of biomedical literature and clinical guidelines contributes to information overload for healthcare
+    professionals, exacerbating clinician burnout and impeding evidence-based practice. Traditional resources often fail to deliver rapid, accessible
+    information at the point of care. Retrieval-augmented generation (RAG) architectures using large language models (LLMs) offer potential for
+    efficient, provenance-bound clinical decision support, but require evaluation in real-world settings to ensure safety and utility, particularly in
+    public health informatics contexts like UK healthcare. OBJECTIVE To describe the design of iatroX, a UK-centred RAG-based clinical reference
+    platform, and report early real-world adoption, usability, and perceived clinical utility from a formative implementation evaluation. METHODS This
+    mixed-methods formative evaluation combined (i) a retrospective observational analysis of platform usage data across web, iOS, and Android
+    applications over 16 weeks (8 April–31 July 2025) and (ii) a cross-sectional, in-product intercept survey. Usage metrics (unique users, engagement
+    events, clinical queries) were sourced from Google Analytics 4, Apple App Store Connect, and Google Play Console, with bot filtering applied. A
+    client-side script randomized single-item survey prompts to ~10% of web sessions from a predefined battery assessing usefulness, reliability, and
+    adoption intent; responses were anonymous ("Yes/No/Don't Know"). Proportions were reported with Wilson 95% confidence intervals; qualitative
+    comments underwent thematic content analysis. Reporting adhered to STROBE and CHERRIES guidelines. This was classified as a UK service evaluation,
+    requiring no ethics review. RESULTS The platform achieved rapid adoption with 19,269 unique web users, 202,660 engagement events (~10.5 per active
+    user), and ~40,000 clinical queries across platforms. Mobile downloads included 1,960 iOS and steady Android growth (peak >750 daily active
+    users). The survey elicited 1,223 item-level responses: perceived usefulness 86.2% (95% CI 74.8–93.9%; 50/58); time saved 60.9% (95% CI
+    38.5–80.3%; 14/23); would use again 93.3% (95% CI 68.1–99.8%; 14/15); willingness to recommend 88.4% (95% CI 75.1–95.9%; 38/43); perceived
+    accuracy 75.0% (95% CI 58.8–87.3%; 30/40); perceived reliability 79.4% (95% CI 62.1–91.3%; 27/34). Themes included speed, guideline-grounded
+    responses, and UK specificity. CONCLUSIONS iatroX demonstrated strong early uptake and positive user perceptions among UK clinicians, highlighting
+    RAG's potential to mitigate information overload in public health informatics. Limitations include small per-item sample sizes and early-adopter
+    bias; future work should include objective accuracy audits and prospective impact studies on workflows and care quality.
+
+### R00712 | 2025 | article/None | Lang: en
+TI: Designing an AI-Integrated LMS: EFL Teachers’ Views on Affordances and Challenges
+AB: The integration of generative artificial intelligence (GenAI) into English as a Foreign Language (EFL) learning is an emerging area of inquiry,
+    particularly in contexts undergoing curriculum reform. This study explores how embedding ChatGPT into a Learning Management System (LMS) can
+    support secondary EFL teachers’ instructional practices. Despite national efforts to improve digital infrastructure and pedagogical innovation,
+    many EFL teachers still struggle with effectively using LMS platforms for language instruction. The study adopted a Design-Based Research (DBR)
+    guided by the Software Development Life Cycle (SDLC) Waterfall model, to design, implement, and evaluate an AI-integrated LMS. Data were collected
+    through surveys, interviews, and user walkthroughs with six secondary EFL teachers. Findings show that the AI-enhanced LMS improved usability,
+    instructional planning, language material development, and teacher confidence. Teachers described the AI chatbot as a supportive thinking partner
+    for generating lesson ideas, workload and encouraged pedagogical reflection. At the same time, they raised concerns about student overreliance,
+    content accuracy, and the ethical boundaries of AI use. These insights highlight the importance of co-design, context-sensitive implementation,
+    and critical digital literacy in GenAI integration. This study contributes to growing conversations on AI in secondary education by emphasizing
+    the role of teacher agency, ethical awareness, and system adaptability. It suggests that GenAI, when grounded in local practice, can act not only
+    as a technical tool but as a catalyst for language pedagogical instruction.
+
+### R00713 | 2025 | article/None | Lang: en
+TI: The Role of Explainable AI (XAI) In Enhancing Transparency and Trust in NLP-Powered Educational Systems
+AB: As Artificial Intelligence (AI) systems become increasingly integrated into educational settings, the demand for transparency and trustworthiness
+    has grown. Natural Language Processing (NLP)-powered applications such as intelligent tutoring systems, automated essay scoring, and educational
+    chatbots offer significant benefits for personalized learning, yet often operate as “black boxes.” The lack of explainability in these models can
+    undermine user trust, raise ethical concerns, and limit their effective use in classrooms. Explainable Artificial Intelligence (XAI) offers a
+    critical solution by making AI decisions interpretable and justifiable to end-users. This review explores the role of XAI in enhancing
+    transparency and trust within NLP-powered educational systems. It examines core challenges faced by educators and learners when using opaque AI,
+    including bias, accountability, and adoption resistance. The paper reviews XAI techniques such as feature attribution, attention visualization,
+    and open learner models that provide insights into model behavior. Real-world applications like the iRead literacy tutor and AI chatbots for
+    feedback analysis illustrate how XAI can improve stakeholder confidence and system usability. The paper also outlines future research directions,
+    emphasizing the need for user-centered explanations, multimodal transparency, and standardized evaluation frameworks. Ultimately, the integration
+    of XAI into educational NLP tools is not merely a technical enhancement—it is essential for building ethical, effective, and human-aligned AI
+    systems in education. By making AI outputs understandable and actionable, XAI bridges the gap between powerful algorithms and pedagogical trust.
+
+### R00714 | 2026 | article/None | Lang: en
+TI: Role of artificial intelligence on consumer buying behavior: the dual effects of AI-enabled features on decision-making and trust
+AB: Purpose This study investigates the influence of Artificial Intelligence (AI) features on consumers’ buying behavior for electronic products, with
+    a specific focus on consumer trust, decision-making ease, and purchase intention. Design/methodology/approach This study used a quantitative
+    research design to investigate the impact of key AI features on consumer outcomes. Data were collected using a structured questionnaire.
+    Structural Equation Modeling (SEM) was employed to analyze the relationships between three AI features (modeled as latent constructs for
+    recommendation engines, chatbots, and comparison tools) and the dependent variables of consumer trust, perceived decision-making support, and
+    purchase intention. Findings The results indicate that AI-enabled features significantly enhance consumer confidence and satisfaction by
+    simplifying product evaluations and increasing perceived usefulness. However, concerns about privacy risks, overreliance on technology, and
+    decision fatigue continue to shape consumer trust and adoption. This study highlights the importance of designing AI systems that are transparent,
+    ethical, and inclusive for both tech-savvy and less technologically adept consumers. Originality/value The originality of this study is threefold.
+    First, it developed a unified framework that integrates technology acceptance and trust-based perspectives, a synthesis rarely found in the
+    existing literature. Second, it moves beyond examining AI as a monolith by investigating how distinct and common AI features (recommendation
+    engines, chatbots, and comparison tools) jointly influence the consumer decision journey. Finally, it bridges a critical theoretical gap by
+    elucidating the interplay between perceived usefulness, trust, and ethical design, providing novel insights into how AI can be implemented not
+    only effectively but also responsibly to empower consumers.
+
+### R00715 | 2026 | article/None | Lang: en
+TI: A framework for clinical validation of generative artificial intelligence therapeutics
+AB: While established frameworks exist for assessing the clinical efficacy and effectiveness of human-delivered interventions, and standards are in
+    place for pre-artificial intelligence (AI) chatbots that have achieved clearance from the US Food and Drug Administration (FDA) as companions to
+    psychological treatment, a significant void remains. There are currently no defined standards to determine the efficacy of an AI agent in
+    delivering validated treatment approaches, whether it is assisting with medication management, supporting clinicians, or directly delivering talk
+    therapy. This gap leaves the field vulnerable, confronting a surge of emerging technologies without the necessary tools to ascertain their safety,
+    and if – or for whom – they genuinely work. Autonomous or semi-autonomous AI agents, capable of interacting across diverse modalities – text,
+    voice and images – can both understand and mirror the complex cues that human therapists utilize, thereby enhancing both engagement and assessment
+    capabilities. This positions generative AI (GenAI) as a deeply promising solution for delivering psychological interventions, with the potential
+    to significantly broaden treatment reach and reduce costs. However, the rapid proliferation of digital applications claiming therapeutic effects,
+    coupled with their increasing adoption by the public1, underscores a crucial concern: the absence of established clinical standards for rigorously
+    evaluating the safety and effectiveness of these GenAI agents. This regulatory void creates potential risks for patients and impedes the
+    responsible and ethical integration of this transformative technology into validated clinical practice. Therefore, a robust evaluation framework,
+    one that thoughtfully adapts established psychotherapy trial design principles to the unique characteristics of AI, is not only beneficial but
+    urgently required. While sharing some commonalities with general wellness and coaching applications, GenAI agents explicitly intended for
+    treatment of clinical disorders face distinct and amplified validation challenges. These encompass the intricate management of high-risk safety
+    scenarios, the imperative for strict adherence to empirically supported therapeutic approaches, and the inherent complexities of clinical
+    reasoning. Unlike traditional, deterministic chatbots that follow rigid decision trees, generative models operate probabilistically. Their
+    dynamic, non-deterministic nature, while powerful, necessitates a novel dual approach to validation that seamlessly integrates meticulous human
+    oversight with sophisticated agent-based evaluation, thereby ensuring uncompromised safety, efficacy and effectiveness. The concepts of efficacy
+    (an intervention's effect under ideal conditions) and effectiveness (its performance in real-world settings) are foundational to therapeutic
+    development. However, GenAI agents, with their dynamic, evolving models, directly challenge traditional validation paradigms. Their
+    non-deterministic therapeutic actions mean that an agent may not produce identical responses to seemingly similar prompts. Consequently, the
+    intervention cannot be defined by verbatim replication, but rather by the consistent and principled application of established therapeutic
+    frameworks within clearly defined guardrails, much akin to how human-delivered treatments are evaluated for fidelity. Furthermore, the assumption
+    that AI models can seamlessly mimic human clinical reasoning is inherently flawed. GenAI models are demonstrably prone to factual errors (often
+    termed “hallucinations”), can inadvertently inherit biases embedded in their training data, and may exhibit deficits in episodic memory or subtle
+    concept differentiation – all of which are critically important for sound clinical reasoning and avoiding problematic cognitions. Evaluating the
+    cumulative impact of micro-interactions over extended periods is paramount, requiring analysis beyond simplistic single-turn benchmarks, to truly
+    understand how an agent maintains therapeutic coherence, fosters an alliance, and effectively mitigates risks such as model sycophancy or the
+    perpetuation of unhelpful thought patterns. Longitudinal studies, moreover, are particularly vulnerable to “model drift”, where updates to the
+    underlying large language model (LLM) subtly alter the agent's therapeutic characteristics, necessitating rigorous version control and proactive
+    clinical impact assessments. A particularly salient challenge, and potentially an opportunity, is the concept of the therapeutic alliance, which
+    is an essential component of human-to-human treatment2, within human-AI interaction. Unlike humans, LLMs are not capable of complex cognitions
+    that humans rely on to interact relationally3. Therefore, the nature of AI's alliance may rely on more concrete markers of trust and support –
+    such as explicit goal-setting, the use of collaborative and validating language, and adaptive responsiveness. The “emotional bond” component, in
+    this context, shifts from reciprocal human affection to the user's trust in the AI's consistency, reliability, helpfulness, and its demonstrated
+    ability to deliver contextually appropriate and empathetic language. Evaluation, therefore, must involve analyzing the AI's dialogue for clear
+    markers of active listening, validation, and empathetic resonance, alongside objective user interaction patterns such as sustained engagement and
+    task adherence as robust behavioral proxies for a perceived positive alliance. To build patient confidence and ensure both safety and
+    effectiveness, these core concepts must be rigorously adapted for GenAI. The efficacy of a GenAI therapeutic agent can be precisely defined as the
+    capacity of a specific, version-controlled agent – meticulously characterized by its explicit model, knowledge grounding, therapeutic principles,
+    and interaction protocols – to produce statistically and clinically significant improvement on validated primary outcome measures, relative to a
+    robust control, in a randomly assigned population under optimized study conditions. This demands transparent documentation of the LLM version,
+    fine-tuning data, and clearly defined guardrails4. Effectiveness is the extent to which an agent, deployed in representative real-world settings
+    (including controlled updates), achieves clinically meaningful benefits across diverse outcome domains, demonstrates sustained user engagement,
+    and consistently maintains an acceptable safety profile. Effectiveness studies therefore necessitate pragmatic designs that accurately reflect
+    typical use-cases and heterogeneous populations, requiring robust strategies for managing model evolution through performance thresholds that
+    trigger re-validation or continuous monitoring. To accelerate the responsible translation of GenAI into evidence-based mental health care, a
+    multi-stage, hybrid validation process is essential, meticulously integrating rigorous technical AI evaluation with established clinical research
+    methodologies. This comprehensive framework should be conceptualized in phases analogous to traditional therapeutic development: iterative
+    development, pre-clinical validation, clinical trials, and post-deployment monitoring. The first phase, iterative development and benchmarking,
+    involves rapid model refinement using simpler, initial benchmarks such as single-turn adherence checks. This phase focuses on foundational
+    capabilities and preliminary alignment. The second phase, pre-clinical AI validation, moves beyond simple accuracy to rigorous in silico and
+    simulated validation of the agent's behavior in complex, dynamic scenarios. This critical stage includes using LLM-to-LLM role-playing or human
+    actors to simulate diverse therapeutic interactions, rigorous adversarial “red teaming” to proactively identify safety-critical failure modes5
+    (e.g., mismanaging crisis cues or providing harmful advice), and systematic bias and fairness audits to prevent the perpetuation or amplification
+    of health disparities6. The third phase, clinical efficacy and effectiveness trials, establishes direct patient benefit. These demands validating
+    longitudinal therapeutic coherence, as clinically relevant behaviors, therapeutic benefits, and potential risks often emerge and evolve over time.
+    Trials must employ sophisticated methods to assess context retention, dialogue coherence, and task completion across extended, multi-session
+    interactions. Human evaluation frameworks are paramount for assessing information quality, clinical reasoning, expression style, overall safety,
+    and patient trust, alongside crucial ethical and practical considerations such as clinical credibility, user experience, user agency, equity,
+    transparency, and crisis management protocols. The fourth phase, post-deployment and continuous validation, ensures sustained safety and efficacy
+    in real-world use. GenAI agents require ongoing, vigilant monitoring to detect any performance degradation, drift, or the emergence of new risks.
+    A one-time demonstration of effectiveness is insufficient for these rapidly evolving technologies. This phase demands pragmatic trial designs that
+    accurately reflect real-world conditions7, clear and actionable protocols for re-validation when the underlying model is substantially updated or
+    performance metrics fall below a pre-defined threshold, and robust continuous validation processes to re-establish therapeutic effects and
+    comprehensively assess risk profiles. GenAI agents that interact directly with clinicians, caregivers and patients offer significant and
+    transformative opportunities for psychotherapy. However, their responsible translation into validated clinical tools necessitates a clinically
+    specific and robust research framework8, 9. The above-mentioned stages of development, which integrate traditional sequential clinical trial norms
+    with emerging state-of-the-art AI validation strategies, provide a crucial path forward. The ultimate aim is to develop common standards and
+    methodologies that facilitate unwavering transparency and engender deep trust across the entire ecosystem of mental health care.
+
+### R00716 | 2026 | article/None | Lang: en
+TI: Trustworthy Companion AI for Human-Aware Transition of Control: Motivation, Architecture, and Research Roadmap
+AB: Transitions of control between automated driving systems and human drivers remain safety-relevant and cognitively demanding moments in
+    human–automation interaction. Recent studies show that transition performance depends not only on takeover timing or response speed but also on
+    traffic complexity, driver readiness, automation limitations, trust calibration, and situational-awareness recovery. As in-vehicle interaction
+    evolves toward conversational and agentic AI assistance, takeover support also becomes a problem of governing how natural-language AI systems
+    communicate with the driver under uncertainty. This paper proposes a digital-twin-mediated framework for human-aware takeover support in automated
+    driving. In this framework, the companion AI is treated as an assumed LLM-based in-vehicle conversational or agentic assistant used as an advisory
+    interaction component. The contribution is defined at the architectural level: human, vehicle, and context/road digital twins provide structured
+    semantic state abstractions through a semantic state interface exposing confidence, freshness, provenance, and consistency metadata, while a
+    trustworthy companion AI (TCAI) layer grounds, constrains, validates, and governs companion AI output proposals before HMI delivery. Building on
+    the research on driver-state monitoring, adaptive HMI, trust calibration, explainability, conversational assistance, and human assistance systems
+    (HASs), the framework coordinates advisory interaction across vigilance support, contextual explanation, trust-calibrating communication, and
+    directive handover guidance. The TCAI layer combines bounded reasoning, human-factor-derived guardrails, state-consistency management, dynamic
+    explanation-depth control, trust-dynamics modeling, graded watchdog veto handling, mandatory access-control assumptions, and deterministic
+    fallback. Safety-critical vehicle-control and minimum risk condition (MRC) functions remain assigned to the deterministic vehicle-control stack,
+    while the authorized output path of the TCAI layer is validated HMI delivery. The paper concludes with a validation agenda and technical roadmap
+    covering planned transitions, urgent handovers, degraded or adversarial conditions, temporal fusion of driver-state evidence, phase-sensitive HMI
+    policies, trust-calibration trajectories, driver veto and partial-disabling mechanisms, and staged simulator-to-vehicle evaluation. Although
+    motivated by SAE Level 3 automation, the framework may also inform fallback-related Level 4 scenarios in which human and automated agency must be
+    managed under uncertainty.
+
+### R00717 | 2025 | article/None | Lang: en
+TI: Are numerical or verbal explanations of AI the key to appropriate user reliance and error detection?
+AB: Advances in AI and our limited human capabilities have made AI decision-making opaque to humans. One prerequisite for enhancing the transparency
+    of AI recommendations is improving AI explainability as humans need to be enabled to take responsibility for their actions even with AI support.
+    Our study aims to tackle this issue by investigating two basic approaches to explainability: We evaluate numerical explanations, such as certainty
+    measures, against verbal explanations, such as those provided by LLM as explanatory agents. Specifically, we examine whether verbal or numerical
+    (or both) explanations in tasks of high uncertainty lure users into false beliefs or, on the contrary, promote appropriate reliance. Drawing on an
+    experiment with 441 participants, we explore the dynamics of non-expert users' interactions with AI under varying explanatory conditions. Results
+    show that explanations significantly improve reliance and decision accuracy. Numerical explanations aid in identifying uncertainties and errors,
+    but the users' reliance on the advice falls far behind the given numerical certainty. Verbal explanations foster higher reliance while increasing
+    the risk of over-reliance. Combining both explanation types enhances reliance but further amplifies blind trust in AI.
+
+### R00718 | 2026 | article/None | Lang: en
+TI: AI-Mediated Student Mental Health Support in Higher Education: An HCI-Oriented Study of Experiences, Risks, and Interactive AI Support Design
+AB: Student mental health has become a critical issue in higher education as academic pressure, financial stress, social adjustment, and uncertainty
+    about the future continue to affect students’ emotional well-being. Although digital mental health therapies can enhance psychological well-being,
+    their effectiveness often depends on context, participation, and design quality. At the same time, generative artificial intelligence (GenAI) is
+    becoming increasingly integrated into students' personal and academic lives, affecting their information seeking, stress management, emotional
+    reflection, and reassurance-seeking behaviors. This study uses a Human-Computer Interaction (HCI) approach to examine how AI can enhance students'
+    mental health in higher education. The paper weighs the advantages and disadvantages of adopting AI for mental health support by reviewing
+    research on student well-being, digital mental health support, GenAI in education, AI-based mental health chatbots, and HCI design. While the
+    analysis raises concerns about trust, privacy, misinformation, superficial empathy, overreliance, insufficient crisis escalation, and cultural
+    mismatch, it also suggests that AI-based solutions may provide instantaneous, accessible, confidential, and stigma-free support. Based on these
+    findings, the research proposes an HCI-informed framework linking student needs, AI interaction quality, psychological support mechanisms, risk
+    protections, and well-being outcomes. According to the study, trust calibration, perceived empathy, disclosure comfort, autonomy support,
+    emotional self-efficacy, ethical safety, and integration with human care should be considered when evaluating AI mental health support. The
+    proposed framework integrates HCI interaction quality, psychological mechanisms, and risk-aware governance in one conceptual structure. The
+    framework is explicitly positioned as a conceptual model that requires future empirical validation through expert validation, student testing, and
+    prototype evaluation. This review provides a human-centered framework for creating trustworthy, responsible, and supportive AI systems that can
+    improve students' mental health in higher education.
+
+### R00719 | 2025 | article/None | Lang: en
+TI: AI Tools in Improving Speaking Skills: A Literature Review
+AB: This study is a systematic literature review that aims to examine the extent to which Artificial Intelligence (AI) and various AI tools are used
+    to improve the speaking skills of English language learners. The main focus of this study is to identify the benefits of using AI in vocabulary,
+    grammar, pronunciation, fluency, and student confidence, while also reviewing the challenges that accompany it, such as technological limitations,
+    ethical issues, and accessibility problems. Based on the preferred reporting items for systematic reviews and meta-analyses (PRISMA) framework,
+    960 articles published in 2025 from the ERIC database were reviewed, with 7 studies identified as most relevant for further analysis. The findings
+    reveal that AI applications such as chatbots, speech recognition tools, and project-based learning models contribute to improving vocabulary,
+    grammatical accuracy, pronunciation, fluency, and learners’ confidence. Moreover, integrating AI with project-based and blended learning
+    approaches fosters collaboration, critical thinking, and more authentic language use. Nevertheless, several challenges remain, including
+    overreliance on technology, reduced human interaction, as well as ethical and accessibility concerns. Therefore, while AI holds considerable
+    promise in transforming speaking instruction, teachers continue to play a crucial role in providing pedagogical guidance, cultural sensitivity,
+    and emotional support. The review also highlights the need for further research to evaluate the long-term impact of AI integration in language
+    education..
+
+### R00720 | 2026 | article/None | Lang: en
+TI: Cognitive Mechanisms of Conversational Artificial Intelligence Anthropomorphism: A Theoretical-Analytical Model
+AB: The subject of the research is the cognitive mechanisms of artificial intelligence anthropomorphism in the context of human interaction with
+    conversational systems. The article analyzes how an artificial system, initially perceived as a technical tool, may acquire in user perception the
+    features of a quasi-social agent: intentionality, understanding, a stable position, the ability to take context into account, and continuity in
+    interaction. The focus is on the psychological process through which users interpret AI behavior in dialogue, as well as on the mechanism of this
+    phenomenon. Special attention is paid to how natural language, contextual coherence, social self-presentation, perceived continuity of
+    interaction, and users’ preliminary expectations become involved in socio-cognitive processing. The user’s motivational and affective state is
+    also considered: the need for advice, support, understanding, acceptance, or reduction of uncertainty may increase sensitivity to the system’s
+    social signals. Conversational AI anthropomorphism is understood not as a simple perceptual error, but as a dynamic process that may become
+    reinforced through repeated interaction. The methodological basis of the study consists of theoretical analysis, comparative-conceptual analysis,
+    interdisciplinary synthesis, and theoretical modeling. The article draws on studies of anthropomorphism, social cognition, human-computer
+    interaction, and large language models. Key constructs are selected according to their ability to explain the transition from system behavior to
+    agency attribution. The scientific novelty of the study lies in the development of an integrative theoretical-analytical model of conversational
+    AI anthropomorphism that connects the conditions, functional signals, cognitive operations, and consequences of this process. The model
+    differentiates priming and framing as forms of preliminary cognitive tuning, functional triggers of the system, socio-cognitive processing, and
+    anthropomorphic outcomes. The central mechanism is the transition from the perception of system features to their mentalistic interpretation
+    through categorization of behavior as agentic, activation of social schemas, and mentalization. The concept of the “illusion of memory” is
+    clarified as the user’s impression that the system preserves stable knowledge about previous interaction and possesses continuity over time. The
+    model distinguishes primary outcomes of anthropomorphism – perceived agency and the attribution of subject-like qualities – from secondary
+    behavioral effects: trust, emotional engagement, liking of the system, willingness to rely on recommendations, and weakening of critical distance.
+    It is concluded that conversational AI anthropomorphism is formed cumulatively and may develop into a self-reinforcing cycle. The proposed model
+    provides a basis for further empirical testing and more careful design of conversational systems.
+
+### R00721 | 2025 | article/None | Lang: en
+TI: Effectiveness of Generative AI in Automated Written Corrective Feedback With Prompting
+AB: Automated written corrective feedback (AWCF) tools play a crucial role in supporting English writing instruction. However, issues such as
+    insufficient accuracy and hallucination have undermined users’ trust in these systems. To address these challenges, this study investigates the
+    potential of Generative Artificial Intelligence (GAI) enhanced by prompting. Specifically, we evaluate the performance of several GAI models,
+    including GPT-4, in providing written corrective feedback compared to commercial AWCF tools and other advanced models. The study adopts a
+    dual-method approach: (1) a comprehensive model evaluation using established English writing datasets to assess error correction performance via
+    various prompting strategies, and (2) an empirical study involving teachers and students to examine the system’s practical efficacy and users’
+    perspective. Quantitative results indicate that GPT-4 with chain-of-thought prompting significantly outperforms commercial tools, achieving
+    improved consistency and accuracy in error detection and correction. Qualitative feedback from participants further supports the system’s
+    potential to enhance students’ writing quality and confidence, while concurrently reducing teachers’ workload and optimizing instructional
+    efficiency, despite concerns regarding occasional overcorrection. These findings emphasize the benefits of task-specific prompting in GAI-based
+    AWCF systems and provide actionable insights for integrating advanced AI feedback into educational practices.
+
+### R00722 | 2026 | article/None | Lang: en
+TI: Artificial Intelligence in Higher Education: Psychological Effects on University Teaching
+AB: Aim . To identify GenAI‑specific psychological mechanisms through which LLMs reshape academic teaching work, and to compare effects in content
+    creation versus assessment. Methodology . The study combines a transparent integrative review (2015–2025; Scopus, WoS, PsycINFO, ERIC, RSCI; 56
+    sources with PRISMA‑style tracking) with a qualitative pilot (16 semi‑structured interviews with Russian university instructors; thematic
+    analysis) using an integrated JD‑R and SDT framework. Results : GenAI acts both as a resource and a work‑redesign driver, generating AI‑specific
+    demands: epistemic uncertainty, verification workload, trust calibration, accountability / responsibility anxiety, norm acceleration and “silent”
+    intensification, and a role shift toward surveillance in assessment. A domain asymmetry is found – content work is mainly burdened by hidden
+    cognitive verification, while assessment amplifies emotional and normative risks related to fairness and conflict. Research implications : a model
+    linking GenAI properties to job demands / resources and basic needs (autonomy, competence, relatedness) is proposed; recommendations include
+    formal time for verification, a human‑in‑the‑loop standard for high‑stakes assessment, clearer academic integrity policies, and safeguards against
+    intensification.
+
+### R00723 | 2025 | article/None | Lang: en
+TI: Designing AI-Based Interactive E-Books for English for Specific Purposes (ESP) in Health Science Education
+AB: This research formulates and tests an AI-driven interactive e-book to increase English for Specific Purposes (ESP) learning by healthcare students
+    in order to enhance speaking performance regarding fluency, pronunciation, vocabulary, grammar, and cohesion of content. Existing ESP materials in
+    healthcare settings are non-interactive and too static to facilitate communicative practice in real time. Following a Research and Development
+    (R&D) methodology, the research moved from needs analysis, prototyping of AI-based functionalities such as adaptive learning modules, NLP-based
+    clinical dialogue simulation chatbots, and speech recognition to provide pronunciation feedback, to empirical testing. Thirty medical students
+    completed pre- and post-tests, measured on a valid speaking rubric for the five performance areas and user perception surveys. Quantitative
+    outcomes recorded considerable improvement across every area of speaking with maximum progress in fluency and vocabulary, while qualitative
+    feedback indicated growing confidence and motivation for applying English for work purposes. The concluding AI-facilitated e-book, ISBN and
+    copyrighted, provides a model for the scaling up of AI into domain language acquisition. The results have practical significance for ESP
+    instructors and instructional designers who seek to integrate pedagogy and technology in ESP, particularly in healthcare training. Keywords:
+    ai-integrated e-book, English for specific purposes, healthcare communication, speaking performance, interactive learning.
+
+### R00724 | 2025 | article/None | Lang: en
+TI: Exploring Omani EFL Learners’ Perceptions of AI Tools
+AB: This study employed the Technology Acceptance Model to investigate Omani English as a foreign language (EFL) learners’ perceptions and use of
+    ChatGPT in English learning settings. A predominantly quantitative descriptive design was adopted, using a questionnaire that included primarily
+    closed‑ended items with three open‑ended items added to support the quantitative findings. The data were collected from 198 students of two higher
+    education institutions in Oman. Quantitative findings revealed that Omani EFL learners used ChatGPT both inside and outside class for learning
+    English, mainly for obtaining explanations for unclear concepts and ideas, obtaining answers for English exercises, grammar correction and
+    support, and idea generation. The correlation analysis shows that more frequent and longer use of ChatGPT was associated with a wider range of
+    English learning purposes. The learners reported strong ease of use, positive attitudes towards ChatGPT, and an intention to pursue using it. The
+    qualitative findings supported the quantitative results, emphasizing that ChatGPT improved learners’performance in terms of grammar, writing
+    fluency, vocabulary building, confidence and learning autonomy. However, the qualitative findings revealed some concerns about overreliance,
+    accuracy, limited contextual depth, and academic integrity. Both sets of findings suggest that while Omani EFL learners are ready to adopt and
+    integrate ChatGPT into EFL learning, they are cautious about the unguided use of it. Future research may extend this work to examine the long‑term
+    impact of ChatGPT on EFL learners across a wider range of higher education institutions within and beyond the Sultanate of Oman.
+
+### R00725 | 2026 | article/None | Lang: en
+TI: Knowledge, attitude, and perceptions of applied medical science students toward artificial intelligence as an educational tool at KSAU-HS, Jeddah
+AB: Despite the growing use of AI in medical and health professions education, most existing research in Saudi Arabia has focused on medical and
+    dental students, with limited data on Applied Medical Sciences students, who form a significant part of the workforce in direct patient care.
+    Additionally, there remains a lack of understanding about students' readiness, ethical awareness, and appropriate reliance on AI-based
+    technologies. Understanding their knowledge and perceptions is crucial for developing evidence-based strategies that align with Saudi Vision 2030
+    goals for digital transformation in healthcare and education.An analytical cross-sectional study was conducted among third- and fourth-year
+    Applied Medical Sciences students at King Saud bin Abdulaziz University for Health Sciences in Jeddah. Data were collected through an online
+    questionnaire using a stratified sampling method to ensure gender representation. A total of 148 students completed the survey.Over 90% of
+    students reported using AI-based educational tools to support their learning, mainly to enhance their understanding of specific topics. However,
+    students had mixed opinions about using AI health chatbots for medical diagnosis or treatment, with 39.8% agreeing and 46.6% disagreeing that AI
+    could assist in diagnosis or treatment planning.In conclusion, Applied Medical Sciences students demonstrated favorable knowledge, attitudes, and
+    perceptions toward AI as an educational tool, while uncertainties remained regarding its use in clinical decision support. Tackling these issues
+    with targeted educational programs and awareness efforts could enhance students' digital skills and support national initiatives for healthcare
+    transformation.
+
+### R00726 | 2026 | article/None | Lang: en
+TI: Evaluating Locally Grounded Generative AI for Health-Policy Support: A Multilevel Mixed-Methods Pilot Study
+AB: Generative artificial intelligence (GenAI) may assist evidence-informed health-policy work, but favorable user perceptions and well-written
+    outputs do not establish factual reliability or implementation readiness. A multilevel mixed-methods pilot evaluation examined MUSYA AI, a locally
+    grounded policy-support platform in Thailand. Thirty-five health-sector personnel completed questionnaires, seven participated in Think-Aloud
+    observation, sixteen Policy Briefs were assessed using an expert rubric, and seventy factual claims underwent evidence auditing. The document
+    comparison included eight MUSYA AI and eight ChatGPT (GPT-5.6, OpenAI) outputs under common task instructions and system-specific information
+    access. Mean System Usability Scale, perceived usefulness, and trust scores were 97.29/100, 4.70/5, and 4.57/5, respectively. Ceiling effects and
+    limited internal consistency constrained interpretation of these descriptive indices; user experience, ease of use, and behavioral intention were
+    interpreted at the item level. Observations documented reading and editing, but successful error detection and correction were not evaluated.
+    MUSYA AI documents received higher overall quality ratings than comparator documents (95.38 ± 2.39 versus 72.25 ± 11.90; difference, 23.13 points;
+    bootstrap 95% confidence interval, 15.63–31.38; Hedges’ g = 2.55). However, classification–rationale inconsistencies affected forty-five claims
+    (64.3%), leaving comparative factual-accuracy findings provisional. The small, nonrandomized document sample and absence of verified task pairing
+    prevented causal attribution of quality differences. MUSYA AI elicited favorable pilot-user perceptions and produced higher-rated documents within
+    the evaluated sample. These findings support continued supervised evaluation; institutional readiness requires traceable claim adjudication,
+    demonstrated oversight effectiveness, and broader controlled assessment.
+
+### R00727 | 2025 | article/None | Lang: en
+TI: Why can’t epidemiology be automated (yet)?
+AB: Epidemiology is concerned with understanding the distribution and determinants of health in the population. A sizable fraction of epidemiological
+    research involves secondary data analysis: statistically analysing data collected from cohorts, cross-sectional studies, or other data sources.
+    Such research comprises a series of cognitive tasks currently conducted, or at least overseen, by humans. Historically, conducting epidemiological
+    research was a slow, manual endeavor: scanning library shelves, reading physical papers, and manually collecting, coding, and analysing data (Fig.
+    1). Technological progress has now led to much of this work being done electronically, yet actual scientific progress arguably remains slow; e.g.
+    despite the surge in large cohorts and ballooning data volumes—omics, wearables, administrative linkages, etc.—progress in identifying modifiable
+    causes of disease has proved elusive [1, 2]. Technological progress in two key epidemiological tasks (literature reviews and data analysis): from
+    manual work and computerization to artificial intelligence (AI)-augmented research. Note that, in some senses, the final tasks listed (e.g.
+    plain-language analysis) are already possible with current AI systems, yet the quality of the outputs is of mixed or as-yet undetermined quality.
+    Artificial intelligence (AI) represents the next step in the technological evolution of epidemiology (Fig. 1); it can accelerate—or even
+    automate—cognitive tasks, boosting the efficiency of current practice and creating new opportunities for discovery. Epidemiologists often use
+    AI-based tools—sometimes without explicitly knowing it—such as Google Scholar for paper discovery, spell-checkers for writing, and GitHub Copilot
+    for coding. Despite previous AI “winters”, its current era of development, built around the transformer deep-learning architecture [3] that powers
+    modern large language models (LLMs), has generated remarkable progress. LLMs shot into public consciousness in November 2022 with the release of
+    ChatGPT, reportedly the fastest-growing consumer product of all time. Many scientists, particularly younger researchers, now use ChatGPT [4].
+    Other LLMs have since become publicly available and widely used, and billions of dollars are invested in their training. LLMs predict the next
+    token (typically, a small piece of text) in a sequence and, when developed at a massive scale, have surprisingly useful properties. Productivity
+    increases in tasks relevant to epidemiology have recently been suggested—writing [5], cognitive tasks [6], debating/reasoning [7], and coding [8].
+    Here, we map the landscape of epidemiological tasks that rely on existing datasets—from literature review through to idea generation, data access,
+    analysis, write-up, and dissemination. We provide a snapshot of AI tools and a repository containing examples of AI-generated epidemiological
+    output, along with prompt and model details (https://github.com/edlowther/automated-epidemiology). The tools were chosen to present an
+    illustration of what, at the time of writing, frontier AI models were capable of. (We use the term AI to refer to computational systems that can
+    perform cognitive tasks relevant to epidemiological research.) Finally, we discuss barriers to deeper AI integration and broader implications for
+    the field, including how epidemiologists can contribute to AI development, addressing recent calls [9]. We note that the issues discussed apply to
+    other fields, e.g. social sciences [10, 11]. Systematic reviews generally take ≥1 year to undertake [12], with much of this time spent on
+    pain-staking and often tedious screening—manually removing the vast majority of irrelevant articles from the selected pool by comparing them
+    against the same inclusion/exclusion criteria. At face value, this breaks the software engineering principle to “automate repetitive tasks,” but
+    an additional motivation for automation is to reduce errors: humans do not screen without error [13]. In recent years, machine-learning tools have
+    become available to speed up screening: authors manually screen a smaller subset of abstracts to train models, which then automatically screen the
+    remainder [14]. Such tools appear to increase efficiency [15, 16], widening the scope to produce or update reviews more rapidly (possibly
+    continuously) and undertake more ambitious evaluations. LLMs can help in other review-related tasks, such as creating synonym/search-term lists
+    and extracting data. Could the entire process of reviewing be automated? Using an agentic AI system (Otto-SR), a 2025 study claimed to have
+    reproduced and updated a Cochrane issue in 2 days—the equivalent of 12 work-years of traditional systematic review work (assuming 1 year per
+    review) [17]. For more ad-hoc literature searches, systematic reviews are typically prohibitively costly, e.g. when informing introductions or
+    discussion sections in original research articles. Researchers are increasingly using AI-augmented search tools such as Google Scholar to
+    undertake literature searches—unlike PubMed, it indexes non-health publications (e.g. economics articles), as well as grey literature.
+    Nevertheless, both tools require conversion of the search question (e.g. “What effect does X have on Y?”) into terms that are more likely
+    effective for such databases (e.g. “associations between X and Y,” a “randomized controlled trial of X on Y,” etc.), in addition to a continued
+    manual search of “cited by” articles. LLMs can answer such single questions directly and recent reasoning LLMs enable AI “sense checks” before a
+    response is produced. Hallucinations—which raised considerable concern in early models—appear to have been reduced [18]. “DeepResearch”
+    capabilities, made available in several leading LLM tools in recent months, enable more extended searches of scholarly literature; users can check
+    the sources provided via links to the full text. The generality of LLMs means they can usefully sift, connect, and summarize evidence from
+    far-flung disciplines—a task that has otherwise become progressively harder as scientific output has surged [19]. For epidemiologists, such
+    sources range from mechanistic studies in cells, animal models, human autopsy studies, and the social sciences (e.g. psychology, economics,
+    sociology). AI tools could thus make cross-disciplinary triangulation more feasible. Hallucinations remain a barrier to the trustworthiness of
+    LLMs, but a human barrier exists in accessing research articles. Since the 1970s, the five largest for-profit publishers have steadily increased
+    their market share, accounting for more than half of all papers by 2013 [20]. Papers—and even their abstracts—are copyrighted. This creates a
+    particular barrier for open-source AI systems [21]. Partial access to research articles, limited performance with longer “context windows” (the
+    amount of data the LLM uses from memory), and the capacity of LLMs to provide highly compelling but unsupported narratives mean LLMs may mislead
+    [22]. Ongoing evaluation of such systems is required: empirical study of their sensitivity and specificity in searches, for example. This is a
+    challenge given their rapid development—closed-source frontier LLMs can be rapidly updated or decommissioned. It is often assumed that AI systems
+    (particularly LLMs) simply interpolate between data points contained within their training set and are thus not capable of being creative or
+    generating novel ideas—i.e. they are “stochastic parrots” [23]. Setting aside the “incremental” nature of modern science, such claims are at least
+    partly empirically testable: an emerging literature suggests that the creative capability of frontier models may match those of humans in discrete
+    small-scale creative tasks [24]. Their abilities in real-life scientific creativity remain uncertain, as do the comparisons of humans alone versus
+    human–AI collaborations in (i) forming hypotheses that advance epidemiology or (ii) selecting hypotheses that are tractable and falsifiable [25]
+    given the existing data. In other disciplines, such as drug discovery, new scientific findings are seemingly being discovered via AI systems [26].
+    We prompted a recently developed AI tool (the AI Scientist [27]) to suggest novel hypotheses across two topics: (i) the links between birthweight
+    and subsequent body mass index (BMI) and (ii) social inequalities in mental health (see github.com/edlowther/automated-epidemiology). Many
+    hypotheses appear to have face validity, e.g. suggesting generally underutilized approaches to causal inference (sibling comparison studies and
+    natural experiments). We note that such suggestions were created in “one shot” and are thus the equivalent of a human’s first draft. Even if only
+    a fraction of AI-suggested hypotheses are promising, the number that can be created quickly is large and may be especially valuable with
+    discerning humans “in the loop” to select them: an AI-augmented process akin to human brainstorming. A common approach in epidemiological research
+    is that groups running specific epidemiological studies (e.g. cohorts or health surveys) publish research focused on using that specific dataset.
+    In this scenario, multiple publications in the literature from different research groups address the same question; yet, subsequently synthesizing
+    such evidence (e.g. via meta-analysis) is not always possible due to methodological differences. Consortia integrating multiple studies are one
+    manual approach to circumventing this, but they are typically set up for specific research questions and are hard to maintain in the long run;
+    when their funding ends, they may cease to operate. AI may enable a bolder default for epidemiological research, enabling us to ascertain, for
+    each research question, the possible available datasets that could contribute evidence. Of these, which have harmonizable data? And what does that
+    evidence collectively show? Current barriers to this include the high fixed costs of becoming familiar with datasets and the fragmented approaches
+    to data discovery and access. Platforms to aid cohort discovery, e.g. the recent Atlas of Longitudinal Data
+    (https://atlaslongitudinaldatasets.ac.uk), are a step forwards in helping to identify datasets; yet, using them highlights our barriers: 10
+    different cohorts may involve 10 separate access systems, with considerable overlap in the information requested. The challenge for data providers
+    is whether a single point of entry can be provided—a cohesive streamlined data-access system with interoperable data and necessary safeguards.
+    ORCID provides a centralized and broadly accepted system for verifying researcher identity—could existing centralized systems for data
+    documentation and access be expanded (e.g. UK Data Service for UK cohorts; or the Gateway to Global Aging Data, for older adults) or newly
+    created? Within such systems, AI tools can also facilitate the historically slow and manual process of harmonizing data across different datasets
+    [28] (e.g. the Harmony tool [29]). Finally, AI tools can aid in the creation of new epidemiological data. In existing cohorts, for example, data
+    held in historic non-electronic form (e.g. paper questionnaires or microfiche) can be digitized by using automated optical character recognition
+    tools. Such tools can also be used to create new retrospective cohorts: many hundreds of papers have now cited the cohort profiles that arose from
+    the discovery and digitization of records, which formed the basis for the Hertfordshire [30] and Lothian [31] cohort studies. AI tools could also
+    improve existing metadata (e.g. annotating questionnaires with associated variable names). Much like in the literature reviews, epidemiologists
+    are increasingly supported by AI when analysing data. Rather than manually typing out each letter when coding, AI autocompleters such as GitHub
+    Copilot can speed up code writing. For a guide, see https://www.ncrm.ac.uk/resources/online/all/? id=20859. Frontier LLMs are now able to create a
+    complete draft of code in response to a plain-language prompt and then execute this code. The promise is that the rapid, autonomous generation of
+    research code will enable human researchers to spend more time at higher levels of abstraction, e.g. thinking carefully about designing research
+    strategies. We prompted an agentic AI framework (Data Analysis Crow) to address two research questions and provided simulated data. The responses
+    yielded an analytical plan, analytical code, execution of this code, and visualizations—see github.com/edlowther/automated-epidemiology for full
+    workbooks and Table 1 for a summary. While the outputs were (in our view) impressive, they did contain errors and, in some cases, failed entirely,
+    depending on the underlying LLM used. This suggests that (i) the choice of LLM is important and (ii) code review remains essential. Evaluating
+    AI-generated analysis: illustrative results from the Data Analysis Crow ✓ Derived BMI ✓ Removed implausible values ✓ Derived BMI ⚠️ Removed some
+    but not all implausible values ✓ Created analytical plan ⚠️ Errors (e.g. <1.2 metre cases excluded, not <1 metre) ✓ Executed results:
+    tables/figures ✓ Created analytical plan ⚠️ Partial results (API crash) ⚠️ Identified sex, assumed value labels ✓ Log-transformed income ⚠️
+    Identified sex, assumed value labels ✓ Rescaled income ✓ Created analytical plan ✓ Executed results: tables/figures ✓ Created analytical plan ⚠️
+    Partial results (API crash) Each item was evaluated as follows: ✓: correct or plausible output; ⚠️: error or concern identified. A simulated
+    dataset was provided, available on the accompanying repository: https://github.com/edlowther/automated-epidemiology. The Data Analysis Crow is
+    available at https://github.com/Future-House/data-analysis-crow. API, application programming interface. Often, epidemiologists specialize in one
+    piece of software or programming language (e.g. SAS, SPSS, Stata, R). In one sense, specialization is increasingly not needed, as the barrier to
+    entry lowers to code in multiple languages. What will remain important is the clear articulation of the goals in plain language and code review.
+    The fact that AI systems provide analytical syntax also aids in reproducibility: something that <2% of health researchers currently do [32]. The
+    more mundane aspects of data analysis could also be accelerated by AI. Data cleaning, for example, is often a highly manual and time-intensive
+    task that is required even for well-used datasets, leading to considerable duplication of work. Assuming that data cleaning involves 1 month of
+    unnecessary work (cleaning data that should have otherwise been centrally cleaned)—a task ordinarily repeated across 1000 papers—1000 months (83
+    years) of scientists’ time could be saved in the future. A cursory look at the literature suggests at least six distinct AI data-cleaning tools
+    from 2024 onwards that claim varying levels of accuracy in data cleaning [33–38]. Whether such tools are useful in epidemiological applications
+    remains to be seen. A challenge for epidemiologists will be to make sense of the bewildering numbers of tools released in AI-related fields: the
+    creation and curation of epidemiological benchmarks could provide objective criteria by which they can be continually evaluated. Barriers to the
+    use of AI in data analysis include the current frequent need for uploading data to cloud providers: this is not possible for many health-related
+    datasets held in sandboxed secure computing environments. Researchers could instead use local open-source models—such models have historically
+    been weaker than the closed-source models, yet, in recent months, the gap has narrowed considerably [39]. Alternatively, the AI tools could be
+    restricted to accessing metadata (e.g. variable names, labels, and result output) rather than the raw data, or data owners could release synthetic
+    versions of their data. Epidemiologists will, as need to two of The first is a of data if AI tools are used the is a that scientific discovery is
+    restricted if such tools are not used. The is often in our despite to the continued of epidemiological studies (e.g. funding and response and the
+    of data which often remain given a plain-language frontier LLMs can produce entire epidemiological research
+    github.com/edlowther/automated-epidemiology examples of this by using multiple LLMs, each to a paper on the between birthweight and BMI by using a
+    simulated dataset that we do such papers in the current distribution of epidemiological research Despite being given the quality our outputs by at
+    face value to the used criteria for the of epidemiology studies available on the accompanying It also of it a in by that we into the simulated
+    data, despite the prompt the LLM to by In other the papers are of e.g. and the of result as in the LLMs can tool produce compelling and current
+    barriers to AI-generated may partly in how the model is prompted or with tools. automation of epidemiological research generating the idea all the
+    through to a of the capability of AI in each Such tools as AI Scientist and are recent open-source examples of A of research is the evaluation of
+    such systems for e.g. to and Researchers are increasingly to their research with such as the public and and more generally in continued public the
+    of are already with a of small recent on the of AI such tasks may be if public is by a and of scientists, then may LLMs can speed up the creation
+    of and social if provided with and (e.g. the research human may be necessary to accuracy and can now be an AI-generated on this can be at AI
+    increases then researchers may be able to a deeper with than simply that their work should creating evidence across the entire evidence for
+    example, and carefully In our the current capability of AI suggests a to This is the whether AI is used for tasks human as a research or with
+    human as an a or autonomous research Each may to with integration an of both and A promise of AI in the to term is that it could enable more time
+    to be spent on tasks (e.g. designing new research questions or data rather than on tasks that are often (e.g. repetitive or (e.g. code to (see The
+    is at our some in tasks is likely to be or even necessary to (e.g. to data, to and the for training should to this and an on which could the
+    required to and use their outputs Could AI help to epidemiologists to on illustration of our current time versus AI-augmented the quality rather
+    than the of our outputs is then the result could be and a of our We in an era that to produce of papers of including their this is a not an AI are
+    rapidly the costs of cognitive tasks and may for human epidemiologists, on and analysis tasks, by a this could the training leading to
+    epidemiologists across all levels and thus a in the are already uncertain, with of for epidemiologists generally than those in other (e.g. our to
+    become epidemiologists in the is one for is the of on and important integration of AI with epidemiology is For example, can AI or can we use AI to
+    improve epidemiology and a vast of AI benchmarks be created for What and can AI systems the in the AI literature be used to improve and inference
+    in will AI AI could and aspects of epidemiology in the future. AI in its current were to take human intelligence entirely, our could be to produce
+    new which vast use to train AI systems without our Whether such are or for scientific discovery or at large remains an question, which
+    epidemiologists can and should contribute the of AI for epidemiology will require between epidemiologists and the first analysis: authors to
+    generating reviewing and the as well as the accompanying and are by the and and the This paper the use of AI in a range of tools were used as in
+    the paper and LLMs such as ChatGPT were also used to suggest means of the for some The human authors all sections of the and carefully suggestions
+    The a for using
+
+### R00728 | 2025 | article/None | Lang: en
+TI: AI Tools For Speaking Fluency And Pronunciation: Effectiveness And Limitations
+AB: Artificial intelligence (AI) is changing how we teach speaking in a second language (L2) by making feedback on pronunciation and interactive
+    speaking practice available outside of the classroom. There are two main types of tools that are used today: automatic speech recognition (ASR)
+    systems that turn speech into text and give corrective signals, and conversational agents (like chatbots and speech-enabled assistants) that mimic
+    conversation and keep people talking. Research increasingly indicates that these tools can facilitate quantifiable improvements in specific facets
+    of pronunciation and speaking performance, especially when learners are provided with frequent practice opportunities and when AI-mediated
+    feedback is augmented by peer or teacher support. Classroom studies show that ASR-supported practice can help students' pronunciation and speaking
+    test scores in some situations compared to traditional teaching. It can also boost students' confidence and willingness to speak. There are still
+    some big problems, though. ASR doesn't always rate speech with accents in ways that match how people think it sounds, and its feedback can change
+    depending on the speaker, the task, and the phonological target. Conversational agents can boost the number of interactions, but they might not
+    show how complicated the language is in real life and might favor speech that is easy for machines to understand over speech that is easy for
+    people to understand. Emerging syntheses also underscore ethical risks (privacy, data retention, bias) and pedagogical risks (overreliance,
+    diminished learner autonomy if feedback is not explicitly taught). This article examines research trends, suggests a pragmatic approach for
+    assessing AI tools for speaking fluency and pronunciation, and delineates the circumstances in which advantages are most likely to translate to
+    actual communicative competence.
+
+### R00729 | 2026 | article/None | Lang: en
+TI: Exploring Trust Factors in Human-GenAI Product Prioritization
+AB: Product managers increasingly used Generative Artificial Intelligence tools such as ChatGPT, Claude, and Gemini to support product prioritization
+    decisions. However, the factors that shaped trust in these tools within prioritization contexts remained underexplored. This research study
+    investigated how product managers developed trust in GenAI for prioritization through semi-structured interviews with nine participants from
+    Indonesia, Sweden, and Estonia. The thematic analysis revealed four overarching themes related to trust in GenAI for product prioritization:
+    conditional confidence in GenAI ability, trust-building with GenAI through verification practices, data privacy and transparency concerns, and
+    ethical concerns in GenAI use. No participant fully trusted or fully abandoned GenAI, instead adopting a pattern of cautious engagement. The study
+    highlighted the need for organizational governance, clear data policies, and training programs to support appropriate trust calibration in
+    GenAI-assisted product prioritization.
+
+### R00730 | 2026 | article/None | Lang: en
+TI: Assessing Students’ Ethical Concerns in AI-Integrated Online Learning Systems: A Study in Batam City
+AB: The adoption of Artificial Intelligence (AI) in online education introduces ethical concerns related to accuracy, fairness, and accountability.
+    This study examines students’ ethical concerns of AI-integrated learning systems, focusing on AI-generated materials, attendance monitoring, and
+    chatbot interactions. A mixed-method approach combining qualitative and quantitative techniques was used, involving interviews with 48 students
+    from three different educational levels in Batam City. Thematic analysis identified five dominant themes. These included AI as a useful yet
+    unreliable learning assistant, concerns about fairness in AI-based monitoring, uncertainty regarding responsibility and accountability, the need
+    for transparent institutional policies, and limited AI literacy leading to overreliance. The study reports its findings using percentage-based
+    distributions to illustrate the prevalence of these concerns across educational levels. The results indicate that students’ acceptance of AI in
+    online learning is closely tied to the presence of human oversight, transparent institutional policies, and clearly defined accountability
+    mechanisms. The novelty of this study lies in its focus on a pre-adoption educational environment, where AI is not yet fully institutionalized.
+    Unlike prior studies examining post-implementation contexts, this research captures students’ anticipatory ethical expectations, highlighting
+    concerns often overlooked in retrospective evaluations. The study contributes by providing empirical evidence across educational levels, offering
+    localized insights from a developing Indonesian city, and extending AI ethics research beyond technology-advanced settings. The findings emphasize
+    the importance of human oversight, accountability mechanisms, and transparent institutional policies for ethically grounded AI governance in
+    education.
+
+### R00731 | 2026 | article/None | Lang: en
+TI: The Use of Artificial Intelligence in Instagram and Facebook: Opportunities and Perspectives
+AB: Aim of the Study: This study investigates users' perceptions, experiences, concerns, and future outlooks on the incorporation of artificial
+    intelligence (AI) on Facebook and Instagram. This study offers significant understanding of the dynamic environment where artificial intelligence
+    intersects with social media, emphasizing the necessity for ethical deliberations, transparency, and ongoing enhancement. Methodology: The study
+    employed a questionnaire and the collected data was then analyzed using statistical software. A purposive sampling strategy was employed to choose
+    a representative sample of posts, user interactions, and attributes from both social media networks. A questionnaire was designed to collect data
+    from university students. Data was collected from (n=252) students studying in different universities of Rawalpindi and Islamabad. Findings: The
+    findings indicate divergent viewpoints regarding the integration of AI, with a substantial portion expressing confidence in the present level of
+    integration. Individual user experiences differ, with certain individuals expressing satisfaction with content recommendations while others
+    express dissatisfaction with AI-based chatbots. The prominence of privacy concerns highlights the necessity for explicit data regulations.
+    Anticipating the future underscores a positive outlook on the influence of AI in changing social media. These findings enhance current debates
+    surrounding AI in social media and emphasize the significance of user-centric methodologies and ethical deliberations. Conclusion: The study
+    indicates the intricate equilibrium between personalization and authenticity, as a substantial number of users have expressed apprehensions over
+    the influence of AI on the genuineness of material and interactions. This aligns with a more extensive discourse in the literature regarding the
+    difficulties of upholding trust in the era of AI-driven personalization. AI is anticipated to have an increasingly significant impact on molding
+    social media experiences in the future.
+
+### R00732 | 2025 | article/None | Lang: en
+TI: Evaluating Offline AI Assistants in Analog Missions: Implications for Astronaut Trust, Training, and Operational Readiness
+AB: Pilot study presented at the AnalogAstro Conference 2025, Analog Astronaut Training Center (AATC), Poland. The study was conducted during the
+    ASTRAEA-103 analog mission, August 2025. This work addresses the safe operational use of AI in isolated environments, where crews depend on AI
+    assistance without ground support. Analog missions provide a safe yet realistic environment to test how astronauts will collaborate with
+    artificial intelligence during future Moon and Mars expeditions. This pilot study evaluated crew interaction with three locally hosted language
+    models of different sizes (Gemma-3 with 4B parameters, Llama-3.1 with 8B, and DeepSeek-R1 with 14B) across operational tasks in an isolated analog
+    habitat. Using NASA-TLX, System Usability Scale, and Trust-in-Automation metrics (N = 3 participants, 20 task datapoints), results revealed
+    distinct user archetypes: one prioritized speed and clarity (Llama-8B), another favored friendliness and low latency (Gemma-4B), and a third
+    preferred slow but verifiable reasoning (DeepSeek-14B). Although based on a small analog crew, these early patterns highlight consistent human-AI
+    interaction tendencies that can guide future astronaut training. Checklist-style AI outputs reduced workload and frustration, while domain-drift
+    episodes briefly eroded trust without destroying it. Beyond usability, findings underscore a critical operational insight: AI literacy must become
+    an integral part of astronaut training. Crews must understand how a local, offline AI differs from cloud-connected systems, including its
+    computational limits, response behavior, and reliability in isolation, and learn prompt engineering to prevent or recover from hallucinations.
+    Even small, locally run models can support mission tasks effectively when precisely prompted, but their apparent confidence and compliance can
+    mask subtle inaccuracies with potentially hazardous consequences. Therefore, critical evaluation and cross-checking of AI responses must become
+    standard astronaut practice. As AI capabilities advance through onboard hardware acceleration and increased computational power, future missions
+    will benefit not only from stronger models but, more importantly, from better-trained and more critically aware humans. Embedding AI literacy and
+    verification protocols in analog missions and astronaut education is a key step toward human readiness for autonomous deep-space operations. This
+    pilot's observations directly motivate a follow-on study, currently in design, that will examine crew verification behavior, trust calibration
+    over repeated interactions, and safeguards against overreliance with a larger participant group. This record preserves the conference presentation
+    as delivered.
+
+### R00733 | 2026 | preprint/None | Lang: en
+TI: Human-Agent Teaming in Industrial Digital Twins: Real-Time Collaboration for Adaptive Smart Manufacturing
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00734 | 2026 | article/None | Lang: en
+TI: AI-Supported English Language Learning: Indonesian Teacher Perspectives and Implementation
+AB: This research explores English teachers’ perceptions and experiences in integrating Artificial Intelligence (AI) tools into primary and secondary
+    English language instruction. Using a qualitative narrative approach, data were collected through semi-structured interviews with six teachers
+    across educational levels. The findings reveal that teachers generally perceive AI positively, recognizing its potential to enhance student
+    engagement, provide personalized feedback, and support the development of vocabulary, grammar, speaking, reading, and writing skills. Tools such
+    as Quizizz, Grammarly, ChatGPT, and Google Assistant were found to foster learner autonomy and confidence. However, challenges persist, including
+    limited infrastructure, time constraints, and varying levels of digital literacy. Teachers also expressed concerns about overreliance on AI,
+    reduced critical thinking, and diminished student originality. The research concludes that while AI offers valuable pedagogical support, its
+    effective integration requires thoughtful planning, ethical awareness, and institutional backing.
+
+=== END OF BATCH b016 (31 records) ===

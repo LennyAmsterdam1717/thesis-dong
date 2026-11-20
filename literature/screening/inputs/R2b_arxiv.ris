@@ -1,0 +1,1032 @@
+TY  - RPRT
+TI  - Hallucinations and Truth: A Comprehensive Accuracy Evaluation of RAG, LoRA and DoRA
+AB  - Recent advancements in Generative AI have significantly improved the efficiency and adaptability of natural language processing (NLP) systems, particularly through Retrieval-Augmented Generation (RAG), Low-Rank Adaptation (LoRA), and Weight-Decomposed Low-Rank Adaptation (DoRA). RAG integrates external knowledge to enhance factual consistency in generative outputs, while LoRA enables parameter-efficient fine-tuning of large language models (LLMs). DoRA further refines this process by optimizing fine-tuning through adaptive parameter ranking and domain-aware weight adjustments, improving learning efficiency while maintaining inference performance. This paper presents a large-scale empirical evaluation of RAG, LoRA, and DoRA, with model fine-tuning and generation performance assessed on 20,000 FAQ-based queries, while the knowledge base spans 400,000 entries. The study analyzes key performance metrics such as accuracy, relevance, and inference latency. Experimental results demonstrate that DoRA achieves the highest accuracy (90.1%), relevance score (0.88), and lowest latency (110 ms per query), outperforming both LoRA and RAG in real-world, domain-specific generative AI applications. Furthermore, this study examines the trade-offs between fine-tuning efficiency, computational cost, and real-time adaptability across different models. Findings highlight RAG's effectiveness in knowledge grounding, LoRA's cost-efficient domain adaptation, and DoRA's ability to balance fine-tuning efficiency with model precision. These insights provide practical guidance for deploying AI-driven generative systems in accuracy-critical domains such as healthcare, finance, and legal services, ensuring scalability, reliability, and optimal performance in dynamic environments.
+PY  - 2025
+DA  - 2025-02-14
+JO  - arXiv
+DO  - 10.1109/FLICS70075.2026.11621926
+UR  - https://arxiv.org/abs/2502.10497
+AN  - arXiv:2502.10497
+DB  - arXiv
+M3  - preprint
+AU  - Mohammad Baqar
+AU  - Rajat Khanda
+ER  - 
+
+TY  - RPRT
+TI  - Uncertainty Quantification of Large Language Models through Multi-Dimensional Responses
+AB  - Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks due to large training datasets and powerful transformer architecture. However, the reliability of responses from LLMs remains a question. Uncertainty quantification (UQ) of LLMs is crucial for ensuring their reliability, especially in areas such as healthcare, finance, and decision-making. Existing UQ methods primarily focus on semantic similarity, overlooking the deeper knowledge dimensions embedded in responses. We introduce a multi-dimensional UQ framework that integrates semantic and knowledge-aware similarity analysis. By generating multiple responses and leveraging auxiliary LLMs to extract implicit knowledge, we construct separate similarity matrices and apply tensor decomposition to derive a comprehensive uncertainty representation. This approach disentangles overlapping information from both semantic and knowledge dimensions, capturing both semantic variations and factual consistency, leading to more accurate UQ. Our empirical evaluations demonstrate that our method outperforms existing techniques in identifying uncertain responses, offering a more robust framework for enhancing LLM reliability in high-stakes applications.
+PY  - 2025
+DA  - 2025-02-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2502.16820
+AN  - arXiv:2502.16820
+DB  - arXiv
+M3  - preprint
+AU  - Tiejin Chen
+AU  - Xiaoou Liu
+AU  - Longchao Da
+AU  - Jia Chen
+AU  - Vagelis Papalexakis
+AU  - Hua Wei
+ER  - 
+
+TY  - RPRT
+TI  - Hyper-RAG: Combating LLM Hallucinations using Hypergraph-Driven Retrieval-Augmented Generation
+AB  - Large language models (LLMs) have transformed various sectors, including education, finance, and medicine, by enhancing content generation and decision-making processes. However, their integration into the medical field is cautious due to hallucinations, instances where generated content deviates from factual accuracy, potentially leading to adverse outcomes. To address this, we introduce Hyper-RAG, a hypergraph-driven Retrieval-Augmented Generation method that comprehensively captures both pairwise and beyond-pairwise correlations in domain-specific knowledge, thereby mitigating hallucinations. Experiments on the NeurologyCrop dataset with six prominent LLMs demonstrated that Hyper-RAG improves accuracy by an average of 12.3% over direct LLM use and outperforms Graph RAG and Light RAG by 6.3% and 6.0%, respectively. Additionally, Hyper-RAG maintained stable performance with increasing query complexity, unlike existing methods which declined. Further validation across nine diverse datasets showed a 35.5% performance improvement over Light RAG using a selection-based assessment. The lightweight variant, Hyper-RAG-Lite, achieved twice the retrieval speed and a 3.3% performance boost compared with Light RAG. These results confirm Hyper-RAG's effectiveness in enhancing LLM reliability and reducing hallucinations, making it a robust solution for high-stakes applications like medical diagnostics.
+PY  - 2025
+DA  - 2025-03-30
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.08758
+AN  - arXiv:2504.08758
+DB  - arXiv
+M3  - preprint
+AU  - Yifan Feng
+AU  - Hao Hu
+AU  - Xingliang Hou
+AU  - Shiquan Liu
+AU  - Shihui Ying
+AU  - Shaoyi Du
+AU  - Han Hu
+AU  - Yue Gao
+ER  - 
+
+TY  - RPRT
+TI  - An overview of model uncertainty and variability in LLM-based sentiment analysis. Challenges, mitigation strategies and the role of explainability
+AB  - Large Language Models (LLMs) have significantly advanced sentiment analysis, yet their inherent uncertainty and variability pose critical challenges to achieving reliable and consistent outcomes. This paper systematically explores the Model Variability Problem (MVP) in LLM-based sentiment analysis, characterized by inconsistent sentiment classification, polarization, and uncertainty arising from stochastic inference mechanisms, prompt sensitivity, and biases in training data. We analyze the core causes of MVP, presenting illustrative examples and a case study to highlight its impact. In addition, we investigate key challenges and mitigation strategies, paying particular attention to the role of temperature as a driver of output randomness and emphasizing the crucial role of explainability in improving transparency and user trust. By providing a structured perspective on stability, reproducibility, and trustworthiness, this study helps develop more reliable, explainable, and robust sentiment analysis models, facilitating their deployment in high-stakes domains such as finance, healthcare, and policymaking, among others.
+PY  - 2025
+DA  - 2025-04-06
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.04462
+AN  - arXiv:2504.04462
+DB  - arXiv
+M3  - preprint
+AU  - David Herrera-Poyatos
+AU  - Carlos Peláez-González
+AU  - Cristina Zuheros
+AU  - Andrés Herrera-Poyatos
+AU  - Virilo Tejedor
+AU  - Francisco Herrera
+AU  - Rosana Montes
+ER  - 
+
+TY  - RPRT
+TI  - Uncertainty Quantification for Language Models: A Suite of Black-Box, White-Box, LLM Judge, and Ensemble Scorers
+AB  - Hallucinations are a persistent problem with Large Language Models (LLMs). As these models become increasingly used in high-stakes domains, such as healthcare and finance, the need for effective hallucination detection is crucial. To this end, we outline a versatile framework for closed-book hallucination detection that practitioners can apply to real-world use cases. To achieve this, we adapt a variety of existing uncertainty quantification (UQ) techniques, including black-box UQ, white-box UQ, and LLM-as-a-Judge, transforming them as necessary into standardized response-level confidence scores ranging from 0 to 1. To enhance flexibility, we propose a tunable ensemble approach that incorporates any combination of the individual confidence scores. This approach enables practitioners to optimize the ensemble for a specific use case for improved performance. To streamline implementation, the full suite of scorers is offered in this paper's companion Python toolkit, UQLM. To evaluate the performance of the various scorers, we conduct an extensive set of experiments using several LLM question-answering benchmarks. We find that our tunable ensemble typically surpasses its individual components and outperforms existing hallucination detection methods. Our results demonstrate the benefits of customized hallucination detection strategies for improving the accuracy and reliability of LLMs.
+PY  - 2025
+DA  - 2025-04-27
+JO  - arXiv
+UR  - https://arxiv.org/abs/2504.19254
+AN  - arXiv:2504.19254
+DB  - arXiv
+M3  - preprint
+AU  - Dylan Bouchard
+AU  - Mohit Singh Chauhan
+ER  - 
+
+TY  - RPRT
+TI  - Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models
+AB  - Edgar Allan Poe noted, "Truth often lurks in the shadow of error," highlighting the deep complexity intrinsic to the interplay between truth and falsehood, notably under conditions of cognitive and informational asymmetry. This dynamic is strikingly evident in large language models (LLMs). Despite their impressive linguistic generation capabilities, LLMs sometimes produce information that appears factually accurate but is, in reality, fabricated, an issue often referred to as 'hallucinations'. The prevalence of these hallucinations can mislead users, affecting their judgments and decisions. In sectors such as finance, law, and healthcare, such misinformation risks causing substantial economic losses, legal disputes, and health risks, with wide-ranging consequences.In our research, we have methodically categorized, analyzed the causes, detection methods, and solutions related to LLM hallucinations. Our efforts have particularly focused on understanding the roots of hallucinations and evaluating the efficacy of current strategies in revealing the underlying logic, thereby paving the way for the development of innovative and potent approaches. By examining why certain measures are effective against hallucinations, our study aims to foster a comprehensive approach to tackling this issue within the domain of LLMs.
+PY  - 2025
+DA  - 2025-06-06
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.02870
+AN  - arXiv:2507.02870
+DB  - arXiv
+M3  - preprint
+AU  - Chaozhuo Li
+AU  - Pengbo Wang
+AU  - Chenxu Wang
+AU  - Litian Zhang
+AU  - Zheng Liu
+AU  - Qiwei Ye
+AU  - Yuanbo Xu
+AU  - Feiran Huang
+AU  - Xi Zhang
+AU  - Philip S. Yu
+ER  - 
+
+TY  - RPRT
+TI  - Introducing a New Brexit-Related Uncertainty Index: Its Evolution and Economic Consequences
+AB  - Important game-changer economic events and transformations cause uncertainties that may affect investment decisions, capital flows, international trade, and macroeconomic variables. One such major transformation is Brexit, which refers to the multiyear process through which the UK withdrew from the EU. This study develops and uses a new Brexit-Related Uncertainty Index (BRUI). In creating this index, we apply Text Mining, Context Window, Natural Language Processing (NLP), and Large Language Models (LLMs) from Deep Learning techniques to analyse the monthly country reports of the Economist Intelligence Unit from May 2012 to January 2025. Additionally, we employ a standard vector autoregression (VAR) analysis to examine the model-implied responses of various macroeconomic variables to BRUI shocks. While developing the BRUI, we also create a complementary COVID-19 Related Uncertainty Index (CRUI) to distinguish the uncertainties stemming from these distinct events. Empirical findings and comparisons of BRUI with other earlier-developed uncertainty indexes demonstrate the robustness of the new index. This new index can assist British policymakers in measuring and understanding the impacts of Brexit-related uncertainties, enabling more effective policy formulation.
+PY  - 2025
+DA  - 2025-07-03
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.02439
+AN  - arXiv:2507.02439
+DB  - arXiv
+M3  - preprint
+AU  - Ismet Gocer
+AU  - Julia Darby
+AU  - Serdar Ongan
+ER  - 
+
+TY  - RPRT
+TI  - FRED: Financial Retrieval-Enhanced Detection and Editing of Hallucinations in Language Models
+AB  - Hallucinations in large language models pose a critical challenge for applications requiring factual reliability, particularly in high-stakes domains such as finance. This work presents an effective approach for detecting and editing factually incorrect content in model-generated responses based on the provided context. Given a user-defined domain-specific error taxonomy, we construct a synthetic dataset by inserting tagged errors into financial question-answering corpora and then fine-tune four language models, Phi-4, Phi-4-mini, Qwen3-4B, and Qwen3-14B, to detect and edit these factual inaccuracies. Our best-performing model, fine-tuned Phi-4, achieves an 8% improvement in binary F1 score and a 30% gain in overall detection performance compared to OpenAI-o3. Notably, our fine-tuned Phi-4-mini model, despite having only 4 billion parameters, maintains competitive performance with just a 2% drop in binary detection and a 0.1% decline in overall detection compared to OpenAI-o3. Our work provides a practical solution for detecting and editing factual inconsistencies in financial text generation while introducing a generalizable framework that can enhance the trustworthiness and alignment of large language models across diverse applications beyond finance. Our code and data are available at https://github.com/pegasi-ai/shield.
+PY  - 2025
+DA  - 2025-07-28
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.20930
+AN  - arXiv:2507.20930
+DB  - arXiv
+M3  - preprint
+AU  - Likun Tan
+AU  - Kuan-Wei Huang
+AU  - Kevin Wu
+ER  - 
+
+TY  - RPRT
+TI  - Deep Learning-based Prediction of Clinical Trial Enrollment with Uncertainty Estimates
+AB  - Clinical trials are a systematic endeavor to assess the safety and efficacy of new drugs or treatments. Conducting such trials typically demands significant financial investment and meticulous planning, highlighting the need for accurate predictions of trial outcomes. Accurately predicting patient enrollment, a key factor in trial success, is one of the primary challenges during the planning phase. In this work, we propose a novel deep learning-based method to address this critical challenge. Our method, implemented as a neural network model, leverages pre-trained language models (PLMs) to capture the complexities and nuances of clinical documents, transforming them into expressive representations. These representations are then combined with encoded tabular features via an attention mechanism. To account for uncertainties in enrollment prediction, we enhance the model with a probabilistic layer based on the Gamma distribution, which enables range estimation. We apply the proposed model to predict clinical trial duration, assuming site-level enrollment follows a Poisson-Gamma process. We carry out extensive experiments on real-world clinical trial data, and show that the proposed method can effectively predict the number of patients enrolled at a number of sites for a given clinical trial, outperforming established baseline models.
+PY  - 2025
+DA  - 2025-07-31
+JO  - arXiv
+UR  - https://arxiv.org/abs/2507.23607
+AN  - arXiv:2507.23607
+DB  - arXiv
+M3  - preprint
+AU  - Tien Huu Do
+AU  - Antoine Masquelier
+AU  - Nae Eoun Lee
+AU  - Jonathan Crowther
+ER  - 
+
+TY  - RPRT
+TI  - FAITH: A Framework for Assessing Intrinsic Tabular Hallucinations in Finance
+AB  - Hallucination remains a critical challenge for deploying Large Language Models (LLMs) in finance. Accurate extraction and precise calculation from tabular data are essential for reliable financial analysis, since even minor numerical errors can undermine decision-making and regulatory compliance. Financial applications have unique requirements, often relying on context-dependent, numerical, and proprietary tabular data that existing hallucination benchmarks rarely capture. In this study, we develop a rigorous and scalable framework for evaluating intrinsic hallucinations in financial LLMs, conceptualized as a context-aware masked span prediction task over real-world financial documents. Our main contributions are: (1) a novel, automated dataset creation paradigm using a masking strategy; (2) a new hallucination evaluation dataset derived from S&P 500 annual reports; and (3) a comprehensive evaluation of intrinsic hallucination patterns in state-of-the-art LLMs on financial tabular data. Our work provides a robust methodology for in-house LLM evaluation and serves as a critical step toward building more trustworthy and reliable financial Generative AI systems.
+PY  - 2025
+DA  - 2025-08-07
+JO  - arXiv
+DO  - 10.1145/3768292.3770433
+UR  - https://arxiv.org/abs/2508.05201
+AN  - arXiv:2508.05201
+DB  - arXiv
+M3  - preprint
+AU  - Mengao Zhang
+AU  - Jiayu Fu
+AU  - Tanya Warrier
+AU  - Yuwen Wang
+AU  - Tianhui Tan
+AU  - Ke-wei Huang
+ER  - 
+
+TY  - RPRT
+TI  - Interpreting Fedspeak with Confidence: A LLM-Based Uncertainty-Aware Framework Guided by Monetary Policy Transmission Paths
+AB  - "Fedspeak", the stylized and often nuanced language used by the U.S. Federal Reserve, encodes implicit policy signals and strategic stances. The Federal Open Market Committee strategically employs Fedspeak as a communication tool to shape market expectations and influence both domestic and global economic conditions. As such, automatically parsing and interpreting Fedspeak presents a high-impact challenge, with significant implications for financial forecasting, algorithmic trading, and data-driven policy analysis. In this paper, we propose an LLM-based, uncertainty-aware framework for deciphering Fedspeak and classifying its underlying monetary policy stance. Technically, to enrich the semantic and contextual representation of Fedspeak texts, we incorporate domain-specific reasoning grounded in the monetary policy transmission mechanism. We further introduce a dynamic uncertainty decoding module to assess the confidence of model predictions, thereby enhancing both classification accuracy and model reliability. Experimental results demonstrate that our framework achieves state-of-the-art performance on the policy stance analysis task. Moreover, statistical analysis reveals a significant positive correlation between perceptual uncertainty and model error rates, validating the effectiveness of perceptual uncertainty as a diagnostic signal.
+PY  - 2025
+DA  - 2025-08-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2508.08001
+AN  - arXiv:2508.08001
+DB  - arXiv
+M3  - preprint
+AU  - Rui Yao
+AU  - Qi Chai
+AU  - Jinhai Yao
+AU  - Siyuan Li
+AU  - Junhao Chen
+AU  - Qi Zhang
+AU  - Hao Wang
+ER  - 
+
+TY  - RPRT
+TI  - Disentangling the Drivers of LLM Social Conformity: An Uncertainty-Moderated Dual-Process Mechanism
+AB  - As large language models (LLMs) integrate into collaborative teams, their social conformity -- the tendency to align with majority opinions -- has emerged as a key concern. In humans, conformity arises from informational influence (rational use of group cues for accuracy) or normative influence (social pressure for approval), with uncertainty moderating this balance by shifting from purely analytical to heuristic processing. It remains unclear whether these human psychological mechanisms apply to LLMs. This study adapts the information cascade paradigm from behavioral economics to quantitatively disentangle the two drivers to investigate the moderate effect. We evaluated nine leading LLMs across three decision-making scenarios (medical, legal, investment), manipulating information uncertainty (q = 0.667, 0.55, and 0.70, respectively). Our results indicate that informational influence underpins the models' behavior across all contexts, with accuracy and confidence consistently rising with stronger evidence. However, this foundational mechanism is dramatically modulated by uncertainty. In low-to-medium uncertainty scenarios, this informational process is expressed as a conservative strategy, where LLMs systematically underweight all evidence sources. In contrast, high uncertainty triggers a critical shift: while still processing information, the models additionally exhibit a normative-like amplification, causing them to overweight public signals (beta > 1.55 vs. private beta = 0.81).
+PY  - 2025
+DA  - 2025-08-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2508.14918
+AN  - arXiv:2508.14918
+DB  - arXiv
+M3  - preprint
+AU  - Huixin Zhong
+AU  - Yanan Liu
+AU  - Qi Cao
+AU  - Shijin Wang
+AU  - Zijing Ye
+AU  - Zimu Wang
+AU  - Shiyao Zhang
+ER  - 
+
+TY  - RPRT
+TI  - Don't Think Twice! Over-Reasoning Impairs Confidence Calibration
+AB  - Large Language Models deployed as question answering tools require robust calibration to avoid overconfidence. We systematically evaluate how reasoning capabilities and budget affect confidence assessment accuracy, using the ClimateX dataset (Lacombe et al., 2023) and expanding it to human and planetary health. Our key finding challenges the "test-time scaling" paradigm: while recent reasoning LLMs achieve 48.7% accuracy in assessing expert confidence, increasing reasoning budgets consistently impairs rather than improves calibration. Extended reasoning leads to systematic overconfidence that worsens with longer thinking budgets, producing diminishing and negative returns beyond modest computational investments. Conversely, search-augmented generation dramatically outperforms pure reasoning, achieving 89.3% accuracy by retrieving relevant evidence. Our results suggest that information access, rather than reasoning depth or inference budget, may be the critical bottleneck for improved confidence calibration of knowledge-intensive tasks.
+PY  - 2025
+DA  - 2025-08-20
+JO  - arXiv
+UR  - https://arxiv.org/abs/2508.15050
+AN  - arXiv:2508.15050
+DB  - arXiv
+M3  - preprint
+AU  - Romain Lacombe
+AU  - Kerrie Wu
+AU  - Eddie Dilworth
+ER  - 
+
+TY  - RPRT
+TI  - Learned Hallucination Detection in Black-Box LLMs using Token-level Entropy Production Rate
+AB  - Hallucinations in Large Language Model (LLM) outputs for Question Answering (QA) tasks can critically undermine their real-world reliability. This paper introduces a methodology for robust, one-shot hallucination detection, specifically designed for scenarios with limited data access, such as interacting with black-box LLM APIs that typically expose only a few top candidate log-probabilities per token. Our approach derives uncertainty indicators directly from these readily available log-probabilities generated during non-greedy decoding. We first derive an Entropy Production Rate (EPR) that offers baseline performance, later augmented with supervised learning. Our learned model leverages the entropic contributions of the accessible top-ranked tokens within a single generated sequence, without multiple re-runs per query. Evaluated across diverse QA datasets and multiple LLMs, this estimator significantly improves token-level hallucination detection over state-of-the-art methods. Crucially, high performance is demonstrated using only the typically small set of available log-probabilities (e.g., top-10 per token), confirming its practical efficiency and suitability for API-constrained deployments. This work provides a lightweight technique to enhance the trustworthiness of LLM responses, at the token level, after a single generation pass, for QA and Retrieval-Augmented Generation (RAG) systems. Our experiments confirmed the performance of our method against existing approaches on public dataset as well as for a financial framework analyzing annual company reports.
+PY  - 2025
+DA  - 2025-09-01
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.04492
+AN  - arXiv:2509.04492
+DB  - arXiv
+M3  - preprint
+AU  - Charles Moslonka
+AU  - Hicham Randrianarivo
+AU  - Arthur Garnier
+AU  - Emmanuel Malherbe
+ER  - 
+
+TY  - RPRT
+TI  - Methodological Insights into Structural Causal Modelling and Uncertainty-Aware Forecasting for Economic Indicators
+AB  - This paper presents a methodological approach to financial time series analysis by combining causal discovery and uncertainty-aware forecasting. As a case study, we focus on four key U.S. macroeconomic indicators -- GDP, economic growth, inflation, and unemployment -- and we apply the LPCMCI framework with Gaussian Process Distance Correlation (GPDC) to uncover dynamic causal relationships in quarterly data from 1970 to 2021. Our results reveal a robust unidirectional causal link from economic growth to GDP and highlight the limited connectivity of inflation, suggesting the influence of latent factors. Unemployment exhibits strong autoregressive dependence, motivating its use as a case study for probabilistic forecasting. Leveraging the Chronos framework, a large language model trained for time series, we perform zero-shot predictions on unemployment. This approach delivers accurate forecasts one and two quarters ahead, without requiring task-specific training. Crucially, the model's uncertainty-aware predictions yield 90\% confidence intervals, enabling effective anomaly detection through statistically principled deviation analysis. This study demonstrates the value of combining causal structure learning with probabilistic language models to inform economic policy and enhance forecasting robustness.
+PY  - 2025
+DA  - 2025-09-08
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.07036
+AN  - arXiv:2509.07036
+DB  - arXiv
+M3  - preprint
+AU  - Federico Cerutti
+ER  - 
+
+TY  - RPRT
+TI  - GrACE: A Generative Approach to Better Confidence Elicitation and Efficient Test-Time Scaling in Large Language Models
+AB  - Assessing the reliability of Large Language Models (LLMs) by confidence elicitation is a prominent approach to AI safety in high-stakes applications, such as healthcare and finance. Existing methods either require expensive computational overhead or suffer from poor calibration, making them impractical and unreliable for real-world deployment. In this work, we propose GrACE, a Generative Approach to Confidence Elicitation that enables scalable and reliable confidence elicitation for LLMs. GrACE adopts a novel mechanism in which the model expresses confidence by the similarity between the last hidden state and the embedding of a special token appended to the vocabulary, in real-time. We fine-tune the model for calibrating the confidence with targets associated with accuracy. Extensive experiments show that the confidence produced by GrACE achieves the best discriminative capacity and calibration on open-ended generation tasks without resorting to additional sampling or an auxiliary model. Moreover, we propose two confidence-based strategies for test-time scaling with GrACE, which not only improve the accuracy of the final decision but also significantly reduce the number of required samples, highlighting its potential as a practical solution for deploying LLMs with reliable, on-the-fly confidence estimation.
+PY  - 2025
+DA  - 2025-09-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.09438
+AN  - arXiv:2509.09438
+DB  - arXiv
+M3  - preprint
+AU  - Zhaohan Zhang
+AU  - Ziquan Liu
+AU  - Ioannis Patras
+ER  - 
+
+TY  - RPRT
+TI  - D$^2$HScore: Reasoning-Aware Hallucination Detection via Semantic Breadth and Depth Analysis in LLMs
+AB  - Although large Language Models (LLMs) have achieved remarkable success, their practical application is often hindered by the generation of non-factual content, which is called "hallucination". Ensuring the reliability of LLMs' outputs is a critical challenge, particularly in high-stakes domains such as finance, security, and healthcare. In this work, we revisit hallucination detection from the perspective of model architecture and generation dynamics. Leveraging the multi-layer structure and autoregressive decoding process of LLMs, we decompose hallucination signals into two complementary dimensions: the semantic breadth of token representations within each layer, and the semantic depth of core concepts as they evolve across layers. Based on this insight, we propose \textbf{D$^2$HScore (Dispersion and Drift-based Hallucination Score)}, a training-free and label-free framework that jointly measures: (1) \textbf{Intra-Layer Dispersion}, which quantifies the semantic diversity of token representations within each layer; and (2) \textbf{Inter-Layer Drift}, which tracks the progressive transformation of key token representations across layers. To ensure drift reflects the evolution of meaningful semantics rather than noisy or redundant tokens, we guide token selection using attention signals. By capturing both the horizontal and vertical dynamics of representation during inference, D$^2$HScore provides an interpretable and lightweight proxy for hallucination detection. Extensive experiments across five open-source LLMs and five widely used benchmarks demonstrate that D$^2$HScore consistently outperforms existing training-free baselines.
+PY  - 2025
+DA  - 2025-09-15
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.11569
+AN  - arXiv:2509.11569
+DB  - arXiv
+M3  - preprint
+AU  - Yue Ding
+AU  - Xiaofang Zhu
+AU  - Tianze Xia
+AU  - Junfei Wu
+AU  - Xinlong Chen
+AU  - Qiang Liu
+AU  - Liang Wang
+ER  - 
+
+TY  - RPRT
+TI  - Revealing Adversarial Smart Contracts through Semantic Interpretation and Uncertainty Estimation
+AB  - Adversarial smart contracts, mostly on EVM-compatible chains like Ethereum and BSC, are deployed as EVM bytecode to exploit vulnerable smart contracts for financial gain. Detecting such malicious contracts at the time of deployment is an important proactive strategy to prevent losses from victim contracts. It offers a better cost-benefit ratio than detecting vulnerabilities on diverse potential victims. However, existing works are not generic with limited detection types and effectiveness due to imbalanced samples, while the emerging LLM technologies, which show their potential in generalization, have two key problems impeding its application in this task: hard digestion of compiled-code inputs, especially those with task-specific logic, and hard assessment of LLM's certainty in its binary (yes-or-no) answers. Therefore, we propose a generic adversarial smart contracts detection framework FinDet, which leverages LLM with two enhancements addressing the above two problems. FinDet takes as input only the EVM bytecode contracts and identifies adversarial ones among them with high balanced accuracy. The first enhancement extracts concise semantic intentions and high-level behavioral logic from the low-level bytecode inputs, unleashing the LLM reasoning capability restricted by the task input. The second enhancement probes and measures the LLM uncertainty to its multi-round answering to the same query, improving the LLM answering robustness for binary classifications required by the task output. Our comprehensive evaluation shows that FinDet achieves a BAC of 0.9374 and a TPR of 0.9231, significantly outperforming existing baselines. It remains robust under challenging conditions including unseen attack patterns, low-data settings, and feature obfuscation. FinDet detects all 5 public and 20+ unreported adversarial contracts in a 10-day real-world test, confirmed manually.
+PY  - 2025
+DA  - 2025-09-23
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.18934
+AN  - arXiv:2509.18934
+DB  - arXiv
+M3  - preprint
+AU  - Yating Liu
+AU  - Xing Su
+AU  - Hao Wu
+AU  - Sijin Li
+AU  - Yuxi Cheng
+AU  - Fengyuan Xu
+AU  - Sheng Zhong
+ER  - 
+
+TY  - RPRT
+TI  - LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions
+AB  - Driven by the rapid advancements of Large Language Models (LLMs), LLM-based agents have emerged as powerful intelligent systems capable of human-like cognition, reasoning, and interaction. These agents are increasingly being deployed across diverse real-world applications, including student education, scientific research, and financial analysis. However, despite their remarkable potential, LLM-based agents remain vulnerable to hallucination issues, which can result in erroneous task execution and undermine the reliability of the overall system design. Addressing this critical challenge requires a deep understanding and a systematic consolidation of recent advances on LLM-based agents. To this end, we present the first comprehensive survey of hallucinations in LLM-based agents. By carefully analyzing the complete workflow of agents, we propose a new taxonomy that identifies different types of agent hallucinations occurring at different stages. Furthermore, we conduct an in-depth examination of eighteen triggering causes underlying the emergence of agent hallucinations. Through a detailed review of a large number of existing studies, we summarize approaches for hallucination mitigation and detection, and highlight promising directions for future research. We hope this survey will inspire further efforts toward addressing hallucinations in LLM-based agents, ultimately contributing to the development of more robust and reliable agent systems.
+PY  - 2025
+DA  - 2025-09-23
+JO  - arXiv
+UR  - https://arxiv.org/abs/2509.18970
+AN  - arXiv:2509.18970
+DB  - arXiv
+M3  - preprint
+AU  - Xixun Lin
+AU  - Yucheng Ning
+AU  - Jingwen Zhang
+AU  - Yan Dong
+AU  - Yilong Liu
+AU  - Yongxuan Wu
+AU  - Xiaohua Qi
+AU  - Nan Sun
+AU  - Yanmin Shang
+AU  - Kun Wang
+AU  - Pengfei Cao
+AU  - Qingyue Wang
+AU  - Lixin Zou
+AU  - Xu Chen
+AU  - Chuan Zhou
+AU  - Jia Wu
+AU  - Peng Zhang
+AU  - Qingsong Wen
+AU  - Shirui Pan
+AU  - Bin Wang
+AU  - Yanan Cao
+AU  - Kai Chen
+AU  - Songlin Hu
+AU  - Li Guo
+ER  - 
+
+TY  - RPRT
+TI  - Confidence-Based Response Abstinence: Improving LLM Trustworthiness via Activation-Based Uncertainty Estimation
+AB  - We propose a method for confidence estimation in retrieval-augmented generation (RAG) systems that aligns closely with the correctness of large language model (LLM) outputs. Confidence estimation is especially critical in high-stakes domains such as finance and healthcare, where the cost of an incorrect answer outweighs that of not answering the question. Our approach extends prior uncertainty quantification methods by leveraging raw feed-forward network (FFN) activations as auto-regressive signals, avoiding the information loss inherent in token logits and probabilities after projection and softmax normalization. We model confidence prediction as a sequence classification task, and regularize training with a Huber loss term to improve robustness against noisy supervision. Applied in a real-world financial industry customer-support setting with complex knowledge bases, our method outperforms strong baselines and maintains high accuracy under strict latency constraints. Experiments on Llama 3.1 8B model show that using activations from only the 16th layer preserves accuracy while reducing response latency. Our results demonstrate that activation-based confidence modeling offers a scalable, architecture-aware path toward trustworthy RAG deployment.
+PY  - 2025
+DA  - 2025-10-15
+JO  - arXiv
+UR  - https://arxiv.org/abs/2510.13750
+AN  - arXiv:2510.13750
+DB  - arXiv
+M3  - preprint
+AU  - Zhiqi Huang
+AU  - Vivek Datla
+AU  - Chenyang Zhu
+AU  - Alfy Samuel
+AU  - Daben Liu
+AU  - Anoop Kumar
+AU  - Ritesh Soni
+ER  - 
+
+TY  - RPRT
+TI  - OpenEstimate: Evaluating LLMs on Reasoning Under Uncertainty with Real-World Data
+AB  - Real-world settings where language models (LMs) are deployed -- in domains spanning healthcare, finance, and other forms of knowledge work -- require models to grapple with incomplete information and reason under uncertainty. Yet most LM evaluations focus on problems with well-defined answers and success criteria. This gap exists in part because natural problems involving uncertainty are difficult to construct: given that LMs have access to most of the same knowledge as humans, it is non-trivial to design questions for which LMs will struggle to produce correct answers, but which humans can answer reliably. As a result, LM performance on reasoning under uncertainty remains poorly characterized. To address this gap, we introduce OpenEstimate, an extensible, multi-domain benchmark for evaluating LMs on numerical estimation tasks that require models to synthesize significant amounts of background information and express predictions as probabilistic priors. We assess these priors for accuracy and calibration, quantifying their usefulness relative to samples from the true distribution of interest. Across six frontier LMs, we find that LM-elicited priors are often inaccurate and overconfident. Performance improves modestly depending on how uncertainty is elicited from the model, but is largely unaffected by changes in sampling strategy, reasoning effort, or prompt design. The OpenEstimate benchmark thus offers a challenging evaluation for frontier LMs and a platform for developing models that are better at probabilistic estimation and reasoning under uncertainty.
+PY  - 2025
+DA  - 2025-10-16
+JO  - arXiv
+UR  - https://arxiv.org/abs/2510.15096
+AN  - arXiv:2510.15096
+DB  - arXiv
+M3  - preprint
+AU  - Alana Renda
+AU  - Jillian Ross
+AU  - Michael Cafarella
+AU  - Jacob Andreas
+ER  - 
+
+TY  - RPRT
+TI  - Multi-Modal Fact-Verification Framework for Reducing Hallucinations in Large Language Models
+AB  - While Large Language Models have transformed how we interact with AI systems, they suffer from a critical flaw: they confidently generate false information that sounds entirely plausible. This hallucination problem has become a major barrier to deploying these models in real-world applications where accuracy matters. We developed a fact verification framework that catches and corrects these errors in real-time by cross checking LLM outputs against multiple knowledge sources. Our system combines structured databases, live web searches, and academic literature to verify factual claims as they're generated. When we detect inconsistencies, we automatically correct them while preserving the natural flow of the response. Testing across various domains showed we could reduce hallucinations by 67% without sacrificing response quality. Domain experts in healthcare, finance, and scientific research rated our corrected outputs 89% satisfactory a significant improvement over unverified LLM responses. This work offers a practical solution for making LLMs more trustworthy in applications where getting facts wrong isn't an option.
+PY  - 2025
+DA  - 2025-10-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2510.22751
+AN  - arXiv:2510.22751
+DB  - arXiv
+M3  - preprint
+AU  - Piyushkumar Patel
+ER  - 
+
+TY  - RPRT
+TI  - Consistency Is the Key: Detecting Hallucinations in LLM Generated Text By Checking Inconsistencies About Key Facts
+AB  - Large language models (LLMs), despite their remarkable text generation capabilities, often hallucinate and generate text that is factually incorrect and not grounded in real-world knowledge. This poses serious risks in domains like healthcare, finance, and customer support. A typical way to use LLMs is via the APIs provided by LLM vendors where there is no access to model weights or options to fine-tune the model. Existing methods to detect hallucinations in such settings where the model access is restricted or constrained by resources typically require making multiple LLM API calls, increasing latency and API cost. We introduce CONFACTCHECK, an efficient hallucination detection approach that does not leverage any external knowledge base and works on the simple intuition that responses to factual probes within the generated text should be consistent within a single LLM and across different LLMs. Rigorous empirical evaluation on multiple datasets that cover both the generation of factual texts and the open generation shows that CONFACTCHECK can detect hallucinated facts efficiently using fewer resources and achieves higher accuracy scores compared to existing baselines that operate under similar conditions. Our code is available here.
+PY  - 2025
+DA  - 2025-11-15
+JO  - arXiv
+UR  - https://arxiv.org/abs/2511.12236
+AN  - arXiv:2511.12236
+DB  - arXiv
+M3  - preprint
+AU  - Raavi Gupta
+AU  - Pranav Hari Panicker
+AU  - Sumit Bhatia
+AU  - Ganesh Ramakrishnan
+ER  - 
+
+TY  - RPRT
+TI  - Going All-In on LLM Accuracy: Fake Prediction Markets, Real Confidence Signals
+AB  - Large language models are increasingly used to evaluate other models, yet these judgments typically lack any representation of confidence. This pilot study tests whether framing an evaluation task as a betting game (a fictional prediction market with its own LLM currency) improves forecasting accuracy and surfaces calibrated confidence signals. We generated 100 math and logic questions with verifiable answers. Six Baseline models (three current-generation, three prior-generation) answered all items. Three Predictor models then forecasted, for each question-baseline pair, if the baseline would answer correctly. Each predictor completed matched runs in two conditions: Control (simple correct/incorrect predictions) and Incentive (predictions plus wagers of 1-100,000 LLMCoin under even odds, starting from a 1,000,000 LLMCoin bankroll). Across 5,400 predictions per condition, Incentive runs showed modestly higher accuracy (81.5% vs. 79.1%, p = .089, d = 0.86) and significantly faster learning across rounds (12.0 vs. 2.9 percentage-point improvement from Round 1 to Round 4, p = .011). Most notably, stake size tracked confidence. "Whale" bets of 40,000+ coins were correct ~99% of the time, while small bets (<1,000 coins) showed only ~74% accuracy. The key finding is not that fictional money makes models smarter; accuracy gains were modest and did not reach statistical significance (p = .089) in this pilot. Rather, the betting mechanic created a legible confidence signal absent from binary yes/no outputs. This suggests that simple financial framing may help transform LLMs into risk-aware forecasters, making their internal beliefs visible and usable. The protocol offers a foundation for future work for meta-evaluation systems and what may become LLM-to-LLM prediction markets.
+PY  - 2025
+DA  - 2025-12-01
+JO  - arXiv
+DO  - 10.17605/OSF.IO/DC24T
+UR  - https://arxiv.org/abs/2512.05998
+AN  - arXiv:2512.05998
+DB  - arXiv
+M3  - preprint
+AU  - Michael Todasco
+ER  - 
+
+TY  - RPRT
+TI  - Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%
+AB  - Large language models (LLMs) produce fluent but unsupported answers - hallucinations - limiting safe deployment in high-stakes domains. We propose ECLIPSE, a framework that treats hallucination as a mismatch between a model's semantic entropy and the capacity of available evidence. We combine entropy estimation via multi-sample clustering with a novel perplexity decomposition that measures how models use retrieved evidence. We prove that under mild conditions, the resulting entropy-capacity objective is strictly convex with a unique stable optimum. We evaluate on a controlled financial question answering dataset with GPT-3.5-turbo (n=200 balanced samples with synthetic hallucinations), where ECLIPSE achieves ROC AUC of 0.89 and average precision of 0.90, substantially outperforming a semantic entropy-only baseline (AUC 0.50). A controlled ablation with Claude-3-Haiku, which lacks token-level log probabilities, shows AUC dropping to 0.59 with coefficient magnitudes decreasing by 95% - demonstrating that ECLIPSE is a logprob-native mechanism whose effectiveness depends on calibrated token-level uncertainties. The perplexity decomposition features exhibit the largest learned coefficients, confirming that evidence utilization is central to hallucination detection. We position this work as a controlled mechanism study; broader validation across domains and naturally occurring hallucinations remains future work.
+PY  - 2025
+DA  - 2025-12-02
+JO  - arXiv
+UR  - https://arxiv.org/abs/2512.03107
+AN  - arXiv:2512.03107
+DB  - arXiv
+M3  - preprint
+AU  - Mainak Singha
+ER  - 
+
+TY  - RPRT
+TI  - Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models
+AB  - Large Language Models (LLMs) like LLaMA, Mistral, and Gemma are increasingly used in decision-critical domains such as healthcare, law, and finance, yet their reliability remains uncertain. They often make overconfident errors, degrade under input shifts, and lack clear uncertainty estimates. Existing evaluations are fragmented, addressing only isolated aspects. We introduce the Composite Reliability Score (CRS), a unified framework that integrates calibration, robustness, and uncertainty quantification into a single interpretable metric. Through experiments on ten leading open-source LLMs across five QA datasets, we assess performance under baselines, perturbations, and calibration methods. CRS delivers stable model rankings, uncovers hidden failure modes missed by single metrics, and highlights that the most dependable systems balance accuracy, robustness, and calibrated uncertainty.
+PY  - 2025
+DA  - 2025-12-30
+JO  - arXiv
+UR  - https://arxiv.org/abs/2512.24058
+AN  - arXiv:2512.24058
+DB  - arXiv
+M3  - preprint
+AU  - Rohit Kumar Salla
+AU  - Manoj Saravanan
+AU  - Shrikar Reddy Kota
+ER  - 
+
+TY  - RPRT
+TI  - Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification
+AB  - Small language models (SLMs) are increasingly used for financial classification due to their fast inference and local deployability. However, compared with large language models, SLMs are more prone to factual hallucinations in reasoning and exhibit weaker classification performance. This raises a natural question: Can mitigating factual hallucinations improve SLMs' financial classification? To address this, we propose a three-step pipeline named AAAI (Association Identification, Automated Detection, and Adaptive Inference). Experiments on three representative SLMs reveal that: (1) factual hallucinations are positively correlated with misclassifications; (2) encoder-based verifiers effectively detect factual hallucinations; and (3) incorporating feedback on factual errors enables SLMs' adaptive inference that enhances classification performance. We hope this pipeline contributes to trustworthy and effective applications of SLMs in finance.
+PY  - 2026
+DA  - 2026-01-04
+JO  - arXiv
+UR  - https://arxiv.org/abs/2601.01378
+AN  - arXiv:2601.01378
+DB  - arXiv
+M3  - preprint
+AU  - Han Yuan
+AU  - Yilin Wu
+AU  - Li Zhang
+AU  - Zheng Ma
+ER  - 
+
+TY  - RPRT
+TI  - Hallucination Detection and Mitigation in Large Language Models
+AB  - Large Language Models (LLMs) and Large Reasoning Models (LRMs) offer transformative potential for high-stakes domains like finance and law, but their tendency to hallucinate, generating factually incorrect or unsupported content, poses a critical reliability risk. This paper introduces a comprehensive operational framework for hallucination management, built on a continuous improvement cycle driven by root cause awareness. We categorize hallucination sources into model, data, and context-related factors, allowing targeted interventions over generic fixes. The framework integrates multi-faceted detection methods (e.g., uncertainty estimation, reasoning consistency) with stratified mitigation strategies (e.g., knowledge grounding, confidence calibration). We demonstrate its application through a tiered architecture and a financial data extraction case study, where model, context, and data tiers form a closed feedback loop for progressive reliability enhancement. This approach provides a systematic, scalable methodology for building trustworthy generative AI systems in regulated environments.
+PY  - 2026
+DA  - 2026-01-14
+JO  - arXiv
+UR  - https://arxiv.org/abs/2601.09929
+AN  - arXiv:2601.09929
+DB  - arXiv
+M3  - preprint
+AU  - Ahmad Pesaranghader
+AU  - Erin Li
+ER  - 
+
+TY  - RPRT
+TI  - A Geometric Taxonomy of Hallucinations in LLMs
+AB  - Hallucinations in deployed language models can have real consequences for downstream decisions in domains such as healthcare, legal, and financial services. In production, detection has to run on what the deployed system can see: the query, the response, and often a source document. White-box access to model internals and multi-sample querying are not generally available behind a third-party API. Within this setting - black-box, single-pass, only question/answer available - the dominant baseline is NLI, which returns a value but no diagnosis when it fails. We argue that operating directly on the geometry of the embedding space provides detection methods whose successes and failures are interpretable as structural properties of contrastive sentence-encoder training \citep{wang2020understanding}. The contribution is: given an operationally-motivated taxonomy, geometry predicts which types of hallucination are detectable and which are not - and the predictions hold. We propose three operational types organized by the relation of the response embedding to the plausibility region of grounded responses on the unit hypersphere, and derive from the alignment objective a prediction for each: (1)query-proximate unfaithfulness is detectable by an angular ratio; (2)confabulation outside the plausibility region produces a directional signature that outperforms NLI on expert-annotated error; (3)factual errors sharing vocabulary and frame with correct answers are not separable by angular geometry. To validate on content resembling deployment, we built a 212-pair human-confabulated dataset across nine domains using provoked confabulation.
+PY  - 2026
+DA  - 2026-01-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2602.13224
+AN  - arXiv:2602.13224
+DB  - arXiv
+M3  - preprint
+AU  - Javier Marín
+ER  - 
+
+TY  - RPRT
+TI  - Logit-Level Uncertainty Quantification in Vision-Language Models for Histopathology Image Analysis
+AB  - Vision-Language Models (VLMs) with their multimodal capabilities have demonstrated remarkable success in almost all domains, including education, transportation, healthcare, energy, finance, law, and retail. Nevertheless, the utilization of VLMs in healthcare applications raises crucial concerns due to the sensitivity of large-scale medical data and the trustworthiness of these models (reliability, transparency, and security). This study proposes a logit-level uncertainty quantification (UQ) framework for histopathology image analysis using VLMs to deal with these concerns. UQ is evaluated for three VLMs using metrics derived from temperature-controlled output logits. The proposed framework demonstrates a critical separation in uncertainty behavior. While VLMs show high stochastic sensitivity (cosine similarity (CS) $<0.71$ and $<0.84$, Jensen-Shannon divergence (JS) $<0.57$ and $<0.38$, and Kullback-Leibler divergence (KL) $<0.55$ and $<0.35$, respectively for mean values of VILA-M3-8B and LLaVA-Med v1.5), near-maximal temperature impacts ($Δ_T \approx 1.00$), and displaying abrupt uncertainty transitions, particularly for complex diagnostic prompts. In contrast, the pathology-specific PRISM model maintains near-deterministic behavior (mean CS $>0.90$, JS $<0.10$, KL $<0.09$) and significantly minimal temperature effects across all prompt complexities. These findings emphasize the importance of logit-level uncertainty quantification to evaluate trustworthiness in histopathology applications utilizing VLMs.
+PY  - 2026
+DA  - 2026-03-03
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.03527
+AN  - arXiv:2603.03527
+DB  - arXiv
+M3  - preprint
+AU  - Betul Yurdem
+AU  - Ferhat Ozgur Catak
+AU  - Murat Kuzlu
+AU  - Mehmet Kemal Gullu
+ER  - 
+
+TY  - RPRT
+TI  - Neuro-Symbolic Financial Reasoning via Deterministic Fact Ledgers and Adversarial Low-Latency Hallucination Detector
+AB  - Standard Retrieval-Augmented Generation (RAG) architectures fail in high-stakes financial domains due to two fundamental limitations: the inherent arithmetic incompetence of Large Language Models (LLMs) and the distributional semantic conflation of dense vector retrieval (e.g., mapping "Net Income" to "Net Sales" due to contextual proximity). In deterministic domains, a 99% accuracy rate yields 0% operational trust. To achieve zero-hallucination financial reasoning, we introduce the Verifiable Numerical Reasoning Agent (VeNRA). VeNRA shifts the RAG paradigm from retrieving probabilistic text to retrieving deterministic variables via a strictly typed Universal Fact Ledger (UFL). We mathematically bound this ledger using a novel Double-Lock Grounding algorithm. Coupled with deterministic Python execution, this neuro-symbolic routing compresses systemic hallucination rates to a near-zero 1.2%. Recognising that upstream parsing anomalies inevitably occur, we introduce the VeNRA Sentinel: a 3-billion parameter SLM trained to forensically audit candidate using a single-token inference budget with optional post-hoc reasoning. To train the Sentinel, we steer away from traditional hallucination datasets in favour of Adversarial Simulation, programmatically sabotaging financial records to simulate Ecological Errors. The compact Sentinel consequently outperforms 70B+ frontier models in error detection. Through Loss Dilution phenomenon in Reverse-CoT training, we present a novel Micro-Chunking loss algorithm to stabilise gradients under extreme verdict penalisation, yielding a 28x latency speedup without sacrificing forensic rigor.
+PY  - 2026
+DA  - 2026-03-04
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.04663
+AN  - arXiv:2603.04663
+DB  - arXiv
+M3  - preprint
+AU  - Pedram Agand
+ER  - 
+
+TY  - RPRT
+TI  - Can LLMs Capture Expert Uncertainty? A Comparative Analysis of Value Alignment in Ethnographic Qualitative Research
+AB  - Qualitative analysis of open-ended interviews plays a central role in ethnographic and economic research by uncovering individuals' values, motivations, and culturally embedded financial behaviors. While large language models (LLMs) offer promising support for automating and enriching such interpretive work, their ability to produce nuanced, reliable interpretations under inherent task ambiguity remains unclear. In our work we evaluate LLMs on the task of identifying the top three human values expressed in long-form interviews based on the Schwartz Theory of Basic Values framework. We compare their outputs to expert annotations, analyzing both performance and uncertainty patterns relative to the experts. Results show that LLMs approach the human ceiling on set-based metrics (F1, Jaccard) but struggle to recover exact value rankings, as reflected in lower RBO scores. While the average Schwartz value distributions of most models closely match those of human analysts, their uncertainty structures across the Schwartz values diverge from expert uncertainty patterns. Among the evaluated models, Qwen performs closest to expert-level agreement and exhibits the strongest alignment with expert Schwartz value distributions. LLM ensemble methods yield consistent gains across metrics, with Majority Vote and Borda Count performing best. Notably, systematic overemphasis on certain Schwartz values, like Security, suggests both the potential of LLMs to provide complementary perspectives and the need to further investigate model-induced value biases. Overall, our findings highlight both the promise and the limitations of LLMs as collaborators in inherently ambiguous qualitative value analysis.
+PY  - 2026
+DA  - 2026-03-05
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.04897
+AN  - arXiv:2603.04897
+DB  - arXiv
+M3  - preprint
+AU  - Arina Kostina
+AU  - Marios Dikaiakos
+AU  - Alejandro Porcel
+AU  - Tassos Stassopoulos
+ER  - 
+
+TY  - RPRT
+TI  - FinReflectKG -- HalluBench: GraphRAG Hallucination Benchmark for Financial Question Answering Systems
+AB  - As organizations increasingly integrate AI-powered question-answering systems into financial information systems for compliance, risk assessment, and decision support, ensuring the factual accuracy of AI-generated outputs becomes a critical engineering challenge. Current Knowledge Graph (KG)-augmented QA systems lack systematic mechanisms to detect hallucinations - factually incorrect outputs that undermine reliability and user trust. We introduce FinBench-QA-Hallucination, a benchmark for evaluating hallucination detection methods in KG-augmented financial QA over SEC 10-K filings. The dataset contains 755 annotated examples from 300 pages, each labeled for groundedness using a conservative evidence-linkage protocol requiring support from both textual chunks and extracted relational triplets. We evaluate six detection approaches - LLM judges, fine-tuned classifiers, Natural Language Inference (NLI) models, span detectors, and embedding-based methods under two conditions: with and without KG triplets. Results show that LLM-based judges and embedding approaches achieve the highest performance (F1: 0.82-0.86) under clean conditions. However, most methods degrade significantly when noisy triplets are introduced, with Matthews Correlation Coefficient (MCC) dropping 44-84 percent, while embedding methods remain relatively robust with only 9 percent degradation. Statistical tests (Cochran's Q and McNemar) confirm significant performance differences (p < 0.001). Our findings highlight vulnerabilities in current KG-augmented systems and provide insights for building reliable financial information systems, where hallucinations can lead to regulatory violations and flawed decisions. The benchmark also offers a framework for integrating AI reliability evaluation into information system design across other high-stakes domains such as healthcare, legal, and government.
+PY  - 2026
+DA  - 2026-03-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.20252
+AN  - arXiv:2603.20252
+DB  - arXiv
+M3  - preprint
+AU  - Mahesh Kumar
+AU  - Bhaskarjit Sarmah
+AU  - Stefano Pasquali
+ER  - 
+
+TY  - RPRT
+TI  - TrustTrade: Human-Inspired Selective Consensus Reduces Decision Uncertainty in LLM Trading Agents
+AB  - Large language models (LLMs) are increasingly deployed as autonomous agents in financial trading. However, they often exhibit a hazardous behavioral bias that we term uniform trust, whereby retrieved information is implicitly assumed to be factual and heterogeneous sources are treated as equally informative. This assumption stands in sharp contrast to human decision-making, which relies on selective filtering, cross-validation, and experience-driven weighting of information sources. As a result, LLM-based trading systems are particularly vulnerable to multi-source noise and misinformation, amplifying factual hallucinations and leading to unstable risk-return performance. To bridge this behavioral gap, we introduce TrustTrade (Trust-Rectified Unified Selective Trader), a multi-agent selective consensus framework inspired by human epistemic heuristics. TrustTrade replaces uniform trust with cross-agent consistency by aggregating information from multiple independent LLM agents and dynamically weighting signals based on their semantic and numerical agreement. Consistent signals are prioritized, while divergent, weakly grounded, or temporally inconsistent inputs are selectively discounted. To further stabilize decision-making, TrustTrade incorporates deterministic temporal signals as reproducible anchors and a reflective memory mechanism that adapts risk preferences at test time without additional training. Together, these components suppress noise amplification and hallucination-driven volatility, yielding more stable and risk-aware trading behavior. Across controlled backtesting in high-noise market environments (2024 Q1 and 2026 Q1), the proposed TrustTrade calibrates LLM trading behavior from extreme risk-return regimes toward a human-aligned, mid-risk and mid-return profile.
+PY  - 2026
+DA  - 2026-03-23
+JO  - arXiv
+UR  - https://arxiv.org/abs/2603.22567
+AN  - arXiv:2603.22567
+DB  - arXiv
+M3  - preprint
+AU  - Minghan Li
+AU  - Rachel Gonsalves
+AU  - Weiyue Li
+AU  - Sunghoon Yoon
+AU  - Mengyu Wang
+ER  - 
+
+TY  - RPRT
+TI  - Do Hallucination Neurons Generalize? Evidence from Cross-Domain Transfer in LLMs
+AB  - Recent work identifies a sparse set of "hallucination neurons" (H-neurons), less than 0.1% of feed-forward network neurons, that reliably predict when large language models will hallucinate. These neurons are identified on general-knowledge question answering and shown to generalize to new evaluation instances. We ask a natural follow-up question: do H-neurons generalize across knowledge domains? Using a systematic cross-domain transfer protocol across 6 domains (general QA, legal, financial, science, moral reasoning, and code vulnerability) and 5 open-weight models (3B to 8B parameters), we find they do not. Classifiers trained on one domain's H-neurons achieve AUROC 0.783 within-domain but only 0.563 when transferred to a different domain (delta = 0.220, p < 0.001), a degradation consistent across all models tested. Our results suggest that hallucination is not a single mechanism with a universal neural signature, but rather involves domain-specific neuron populations that differ depending on the knowledge type being queried. This finding has direct implications for the deployment of neuron-level hallucination detectors, which must be calibrated per domain rather than trained once and applied universally.
+PY  - 2026
+DA  - 2026-03-27
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.19765
+AN  - arXiv:2604.19765
+DB  - arXiv
+M3  - preprint
+AU  - Snehit Vaddi
+AU  - Pujith Vaddi
+ER  - 
+
+TY  - RPRT
+TI  - Confidence Should Be Calibrated More Than One Turn Deep
+AB  - Large Language Models (LLMs) are increasingly applied in high-stakes domains such as finance, healthcare, and education, where reliable multi-turn interactions with users are essential. However, existing work on confidence estimation and calibration, a major approach to building trustworthy LLM systems, largely focuses on single-turn settings and overlooks the risks and potential of multi-turn conversations. In this work, we introduce the task of multi-turn calibration to reframe calibration from a static property into a dynamic challenge central to reliable multi-turn conversation, where calibrating model confidence at each turn conditioned on the conversation history is required. We first reveal the risks of this setting: using Expected Calibration Error at turn T (ECE@T), a new metric that tracks calibration dynamics over turns, we show that user feedback (e.g., persuasion) can degrade multi-turn calibration. To address this, we propose MTCal, which minimises ECE@T via a surrogate calibration target, and further leverage calibrated confidence in ConfChat, a decoding strategy that improves both factuality and consistency of the model response in multi-turn interactions. Extensive experiments demonstrate that MT-Cal achieves outstanding and consistent performance in multi-turn calibration, and ConfChat preserves and even enhances model performance in multi-turn interactions. Our results mark multi-turn calibration as one missing link for scaling LLM calibration toward safe, reliable, and real-world use.
+PY  - 2026
+DA  - 2026-04-07
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.05397
+AN  - arXiv:2604.05397
+DB  - arXiv
+M3  - preprint
+AU  - Zhaohan Zhang
+AU  - Chengzhengxu Li
+AU  - Xiaoming Liu
+AU  - Chao Shen
+AU  - Ziquan Liu
+AU  - Ioannis Patras
+ER  - 
+
+TY  - RPRT
+TI  - Reducing Detail Hallucinations in Long-Context Regulatory Understanding via Targeted Preference Optimization
+AB  - Large language models (LLMs) frequently produce \emph{detail hallucinations} when processing long regulatory documents, including subtle errors in threshold values, units, scopes, obligation levels, and conditions that preserve surface plausibility while corrupting safety-critical parameters. We formalize this phenomenon through a fine-grained \emph{Detail Error Taxonomy} of five error types and introduce \textbf{DetailBench}, a benchmark built from 172 real regulatory documents and 150 synthetic documents spanning three jurisdictions, with human-annotated detail-level ground truth comprising 13,000 preference pairs. We propose \textbf{DetailDPO}, a targeted preference optimization framework that constructs contrastive pairs differing in exactly one detail dimension, concentrating DPO gradient signal on detail-bearing~tokens. We provide theoretical analysis showing why \emph{minimal detail perturbation} pairs yield gradient concentration under mild assumptions. Experiments on the Qwen2.5 family (7B, 14B, 72B) and Llama-3.1-8B across three context-length tiers (8K--64K tokens) show that DetailDPO reduces the Detail Error Rate by 42--61\% relative to baselines, with consistent gains across all five error types and cross-domain transfer to financial and medical documents.
+PY  - 2026
+DA  - 2026-04-25
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.23113
+AN  - arXiv:2604.23113
+DB  - arXiv
+M3  - preprint
+AU  - Yang Liu
+AU  - Bin Chong
+AU  - Yuhan Lin
+AU  - Chongyang Zhang
+AU  - Hao Zheng
+AU  - Ziyi Zhang
+AU  - Jiayu Liang
+AU  - Ran Ran
+AU  - Qian Li
+AU  - Kefu Xu
+ER  - 
+
+TY  - RPRT
+TI  - FinGround: Detecting and Grounding Financial Hallucinations via Atomic Claim Verification
+AB  - Financial AI systems must produce answers grounded in specific regulatory filings, yet current LLMs fabricate metrics, invent citations, and miscalculate derived quantities. These errors carry direct regulatory consequences as the EU AI Act's high-risk enforcement deadline approaches (August 2026). Existing hallucination detectors treat all claims uniformly, missing 43% of computational errors that require arithmetic re-verification against structured tables. We present FinGround, a three-stage verify-then-ground pipeline for financial document QA. Stage 1 performs finance-aware hybrid retrieval over text and tables. Stage 2 decomposes answers into atomic claims classified by a six-type financial taxonomy and verified with type-routed strategies including formula reconstruction. Stage 3 rewrites unsupported claims with paragraph- and table-cell-level citations. To cleanly isolate verification value from retrieval quality, we propose retrieval-equalized evaluation as standard methodology for RAG verification research: when all systems receive identical retrieval, FinGround still reduces hallucination rates by 68% over the strongest baseline ($p < 0.01$). The full pipeline achieves a 78% reduction relative to GPT-4o. An 8B distilled detector retains 91.4% F1 at 18x lower per-claim latency, enabling $0.003/query deployment, supported by qualitative signals from a four-week analyst pilot.
+PY  - 2026
+DA  - 2026-04-26
+JO  - arXiv
+UR  - https://arxiv.org/abs/2604.23588
+AN  - arXiv:2604.23588
+DB  - arXiv
+M3  - preprint
+AU  - Dongxin Guo
+AU  - Jikun Wu
+AU  - Siu Ming Yiu
+ER  - 
+
+TY  - RPRT
+TI  - Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B
+AB  - Deploying large language models in financial-services and agentic settings requires safety classifiers that simultaneously handle prompt injection, regulatory compliance, and general harm, a combination no existing open guardrail addresses in a single inference pass. Semalith v1.4 is a 184M-parameter DeBERTa-v3-base classifier performing simultaneous three-axis safety classification including prompt injection, general harm, and financial-services regulatory compliance, in a single forward pass. Its 22-class head (BENIGN, nine prompt-injection sub-types, general-harm, eleven BFSI labels) is trained with a 4-class auxiliary super-category head under jointly weighted loss, on a 76,204-row corpus mined from 49 public sources with SHA-1 deduplication against every held-out evaluation set, with 21 of 22 benchmarks at zero contamination (max 0.22%). Against Llama-Guard-3-8B on 22 held-out benchmarks, Semalith v1.4 wins every prompt-injection evaluation (7/7) and 11 of 18 benchmarks overall at 44x fewer parameters, with FPR = 0.000 on 208 benign agentic prompts vs 0.063 for Llama-Guard-3-8B. On general-harm benchmarks (WildGuardMix, HEx-PHI, HarmBench), Llama-Guard-3 leads; this complementary split is documented in Section 4. Six measured weak spots are disclosed in Section 6. Deployment guidance: v1.3 is recommended for conversational moderation deployments (ToxicChat F1 0.624); v1.4 is recommended when BFSI label coverage or zero-FPR on benign agentic prompts is the priority.
+PY  - 2026
+DA  - 2026-05-06
+JO  - arXiv
+UR  - https://arxiv.org/abs/2607.22545
+AN  - arXiv:2607.22545
+DB  - arXiv
+M3  - preprint
+AU  - Tejasvi C. Addagada
+ER  - 
+
+TY  - RPRT
+TI  - Towards Generation-Efficient Uncertainty Estimation in Large Language Models
+AB  - Uncertainty estimation is important for deploying LLMs in high-stakes applications such as healthcare and finance, where hallucinations can appear fluent and plausible while being factually incorrect, making it difficult for users to judge whether an output should be trusted. Existing methods require one or more full autoregressive generations to estimate uncertainty, which introduces substantial inference cost and often delays uncertainty assessment. In this paper, we investigate whether effective uncertainty estimation can be achieved with partial generation or even input-only information. Specifically, we first develop a unified framework that formulates uncertainty estimation as an early estimation problem over the autoregressive generation process of LLMs. This framework organises existing and proposed estimators by the information they observe, ranging from multi-generation to input-only prediction, and clarifies the performance-cost trade-off underlying different uncertainty estimation methods. Building on this view, we study two largely underexplored low-cost settings: estimating uncertainty with part of the generation, and predicting uncertainty from the input prompt. We propose Logit Magnitude, which uses top-M logit evidence to estimate uncertainty from an early-stopped generation prefix, and MetaUE, which distils generation-based uncertainty into a lightweight input-only estimator trained with uncertainty scores. Extensive experiments on general and domain-specific benchmarks show that Logit Magnitude achieves strong performance, and partial generations of LLMs are often sufficient for effective uncertainty estimation. MetaUE further provides a competitive input-only approximation in several settings. These findings suggest that effective uncertainty estimation requires less generation than commonly assumed, enabling unreliable responses to be identified earlier.
+PY  - 2026
+DA  - 2026-05-07
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.06053
+AN  - arXiv:2605.06053
+DB  - arXiv
+M3  - preprint
+AU  - Mingcheng Zhu
+AU  - Yu Liu
+AU  - Tingting Zhu
+ER  - 
+
+TY  - RPRT
+TI  - Grounded or Guessing? LVLM Confidence Estimation via Blind-Image Contrastive Ranking
+AB  - Large vision-language models (LVLMs) suffer from visual ungroundedness: they can produce a fluent, confident, and even correct response driven entirely by language priors, with the image contributing nothing to the prediction. Existing confidence estimation methods cannot detect this, as they observe model behavior under normal inference with no mechanism to determine whether a prediction was shaped by the image or by text alone. We introduce BICR (Blind-Image Contrastive Ranking), a model-agnostic confidence estimation framework. The LVLM stays entirely frozen; instead, we extract its hidden states twice per sample, once with the real image-question pair and once with the image blacked out while the question is held fixed. A small, separate probe is then trained on the real-image hidden state, regularized by a ranking loss that penalizes higher confidence on the blacked-out view, teaching it to treat visual grounding as a signal of reliability. At inference only the single real-image pass is used, so BICR adds zero cost beyond a standard single-view probe. Evaluated across five modern LVLMs and seven baselines on a benchmark covering visual question answering, object hallucination detection, medical imaging, and financial document understanding, BICR achieves the best cross-LVLM average on both calibration and discrimination simultaneously, with statistically significant discrimination gains robust to cluster-aware analysis, at 4-18x fewer parameters than the strongest probing baseline.
+PY  - 2026
+DA  - 2026-05-11
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.10893
+AN  - arXiv:2605.10893
+DB  - arXiv
+M3  - preprint
+AU  - Reza Khanmohammadi
+AU  - Erfan Miahi
+AU  - Simerjot Kaur
+AU  - Charese H. Smiley
+AU  - Ivan Brugere
+AU  - Kundan Thind
+AU  - Mohammad M. Ghassemi
+ER  - 
+
+TY  - RPRT
+TI  - K-FinHallu: A Hallucination Detection Benchmark for Multi-Turn RAG in Korean Finance
+AB  - Large Language Models (LLMs) have advanced financial automation through Retrieval-Augmented Generation (RAG), yet hallucinations remain a critical barrier to deployment in high-stakes environments. Existing benchmarks focus on single-turn, English-centric tasks, leaving the multi-turn dynamics and linguistic-regulatory nuances of the Korean financial domain unaddressed. We introduce K-FinHallu, the first benchmark for hallucination detection in multi-turn Korean financial RAG. We construct multi-turn dialogues from authentic Korean financial documents and inject hallucinations under a proposed hierarchical taxonomy based on context answerability that explicitly accounts for justified abstention. Benchmarking frontier and open-source LLMs as hallucination detectors, we find that even the strongest models struggle with fine-grained financial diagnostics and refusal behavior. While fine-tuning an 8B model on our training split yields performance competitive with frontier LLMs, justified abstention remains the weakest axis across all evaluated models.
+PY  - 2026
+DA  - 2026-05-28
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.29523
+AN  - arXiv:2605.29523
+DB  - arXiv
+M3  - preprint
+AU  - Eunbyeol Cho
+AU  - Yunseung Lee
+AU  - Mirae Kim
+AU  - Jeewon Yang
+AU  - Youngjun Kwak
+AU  - Edward Choi
+ER  - 
+
+TY  - RPRT
+TI  - FinVerBench: Benchmark Validity and Calibration in Large Language Model Financial Statement Verification
+AB  - We introduce FinVerBench, a benchmark and validity study for financial statement verification: determining whether a set of corporate financial statements is numerically consistent from the information shown to the model. FinVerBench is built from SEC 10-K XBRL filings for 43 S&P 500 companies and defines a four-category error taxonomy covering arithmetic, cross-statement linkage, year-over-year, and magnitude perturbations. We attempt fifteen contemporary LLM evaluations and report fourteen complete runs; a Gemini 2.5 Pro run is excluded from the main comparison because 40/108 gateway calls failed. All binary metrics exclude underdetermined positive instances whose perturbed line item is not rendered, leaving a 105-instance observable diagnostic subset (43 clean, 62 error-injected). Under the original guided-checklist prompt on the unrounded diagnostic subset, nine of fourteen complete LLM runs produce 95-100% false positives on clean statements, while one run achieves 0% observed false positives. Benchmark rendering choices materially affect measured recall: on a realistic rounded variant of the same observable subset, the calibrated model's recall is 79.0% with 0% observed FPR, compared with 100.0% recall on the unrounded diagnostic variant. These results support a construct-validity conclusion rather than a final leaderboard: financial statement verification is not merely arithmetic detection, but calibrated judgment under incomplete observability, prompt-induced assumptions, and realistic numerical rendering. FinVerBench and all code are publicly available.
+PY  - 2026
+DA  - 2026-05-28
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.29586
+AN  - arXiv:2605.29586
+DB  - arXiv
+M3  - preprint
+AU  - Silu Panda
+ER  - 
+
+TY  - RPRT
+TI  - Fighting Numerical Hallucinations via Data-centric Compilation for Online Financial QA
+AB  - Large Language Models (LLMs) have significantly advanced online data services, particularly in the domain of financial question answering (FinQA). However, such systems remain susceptible to numerical reasoning hallucinations, which critically undermine reliability in high-stakes financial applications. Although retrieval-augmented generation (RAG) has been widely adopted to ground responses in external knowledge, it introduces three persistent challenges: noise sensitivity, calculation fragility, and an auditability crisis. Existing model-centric approaches, which primarily focus on optimizing either the retriever or generator in isolation, still struggle to address these issues in an integrated manner. In this work, we pioneer a data-centric paradigm and propose a novel framework, the Data-centric Reasoning Compiler (DCRC). The framework operates through three cohesive phases: (1) adversarial data construction, which synthesizes training examples with controlled noise to teach robustness; (2) multi-stage training that cultivates a Data-centric Structuring Agent (DSA) capable of explicit evidence auditing and program synthesis; and (3) a compile-and-execute inference process, where the DSA transforms user queries and retrieved documents into verifiable, executable reasoning programs. This data-driven framework ensures faithful numerical reasoning by design. We conduct extensive experiments on established offline benchmarks and further validate our framework through deployment in a real-world online financial QA system.
+PY  - 2026
+DA  - 2026-05-29
+JO  - arXiv
+UR  - https://arxiv.org/abs/2605.31064
+AN  - arXiv:2605.31064
+DB  - arXiv
+M3  - preprint
+AU  - Hao Chen
+AU  - Xing Tang
+AU  - Qirui Liu
+AU  - Weijie Shi
+AU  - Shiwei Li
+AU  - Fuyuan Lyu
+AU  - Weihong Luo
+AU  - Xiku Du
+AU  - Xiuqiang He
+ER  - 
+
+TY  - RPRT
+TI  - Multi-Agent Framework for Audit Risk Assessment with Explicit Uncertainty and Evidence Conflict Modeling
+AB  - Audit risk assessment increasingly benefits from combining heterogeneous evidence sources, yet existing approaches typically produce point predictions without quantifying how well different evidence streams agree. We propose UMAR (Uncertainty-Aware Multi-Agent Risk Assessment), a framework that employs three specialized agents: an MD&A Text Agent, a Financial Ratio Agent, and a CAM Agent, each producing independent risk scores with calibrated uncertainty estimates. An Uncertainty Aggregator based on Dempster-Shafer evidence theory fuses these scores while explicitly measuring inter-agent conflict. We evaluate UMAR on a U.S. dataset of 3,200 firm-year observations from SEC 10-K filings (2019-2023), with financial restatement as the target label. Experimental results show that UMAR achieves an AUROC of 0.782 and a PR-AUC of 0.341, outperforming logistic regression, XGBoost, FinBERT, and single-agent and dual-agent LLM baselines. UMAR attains the lowest expected calibration error (ECE = 0.052) among all methods and identifies evidence-conflict patterns that correlate with actual restatement risk, offering auditors potentially actionable and interpretable risk signals.
+PY  - 2026
+DA  - 2026-06-14
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.15640
+AN  - arXiv:2606.15640
+DB  - arXiv
+M3  - preprint
+AU  - Yuhan Wang
+AU  - Manqing Wang
+AU  - Yixuan Lu
+AU  - Zhaoyue Peng
+AU  - Shengda Lin
+ER  - 
+
+TY  - RPRT
+TI  - The Hallucination Snowball: Modeling Error Propagation as State Transitions in Multi-Agent LLM Pipelines
+AB  - Sequential multi-agent LLM pipelines chain specialized agents without verification at handoffs, creating a structural flaw with measurable and severe consequences. We show that hallucinations injected at Stage 1 do not merely persist; they transform: raw numerical facts become derived computations, then narrative prose, then editorially approved conclusions. At each transformation, detectability degrades near-irreversibly. We formalize this as the hallucination snowball effect, a first-order Markov process over four states (Raw Fact $\to$ Derived $\to$ Narrative $\to$ Invisible) with empirically measured per-boundary escape probabilities of 24.6%, 48.3%, and 89.3%. Across 346 automatically injected hallucinations in a 4-agent financial analysis pipeline on FinanceBench, gpt-4o detection drops from 72.0% at Stage 1 to 50.9% at Stage 4, and 23.7% of hallucinations survive completely undetected in the final output. Even the strongest model tested (Qwen3.5-397B-A17B, 87.0% at Stage 1) faces a structural ceiling; projected Stage 4 detection is only ${\sim}$60--65%. Critically, boundary gates using identical RAG verification tools reduce hallucination survival from 58.4% to 16.2% versus end-of-pipeline checking (Cohen's $h = -0.911$, $p < 0.000001$), while end-checking alone achieves merely 2.3 pp improvement over no verification. When you verify matters more than whether you verify. Our model predicts survival for $n$-agent linear pipelines and prescribes optimal verification resource allocation: invest at $S_1{\to}S_2$ first, where 75.4% of hallucinations are still catchable, not at $S_3{\to}S_4$ where 89.3% have already escaped.
+PY  - 2026
+DA  - 2026-06-22
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.14588
+AN  - arXiv:2608.14588
+DB  - arXiv
+M3  - preprint
+AU  - Prabhjot Singh
+AU  - Bhushan Pawar
+ER  - 
+
+TY  - RPRT
+TI  - Beyond Logprobs: A Multi-Signal Confidence Engine for LLM-Based Document Field Extraction
+AB  - In high-stakes document processing pipelines, including financial reconciliation, compliance verification, and procurement automation, an LLM extraction that is silently wrong is more dangerous than one that is visibly absent. The central challenge is not extraction accuracy alone but reliable confidence estimation: knowing, field by field, whether an extraction can be trusted for automation or deferred to human review. Token-level log-probabilities, verbalized confidence, and multi-sample self-consistency all collapse toward all-positive behaviour at practical thresholds, offering no reliable separation between trustworthy and untrustworthy extractions. We present ExtractConf, a cross-domain, field-agnostic confidence engine that grounds confidence estimation in two structurally different readings of the same document. A field-guided Hunter call extracts each field under schema-slot completion pressure; a document-guided Mapper call scans holistically and surfaces values grounded in document content. This asymmetry yields different failure modes: Hunter hallucinates values for absent fields, while Mapper misses visually non-salient ones. Their disagreement is independently informative. ExtractConf fuses cross-call disagreement, LLM-internal uncertainty, OCR, image quality, and spatial layout into a classifier requiring no domain-specific rules or retraining. On DocILE (55-field invoices, 26% failure rate), it achieves 0.928 ROC AUC and reduces selective prediction risk by 70% over logprob-mean. At 80% coverage, accuracy reaches 99.1%, enabling a practical human-in-the-loop workflow. Zero-shot transfer to CORD receipts achieves 0.858 AUC; lightweight Lasso recalibration reduces ECE by 89% and Brier by 43%, confirming the signals generalise across document domains.
+PY  - 2026
+DA  - 2026-06-23
+JO  - arXiv
+UR  - https://arxiv.org/abs/2606.24420
+AN  - arXiv:2606.24420
+DB  - arXiv
+M3  - preprint
+AU  - Nitesh Kumar
+ER  - 
+
+TY  - RPRT
+TI  - FinBench: Time-Gated Calibration and Uncertainty Benchmarking for Agentic Financial Forecasting
+AB  - Large language models (LLMs) are increasingly used as components of agentic systems that observe, plan, and act. In finance, even "assistive" systems become decision-relevant once their outputs are used to size trades or allocate risk. A key failure mode is the confidence--competence gap: a model that is only slightly better than chance but consistently overconfident will, under typical bet-sizing rules, generate negative long-run growth. Existing benchmarks emphasize semantic understanding or point accuracy, but do not directly test probabilistic calibration under the temporal constraints and non-stationarity that define real markets. We introduce FinBench, a benchmark designed to evaluate calibration and uncertainty quality for financial forecasting in a setting that is (i) strictly time-gated to avoid look-ahead bias and (ii) evaluated with strictly proper scoring rules that penalize hallucinated confidence. FinBench tasks require models to output (a) a probability of positive return and (b) an 80% prediction interval for realized log return; evaluation uses the Brier score and the Winkler interval score, along with skill scores against hard baselines. This paper describes the benchmark specification and reports a small pilot run (one trading day; three liquid tickers; 33 forecasts) as a sanity check of the pipeline. The pilot illustrates how calibration-sensitive metrics distinguish between "confident but fragile" behavior and uncertainty-aware forecasting.
+PY  - 2026
+DA  - 2026-06-24
+JO  - arXiv
+UR  - https://arxiv.org/abs/2607.16229
+AN  - arXiv:2607.16229
+DB  - arXiv
+M3  - preprint
+AU  - Rishab Ghosh
+AU  - Vinay Devarakonda
+ER  - 
+
+TY  - RPRT
+TI  - Confidently Wrong: Detecting Hallucinations in Financial Question Answering from LLM Internal States
+AB  - Large language models (LLMs) in financial applications fail most consequentially when they are confidently wrong. Hedged, uncertain answers invite scrutiny, whereas confident errors silently degrade downstream decisions without warning. We ask how reliably such confidently wrong answers, or confident hallucinations, can be detected from a model's internal activations, and whether those activations carry information beyond its output-level confidence signals. We train linear probes on the residual stream and evaluate them on two established numerical question-answering (QA) benchmarks built from real filings, FinQA and TAT-QA. Behavioral confidence is measured as the agreement among eight resampled answers to the same question, and probe effectiveness is compared against baselines, such as token log-probabilities and the model's own True/False self-assessment of its answer. Our findings show that among confident answers, those for which all eight resamples agree, 15-23% are wrong on FinQA. There the probes have a significant advantage over output-level baselines in detecting hallucinations, holding 0.68-0.77 AUROC while the best baselines fall to 0.55-0.63, across Qwen3-8B, Llama-3.1-8B, and Gemma-2-9B. Our results suggest that probing can be a cost-effective triage mechanism for routing LLM answers to human review and quality control procedures in high-stakes financial applications. Code and data are available at https://github.com/richardzhewang/confidently-wrong.
+PY  - 2026
+DA  - 2026-07-13
+JO  - arXiv
+DO  - 10.1145/3858063.3858685
+UR  - https://arxiv.org/abs/2607.11414
+AN  - arXiv:2607.11414
+DB  - arXiv
+M3  - preprint
+AU  - Richard Zhe Wang
+ER  - 
+
+TY  - RPRT
+TI  - From Critic to Confidence: PPO for Language-Based Quantitative Prediction with Confidence Estimation
+AB  - LLMs can perform language-based quantitative prediction from unstructured inputs, but remain susceptible to hallucinations and overconfident errors, making it critical to know not only what a model predicts, but when its predictions can be trusted. We introduce CARE-PPO, a reinforcement learning framework that establishes a connection between loss prediction for uncertainty estimation and actor-critic PPO fine-tuning, enabling joint learning of accurate numerical estimates and reliable confidence signals in language-based quantitative prediction. CARE-PPO uses a Confidence-Aligned Reward for Estimation, defined as a function of prediction error, to provide dense error-aware feedback to the actor while inducing the critic to learn a value function aligned with prediction quality. During inference, we repurpose the critic as a confidence estimator. Across two real-world tasks in healthcare and finance and two Qwen-3 model scales (4B and 8B), CARE-PPO achieves strong quantitative prediction performance, while producing significantly better-aligned confidence estimates through the critic than logit-based and verbalized baselines. These gains persist under realistic out-of-distribution settings across domains, spanning linguistic and domain shifts. Finally, CARE-PPO reduces task-specific overfitting on general instruction-following prompts, consistent with the broader generalization advantages of RL fine-tuning over supervised approaches.
+PY  - 2026
+DA  - 2026-07-14
+JO  - arXiv
+UR  - https://arxiv.org/abs/2607.12687
+AN  - arXiv:2607.12687
+DB  - arXiv
+M3  - preprint
+AU  - Mehak Dhaliwal
+AU  - Rasta Tadayon
+AU  - Andong Hua
+AU  - Haewon Jeong
+AU  - Yao Qin
+ER  - 
+
+TY  - RPRT
+TI  - Calibrating Semantic Uncertainty from Observable Language-Model Probabilities
+AB  - As generative artificial intelligence enters scientific and professional work, its uncertainty must be defined on the states that matter for inference and decision-making. Language models assign probabilities to words, whereas applications require uncertainty over meaningful states such as diagnoses, hypotheses or operational conditions. We introduce a \emph{semantic map}: a prespecified, testable bridge from probabilities over verbal responses to a posterior over declared finite states. The language distribution remains unrestricted; held-out calibration connects it to a reference posterior. We derive posterior-error bounds and conditions for existence, conditional uniqueness, presentation stability and stable inverse recovery. This distinction matters because language probabilities depend on prompt wording, while the target posterior should not change under information-equivalent rewording. Experiments use professional market text compiled from Federal Reserve economic and financial series, together with controlled simulations having exact posteriors. Across two fitted language models, language-derived probabilities outperform printed numerical confidence, recover held-out posteriors with valid uncertainty coverage, remain largely stable under paraphrase and respond appropriately to altered evidence. \textbf{Prompt engineering optimises a wording-dependent response; robust scientific use requires validated stability of application-relevant meaning.} The proposed map turns semantic uncertainty in generative systems into an identifiable and testable statistical measurement problem and, when its acceptance conditions hold, yields an auditable posterior estimate.
+PY  - 2026
+DA  - 2026-07-20
+JO  - arXiv
+UR  - https://arxiv.org/abs/2607.17447
+AN  - arXiv:2607.17447
+DB  - arXiv
+M3  - preprint
+AU  - Matthew F. Dixon
+ER  - 
+
+TY  - RPRT
+TI  - FinAbstain: Uncertainty-Calibrated Multimodal RAG for Selective Financial Forecasting
+AB  - Large language models (LLMs) can synthesize financial narratives but may express high confidence when evidence is sparse, stale, or contradictory. This failure is especially consequential in forecasting, where filings, news, prices, volume, and technical signals can disagree. We present FinAbstain, a research framework for uncertainty-calibrated multimodal retrieval-augmented generation (RAG) with selective prediction. A point-in-time retriever admits only information public at the forecast timestamp and supplies modality-specific evidence to fundamental, news, technical, risk, and verification agents. Their probabilistic assessments are aggregated with retrieval relevance, evidence contradiction, repeated-sample consistency, and historical calibration statistics. Temperature scaling, isotonic regression, conformal prediction, and a proposed hybrid uncertainty score are evaluated under a common chronological protocol. A controller predicts bullish, bearish, or neutral outcomes only when uncertainty is below a validated threshold; otherwise it abstains, requests evidence, reduces exposure, or routes the case to human review. The evaluation covers one- and five-day abnormal-return direction, twenty-day volatility intervals, and abstention decisions, using accuracy, calibration, risk--coverage, citation, trading, latency, and cost metrics. To make the design auditable before a full data collection is complete, we report explicitly labeled simulated results rather than empirical claims. These results illustrate the intended hypothesis: calibrated abstention may trade coverage for lower selective error and drawdown. The contribution is a time-safe architecture, a composite uncertainty formulation, and a reproducible evaluation blueprint for evidence-grounded selective financial forecasting.
+PY  - 2026
+DA  - 2026-07-27
+JO  - arXiv
+UR  - https://arxiv.org/abs/2607.24875
+AN  - arXiv:2607.24875
+DB  - arXiv
+M3  - preprint
+AU  - Dorothy Torres
+AU  - Wei Cheng
+AU  - Henan Huang
+ER  - 
+
+TY  - RPRT
+TI  - Confidence Estimation for Financial Vision-Language Models in Chart and Document Understanding
+AB  - LVLMs are increasingly used to read financial charts, tables, and documents, where a single misread figure can move a decision and the most authoritative-looking answer is sometimes one the model produced without reading the exhibit. The operational question is therefore trust, not accuracy: which answers can be acted on, and which escalated to a reviewer. We evaluate seven confidence estimators, three inference-only and four trained internal probes, across five open-weight LVLMs and four conditions from three financial visual question-answering benchmarks, one bilingual; every probe is trained only on natural images and applied to finance without adaptation, so the results measure out-of-distribution transfer. Three findings hold. First, the scarce property is calibration, not ranking: the inference baselines rank correct above incorrect answers competitively but are badly overconfident, calibration error far above what a threshold can tolerate, and only the trained probes produce a thresholdable score. Second, reliability is structured rather than global, along two axes a practitioner can read directly: the best estimator shifts with both model and task, none leading more than eight of twenty (model, condition) cells, and a controlled bilingual contrast exposes an apparent language robustness as a composition artifact that dissolves once models are read one at a time. Third, cast as deferral under an error budget, how much can be safely automated is set first by the model's competence and only narrowed by its confidence, so deferral clears a real share of the easiest condition and almost none of the hardest, near zero at a strict 5% budget. Two trained probes carry the calibration a deferral policy needs, and among them only the grounding-aware one lowers its confidence on answers a model gives without using the figure, separating detected non-grounding from a fluent guess.
+PY  - 2026
+DA  - 2026-08-06
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.06532
+AN  - arXiv:2608.06532
+DB  - arXiv
+M3  - preprint
+AU  - Reza Khanmohammadi
+AU  - Simerjot Kaur
+AU  - Charese H. Smiley
+AU  - Ivan Brugere
+AU  - Mohammad M. Ghassemi
+ER  - 
+
+TY  - RPRT
+TI  - Damage Predicts Recovery: When Calibration Data Matters in Compressing Financial LLMs
+AB  - Post-training quantization and pruning rely on a small calibration corpus. Whether specialized domains such as finance require domain-matched calibration data remains unsettled. We argue that the answer depends on the task-level damage caused by compression rather than on domain mismatch. If compression preserves the target capability, changing the calibration corpus has little effect. If compression causes large losses, task-formatted calibration can recover part of the loss. We test this hypothesis across two model families, six compression configurations, three token-matched calibration corpora, and ten financial classification and numerical question-answering tasks. The results support this hypothesis. Quantization largely preserves task performance, and calibration choice has little effect in this case. Pruning reduces numerical QA accuracy by over 40 points. In these damaged settings, another generic corpus does not help, while FinMix, a mixture of financial task examples, recovers a large part of the loss. The link between damage and recovery holds across model families and scales. These findings support a practical rule. Measure task-specific compression damage first, and construct specialized calibration data only when the damage is large.
+PY  - 2026
+DA  - 2026-08-12
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.26241
+AN  - arXiv:2609.26241
+DB  - arXiv
+M3  - preprint
+AU  - Junyi Ye
+AU  - Mengjia Yu
+AU  - Debapriya Hazra
+AU  - Guiling Wang
+ER  - 
+
+TY  - RPRT
+TI  - Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk
+AB  - Costly LLM features matter only if calibration lets them affect the forecast. We document a failure of this link in a next-day risk study of two broad-market funds. Full-history scoring preceded the 2022 calibration. Calibration then set all four LLM weights to zero. The 856 later scores therefore could not affect the evaluation. We call this calibration-induced degeneracy. Allowing signed weights reactivated all four mappings. None improved forecasts after familywise correction. By contrast, a near-zero-cost headline count reduced SPY variance-forecast loss by 0.001720 (95 percent familywise interval: [0.000719, 0.002830]). The cheap baseline is therefore a critical diagnostic. We propose a calibration-viability checkpoint. Fit the mapping, perturb the feature over prespecified calibration values, and require a meaningful forecast response before acquiring holdout features. The check uses no holdout outcomes. Here, it would have stopped the paid full-history inference phase.
+PY  - 2026
+DA  - 2026-08-20
+JO  - arXiv
+UR  - https://arxiv.org/abs/2608.20304
+AN  - arXiv:2608.20304
+DB  - arXiv
+M3  - preprint
+AU  - Arin Mohanty
+ER  - 
+
+TY  - RPRT
+TI  - Ordinal Gates, Cardinal Bets: Matching LLM Confidence to the Financial Decision Operator
+AB  - LLM confidence scores are not independently deployable objects: their decision value depends on the downstream operator and exposure controller that consume them. Monotone recalibration cannot change a coverage-matched rank-based gate, whereas position sizing consumes score magnitude, so changing a confidence map can invalidate a scale fitted to the previous score distribution. We test this on FactSet news for Nasdaq-100 equities, fitting maps and scales on 2021 and evaluating nine open-weight LLMs out-of-sample on 2022--2023. Cross-applying raw and correctness maps with independently fitted scales shows that the two components are not portable alone: scale transfer reduces certainty-equivalent return (CER) in $8/9$ models and produces large risk-target errors. Matching each map with its fitted scale improves ensemble CER by $9.2$ percentage points per year under frozen-scale control ($p<0.001$), and the effect remains significant when the single largest-contributing model is excluded ($+5.5$pp/yr), so it is not driven by one case. Under an identical adaptive-volatility controller, however, the incremental effect falls to $+1.6$pp/yr, with a significant controller interaction. Annual walk-forward effects are smaller, although map--scale interaction remains positive in every fold. Confidence transformations should therefore be evaluated jointly with the downstream controllers that consume them.
+PY  - 2026
+DA  - 2026-08-31
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.00187
+AN  - arXiv:2609.00187
+DB  - arXiv
+M3  - preprint
+AU  - Rayansh Singh
+AU  - Sara Rezaeimanesh
+ER  - 
+
+TY  - RPRT
+TI  - From Tokens to Semantics: Leveraging Complementary Signals for Hallucination Detection in Black-Box LLMs
+AB  - When LLMs support public-facing or high-stakes workflows, missed fabrications can harm users and institutions, while false alarms consume limited human-review capacity. When no trusted context or reference document is available, we study two signals accessible through black-box model APIs: semantic entropy, which measures disagreement among sampled response meanings, and uncertainty derived from token log-probabilities. Their failure modes can be complementary: semantic entropy becomes uninformative when responses form one semantic cluster, while token uncertainty can miss consistently confident errors. We extend token-based uncertainty detection by aggregating token-level signals across sampled responses through our TopK method, evaluate the hybrid CoCoA method, which combines target-response uncertainty with semantic dissimilarity, and propose and study two supervised methods: Gated, which routes single-cluster cases to an aggregated-token-feature classifier, and Stacked, which learns jointly from semantic uncertainty and broader token features. We evaluate seven benchmarks, including five public benchmarks (four text datasets and multimodal handwritten-cheque extraction) and two constructed benchmarks (Financial Summaries and Long-Text QA), using four language models. In our evaluation across models and datasets, Stacked gave the best performance in nearly half of the cases, while TopK and CoCoA remain competitive without supervised training labels, although their thresholds require careful calibration. No method is universally strongest. We therefore evaluate performance at false-positive-rate budgets from 1% to 15%, assess their sensitivity to generation and calibration choices, and examine variation across dataset characteristics.
+PY  - 2026
+DA  - 2026-09-02
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.02679
+AN  - arXiv:2609.02679
+DB  - arXiv
+M3  - preprint
+AU  - Urja Pawar
+AU  - Rajitha Ramanayake
+AU  - Owen O'Neill
+AU  - Nabeel Kemal
+AU  - Abhishek Mandal
+AU  - Houssem Chatbri
+AU  - Christopher Martin
+AU  - Vadim Pertsovskiy
+ER  - 
+
+TY  - RPRT
+TI  - When Financial Fine-tuning Fails: A Three-Level Detectability Analysis of Numerical Hallucination in Domain-Adapted Language Models
+AB  - Financial large language models are increasingly deployed for summarization of reports and disclosures, where numerical hallucination poses significant practical risks. While prior work often attributes such hallucination to insufficient numerical reasoning, this assumption has not been systematically tested under controlled fine-tuning settings. In this paper, we conduct a cost-effective, controlled study of numerical hallucination in financial summarization across three model variants: a base instruction-tuned model, a domain language-adapted model (FT-A), and a numeracy-enhanced domain model (FT-A+B+C). We introduce a three-level detectability taxonomy distinguishing between overt hallucination (currency-denominated fabrication), covert-explicit hallucination (professional-convention numbers), and covert-implicit hallucination (ungrounded quantitative claims). Our results reveal that domain fine-tuning substantially degrades numerical restraint at all detectability levels. While the Base model maintains near-zero hallucination rates (5.4\%), FT-A exhibits 82.5\% overt hallucination and FT-A+B+C reaches 98\%. Contrary to intuition, numeracy supervision amplifies rather than mitigates hallucination across all levels. We identify template injection---the insertion of memorized canonical values regardless of input content---as a primary hallucination mechanism in fine-tuned models. These findings demonstrate that numerical hallucination in financial summarization is driven by the degradation of numerical restraint through domain adaptation, not by insufficient numerical reasoning. We recommend that evaluation protocols assess hallucination across all detectability levels and that deployment practices include explicit mechanisms for grounding-aware generation or abstention.
+PY  - 2026
+DA  - 2026-09-04
+JO  - arXiv
+DO  - 10.1016/j.neucom.2026.135011
+UR  - https://arxiv.org/abs/2609.04806
+AN  - arXiv:2609.04806
+DB  - arXiv
+M3  - preprint
+AU  - Xiaodong Li
+AU  - Peiwei Liu
+ER  - 
+
+TY  - RPRT
+TI  - Perception, Layout, and Validation: Calibrated Confidence for Reliable Straight-Through Processing of Financial Documents
+AB  - Straight-through processing (STP) on extracted key-value fields from financial documents without human review requires a calibrated probability together with a bounded guarantee on the residual error of the auto-approved tier. The emergence of modern Vision Language Models (VLMs) provides an out-of-the-box capability for extracting the key-values, but their verbalized confidence signals are unreliable and weakly track field correctness. This paper introduces a decomposed confidence layer along three interpretable channels, including perception, layout, and validation. Together with a final conformal risk control, the score can be used for reliable STP of financial documents. The method is validated on three public datasets covering real invoices, synthetic invoices, and ad-buy forms, using two different VLM families (Qwen3.6-27B and Gemini-3.1-Flash-Lite). Our decomposed score consistently improves the separation of correct from incorrect extractions, substantially raising the AUROC from 0.54-0.74 for VLM verbalized signals to 0.90-0.99 with contributions from all three designed channels. Crucially for industrial deployment, this enables usable STP. The native VLM confidence signals could clear only 0.1%-7.0% of fields under risk control at a target error of <10%. In contrast, the proposed method auto-approves 49-72% of fields while holding the empirical error of the accepted tier at or below the target.
+PY  - 2026
+DA  - 2026-09-17
+JO  - arXiv
+UR  - https://arxiv.org/abs/2609.20110
+AN  - arXiv:2609.20110
+DB  - arXiv
+M3  - preprint
+AU  - Yichao Jin
+AU  - Yushuo Wang
+AU  - Yuxuan Han
+AU  - Kwan Ching Yee Sonia
+AU  - Weiyang Song
+AU  - Chiu Jin-Chun Kent
+AU  - Wong Chong Hwee
+AU  - Wong Tiong Kiat
+AU  - Kenneth Zhu Ke
+AU  - Jingyuan Zhao
+ER  - 
+
+TY  - RPRT
+TI  - A Calibrated Instrument for Detecting Disposition Drift in Language Models
+AB  - Before language models are released, they are tested for harmful traits such as willingness to carry out dangerous requests, deception, power seeking, and sycophancy. The safe behavior these tests certify may degrade as models are modified, by topical fine-tuning, new training data, or changes to settings such as the depth of their reasoning. Most work reports such drift as single summary rates scored by another AI model, without the error analysis needed to interpret them. We adapt a calibrated measurement methodology recently developed for assessing how inference optimizations affect the quality of model outputs. Applying it to several misalignment dimensions in two open-weight models, we first establish the instrument's precision, showing that shifts of a few percentage points can be reliably detected. We then induce drift deliberately by fine-tuning on correct and on subtly harmful medical and financial advice; harmful advice induces a far greater shift than correct advice. Most strikingly, a model that reasons before answering can conceal the shift almost entirely in its answers, even though a direct reading of its internal state shows that its disposition has moved. With reasoning switched off, the same model shifts steadily as the share of harmful advice in its training grows. These results demonstrate the importance of testing safety with reasoning turned both on and off.
+PY  - 2026
+DA  - 2026-10-19
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.25735
+AN  - arXiv:2610.25735
+DB  - arXiv
+M3  - preprint
+AU  - Jerry Kaplan
+ER  - 
+
+TY  - RPRT
+TI  - CARLAR Influence: A Structured Hallucination Risk in Multimodal Cheque Extraction and an Exploratory Compressed-Image Countermeasure
+AB  - Multimodal large language models (LLMs) are increasingly used for structured extraction from financial documents, but their behavior under visual ambiguity is poorly understood. We study CARLAR (Courtesy Amount Recognition and Legal Amount Recognition) influence: a model returns the same amount for both cheque fields even though their annotations differ, including cases with a blank annotation encoded as zero. Across ten visual prompting conditions, we evaluate GPT-4.1 and Claude 4.5 Sonnet on 243 primary cheques (124 with two observed unequal amounts) and 598 strict mismatches from two additional datasets. Under courtesy redaction, GPT-4.1 CARLAR reaches 73.7 percent (95 percent bootstrap interval: 68.3 to 79.0; p below 0.001 versus baseline). Model-reported confidence can remain high when predictions agree; expected calibration error reaches 0.93 among CARLAR cases. We also test a compressed-image few-shot intervention that presents examples as one visual table without model fine-tuning. On the 243-case cohort, Claude's Control condition increases paired joint extraction accuracy by 11.5 percentage points (95 percent interval: 6.2 to 16.9; adjusted p = 0.00054), but its strict-124 gain is smaller and not significant after correction. The intervention's effect on predicted-field agreement is model-dependent: it decreases for Claude and increases for GPT-4.1. These results motivate validation methods that account for visual context and dependencies between extracted fields.
+PY  - 2026
+DA  - 2026-10-19
+JO  - arXiv
+UR  - https://arxiv.org/abs/2610.27192
+AN  - arXiv:2610.27192
+DB  - arXiv
+M3  - preprint
+AU  - Joong Ho
+AU  -  Choi
+AU  - Aditya Paul
+AU  - Nidhi Singh
+ER  - 
+
+TY  - RPRT
+TI  - Beyond Binary Detection: Type-Aware Hallucination Analysis and Hierarchical Detection in Financial Question Answering
+AB  - Large language models are increasingly used to answer questions over financial filings, where an unfaithful answer can mislead investment, compliance, or client decisions. Hallucination detectors are a common safeguard, but they are usually evaluated with a single binary score that reveals neither which kinds of errors analysesed nor why. This paper studies hallucination detection on PHANTOM, a long-context benchmark built from SEC filings, at the level of hallucination type. We first analyze 15,443 paired hallucinated and faithful answers without any detector and find that hallucinated answers are more than twice as long as faithful ones, and that lexical grounding separates the two classes only because faithful answers are bimodal. We then generate hallucinations in nine financially motivated categories, confirm each with a separate verification pass, and diagnose an LLM-based detector on 4,086 usable examples. Generation success varies from 66.3% to 100% across categories. The detector reaches 80.2% binary accuracy but only 44.7% subtype accuracy, never assigns two of the nine categories, and misses between 5.3% and 46.8% of hallucinations depending on category; these misses are unrelated to input length but rise with how far an answer departs from the correct one. Guided by this diagnosis, we propose a two-stage hierarchical detector that first decides whether an answer is hallucinated and then assigns a subtype, raising binary accuracy to 95.6% and subtype accuracy to 56.1%. The results show that type-level evaluation exposes detector weaknesses that aggregate metrics conceal.
+PY  - 2026
+DA  - 2026-11-01
+JO  - arXiv
+UR  - https://arxiv.org/abs/2611.02258
+AN  - arXiv:2611.02258
+DB  - arXiv
+M3  - preprint
+AU  - Xiongyu Chen
+AU  - Sizhen Zhu
+AU  - Zhuoer Wang
+ER  - 
+
+TY  - RPRT
+TI  - FiReIQ: Field-Level Confidence Estimation with Reasoning and Image Quality in Document Extraction
+AB  - Vision-Language Models (VLMs) have demonstrated strong performance in structured document extraction, yet their deployment in high-stakes applications requires reliable confidence estimates for individual fields. Existing uncertainty estimators often aggregate signals across an entire generation, obscuring field-specific reasoning uncertainty while overlooking visual degradations that may lead to confident extraction errors. To address these limitations, we introduce FiReIQ, a field-level confidence estimation framework that combines field-aligned reasoning signals from a single VLM generation with local and global image-quality features through quality-conditioned visual fusion. To facilitate systematic evaluation, we further introduce FiReIQ-Bench, a benchmark spanning financial receipts and legal contracts. Experiments with two reasoning VLMs show that FiReIQ consistently improves confidence discrimination, selective prediction, and probabilistic accuracy over existing estimators. These gains extend to private financial service data, where FiReIQ improves AUROC by 6.8% and coverage at 95% precision by 10.6% over an existing baseline. Together, these results highlight the potential of FiReIQ to reduce manual review while enabling more reliable document automation.
+PY  - 2026
+DA  - 2026-11-13
+JO  - arXiv
+UR  - https://arxiv.org/abs/2611.18865
+AN  - arXiv:2611.18865
+DB  - arXiv
+M3  - preprint
+AU  - Xiao Liu
+AU  - Yage Wang
+AU  - Qi Yu
+AU  - Giri Iyengar
+ER  - 
+

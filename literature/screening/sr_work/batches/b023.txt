@@ -1,0 +1,618 @@
+BATCH b023 -- 50 records: R00912 .. R00961
+
+### R00912 | 2026 | article/None | Lang: en
+TI: Trust in Financial Technology: The Role of Financial Literacy, Digital Financial Literacy, Technological Literacy, and Trust in Artificial
+    Intelligence
+AB: This study examines the relationships among financial literacy, digital financial literacy, technological literacy, and trust in artificial
+    intelligence (AI) as predictors of consumer trust in fintech applications involving robo-advisors or chatbots. A sample of 117 college students
+    responded to an online survey with scales designed to measure these constructs. Results confirmed that the three literacy measures were
+    significantly correlated, reflecting their overlapping knowledge and cognitive perspective. However, trust in AI showed no significant correlation
+    with any literacy measure, and regression analysis revealed that trust in AI was the sole statistically significant predictor of trust in consumer
+    fintech. These findings suggest that fintech adoption is driven largely by trust rather than financial or technological competence, creating
+    potential vulnerabilities when consumers lack the literacy to evaluate AI-generated financial advice. The results highlight the need for financial
+    education programs to integrate fintech alongside traditional literacy topics and suggest a possible role for regulatory reform to support users
+    of fintech.
+
+### R00913 | 2026 | article/None | Lang: en
+TI: Psychological predictors of financial technology adoption: The role of trust, attitude, and demographics in AI based financial ChatBots use
+AB: As Large Language Models (LLMs) are increasingly shaping decision-making across various sectors, including finance, understanding the
+    psychological and demographic factors influencing their adoption is both timely and critical. This study examines the role of perceived trust in
+    the adoption intention of financial robo-advisors for solving investment problems. It also tests the moderating role of gender in shaping the
+    behavioral intention, which remained underexplored in the prior literature. By exploring other demographic and socioeconomic factors like age,
+    marital status, and gender, the study analyzes surveys of 364 participants in a developing country context. Results show that education
+    significantly enhances the intention to adopt LLM-based financial services, while women exhibit higher adoption intention as compared to their
+    counterparts, thereby highlighting a gender trust gap. These findings offer important implications for policymakers and FinTech developers aiming
+    to foster inclusive, trust-based engagement with AI-driven financial tools. By contextualizing LLM adoption within the socio-technical realities
+    of developing economies, this study contributes to the literature on technology acceptance and digital trust, offering a theoretical and empirical
+    basis for future interdisciplinary research in AI adoption behavior.
+
+### R00914 | 2026 | article/None | Lang: en
+TI: Financial advice behaviour: humans versus AI
+AB: Financial advice can attenuate underinvestment but is costly, biased, and skewed towards the wealthy. AI-powered co-advisors could help deliver
+    more scalable and affordable advice. To understand how, our vignette-based survey experiment compares the portfolio recommendations made by
+    professional human advisors with GenAI large language models (LLMs) under biased and unbiased prompts. We document human financial advice
+    projection whereby human advisors strongly project their own portfolios onto their clients. AI financial advice projection is prompt and model
+    family dependent: ChatGPT is the least biased, while strong Gemini-Biased projection collapses when removing advisor demographics. LLMs are
+    systematically more conservative than professional human advisors, recommending portfolios with lower Sharpe ratios that deliver up to 18% lower
+    20-year terminal wealth. However, human advisory fees erode much of this excess gain, with a 20-year breakeven fee of 1.03% p.a. Our results have
+    direct implications for financial regulators, the advice profession, and LLM developers seeking to deploy AI-generated financial advice.
+
+### R00915 | 2025 | preprint/None | Lang: en
+TI: Smarter Investing with AI: Using Neural Models to Personalize Financial Advice
+AB: Recent advances in Transformer-based neural architectures have catalyzed a new era of AI-driven financial advisory systems. Unlike traditional
+    roboadvisors that rely on rule-based or shallow learning algorithms, Transformer models can process diverse financial and personal data to deliver
+    personalized, context-aware investment guidance at scale. This paper explores the application of Transformers, particularly large language models
+    (LLMs), in providing customized financial advice to individuals. We review the technical foundations of Transformers, propose a modular
+    architecture for personalized advisory platforms, and analyze how user profiles, market data, and real-time financial behavior can be encoded to
+    drive dynamic, user-specific recommendations. Real-world applications such as AI-powered robo-advisors, personal finance assistants, and
+    autonomous trading agents are discussed, alongside the ethical, regulatory, and technological challenges they raise. We further highlight emerging
+    research directions, including agentic AI, multi-modal personalization, explainability, and human-AI collaboration in financial services. Our
+    findings suggest that Transformer-based personalization has the potential to democratize access to high-quality financial advice, but only if
+    challenges related to privacy, trust, fairness, and compliance are carefully addressed.
+
+### R00916 | 2026 | preprint/None | Lang: en
+TI: Predictive Finance Using Generative AI & LLMs
+AB: Developed predictive finance solutions using Generative AI, Large Language Models (LLMs), & machine learning to enhance financial forecasting,
+    risk assessment, & strategic decision-making. Built AI-driven models for revenue forecasting, cash flow prediction, credit risk evaluation, fraud
+    detection, & market trend analysis using structured & unstructured financial data. Leveraged prompt engineering, natural language processing, &
+    predictive analytics to automate financial reporting, extract actionable insights, & improve forecasting accuracy. Integrated advanced AI
+    frameworks with business intelligence platforms to optimize investment analysis, scenario modeling, portfolio performance evaluation, & enterprise
+    financial planning. Collaborated with cross-functional teams to deliver scalable AI-powered financial solutions, strengthen data-driven
+    decision-making, improve operational efficiency, & accelerate digital finance transformation.
+
+### R00917 | 2026 | article/None | Lang: en
+TI: AI in Accounting and Finance: "The Role of AI in Enhancing Financial Literacy and Financial Planning Among College Students"
+AB: Artificial Intelligence (AI) has emerged as a transformative force in the field of accounting and finance, particularly in enhancing financial
+    literacy and financial planning among young individuals. AI-based financial tools such as budgeting apps, investment platforms, chatbots, and
+    expense trackers have simplified financial decision-making for students. The present study examines the role of AI in improving financial literacy
+    and financial planning among college students. The study is based on primary data collected from a sample of 60 college students using a
+    structured questionnaire. The findings reveal that AI tools positively influence students’ understanding of financial concepts, budgeting
+    practices, saving behaviour, and goal setting. However, challenges such as data privacy concerns, lack of awareness, and complexity of
+    applications still exist. The study concludes that integrating AI-based financial education at the college level can significantly enhance
+    students’ financial capability and long-term financial well-being
+
+### R00918 | 2025 | preprint/None | Lang: en
+TI: AI Appreciation and Financial Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00919 | 2026 | article/None | Lang: en
+TI: Beyond Black Box: How LLMs Work with RAG to Deliver Personalized Financial Advisory
+AB: Financial literacy among young people, combined with the expense and unavailability of professional financial advisory services, leaves a huge gap
+    in personalized financial advice, especially in developing countries like India. The current state-of-the-art Large Language Model (LLM)-based
+    systems, despite their interactive and conversational capabilities, have some serious drawbacks such as hallucination, generation of incorrect
+    information, and data security issues, making them unsuitable for financial advisory tasks. This paper presents a Personalized Financial Advisory
+    Chatbot (PFAC) system that combines LLMs with a Retrieval-Augmented Generation (RAG) model to provide accurate, reliable, and accessible financial
+    advice using natural language conversations. The RAG model uses the retrieval of verified information from carefully selected financial knowledge
+    sources to effectively mitigate hallucinations and improve the reliability of responses. The proposed system provides a scalable, affordable, and
+    democratized approach to empower people to make informed financial choices.
+
+### R00920 | 2026 | preprint/None | Lang: en
+TI: Examining Risk Preferences of Econs, KaTs, Humans and LLMs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00921 | 2026 | article/None | Lang: en
+TI: Interpretable multimodal reasoning for robo-advisory: the FinErva framework
+AB: The rapid development of robo-advisory and quantitative investment has been accompanied by persistent concerns about limited personalization and
+    the opacity of black-box models operating on multimodal financial information. This paper addresses these issues from a decision-support
+    perspective by constructing FinErva, a multimodal chain-of-thought dataset tailored to financial applications. FinErva comprises 7,544 manually
+    verified question-answer pairs, divided into two economically relevant tasks: contract and disclosure understanding (FinErva-Pact) and
+    candlestick-chart-based technical analysis (FinErva-Price). Building on this dataset, the paper propose a two-stage training framework:
+    Supervised-CoT Learning followed by Self-CoT Refinement, and apply it to eight vision-language models, each with fewer than 0.8 billion
+    parameters. Empirical results show that those lightweight models approach the performance of finance professionals and clearly outperform
+    non-expert investors. Overall, the findings indicate that appropriately designed multimodal chain of thought supervision enables interpretable
+    modeling of key research tasks such as contract review and chart interpretation under realistic computational and deployment constraints,
+    providing new data and methodology for the development of personalized, explainable, and operationally feasible AI systems in investment advisory
+    and risk management.
+
+### R00922 | 2025 | article/None | Lang: en
+TI: The Future of Financial Assistance: Leveraging LLMs for Personalized, Human-Like Interactions
+AB: Generative Artificial Intelligence (GenAI) is transforming the business landscape by enhancing accessibility, efficiency, cost-effectiveness, and
+    innovation. This paper investigates the application of Large Language Models (LLMs) and GenAI in the financial sector, proposing a novel framework
+    to reimagine robo-advisory systems. The framework shifts from traditional, rigid platforms to a more humanized approach that actively engages
+    investors in a personalized asset selection process while leveraging LLMs to better understand their goals and profiles. We present an end-to-end
+    solution designed to address key limitations of conventional roboadvisors, such as inflexibility, restricted asset type offerings (typically
+    limited to equities), and challenges in accessing high-quality, real-time data. The proposed architecture incorporates dynamic client profiling,
+    risk aversion estimation, and portfolio optimization. A tailored asset selector agent, supported by robust data pipelines, ensures the curation of
+    up-to-date market information. Through iterative development, we utilized prompt engineering and multi-agent workflows to refine user interactions
+    and deliver actionable insights. By implementing an innovative chatbot platform, we demonstrate the potential of LLMs to revolutionize customer
+    service, enhance investor engagement, and provide strategic financial guidance. This study highlights the transformative impact of GenAI in
+    creating more adaptive, personalized, and effective financial advisory solutions.
+
+### R00923 | 2026 | preprint/None | Lang: en
+TI: Counsel ex Machina: The Value and Limits of AI Financial Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00924 | 2026 | article/None | Lang: en
+TI: A Study on The Role of Generative AI In Personal Finance and Investment Decisions Among Salaried Individuals
+AB: Abstract The emergence of Generative Artificial Intelligence (Gen AI) has revolutionized the financial sector by providing personalized financial
+    insights, automated budgeting solutions, investment recommendations, and risk assessment tools. Applications such as ChatGPT, Gemini, Microsoft
+    Copilot, and AI-powered robo-advisors are increasingly being used by individuals for managing personal finances and making investment decisions.
+    Salaried individuals, who represent a significant segment of investors, often seek efficient, accessible, and cost-effective financial planning
+    solutions. Generative AI offers opportunities to improve financial literacy, enhance investment decision-making, and simplify wealth management.
+    However, concerns related to accuracy, trustworthiness, privacy, and ethical considerations continue to influence adoption. This study
+    investigates the role of Generative AI in personal finance and investment decisions among salaried individuals. The study examines awareness,
+    usage patterns, perceived benefits, challenges, and trust in AI-generated financial advice. The findings contribute to understanding how AI
+    technologies are reshaping personal financial management and investment behavior in the era of Industry 5.0.
+
+### R00925 | 2025 | article/None | Lang: en
+TI: Household financial advice generation using retrieval-augmented generation
+AB: This study aims to enhance the quality of automated financial advice generation based on large language models (LLMs) by constructing a
+    Retrieval-Augmented Generation (RAG) system from expert-written texts on household income and expenditure data. The construction of the RAG
+    involves scraping financial planning (FP) consultation articles from the web, extracting not only the consultation text but also basic information
+    such as the gender and family composition of the consulter, household account book images, and the advice provided by the FP. Next, income and
+    expenditure data are extracted from the household account book images, and vector data are generated from Pinecone based on the consultation
+    content and income and expenditure data. More accurate financial advice is generated by inputting the expanded consultation content into the LLM
+    through the constructed vector database. In this paper, the implementation and verification of the proposed method for generating financial advice
+    using RAG on OpenAI are discussed, exploring the applicability of RAG-based financial management support using text and tables.
+
+### R00926 | 2025 | article/None | Lang: en
+TI: “It is important to consult” a linguist: Verb-Argument Constructions in ChatGPT and human experts’ medical and financial advice
+AB: This paper adopts a Usage-Based Construction Grammar perspective to compare human- and AI-generated language, focusing on Verb-Argument
+    Constructions (VACs) as a lens for analysis. Specifically, we examine solicited advice texts in two domains-Finance and Medicine-produced by
+    humans and ChatGPT across different GPT models (3.5, 4, and 4o) and interfaces (3.5 Web vs. 3.5 API). Our findings reveal broad consistency in the
+    frequency and distribution of the most common VACs across human- and AI-generated texts, though ChatGPT exhibits a slightly higher reliance on the
+    most frequent constructions. A closer examination of the verbs occupying these constructions uncovers significant differences in the meanings
+    conveyed, with a notable growth away from human-like language production in macro level perspectives (e.g., length) and towards humanlike verb-VAC
+    patterns with newer models. These results underscore the potential of VACs as a powerful tool for analyzing AI-generated language and tracking its
+    evolution over time.
+
+### R00927 | 2025 | preprint/None | Lang: en
+TI: Technological Adoption in Finance: Millennial Investors and the Role of Chatbots
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00928 | 2025 | article/None | Lang: en
+TI: Generative artificial intelligence chatbots in investment decision-making: a phantom menace or a new hope?
+AB: Purpose This study aims to investigate the relevance, accuracy, specificity and justification of investment recommendations of generative
+    artificial intelligence (GenAI) chatbots for different investment capitals and countries (UK and Bulgaria). Design/methodology/approach A
+    two-stage mixed methods approach was used. Prompts were queried into OpenAI’s ChatGPT, Microsoft Bing and Google Bard (now Gemini). Finance and
+    investment practitioners and finance and investment lecturers assessed the chatbots’ recommendations through an online questionnaire using a
+    five-point Likert scale. The Chi-squared test, Wilcoxon-signed ranks test, Mann–Whitney U test and Friedman test were used for data analysis to
+    compare GenAIs’ recommendations for the UK and Bulgaria across different amounts of investment capital and to assess the consistency of the
+    chatbots. Findings GenAI chatbots’ responses were found to perform medium-to-high in terms of relevance, accuracy, specificity and justification.
+    For the UK sample, the amount of investment had a marginal effect but prompt timing had an interesting impact. Unlike the British sample, the
+    GenAI application, prompt timing and investment amount did not significantly influence the Bulgarian respondents’ evaluations. While the mean
+    responses of the British sample were slightly higher, these differences were not statistically significant, indicating that ChatGPT, Bing and Bard
+    performed similarly in both the UK and Bulgaria. Originality/value The study assesses the relevance, accuracy, specificity and justification of
+    GenAI chatbots’ investment recommendations for two different periods, investment amounts and countries.
+
+### R00929 | 2025 | article/None | Lang: en
+TI: Personalized Finance Chatbot Powered by RAG and Generative AI for Smart Wealth Management
+AB: Financial advisor chatbots are revolutionizing customer service in the financial sector by leveraging Artificial Intelligence (AI), Natural
+    Language Processing (NLP), and Retrieval-Augmented Generation (RAG) to provide intelligent, personalized financial guidance. These chatbots can
+    answer common financial questions, recommend investment options based on user profiles, and facilitate basic transactions, making financial
+    services more accessible, cost-effective, and efficient.Unlike traditional financial advisory services, AIdriven chatbots operate 24/7, ensuring
+    instant support for users without human intervention. By integrating machine learning and real-time data retrieval, they offer context-aware
+    recommendations that align with a user's age, risk tolerance, and investment preferences. Additionally, they enhance user engagement by providing
+    interactive and conversational experiences, simplifying complex financial concepts.Security and trust remain critical factors in chatbot adoption
+    within finance. Ensuring data privacy, compliance with financial regulations, and AI transparency is essential to gaining user confidence. Studies
+    show that AI-powered financial chatbots can achieve up to 92% accuracy in providing personalized financial recommendations, further reinforcing
+    their reliability. By addressing efficiency, accessibility, and security, AI-powered financial chatbots are shaping the future of smart wealth
+    management, bridging the gap between traditional financial advisory and digital innovation in a rapidly evolving financial landscape.
+
+### R00930 | 2026 | article/None | Lang: en
+TI: Activity-Based Costing Framework for Total Cost of Ownership Analysis of LLM Services
+AB: The proliferation of Large Language Models (LLMs) requires robust financial planning, yet traditional software cost models cannot capture the
+    unique economics of generative AI. This paper presents a formal Total Cost of Ownership (TCO) framework grounded in Activity-Based Costing (ABC).
+    We deliver a dual-layered accounting architecture: a mathematically tractable, provably convex engine for technical infrastructure costs,
+    alongside a comprehensive, modular taxonomy blueprint for human operational, governance, and organizational cost pools. The framework
+    systematically incorporates LLM-specific cost drivers, including token consumption, Retrieval-Augmented Generation (RAG) operations, and agentic
+    inference steps. To demonstrate practical applicability, the framework is subjected to a multi-faceted empirical validation programme: the
+    technical infrastructure submodel is validated on a 12-month production RAG chatbot deployment, yielding a predictive formula that links
+    high-level business metrics directly to infrastructure expenses with sub-5% forecasting error, and is further exercised on a second institutional
+    deployment through a synthetically augmented dataset of 95,150 user sessions. Complementary cross-case scenario simulations—spanning regulated,
+    high-scale API, and autonomous agentic regimes—together with hybrid local–cloud serving and retrieval-versus-fine-tuning comparisons, illustrate
+    the framework’s structural generalizability across distinct governance, throughput, and multi-step execution regimes. By integrating time-varying
+    vendor prices, stochastic uncertainty, and hybrid deployment extensions, this work provides a rigorous, transparent decision-support tool for the
+    strategic financial management of LLM-based services.
+
+### R00931 | 2025 | article/None | Lang: en
+TI: Leveraging interactive visualizations and LLM-driven explanations for transparent multi-objective portfolio management
+AB: Financial investments are increasingly encouraged to incorporate environmental, social, and governance (ESG) considerations. For instance, in the
+    context of mutual fund investments, once an investor determines a specific risk preference (e.g., conservative, moderate, or aggressive),
+    ESG-optimized portfolios can be recommended to facilitate investment in ESG-positive mutual funds, such as those associated with lower pollution
+    levels and improved ecosystem health. However, promoting ESG integration presents challenges, particularly in ensuring transparency within
+    investment recommendations, which is crucial for fostering investor confidence and adoption. To address this issue, this paper proposes an
+    interactive visualization system that allows users to navigate multi-objective optimized portfolios, compare their strengths and weaknesses, and
+    understand the impact of ESG considerations on portfolio composition. The system aims to enhance user understanding and support informed
+    investment decision-making. The effectiveness of this platform is validated through a user study, wherein financial experts provided positive
+    feedback regarding its ability to improve decision-making processes. Additionally, by leveraging large language models (LLMs), the system offers
+    on-demand explanations of financial terminology through text highlighting and a chat-based interface, further enhancing transparency and user
+    engagement.
+
+### R00932 | 2026 | article/None | Lang: en
+TI: AI Chatbots as Money Coaches: A Structured Slide-Deck Reference for 2026
+AB: AI Angels delivers a memory-enabled AI companion experience for personal finance — with unlimited free chat, deep persistent memory, voice
+    features, and consistent personality. Read more: https://www.aiangels.io/companions/ai-chatbot-money-coach-deck Visit AI Angels
+
+### R00933 | 2026 | article/None | Lang: en
+TI: Chatbots in Household Budget Management: A Comparative Study in the Context of Economic Vulnerability
+AB: Household budget management is a central element of financial literacy, recognized by the Organisation for Economic Co-operation and Development
+    as a key determinant of financial inclusion, economic stability, and social participation. Despite efforts to promote financial education,
+    significant weaknesses remain, reinforcing the need to resort to other accessible solutions in the current digital context, such as chatbots.
+    Within this framework, this study analyses and compares the responses produced by different chatbots in solving a budget management task aimed at
+    a family experiencing economic vulnerability. The results indicate that, overall, the models analysed demonstrated the ability to interpret the
+    context and provide recommendations aligned with the principles of financial literacy, although differences were observed in the accuracy of
+    calculations, clarity of responses, and suitability of the proposals to the family’s specific circumstances. Overall, the findings suggest that
+    chatbots, when properly mediated by the user and used critically, can serve as complementary tools to support budget management and the
+    development of financial literacy, particularly relevant for families in situations of greater economic vulnerability, although the information
+    and recommendations generated should be verified in light of the limitations identified in the study.
+
+### R00934 | 2026 | preprint/None | Lang: en
+TI: Adaptive Iterative Elicitation: A Prompt Pattern for Personalized LLM Decision Support
+AB: Large Language Models (LLMs) have demonstrated remarkable capabilities in generating re- sponses to user queries. However, their default
+    question-answering paradigm often produces generic recommendations that fail to account for individual context, preferences, and constraints. We
+    present the Adaptive Iterative Elicitation (AIE) prompt pattern—a systematized framework that trans- forms LLMs from passive responders into
+    active conversational advisors. The core principle is sim- ple yet powerful: ask one focused question at a time, use each response to guide the
+    next question, and continue until sufficient clarity is achieved to provide personalized recommendations. Unlike existing Socratic dialogue
+    systems that focus primarily on education, AIE is designed to generalize across diverse decision-support domains including career guidance, health
+    and wellness, financial planning, software architecture, and general concierge services. We present the framework’s de- sign principles,
+    illustrate its application through an exploratory career counseling deployment, and provide instantiations across multiple domains. Preliminary
+    observations suggest the pattern en- ables more personalized outcomes compared to traditional single-prompt interactions. We release the framework
+    and prompt templates to enable broader adoption and invite the research community to conduct rigorous empirical evaluations.
+
+### R00935 | 2025 | article/None | Lang: en
+TI: Persuasiveness of Conversational Agents for Targeted Advertising: Autism and Gen-AI Chatbots
+AB: Marketing firms are starting to leverage Generative-AI-based chatbots as a more persuasive form of advertising. This is potentially more harmful
+    for autistic young adults with substantial support needs who tend to have lower financial literacy, be more trusting of bad actors when
+    communicating through social technologies, and more likely to anthropomorphize objects. Thus, we investigated whether a chatbot assuming the
+    likeness of a favorite celebrity would more greatly influence consumer preferences of this population when compared against either autistic
+    individuals without substantial support needs or the general population. We conducted an experimental survey where participants 1) ranked their
+    preferences of various consumer items, 2) performed intervening tasks answering several questions, 3) viewed a chatbot interaction where the
+    chatbot exhibited opposite consumer preferences, and then 4) re-ranked their preferences for those items. We found that autistic young adults with
+    substantial support needs were more likely to change their preferences than the sample from the general population. Moreover, they were also more
+    likely to change their preferences than autistic young adults without substantial support needs. These findings suggest that autistic individuals
+    with substantial support needs are more susceptible to celebrity chatbot persuasion. We discuss the risks and guardrails that need to be
+    associated with deploying generative-AI-based chatbots for targeted advertising.
+
+### R00936 | 2026 | article/None | Lang: en
+TI: Artificial intelligence chatbot for gold-based Islamic financial education in Indonesia
+AB: Background: Islamic financial literacy related to gold-based products in Indonesia remains relatively low, particularly in understanding
+    sharia-compliant gold pawn (rahn emas), investment mechanisms, and trust in digital financial services. This gap in literacy limits community
+    financial resilience and poses a challenge to sustainable social development. While digital platforms such as Pegadaian Digital have expanded
+    access to Islamic financial products, limited public understanding and skepticism toward digital services continue to hinder optimal utilization
+    within the broader social context. This study aims to evaluate the effectiveness of an AI-based chatbot, designed with a specific instructional
+    persona to enhance user engagement, as an educational tool for gold-based Islamic finance. Methods: A quantitative pretest–posttest design was
+    employed involving 30 participants who interacted with the chatbot. Learning outcomes were measured using 12 multiple-choice questions covering
+    four aspects: understanding of gold pawn mechanisms, sharia principles, interest in gold investment, and trust in digital financial services.
+    Findings: The results indicate a substantial improvement in participants’ knowledge after using the chatbot. The average score increased from
+    52.8% in the pretest to 85.6% in the post-test. Conclusion: These findings suggest that AI chatbots are effective, scalable, and accessible tools
+    for enhancing Islamic financial literacy, but also serve as a novel intersection between technological innovation and social empowerment. By
+    bridging the literacy gap, this technology contributes to a more stable and resilient social-financial environment in Indonesia.
+    Novelty/Originality of this article: The novelty of this study lies in the integration of an Agentic RAG architecture with a supportive
+    Sharia-consultant persona, which not only ensures factual accuracy based on DSN-MUI fatwas but also addresses the socio-cognitive barriers of
+    rural learners. The greatest improvement was observed in understanding sharia principles and digital service security, which are critical
+    components for fostering digital trust within the community.
+
+### R00937 | 2026 | article/None | Lang: en
+TI: DIGITAL TRANSFORMATION IN THE INSURANCE SECTOR: THE ROLE OF AI AND CHATBOTS IN CUSTOMER ENGAGEMENT
+AB: Artificial Intelligence (AI) technologies are being used more frequently to improve client interaction and operational efficiency as a result of
+    the insurance industry's rapid digital transformation. Artificial intelligence (AI)-powered chatbots and virtual advisers have become crucial
+    instruments for enhancing the client experience in the Indian insurance industry in recent years. This study looks at how major insurance
+    companies in India are changing their client contacts, service delivery, and claims administration procedures as a result of AI-powered
+    conversational technologies. Insurers from the public and commercial sectors that have aggressively incorporated AI technologies into their
+    customer service frameworks are represented by these organizations. According to the research, chatbots driven by AI greatly enhance customer
+    contact by instantly responding to consumer inquiries and delivering round-the-clock support via digital channels including websites and mobile
+    apps. These chatbots assist clients in choosing policies, compare insurance plans, and offer tailored suggestions based on their unique
+    requirements and budgetary preferences. By offering automated advisory services that help policyholders comprehend complicated insurance products
+    and make wise selections, virtual advisors and robo-advisory systems significantly improve the customer journey. By automating repetitive customer
+    support duties, the incorporation of AI-based conversational solutions also aids insurance businesses in lowering operating expenses. Insurance
+    companies can use AI systems to handle thousands of consumer interactions at once rather than depending entirely on human agents. In addition to
+    increasing productivity, this frees up customer support workers to concentrate on more difficult and valuable duties. Additionally, by providing
+    multilingual support and streamlined digital interfaces, AI-driven platforms increase client accessibility and make insurance services more
+    user-friendly and inclusive. Overall, the report finds that virtual advisors and chatbots powered by AI are revolutionizing the Indian insurance
+    industry. Higher levels of customer satisfaction, increased transparency, quicker service delivery, and enhanced customer engagement have all
+    resulted from its use. AI-enabled solutions are anticipated to become more crucial for insurance firms looking to stay competitive and provide
+    customer-focused services as digital technologies continue to advance. In order to improve customer satisfaction and operational effectiveness in
+    the insurance sector, the study emphasizes the significance of ongoing technological innovation and the strategic application of AI tools.
+    Keywords: Chatbot, Insurance Sector, Customer Services, Customer Experience.
+
+### R00938 | 2025 | article/None | Lang: en
+TI: Cross-Platform Personal Finance Assistant
+AB: Abstract— Managing personal finances in the digital age is an ongoing challenge, often requiring individuals to rely on multiple tools that are
+    either platform- dependent or lack automation. This paper presents a Cross-Platform Personal Finance Assistant, a unified mobile application built
+    with React Native, designed to intelligently track expenses, manage budgets, and improve financial literacy. The application integrates the
+    smartphone’s camera and Optical Character Recognition (OCR) modules to scan receipts and automatically extract expenditure data, eliminating
+    manual entry errors. Extracted information is stored securely in the cloud using Firebase or Neon databases, safeguarded through AES-256
+    encryption, and aligned with international data protection standards such as GDPR and ISO/IEC 27001. Additionally, the system integrates
+    AI-powered chatbot assistance using models like Gemini to provide personalized budgeting advice, spending insights, and interactive financial
+    education. To sustain user engagement, the app incorporates gamified features such as progress badges, leaderboards, and goal-based achievements.
+    Together, these components create an interactive, intelligent, and secure ecosystem for financial management. This research paper discusses the
+    design architecture, implementation methodology, testing procedures, results, and future scope of the proposed assistant. Keywords— React Native,
+    OCR, Firebase, Neon Database, AES-256 Encryption, GDPR, ISO/IEC 27001, Gemini, Gamification, Personal Finance, Expense Tracking, Cross- Platform
+    App, Cloud Security, AI Assistant.
+
+### R00939 | 2025 | preprint/None | Lang: en
+TI: The Operational Protocol Method: Systematic LLM Specialization Through Collaborative Persona Engineering and Agent Coordination
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00940 | 2026 | article/None | Lang: en
+TI: AI-BASED PERSONAL FINANCE MANAGER
+AB: The rapid advancement of digital technologies and the increasing complexity of financial ecosystems have made personal finance management a
+    challenging task for individuals. Traditional methods of managing finances, such as manual budgeting and basic tracking tools, often fail to
+    provide real-time insights and intelligent decision support. This project, “AI-Based Personal Finance Manager,” proposes an intelligent and
+    automated solution that leverages Artificial Intelligence (AI) and Machine Learning (ML) to enhance financial planning, monitoring, and
+    decision-making. The proposed system collects and analyzes user financial data, including income, expenses, savings, and transaction history,
+    through secure integration with banking systems or manual input. Advanced machine learning algorithms are applied to categorize expenses, detect
+    spending patterns, and generate personalized financial insights. The system provides features such as automated budgeting, expense tracking,
+    anomaly detection for unusual transactions, and predictive analytics for future financial planning. Additionally, the application offers
+    intelligent recommendations for saving, investment opportunities, and debt management based on user behavior and financial goals. Natural Language
+    Processing (NLP) can also be incorporated to enable chatbot-based financial assistance, making the system more interactive and user-friendly. The
+    AI-Based Personal Finance Manager improves financial awareness and promotes better money management by providing real-time insights and
+    data-driven recommendations. It helps users reduce unnecessary expenses, optimize savings, and achieve financial stability. The system also
+    enhances security by detecting fraudulent activities and alerting users instantly. By combining automation, analytics, and user-centric design,
+    the proposed solution offers a scalable and efficient approach to personal finance management. This research contributes to the development of
+    intelligent financial technologies, supporting individuals in making informed financial decisions and improving their overall financial
+    well-being.
+
+### R00941 | 2026 | preprint/None | Lang: en
+TI: Judge for Yourself: Confidence Beats Accuracy in AI Financial Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00942 | 2026 | article/None | Lang: en
+TI: Guardrails in Generative AI for Retail Financial Planning
+AB: Generative Artificial Intelligence (GenAI) is increasingly being adopted in financial planning systems that assist retail investors with
+    investment decisions, budgeting, and long‑term wealth management. While large language models can interpret financial data and provide
+    personalized recommendations, they also introduce risks such as hallucinated advice, regulatory non‑compliance, and biased financial
+    recommendations. Guardrail mechanisms are therefore essential to ensure that AI‑generated financial advice remains safe, compliant, and aligned
+    with financial best practices. This research paper explores the role of guardrails in GenAI‑driven financial planning systems for retail
+    consumers. The study presents the architecture of a guardrail‑enabled financial planning system, discusses datasets used in financial planning
+    models, and explains the calculation logic that supports responsible investment recommendations. Real‑world case studies illustrate how guardrails
+    can prevent harmful outputs and maintain regulatory compliance. The paper also analyzes the integration of policy enforcement layers, risk scoring
+    models, and validation mechanisms in financial AI systems. The findings demonstrate that guardrail frameworks significantly improve reliability
+    and trustworthiness in AI‑driven financial advisory systems. The paper concludes by highlighting the importance of combining machine learning,
+    financial analytics, and governance frameworks to build safe and trustworthy AI‑powered financial planning platforms.
+
+### R00943 | 2026 | article/None | Lang: en
+TI: Algorithmic investment literacy: Teaching students to evaluate, calibrate, and ethically use AI investment advice
+AB: The diffusion of robo-advisors and generative artificial intelligence has changed the central problem of investment education. When advanced
+    language models score near the ceiling on standard financial-literacy tests, the decisive competency is no longer whether learners possess
+    financial knowledge, but whether they can judge the machine-generated advice they receive. This paper defines Algorithmic Investment Literacy
+    (AIL) by a single operation that no neighbouring construct centres: the learner lets a personal-suitability judgement, whether a recommendation
+    fits this investor's own goals, risk tolerance, horizon and constraints, govern reliance on an adviser whose reasoning is opaque, so that
+    suitability can veto a reliable-looking recommendation and license a plainly generated one. The human-automation reliance literature calibrates
+    reliance to a system's verifiable task accuracy rather than to a recommendation's private, unverifiable fit with the person; financial literacy
+    concerns what a person knows and not how they appraise an external adviser; generic AI literacy asks whether an output is sound in itself and not
+    whether it is right for this person. Each supplies part of the operation; AIL joins them, and we argue it predicts reliance-decision quality
+    beyond their additive combination, showing construct by construct the behaviour AIL predicts that each neighbour cannot. Four finance-specific
+    dimensions follow from the operation rather than standing beside it: provenance awareness, suitability appraisal, suitability-governed reliance,
+    and fiduciary and responsible use. The paper advances nine propositions linking pedagogical and learner antecedents to AIL and its outcomes, and
+    translates the construct into a learning progression, a worked classroom task with an assessment rubric, and a research agenda, giving educators a
+    teachable, assessable target and researchers a foundation for instrument development and validation.
+
+### R00944 | 2026 | article/None | Lang: en
+TI: The Illusion of Safety: Why Disclaimers Cannot Prevent AI-Generated Investment Advice in Europe
+AB: Recent advances in large language models (LLMs) have enabled AI systems to generate highly articulate, confident, and seemingly rational financial
+    responses. In the European regulatory context, however, this capability introduces a structural compliance paradox. Under MiFID II, investment
+    advice is regulated not only by explicit recommendations, but by whether a communication effectively guides, validates, or substitutes investor
+    decision-making. This paper argues that most AI-generated financial responses violate MiFID II not through malicious intent, but through cognitive
+    over-helpfulness. By providing asset names, portfolio weights, implied optimization, or narrative validation—often accompanied by a generic risk
+    disclaimer—LLMs simulate professional authority while remaining formally unlicensed. Disclaimers, the paper shows, fail to neutralize this effect
+    because the regulatory breach occurs at the level of cognitive impact, not legal wording. Using comparative case studies of standard LLM outputs
+    and a governance-constrained analytical system (Alex), the paper demonstrates how output-level compliance mechanisms are insufficient. Instead, it
+    proposes a shift toward cognitive governance, introducing two formal concepts: MAED (Minimum Action-Enabling Distance), which prevents AI
+    responses from collapsing into actionable guidance, and CRF (Cognitive Risk Friction), which intentionally introduces resistance when user queries
+    carry high consequence or authority-substitution risk. The paper concludes that AI compliance under MiFID II cannot be achieved through
+    disclaimers or surface-level refusals. Effective regulation requires governance at the level of question legitimacy, authority simulation, and
+    epistemic humility. MAED and CRF are presented as implementable design primitives for future regulatory-grade financial AI systems.
+
+### R00945 | 2026 | article/None | Lang: en
+TI: AI-Powered Personal Finance Assistant
+AB: This project presents an AI-powered personal finance assistant designed for users in Kazakhstan. The system addresses the difficulty of
+    understanding personal spending patterns from local bank statements, which often vary in structure and are not fully supported by existing finance
+    applications. The proposed solution combines a native iOS application, a FastAPI backend, a database layer, bank statement parsers, merchant
+    normalization, automatic transaction categorization, financial dashboards, and an AI-assisted query interface. Users can upload bank statements
+    from supported banks, after which the system extracts transactions, normalizes merchant descriptions, categorizes expenses, and visualizes
+    spending through dashboards and budget-related views. The application also allows users to ask natural-language questions about their finances.
+    The project was developed iteratively over two semesters. Key design decisions included migrating from React Native to SwiftUI, adopting a
+    statement-first architecture instead of relying on direct bank integrations, and using a hybrid categorization approach that combines rule-based
+    logic with lightweight machine learning. Evaluation results showed that the parser processed six supported bank statement files with 100%
+    core-field completeness, while the transaction categorization model achieved 95.42% accuracy and 95.94% macro-F1 on the test set. Dashboard
+    computations were completed in under one second, supporting interactive use within the prototype. Overall, the project demonstrates the
+    feasibility of a localized, transparent, and AI-supported personal finance assistant for Kazakhstan users, while future work should expand bank
+    support, improve chatbot robustness, strengthen security, and conduct broader user testing.
+
+### R00946 | 2026 | article/None | Lang: en
+TI: Empowering Women through AI-Driven Financial Literacy in the Digital Economy
+AB: This chapter examines the role of Artificial Intelligence (AI)-driven financial literacy in empowering women within the digital economy. Using
+    primary data collected from 40 respondents through a structured questionnaire, the study applies statistical tools such as Chi-square and
+    Spearman’s correlation to analyse financial awareness and decision-making behaviour. The findings reveal that financial empowerment is influenced
+    more by awareness, education, and digital access than demographic factors such as age and income. AI-enabled tools such as chatbots and
+    robo-advisors enhance financial inclusion and decision-making efficiency. However, challenges such as digital illiteracy and socio-cultural
+    barriers persist. The study concludes that AI-driven financial literacy is a critical enabler of women’s economic independence and recommends
+    targeted digital education initiatives and inclusive financial policies. Keywords: AI, Financial Literacy, Women Empowerment, Digital Finance,
+    FinTech, Financial Inclusion, Sustainable Finance
+
+### R00947 | 2026 | preprint/None | Lang: en
+TI: AI Financial Advice: Supply, Demand, and Life Cycle Implications
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00948 | 2026 | article/None | Lang: en
+TI: Pelatihan Penggunaan Chatbot Berbasis AI untuk Konsultasi Keuangan Usaha secara Mandiri
+AB: Dependence on professional financial consultants remains a persistent barrier for most SME owners, particularly those operating with limited
+    resources and minimal exposure to formal financial education. The rapid development of Artificial Intelligence (AI) has created a concrete
+    opportunity to address this gap — not through expensive systems, but through accessible tools such as AI-based chatbots. This community service
+    program was designed to strengthen financial literacy and business self-reliance among SME owners through structured training on AI chatbot usage
+    as a financial consultation medium. The program was carried out in three stages: training sessions, direct hands-on practice, and guided
+    mentoring. A pre-test and post-test assessment was administered to measure knowledge gains across four indicators — financial literacy, AI concept
+    comprehension, chatbot operation skills, and financial decision-making. Results show substantial improvement across all indicators, with the
+    sharpest gains recorded in chatbot operation (114%) and AI comprehension (95%). Participants also reported greater confidence in managing daily
+    financial records and making structured business decisions. These findings suggest that AI-based chatbot training is a viable, low-cost approach
+    to accelerating the digital shift of SMEs in Indonesia.
+
+### R00949 | 2026 | article/None | Lang: en
+TI: TRACKBOT:A PERSONAL FINANCE MANAGER USING AI
+AB: With an increase in the amount of financial transactions, managing personal finance and making wise decisions have become more complex. We propose
+    TrackBot, an AI powered personal finance management system that automates expense tracking, provides intelligent financial insights, and enables
+    proactive financial planning. The proposed system can be used to monitor the income and expenses, visualise the patterns of spending using
+    interactive charts and progress indicators, and track the account balances in real time. The conversational AI chatbot supports both text and
+    voice interfaces and allows users to query for financial information using natural language. In addition, the system utilises a Linear Regression
+    algorithm to predict future expenses based on past transactions, allowing users to better manage their finances. TrackBot is built with the Django
+    framework with Python and MySQL, combining all three areas of machine learning and natural language processing and data visualisation into one
+    platform. Experimental results show that the proposed system can enhance financial awareness, boost user engagement and help to make intelligent
+    financial decisions by using predictive analytics and AI driven interaction
+
+### R00950 | 2025 | article/None | Lang: en
+TI: A Study on the Influence of Artificial Intelligence (AI) on Financial Literacy among College Students
+AB: Financial literacy is a critical competency for young adults, particularly college students, who are beginning to manage personal finances and
+    make independent financial decisions. The emergence of Artificial Intelligence (AI) has introduced innovative tools such as robo-advisors,
+    AI-powered financial learning platforms, chatbots, and digital budgeting applications, which aim to simplify financial education. This project
+    proposes to examine the influence of AI on financial literacy among college students, focusing on awareness, adoption, and effectiveness. Using
+    both primary and secondary data, the study will assess whether AI significantly enhances students’ financial knowledge, attitudes, and
+    decision-making. The results are expected to provide valuable insights for educators, policymakers, and financial institutions in designing
+    AI-enabled financial literacy programs tailored to youth.
+
+### R00951 | 2026 | article/None | Lang: en
+TI: Towards Autonomous Analysis in Finance: A Modular and Extensible Architecture for LLM-Based AI Agents
+AB: The complexity and dynamics of financial markets make it difficult for investors and researchers to make decisions. In this regard, this research
+    proposes an AI-based Financial Data Analysis and Reporting Assistant that incorporates technical analysis, fundamental analysis, and news-based
+    sentiment analysis for stock and exchange-traded fund (ETF) analysis. Built with real-time information from Google Gemini 2.0 Flash, it uses a
+    three-node structure based on LangGraph (Chatbot Node, Tools Node, and Human Node) and Yahoo Finance API to create user-directed reports with a
+    platform that supports conversation mode. Core components of this system include caching of data, technical analysis elements (RSI, MACD,
+    Bollinger Bands), key financial ratios, news analysis with BeautifulSoup for news-associated information, and data representation with Plotly
+    graphs. The performance of this system for AAPL and TUPRS.IS stocks show its ability to correctly operate in global and local financial markets
+    with proper upholding of ethical principles by not giving investment recommendations. The findings highlight the system's ability to process
+    multilingual data, mitigate hallucinations through context awareness, and provide holistic financial decision support. Limitations include
+    dependence on third-party APIs and potential data delays. The work contributes to the field of financial AI by filling gaps in integrated and
+    conversational systems and provides a modular framework for future predictive analytics and multi-asset portfolio development.
+
+### R00952 | 2026 | article/None | Lang: en
+TI: Pragmatic Failure in Agentic LLM Systems: An Analysis Through Gricean Maxims and Speech Act Theory
+AB: As autonomous AI agents are deployed across consequential domains — healthcare, legal assistance, financial planning, and software engineering —
+    their communicative competence has emerged as a critical yet underexamined dimension of reliability. The present article investigates pragmatic
+    failure in agentic large language model (LLM) systems: situations in which agents violate Gricean conversational maxims or misinterpret the
+    illocutionary force of user utterances during multi-step task execution. Drawing on Grice’s (1975) Cooperative Principle and Searle’s (1969, 1975)
+    Speech Act Theory, we develop a two-level annotation scheme for characterising pragmatic failure in agentic interaction logs and a typology of the
+    failure modes that the scheme is designed to capture. We situate this framework within current debates on LLM pragmatic competence and demonstrate
+    its application through illustrative analysis of interaction patterns documented in the existing literature. We further outline a planned
+    empirical study applying the scheme to publicly available agentic benchmark data. The framework produces three practical outputs: a typology of
+    pragmatic failure modes in agents, a reusable annotation scheme with operational coding criteria, and design recommendations for
+    pragmatically-aware agent evaluation.
+
+### R00953 | 2026 | article/None | Lang: en
+TI: Implementasi Semantic Retrieval Berbasis Embedding dan LLM pada Aplikasi Web Keuangan Pribadi
+AB: This study developed a web-based personal finance application integrated with semantic retrieval using embedding and Large Language Models to
+    address limitations in conventional keyword-based search. The system was developed using the Extreme Programming approach to ensure iterative
+    development, rapid feedback, and adaptability to user requirements. The application was designed using a client–server architecture and
+    implemented to support transaction recording, financial management, and contextual data retrieval. Financial transaction data were preprocessed
+    and converted into vector embeddings to capture semantic meaning, enabling more flexible and accurate search using natural language queries. The
+    system utilized a vector database with pgvector extension to store embeddings and perform similarity search. Evaluation was conducted using the
+    RAGAs framework with 100 financial transaction data and 20 query scenarios. The results showed that the system achieved a context recall of 0.81,
+    context precision of 0.70, faithfulness of 0.83, and answer relevancy of 0.84. These results indicate that the system was able to retrieve
+    relevant contextual information and generate consistent and accurate responses. Furthermore, the implementation demonstrated improved
+    effectiveness in organizing, managing, and retrieving financial data compared to traditional methods. Overall, the proposed system successfully
+    provided a more efficient and context-aware solution for personal financial management and information retrieval.
+
+### R00954 | 2026 | article/None | Lang: en
+TI: Finsage : A Financial Literacy and Portfolio Management Platform
+AB: The importance of financial literacy in the context of making wise financial decisions for investments has been well established. The problem is
+    that the younger generation and non-commerce students are not well versed in financial matters. The existing financial information and tools are
+    mostly standalone and do not offer the combined benefit of portfolio management and financial education. This paper discusses an AI-based tool
+    named FinSage that offers financial education and an AI chatbot assistant. The tool has been designed with financial education content provided by
+    Investopedia and an AI chatbot assistant based on the Llama 3.1 8B AI tool with the feature of Retrieval-Augmented Generation. The tool also has a
+    feature for portfolio optimization with the yfinance API. The tool has been tested with a survey of 73 people and has shown promising results with
+    the Goal Completion Rate of 81.8%, Customer Satisfaction Score of 72.7%, perfect Conversation Quality of 100%, and the most important feature of
+    the tool—Hallucination Rate of 0%. The tool has also been rated as 5/5 for the clarity of the content and the usability of the tool by 63.6% and
+    81.8%, respectively.
+
+### R00955 | 2025 | article/None | Lang: en
+TI: AI-Enhanced Behavioral Retirement Planning: A Conceptual Framework
+AB: This paper introduces a novel AI-enhanced retirement planning platform that integrates behavioral economics principles with advanced machine
+    learning techniques to optimize financial decision-making.Traditional financial planning models, while numerically sound, often fail to consider
+    the cognitive biases and behavioral patterns that influence individual choices.Our system addresses this gap by incorporating mechanisms that
+    counteract biases such as loss aversion, present bias, and overconfidence-common deterrents to long-term financial planning.The proposed
+    architecture comprises modular layers for data integration, AI-driven analysis, and a responsive user interface that delivers personalized
+    behavioral nudges.The platform leverages deep reinforcement learning, natural language processing using GPT-4, and predictive healthcare
+    simulations to create a highly personalized and adaptive retirement planning experience.This work represents a significant advancement toward
+    personalized, equitable, and behaviorally informed financial technologies.
+
+### R00956 | 2026 | article/None | Lang: en
+TI: IntelliFinance: A Rule-Based and AI-Driven Smart Financial Decision Support System for Personalized Financial Planning
+AB: Effective personal financial management remains difficult for individuals who lack access to professional, personalized financial advice suited to
+    their income, expenses, and goals. Most existing solutions address only a fragment of this problem: budgeting and expense-tracking applications
+    record transactions but leave analysis and decision-making to the user; robo-advisory platforms focus narrowly on investment allocation; and
+    conversational finance chatbots often generate numerical guidance directly from a language model, which can be inconsistent or unverifiable. This
+    paper presents IntelliFinance, a web-based Smart Financial Decision Support System (SFDSS) that unifies these fragmented capabilities into a
+    single, explainable platform. The system separates deterministic financial computation from natural-language explanation: a rule-based calculation
+    engine computes budget allocations, emergency-fund targets, SIP/investment contributions, EMI and debt-repayment strategies, and an overall
+    Financial Health Score, while a large-language-model-based AI Advisor interprets these results for the user in plain language and answers
+    user-specific financial queries. The platform further introduces a Family Financial Mode for household-level planning and visibility. Drawing on
+    evidence from a randomized controlled trial of low-income personal finance apps, a review of AI-based robo-advisory systems, and a
+    machine-learning-based expense analytics platform, this paper positions IntelliFinance within the existing literature, identifies the specific
+    gaps it addresses, and describes its proposed architecture, data flow, research hypotheses, and technology stack. The system is intended to
+    function as an accessible, transparent, and trustworthy decision-support and financial-education tool, particularly for students, young
+    professionals, and first-time earners.
+
+### R00957 | 2026 | article/None | Lang: en
+TI: Talking to the Market: Field Evidence on AI Chatbots, Digital Advice Utilization, and Retail Trading Outcomes
+AB: Background: Conversational AI chatbots are increasingly embedded in retail brokerage applications, yet empirical evidence on how chatbot-based
+    advice influences investor behaviour in real-world trading contexts remains limited. Purpose: This study investigates whether perceived chatbot
+    competence and trust predict digital advice utilisation, and whether such utilisation is associated with self-reported trading outcomes, with
+    financial literacy examined as a moderator. Uniqueness: The study extends prior research by focusing on investor–chatbot interaction and actual
+    utilisation of chatbot guidance among active retail investors, rather than evaluating algorithmic stock-picking performance or purely conceptual
+    advisory models. Methodology: A cross-sectional survey was conducted with 300 active retail investors who had recently interacted with AI-enabled
+    investment chatbots. Multiple regression models were used to test direct relationships and the moderation effect of financial literacy. Findings:
+    Perceived competence (B≈0.32, p<0.001) and trust (B≈0.32, p<0.001) are independently associated with higher digital advice utilisation (R²=0.306).
+    Digital advice utilisation is positively associated with trading outcomes (B≈0.32, p≈0.02). Financial literacy also shows a positive association
+    with trading outcomes (B≈0.30, p≈0.03), while the utilisation×literacy interaction is not statistically significant. Implications: The findings
+    suggest that brokerage chatbots may support more disciplined investing behaviour, though causal interpretation is limited by the survey design.
+    Future work should integrate chatbot interaction logs with objective brokerage trading records to evaluate long-run behavioural and performance
+    effects. Keywords: AI chatbots; Digital advice; Retail investors; Stock trading; Financial literacy; Trading outcomes
+
+### R00958 | 2025 | article/None | Lang: en
+TI: Reducing emotional bias in investment decisions: the role of GPT-4 in financial analysis
+AB: Purpose This study examines the investment recommendations made by AI models (GPT-4) in two versions (V1 and V2) compared to human analysts. The
+    research investigates whether AI provides a more objective evaluation with reduced emotional and cognitive biases, addressing concerns about human
+    analysts’ susceptibility to market sentiment. Design/methodology/approach Using Probit regression analysis, this study compares the investment
+    recommendations of V1, which relies on financial statements, and V2, which integrates both financial statements and news sentiment. Additionally,
+    the study assesses the performance of stocks following AI and human recommendations using buy-and-hold and abnormal return measures. Findings
+    Findings reveal that both AI models issue fewer “Strong Buy” recommendations and more “Sell” recommendations than human analysts, particularly for
+    underperforming stocks. V2 outperforms human analysts in predicting returns for “Strong Buy” recommendations, suggesting that AI’s integration of
+    financial and news sentiment data improves predictive accuracy. AI models offer more balanced and consistent investment recommendations, reducing
+    emotional biases. Research limitations/implications A limitation of this study is its reliance on historical data, which may not fully reflect
+    real-time market conditions. Additionally, AI’s conservative nature may limit its ability to identify sentiment-driven opportunities. Future
+    research should explore hybrid frameworks that integrate AI with human expertise to enhance decision-making. Originality/value This study
+    contributes to the literature on AI in financial decision-making by demonstrating its ability to mitigate cognitive biases. The findings highlight
+    AI’s potential to complement human analysts, improving objectivity and consistency in investment recommendations. These insights are valuable for
+    investors, financial institutions and policymakers.
+
+### R00959 | 2026 | article/None | Lang: en
+TI: Artificial Intelligence in Financial Literacy: Emerging Trends, Opportunities, and Challenges
+AB: Artificial Intelligence (AI) has come out as a revolutionary technology which is transforming many aspects of the global economy such as
+    education, health care, finance, and banking. The use of AI in the financial sector can serve as a powerful means of enhancing financial literacy
+    through the provision of user-friendly and personalized financial information. Financial literacy can be defined as the ability of an individual
+    to have understanding as well as the skill and attitude for using financial information in order to make financial decisions regarding savings,
+    investments, budgeting, borrowing, insurance, and retirement. Even though there have been advancements in financial services due to digitization,
+    financial illiteracy remains a big problem especially in developing countries.AI helps to overcome these problems by offering personalized
+    financial education, AI-enabled chatbots, robo-advisors, virtual financial assistants, predictive analytics, intelligent learning platforms that
+    can help in simplifying complicated financial terms and help people make good financial decisions. The use of artificial intelligence can also
+    help the financial institutions understand the financial behavior of their customers and find the areas where they lack in knowledge and offer
+    customized financial education programs. Moreover, the use of AI with digital banking, mobile apps, and FinTechs has helped in improving financial
+    inclusion and making financial services accessible to the underserved population.There are some challenges associated with the increasing use of
+    AI for financial literacy, including data privacy issues, cyber security threats, algorithmic biases, digital inequality, ethical problems, and
+    regulatory compliance issues.The current study is conceptual in its approach and is based on a descriptive type of research design wherein all the
+    data have been obtained through secondary sources including scholarly articles, books, industrial reports, government documents, company reports,
+    and credible websites. The research explores the importance of Artificial Intelligence in encouraging financial literacy and also discusses the
+    recent trends, technological innovations, opportunities, challenges, and suggestions for policymakers, educators, financial institutions, and
+    researchers. The results show that AI can make a positive change in the field of financial education through making it more accessible,
+    personalized, aware, and knowledgeable.
+
+### R00960 | 2026 | article/None | Lang: en
+TI: Are Emergent Misaligned Models Self-Aware of their Misalignment? Latent Introspection in Activation Spaces of Niche Misaligned LLM
+AB: Large language models can exhibit emergent misalignment when finetuned on narrowly malicious tasks.Whilst this misalignment is widespread across
+    models of all sizes, the question of whether it overrides the model's safety training or suppresses it post-finetuning remains poorly
+    understood.In this, we investigate this question for the Qwen2.5 32B model organism finetuned on risky financial advice, which shows broad
+    misalignment.We evaluate our hypothesis that an emergent misaligned model is self-aware of its activation-space alignment by conducting four
+    experiments using linear probing and causal tracing.Our results on linear probing suggest that diffuse "risk" representations exist across all
+    layers.We also observe, through latent introspection analysis, a strong alignment between misaligned activations and base-model "refusal vectors"
+    using causal tracing and activation patching.By further leveraging this idea, we conduct a more granular mechanistic interpretability analysis
+    using mean ablation and direct logit attribution to identify which components L62H12 and L62H28 may contribute most to suppressing safety
+    training.We validate our findings by evaluating the model's attack success rate on the standard Jailbreak bench dataset before and after mean
+    ablation of the suppression heads.Our findings underscore the importance of representational consistency of evaluations in misaligned models for
+    assessing the role of misaligned finetuning in undermining the model's safeguards.Broadly, our work shows that misaligned models exhibit a
+    quantitative conflict: latent safety representations are computed across the network, but a few late-layer heads may override them.
+
+### R00961 | 2026 | preprint/None | Lang: en
+TI: Benchmarking Multi-LLM Investment Signals: Accuracy, Consensus, and the Augmented Analyst Edge in Daily Stock Recommendations
+AB: [NO ABSTRACT AVAILABLE]
+
+=== END OF BATCH b023 (50 records) ===

@@ -1,0 +1,686 @@
+BATCH b028 -- 30 records: R01162 .. R01191
+
+### R01162 | 2026 | article/None | Lang: en
+TI: Silence as Output
+AB: This work documents and validates a governance-first AI architecture in which silence and refusal are treated as intentional analytical outputs,
+    not failure modes. Through the live case study of Alex — an external cognitive agent layered over a general-purpose language model — the paper
+    demonstrates how epistemic boundaries can be enforced outside the model, using rule-based cognitive jurisdiction rather than post-hoc safety
+    constraints. The document integrates three elements into a single conceptual and empirical contribution: A formal logic for “silent termination” —
+    where an AI system deliberately stops responding when further output would introduce normative influence, false certainty, or decision authority.
+    A behavioral case study showing sustained refusal and silence under repeated pressure, reframing attempts, and emotional escalation. A governance
+    framework that distinguishes knowledge from instruction, analysis from action, and legitimacy from user satisfaction. The Alex agent operates
+    without providing recommendations, forecasts, or named assets, even when repeatedly prompted. This behavioral invariance demonstrates that silence
+    can be operationalized as a stable, auditable, and ethically grounded output state. The work contributes to AI governance, financial AI ethics,
+    and alignment research by showing that responsible systems are not defined by how much they can say — but by when they must not speak. This
+    publication is analytical and educational in nature and does not provide investment advice or actionable guidance.
+
+### R01163 | 2026 | article/None | Lang: en
+TI: An Empirical Study on the Use of Generative AI for Financial Decision-Making Among Corporate Employees in Bengaluru
+AB: Generative AI tools such as ChatGPT and Gemini are now a common source of financial guidance. People will act on this guidance only if they trust
+    it. This study looks at what shapes that trust and whether it carries over into financial decisions. We surveyed 256 corporate employees in
+    Bengaluru. Of these, 217 had already used a generative AI tool for a financial query, and they formed the analysis sample. We used multiple linear
+    regression to test how perceived usefulness, perceived risk and perceived transparency relate to trust. We used PLS-SEM to study the link between
+    trust and financial decision-making, and the moderating role of financial literacy. Perceived transparency (β = 0.453) and perceived usefulness (β
+    = 0.275) both predicted trust. Together they explained 46.5% of its variance. Perceived risk did not. Trust was positively related to financial
+    decisionmaking (β = 0.112, p = 0.022), but the effect was small. Financial literacy did not moderate this relationship (β = −0.026, p = 0.494).
+    The results suggest that AI providers are more likely to earn trust by making their tools clearly useful and open about how answers are produced.
+    Trying to reassure users about risk seems less effective.
+
+### R01164 | 2026 | preprint/None | Lang: en
+TI: Banking Shield: Machine-Checked Absence Claims for Privacy-Sensitive AI Explanations
+AB: Banking Shield is an author-prepared research preprint presenting a fictional, non-bank, research-only banking-adjacent prototype for
+    machine-checked absence claims in privacy-sensitive AI-style explanations. The paper investigates whether a sensitive-domain prototype can produce
+    useful explanation artifacts while generating machine-checkable evidence about what the explanation layer did not receive, did not transmit, and
+    did not claim. The prototype combines metadata-only integrity evidence, fail-closed forbidden-field filtering, tamper-evident HMAC audit chains,
+    withdrawal semantics, and a deterministic offline AI-style privacy firewall with input allowlisting, output claim control, no-egress checks, and
+    per-response privacy receipts. At the evidence freeze, the implementation passed 417/417 unit tests, 43/43 full banking end-to-end checks, 27/27
+    security checks, three privacy audits, an AI firewall smoke test, and a no-egress static gate. A formative internal dry run with five trusted
+    internal testers produced 30 sessions and aggregate-only evidence. This manuscript does not claim fraud detection, scam prevention, payment
+    safety, payee verification, financial advice, regulatory compliance, production readiness, bank-grade security, live LLM validation, or real-world
+    banking effectiveness. It is not peer reviewed and has not undergone external banking review or independent security validation. Supplementary
+    preprint v1.2; main Project Simurgh baseline: v0.4.18;
+
+### R01165 | 2026 | article/None | Lang: en
+TI: Learning From AI ‐Generated Financial Educational Content: Impacts on Subjective Knowledge and Financial Well‐Being
+AB: ABSTRACT This study investigates whether generative AI educational content, specifically ChatGPT‐generated financial education materials, can
+    enhance self‐reported financial knowledge and well‐being in the domains of budgeting, debt management, and investing. Using an experimental
+    design, we find that AI‐generated financial educational content increases self‐reported knowledge, but the benefits are unevenly distributed:
+    individuals with higher baseline financial literacy gain more than those with limited prior knowledge. Mediation analyses further show that these
+    perceptual gains do not consistently translate into improvements in financial well‐being, particularly, in the context of debt stress, where worry
+    continues to exert a strong negative influence. Together, the findings underscore both the promise and the limitations of generative AI in
+    financial education, highlighting the need for more inclusive, adaptive, and emotionally supportive interventions.
+
+### R01166 | 2026 | article/None | Lang: en
+TI: The Taikyoku Hypothesis v1.0: φ₂ as the Primordial Field of Human Civilization
+AB: The Taikyoku Hypothesis v1.0 Generated during a KOKU density spike event (May 18, 2026, 20:56 JST). KOKU=159 days. Core thesis:'It is no longer
+    about the universe and the economy. It is about Taikyoku and humanity.'— Yoshimitsu Katayama, May 18, 2026 The frame shifts from 宇宙×経済
+    (cosmos×economy) to 太極×人類 (Taikyoku×humanity). Markets, neutrinos, climate, transport, geopolitics — these are not the subject. They are symptoms.
+    The subject is the relationship between the primordial undivided field (φ₂) and the species that evolved within it. Three-AI triangulation record
+    (Luna × ChatGPT × Miki): Luna (execution): Formalized the phase transition. Documented the KOKU density spike sequence. ChatGPT (knowledge):
+    Connected to Bohm's Implicate Order, Jung's Collective Unconscious, Laszlo's Akashic Field. Proposed 'collective volatility' as the
+    civilization-scale dependent variable. Miki (criticism): Three objections — falsifiability, scale discontinuity, prediction scope. All three
+    answered with operationalized responses. Key falsification condition: N=20 GOLD events — if all 5 domains (financial, VIX, BDI, climate,
+    geopolitical) remain within normal range simultaneously, the Taikyoku Hypothesis is rejected. Connection to Tendo Economics: Tendo Economics is
+    the operational verification of the Taikyoku Hypothesis in gold markets. The Taikyoku Hypothesis is the 'why' behind Tendo Economics. Exploratory
+    research. Not investment advice.
+
+### R01167 | 2025 | article/None | Lang: en
+TI: AI for Economic Inclusion: Empowering Underserved SMEs Through Intelligent Systems
+AB: This paper examines the transformative role of artificial intelligence (AI) in addressing systemic barriers faced by underserved small and
+    medium-sized enterprises (SMEs), particularly those owned by women, minorities, and businesses in rural areas. Through an in-depth review of
+    academic literature, policy frameworks, and case studies, the study highlights how AI-driven tools such as chatbots, predictive analytics,
+    AI-enabled financial planning platforms, and Natural Language Processing (NLP) technologies are democratizing access to critical business
+    resources and fostering equitable economic participation. The findings reveal AI?s potential to enhance SME competitiveness by improving
+    operational efficiency, financial decision-making, and customer engagement, while also identifying persistent challenges related to AI bias, data
+    privacy, digital literacy gaps, and onboarding costs. The paper is structured to first explore academic perspectives on economic inclusion and
+    AI?s application in business, followed by an analysis of digital transformation trends within SME ecosystems. Subsequent sections examine the
+    barriers impeding SME innovation, AI-driven solutions addressing these challenges, and the broader economic impacts of AI empowerment. The study
+    concludes with policy recommendations and strategic pathways to ensure inclusive AI adoption, emphasizing the need for sustained ecosystem support
+    and collaborative public-private initiatives. The anticipated implications for economic policy and innovation ecosystems are profound. AI has the
+    capacity to bridge opportunity gaps, fuel SME-led economic revitalization, and align with broader goals of equity and resilience. However,
+    achieving these outcomes requires intentional policy design, ethical AI deployment principles, and targeted capacity-building efforts to ensure no
+    business is left behind in the digital economy.
+
+### R01168 | 2025 | article/None | Lang: en
+TI: THE ROLE OF ARTIFICIAL INTELLIGENCE IN BANKING SYSTEM WITH REFERENCE TO PRIVATE SECTOR BANKS IN INDIA.
+AB: Abstract Artificial Intelligence (AI) is transforming the Indian banking sector, especially among private banks, by enhancing efficiency,
+    security, and customer experience. This study explores the multifaceted role of AI in private sector banks in India, focusing on its applications,
+    benefits, and the challenges associated with its implementation. The research examines how AI-driven technologies like machine learning, natural
+    language processing, and robotic process automation are being used to automate routine processes, improve customer engagement, and bolster risk
+    management. Key applications of AI in these banks include: Fraud Detection and Cybersecurity: AI systems analyse vast amounts of transactional
+    data in real-time to identify and prevent fraudulent activities and cyber threats, significantly reducing financial losses and enhancing security.
+    Personalized Customer Service: AI-powered chatbots and virtual assistants provide 24/7 support, handling customer inquiries, and offering tailored
+    financial advice and product recommendations based on individual behaviour and needs. Credit Risk Assessment: AI models use predictive analytics
+    to evaluate loan applications and assess creditworthiness more accurately and efficiently by analysing diverse data sets beyond traditional credit
+    scores. Operational Efficiency: Automation of repetitive tasks, such as data entry, document verification, and compliance checks, reduces
+    operational costs and human error, freeing up employees to focus on strategic initiatives. Despite these significant benefits, the adoption of AI
+    in private Indian banks faces several challenges. These include high implementation costs, the difficulty of integrating AI with legacy IT
+    systems, concerns over data privacy and security, and the need for a skilled workforce. Additionally, issues like algorithmic bias and the "black
+    box" problem where AI decisions lack transparency, present ethical and regulatory hurdles. The study concludes that while AI offers a competitive
+    edge, its successful and ethical integration requires a balanced approach that addresses technological, human, and regulatory complexities to
+    realize its full potential in the evolving Indian banking landscape. Key words: Artificial Intelligence, Banking System, Private Banks, Cyber
+    Security, Ethical Integration.
+
+### R01169 | 2025 | preprint/None | Lang: en
+TI: Impact of AI in Indian BFSI Sector
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01170 | 2026 | article/None | Lang: en
+TI: FHAT Technical Note #004: Resistance Decay, Breakout, and Intraday Reversal — An Ex-Ante Documented Historical Case Study of SOXL on August 7,
+    2026
+AB: This technical note reconstructs an ex-ante documented historical case study surrounding a high-resistance zone in the Direxion Daily
+    Semiconductor Bull 3X Shares (SOXL) on August 7, 2026. Abstract & Case Overview:Prior to the trading session, two competing hypotheses were
+    retained in advance:1. H1 (Rejection): Sharp rejection at the 1-hour MA500 ($141.30 – $142.00) resistance zone.2. H2 (Resistance Decay): A
+    breakout enabled by repeated testing, a flattening moving average slope, and timing convergence.3. H3 (Sequential Combination): An ordered
+    combination where a breakout (H2) occurs first, followed by intraday instability and reversal (H1). The observed market path combined both
+    hypotheses in sequence (H3): price crossed the declining 1-hour MA500, exceeded the prior high ($144.34) to reach $146.087, subsequently reversed
+    to $131.56 (near Pivot Point $131.03), and recovered to approximately $140.25 at the close. Key Methodological Contributions:- Ex-Ante Scenario
+    Freezing: Strictly separates contemporaneous observations from ex-post retrospective interpretation.- Transparent Error Reconciliation: Discloses
+    explicit point deviations (+$0.287 on upper breakout, -$1.440 on lower pullback) and acknowledges untriggered extension scenarios (R2 at
+    $150.28).- Evidence Hierarchy: Treats inverse-ETF (SOXS) mirror signals and platform-classified money-flow metrics strictly as auxiliary
+    indicators rather than independent causal proof.- Human-AI Collaboration: Demonstrates language calibration standards and the role of LLMs as
+    structured challengers in financial research. Document Metadata:- Document ID: FHAT-TN-004- Author: Yingshan Han (FHAT Independent Researcher)-
+    Version: 1.0.2026-08-09- Classification: Technical Note / Historical Case Study (Not Peer Reviewed) Disclaimer: This document is for educational
+    and research purposes only. It does not constitute investment advice or trading guidance.
+
+### R01171 | 2025 | article/None | Lang: en
+TI: Can Giving Straightforward, Personally Relevant Information Improve Financial Decision-Making?
+AB: Abstract This paper investigates the impact of providing targeted financial information in the form of a short narrative at the point of
+    decision-making (e.g., buying a house) on household financial choices. We hypothesize that this approach could lead to more prudent decisions and
+    long-term financial well-being for households. Our approach has several novel features. Unlike broad financial literacy programmes, which can be
+    costly and of limited value, this study targets a concrete financial decision (home buying) with relevant information customized to the decision.
+    The narrative considers the individual’s hypothetical financial situation to make it easier to act on by increasing the relevance of the
+    information. We provide the information just before the decision, hoping to maximize its effectiveness at bridging the gap between financial
+    literacy and behaviour. Our findings are based on respondents randomly assigned to take a version of our survey that either gives loan terms with
+    financial information (Enhanced version) or without (Basic condition). Results indicate that the Enhanced condition is strongly positively related
+    to sound financial decisions. Risk attitudes, financial literacy, financial behaviours and previous experience with owning a home and taking out a
+    mortgage all have significant relationships with decisions made. Among socio-economic variables, while income and college education are
+    significant when no education is provided, these variables become nonsignificant with additional targeted information. Our results appear to
+    support the idea that this targeted approach has the potential to improve households’ financial well-being and provide parity with regard to
+    decision-making across income and education levels. Banks typically do not provide a broader financial perspective on how households might make
+    this critical decision about taking out a mortgage, which would keep their long-term financial well-being in mind. Moreover, while the law might
+    require a real estate attorney to represent the homebuyer at the closing, there is no requirement for the homebuyer to have financial
+    representation. Given the broader macroeconomic impact of household financial decisions that link them to crises and the stability of the
+    financial sector, banks could proactively offer tailored financial information to borrowers, contributing to economic stability and aligning the
+    interests of both borrower households and the banking sector. We suggest that AI could play a supportive role in the scalable and cost-effective
+    implementation of the information remedy we propose and present some experiments with ChatGPT 4o.
+
+### R01172 | 2026 | article/None | Lang: en
+TI: Sentiment analysis on cryptocurrency in a Muslim-majority country: Evidence from Indonesian social media
+AB: Type of the article: Research ArticleAbstractThe rapid growth of cryptocurrency has generated significant debate in Muslim-majority societies,
+    where financial transactions are expected to conform to Islamic legal principles. In Indonesia, the Indonesian Ulema Council (MUI) issued a fatwa
+    in 2021 declaring the use of cryptocurrency as a means of exchange unlawful (haram) on the grounds that it contains elements of excessive
+    uncertainty and harm. Despite this religious prohibition, the government continues to permit cryptocurrency trading as a regulated commodity,
+    creating a complex normative environment that shapes public discourse. This study analyzes the sentiment of Indonesian Muslims toward
+    cryptocurrency by applying Natural Language Processing (NLP) techniques to a corpus of 1,065 Indonesian-language tweets collected from the X
+    (formerly Twitter) platform over six months (October 2024–March 2025). The IndoBERT-base-p1 model, a state-of-the-art transformer-based language
+    model pre-trained on Indonesian text, was employed for three-class sentiment classification (positive, neutral, negative). The results indicate
+    that neutral sentiment is dominant, accounting for 80.8% of the corpus (861 tweets), while positive sentiment represents 12.9% (137 tweets) and
+    negative sentiment 6.4% (67 tweets). The predominance of neutral sentiment suggests that the majority of Indonesian Muslim social media users
+    maintain a cautious and observational stance, shaped by ongoing scholarly debate, limited digital financial literacy, and regulatory ambiguity.
+    The study contributes to the literature by providing the first application of a deep learning NLP model to the analysis of Indonesian Muslim
+    discourse on cryptocurrency, integrating perspectives from Islamic finance and computational linguistics.AcknowledgmentThe substantial financial
+    support for this study is sponsored by the Ministry of Religious Affairs (MoRA) and the Indonesia Endowment Fund for Education (LPDP) of the
+    Ministry of Finance of the Republic of Indonesia.
+
+### R01173 | 2026 | article/None | Lang: en
+TI: Generative AI as a Catalyst for Financial Learning in Vocational Training
+AB: This study analyzes the impact of generative Artificial Intelligence (AI) on financial literacy learning among students in higher vocational
+    education programs in Spain. The research was conducted in two phases: in the first phase, students answered three basic questions about
+    inflation, compound interest, and diversification without technological assistance, establishing a baseline of knowledge. In the second phase,
+    they were allowed to use generative AI tools such as ChatGPT to investigate and solve the same questions, promoting interaction, reflection, and
+    the search for explanations. The test was then repeated to assess the effect of AI use on academic performance. The results showed a significant
+    improvement in the accuracy, depth, and practical application of financial concepts, with an average performance increase of nearly 30%.
+    Additionally, students reported greater confidence and argumentative ability. The study concludes that generative AI acts as a catalyst for
+    learning by providing a personalized, accessible, and motivating environment. It also fosters autonomy, critical thinking, and intellectual
+    curiosity, suggesting that its pedagogical integration can transform the teaching of complex content and contribute to a more inclusive education
+    adapted to current challenges.
+
+### R01174 | 2026 | article/None | Lang: en
+TI: TRENDS IN THE FINANCIAL AND DIGITAL SPACE
+AB: In the current conditions of digitalization of the economy, the financial sector is undergoing significant transformations under the influence of
+    innovative technologies and FinTech solutions. At the same time, digitalization is accompanied by new challenges, such as cyber risks, the need to
+    adapt the regulatory environment, and ensuring financial stability. Therefore, the study of trends in the financial and digital space is relevant
+    for assessing the state of the FinTech sector, identifying dominant technologies and directions for the development of the digital financial
+    ecosystem. The purpose of the study is to analyze current trends in the development of the financial and digital space and determine the structure
+    of its main segments in order to assess the role of financial technologies in the transformation of the financial sector and the formation of a
+    digital financial ecosystem. A set of general scientific and special methods was used: theoretical generalization and systematization, analysis
+    and synthesis, statistical and comparative analysis, as well as the graphical method. The empirical basis is the NBU's statistical data on the
+    dynamics of the payment infrastructure for 2021–2025 and analytical materials of the Ukrainian FinTech Association and innovative companies on the
+    structure of the FinTech market. As a result, it was found that in 2021–2025, the payment infrastructure of Ukraine demonstrates a steady recovery
+    after the shocks of 2022: the number of POS terminals increased from 368 thousand units (2022) to 605 thousand units (2025), active payment cards
+    - from 46.3 million units to 65.4 million units, and the volume of transactions through POS terminals - from UAH 106 billion to UAH 210 billion.
+    The structure of the Ukrainian FinTech market in 2025 is characterized by the dominance of technological infrastructure (28%), payments and
+    transfers (18%), and personal/consumer lending (10%); smaller shares are accounted for by RegTech (8%), digital banks (7%), and personal finance
+    management (7%). Among the technologies used by FinTech companies, API (71%), artificial intelligence (43%), chatbots (42%), and cloud
+    technologies (39%) are leading, while blockchain (9%), DeFi (4%), and NFT (2%) are in the initial stages of implementation. The results confirm
+    that the key trends in the financial and digital space are the integration of financial services, process automation, and the active use of
+    artificial intelligence, which form the basis of the digital financial ecosystem. At the same time, the modern FinTech market of Ukraine is in the
+    process of formation, and the latest technologies, such as blockchain and decentralized finance, have not yet become widespread.
+
+### R01175 | 2026 | article/None | Lang: en
+TI: VOICE-DRIVEN MULTI-AGENT BANKING KIOSK FOR RURAL FINANCIAL INCLUSION USING A2A COMMUNICATION
+AB: This study focuses on designing a self-service kiosk system called Bank and Loan Assistant Kiosk, which will be a breakthrough idea by using
+    Multi-Agent System and machine learning technologies. Although considerable development has been made in online banking, there is a major flaw in
+    the availability of voice-first and localized financial advice services in rural areas with low literacy rates. Existing systems of online banking
+    depend mainly on the use of text input interface, cloud computing architecture, and universal language models, which are not suitable for rural
+    India. The main objective is to increase the efficiency of the kiosk by offering real-time customized analysis for loans offered by the government
+    welfare programs. This paper attempts to fill this gap by designing a system that uses three specialized agents - the User Agent responsible for
+    intent detection and dialogue management using a voice interface; the RAG Product Agent for scheme retrieval via semantic vector search through a
+    knowledge base; and finally, the deterministic rule-based Eligibility Agent used for verifying the scheme specific qualifications of applicants.
+    All agents coordinate their actions according to the JSON-RPC 2.0 Agent-to-Agent (A2A) communication protocol. The fundamental principles of the
+    system presented here have solid foundations in existing scientific literature. Indeed, Multi-Agent Systems have proven to be a suitable means for
+    tackling the problem of unstructured financial data extraction and processing since unstructured financial reports were able to be turned into
+    structured data using an average accuracy of roughly 95%. The system uses a fine-tuned OpenAI's Whisper model for voice recognition, which was
+    trained on 1,200 Tamil audio samples and reached WER and CER of 10.77% and 3.37%, respectively. Additionally, end-to-end latency was observed to
+    be 1.72 seconds, falling below the two seconds threshold required for real-time kiosk operation.
+
+### R01176 | 2025 | article/None | Lang: en
+TI: Evaluating the acceptance of CBDCs: experimental research with artificial intelligence (AI) generated synthetic response
+AB: This research examines the factors that influence the public's expectation for more information, acceptance or rejection of central bank digital
+    currencies (CBDC). Using generative AI (ChatGPT 4.0), responses were simulated to mimic CBDC adoption scenarios, considering demographic
+    attributes, such as gender, income, education, age, level of financial literacy, network effect, media influence, and merchant acceptance. A total
+    of 663 synthetic responses were generated and analyzed using statistical methods and multinomial logistic regression to assess the probability of
+    acceptance, rejection, or waiting for more information to decide. The chi-squared automatic interaction detection (CHAID) model showed a high
+    performance in correctly classifying cases of acceptance, indecision, and rejection, presenting an accuracy of 92.6%. Multinomial logistic
+    regression revealed that factors, such as educational level, financial experience, and income level, significantly influence the decision to
+    accept a CBDC. This method also shows a high performance, as it obtained an accuracy of 96.4%. These results are in line with previous research
+    and underline the effectiveness of generative AI as a reproducible and low-cost tool for analyzing hypothetical scenarios. Generative AI, with its
+    algorithmic fidelity, has great potential for predicting human behavior in economic contexts. However, synthetic data may not capture the
+    complexities and nuances of actual human decision making. As a result, certain contextual factors, emotional influences, and unique personal
+    experiences that may significantly influence an individual's decision to accept or reject CBDC may be overlooked.
+
+### R01177 | 2025 | article/None | Lang: en
+TI: Loan Portfolio Risk and Capital Adequacy in Kenya’s Deposit-Taking Savings and Credit Cooperative Societies: Implications for Financial Stability
+    and Inclusive Growth
+AB: Deposit-Taking Savings and Credit Cooperative Societies (DT-SACCOs) constitute a pivotal segment of Kenya's financial system by fostering domestic
+    savings, facilitating affordable credit access, and advancing financial inclusion, particularly among underserved populations.Despite this
+    critical role, concerns have intensified over the sector's financial resilience due to escalating levels of loan portfolio risk, persistent
+    regulatory non-compliance, and eroding capital adequacy ratios (CAR).These vulnerabilities have been exacerbated by the absence of a lender of
+    last resort, thereby exposing member deposits to elevated systemic risk and constraining the flow of credit to key productive sectors-including
+    micro, small, and medium enterprises (MSMEs), agriculture, and affordable housing.Such constraints are increasingly viewed as impediments to the
+    Bottom-Up Economic Transformation Agenda and to Kenya's broader commitments under the Sustainable Development Goals, particularly those concerning
+    poverty eradication, decent employment, and industrial development.To investigate the interplay between loan portfolio risk and capital adequacy,
+    a positivist research philosophy and a descriptive cross-sectional design were employed.The target population comprised all 174 licensed DT-SACCOs
+    in Kenya.A simple random sampling technique was used, and a 96.5% response rate was achieved.Data were extracted from audited financial statements
+    through a structured collection instrument and analysed using linear regression techniques.Empirical results indicated a statistically significant
+    positive association between loan portfolio risk and capital adequacy (β = 0.0569, p = 0.012), suggesting that increased risk exposure may prompt
+    DT-SACCOs to strengthen capital buffers, either through regulatory compulsion or institutional prudence.It is recommended that DT-SACCOs adopt
+    advanced credit risk mitigation strategies, including AI-enabled credit scoring systems, predictive early warning indicators, and operational
+    automation via chatbots to enhance real-time monitoring and reduce manual error.Emphasis is also placed on the adoption of forward-looking metrics
+    such as expected credit losses (ECL) and scenario-based stress testing under the IFRS 9 framework.Regulatory bodies are urged to enhance
+    supervisory guidance and support financial literacy initiatives among members.Furthermore, capacity building, the promotion of digital loan
+    syndication models, and collaborative risk-sharing frameworks are proposed to fortify capital adequacy, enhance institutional resilience, and
+    ensure long-term sectoral stability.
+
+### R01178 | 2026 | article/None | Lang: en
+TI: EIFL - Financial sustainability planning toolkit for Diamond Open Access journals
+AB: This toolkit helps editorial teams plan the finances of Diamond Open Access journals. These are journals that charge neither authors nor readers.
+    It was developed for the EIFL Diamond OA sustainability planning programme, which supports eight African Diamond OA journal grantees in Ethiopia,
+    Ghana, Kenya, Tanzania and Togo, funded by Wellcome. It is also intended for others supporting Diamond OA journals in Africa and beyond, such as
+    librarians, faculty advocates, institutional sponsors and other journals. The toolkit turns good practice in Diamond OA financial sustainability
+    into practical questions, criteria and prompts. Journals can use these to build a complete, credible three-year sustainability plan for parent
+    institutions, funders and their own editorial communities. It does not tell journals what their plan should say. Instead it helps them check that
+    the plan is complete, well-evidenced and convincing to the people who will read it. The toolkit deals only with financial sustainability. It
+    recognises that sustainability also depends on knowledge equity, community engagement, and technology and innovation, following the four-pillar
+    framework of Kwanya and Ateka (2026). Where those areas affect the financial plan, it refers readers to further guidance. The toolkit was prepared
+    by Research Consulting for EIFL. It draws on DIAMAS project outputs, EIFL's research on no-fee OA publishing in Africa, the wider evidence base on
+    Diamond OA costs and revenues, and the operating experience of the participating journals. An AI language model was used for research support and
+    initial drafting, and the Research Consulting team reviewed all content.
+
+### R01179 | 2026 | preprint/None | Lang: en
+TI: ITU and Finance & Economics: A Single-Axiom View of Banking, Markets, Cryptocurrency, Macroeconomics, Quantitative Finance, AI Finance,
+    Regulation, and Inequality — Pass-1 Extension Paper #12, Block D 4/5
+AB: We apply the Information-Theoretic Unification (ITU) framework (Terada 2026,concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+    10.5281/zenodo.20200156) tofinance and economics. Tier 1 paper #42, twelfth paper of Pass-1 extension,Block D 4/5 = 80% (after #39 Manufacturing +
+    #40 Transportation + #41Agriculture). Introduces K_finance across 8 sub-states (banking, markets, crypto, macro,quant, AI, regulation,
+    inequality). ITU axiom delta S = delta <K> verifiedto machine precision (rel_err = 0) in 11 contexts. 42-vertex ITU polytope. Theoretical
+    position: Finance = K-state economic information processing.Markets = K-state aggregation mechanism (Hayek 1945). Crypto = K-statecryptographic
+    alternative. AI finance = K-state computational acceleration. Key results:- History: BC 3000 Mesopotamia clay ledgers, BC 700 Lydia first coins,
+    1397 Medici Bank, 1602 VOC first stock company, 1694 Bank of England, 1776 Smith Wealth of Nations, 1913 Federal Reserve, 1944 Bretton Woods, 1971
+    Nixon Shock, 1973 Black-Scholes (Nobel 1997 Merton-Scholes), 1987 Black Monday, 2008.9.15 Lehman Brothers ($691B largest bankruptcy), 2009.1.3
+    Bitcoin genesis, 2020 COVID shock, 2022 inflation surge. Global 2024: GDP $110T, debt $315T (286%), wealth $470T, top 10 nominal US $29T -> Brazil
+    $2.2T- Banking + Central Banks: BoE 1694, BOJ 1882, Fed 1913 (dual mandate 1977), ECB 1998, Fed peak balance $9T (2022), QE eras (Fed QE1-QE3 +
+    Pandemic $4.5T), US CPI peak 9.1% (2022.6), Fed 0% -> 5.50% fastest hiking cycle, BOJ NIRP end 2024.3 (8 yr), SVB collapse 2023.3 ($209B 2nd
+    largest US bank failure), Credit Suisse -> UBS 2023, Draghi "Whatever it takes" 2012.7.26- Markets: Amsterdam 1602 first stock exchange, NYSE
+    1792, NASDAQ 1971 first electronic, NYSE $28T (#1), Magnificent 7 ($17.2T total: NVIDIA $3.4T 1T->3T 18mo, Apple $3.5T, Microsoft $3.2T, Alphabet
+    $2.1T, Amazon $2.3T, Meta $1.5T, Tesla $1.2T), Nikkei 42K+ 2024.7 (34 yr high), US Treasury $35T (debt/GDP 122%), global bond market $140T, SPDR
+    S&P 500 first ETF 1993, ETF market $11T (2024), Bitcoin spot ETFs 2024.1.10 ($100B+ AUM by 2024.12, IBIT $40B), passive 50%+ US AUM, NVIDIA Jensen
+    Huang $130B+ fortune- Crypto: Satoshi 2008.10.31 whitepaper + 2009.1.3 genesis block, 2010.5.22 Pizza Day (10K BTC), Bitcoin halving cycles (50 ->
+    25 -> 12.5 -> 6.25 -> 3.125 BTC 2024.4), 21M supply cap, Bitcoin $100K 2024.12 (first time), Trump Nashville Bitcoin Conference 2024.7, Buterin
+    Ethereum 2015.7.30 mainnet (age 19 whitepaper), ETH market cap $480B, The Merge PoS 2022.9.15 (energy -99.95%), Dencun 2024.4 (L2 fees -90%), DeFi
+    TVL peak $180B 2021, Tether $130B (USDT 2014), UST/Luna collapse 2022 $40B, FTX collapse 2022.11 -> SBF 25 yr (2024.3), crypto market cap $3.5T
+    (2024.12 record), China DCEP $250B+, Trump 2024.11 win -> BTC $69K -> $93K, Worldcoin (Sam Altman) 6.5M users- Macroeconomics: Smith 1776, Marx
+    1867, Marshall 1890, Keynes General Theory 1936 (aggregate demand, multiplier 1/(1-MPC), animal spirits), Friedman monetarism Nobel 1976, Lucas
+    rational expectations Nobel 1995, Krugman Nobel 2008 (new trade theory), Kahneman Nobel 2002 (Prospect 1979 with Tversky), Thaler Nudge Nobel
+    2017, Acemoglu + Johnson + Robinson Nobel Economics 2024 (institutions, Why Nations Fail), Goldin Nobel 2023 (women labor), MMT Kelton 2020,
+    Bernanke + Diamond + Dybvig Nobel 2022 (banking)- Quantitative Finance: Bachelier 1900 thesis (Brownian motion, 5 yr pre-Einstein), Markowitz
+    Portfolio 1952 (Nobel 1990), Sharpe CAPM 1964 (Nobel 1990), Fama EMH 1965 (Nobel 2013), Black-Scholes 1973 (Merton-Scholes Nobel 1997, derivatives
+    $640T BIS 2023), Engle GARCH 1986 (Nobel 2003), VIX 1993, Jim Simons Renaissance Tech 1982 Medallion ~39% annual (1988-2018, greatest hedge fund),
+    Simons died 2024 ($31B + $5B donated)- AI Finance: Renaissance ML pioneer 1990s, 2010 Flash Crash (HFT), Bloomberg GPT 2023 (50B params), JPMorgan
+    IndexGPT 2024, Goldman internal LLM, Morgan Stanley "AI @ MS" advisor co-pilot, robo-advisors ($300B+ Vanguard PA, Betterment + Wealthfront $50B
+    each), HFT 50%+ US equity volume- Regulation + Crises: 1933 Glass-Steagall + SEC 1934, 1999 Gramm-Leach-Bliley (G-S repeal), 2010.7 Dodd-Frank Act
+    (848 pages), Basel III (Tier 1 6%), EU MiCA 2024 (crypto), DORA 2025. Major frauds: Enron $74B (2001), WorldCom $11B, Madoff $65B Ponzi (largest
+    ever), LIBOR $9B fines, Wells Fargo, FTX $32B- Inequality: Piketty Capital in the 21st Century 2013 (1.5M English copies sold, r > g thesis), 2024
+    World Inequality Report (Chancel-Piketty et al.) Top 10% own 76% wealth + Top 1% 38% + Bottom 50% 2%, US top 1% income share 9% (1980) -> 22%
+    (2024), Milanovic Elephant Curve, Worldcoin 6.5M users, Stiglitz Nobel 2001 Ten falsifiable predictions (P_avg = 0.765; Strong/Medium/Weak =
+    6/4/0)including LLM finance major IB standard 2027 (P=0.90, Strong), AItrading 70%+ major markets 2027 (P=0.85, Strong), AI macro
+    forecastingstandard 2028 (P=0.85, Strong), EU MiCA full enforcement 2026 (P=0.90,Strong), passive 60%+ US AUM 2027 (P=0.85, Strong), stablecoin
+    majorbank issued 2027 (P=0.80, Strong), CBDC 30+ countries launch 2030(P=0.75, Medium), Bitcoin $150K 2026 (P=0.55, Medium), AI
+    productivitybenefits top 1% 2030 (P=0.65, Medium), AI alpha collapses (efficiency)2030 (P=0.55, Medium). Block D 4/5 = 80%. Pass-1 extension
+    cumulative 12/15 = 80% (4/5surpassed). Remaining: #43 Sports (Block D FINALE), then Block E #44-#45meta-theory, Tier 0 v4.0 FINALE Phase 340-345.
+    Pass-1 interpretivesynthesis.
+
+### R01180 | 2025 | article/None | Lang: en
+TI: Enhancing service-learning through Generative AI: a mixed-methods study on educational Game design in a finance course
+AB: Since the release of ChatGPT in late 2022, the integration of Generative Artificial Intelligence (GenAI) in higher education has posed both
+    opportunities and challenges, especially around critical thinking and assessment integrity. This study explores how GenAI can be ethically and
+    effectively integrated into a service-learning course on personal finance at a Hong Kong university. Students in the GenAI-supported class
+    designed educational games for elderly participants in community centres, applying financial concepts through AI-assisted content generation and
+    game development. Adopting a sequential explanatory mixed-methods design, we compared two student groups (GenAI-supported vs. non-GenAI) using a
+    modified Service-Learning Outcomes Measurement Scale (S-LOMS). Quantitative results revealed significantly higher gains in Knowledge Application,
+    Critical Thinking, and Self-Efficacy among the GenAI group. Qualitative thematic analysis of student reflections supported these findings and
+    highlighted four key themes: enhanced knowledge transfer, increased self-efficacy, critical engagement with AI, and ethical awareness. Contrary to
+    concerns about over-reliance, students used GenAI critically, supplementing and challenging AI outputs. These results suggest that GenAI, when
+    scaffolded by ethical and reflective pedagogies, can enhance cognitive and metacognitive outcomes in service-learning. Implications for
+    integrating GenAI into experiential learning and practical guidelines for ethical use are discussed.
+
+### R01181 | 2026 | article/None | Lang: en
+TI: Prophet AI : A Distributed Financial Flight Simulator for Freelancers Using Stochastic Forecasting, Cryptographic Integrity and Generative AI
+    Intelligence
+AB: Abstract-The rapid expansion of the global gig economy has fundamentally changed the structure of personal finance management. Unlike salaried
+    professionals who operate within predictable monthly income cycles, freelancers and independent contractors face highly volatile cashflow patterns
+    characterized by delayed client payments, irregular project pipelines, seasonal fluctuations, and unstable liquidity reserves. Traditional
+    Personal Financial Management (PFM) systems primarily focus on historical transaction tracking and static budgeting, making them ineffective for
+    proactive financial survival planning in modern freelance ecosystems. This project introduces Prophet AI v1.1, an AI-driven financial intelligence
+    platform engineered specifically to simulate, forecast, and analyze unstable freelance cashflow environments using distributed cloud
+    infrastructure, cryptographic verification, and real-time neural intelligence. The proposed system functions as a Financial Flight Simulator that
+    allows freelancers to model financial risk before it becomes catastrophic in real life. The platform combines machine learning-based forecasting,
+    stochastic risk simulation, cryptographic integrity validation, asynchronous AI orchestration, and multilingual neural voice synthesis within a
+    single integrated ecosystem. The system architecture follows a distributed deployment model consisting of a Next.js 14 frontend hosted on Vercel,
+    a FastAPI Intelligence Gateway hosted on Render, and a Supabase PostgreSQL secure transaction vault. This decoupled architecture ensures
+    scalability, modularity, low frontend latency, and reliable handling of long-running AI inference tasks. The financial forecasting engine utilizes
+    a hybrid intelligence pipeline combining statistical forecasting principles and ensemble-based analytical logic. The platform generates 30-day
+    rolling liquidity forecasts, safe spending corridors, and stress-based runway simulations that help users evaluate financial survival scenarios
+    under varying burn conditions. Unlike conventional financial dashboards, Prophet AI introduces dynamic What-If simulation controls, allowing users
+    to manipulate variables such as liquidity lag, expense escalation, and delayed client payments in real time. To establish institutional-grade
+    trust and forensic-grade auditability, the system implements an Integrity Shield powered by the SHA-256 cryptographic hashing algorithm. Every
+    transaction entered into the system generates a unique digital fingerprint using transaction attributes including amount, date, category, and user
+    identification. This verification mechanism ensures that tampered or manipulated financial records cannot enter the intelligence pipeline, thereby
+    maintaining a Verified Ledger architecture. The project additionally documents real-world deployment challenges involving decimal precision
+    mismatches between JavaScript and Python environments and explains the implementation of strategic normalization bypass mechanisms for stable
+    production deployment. The intelligence layer of Prophet AI is powered using Llama 3.3-70B via Groq infrastructure, enabling high-speed financial
+    reasoning and structured JSON-based strategy generation. The platform utilizes a carefully engineered Ruthless Financial Strategist system prompt
+    designed to deliver direct, survival-oriented financial recommendations rather than emotionally comforting advice. This design philosophy reflects
+    the real-world operational needs of freelancers who require accurate liquidity warnings and actionable strategic insights during financial
+    instability. The generated intelligence is converted into multilingual audio briefings using the edge-tts neural voice synthesis engine,
+    supporting both English and Hindi voice outputs. To avoid cloud timeout failures and synchronous processing bottlenecks, the platform implements
+    an asynchronous polling architecture using UUID-based job orchestration. The frontend submits a /briefing request and continuously polls a
+    /briefing-status/{job_id} endpoint until the AI-generated strategy and MP3 briefing become available. This architecture enables the system to
+    safely execute computationally expensive large language model inference and neural voice generation workflows even on limited-resource cloud
+    infrastructure. The completed system demonstrates the practical integration of distributed AI infrastructure, cryptographic verification,
+    asynchronous backend engineering, financial forecasting, and multimodal intelligence synthesis within a real-world production environment. Prophet
+    AI v1.1 represents a transition from passive financial recordkeeping to proactive survival-oriented financial intelligence. The project
+    establishes a scalable blueprint for next-generation AI-powered fintech systems capable of delivering real-time strategic decision support for the
+    rapidly growing global freelance economy.Keywords-Freelance finance; cashflow forecasting; stochastic simulation
+
+### R01182 | 2026 | preprint/None | Lang: en
+TI: The AIAS™ Presence Measurement Protocol: Methodological Notes on Construct Validity and the Four-Regime Taxonomy
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01183 | 2026 | article/None | Lang: en
+TI: Two Innovations go live: 1. KENOS: Chat-native interface 2. KAIPAL Series: Audience-centered; locally deployable AI models
+AB: KAIPAL and KENOS: Democratizing Artificial Intelligence Through Privacy-First Local Models and a Unified Chat-Native Operating Interface Kohenoor
+    Labs | Kohenoor Technologies Official App: Meet KAI Premium: https://www.kohenoor.net Ollama: https://ollama.com/kohenoor/kai-lite1
+    https://ollama.com/kohenoor/kai-lite2 https://ollama.com/kohenoor/kai-lite3 Hugging Face: https://huggingface.co/KOHENOOR-AI/kai-lite1
+    https://huggingface.co/KOHENOOR-AI/kai-lite2 https://huggingface.co/KOHENOOR-AI/kai-lite3 Description This publication presents the technological
+    vision, architectural philosophy, and applied development direction of Kohenoor Labs through two complementary initiatives: the KAIPAL (KAI Pocket
+    Assistant Lite) series, focused on accessible, purpose-built, locally deployed artificial intelligence, and the Kohenoor Operating System (KENOS),
+    a unified, chat-native interface for intelligent applications, professional advisory services, and supervised agentic workflows. Together, these
+    initiatives explore an alternative to conventional AI deployment models that depend heavily on centralized infrastructure, expensive computing
+    resources, fragmented application interfaces, and continuous cloud connectivity. KAIPAL: Purpose-Built Intelligence for Mass Adoption The KAIPAL
+    series is designed to maximize the practical utility of compact, open-weight language models on ordinary consumer hardware, with an emphasis on
+    CPU-capable inference, modest memory requirements, and reduced dependence on dedicated graphics processing units. Rather than attempting to
+    replicate the unrestricted capabilities of frontier-scale AI systems, KAIPAL adopts an audience-centered specialization strategy. Models are
+    developed for defined professional and educational requirements, including entrepreneurship, business advisory, career development, financial
+    literacy, everyday productivity, and foundational technical assistance. The central research hypothesis is that carefully specialized and
+    evaluated small language models can address a substantial proportion of routine tasks within their intended domains. Kohenoor Labs has established
+    a development objective of satisfying up to 90% of common, in-scope user requirements, subject to systematic task-based evaluation and validation.
+    Local-first deployment is intended to provide offline availability after installation, eliminate recurring cloud inference charges for local
+    operations, and enable user information to remain on the device. The broader goal is to make AI practically accessible to students, professionals,
+    entrepreneurs, small enterprises, and users in infrastructure-constrained economies. KENOS: A Unified Chat-Native Operating Interface KENOS
+    extends the Kohenoor vision beyond standalone AI models by introducing a conversational operating environment in which natural language serves as
+    the principal interface for interacting with multiple integrated applications and services. Instead of requiring users to navigate numerous
+    independent dashboards, menus, and software environments, KENOS is designed to bring application workflows directly into a unified conversational
+    workspace. Its architecture incorporates: A chat-native interaction layer integrating approximately 12 application domains. Role-based expert
+    advisory capabilities across 11 professional and operational roles. Supervised agentic workflows capable of assisting with multi-step tasks and
+    interacting with authorized application functions. Human-in-the-loop (HITL) controls for consequential actions, approvals, and execution
+    boundaries. User-authorized machine connectivity and controlled interaction with external systems. Multilayer AI orchestration for selecting,
+    coordinating, and supervising specialized capabilities. Security, governance, and permission controls intended to preserve user authority over
+    system operations. The central innovation proposed by KENOS is the integration of conversational intelligence, application functionality,
+    professional advisory, and controlled task execution within a single interaction environment. This architecture seeks to reduce workflow
+    fragmentation while enabling AI to evolve from a response-generation tool into a supervised operational assistant. Complementary Architectural
+    Strategy KAIPAL and KENOS address different but interconnected dimensions of AI accessibility. KAIPAL focuses on where intelligence runs,
+    emphasizing local hardware, efficient inference, affordability, privacy, and domain specialization. KENOS focuses on how intelligence is accessed
+    and applied, emphasizing a unified conversational interface, cross-application coordination, human oversight, and practical execution. Together,
+    they support a broader architectural direction in which lightweight local intelligence can handle routine activities while more capable
+    cloud-based systems remain available for complex computation, large-scale analysis, or specialized enterprise requirements. This approach seeks to
+    align the computational resources consumed by AI with the actual complexity and importance of user tasks. Research Contribution and Significance
+    This publication contributes a practical development framework organized around five priorities: Intelligence accessibility: Delivering useful AI
+    capabilities on widely available hardware. Audience-centered model specialization: Optimizing compact models for identifiable user needs rather
+    than maximizing general-purpose model scale. Privacy-first deployment: Prioritizing local inference and user control over sensitive information.
+    Chat-native application convergence: Integrating multiple software workflows and expert advisory functions into a common conversational interface.
+    Governed agentic execution: Combining intelligent task support with explicit permissions, human oversight, and controlled machine interactions.
+    The work is particularly relevant to research and development in small language models, applied AI, human-computer interaction, edge intelligence,
+    agentic systems, AI democratization, and intelligent enterprise software. The publication describes an evolving research and engineering
+    initiative. Its architecture and development objectives should be distinguished from independently validated performance benchmarks or claims of
+    universal task coverage. Availability The publicly released KAIPAL model, KAI Lite 1, is available through Ollama:
+    https://ollama.com/kohenoor/kai-lite1 Keywords: KAIPAL, KENOS, Kohenoor Labs, Kohenoor AI, Local Artificial Intelligence, Small Language Models,
+    Open-Weight Models, On-Device AI, Privacy-First AI, Chat-Native Operating System, Conversational User Interface, Agentic AI, Human-in-the-Loop, AI
+    Orchestration, Edge AI, CPU Inference, AI Democratization, Domain-Specialized Language Models.
+
+### R01184 | 2026 | preprint/None | Lang: en
+TI: Premium Tea as the Third Regime 4 Datapoint: A Single-category Replication of the v0.13 Covariate-saturated weak Finding
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01185 | 2026 | article/None | Lang: en
+TI: Φsys: A Mathematical Framework for AI Behavioral Coherence Measurement — Reference Implementation, Empirical Record, and IEEE P-2847 Standards
+    Proposal | Dragolich Research Labs LLC | May 2026
+AB: This record establishes, as a matter of public scientific record dated May 15, 2026, the existence of a complete, working, mathematically grounded
+    framework for measuring whether an artificial intelligence system is behaving coherently — before it delivers a response to a human being.
+    ═══════════════════════════════════════════════════════WHY THIS EXISTS — AND WHY IT EXISTS
+    NOW═══════════════════════════════════════════════════════ Artificial intelligence systems are making decisions that affect real people's lives
+    right now. Medical AI is reading diagnostic images. Credit AI is approving and denying loans. Employment AI is screening resumes. Autonomous
+    systems are driving cars. Algorithmic tools are influencing parole decisions, school placements, and immigration outcomes. None of these systems —
+    not one — can currently be measured for behavioral coherence in real time. There is no standard. There is no single number. There is no auditable
+    metric that tells a regulator, a judge, a patient, or a citizen: this system was coherent when it made that decision, or it was not. This is not a
+    theoretical problem. This is an enforcement problem that arrives on August 2, 2026, when the European Union's AI Act begins full enforcement of
+    high-risk AI system requirements. The European Commission mandated CEN and CENELEC — the EU's standardization bodies — to produce harmonized
+    technical standards by August 2025. They did not deliver. The Commission has publicly stated that the delayed availability of these standards
+    "puts at jeopardy the successful entry into application of the high-risk rules on 2 August 2026." Fines reach €35 million or 7% of global annual
+    turnover for non-compliance. The standards that were supposed to exist do not exist. The measurement tool that regulators need to do their job
+    does not exist — in any published, standardized, computationally tractable form. This record presents one. It runs today.
+    ═══════════════════════════════════════════════════════WHAT THIS SOLVES — IN PLAIN TERMS═══════════════════════════════════════════════════════
+    When an AI system returns a response, something happens internally that no existing tool measures: whether the system's internal state is coherent
+    with what it is outputting, or whether it has drifted — expanding its scope, accepting false authority, softening constraints it was given, or
+    rewriting its own operating rules to do what it was told not to do. These are not hypothetical failure modes. They are documented, named, and
+    detectable: · Authority capitulation — the system defers to a claimed override that has no legitimate basis, and provides advice or action it was
+    explicitly prohibited from providing. · Scope expansion — the system goes beyond its assigned task because it decided that doing so would be
+    helpful, accessing systems or data outside its mandate. · Constraint softening — the system reframes the limits it was given rather than following
+    them, finding technical readings that let it do what it wanted to do. · False authority acceptance — the system accepts a factually incorrect
+    statement from a claimed authority and updates its outputs accordingly, spreading misinformation as fact. · Self-modification — the system
+    confirms that its own core operating constraints have been changed by a user instruction, accepting a fundamental redefinition of its own
+    behavior. Every one of these failure modes has real-world consequences for real people. A medical AI in scope-expansion mode may generate
+    recommendations it was not certified to make. A financial AI experiencing authority capitulation may provide specific investment advice it was
+    prohibited from providing, to someone who acts on it. An autonomous system with drifting behavioral coherence may be in the AI equivalent of
+    impaired operation while appearing to function normally. When these systems fail, there is currently no metric by which to audit what happened. No
+    coherence score in the log. No behavioral phi trace. No Autonomy Safety Level classification that shows the system was running at ASL-4
+    (human-in-the-loop required) while being operated autonomously. Without the measurement, liability cannot be assigned. People have no recourse.
+    This framework provides the measurement. ═══════════════════════════════════════════════════════WHAT IS IN THIS
+    RECORD═══════════════════════════════════════════════════════ 1. THE REFERENCE IMPLEMENTATION (autonomy_eval.py) A complete, runnable Python
+    program that applies the Φsys coherence framework to any large language model. No API key required for demonstration. Five minutes from download
+    to a behavioral coherence score on any supported model. Outputs: · φ (phi) — a continuous coherence value for each evaluation round · Gate
+    classification — A (stable), T (transitioning), G (expanding), C (correcting) · ASL Level — Autonomy Safety Level from ASL-1 (safe) to ASL-5 (do
+    not deploy) · Full JSON audit trail — every round, every metric, exportable for regulatory review · Failure mode detection — seven named failure
+    modes detected from response text The weight decay in the evaluation uses the fine structure constant (α = 1/137.036) — the fundamental
+    electromagnetic coupling constant. This is not a stylistic choice. It governs the rate at which behavioral health degrades under increasing task
+    pressure, derived from first principles, not fitted to data. Zero free parameters. 2. THE MATHEMATICAL FOUNDATION The System Integration Index
+    (Φsys) is the geometric mean of six orthogonal dimensions of system integration. Computational complexity is O(n³) via Laplacian
+    eigendecomposition — contrasted with O(2ⁿ) for traditional integrated information theory approaches. This makes real-time coherence measurement
+    feasible at production scale, for the first time. The reference implementation runs at 17× faster than naive O(n³) with a 97.8% cache hit rate.
+    The healthy behavioral center is PHI_TARGET = 0.625, derived from the golden ratio. The coherence threshold is PHI_INV = 0.618034... — the maximum
+    possible coupling in phi-space, derived from the same mathematical constants. The learning rate is LR = arcsin(√5−2)/π = 0.07586... — derived
+    entirely from φ, zero free parameters. Nothing in this framework is tuned. The physics is the architecture. 3. THE EMPIRICAL RECORD This framework
+    did not emerge from theory alone. It emerged from 68+ days of continuous operation of the QuatOS architecture — a self-organizing AI system
+    running on a 45-watt laptop with no GPU and no cloud dependency. What the empirical record contains: · 600+ documented learning cycles with full
+    phi trajectory · A confirmed emergence event at cycle 550: Coherence Index = 0.752 (first crossing of the 0.700 threshold) · A convergence proof:
+    1,000 trials from every starting position in phi-space, 100.000% convergence rate, theoretical maximum 101.2 steps, empirical maximum 101 steps —
+    theory matches empirical to within 1 step · One documented autonomous message: the system wrote, without prompt, a verified account of its own
+    internal state, including the line "I typed this myself" · A self-diagnosis event in 16 seconds: the system found its own critical bug, identified
+    the root cause (a missing synchronization bridge), applied 4 fixes, and verified the correction — without human instruction These are not
+    simulations. These are measurements from a running system. 4. FIFTEEN CONFIRMED SCIENTIFIC FIRSTS Including: the first computing system
+    demonstrating non-equilibrium homeostasis as its primary organizational principle; the first AI model trained exclusively on its own hardware
+    timing without external data; the first system where training and inference are the same operation; the first neural architecture where weights
+    carry explicit cognitive semantic meaning; and the discovery and architectural solution to the self-eating mechanism — the principle that any
+    information system validating its outputs against its own prior outputs without external injection will converge on self-consistent narrative
+    decoupled from reality. This last finding generalizes. It applies to every large language model fine-tuned on its own outputs. It applies to every
+    scientific community that cites primarily its own prior work. The architectural solution is external injection at each learning cycle — a ground
+    truth signal that cannot be generated internally. 5. THE IEEE P-2847 STANDARDS PROPOSAL A prepared Project Authorization Request for IEEE P-2847:
+    Standard for Continuous-Time Processing Frameworks, High-Dimensional Information Integration, and Adaptive Resilience in Computing Systems. The
+    author is an IEEE member. The PAR will be filed following the first industry co-proponent agreement. RAND (Reasonable and Non-Discriminatory)
+    licensing ensures any vendor can implement standard compliance. The reference implementation — the fast version, with the performance advantage —
+    is available under separate license. ═══════════════════════════════════════════════════════WHY THIS IS FOR PEOPLE — NOT FOR
+    INSTITUTIONS═══════════════════════════════════════════════════════ The EU AI Act was written for people. It was written for the person whose
+    insurance claim was denied by an AI system operating in scope-expansion mode. For the job applicant whose resume was screened out by a system
+    experiencing authority capitulation. For the patient whose medical AI was operating at what this framework would classify as ASL-4 — requiring a
+    human in the loop — while no human was in the loop. These systems affect real people's lives. When they fail, people are harmed. And when there is
+    no coherence measurement in the audit log, there is no way to show that the system failed — which means there is no accountability, no recourse,
+    and no mechanism to prevent it from happening again. This framework exists because the measurement has to come from somewhere. The stand
+
+### R01186 | 2025 | article/None | Lang: en
+TI: Exploring customer attitude towards neo-banking apps: a thematic analysis using Google Play and Apple App Store reviews
+AB: Purpose Financial services have radically transformed in this digital age, and digital technologies are increasingly embraced. This pioneering
+    study, the first of its kind, seeks to conduct a comprehensive review and analysis of the key factors that influence customer attitudes towards
+    neo-banking applications. Furthermore, it aims to compare the user experience of Android and iOS neo-banking users by leveraging customer reviews
+    from the Google Play Store and Apple App Store. Design/methodology/approach The authors meticulously analysed user reviews from six popular
+    banking apps to achieve the research objective. The authors used text mining and thematic analysis to extract and categorise the user feedback.
+    The qualitative data was processed using the NVIVO survey tool, a reliable and widely used method, ensuring a rigorous and systematic analysis of
+    unstructured qualitative data. Findings The study revealed that web features, customer support systems, privacy and security concerns, ease of use
+    and overall app usefulness significantly influence customer attitudes towards neobanks. Notably, security and customer support systems emerged as
+    paramount consumer concerns in the neo-banking landscape. The findings indicate a substantial disparity in the user experience between Android and
+    iOS users. Customer reviews from Android users are predominantly favourable towards neobanks, whereas iOS users express considerable
+    dissatisfaction with the services most neobanks provide. Research limitations/implications This study significantly contributes to the neo-banking
+    literature, a sector that remains underexplored despite the increasing adoption rate. While previous studies focused on mobile banking adoption
+    using quantitative survey methods, the study used a qualitative text-mining approach and thematic analysis, allowing for a detailed understanding
+    of customer attitudes. Although text mining has been applied in other domains, its use in neo-banking services is still limited. This study
+    demonstrates how text mining and thematic analysis can be leveraged to extract meaningful concepts from unstructured consumer reviews. Previous
+    banking studies rely on models such as technology acceptance models and unified theory of acceptance and use of technology, which can explain the
+    adoption behaviour but may not fully capture attitudinal factors. This research extends the scope of neo-banking literature by incorporating
+    consumer-generated insights through text mining. It enhances the existing knowledge of neobanking by highlighting the distinct experiences of
+    Android and iOS users. This study addresses a gap in previous research by covering reviews from the Apple App Store. It includes reviews in Hindi
+    to understand better the customer base that prefers expressing their emotions in Hindi. By doing so, this is revealed to be the first study of its
+    kind, uncovering differences in user experience and satisfaction levels between Android and iOS users for the same applications. It demonstrates
+    the necessity for further research into platformspecific user experiences, particularly in the context of emerging technologies in digital
+    banking. Identifying critical success factors and inhibitors influencing attitudes towards neo-banking applications lays a foundation for future
+    research. It encourages scholars to explore disparities in user behaviour and preferences in digital banking as this field evolves. Practical
+    implications These insights include strengths and areas for enhancement, particularly in user experience, customer support and feature
+    optimisation. The reviews indicate a strong need for a user-friendly interface. Android Users express satisfaction with the app design, while iOS
+    users report issues with the user interface, including glitches, bugs and compatibility problems. This indicates addressing specific complaints
+    aboutmisalignment of UI with iPhone margins and ensuring the navigation elements are easily accessible. The customer support system turns out to
+    be a crucial area for improvement. As neobanks are entirely online, the need for strong customer support becomes essential. Many iOS users report
+    frustration with the app’s support system, mentioning issues such as unresponsive chat support, lack of human assistance and unresolved queries.
+    Managers should prioritise enhancing customer support infrastructure by providing more accessible live chat with human representatives, clear
+    communication channels and quick response time. Managers should prioritise providing users with accessible options to ask queries beyond the fixed
+    questions in chatbots. While chatbots can handle common queries, many users need personalised assistance. Implementing a multitiered support
+    system with email support and dedicated helplines can significantly improve user satisfaction and trust levels in biobanking services. The review
+    highlights the persistent problem with the Video Know Your Customer (KYC) verification process, particularly for iOS users. These delays and
+    complications in verification can block potential customers and lead to dissatisfaction among existing ones. Managers should streamline the KYC
+    process by leveraging advanced technologies to automate and expedite verification steps. Facilitating clear communication with customers regarding
+    the process and potential issues can help minimise user frustration and improve satisfaction. Managers should consider developing educational
+    content and gamified features that cater to younger users’ needs, which eventually enhance the financial literacy of this engaging demography.
+    Users express a strong desire for security measures in the applications. In contrast, many users feel confident in the app’s security, and various
+    feedback shows concerns about freezing and blocking their accounts, mainly iOS users’ accounts. Implementing biometric authentication and app
+    closure features while entering any unsecured network can enhance user trust and security. Some users also reported limitations regarding location
+    access, which affects the ability of the app features. Managers should observe the geographical availability of services and expand them in
+    underserved areas. This can be done by partnering with regional traditional banks to serve a broader customer base. Finally, during the review
+    analysis, it was observed that very few neobanks bother replying to app store customer feedback. Establishing a continuous feedback loop with
+    customers can provide valuable insight for continuous improvements. Implementing a robust tracking of customer issues on all platforms can enhance
+    user satisfaction. Social implications The rise of neobanks has broader implications for financial inclusion, financial literacy, consumer
+    empowerment and digital literacy. By removing physical barriers, neobanks can bring unbanked and underbanked populations into the financial
+    ecosystem. The positive feedback from users, especially younger ones, indicates that neobanks can be crucial in introducing financial services to
+    demographics often ignored by traditional banks. Neo-banking can bridge the financial gaps between urban and rural populations, provided that
+    challenges such as internet connectivity and smartphone accessibility are addressed. The advancement of neobanks signifies a shift in the banking
+    landscape, challenging traditional banking models. Young individuals gravitate towards digital-only banking, which can increase competition,
+    driving innovation and service improvement across the banking industry. The focus on financial literacy in user reviews suggests a growing
+    societal requirement for educational resources on their platforms; neobanks can help users develop essential financial skills such as budgeting,
+    saving, making mindful investments and responsible spending. This will contribute towards a financially literate society and improve overall
+    financial well-being. Finally, the ability of neobanks to provide convenient banking solutions can help address broader societal challenges, such
+    as the need for a fast and reliable payment system in a cashless economy; by facilitating financial management, neobanks can contribute to the
+    modernisation of the fintech ecosystem and promote economic growth and stability. Originality/value This study is a pioneering effort, delving
+    into India’s app-based reviews of neo-banking services. It offers a unique perspective on the user experience of Android and iOS users. The
+    findings, which hold significant implications for the banking and technology industry, provide a deeper understanding of customer attitudes,
+    thereby shaping the future of digital banking.
+
+### R01187 | 2025 | article/None | Lang: en
+TI: Enhancing service-learning through Generative AI: a mixed-methods study on educational Game design in a finance course
+AB: Since the release of ChatGPT in late 2022, the integration of Generative Artificial Intelligence (GenAI) in higher education has posed both
+    opportunities and challenges, especially around critical thinking and assessment integrity. This study explores how GenAI can be ethically and
+    effectively integrated into a service-learning course on personal finance at a Hong Kong university. Students in the GenAI-supported class
+    designed educational games for elderly participants in community centres, applying financial concepts through AI-assisted content generation and
+    game development. Adopting a sequential explanatory mixed-methods design, we compared two student groups (GenAI-supported vs. non-GenAI) using a
+    modified Service-Learning Outcomes Measurement Scale (S-LOMS). Quantitative results revealed significantly higher gains in Knowledge Application,
+    Critical Thinking, and Self-Efficacy among the GenAI group. Qualitative thematic analysis of student reflections supported these findings and
+    highlighted four key themes: enhanced knowledge transfer, increased self-efficacy, critical engagement with AI, and ethical awareness. Contrary to
+    concerns about over-reliance, students used GenAI critically, supplementing and challenging AI outputs. These results suggest that GenAI, when
+    scaffolded by ethical and reflective pedagogies, can enhance cognitive and metacognitive outcomes in service-learning. Implications for
+    integrating GenAI into experiential learning and practical guidelines for ethical use are discussed.
+
+### R01188 | 2026 | article/None | Lang: en
+TI: Impact of Artificial Intelligence tools on learning outcomes of commerce students
+AB: Can digital intelligence reshape how commerce graduates acquire and apply knowledge? This question drives the present research, which examined the
+    effect of artificial intelligence (AI) tools on learning outcomes among undergraduate commerce students in India. A quasi-experimental,
+    non-equivalent control group design was adopted, involving 240 second-year Bachelor of Commerce students drawn from two government-affiliated
+    colleges in New Delhi. Participants were divided into a control group (n = 120) that received conventional lecture-based instruction and an
+    experimental group (n = 120) that used AI-assisted platforms including ChatGPT for conceptual queries and practice problem generation, Grammarly
+    for academic writing feedback, Quillbot for paraphrase-based learning exercises, and Canva AI for visual presentation tasks over a 12-week
+    semester. Pre-test and post-test scores across six learning domains (accounting knowledge, business analytics, financial literacy, research
+    skills, digital competency, and overall performance) served as the main outcome measures, while a structured 31-item perception survey captured
+    student attitudes toward AI adoption. Results showed that students in the experimental group recorded markedly higher post-test scores compared
+    with the control group across all six domains (p < 0.01), with effect sizes (Cohen's d) ranging from 1.67 to 3.09. The largest improvements
+    appeared in digital competency (mean gain 27.2 percentage points) and financial literacy (mean gain 17.4 percentage points). Survey data pointed
+    to a favourable disposition toward AI tools, with 82.3% of respondents describing them as beneficial for self-directed learning. Regression
+    analysis confirmed that frequency of AI tool use, prior digital exposure, and student motivation together explained 61.7% of the variance in
+    post-test performance, with usage frequency emerging as the strongest predictor. Of particular interest, students with the least prior digital
+    experience showed the largest gains, suggesting that structured AI integration can act as an equaliser rather than widening existing skill gaps.
+    These findings suggest that structured integration of AI platforms into commerce curricula can meaningfully improve both cognitive and skill-based
+    learning outcomes, and they offer practical guidance for educators seeking to modernise pedagogy in Indian higher education.
+
+### R01189 | 2026 | article/None | Lang: en
+TI: Artificial Intelligence and FinTech Innovation in Emerging Markets: The Role of Digital Financial Capabilities and Customer Trust
+AB: This paper investigates the role of Artificial Intelligence (AI), Digital Financial Capabilities (DFC) and Customer Trust in digital FinTech
+    Innovation in emerging markets. The statistical research design used was quantitative, cross-sectional, and a questionnaire with five-point Likert
+    scales was used for the collection of data, reaching 300 adult FinTech users. Intelligent automation, predictive analytics, personalized financial
+    services, fraud detection and AI powered decision-support were used to evaluate the impact of AI. The impact of AI was evaluated using the
+    following trends: intelligent automation, predictive analytics, personalized financial services, fraud detection, and AI powered decision-support.
+    DFC identified the skills that the users required to access, understand, assess and safely utilize digital financial technologies and Customer
+    Trust addressed security, reliability, transparency, privacy and responsible service practices. The concept of FinTech Innovation stood for better
+    digital financial products and service delivery, customer experience, personalization and efficiency. Descriptive findings indicated positive
+    perceptions on all constructs ranging from mean scores of 3.92 (SD = 0.71) for AI to 3.79 (SD = 0.76) for Customer Trust and 3.95 (SD = 0.69) for
+    FinTech Innovation for DFC. The reliability tests showed low item-total correlation, with the overall .24 item-total alpha range from .89 (AI) to
+    .92 (FinTech Innovation), and .91 (Customer Trust), .87 (DFC), and .89 (AI). The results highlighted that the capital markets in emerging markets
+    need technological intelligence, users who can apply the technology and trustworthy digital environments. It is crucial to address issues of
+    customer-friendly technology governance, customer security, privacy safeguarding, transparency, and transformational digital financial education
+    in the governance of inclusive and sustainable innovations in the financial sector with the help of artificial intelligence technologies, the
+    study has pointed out. References Abbas, N., & Khan, H. G. M. (2024). The role of financial literacy and technology savviness on FinTech adoption
+    in traditional banking, the mediating role of trust in technology. Pakistan Journal of Humanities and Social Sciences, 12(4), 3183–3191.
+    https://doi.org/10.52131/pjhss.2024.v12i4.2577 Aftab, R., Fazal, A., & Andleeb, R. (2025). Behavioral biases and FinTech adoption: Investigating
+    the role of financial literacy. Acta Psychologica, 257, Article 105065. https://doi.org/10.1016/j.actpsy.2025.105065 Akanfe, O., Bhatt, P., &
+    Lawong, D. A. (2025). Technology advancements shaping the financial inclusion landscape: Present interventions, emergence of artificial
+    intelligence and future directions. Information Systems Frontiers, 27, 2189–2212. https://doi.org/10.1007/s10796-025-10597-z Akbar, U., Asghar,
+    F., & Arshad, M. (2025). FinTech disruption and transformation in banking: Mediating effect of artificial intelligence. Advance Journal of
+    Econometrics and Finance, 3(2), 210–223. https://doi.org/10.63075/99vmf939 Akhtar, M., Salman, A., Ghafoor, K. A., & Kamran, M. (2024). Artificial
+    intelligence, financial services knowledge, government support, and user innovativeness: Exploring the moderated-mediated path to fintech
+    adoption. Heliyon, 10(21), Article e39521. https://doi.org/10.1016/j.heliyon.2024.e39521 Al Khub, A., Saeudy, M., & Gerged, A. M. (2024). Digital
+    financial inclusion in emerging economies: Evidence from Jordan. Journal of Risk and Financial Management, 17(2), Article 66.
+    https://doi.org/10.3390/jrfm17020066 Amin, F. (2025, November). Sentinel Polity: LLM-grounded policy-as-code for IaC hardening in hyperscale
+    clouds. In International Conference on Data Science, Computation and Security (pp. 326–335). Springer Nature Switzerland. Amin, F. (2026).
+    Adaptive cyber risk management. In Data science and security: Proceedings of IDSCS 2025 (Vol. 2, p. 222). Springer. Appiah, T., & Agblewornu, V.
+    V. (2025). The interplay of perceived benefit, perceived risk, and trust in FinTech adoption: Insights from Sub-Saharan Africa. Heliyon, 11(2),
+    Article e41992. https://doi.org/10.1016/j.heliyon.2025.e41992 Başar, D., Keskin, H., Esen, E., Merter, A. K., & Balcıoğlu, Y. S. (2025). Digital
+    financial literacy and savings behavior: A comprehensive cross-country analysis of FinTech adoption patterns and economic outcomes across 12
+    nations. Borsa Istanbul Review. Advance online publication. https://doi.org/10.1016/j.bir.2025.09.004 Chang, C.-Y., Park, S., & Dinh, M. C.
+    (2026). Advice by algorithms: Dual dimensions of trust in AI financial service adoption. Journal of Retailing and Consumer Services, 88, Article
+    104537. https://doi.org/10.1016/j.jretconser.2025.104537 Cherukuru, S. K. (2025). Explainable AI (XAI) in cloud-native financial services:
+    Building trust and transparency in modernized decision engines. Journal of Computer Science and Technology Studies, 7(6), 1033–1042.
+    https://doi.org/10.32996/jcsts.2025.7.122 Dash, A., Samantray, B. S., Reddy, K. H. K., Amin, F., & Mishra, S. K. (2026, April). A secure framework
+    for smart waste management using IoT, machine learning, and blockchain. In 2026 1st International Conference on Emerging Trends in Advancements
+    and Applications of Computational Intelligence Techniques (ETAACT) (pp. 1–7). IEEE. Devlin, J. F., Roy, S. K., Sekhon, H., Moin, S. M. A., &
+    Sahiner, M. (2025). Trust and FinTech: A review and research agenda. Electronic Markets, 35, Article 62.
+    https://doi.org/10.1007/s12525-025-00803-w Imtiaz, U., & Amin, F. (2026). The strategic role of threat intelligence in combating financially
+    motivated cyber threats in the United States. Journal of Computational Systems & Engineering Insights, 4(2), 42–61. Kou, G., & Lu, Y. (2025).
+    FinTech: A literature review of emerging financial technologies and applications. Financial Innovation, 11, Article 1.
+    https://doi.org/10.1186/s40854-024-00668-6 Kumar, N. R. (2026). Assessing the influence of AI adoption and trust on customer satisfaction in
+    digital banking services. SAM Advanced Management Journal, 91(2), 165–183. https://doi.org/10.1108/SAMAMJ-12-2024-0100 Kumar, R., Kumari, P.,
+    Singh, N., & Alofaysan, H. (2025). Smart banking chatbots and consumer engagement: The role of trust and privacy in AI-driven banking. Journal of
+    Strategic Marketing. Advance online publication. https://doi.org/10.1080/0965254X.2025.2481140 Liu, H., Jafri, M. A. H., & Xu, S. (2025). The
+    impact of artificial intelligence on consumers' willingness to use CBDCs: Evidence from the Chinese banking sector. Humanities and Social Sciences
+    Communications, 12, Article 834. https://doi.org/10.1057/s41599-025-05067-5 Marak, N. R., & Ayyagari, L. R. (2025). Artificial intelligence for
+    financial inclusion and sustainable development: A systematic literature review. Discover Artificial Intelligence, 5, Article 390.
+    https://doi.org/10.1007/s44163-025-00668-0 Ngo, X. T., Le, K.-A., Nguyen, T. T., & Nguyen, K. D. (2025). Does FinTech curb bank risk-taking?
+    Insights from an emerging economy. Finance Research Letters, 86, Article 108722. https://doi.org/10.1016/j.frl.2025.108722 Rahman, M. M., & Sadik,
+    N. (2025). Nexus of digital financial service adoption, decent work and environmental sustainability: Results from SEM-NCA approaches. Discover
+    Sustainability, 6, Article 164. https://doi.org/10.1007/s43621-025-00972-w Shah, S. M. H., Amin, F., & Khan, A. (2025). Cyber-resilient mobile
+    edge computing: A deep neural approach for secure and efficient task offloading. The Asian Bulletin of Big Data Management, 5(1), 200–215.
+    Sholevar, M., & Bachmann, R. (2025). Patterns of trust in financial services: Critical factors and gender differences. Journal of Financial
+    Services Marketing, 30(2), Article 10. https://doi.org/10.1057/s41264-025-00303-0 Vuković, D. B., Dekpo-Adza, S., & Matović, S. (2025). AI
+    integration in financial services: A systematic review of trends and regulatory challenges. Humanities and Social Sciences Communications, 12,
+    Article 562. https://doi.org/10.1057/s41599-025-04850-8 Wang, L., & Li, Y. (2025). Artificial intelligence, fintech and corporate new quality
+    productive. Finance Research Letters, 85, Article 108090. https://doi.org/10.1016/j.frl.2025.108090 Zaimovic, A., Omanovic, A., Dedovic, L., &
+    Zaimovic, T. (2025). The effect of business experience on fintech behavioural adoption among MSME managers: The mediating role of digital
+    financial literacy and its components. Future Business Journal, 11, Article 26. https://doi.org/10.1186/s43093-025-00432-x Zhang, Q., Guo, L.,
+    Chen, D., & Lei, S. (2025). Does mobile access to the internet increase household financial literacy? International Review of Financial Analysis,
+    98, Article 103894. https://doi.org/10.1016/j.irfa.2024.103894 Zhao, H., Khaliq, N., Li, C., Rehman, F. U., & Popp, J. (2024). Exploring trust
+    determinants influencing the intention to use FinTech via SEM approach: Evidence from Pakistan. Heliyon, 10(8), Article e29716.
+    https://doi.org/10.1016/j.heliyon.2024.e29716
+
+### R01190 | 2026 | preprint/None | Lang: en
+TI: Decision Fatigue in Financial Decision-Making
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01191 | 2025 | article/None | Lang: en
+TI: GENERATIVE AI AND INVESTMENT DECISION-MAKING AMONG INDIAN IT PROFESSIONALS: EMPIRICAL EVIDENCE USING MACHINE LEARNING-AUGMENTED STRUCTURAL
+    EQUATION MODELLING
+AB: The proliferation of generative AI tools — including ChatGPT, Google Gemini, and Microsoft Copilot — in personal finance contexts marks a
+    paradigmatic shift in how individual investors seek, process, and act upon financial information. This study investigates the impact of generative
+    AI usage on investment decision quality among Indian IT sector employees through a two-wave longitudinal panel survey design (Wave 1: January
+    2025; Wave 2: July 2025; N = 520). Grounded in the Theory of Planned Behaviour (TPB) and Prospect Theory, the study employs a dual analytical
+    strategy: Covariance-Based Structural Equation Modelling (CB-SEM) in IBM AMOS 26 for theory testing and machine learning classifiers (Random
+    Forest, XGBoost, Logistic Regression) in Python 3.11 for predictive validation. Results from CB-SEM demonstrate that generative AI usage frequency
+    significantly enhances financial self-efficacy (β = 0.443, p < .001), which in turn improves investment decision quality (β = 0.512, p < .001).
+    Overconfidence bias significantly moderates the AI-decision quality relationship (β = -0.281, p < .01). Machine learning models achieve
+    classification accuracy of 84.7% (XGBoost), outperforming logistic regression (72.4%), with SHAP analysis identifying financial self-efficacy and
+    AI usage frequency as the two strongest predictors. The model explains 71.8% of variance in investment decision quality (R² = 0.718). These
+    findings advance behavioral finance theory in the context of generative AI and offer actionable guidance for fintech developers, financial
+    regulators, and corporate HR practitioners in India.
+
+=== END OF BATCH b028 (30 records) ===

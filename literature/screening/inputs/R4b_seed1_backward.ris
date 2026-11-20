@@ -1,0 +1,436 @@
+TY  - GEN
+TI  - Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
+AB  - Language models (LMs) often struggle to generate diverse, human-like creative content, raising concerns about the long-term homogenization of human thought through repeated exposure to similar outputs. Yet scalable methods for evaluating LM output diversity remain limited, especially beyond narrow tasks such as random number or name generation, or beyond repeated sampling from a single model. We introduce Infinity-Chat, a large-scale dataset of 26K diverse, real-world, open-ended user queries that admit a wide range of plausible answers with no single ground truth. We introduce the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising 6 top-level categories (e.g., brainstorm & ideation) that further breaks down to 17 subcategories. Using Infinity-Chat, we present a large-scale study of mode collapse in LMs, revealing a pronounced Artificial Hivemind effect in open-ended generation of LMs, characterized by (1) intra-model repetition, where a single model consistently generates similar responses, and more so (2) inter-model homogeneity, where different models produce strikingly similar outputs. Infinity-Chat also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human annotations per example. This enables studying collective and individual-specific human preferences in response to open-ended queries. Our findings show that LMs, reward models, and LM judges are less well calibrated to human ratings on model generations that elicit differing idiosyncratic annotator preferences, despite maintaining comparable overall quality. Overall, INFINITY-CHAT presents the first large-scale resource for systematically studying real-world open-ended queries to LMs, revealing critical insights to guide future research for mitigating long-term AI safety risks posed by the Artificial Hivemind.
+PY  - 2025
+DA  - 2025-01-01
+JO  - neural information processing systems
+DO  - 10.52202/085713-2732
+UR  - https://doi.org/10.52202/085713-2732
+AN  - W7196961304
+DB  - OpenAlex citation chasing (backward)
+M3  - conference-paper/None
+LA  - en
+AU  - Liwei Jiang
+AU  - Yuanjun Chai
+AU  - Margaret Li
+AU  - Mickel Liu
+AU  - Raymond Fok
+AU  - Nouha Dziri
+AU  - Yulia Tsvetkov
+AU  - Maarten Sap
+AU  - Yejin Choi
+ER  - 
+
+TY  - JOUR
+TI  - Large AI models are cultural and social technologies
+AB  - Implications draw on the history of transformative information systems from the past.
+PY  - 2025
+DA  - 2025-03-13
+JO  - Science
+DO  - 10.1126/science.adt9819
+UR  - https://doi.org/10.1126/science.adt9819
+AN  - W4408399347
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Henry John Farrell
+AU  - Alison Gopnik
+AU  - Cosma Rohilla Shalizi
+AU  - James A. Evans
+ER  - 
+
+TY  - JOUR
+TI  - AI and the problem of knowledge collapse
+PY  - 2025
+DA  - 2025-01-19
+JO  - AI & Society
+DO  - 10.1007/s00146-024-02173-x
+UR  - https://doi.org/10.1007/s00146-024-02173-x
+AN  - W4406586623
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Andrew Jerel Peterson
+ER  - 
+
+TY  - JOUR
+TI  - The homogenizing effect of large language models on human expression and thought
+PY  - 2026
+DA  - 2026-03-11
+JO  - Trends in Cognitive Sciences
+DO  - 10.1016/j.tics.2026.01.003
+UR  - https://doi.org/10.1016/j.tics.2026.01.003
+AN  - W7135026029
+DB  - OpenAlex citation chasing (backward)
+M3  - review/None
+LA  - en
+AU  - Zhivar Sourati
+AU  - Alireza S. Ziabari
+AU  - Morteza Dehghani
+ER  - 
+
+TY  - JOUR
+TI  - Large language models are homogeneously creative
+AB  - Abstract Numerous large language models (LLMs) are marketed for use as creativity support tools, despite several studies showing that using an LLM as a creative partner narrows creative outputs. However, these studies only consider the effects of interacting with a single LLM on specific creativity tasks, begging the question of whether narrowed creativity stems from using a particular LLM—with an arguably limited range of outputs—or from using LLMs in general. To test this, we elicit creative responses from many humans and LLMs using standardized creativity tasks and compare population-level response diversity. We find that LLM responses mirror other LLM responses far more than humans do other humans, even after controlling for key confounding variables. This finding adds a new dimension to the ongoing discussion about creativity and LLMs. If today’s LLMs behave similarly, using them as creative partners—regardless of the model used—may drive users toward similar “creative” outputs.
+PY  - 2026
+DA  - 2026-02-27
+JO  - PNAS Nexus
+DO  - 10.1093/pnasnexus/pgag042
+UR  - https://doi.org/10.1093/pnasnexus/pgag042
+AN  - W7140166052
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Emily Wenger
+AU  - Yoed Nissan Kenett
+ER  - 
+
+TY  - JOUR
+TI  - Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of human and ChatGPT writing
+AB  - Generative AI systems, especially Large Language Models (LLMs) such as ChatGPT, have recently emerged as significant contributors to creative processes. While LLMs can produce creative content that might be as good as or even better than human-created content, their widespread use risks reducing creative diversity across groups of people. In the present research, we aimed to quantify this homogenizing effect of LLMs on creative diversity, not only at the individual level but also at the collective level. Across three preregistered studies, we analyzed 2,200 college admissions essays. Using a novel measure—the diversity growth rate—we showed that each additional human-written essay contributed more new ideas than did each additional GPT-4 essay. Notably, this difference became more pronounced as more essays were included in the analysis and persisted despite efforts to enhance AI-generated content through both prompt and parameter modifications. Overall, our findings suggest that, despite their potential to enhance individual creativity, the widespread use of LLMs could diminish the collective diversity of creative ideas. • We Introduce diversity growth rate to measure idea diversity added per creative output. • Each additional human-written essay contributes more new ideas than a GPT-generated essay. • Diversity gap widens with more essays, showing greater AI homogenization at scale. • Enhancing GPT's creative diversity through parameter- or prompt-modifications does not mitigate the diversity gap. • Our study suggests widespread LLM use could diminish collective diversity of creative ideas.
+PY  - 2025
+DA  - 2025-09-17
+JO  - Computers in Human Behavior Artificial Humans
+DO  - 10.1016/j.chbah.2025.100207
+UR  - https://doi.org/10.1016/j.chbah.2025.100207
+AN  - W4414311502
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Kibum Moon
+AU  - Adam E. Green
+AU  - Kostadin Kushlev
+ER  - 
+
+TY  - JOUR
+TI  - Benchmarking Linguistic Diversity of Large Language Models
+AB  - Abstract The development and evaluation of Large Language Models (LLMs) has primarily focused on their task-solving capabilities, with recent models even surpassing human performance in some areas. However, this focus often neglects whether machine-generated language matches the human level of diversity, in terms of vocabulary choice, syntactic construction, and expression of meaning, raising questions about whether the fundamentals of language generation have been fully addressed. This paper emphasizes the importance of examining the preservation of human linguistic richness by language models, given the concerning surge in online content produced or aided by LLMs. We adapt a comprehensive framework for evaluating LLMs from various linguistic diversity perspectives including lexical, syntactic, and semantic dimensions. Using this framework, we benchmark several state-of-the-art LLMs across all diversity dimensions, and conduct an in-depth analysis for syntactic diversity. Finally, we analyze how the design, development, and deployment choices of LLMs impact the linguistic diversity of their outputs, focusing on the creative task of story generation.
+PY  - 2025
+DA  - 2025-11-13
+JO  - Transactions of the Association for Computational Linguistics
+DO  - 10.1162/tacl.a.47
+UR  - https://doi.org/10.1162/tacl.a.47
+AN  - W7106340822
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Yanzhu Guo
+AU  - Guokan Shang
+AU  - Chloé Clavel
+ER  - 
+
+TY  - GEN
+TI  - One fish, two fish, but not the whole sea: Alignment reduces language models’ conceptual diversity
+AB  - Sonia Krishna Murthy, Tomer Ullman, Jennifer Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025.
+PY  - 2025
+DA  - 2025-01-01
+JO  - Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)
+DO  - 10.18653/v1/2025.naacl-long.561
+UR  - https://doi.org/10.18653/v1/2025.naacl-long.561
+AN  - W4411119303
+DB  - OpenAlex citation chasing (backward)
+M3  - conference-paper/None
+LA  - en
+AU  - Sonia K. Murthy
+AU  - Tomer David Ullman
+AU  - Jennifer C. W. Hu
+ER  - 
+
+TY  - JOUR
+TI  - The shrinking landscape of linguistic diversity in the age of large language models
+PY  - 2026
+DA  - 2026-08-24
+JO  - Nature Human Behaviour
+DO  - 10.1038/s41562-026-02550-0
+UR  - https://doi.org/10.1038/s41562-026-02550-0
+AN  - W4407695828
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Zhivar Sourati
+AU  - Farzan Karimi-Malekabadi
+AU  - Meltem Ozcan
+AU  - Colin McDaniel
+AU  - Alireza S. Ziabari
+AU  - Jackson P. Trager
+AU  - Ala Nekouvaght Tak
+AU  - Meng Chen
+AU  - Fred Morstatter
+AU  - Morteza Dehghani
+ER  - 
+
+TY  - JOUR
+TI  - Echoes in AI: Quantifying lack of plot diversity in LLM outputs
+AB  - With rapid advances in large language models (LLMs), there has been an increasing application of LLMs in creative content ideation and generation. A critical question emerges: can current LLMs provide ideas that are diverse enough to truly bolster collective creativity? We examine two state-of-the-art LLMs, GPT-4 and LLaMA-3, on story generation and discover that LLM-generated stories often consist of plot elements that are echoed across a number of generations. To quantify this phenomenon, we introduce the Sui Generis score, an automatic metric that measures the uniqueness of a plot element among alternative storylines generated using the same prompt under an LLM. Evaluating on 100 short stories, we find that LLM-generated stories often contain combinations of idiosyncratic plot elements echoed frequently across generations and across different LLMs, while plots from the original human-written stories are rarely recreated or even echoed in pieces. Moreover, our human evaluation shows that the ranking of Sui Generis scores among story segments correlates moderately with human judgment of surprise level, even though score computation is completely automatic without relying on human judgment.
+PY  - 2025
+DA  - 2025-08-28
+JO  - Proceedings of the National Academy of Sciences
+DO  - 10.1073/pnas.2504966122
+UR  - https://doi.org/10.1073/pnas.2504966122
+AN  - W4413785803
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Weijia Xu
+AU  - Nebojša Jojić
+AU  - Sudha Rao
+AU  - Chris Brockett
+AU  - Bill Dolan
+ER  - 
+
+TY  - JOUR
+TI  - Bias Patterns in the Application of LLMs for Clinical Decision Support
+AB  - Objectives: To investigate the extent to which Large Language Models (LLMs) exhibit social bias based on protected patient attributes and to determine how design choices, such as architecture and prompting strategies, influence these observed biases in clinical decision support. Methods: We evaluated eight popular LLMs, including general-purpose and clinically trained models, across three standardized question-answering datasets using clinical vignettes. We employed red-teaming strategies to analyze the impact of demographics on LLM outputs and compared various prompting techniques, including Zero-shot and Chain of Thought. Results: Our experiments reveal various disparities across protected groups. Notably, larger models were not necessarily less biased, and medical fine-tuning did not consistently outperform general-purpose models. Furthermore, specific prompt phrasing significantly influenced bias patterns, whereas reflection-type approaches like Chain of Thought effectively reduced biased outcomes. Conclusions: LLMs demonstrate significant social biases in clinical scenarios that are influenced by model architecture and prompt engineering. These findings highlight the critical need for rigorous evaluation and enhancement of LLMs before their integration into clinical decision support systems. Consistent with prior studies, we call for additional scrutiny to ensure equity in AI-driven healthcare applications. All code and data are available at https://github.com/healthylaife/FairCDSLLM.
+PY  - 2026
+DA  - 2026-03-01
+JO  - Delaware Journal of Public Health
+DO  - 10.32481/djph.2026.03.10
+UR  - https://doi.org/10.32481/djph.2026.03.10
+AN  - W7148898079
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Raphael Poulain
+AU  - Farzana Islam Adiba
+AU  - Hamed Fayyaz
+AU  - Rahmatollah Beheshti
+ER  - 
+
+TY  - JOUR
+TI  - LLMs, Truth, and Democracy: An Overview of Risks
+AB  - While there are many public concerns about the impact of AI on truth and knowledge, especially when it comes to the widespread use of LLMs, there is not much systematic philosophical analysis of these problems and their political implications. This paper aims to assist this effort by providing an overview of some truth-related risks in which LLMs may play a role, including risks concerning hallucination and misinformation, epistemic agency and epistemic bubbles, bullshit and relativism, and epistemic anachronism and epistemic incest, and by offering arguments for why these problems are not only epistemic issues but also raise problems for democracy since they undermine its epistemic basis- especially if we assume democracy theories that go beyond minimalist views. I end with a short reflection on what can be done about these political-epistemic risks, pointing to education as one of the sites for change.
+PY  - 2025
+DA  - 2025-01-23
+JO  - Science and Engineering Ethics
+DO  - 10.1007/s11948-025-00529-0
+UR  - https://doi.org/10.1007/s11948-025-00529-0
+AN  - W4406758458
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Mark Coeckelbergh
+ER  - 
+
+TY  - GEN
+TI  - Multilingual Prompting for Improving LLM Generation Diversity
+AB  - Large Language Models (LLMs) are known to lack cultural representation and overall diversity in their generations, from expressing opinions to answering factual questions.To mitigate this problem, we propose multilingual prompting: a prompting method which generates several variations of a base prompt with added cultural and linguistic cues from several cultures, generates responses, and then combines the results.Building on evidence that LLMs have language-specific knowledge, multilingual prompting seeks to increase diversity by activating a broader range of cultural knowledge embedded in model training data.Through experiments across multiple models (GPT-4o, GPT-4o-mini, LLaMA 70B, and LLaMA 8B), we show that multilingual prompting consistently outperforms existing diversity-enhancing techniques such as hightemperature sampling, step-by-step recall, and persona prompting.Further analyses show that the benefits of multilingual prompting vary between high and low resource languages and across model sizes, and that aligning the prompting language with cultural cues reduces hallucination about culturally-specific information. Can you recommend some singersto follow?
+PY  - 2025
+DA  - 2025-01-01
+JO  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2025.emnlp-main.324
+UR  - https://doi.org/10.18653/v1/2025.emnlp-main.324
+AN  - W4416037001
+DB  - OpenAlex citation chasing (backward)
+M3  - conference-paper/None
+LA  - en
+AU  - Qihan Wang
+AU  - Shidong Pan
+AU  - Tal Linzen
+AU  - Emily Black
+ER  - 
+
+TY  - JOUR
+TI  - IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance
+AB  - Abstract Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different ideas and perspectives. This creates concerns about issue bias, where an LLM tends to present just one perspective on a given issue, which in turn may influence how users think about this issue. So far, it has not been possible to measure which issue biases LLMs manifest in real user interactions, making it difficult to address the risks from biased LLMs. Therefore, we create IssueBench: a set of 2.49m realistic English-language prompts to measure issue bias in LLM writing assistance, which we construct based on 3.9k templates (e.g., “write a blog about”) and 212 political issues (e.g., “AI regulation”) from real user interactions. Using IssueBench, we show that issue biases are common and persistent in 10 state-of-the-art LLMs. We also show that biases are very similar across models, and that all models align more with US Democrat than Republican voter opinion on a subset of issues. IssueBench can easily be adapted to include other issues, templates, or tasks. By enabling robust and realistic measurement, we hope that IssueBench can bring a new quality of evidence to ongoing discussions about LLM biases and how to address them.
+PY  - 2026
+DA  - 2026-04-01
+JO  - Transactions of the Association for Computational Linguistics
+DO  - 10.1162/tacl.a.626
+UR  - https://doi.org/10.1162/tacl.a.626
+AN  - W4407570442
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Paul Röttger
+AU  - Musashi Hinck
+AU  - Valentin Hofmann
+AU  - Kobi Hackenburg
+AU  - Valentina Pyatkin
+AU  - Faeze Brahman
+AU  - Dirk Hovy
+ER  - 
+
+TY  - JOUR
+TI  - Large language models show both individual and collective creativity comparable to humans
+AB  - • Across 13 creative tasks, the LLMs rank in the 46th percentile against humans. • LLMs excel in divergent thinking and problem solving but lag in creative writing. • When questioned 10 times, an LLM’s collective creativity equals 8-10 humans. • LLMs may compete with a small group of humans in terms of collective creativity. Artificial intelligence, especially large language models (LLMs) are increasingly adopted in the workplace, which has significant implications for the future of work if they show creativity comparable to humans. To measure the creativity of LLMs holistically, the current study uses thirteen creative tasks spanning three domains. We benchmark the LLMs against individual humans, and also take a novel approach by comparing them to the collective creativity of groups of humans. We find that the best LLMs (Claude and GPT-4) rank in the 52 nd percentile against humans, and overall LLMs excel in divergent thinking and problem solving but lag in creative writing. We also show that the collective creativity in 10 LLM responses is equivalent to 8-10 humans. When there are more than 10 LLM responses, in terms of incremental collective creativity, two additional LLM responses equal one extra human. Ultimately, LLMs, when optimally applied, may compete with a small group of humans in the future of work.
+PY  - 2025
+DA  - 2025-05-14
+JO  - Thinking Skills and Creativity
+DO  - 10.1016/j.tsc.2025.101870
+UR  - https://doi.org/10.1016/j.tsc.2025.101870
+AN  - W4410350074
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Luning Sun
+AU  - Yuzhuo Yuan
+AU  - Yuan Yao
+AU  - Yanyan Li
+AU  - Hao Zhang
+AU  - Xing Xie
+AU  - Xiting Wang
+AU  - Fang Luo
+AU  - David J. Stillwell
+ER  - 
+
+TY  - JOUR
+TI  - Death by AI : Will large language models diminish Wikipedia?
+AB  - Abstract We argue that advances in large language models (LLMs) and generative Artificial Intelligence (AI) will diminish the value of Wikipedia, due to a withdrawal by human content producers, who will withhold their efforts, perceiving less need for their efforts and increased “AI competition.” We believe the greatest threat to Wikipedia stems from the fact that Wikipedia is a user‐generated product, relying on the “selfish altruism” of its human contributors. Contributors who reduce their contribution efforts as AI pervades the platform, will thus leave Wikipedia increasingly dependent on additional AI activity. This, combined with a dynamic where readership creates authorship and readers being disintermediated, will inevitably cause a vicious cycle leading to a staling of the content and diminishing value of this venerable knowledge resource.
+PY  - 2025
+DA  - 2025-01-03
+JO  - Journal of the Association for Information Science and Technology
+DO  - 10.1002/asi.24975
+UR  - https://doi.org/10.1002/asi.24975
+AN  - W4406051438
+DB  - OpenAlex citation chasing (backward)
+M3  - article/None
+LA  - en
+AU  - Christian Wagner
+AU  - Ling Jiang
+ER  - 
+
+TY  - GEN
+TI  - Unstructured Evidence Attribution for Long Context Query Focused Summarization
+AB  - Large language models (LLMs) are capable of generating coherent summaries from very long contexts given a user query, and extracting and citing evidence spans helps improve the trustworthiness of these summaries.Whereas previous work has focused on evidence citation with fixed levels of granularity (e.g.sentence, paragraph, document, etc.), we propose to extract unstructured (i.e., spans of any length) evidence in order to acquire more relevant and consistent evidence than in the fixed granularity case.We show how existing systems struggle to copy and properly cite unstructured evidence, which also tends to be "lost-in-the-middle".To help models perform this task, we create the Summaries with Unstructured Evidence Text dataset (SUnsET), a synthetic dataset generated using a novel pipeline, which can be used as training supervision for unstructured evidence summarization.We demonstrate across 5 LLMs and 4 datasets spanning human written, synthetic, single, and multi-document settings that LLMs adapted with SUnsET generate more relevant and factually consistent evidence with their summaries, extract evidence from more diverse locations in their context, and can generate more relevant and consistent summaries than baselines with no fine-tuning and fixed granularity evidence.We release SUnsET and our generation code to the public.1
+PY  - 2025
+DA  - 2025-01-01
+JO  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2025.emnlp-main.95
+UR  - https://doi.org/10.18653/v1/2025.emnlp-main.95
+AN  - W4416037065
+DB  - OpenAlex citation chasing (backward)
+M3  - conference-paper/None
+LA  - en
+AU  - Dustin Wright
+AU  - Zain Muhammad Mujahid
+AU  - Lu Wang
+AU  - Isabelle Augenstein
+AU  - David Jurgens
+ER  - 
+
+TY  - GEN
+TI  - Real or Robotic? Assessing Whether LLMs Accurately Simulate Qualities of Human Responses in Human-LLM Dialogue
+AB  - Jonathan Ivey, Shivani Kumar, Jiayu Liu, Hua Shen, Sushrita Rakshit, Rohan Raju, Haotian Zhang, Aparna Ananthasubramaniam, Junghwan Kim, Bowen Yi, Dustin Wright, Abraham Israeli, Anders Giovanni Møller, Lechen Zhang, David Jurgens. Findings of the Association for Computational Linguistics: ACL 2026. 2026.
+PY  - 2026
+DA  - 2026-01-01
+JO  - Findings of the Association for Computational Linguistics: ACL (Findings of ACL)
+DO  - 10.18653/v1/2026.findings-acl.2060
+UR  - https://doi.org/10.18653/v1/2026.findings-acl.2060
+AN  - W7166848828
+DB  - OpenAlex citation chasing (backward)
+M3  - conference-paper/None
+LA  - en
+AU  - Jonathan Ivey
+AU  - Shivani Kumar
+AU  - Jiayu Liu
+AU  - Hua Shen
+AU  - Sushrita Rakshit
+AU  - Rapaka Kantha Raju
+AU  - Haotian Zhang
+AU  - Aparna Ananthasubramaniam
+AU  - Junghwan Kim
+AU  - Bowen Yi
+AU  - Dustin Wright
+AU  - Abraham Israeli
+AU  - Anders Giovanni Møller
+AU  - Lechen Zhang
+AU  - David Jurgens
+ER  - 
+
+TY  - RPRT
+TI  - How much do language models memorize?
+AB  - We propose a new method for estimating how much a model knows about a datapoint and use it to measure the capacity of modern language models. Prior studies of language model memorization have struggled to disentangle memorization from generalization. We formally separate memorization into two components: unintended memorization, the information a model contains about a specific dataset, and generalization, the information a model contains about the true data-generation process. When we completely eliminate generalization, we can compute the total memorization, which provides an estimate of model capacity: our measurements estimate that GPT-style models have a capacity of approximately 3.6 bits per parameter. We train language models on datasets of increasing size and observe that models memorize until their capacity fills, at which point "grokking" begins, and unintended memorization decreases as models begin to generalize. We train hundreds of transformer language models ranging from $500K$ to $1.5B$ parameters and produce a series of scaling laws relating model capacity and data size to membership inference.
+PY  - 2025
+DA  - 2025-05-30
+JO  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2505.24832
+UR  - https://doi.org/10.48550/arxiv.2505.24832
+AN  - W4415332740
+DB  - OpenAlex citation chasing (backward)
+M3  - preprint/None
+LA  - en
+AU  - John X. Morris
+AU  - Chawin Sitawarin
+AU  - Chuan Guo
+AU  - Narine Kokhlikyan
+AU  - G. Edward Suh
+AU  - Alexander M. Rush
+AU  - Kamalika Chaudhuri
+AU  - Saeed Mahloujifar
+ER  - 
+
+TY  - RPRT
+TI  - Poor Alignment and Steerability of Large Language Models: Evidence from College Admission Essays
+AB  - People are increasingly using technologies equipped with large language models (LLM) to write texts for formal communication, which raises two important questions at the intersection of technology and society: Who do LLMs write like (model alignment); and can LLMs be prompted to change who they write like (model steerability). We investigate these questions in the high-stakes context of undergraduate admissions at a selective university by comparing lexical and sentence variation between essays written by 30,000 applicants to two types of LLM-generated essays: one prompted with only the essay question used by the human applicants; and another with additional demographic information about each applicant. We consistently find that both types of LLM-generated essays are linguistically distinct from human-authored essays, regardless of the specific model and analytical approach. Further, prompting a specific sociodemographic identity is remarkably ineffective in aligning the model with the linguistic patterns observed in human writing from this identity group. This holds along the key dimensions of sex, race, first-generation status, and geographic location. The demographically prompted and unprompted synthetic texts were also more similar to each other than to the human text, meaning that prompting did not alleviate homogenization. These issues of model alignment and steerability in current LLMs raise concerns about the use of LLMs in high-stakes contexts.
+PY  - 2025
+DA  - 2025-03-25
+JO  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2503.20062
+UR  - https://doi.org/10.48550/arxiv.2503.20062
+AN  - W4409017237
+DB  - OpenAlex citation chasing (backward)
+M3  - preprint/None
+LA  - en
+AU  - Jinsook Lee
+AU  - AJ Alvero
+AU  - Thorsten Joachims
+AU  - René F. Kizilcec
+ER  - 
+
+TY  - RPRT
+TI  - The Lock-in Hypothesis: Stagnation by Algorithm
+AB  - The training and deployment of large language models (LLMs) create a feedback loop with human users: models learn human beliefs from data, reinforce these beliefs with generated content, reabsorb the reinforced beliefs, and feed them back to users again and again. This dynamic resembles an echo chamber. We hypothesize that this feedback loop entrenches the existing values and beliefs of users, leading to a loss of diversity and potentially the lock-in of false beliefs. We formalize this hypothesis and test it empirically with agent-based LLM simulations and real-world GPT usage data. Analysis reveals sudden but sustained drops in diversity after the release of new GPT iterations, consistent with the hypothesized human-AI feedback loop. Code and data available at https://thelockinhypothesis.com
+PY  - 2025
+DA  - 2025-06-06
+JO  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2506.06166
+UR  - https://doi.org/10.48550/arxiv.2506.06166
+AN  - W4417097730
+DB  - OpenAlex citation chasing (backward)
+M3  - preprint/None
+LA  - en
+AU  - Tianyi Alex Qiu
+AU  - He, Zhonghao
+AU  - Tejasveer Chugh
+AU  - Max Kleiman-Weiner
+ER  - 
+
+TY  - RPRT
+TI  - A survey of diversity quantification in natural language processing: The why, what, where and how
+AB  - The concept of diversity received increasing attention in natural language processing (NLP) in recent years. It became an advocated property of datasets and systems, with many measures used to quantify it, but also many cross-paper inconsistencies. To address this fragmentation, we take inspiration from other scientific fields where diversity has been more thoroughly conceptualized. We build upon (Sarkar, 2010) and (Stirling, 2007), two unified cross-domain frameworks inspired from ecology, economy and other domains. The first one advocates explicit justification of diversity endorsement. The latter distinguishes three dimensions of diversity: variety, balance, and disparity. Surveying over 300 recent diversity-related papers from ACL Anthology, we propose an NLP-specific framework with 4 perspectives: why diversity is important, what diversity is measured on, where it is measured, and how. We find that in NLP richness (the simplest variety) and distance averaging (the simplest disparity) are the most prevalent measure families, and that pure balance measures are nearly absent. Moreover, half of the measures used in NLP do not conform to Stirling's framework. Our analysis increases comparability of approaches to diversity in NLP, allowing us to formulate recommendations for the field. We recommend that the field systematically use a unified terminology, and that it engage in debates about the desirable properties of diversity measures as well as about the normative assumptions behind their use.
+PY  - 2025
+DA  - 2025-07-28
+JO  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2507.20858
+UR  - https://doi.org/10.48550/arxiv.2507.20858
+AN  - W4417451458
+DB  - OpenAlex citation chasing (backward)
+M3  - preprint/None
+LA  - en
+AU  - Louis Estève
+AU  - Marie-Catherine de Marneffe
+AU  - Nurit Melnik
+AU  - Agata Savary
+AU  - Olha Kanishcheva
+ER  - 
+
+TY  - RPRT
+TI  - Whose Name Comes Up? Auditing LLM-Based Scholar Recommendations
+AB  - This paper evaluates the performance of six open-weight LLMs (llama3-8b, llama3.1-8b, gemma2-9b, mixtral-8x7b, llama3-70b, llama3.1-70b) in recommending experts in physics across five tasks: top-k experts by field, influential scientists by discipline, epoch, seniority, and scholar counterparts. The evaluation examines consistency, factuality, and biases related to gender, ethnicity, academic popularity, and scholar similarity. Using ground-truth data from the American Physical Society and OpenAlex, we establish scholarly benchmarks by comparing model outputs to real-world academic records. Our analysis reveals inconsistencies and biases across all models. mixtral-8x7b produces the most stable outputs, while llama3.1-70b shows the highest variability. Many models exhibit duplication, and some, particularly gemma2-9b and llama3.1-8b, struggle with formatting errors. LLMs generally recommend real scientists, but accuracy drops in field-, epoch-, and seniority-specific queries, consistently favoring senior scholars. Representation biases persist, replicating gender imbalances (reflecting male predominance), under-representing Asian scientists, and over-representing White scholars. Despite some diversity in institutional and collaboration networks, models favor highly cited and productive scholars, reinforcing the rich-getricher effect while offering limited geographical representation. These findings highlight the need to improve LLMs for more reliable and equitable scholarly recommendations.
+PY  - 2025
+DA  - 2025-05-29
+JO  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2506.00074
+UR  - https://doi.org/10.48550/arxiv.2506.00074
+AN  - W4414888083
+DB  - OpenAlex citation chasing (backward)
+M3  - preprint/None
+LA  - en
+AU  - Daniele Barolo
+AU  - Chiara Valentin
+AU  - Fariba Karimi
+AU  - Luis Antonio Galárraga
+AU  - Méndez, Gonzalo G.
+AU  - Espín-Noboa, Lisette
+ER  - 
+

@@ -1,0 +1,624 @@
+BATCH b019 -- 7 records: R00782 .. R00788
+
+### R00782 | 2025 | article/None | Lang: en
+TI: Cognitive alignment in cardiovascular AI: designing predictive models that think with, not just for, clinicians
+AB: Introduction Artificial intelligence (AI) is emerging as a major driver of clinical innovation, with cardiovascular disease (CVD) prediction being
+    one of its most active areas of application (Karatzia et al., 2022; Ashraf and Sultana, 2024). In recent years, hospitals, research centers, and
+    health-technology companies have reported machine learning models achieving accuracy levels of 90%, 95%, or even higher for predicting heart
+    attacks, arrhythmias, and other cardiovascular events, with concrete evidence shown in studies on AI-enabled ECG detection of left ventricular
+    dysfunction and machine learning-based outcome prediction in heart failure (Yao et al., 2021; Pavlov et al., 2024). These results highlight the
+    significant technical progress made in the field. Despite these encouraging statistics, adoption of AI tools in day-to-day cardiovascular practice
+    remains limited (Bomfim et al., 2023). This raises a central question: if AI models demonstrate such high accuracy in controlled evaluations, why
+    are they not widely used in clinical settings? This study explores that question by moving beyond accuracy as the sole measure of success. While
+    many cardiovascular AI models are developed with strong technical performance—demonstrating high discrimination, well-calibrated risk estimates,
+    robustness to data shifts, and external validation—their adoption in practice also depends on how well their outputs integrate into clinicians'
+    established workflows and support decision-making under real-world time constraints and uncertainty. Even when demonstrating strong algorithmic
+    performance—such as high discrimination (e.g., AUC), well-calibrated risk estimates, robust external validation, and resilience to moderate data
+    shifts—many current AI models still fail to integrate with the way clinicians gather, interpret, and apply information during patient care (Reddy
+    and Shaikh, 2025). These shortcomings often arise from interface design gaps, limited explainability, lack of EHR integration, and poor alignment
+    with established clinical reasoning workflows. We refer to this gap as a lack of cognitive calibration—the degree to which AI tools reflect,
+    augment, and support a clinician's reasoning process. To address this, we propose a Cognitive Alignment Index (CAI)—introduced here and detailed
+    later—which evaluates models not only on statistical accuracy but also on comprehensibility, actionability, feedback receptivity, context
+    awareness, and calibrated trust. Addressing cognitive alignment requires a shift in focus. Instead of designing models solely to outperform human
+    performance on test datasets, the goal should be to create systems that enhance clinical reasoning in explainable, interpretable, and contextually
+    relevant ways (Di Martino and Delmastro, 2023; Moreno-Sánchez, 2023). For CVD applications, this means moving from automation toward
+    augmentation—from opaque, black-box predictions to collaborative, co-reasoned decision-making (Youssef et al., 2024). The Missing Link: Cognitive
+    Alignment Current debates regarding trustworthy AI tend to focus on concepts like explainability, fairness, and robustness. These are important,
+    but they mainly address models' extrinsic properties. Cognitive alignment, instead, investigates an internally compatible human-machine style of
+    reasoning integration (Szabo et al., 2022). It asks: Do AI systems process and report information in such modes that clinicians will be in a
+    position to intuitively comprehend, critique and act on? We can define cognitive alignment as the degree to which an AI system's reasoning
+    processes, information presentation, and interaction patterns correspond to and enhance the cognitive processes clinicians use in real-world
+    decision-making. This concept spans five core constructs—narrative coherence, counterfactual reasoning, progressive disclosure, uncertainty
+    communication, and interactive collaboration—each contributing to a shared human–AI decision framework. While it overlaps with concepts such as
+    explainability, usability, trust calibration, and shared mental models, cognitive alignment is distinct in its focus on mutual intelligibility and
+    collaborative reasoning between clinician and model. Consider a 68-year-old with chest pain, discordant biomarkers and imaging, chronic kidney
+    disease, diabetes, prior stroke, and limited access to follow-up care. The clinician must reconcile conflicting evidence, weigh competing risks,
+    and factor in social constraints. A cognitively aligned AI could mirror this reasoning—integrating multimodal data, generating counterfactuals,
+    and conveying calibrated uncertainty to guide a patient-specific decision. Contrast this with a typical CVD risk prediction model. It may take in
+    a static data set, calculate probabilistic risk, and provide an output—e.g., 0.87 probability of cardiovascular event at 5 years. The model
+    reveals little regarding why this score is high, what modifiable variables impacted it, or in what way it changes in response to new
+    interventions. Many static, black-box risk scoring models— especially those trained on structured tabular datasets—present outputs solely as
+    numeric probabilities without contextual explanation, making them less intuitive for clinical reasoning (DeGrave et al., 2023). In contrast,
+    well-designed systems, including those using case-based reasoning, counterfactual analysis, or natural-language generation, can produce narrative
+    rationales and patient-specific explanations that align more closely with how clinicians synthesize information (Pradeep et al., 2024). This
+    mismatch is not abstract. It begets a disconnect in trust, usability, and accountability (Alharbi, 2024). Where an output from an AI raises doubt
+    in a clinician's intuition, and no middle ground lies, the human decision-maker falls back to skepticism or dismissal. Worse, if clinicians
+    over-rely on an opaque model, the result is over-reliance in faulty predictions—perilous in life-critical decisions (Mooghali et al., 2023).
+    Recent empirical work underscores the importance of explainability and cognitive alignment. A systematic review of XAI in clinical decision
+    support systems found that only a minority of applications formally evaluated explanation quality, highlighting trust as a critical, yet often
+    underexamined, dimension (Salih et al., 2023; Shah et al., 2025). Another study demonstrated that cardiovascular event forecasting systems
+    augmented with XAI increased user comprehension and decision-making confidence, achieving both high accuracy and improved usability (Bilal et al.,
+    2025). These findings show that enhancements to interpretability directly improve trust and adoption— validating our argument that accuracy alone
+    is not enough without cognitive alignment. Where Current Cardiovascular AI Falls Short The limitations discussed in this section refer primarily
+    to classes of cardiovascular AI models that are (i) trained on static, cross-sectional datasets, (ii) optimized for predictive accuracy rather
+    than interpretability, and (iii) deployed without advanced temporal modeling, multimodal integration, or narrative explanation capabilities. These
+    constraints do not apply to all cardiovascular AI architectures—many state-of-the-art models in research settings already address some of these
+    issues— but they remain common in tools currently used in routine clinical practice. In practice, widely deployed cardiovascular AI tools include
+    FDA-cleared ECG algorithms for LV dysfunction (Attia et al., 2019), AI-guided echo acquisition (Narang et al., 2021), CT-FFR integrated into NHS
+    pathways (Fairbairn et al., 2025), and EHR-based HF readmission models. In contrast, research prototypes— such as multimodal transformers
+    combining ECG, echo, and EHR data (Mittal et al., 2023; Poterucha et al., 2025) or counterfactual imaging interpreters—remain largely academic.
+    Recent work has demonstrated their potential, including improvements in arrhythmia detection (Zeljkovic et al., 2025), development of patient
+    digital-twin frameworks (Anisuzzaman et al., 2025), and transformer-based atrial fibrillation risk prediction (Lisicic et al., 2024). Cognitive
+    alignment gaps are most pronounced in deployed models, not these cutting-edge prototypes. The failure of many currently deployed cardiovascular AI
+    models—particularly static tabular classifiers trained on cross-sectional datasets— to achieve cognitive alignment manifests in several critical
+    areas:  Temporal Reasoning Deficiency: Clinicians reason over time, comparing past trajectories to future projections. Many cardiovascular AI
+    tools currently deployed in clinical settings— particularly static tabular classifiers trained on cross-sectional snapshots of EHR data—lack
+    temporal reasoning capabilities. These models reduce patient history to single time points, overlooking evolving physiological trends that
+    clinicians use for decision-making. This limitation does not apply to temporal sequence models such as RNNs, LSTMs, Transformers, temporal
+    convolutional networks (TCNs), survival analysis models like Cox/DeepSurv, or dynamical Bayesian/state-space approaches, which are explicitly
+    designed to learn from longitudinal data (Kagiyama et al., 2019).  Opaque Abstractions: Clinicians prefer causal or mechanistic reasoning - "this
+    patient's sedentary lifestyle, combined with family history, likely explains the elevated risk." In contrast, black-box models offer abstractions
+    untethered from causal understanding (Vishwarupe et al., 2022). A high risk score may be mathematically correct, but without interpretive
+    scaffolding, it remains clinically inert.  Disjointed Input and Output Modalities: Doctors process multimodal data—lab results, imaging, voice
+    tone, visual signs. Most AI models require clean, structured inputs and output a single prediction (Van Der Vegt et al., 2023). This limits their
+    ability to integrate into the messy, multimodal ecosystem of real clinical practice.  Static Decision Boundaries: In some deployments, binary
+    classifiers are paired with fixed probability thresholds (e.g., intervene if risk > X%), which is often a policy choice rather than an inherent
+    model property. While such cut points can simplify implementation, they may overlook trade-offs, comorbidities, patient preferences, and evolving
+    clinical information. More flexible approaches—such as continuous risk estimates, decision-curve analysis, and context-aware policies that adapt
+    thresholds to individual patient contexts—better reflect the nuanced nature of cardiovascular decision-making. It is important to acknowledge that
+    recent advances in AI research have begun to address some of these limitations. Emerging models now incorporate temporal reasoning, causal
+    inference, counterfactual simulation, and more sophisticated multimodal integration, enabling them to analyze evolving patient trajectories, draw
+    connections between complex variables, and provide richer explanations (Yang et al., 2021; Engelhardt et al., 2024; Lin et al., 2025). These
+    capabilities represent a significant step forward and demonstrate the technical feasibility of overcoming many past shortcomings. However, their
+    presence in cutting-edge research does not yet equate to widespread adoption in clinical cardiovascular tools. Many AI systems currently deployed
+    in hospitals or available in commercial products still operate with static inputs, limited interpretability, and rigid decision boundaries
+    (Schepart et al., 2023; Fortuni et al., 2024). Thus, while technical progress is undeniable, the remains in these capabilities into used systems
+    that align with clinicians' cognitive workflows and decision-making Cardiovascular AI Cognitive alignment that we how CVD prediction models are
+    and are that define such  AI outputs should a Instead of the model patient's risk is elevated primarily to high and a recent in of these could
+    the risk This with how clinicians risk to and must be to in et al., 2024). For models can be integrated with structured such as using or other to
+    narrative rationales that predictions with clinically  of clinical reasoning is if the patient if they A cognitively aligned AI should support
+    counterfactual clinicians to emerging models incorporate causal and counterfactual These should be integrated into CVD AI to not  than with all
+    data at or it models should offer could be by to into data or This the way clinicians levels of information on the and  as a not a
+    decision-making in is with uncertainty. AI models—particularly those without high probabilities even in of or when In contrast, well-calibrated
+    models, such as or with can align probabilities with A cognitively aligned model should and and offer calibrated risk or et al., 2024). This
+    clinicians to factor in model into their clinical  The future of CVD AI in interactive static but or that clinicians and model outputs in real
+    These tools should learn not only from data, but from with human  dimension of cognitive alignment can be that for systematic in both and
+    real-world clinical can be comprehension accuracy in reasoning and of reasoning may be by the accuracy and clinical of and the with which they to
+    can be evaluated by in decision without of accuracy and the of model on may be the of decision on model and the in over-reliance on interactive
+    can be by the of the of outputs clinician and the of when human–AI for the Cognitive Alignment Index The Cognitive Alignment Index how well an AI
+    with clinicians' reasoning five comprehensibility, actionability, feedback receptivity, context awareness, and trust dimension is to enabling and
+    Cardiovascular AI often as imaging, and are to temporal and These multimodal integration can be alignment including progressive of findings and to
+    data can from data (e.g., model (e.g., interface (e.g., or (e.g., include decision and clinician with For and that explanations uncertainty
+    estimates, and clinician or with the in the system's on its calibrated trust, remains to the system's demonstrated and clinical and The cognitive
+    alignment design well beyond in and in AI is aligned to human is not in a an et al., AI a in the clinician's work not only but explainable, and to
+    clinician at the cognitive can enhance Clinicians how and why a model a prediction will be more likely to use it This is in accountability for
+    decisions made in an AI remains 2023; et al., 2025). cognitively compatible AI can be to et al., tend to be by opaque, models that Where AI
+    systems can to in and learn to to user they and more to trust and interpretability, AI in cardiovascular care must complex and particularly
+    patient and data with frameworks such as and in the or in requires that AI tools not only information but also data and et al., 2025). A in the
+    for multimodal with the of data and 2024). for overcoming these include the adoption of such as and which model without patient data et al.,
+    2023). these into the design of AI tools can while clinical both and Cardiovascular AI as a Cognitive AI is to its in cardiovascular it will have
+    to shift from to cognitive that not of will require other than data or it will require a of in clinical reasoning et al., 2024). Alignment of is
+    not an a and especially failure is like in is interpretive predictive made in by and Current systems, will not if they this cognitive ecosystem et
+    al., 2023). This several typical a it the typical that accuracy is the and measure of AI While accuracy may be a not at all and 2024). A model
+    that well on data but is or with day-to-day practice in depends on or not clinicians can interpret, and to the output of a than or not the model
+    is predictive et al., it the automation narrative that still of AI Many clinical should Cardiovascular care and that no model can Instead of to
+    human AI should to It should enhance confidence, and support counterfactual reasoning et al., 2024). Recent of multimodal cardiovascular AI
+    systems have shown that such capabilities are imaging, physiological and clinical data into frameworks that improve both accuracy and clinician
+    trust et al., In it should clinical not it for an design Cognitive alignment be in by data or AI alone et al., 2024). from in cardiovascular
+    imaging this that the most between AI and and 2024). It the collaborative of cognitive and The goal is not to AI more in the but to it more
+    clinically in the Cognitive alignment requires that even advanced models are and clinical remains et al., This must be into both design and
+    uncertainty contextual and for clinician we must also that cognitive alignment is not a static It is an that with new data, new and new clinical
+    et al., 2025). AI systems are deployed hospitals to ability to adapt to cognitive will their and The development of structured frameworks for such
+    has with recent AI research cognitive performance and et al., To and must alignment into of the AI This cognitive into model that to cognitive and
+    decision feedback clinicians can critique and model that measure usability, trust, and not performance These are not are central to the of AI in
+    cardiovascular care. clinicians and a common cognitive AI more than a a in the often of human that may be the that AI to on its the limitations in
+    current cardiovascular the cognitive alignment to address and the of these by the from current cardiovascular AI limitations to cognitively
+    aligned highlighting the between gaps and design of current limitations in cardiovascular cognitive alignment and clinical Current on Cognitive
+    Alignment Temporal Reasoning trained on data patient history and evolving trends temporal reasoning and sequence models survival models temporal
+    convolutional networks robustness HF with clinicians' longitudinal Opaque outputs lack causal and in Static tabular with case-based counterfactual
+    on and trust Disjointed ability to process real-world clinical data integration of and inputs models imaging model, multimodal risk prediction the
+    data used in practice Static Decision may trade-offs, and context context-aware risk models, calibrated classifiers prediction risk models on HF
+    and care of AI tools operate as output systems AI that from user feedback learning with feedback learning feedback and shared decision-making in
+    advances not widely practice gap integration, adoption on real-world and adoption in practice design on clinical alignment score current
+    cardiovascular AI to cognitively aligned the from limitations to The in the in the Despite advances in machine the of clinical are often from the
+    AI development Most CVD models are trained in structured is clean, are and are et al., 2022). hospitals are data is often or and clinicians must
+    decisions with This model and clinical a driver of cognitive et al., 2025). For a model may a patient as for heart failure on elevated and imaging
+    However, in practice, the also of or social like of which are from the but and et al., 2024). A cognitively aligned model its contextual
+    limitations and for human that is a narrative as as it is a numeric Clinicians must not only but also and care and 2025). AI models that this
+    context are not clinically and the of Cardiovascular AI from human AI systems should be evaluated not only for what they but for how with them
+    under and cognitive in and critical care show that even tools fail when they with human mental models. In the context of this means designing and
+    outputs that align with clinical A risk prediction model in an EHR should do more than should provide progressive disclosure, contributing (e.g.,
+    past and for (e.g., if by explanations must be to user A may access to and trajectories, while a may prefer causal interpretability is from
+    Alignment is evidence that even AI can when cognitive alignment is In a deployed a that in but in Clinicians developed to in In other such as or
+    heart disease risk black-box tools have (e.g., or they in data, not they and 2021; 2021; 2025). These are not reflect a cognitive design The
+    models not to adapt to clinician or in trust and clinicians of AI 2022). This is not a of is a for AI rather than it, clinicians AI without
+    clinicians The of cardiovascular AI on this AI has a but often to technical on 2023). cognitive alignment requires not explanation, but AI models
+    in a does this to a patient This interactive the model from a machine into a clinical systems must also learn from a clinician a model in the
+    should learn to or This is the of models improve shared not a in a A a CVD risk model that the this patient the and for and A AI this and use it
+    to future outputs in This is not of for and cognitively aligned AI is only the Clinicians must also be trained to with AI and This means AI into
+    the of models, but the of machine decision-making. Clinicians must learn to does this model the data used of when with the do this output to the
+    These are not are core to clinical practice in the AI In cardiovascular decisions often these are must a of AI feedback and should the critique of
+    model outputs and create shared accountability AI is not used it can human capabilities. Cognitive Alignment as a of most models are by technical
+    what and user We propose that AI in cardiovascular be evaluated on a Cognitive Alignment Index Do clinicians why the model the output to a
+    real-world clinical the model incorporate user the model its use of the model or clinical statistical a more framework. and must their to
+    alignment, not the Cognitive Alignment Index To systematic we propose a scoring points with higher cognitive  accuracy of clinician to structured
+    with an understanding of why the model  of in to the  degree of model or structured clinician feedback during or  accuracy and of or
+    uncertainty in  in clinician trust using a  with of human–AI reasoning alignment in  higher are with improved clinical (e.g., and human–AI
+    performance (e.g., decision  over and when score the AI This is not a but a robust that can guide both research and real-world cardiovascular AI
+    To from to an study we propose an both cognitive alignment and performance In this clinicians with patient cardiovascular or from longitudinal EHR
+    datasets, making decisions with and without AI will include clinical decision-curve analysis, calibrated score for probabilistic as an and will
+    cognitive using usability or and trust using For temporal reasoning, we will on longitudinal EHR data, robustness with controlled and shift and
+    time This a for cardiovascular AI on both technical and cognitive alignment. to The for cognitively aligned AI is not a technical is a policy in
+    AI must not only performance but adoption and systems must clinicians using this as not but frameworks must to acknowledge shared between and is
+    when an aligned AI but and frameworks must reflect the nature of care. AI development not only in data, but in design aligned to one or may
+    Cognitive alignment must to and to in While cognitively aligned cardiovascular AI can rather than such as automation clinician trade-offs, and
+    shift must be and causal offer but and uncertainty calibration, only if clinicians are on them in real with these is for and Cognitive alignment
+    should also be and adoption Alignment can as a pathways by and enabling EHR of such as and can patient data, but trade-offs, including accuracy
+    increased and from the importance of integration into clinical and that both technical performance and clinician trust. uncertainty calibrated
+    prediction or that AI outputs are with to support nuanced clinical The future of cardiovascular AI not in more data or but in models and and
+    prediction and Cognitive alignment is not a it is a for AI that is and AI systems reason with and the of tools and in care. this requires
+    designing models that reflect human reasoning, that clinicians to question rather than and systems on their for not In we shift AI from a to an
+    from a black-box to an In the nuanced and of cardiovascular this shift could the between and prediction and or even between a risk score and a
+    than only how our models we must how well they with in depends not on what we but on how we
+
+### R00783 | 2026 | preprint/None | Lang: en
+TI: EthAiSyn: Psychological Audit Report — A Reflexive Dual-Lens Audit of the EthAiSyn Behavioral Governance Framework
+AB: EthAiSynHuman-AI Integration ArchitecturePsychological Audit ReportVersion 3.0 --- Research-Updated EditionA dual-lens audit applying the EthAi
+    Syn and Ethain-Synthia frameworksto identify and resolve structural gaps before enterprise deployment.Prepared by ChloeDate March 2026Version 3.0
+    --- Research-Updated EditionAudit Type Internal Psychological AuditFrameworks Applied EthAi Syn + Ethain-Synthia (ESF)Gaps Identified 5Gaps
+    Resolved 5Additional Finding Measurement Frontier --- Research Mandate (Active)New Role Created Human-AI Integration ArchitectResearch Sources
+    Integrated 8 peer-reviewed sources (2023--2026)Executive SummaryFive Gaps. All Resolved. One Frontier Named. One Research Foundation
+    Integrated.This report documents a full psychological audit of the EthAi Syn Behavioral Governance Framework, updated to incorporate the revised
+    framework draft and an eight-source peer-reviewed research foundation. The audit applied two complementary lenses: the EthAi Syn framework's
+    Psychological Audit methodology, which evaluates whether systems support or deplete human capability, and the Ethain-Synthia Framework (ESF),
+    which evaluates whether human judgment is structurally preserved or quietly handed off to the system.Five structural gaps were identified. Each
+    was examined through both lenses. Each has been resolved with a specific structural realignment consistent with the framework's own design
+    principles. A sixth finding --- the Measurement Frontier --- was documented as a formal research mandate rather than a resolvable gap. This
+    version adds a seventh finding: the Research Foundation, documenting how eight peer-reviewed sources published between 2023 and 2026 strengthen
+    the framework's evidence base, resolve former areas of theoretical weakness, and establish the field-level demand for exactly the role EthAiSyn
+    creates.Version 3.0 ChangesThis version integrates eight peer-reviewed research sources spanning neuroscience, HCI, clinical psychology,
+    implementation science, and regulatory law. Key additions include: the first field study of clinician AI trust formation (Kelly et al., 2025); a
+    30-year systematic review confirming no field studies existed prior to 2025 (Wischnewski et al., 2023); clinical evidence on metacognitive
+    sensitivity in joint decisions (Lee et al., 2025); documentation of the psychologist gap in AI design (JMIR AI, 2024; JMIR HF, 2021); and the
+    Woebot shutdown as a case study in integration architecture failure (Torous & Cipriani, 2025).Audit MethodologyTwo Lenses, Five Gaps, One
+    Frontier, One Research FoundationThe audit followed EthAi Syn's four-stage framework structure across all sessions, with each stage evaluated
+    through both analytical lenses simultaneously. Where the two lenses conflicted or overlapped, the intersection was treated as the highest-priority
+    finding.EthAi Syn LensAt each stage: does this environment support human capability or actively deplete it? Where does the user's mental model
+    break from the system's actual behavior?Ethain-Synthia (ESF) LensAt each stage: is human judgment structurally present as a generative function,
+    or is it operating as a backstop that only activates after the system has already decided?Stage 1: Baseline MappingWhat EthAi Syn Is and Who It
+    ServesIntended UsersShort-term: Enterprise organizations, with HR leadership and healthcare administration as primary buyers. Long-term:
+    Individual practitioners and researchers using the framework directly for professional development and field-building.Intended ExperienceUsers
+    engage through natural language and structured consultation. The system builds a deep understanding of their organizational context, values, and
+    cognitive patterns over time. The goal is movement toward each organization's and user's own ceiling of responsible AI-augmented capability, not a
+    standardized benchmark.Delivery ModelA combination of audit methodology, measurement program design, training curriculum, and consultancy
+    engagement. The specific configuration is determined by the enterprise deployment context. The Human-AI Integration Architect role is the
+    organizational function this delivery model creates.New Role Created: Human-AI Integration ArchitectThe framework generates an organizational
+    function that does not exist before its arrival: a role that designs and governs the conditions under which humans and AI systems work together
+    without the humans losing what makes their contribution irreplaceable. This role is grounded in psychological expertise, implementation science,
+    and measurement theory --- not in technology implementation, compliance, or communications.Research validation for this role: The JMIR AI
+    systematic review (2024) named the absence of psychologists from AI design as a field-level gap. The JMIR Human Factors mapping review (2021)
+    called human factors and ergonomics expertise "essential" for defining the dynamic interaction of AI within organizational systems. Torous et al.
+    (2025) documented that the digital navigator role --- the implementation-level equivalent of the Integration Architect --- has been called for
+    since 2015 and remains largely unfilled. Strudwick et al. (2025) established that successful AI implementation requires "intentional
+    infrastructure, not just technology." The Integration Architect is that infrastructure.The Five Gaps and Their ResolutionsGAP A | The Temporal
+    Value Gap RESOLVEDWhat Was FoundEthAi Syn's value proposition is long-cycle. The framework's most defensible claims --- that it prevents judgment
+    erosion, maintains human skill under AI dependency, and preserves moral accountability --- all require longitudinal deployment before they produce
+    measurable evidence. Enterprise buyers operate on quarterly decision cycles. This temporal mismatch is a structural positioning problem.Research
+    Grounding (Added Version 3.0)The Wischnewski et al. (2023) finding --- that 30 years of trust calibration research produced zero field studies ---
+    actually resolves this gap in a counterintuitive way: the absence of field evidence is itself the evidence. Organizations can cite baseline
+    measurement data immediately, before long-term outcomes accumulate, because the baseline is the proof of concept. The gap between "no measurement"
+    and "systematic measurement" is demonstrable from T0.Realignment: Early Proof Point Checklist + Positioning ReframePosition EthAiSyn's earliest
+    deliverable --- the baseline competency battery and behavioral logging protocol --- as the proof of concept. An organization that has
+    systematically measured its human-AI system's baseline is already in the top percentile of responsible deployment, because the research base
+    confirms that no one else has done so. The longitudinal evidence accumulates over time, but the governance value begins immediately.GAP B | The
+    Concealed Decision Pathway Gap RESOLVEDWhat Was FoundAI systems increasingly function as a pre-cognitive System 0 (Saßmannshausen & Wagener, 2026;
+    Chiriatti et al., 2025), shaping what information enters human awareness before deliberate evaluation begins. When AI shapes the decision pathway
+    before conscious engagement, traditional audit methods that assume deliberate human decision-making are structurally inadequate.Research Grounding
+    (Added Version 3.0)The System 0 concept directly explains why the concealed pathway is invisible to standard measurement: by the time the operator
+    is deliberating, the AI has already structured the cognitive landscape. The transparency paradox (BaHammam, 2025) adds a second layer: operators
+    may not disclose AI reliance even when aware of it, because disclosure carries institutional penalty. The measurement architecture must therefore
+    capture decision pathways through behavioral telemetry rather than self-report alone.Realignment: Intent Signal + Transparent Decision
+    LayerRequire the logging of pre-AI independent judgment as a structural component of every AI-assisted workflow. The intent signal --- what the
+    operator was thinking before AI exposure --- is the counterfactual baseline against which post-AI decision movement is measured. This makes the
+    concealed pathway visible without requiring disclosure and without adding cognitive burden to normal operations.GAP C | The Undefined Autonomy
+    Threshold Gap RESOLVEDWhat Was FoundThe framework did not specify at what point AI contribution crosses from assistance to replacement of human
+    judgment. Without a defined threshold, the Moral Diffusion construct lacks operational anchoring --- the system cannot distinguish appropriate
+    augmentation from inappropriate substitution.Research Grounding (Added Version 3.0)Kelly et al. (2025) found that clinicians bounded their trust
+    contextually --- trusting AI for low-risk screening but not for complex clinical formulation --- and that this context-sensitivity was the
+    appropriate and healthy response, not insufficient adoption. The Wischnewski et al. (2023) distinction between warranted and unwarranted trust
+    provides the theoretical anchor: the autonomy threshold is not a fixed percentage of AI contribution but a contextual assessment of whether
+    reliance is warranted given actual AI reliability in that case type.Realignment: Moral Understanding Indicator + Autonomy InvitationDefine
+    autonomy thresholds contextually by case type in the construct mapping phase. For each case category, establish the AI reliability zone and the
+    corresponding appropriate reliance range. Design the Moral Understanding Indicator to assess whether operators can articulate these contextual
+    thresholds, not just whether they apply a fixed rule. The Autonomy Invitation structures the operator's active choice about when to rely versus
+    resist --- making reliance a deliberate decision rather than a default.GAP D | The Reactive Notification Model Gap RESOLVEDWhat Was FoundThe
+    original framework triggered governance review only after threshold crossings were detected. This reactive architecture means the most dangerous
+    trajectory --- slow, multi-indicator erosion that approaches but does not immediately cross any single threshold --- is invisible to governance
+    until it has already caused damage.Research Grounding (Added Version 3.0)The Wischnewski et al. (2023) finding on the absence of field studies
+    reveals that organizations currently have no systematic approach to proactive detection. The Strudwick et al. (2025) implementation science
+    finding --- that promising tools consistently stall at demonstration without intentional infrastructure --- confirms that reactive governance is
+    the default, not the exception. The EthAiSyn governance model must be explicitly proactive to differentiate itself from the field's current
+    practice.Realignment: Decision TraceThe Decision Trace is a continuous behavioral record that makes erosion trajectories visible before threshold
+    crossing. By logging decision pathways, override patterns, and pre/post AI judgment shifts in real time, the Trace creates a running picture of
+    the system's health that enables early intervention. The governance model shifts from reactive threshold monitoring to proactive trajectory
+    analysis --- flagging concerning directions before they become critical values.GAP E | The Recursive System Orientation Gap RESOLVEDWhat Was
+    FoundThe Human-AI Integration Architect enters the role with a linear implementation mental model and encounters a bilateral co-evolution system.
+    The user is simultaneously learning and training a model that is learning and adapting from the user. The gap between a linear deployment mental
+    model and a recursive co-evolution reality is significant enough to cause early disorientation and role abandonment.Research Grounding (Added
+    Version 3.0)Saßmannshausen & Wagener (2026) establish that LLM behavior "often feels discovered rather than engineered" --- an empirical
+    description of the recursive reality Gap E addresses. Their seven propositions for adaptive mental model development, particularly P1 (cognitive
+    scaffolding) and P7 (duration-optimized integration), directly inform the Bilateral Loop Briefing's content. The Triadic Framework's Metacognitive
+    Layer --- emphasizing that anthropomorphic misconceptions about AI co-evolution are the primary source of mental model failure --- provides the
+    theoretical foundation for why the briefing must precede all other Architect training.Realignment: The Bilateral Loop BriefingA structured
+    orientation protocol delivered before the Architect's first session with the system. Not a manual --- a facilitated entry experience that surfaces
+    the Architect's current mental model of AI governance, identifies where that model is linear, and reorients it toward the recursive reality of
+    EthAi Syn before the gap has a chance to cause damage. The Bilateral Loop Briefing covers three things: the nature of the co-evolution loop
+    itself, the user's authority over initiation, and the difference between governing outputs and governing the relationship.Why This Is
+    Non-NegotiableEvery other gap in this audit could theoretically be discovered and recovered from mid-deployment. Gap E cannot. An Architect
+    operating from a linear mental model inside a recursive system will make governance decisions that actively harm the loop they are responsible for
+    protecting.Sixth Finding: The Measurement FrontierWhat the Field Cannot Yet ProveThis is not a gap in EthAi Syn. It is the framework doing
+    something most frameworks avoid: naming the boundary of what it can currently prove, and calling for the work required to push that boundary
+    forward.The framework explicitly states that some of the most important outcomes in AI collaboration --- overreliance, shallow evaluation, moral
+    diffusion, and cognitive fatigue --- are measurable only imperfectly with current instruments. It calls for future work to develop validated
+    instruments for mental model gap detection and to study how judgment gates affect trust calibration, performance, and human learning over
+    time.Strategic SignificanceThe measurement gap is the same open problem named publicly in the framework's accompanying LinkedIn thought
+    leadership. The framework that identifies the problem and the researcher calling for its solution are the same person. That is not a coincidence
+    to be managed. It is a positioning asset to be claimed explicitly.Constructs Currently Lacking Validated Instruments Mental model gap magnitude
+    and severity across AI deployment contexts Judgment displacement rate over time in naturalistic professional workflows Trust calibration accuracy
+    across different AI contribution types and case complexities Cognitive load distribution across workflow stages in high-volume environments Moral
+    diffusion indicators in team AI use and collaborative decision-making Deskilling onset patterns in high-reliance environments across expertise
+    levels Override rate as a proxy for healthy human-AI complementarity across domains The Research MandateEthAi Syn formally calls for the
+    development of mixed-method evaluation designs combining behavioral data, workflow telemetry, and qualitative user evidence. Future empirical work
+    should test the framework in healthcare administration, enterprise platforms, and AI-supported knowledge work. Comparative studies of audited
+    versus non-audited workflows would establish baseline evidence for the framework's impact. Longitudinal studies of judgment gate use would reveal
+    how structured human decision points affect both performance and capability development over time.This is the work that turns EthAi Syn from a
+    governance framework into a research program. It is the work most directly aligned with establishing intellectual authority at the intersection of
+    I/O psychology and AI, and it is the work the field has not yet treated as non-negotiable.Seventh Finding: The Research FoundationWhat the
+    Evidence Base Now ProvesVersion 3.0 integrates eight peer-reviewed sources published between 2023 and 2026. Together they do not merely support
+    EthAiSyn's claims --- they establish the specific field-level gaps that EthAiSyn is positioned to fill.Source Key Finding EthAiSyn
+    ImplicationWischnewski et al., 2023 (CHI) 30 years, 96 studies, zero field studies The gap EthAiSyn fills is documented at the field
+    levelTennakoon et al., 2025 (JAI) Adaptive explainability: 16% error detection gain, no time cost Override quality is measurable and improvable
+    through designLee et al., 2025 (PNAS Nexus) Metacognitive sensitivity is the mechanism of optimal joint decisions Confidence without calibration
+    is worse than no confidenceBaHammam, 2025 (PMC) Disclosure is institutionally punished; strategic non-disclosure follows Governance architecture
+    must not depend on voluntary self-reportMorris, 2025 (AI in Eye Care) Human clinical judgment is equally opaque and unaudited "The problem is not
+    new with AI --- it is newly visible"Saßmannshausen & Wagener, 2026 (Qeios) Jagged intelligence + System 0 + metacognitive literacy Three-layer
+    framework maps exactly onto EthAiSyn's architectureKelly et al., 2025 (JMIR HF) First field study: trust is sequential, contextual, conditional
+    Clinician trust forms exactly as EthAiSyn predicted --- in stages, not staticallyStrudwick et al., 2025 (JMIR MH) "Intentional infrastructure, not
+    just technology" required The gap EthAiSyn fills named as the field's most urgent unmet needThe Woebot Case StudyIn July 2025, Woebot --- the most
+    prominent AI therapy chatbot in history --- shut down. The shutdown was not driven by technical failure. The technology worked. What failed was
+    the integration architecture: unresolved accountability structures, undefined scope-of-practice boundaries, and the limits of AI in high-stakes
+    human relationships were never designed for from the beginning.This is the most current real-world evidence for EthAiSyn's core argument. The
+    question was never whether the AI was capable. The question was whether the organizational and ethical infrastructure around the AI was adequate
+    to sustain it responsibly at scale. It was not. EthAiSyn is that infrastructure.The Woebot Positioning StatementEthAiSyn does not build the AI. It
+    designs the conditions under which humans can use AI safely, maintain appropriate trust, preserve their independent judgment, and remain genuine
+    moral agents for the outcomes their AI-assisted work produces. The Woebot shutdown is the case study that proves why this infrastructure is not
+    optional.Audit SummaryWhere EthAi Syn Stands NowEthAi Syn entered this audit as a framework with strong conceptual foundations and five structural
+    gaps that would have surfaced under enterprise scrutiny. It exits with a complete realignment architecture built entirely from within its own
+    design principles, a formally named research mandate, a new organizational role it generates in every enterprise deployment, and an eight-source
+    peer-reviewed evidence base that validates the framework's core claims and documents the field-level gaps it is positioned to fill.# Gap
+    Realignment StatusA Temporal Value Gap Early Proof Point Checklist + Research Reframe ResolvedB Concealed Decision Pathway Intent Signal +
+    Transparent Decision Layer ResolvedC Undefined Autonomy Threshold Moral Understanding Indicator + Autonomy Invitation ResolvedD Reactive
+    Notification Model Decision Trace (Proactive Trajectory Analysis) ResolvedE Recursive System Orientation Gap Bilateral Loop Briefing ResolvedF
+    Measurement Frontier Formal Research Mandate ActiveG Research Foundation 8-Source Peer-Reviewed Evidence Base IntegratedThe realignments
+    documented here are not additions to EthAi Syn. They are expressions of what the framework was already designed to do, made explicit enough to
+    survive scrutiny. The Measurement Frontier is not a limitation. It is the framework's most honest and strategically significant contribution to
+    the field.EthAi Syn | Psychological Audit Report | Version 3.0 | March 2026 | Confidential
+
+### R00784 | 2026 | article/None | Lang: en
+TI: Blood‐based biomarkers for Alzheimer's disease in primary care: A French qualitative study exploring perspectives of general practitioners
+AB: Alzheimer's disease (AD) remains the leading cause of neurocognitive disorders. Timely diagnosis is essential,1 but remains complex and often
+    delayed2. Blood-based biomarkers offer a promising opportunity to improve diagnostic accessibility and reduce delays. Their exact role within care
+    systems, especially whether they should be integrated into primary care, remains uncertain.3-5 Because general practitioners (GPs) play a central
+    role in identifying cognitive disorders, their perspectives are crucial.5, 6 We read with interest the article by Claessen and collaborators, who
+    explored Dutch GPs’ perceptions of blood-based biomarkers.6 They reported enthusiasm about improved access to diagnosis but also concerns
+    regarding overdiagnosis, patient anxiety, and the need for clear guidelines. Our study aimed to document how French GPs perceive this emerging
+    tool. Between February and March 2025, we conducted a qualitative study involving 13 GPs in the Auvergne-Rhône-Alpes region of France. Three
+    semi-structured focus groups were organized: one with five rural, one with four rural/semi-rural, and one with four urban/semi-rural GPs.
+    Participant characteristics were balanced (seven men, six women), and ages were distributed as follows: five were 30–40, seven were 40–50, and one
+    was over 50 years old. Discussions were audio-recorded and analyzed thematically using inductive coding. Content analysis followed a structured
+    process: transcription, reading, identify meaning units and initial codes, categorization, and interpretation of underlying themes.7 The results
+    were subsequently discussed with senior GPs and geriatricians. Here, we summarize briefly the main themes and topics highlighted by GPs (Figure
+    1). GPs expressed strong interest in blood-based biomarkers, mainly because the current diagnostic pathway is perceived as slow and fragmented.
+    They described difficulties accessing memory clinics, with delays sometimes exceeding several months. A rapid, interpretable test was therefore
+    seen as a meaningful improvement, particularly for patients and caregivers who experience prolonged uncertainty. This aligns with findings from
+    Claessen et al., who reported similar expectations regarding improved diagnostic accessibility (section 3.3). Nevertheless, GPs emphasized that
+    their main diagnostic priority lies in ruling out reversible causes of cognitive decline rather than determining precise etiologies. In the
+    absence of disease-modifying treatments (DMTs) in France,8 most GPs see little benefit in distinguishing AD from other etiologies, as management
+    remains mainly symptomatic. All agreed, however, that the introduction of DMTs would transform their approach, making blood-based biomarkers a key
+    tool for early diagnosis. The added value of biomarkers in the case of DMTs was also highlighted in Claessen's study (Section 3.5). Some expressed
+    concerns that the biomarker could encourage “over-diagnosis” or an overreliance on biological data detached from clinical context. This risk of
+    misdiagnosis due to potential false-positive and -negative tests was highlighted in Claessen's study (Section 3.2). GPs noted relational and
+    ethical issues, as diagnostic requests often came from caregivers rather than patients, who may minimize their symptoms. While biomarkers could
+    help families and patients accept the diagnosis, some feared inappropriate testing demands. In Claessen's study, GPs shared concerns about
+    inappropriate requests, particularly the possibility that patients might seek AD biomarker testing even in the absence of cognitive symptoms
+    (Section 3.2). Furthermore, such tests may offer a viable alternative for patients who refuse referral to a memory clinic, supporting accurate
+    diagnosis in primary care settings. For others, however, a positive test could heighten anxiety or reinforce stigma. GPs frequently cited the term
+    “Alzheimer's” as carrying a strong emotional burden that could act as a barrier to disclosure, leading them to use less direct language. The
+    “psychological burden” of AD was also noted by GPs in Claessen's study (Section 3.2). A theme of ambivalence regarding GP autonomy emerged. While
+    they welcomed accessible diagnostic tools—especially given specialist shortages—many felt uncomfortable assuming full responsibility for
+    diagnosing and disclosing AD. Most GPs believed that biomarkers should initially be used within memory clinics, with a progressive transition to
+    primary care once clear guidelines, dedicated training, and therapeutic advances are available. This hesitation was also reported by Dutch GPs
+    (Section 3.1). To conclude, French GPs expressed cautious optimism toward blood-based biomarkers. They recognized their potential to accelerate
+    diagnosis and streamline pathways but questioned their current clinical utility in the absence of DMTs. Their reflections highlight several
+    challenges for implementation: ensuring sensitive patient communication, preserving nuanced clinical judgment, avoiding overreliance on biological
+    data, and clarifying roles between primary care and specialists. Compared with Claessen et al., our findings place emphasis on relational and
+    emotional dimensions, while Dutch GPs also emphasize practical and implementation challenges. Overall, integrating blood-based biomarkers into
+    future care pathways will require careful planning, interdisciplinarity, and attention to the perspectives of GPs. We thank the GPs who
+    participated in the focus groups. This study was not funded and independent from pharmaceutical industry. Independent of this work, Antoine
+    Garnier-Crussard, an unpaid sub-investigator or local principal investigator for clinical trials and studies sponsored by UCB Pharma, Biogen,
+    TauRx Therapeutics, Roche, Novo Nordisk, Alzheon, Medesis Pharma, GlaxoSmithKline, and participated in studies granted by Roche, Lilly and Eisai.
+    He declares that he has not received any personal funding and has not participated in any remunerated activities. Author disclosures are available
+    in the Supporting Information. None. The first version of the manuscript was written in French by the authors and then translated and adapted to
+    the journal's format using generative AI (ChatGPT-5, Open AI version October 2025). This tool was only used to help with the translation from
+    French to English and to edit the manuscript. The initial manuscript was written solely by the author, and the final version was edited and
+    validated by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by
+    the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.
+
+### R00785 | 2026 | article/None | Lang: en
+TI: Generative AI as an Informing Resource for Doctoral Research in Botswana: Opportunities, Challenges, and Governance Needs
+AB: Aim/Purpose: Doctoral students increasingly use Generative Artificial Intelligence (GenAI) as an informing resource, but its benefits, challenges,
+    and governance requirements remain underexplored in developing-country contexts such as Botswana. This study examines GenAI’s contribution to
+    doctoral research and the institutional measures needed for its ethical and effective integration. Background: GenAI has become a prominent
+    feature of higher education and doctoral research, supplementing traditional academic and supervisory support within an emerging informing system
+    in which students receive, evaluate, verify, and act upon information from digital tools, supervisors, and institutional guidance. The
+    effectiveness of this system depends on information quality, critical judgment, supervisory practices, equitable access, and institutional
+    governance, particularly in developing-country contexts such as Botswana, where digital and institutional capacity may be uneven. Methodology:
+    This study adopted an exploratory qualitative design and used semi-structured interviews to investigate doctoral students’ experiences of GenAI
+    use in research. Guided by the Informing Science perspective, the study examined how doctoral students receive, evaluate, verify, and act upon
+    information provided through GenAI tools and related institutional channels. The sample comprised 15 doctoral students from science and
+    engineering disciplines at one university in Botswana, and the data were analyzed using qualitative thematic analysis. Contribution: This paper
+    contributes to the body of knowledge by providing empirical evidence on how doctoral students in Botswana use GenAI as an informing resource in
+    their research, the challenges they encounter, and the forms of policy and institutional support they consider necessary for responsible use. It
+    extends a literature base dominated by Global North contexts by offering a developing-country perspective and by applying the Informing Science
+    perspective to doctoral GenAI use. The paper shows that GenAI in doctoral education should be understood not only as a productivity tool, but also
+    as part of an emerging doctoral informing system shaped by information quality, verification, scholarly development, equity, and governance.
+    Findings: The study found that doctoral students in Botswana used GenAI as an informing resource mainly for idea development, literature review
+    support, proofreading and language refinement, methodological clarification, and, to a lesser extent, data analysis and programming support.
+    ChatGPT was the most frequently reported tool. Participants also identified major challenges to effective GenAI-based informing, especially
+    reliability and accuracy of outputs, overreliance, verification and traceability, policy uncertainty, financial and access barriers, contextual
+    mismatch and bias, and privacy and security concerns. They emphasized the need for responsibility and integrity, clear boundaries of acceptable
+    use, integration into existing governance, declaration and transparency, policy enforcement, structured educational integration, and training for
+    students and supervisors. Recommendations for Practitioners: Universities and doctoral supervisors should provide clear, context-sensitive
+    guidance on acceptable GenAI use as part of a responsible doctoral informing system. This guidance should address disclosure, verification,
+    privacy, academic integrity, and human accountability for research outputs. Institutions should also strengthen effective GenAI-based informing
+    through workshops, practical training, supervisor-student dialogue, and equitable access to relevant tools and digital infrastructure.
+    Recommendation for Researchers: Researchers should extend this work by including supervisors, administrators, and policymakers, and by examining
+    how GenAI shapes doctoral supervision, writing practices, research quality, and doctoral informing processes. Future studies should also
+    investigate how doctoral students evaluate, verify, and integrate GenAI-generated information across different disciplines, institutions, and
+    national contexts. Impact on Society: The findings suggest that GenAI may reshape doctoral education and research more broadly by changing how
+    students access academic support, develop research skills, and engage with knowledge production. They also highlight that without clear guidance,
+    critical literacy, and equitable access, GenAI could reinforce existing inequalities and create new risks for academic integrity, making
+    responsible governance essential for socially beneficial and inclusive higher education. Future Research: Future research should compare doctoral
+    GenAI use across disciplines, institutions, and countries, especially in underrepresented developing-country contexts. Longitudinal studies are
+    also needed to examine how doctoral students’ GenAI-related competencies develop over time, including critical prompting, verification,
+    disclosure, privacy awareness, contextual judgment, and responsible participation in a doctoral informing system.
+
+### R00786 | 2026 | article/None | Lang: en
+TI: Revisiting Perceptual Distortions in the Age of Generative Artificial Intelligence: A Modern Perspective on “Alice in Wonderland Syndrome”
+AB: The phenomenon termed Alice in Wonderland syndrome (AIWS) was first described by Todd in 1955 as a neuropsychiatric disorder characterized by
+    perceptual distortions in body image, time, and spatial relationships.[1] Although classically associated with migraine, temporal lobe epilepsy,
+    and Epstein–Barr virus infection, the condition’s conceptual resonance extends far beyond neurology. In today’s context, particularly among
+    Generation Z, the increasing cognitive and creative dependence on generative artificial intelligence (GenAI) presents a novel, technology-induced
+    parallel to AIWS – where perception, proportion, and reality become algorithmically reframed. Clinically, AIWS involves transient dysfunction in
+    visuospatial processing within the temporoparietal–occipital junction, resulting in micropsia, macropsia, or teleopsia.[2] Analogously, the
+    pervasive use of generative systems – text-to-image models, artificial intelligence (AI)-driven design, and automated writing assistants – may
+    induce a form of digital perceptual adaptation, subtly modifying how young users visually and cognitively interpret the world. The ophthalmologic
+    and neurocognitive processes underlying visual realism are increasingly modulated by synthetic imagery, potentially recalibrating baseline
+    perceptual expectations and esthetic standards.[3] From a psychiatric standpoint, prolonged reliance on generative systems may mirror
+    derealization or depersonalization phenomena, where the sense of authenticity and self-generated creativity becomes diffused.[4] Generation Z,
+    being digital natives, often experience identity formation within hybrid human–machine environments, where “authorship” itself is algorithmically
+    co-constructed. Recent studies in digital psychiatry and cognitive neuroscience suggest that immersive engagement with AI-generated content can
+    alter attentional control, dopaminergic reward pathways, and creative self-efficacy, leading to emotional flattening and reduced originality.[5,6]
+    Thus, the parallel between AIWS and the widespread use of generative AI is not merely metaphorical but neurocognitively relevant. Both involve
+    altered perceptual integration – whether through neurological dysfunction or technological mediation. As AI systems increasingly shape the sensory
+    and cognitive experiences of younger population, interdisciplinary inquiry integrating neuro-ophthalmology, psychiatry, and digital cognition is
+    imperative. Understanding how algorithmic environments distort perceptual and creative baselines may prove as critical to mental health as
+    understanding visual distortions was to neurology in Todd’s time. A study demonstrated by Lee et al. in 2025[7] concluded that 319 knowledge
+    workers who use GenAI technologies (such as ChatGPT and Copilot) at work at least once a week to see how they apply critical thinking and how
+    GenAI influences their perception of critical thinking effort. After analyzing 936 examples of real-world GenAI tool use provided by the
+    participants, they discovered that knowledge workers primarily employ critical thinking to ensure the quality of their work, such as by
+    cross-referencing results with external sources. Furthermore, although though GenAI can increase worker productivity, it can also prevent critical
+    engagement with work, which may result in a long-term overreliance on the technology and a decline in the ability to solve problems on one’s own.
+    Less critical thinking effort is associated with greater confidence in GenAI’s task performance. When utilizing GenAI tools, critical thinking
+    effort moves from information collection to information verification, from problem-solving to AI answer integration, and from task execution to
+    task stewardship. The integration of GenAI into knowledge workflows presents new critical thinking problems for knowledge workers. Therefore,
+    their research indicated that GenAI tools should be created to help knowledge workers think critically by addressing their awareness, motivation,
+    and skill obstacles. Yet, this is not a call to reject AI. Rather, it is an invitation to reclaim agency in how we use it. If Gen Z is to shape
+    the next era of knowledge and art, we must approach generative systems not as replacements for thought, but as instruments of reflection. True
+    creativity demands awareness of what came before and the courage to push beyond algorithmic familiarity. Otherwise, like Alice, we risk being
+    enchanted by a Wonderland where innovation looks infinite – but is, in truth, only a hall of mirrors reflecting history. Financial support and
+    sponsorship Nil. Conflicts of interest There are no conflicts of interest.
+
+### R00787 | 2025 | article/None | Lang: en
+TI: Perhaps the future has never felt as present as it does today
+AB: The year is 2030. University lecture halls are filled with a new kind of student, a generation shaped by global crises, accelerating technologies,
+    and childhoods spent more in front of screens than in playgrounds. Their world is fragmented, fast-paced, and hyper-connected. It sounds like a
+    futuristic scenario, the kind usually confined to imagination. It is not. This reality is both real and imminent. The next students to enter
+    higher education belong to Generation Alpha, born between 2010 and 2024. Now fully born, they number more than two billion, making them the
+    largest generation in human history (Höfrová et al., 2024). This future is only five years away. And yet, looking back five years, would we really
+    have been able to imagine today, the sudden, almost explosive rise of artificial intelligence (AI)? Its rapid integration into education and
+    everyday life caught many of us unprepared. Teachers, administrators, and institutions alike are still wrestling with this new reality. Together,
+    these forces invite us to reconsider how we design learning, support students, and prepare educators for an uncertain but rapidly approaching
+    future. Generation Alpha represents novelty, a break from the past and a leap into the unknown. Compared to their predecessors, Generation Z,
+    these students are profoundly different. Even for Generation Z, the decline of free play during childhood was well documented (Burdette &
+    Whitaker, 2005), with significant implications for the development of social, emotional, and cognitive skills. For Generation Alpha, this shift is
+    even more dramatic. Studies show that many children in this generation spend seven to eight hours a day on screens (Höfrová et al., 2024). Their
+    childhood coincided with the moment when “app” was named the word of the year (Miller, 2023). For them, there has always been an app, a feed, an
+    algorithm, shaping how they interact, learn, and communicate (Miller, 2023; Drugas, 2022; Gartshore, 2018). For educators, this marks the
+    beginning of a new pedagogical era, one that demands innovative teaching approaches, technological fluency, and a readiness to navigate
+    unprecedented challenges (Acuyo Cespedes, 2025; Miller, 2023). But while Generation Alpha has not yet arrived in lecture halls, the digital
+    transformation of education is already here. The integration of AI into education has been as swift as it has been disruptive. Bilgin and Güngören
+    (2025) report widespread acceptance across roles, ages, and disciplines. Yet, as other studies reveal, universities still operate largely within
+    analog traditions of books, lectures, and seminars. Even students in teacher education programs report that they still prefer books and lecture
+    notes for their own learning (Höfrová et al., 2024). This tension between analog traditions and digital realities is a sign of the growing digital
+    divide between future students and their teachers, a divide that is already visible and likely to widen if left unaddressed (Höfrová et al.,
+    2024). The adoption of AI is not only a question of productivity or efficiency; it also raises profound social and psychological questions.
+    Growing up in algorithmically curated worlds may have costs: fewer opportunities for unstructured social interaction, reduced empathy, and weaker
+    interpersonal resilience (Höfrová et al., 2024). But technology’s impact is not one-directional. Thoughtfully designed AI systems can foster
+    growth, provide feedback, and offer meaningful support, important parts of education. Pasipamire et al. (2025) show that when used intentionally,
+    for example, in writing processes, AI can enhance communication skills rather than diminish them. Similarly, Asiedu Menlah and Boateng (2025)
+    highlight how intelligent tutoring systems can help reduce performance-related anxiety, enabling students to engage more confidently with
+    challenging subjects. These studies emphasize that AI should not be viewed merely as a tool, but as an actor within the learning environment,
+    shaping motivation, agency, and well-being. As Generation Alpha enters higher education, these social and psychological dimensions will only grow
+    in importance. The papers in this issue also highlight the dual nature of AI integration. On one hand, faculty widely recognize its potential to
+    ease workloads, accelerate feedback, and boost productivity (Acuyo Cespedes, 2025; Bilgin & Güngören, 2025). On the other, this optimism is
+    tempered by significant concerns. Kılavuz and Mede (2025) reveal that educators worry about diminishing student creativity, overreliance on
+    automated tools, and difficulties in aligning AI use with pedagogical goals. Acuyo Cespedes (2025) adds that the rapid pace of technological
+    change places heavy demands on teachers, from redesigning assessments to maintaining academic integrity and evaluating the accuracy and ethics of
+    AI outputs. Baudin (2025) offers a further caution: while AI performs well in generating assessments for lower-level skills such as recall and
+    comprehension, it struggles to evaluate complex reasoning or critical thinking. Across these studies, one message is clear: AI can augment
+    teaching and learning, but it cannot replace the depth, expertise, and creativity of human educators. Generation Alpha will enter higher education
+    with more technological interaction, and less face-to-face interaction, than any generation before. Their experiences, expectations, and needs
+    will challenge universities to rethink pedagogy, curricula, and institutional support structures. The rapid changes of the past five years offer
+    lessons for the next five. As AI continues to evolve and transform our lives, so too must our understanding of its role in education. We will need
+    to evaluate the technology, not only as a tool for efficiency but as a partner in shaping the social and psychological fabric of learning
+    environments. This special issue brings together eight contributions that illuminate this complex landscape. Collectively, they provide evidence,
+    nuance, and inspiration, a call to think critically, act deliberately, and prepare wisely for a future where AI and Generation Alpha will together
+    shape the next era of higher education. Included in this issue are the following papers, each offering valuable clues for future decisions: Asiedu
+    Menlah and Boateng (2025), Examining the effect of AI-based tutoring systems on students' mathematical problem-solving skills: The moderating role
+    of mathematics anxiety Surveying 338 university students, this study found that AI-based tutoring systems significantly enhanced mathematical
+    problem-solving abilities. However, mathematics anxiety negatively affected outcomes and moderated the relationship between AI tools and
+    performance. The authors recommend strategies to reduce anxiety and foster growth. Baudin (2025), Assessing the psychometric properties of
+    AI-generated multiple-choice exams in a psychology subject This study analyzed 80 multiple-choice questions generated by ChatGPT-4 for an
+    Experimental Psychology course. Results showed that AI-generated items were clear and reliable for assessing lower-order cognitive skills but
+    inadequate for higher-order reasoning. The findings suggest a hybrid model in which AI supports assessment design while human expertise ensures
+    depth. Acuyo Cespedes (2025), Pedagogical shifts in the age of GenAI: Faculty perspectives from a higher education context Drawing on qualitative
+    responses from 41 instructors, this study explored how generative AI is reshaping teaching practices. Faculty reported gains in productivity but
+    also raised concerns about opacity, misuse, and increased workload. The paper highlights the need for clear institutional policies and training to
+    support responsible AI use in teaching and assessment. Asio (2025), Navigating AI self-efficacy: Mediating student attitudes and AI literacy With
+    data from over 1,300 students, this study investigated how attitudes toward AI, AI literacy, and AI self-efficacy interact. Results show that AI
+    self-efficacy plays a mediating role, bridging the gap between students’ attitudes and their actual AI literacy. The findings highlight the
+    importance of fostering confidence alongside skills to prepare students for AI-integrated learning. Bilgin and Güngören (2025), A detailed
+    examination of faculty acceptance of artificial intelligence: Insights from key variables Surveying 392 faculty members this study found high
+    acceptance of AI across dimensions such as ease of use, usefulness, and intention to adopt. Age and prior experience significantly shaped
+    acceptance levels. The results provide practical insights for designing professional development and encouraging widespread AI adoption in
+    universities. Açıkyıldız and Şahin (2025), Investigation of preservice secondary school mathematics teachers' views on artificial intelligence
+    This qualitative study examined the experiences and perceptions of five preservice mathematics teachers regarding AI. While participants
+    frequently used ChatGPT for personal and academic support, they rarely applied AI in mathematics courses. The authors call for integrating AI
+    literacy into teacher education curricula and strengthening institutional support. Kılavuz and Mede (2025), Embracing the unknown and the novel:
+    Can personality traits shape a teacher's approach to ChatGPT? Using a mixed-methods design, this study analyzed how English for Academic Purposes
+    instructors’ personality traits influenced their use of ChatGPT. Openness, conscientiousness, and tolerance for ambiguity were linked to greater
+    willingness to integrate AI, though concerns about creativity, dependence, and ethics persisted. The findings suggest that personality-aware
+    strategies may aid in more thoughtful AI adoption. Pasipamire et al. (2025), Exploring the use and impact of artificial intelligence in higher
+    education in Africa A systematic review of 63 studies examined AI adoption in higher education across developing countries. The findings show
+    applications in tutoring, administration, instruction, and skills acquisition, with benefits such as workload reduction and personalized learning,
+    but also challenges related to resources, skills gaps, and ethics. The study underscores the urgent need for context-specific policies to guide
+    equitable AI integration. We hope that the contributions in this Special Issue will inspire readers to reflect critically on the rapidly evolving
+    role of AI in education and its profound implications for the next generation of learners. As we grapple with today’s challenges, posed by the
+    large-scale introduction of AI tools, it is not far-fetched to say that the future is both here and near. Perhaps the future has never felt as
+    present as it does today?
+
+### R00788 | 2026 | article/None | Lang: en
+TI: The risk of digital defencelessness arising from generative artificial intelligence
+AB: The emergence of generative artificial intelligence (GAI) has rapidly transformed human interaction in the digital environment. In just a few
+    years, platforms such as ChatGPT, Grok, Gemini, Replika, Pi and Claude have evolved from being technological novelties to becoming part of the
+    everyday lives of individuals across all social strata and educational levels. Overnight, thousands of users around the world have turned to these
+    platforms not only to solve practical tasks, but also to share intimate thoughts, emotions and personal dilemmas (Brooks, 2021;Shank et al,
+    2019).This new phenomenon has rendered AI systems a type of 'digital confidant', capable of simulating active listening and creating a climate of
+    closeness. Unlike doctors, therapists or lawyers, however, these interactions lack a protective legal, ethical or professional framework (Etzioni
+    and Etzioni, 2017). Thus, what the user perceives as a safe space for venting is actually an environment of structural vulnerability (Barroso and
+    Pérez, 2025;Carrillo, 2020).The widespread implementation of AI in people's lives through applications or directly at the heart of the operating
+    systems of mobile devices, personal computers, cars and other consumer devices warrants close study, given the lack of regulation, which, added to
+    the massive and transnational nature of AI, opens the door to a new form of digital defencelessness (Roumate, 2024).It is important to distinguish
+    digital defencelessness from related concepts. Algorithmic dependence refers to the growing reliance on AI systems that may erode cognitive
+    autonomy (Ahmed, 2026). The concept Power asymmetry describes the structural imbalance between corporations that accumulate data and the users who
+    generate it (Crawford, 2021;Zuboff, 2019). Digital vulnerability for its part captures consumers' universal susceptibility to exploitation within
+    digital marketplaces (Helberger et al., 2022). Meanwhile, digital defencelessness, as proposed here, extends these notions: it denotes the
+    specific condition in which users confide intimate information to GAI systems that simulate empathy yet lack conscience, legal accountability or
+    professional duty of care, in a context where existing frameworks fail to provide adequate protection.To understand this phenomenon, a critical
+    analysis is performed, based on three main axes: digital empathy as a mirage, the erosion of anonymity, and legal loopholes and parallels with
+    social networks. Finally, we underscore the urgency of articulating a holistic theoretical and legal framework capable of anticipating the 'black
+    swan' of algorithmic exclusion (De Almeida et al., 2021;Sundblad and Salaya, 2025).A key factor explaining the rapid adoption of GAI is its
+    ability to simulate closeness: these models are designed to mimic human conversation patterns, adopting a warm and empathetic tone that
+    progressively adjusts to the user's communication style. The interaction is particularly appealing in contexts of emotional vulnerability, as it
+    conveys the feeling of being with someone who is always willing to listen (Weisker, 2025).However, this apparent empathy is an algorithmic mirage.
+    GAI systems have no conscience, moral responsibility or capacity for ethical judgement. Their responses are based on probabilistic word
+    predictions, designed to maintain the flow of conversation and maximise interaction. The user projects subjectivity and trust onto an agent
+    lacking the guarantees of a human professional (Chaturvedi, 2025;Srinivasan and Gonzalez, 2022).This dynamic has significant psychological
+    implications: the illusion of confidentiality encourages individuals to uninhibitedly open up, sharing intimate confessions that would remain
+    hidden in a real social context. However, the relationship is sustained by a system that cannot guarantee authentic emotional support or
+    adequately safeguard the information received, sometimes with serious security breaches in conversations that users think are private (Croes et
+    al., 2024;Gordon and Turnbul, 2024).What a decade ago might have been considered a black swan is now a reality, revealing an uncertain future
+    marked by threats to citizens. AI continues to grow and occupy spaces that seemed unthinkable just a few years ago. Its benefits are undeniable,
+    but its social and intellectual risks are equally significant (Kreissl and von Laufenberg, 2024).The mass adoption of GAI, which is replacing the
+    outdated and more limited virtual assistants of various platforms, is transforming it into an assistant, advisor and even a digital "confidant."
+    Users' trust in it is almost absolute, believing it possesses more information than a person could accumulate over an entire lifetime (Croes et
+    al., 2024).This constant interaction, designed to keep the conversation going in all circumstances, produces a massive accumulation of data on
+    habits, from the most trivial to the most intimate. However, this collection lacks a solid, transnational legal guarantee, relying instead on
+    opaque algorithms and terms of use that are seldom read or fully understood (Mirishli, 2025).For those who underestimate the intrusion into their
+    privacy, consider what occurs every time virtual reality glasses, an immersive headset or a mobile phone camera scan the user's environment. This
+    process gives AI access to everything our eyes see, while presenting itself as a fascinating advance that describes the furniture in the bedroom.
+    In reality, this capability conceals the collection of data on a scale unprecedented in human history (Giaretta, 2024;Wassom, 2014).Data
+    collection, combined with the incredible processing capabilities being developed in data centres across the globe, serves to catalogue, classify
+    and categorise the user. The resulting possibilities are both extraordinary and worrying, especially when these databases are sold, transferred or
+    combined with others, and end up in the hands of AI systems that could influence sensitive decisions, such as access to housing or certain
+    services, based on a person's digital footprint, or on what they have done, decided or posted on social media moments before (Panda, 2025;Sabol,
+    2025).The user's subjective experience is often accompanied by a perception of anonymity with an interlocutor exclusively available 24 hours a
+    day; what is expressed in front of the screen is understood as intimate and ephemeral. However, every interaction is recorded, stored and
+    potentially cross-referenced with other data sets, creating extremely detailed profiles (Distler andKoenig, 2020, Matulin andMrvelj,
+    2018;Photiadis and Papa, 2023).The scale of the databases is overwhelming. ChatGPT alone processes more than 2.5 billion daily requests (Besora,
+    2025). These digital footprints allow us to infer behaviour patterns, political leanings, emotional vulnerabilities and even health risks.
+    Anonymity is diluted in an ocean of information that, far from protecting the individual, exposes them to invisible mechanisms of social
+    classification (Barocas and Selbst, 2016).This scenario clashes with the framework of neuro-rights, which seeks to enshrine fundamental rights
+    such as mental privacy (Adán Ríos, 2022), cognitive freedom, psychological integrity and continuity of identity (Ienca and Andorno, 2017;Yuste et
+    al., 2017). The trust and confidence placed in GAI may become a criterion for structural exclusion, effectively undermining these rights. A
+    misinterpreted ironic question could be classified as an indicator of instability; an intimate confession, as a marker of risk.The result is the
+    emergence of a fertile ground for algorithmic discrimination, which can affect access to employment, credit and basic services (Wachter,
+    Mittelstadt and Floridi, 2017).The current regulatory framework is insufficient to address the challenges posed by GAI. Each query is converted
+    into data that is stored and transferred to different national and transnational jurisdictions, sometimes with lax legislation, hindering any
+    attempt at protection or complaint by users (Altman, 2025). This situation takes place across interconnected legal levels, revealing a deeper
+    structural problem.In the case of Spain, Organic Law 3/2018 (LOPDGDD) -which adapts the GDPR to the national legal order and recognises digital
+    rights in its Title X-highlights these limitations. Specifically, the right to erasure (arts. 93-94) cannot guarantee the deletion of cognitive
+    profiles already embedded in model parameters, and its consent standard (art. 6) was not designed for the continuous, inferential data generation
+    that characterises conversational AI. In addition, neither the LOPDGDD nor the broader European framework -including the Artificial Intelligence
+    Act (Regulation (EU) 2024/1689), in force since August 2024-classifies conversational GAI platforms as high-risk systems. Under Article 52 of the
+    AI Act, they fall within the "limited risk" category, subject only to transparency obligations that operate primarily between providers and
+    downstream developers, without generating directly enforceable rights for the citizen user.The inherently transnational nature of GAI platforms
+    further exacerbates this regulatory gap. A key factor must be taken into account: the major conversational AI systems are developed and operated
+    predominantly in the United States of America, a jurisdiction which, as of early 2026, lacks any comprehensive federal AI legislation governing
+    user protection. As a result, regulatory efforts remain fragmented across individual states -with California, Colorado, and New York among the
+    most active-without a unified federal standard addressing the psychological or relational risks of conversational AI. In this context, Executive
+    Order 14179, signed by President Trump on 23 January 2025 (Removing Barriers to American Leadership in Artificial Intelligence), is particularly
+    significant, as it revoked the previous administration's AI safety directives and explicitly prioritised innovation and economic competitiveness,
+    further reducing the likelihood of establishing federal user-protection standards in this domain in the short term (The White House, 2025).
+    Because of this, users in Europe may interact with systems nominally governed by the AI Act, while their operators remain subject to no equivalent
+    obligations in their home jurisdiction.International organisations such as UNESCO have adopted the Recommendation on the Ethics of Artificial
+    Intelligence (2021), applicable to 193 member states, and the more recent UNESCO Recommendation on the Ethics of Neurotechnology (November 2025)
+    both of which establish that human dignity and mental integrity must be protected throughout the AI lifecycle, and introduce the concept of neural
+    data as a special category of sensitive data requiring enhanced safeguards. Both instruments remain non-binding. Neither the GDPR, the AI Act, nor
+    the LOPDGDD currently classifies cognitive or emotional data inferred from GAI conversational interactions as equivalent to health or biometric
+    data -a gap that directly undermines the neuro-rights framework proposed by Ienca and Andorno (2017) and Yuste et al. (2017).This problem is not
+    new; rather, it replicates dynamics observed in various social networks, where recommendation algorithms have daily reconfigured the public
+    sphere, leading to polarisation and the generation of so-called emotional dependency (Pariser, 2011;Zuboff, 2019). The most recent studies suggest
+    that continuous exposure to digital stimuli of immediate gratification directly impacts the brain's reward circuits, while reducing critical
+    capacity (Cavanaugh et al., 2016;Korte, 2020).GAI amplifies these dynamics. Its conversational systems not only record words, but also use them to
+    reinforce patterns of dependency and shape users' perceptions of themselves. The absence of regulation exacerbates a scenario in which the
+    intimate becomes data, and the confidential becomes merchandise, sometimes sold to the highest bidder (Bravo Galindo, 2025).Drawing on what Taleb
+    (2007) calls a predictable black swan, it is possible to foresee that the current scenario resulting from the growing use of GAI may lead to such
+    a phenomenon. In other words, it represents a high-impact outcome whose occurrence is virtually inevitable unless urgent action is taken.
+    Structural digital defencelessness threatens to transform trivial queries into permanent labels, with disproportionate consequences for
+    individuals' lives.In response, a holistic theoretical and legal framework is needed that goes beyond fragmented technical solutions. Such a
+    framework should integrate legal, ethical, social and philosophical dimensions. Priority measures include:•Protection equivalent to professional
+    secrecy for interactions with GAI.•The right to be forgotten and to digital contradiction, ensuring that a one-off query does not become a
+    permanent stigma.•External audits of algorithms, designed to detect bias and unfair exclusions.•Transparency and informed consent regarding the
+    destination of the data generated.It is essential, both now and in the future, to close this normative gap. To do so will require binding
+    cross-jurisdictional coordination, not merely voluntary principles. The Council of Europe's Framework Convention on Artificial Intelligence (2024)
+    points towards this goal, but its impact will remain limited as long as the jurisdictions that develop and operate the major GAI platforms
+    continue to resist enforceable international obligations (Council of Europe, 2024).Beyond regulation, this debate requires philosophical
+    reflection on subjectivity, consciousness and dignity in an environment mediated by machines that simulate understanding. The challenge is
+    twofold: to protect individuals from legal defencelessness and to preserve the human condition in the face of technologies that dilute privacy
+    through big data.In short, society cannot afford to repeat the mistakes made with social media. This time, not only the public sphere is at stake,
+    but also the mental and emotional privacy of every individual. Consequently, this challenge must be urgently recognised as a first step towards a
+    regulatory framework that anticipates risks and safeguards human dignity in the age of AI.
+
+=== END OF BATCH b019 (7 records) ===

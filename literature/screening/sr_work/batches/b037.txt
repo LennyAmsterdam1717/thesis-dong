@@ -1,0 +1,516 @@
+BATCH b037 -- 50 records: R01544 .. R01593
+
+### R01544 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Automated Knowledge Acquisition Pipeline for Disassembly Instructions: A Comparison of NLP and Generative AI Frameworks
+AB: The push towards circularity and Re-X principles presents a challenge to SMEs, particularly due to increasing product complexity that impedes the
+    adoption of disassembly automation. This paper introduces and compares two frameworks for extracting disassembly instructions from unstructured
+    information sources, such as disassembly manuals. Our goal is to transform natural language text into a structured, curated and machine-readable
+    format. We implemented and tested a rule-based Natural Language Processing (NLP) framework against a generative AI framework leveraging LLMs. The
+    performance of both approaches was compared using real-world disassembly manuals. This work provides the necessary data foundation for developing
+    and automating future disassembly processes.
+
+### R01545 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems
+AB: Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides,
+    protein, and single-cell measurements predict protein structures, mutation effects, and cellular responses to genetic perturbations. Agentic
+    systems, AI assistants built on large language models, can run multistep analyses from plain-language requests and increasingly call foundation
+    models as tools. Yet it is often unclear when these models' outputs can be trusted. We frame this as a model's knowledge boundary: the range of
+    inputs, tasks, and conditions over which its outputs are reliable. This review explains how foundation models are built and proposes that five
+    design elements (data, architecture, training scheme, evaluation scheme, and post-analysis) define this boundary. We examine evidence on where
+    current models succeed or fail and present standardized descriptions of model limits so that researchers, and the agents acting for them, can use
+    these tools reliably.
+
+### R01546 | 2026 | preprint | Lang: n/a
+TI: MIRAGE: A Framework for Multi-hop Reasoning under Dynamic Knowledge Injection
+AB: Multi-hop Question Answering (MQA) requires large language models (LLMs) to retrieve and synthesize multiple pieces of evidence into a coherent
+    reasoning path, which is essential for complex tasks. However, prior work on knowledge updating for MQA has largely focused on simple fact edits,
+    overlooking a more challenging and realistic setting---\emph{Knowledge Injection}---in which the model must simultaneously accommodate both
+    conflicting updates and entirely novel information. Under this setting, a hop-level answer is often wrong simply because the model trusts the
+    wrong knowledge source: it clings to outdated parametric memory when the injected knowledge conflicts with it (K2), and it cannot answer when the
+    required fact is entirely new (K3). To investigate this, we introduce NEXUS, the first benchmark tailored for multi-hop reasoning under Knowledge
+    Injection, which explicitly covers both conflicting (K2) and incremental (K3) knowledge. We further propose MIRAGE, an efficient, training-free
+    framework whose core component, the Correlation-aware Dual-path Reasoner (CDR), resolves such per-hop source-trust errors via P(True)-based
+    confidence routing, complemented by a lightweight template-guided corrector for residual structural deviations. Extensive experiments across four
+    LLM families and two benchmarks demonstrate that MIRAGE consistently improves both final-answer accuracy and hop-level reasoning accuracy,
+    establishing a new state of the art in this challenging setting.
+
+### R01547 | 2026 | article/None | Lang: en
+TI: Testing knowledge boundaries: adversarial evaluation of large language models for antimicrobial stewardship
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01548 | 2026 | preprint/None | Lang: en
+TI: PQMAgent: Knowledge-Boundary Control for Agents with Black-Box Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01549 | 2025 | article/None | Lang: en
+TI: Prompt-Based Learning for Factual Knowledge Infusion in Large Language Models
+AB: Large Language Models (LLMs) are increasingly employed in knowledge-intensive tasks but often struggle to effectively apply infused knowledge due
+    to textual-structure mismatches between the infusion and reasoning phases. To address this issue, we propose a prompt-based unification strategy
+    that directly learns from factual triples in knowledge graphs while preserving structural consistency across both phases. This unified design
+    enables seamless transfer of factual knowledge to downstream reasoning tasks without requiring architectural modifications. Extensive experiments
+    on two Knowledge Graph Question Answering (KGQA) benchmarks, WebQSP and MetaQA, demonstrate that our approach consistently outperforms strong
+    baselines. Further ablation and robustness analyses verify that structural unification is the key factor driving the improvements, while its
+    compatibility with adapter-tuning and LoRA highlights practical applicability under parameter-efficient fine-tuning settings. Overall, our results
+    suggest that enforcing textual structural consistency provides a simple yet effective principle for reliable knowledge infusion in LLMs, with
+    broad potential across diverse knowledge-intensive domains.
+
+### R01550 | 2026 | preprint/None | Lang: en
+TI: Large Language Model Adoption and Firm Innovation: More Patents within Existing Knowledge Boundaries
+AB: Large language models (LLMs) let employees search, explain, and recombine technical knowledge at low cost. We ask whether firms that adopt them
+    innovate more and whether they innovate beyond the technologies they already know. Using a classifier validated against human coders, we date when
+    Chinese listed firms first confirm, in replies to investor questions, that they have put LLMs or other AI applications into use, and we link these
+    events to the patent applications of 1,836 firms over 2019--2024. Patent applications rise by 12.5% after adoption. In a second design based on
+    the arrival of LLMs after ChatGPT's release, firms that had hired more heavily into AI-exposed occupations increased their patenting relative to
+    other firms in 2024. The additional patents stay within firms' existing knowledge boundaries: utility-model and exploitative applications rise,
+    new patents move closer to the firm's prior technology portfolio, and neither invention nor exploratory applications increase significantly.
+    Adopters also raise R&D intensity, software-and-data investment, and the share of graduate employees. The patent response is concentrated in
+    labor-intensive industries and in highly AI-exposed firms, it tilts further toward exploitation under myopic managers, and among business
+    functions only market-facing uses are followed by significantly more patents. In the adoption year and the year after, LLM adoption intensifies
+    local search: firms patent more in technologies they already hold and no more in new ones.
+
+### R01551 | 2026 | article/None | Lang: en
+TI: LLM-RDO: Large Language Model-Guided Rules Dynamic Optimization for Temporal Knowledge Graph Reasoning
+AB: Temporal knowledge graph reasoning (TKGR) aims to predict future facts based on historical event facts. However, the traditional embedding-based
+    methods lack interpretability and the rule-based methods are prone to falling into spurious correlation traps. Note that the recent large language
+    model (LLM)-based methods are mostly static, open-loop generations lacking dynamic adaptability. This article proposes a novel hybrid reasoning
+    framework, a so-called LLM-guided rule dynamic optimization (LLM-RDO), by integrating the structural robustness captured by graph neural networks
+    (GNNs) into the discrete causal logic optimized by LLM. To extract logically coherent matching rules and the top-$k$relevant relations, an
+    association rule mining (ARM) algorithm is designed combined with temporal path matching. To generate higher-quality rules, an LLM-guided
+    iterative dynamic feedback loop is constructed to optimize rules by integrating the semantic features of matching rules and top-$k$relevant
+    relations. Specifically, matching rules and top-$k$relevant relations are input into LLM to generate rules, which are then interactively scored
+    against current data. High-quality rules are used for subsequent result prediction, while low-quality rules are fed back into LLM for further
+    optimization. Finally, to achieve higher prediction accuracy, a joint prediction mechanism combining rule-based and embedding-based approaches is
+    introduced. Experiments on 4 benchmark datasets demonstrate that LLM-RDO achieves superior performance compared to existing state-of-the-art
+    baseline methods.
+
+### R01552 | 2025 | article/None | Lang: en
+TI: Large language model with iteratively prompt for temporal knowledge graph completion
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01553 | 2025 | article/None | Lang: en
+TI: Large Language Models for Process Knowledge Acquisition: Designing and Evaluating a Multi-agent System
+AB: Acquiring process knowledge remains a central challenge in business process management, particularly when process discovery approaches rely on
+    manual elicitation and analysis. Following design science research, this paper proposes a theoretically grounded and empirically validated
+    approach to support process knowledge acquisition using Large Language Models (LLMs). The paper outlines three main contributions. First, drawing
+    from knowledge acquisition theory, 19 design requirements are defined for using LLMs in the knowledge acquisition process. Second, these are
+    instantiated in a proposal, named PKAI, which is a novel multi-agent system that operationalizes the stages of preparation, socialization, and
+    externalization in process discovery through specialized LLM-based agents. Third, the study provides empirical evidence of the benefits and
+    limitations of the approach through three evaluation rounds: (i) a demonstration involving business process analysts validating the design
+    requirements and their mapping to the instantiation, (ii) a quasi-experimental study highlighting that process analysts supported by PKAI perform
+    better in designing conceptual models in semantic and pragmatic dimensions, and (iii) a real-world illustrative case study demonstrating the
+    approach's applicability under business complexity and its impact on the knowledge acquisition process. The paper provides the first LLM-based
+    artifact instantiation spanning the whole knowledge acquisition process.
+
+### R01554 | 2025 | article/None | Lang: en
+TI: Continuous-time transformer with large language model for temporal knowledge graph forecasting
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01555 | 2025 | preprint/None | Lang: en
+TI: Conpet: Efficiently Adapting Large Language Models for Continual Structured Knowledge Acquisition
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01556 | 2025 | preprint/None | Lang: en
+TI: A Theoretical Framework for Self-Directed Knowledge Acquisition in Agentic Large Language Models
+AB: Large Language Models (LLMs) possess remarkable generative capabilities but are fundamentally constrained by their static, pre-trained knowledge.
+    This paper introducesa novel theoretical architectural framework for an agentic LLM system designed for self-directed knowledge acquisition. The
+    proposed system aims to autonomously identify its knowledge gaps, explore external information sources such as the World Wide Web, rigorously
+    validate acquired data, and integrate new, verified knowledge into an accessible, modifiable external repository. Crucially, this conceptual
+    proposal is designed to operate without direct human intervention in the core acquisition loop and, critically, without altering the LLM’s
+    underlying parametric weights. The framework delineates seven key conceptual components: a “Curiosity Service” for identifying knowledge lacunae,
+    a “Subconscious Mind” for temporary concept storage, an “Agentic Web Exploration” module for information retrieval, an “Ingestion and Processing”
+    unit for data extraction, a multi-stage “Validation Pipeline” for ensuring data integrity, a “Data Admissibility Rules” engine for filtering, and
+    a “Long-Term Memory” based on Graph-Retrieval Augmented Generation (Graph-RAG) for persistent knowledge integration. This paper details the
+    proposed architecture, its theoretical underpinnings, conceptual operational dynamics, and potential challenges, positioning it as a visionary
+    roadmap for future research in continuously learning AI systems. While foundational aspects of certain components are considered prototypable with
+    current technologies, full empirical validation of the integrated, autonomous system represents a significant undertaking beyond the scope of
+    typical independent research resource limitations.
+
+### R01557 | 2026 | article/None | Lang: en
+TI: Temporal Knowledge Graph Forecasting via Constrained Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01558 | 2025 | article/None | Lang: en
+TI: Construction of a Person–Job Temporal Knowledge Graph Using Large Language Models
+AB: Person–job data are multi-source, heterogeneous, and strongly temporal, making knowledge modeling and analysis challenging. We present an
+    automated approach for constructing a Human-Resources Temporal Knowledge Graph. We first formalize a schema in which temporal relations are
+    represented as sets of time intervals. On top of this schema, a large language model (LLM) pipeline extracts entities, relations, and temporal
+    expressions, augmented by self-verification and external knowledge injection to enforce schema compliance, resolve ambiguities, and automatically
+    repair outputs. Context-aware prompting and confidence-based escalation further improve robustness. Evaluated on a corpus of 2000 Chinese resumes,
+    our method outperforms strong baselines, and ablations confirm the necessity and synergy of each component; notably, temporal extraction attains
+    an F1 of 0.9876. The proposed framework provides a reusable path and engineering foundation for downstream HR tasks—such as profiling, relational
+    reasoning, and position matching—supporting more reliable, time-aware decision-making in complex organizations.
+
+### R01559 | 2026 | preprint/None | Lang: en
+TI: The Knowledge Acquisition Bottleneck, Then and Now: From Expert Systems to Large Language Models
+AB: The knowledge acquisition bottleneck was the greatest obstacle of the second AI boom: expert systems could reason with rules, but extracting those
+    rules from human experts proved extraordinarily difficult. This essay revisits CA Outlook, an expert system the author developed at IBM Japan in
+    the late 1980s to forecast hardware revenue, and asks what has become of the bottleneck in the age of large language models (LLMs). By learning
+    from vast amounts of text, LLMs appear to have cleared the wall of knowledge acquisition. Yet organization-specific tacit knowledge, the judgment
+    of when to trust model output, and the redesign of work all remain on the organization's side. The bottleneck has not disappeared; it has moved to
+    organizational capability, as the IT–organizational capability dependency theory predicts. The CA Outlook experience also shows that management
+    trusted explainable multiple regression over an opaque AI, a lesson that applies to today's black-box models. Finally, the essay argues that two
+    features of Japanese management, multi-skilling through job rotation and long-term employment, produce people who can supervise chains of AI
+    agents and workplaces where employees have no reason to withhold know-how from AI, giving Japan a real but time-limited opportunity.
+
+### R01560 | 2025 | article/None | Lang: en
+TI: ChatSync: Large-Language-Model-Enabled Spatial–Temporal Knowledge Reasoning for Production Logistics Synchronization
+AB: With increasing pressure from customized demands, discrete manufacturing systems face challenges due to fluctuating resource requirements. These
+    challenges hinder the synchronization of production logistics (PL), which is essential for coordinating resources and ensuring smooth production.
+    Poor synchronization will result in resources waiting on each other, leading to delays and idle time. Accordingly, this paper proposes ChatSync, a
+    framework leveraging large language model (LLM) and spatial-temporal knowledge reasoning to optimize resource allocation, delivery, and monitoring
+    in industrial applications, particularly within the Industrial Internet of Things (IIoT) environment. First, the resource spatial-temporal graph
+    (RSTG) is constructed by integrating real-time IIoT data and expert operational experience, enhancing the knowledge base of LLM through
+    cross-domain knowledge fusion. Second, graph-based reasoning optimization is presented, incorporating spatial-temporal, contextual, and relational
+    reasoning mechanisms, enabling LLM to achieve credible and responsible analysis and decision-making. Third, the PL-oriented ChatSync framework
+    with knowledge and reasoning engines is proposed, supporting chat-based interactions for resilient resource allocation, personalized suggestion,
+    and precise traceability. A case study in air conditioning manufacturing demonstrates that ChatSync outperforms existing benchmark methods in
+    various PL phases, achieving a delivery punctuality rate of 91.2%.
+
+### R01561 | 2026 | article/None | Lang: en
+TI: Pioneering Temporal Knowledge Graph Completion with Large Language Models: A Text Generation Approach
+AB: ABSTRACT Traditional temporal knowledge graph completion (TKGC) methods often rely on random encoding or pre‐trained small‐scale language models
+    to initialize entity and relation embeddings. Despite the remarkable reasoning and understanding capabilities of large language models (LLMs),
+    their potential remains untapped in the context of TKGC. To bridge this gap, we propose a novel framework, large‐language model‐based temporal
+    knowledge graph completion, which reformulates the TKGC task as a text generation problem. In this approach, entities, relations, and temporal
+    information within quadruples are converted into text sequences, enabling the use of task‐specific prompts to guide the LLM in generating
+    predictions. This innovative approach fundamentally differs from existing methods by leveraging the generative capabilities of LLMs. Experimental
+    evaluations on four public benchmark datasets demonstrate the effectiveness of our model, showcasing its superior performance and the ability of
+    LLMs to significantly advance the state‐of‐the‐art in temporal knowledge graph completion.
+
+### R01562 | 2026 | article/None | Lang: en
+TI: Dynamic Domain Knowledge Injection In Large Language Models Using Context-Gated Prompt Engineering
+AB: Large Language Models (LLMs) have excelled in various NLP tasks, such as natural language understanding, question answering, and
+    knowledge-intensive applications. But it is still difficult to be used in specialized fields, such as biomedicine, because the knowledge acquired
+    in pre-training can be incomplete and outdated, and it may lack the knowledge for specific queries in this field. To include external knowledge,
+    current methods typically rely on fine tuning or prompt engineering or Retrieval-Augmented Generation (RAG). Conventional RAG can include
+    irrelevant or extraneous context in prompts, impacting the accuracy of responses and leading to higher token usage, and fine-tuning is
+    time-consuming and demands significant computing power, with the need to update the model repeatedly. To overcome these challenges, this study
+    introduces Context-Gated Knowledge Injection LLM (CGKI-LLM), a fine-tuning-free domain-specific customization framework. The proposed method
+    decomposes a user query, fetches candidate knowledge, computes the semantic relevance of candidate knowledge, applies a context-gating process to
+    filter out knowledge not related to the user query, and then generates the final prompt. PubMedQA is the main biomedical question-answering set on
+    which experiments are conducted. The proposed framework is compared with a base LLM, conventional prompt engineering, and standard RAG in terms of
+    accuracy, precision, recall, F1 score, hallucination rate and context-related measures. Results demonstrate that the use of CGKI-LLM with standard
+    RAG results in 89.20% accuracy and an F1 score of 88.92% whereas using standard RAG only, the accuracy rate is 84.30%. CGKI-LLM decreases the
+    hallucination rate from 7.20% (standard RAG) to 3.80%. These results show the effectiveness of selective context gating for reducing irrelevant
+    knowledge injection and enhancing domain-specific question answering. The proposed framework offers a practical solution for integrating
+    specialized knowledge into LLMs without altering the model's parameters.
+
+### R01563 | 2026 | article/None | Lang: en
+TI: LDCL: Large language model-driven dual-view contrastive learning for temporal knowledge graph completion
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01564 | 2026 | article/None | Lang: en
+TI: A Structural Knowledge Enhanced Re-ranking method with large language models for temporal knowledge graph prediction
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01565 | 2026 | preprint/None | Lang: en
+TI: Bayesian-Gated Selective Learning: A Framework for Post-Training Knowledge Acquisition in Large Language Models
+AB: Large Language Models cannot reliably distinguish what they know from what theydon’t—leading to hallucination rather than acknowledgment of
+    uncertainty. Furthermore,once trained, model knowledge is frozen; incorporating new information requires expensiveretraining. We propose
+    Bayesian-Gated Selective Learning (BGSL), a frameworkenabling controlled post-deployment learning. BGSL employs two complementary trigger
+    mechanisms: (1) token-level uncertainty signalsthat fire immediately when the model encounters unfamiliar concepts, and (2) usagepatterndetection
+    that accumulates evidence when familiar terms are used in ways that don’tmatch the model’s understanding. When either trigger fires, the system
+    simultaneously retrievesexternal information to ground the immediate response and packages the interactionfor deferred training. Learning occurs
+    in audited batch cycles, enabling human review andsafety verification. Over successive deployment cycles, the model genuinely internalizes
+    newknowledge, reducing reliance on repeated retrieval for stable information. We ground this framework in Bayesian-inspired reasoning—treating
+    uncertainty as aproxy for prior strength—as a design principle rather than a formal implementation. Thispaper details the conceptual architecture,
+    anticipated challenges, and evaluation protocols.Future work must determine the specific signal implementations and thresholds appropriatefor
+    production systems.Note: This work is a conceptual framework and does not present empirical results.
+
+### R01566 | 2026 | article/None | Lang: zh
+TI: A short-term prediction method for natural gas consumption based on large language models and temporal knowledge enhancement
+AB: ObjectiveWith the ongoing intelligent development in China’s natural gas pipeline network, accurate prediction of natural gas consumption has
+    become a key support for optimal dispatching of pipeline network. Current prediction methods are limited by heavy reliance on complex
+    multi-dimensional factors, narrow user coverage, and inadequate integration of temporal knowledge. The emergence of large language models (LLMs)
+    offers a promising solution; however, existing LLMs lack sufficient industry-specific understanding, resulting in inaccurate predictions.
+    Moreover, research on adapting these models for the prediction of natural gas consumption remains insufficient. MethodsTo this end, a natural gas
+    consumption prediction method based on LLMs and temporal knowledge enhancement was proposed. A temporal knowledge base for natural gas consumption
+    (hereinafter referred to as the “temporal knowledge base”) was constructed to extract regional gas consumption features and to assist in LLM-based
+    prediction through similarity retrieval. During construction, dynamic time warping barycenter averaging (DBA) was embedded into the K-means
+    clustering algorithm to prevent Euclidean distance failure caused by time-axis shifts or distortions in the time series. Meanwhile, to improve the
+    LLM’s understanding of input time series with partially frozen parameters, prompt templates were enriched with prior knowledge—including data
+    decomposition, similarity retrieval snippets between the input time series and the temporal knowledge base, and statistical descriptors—before
+    being fed to the LLM. ResultsExperimental results demonstrated that: (1) Establishing a retrieval mechanism for the temporal knowledge base and
+    constructing prompt templates significantly enhanced the accuracy of natural gas consumption prediction. Compared to traditional methods, this
+    approach exhibited reduced lag, stronger trend- and seasonality-fitting ability, and better handling of highly volatile series owing to a
+    re-programming patch embedding layer. (2) The proposed method achieved significantly better prediction accuracy than other models across four
+    datasets, achieving average values of 23 635.6 for Root Mean Square Error (RMSE) , 10 915.1 for Mean Absolute Error (MAE), 1.9％ for Symmetric Mean
+    Absolute Percentage Error (SMAPE) , 1.9％ for Mean Absolute Persentage Error (MAPE), and 0.96 for R2 , demonstrating robust generalization. (3) For
+    ultra-long-term load prediction, the integration of rich multimodal prior knowledge enabled the proposed method to achieve the highest accuracy
+    among all models, further reducing RMSE, MAE, SMAPE, and MAPE by an average of 13.62％, 21.49％, 22.21％, and 22.91％, respectively, while maintaining
+    an average R2=0.95. ConclusionThe research demonstrates that the newly proposed method outperforms existing benchmark approaches for generative
+    prediction of natural gas consumption and offers a novel technical pathway for developing multimodal intelligent decision-making systems,
+    facilitating the evolution of prediction technology from single-scenario to cross-modal collaboration.
+
+### R01567 | 2026 | preprint/None | Lang: en
+TI: TurkCuisineBench: A source-grounded short-answer benchmark for large language models’ factual knowledge of Turkish cuisine and culinary heritage
+AB: Abstract Culturally grounded language-model evaluation remains limited for specialized Turkish knowledge, and exact-string scoring can miss
+    semantically correct short answers. This study introduces TurkCuisineBench, a 72-item Turkish short-answer benchmark for factual knowledge of
+    cuisine and culinary heritage. Items were derived from 38 accessible official or institutional source URLs, balanced across six knowledge domains,
+    independently validated, and frozen before model execution. Source grounding constrains item construction and human adjudication rather than
+    supplying evidence to models at inference time: eight proprietary and open-weight endpoints answered every item under a common closed-book,
+    stateless, answer-only protocol. Of 576 expected responses, 574 were technically valid. Blinded human review resolved all 326 valid non-exact
+    responses; a prespecified 82-response overlap achieved 97.6% pre-adjudication decision agreement (Cohen’s κ = .875). Semantic accuracy differed
+    substantially across endpoints (13.9%–70.8%; Holm-adjusted p < .001). Overall semantic correctness was 230/574 (40.1%), compared with 187/574
+    (32.6%) under normalized exact match, recovering 43 correct responses (+ 7.49 percentage points; item-cluster bootstrap 95% confidence interval
+    [4.36, 11.19]). The prespecified contrast between items without lexical answer cues and those with limited cues was not supported.
+    TurkCuisineBench demonstrates a compact, auditable approach to culturally specific factual evaluation while explicitly limiting claims to the
+    sampled institutional-source record rather than treating it as exhaustive culinary knowledge.
+
+### R01568 | 2026 | preprint/None | Lang: en
+TI: Lookahead Large Language Models: A Unified Framework for Predictive Token Selection, Reasoning Control, Knowledge Acquisition, and Long-Horizon
+    Language-Model Decision-Making
+AB: Large language models (LLMs) are increasingly used for complex tasks involving multi-step reasoning, long-context understanding,
+    retrieval-augmented generation, tool use, software development, autonomous agents, and collaborative problem-solving. Although these systems can
+    generate candidate continuations and evaluate intermediate outputs, a decision that appears locally appropriate may lead to poor downstream
+    reasoning, unnecessary computation, factual errors, tool failures, or incomplete task execution. This paper proposes Lookahead Large Language
+    Models (L²M), a unified research framework for predicting the downstream consequences of candidate language-model actions before committing to
+    them. The framework treats token generation, reasoning-step selection, context management, evidence acquisition, tool invocation, memory
+    operations, model routing, and task termination as decision problems. Given a current state and a set of feasible actions, a lookahead controller
+    estimates their future utility, uncertainty, risk, and computational cost, then selects an action according to an explicit decision objective. The
+    framework separates state representation, candidate generation, outcome prediction, decision selection, execution, verification, and experimental
+    recordkeeping. It can be implemented around an existing language model, incorporated into an inference-time controller, or adapted to training and
+    agent orchestration. A modular Research Slot Architecture is introduced to support independent implementation and evaluation. To facilitate
+    systematic research development, this paper presents 300 candidate research directions across fifteen LLM-specific research categories, including
+    token-level generation, reasoning, context processing, retrieval, tool use, memory, multi-agent systems, code intelligence, mathematics, factual
+    reliability, multilingual behavior, personalization, inference efficiency, evaluation, and model training. The catalogue is intended as a
+    structured research roadmap rather than a claim that every direction is novel or effective. The central hypothesis is that explicit prediction of
+    downstream consequences can improve LLM decisions when candidate actions have materially different future effects and the expected benefit
+    justifies the cost of prediction. This hypothesis requires controlled comparisons against fixed, greedy, heuristic, and learned non-lookahead
+    baselines.
+
+### R01569 | 2026 | article/None | Lang: en
+TI: A pattern-aware gating mechanism for entity alignment in heterogeneous temporal knowledge graph integrated with large language models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01570 | 2025 | article/None | Lang: en
+TI: Task Knowledge Injection: Training-Free Adaptation of Multimodal Large Language Models for Remote Sensing Image Understanding
+AB: Parameter fine-tuning is the mainstream approach for adapting Multimodal Large Langauge Models (MLLMs) to downstream remote sensing tasks.
+    However, such method risks degrading pre-trained knowledge and also incur significant costs. This paper argues that downstream adaptation of MLLMs
+    essentially involves effective injection of task-specific knowledge, which does not necessarily require parameter updates. Based on this
+    perspective, we propose a training-free knowledge injection method. By constructing a multi-task knowledge base (MTKB), the model can dynamically
+    retrieve task-related knowledge to serve as context during inference, thereby enhancing its understanding. Specifically, we design a three-part
+    framework. (1) Task knowledge construction: Diverse texts are unified into a key and value structure for image-text matching, forming the MTKB.
+    (2) Two-stage retrieval: A coarse-to-fine process is employed to match query images with task knowledge in the MTKB, utilizing both unimodal and
+    cross-modal similarity. (3) Knowledge injection: Matched knowledge is integrated into the MLLM via extended embeddings, without altering
+    parameters. Experimental results across multiple datasets demonstrate that our method significantly enhances the image understanding capabilities
+    of the model. Our approach achieves about 5% improvement in accuracy and related metrics across several datasets, with performance on the RSVQ-LR
+    dataset comparable to specialized models.
+
+### R01571 | 2026 | article/None | Lang: en
+TI: Beyond Hallucination: Temporal Knowledge Asymmetry as a Distinct Failure Mode in Large Language Models for Non-Western Knowledge Domains
+AB: Most work on LLM reliability focuses on hallucination, which refers to models generating confident but false information. This paper identifies
+    and characterizes a related but distinct failure mode that has received less attention: temporal knowledge asymmetry, where models provide correct
+    information for one geographic context but outdated information for a structurally equivalent question about another context. I evaluated three
+    frontier LLMs (Claude Opus 4.1, Gemini 3, and ChatGPT 5.1) using a matched-pair question bank of 500 items across six knowledge domains. Contrary
+    to my initial hypothesis, outright hallucination rates were statistically similar between Indian and Western questions (India 1.7% vs. West 1.6%
+    averaged across models). However, I found a consistent pattern of temporal lag in Indian institutional knowledge: models gave outdated answers for
+    Indian current affairs at rates up to 9.6 percentage points higher than for equivalent Western questions. For both Claude Opus 4.1 and Gemini 3,
+    the outdated-answer rate for Indian current affairs was 8% while the rate for equivalent Western positions was 0%. This asymmetry was consistent
+    across all three independently developed models, suggesting a systemic cause rooted in training data composition rather than any single model's
+    design. I propose temporal accuracy as a necessary additional evaluation dimension for LLM benchmarks targeting equitable global deployment.
+
+### R01572 | 2026 | article/None | Lang: en
+TI: Uncertainty-aware dynamic-static knowledge injection for few-shot electromagnetic interference failure assessment via large language models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01573 | 2026 | article/None | Lang: en
+TI: Enhancing large language models for knowledge graph question answering via multi-granularity knowledge injection and structured reasoning
+    path-augmented prompting
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01574 | 2026 | article/None | Lang: en
+TI: Beyond Hallucination: Temporal Knowledge Asymmetry as a Distinct Failure Mode in Large Language Models for Non-Western Knowledge Domains
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01575 | 2026 | article/None | Lang: en
+TI: Multi-Stage Knowledge Injection for Mathematical Problem-Solving in Large Language Models: Leveraging External Knowledge Bases via Recursive
+    Feedback Refinement
+AB: Large Language Models (LLMs) have recently demonstrated remarkable capabilities across a wide range of domains, including education, programming,
+    and scientific problem-solving. However, mathematical problem-solving remains challenging because LLMs often generate logically inconsistent
+    solutions and are susceptible to error propagation across reasoning stages. To address this, this study introduces the Multi-Stage Knowledge
+    Injection (MSKI) framework, a unified closed-loop system that synergizes structural decomposition with recursive knowledge injection across four
+    distinct stages. The framework utilizes an invoke–verify–inject mechanism and Progressive Back-Translation (PBT) to dynamically refine
+    intermediate reasoning steps and mitigate error propagation. Evaluated on public benchmark datasets using Gemini 2.5 Flash and GPT-4o Mini models,
+    MSKI consistently outperformed baseline prompting methods. The framework achieved a peak accuracy of 89.71% under the MSKI-Iter3/4 configuration
+    using Gemini 2.5 Flash, demonstrating that the structured contextual knowledge injection significantly improved mathematical correctness.
+
+### R01576 | 2025 | article/None | Lang: en
+TI: Historical facts learning from Long-Short Terms with Language Model for Temporal Knowledge Graph Reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01577 | 2026 | preprint/None | Lang: en
+TI: Systematic Mapping of LLM Knowledge Boundaries Across 67 Scientific Domains
+AB: Maps the knowledge boundaries of Qwen3-4B-Base across 67 scientific domains using a log-probability oracle on 1,038 verified facts. Baseline
+    accuracy: 22.9%. Identifies token-length bias, frozen priors, and domain-specific blind spots. After targeted repair using orthogonal adapters,
+    all 1,038 facts corrected to 100%. Updated 2026-03-20 Updated 2026-03-20 Updated 2026-03-20 Updated 2026-03-20 Updated 2026-03-20
+
+### R01578 | 2026 | article/None | Lang: en
+TI: Beyond Hallucination: Content Aware Retrieval Augmented Adaptive Strategies for Knowledge-Boundary Awareness in LLMs
+AB: Recently the Large language models have demonstrated substantial improvements in natural language processing, understanding and generation.
+    Despite these advances, they remain prone to producing outputs that are fluent yet factually incorrect, a limitation commonly referred to as
+    hallucination. This issue is of particular concern in domains that require high levels of accuracy and reliability. Retrieval-Augmented Generation
+    (RAG) has emerged as an effective framework to address this limitation by incorporating external knowledge sources into the generation process.
+    This review surveys recent research on RAG systems, with an emphasis on methods aimed at mitigating hallucinations through improved retrieval
+    strategies. Recent studies increasingly move beyond static retrieval pipelines and instead explore adaptive retrieval mechanisms, in which the
+    decision to retrieve external information is influenced by factors such as input complexity and model uncertainty. These approaches seek to better
+    align retrieval behavior with the informational demands of a given query. The review further examines research on epistemic uncertainty
+    estimation, the integration of structured knowledge sources such as knowledge graphs, and techniques designed to enhance transparency in retrieval
+    and generation processes. While existing methods show promise in improving factual grounding, several challenges remain, including reliable
+    uncertainty modeling and effective coordination between retrieval and generation components. Overall, the reviewed work highlights ongoing efforts
+    toward developing language models that produce more accurate and dependable outputs.
+
+### R01579 | 2026 | article/None | Lang: en
+TI: AUG-WP-223: Epistemic Probes — Systematic Methods for Testing LLM Knowledge Boundaries
+AB: AUG-WP-223: Epistemic Probes — Systematic Methods for Testing LLM Knowledge Boundaries This deposited working paper is identified as WP-223 in the
+    open AUG-WP V3 title-and-abstract register. Its already public title is reproduced here to make the existing record discoverable. The register
+    supplies published titles and, where released, abstract excerpts. Discovery metadata clarified on 26 September 2026. This identification was
+    checked against the manuscript title and file checksum. The manuscript remains access-restricted; no additional manuscript text is disclosed here.
+    AUGMANITAI Ethical Disclaimer §1-§26 (V4.0) — Bilingual (EN/DE) EN: §1 All content is exclusively descriptive (D) — no normative position is
+    expressed. §2 No recommendation for any action or decision. §3 No instruction — content describes observations, not procedures. §4 No professional
+    advice of any kind. §5 No normative position on any matter. §6 No medical position — terms are research descriptions, not clinical assessments. §7
+    No therapeutic position. §8 No diagnostic position — performance factor analyses are research constructs. §9 No legal position — regulatory
+    references are descriptive. §10 No moral position — ethical observations are descriptive, not prescriptive. §11 All content is for academic and
+    research purposes only. §12 AI assistance disclosure: AI tools were used as research instruments; all content reviewed and validated by the human
+    author. §13 All content individually reviewed, validated, and published by Andreas Ehstand. §14 Age restriction: 18+ only. §15 Independent
+    academic project — no institutional affiliation unless stated. §16 No professional service. §17 No commercial offer. §18 No commercial product —
+    this is an academic research framework under CC license. §19 All empirical claims are subject to peer review, replication, and revision. §20 All
+    rights reserved for future changes. §21 Published under CC BY-NC-ND 4.0. §22 Published bilingually (EN + DE) — both versions authoritative. §23
+    Research Purpose: Terms describing adversarial, manipulative, or sensitive phenomena are documented like medical pathologies or cybersecurity
+    attack vectors — for understanding, diagnosis, classification, and prevention, not instruction or facilitation. §24 Misuse Exclusion: Any use for
+    manipulation, deception, exploitation, surveillance, coercion, or harm is explicitly outside scope and condemned. §25 Safety Intent: This
+    framework makes human-AI interaction safer, more transparent, and more accountable. §26 Author Condemnation: Andreas Ehstand explicitly condemns
+    any misuse of this research for harm, manipulation, exploitation, or any activity undermining human autonomy, dignity, safety, or wellbeing. DE:
+    §1 Alle Inhalte sind ausschließlich deskriptiv (D). §2 Keine Empfehlung. §3 Keine Anweisung. §4 Keine Beratung. §5 Keine normative Position. §6
+    Keine medizinische Position. §7 Keine therapeutische Position. §8 Keine diagnostische Position. §9 Keine rechtliche Position. §10 Keine moralische
+    Position. §11 Ausschließlich akademische und Forschungszwecke. §12 KI-Unterstützung offengelegt. §13 Vom Autor geprüft und validiert. §14 Ab 18
+    Jahren. §15 Unabhängiges akademisches Projekt. §16 Kein professioneller Service. §17 Kein Angebot. §18 Kein kommerzielles Produkt. §19 Empirische
+    Aussagen unter Begutachtungsvorbehalt. §20 Änderungsrechte vorbehalten. §21 CC BY-NC-ND 4.0. §22 Zweisprachig (EN + DE). §23 Forschungszweck:
+    Terme werden im selben deskriptiven Geist dokumentiert wie medizinische Pathologien oder Cybersicherheits-Angriffsvektoren. §24
+    Missbrauchsausschluss: Jede Verwendung zum Zweck der Manipulation, Täuschung, Ausbeutung, Überwachung oder Schädigung liegt außerhalb des
+    Forschungsrahmens und wird verurteilt. §25 Sicherheitsabsicht: Dieses Framework macht Mensch-KI-Interaktion sicherer. §26 Der Autor verurteilt
+    ausdrücklich jeden Missbrauch dieser Forschung. Full 26§ Disclaimer V4.0 (2026-04-13) — Andreas Ehstand — ORCID: 0009-0006-3773-7796 CC BY-NC-ND
+    4.0 International | augmanitai.com
+
+### R01580 | 2026 | article/None | Lang: en
+TI: From Results to Practice: A Human-LLM Collaboration Framework for Spanning Causal Machine Learning Knowledge Boundaries
+AB: Organizations are beginning to deploy causal machine learning (causal ML) models for estimating average treatment effects and treatment effect
+    differences for various subgroups, as well as identifying causal mechanisms driving treatment effects. For instance, in domains such as health
+    care and marketing, causal ML is being used to identify who is most likely to benefit from or be receptive to treatments or interventions,
+    including medical treatments and marketing campaigns. However, while causal ML models can produce highly accurate results when causal assumptions
+    are met, the outputs can be confusing to work with. For instance, it is easy to conflate risk scores with conditional average treatment effects
+    (CATEs), as risk scores from predictive models identify who is most likely to experience an outcome while CATEs from causal models identify who is
+    most likely to benefit (or not benefit) from a treatment. A practitioner reviewing causal ML results may not fully understand such nuances and,
+    thus, may not effectively convert relevant causal ML outputs into practice. Thus, a particular challenge relevant to causal ML, and extensible to
+    any complex set of digital artifact outputs, is that effective practice transformation requires effective boundary spanning. To address this
+    challenge, we propose a framework that conceptualizes large language models (LLMs) as dynamic boundary spanning objects. The framework leverages
+    different forms of human-LLM collaborations throughout the causal ML boundary spanning process, toward the goal of successful practice
+    transformation. We further provide an example of how the framework can be applied to a case of complex causal ML results. We ultimately seek to
+    extend boundary spanning theory and provide a pathway for translating causal ML results across syntactic, semantic, and pragmatic boundaries.
+
+### R01581 | 2026 | article/None | Lang: en
+TI: LLM-DSaR: LLM-Enhanced Semantic Augmentation for Temporal Knowledge Graph Reasoning
+AB: Temporal Knowledge Graph Inference (TKGI) is a cornerstone for intelligent decision-making in dynamic scenarios, but existing models face critical
+    bottlenecks, including inadequate complex-context modeling, a lack of entity importance quantification, insufficient novel-event reasoning
+    accuracy, and weak domain adaptability. To address these issues, this study proposes a semantics-enhanced model (LLM-DSaR) integrating Large
+    Language Models (LLMs), temporal attention networks, and optimized contrastive learning. Specifically, a two-stage LLM semantic enhancement (LLM1
+    + LLM2) framework first generates structured semantic analysis reports via adaptive prompt engineering, and then extracts domain-specific semantic
+    embeddings from the last-layer hidden states through pooling and linear projection, which are further fused with TransE-based structural
+    embeddings; meanwhile, LLM2 mitigates data sparsity in novel-event reasoning; a dynamic weight fusion (DWF) framework adaptively assigns feature
+    weights to achieve deep feature synergy; an LLM-enhanced contrastive-learning module strengthens event clustering and discrimination. Experiments
+    on five public datasets and a self-constructed Robotics Temporal Knowledge Graph (RTKG) show LLM-DSaR outperforms 16 baselines: on RTKG, its MRR
+    is 10.35 percentage points higher than GCR, and Hits@10 reaches 88.87%. Ablation experiments validate core modules’ effectiveness, confirming
+    LLM-DSaR adapts to professional scenarios like robot maintenance prediction, providing a novel technical paradigm for complex-domain TKG
+    reasoning.
+
+### R01582 | 2026 | article/None | Lang: en
+TI: GT ‐ LLM : Graph Topology‐Enhanced LLM for Temporal Knowledge Graph Reasoning
+AB: ABSTRACT Temporal knowledge graph reasoning (TKGR) aims to predict future facts based on events that have occurred up to the current timestamp in
+    a temporal knowledge graph (TKG). Traditional learning‐based methods focus on structural information but overlook semantics inherent in TKGs,
+    while rule‐based methods struggle to generate sufficient high‐quality temporal logical rules. Recently, large language models (LLMs) have been
+    introduced into the TKGR task, typically leveraging retrieved relevant historical events and LLMs' semantic understanding and reasoning abilities
+    to infer missing information in the query. Existing LLM‐based methods encompass both fine‐tuning and non‐fine‐tuning variants. The former demands
+    high computational cost and exhibits limited transferability, whereas the latter suffers from performance constraints stemming from the absence of
+    specialised adaptation training. In this paper, we introduce GT‐LLM, a novel non‐fine‐tuning TKGR framework that enhances performance by improving
+    history retrieval quality while avoiding costly task‐specific LLM fine‐tuning and preserving flexible adaptability to different or dynamically
+    updated TKGs. The key to our method is that it transforms a series of TKG subgraphs into a single, unified topological graph, where entities,
+    relations, and timestamps are explicitly modelled as nodes and connected through topological edges to expose richer associations for history
+    retrieval. Based on this unified representation, we design a general TKGR pipeline that performs history retrieval based on topological
+    association strength and temporal relevance, followed by LLM reasoning under vocabulary‐level constraints. Furthermore, we integrate the
+    predictions from the LLM with those from a graph‐based model to harness their complementary strengths. Extensive experimental results on standard
+    TKGR benchmarks demonstrate that our method significantly improves history retrieval quality and achieves promising overall performance.
+
+### R01583 | 2026 | article/None | Lang: en
+TI: Shift in knowledge Acquisition in the age of LLM
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01584 | 2026 | article/None | Lang: en
+TI: Pre-trained Language Model for Temporal Knowledge Graph Completion
+AB: Large Language Models (LLMs) have been proven remarkable in natural language processing, which prompts numerous works on knowledge extraction,
+    knowledge fusion, knowledge representation, and knowledge completion.Existing works mainly focus on static multi-relational knowledge graph
+    (KG).Unlike static knowledge graph, temporal knowledge graph (TKG) contains temporal information and evolves over time.Learning and reasoning
+    about the representation of temporal knowledge graph are more difficult.Training or fine-tuning LLMs for temporal graph related tasks incurs
+    significant computational overhead and requires the design of prompts.Conducting tasks of TKG does not necessarily require such complex
+    work.Therefore, we explore temporal knowledge graph completion (TKGC) based on pre-trained "small" language model.We propose TKG-BERT by applying
+    BERT for temporal knowledge graph completion and classification.Specifically, We introduce three ways to model temporal knowledge in TKG-BERT:
+    vanilla knowledge embedding (Van.), explicit time modeling (Exp.) and implicit time modeling (Imp.).TKG-BERT(Van.)only adopts static knowledge
+    without embedding time information; TKG-BERT(Exp.)embeds timestamp in quadruple explicitly; TKG-BERT(Imp.)models time implicitly, by dividing the
+    training set and testing set in chronological order.We conduct experiments on ICEWS14 and ICEWS05-15, which are two public temporal knowledge
+    graph datasets.Various experiments of temporal knowledge graph completion and classification tasks show the effectiveness of pre-trained language
+    model for TKG completion.We also compare the performance of TKG-BERT accross different time modeling way and proportion of training set.
+
+### R01585 | 2026 | preprint/None | Lang: en
+TI: Learning to Ask: Autonomous Knowledge Acquisition Using a Frozen Language Model as Environment
+AB: This paper presents an architecture where a lightweight outer learning layer uses a frozen large language model (LLM) as an environment for
+    autonomous knowledge acquisition. The outer layer observes the LLM's outputs, extracts concepts and features, builds a knowledge graph, and
+    generates questions driven by the graph's own structural gaps. Crucially, the outer layer forms its own abstractions and then queries the LLM
+    about these self-generated abstractions, creating a cycle where learned structure drives new inquiry. A four-way ablation study over 200 steps
+    shows that (1) feedback-driven questioning produces 4.9x denser knowledge graphs than structure-driven questioning without feedback, (2) every
+    question strategy improves by 34-97% when feedback is enabled, and (3) structure alone performs worse than random exploration. An extended
+    2000-step run demonstrates that information gain accelerates rather than plateaus as the knowledge graph densifies. All code and data are publicly
+    available.
+
+### R01586 | 2025 | article/None | Lang: en
+TI: TempQA: An LLM-based framework for temporal knowledge graph question answering
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01587 | 2026 | preprint/None | Lang: en
+TI: Completeness-Gated Temporal Knowledge Versioning for Continual LLM Learning
+AB: Current Large Language Models are frozen in time, producing erroneous answers on temporally evolving knowledge at rates between 18–23%. This paper
+    presents the Completeness-Gated Temporal Knowledge Management System (CGTKMS), a novel architecture that moves knowledge management outside the
+    LLM into a dedicated Management Neuron. The system organizes knowledge in temporal buckets, tracks coverage completeness per topic, and only
+    archives old knowledge when its replacement is verified as complete. Projected result: temporal error rates reduced from ~20% to under 3%, with
+    zero catastrophic forgetting and full backward compatibility.
+
+### R01588 | 2026 | article/None | Lang: en
+TI: Analyzing how pre-trained language models capture factual knowledge using attribution methods
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01589 | 2026 | article/None | Lang: en
+TI: Pretrained language models with semantic embeddings for temporal knowledge graph completion
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01590 | 2026 | article/None | Lang: en
+TI: LLM-augmented temporal knowledge graph reasoning: A dual-view of semantics and structures
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01591 | 2026 | article/None | Lang: en
+TI: Enhancing LLM-based medical decision-making by test-time knowledge acquisition
+AB: [NO ABSTRACT AVAILABLE]
+
+### R01592 | 2026 | preprint/None | Lang: en
+TI: Soft-Prompt Personal Memory: Pluggable Factual Knowledge Injection via Prefix Tuning
+AB: We propose Soft-Prompt Personal Memory (SPPM), a lightweight method for injecting arbitrary factual knowledge into frozen large language models
+    without modifying weights, retraining, or requiring external knowledge bases. Each fact is encoded as a compact set of 8 trainable virtual prefix
+    tokens (80KB per memory entry), optimized end-to-end via prefix tuning with only 20,480 parameters trained per fact. The resulting memory cards
+    are pluggable—loaded and unloaded at inference time by prepending their embeddings to the input, enabling dynamic multi-fact composition without
+    interference. Experiments on Qwen3-4B-Instruct demonstrate perfect factual recall (100% hit rate) across multiple memory entries with zero
+    cross-contamination, while requiring only 300 training steps per fact. We further show that the same prefix-tuning mechanism generalizes across
+    entity types (persons, projects, technical concepts), establishing SPPM as a practical foundation for private, local, zero-latency personal
+    knowledge injection.
+
+### R01593 | 2026 | article/None | Lang: en
+TI: A wildfire exposure risk assessment framework combining LLM and spatial-temporal knowledge hypergraphs
+AB: [NO ABSTRACT AVAILABLE]
+
+=== END OF BATCH b037 (50 records) ===

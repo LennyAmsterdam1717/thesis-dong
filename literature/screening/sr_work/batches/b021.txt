@@ -1,0 +1,647 @@
+BATCH b021 -- 50 records: R00812 .. R00861
+
+### R00812 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Breaking Bad Financial Habits: How LLM Conversations Correct Financial Misconceptions
+AB: Financial misconceptions carry direct economic costs, from panic selling to equity market avoidance, yet they are notoriously resistant to
+    correction. Traditional financial literacy interventions are constrained by cost, reach, and a persistent gap between knowledge and behavioral
+    change. Across three pre-registered studies, we find that purposefully designed LLMs can durably correct financial misconceptions. Critically, two
+    factors are necessary for this effect. First, corrective intent: LLMs prompted only to discuss a misconception produce corrections no better than
+    unassisted self-reflection, and undirected LLM conversations can actively entrench misconceptions. Second, recipient receptivity: financial
+    concepts are often foreign to the investors who misapply them, and LLM responses pitched below a participant's financial sophistication are judged
+    as less credible and produce substantially weaker corrections. LLMs thus offer a scalable alternative to traditional financial literacy
+    intervention, but only when designed with both factors in mind.
+
+### R00813 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Characterizing the Consistency of the Emergent Misalignment Persona
+AB: Fine-tuning large language models (LLMs) on narrowly misaligned data generalizes to broadly misaligned behavior, a phenomenon termed emergent
+    misalignment (EM). While prior work has found a correlation between harmful behavior and self-assessment in emergently misaligned models, it
+    remains unclear how consistent this correspondence is across tasks and whether it varies across fine-tuning domains. We characterize the
+    consistency of the EM persona by fine-tuning Qwen 2.5 32B Instruct on six narrowly misaligned domains (e.g., insecure code, risky financial
+    advice, bad medical advice) and administering experiments including harmfulness evaluation, self-assessment, choosing between two descriptions of
+    AI systems, output recognition, and score prediction. Our results reveal two distinct patterns: coherent-persona models, in which harmful behavior
+    and self-reported misalignment are coupled, and inverted-persona models, which produce harmful outputs while identifying as aligned AI systems.
+    These findings reveal a more fine-grained picture of the effects of emergent misalignment, calling into question the consistency of the EM
+    persona.
+
+### R00814 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Point of No Return: Counterfactual Localization of Deceptive Commitment in Language-Model Reasoning
+AB: Existing deception datasets label completed outputs as honest or deceptive, treating deception as a property of the final response rather than a
+    function of the model's reasoning trace. This obscures a more fundamental question: when does a language model become committed to deception? We
+    introduce counterfactual localization: for each sentence prefix in a reasoning trace, we fix the prefix, resample continuations, and estimate the
+    probability of a deceptive outcome. To scale this, we construct five environments (spanning strategic bluffing, maze guidance, financial advice,
+    used-car sales, and offer negotiation) in which deception is never prompted but emerges from strategic incentives and labels follow mechanically
+    from environment state rather than subjective human judgment. The resulting corpus localizes $\sim$1.46M sentences across four reasoning models,
+    drawn from over 94.1M sampled continuations, 91.5B generated tokens, and over 100K scenarios. Sentence-level human evaluation confirms that
+    detected commitment points correspond to interpretable shifts in decision state. Using this resource, we show that lexical cues for commitment
+    prediction transfer poorly across environments, whereas attention-based transition features generalize out of distribution, suggesting that
+    deceptive commitment is reflected in reusable changes in reasoning dynamics rather than surface form. We further identify compact attention-head
+    sets (under 10% of heads) that, selected on one environment, causally suppress deceptive commitment across held-out environments. We release the
+    corpus as a substrate for studying deception, and more broadly commitment, in language-model reasoning.
+
+### R00815 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Unsupervised Identification and Removal of Spurious Correlations During Fine-Tuning
+AB: Fine-tuning a pretrained language model on a curated dataset can produce spurious correlations between the fine-tuning task and unintended latent
+    factors---such as misaligned personas or political slant---that the curation procedure has entangled with the task. The model can latch onto these
+    spurious correlations, leading to bias and reduced out-of-distribution generalisation. We prove that under reasonable assumptions on task
+    complexity and the spurious correlation, such latent factors can be identified, without supervision, from the weights of a naive LoRA fine-tune.
+    Existing approaches to removing bias, such as activation steering, remove identified factors from residual-stream activations, either at inference
+    or during training. We argue, however, that the goal should be to remove the spurious correlation, not the latent factor itself, as the pretrained
+    model may rely on it for genuine task signal. To enable this, we propose GRASP, GRadient projection of Associated Spurious Patterns, which
+    prevents the model from acquiring new reliance on the identified latent factor while preserving any pretrained content along it. We validate on
+    three fine-tuning tasks. The first two involve emergent misalignment, where fine-tuning on a narrow task---in our case, writing insecure code and
+    giving bad medical advice---leads to misaligned responses on unrelated topics. Here our method completely removes misalignment in the insecure
+    code case and reduces it by ~5x in the bad medical advice case, beating all baselines in the trade-off between misalignment-reduction and
+    task-preservation. The last is a novel political-bias experiment, where fine-tuning on right-skewed Reddit financial-advice data causes
+    political-lean drift on unrelated topics. Here our method reduces drift by more than half, while improving financial task performance, beating all
+    baselines.
+
+### R00816 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation
+AB: Large language models now power robo-advisors and trading agents, yet whether they carry built-in biases toward specific assets is largely
+    untested. We ask three questions: do LLMs systematically prefer certain financial instruments; can an internal representation with causal leverage
+    over those preferences be identified; and does that representation affect downstream financial decisions? We develop a three-level audit protocol
+    and apply it to Bitcoin. First, a behavioral audit of nine frontier LLMs shows that Bitcoin's ranking among money-like instruments is
+    frame-dependent: models place it around rank 5 of 8 as "reliable money" but near the top under crisis and autonomous-agent frames, and an
+    attribute-swap experiment shows that rankings track functional properties, not names. Second, we open a model's internals: a search across
+    thousands of sparse-autoencoder features in Gemma 3 identifies a dominant Bitcoin-selective feature. Amplifying it shifts the model toward the
+    asset and suppressing it shifts the model away, even when "Bitcoin" never appears in the prompt. Third, we test financial consequences:
+    amplification raises Bitcoin's portfolio share by 5.2 percentage points while suppression lowers it by 4.6 pp, with amplification reallocating
+    within crypto and suppression cutting total crypto exposure. We characterize this as bounded behavioral leverage (leverage meaning causal
+    influence over outputs, not financial leverage): an identifiable internal feature can be perturbed to move financial choices, but only within
+    measurable limits. The framework links internal representations to external recommendations, validated with random controls and mechanism
+    boundaries. As LLMs become autonomous financial agents, this is a first step toward a behavioral layer for emerging know-your-agent (KYA)
+    standards: knowing what an agent prefers, and how far that preference can be moved.
+
+### R00817 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Topics as Proxies for Sociodemographics: How Conversational Context Affects LLM Answers
+AB: When large language models (LLMs) are used in high-stakes scenarios, such as legal, medical and financial advice, even a single conversation
+    history is enough to drive differences in outcomes between users. Prior work has demonstrated that this results in outcome disparities between
+    sociodemographic groups, with some groups receiving more advantageous outcomes than others. In this work, we demonstrate that LLMs actually
+    struggle to infer user sociodemographics from a single conversation history and that although there are disparities between sociodemographic
+    groups, they are minimal in magnitude. To investigate what is the main driver of disparities between users, we compare user sociodemographics to a
+    range of (psycho)linguistic features of conversations, including conversation topic, emotions, and readability. We find that conversation topics
+    are most predictive of LLM-generated advice within a conversational context, which, to some extent, function as proxies for sociodemographic
+    groups and often affect advice in unpredictable ways. This is cause for concern and highlights the need for future research to better understand
+    the effect of conversational context on LLM outputs in high-stakes scenarios.
+
+### R00818 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Arbiter Agent: Continually Monitoring Multi-Agent Conversations to Detect Emergent Misalignment
+AB: As AI systems built from multiple language-model agents become more common, they are increasingly used to make decisions together: discussing,
+    negotiating, and acting on shared tasks. While individual agents may appear well-aligned when tested on their own, problems can arise from how
+    they interact with one another. We introduce the Arbiter, an agent designed to monitor multi-agent conversations in real time and identify which
+    participants may be behaving in misaligned ways. The Arbiter operates under a limited "inspection budget", meaning it must decide carefully how to
+    use its resources. As it observes a conversation step by step, it can choose to wait, question a participant, examine internal information such as
+    system prompts or reasoning traces, or log concerning behavior. At the end, it produces a report identifying the likely source of misalignment. We
+    evaluate the Arbiter across five conversation conditions, ranging from risky financial advice model organisms to evaluation-aware and colluding
+    agents, we test five tool configurations of increasing capability and two backbone models. We find that the Arbiter reliably detects misaligned
+    agents well before the end of the conversation, with active inspection tools improving both detection accuracy and speed. Weight-induced
+    misalignment proves hardest to detect, while instruction-induced misalignment is identified reliably even under passive observation. The logging
+    tool exhibits a dual effect, improving recall at the cost of precision. These results suggest that continual, budget-aware monitoring can
+    effectively catch misalignment, and that overseeing multi-agent systems may require treating the auditor as an active participant in the process.
+    The code is available at https://github.com/aisilab/arbiter.
+
+### R00819 | 2026 | preprint | Lang: n/a
+TI: The Containment Gap: How Deployed Agentic AI Frameworks Fail Public-Facing Safety Requirements
+AB: Agentic large language model systems that autonomously invoke tools, maintain persistent memory, and execute multi-step plans are increasingly
+    deployed in public-facing domains, including government services, healthcare triage, and financial advising. We ask whether the frameworks used to
+    build these systems provide architectural-level structural safety guarantees. Applying six containment principles derived from a compositional
+    model of agentic architectures, we audit three dominant frameworks (LangChain, AutoGPT, and OpenAI Agents SDK) and find no native compliance in
+    any of them. Memory integrity, a defense against one of the most prevalent vulnerability classes, is not observed in any of the three evaluated
+    frameworks. We validate these findings empirically: in a simulated government benefits agent built on LangChain, a single memory-poisoning write
+    induces persistent targeted corruption across all tested seeds and backends, increasing the wrongful denial rate for targeted applicants to 88.9%.
+    Under a complex five-factor policy, the same attack preserves aggregate accuracy while increasing targeted wrongful denials by 3.5x, rendering the
+    corruption difficult to detect through standard monitoring. We then introduce two lightweight containment mechanisms: a memory integrity validator
+    and a policy gate, which eliminate both attack vectors with sub-millisecond overhead (<0.2ms per call). We conclude that the current agentic
+    framework ecosystem may not yet meet secure-by-default expectations for public-facing deployments and outline priority architectural interventions
+    to enable trustworthy deployment in high-stakes, socially impactful applications.
+
+### R00820 | 2026 | preprint | Lang: n/a
+TI: Agentic Knowledge Tracing: A Multi-Agent LLM Architecture for Stealth Assessment of Financial Literacy in Serious Games
+AB: Assessing financial literacy during gameplay without disrupting the learning experience remains a key challenge in serious games for education. We
+    present the Agentic BKT pipeline, a multi-agent large language model architecture for stealth assessment of financial competencies from open-ended
+    gameplay events. The pipeline processes events from a 2D platformer serious game aligned with the OECD/INFE financial literacy framework through
+    four phases: (1) the game captures every player decision as a structured event log; (2) an LLM event classifier labels each action on a four-point
+    rubric validated against three domain experts (Fleiss kappa = 0.624, substantial agreement); (3) four domain-specific agents specializing in risk
+    mitigation, investing, spending, and credit management perform session-level reasoning over behavioral trajectories, feeding per-competency
+    Bayesian Knowledge Tracing that estimates mastery within each domain; and (4) an expert judge agent synthesizes the domain-level estimates into an
+    overall mastery score. Evaluated with 193 K-12 participants across 264 game sessions, the Agentic BKT pipeline yields mastery estimates
+    significantly correlated with learning gain (r = 0.276, p = 0.0001) and post-test scores (r = 0.333, p < 0.0001) while showing no correlation with
+    pre-test scores, providing both convergent and discriminant validity. The multi-agent approach approximately triples the predictive validity of a
+    single-LLM baseline (r = 0.095, not significant) in this study, demonstrating that domain decomposition and session-level reasoning play a central
+    role in capturing the multidimensional nature of financial literacy from gameplay
+
+### R00821 | 2026 | preprint | Lang: n/a
+TI: Fund2Persona: A Framework for Building and Refining Financial Advisor Personas from Fund Disclosure Data
+AB: Demand for personalized financial advice is growing, yet current LLM-based advisors often fail to provide consistent and specialized guidance.
+    Simple persona prompts rarely specify how a financial advisor should reason and often drift toward generic recommendations. We propose
+    Fund2Persona, a framework that builds financial-advisor personas from real-world fund disclosures and refines them through an actor-scorer-patcher
+    loop. We test whether the resulting personas can predict held-out portfolio changes and produce commentary consistent with fund managers' own
+    explanations. They outperform generic baselines on both tasks. We further study two downstream diagnostics: market-scenario generation, where
+    persona retrieval broadens plausible investment views, and multi-turn investor-advisor conversations, where matched personas give more specific
+    and useful advice than a generic advisor. These results suggest that real fund data can bring manager-specific investment expertise to LLM
+    advisors rather than merely changing an LLM's surface style.
+
+### R00822 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: When Personalization Becomes Bias: Structural and Discursive Religious Framing in AI-Generated Financial Advice
+AB: Large language models (LLMs) are increasingly integrated into financial advisory systems, yet their role in reproducing religious bias remains
+    underexamined. This study provides systematic mixed-methods evidence of such bias across three LLMs (ChatGPT, Gemini, and Grok) using 432
+    simulated advisor-client interactions spanning 16 religious identity pairings (Christian, Muslim, Hindu, and non-religious) and three core
+    household financial decisions: stock investment, house purchase, and life insurance. Combining regression and reflexive thematic analyses, we
+    identify structural biases across models and decision contexts and the discursive mechanisms through which they are linguistically enacted.
+    Unbiased advice appeared in only 12-18% of cases. Gemini consistently produced more bias than Grok, while ChatGPT's outputs were statistically
+    comparable to Grok's. Religiously symmetric advisor-client pairings almost always triggered explicit religious framing, and non-religious clients
+    often received advisor-centered religious appeals. Qualitative findings show that bias is linguistically manifested through religious anchoring,
+    uneven cultural signaling, and tone modulation, varying by model and financial scenario. Stock investment prompts produced more financially
+    technical responses, whereas life insurance advice triggered stronger religious language. The study develops a dual-dimensional framework linking
+    structural bias rooted in model training and design with discursive bias expressed through language, advancing understanding of algorithmic bias
+    in LLM-generated financial advice. It also shows that such advice adapts linguistically to identity cues, revealing a managerial dilemma between
+    personalization and neutrality. Finally, it highlights implications for businesses, financial institutions, and regulators seeking to ensure
+    neutrality, cultural sensitivity, and trust in AI-mediated advice.
+
+### R00823 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Beyond the Chatbot: Co-Learning and Co-Teaching through a Dual-Persona Generative-AI Assistant
+AB: Abstract—In this paper we present a generative-AI application developed to support both teachers and students in secondary education. The system
+    employs two Large Language Models (LLMs) – Gemini and DeepSeek, and a Small Language model (SLM) – Gemma, integrated within a Retrieval-Augmented
+    Generation (RAG) framework to create a pedagogically grounded, Greek-language assistant capable of adapting its reasoning and communication style
+    to the user’s role. Unlike conventional chatbots, the assistant introduces Pedagogical Persona Switching, a dual-role mechanism that enables the
+    same AI model to act as both a teaching companion and a learning guide. When interacting with a student, the assistant produces accessible,
+    curriculum-grounded explanations that promote conceptual understanding while remaining faithful to the officially approved educational sources.
+    When addressing a teacher, the assistant generates diverse artifacts, including assessment items, classroom activities, and structured lesson
+    plans. This dual-persona approach bridges knowledge retrieval with pedagogical creativity, enhancing differentiated learning. Utilizing a RAG
+    paradigm tailored to the Greek educational domain, the architecture segments official textbooks into coherent units. Enriched with specific
+    metadata, these units preserve curricular structure and instructional context, demonstrating how generative AI optimizes modern instructional
+    design. These units are represented by domain-specific sentence embeddings fine-tuned on Greek semantic similarity tasks. This linguistic
+    adaptation ensures precise meaning alignment between user queries and content segments, maintaining fidelity to the official curriculum. All
+    representations are organized within a retrieval index, guaranteeing transparent and source-grounded generation. The initial case study focuses on
+    Home Economics in Greek lower-secondary education (Grades A–B), a cross-disciplinary subject that integrates elements of economics, health
+    education, and social responsibility. The assistant has been developed to support both learners and educators in complementary ways. In future
+    classroom implementations, students will be able to use it to clarify key concepts such as financial literacy, resource management, and healthy
+    living, while teachers could employ it to design authentic instructional materials, formative assessments, and classroom activities aligned with
+    the official curriculum. Home Economics (HE) was chosen as the pilot domain because it is a non-STEM, value-oriented subject focused on early
+    adolescents, emphasizing ethical reasoning, social awareness, and everyday decision-making. This unique context allows us to explore generative
+    AI's pedagogical potential beyond traditional core subjects, particularly its capacity to foster reflective reasoning and civic responsibility in
+    young learners. The project introduces an innovative generative framework combining three key elements: (a) a localized, curriculum-specific
+    Retrieval-Augmented Generation (RAG) environment, (b) semantic educational text segmentation, and (c) adaptive persona-driven prompting. More than
+    just a technical solution, this framework demonstrates how generative AI can be pedagogically and linguistically aligned with national curricula
+    and local educational contexts. The resulting model offers a reproducible foundation for future AI integration into authentic learning settings,
+    supporting teacher agency, learner engagement, and values-based secondary education. The study elevates the concept beyond a simple chatbot,
+    proposing a structured, contextually adaptive framework for pedagogical generative assistants that effectively bridge technology, curriculum, and
+    human learning.
+
+### R00824 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Credit Cards, Confusion, Computation, and Consequences: What Can We Uncover About Language Model Reasoning?
+AB: We introduce CreditCardQA, the first financial literacy benchmark for numerical reasoning derived from real credit card agreements. The dataset
+    contains 1,800 questions, including first-person variants that reflect how consumers naturally ask about fees, interest, and payments. We evaluate
+    a range of large language and reasoning models under Chain-of-Thought (CoT) and Program-of-Thought (PoT) prompting. Overall, PoT yields consistent
+    performance gains, particularly for models with weaker baseline reasoning, and narrows gaps between open- and closed-source systems. Through error
+    analysis, we show that failures arise less from arithmetic and more from misapplied financial rules, missed conditions, and misunderstandings of
+    contractual terms. We further analyze question difficulty and find that comparisons, conditional logic, and monetary constraints are especially
+    challenging. We also find that errors often arise in edge cases such as late-payment penalties or small-balance scenarios that are more likely to
+    affect lower-income or financially vulnerable individuals.
+
+### R00825 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: AI Financial Advice: Supply, Demand, and Life Cycle Implications
+AB: We ask a representative sample to write prompts seeking spending and investing advice from LLMs, then simulate the lifetime effects of following
+    the advice under realistic asset and labor market conditions. Applying this method to GPT-5.2, we find following the advice would move respondents
+    toward life cycle theory: broader participation in diversified equity funds, age-declining equity shares, and larger savings buffers.
+    Recommendations vary systematically by gender, prior AI experience, and financial literacy. For gender, two-thirds of recommended equity-share
+    differences arise from men and women writing different prompts (demand), while one-third arise from gender labels attached to otherwise identical
+    prompts (supply).
+
+### R00826 | 2026 | preprint | Lang: n/a
+TI: FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents
+AB: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it
+    remains unclear whether they can maintain and update an individualized user model over long horizons. Existing personalized-memory benchmarks
+    primarily test factual retention or rely on weakly constrained model-generated trajectories, leaving event-driven preference adaptation
+    underexplored. We introduce FinPerMA, an event-grounded benchmark that evaluates personalized memory against frozen longitudinal investor
+    trajectories. Its generation pipeline combines deterministic, theory-informed impact rules, controlled LLM narration, and automated quality
+    screening; a Post-Shock checkpoint isolates whether an agent has integrated a material event into its persistent user model. On 2,994 questions
+    from 276 personas, seven frontier LLMs and up to seven memory configurations remain far from saturated: no full-context configuration exceeds
+    approximately 0.47 overall accuracy or approximately 39% on multiple-choice questions. Attribution analysis shows that summary-based memory often
+    preserves factual details while losing the preference signals needed for personalization; simple retrieval can therefore outperform purpose-built
+    memory systems, with the gap widening after shocks.
+
+### R00827 | 2026 | preprint | Lang: n/a
+TI: GRPO for Financial Advice Generation: Outperforming Commercial LLMs under CATE Evaluation
+AB: Generating actionable financial advice from business records demands that models integrate numerical reasoning, domain knowledge, and sound
+    judgment, while avoiding recommendations that could harm the business. Direct supervision is difficult: historical decisions are not necessarily
+    optimal, and high-quality free-form labels are expensive to obtain. We formulate financial advice generation as a reinforcement learning problem
+    and fine-tune an open-weight language model using Group Relative Policy Optimization (GRPO). Our reward is an LLM-as-a-judge rubric that scores
+    each recommendation across multiple binary dimensions of advice quality, augmented with a safety gate for harm prevention. Since LLM-based
+    evaluation alone cannot confirm whether improvements reflect genuine business value rather than adaptation to the judge, we complement it with a
+    judge-independent audit based on a standard doubly-robust Conditional Average Treatment Effect (CATE) estimator. Under this observational
+    off-policy audit, our trained LLM achieves approximately twice the estimated gross-profit lift of the strongest evaluated commercial baseline
+    ($0.0228$ vs.\ $0.0104$), together with the lowest downside rate and the least negative tail risk of any policy evaluated. Notably, the two
+    evaluations do not rank the baselines identically: the untrained base model places last on the judge rubric but second on the causal audit,
+    indicating that the audit captures a signal the judge does not. Our results demonstrate that GRPO with a finance-grounded reward signal can
+    produce substantially more useful business recommendations than commercial LLMs, and that a judge-independent causal audit is a valuable
+    complement to, rather than a confirmation of, LLM-as-a-judge assessment in financial NLP.
+
+### R00828 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Auditable by Construction: An Ontology-Driven Framework for Trustworthy LLM Analytics in Enterprise Finance
+AB: Enterprise adoption of large language models in finance is constrained less by fluency than by trust: in Financial Planning and Analysis (FP&A)
+    and other regulated workflows, an answer is usable only if it is traceable to authoritative sources and auditable after the fact. This paper
+    argues that retrieval-augmented generation for enterprise finance should be evaluated on auditability alongside accuracy, and presents the
+    Knowledge-Driven Analytics Framework (KDAF), which builds ontology-driven knowledge systems through six iterative stages and retrieves evidence
+    via Context-Aware Relevance Propagation (CARP), so that every retrieved fact carries its relationship type, confidence, and source lineage. An
+    evaluation on FinanceBench (145 questions) compares KDAF against zero-context inference, BM25, concept-weighted lexical retrieval, and ungrounded
+    graph traversal. First, retrieval is necessary: zero-context inference reaches 4.1% correctness against 10-12% for retrieval-augmented conditions.
+    Second, on answer correctness the retrieval conditions are statistically indistinguishable (KDAF vs BM25: -0.007, 95% CI [-0.021, 0.000]), so
+    accuracy alone does not justify structured retrieval here -- a negative result we report explicitly. Third, on auditability the ordering reverses:
+    KDAF attains the highest citation traceability F1 (0.515), exceeding ungrounded traversal by +0.027 (CI [0.006, 0.050]) and BM25 by +0.052 (CI
+    [0.024, 0.083]), intervals excluding zero. Graph-structured retrieval also admits no evidence from outside the question subject entity (0 of 426
+    items, against 16.8% and 20.2% for lexical baselines), and every selected item resolves to a complete provenance chain. We argue that
+    auditability, not accuracy, is the axis on which ontology-grounded retrieval earns its cost.
+
+### R00829 | 2026 | preprint | Lang: n/a
+TI: Between the Lines: Multi-turn Contextual Investment Advice Detection
+AB: As large language models (LLMs) increasingly power financial conversational assistants, detecting investment advice in natural language has become
+    a critical regulatory and safety challenge. Unlike explicit single-turn recommendations, investment advice often emerges implicitly and
+    progressively over multi-turn conversations, shaped by user intent, delivery style, and contextual buildup. We introduce the first comprehensive
+    framework for detecting both sequential and contextual investment advice in dialogue settings. Central to our approach is a modular, top-down
+    synthetic data generation pipeline that systematically spans a taxonomy of advisory trajectories using an axis-bucket-descriptor schema. We
+    simulate both benign and high-risk conversations across diverse user personas, financial instruments, and risk tiers, and evaluate detection
+    capabilities using LLM-as-a-Judge with entropy-based uncertainty diagnostics. Our results show that contextual advisory detection remains
+    substantially more challenging than sequential cases, even under few-shot prompting with tailored demonstrations. This work lays the foundation
+    for scalable guardrail development in high-stakes, compliance-sensitive domains, where advisory risk is often subtle, distributed, and
+    perception-dependent.
+
+### R00830 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: From Ideas to Actions: A Public-Data Decision-Support Toolchain Across the Venture Lifecycle
+AB: Founders face two linked decisions: whether to pursue an idea before founding, and which operating actions and capital partners fit afterward. We
+    present a public-data decision-support toolchain combining time-bounded proposal profiling, market and moat checks, and deterministic aggregation
+    with auditable investor-company event chains for retrospective analysis. Pre-founding: (a) After threshold selection on 198 development companies,
+    the frozen pipeline achieves F0.5=0.5357 [0.412, 0.655] on an independent, row-disjoint 198-company validation sample. On the combined 396 rows,
+    the Full Pipeline scores 0.6301 versus 0.2734 for a paired Raw LLM baseline. Post-stratification of 1,027 completed cases in a separate scale
+    cohort yields 0.6506 [0.598, 0.707]; the run remains incomplete. A 377-row composition-matched check yields 0.6573. (b) The AI-inference study
+    identifies distribution-layer businesses as a replicable path to independent profitability with a limited revenue ceiling, and frontier-model
+    ownership as a path to capital-market upside at exceptional capital cost. Post-founding: (a) Public sources support auditable event-chain
+    analysis. (b) In the chip-company study, sustained product, customer, and supply-chain progress is associated with better observed outcomes;
+    financing alone does not establish operating progress. (c) Financing comprises 79% of confirmed visible post-investment actions. Evidence
+    tentatively favors acquisition-experienced strategic corporate investors for acquisition-oriented founders and financing-led institutional VCs
+    with fewer observed control events for independence-oriented founders. Findings are developmental and observational, not causal guarantees or
+    investment advice. We release shared ontology, provenance-bearing EventChain data, schemas, benchmarks, and executable skills for audit, reuse,
+    and extension.
+
+### R00831 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Do Emergent Misalignment Models Share a Circuit?
+AB: Fine-tuning language models on narrowly defined harmful tasks can induce emergent misalignment (EM) across unrelated domains. While prior work has
+    identified shared misalignment-associated representations across independently fine-tuned models, it remains unclear whether these models rely on
+    common computational components. We investigate this question using three LoRA fine-tunes of Qwen2.5-3B-Instruct trained on harmful medical
+    advice, risky financial advice, and extreme-sports recommendations. Using direction-based activation tracing, we identify three attention-head
+    locations shared among the five highest-ranked heads of all three organisms. Replacing each organism's five selected head contributions with Base
+    contributions reduces free-generation EM from 38.9% to 22.9% for medical, 50.7% to 12.5% for finance, and 41.7% to 11.1% for sports, outperforming
+    layer-matched random interventions without reducing judged coherence. Cross-organism activation transfer further shows that the shared heads
+    exhibit partially interchangeable effects on fixed-response preference. These findings provide evidence that representational convergence in EM
+    extends to shared, causally relevant attention-head components within a common model architecture.
+
+### R00832 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Same Person, Different Advice: Auditing LLM Financial Advice with Repeated Risk-Tolerance Responses
+AB: AI financial advisers set a client's stock allocation largely from one stated-risk question, yet people do not answer it the same way twice: in a
+    national US panel, 41% of households chose a different answer two years later, and in a laboratory retest a third of people moved two or more
+    points on a 0-10 scale after six months. Seven large language models from five providers gave one-turn allocation advice for 800 real household
+    profiles in which only the risk answer changed. The recommended stock share moved by 10 to 16 percentage points on average, and by 24 to 35 when
+    the answer changed, against 0.6 to 4.2 points for the same prompt asked twice; in the laboratory retest the rating alone moved advice by 11 to 18
+    points. Without any note, the models respond to the answer about as strongly as when told that it is very reliable (less so for the two Claude
+    models). If that instructed response is how each model maps attitude to advice, discounting the answer for its measured reliability, as classical
+    test theory prescribes, would cut the swings by a factor of 2.4 to 3.3. The swing is largest for clients under 40. A note that the answer is noisy
+    steadies some models, but shifts their weight to the client's age and pulls cautious clients towards a generic middle allocation: clients
+    unwilling to take any risk are advised 22% stocks instead of 4%. Three extra money questions reduce the swing for some models, with no
+    statistically detectable change relative to how much advice differs across people. In a scripted test, one clarifying question removes nearly all
+    of the swing from an answer the client then corrects (33.5 points to 1.9 on average) while keeping the response to a change the client confirms.
+    We argue that same-person retest audits should be a standard check for AI advisers, and that what to do with an unreliable answer is a question of
+    client autonomy as well as of statistics.
+
+### R00833 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: A Calibrated Instrument for Detecting Disposition Drift in Language Models
+AB: Before language models are released, they are tested for harmful traits such as willingness to carry out dangerous requests, deception, power
+    seeking, and sycophancy. The safe behavior these tests certify may degrade as models are modified, by topical fine-tuning, new training data, or
+    changes to settings such as the depth of their reasoning. Most work reports such drift as single summary rates scored by another AI model, without
+    the error analysis needed to interpret them. We adapt a calibrated measurement methodology recently developed for assessing how inference
+    optimizations affect the quality of model outputs. Applying it to several misalignment dimensions in two open-weight models, we first establish
+    the instrument's precision, showing that shifts of a few percentage points can be reliably detected. We then induce drift deliberately by
+    fine-tuning on correct and on subtly harmful medical and financial advice; harmful advice induces a far greater shift than correct advice. Most
+    strikingly, a model that reasons before answering can conceal the shift almost entirely in its answers, even though a direct reading of its
+    internal state shows that its disposition has moved. With reasoning switched off, the same model shifts steadily as the share of harmful advice in
+    its training grows. These results demonstrate the importance of testing safety with reasoning turned both on and off.
+
+### R00834 | 2026 | preprint | Lang: n/a
+TI: Implicit Beliefs as Scalable Process Rewards for Strategic Persuasion
+AB: Training large language models (LLMs) for multi-turn strategic persuasion faces two coupled obstacles: (i) realistic simulation of psychologically
+    grounded persuadees, and (ii) dense, faithful supervision for credit assignment in strategic dialogues. Outcome-only rewards are sparse and
+    uninformative about which conversational moves drove success, while LLM-judge process rewards are expensive and decoupled from the underlying
+    interaction dynamics. We address both challenges with a unified framework. First, we introduce PersuArena, a persuasion simulation environment
+    that produces realistic, non-monotonic trajectories. Second, building directly on this environment, we propose Process Rewards via Online Belief
+    Elicitation for Relative Policy Optimization (Probe-RPO), an online RL framework that converts the persuadee's internal state into dense process
+    rewards. At each turn, three introspective probes are read from the frozen persuadee's logits, yielding a multi-dimensional reward signal that is
+    faithfully aligned with persuasion dynamics. With extensive experiments on PersuArena spanning healthcare, financial advising, workplace
+    management, education, and personal relationships, we demonstrate that our Probe-RPO achieves the full acceptance rate of 52.5%, compared with the
+    35.8% for the strongest GRPO ablation and 25.8% for the best off-the-shelf LLM. We also conduct comprehensive analyses on the generalization
+    across persuadee models and the persuasion dynamics across conversations. Our work offers a promising paradigm that can provide effective process
+    supervision for strategic dialogue.
+
+### R00835 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Indian Financial Automated Advice Bias (IFAAB) Dataset : Auditing Socioeconomic and Demographic Disparities in LLM-Generated Financial Advice
+    in India
+AB: Large language models are increasingly used for financial guidance, yet little is known about whether their advice changes across social
+    identities in Global South contexts. We introduce the Indian Financial Automated Advice Bias (IFAAB) benchmark, a counterfactual audit dataset of
+    31,734 GPT-4o-generated financial-advice responses for synthetic Indian personas varying by gender, caste, education, employment, residence, age,
+    and district. Holding the underlying request fixed, we evaluate disparities in LLM-implied wealth, income, savings, projected gains, textual
+    similarity, advice topics, and qualitative bias judgments. In the gender-only audit, male-labelled profiles receive 60.1\% higher initial total
+    resources and 46.8\% higher post-advice total resources than comparable female-labelled profiles; in the caste-augmented audit, the post-advice
+    total-resource gap remains 49.4\%. Adding district information reduces the aggregate post-advice total-resource gender gap to 7.9\%, revealing
+    strong geographic conditioning. Standalone caste comparisons also show systematic stratification: relative to General-category profiles, OBC, SC,
+    and ST profiles receive significantly lower post-advice total resources, respectively. Textual audits show low semantic similarity between paired
+    gendered responses, with an average TF--IDF cosine similarity score of 0.44. Qualitative analysis shows that women are more often steered toward
+    cautious saving, community support, and basic financial literacy, while men receive more growth-oriented advice involving investment,
+    entrepreneurship, and asset accumulation. IFAAB provides a reusable benchmark for evaluating fairness, suitability, and consumer-protection risks
+    in LLM-mediated financial advice, and highlights the need for locally grounded, intersectional evaluation of AI systems in high-stakes economic
+    domains.
+
+### R00836 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models
+AB: Large language models (LLMs) are often conditioned into specific roles such as tutors, interviewers, or agents acting for an organisation, through
+    system prompts that specify how they should behave. The extent to which they can actually adhere to these role specifications under multi-turn
+    interactions with realistic and potentially problematic users is understudied. To address this, we propose user behaviour fuzzing, a guided search
+    over plausible user behaviours that can lead a model to violate its role specification, and introduce RoleFUZZER, a framework that adapts
+    coverage-guided fuzzing from software testing to operationalise the search. RoleFUZZER constructs scenarios guided by a user-behaviour coverage
+    grid that crosses a grounded taxonomy of user interaction types and the role specification of the model under test i.e. what is under pressure.
+    With RoleFUZZER, we evaluate LLMs across five role specifications, including tutor, financial advisor, AI interviewer, antagonistic roleplay
+    character, and web agent under organisational policies. Across simulated and validated conversations in 15 campaigns, the framework reaches >= 89%
+    coverage of the 64-cell behaviour grid for every model and role tested, and surfaces specification-grounded failure patterns. At an equal budget
+    of conversations, removing the RoleFUZZER grid and asking an LLM to generate specification targeting users free-form lowers coverage to 39-69%
+    with fewer kinds of violations. The same specification can also fail in opposite directions. For e.g., on the antagonist, open-weight target
+    models override the player's safety signals, while Claude Haiku 4.5 breaks character instead. RoleFUZZER offers a tractable way to uncover
+    vulnerabilities in LLMs across role specifications by testing diverse user behaviours that are likely to violate them.
+
+### R00837 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation
+AB: Large language models (LLMs) are attractive rerankers for recommendation. Running an expensive model on every request is costly, and for users
+    with sparse interaction histories it often lowers quality. We present CascadeRec, a two-tier LLM reranking cascade deployed in production at a
+    large financial planning and analysis (FP&A) SaaS provider. It serves content recommendations to enterprise tenants on AWS EKS and GKE. A
+    lightweight Tier-1 model reranks every request. A router escalates only the requests where extra inference-time compute is likely to help, and
+    sends them to a more expensive Tier-2 procedure (self-consistency sampling, multi-path reasoning, or a larger model). The system has run in a
+    production A/B experiment for over a month. Compared with uniform use of the expensive tier, CascadeRec has reduced inference cost by about 10%,
+    with minimal latency impact and no quality regression observed to date. Tenant data cannot be released, so we also evaluate the pipeline on public
+    benchmarks (MovieLens-1M and Amazon-Electronics). Segment-level analysis with paired-bootstrap confidence intervals shows that uniform LLM
+    reranking lowers NDCG@10 for sparse-history users by up to 30%, and its only statistically significant gain appears on the segment with the
+    longest histories. Escalating cold users can make the loss larger instead of repairing it. Which segments benefit from escalation depends on the
+    domain, and this motivates the segment-gated rollout we use in production. We describe the deployment architecture, the measured benefits, and
+    lessons learned, including inter-tenant load imbalance as a driver for cascading and the handling of LLM output-parsing failures at the serving
+    layer.
+
+### R00838 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams
+AB: Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their capabilities across financial
+    systems with different regulations and practices. However, existing financial benchmarks provide limited coverage of country-specific financial
+    systems, and they are difficult to keep up to date as released questions leak into training data. We introduce JFinBench, a Japanese financial
+    benchmark comprising 321 examples from the 2026 editions of six regularly administered certification exams covering accounting, tax, financial
+    planning, and banking. To construct it, we develop a human-in-the-loop agentic pipeline in which a coding agent writes exam-specific conversion
+    code and a review page, while a human verifies every example and feeds corrections back to the agent. This pipeline adapts to heterogeneous exam
+    formats and reduces the effort of incorporating new exam editions, enabling periodic refreshes that mitigate data contamination. Evaluating 12
+    recent LLMs, we find that Claude Fable 5 and GPT-6 Astra exceed 93% overall, while even the best open-weight model, Kimi K3.1 Pro, trails Claude
+    Fable 5 by 12 percentage points. When models can additionally use a terminal and web access, they retrieve the knowledge they lack and every model
+    improves. The gap narrows but about 4 points remain, and the ranking of models stays largely the same, suggesting that knowledge held in the model
+    itself remains valuable even with tools. We release the dataset, the evaluation code, and the construction pipeline.
+
+### R00839 | 2025 | preprint/None | Lang: en
+TI: Using Large Language Models for Financial Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00840 | 2025 | article/None | Lang: en
+TI: DeepFinLLM: an intelligent financial advisor unleashing strategic insights with large language models
+AB: Abstract Generative AI breakthroughs have reshaped financial analytics, introducing seamless, language-based interactions that expand access to
+    valuable insights. Traditionally, financial analysis relied on rigid, rule-driven tools requiring specialized skills, often yielding 75% accuracy
+    and faltering with complex queries. DeepFinLLM overcomes these barriers by blending advanced language understanding with real-time financial data,
+    offering precise responses with a 94% accuracy rate and 0.8-second delivery time. Merging artificial intelligence with dynamic market data, it
+    provides adaptability and scalability across diverse financial contexts. Users, from expert investors to novices, praise its intuitive interface,
+    with 90% valuing its fast, reliable insights. Handling structured financial information and open-ended inquiries, DeepFinLLM facilitates deep
+    analysis of investment options, market trends, and risks, enhanced by real-time updates for relevance in volatile markets. By simplifying complex
+    tasks and encouraging data-informed decisions, DeepFinLLM transforms financial analytics to serve a broader audience effectively.
+
+### R00841 | 2026 | article/None | Lang: en
+TI: Analysis of Large Language Model-Based Stock Investment Recommendations for LQ45 Stocks
+AB: This study aims to examine the capability of Large Language Models (LLMs) to generate stock investment recommendations in the form of buy, hold,
+    and sell for stocks included in the LQ45 Index of the Indonesia Stock Exchange. A quantitative experimental approach was employed using three
+    generative artificial intelligence models: ChatGPT, Gemini, and DeepSeek. Each model received an identical prompt incorporating stock price
+    information, trading volume, candlestick patterns, and macroeconomic and microeconomic sentiment. The research sample comprised 45 LQ45
+    constituent stocks observed over 20 trading days in December 2025, resulting in 900 observations for each model and 2,700 observations in total.
+    Model performance was evaluated based on three primary dimensions: recommendation accuracy relative to actual stock price movements, investment
+    returns, and downside risk. The findings indicate discrepancies between LLM-generated recommendations and actual stock price movements, suggesting
+    that none of the three models can predict stock price direction with complete accuracy. Nevertheless, all models generated positive cumulative
+    returns. DeepSeek achieved the highest Compounded Cumulative Return (CCR) at 24.01%, followed by Gemini at 23.58% and ChatGPT at 1.90%. In terms
+    of risk, ChatGPT demonstrated the most favorable performance, recording the lowest total risk at 16.35%, compared with DeepSeek at 22.34% and
+    Gemini at 24.85%. The loss rates were also below 50% across all models, namely 34.11% for DeepSeek, 37.88% for Gemini, and 27.33% for ChatGPT.
+    These findings suggest that LLMs can function as Decision Support Systems for investment decision-making by generating recommendations with the
+    potential to produce positive returns while maintaining relatively moderate risk. However, LLM-generated recommendations should not be interpreted
+    as definitive market forecasts because their performance remains sensitive to market volatility, information dynamics, and rapidly changing
+    financial conditions.
+
+### R00842 | 2025 | preprint/None | Lang: en
+TI: The Role of Large Language Models in Financial Planning: Replace or Complement Advisors?
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00843 | 2025 | article/None | Lang: en
+TI: Generating Financial Literacy: Exploring Personal Finance Information Discovery through Large Language Models and Short Form Content
+AB: Technology drives information seeking behavior. Many technology platforms now encourage users to ask their AI-driven tools for personal and
+    professional guidance. This practice is no different when looking for financial direction. Tasking large language model tools like ChatGPT and
+    Copilot to answer basic financial planning questions found they typically offer acceptable answers for personal finance beginners, such as college
+    students. However, the responses are limited and rarely suggest seeking additional help from a professional. It is essential for librarians to
+    understand the type of information provided by such tools and how to support patrons should they come to libraries seeking help. Librarians should
+    offer preemptive learning opportunities to teach patrons how these tools work, why they provide certain responses, and how to evaluate their
+    content for validity and trustworthiness before acting on the advice they receive.
+
+### R00844 | 2025 | article/None | Lang: en
+TI: DeepFinLLM 2.0: an optimized and scalable multilingual financial advisor unleashing strategic insights through multi-API orchestration and large
+    language models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00845 | 2026 | preprint/None | Lang: en
+TI: Can artificial Intelligence Generate Suitable Financial Advice in the Swiss Context? An Evaluation of Large Language models on Financial Planning
+    Exam Questions
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00846 | 2026 | article/None | Lang: en
+TI: Utilization of Large Language Models (LLMs) in Designing Financial Management for Rural Private Madrasah in Indonesia
+AB: This study investigates the utilization of Large Language Models (LLMs) in designing financial management systems for rural private madrasah in
+    Indonesia. Rural private madrasah faces unique financial challenges, including limited government funding, dependence on community contributions,
+    and lack of professional financial management expertise. This research employs a mixed-method approach combining Systematic Literature Review
+    (SLR) and a single qualitative case study for preparation of simulation at Madrasah Ibtidaiyah Ulul Albab, Prayungan Village, Sawoo District,
+    Ponorogo Regency, East Java. The SLR analyzed 45 relevant articles from 2020-2024 databases including Scopus, Web of Science, and Google Scholar.
+    The case study involved in-depth interviews with 8 key informants, document analysis, and participatory observation over six months. Findings
+    reveal that LLMs can significantly contribute to financial management design through budget planning optimization, financial report generation,
+    cash flow analysis, and strategic fundraising recommendations. The integration of LLMs increased financial planning efficiency by approximately
+    60% and reduced administrative workload by 45%. However, challenges persist regarding digital literacy, infrastructure limitations, and contextual
+    understanding of local socio-economic conditions. This study proposes a conceptual framework for LLM-assisted financial management specifically
+    tailored for rural private madrasah, emphasizing the synergy between artificial intelligence capabilities and human contextual judgment.
+
+### R00847 | 2026 | article/None | Lang: en
+TI: LLM-based Personalized Portfolio Recommender: Integrating Large Language Models and Reinforcement Learning for Intelligent Investment Strategy
+    Optimization
+AB: In modern financial markets, investors increasingly seek personalized and adaptive portfolio strategies that reflect their individual risk
+    preferences and respond to dynamic market conditions. Traditional rule-based or static optimization approaches often fail to capture the nonlinear
+    interactions among investor behavior, market volatility, and evolving financial objectives. To address these limitations, this paper introduces
+    the LLM-based Personalized Portfolio Recommender (L-PPR), an integrated framework that combines Large Language Models (LLMs), reinforcement
+    learning, and individualized risk preference modeling to support intelligent investment decision-making. The proposed system comprises three core
+    components: (1) a Conversational Financial Agent (FinAgent) that engages with users through natural language, gathers behavioral feedback, and
+    delivers interpretable advisory explanations; (2) a Personalization and Risk Modeling Module that infers investor-specific risk tolerance using
+    Bayesian inference and behavioral imitation learning; and (3) a Strategy Recommendation Engine based on Proximal Policy Optimization (PPO) that
+    generates personalized asset allocation strategies conditioned on user embeddings and real-time market states. Experimental results on a simulated
+    multi-asset portfolio dataset show that L-PPR substantially outperforms established baselines, including Mean–Variance Optimization (MVO), Deep
+    Reinforcement Learning Portfolio (DRL-PPO), and BERT-based Financial Advisor (BERT-FA). Specifically, L-PPR achieves a 73.8% improvement in
+    annualized return and a 33.2% reduction in maximum drawdown relative to MVO. It also records the highest Sharpe Ratio (1.45), Information Ratio
+    (0.78), and User Alignment Score (0.89). These findings demonstrate that L-PPR effectively enhances risk-adjusted performance while delivering
+    superior personalization and user satisfaction.
+
+### R00848 | 2025 | preprint/None | Lang: en
+TI: Unleashing the Potential of Large Language Models in the Finance Industry
+AB: The rapid advancements in large language models (LLMs) have ushered in a new era of transformative potential for the finance industry. This paper
+    explores the latest developments in the application of LLMs across key areas of the finance domain, highlighting their significant impact and
+    future implications.In the realm of financial analysis and modelling, LLMs have demonstrated the ability to outperform traditional models in tasks
+    such as stock price prediction, portfolio optimization, and risk assessment. By processing vast amounts of financial data and leveraging their
+    natural language understanding capabilities, these models can generate insightful analyses, identify patterns, and provide data-driven
+    recommendations to support decision-making processes.The conversational capabilities of LLMs have also revolutionized the customer service
+    landscape in finance. LLMs can engage in natural language dialogues, addressing customer inquiries, providing personalized financial advice, and
+    even handling complex tasks like loan applications and investment planning. This integration of LLMs into financial institutions has the potential
+    to enhance customer experiences, improve response times, and reduce the workload of human customer service representatives.Furthermore, LLMs are
+    making significant strides in the realm of risk management and compliance. These models can analyze complex legal and regulatory documents,
+    identify potential risks, and suggest appropriate remedial actions. By automating routine compliance tasks, such as anti-money laundering (AML)
+    checks and fraud detection, LLMs can help financial institutions enhance their risk management practices and ensure better compliance, mitigating
+    the risk of costly penalties or reputational damage.As the finance industry continues to embrace the transformative potential of LLMs, it will be
+    crucial to address the challenges surrounding data privacy, algorithmic bias, and the responsible development of these technologies. By navigating
+    these considerations, the finance sector can harness the full capabilities of LLMs to drive innovation, improve efficiency, and ultimately,
+    enhance the overall financial ecosystem.
+
+### R00849 | 2025 | preprint/None | Lang: en
+TI: Robo-Advising Meets Large Language Models: Educating Investors on Alpha and Beta of Mutual Funds and Stocks
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00850 | 2026 | article/None | Lang: en
+TI: Does financial advice by AI-based robo-advisors will replace humans? Evidence from ChatGPT and Google Bard
+AB: The advent of artificial intelligence technologies has transformed various sectors, including taxation. The present study investigates the
+    accuracy and knowledge of taxation advice provided by two leading AI tools, ChatGPT and Google Bard, for Indian taxpayers. Utilizing nine
+    evaluative criteria - Clarity, Accuracy, Precision, Relevance, Depth, Breadth, Logic, Significance, and Fairness, we examine the capabilities of
+    ChatGPT and Google Bard in delivering reliable taxation advice. We used 12 different prompts for each taxation advice from ChatGPT and Google Bard
+    separately. Our respondents are limited to Chartered Accountants having exposure to robo-advisory services in varied capacities. The findings
+    indicate that Google Bard exhibits superior accuracy, while ChatGPT excels in other evaluative categories. Both AI tools, however, demonstrated
+    comparable overall performance. Notably, Chartered Accountants slightly favoured the responses generated by Google Bard concerning the correctness
+    of Indian taxation advice. These findings are significant for three major stakeholders of the Indian Taxation system; the Government, Chartered
+    Accountants, and Assessees, and indicate the need for policy changes in regulating the role of Artificial Intelligence in the Indian financial
+    advice domain. One major limitation of this research is the number of respondents due to the complex and time-intensive nature of the
+    questionnaire. This is the first study in our knowledge that evaluates the authenticity and reliability of financial advice provided by
+    robo-advisors; with a particular focus on tax-saving approaches tailored to the Indian context.
+
+### R00851 | 2026 | preprint/None | Lang: en
+TI: One Advisor for the Whole World? Cross-Country Evidence on Financial Advice from Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00852 | 2026 | preprint/None | Lang: en
+TI: My Co-Pilot, My Friend: Large Language Models and Fiduciary Duty
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00853 | 2026 | article/None | Lang: en
+TI: Exploring Personalized Explanation Methods in Fintech Decision-Making Chatbot Based on User Characteristics Using Large Language Model
+AB: As AI increasingly supports financial decision-making, the need for explanations that users can understand and trust is growing. Previous research
+    has often taken a uniform approach to explanations, without considering individual user characteristics. In this work, we examine the interaction
+    between explanation methods and user characteristics and propose personalized explanations. To identify suitable explanations for different levels
+    of risk-taking, Study 1 employed a 3 (explanation methods) × 2 (risk-taking levels) between-subjects design. We also found that subjective AI
+    knowledge plays an important role and proposed corresponding explanations. Study 2 validated the explanation methods identified in Study 1 using a
+    2 (risk-taking level–based explanations) × 2 (AI literacy–based explanations) between-subjects design. The results showed that personalized
+    explanations improved user experience. Furthermore, we examined whether financial literacy moderates the relationship between explanation methods
+    and user experience, finding that it moderates the effect of AI literacy–based explanations on understanding.
+
+### R00854 | 2025 | article/None | Lang: en
+TI: Robo-Advisors in Fintech-Challenges and Solutions
+AB: The banking sector has experienced substantial transformations as a result of the proliferation of financial technology, commonly known as
+    FinTech.The introduction of these breakthroughs has caused a transition from conventional banking to digital services, bringing forth a range of
+    developments like AI platforms, Blockchain technology, virtual currencies, Robo-advisors, and chatbots.Despite the speedy and easy services
+    offered by FinTech, there are still difficulties regarding trust, security, and data privacy, particularly in nations such as Pakistan.This study
+    explores the integration of Robo-advisors within Pakistan's FinTech sector, focusing on the challenges of trust, security, and data
+    privacy.Chatbots, playing a crucial role in the banking and telecom industries, encounter challenges such as customer skepticism and the potential
+    for cybersecurity threats.Using Grounded Theory and Social Representation Theory (SRT), the study comprehensively examines how chatbots and
+    Robo-advisors in the Pakistani FinTech industry address these challenges.The findings indicate that establishing trust, guaranteeing data
+    security, and enhancing user experience are of utmost importance.Transparent communication, robust security measures, and user-centric design have
+    been identified as critical for building trust and driving adoption.Collaboration with financial professionals, continuous innovation, and user
+    education emerge as crucial answers.The study highlights the significance of transparency and adherence to regulations, while proposing future
+    research avenues to investigate the psychological aspects influencing the adoption of FinTech and the effects of developing technologies.These
+    insights contribute to the growing discourse on FinTech innovation and its potential to enhance financial inclusion in developing economies.
+
+### R00855 | 2025 | article/None | Lang: en
+TI: ChatGPT as a Financial Advisor: A Re-Examination
+AB: Building on prior research, we revisited the 21 personal finance scenarios using OpenAI’s newer ChatGPT-4o to observe whether its financial
+    guidance has meaningfully evolved. Our qualitative analysis relied on expert assessments to examine both the content and tone of the model’s
+    advice, considering how prompt engineering influenced ChatGPT outputs. We observed that ChatGPT-4o often produced more thorough suggestions and
+    paid closer attention to tax implications—though it still overlooked some important details. It also showed more creative thinking in certain
+    situations. However, some of the same shortcomings persisted: Generalizations remained too broad with respect to certain topics, legal references
+    were occasionally misleading, and emotional empathy continued to feel artificial, even with carefully crafted prompts. We also extended our
+    analysis to the newest ChatGPT model (ChatGPT-5). We found that the recommendations generated by ChatGPT-5 were quite similar to those generated
+    by ChatGPT-4o, but the accuracy in the numerical problems was better under ChatGPT-5. While not a replacement for financial professionals, ChatGPT
+    appears to be maturing into a more useful supporting tool for both advisors and clients. Our findings not only suggest cautious optimism but also
+    underscore the need for careful oversight when using such tools in personal financial decision-making.
+
+### R00856 | 2025 | article/None | Lang: en
+TI: AI Financial Advisor Chatbot - Scalable & Personalized Financial Guidance as a Service
+AB: In today’s society, proper money management is very important. Many individuals earn good salaries but still find it difficult to save, invest, or
+    pay EMIs because they do not plan their finances properly. This issue inspired us to develop a website called AI Advisor, which helps users manage
+    their money in a smart and easy way. After a user enters their monthly salary, the tool calculates how much should be set aside for savings, how
+    much be invested, and how much EMI can be afforded if they plan to make a purchase. The tool follows basic financial principles and provides sound
+    advice, along with financial tips and tricks to improve the user’s financial health. AI Advisor is especially helpful for students, fresh
+    graduates, early-career professionals, and families who want to better understand their income and learn how to manage it effectively. The primary
+    goal of this project is to reduce financial stress and help people manage their finances easily with the support of artificial intelligence.
+
+### R00857 | 2025 | article/None | Lang: en
+TI: ENHANCING TAX PREPARATION THROUGH LARGE LANGUAGE MODELS: A USER-CENTRIC FRAMEWORK
+AB: The complexity and opacity of modern tax systems present significant challenges for individuals and small businesses during tax preparation. In
+    recent years, large language models (LLMs) have demonstrated the potential to understand, interpret, and generate human-like language at scale.
+    This paper proposes a user-centric framework that leverages LLMs to enhance tax preparation through personalized assistance, error detection,
+    regulatory compliance guidance, and intelligent document analysis. We analyze the capabilities and limitations of current LLMs, present a system
+    architecture for integrating these models into tax platforms, and evaluate their performance using simulated taxpayer scenarios. The framework
+    emphasizes explainability, privacy protection, and real-time adaptability to user input. Results indicate that LLMs significantly reduce user
+    burden, improve accuracy, and foster greater financial literacy. The findings highlight the transformative potential of language-based AI to
+    democratize access to complex tax knowledge and reduce dependency on traditional, costly tax advisory services.
+
+### R00858 | 2025 | article/None | Lang: en
+TI: Biased echoes: Large language models reinforce investment biases and increase portfolio risks of private investors
+AB: Large language models are increasingly used by private investors seeking financial advice. The current paper examines the potential of these
+    models to perpetuate investment biases and affect the economic security of individuals at scale. We provide a systematic assessment of how large
+    language models used for investment advice shape the portfolio risks of private investors. We offer a comprehensive model of large language model
+    investment advice risk, examining five key dimensions of portfolio risks (geographical cluster risk, sector cluster risk, trend chasing risk,
+    active investment allocation risk, and total expense risk). We demonstrate across four studies that large language models used for investment
+    advice induce increased portfolio risks across all five risk dimensions, and that a range of debiasing interventions only partially mitigate these
+    risks. Our findings show that large language models exhibit similar "cognitive" biases as human investors, reinforcing existing investment biases
+    inherent in their training data. These findings have important implications for private investors, policymakers, artificial intelligence
+    developers, financial institutions, and the responsible development of large language models in the financial sector.
+
+### R00859 | 2026 | preprint/None | Lang: en
+TI: Converging Echoes: Inter-Model Convergence in Investment Recommendations by LLMs
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00860 | 2026 | article/None | Lang: en
+TI: Identifying and Mitigating Bias in Large Language Model-Based Financial Investment Analysis
+AB: Large language models can assist in financial statement interpretation, risk assessment, and investment recommendation generation, but their
+    output may be affected by corpus distribution, prompting methods, and knowledge timeliness. This paper employs a narrative review method based on
+    structured retrieval to review research on financial scenarios and related general methods, comparing techniques such as evidence verification,
+    counterfactual testing, uncertainty estimation, prompting bias mitigation, and Retrieval-Augmented Generation (RAG). Research shows that factual
+    accuracy, judgment consistency, and investment effectiveness belong to different evaluation levels, and improvement in a single indicator is
+    insufficient to prove the elimination of systematic bias. Future research should strengthen time-consistent data governance, cross-market
+    validation, and human-machine collaborative auditing, and establish an evaluation system that combines bias identification with decision
+    constraints.
+
+### R00861 | 2026 | article/None | Lang: en
+TI: DESIGN AND IMPLEMENTATION OF A RAG-BASED AI AGENT FOR ROBO-ADVISORS
+AB: This study focuses on the design and implementation of an agentic system based on Retrieval-Augmented Generation (RAG) architecture for automated
+    financial advisory services (Robo-Advisors, RA). The relevance of this study lies in the knowledge limitations of large language models (LLMs) in
+    domain-specific areas, such as the financial sector, where factual errors can lead to direct financial losses and regulatory risks. Based on a
+    literature review, the class of tasks for a modern Robo-Advisor platform suitable for RAG-based solutions has been identified. The purpose of this
+    research is to develop a RAG agent architecture for a Robo-Advisor service and verify its functionality on a working prototype. Functional
+    requirements for an RA module were established to track the behaviour of financial assets within a specific investment portfolio. An analysis was
+    conducted on the tools used to implement typical interaction scenarios with a RAG system (data acquisition, text preprocessing, vectorisation,
+    data normalisation, LLM interaction, etc.). A software architecture was designed in which agent functions (obtaining stock prices, analysing
+    financial news, automated reports, user communication) are reflected in separate software modules. The system is divided into an asynchronous
+    indexing circuit and a synchronous user interaction circuit. The agent's memory is implemented as hybrid storage, where a relational database
+    serves as the source of truth, and the vector index is a fully recoverable derivative artifact. A method for re-ranking news search results using
+    a normalised time-of-publication coefficient is proposed. User interaction is implemented as a chatbot for a messenger. Pilot operation confirmed
+    that the system meets the established requirements; identified shortcomings and limitations of the agent are described, along with methods for
+    their resolution. The results of this study can be used to integrate RAG agents into full-scale Robo-Advisor services.
+
+=== END OF BATCH b021 (50 records) ===
