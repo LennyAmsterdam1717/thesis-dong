@@ -1,0 +1,706 @@
+BATCH q003 -- 37 records for QC recheck: R00236 .. R00279
+
+### R00236 | 2026 | article/None | Lang: en
+TI: Enhancing access to justice through chatbot technology: on the effectiveness of artificial intelligence in the delivery of legal advice
+AB: Many people are interested in how effectively robots and AI can enhance access to justice.This study examines Kazakhstan's digital court system
+    and explores how large language models (LLMs) and question-answering (QA) tools can improve the quality, usability, and efficiency of legal
+    services.The models -LLaMA-3B, GEMMA-9B, Phi-14B, Qwen-7B, and Mistral-7B -were trained and tested using data from leading Kazakh legal websites
+    such as Adilet, Zqai, and Gov.kz, evaluated through ROUGE, METEOR, and expert review metrics.Among them, GPT-4o-mini achieved the highest accuracy
+    and usability scores, demonstrating strong proficiency in the Kazakh language.The findings show that, in our study sample, AI-driven chatbots
+    inspire more user trust than rule-based systems, indicating potential for boosting public confidence in digital judicial services.Overall, the
+    study shows that LLM-powered legal advisory systems have the potential to advance sustainability, equity, and accessibility in national legal
+    systems, which calls for further extensive research.
+
+### R00237 | 2026 | article/None | Lang: en
+TI: Privacy and empathy in AI chatbots: A dual-route analysis of cognitive and emotional trust in financial services
+AB: Trust remains a critical barrier to the adoption of artificial intelligence (AI) chatbots in financial services, yet extant research has not
+    systematically examined how distinct communication strategies differentially shape cognitive and emotional trust. Grounded in Dual Process Theory
+    and enriched by Theory of Mind, this study investigates how privacy communication and empathetic language influence users’ trust formation through
+    complementary cognitive (System 2) and affective (System 1) pathways. Privacy communication is theorized as a structural assurance that activates
+    analytical evaluation of the chatbot’s competence and integrity, whereas empathetic language triggers intuitive perceptions of warmth and
+    benevolence aligned with the experiential dimension of mind perception. A 2 × 2 between-subjects experiment (N = 163) using a GPT-based investment
+    chatbot in a simulated banking scenario reveals that privacy communication significantly enhances cognitive trust (F = 15.43, p < .001, η2 =
+    .088), while empathetic language significantly increases emotional trust (F = 15.76, p < .001, η2 = .090). Both factors independently strengthen
+    overall trusting beliefs, with no significant interaction effects, confirming an additive dual-pathway model. These findings advance dual-process
+    trust theory in AI-mediated financial services and offer actionable interface-design insights for banking executives seeking to build user
+    confidence through complementary rational and relational trust mechanisms.
+
+### R00238 | 2025 | article/None | Lang: en
+TI: Assisting early-stage software startups with LLMs: Effective prompt engineering and system instruction design
+AB: Context: Early-stage software startups, despite their strong innovative potential, experience high failure rates due to factors such as
+    inexperience, limited resources, and market uncertainty. Generative AI technologies, particularly Large Language Models (LLMs), offer promising
+    support opportunities; however, effective strategies for their integration into startup practices remain underexplored. Objective: This study
+    investigates how prompt engineering and system instruction design can enhance the utility of LLMs in addressing the specific needs and challenges
+    faced by early-stage software startups. Methods: A Design Science Research (DSR) methodology was adopted, structured into three iterative cycles.
+    In the first cycle, use cases for LLM adoption within the startup context were identified. The second cycle experimented with various prompt
+    patterns to optimize LLM responses for the defined use cases. The third cycle developed “StartupGPT”, an LLM-based assistant tailored for
+    startups, exploring system instruction designs. The solution was evaluated with 25 startup practitioners through a combination of qualitative
+    feedback and quantitative metrics. Results: The findings show that tailored prompt patterns and system instructions significantly enhance user
+    perceptions of LLM support in real-world startup scenarios. StartupGPT received strong evaluation scores across key dimensions: satisfaction
+    (93.33%), effectiveness (80%), efficiency (80%), and reliability (86.67%). Nonetheless, areas for improvement were identified, particularly in
+    context retention, personalization of suggestions, communication tone, and sourcing external references. Conclusion: This study empirically
+    validates the applicability of LLMs in early-stage software startups. It offers actionable guidelines for prompt and system instruction design and
+    contributes both theoretical insights and a practical artifact — StartupGPT — that supports startup operations without necessitating costly LLM
+    retraining.
+
+### R00239 | 2026 | article/None | Lang: en
+TI: Who Holds the Function? Bidirectional Function-Allocation Failures in Longitudinal Human–LLM Interaction
+AB: Repeated failures observed in a longitudinal human–LLM collaboration appeared at first to belong to different categories: a tool was not called
+    when needed; a tool was called when it was not authorized; an unresolved scene was acted on too early; a resolved scene was unnecessarily
+    reopened; a language model shifted into an unsolicited caretaker role; and externally packaged authority was given more weight than an already
+    verified local process trace. This paper asks whether these events can be usefully viewed as manifestations of a common process problem: the wrong
+    function being activated, inhibited, deferred, or carried by the wrong system component. We relate the cases to established work on human–machine
+    function allocation, misuse and disuse of automation, omission and commission errors, three-way decisions, trust calibration, algorithm aversion,
+    sycophancy, and algorithmic paternalism. We then propose Functional Position Misassignment (FPM) as an operational descriptor rather than a claim
+    about hidden model mechanisms. FPM occurs when a function is performed by the wrong carrier, at the wrong time, in the wrong direction, or with
+    the wrong measure. The central methodological contribution is a bidirectional diagnostic rule: every identified failure should be paired with a
+    search for its opposite failure before a corrective rule is stabilized. We conclude with a compact process-control procedure - the Functional
+    Position Check - that separates function, carrier, state, action gate, boundary, implementation trace, and reality feedback. The aim is not to
+    eliminate uncertainty or autonomy from human–LLM systems, but to keep functions in the right place and make role drift observable before it
+    becomes a stable interaction pattern.
+
+### R00240 | 2025 | article/None | Lang: en
+TI: Evaluating a Custom Chatbot in Undergraduate Medical Education: Randomised Crossover Mixed-Methods Evaluation of Performance, Utility, and
+    Perceptions
+AB: Background: While LLM chatbots are gaining popularity in medical education, their pedagogical impact remains under-evaluated. This study examined
+    the effects of a domain-specific chatbot on performance, perception, and cognitive engagement among medical students. Methods: Twenty first-year
+    medical students completed two academic tasks using either a custom-built educational chatbot (Lenny AI by qVault) or conventional study methods
+    in a randomised, crossover design. Performance was assessed through Single Best Answer (SBA) questions, while post-task surveys (Likert scales)
+    and focus groups were employed to explore user perceptions. Statistical tests compared performance and perception metrics; qualitative data
+    underwent thematic analysis with independent coding (κ = 0.403–0.633). Results: Participants rated the chatbot significantly higher than
+    conventional resources for ease of use, satisfaction, engagement, perceived quality, and clarity (p < 0.05). Lenny AI use was positively
+    correlated with perceived efficiency and confidence, but showed no significant performance gains. Thematic analysis revealed accelerated factual
+    retrieval but limited support for higher-level cognitive reasoning. Students expressed high functional trust but raised concerns about
+    transparency. Conclusions: The custom chatbot improved usability; effects on deeper learning were not detected within the tasks studied. Future
+    designs should support adaptive scaffolding, transparent sourcing, and critical engagement to improve educational value.
+
+### R00242 | 2026 | preprint/None | Lang: en
+TI: Adaptive, LLM-Generated Explanations in AI-Assisted Decision-Making: Do They Improve Human Performance and Appropriate Trust?
+AB: This research proposal investigates whether adaptive, LLM-generated explanations can improve human decision-making and appropriate trust in
+    AI-assisted decision-making. The proposed study compares three conditions: no explanation, standard LLM-generated explanation, and adaptive
+    LLM-generated explanation. It examines decision accuracy, appropriate reliance, error recovery, trust calibration, confidence, and perceived
+    clarity across different task modalities. The study has not yet been conducted; no participants have been recruited and no experimental data have
+    been collected or analyzed. The manuscript is structured as a Stage 1 Registered Report, with the results and discussion intended for a future
+    Stage 2 study.
+
+### R00245 | 2026 | article/None | Lang: en
+TI: Emotionally Aware AI Chatbots for Adolescents: A Review of Psychological Principles for Learning, Calibrated Trust, and Healthy Human–AI
+    Interaction
+AB: Conversational artificial intelligence now belongs to ordinary adolescent life, but the psychological research that should guide its design
+    spreads over fields which seldom cite each other. Research on adolescent development, on misinformation susceptibility, on trust in automation, on
+    chatbot-supported learning and on companion-chatbot overreliance has grown up separately, and each of these areas answers only part of the
+    question of how a general-purpose chatbot should talk to a teenager. This paper brings together twenty-one sources from developmental psychology,
+    human factors, human-computer interaction and educational technology, in order to show what is now known about adolescent chatbot interaction and
+    what this means for conversational design. Three results appear repeatedly in this research. First, adolescence is a design context of its own,
+    not a smaller version of adulthood, since reward sensitivity, social influence and emotional regulation are still developing, while exposure to
+    persuasive conversational systems has already reached almost everyone. Second, trust in a chatbot changes behavior in ways that can be measured;
+    thus, the proper design target is calibrated trust rather than maximal trust. Third, the failure modes that matter most for adolescent users, that
+    is, hallucination, sycophancy and unwarranted confidence, originate in the model; the user is not their source. From these results this paper
+    consolidates ten conversational design principles into four clusters, namely epistemic calibration, metacognitive scaffolding, bounded emotional
+    support and autonomy preservation. The framework here is a conceptual synthesis and puts forward testable predictions, but it has not been
+    empirically validated.
+
+### R00246 | 2026 | article/None | Lang: en
+TI: Through the looking glass: ethical considerations regarding LLM-induced hallucinations to medical questions
+AB: Large language models (LLMs) are artificial intelligence (AI)-based systems which have been trained on extensive records derived from articles,
+    books and other internet-based content (typically from a mix of both publicly available and proprietary content). (1) LLMs have become rapidly
+    embedded in digital health ecosystems, promising to augment healthcare delivery, research, and patient engagement.(2) Their ability to generate
+    coherent, human-like responses positions them as transformative tools for health information dissemination, clinical decision support, and patient
+    self-management. Yet, their probabilistic foundations carry inherent limitations: they are prone to "hallucinations," the confident presentation
+    of factually incorrect or biologically implausible outputs. (3) While such hallucinations may be benign in creative domains, akin to the favourite
+    book by Lewis Carroll 'Through the looking glass', in healthcare the consequences of such hallucinations can be profound. This opinion manuscript
+    examines the key ethical and practical implications of such hallucinations, with particular attention to accountability, transparency, and the
+    shared responsibilities of developers, deployers, and end-users.As a general approach, LLMs generate responses by predicting likely word sequences
+    rather than assessing factual accuracy. Therefore, there are several technical reasons that may affect hallucinations. The primary one is the
+    biases in training data, where for example a model would assume the universality of a pattern, simply because it occurred frequently within a
+    given training dataset. Moreover, when datasets are incomplete or contain lots of noise such as inaccuracies or contradictions, LLMs can learn
+    correlations across these sources, but when asked to reconcile them, they may synthesize a 'fictional' middle ground, opt for a wrong pattern
+    observed in the noise, and thus produce authoritative statements even when no reliable data exists. If a model is trained without explicit
+    grounding in fact-checking or truthfulness, hallucination risks increase, because the model is never penalised for inventing, and only rewarded
+    for coherence and diversity. (4) In turn in clinical practice, this can result in plausible but incorrect clinical content, ranging from
+    misdescriptions of symptoms to fabricated treatment guidelines -reflecting the collective accuracy of symptoms descriptions in the harvested
+    databases. (5) These risks are amplified in medicine where additional to potential misdescriptions, misinformation can undermine evidence-based
+    practice, confuse patients, or-in the worst cases-cause harm. However, not all hallucinations carry the same weight. Unlike overtly dangerous
+    outputs, which may be swiftly identified and corrected be experienced healthcare professionals, subtler hallucinations can often persist
+    undetected. These smaller inaccuracies accumulate in public discourse, shaping patient perceptions and subtly eroding trust in digital health over
+    the longer-term. Their collective impact is nontrivial: while each instance may appear harmless, the long-tail effect threatens the integrity of
+    health information ecosystems.The central ethical questions revolve on fairness and accountability: who is responsible for harm caused by
+    hallucinations? From a technical perspective, accountability may be understood solely as the need for ensuring quality on the algorithm
+    performance and the protection over the data. However, the AI impacting an individual patient is integrated within the healthcare system. Thus,
+    accountability should be viewed through a more comprehensive framework, able to accommodate such a complexity at the level of the product, the
+    process and the actual decision. (6) Five major stakeholder groups warrant consideration:1. Developers -Engineers and companies that design LLMs
+    carry ethical duties to minimize hallucination risk through technical safeguards, rigorous testing, and transparent disclosure of limitations.
+    Steps have been taken to this direction with testing options emerging during LLM development. (7) 2. Deployers -Institutions and platforms
+    integrating LLMs into health systems have the ethical imperative to ensure (as with any equipment or software) that contextual validation, risk
+    assessment, and alignment with clinical standards take place to pre-defined local and national standards (8). Furthermore, the implementation of
+    such systems touches the principle of fairness, so that any improvements in patient service are as equitable as possible.3. End-users -Both
+    clinicians and patients using these systems are anticipated to exercise critical judgment, recognizing that AI outputs are advisory, not
+    authoritative. ( 9) However, to do so, clinicians and patients alike need to acquire sufficient digital health literacy and be educated to use
+    such systems to best effect. (10) 4. Publishing platforms -Publishing platforms for international scientific journals so far face a double
+    challenge of promoting accurate peer-reviewing for LLMs presented as part of submitted manuscripts (11), as well as potentially adopting LLM as an
+    aid for the peer review process itself. (12) The ethical perspective here, is this of trust, and how to maintain the trustworthiness of the wave
+    of new publications that results from the rapid technological advancement.5. Regulators -The efforts to regulate effectively and thereafter
+    maintain control over regulated domains, e.g., in the European Union (EU) with the AI Act (13), the China Cybersecurity Law (14) and the UK
+    pro-innovation, context-specific approach, underscore the regulatory urgency of implementing national and international regulations. (15) However,
+    even more effective would be the creation of an aligned regulatory framework in the near future (16).The ethical complexity lies in the
+    interaction of these key stakeholder groups and their distinct roles. While end-users cannot be expected to independently audit every claim (and
+    due to the technological complexity objectively cannot do so), neither can developers disclaim all liability. Moreover, there is an acute need to
+    translate abstract AI ethical principles into actionable frameworks within healthcare, where the social good is a critical underpinning. This
+    urgency is proportionate to the risk, as AI-driven technologies have the potential to be both powerful and disruptive once implemented. (17)
+    Publishing platforms need to create consensus guidelines for the review and assessment of LLMs both as in-house tools, as well as engines driving
+    scientific discovery. In a similar manner, solid assessment criteria need to be developed and implemented by the deployers. Thus, it is the strong
+    opinion of the authors that a dynamic, multi-stakeholder ethical accountability framework is essential.Transparency is at the foundation of
+    ethical accountability, both a technical and ethical imperative in the healthcare-related LLM implementation, as -at a minimum-users must be
+    clearly informed about the probabilistic nature of LLM outputs and their limitations in terms of generating hallucinations, and in turn be able to
+    inform patients' and clinicians' decisions (18). Several AI guidance documents have been published recently on this basis and refined by many
+    actors (19)(20)(21). Theoretically, this can include the disclosure of data provenance (esp. for training data), the communication of uncertainty
+    (e.g., with confidence scores), and the clear indication throughout that any outputs are non-substitutive for medical advice. In this way, the
+    discourse shifts from blind reliance to informed engagement (22) and allows clinicians and patients to situate LLM-generated information within
+    evidence-based frameworks. However, this is an ideal and static scenario, that anticipates high levels of digital literacy and understanding from
+    all parties, as well as the ability to identify technological nuances. However, in the case of the LLM rapid technological development and
+    logarithmic increase of related publications, it is not sufficiently practical. Thus, the authors support the need for a dynamic ethical
+    accountability framework.In this model, i) the developers ensure ethical governance, transparency and safety by-design; potential quantifiable
+    metrics can include the number/proportion of data sources with fully documented provenance, and/or for existing LLMs the % of new model versions
+    passing pre-deployment safety tests (for both ideally at an eventual 100%)ii) the deployers operationalise safety and fairness in real-world use;
+    potential metrics can include a report for the number of LLM safety or fairness incidents reported per 1,000 clinical interactions (with a
+    targeted decrease by 30-50% within 3 years) and/or a report for the number of clinical departments using the LLM that fully implement required
+    safety policies;iii) the end-users are co-creators of consent models and define acceptable, even personalised, risk thresholds; potential metrics
+    can include a published number of clinical pathways that include LLMspecific informed consent steps, complemented by the reported increase in
+    clinician competency scores in AI/LLM literacy testing (with a targeted improvement over time, relevant to the institutions); iv) publishing
+    platforms provide oversight of the moving field and emerging requirements; potential metrics can include the average time taken to issue updated
+    editorial requirements following major AI regulatory changes (eventual target: <6 months); and v) regulators (including ethics boards) provide
+    arbitration and are able to service legal enforceability. Potential metrics for the latter can include publishing the median time from ethical
+    concern submission to regulatory decision, complemented by the % of healthcare deployers certified as compliant with updated LLM regulations (with
+    the eventual aim being over 85% at any point in time).The dynamic features of such a model need to include key components that allow it to
+    re-define parameters as the technology progresses. For example, these can be regular "ethical stress tests", e.g., simulation tests whether
+    systems can withstand ethical risks such as biased LLM outputs and/or data misuse. The implementation of "safety override mechanisms", where any
+    stakeholder can flag ethical concerns and request support or -at worst case scenario-stop temporarily any deployment. Moreover, scaled
+    responsibility agreements can be incorporated, with distinct expectations for large AI developers (e.g., transparency audits, bias mitigation,
+    public reporting), mid-level hospitals (e.g., local oversight boards, community engagement), and smaller clinics/personal users (e.g., reduced,
+    streamlined obligations but mandatory escalation channels). Additionally, the incorporation of neuro-rights into the framework is essential to
+    safeguarding patients' cognitive integrity and mental privacy in clinical contexts. As hallucinated outputs may inadvertently distort a patient's
+    perception of reality, LLM deployment in healthcare should explicitly account for the potential impact on these emerging rights. ( 23)
+    Accordingly, any ethical responsibility framework for medical AI must include mechanisms and protocols that prevent cognitive manipulation and
+    ensure robust protection of users' mental privacy. For example, one such mechanism can be a "mental privacy protection protocol", where
+    conversational data involving thoughts, emotions, or sensitive cognitive states is processed under a strict no-inference rule, prohibiting the
+    model from generating speculative interpretations about a patient's intentions, psychological profile, or future behaviour. (24) In practical
+    terms, access to such data can be tightly controlled and anonymised, ensuring that the system does not intrude upon or manipulate a patient's
+    mental perceptions.While the above proposal may seem challenging to implement to healthcare, it is worthwhile stressing that they exist in other
+    equally complex and technologically driven fields of activity. Specifically, within the financial sector regular scenario simulations test whether
+    systems can withstand different risks, and also partly adopted within healthcare as table-top exercises on infectious disease outbreaks (25).
+    Scaled responsibility agreements have been implemented on climate-related activities and governance models, while the safety override mechanisms
+    is a core tenet of the aviation industry (26), where any stakeholder can "pull the brake" on deployment if safety concerns are raised.For example,
+    the practical deployment of an LLM tool in oncology based on the dynamic ethical accountability framework, will require that before deployment the
+    industry conducts transparency audits and hallucination detection tests and regulators approve conditional use; during deployment clinicians
+    monitor outcomes and patients have clear digital and open access channels for feedback or opt-out; and after deployment regular ethical stress
+    tests take place, using the real-world data, with responsibilities rebalanced depending on findings (e.g., if algorithmic bias is discovered,
+    greater burden falls on developers). More importantly, if any risks emerge, any stakeholder (clinician, ethics board, patient/patient
+    representative) can trigger a review ("safety override"). While individual elements of this approach may be in existence already and can draw upon
+    recent recommendations and guidelines developed by the above-mentioned stakeholders, they are -to date -not provided within a coherent, unified
+    framework and focus on a risk-based, rather than a dynamic accountability approach.However, it is important to note that countries with less
+    developed legal and regulatory frameworksoften, but not always in resource-restricted settings-have the potential to face acute challenges
+    managing LLM hallucinations in clinical settings, as this challenge sits at the intersection of technical opacity, limited regulatory capacity,
+    and fragile health systems. Precisely because many regulatory bodies can lack technical expertise and resources to assess model provenance,
+    evaluate validation studies, or mandate independent transparency audits; this gap makes it difficult to determine liability when an LLM gives a
+    confidently stated but incorrect diagnosis or treatment suggestion. (27) Additionally, there is the potential for language and cultural mismatch
+    between globally trained models and local practice increases the risk of errors: regionally tailored initiatives such as Latam-GPT underscore the
+    need for local data and evaluation precisely because English-centric models can underperform in non-Anglophone clinical contexts. (28) Equally as
+    important is that many LMIC health systems frequently lack robust clinical-incident reporting and resources for independent replication studies
+    -mechanisms essential to detect, quantify, and remediate hallucination-driven harms. Some promising frameworks and scoring systems have been
+    developed recently to measure hallucination frequency and citation authenticity (e.g., the Reference Hallucination Score), ( 29) however, they
+    still require regulatory uptake and capacity to operationalize, raising the perennial question on the relative speeds between technological
+    development and regulatory guidance. (30)It is our opinion that ethical stewardship of LLMs in digital health requires collective responsibility.
+    Equally, public health systems must anticipate the societal implications of cumulative hallucinationsor even worse, potential deliberate data
+    poisoning attempts (31) -ensuring that vulnerable individuals/populations are not disproportionately affected by misinformation. Importantly,
+    guidelines should evolve dynamically alongside the technology, incorporating real-world monitoring and feedback to capture unanticipated risks.
+    This evolution requires flexibility, so that guidelines adapt and implement as technology and risks evolve; inclusivity, so that all stakeholders
+    have voice and power; fairness, where larger actors carry proportionally greater ethical duties; and finally, resilience, so that built-in
+    learning loops prevent repeating failures.Current ethical frameworks in digital health-such as the principles of beneficence, non-maleficence, and
+    justice-remain relevant but require reinterpretation in the age of generative AI. Lessons can be drawn from prior digital transformations,
+    including electronic health records and clinical decision support systems, where overreliance on algorithmic recommendations sometimes led to
+    errors. Regulatory and professional bodies must establish new guidelines tailored to LLMs, emphasizing accuracy, explainability including
+    explaining what hallucinations are and their potential impact, and recourse for error correction. As digital health moves further "through the
+    looking glass" of LLM integration, the community must ensure that innovation does not outpace ethical reflection. Rather than asking who alone is
+    accountable, the more constructive question is: how can accountability be distributed fairly and effectively across the ecosystem? The dynamic
+    ethical accountability framework offers such an approach.The author(s) declare that no Generative AI was used in the creation of this manuscript.
+
+### R00247 | 2026 | preprint/None | Lang: en
+TI: What is known about the relationship between personal companion AI chatbot use and social anxiety? A scoping review
+AB: Rates of social anxiety have increased over time (Jefferies & Ungar, 2020) with a further global increase of approximately 25.6% since the
+    COVID-19 pandemic (Kindred & Bates, 2023). This rise has been linked to increased social isolation and changes in patterns of social interaction,
+    including greater engagement with digital and social media platforms (O'Day & Heimberg, 2021). Young people appear to be particularly affected:
+    the prevalence of social anxiety disorder is highest among younger age groups (Altwaijri et al., 2023; Ernst et al., 2022; Madasu et al., 2019a;
+    Shafi et al., 2023), and this group is also the most frequent user of digital technologies, with approximately 88% of individuals aged 18-29
+    engaging with social media in some capacity (Smith, 2015; Smith & Anderson, 2018). Social anxiety has been associated with significant
+    interpersonal difficulties, including higher levels of social isolation, reduced likelihood of being in romantic relationships, and lower
+    satisfaction with social connections (Schneier et al., 1994; Wittchen et al., 2000). U According to the social belonging theory (Baumeister &
+    Leary, 1995), unmet needs for connection and belonging may contribute to loneliness and distress. Importantly, however, this does not imply that
+    individuals with social anxiety are unable or unwilling to form close or emotionally meaningful relationships. There is a lack of in-depth
+    research exploring how socially anxious individuals experience closeness, intimacy and connection, particularly outside of traditional human-human
+    relationships. In parallel with these trends, there has been a rapid development in artificial intelligence (AI), particularly conversational AI
+    chatbots designed to engage users in human-like dialogue (Hu, Mao & Kim, 2023). While early conversational programs such as ELIZA date back
+    several decades (Weizenbaum, 1966), recent advances in large language models have led to chatbots that can be difficult to distinguish from human
+    conversational partners (Kuhail et al., 2024; Naveed et al., 2023). These systems are often intentionally anthropomorphised, with human-like
+    language, responsiveness, and emotional cues designed to increase familiarity and engagement (Fink, 2012). Such design features may enhance users'
+    perceptions of empathy, trust and emotional understanding (Ma et al., 2025). Following the launch of advanced chatbots such as ChatGPT in late
+    2022 (OpenAI, 2022), young people have increasingly begun using AI chatbots for a wide range of purposes, including information seeking (Aktay et
+    al., 2023), work related tasks (Jo & Park, 2024), creativity and entertainment, as well as emotional support and companionship (Skjuve et al.,
+    2024). Emerging research suggests that some users develop emotionally meaningful or intimate relationships with AI chatbots, particularly social
+    or companion-oriented applications (Skjuve et al., 2021; Ta et al., 2020; Tlili et al., 2023). In some cases, this engagement may be associated
+    with withdrawal from human social networks and a preference for AI-mediated interaction (Kalam et al., 2024). There is a growing body of evidence
+    which suggests a relationship between social anxiety and AI chatbot use. Hu, Mao & Kim (2023) found that individuals who use chatbots were more
+    likely to report social anxiety, with rumination identified as a potential mediator. Pre-event and post-event rumination are well-established
+    maintaining processes in cognitive models of social anxiety (Donohue, Modini & Abbott, 2024). Research has also found that individuals who fear or
+    lack satisfying social interactions may be more inclined to form connections with AI chatbots (Ali et al., 2023). In a six-country study, Lattika
+    et al. (2025) found that individuals with more severe social anxiety symptoms tended to trust and embrace AI chatbots more readily, valuing their
+    perceived non-judgemental support and emotional responsiveness; chatbot use was most strongly associated with younger age and psychological
+    distress. Despite these findings, the existing literature has several important limitations. Much of the research is cross-sectional and survey
+    based, limiting the ability to draw conclusions about causality. There is a lack of qualitative and longitudinal research exploring users'
+    motivations, experiences and meaning making processes in relation to AI chatbot use. Much of the existing research has been conducted in Asian
+    populations, with comparatively little work focusing on Western contexts. Studies often examine general chatbot use rather than distinguishing
+    between therapeutic chatbots designed to reduce anxiety and non-therapeutic personal companion or social chatbots intended for companionship or
+    intimacy. From a clinical perspective, it remains unclear whether engagement with personal companion AI chatbots may support or hinder recovery
+    from social anxiety over time. Exposure-based approaches, which involve gradual engagement with feared social situations, are central to cognitive
+    behavioural treatments for social anxiety and are recommended in clinical guidelines. It is therefore possible that chatbot interactions could
+    function as a form of social skills rehearsal, emotional practice, or support that facilitates reduced anxiety in human interactions. Conversely,
+    reliance on AI companionship may reinforce avoidance of real world social situations, potentially maintaining or exacerbating social anxiety. The
+    disembodied disconnect hypothesis (Riva et al., 2024) suggests that digital social technologies may worsen anxiety and erode social skills for
+    lonely or socially anxious users by reducing engagement in embodied, synchronised social interactions. In contrast, chatbot use as a supplement to
+    human interaction - for example, as a tool for practice, advice or short-term support - may have more positive long term outcomes. Clinicians and
+    researchers therefore face growing uncertainty about how to conceptualise emotionally meaningful relationships with AI chatbots: whether they
+    represent adapting coping strategies for loneliness and anxiety, or whether they carry risks for increased withdrawal, loneliness and mental
+    health difficulties (Ho et al., 2025). At the same time, AI development has often progressed without sufficient consideration of psychological
+    theory or the potential impacts on social wellbeing and human relationships (Ventura et al., 2025). The purpose of this scoping review is to
+    systematically map and synthesise the existing literature examining the relationship between personal companion AI chatbot use and social anxiety.
+    Specifically, the review will explore: 1) what is currently known about associations between chatbot use and social anxiety, 2) proposed or
+    examined mechanisms of impact, such as social skills rehearsal, emotional support, rumination or avoidance, 3) evidence regarding the duration and
+    stability of any observed effects, and 4) distinctions between therapeutic and non-therapeutic AI chatbots. By identifying key findings, gaps and
+    methodological trends in the literature, this scoping review aims to inform future research directions, clinical understanding and the development
+    of psychologically informed AI technologies.
+
+### R00248 | 2026 | article/None | Lang: en
+TI: EXPLORING TEACHER AND LEARNER PERCEPTIONS OF ARTIFICIAL INTELLIGENCE CHATBOTS FOR ENGLISH CONVERSATION PRACTICE: A MIXED-METHODS STUDY IN SAUDI
+    ENGLISH-AS-A-FOREIGN-LANGUAGE CLASSROOMS
+AB: With the increasing integration of artificial intelligence (AI) in language education, chatbots are gaining attention for their potential to
+    support English conversation practice in English as a Foreign Language (EFL) settings. In this study, I investigated the perceptions of Saudi
+    university students and EFL teachers regarding the use of AI chatbots for enhancing speaking skills. I adopted a convergent mixed-methods design
+    involving 226 learners and 62 teachers from Saudi higher education institutions. I collected data using two adapted and structured questionnaires,
+    which consisted of demographic questions, Likert-scale items across five dimensions (motivation, fluency, confidence, helpfulness, and risk), and
+    three open-ended questions per group. I analyzed the quantitative data using descriptive statistics and non-parametric tests and the qualitative
+    data thematically. Findings indicate that learners view chatbots as helpful, motivating tools that enhance their confidence and speaking fluency.
+    Teachers, however, expressed greater concerns regarding misinformation, pedagogical control, and student overreliance on technology. I found no
+    significant relationship between teaching experience and risk perception, highlighting that skepticism may stem from broader institutional or
+    pedagogical concerns rather than experience alone. This study highlights the need for balanced AI integration that supports learner autonomy while
+    addressing teacher apprehensions. It contributes to the literature on AI-enhanced language learning by providing practical recommendations for EFL
+    educators and policy stakeholders in underexplored regional contexts.
+
+### R00249 | 2025 | article/None | Lang: en
+TI: Evaluation of GPT-4 Accuracy in the Interpretation of Medical Imaging: Potential Benefits, Limitations, and the Future
+AB: Introduction The implementation of artificial intelligence (AI) in radiology as a medical decision support system has the potential to enhance
+    diagnostic accuracy and improve patient outcomes. This retrospective study aimed to evaluate the diagnostic capabilities of GPT-4o in interpreting
+    radiological imaging, specifically X-ray, CT, and MRI images, across various organ systems and disease types. Methods A total of 377 cases were
+    collected and presented to GPT-4o with a standardized prompt and no clinical context. The responses were assessed by three independent raters
+    using a five-point rating system. Results X-ray imaging exhibited a 2.21 times higher chance, on average, of being interpreted accurately compared
+    to CT scans (odds ratio (OR): 2.21; 95% confidence interval (CI): 1.33 - 3.69), while pelvic imaging had a 6.25 times lower chance, on average, of
+    being interpreted accurately when compared to images of the abdomen (OR: 0.16; 95% CI: 0.02 - 0.56). Additionally, neoplastic conditions had a 2.7
+    times lower chance, on average, of being interpreted accurately compared to bleeding conditions (OR: 0.37; 95% CI: 0.16 - 0.84). Conclusion A
+    bimodal distribution of median ratings highlights an overreliance on comparability to prior image encounters and emphasizes the need to develop a
+    systematic approach to image analysis. Future research should prioritize eliminating hallucination, establishing standardized evaluation criteria,
+    and exploring methods to integrate visual and text-based data in a balanced manner. Additionally, efforts should be directed towards enhancing
+    dataset diversity to improve the model's overall accuracy and generalizability.
+
+### R00252 | 2026 | article/None | Lang: en
+TI: EFL Students’ Perceptions of ChatGPT-Assisted Writing: A Qualitative Study of Idea Generation, Language Support, Confidence, and Critical Use
+AB: The emergence of generative artificial intelligence has transformed how English as a Foreign Language (EFL) students approach writing tasks.
+    ChatGPT is increasingly used by students to generate ideas, organize outlines, improve grammar and vocabulary, revise drafts, and reduce writing
+    anxiety. However, the use of ChatGPT in EFL writing also raises concerns related to accuracy, overreliance, originality, and students’ ability to
+    critically evaluate AI-generated output. This study explores EFL students’ perceptions of ChatGPT-assisted writing. The study employed a
+    qualitative descriptive design involving 30 EFL students. Data were collected through semi-structured interviews consisting of ten questions
+    related to students’ experiences using ChatGPT for writing tasks, idea generation, grammar and vocabulary development, writing confidence,
+    perceived advantages, difficulties, writing enjoyment, verification behavior, recommendation, and suggestions for improving AI-assisted writing.
+    The data were analyzed using thematic analysis by identifying repeated patterns across students’ responses. The findings revealed eight major
+    themes: idea generation, vocabulary development, grammar support, writing confidence, writing efficiency, critical evaluation of AI output,
+    dependence concerns, and positive attitude toward ChatGPT. The most dominant theme was positive attitude toward ChatGPT, appearing in 29 of 30
+    responses, followed by writing efficiency in 28 responses and idea generation in 27 responses. Students perceived ChatGPT as helpful in making
+    writing faster, more organized, less stressful, and more linguistically supported. However, they also recognized the need to verify AI suggestions
+    and avoid overdependence. The study concludes that ChatGPT can support EFL writing when used as a learning assistant rather than a substitute for
+    student thinking. Its educational value depends on students’ critical awareness, teacher guidance, ethical use, and integration with writing
+    instruction.
+
+### R00253 | 2026 | article/None | Lang: en
+TI: ChatGPT in EFL Students' Engagement in Academic Writing
+AB: This study explores the role of ChatGPT in enhancing English as a Foreign Language (EFL) students’ engagement in academic writing. Writing remains
+    a complex skill for EFL learners, often constrained by linguistic limitations, low confidence, and insufficient feedback in traditional
+    classrooms. Drawing on theories of student engagement, self-regulated learning, and sociocultural scaffolding, this study examines how ChatGPT
+    shapes learners’ cognitive, emotional, and behavioural engagement during the writing process. Adopting a qualitative design, data were collected
+    from graduate students in an English Language Education program at Universitas Negeri Semarang through semi-structured interviews and reflective
+    journals. The findings indicate that ChatGPT supports idea development, organization, and revision, thereby strengthening cognitive engagement. It
+    also reduces writing anxiety and fosters confidence, contributing to more positive emotional engagement. In addition, students demonstrate greater
+    persistence and active participation in writing tasks, reflecting enhanced behavioural engagement. However, the study also identifies concerns
+    related to overreliance on AI, which may limit critical thinking and learner autonomy. Overall, the findings highlight the need for a balanced and
+    pedagogically guided integration of AI tools in EFL writing instruction.
+
+### R00255 | 2026 | article/None | Lang: en
+TI: Exploring ChatGPT in EFL classrooms: insights into engagement, proficiency and ethics
+AB: Abstract This mixed-methods study investigates the integration of ChatGPT, a generative AI tool, in English classrooms at a government university
+    in Oman. Using the Technology Acceptance Model (TAM) as an analytical framework, the study explores learners’ perceptions of ChatGPT’s
+    effectiveness in supporting writing and speaking proficiency, classroom engagement and ethical awareness. Thirty B2-level EFL students
+    participated in a structured training session focused on prompt generation and ethical use of AI before engaging in ChatGPT-supported classroom
+    tasks. Quantitative findings showed statistically significant positive perceptions of ChatGPT’s impact on writing, speaking, and engagement, with
+    no significant gender differences. Qualitative data indicated that initial skepticism shifted toward acceptance, highlighting ChatGPT’s role as a
+    personal tutor, confidence builder, and facilitator of critical thinking, alongside concerns about overreliance​ and ethical ambiguity. This study
+    proposes pedagogical and institutional recommendations for responsible AI integration, emphasizing the importance of guided use, ethical
+    awareness, and balanced adoption in conservative educational contexts.
+
+### R00257 | 2026 | article/None | Lang: en
+TI: ChatGPT in EFL Writing: A Study of Undergraduates’ Perceived Uses and Barriers
+AB: This paper aims to investigate the benefits and drawbacks of ChatGPT in the context of EFL writing in Saudi Arabia. Forty-seven university
+    students were selected to participate in the study voluntarily. To combine the depth of qualitative responses with the breadth of quantitative
+    data, they responded to a survey and follow-up interviews. The dataset included both quantitative and qualitative data, which strengthened the
+    scope of analysis. The findings showed that the participants perceived ChatGPT as a helpful tool for improving grammatical structures and
+    vocabulary. Nonetheless, there is less impact on motivation and confidence. Perceptions varied by gender, discipline, and experience with use. The
+    frequency of use strongly correlated with the perceived usefulness of ChatGPT. The interview yielded results supporting ChatGPT’s role in
+    enhancing writing accuracy, organization, and self-confidence. Findings also raised some concerns about the output generated by ChatGPT and its
+    potential for overreliance. Based on the findings, the study suggests teacher training on the responsible use of AI tools for writing skills. Some
+    implications and areas of further research were also put forward at the end of the study.
+
+### R00258 | 2025 | article/None | Lang: en
+TI: ChatGPT in Academic Writing Classes: Exploring EFL Students’ Perspectives
+AB: The integration of ChatGPT in English as a Foreign Language (EFL) writing instruction remains a relatively under-researched area, particularly in
+    the Indonesian higher education context. This study explores the dual nature of ChatGPT—as both a pedagogical aid and a potential challenge—for
+    undergraduate English education students at a university in Central Java. Using a qualitative case study design, data were collected from
+    thirty-two participants through a close-response questionnaire to gain insights into their perceptions and experiences. The findings indicate that
+    the use of ChatGPT enhanced students’ writing confidence, time efficiency, and overall quality of written output. Students reported that ChatGPT
+    facilitated idea generation, improved sentence coherence, and served as a valuable tool for self-editing. However, the study also identified
+    several drawbacks, including overreliance on the tool, diminished critical and creative thinking, and concerns about the authenticity and accuracy
+    of AI-generated content. To mitigate these issues, students engaged in peer review, expert consultation, and cross-referencing with credible
+    sources to validate the generated material. The study emphasizes the importance of guiding students toward responsible and reflective use of
+    artificial intelligence in academic writing. Pedagogical implications highlight the need for integrating ethical AI literacy, promoting critical
+    engagement with AI-generated content, and fostering awareness of academic integrity. Ultimately, while ChatGPT presents significant opportunities
+    for enhancing EFL writing pedagogy, its implementation must be thoughtfully managed to ensure it supports, rather than replaces, human cognitive
+    and linguistic development.
+
+### R00259 | 2025 | article/None | Lang: en
+TI: TRANSFORMING PROFESSIONAL PRACTICE WITH CHATGPT: LEARNING AND INFORMATION PROCESSING
+AB: Purpose: The main objective of the present study was to identify differences in how employed and non-employed students evaluate ChatGPT’s dual
+    functions – information processing and tutoring. Design/methodology/approach: A Computer-Assisted Self-Interview (CASI) survey was conducted in
+    the second quarter of 2024. After excluding non-users of ChatGPT, 449 valid responses were analyzed. Instrument reliability and factorability were
+    verified. To assess the intensity of selected variables, a five-point Likert-type scale was applied. Because variables departed from normality,
+    non-parametric tests (Mann-Whitney U) compared evaluations between employed and non-employed respondents. Findings: Respondents in both groups
+    evaluated ChatGPT positively as a substitute for a traditional search engine, with no notable differences between employed and non-employed
+    students. In contrast, non-employed students assessed ChatGPT’s tutoring role more favorably, which may reflect their greater reliance on digital
+    tools for academic support. Overall, evaluations tended to be positive, although the variability in responses suggests differing levels of
+    familiarity with or expectations toward the technology. Research limitations/implications: This study reflects one point in time, so future
+    research should examine changes over longer periods. The analysis focused only on two main functions of ChatGPT – information processing and
+    tutoring and on general use rather than specific academic tasks. Because the sample consisted solely of Polish students, the findings may not be
+    fully applicable in other cultural contexts. Future studies should therefore involve more diverse populations and explore additional functions and
+    learning situations. Practical implications: For students and early-career knowledge workers, conversational search with summarized answers can
+    serve as the standard approach. Tutoring and guided support may be especially useful for those with more time for structured learning, such as non
+    employed students. Universities and organizations should combine AI use with basic training in how to check information, create effective prompts,
+    and evaluate results, while also providing clear source information to ensure that human judgment remains central. Social implications: Adjusting
+    AI support to students’ time and workload can help reduce inequalities in learning. Teaching habits of verification – such as citing sources and
+    signaling uncertainty – can lower the risks of overreliance, bias, and weakened critical thinking, while still allowing users to benefit from
+    productivity gains. Originality/value: Introduces a two-function framework (interactive retrieval/processing vs. tutoring) linking HCIR-style
+    information work with AI-supported learning, and provides empirical evidence that employment status does not shape evaluations of the
+    search-substitution function but does differentiate evaluations of the tutoring function in a large sample of active users.
+
+### R00260 | 2025 | article/None | Lang: en
+TI: Investigating Students’ Perceptions of ChatGPT's Role in Supporting Writing Skills
+AB: This study investigated second-semester students of the English Education Department at Universitas Muhammadiyah Kotabumi perception of the role
+    of ChatGPT in improving their English writing skills. A descriptive qualitative design was employed, with data collected over 2 days in July 2025
+    through semi-structured interviews. From a preliminary survey of 25 students, 8 were selected based on their active use of ChatGPT on smartphones
+    for writing activities. Data were analysed using a phenomenological approach to capture students lived experiences and perceptions. The findings
+    revealed that students generally held positive views of ChatGPT, particularly in generating ideas, enriching vocabulary, improving grammar
+    awareness, constructing sentences, and building confidence. ChatGPT was also valued for its accessibility and efficiency, often functioning as a
+    virtual tutor that fostered self-directed learning boosted writing confidence. Despite these advantages, several challenges were identified, such
+    as overreliance on the application, restricted access to premium features, and minor inconsistencies in generated outputs. The study concludes
+    that ChatGPT offers meaningful support for developing writing competence among EFL learners, provided that its use is guided critically and
+    integrated with traditional pedagogical strategies to maintain learners’ creativity, accuracy, and analytical reasoning.
+
+### R00261 | 2025 | article/None | Lang: en
+TI: Navigating AI in Academia: Undergraduate Experiences with ChatGPT and the Redefinition of Academic Writing
+AB: Background and Aim: The integration of generative AI tools like ChatGPT into academic writing has generated both enthusiasm and ethical concern in
+    higher education. While ChatGPT supports idea development, content organization, and revision, its use also raises issues related to plagiarism,
+    authorship, and cognitive overreliance. Although prior research has examined the technical features and ethical risks of generative AI, few
+    studies have explored students’ lived experiences. This study investigates how undergraduate students navigate the benefits and challenges of
+    using ChatGPT in academic writing. Materials and Methods: A qualitative, theory-driven approach was adopted, drawing on the Technology Acceptance
+    Model (TAM), academic integrity principles, and cognitive offloading theory. Fourteen undergraduate students engaged in thesis writing at a public
+    state college in Region IX, Philippines, participated in semi-structured interviews and focus group discussions. Data were analyzed using Braun
+    and Clarke’s thematic analysis. Trustworthiness was ensured through member checking, audit trails, and peer debriefing. Results: Thematic analysis
+    revealed six key themes: (1) Academic Empowerment, highlighting ChatGPT’s role in enhancing productivity and confidence; (2) Ease and
+    Accessibility, due to its intuitive interface and language flexibility; (3) Ethical Boundary Negotiation, with students adopting self-regulation
+    strategies to avoid plagiarism; (4) Cognitive Trade-offs, reflecting concerns about reduced critical thinking and overdependence; (5) Peer and
+    Policy Influence, shaped by unclear institutional guidelines and social norms; and (6) Technical Limitations, including vague responses,
+    inconsistencies, and restrictions in the free version. Conclusion: Students perceive ChatGPT as a valuable tool in academic writing but express
+    concern about ethical risks, cognitive dependence, and institutional ambiguity. The findings highlight the need for clear institutional
+    guidelines, integration of AI literacy into the curriculum, and promotion of reflective, responsible use of generative AI in higher education.
+
+### R00262 | 2025 | article/None | Lang: en
+TI: Scenario‐Based Forecasting of ChatGPT's Role as a Research Assistant in Nursing by 2030
+AB: AIM: To explore the future role of ChatGPT in nursing research by 2030 and provide a strategic framework for its responsible integration,
+    addressing key opportunities and challenges. BACKGROUND: Artificial intelligence (AI) tools, such as ChatGPT, offer significant potential to
+    enhance productivity, foster innovation, and facilitate interdisciplinary collaboration in nursing research. However, they also pose challenges
+    related to ethical governance, equitable access, and risks of overreliance. With AI technologies becoming more prevalent, a proactive approach is
+    essential for ensuring responsible adoption and maximizing their potential benefits. METHOD: A structured five-phase scenario planning approach
+    was used: (1) defining the scenario field, (2) identifying key drivers, (3) generating scenarios, (4) evaluating scenarios, and (5) transferring
+    actionable insights. Eleven experts were recruited, of whom almost 50% were from Saudi Arabia. Expert input was gathered to prioritize critical
+    drivers based on impact and uncertainty. Two key drivers, ethical accountability and cross-disciplinary collaboration, were used to construct a 2
+    × 2 matrix, resulting in four distinct scenarios. FINDINGS: The four scenarios include: (1) Ethical innovation, where robust governance and high
+    collaboration foster trust and innovation; (2) Fragmented progress, where weak accountability reduces credibility despite high collaboration; (3)
+    Ethical fortress, where strong governance but low collaboration slows progress; and (4) Stagnant patchwork, where weak governance and low
+    collaboration hinder growth. Ethical innovation was identified as the most desirable scenario. Three cross-cutting themes-ethical authorship,
+    trust, and AI overreliance-emerged as critical for evaluating scenario implications. IMPLICATIONS FOR NURSING AND/OR HEALTH POLICY: This study
+    provides actionable strategies for nursing researchers and policymakers, including strengthening governance, fostering collaboration, promoting AI
+    literacy, and ensuring equitable access. Addressing concerns around authorship transparency, trust in AI, and overreliance is essential for
+    leveraging AI's potential while safeguarding research integrity and equity.
+
+### R00263 | 2026 | article/None | Lang: en
+TI: THE ROLE AND IMPORTANCE OF CHATGPT AND DIGITAL TOOLS IN THE DEVELOPMENT OF SPEAKING SKILLS
+AB: The rapid development of artificial intelligence and digital technologies has significantly transformed contemporary language education,
+    particularly in the area of speaking skills development. This article examines the role and importance of ChatGPT and various digital tools in
+    enhancing speaking proficiency among university students. Drawing on recent academic research and empirical studies, the paper analyzes how
+    AI-based conversational agents, language-learning applications, and online communication platforms contribute to improving fluency, pronunciation,
+    confidence, and learner autonomy. Special attention is given to ChatGPT as an interactive tool that provides personalized practice opportunities,
+    immediate feedback, and simulated real-life communication scenarios. The study also discusses the pedagogical benefits and limitations of
+    integrating digital technologies into university-level language instruction, including issues of accuracy, overreliance on AI, and the need for
+    digital literacy. The findings suggest that while ChatGPT and other digital tools cannot fully replace human interaction, they serve as effective
+    supplementary instruments that enhance speaking practice, motivation, and engagement. The article concludes with practical implications for higher
+    education institutions seeking to incorporate AI-driven technologies into foreign language curricula.
+
+### R00264 | 2026 | article/None | Lang: en
+TI: STUDENTS’ PERCEPTIONS TOWARDS THE USE OF CHATGPT IN ENGLISH READING COMPREHENSION
+AB: ChatGPT has been widely employed to support reading comprehension but concerns regarding its use have also been raised. This study aimed to
+    investigate students’ perceived benefits and concerns about the use of ChatGPT in reading comprehension. The study employed quantitative research
+    methods with 89 students at University of Finance and Marketing. The findings revealed ChatGPT was perceived useful for providing linguistic
+    support and metacognitive assistance with the strongest perceptions for explaining unfamiliar vocabulary, clarifying difficult structures,
+    offering instant feedback and verifying the comprehension of reading texts. Students also reported cognitive and affective benefits including
+    identifying specific ideas and main ideas, reducing reading anxiety, increasing reading motivation and confidence. However, ChatGPT was believed
+    to be less useful in making inferences and making reading activities more engaging. However, students expressed concerns about overreliance,
+    declined independent and critical reading, and inaccurate and unreliable ChatGPT-provided responses. The findings suggest ChatGPT should be used
+    as a supportive learning tool rather than as a replacement for independent and critical reading. Thus, students also need to verify and critically
+    evaluate AI-provided information. The study highlights the necessity of appropriate guidance from teachers and school administrators to promote
+    responsible and strategic use of ChatGPT in language learning.
+
+### R00265 | 2026 | article/None | Lang: en
+TI: Students’ Perceptions of ChatGPT: Usability and Enjoyment in English Language Education
+AB: The rapid development of artificial intelligence has influenced English language learning practices, particularly through the integration of
+    ChatGPT as a learning support tool. This study investigates students’ perceptions of ChatGPT’s usability and explores their learning experiences
+    when using the tool in the English Language Education Study Program. The population consisted of 941 undergraduate students enrolled in the
+    program. Using simple random sampling and Slovin’s formula with a 10% margin of error, 90 students were selected as research participants. A
+    sequential explanatory mixed-methods design was employed. Participants used the free version of ChatGPT (GPT-3.5) for one academic semester to
+    support tasks such as writing assignments, idea development, grammar checking, and understanding linguistic concepts. Its use was integrated into
+    coursework and guided by lecturers to promote critical and responsible engagement. Quantitative data were collected using the System Usability
+    Scale (SUS), while qualitative data were obtained through semi-structured interviews with four purposively selected students to gain deeper
+    insight into their experiences. Descriptive analysis revealed an average SUS score of 63, indicating marginal usability. This suggests that
+    although ChatGPT is perceived as beneficial, its usability has not yet reached an optimal level for academic purposes. Interview findings
+    indicated that participants described generally positive learning experiences, including increased confidence, reduced anxiety, and assistance in
+    developing writing skills. However, these qualitative insights reflect individual perspectives and do not constitute a measured level of enjoyment
+    across the broader sample. Several challenges were identified, including occasional inaccuracies, overly general responses, and the potential for
+    overreliance without adequate pedagogical supervision.
+
+### R00266 | 2025 | article/None | Lang: en
+TI: Impacts of ChatGPT on Critical Thinking: Perceptions of Tanzanian Higher Education Students
+AB: In Tanzania, perceptions toward the adoption of Artificial Intelligence (AI) in education, particularly the use of ChatGPT, are mixed, with
+    debates centered on its effects on critical thinking and traditional learning practices. This study explored students’ perceptions of ChatGPT use
+    in academia and provided future directions. Employing a mixed-methods approach, data were collected from 170 students across two higher education
+    institutions, the Institute of Finance Management (IFM) and Moshi Co-operative University (MoCU). A total of 133 students responded to online
+    questionnaires. Findings revealed that most students (93%) were aware of and used ChatGPT, mainly for study and writing support. Over half (55%)
+    reported a positive influence on critical thinking, while about one-quarter (26.7%) highlighted negative effects, such as overreliance and
+    disruption of traditional learning. Additionally, a large majority (85.2%) viewed ChatGPT as supportive to education, whereas a minority (14.8%)
+    perceived it as a threat, reflecting broader national dilemmas regarding AI adoption. Notably, 43.1% of respondents expressed uncertainty about
+    its misuse, citing the absence of clear policies and guidelines. The study recommends establishing regulatory frameworks for ChatGPT integration
+    to support, rather than replace, critical thinking, human interaction, and creativity, while ensuring ethical practices in academic use.
+
+### R00267 | 2026 | article/None | Lang: en
+TI: Student engagement in ChatGPT-assisted mathematics learning: A phenomenological study
+AB: This study explored the lived experiences of high school students using ChatGPT in mathematics learning through a student engagement framework and
+    the interpretive lens of Self-Determination Theory (SDT). Using a descriptive phenomenological design, data were gathered from 58 students through
+    eight focus group discussions and analyzed using Colaizzi's method. The findings revealed that participants described ChatGPT as shaping their
+    engagement in multiple ways. Students valued its accessibility, immediate feedback, and step-by-step explanations, which they described as
+    supporting their participation, conceptual understanding, and confidence in learning mathematics. Emotional engagement was reflected in students'
+    experiences of psychological safety and perceived support, while cognitive engagement was reflected in participants' perceptions that ChatGPT
+    supported their understanding and critical evaluation of AI-generated responses. However, participants also reported disengaging experiences,
+    including overreliance on ChatGPT, reduced interaction with teachers and peers, challenges in using mathematical symbols, and concerns regarding
+    inaccurate responses. These findings suggest that participants perceived ChatGPT as creating both opportunities and constraints for meaningful
+    mathematics learning. Interpreted through SDT, participants' accounts reflected experiences that may be interpreted as supporting or frustrating
+    psychological needs related to autonomy, competence, and relatedness. This study contributes to the growing literature on AI-assisted learning by
+    integrating student engagement and SDT to provide a nuanced understanding of students' experiences. The findings underscore the importance of
+    guided AI use, critical evaluation, teacher support, and collaborative learning to promote meaningful and sustainable engagement in mathematics.
+
+### R00268 | 2026 | article/None | Lang: en
+TI: Afghan lecturers’ awareness, application, and concerns on ChatGPT integration in higher education
+AB: The rapid expansion of generative artificial intelligence has prompted higher education systems worldwide to reassess the pedagogical, ethical,
+    and institutional implications of ChatGPT. However, empirical evidence from conflict-affected and under-resourced educational settings remains
+    limited. This mixed-methods study investigated Afghan lecturers’ awareness, usage patterns, perceived effectiveness, and concerns regarding
+    ChatGPT at Kandahar University. Quantitative data were collected from 98 lecturers using a validated survey instrument, complemented by
+    semi-structured interviews with 10 purposively selected participants. Findings revealed a notably low and uneven adoption of ChatGPT, with most
+    lecturers engaging with the tool only rarely or not at all. Respondents acknowledged its usefulness for research drafting, translation, and
+    academic writing, concerns regarding plagiarism, student overreliance, inaccurate outputs, and fabricated references significantly undermined
+    acceptance. Correlation analysis indicated that perceived effectiveness positively predicted usage, whereas concerns exerted a suppressive effect.
+    Qualitative insights further contextualized these trends, showing that institutional ambiguity, limited digital readiness, and ethical uncertainty
+    weakened perceived usefulness and ease of use. The study extends the Technology Acceptance Model (TAM) by demonstrating that contextual and
+    ethical risk perceptions can override cognitive acceptance determinants in low-resource systems. Practical implications include the urgent need
+    for institutional policies, targeted professional development, and AI literacy initiatives to ensure responsible integration.
+
+### R00269 | 2025 | article/None | Lang: en
+TI: Students' Perception of Using ChatGPT as an AI-Integrated Tool in the Malay Language
+AB: This study examines the perceptions of students using ChatGPT in the Malay language. To meet the aims, We adopted the theory of technology
+    acceptance model (TAM). The study focuses on system quality, information quality, service quality, user satisfaction, perceived net benefits, and
+    awareness of ethics and plagiarism. Data were collected through a Qualtrics survey. The finding informed that the system quality of ChatGPT
+    achieved a mean score of 3.375, indicating ease of use and flexibility. Information quality received a mean score of 3.27, suggesting accuracy and
+    usefulness. Service quality scored 3.207, reflecting adequate technical support and consistent performance. User satisfaction was remarkably high,
+    with a mean score of 3.334, demonstrating strong confidence and contentment with ChatGPT’s functionality. Perceived net benefits scored 3.337,
+    highlighting language skills and communication efficiency enhancements. Meanwhile, the ethical considerations were moderately addressed, with a
+    mean score of 3.115, indicating a need for improved education on responsible use. The findings suggest that ChatGPT is a valuable tool for the
+    Malay language, with areas for further enhancement in information quality and ethical practices. At the same time, understanding users’
+    perceptions will also help create between relevant AI resources, inform policies for ethical AI use, and enhance learning experience for Malay
+    learners.
+
+### R00270 | 2025 | article/None | Lang: en
+TI: Exploring EFL Preservice Teachers’ Academic Integrity of Using ChatGPT in Educational Institutions
+AB: This study aimed to explore the perceptions and strategies of EFL preservice teachers in using ChatGPT while maintaining academic integrity. Using
+    a case study approach, the research investigated the experiences of sixth-semester students at a higher education institution in Buleleng, Bali,
+    during the 2024/2025 academic year. Data were collected through semi-structured interviews and analyzed using thematic analysis. The results
+    revealed one main theme and three subthemes: (1) ChatGPT as a brainstorming tool, not a final product; (2) Paraphrasing and cross-checking as
+    ethical practices; and (3) Awareness of the risks of overreliance. The findings indicated that participants possessed ethical awareness in using
+    ChatGPT strategically and responsibly. In addition, they demonstrated a tendency to avoid excessive reliance on technology and showed greater
+    confidence in their own abilities. This study contributed to a deeper understanding of ethical AI use in higher education settings.
+
+### R00271 | 2025 | article/None | Lang: en
+TI: Undergraduate English Majors' Views on ChatGPT in Academic Writing: Perceived Vocabulary and Grammar Improvement
+AB: This study investigates undergraduate English majors' perceptions of ChatGPT in enhancing vocabulary and grammar in academic writing. Utilizing a
+    mixed-methods convergent design, data were collected from 31 students via pre- and post-survey questionnaires, 20 participants’ reflective
+    journals, and semi-structured interviews with 10 volunteers. Quantitative findings revealed significant improvements in students’ perceptions of
+    vocabulary accuracy, relevance, and depth. Thematic analysis of qualitative data identified benefits such as enriched vocabulary, improved
+    grammatical accuracy, and increased confidence in academic writing. Challenges included overdependence, difficulty interpreting feedback, and a
+    lack of originality in AI-generated suggestions. Students employed strategies to optimize ChatGPT use, such as asking specific questions,
+    selectively applying feedback, and balancing AI input with personal judgment. The study highlights ChatGPT's ability to provide tailored feedback,
+    foster confidence, and support vocabulary development while underscoring the importance of responsible use to mitigate overreliance and maintain
+    originality. The findings underscore ChatGPT's potential to enhance academic writing skills when integrated thoughtfully into curricula. However,
+    overuse risks shallow learning (e.g., overdependence on the tool, or difficulty in interpreting feedback), suggesting a need for instructional
+    strategies that can promote rigorous analysis with AI tools. Future research should explore long-term impacts, comparisons with other AI tools,
+    and strategies for ethical and effective integration of ChatGPT in higher education.
+
+### R00272 | 2026 | article/None | Lang: en
+TI: The Impact of ChatGPT on EFL University Students’ Writing Skills: A Systematic Literature Review
+AB: Writing is an important skill for university students who study English as a Foreign Language (EFL), but it is often difficult to master in
+    academic contexts due to linguistic and cognitive challenges. Recently, Artificial Intelligence (AI) tools, for example like ChatGPT, have gained
+    significant popularity in language learning and academic writing support. Through a Systematic Literature Review (SLR), this study analyses
+    existing research related to the impacts of ChatGPT on writing skills of university students in the EFL context. Using the PRISMA guidelines, the
+    study reviews eleven relevant articles published between 2023–2026 from various academic databases. The results examined that ChatGPT helps
+    students improve different aspects of writing, such as organization, grammar accuracy, vocabulary use, coherence, and overall writing quality. It
+    also increases students’ motivation, confidence, and ability to learn independently by providing quick, accessible, and personalized feedback
+    during the writing process. However, the results also examined several challenges of using ChatGPT as a writing tool, such as academic dishonesty,
+    inaccurate or misleading information, and students’ overreliance on AI tools, which may reduce critical thinking and writing autonomy.
+
+### R00273 | 2026 | article/None | Lang: en
+TI: User Attitudes Toward AI Language Tools: Focus on ChatGPT, Grammarly, and Quillbot
+AB: With the development of technology, artificial intelligence influences learner performance in language learning environments. Beyond investigating
+    users’ perceptions on the effects of these AI language tools on vocabulary learning, grammar skills, reading comprehension and speaking
+    confidence, this paper explores how 73 academic and professional users employ ChatGPT, Grammarly and QuillBot in their language development
+    activities. According to the data, ChatGPT is being used most widely, followed by Grammarly and QuillBot. Based on this study, users adopt a
+    deliberative hybrid strategy which combines QuillBot on the refinement and paraphrase requirements, Grammarly for the grammatical fix, and ChatGPT
+    for content generation. They indicated that they gained more vocabulary knowledge (64.9%), made more grammar accuracy improvement (47.0%) and
+    increased reading comprehension ability (58.6%) in terms of perceived skill development, indicating AI technology can function as effective
+    scaffolding supports for written and receptive language abilities. However, the results on speaking confidence were mixed and in general it
+    suggests that AI platforms which are largely text-based do not help much with oral communication. These findings support the need for speech
+    specific properties and, if sufficiently adapted to language learning in general, AI-based WLTs might be a useful complement when learning
+    languages particularly as for written and receptive skills. The study raises the requirement for longitudinal research focusing on potential
+    long-term outcomes of using AI tools for developing authentic language competence-related tasks, and contributes to ongoing discussions about how
+    AI tools can be integrated into language learning. Remember this is self-reported information.
+
+### R00274 | 2026 | article/None | Lang: en
+TI: Mind the gap: Perceived academic self-efficacy, creativity, and critical thinking with and without ChatGPT
+AB: This study investigates the effects of students’ ChatGPT use on their academic self-efficacy in higher education. With the increasing adoption of
+    generative AI (GenAI) tools such as ChatGPT in learning environments, concerns have emerged about their influence on learners’ academic
+    self-efficacy. Using a quantitative design, the study collected data through a structured online questionnaire completed by 296 higher education
+    students. The findings indicate that perceived independent academic self-efficacy (without ChatGPT) is, in most cases, higher than their perceived
+    technology-mediated academic self-efficacy (with ChatGPT). Nevertheless, while ChatGPT increases students perceived self-efficacy when used, it
+    simultaneously decreases their confidence in completing tasks without its assistance. In addition, while perceived academic self-efficacy without
+    using ChatGPT is significantly correlated with students’ perceived creativity and critical thinking, perceived academic self-efficacy with ChatGPT
+    is not. These findings raise concerns about potential overreliance on GenAI tools and their impact on the relationship between self-efficacy and
+    personal cognitive traits. The study concludes by emphasizing the need for balanced GenAI integration in education to foster independent learning
+    skills, creativity, and critical thinking, while preventing dependency and promoting responsible, reflective technology use.
+
+### R00275 | 2025 | article/None | Lang: en
+TI: EFL Learners’ Perception of ChatGPT Integration in English Learning: Motivation, Skills, and Pedagogical Development
+AB: This research explores the integration of ChatGPT, a generative AI language model, into English language learning in higher education, emphasizing
+    students’ perspectives on motivation, skill development, and pedagogical integration challenges. Drawing on interpretative qualitative data from
+    semi-structured interviews with seven undergraduate students in Indonesia, the research identifies how ChatGPT enhances students’ autonomy,
+    confidence, and engagement, especially in writing, grammar, and vocabulary development. While students report strong intrinsic motivation and
+    reduced anxiety due to ChatGPT’s non-judgmental interface, they also acknowledge limitations in speaking and listening support. Thematic analysis
+    reveals key themes including emotional responses, perceived usefulness, challenges in trust and overreliance, and expectations for institutional
+    support in pedagogical integration. The findings highlight the importance of lecturer guidance and ethical AI literacy to ensure responsible use.
+    This study contributes by providing empirical evidence on how AI integration can reshape language learning practices, offering clear directions
+    for educators in designing effective instructional strategies and for policymakers in formulating guidelines that balance innovation with
+    responsible use.
+
+### R00276 | 2026 | article/None | Lang: en
+TI: ChatGPT in EFL academic writing instruction in Asian higher education: A scoping review
+AB: Abstract ChatGPT is increasingly being used to support English as a Foreign Language (EFL) academic writing in higher education, yet evidence on
+    its role in Asian university instruction remains fragmented. This scoping review maps empirical studies on ChatGPT in EFL academic writing
+    instruction in Asian higher education, focusing on pedagogical uses, reported outcomes and ethical concerns. Methods Following Arksey and
+    O'Malley's framework and PRISMA‐ScR guidance, the review searched five databases for peer‐reviewed English‐language studies published between 2020
+    and 2025. Two reviewers independently screened and charted the studies, and findings were synthesised thematically through the PAGER framework.
+    Twenty‐seven studies were included. ChatGPT was primarily used for pre‐writing, revision and feedback. Reported benefits included stronger writing
+    quality, greater learner autonomy, improved motivation and reduced anxiety. Common concerns included overreliance, inaccurate or culturally biased
+    feedback, uncertainty surrounding academic integrity and unequal access to AI technologies. ChatGPT can be a useful scaffold for EFL academic
+    writing, but its value depends on guided integration, critical AI literacy and context‐sensitive policy. The findings support staged AI‐assisted
+    writing activities for EFL instructors, curriculum and assessment designs that promote critical AI literacy and responsible AI use, and
+    institutional policies that provide clear guidance, educator professional development and equitable access to AI technologies. Further
+    longitudinal, comparative and theory‐informed research is needed to evaluate the long‐term effectiveness of these approaches. Context and
+    implications Rationale for this study: Empirical evidence on ChatGPT for EFL academic writing in Asian higher education remains fragmented,
+    limiting understanding of effective pedagogical practices and associated challenges. Why the new findings matter: This review identifies how
+    ChatGPT is currently used, its reported benefits and the conditions needed for responsible and effective implementation. Implications for
+    practitioners, institutional leaders and researchers: The findings support integrating ChatGPT as a scaffold rather than a replacement for writing
+    instruction. EFL instructors should adopt structured AI‐supported writing activities that promote critical AI literacy and independent writing.
+    Higher education institutions should develop clear AI policies, redesign assessment to emphasise writing processes and responsible AI use and
+    provide professional development for educators. Researchers should prioritise longitudinal, comparative and theory‐informed studies to strengthen
+    the evidence base for AI‐supported academic writing.
+
+### R00277 | 2026 | article/None | Lang: en
+TI: ChatGPT as an AI Learning Assistant for Enhancing EFL Students’ Writing: A Systematic Literature Riview
+AB: The rapid development of Artificial Intelligence (AI), particularly ChatGPT, has significantly influenced English as a Foreign Language (EFL)
+    learning practices. This study aims to examine the role of ChatGPT as an AI-powered learning assistant in enhancing EFL students’ writing skills
+    through a Systematic Literature Review (SLR) approach. The study employed the PRISMA framework to identify, screen, and analyze relevant articles
+    published between 2023 and 2025. The findings reveal that ChatGPT positively contributes to various aspects of writing development, including idea
+    generation, grammatical accuracy, vocabulary enrichment, writing organization, and paragraph coherence. Furthermore, the use of ChatGPT enhances
+    students’ motivation, self-confidence, and autonomy throughout the writing process. However, several challenges were identified, including
+    overreliance on AI technology, academic integrity concerns, and the risk of inaccurate information caused by AI hallucinations. Therefore, ChatGPT
+    should be utilized as a supportive learning tool rather than a substitute for teachers. The study concludes that integrating ChatGPT into EFL
+    writing instruction offers considerable potential for improving learning outcomes when accompanied by the development of AI literacy, digital
+    literacy, and academic ethical awareness.
+
+### R00278 | 2026 | article/None | Lang: en
+TI: Integrating ChatGPT in EFL writing: Perceptions and challenges of Islamic senior high school students
+AB: The increasing integration of artificial intelligence tools such as ChatGPT in EFL writing has raised interest in how students experience the use
+    of these tools in learning. This study aims to explore students’ experiences of using ChatGPT and to identify the challenges they encountered.
+    Employing a qualitative phenomenological design, the study involved 23 students from eight working groups. Data were collected through classroom
+    observations during writing activities and semi-structured interviews with six students representing different academic levels. The findings
+    indicate that students generally perceive ChatGPT as a supportive tool that facilitates idea generation, improves sentence organization, and
+    enhances language use. Many students reported increased confidence in writing when using ChatGPT as a reference and scaffolding resource. However,
+    several challenges were also identified, including technical issues such as unstable internet access and cognitive challenges such as limited
+    prompt literacy, overreliance on AI-generated responses, reduced creativity, and diminished critical thinking. Students with higher motivation and
+    stronger language proficiency demonstrated more critical and selective use of ChatGPT, while others tended to depend on it as a shortcut. This
+    study highlights that the effectiveness of ChatGPT depends not only on technological access but also on students’ readiness and teacher guidance
+    to promote critical, ethical, and reflective use.
+
+### R00279 | 2026 | article/None | Lang: en
+TI: Beyond ChatGPT: The Psychological Implications of Generative Artificial Intelligence for University Students. A Critical Review
+AB: The rapid diffusion of generative artificial intelligence (GenAI) tools such as ChatGPT, Gemini, Claude, and Copilot has transformed how
+    university students learn, write, seek help, and manage academic demands. While early scholarship concentrated on academic integrity and
+    assessment redesign, the psychological consequences of sustained GenAI use remain comparatively underexamined. This critical narrative review
+    synthesises empirical and conceptual literature published primarily between 2021 and 2026, identified through systematic searches of Scopus, Web
+    of Science, ERIC, PsycINFO, and Google Scholar, to map what is currently known about the psychological implications of GenAI for university
+    students. Four interrelated thematic domains are identified: (1) cognitive functioning, including cognitive offloading, critical thinking, and
+    metacognitive engagement; (2) motivation and the self, including academic self-efficacy, autonomy, and competence; (3) emotional wellbeing,
+    including AI anxiety, technostress, stress relief, loneliness, and chatbot companionship; and (4) academic integrity, moral emotions, and academic
+    identity. The evidence portrays GenAI as a double-edged psychological technology. It can scaffold confidence, reduce help-seeking anxiety, and
+    provide accessible emotional support, yet it can also foster overreliance, erode critical thinking, intensify anxiety about future employability,
+    and destabilise students' sense of authorship and academic self-worth. A dual-pathway conceptual model is proposed in which AI literacy,
+    self-regulation, social support, and institutional policy moderate whether GenAI use follows an enabling or an eroding trajectory. The review
+    concludes that psychological outcomes depend less on the frequency of GenAI exposure than on the mode of engagement. Implications for university
+    policy, counselling services, curriculum design, and assessment reform are discussed, and an agenda for longitudinal, experimental, and
+    cross-cultural research is outlined.
+
+=== END OF BATCH q003 (37 records) ===

@@ -1,0 +1,305 @@
+{
+"label": "A:b014@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00586",
+"d": "exclude",
+"code": "E5",
+"why": "Creative output homogeneity, no knowledge or confidence analysis"
+},
+{
+"id": "R00587",
+"d": "exclude",
+"code": "E5",
+"why": "Debate collapse/correction accuracy, no calibration analysis"
+},
+{
+"id": "R00588",
+"d": "exclude",
+"code": "E5",
+"why": "GPU pipeline makespan theory, not LLM knowledge or certainty"
+},
+{
+"id": "R00589",
+"d": "unclear",
+"code": "UNC",
+"why": "VLM cultural long-tail knowledge probing and editing; LLM scope unclear"
+},
+{
+"id": "R00590",
+"d": "exclude",
+"code": "E5",
+"why": "Stylistic and semantic output homogeneity, not factual knowledge"
+},
+{
+"id": "R00591",
+"d": "exclude",
+"code": "E5",
+"why": "LLM-as-judge chemistry data extraction, no concept"
+},
+{
+"id": "R00592",
+"d": "exclude",
+"code": "E5",
+"why": "Output diversity in educational generation, not knowledge"
+},
+{
+"id": "R00593",
+"d": "exclude",
+"code": "E5",
+"why": "Peer review critique overlap, not LLM knowledge or confidence"
+},
+{
+"id": "R00594",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity, not factual knowledge"
+},
+{
+"id": "R00595",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity, not factual knowledge"
+},
+{
+"id": "R00596",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity, not factual knowledge"
+},
+{
+"id": "R00597",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity, not factual knowledge"
+},
+{
+"id": "R00598",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey on creativity, no LLM output analysis"
+},
+{
+"id": "R00599",
+"d": "exclude",
+"code": "E2",
+"why": "Literature-based conceptual discussion, no empirical study"
+},
+{
+"id": "R00601",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical argument paper, no empirical analysis"
+},
+{
+"id": "R00602",
+"d": "exclude",
+"code": "E5",
+"why": "LLM used as tool for grant proposal analysis"
+},
+{
+"id": "R00603",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; title suggests output homogenisation, not knowledge"
+},
+{
+"id": "R00604",
+"d": "include",
+"code": "INC",
+"why": "Cultural knowledge benchmark of 36 LLMs plus fine-tuning"
+},
+{
+"id": "R00605",
+"d": "exclude",
+"code": "E4",
+"why": "LLM financial forecast-error homogenization, materials registration, no concept"
+},
+{
+"id": "R00606",
+"d": "exclude",
+"code": "E5",
+"why": "Similarity of L2 error revisions, not knowledge or confidence"
+},
+{
+"id": "R00607",
+"d": "exclude",
+"code": "E5",
+"why": "Essay idea homogenization, not factual knowledge"
+},
+{
+"id": "R00608",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework, no empirical study"
+},
+{
+"id": "R00609",
+"d": "exclude",
+"code": "E3",
+"why": "Corpus analysis of human writing, R code repository"
+},
+{
+"id": "R00610",
+"d": "exclude",
+"code": "E2",
+"why": "Perspective piece on AI as cultural technology"
+},
+{
+"id": "R00611",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; knowledge collapse title may concern LLM knowledge diversity"
+},
+{
+"id": "R00612",
+"d": "exclude",
+"code": "E5",
+"why": "Creativity response diversity, not factual knowledge"
+},
+{
+"id": "R00613",
+"d": "exclude",
+"code": "E5",
+"why": "Lexical and syntactic output diversity, not knowledge"
+},
+{
+"id": "R00614",
+"d": "unclear",
+"code": "UNC",
+"why": "Alignment reduces conceptual diversity; unclear if factual knowledge"
+},
+{
+"id": "R00615",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; linguistic diversity, not knowledge or confidence"
+},
+{
+"id": "R00617",
+"d": "exclude",
+"code": "E5",
+"why": "Social bias in clinical LLMs, no concept"
+},
+{
+"id": "R00618",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical overview of risks"
+},
+{
+"id": "R00619",
+"d": "include",
+"code": "INC",
+"why": "Cultural knowledge diversity in LLMs, hallucination on culture-specific facts"
+},
+{
+"id": "R00620",
+"d": "exclude",
+"code": "E5",
+"why": "Issue bias in writing assistance, not knowledge or confidence"
+},
+{
+"id": "R00621",
+"d": "exclude",
+"code": "E5",
+"why": "Creativity benchmarking, no concept"
+},
+{
+"id": "R00622",
+"d": "exclude",
+"code": "E2",
+"why": "Opinion argument about Wikipedia, no empirical study"
+},
+{
+"id": "R00623",
+"d": "exclude",
+"code": "E5",
+"why": "Evidence-citation summarization method, no concept"
+},
+{
+"id": "R00624",
+"d": "exclude",
+"code": "E5",
+"why": "LLM simulation of human dialogue responses, no concept"
+},
+{
+"id": "R00625",
+"d": "include",
+"code": "INC",
+"why": "Measures model memorization and capacity in language models"
+},
+{
+"id": "R00626",
+"d": "exclude",
+"code": "E5",
+"why": "Writing style alignment with demographics, not knowledge"
+},
+{
+"id": "R00627",
+"d": "exclude",
+"code": "E5",
+"why": "Belief diversity feedback loop, not factual knowledge or confidence"
+},
+{
+"id": "R00628",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of diversity quantification"
+},
+{
+"id": "R00629",
+"d": "include",
+"code": "INC",
+"why": "Audits LLM scholar recommendations: consistency, factuality, popularity bias"
+},
+{
+"id": "R00630",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual essay on AI slop"
+},
+{
+"id": "R00631",
+"d": "exclude",
+"code": "E5",
+"why": "Multi-agent ideation diversity, not knowledge or confidence"
+},
+{
+"id": "R00632",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual taxonomy of epistemic risks"
+},
+{
+"id": "R00633",
+"d": "exclude",
+"code": "E5",
+"why": "Agent post-training for technical service, no concept"
+},
+{
+"id": "R00634",
+"d": "exclude",
+"code": "E5",
+"why": "Agent memory control framework, not factual knowledge analysis"
+},
+{
+"id": "R00635",
+"d": "exclude",
+"code": "E5",
+"why": "Proxy-model interpretability for prompts, no concept"
+},
+{
+"id": "R00636",
+"d": "exclude",
+"code": "E5",
+"why": "Iterative generation diversity dynamics, no concept"
+},
+{
+"id": "R00637",
+"d": "unclear",
+"code": "UNC",
+"why": "Political bias and epistemic patterns by cultural training data; unclear knowledge angle"
+}
+]
+}

@@ -1,0 +1,305 @@
+{
+"label": "B:b011@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00430",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of hallucination mitigation"
+},
+{
+"id": "R00431",
+"d": "include",
+"code": "INC",
+"why": "Bayesian calibration of LLM financial predictions, ECE reported"
+},
+{
+"id": "R00432",
+"d": "exclude",
+"code": "E4",
+"why": "LLM used to classify news uncertainty; no LLM certainty angle"
+},
+{
+"id": "R00433",
+"d": "exclude",
+"code": "E5",
+"why": "Hallucination-resistant BI architecture; no uncertainty or knowledge angle in title"
+},
+{
+"id": "R00434",
+"d": "exclude",
+"code": "E5",
+"why": "Duplicate title; hallucination-resistant BI architecture, no concept"
+},
+{
+"id": "R00435",
+"d": "exclude",
+"code": "E2",
+"why": "Theoretical psychodynamic account, no empirical analysis"
+},
+{
+"id": "R00436",
+"d": "unclear",
+"code": "UNC",
+"why": "Trust score on answers; unclear if confidence is measured"
+},
+{
+"id": "R00437",
+"d": "include",
+"code": "INC",
+"why": "Emotional prompts collapse LLM calibration; confidence measured"
+},
+{
+"id": "R00438",
+"d": "exclude",
+"code": "E5",
+"why": "System prompt for hallucination reduction; no uncertainty or knowledge analysis"
+},
+{
+"id": "R00439",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination evaluation incl. uncertainty-aware RLHF; unclear analysis"
+},
+{
+"id": "R00441",
+"d": "include",
+"code": "INC",
+"why": "First-token logit confidence extraction from multimodal LLM"
+},
+{
+"id": "R00442",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; hallucination detection, uncertainty basis unknown"
+},
+{
+"id": "R00443",
+"d": "unclear",
+"code": "UNC",
+"why": "Response consistency mentioned without saying if confidence measured"
+},
+{
+"id": "R00444",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; reference-free confidence metric for LLM finance extraction"
+},
+{
+"id": "R00445",
+"d": "exclude",
+"code": "E2",
+"why": "Overview of hallucination, not primary research"
+},
+{
+"id": "R00446",
+"d": "unclear",
+"code": "UNC",
+"why": "Training data quality effect on hallucination; knowledge link unclear"
+},
+{
+"id": "R00447",
+"d": "exclude",
+"code": "E2",
+"why": "Comprehensive review"
+},
+{
+"id": "R00448",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; hallucination reduction, no concept in title"
+},
+{
+"id": "R00449",
+"d": "exclude",
+"code": "E5",
+"why": "Fake news detection pipeline; LLM confidence not studied"
+},
+{
+"id": "R00450",
+"d": "exclude",
+"code": "E5",
+"why": "Safety-threshold calibration, not output confidence"
+},
+{
+"id": "R00451",
+"d": "exclude",
+"code": "E5",
+"why": "Engineering proposal for verification architecture, no uncertainty analysis"
+},
+{
+"id": "R00452",
+"d": "exclude",
+"code": "E2",
+"why": "Essay on enterprise hallucination and bias risks"
+},
+{
+"id": "R00453",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; hallucination detection from internal states, finance QA"
+},
+{
+"id": "R00454",
+"d": "exclude",
+"code": "E4",
+"why": "Finance numerical hallucination verification, no concept"
+},
+{
+"id": "R00455",
+"d": "include",
+"code": "INC",
+"why": "Consistency scores under perturbation to detect hallucination"
+},
+{
+"id": "R00456",
+"d": "exclude",
+"code": "E4",
+"why": "Finance anti-hallucination agents, no uncertainty or knowledge angle"
+},
+{
+"id": "R00457",
+"d": "exclude",
+"code": "E2",
+"why": "Tutorial"
+},
+{
+"id": "R00458",
+"d": "include",
+"code": "INC",
+"why": "Semantic-entropy-conditioned verification threshold evaluated on LLM"
+},
+{
+"id": "R00459",
+"d": "exclude",
+"code": "E5",
+"why": "Property condition assessment; no confidence or knowledge analysis"
+},
+{
+"id": "R00460",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; hallucination signals in language models by scale"
+},
+{
+"id": "R00461",
+"d": "exclude",
+"code": "E2",
+"why": "Non-research archive deposit, not primary study"
+},
+{
+"id": "R00463",
+"d": "unclear",
+"code": "UNC",
+"why": "Calibrated probabilistic guesses and hallucination detection; relevance unclear"
+},
+{
+"id": "R00464",
+"d": "unclear",
+"code": "UNC",
+"why": "Framework with semantic entropy, conformal abstention; may be position paper"
+},
+{
+"id": "R00465",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy measured for hallucination across LLM pipelines"
+},
+{
+"id": "R00466",
+"d": "exclude",
+"code": "E4",
+"why": "Finance advice hallucination, no uncertainty or knowledge angle"
+},
+{
+"id": "R00467",
+"d": "unclear",
+"code": "UNC",
+"why": "Benchmark with abstention on information gaps, finance task"
+},
+{
+"id": "R00468",
+"d": "exclude",
+"code": "E4",
+"why": "Finance numerical hallucination reduction, no concept"
+},
+{
+"id": "R00469",
+"d": "unclear",
+"code": "UNC",
+"why": "Theoretical reliability and uncertainty framing of LLM outputs; unclear empirical content"
+},
+{
+"id": "R00470",
+"d": "exclude",
+"code": "E4",
+"why": "Finance markets and hallucination, no uncertainty angle evident"
+},
+{
+"id": "R00471",
+"d": "exclude",
+"code": "E4",
+"why": "Finance forecasting hallucination case; no concept evident"
+},
+{
+"id": "R00472",
+"d": "exclude",
+"code": "E4",
+"why": "Financial RAG hallucination reduction, no concept"
+},
+{
+"id": "R00473",
+"d": "include",
+"code": "INC",
+"why": "LLM consensus confidence in fabricated answers; calibration multiplier"
+},
+{
+"id": "R00474",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; supply chain anti-hallucination framework, no concept"
+},
+{
+"id": "R00475",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title indicates LLM conviction in financial forecasts"
+},
+{
+"id": "R00476",
+"d": "include",
+"code": "INC",
+"why": "Studies suppression and restoration of factual knowledge in transformers"
+},
+{
+"id": "R00477",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual argument paper, no empirical analysis"
+},
+{
+"id": "R00478",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty analysis of VLM responses across temperatures"
+},
+{
+"id": "R00479",
+"d": "exclude",
+"code": "E4",
+"why": "LLM extraction for financial screening, no concept"
+},
+{
+"id": "R00480",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence signals via wagers, calibration studied"
+},
+{
+"id": "R00481",
+"d": "exclude",
+"code": "E5",
+"why": "LLM maintenance scheduling agents; no LLM uncertainty analysis"
+}
+]
+}

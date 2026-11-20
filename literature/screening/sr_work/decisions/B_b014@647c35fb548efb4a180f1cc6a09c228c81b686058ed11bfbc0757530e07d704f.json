@@ -1,0 +1,305 @@
+{
+"label": "B:b014@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00586",
+"d": "exclude",
+"code": "E5",
+"why": "Open-ended creative output homogeneity, no factual knowledge or certainty"
+},
+{
+"id": "R00587",
+"d": "exclude",
+"code": "E5",
+"why": "Debate collapse/correction accuracy; no confidence or knowledge analysis"
+},
+{
+"id": "R00588",
+"d": "exclude",
+"code": "E5",
+"why": "LLM serving pipeline scheduling theory"
+},
+{
+"id": "R00589",
+"d": "unclear",
+"code": "UNC",
+"why": "Vision-language cultural knowledge probing and editing; model type unclear"
+},
+{
+"id": "R00590",
+"d": "exclude",
+"code": "E5",
+"why": "Stylistic/semantic response similarity, not factual knowledge"
+},
+{
+"id": "R00591",
+"d": "exclude",
+"code": "E5",
+"why": "LLM chemistry data extraction pipeline"
+},
+{
+"id": "R00592",
+"d": "exclude",
+"code": "E5",
+"why": "Educational output diversity, not knowledge or certainty"
+},
+{
+"id": "R00593",
+"d": "exclude",
+"code": "E5",
+"why": "Peer review critique overlap; LLM not studied for concepts"
+},
+{
+"id": "R00594",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity"
+},
+{
+"id": "R00595",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity"
+},
+{
+"id": "R00596",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity"
+},
+{
+"id": "R00597",
+"d": "exclude",
+"code": "E5",
+"why": "Creative essay idea diversity"
+},
+{
+"id": "R00598",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey on creativity; no LLM knowledge or confidence"
+},
+{
+"id": "R00599",
+"d": "exclude",
+"code": "E2",
+"why": "Literature-based synthesis on model collapse, no empirical study"
+},
+{
+"id": "R00601",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical argument paper, no empirical analysis"
+},
+{
+"id": "R00602",
+"d": "exclude",
+"code": "E5",
+"why": "LLM used as tool to measure grant knowledge diversity"
+},
+{
+"id": "R00603",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests LLM homogeneity, possibly epistemic"
+},
+{
+"id": "R00604",
+"d": "include",
+"code": "INC",
+"why": "Benchmark of LLM cultural knowledge for Kazakh culture"
+},
+{
+"id": "R00605",
+"d": "exclude",
+"code": "E4",
+"why": "Finance LLM forecast-error homogenization, no certainty or knowledge angle"
+},
+{
+"id": "R00606",
+"d": "exclude",
+"code": "E5",
+"why": "Similarity of L2 error revisions across LLMs"
+},
+{
+"id": "R00607",
+"d": "exclude",
+"code": "E5",
+"why": "Human essay homogenization after ChatGPT"
+},
+{
+"id": "R00608",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework, no abstract, no empirical analysis"
+},
+{
+"id": "R00609",
+"d": "exclude",
+"code": "E5",
+"why": "Human academic writing corpus code repository"
+},
+{
+"id": "R00610",
+"d": "exclude",
+"code": "E2",
+"why": "Perspective/opinion piece"
+},
+{
+"id": "R00611",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; knowledge collapse title may concern LLM knowledge diversity"
+},
+{
+"id": "R00612",
+"d": "exclude",
+"code": "E5",
+"why": "Creative response diversity, not factual knowledge"
+},
+{
+"id": "R00613",
+"d": "exclude",
+"code": "E5",
+"why": "Linguistic diversity benchmark, not knowledge"
+},
+{
+"id": "R00614",
+"d": "unclear",
+"code": "UNC",
+"why": "Conceptual diversity of aligned LLMs; may relate to represented knowledge"
+},
+{
+"id": "R00615",
+"d": "exclude",
+"code": "E5",
+"why": "Linguistic diversity title only, no knowledge or certainty signal"
+},
+{
+"id": "R00617",
+"d": "exclude",
+"code": "E5",
+"why": "Social bias in clinical decision support"
+},
+{
+"id": "R00618",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical overview of risks, no empirical study"
+},
+{
+"id": "R00619",
+"d": "unclear",
+"code": "UNC",
+"why": "Cultural knowledge elicitation and hallucination; unclear knowledge analysis depth"
+},
+{
+"id": "R00620",
+"d": "exclude",
+"code": "E5",
+"why": "Political issue bias in writing assistance"
+},
+{
+"id": "R00621",
+"d": "exclude",
+"code": "E5",
+"why": "Creativity benchmarking"
+},
+{
+"id": "R00622",
+"d": "exclude",
+"code": "E2",
+"why": "Argumentative essay, no empirical analysis"
+},
+{
+"id": "R00623",
+"d": "exclude",
+"code": "E5",
+"why": "Evidence attribution in summarization"
+},
+{
+"id": "R00624",
+"d": "exclude",
+"code": "E5",
+"why": "Simulating human dialogue responses, no concept"
+},
+{
+"id": "R00625",
+"d": "include",
+"code": "INC",
+"why": "Measures LLM memorization and capacity"
+},
+{
+"id": "R00626",
+"d": "exclude",
+"code": "E5",
+"why": "Alignment/steerability of essay style"
+},
+{
+"id": "R00627",
+"d": "unclear",
+"code": "UNC",
+"why": "Belief diversity loss via LLM feedback loop; knowledge link unclear"
+},
+{
+"id": "R00628",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of diversity quantification"
+},
+{
+"id": "R00629",
+"d": "include",
+"code": "INC",
+"why": "LLM scholar recommendation consistency, factuality, popularity bias"
+},
+{
+"id": "R00630",
+"d": "exclude",
+"code": "E2",
+"why": "Argumentative position paper on AI slop"
+},
+{
+"id": "R00631",
+"d": "exclude",
+"code": "E5",
+"why": "Idea diversity in multi-agent systems"
+},
+{
+"id": "R00632",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual taxonomy of risks"
+},
+{
+"id": "R00633",
+"d": "exclude",
+"code": "E5",
+"why": "Agent post-training for technical service"
+},
+{
+"id": "R00634",
+"d": "exclude",
+"code": "E5",
+"why": "Agent memory control for efficiency"
+},
+{
+"id": "R00635",
+"d": "exclude",
+"code": "E5",
+"why": "Proxy-model interpretability for prompt optimization"
+},
+{
+"id": "R00636",
+"d": "exclude",
+"code": "E5",
+"why": "Iterative generation diversity dynamics"
+},
+{
+"id": "R00637",
+"d": "unclear",
+"code": "UNC",
+"why": "Whose epistemic/cultural orientation LLMs represent; factual knowledge unclear"
+}
+]
+}

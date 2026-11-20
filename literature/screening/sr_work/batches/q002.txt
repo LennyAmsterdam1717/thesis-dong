@@ -1,0 +1,691 @@
+BATCH q002 -- 30 records for QC recheck: R00184 .. R00234
+
+### R00184 | 2026 | article/None | Lang: en
+TI: Beyond the Hype: Large Language Models, Clinical Reasoning, and the Future of Emergency Triage
+AB: Large language models (LLMs) are moving into clinical medicine faster than the evidence needed to define their safest role. Emergency medicine
+    makes that gap particularly difficult to ignore. In the emergency department (ED), a convincing answer is not necessarily a safe answer, and a
+    seemingly small error in prioritization may delay care for a patient with a time-sensitive condition. The relevant question, therefore, is no
+    longer whether an LLM can produce a plausible diagnosis or assign an acuity category. It is whether the use of such a model can improve emergency
+    care without introducing an unacceptable risk of under-triage, misplaced confidence, or loss of clinically important context. Triage is an
+    especially demanding test case. Decisions are made early, often with incomplete information, before the diagnostic picture has matured. A patient
+    may be unable to provide a coherent history; laboratory and imaging results may not yet exist; and clinical deterioration can occur after the
+    initial assessment. Moreover, triage errors are asymmetric. Over-triage consumes resources, but under-triage may postpone recognition of stroke,
+    sepsis, acute coronary syndrome, internal bleeding, or another immediately threatening condition. Any technology positioned at this point in the
+    care pathway should therefore be judged not only by overall accuracy but also by the clinical consequences of its errors. Early evidence has
+    nevertheless been impressive enough to justify serious attention. Williams et al. evaluated an LLM using data from 251,401 adult ED visits. In a
+    balanced sample of 10,000 pairs of patients with different Emergency Severity Index (ESI) levels, the model correctly identified the patient with
+    higher acuity in 8,940 pairs, corresponding to an accuracy of 89%. In a 500-pair subset reviewed by physicians, LLM accuracy was 88% compared with
+    86% for physicians (1). These results are encouraging, but the task should not be mistaken for prospective triage. The model was asked to compare
+    two written clinical histories and determine which represented the higher-acuity patient. It was not independently assessing patients arriving at
+    a triage desk, nor was it operating prospectively within an ED workflow. The study therefore demonstrated that an LLM could extract useful acuity
+    information from clinical text; it did not establish that autonomous LLM-based triage is safe. Other evidence makes that distinction even more
+    important. Zaboli et al. retrosp­ectively compared ChatGPT-4.0 with human triage decisions in 2,658 ED patients. Agreement between human and AI
+    triage was low, with a Cohen κ of 0.125 (95% CI, 0.100–0.134). Human triage also performed better in predicting clinically important outcomes. For
+    30-day mortality, the area under the receiver operating characteristic curve was 0.88 for human triage and 0.70 for AI triage (P<0.001). For the
+    need for life-saving interventions, the corresponding values were 0.98 and 0.87 (P=0.014). The authors specifically identified lower sensitivity
+    in high-risk patients and consequent under-triage as a concern (2). Yet another prospective study produced a different picture. Arslan et al.
+    compared ChatGPT Plus, Copilot Pro, and triage nurses against ESI assessments assigned by an emergency physician. Overall accuracy was 66.5% for
+    ChatGPT, 61.8% for Copilot, and 65.2% for nurses. Notably, identification of high-acuity patients was more frequent with ChatGPT and Copilot than
+    with nurses in that study 87.8% and 85.7% versus 32.7%, respectively (3). The apparent contradiction among these studies is itself informative.
+    LLM performance cannot be treated as a fixed property of “AI.” Results depend on the model and version tested, the information supplied to it, the
+    prompt, the reference standard, the triage system, the patient population, and the exact task being evaluated. A model that performs well when
+    ranking two written cases may not perform equally well when assigning an absolute triage category. Likewise, good average accuracy can conceal
+    clinically unacceptable errors in a small but high-risk subgroup. How information is supplied to the model may be as important as the model
+    itself. Yazaki et al. examined a retrieval-augmented generation (RAG) approach using 100 simulated triage scenarios derived from modified cases
+    from the Japanese National Examination for Emergency Medical Technicians. GPT-3.5 combined with RAG achieved 70% correct triage, compared with 35%
+    and 38% for two emergency medical technicians and 50% and 47% for two emergency physicians. Under-triage occurred in 8% of cases with GPT-3.5 plus
+    RAG, compared with 33% for GPT-3.5 without RAG and 39% for GPT-4 without RAG (4). The findings suggest that connecting an LLM to task-specific
+    knowledge may improve performance. At the same time, the study used simulated scenarios rather than live emergency encounters, which limits how
+    far these results can be extended to routine practice. Gaber et al. similarly evaluated several LLM configurations and a RAG-assisted workflow
+    using 2,000 cases derived from the MIMIC-IV ED database. Their framework addressed triage, specialty referral, and diagnosis rather than treating
+    the model as a stand-alone question-answering system (5). This is an important shift in emphasis. The relevant unit of evaluation may ultimately
+    be the LLM-enabled clinical workflow, not the language model in isolation. There are also reasons to remain cautious about extrapolating high
+    performance on constrained tasks to autonomous clinical decision-making. Hager et al. evaluated selected LLMs using a curated dataset of 2,400
+    real patient cases involving four common abdominal pathologies. The tested models performed worse than physicians across the evaluated pathologies
+    and showed limitations in following diagnostic and treatment guidelines, interpreting laboratory results, and responding consistently to changes
+    in instructions (6). These findings should not be generalized automatically to every newer model—the technology evolves rapidly—but they
+    demonstrate why conventional medical benchmarks are an incomplete proxy for bedside reliability. The same caution applies to the concept of the AI
+    “co-pilot.” Human supervision alone does not guarantee that an LLM will improve decisions. In a randomized clinical trial involving 50 physicians
+    from internal medicine, family medicine, and emergency medicine, Goh et al. compared physicians using GPT-4 with physicians using conventional
+    resources. Median diagnostic reasoning scores were 76% and 74%, respectively, an adjusted difference of 2 percentage points (95% CI, −4 to 8;
+    P=0.60). Interestingly, the LLM operating alone scored 16 percentage points higher than the conventional-resources physician group (95% CI, 2–30;
+    P=0.03) (7). Only five participants were emergency physicians, so the results are not an ED-specific effectiveness trial. Nevertheless, they
+    expose an important problem: access to a capable model does not automatically translate into better human performance. Interface design, clinician
+    training, appropriate reliance, and the way disagreement between clinician and model is handled may determine whether assistance is useful. For
+    this reason, the first successful applications of LLMs in emergency care may emerge from narrower tasks in which benefit can be measured without
+    transferring final clinical authority to the model. Song et al. provide an instructive example. In a study involving six emergency physicians and
+    50 representative ED cases, LLM-assisted discharge documentation reduced median writing time from 69.5 seconds (95% CI, 65.5–78.0) to 32.0 seconds
+    (95% CI, 29.5–36.0; P<0.001). LLM-assisted notes also received higher ratings than manually written notes for completeness, correctness,
+    conciseness, and clinical utility (all P<0.001) (8). The study was performed in a single tertiary center and involved a limited validation set,
+    but it illustrates a practical principle: the safest path to clinical adoption may begin with bounded tasks that reduce workload while leaving
+    consequential decisions under direct clinician control. Emergency triage requires an equally pragmatic standard. Before an LLM is used as more
+    than supervised decision support, prospective multicenter studies should evaluate outcomes that matter to patients rather than relying
+    predominantly on agreement with historical labels. Under-triage deserves particular attention, as do delays to time-sensitive treatment,
+    unexpected intensive care unit admission, early ED return, and adverse clinical outcomes. Performance should also be examined across patient
+    groups and clinical presentations rather than reported only as a single aggregate accuracy measure. Model identity and version should be treated
+    as part of the intervention. An evaluation performed with one version cannot be assumed to remain valid after a major model update. Similarly,
+    changes in prompts, retrieval sources, or local workflow may alter performance. Clinical deployment will therefore require version control,
+    post-implementation surveillance, and an auditable record of when AI-generated recomme­ndations are accepted or overridden. Accountability must be
+    designed before deployment rather than after an adverse event. If an LLM assigns a lower acuity level than the triage clinician, should its
+    recommendation be ignored, reviewed, or trigger a mandatory second assessment? If the model recommends escalation and the clinician disagrees,
+    what should be documented? These are not peripheral legal questions. They determine how the technology will influence actual behavior in the ED.
+    The current evidence does not support either extreme position. It would be premature to dismiss LLMs as unreliable text generators when they have
+    demonstrated substantial ability to interpret clinical narratives and, in selected tasks, match or exceed human performance. It would be equally
+    premature to treat those findings as evidence t
+
+### R00187 | 2026 | preprint/None | Lang: en
+TI: Personality Traits as Moderators of Human Trust and Reliance on Large Language Model-Powered Conversational Agents: A Scoping Review and the
+    Personality–Trust Calibration Framework
+AB: Large language model (LLM)-powered conversational agents now mediate consequential decisions, yet individuals differ markedly in how far they
+    trust and rely on them. We ask whether stable individual differences—particularly Big Five personality traits—moderate trust calibration and
+    over-reliance in human–LLM interaction.We conducted a scoping review following PRISMA Extension for Scoping Reviews (PRISMA-ScR) guidance,
+    charting 60 empirical studies (22 examining contemporary generative LLMs) identified through structured multi-source searches (Semantic Scholar,
+    OpenAlex, and arXiv) and backward citation chasing. We synthesised the evidence using a structured synthesis-without-meta-analysis (SWiM) approach
+    with vote-counting by direction of effect.Because much of the evidence base concerns adjacent technologies, we coded every study by AI-system type
+    and separated findings that are LLM-specific from those extrapolated from broader human–automation research.Three patterns are robust. First,
+    Neuroticism and trait anxiety are the most consistent individual-difference correlates of LLM over-reliance and dependency, operating through an
+    affect-regulation and cognitive-offloading pathway. Second, Agreeableness is associated with more positive AI attitudes and greater susceptibility
+    to AI-generated persuasion, especially under anthropomorphic design, though not straightforwardly with problematic dependence. Third, Openness
+    predicts AI adoption, positive attitudes, and trust, but we found no direct evidence that it elevates over-reliance.Conscientiousness shows
+    context-dependent and sometimes opposing effects, while Extraversion exhibits only modest effects on initial trust. Across studies, dispositional
+    propensity-to-trust and system features—chiefly the form of explanation and uncertainty communication—are more proximal predictors of reliance
+    than broad personality traits. Anthropomorphism shapes trust indirectly and conditionally rather than acting as a uniform amplifier.We organise
+    these findings within a proposed Personality–Trust Calibration (PTC) framework and extend it to agentic LLMs, where the relevant failure mode
+    shifts from over-reliance on advice to over-delegation of action. The framework is offered as a structured research agenda rather than a validated
+    causal model.
+
+### R00188 | 2025 | article/None | Lang: en
+TI: Leveraging A Large Language Model for Precision Enhancement in EFL Email Writing: A Quasi-Experimental Study
+AB: Writing formal emails requires clarity, conciseness, and accuracy. Many English as a Foreign Language (EFL) learners find these skills
+    challenging. Large Language Models (LLMs), such as ChatGPT, represent a significant advancement in natural language processing. However, their
+    effectiveness in structured, task-specific language tasks for education is not well studied. This study investigates whether the GPT-3.5 model can
+    assist EFL students in writing formal emails with greater precision and structural accuracy. The research treats the classroom as a real-world
+    test case for the model’s abilities. It applied a quasi-experimental method. Data were collected from control and experimental groups (N = 60).
+    The study used a test and semi-structured interviews. The results show ChatGPT improved formal email writing among EFL students. Qualitative
+    findings highlight the tool’s ease of use and time-saving nature. ChatGPT also boosts clarity and confidence. Some concerns about overreliance on
+    ChatGPT emerge. The tool sometimes struggled with subject lines, sign-offs, and signatures. This suggests that human intervention is needed.
+    Contributing to AI-assisted pedagogy, this study shows how ChatGPT can improve EFL students' formal email writing skills.
+
+### R00190 | 2026 | preprint/None | Lang: en
+TI: Calibrating Trust in the Age of Large Language Models: How Confidence Expression Style and Task Domain Shape Human Reliance on AI-Generated
+    Responses
+AB: This project will coduct a study examining how people form, calibrate, and act upon trust in large language model (LLM) generated responses. As
+    LLMs become embedded in everyday information-seeking and professional decision-making, a critical and underexplored question emerges: do users
+    rely on these systems appropriately, accepting outputs when they are reliable and rejecting or scrutinising them when they are not? This study
+    addresses that question directly, examining how the design of AI-generated confidence signals interacts with the nature of the task to shape
+    users' reliance behaviour. Decades of research in human factors and human-computer interaction have established that trust in automated systems is
+    rarely well-calibrated. Users systematically overtrust , accepting incorrect automated recommendations , or undertrust discarding accurate ones,
+    with both failure modes degrading the quality of human-AI collaboration (Lee and See, 2004; Parasuraman and Riley, 1997). These dynamics,
+    originally documented in aviation and clinical decision support, have taken on new urgency with the rise of LLMs. Unlike traditional automated
+    systems, LLMs generate fluent, elaborated, confident-sounding prose regardless of their actual accuracy. The stylistic coherence of LLM outputs
+    functions as an independent trust cue, decoupled from epistemic warrant. Compounding this, LLMs have been shown to express unwarranted certainty
+    as a systematic feature of their outputs , a consequence of training processes that reward confident-sounding responses (Steyvers and Peters,
+    2025). The result is a communicative environment that is structurally prone to inducing overtrust. One prominent response to this challenge is the
+    deliberate communication of uncertainty. If LLM outputs suppress signals of epistemic limitation, designing those signals back in should, in
+    principle, enable users to modulate their reliance appropriately. Prior work in explainable AI (XAI) has established that transparency
+    interventions can affect trust calibration, but also that the form of the transparency signal matters critically: numeric confidence scores,
+    verbal hedging, and reference class framing differ in their cognitive accessibility and their capacity to support case-by-case reliance judgements
+    (Zhang et al., 2020; Naiseh et al., 2023). Crucially, the effectiveness of any uncertainty expression format likely depends on whether users
+    possess sufficient domain knowledge to independently evaluate AI outputs — a boundary condition that has not yet been systematically examined in
+    the LLM context.
+
+### R00192 | 2026 | preprint/None | Lang: en
+TI: Large language models in undergraduate medical education - student use, perceptions, and outcomes: a systematic review (Preprint)
+AB: BACKGROUND Large language models (LLMs), such as ChatGPT, are increasingly being used in medical education. Medical students use them for purposes
+    such as supporting their self-directed learning. Educators are increasingly using them to support teaching, for example in simulating patient
+    conversations. Adoption is generally ahead of institutional endorsement or training. OBJECTIVE This review seeks to better understand how and why
+    medical students use LLMs and their educational impact. METHODS A systematic review was conducted, following PRISMA guidelines, of studies that
+    involved medical students using LLMs and reported students’ use, perceptions or educational outcomes. Original peer-reviewed research available in
+    English was included between November 2022 and July 2025. Two reviewers independently screened papers, extracted data and appraised quality using
+    CASP. Data were synthesised using a narrative synthesis framework. RESULTS 54 studies were included, including cross-sectional and interventional
+    studies. Awareness of LLMs was very high amongst medical students, while use was more variable. Most students used ChatGPT. Students report LLMs
+    provided benefits to learning efficiency and more personalised learning, though this did not necessarily translate to better knowledge retention.
+    Interventional studies using LLMs to simulate patient interactions, and provide personalised feedback, improved students’ performance and
+    confidence. Students had concerns around accuracy, data, and overreliance which coexisted with use. Verification of outputs was often low but
+    correlated with prior understanding of AI. Students were supportive of more formal training on AI. CONCLUSIONS LLMs can be useful in supporting
+    students’ learning and are being adopted by medical students. They can provide benefits as tools for low-stakes practice of communication skills
+    and in providing feedback. Many students have concerns around accuracy but lack the skills to critically appraise LLM outputs. Institutions should
+    provide formal training on LLM use to develop verification habits, model good LLM-use, and prepare students for AI they will encounter in clinical
+    practice. CLINICALTRIAL Badakhshan U, Ahadi N, Athavale R. Large language model use among medical students in medical education: a systematic
+    review [protocol]. Open Science Framework; 2025. doi:10.17605/OSF.IO/YMCW8.
+
+### R00193 | 2025 | article/None | Lang: en
+TI: Mind AI's Mind: A Clinically Aligned Explainable AI Pipeline for Depression Diagnosis via Large Language Models
+AB: The rise of artificial intelligence (AI) in medical diagnostics has highlighted an essential need for transparent and interpretable systems,
+    particularly in the field of mental health. The opaque decision-making in “black-box” AI models creates a challenge in clinical settings: they
+    risk losing trust or causing uncritical reliance. This paradox jeopardizes mental healthcare, where skepticism or unwarranted confidence in AI can
+    harm patient care. Effective explainability mechanisms are therefore essential not only to earn trust but to support responsible use by allowing
+    clinicians to critically assess and verify AI-driven outputs. Thus, we propose a novel explainable AI (XAI) pipeline for automated depression
+    diagnosis, designed to integrate both system-level and human-level interpretability. This dual approach is vital in clinical settings, as it
+    combines rigorous statistical validation with clear, actionable insights that enhance practitioner confidence in AI-generated diagnoses. The
+    pipeline leverages deep learning models for classification, augmented by traditional system-level XAI techniques and a Retrieval-Augmented
+    Generation (RAG)-enhanced Large Language Model (LLM). With the integration of LLMs, the system translates abstract system-level explanations into
+    understandable, natural language narratives. This provides a crucial cross-verification step that fosters calibrated trust: it mitigates the dual
+    risks of under-trust, by providing a clear rationale, and over-trust, by flagging diagnostic inconsistencies within the AI models. This capability
+    is critical for ensuring both user trust and satisfaction, as it empowers practitioners to critically assess and validate AI-driven insights.
+    Through comprehensive human evaluations conducted by medical professionals, this approach demonstrates high alignment with clinical diagnostic
+    indicators, underscoring the value of combining system-level and human-level explanations to make complex AI processes transparent and clinically
+    meaningful. Validated across three diverse datasets-KangNing, EDAIC-WOZ, and CALLM-each presenting unique structural challenges from structured
+    clinical inquiries to narrative-driven dialogues, our method bridges the gap between technical AI outputs and practitioner understanding, marking
+    a significant advancement toward a trust-based, widely adoptable AI diagnostic tool in mental health care. By introducing a comprehensive
+    framework for combining statistical rigor with narrative clarity, this work represents a critical step toward closing the gap between black-box AI
+    systems and real-world clinical adoption. While our study is limited to depression diagnosis, the proposed framework illustrates a pathway toward
+    explainable clinical AI systems. Future work may explore its adaptability to other medical contexts.
+
+### R00194 | 2026 | article/None | Lang: en
+TI: Adoption of Large Language Models in Programming Education: Student Views, Concerns, and Perceived Use in Mexican Higher Education
+AB: Large language models (LLMs) have witnessed rapid adoption across academic and industrial domains due to their advanced capabilities, including
+    code generation, natural language processing, and interactive support. Their integration into educational settings, particularly in programming
+    has introduced both substantial benefits and emerging ethical challenges. The current study investigates students’ perceptions of LLM usage at two
+    different public and private universities in Mexico, focusing on how ease of use influences their perceived effectiveness, confidence, future
+    intention, and frequency of use in programming‐related tasks. A quantitative, survey‐based approach was adopted, with data collected from
+    undergraduate and postgraduate students actively. The findings revealed that the ease of use plays a significant role in shaping students’
+    attitudes and behaviors. Path analysis using Partial Least Squares Structural Equation Modeling (PLS‐SEM) confirmed strong relationships between
+    usability and perceived outcomes, suggesting that intuitive tool design can enhance confidence and increase regular usage. However, the study also
+    highlights ethical concerns among students, including overreliance and potential academic dishonesty. These insights underscore the need for
+    practical guidelines and institutional policies to ensure responsible and balanced integration of LLMs in academic environments. This research
+    offers important implications for educators, developers, and policymakers working to align technological innovation with ethical learning
+    practices.
+
+### R00195 | 2026 | article/None | Lang: en
+TI: Attached to the Algorithm: Investigating the Relationship Between Adult Attachment Styles and Instrumental and Relational Dependency on Large
+    Language Models
+AB: The rapid growth of large language models (LLMs) raises questions for counselors regarding when such tools are used adaptively versus when they
+    foster dependency. Guided by attachment theory and a dual-dimension view of AI reliance, this study examined whether adult attachment styles
+    predict instrumental (task/decision support) and relational (companion-like) dependency on LLMs, whether spiritual engagement relates to these
+    dependencies, and whether levels differ by age. Faculty, staff, and students who had used an LLM completed the LLM-D12 and the ECR-R (N = 515).
+    Analyses showed that instrumental dependency on LLMs was highest among individuals high in avoidance, with modest additional elevation when
+    anxiety is also high. Relational dependency on LLMs increased progressively from the secure to the anxious-avoidant style, with the highest scores
+    among individuals elevated on both dimensions. Multivariate analyses indicated that frequent “talking with God” (multiple times/day) was linked to
+    lower instrumental reliance for confidence/support/decisions and to lower endorsement of LLMs as relational tools or companions. Age was not
+    associated with differences in instrumental dependency but was reliably associated with differences in relational dependency: with younger adults
+    reporting higher relational dependency. Findings suggest that avoidance-based attachment style primarily predicts task-focused reliance on LLMs,
+    while combined attachment insecurity relates to companion-like engagement. For counselors and counselor educators, results underscore the value of
+    assessing client motives for AI use and targeting relational overreliance—especially in younger adults—through psychoeducation and skills that
+    strengthen human connection.
+
+### R00197 | 2026 | preprint/None | Lang: en
+TI: Artificial Intelligence - Large Language Models (LLMs) and Agentic AI in Clinical Decision Support in Outpatient, General Practice and Acute
+    Settings: A Systematic Review of Diagnostic Accuracy, Comparative Efficacy, Clinical Outcomes and Implementation Factors
+AB: Abstract Background : Large language models (LLMs) and agentic artificial intelligence (AI) systems represent a notable shift in clinical decision
+    support systems (CDSS), offering potential to enhance diagnostic accuracy, triage efficiency, and clinical decision-making, in outpatient, general
+    practice as well as acute care settings. Despite rapid technological advancement and increasing deployment, systematic evidence synthesis on their
+    diagnostic accuracy, comparative efficacy, clinical outcomes, and implementation factors remains limited. This systematic review aimed to
+    comprehensively evaluate the current evidence on LLM-based CDSS in general practice or outpatient, as well as acute and emergency settings.
+    Methods: We conducted a systematic review following PRISMA 2020 guidelines. We searched 11 databases (PubMed/MEDLINE, Science Direct, Web of
+    Science, IEEE Xplore, ACM, Computer Science Journals, Google Scholar, CINAHL, Academic Search Ultimate, APA PsychInfo, and Elicit AI) from January
+    2021 to December 2026. Inclusion criteria encompassed studies evaluating generative AI/LLMs and agentic AI in CDSS for general practice,
+    outpatient, acute, or emergency settings, reporting original data on at least one primary outcome domain. Two independent reviewers conducted
+    title/abstract screening and full-text eligibility assessment. Quality was assessed using the Mixed Methods Appraisal Tool (MMAT). Data were
+    extracted using a standardized framework and synthesized thematically across four domains: diagnostic accuracy, comparative efficacy, clinical
+    outcomes, and implementation factors. Results: From 2,402 identified records, 50 studies met all inclusion criteria following deduplication and
+    two-stage screening (inter-rater κ = 0.78-0.85). Studies were published between 2021 and 2026, with 68% published in 2025 alone, reflecting the
+    rapid emergence of advanced LLMs in clinical evaluations. Studies evaluated LLMs including GPT-4/4o, GPT-3.5, Claude 3 (Opus/Sonnet/Haiku), Gemini
+    1.5 Pro/2.5 Flash, DeepSeek-R1, Llama 3, Med-PaLM 2, Doubao, Qwen, and Mistral, across emergency care (n=18, 36%), primary/general care (n=22,
+    44%), virtual and simulated environments (n=5, 10%), and mixed settings (n=5, 10%). Study designs included quantitative descriptive studies,
+    encompassing benchmarks and vignettes, (n=28, 56%), retrospective observational studies (n=5, 10%), prospective observational studies (n=4, 8%),
+    randomised controlled trials (n=4, 8%), qualitative studies (n=3, 6%), cross-sectional studies (n=5, 10%), and mixed-methods (n=1, 2%). LLMs
+    demonstrated high diagnostic accuracy in structured vignettes and controlled settings, with advanced models (o1, GPT-4o, Claude 3.5 Sonnet)
+    achieving ≥90% accuracy in final diagnoses in emergency internal medicine and matching specialist-level performance in cardiovascular emergencies.
+    In the largest prospective triage study to date, screening 6,657 patients across four emergency departments, ChatGPT-4o outperformed triage staff
+    overall (Cohen's κ = 0.833 vs 0.782; F1 = 0.897 vs 0.863), though performance declined for complex, high-acuity presentations requiring yellow and
+    red zone triage (AUC = 0.75-0.78). Beyond struggle with complex contextual reasoning, LLMs exhibited clinically important weaknesses across
+    atypical presentations, autonomous safety planning in psychiatric triage, and real-world clinical recommendation tasks. For example, in a study
+    evaluating accuracy in real, unstructured clinical environment, spanning 10,000 ED visits, GPT-4 accuracy fell 8-24% below resident physicians on
+    clinical recommendation tasks. Human-AI collaborative models consistently outperformed both independent AI and unassisted clinicians. A large
+    vignette study generating 40,762 diagnoses across 2,133 cases demonstrated that clinician-LLM collectives outperformed all individual groups,
+    driven by complementary error profiles. A position augmented by a real-world deployment study across 15 Kenyan primary care clinics (n = 39,849
+    visits), where LLM-based decision support reduced diagnostic errors by 16% and treatment errors by 13%. Similarly, Retrieval-augmented Generation
+    (RAG) significantly improved guideline concordance (95.5% vs 62-74% for junior clinicians) and prescribing error detection by 1.5-fold over
+    unaided pharmacists across 16 clinical specialties. Implementation findings identified automation bias (15-35% of cases), trust calibration
+    deficits, workflow integration challenges, and regulatory uncertainty as critical barriers, with explainable AI and human-in-the-loop designs as
+    key facilitators. Conclusions: LLMs and agentic AI CDSS show substantial promise as adjunctive co-pilot tools capable of improving diagnostic
+    accuracy and reducing clinical errors across varied acuity and resource settings. However, significant vulnerabilities in contextual reasoning,
+    autonomous safety planning, and unaided real world performance currently preclude their use as autonomous decision-makers. Future integration must
+    prioritise retrieval-augmented generation, clinician oversight, explainability, and rigorous real-world prospective evaluation with
+    patient-centred outcomes to realise safe and effective deployment.
+
+### R00199 | 2026 | article/None | Lang: en
+TI: Why we believe chatbots: trust calibration as a design problem
+AB: Chatbots powered by large language models (LLMs), such as ChatGPT and Claude, answer questions quickly and fluently, yet they reveal little about
+    how their answers are produced or what evidence supports them. Users tend to trust these systems based on surface qualities such as fluency,
+    confidence, and speed. This trust is often miscalibrated, meaning that it does not match what the systems can actually do. Some users overtrust
+    answers they cannot verify. Others distrust the systems and disengage. Large surveys show that many people rely on AI daily while saying they do
+    not trust it. This article treats miscalibration as a design problem and develops a framework for recalibrating user trust. We first define trust
+    in chatbots by connecting psychological research on trust, communication research on credibility, and human factors research on trust in
+    automation. We then introduce a user typology built on two dimensions, the ability to verify chatbot outputs and the motivation to do so, which
+    together predict how a given user will miscalibrate. On this basis, we synthesize two families of design intervention. Interpretability
+    affordances, such as source citations and uncertainty cues, make evaluation possible. Engagement mechanisms, such as cooling-off periods and
+    dialogue scaffolds, make evaluation happen by building it into the interaction. Following the Swiss cheese model of layered defense, we argue that
+    these interventions cover one another's gaps, and we state eight testable propositions that link each intervention to the users it serves. We
+    close by discussing AI literacy as the slowest but most durable layer of defense.
+
+### R00202 | 2025 | preprint/None | Lang: en
+TI: LLM Confidence Paradox
+AB: This research project empirically investigates the "Confidence Calibration Paradox," a core tension in designing trustworthy AI. The paradox
+    arises because Large Language Models (LLMs) often express themselves with an assertive linguistic style that is misaligned with their internal
+    certainty (a "confidence miscalibration"), yet human users are known to be more persuaded by confident communication. We question whether
+    designing AIs to be epistemically honest (transparently showing uncertainty) might paradoxically reduce user trust, while AIs designed for social
+    effectiveness (using confident language) risk propagating misinformation. To address this, we will conduct a pre-registered series of four
+    iterative online experiments. These studies will causally estimate the effects of manipulating LLM linguistic assertiveness (e.g., hedged vs.
+    assertive language) and numerical confidence disclosure (showing or hiding the AI's internal self-certainty score) on user Trust, Persuasion, and
+    Behavioral Intentions. The experiments are designed to: Isolate the baseline effect of linguistic assertiveness alone. Determine the main causal
+    effect of disclosing the AI's numerical confidence score. Test the interaction between linguistic assertiveness and numerical disclosure to see
+    how users respond to (mis)aligned signals. Evaluate an alternative interface design (prompting users to estimate AI confidence) as a potential
+    strategy for improving user calibration. Expected Outcomes: This research program will provide a causal map of how users respond to different AI
+    confidence communication strategies. The findings will offer direct evidence on the nature of the Confidence Calibration Paradox and yield
+    actionable design guidelines for building LLM interfaces that foster more appropriately calibrated user trust. We also expect to identify
+    individual characteristics (e.g., numeracy) that may make users more or less susceptible to being influenced by miscalibrated AI confidence
+    expressions.
+
+### R00204 | 2025 | preprint/None | Lang: en
+TI: The Illusion of Empathy: Why Users Distrust GPT-4 Chatbots for Mental Health Screenings
+AB: Conversational AI holds promise for scalable mental health screening, yet its impact on therapeuticalliance and user perceptions remains
+    underexplored. This preregistered, cross-sectional, randomizedmixed-methods experiment (N = 149) evaluated the effects of an empathic
+    GPT-4-powered chatbot (Elli)versus a static PHQ-9/GAD-7 form on trust, comfort, empathy, and emotional disclosure. Participantswere randomly
+    assigned to either condition. Quantitative outcomes included measures of confidence,comfort, and perceived empathy. Qualitative feedback was
+    analyzed thematically. Primary analysesemployed independent t-tests and Mann–Whitney U tests, with Cohen’s d effect sizes reported.Exploratory
+    analyses included gender and age interactions, as well as mediation modeling. All analyseswere conducted in Python and are openly available on
+    GitHub. Trust in the Elli chatbot was significantlylower than in the static form (p = .004, d = –0.49). Comfort and empathy ratings showed no
+    significantdifferences. Dropout analysis revealed no condition-related attrition (χ² = 0.37, p = .54). Qualitativefeedback highlighted discomfort
+    with artificial empathy and a perceived lack of human presence in thechatbot condition. No significant differences emerged for PHQ-9 or GAD-7
+    severity. Mediation analysisrevealed that empathy did not account for the trust gap. Contrary to expectations, the GPT-4 chatbotreduced user trust
+    compared to a static form. These findings suggest emotional authenticity may bemore critical than simulated empathy in digital mental health
+    tools.
+
+### R00205 | 2025 | preprint/None | Lang: en
+TI: The Illusion of Empathy: Why Users Distrust GPT-4 Chatbots for Mental Health Screenings
+AB: Conversational AI holds promise for scalable mental health screening, yet its impact on therapeuticalliance and user perceptions remains
+    underexplored. This preregistered, cross-sectional, randomizedmixed-methods experiment (N = 149) evaluated the effects of an empathic
+    GPT-4-powered chatbot (Elli)versus a static PHQ-9/GAD-7 form on trust, comfort, empathy, and emotional disclosure. Participantswere randomly
+    assigned to either condition. Quantitative outcomes included measures of confidence,comfort, and perceived empathy. Qualitative feedback was
+    analyzed thematically. Primary analysesemployed independent t-tests and Mann–Whitney U tests, with Cohen’s d effect sizes reported.Exploratory
+    analyses included gender and age interactions, as well as mediation modeling. All analyseswere conducted in Python and are openly available on
+    GitHub. Trust in the Elli chatbot was significantlylower than in the static form (p = .004, d = –0.49). Comfort and empathy ratings showed no
+    significantdifferences. Dropout analysis revealed no condition-related attrition (χ² = 0.37, p = .54). Qualitativefeedback highlighted discomfort
+    with artificial empathy and a perceived lack of human presence in thechatbot condition. No significant differences emerged for PHQ-9 or GAD-7
+    severity. Mediation analysisrevealed that empathy did not account for the trust gap. Contrary to expectations, the GPT-4 chatbotreduced user trust
+    compared to a static form. These findings suggest emotional authenticity may bemore critical than simulated empathy in digital mental health
+    tools.
+
+### R00206 | 2026 | article/None | Lang: en
+TI: Building user trust in AI chatbots for customer service through human-like cues and perceived reliability
+AB: This qualitative study explores how human-like cues and system competence shape users’ trust and perceptions of reliability in AI-driven chatbot
+    customer service. Data were collected from 28 participants through semi-structured interviews conducted in Pakistan and China. Using thematic
+    analysis supported by NVivo 15, the study identifies key patterns in the formation of user trust and interaction experiences. Two main themes
+    emerged: human-like interaction and emotional connection, and perceived reliability and system competence. The first highlights conversational
+    naturalness, empathy, personalisation, and social presence as drivers of affective trust. In contrast, the second emphasises accuracy,
+    transparency, responsiveness, and data security as core elements of cognitive trust. Together, these dimensions illustrate how emotional and
+    functional factors jointly influence user confidence and satisfaction with chatbots. Beyond reaffirming established trust constructs, the study
+    offers context-specific qualitative insights that deepen understanding of how users in a developing market interpret and negotiate trust in
+    AI-mediated service interactions.
+
+### R00207 | 2025 | article/None | Lang: en
+TI: Differences in User Perception of Artificial Intelligence-Driven Chatbots and Traditional Tools in Qualitative Data Analysis
+AB: Qualitative data analysis (QDA) tools are essential for extracting insights from complex datasets. This study investigates researchers’
+    perceptions of the usability, user experience (UX), mental workload, trust, task complexity, and emotional impact of three tools: Taguette 1.4.1
+    (a traditional QDA tool), ChatGPT (GPT-4, December 2023 version), and Gemini (formerly Google Bard, December 2023 version). Participants (N = 85),
+    Master’s students from the Faculty of Electrical Engineering and Computer Science with prior experience in UX evaluations and familiarity with
+    AI-based chatbots, performed sentiment analysis and data annotation tasks using these tools, enabling a comparative evaluation. The results show
+    that AI tools were associated with lower cognitive effort and more positive emotional responses compared to Taguette, which caused higher
+    frustration and workload, especially during cognitively demanding tasks. Among the tools, ChatGPT achieved the highest usability score (SUS =
+    79.03) and was rated positively for emotional engagement. Trust levels varied, with Taguette preferred for task accuracy and ChatGPT rated highest
+    in user confidence. Despite these differences, all tools performed consistently in identifying qualitative patterns. These findings suggest that
+    AI-driven tools can enhance researchers’ experiences in QDA while emphasizing the need to align tool selection with specific tasks and user
+    preferences.
+
+### R00211 | 2025 | article/None | Lang: en
+TI: Hooked on help: Student overreliance on ChatGPT in higher education
+AB: This case study examines the phenomenon of university students’ dependence on ChatGPT, an AI-based language model widely used for academic tasks.
+    Based on qualitative research involving 40 semi-structured interviews with students aged 18 to 25, the narrative centers on Lina, a composite
+    character representing common experiences and challenges. Initially embraced as a productivity tool, ChatGPT gradually became integral to Lina’s
+    academic routine, enhancing efficiency but eventually fostering cognitive reliance that impaired her critical thinking, creativity, and academic
+    confidence. The case highlights the psychological impact of this dependence, including anxiety during AI unavailability, and the tension between
+    AI-assisted work and authentic student voice, as reflected in faculty feedback. This study underscores the need for higher education institutions
+    to develop policies and pedagogical strategies that balance AI integration with fostering academic integrity, student autonomy, and responsible
+    technology use.
+
+### R00214 | 2026 | article/None | Lang: en
+TI: Bridging the trust gap: anthropomorphism, chatbot features, and system features in AI-chatbot adoption across cultures
+AB: As artificial intelligence (AI)-chatbots mimic human-like communication, they are able to reshape customer-business interactions. Due to a lack of
+    user trust, their adoption falls below expectations. This study encompasses the dual-pathway model of trust and discovers how human-like features
+    (empathetic response, intelligence, social presence, interactivity) impact users’ trust via anthropomorphic perceptions (affective route) and how
+    system features (usefulness, service quality, ease of use) contribute to trust via the cognitive route. Overall, forty English-language
+    publications reporting correlation coefficients (or convertible statistics) and sample sizes published till December 2024 were identified from
+    Scopus, EBSCO, and ProQuest. Their meta-analysis confirms the positive effects of system features on trust and chatbot features on
+    anthropomorphism, which further enhances trust. Prior studies have not addressed cultural heterogeneity in AI-chatbot research due to limited
+    geographical scope. This study introduces Eastern/Western cultures, individualism, and uncertainty avoidance as the moderating variables. Results
+    reveal the stronger effect of perceived usefulness on trust and social presence on anthropomorphism in Western cultures. Also, anthropomorphism
+    has a greater influence on trust in Eastern cultures. The positive relationship between anthropomorphism and trust is weakened as individualism
+    increases. Also, as uncertainty avoidance increases, the positive relationship between perceived ease of use and trust is strengthened.
+
+### R00215 | 2026 | article/None | Lang: en
+TI: Bridging the trust gap: anthropomorphism, chatbot features, and system features in AI-chatbot adoption across cultures
+AB: As artificial intelligence (AI)-chatbots mimic human-like communication, they are able to reshape customer-business interactions. Due to a lack of
+    user trust, their adoption falls below expectations. This study encompasses the dual-pathway model of trust and discovers how human-like features
+    (empathetic response, intelligence, social presence, interactivity) impact users’ trust via anthropomorphic perceptions (affective route) and how
+    system features (usefulness, service quality, ease of use) contribute to trust via the cognitive route. Overall, forty English-language
+    publications reporting correlation coefficients (or convertible statistics) and sample sizes published till December 2024 were identified from
+    Scopus, EBSCO, and ProQuest. Their meta-analysis confirms the positive effects of system features on trust and chatbot features on
+    anthropomorphism, which further enhances trust. Prior studies have not addressed cultural heterogeneity in AI-chatbot research due to limited
+    geographical scope. This study introduces Eastern/Western cultures, individualism, and uncertainty avoidance as the moderating variables. Results
+    reveal the stronger effect of perceived usefulness on trust and social presence on anthropomorphism in Western cultures. Also, anthropomorphism
+    has a greater influence on trust in Eastern cultures. The positive relationship between anthropomorphism and trust is weakened as individualism
+    increases. Also, as uncertainty avoidance increases, the positive relationship between perceived ease of use and trust is strengthened.
+
+### R00217 | 2026 | article/None | Lang: en
+TI: IMPACT OF INFRASTRUCTURE TRANSPARENCY ON TRUST IN BANKING CHATBOTS
+AB: The increasing adoption of AI-based chatbots in the banking sector has reshaped customer service by enabling automated, efficient, and accessible
+    digital interactions. Despite these benefits, user trust remains a crucial factor influencing the acceptance and continued use of banking
+    chatbots. This study investigates how awareness of banking chatbot infrastructure and perceived infrastructure transparency affect user trust,
+    perceived system reliability and security, and usage intention. Using a structured questionnaire, the study examines users' understanding of
+    chatbot operations, the extent to which banks communicate chatbot roles, limitations, and data processing practices, and how such transparency
+    influences confidence and trust. The research further explores the relationship between system reliability, security perceptions, and trust in
+    chatbot-supported banking services. By analyzing user perceptions across multiple dimensions, the study highlights the role of transparent digital
+    infrastructure in reducing uncertainty and enhancing trust in AI-driven banking systems. The findings aim to provide empirical insights into how
+    infrastructure transparency can strengthen customer confidence, encourage usage, and improve overall satisfaction with banking chatbots. This
+    research contributes to the literature on trustworthy AI and digital banking by emphasizing the importance of awareness and transparency as key
+    drivers of trust and adoption in financial chatbot services.
+
+### R00218 | 2025 | article/None | Lang: en
+TI: Assessing User Confidence and Acceptance of AI Enhanced Through Multi-LLM Consensus Mechanisms
+AB: Large Language Models (LLMs) have transformed AI usage in many aspects, though the issue of user trust and acceptance is a crucial step to
+    successful usage. This paper is a literature review of 16 recent publications (published in 2021-25) about the impact of LLM consensus mechanisms
+    on user trust and the determinants that affect the acceptance of AI systems. The review outlines these structured frameworks as: LLMs-as-Judges,
+    Mixture-of-Agents and Big Loop/Atomization as effective methods to improve the reliability, consistency, transparency, and interpretability of AI
+    outputs. These consensus mechanisms minimize errors, reduce variability and enhance robustness, hence directly enhancing confidence in AI systems
+    by users. Moreover, the analysis describes the most important considerations for user acceptance, such as explainability, transparency, fairness,
+    reduction of bias, and integration into real-life practices. The interplay of these factors and their influence on the adoption and successful
+    utilization of consensus-driven AI can be demonstrated by the applications in healthcare, education, and smart grid systems. Taken together, the
+    results demonstrate the necessity to develop AI systems that are not only technically sound but also in line with the expectations of users. This
+    work will be useful to researchers and practitioners who want to create reliable, user-friendly AI systems and indicate where future research can
+    be done to maximize multi-LLM consensus mechanisms and adapt them to domain-specific situations.
+
+### R00220 | 2026 | article/None | Lang: en
+TI: Beyond the hype: a psychological perspective on AI chatbots
+AB: The accelerating evolution of artificial intelligence (AI) has reshaped the educational landscape, driving the adoption of intelligent tools
+    across education environments (Msambwa et al., 2025;Walter, 2024). Within this broader technological shift, AI chatbots have gained particular
+    prominence in language education. Empirical studies consistently highlight their benefits, demonstrating improved vocabulary development,
+    heightened engagement, and enhanced instructional efficiency (Almasri, 2024;Zhang and Huang, 2024;O'Neill et al., 2025). Their capacity to deliver
+    interactive, personalised, and on-demand communicative practice offers learners and teachers opportunities to engage in meaningful language use
+    beyond the constraints of traditional classrooms (Pan et al., 2024;Li et al., 2025). This interactive engagement is consistent with human-machine
+    communication (HMC) (Guzman & Lewis, 2020;Guzman et al., 2023), as learners tend to attribute social presence and communicative intent to
+    chatbots, perceiving them as meaningful interlocutors.Yet the expanding presence of AI chatbots has generated debate, primarily due to their
+    complex psychological implications for users. Evidence shows that Over-reliance on AI can undermine students' cognitive skills, critical thinking,
+    creativity, and motivation, while simultaneously intensifying teachers' responsibilities and pressures associated with human-AI collaboration
+    (Kim, 2024;Zhai et al., 2024). Other studies caution that substituting human interaction with AI chatbot communication may erode social support,
+    weaken sense of belonging, and ultimately undermine wellbeing, academic persistence, and overall success (Crawford et al., 2024;Klimova and
+    Pikhart, 2025). In contrast, an emerging body of research identifies clear psychological advantages: interactions with chatbots have been
+    associated with reduced anxiety, increased confidence, and strengthened motivation in language learning (Wei et al., 2025;Zhang, 2026).These
+    contrasting findings underscore a crucial point: the impact of AI chatbots in language education cannot be fully understood through a purely
+    technological lens. Despite growing evidence on the psychological effects of AI chatbots, existing findings remain fragmented, underscoring the
+    need for a more critical, psychology-driven reconsideration of their role in language education. To move beyond the prevailing hype and
+    surface-level enthusiasm, it is essential to analytically deconstruct the role of AI chatbots in language education through the lens of
+    psychology. To be more specific, to study AI chatbots through a psychological lens in digital environments, this study examines them from three
+    interrelated perspectives: cognitive, affective, and social lens (Mayer, 2024;Schneider et al., 2022). Unlike existing studies that primarily
+    evaluate the effectiveness or feasibility of AI chatbots, this opinion argues for a psychological reorientation of how chatbots are conceptualised
+    in language education. Specifically, it reframes AI chatbots as interactional presences that shape cognitive processing, emotional regulation, and
+    social engagement in interconnected ways.From a cognitive psychological perspective, AI chatbots appear to support learners' attentional focus and
+    knowledge processing. Studies have shown that chatbot-assisted interactions can increase learners' engagement, deepen topic exploration, and
+    scaffold comprehension in academic tasks such as research proposal writing (Smirnova, 2025). Similarly, voice-based chatbots have been found to
+    sustain learners' attention and facilitate meaningful practice, partly due to their immediate, adaptive responses (Koç and Savaş, 2025).However,
+    these reported benefits often centre on surface-level behavioural indicators-such as time-on-task or perceived engagement-rather than examining
+    whether chatbots genuinely improve cognitive processing quality.Psychological risks are also evident. Chatbot-generated inaccuracies may create
+    confusion, increase extraneous cognitive load, and weaken autonomous problem-solving (Huete-García and Tarp, 2024). The tendency of large language
+    models to generate factually unreliable yet coherent responses further exacerbates this cognitive burden (Lappin, 2024). Moreover, learners may
+    become behaviourally dependent on chatbots for tasks requiring generative thinking, potentially reducing opportunities for deeper cognitive
+    engagement (Feng et al., 2025).Taken together, while chatbots may enhance cognitive engagement, their impact on cognitive quality remains unclear,
+    warranting more critical scrutiny.From an affective psychological lens, studies have shown that chatbots reduce learner anxiety and foster
+    lowstress learning environments. Studies report reductions in foreign language anxiety, increases in confidence, and greater willingness to
+    communicate when learners interact with AI chatbots rather than human partners (Kohnke et al., 2023;Zhang, 2026;Kim and Su, 2024). Furthermore, AI
+    chatbots validate learners' non-native language output-accurately interpreting diverse accents and learner varieties-helping reduce reliance on
+    native-speaker norms and boosting perceived competence (Lee et al., 2025). Yet, affective benefits still require careful interpretation. As many
+    studies rely heavily on self-reported perceptions, their findings risk conflating positive emotional reactions with genuine learning improvement.
+    Reduced anxiety may also lead learners to prefer chatbot-based communication and avoid real social interaction, limiting their ability to cope
+    with authentic communicative pressure. Moreover, the short-term motivational boosts reported in the literature offer limited insight into whether
+    chatbots sustain long-term engagement or language development. Thus, while chatbots often enhance emotional comfort, the psychological
+    implications for long-term application remain insufficiently explored.From a social psychological perspective, AI chatbots can shape learners'
+    sense of connection, belonging, and relational trust. Politeness-enabled chatbots, for instance, have been shown to increase users' trust, reduce
+    defensiveness, and foster a sense of social connectedness, contributing to more positive interactional experiences (Brummernhenrich et al., 2025).
+    These socially meaningful interactions also reveal a dynamic socio-technical relationship, suggesting that attention to visual and emotional
+    design elements can enhance engagement and overall user experience (Haqqu et al., 2025). These social psychological effects align with HMC, as
+    learners engage with chatbots like social actors, attributing relational meaning and intentionality to AI responses, which shapes their trust and
+    sense of belonging. Learners' perceptions of chatbots have also been linked to improvements in self-perceived competence and writing engagement
+    (Mills et al., 2025). In these cases, chatbots serve as supportive, non-judgmental social partners.However, social psychological research also
+    warns of potential relational costs. When chatbots replace humanhuman interaction, they may inadvertently reduce social support, weaken learners'
+    sense of belonging, and ultimately undermine wellbeing and academic persistence (Crawford et al., 2024;Klimova & Pikhart, 2025).Moreover, reliance
+    on AI-mediated interaction risks diminishing opportunities for genuine social negotiationan essential component of language learning. In broader
+    terms, ethical concerns related to privacy, data misuse, and algorithmic bias can further erode trust in AI systems (Zhang and Yu, 2025;Labadze et
+    al., 2023;Yigci et al., 2025). These studies suggest that while AI chatbots can foster social connectedness in controlled contexts, their
+    long-term social implications in educational settings remain ambiguous and require careful consideration.In this way, the cognitive, affective,
+    and social dimensions discussed above should not be understood as independent effects of AI chatbot use. Specifically, reduced anxiety may lower
+    cognitive load and encourage engagement, while perceived social presence can enhance motivation and sustained participation. At the same time,
+    cognitive reliance on chatbots may gradually reshape learners' emotional comfort and preferences for social interaction. Overall, these dynamics
+    suggest that the psychological impact of AI chatbots in language education emerges from the interplay of cognitive, affective, and social
+    processes rather than from isolated mechanisms.Moving forward, current studies on AI chatbots in language education have generated valuable
+    insights into cognitive engagement, emotional responses, and social experiences (Ebadi and Amini, 2024;Zou et al., 2025).To advance understanding
+    in this area, several directions warrant further exploration.First of all, although this study provides insights into users' cognitive, emotional,
+    and social experiences, there remains a need to better understand their interrelations in chatbot-mediated teaching. In the future, studies can
+    investigate how different types of chatbot interactions influence cognitive load (Sweller, 1988), emotional engagement (Fredricks et al., 2004),
+    and social connectedness (Gunawardena, 1995). Future studies could employ experimental, longitudinal, or mixed-method designs to examine how
+    different types of chatbot interactions influence learners' cognitive load, emotional engagement, motivation, social connectedness, and trust
+    across diverse educational contexts, such as university language courses, online learning, and blended learning environments. Such studies would
+    provide a deeper understanding of the psychological pathways through which chatbots affect language education. Second, pedagogical practice
+    requires designs that intentionally scaffold these three domains. Rather than allowing chatbots to replace higher-order thinking, instruction
+    should encourage students and teachers to interrogate, compare, and refine chatbot outputs. Affective scaffolding should balance anxiety-reducing
+    practice with authentic communicative demands (Krashen, 1982) to prevent overreliance on low-pressure environments.Socially, chatbots should be
+    positioned as supplementary partners within a community of inquiry (Garrison et al., 1999) rather than substitutes for peers or teachers. In
+    particular, chatbots can be integrated as preparatory or reflective tools to support idea generation, low-stakes rehearsal, and the interpretation
+    of feedback. Core processes of meaning-making, negotiation, and evaluative judgment should remain anchored in instructional interaction. Future
+    research can also evaluate how different instructional designs, such as preparatory or reflective chatbot activities, affect students' engagement,
+    anxiety reduction, and reflective use, using classroom observation, interaction analysis, and learning outcome assessment. Thus, instructional
+    integration foregrounds human agency and interaction, with AI chatbots functioning as structured support alongside essential pedagogical
+    relationships.Finally, institutional policies should account for the psychological implications of AI-assisted education. Clear usage guidelines,
+    professional training, and support systems can help teachers manage the cognitive, emotional and psychological demands of supervising AI-mediated
+    activities. Ethical safeguards on data privacy, informed consent, and bias detection are also necessary to uphold users' well-being and trust.
+    Teachers play a critical role in guiding students' engagement with AI chatbots by monitoring cognitive reliance, facilitating emotional
+    regulation, and fostering reflective use. Educational institutions are responsible for establishing governance structures, providing professional
+    training, and setting ethical guidelines that determine how and why chatbots are implemented in formal learning contexts.This research argues that
+    much of the current enthusiasm surrounding AI chatbots in language education risks oversimplifying their pedagogical value. By moving beyond the
+    prevailing hype and reframing chatbots through cognitive, affective, and social psychological lenses, this article shows that their impact is far
+    more nuanced than commonly claimed. While evidence demonstrates clear benefits-such as enhanced attentional focus, reduced anxiety, and increased
+    social connectedness-equally important psychological risks emerge, including cognitive overload, avoidance of authentic communication, and
+    weakened human interaction. The contribution of this study lies in synthesising these fragmented findings into a coherent psychological
+    interpretation, offering a more balanced and comprehensive understanding of how chatbots actually shape language education. This perspective
+    underscores the need for future research to examine underlying psychological processes rather than surface-level perceptions, encourages
+    pedagogical designs that intentionally scaffold cognitive, emotional, and social development, and calls for institutional policies that ensure
+    ethical, transparent, and human-centred AI use.Crucially, the ethical use of AI chatbots in language education requires institutional governance
+    regarding data ownership, transparency in system decision-making, and mechanisms to safeguard user trust. Without such structures, potential
+    psychological benefits may be undermined by concerns over privacy, accountability, and power asymmetries. Taken together, a psychological
+    reorientation enables the field to evaluate AI chatbots not as inherently beneficial or harmful tools, but as complex cognitive-affective-social
+    technology whose value depends on how they are designed, integrated, and governed.The author declares that no financial support was received for
+    the research, authorship, and/or publication of this article.
+
+### R00221 | 2026 | article/None | Lang: en
+TI: The Impact of AI Chatbot Personalization on Consumer Purchase Intent
+AB: Artificial intelligence (AI) chatbots now function as decision-support infrastructure in U.S. digital commerce, directly shaping how consumers
+    evaluate risk, trust firms, and convert intent into transactions. As personalization capabilities deepen, the cause–effect–benefit pathway linking
+    AI design to consumer welfare and market efficiency has become increasingly consequential (Davenport et al., 2020; Huang & Rust, 2021). This study
+    develops a theory-forward framework that explains how AI chatbot personalization (cause) influences consumer purchase intent (effect) through
+    three interrelated psychological mechanisms: perceived relevance, trust calibration, and engagement intensity. Synthesizing evidence across
+    marketing, information systems, and human–computer interaction research, the paper demonstrates that personalization operates as a
+    governance-sensitive mechanism rather than a purely technical feature (Aguirre et al., 2015; Komiak & Benbasat, 2006). The resulting framework
+    yields testable hypotheses and actionable design principles that support scalable, trustworthy AI deployment—producing measurable benefits for
+    consumers, firms, and the broader digital economy. By clarifying this causal chain, the study contributes to the national interest by
+    strengthening theoretical foundations for responsible AI commercialization, enhancing consumer confidence, and supporting innovation-driven
+    economic growth.
+
+### R00224 | 2026 | article/None | Lang: en
+TI: The digital therapist? LLMs and the future of clinical dialogue
+AB: Large language models (LLMs) are increasingly used in healthcare for triage, documentation, patient education, decision support, and mental health
+    communication. Although these systems can generate fluent, empathic, and clinically plausible language, their safe use depends on clear task
+    boundaries, technical design, and human oversight. This article offers a conceptual narrative review of LLM-mediated clinical dialogue, focusing
+    on three questions: what forms of clinical understanding LLMs can and cannot support; how different types of LLM systems vary in reliability and
+    risk; and how they may be responsibly integrated into real-world clinical workflows. We distinguish general-purpose LLMs, domain-specific medical
+    LLMs, retrieval-augmented systems, multimodal models, and agent-based systems, and align each with appropriate clinical use cases. We argue that
+    LLMs should be treated as assistive tools for documentation, information retrieval, structured reflection, and low-risk patient communication,
+    rather than as autonomous clinicians or therapists. Practical safeguards—including retrieval grounding, uncertainty disclosure, clinician review,
+    audit trails, escalation pathways, and post-deployment monitoring—are necessary to reduce hallucination, bias, and overreliance. The article
+    concludes that LLMs may support healing dialogue only when they expand, rather than replace, the clinician’s interpretive responsibility,
+    relational presence, and moral accountability.
+
+### R00226 | 2026 | preprint/None | Lang: en
+TI: Charting dataset: personality and LLM trust scoping review.
+AB: Supplementary data for the scoping review "Personality and Trust in LLM Agents: Dependency Evidence, an Empty Behavioural Over-Reliance Cell, and
+    the Personality-Trust Calibration Framework" by Carson Conception Rodrigues and Simran Marian Rebello (Celabe). charting_dataset_supplementary.csv
+    has one row per charted record: the 60 included empirical studies (22 on contemporary generative LLMs) and 2 construct-informing records, with
+    sample, AI-system type, individual-difference measure, outcome measure, charted finding, effect size as reported, and charting confidence.
+    supplementary_material_S1_dataset_S2_reference_log.pdf is the same dataset typeset for reading (S1) plus the reference verification log (S2).
+    Version 2 of the CSV (10 October 2026) cites the published versions of four records first charted from preprints. Preprint of the review:
+    https://doi.org/10.31234/osf.io/2mdu8_v1
+
+### R00227 | 2026 | article/None | Lang: en
+TI: Training-free counterfactual hallucination mitigation method for large vision-language models
+AB: Abstract Despite the remarkable progress enabled by large vision-language models (LVLMs) in visual question answering, these models remain
+    vulnerable to object hallucination—a critical issue where generated answers reflect plausible but nonexistent visual elements. This phenomenon
+    stems from LVLMs’ overreliance on linguistic priors and training-set biases, undermining their trustworthiness in real-world applications. To
+    tackle this challenge, we propose CounterfactualLVLM, a novel, training-free and plug-and-play framework that mitigates object hallucinations via
+    small-model-assisted counterfactual reasoning. The core idea is to explicitly contrast how LVLMs behave when visually salient objects are
+    deliberately removed. To achieve this, we design an unbiased small-scale VQA model that locates the most semantically influential objects in an
+    image for a given question. These key objects are masked to generate counterfactual samples, which simulate targeted visual uncertainty. We then
+    introduce a visual contrastive decoding mechanism that subtracts the hallucination-prone output distribution (from counterfactual input) from the
+    original one, thereby suppressing hallucinated predictions without any fine-tuning or parameter modification. Extensive experiments across four
+    challenging benchmarks (POPE,VQA-CP, OK-VQA) and multiple LVLMs (LLaVA, Qwen-VL, InstructBLIP) show that CounterfactualLVLM significantly reduces
+    object hallucinations and improves VQA accuracy—achieving consistent gains under resource-constrained settings. Our work highlights the power of
+    counterfactual guidance as a simple yet effective paradigm for enhancing factual grounding in LVLM-based multi-modal reasoning.
+
+### R00228 | 2026 | article/None | Lang: en
+TI: Chatbot Adoption in Indonesian Banking: Exploring the Roles of Trust and Corporate Reputation
+AB: The advancement of artificial intelligence (AI) has significantly transformed the financial services sector, particularly in banking. One of the
+    most widely adopted applications is the chatbot, which enables banks to deliver faster, more efficient, and responsive customer service through
+    automated interactions. Despite its growing implementation, public acceptance of chatbot technology remains varied. Users tend to evaluate these
+    systems not only based on how useful or easy they are to use, but also on how much they trust the system and the organization behind it. This
+    study explores the factors that drive users’ behavioral intention to use banking chatbots by modifying the Technology Acceptance Model (TAM) to
+    incorporate trust in the chatbot system and corporate reputation. The model incorporates perceived ease of use, perceived usefulness, trust in the
+    chatbot, and corporate reputation. Data were gathered through an online survey involving 111 respondents who had prior experience using banking
+    chatbot services. Using Partial Least Squares Structural Equation Modeling (PLS-SEM), the results reveal that perceived ease of use significantly
+    predicts perceived usefulness, while corporate reputation strongly influences trust. Furthermore, both perceived usefulness and trust are found to
+    be significant predictors of behavioral intention to use banking chatbots. Trust also exerts a notable effect on perceived usefulness. These
+    findings suggest that fostering user trust and managing institutional reputation are critical in promoting the sustainable adoption of AI-driven
+    financial technologies. Banks are encouraged to focus not only on improving the technical features of chatbot systems but also on strengthening
+    their credibility and transparency to enhance user confidence and perceived utility
+
+### R00230 | 2026 | article/None | Lang: en
+TI: Navigating Customer Satisfaction: Unravelling The Dynamics Of Chatbot Performance, Trust in Technology
+AB: Abstract This study explores the dynamics of customer satisfaction in chatbot interactions, with a focus on how chatbot performance influences
+    users’ trust in technology. Conducted in Bangalore City, Karnataka, the research targets customers of both private and public sector banks. A
+    multi-stage random sampling method was used, beginning with all banks in the city and narrowing to four major institutions: HDFC Bank, ICICI Bank,
+    State Bank of India, and Bank of Baroda. Data were collected from 350 customers across selected branches of these banks. The study applies
+    advanced statistical techniques, including Structural Equation Modelling (SEM) and moderation analysis, to examine the relationships among key
+    variables. The findings highlight the critical role of chatbot performance in shaping customer satisfaction, with technological trust acting as a
+    mediator and technical literacy serving as a moderator in influencing overall customer experience in digital banking. Keywords: Customer
+    satisfaction, Chatbot interactions, Trust in technology, Chatbot performance 1.Introduction Since the "customer service revolution" about 20 years
+    ago, business research has prioritised customer happiness and customer-focused organisations. Business consultants and enterprises have developed
+    techniques to identify customer-pleasing organisations, assess happiness, and construct quality improvement processes based on feedback. While
+    corporate research has focused on customer service and happiness, it is not exclusive to the private sector. Publicly sponsored organisations
+    embracing commercial techniques provide valuable insights and research. Federal, state, and municipal governments are increasingly measuring their
+    performance and impact on individuals they serve. Initiatives to "reinvent" government, such as school reform, privatisation, and managed care,
+    prioritise customer service and satisfaction. The European Union is reforming social services with a focus on social inclusion and "user
+    involvement" to enhance quality[1]. Artificial intelligence is not a new notion in India. For decades, research groups and institutions have been
+    experimenting with various AI technologies, notably in the subject of social change. AI is becoming more mainstream, with large corporations and
+    start-ups investigating numerous opportunities as supporting technology becomes more available and inexpensive.technology significantly impacts
+    industries and everyday tasks. It has several applications and is used differently across the globe. Artificial intelligence has recently gained
+    popularity among the public. Artificial intelligence mimics the cognitive abilities of humans. To grow more accurate and human-like, AI chatbots
+    are taking the place of human responders. The use of chatbots, sometimes known as virtual assistants, is growing in popularity as a result of
+    developments in natural language processing, artificial intelligence, machine learning, and neural networks. Interactive questions let chatbots
+    communicate with people more effectively. To expand the chatbot industry, several cloud-based chatbot services have surfaced, such as Watson from
+    IBM, Cleverbot, and ELIZA chatbot. Conversation between people and robots has greatly improved in recent years, with more responsive
+    conversational agents. This article discusses the generalisation and description of AI chatbots[2]. Chatbots are adaptable and show a lot of
+    potential. Human care providers often struggle to manage resources and get exhausted. Chatbots are available 24/7 due to scalable technology,
+    ensuring quick access for consumers. Chatbots may dramatically decrease expenses and automate corporate procedures. Chatbots, such as Amazon Alexa
+    and Apple Siri, are becoming more popular for their practical applications. Watson, IBM's question-and-answer programme, is a great example.
+    Chatbots have a wide range of applications outside information technology. In 2020, chatbots accounted for over 85% of consumer interactions.
+    Here's an example: "Businesses can use chatbots for internal communication in addition to using them for external communication (with customers)"
+    . Large organisations often utilise chatbots for staff assistance, recruitment as well as training. Meet Franks is a digital assistant that links
+    talent and corporations discreetly. Live chat interfaces are becoming more popular for providing real time customer care, particularly in
+    e-commerce. Chatbots are often used to replace human chat service representatives. Although AI-based chatbots have been extensively adopted for
+    cost and time savings, they often fail to meet consumer expectations, potentially leading to decreased user engagement[3]. Chatbots are thought to
+    provide round-the-clock assistance, seven days a week, which improves customer interactions by cutting down on bank customer wait times. Because
+    they make common banking tasks simpler for consumers to do, chatbots are seen as beneficial. Additionally, using chatbots for various financial
+    procedures is easier and costs nothing. It's argued that chatbots pose less of a risk to privacy and data security. The chatbots are a trustworthy
+    source since their responses are up to date and precise[4]. Chatbot apps may serve as a useful tool for personal consultation and learning via
+    interactive tactics and user-friendly interfaces, apart from providing a range of successful interpersonal interactions. A chat bot's ability to
+    reach a large audience via automated, personalised messages and a messaging system is its main benefit. Furthermore, chatbots may be used in the
+    workplace due to the growing use of mobile technology, the lack of time and location constraints, and the development of interactive education
+    techniques[5]. This paper is organised as follows: the third portion presents our analysis's methodologies and data collecting, while the second
+    section evaluates pertinent literature. The findings are explained and our results are described in the fourth part. The article is concluded in
+    the last part. 2.Literature Review [6] This study investigates how cognitive and peripheral inputs affect experience characteristics, resulting in
+    chatbots, building on the principles of the Model of Elaboration Likelihood (ELM). The user wants to suggest. In the buy and post-purchase phases,
+    the study used a strong interpretive sequencing mixed-method research design and incorporated competence as well as warmth as mediating
+    variables.[7] This paper provides an in-depth analysis of the manner how artificially intelligent (AI) and NLP, or natural language processing,
+    are pushing the boundaries of convention, revolutionising modern marketing strategies, and providing insightful knowledge about consumer behaviour
+    and tactical decision-making. [8] This study aims to provide a novel contribution by offering a thorough, well-organized roadmap that describes
+    the fundamental ideas required for successful combining automation and process optimisation within the framework of state-of-the-art artificial
+    intelligence[9] This study explores the intricate interplay between social media and marketing tactics in influencing the global economic
+    landscape. Understanding the critical roles that social media and marketing play becomes imperative for companies, governments, and other
+    stakeholders in an age when globalisation & digitalization are driving revolutionary changes. scholars as well. [10] A new age of improved digital
+    offering dependability, optimized supply chain operations, and instantaneous access to priceless data and analytics has been brought about by the
+    incorporation of AI. In its endeavour to close the knowledge gap and enable the effective integration of AI into business planning, this article
+    aspires to perfection.[11] The report ends with recommendations for further research on personalised marketing, with an emphasis on cutting-edge
+    technologies including wearables, big data, blockchain, artificial intelligence, and the internet of things. investigate new approaches to
+    creating individualised experiences for both online and offline platforms. [12] The study puts the rise of smart tourism in perspective and
+    explains how technology and data are changing the dynamics of the sector. In summary, it considers potential uses while highlighting the need of a
+    well-balanced combination of data and technology to fulfil the potential of smart tourism.[13] This article offers a thorough analysis of
+    scientific research on AI's effects on digital marketing initiatives. By looking at several scholarly articles, this study aims to provide light
+    on how artificial intelligence (AI) tools are affecting strategies, processes, and outcomes in the area of digital marketing. [14] This study used
+    a serial mediation mechanism to examine the effect of human portrayal in chatbot on the intention to follow health advice, using psychological
+    separation and trust towards the chatbot counsellor. The results showed that participants in the simulated human condition expressed a stronger
+    willingness to heed chatbot-generated emotional wellness advice than did those in the mechanical representation condition. [15] Because of digital
+    technology and media, the situations in which companies interact with their customers are changing. The authors provide a number of plausible
+    extensions of the present study's findings as ideas for future academic research. 3.Research Gap The study gap stems from a lack of investigation
+    into how confidence in technology mediates the link between chatbot performance and customer pleasure, as well as a limited grasp of how technical
+    literacy moderates this relationship. Current research focuses mostly on direct impacts, ignoring these critical mediating and moderating
+    variables. Addressing these gaps is critical for gaining a more complete knowledge of customer-bot interactions
+
+### R00232 | 2025 | preprint/None | Lang: en
+TI: Truth Is All You Need: Enhancing Fake News Detection with Interpretable Language Models
+AB: The rapid spread of fake news on digital platforms poses a significant threat to informed public discourse and societal trust. While Large
+    Language Models (LLMs) like BERT have shown remarkable accuracy in automated fake news detection, their opaque nature hinders user trust and
+    understanding. This paper presents a framework that combines the high predictive performance of BERT with post-hoc interpretability techniques to
+    enhance both the effectiveness and transparency of fake news detection systems. Specifically, we fine-tune BERT for binary fake news
+    classification on the COVID-19 Fake News Dataset and employ Local Interpretable Model-agnostic Explanations (LIME) and BERT attention
+    visualization to elucidate the model's decision-making process. Our results demonstrate that the fine-tuned BERT model achieves excellent
+    performance, with an accuracy of 97.66% and an F1-score of 97.49% on the test set. Furthermore, LIME explanations highlight the contribution of
+    specific words to individual predictions, while attention visualizations reveal which token relationships the model deems important. This
+    integrated approach underscores that "truth" in machine prediction encompasses not only high accuracy but also explainability, thereby fostering
+    greater confidence in automated fake news detection systems.
+
+### R00233 | 2025 | article/None | Lang: en
+TI: Travelers’ Confidence in ChatGPT and their Willingness to Use it as a Source of Travel-Related Information
+AB: The study employs the stimulus–organism–response perspective to clarify how tourists develop intentions to use ChatGPT when accessing travel
+    services. The research highlights how perceptions of intelligence, credibility, warmth, and communication speed act as stimuli that build
+    tourists’ trust in ChatGPT and ultimately determine their intention to use it. A total of 409 valid survey responses were gathered from
+    participating tourists. Analyses were carried out in SPSS Amos 24.0 and SPSS 23.0 using structural equation modeling. The predictors perceived
+    intelligence, perceived credibility, perceived warmth, and communication speed significantly influenced tourists' trust in ChatGPT. Trust also
+    strongly affected users’ intentions to rely on ChatGPT for travel services. Practical Implications – The study’s results highlight various
+    practical takeaways. First, ensuring travelers’ trust in ChatGPT is essential for travel service companies. Second, travel providers can enhance
+    tourists’ behavioral intentions to use ChatGPT by emphasizing features that signal the system’s intelligence, credibility, warmth, and
+    communication speed. Finally, travel agencies should actively leverage these unique characteristics of ChatGPT—perceived intelligence, perceived
+    credibility, perceived warmth, and rapid communication to boost customer engagement and service quality. Research on AI use in tourism and
+    hospitality tends to prioritize technology acceptance, and far less attention has been directed toward understanding users’ trust and their
+    behavioral intentions. To bridge this theoretical shortfall, the study explores the effects of perceived intelligence, credibility, warmth, and
+    communication speed on tourists’ trust in ChatGPT. The findings align with the principles of the stimulus–organism–response theory. Keywords: AI,
+    ChatGPT, perceived intelligence, perceived credibility, perceived warmth, communication speed, trust, behavioral intention
+
+### R00234 | 2025 | article/None | Lang: en
+TI: Student experiences of ChatGPT-supported engagement, relational interaction, and confidence in higher education
+AB: In the rapidly evolving landscape of higher education, the integration of AI tools like ChatGPT into classroom practices has raised critical
+    pedagogical questions. This study examines how undergraduate students experience ChatGPT as a peer-like presence within a Professional English
+    course. Drawing on focus group interview with four students who interacted with ChatGPT during course activities, the research employs a reflexive
+    thematic analysis to investigate how learners construct meaning around this AI-supported experience. Findings indicate that students frequently
+    interpreted ChatGPT’s responses in relational terms, describing it as a supportive peer, group member, or teacher-like presence. Its immediate,
+    non-judgmental feedback was seen to reduce anxiety, encourage participation, and scaffold experimentation with professional English. At the same
+    time, role fluidity created moments of uncertainty and raised concerns about overreliance, diminished ownership, and “illusion of mastery.”
+    Engagement was fostered through performative and collaborative tasks such as role-play and debates, which positioned ChatGPT as a co-actor rather
+    than a mere tool. Confidence gains were strongest in structured tasks like vocabulary building and translation, while trust weakened in
+    interpretive or research-oriented domains, underscoring the importance of pedagogical framing. These findings suggest that generative AI can
+    provide pedagogical value beyond functionality, supporting relational meaning-making, scaffolding student confidence, and sustaining engagement
+    when embedded in guided, collaborative practices. The study highlights the need for critical design of AI-integrated learning environments that
+    balance innovation with reflective awareness of agency, trust, and ethical use.
+
+=== END OF BATCH q002 (30 records) ===

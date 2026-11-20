@@ -1,0 +1,306 @@
+{
+"label": "A:b012@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00482",
+"d": "exclude",
+"code": "E5",
+"why": "Regulatory policy steering framework, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00483",
+"d": "exclude",
+"code": "E3",
+"why": "Calibration of GNN link predictor; LLM only a supervision source"
+},
+{
+"id": "R00484",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual position paper with no empirical analysis"
+},
+{
+"id": "R00485",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM trading agents; cross-agent consistency and uncertainty, unclear if confidence measured"
+},
+{
+"id": "R00486",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests uncertainty-gated LLM in trading"
+},
+{
+"id": "R00487",
+"d": "exclude",
+"code": "E5",
+"why": "Revenue attribution confidence tiers, not LLM output confidence"
+},
+{
+"id": "R00488",
+"d": "exclude",
+"code": "E2",
+"why": "Patent disclosure"
+},
+{
+"id": "R00489",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence estimation and knowledge boundary perception"
+},
+{
+"id": "R00490",
+"d": "include",
+"code": "INC",
+"why": "Confidence-labeled responses, knowledge boundary modeling"
+},
+{
+"id": "R00491",
+"d": "include",
+"code": "INC",
+"why": "Confidence estimation and knowledge boundary tuning"
+},
+{
+"id": "R00492",
+"d": "include",
+"code": "INC",
+"why": "Abstention at knowledge boundary for RAG LLMs"
+},
+{
+"id": "R00493",
+"d": "unclear",
+"code": "UNC",
+"why": "Attack inserting new facts via preference tuning; knowledge acquisition plausible"
+},
+{
+"id": "R00495",
+"d": "exclude",
+"code": "E5",
+"why": "Architectural API specification, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00497",
+"d": "exclude",
+"code": "E5",
+"why": "Knowledge injection method evaluated on QA accuracy only"
+},
+{
+"id": "R00498",
+"d": "include",
+"code": "INC",
+"why": "Discovers LLM knowledge boundaries"
+},
+{
+"id": "R00499",
+"d": "include",
+"code": "INC",
+"why": "Probes and quantifies LLM parametric knowledge"
+},
+{
+"id": "R00500",
+"d": "include",
+"code": "INC",
+"why": "Confidence learning for black-box LLM knowledge boundaries"
+},
+{
+"id": "R00501",
+"d": "include",
+"code": "INC",
+"why": "Knowledge-boundary-aware abstention for hallucination"
+},
+{
+"id": "R00502",
+"d": "exclude",
+"code": "E3",
+"why": "Temporal knowledge graph embedding module, not LLM study"
+},
+{
+"id": "R00503",
+"d": "include",
+"code": "INC",
+"why": "Knowledge boundary awareness, confidence signal for abstention"
+},
+{
+"id": "R00504",
+"d": "exclude",
+"code": "E5",
+"why": "Privacy-utility query framework, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00505",
+"d": "include",
+"code": "INC",
+"why": "Benchmark of knowledge boundary, abstention and calibration"
+},
+{
+"id": "R00506",
+"d": "exclude",
+"code": "E3",
+"why": "Vision-language prompt learning, not LLMs"
+},
+{
+"id": "R00507",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination mitigation using expert confidence and consistency; knowledge analysis unclear"
+},
+{
+"id": "R00508",
+"d": "include",
+"code": "INC",
+"why": "Outdated knowledge encoding in LLM representations"
+},
+{
+"id": "R00509",
+"d": "unclear",
+"code": "UNC",
+"why": "Industrial knowledge boundaries benchmark; unclear if knowledge probing or accuracy"
+},
+{
+"id": "R00510",
+"d": "include",
+"code": "INC",
+"why": "Fact learning in fine-tuning and forgetting analysis"
+},
+{
+"id": "R00511",
+"d": "exclude",
+"code": "E5",
+"why": "Search relevance ranking model, no LLM uncertainty analysis"
+},
+{
+"id": "R00512",
+"d": "unclear",
+"code": "UNC",
+"why": "Probes intrinsic knowledge boundary in agentic RL; focus on tool efficiency"
+},
+{
+"id": "R00513",
+"d": "unclear",
+"code": "UNC",
+"why": "Uses knowledge boundary factual recall for API auditing"
+},
+{
+"id": "R00514",
+"d": "unclear",
+"code": "UNC",
+"why": "Uncertainty estimation in LLM dialogue, about user needs"
+},
+{
+"id": "R00515",
+"d": "unclear",
+"code": "UNC",
+"why": "API knowledge boundary probing for code LLMs"
+},
+{
+"id": "R00516",
+"d": "exclude",
+"code": "E5",
+"why": "Knowledge injection architecture evaluated on answer quality"
+},
+{
+"id": "R00517",
+"d": "exclude",
+"code": "E5",
+"except": "",
+"why": "RAG retriever attack, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00518",
+"d": "include",
+"code": "INC",
+"why": "Knowledge boundary calibration and abstention in agentic search"
+},
+{
+"id": "R00519",
+"d": "include",
+"code": "INC",
+"why": "Probes activations for knowledge boundary encoding"
+},
+{
+"id": "R00520",
+"d": "exclude",
+"code": "E5",
+"why": "Memory-augmented architecture, accuracy and updateability only"
+},
+{
+"id": "R00521",
+"d": "unclear",
+"code": "UNC",
+"why": "Knowledge conflict with P(True) confidence routing"
+},
+{
+"id": "R00522",
+"d": "exclude",
+"code": "E3",
+"why": "Firm patenting economics, LLMs not object of study"
+},
+{
+"id": "R00523",
+"d": "exclude",
+"code": "E5",
+"why": "HR knowledge graph construction pipeline"
+},
+{
+"id": "R00524",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests uncertainty-aware knowledge injection in LLMs"
+},
+{
+"id": "R00525",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework, no empirical results"
+},
+{
+"id": "R00526",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; temporal KG reranking, no concept in title"
+},
+{
+"id": "R00527",
+"d": "include",
+"code": "INC",
+"why": "Benchmark of LLM cultural factual knowledge"
+},
+{
+"id": "R00528",
+"d": "exclude",
+"code": "E2",
+"why": "Research roadmap framework without empirical analysis"
+},
+{
+"id": "R00529",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; entity alignment in knowledge graphs"
+},
+{
+"id": "R00530",
+"d": "include",
+"code": "INC",
+"why": "Outdated knowledge asymmetry across regions in LLMs"
+},
+{
+"id": "R00531",
+"d": "exclude",
+"code": "E2",
+"why": "Review of RAG and uncertainty literature"
+},
+{
+"id": "R00532",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; KG reasoning calibration, no LLM concept evident"
+},
+{
+"id": "R00533",
+"d": "include",
+"code": "INC",
+"why": "Uncertainty-based refusal tuning at knowledge boundaries"
+}
+]
+}
