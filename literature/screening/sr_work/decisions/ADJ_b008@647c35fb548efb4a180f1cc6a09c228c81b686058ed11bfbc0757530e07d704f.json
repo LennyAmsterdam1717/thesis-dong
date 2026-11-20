@@ -1,0 +1,17 @@
+{
+"label": "ADJ:b008@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00290",
+"d": "exclude",
+"code": "E5",
+"why": "Student questionnaire on ChatGPT attitudes; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00304",
+"d": "exclude",
+"code": "E5",
+"why": "Public survey of ChatGPT trust/willingness; no LLM confidence or knowledge analysis"
+}
+]
+}

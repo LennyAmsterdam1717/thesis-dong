@@ -1,0 +1,17 @@
+{
+"label": "ADJ:b014@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00603",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests LLM output homogeneity (epistemic diversity), 2026 preprint"
+},
+{
+"id": "R00627",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM feedback loop reducing belief diversity; plausibly epistemic homogeneity, not clearly factual knowledge"
+}
+]
+}

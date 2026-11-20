@@ -1,0 +1,11 @@
+{
+"label": "ADJ:b009@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00340",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM financial advice varies by country/language; may reflect whose regional knowledge LLMs represent (B)"
+}
+]
+}

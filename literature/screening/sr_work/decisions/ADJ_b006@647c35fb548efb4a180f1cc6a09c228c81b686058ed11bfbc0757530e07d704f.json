@@ -1,0 +1,11 @@
+{
+"label": "ADJ:b006@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00216",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM user study with trust calibration and reliability; unclear if LLM confidence is examined"
+}
+]
+}

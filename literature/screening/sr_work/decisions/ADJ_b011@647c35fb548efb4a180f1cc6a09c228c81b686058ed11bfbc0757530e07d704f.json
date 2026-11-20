@@ -1,0 +1,11 @@
+{
+"label": "ADJ:b011@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00464",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM uncertainty framework (semantic entropy, abstention); may be position paper, evaluation unclear from abstract"
+}
+]
+}

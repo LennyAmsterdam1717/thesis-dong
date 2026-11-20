@@ -1,0 +1,29 @@
+{
+"label": "ADJ:b012@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00514",
+"d": "exclude",
+"code": "E5",
+"why": "Uncertainty is about user needs in dialogue, not LLM output confidence or factual knowledge"
+},
+{
+"id": "R00516",
+"d": "unclear",
+"code": "UNC",
+"why": "Uncertainty-aware router detects when base model lacks knowledge; knowledge-boundary analysis unclear"
+},
+{
+"id": "R00520",
+"d": "unclear",
+"code": "UNC",
+"why": "Factual knowledge storage and updating with uncertainty-based routing; depth of analysis unclear"
+},
+{
+"id": "R00532",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; title suggests KG score calibration, not LLM confidence or knowledge"
+}
+]
+}

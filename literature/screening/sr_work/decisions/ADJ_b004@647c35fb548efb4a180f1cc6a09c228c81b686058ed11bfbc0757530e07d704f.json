@@ -1,0 +1,17 @@
+{
+"label": "ADJ:b004@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00131",
+"d": "unclear",
+"code": "UNC",
+"why": "GPT-4o mini peak-flow output uncertainty quantified via fuzzy methods; LLM-confidence framing unclear from abstract"
+},
+{
+"id": "R00133",
+"d": "exclude",
+"code": "E3",
+"why": "No abstract; title does not indicate LLMs, only a fusion classifier with selective prediction"
+}
+]
+}

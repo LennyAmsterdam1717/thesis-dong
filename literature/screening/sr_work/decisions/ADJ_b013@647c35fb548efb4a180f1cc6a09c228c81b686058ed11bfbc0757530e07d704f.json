@@ -1,0 +1,35 @@
+{
+"label": "ADJ:b013@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00534",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests LLM knowledge acquisition, but test-time/retrieval sense unclear"
+},
+{
+"id": "R00553",
+"d": "unclear",
+"code": "UNC",
+"why": "GPT-4o-mini cultural homogeneity of outputs; plausibly whose-knowledge/epistemic diversity (B), unclear if factual"
+},
+{
+"id": "R00578",
+"d": "unclear",
+"code": "UNC",
+"why": "Audit of pretraining filters and epistemic erasure; plausibly affects what knowledge LLMs represent"
+},
+{
+"id": "R00580",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM cultural narrative homogenisation across Indian traditions; plausibly whose cultural knowledge is represented (B)"
+},
+{
+"id": "R00581",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM tutors withhold epistemic confidence by persona; plausibly expressed-confidence angle (A)"
+}
+]
+}

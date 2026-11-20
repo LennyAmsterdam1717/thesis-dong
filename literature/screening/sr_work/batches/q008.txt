@@ -1,0 +1,57 @@
+BATCH q008 -- 4 records for QC recheck: R00659 .. R00667
+
+### R00659 | 2026 | conference-paper/None | Lang: en
+TI: Measuring AI-Induced Disempowerment: A Framework and Proposed Metrics
+AB: AI systems are embedded in economic production, public discourse, governance, and personal decision-making, yet there is little empirical
+    infrastructure for tracking whether this integration erodes humans' ability to meaningfully shape outcomes that affect their lives.We argue that
+    measuring AI-induced disempowerment is both urgent and tractable, and lay out a research agenda for doing so.We first operationalize
+    disempowerment through Sen's model of agency and a three-layer model of exposure, erosion, and lock-in, applied across economic, political, and
+    cultural domains at individual, institutional, and civilizational scales.We survey existing measurement efforts and show that current work
+    clusters almost entirely at exposure, leaving erosion and lock-in largely unaddressed.We then propose six concrete metrics (centaur evaluations,
+    disempowerment perception surveys, AI content saturation and cultural convergence monitoring, monitoring capital flow to and from human labor,
+    human task frontier tracking, and institutional ethnography) and identify which actors are best positioned to implement each.We close by
+    discussing limitations and open challenges, including construct validity across levels of analysis, causal attribution, the distinction between
+    disempowerment and adaptation, and the political economy of measurement.
+
+### R00660 | 2026 | preprint/None | Lang: en
+TI: "Code Is Cheap. Show Me the Talk.": Lessons from Teaching and Managing AI Coding Tool Usage in a Visualization Course
+AB: Generative Artificial Intelligence (GenAI) coding tools are transforming visualization education. They can assist with implementation and design,
+    but they can also let students bypass intended learning trajectories. In this paper, we share our retrospective experience managing and teaching
+    AI use in an upper-level visualization course. We implemented prompt injections, asked oral checkout questions, and taught two AI coding labs.
+    Prior to our coding labs, at least half of the students had already used AI tools in their assignments. In both AI coding labs, refinement
+    accounted for about half of students' prompting logs, and explanation was almost absent. In the lab where AI coding was optional, 44 of 78 (56.4%)
+    submissions preferred the scaffolded instructions over designing their own prompts. Students' final projects were more polished than in our
+    previous offering, but also more visually homogeneous. Our reflections point to the need for clearer AI use boundaries and instruction on
+    prompting, and for teaching students to question generic AI designs and adapt them to their data and story.
+
+### R00665 | 2026 | preprint/None | Lang: en
+TI: Spicing up Genetic Netlist Generation with LLMs
+AB: Analog circuit topology synthesis remains challenging because useful designs occupy a tiny fraction of a combinatorial search space, and small
+    structural changes can induce highly nonlinear changes in behavior. Evolutionary algorithms are attractive because they can optimize over discrete
+    circuit topologies using only black-box evaluations, but they often require many SPICE simulations and may converge prematurely. We introduce
+    LLM-SPICEMixer, a hybrid synthesis framework that augments genetic netlist generation with IGEL (Inspiration-Guided Evolution with LLMs), an
+    LLM-based proposal operator. During search, IGEL prompts an LLM with high-performing circuits from the elite set and instructs it to generate a
+    new SPICE netlist, which is then evaluated by SPICE and selected using the same reward mechanism as conventional genetic operators. Thus, the LLM
+    contributes structured topology proposals while simulation remains the source of truth. We evaluate LLM-SPICEMixer on a challenging benchmark
+    task: synthesizing transistor-level circuits that implement a discriminant function for Iris classification. Compared with the genetic framework
+    without LLM guidance, LLM-SPICEMixer improves the median final training reward by 8.4% and the median validation-selected test reward by 8.8%. The
+    best validation-selected circuit achieves 93.3% test accuracy at the nominal tt corner and 85.9% average test accuracy across 17 process, voltage,
+    and temperature corners.
+
+### R00667 | 2026 | preprint/None | Lang: en
+TI: Explicit Trajectory Diversity for RL-Based Post-Training of LLM Agents
+AB: LLM agents often admit multiple high-quality solutions to the same task, differing in reasoning structure, tool-use pattern, or interaction
+    trajectory. Yet existing notions of diversity in LLM post-training are mostly implicit, arising from general stochasticity and regularization
+    mechanisms rather than explicitly targeting task-relevant behavioral variation. While such implicit diversity can be useful, it does not directly
+    specify which forms of behavioral variation should be encouraged for a given task. In this work, we study explicit trajectory diversity in
+    RL-based post-training for LLMs. Our key idea is to define diversity through user-specified, task-specific trajectory descriptors, which map each
+    sampled trajectory to an interpretable behavioral representation, and then measure diversity as a set-level functional over the resulting
+    descriptor matrix. Building on this formulation, we introduce Trajectory-guided Joint Policy Optimization(TJPO), a single-policy framework that
+    optimizes explicit diversity over sampled trajectory groups, avoiding the need for population-based policy training, and instantiate it within
+    group-based policy optimization through trajectory-level learning signals. This design makes the diversity objective both interpretable and
+    controllable. Experiments on Sokoban and ALFWorld show that TJPO improves task-specific trajectory diversity while maintaining competitive task
+    performance. Descriptor and trajectory analyses show that the learned variation follows the specified behavioral dimensions and includes distinct
+    successful strategies. Extra experiment results suggest that explicitly shaping trajectory diversity can help LLM agents satisfy user requirements
+    and remain effective when task conditions change.
+
+=== END OF BATCH q008 (4 records) ===

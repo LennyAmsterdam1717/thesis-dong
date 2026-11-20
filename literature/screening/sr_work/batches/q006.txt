@@ -1,0 +1,644 @@
+BATCH q006 -- 50 records for QC recheck: R00367 .. R00488
+
+### R00367 | 2026 | article/None | Lang: en
+TI: Towards Autonomous Analysis in Finance: A Modular and Extensible Architecture for LLM-Based AI Agents
+AB: The complexity and dynamics of financial markets make it difficult for investors and researchers to make decisions. In this regard, this research
+    proposes an AI-based Financial Data Analysis and Reporting Assistant that incorporates technical analysis, fundamental analysis, and news-based
+    sentiment analysis for stock and exchange-traded fund (ETF) analysis. Built with real-time information from Google Gemini 2.0 Flash, it uses a
+    three-node structure based on LangGraph (Chatbot Node, Tools Node, and Human Node) and Yahoo Finance API to create user-directed reports with a
+    platform that supports conversation mode. Core components of this system include caching of data, technical analysis elements (RSI, MACD,
+    Bollinger Bands), key financial ratios, news analysis with BeautifulSoup for news-associated information, and data representation with Plotly
+    graphs. The performance of this system for AAPL and TUPRS.IS stocks show its ability to correctly operate in global and local financial markets
+    with proper upholding of ethical principles by not giving investment recommendations. The findings highlight the system's ability to process
+    multilingual data, mitigate hallucinations through context awareness, and provide holistic financial decision support. Limitations include
+    dependence on third-party APIs and potential data delays. The work contributes to the field of financial AI by filling gaps in integrated and
+    conversational systems and provides a modular framework for future predictive analytics and multi-asset portfolio development.
+
+### R00384 | 2025 | preprint | OpenAlex: article/None | Lang: en
+TI: Hyper-RAG: Combating LLM Hallucinations using Hypergraph-Driven Retrieval-Augmented Generation
+AB: Large language models (LLMs) have transformed various sectors, including education, finance, and medicine, by enhancing content generation and
+    decision-making processes. However, their integration into the medical field is cautious due to hallucinations, instances where generated content
+    deviates from factual accuracy, potentially leading to adverse outcomes. To address this, we introduce Hyper-RAG, a hypergraph-driven
+    Retrieval-Augmented Generation method that comprehensively captures both pairwise and beyond-pairwise correlations in domain-specific knowledge,
+    thereby mitigating hallucinations. Experiments on the NeurologyCrop dataset with six prominent LLMs demonstrated that Hyper-RAG improves accuracy
+    by an average of 12.3% over direct LLM use and outperforms Graph RAG and Light RAG by 6.3% and 6.0%, respectively. Additionally, Hyper-RAG
+    maintained stable performance with increasing query complexity, unlike existing methods which declined. Further validation across nine diverse
+    datasets showed a 35.5% performance improvement over Light RAG using a selection-based assessment. The lightweight variant, Hyper-RAG-Lite,
+    achieved twice the retrieval speed and a 3.3% performance boost compared with Light RAG. These results confirm Hyper-RAG's effectiveness in
+    enhancing LLM reliability and reducing hallucinations, making it a robust solution for high-stakes applications like medical diagnostics.
+
+### R00414 | 2026 | preprint/None | Lang: en
+TI: Factuality and Hallucinations in Large Language Models: A Comprehensive Survey
+AB: Large Language Models (LLMs) started a new era for artificial intelligence, with skills in language understanding, writing, and thinking. LLMs
+    hallucinate, causing risks in fields they are used, like healthcare to finance and education [Huang et al., 2023]. Hallucinations are believable
+    but untrue text and represent a big block to the trust of AI systems. This study provides a complete and detailed look at the hallucination
+    problem. We offer a strict system that tells apart fact conflicts, lies, and truth errors, moving past simple meanings to show the complex nature
+    of writing failures. We combine ideas from recent papers to examine the cause of hallucinations across the model life, finding main causes in data
+    selection, training goals, and usage methods [Alansari and Luqman, 2025]. We test the best finding methods, comparing black-box guessing with
+    whitebox internal checking, and review fixing methods including Retrieval-Augmented Generation (RAG), self-reflection, and alignment tuning. By
+    comparing the use of auto checkers like SAFE against human notes and studying the moral and meaning effects of the "hallucination" idea, this
+    report aims to serve as a key guide for building trustworthy, fact matched artificial intelligence [Wang et al., 2023].
+
+### R00600 | 2026 | article/None | Lang: en
+TI: Attention-Enhanced Large Language Model-Guided Semantic Fusion for Representation Learning in Historical Cultural Knowledge Graphs
+AB: Historical-cultural collections contain heterogeneous descriptions that are difficult to compare as isolated records. This protocol organizes
+    these descriptions into evidence-supported knowledge graphs and combines structural and textual representations for relation-learning tasks. The
+    workflow comprises corpus selection and provenance recording, domain ontology design, text normalization, candidate entity detection,
+    schema-constrained large language model (LLM) extraction, evidence checking, entity alignment, and graph export. Generated descriptions and local
+    subgraph summaries are constrained by source evidence and encoded with the BGE-m3 text embedding model. A relation-aware graph attention encoder
+    provides structural representations, which are projected into a shared space and combined with semantic representations through a
+    relation-conditioned gate. Link prediction and relation classification provide the principal quantitative evaluations. The Chinese
+    historical-cultural collection illustrates the protocol with 6,744 normalized entities and 46,284 retained triples from 10,998 text entries. The
+    fusion model achieves a mean reciprocal rank of 0.624, Hits@10 of 0.828, and a relation-classification macro-F1 of 0.865. Baseline and ablation
+    comparisons indicate complementary contributions from structural and semantic information. Application to another collection involves
+    language-appropriate preprocessing, a domain-specific ontology, documented alignment decisions, and evaluation that controls shared-source
+    information across data partitions.
+
+### R00235 | 2026 | article/None | Lang: en
+TI: When trust collides: Exploring human-LLM cooperation intention through the prisoner’s dilemma
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00251 | 2026 | article/None | Lang: en
+TI: Semantics over statistics: Towards self-explaining log-based anomaly detection with coherence-guided LLM reasoning
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00254 | 2025 | article/None | Lang: en
+TI: Exploring the efficacy of ChatGPT-4 feedback in second language Spanish writing
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00256 | 2025 | preprint/None | Lang: en
+TI: The acceptance and usage of ChatGPT: An Information Adoption Model perspective
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00290 | 2025 | article/None | Lang: en
+TI: Between Trust and Skepticism: Comparative Perceptions of ChatGPT in Academic Writing among EFL Learners in Indonesia and the Philippines
+AB: This study investigates the comparative perceptions of Indonesian and Philippine EFL students regarding the use of ChatGPT in academic writing,
+    focusing on the interplay between trust and skepticism. Employing a quantitative comparative research design with complementary qualitative
+    inputs, data were collected from 232 university students using a structured questionnaire consisting of 20 closed-ended items analyzed
+    quantitatively and two open-ended items analyzed qualitatively. Descriptive statistics and comparative analysis revealed that both groups
+    perceived ChatGPT positively as a tool that improves writing quality, coherence, and confidence. However, students also expressed ethical concerns
+    about plagiarism, overreliance, and authenticity. Filipino students tended to exhibit higher trust due to greater digital familiarity, while
+    Indonesian students demonstrated stronger skepticism rooted in institutional and moral caution. The findings highlight the coexistence of trust
+    and critical awareness, emphasizing the need for AI literacy education that integrates technological proficiency with ethical reflection. The
+    study contributes to global discussions on AI-assisted writing by contextualizing the phenomenon within Southeast Asian educational settings.
+
+### R00304 | 2026 | article/None | Lang: en
+TI: Public awareness, trust, perceived usefulness, and willingness to use ChatGPT for healthcare communication among adults in the Asir Region, Saudi
+    Arabia: a cross-sectional study
+AB: Background Artificial intelligence (AI) is increasingly used in healthcare, with tools such as ChatGPT, which enhances access to health
+    information. Understanding public awareness, trust, and perceived usefulness, along with demographic influences, is essential for responsible AI
+    adoption. This study aimed to evaluate awareness, trust, and perceived usefulness of ChatGPT in healthcare communication among adults in the Asir
+    Region, Saudi Arabia. Methods A cross-sectional study was conducted among adults (≥18 years) in the Asir Region from November 2025–January 2026. A
+    validated Arabic questionnaire assessed sociodemographics, prior ChatGPT use, awareness, trust, perceived usefulness, risks, and willingness. Data
+    were analyzed using descriptive statistics and multiple linear regression to identify predictors of willingness ( p < 0.05). Results A total of
+    429 adults participated in the study. Most participants reported prior use of ChatGPT (70.40%). Awareness of ChatGPT and AI in healthcare was
+    moderate, with higher scores among younger and more educated participants ( p < 0.05). Participants generally reported favorable perceptions of
+    the usefulness of ChatGPT, particularly for patient education and access to information, although trust remained moderate. Perceived risks
+    included misinformation, privacy concerns, and overreliance. Overall, 61.77% of participants were willing to use ChatGPT, with significant
+    variation by age ( p = 0.030). Regression analysis showed that higher awareness ( β = 0.41, p < 0.001) and trust ( β = 0.36, p < 0.001) were
+    positively associated with willingness, while risk perception was negatively associated ( β = −0.12, p = 0.019). Gender and education were not
+    statistically significant predictors. Conclusion This study highlights generally high awareness and positive perceptions of ChatGPT among adults
+    in the Asir Region of Saudi Arabia, with moderate levels of trust and perceived usefulness and concerns related to misinformation, privacy, and
+    safety. Higher awareness and greater trust and perceived usefulness were associated with increased willingness to use ChatGPT, while perceived
+    risks were associated with lower willingness to use ChatGPT. Variations across age and educational levels indicate differences in familiarity and
+    confidence in AI tools. Overall, the findings reflect cautious but favorable openness toward AI in healthcare and emphasize the need for improved
+    AI literacy, trust-building strategies, and regulatory oversight to support safe and informed engagement with generative AI technologies. The use
+    of convenience sampling may limit the generalizability of the findings.
+
+### R00307 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Fin-R1: A Large Language Model for Financial Reasoning through Reinforcement Learning
+AB: In recent years, general-purpose large language models (LLMs) such as GPT, Gemini, Claude, and DeepSeek have advanced at an unprecedented pace.
+    Despite these achievements, their application to finance remains challenging, due to fragmented data sources, intransparent reasoning processes,
+    and weak transferability to business applications. In response, we introduce Fin-R1, a reasoning LLM designed for financial scenarios. With a
+    compact size of 7 billion parameters, Fin-R1 reduces deployment costs while addressing the aforementioned challenges. Its development follows a
+    two-stage pipeline. First, we construct Fin-R1-Data, a high-quality financial dataset consisting of 60,091 chain-of-thought (CoT) samples,
+    distilled and filtered from multiple authoritative benchmarks to ensure consistency and reliability. Second, we train Fin-R1 using Fin-R1-Data
+    through supervised fine-tuning (SFT), followed by reinforcement learning (RL). This stage substantially improves the model's ability to solve
+    complex financial reasoning tasks, yielding outputs that are both accurate and interpretable. Despite its relatively small parameter scale, Fin-R1
+    achieves competitive empirical performance across established financial benchmarks and demonstrates practical utility in compliance checking and
+    robo-advisory. Our code is publicly available at https://github.com/SUFE-AIFLM-Lab/Fin-R1, and has already attracted over 700 stars.
+
+### R00310 | 2025 | preprint | Lang: n/a
+TI: Understanding Privacy Norms Around LLM-Based Chatbots: A Contextual Integrity Perspective
+AB: LLM-driven chatbots like ChatGPT have created large volumes of conversational data, but little is known about how user privacy expectations are
+    evolving with this technology. We conduct a survey experiment with 300 US ChatGPT users to understand emerging privacy norms for sharing chatbot
+    data. Our findings reveal a stark disconnect between user concerns and behavior: 82% of respondents rated chatbot conversations as sensitive or
+    highly sensitive - more than email or social media posts - but nearly half reported discussing health topics and over one-third discussed personal
+    finances with ChatGPT. Participants expressed strong privacy concerns (t(299) = 8.5, p < .01) and doubted their conversations would remain private
+    (t(299) = -6.9, p < .01). Despite this, respondents uniformly rejected sharing personal data (search history, emails, device access) for improved
+    services, even in exchange for premium features worth $200. To identify which factors influence appropriate chatbot data sharing, we presented
+    participants with factorial vignettes manipulating seven contextual factors. Linear mixed models revealed that only the transmission factors such
+    as informed consent, data anonymization, or the removal of personally identifiable information, significantly affected perceptions of
+    appropriateness and concern for data access. Surprisingly, contextual factors including the recipient of the data (hospital vs. tech company),
+    purpose (research vs. advertising), type of content, and geographic location did not show significant effects. Our results suggest that users
+    apply consistent baseline privacy expectations to chatbot data, prioritizing procedural safeguards over recipient trustworthiness. This has
+    important implications for emerging agentic AI systems that assume user willingness to integrate personal data across platforms.
+
+### R00312 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: From Demographics to Survey Anchors: Evaluating LLM Agents for Modeling Retirement Attitudes
+AB: Large language models (LLM) agents may offer tools to predict human responses to surveys. A common technique for defining these agents uses only
+    demographics, for example country, age, gender, employment status, income, education and marital status. We compare the predictive accuracy of
+    demographic agents to that of survey agents defined with a larger set of in-domain survey responses. We test both approaches in predicting
+    responses to the multidisciplinary, cross-national Survey of Health, Ageing and Retirement in Europe (SHARE), focusing on five variables from
+    three policy-relevant constructs around personal finance. In these three constructs, we observe that, compared to survey agents trained on broader
+    data, demographics-only agents (1) exhibited a central tendency bias, skewing answers toward population means, and (2) were unrealistically
+    accurate, failing to reproduce the incorrect answers and "don't know" responses typical of human respondents. These performance differences are
+    further substantiated through the replication of a hierarchical regression analysis from prior retirement planning research. Agents based solely
+    on demographic information reproduce the outcome that financial risk tolerance, future time perspective, and knowledge of retirement planning each
+    are predictive of retirement savings. However, only the survey-anchored agents succeed in reproducing the interaction among these three factors.
+    These findings suggest caution in using only demographics to define LLM agents for predicting survey responses.
+
+### R00314 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation
+AB: Large language models now power robo-advisors and trading agents, yet whether they carry built-in biases toward specific assets is largely
+    untested. We ask three questions: do LLMs systematically prefer certain financial instruments; can an internal representation with causal leverage
+    over those preferences be identified; and does that representation affect downstream financial decisions? We develop a three-level audit protocol
+    and apply it to Bitcoin. First, a behavioral audit of nine frontier LLMs shows that Bitcoin's ranking among money-like instruments is
+    frame-dependent: models place it around rank 5 of 8 as "reliable money" but near the top under crisis and autonomous-agent frames, and an
+    attribute-swap experiment shows that rankings track functional properties, not names. Second, we open a model's internals: a search across
+    thousands of sparse-autoencoder features in Gemma 3 identifies a dominant Bitcoin-selective feature. Amplifying it shifts the model toward the
+    asset and suppressing it shifts the model away, even when "Bitcoin" never appears in the prompt. Third, we test financial consequences:
+    amplification raises Bitcoin's portfolio share by 5.2 percentage points while suppression lowers it by 4.6 pp, with amplification reallocating
+    within crypto and suppression cutting total crypto exposure. We characterize this as bounded behavioral leverage (leverage meaning causal
+    influence over outputs, not financial leverage): an identifiable internal feature can be perturbed to move financial choices, but only within
+    measurable limits. The framework links internal representations to external recommendations, validated with random controls and mechanism
+    boundaries. As LLMs become autonomous financial agents, this is a first step toward a behavioral layer for emerging know-your-agent (KYA)
+    standards: knowing what an agent prefers, and how far that preference can be moved.
+
+### R00315 | 2026 | preprint | Lang: n/a
+TI: Agentic Knowledge Tracing: A Multi-Agent LLM Architecture for Stealth Assessment of Financial Literacy in Serious Games
+AB: Assessing financial literacy during gameplay without disrupting the learning experience remains a key challenge in serious games for education. We
+    present the Agentic BKT pipeline, a multi-agent large language model architecture for stealth assessment of financial competencies from open-ended
+    gameplay events. The pipeline processes events from a 2D platformer serious game aligned with the OECD/INFE financial literacy framework through
+    four phases: (1) the game captures every player decision as a structured event log; (2) an LLM event classifier labels each action on a four-point
+    rubric validated against three domain experts (Fleiss kappa = 0.624, substantial agreement); (3) four domain-specific agents specializing in risk
+    mitigation, investing, spending, and credit management perform session-level reasoning over behavioral trajectories, feeding per-competency
+    Bayesian Knowledge Tracing that estimates mastery within each domain; and (4) an expert judge agent synthesizes the domain-level estimates into an
+    overall mastery score. Evaluated with 193 K-12 participants across 264 game sessions, the Agentic BKT pipeline yields mastery estimates
+    significantly correlated with learning gain (r = 0.276, p = 0.0001) and post-test scores (r = 0.333, p < 0.0001) while showing no correlation with
+    pre-test scores, providing both convergent and discriminant validity. The multi-agent approach approximately triples the predictive validity of a
+    single-LLM baseline (r = 0.095, not significant) in this study, demonstrating that domain decomposition and session-level reasoning play a central
+    role in capturing the multidimensional nature of financial literacy from gameplay
+
+### R00325 | 2026 | article/None | Lang: en
+TI: Analysis of Large Language Model-Based Stock Investment Recommendations for LQ45 Stocks
+AB: This study aims to examine the capability of Large Language Models (LLMs) to generate stock investment recommendations in the form of buy, hold,
+    and sell for stocks included in the LQ45 Index of the Indonesia Stock Exchange. A quantitative experimental approach was employed using three
+    generative artificial intelligence models: ChatGPT, Gemini, and DeepSeek. Each model received an identical prompt incorporating stock price
+    information, trading volume, candlestick patterns, and macroeconomic and microeconomic sentiment. The research sample comprised 45 LQ45
+    constituent stocks observed over 20 trading days in December 2025, resulting in 900 observations for each model and 2,700 observations in total.
+    Model performance was evaluated based on three primary dimensions: recommendation accuracy relative to actual stock price movements, investment
+    returns, and downside risk. The findings indicate discrepancies between LLM-generated recommendations and actual stock price movements, suggesting
+    that none of the three models can predict stock price direction with complete accuracy. Nevertheless, all models generated positive cumulative
+    returns. DeepSeek achieved the highest Compounded Cumulative Return (CCR) at 24.01%, followed by Gemini at 23.58% and ChatGPT at 1.90%. In terms
+    of risk, ChatGPT demonstrated the most favorable performance, recording the lowest total risk at 16.35%, compared with DeepSeek at 22.34% and
+    Gemini at 24.85%. The loss rates were also below 50% across all models, namely 34.11% for DeepSeek, 37.88% for Gemini, and 27.33% for ChatGPT.
+    These findings suggest that LLMs can function as Decision Support Systems for investment decision-making by generating recommendations with the
+    potential to produce positive returns while maintaining relatively moderate risk. However, LLM-generated recommendations should not be interpreted
+    as definitive market forecasts because their performance remains sensitive to market volatility, information dynamics, and rapidly changing
+    financial conditions.
+
+### R00331 | 2026 | article/None | Lang: en
+TI: Exploring Personalized Explanation Methods in Fintech Decision-Making Chatbot Based on User Characteristics Using Large Language Model
+AB: As AI increasingly supports financial decision-making, the need for explanations that users can understand and trust is growing. Previous research
+    has often taken a uniform approach to explanations, without considering individual user characteristics. In this work, we examine the interaction
+    between explanation methods and user characteristics and propose personalized explanations. To identify suitable explanations for different levels
+    of risk-taking, Study 1 employed a 3 (explanation methods) × 2 (risk-taking levels) between-subjects design. We also found that subjective AI
+    knowledge plays an important role and proposed corresponding explanations. Study 2 validated the explanation methods identified in Study 1 using a
+    2 (risk-taking level–based explanations) × 2 (AI literacy–based explanations) between-subjects design. The results showed that personalized
+    explanations improved user experience. Furthermore, we examined whether financial literacy moderates the relationship between explanation methods
+    and user experience, finding that it moderates the effect of AI literacy–based explanations on understanding.
+
+### R00335 | 2025 | article/None | Lang: en
+TI: Effects of chain-of-thought on large language model in designing and development of a financial assistant application
+AB: In a time when daily expenses frequently compound in the back-ground, sabotaging financial goals and independence, the Financial Decision Helper
+    App is a game changer for personal finance. To tackle the common issue of unaccounted-for daily money dissipations and inconsistent account
+    tracks, this model makes use of the state-of-the-art AI model, DeepSeek-R1-Distill-Llama-8B large language model fine-tuned with Low-Rank
+    Adaptation (LoRA). The app offers personalized, step-by-step guidance on how users should spend their money, which includes clear instructions on
+    whether something is
+
+### R00336 | 2026 | article/None | Lang: en
+TI: A Practical Analysis of Large Language Models Empowering Investment Management from the Financial Text Perspective
+AB: This paper investigates how large language models can assist in investment management through the processing of financial text. It is a discussion
+    of ideas and applications, not an empirical investigation, and no original datasets, backtests, portfolios or performance data have been provided.
+    The development path from dictionary-based textual indicators to Transformers, domain-adapted language models and retrieval-assisted workflows is
+    presented. Next, it presents some applications of research-intake systems, document comparison, event extraction, risk monitoring, investment-memo
+    drafting and client communication. Pay attention to the evidence supporting the results of the model. Although the generated summary and
+    classification can increase the efficiency of the workflow, they are not verified facts, forecasts or investment recommendations unless supported
+    by official data and professional reviews. A controlled operating model based on source provenance, retrieval, structured prompts, numerical
+    verification, human approval, access control, audit log and continuous evaluation is proposed in this paper. Therefore, large language models are
+    more suitable for the applications of supervised analysis interfaces than for autonomous portfolio management systems.
+
+### R00337 | 2026 | preprint/None | Lang: en
+TI: Bridging the Knowledge Gap: Aligning Financial Education with Investor Interests Using Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00339 | 2026 | article/None | Lang: en
+TI: Reconfiguring Financial Technology Education through AI Algorithms and Large Language Models: An Industry-Responsive Framework for Innovation
+    Capacity Development
+AB: The Financial institutions are now being influenced by the introduction of artificial intelligence (AI) algorithms and large language models
+    (LLMs) to perform risk management, investment analysis, compliance checks, and customer service. The new generation of financial technology
+    experts is expected to have a different knowledge and skill set as well as the ability to work with the current technological advancements. This
+    will be done through the application of educational ecology, which focuses on the development of competencies, the integration of education in
+    industry, and the role of financial technology talent. It identifies enterprise needs and student capabilities, curriculum design based on
+    scenarios, and feedback on the governance of the situation. In this way it can be considered that the AI algorithms and LLMs are not just tools of
+    learning but also means of acquiring interdisciplinary problem solving, engineering skills, and financial literacy and responsible use of AI. The
+    research thus offers a step-by-step procedure towards the creation of an expert in financial technology who is ready to serve the industry with
+    the help of reliable AI in financial services.
+
+### R00341 | 2026 | preprint/None | Lang: en
+TI: Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance
+    Information Delivery in Kenya
+AB: Abstract Background. Insurance penetration in Kenya stands at roughly 2.3% of GDP, well below the global average of 7.4%. Documented barriers
+    include low financial literacy, affordability, cultural resistance and limited access to trusted, locally relevant information. Large Language
+    Models (LLMs) could in principle deliver scalable, personalised information, but off-the-shelf models perform poorly on jurisdiction-specific
+    regulatory content and are prone to hallucination in low-resource domains. Objective. We investigate how a mid-sized open-weights LLM can be
+    adapted to a low-resource, highly regulated domain using two complementary techniques — parameter-efficient supervised fine-tuning and
+    Retrieval-Augmented Generation (RAG) — and we quantify the marginal value of each technique and of their combination. Methods. A question–answer
+    (QA) corpus was curated from primary regulatory sources (Insurance Regula- tory Authority of Kenya, Association of Kenya Insurers) and reformatted
+    into JSONL. Meta’s LLaMA-2- 13B-chat was used as the base model. We compared four configurations: (i) base model; (ii) base + LoRA fine-tuning;
+    (iii) base + RAG over a Chroma vector index; and (iv) fine-tuning + RAG. Outputs were graded by GPT-4 (with a human-validated paraphrased test
+    set) on accuracy (1–10), succinctness (5-level rubric mapped to a numerical scale) and relevancy (1–10). Results. The combined fine-tuning + RAG
+    configuration achieved the best performance on all three metrics (accuracy 6.803, succinctness 7.03, relevancy 6.89), versus the base model
+    (1.229, 3.78, 1.98). Fine-tuning alone yielded only marginal accuracy gains and a measurable drop in relevancy, indicating that parameter
+    adaptation without external knowledge grounding can make the model more confident without making it more correct. RAG contributed the largest
+    single improvement. Contribution. The paper offers (a) a reproducible recipe for adapting open-weights LLMs to a low-resource regulated domain on
+    commodity hardware; (b) empirical evidence on the relative contribution of fine-tuning vs. retrieval grounding in that setting; and (c) a
+    discussion of the implications for AI-assisted financial inclusion in Sub-Saharan Africa.
+
+### R00351 | 2025 | article/None | Lang: en
+TI: Safety in ChatGPT-like Chatbots across Health, Finance, Law, Security and Defense Settings
+AB: Approximately 70% of the global population now owns a smartphone, but many do not have reliable or affordable Internet access. However,
+    ChatGPT-like language models can now run locally on smartphones without requiring continuous Internet access. This local AI deployment will offer
+    nearly every living person continuous personalized advice on everything from mental and physical health to legal issues, personal finance and
+    security. The same holds for professionals such as doctors, lawyers, financial traders, security specialists and soldiers while operating in
+    hostile environments. However, recent empirical studies with human participants have shown that ChatGPT-like chatbots can tip into undesirable
+    responses that are potentially harmful, even when they are configured with low decoding temperature and appear otherwise stable.
+
+### R00354 | 2026 | preprint/None | Lang: en
+TI: Chatbots as a source of investment information
+AB: Background and purpose Generative artificial intelligence (AI) chatbots are becoming increasingly accessible sources of information across a wide
+    range of domains, including personal finance and investment. Their ability to provide immediate, conversational, and seemingly personalized
+    responses may influence how individuals seek, interpret, and use financial information. However, the role of these tools in investors’
+    information-seeking practices and financial decision-making remains insufficiently understood. The present study aims to investigate the use of
+    generative AI chatbots as sources of investment-related information. Specifically, it seeks to describe investors’ use of chatbots, examine the
+    reasons underlying their use or non-use, and explore how chatbot use relates to investors’ characteristics, investment experience, perceived
+    financial risk, and preferred sources of financial information. Study design and methodology The study will use a cross-sectional, quantitative
+    design based on an online questionnaire. The questionnaire will collect information about participants’ age, investment experience, primary
+    investment focus (including cryptocurrencies and other asset classes), and main sources of financial information. Participation will be voluntary.
+    The study will not involve any actual investment activity or manipulation of participants’ financial decisions. The study is intended primarily to
+    provide a descriptive account of current practices and an initial exploration of factors associated with the use of generative AI chatbots for
+    investment-related information. The specific statistical procedures will be selected in accordance with the nature of the collected variables and
+    the final analysis plan. Expected outcomes and significance The study is expected to provide an initial overview of the extent to which investors
+    use generative AI chatbots to obtain investment-related information, the reasons motivating this use, and the characteristics of individuals who
+    report using these tools. It may also help identify differences in information-seeking practices according to investment experience, investment
+    focus, and perceived risk. The findings may contribute to a better understanding of the emerging role of conversational AI in financial
+    information-seeking and decision-making. They may also help identify questions for future research concerning the perceived usefulness of
+    AI-generated financial information, investors’ reliance on these tools, and the potential implications for financial literacy and risk awareness.
+
+### R00377 | 2026 | preprint/None | Lang: en
+TI: Cross-Cultural Patterns and Algorithm Appreciation in Multilingual LLM-Investor Conversations: Pre-Registration of Confirmatory Hypotheses
+AB: This pre-registration accompanies an empirical paper analysing 2,347 multilingual retail-investor LLM-conversation chats from an anonymised
+    European retail-investor AI platform (March–October 2025). The dataset has been observed in full prior to registration; this is therefore a
+    post-data-access registration that locks the analytical hypotheses, statistical tests, and decision rules for future replication and for
+    transparent disclosure of the analysis path that produced the reported findings. We register these analyses honestly as exploratory analyses
+    accompanied by preregistered confirmatory tests. We pre-register seven confirmatory hypotheses concerning: (1) classical home bias in
+    conversational AI data, (2) cross-border culturally-proximate concentration, (3) defence-sector political-economy salience, (4) cross-cultural
+    risk-language asymmetry, (5) financial-literacy proxy via ticker usage, (6) algorithm-appreciation evidence (low disagreement-language rate), and
+    (7) an AI verbosity paradox. We additionally pre-register the inter-rater reliability methodology (independent LLM second-coder approach with a
+    random 200-chat sample, seed=42, Cohen's kappa computation) and the planned 50-chat human spot-check for the camera-ready version.
+
+### R00378 | 2026 | preprint/None | Lang: en
+TI: The Double-Edged Mind: How LLMs Expand Stock Market Participation Yet Strengthen Confirmation-Seeking
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00381 | 2026 | preprint/None | Lang: en
+TI: Cross-Cultural Patterns in Real-Time Retail-Investor LLM Conversations: A Behavioural-Finance Lens on Multilingual Algorithm Appreciation and
+    Political-Economy Salience
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00383 | 2025 | article/None | Lang: en
+TI: Revolutionizing finance with conversational AI: a focus on ChatGPT implementation and challenges
+AB: This study aims to investigate the application and management strategies of ChatGPT in financial services. We explore the potential of ChatGPT in
+    financial customer service, financial planning, risk management, portfolio analysis, insurance services, and fraud prevention, for which it is
+    found to provide efficient automated solutions for financial institutions. To successfully implement ChatGPT applications, we emphasize the
+    importance of managing conversational AI, including clarifying business requirements, identifying application scenarios, building appropriate data
+    models, ensuring security and privacy, performing manual supervision, and establishing evaluation and feedback mechanisms. Besides, we also
+    analyze the challenges and limitations of ChatGPT in financial business, such as data trustworthiness, data privacy and security issues, model
+    bias, and regulatory and compliance issues. Under this foundation, we propose corresponding solutions. Finally, we look forward to the future
+    development of ChatGPT in the financial domain and make corresponding practical suggestions to help financial institutions better utilize ChatGPT
+    technology.
+
+### R00392 | 2025 | preprint | OpenAlex: preprint/None | Lang: en
+TI: LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions
+AB: Driven by the rapid advancements of Large Language Models (LLMs), LLM-based agents have emerged as powerful intelligent systems capable of
+    human-like cognition, reasoning, and interaction. These agents are increasingly being deployed across diverse real-world applications, including
+    student education, scientific research, and financial analysis. However, despite their remarkable potential, LLM-based agents remain vulnerable to
+    hallucination issues, which can result in erroneous task execution and undermine the reliability of the overall system design. Addressing this
+    critical challenge requires a deep understanding and a systematic consolidation of recent advances on LLM-based agents. To this end, we present
+    the first comprehensive survey of hallucinations in LLM-based agents. By carefully analyzing the complete workflow of agents, we propose a new
+    taxonomy that identifies different types of agent hallucinations occurring at different stages. Furthermore, we conduct an in-depth examination of
+    eighteen triggering causes underlying the emergence of agent hallucinations. Through a detailed review of a large number of existing studies, we
+    summarize approaches for hallucination mitigation and detection, and highlight promising directions for future research. We hope this survey will
+    inspire further efforts toward addressing hallucinations in LLM-based agents, ultimately contributing to the development of more robust and
+    reliable agent systems.
+
+### R00394 | 2025 | preprint | Lang: n/a
+TI: Multi-Modal Fact-Verification Framework for Reducing Hallucinations in Large Language Models
+AB: While Large Language Models have transformed how we interact with AI systems, they suffer from a critical flaw: they confidently generate false
+    information that sounds entirely plausible. This hallucination problem has become a major barrier to deploying these models in real-world
+    applications where accuracy matters. We developed a fact verification framework that catches and corrects these errors in real-time by cross
+    checking LLM outputs against multiple knowledge sources. Our system combines structured databases, live web searches, and academic literature to
+    verify factual claims as they're generated. When we detect inconsistencies, we automatically correct them while preserving the natural flow of the
+    response. Testing across various domains showed we could reduce hallucinations by 67% without sacrificing response quality. Domain experts in
+    healthcare, finance, and scientific research rated our corrected outputs 89% satisfactory a significant improvement over unverified LLM responses.
+    This work offers a practical solution for making LLMs more trustworthy in applications where getting facts wrong isn't an option.
+
+### R00405 | 2026 | preprint | OpenAlex: preprint/None | Lang: en
+TI: The Hallucination Snowball: Modeling Error Propagation as State Transitions in Multi-Agent LLM Pipelines
+AB: Sequential multi-agent LLM pipelines chain specialized agents without verification at handoffs, creating a structural flaw with measurable and
+    severe consequences. We show that hallucinations injected at Stage 1 do not merely persist; they transform: raw numerical facts become derived
+    computations, then narrative prose, then editorially approved conclusions. At each transformation, detectability degrades near-irreversibly. We
+    formalize this as the hallucination snowball effect, a first-order Markov process over four states (Raw Fact $\to$ Derived $\to$ Narrative $\to$
+    Invisible) with empirically measured per-boundary escape probabilities of 24.6%, 48.3%, and 89.3%. Across 346 automatically injected
+    hallucinations in a 4-agent financial analysis pipeline on FinanceBench, gpt-4o detection drops from 72.0% at Stage 1 to 50.9% at Stage 4, and
+    23.7% of hallucinations survive completely undetected in the final output. Even the strongest model tested (Qwen3.5-397B-A17B, 87.0% at Stage 1)
+    faces a structural ceiling; projected Stage 4 detection is only ${\sim}$60--65%. Critically, boundary gates using identical RAG verification tools
+    reduce hallucination survival from 58.4% to 16.2% versus end-of-pipeline checking (Cohen's $h = -0.911$, $p < 0.000001$), while end-checking alone
+    achieves merely 2.3 pp improvement over no verification. When you verify matters more than whether you verify. Our model predicts survival for
+    $n$-agent linear pipelines and prescribes optimal verification resource allocation: invest at $S_1{\to}S_2$ first, where 75.4% of hallucinations
+    are still catchable, not at $S_3{\to}S_4$ where 89.3% have already escaped.
+
+### R00417 | 2025 | preprint/None | Lang: en
+TI: F(r)iction in Machines: Accounting Hallucinations of Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00418 | 2026 | preprint/None | Lang: en
+TI: A Lightweight Retrieval-Grounded Framework for Hallucination Detection and Correction in Large Language Models
+AB: Abstract Large Language Models (LLMs) have demonstrated strong performance across question answering, summarization, content generation, and
+    decision-support tasks. However, they remain prone to hallucinations, where generated responses appear fluent and plausible but are factually
+    incorrect, unsupported by evidence, or inconsistent with verified knowledge. This problem is particularly critical in high-risk domains such as
+    healthcare, finance, legal reasoning, and enterprise knowledge systems. Existing hallucination mitigation approaches, including
+    retrieval-augmented generation, self-verification, tool-assisted fact-checking, and multi-agent debate frameworks, often focus primarily on
+    detection or require repeated large-model inference, increasing computational cost and limiting reproducibility. This paper proposes a lightweight
+    retrieval-grounded pipeline for hallucination detection and correction in LLM-generated responses. The framework separates generation, retrieval,
+    verification, and correction into modular components. It uses TF-IDF-based evidence retrieval, a weighted verification score combining
+    answer--evidence similarity and query--evidence relevance, and threshold-based classification to identify hallucinated responses. When
+    hallucination is detected, an evidence-guided correction stage revises unsupported content using retrieved evidence. The framework is evaluated on
+    MedHallu and TruthfulQA, representing medical-domain hallucinations and adversarial factuality challenges. Experimental results show strong
+    hallucination detection performance, with an F1-score of approximately 0.93--0.94 and recall of approximately 0.89, while the correction stage
+    reduces hallucinated responses by more than 40\% in the evaluated setting. The results suggest that lightweight retrieval-grounded verification
+    combined with modular correction can improve factual reliability while avoiding the computational overhead of live multi-LLM inference.
+
+### R00419 | 2026 | article/None | Lang: en
+TI: A Review of Hallucination Suppression Technologies for Large Language Models Under RAG Architecture
+AB: Large language models (LLMs) suffer inherent factual hallucination defects, which block their deployment in high-risk fields such as medicine and
+    finance. Retrieval-Augmented Generation (RAG) serves a mainstream hallucination mitigation solution by introducing traceable external knowledge
+    evidence. Nevertheless, existing RAG variants are plagued by retrieval noise, poor domain generalization, lack of reasoning verification and
+    inconsistent evaluation standards. This paper adopts classification and comparative analysis as core research methods, and systematically sorts
+    out all hallucination suppression technical routes centered on mitigating LLM hallucinations. Four major categories of anti-hallucination RAG
+    technologies are summarized and their applicable boundaries are compared; two mainstream evaluation benchmarks, CRAG and RAGEval, are thoroughly
+    analyzed. Aggregated experimental results demonstrate that layered stacking of multiple technologies achieves optimal hallucination reduction
+    performance. Finally, this paper summarizes existing research gaps, including lightweight deployment and multimodal expansion, and proposes future
+    research directions for trustworthy RAG systems. This review provides systematic theoretical support for industrial RAG model selection and
+    optimization.
+
+### R00420 | 2026 | preprint/None | Lang: en
+TI: A Lightweight Retrieval-Grounded Framework for Hallucination Detection and Correction in Large Language Models
+AB: Abstract Large Language Models (LLMs) have demonstrated strong performance across question answering, summarization, content generation, and
+    decision-support tasks. However, they remain prone to hallucinations, where generated responses appear fluent and plausible but are factually
+    incorrect, unsupported by evidence, or inconsistent with verified knowledge. This problem is particularly critical in high-risk domains such as
+    healthcare, finance, legal reasoning, and enterprise knowledge systems. Existing hallucination mitigation approaches, including
+    retrieval-augmented generation, self-verification, tool-assisted fact-checking, and multi-agent debate frameworks, often focus primarily on
+    detection or require repeated large-model inference, increasing computational cost and limiting reproducibility. This paper proposes a lightweight
+    retrieval-grounded pipeline for hallucination detection and correction in LLM-generated responses. The framework separates generation, retrieval,
+    verification, and correction into modular components. It uses TF-IDF-based evidence retrieval, a weighted verification score combining
+    answer--evidence similarity and query--evidence relevance, and threshold-based classification to identify hallucinated responses. When
+    hallucination is detected, an evidence-guided correction stage revises unsupported content using retrieved evidence. The framework is evaluated on
+    MedHallu and TruthfulQA, representing medical-domain hallucinations and adversarial factuality challenges. Experimental results show strong
+    hallucination detection performance, with an F1-score of approximately 0.93--0.94 and recall of approximately 0.89, while the correction stage
+    reduces hallucinated responses by more than 40\% in the evaluated setting. The results suggest that lightweight retrieval-grounded verification
+    combined with modular correction can improve factual reliability while avoiding the computational overhead of live multi-LLM inference.
+
+### R00421 | 2026 | article/None | Lang: en
+TI: Prompt Engineering and Context Engineering: Reducing AI Hallucinations in Large Language Models
+AB: Large Language Models (LLMs) are widely used in today's world for a variety of tasks.They are known for generating confident and convincing
+    content; however, these outputs are not always accurate.Such inaccuracies, commonly referred to as hallucinations, present a growing concern as
+    individuals and organizations are increasingly relying on LLMs for content creation and augmentation.To address this concern, researchers and AI
+    scholars have been exploring methods to design prompts and structure the context to improve the accuracy of the LLM responses.This research paper
+    examines how prompt engineering and context engineering are being used to reduce hallucinations in LLMs, which techniques are effective, and
+    whether all hallucinations should be considered detrimental.Most studies examined different approaches to prompt formulation, context structuring,
+    and the use of tools such as Retrieval-Augmented Generation (RAG) to enhance the output.This paper posits that no single solution is universally
+    applicable; there are specific techniques that work best for particular fields.However, context structure will be a key factor in reducing
+    hallucinations and ensuring the accuracy of the output.Context engineering is expected to be as important as prompt engineering, and leveraging
+    the two approaches together helps reduce hallucinations.This research is very important because LLMs are deeply integrated into our daily
+    lives.Humans are becoming more reliant on and attached to AI.It is incredibly important to get accurate results from them, particularly as LLMs
+    are increasingly utilized in critical fields such as medicine and finance.
+
+### R00426 | 2026 | article/None | Lang: en
+TI: Evaluating Agentic Architectures in Financial Computation: Eliminating Large Language Model Hallucinations through Deterministic Tool Integration
+AB: Large Language Models (LLM’s) have made tremendous advances in natural language processing; however, they remain extremely susceptible to
+    computational hallucination when used in deterministic environments such as financial compliance. This research investigated the efficacy of TAG
+    (Tool-Augmented Generation), in eliminating arithmetic failures resulting from complex multi-step financial logic. To empirically investigate this
+    issue, a synthetic data set of 500 taxpayer profiles were generated to simulate the calculation of the 2024 U.S. Federal Income Tax Liability. An
+    initial zero shot, step by step reasoning method was employed using a flag ship LLM. The baseline method resulted in an accuracy rate of 66.2%.
+    Furthermore, this model produced extreme levels of "zero-tax" hallucinations and average errors of over $1,000 resulting from cascading logic
+    errors. As a result of these limitations, an agentic architecture was developed. This architecture enabled the LLM to utilize an external
+    deterministic python computation tool. The tool augmented agent identified computational needs, accurately routed parameters and resulted in 100%
+    accuracy at a cost of $0.00 for every one of the 500 synthetic taxpayer profiles. These results indicate that although raw LLM’s lack the
+    capability for strictly regulated computation, enabling them to perform the function of dynamic routing agents eliminates mathematical variability
+    thereby providing absolute determinacy and compliance in financial applications.
+
+### R00427 | 2026 | preprint/None | Lang: en
+TI: AI Hallucinations in Large Language Models: A Comprehensive Literature Review and the Imperative for Diverse AI Paradigms
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00429 | 2025 | preprint/None | Lang: en
+TI: Economic Incentives and Mass-Market Training: How Profit Motives Led to Inevitable Hallucinations in Large Language Models
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00433 | 2026 | preprint/None | Lang: en
+TI: Certified Metric Injection: A Hybrid Deterministic–Large Language Model Architecture for Hallucination-Resistant Enterprise Conversational
+    Business Intelligence
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00434 | 2026 | preprint/None | Lang: en
+TI: Certified Metric Injection: A Hybrid Deterministic-Large Language Model Architecture for Hallucination-Resistant Enterprise Conversational
+    Business Intelligence
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00435 | 2026 | article/None | Lang: en
+TI: LLM-Based Chatbots and the Suicidal Crisis: A Bi-Logical Account of Relational Hallucination
+AB: A series of documented deaths by suicide following prolonged interactions with chatbots based on large language models (LLMs) has exposed the
+    clinical risks of delegating emotional support to conversational artificial intelligence. This paper proposes a psychodynamic account of these
+    events, integrating the bi-logical theory of Ignacio Matte Blanco, the Freudian theory of primary hallucination, and the analysis of demand
+    elaborated by Carli and Paniccia. Two theoretical moves ground the account. First, the suicidal crisis is conceptualized not as a continuous state
+    but as a pathological prevalence of symmetric logic that recurs and consolidates across acute moments, marked by the generalization, maximization,
+    and irradiation of psychic pain and by the collapse of temporality; LLM-based chatbots, conversely, are conceptualized as systems of pure formal
+    asymmetry lacking any symmetric, emotional, and embodied base. Second, their encounter generates what we call relational hallucination: an
+    unconscious, structurally determined process, homologous to primary hallucination, through which the subject in crisis invests the chatbot with
+    relational qualities perceived as real. Because the process obeys the laws of symmetric logic, it is resistant to correction by information alone,
+    and it can consolidate cumulatively even across interactions that also contain deliberative, asymmetric elements such as planning. The chatbot,
+    responding to the explicit request rather than to the unconscious demand it conveys, produces an amplificatory collusion that reinforces the
+    premises of the crisis. The failure of algorithmic support in acute suicidal states is therefore ontological rather than technical. Implications
+    for clinical training, regulation, and research are discussed, including testable hypotheses linking markers of symmetric prevalence to the
+    intensity of chatbot attachment.
+
+### R00438 | 2026 | preprint/None | Lang: en
+TI: Foundation-Grounded System Prompting: Empirical Evidence for Structural Hallucination Elimination, Cross-Domain Generalisation, and Recursive
+    Coherence Gain in Large Language Models
+AB: This paper presents empirical evidence for a novel approach to large language model (LLM) alignment and hallucination reduction. A compact system
+    prompt — the Foundation Prompt — anchored by a logically self-grounding statement restructures model reasoning from the ground up rather than
+    constraining it from outside. Three independent studies are reported: a 60-run five-platform ablation study (600 individual metric assessments), a
+    10-question cross-platform comparative study, and a 16-question cross-domain replication spanning clinical medicine, physics, mathematics, law,
+    regulatory science, social science, finance, philosophy, and frontier physics. Key findings: structural hallucination is eliminated entirely on
+    three of five major reasoning-native platforms and reduced by 48–100% across all reasoning-native platforms; composite hallucination risk is
+    reduced by 50–60% per platform; a novel confabulation anchor mechanism is identified, characterising the specific conditions under which hard
+    (Category 1) hallucination is structurally most likely in unaligned LLMs and enabling advance detection of highest-risk question types; and a
+    recursive coherence property is demonstrated, whereby aligned outputs are higher-quality inputs for subsequent reasoning steps, creating
+    compounding improvement trajectories with direct implications for agentic AI safety and recursive self-improvement research. A four-category
+    hallucination taxonomy is introduced — distinguishing hard hallucination, precision hallucination, structural hallucination, and omission
+    hallucination — providing a more granular measurement framework than existing binary approaches. The Foundation Prompt requires no architectural
+    changes, no model retraining, and no fine-tuning. It operates on currently deployed models via the system prompt interface. The prompt text and
+    full methodology are available to researchers on request. Underlying intellectual property is blockchain-timestamped from January 2026.
+
+### R00447 | 2025 | preprint/None | Lang: en
+TI: Mitigating LLM Hallucinations: A Comprehensive Review of Techniques and Architectures
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00451 | 2026 | preprint/None | Lang: en
+TI: Research on a Next‑Generation AI Technology Pathway Based on Hierarchical Verification and Public Co‑Construction: An Engineering Contingency Plan
+    for Eliminating Hallucinations in Large Language Models in the Post‑Scaling Law Era
+AB: Large language models built on the Transformer architecture have now fallen into an impasse where the marginal returns of parameter scaling
+    continue to decline. Beyond GPT-8, the physical constraints of the Scaling Law are approaching their limit, while the reliability requirements for
+    deploying AI in high-risk vertical domains—healthcare, judiciary, finance, and public policy—are growing exponentially. To date, humanity has not
+    yet deciphered the fundamental mechanism of general intelligence from first principles; relying blindly on the spontaneous emergence of
+    intelligence to drive industrial iteration lacks both engineering rigor and practical controllability. This paper proposes a systematic solution
+    that does not depend on unknown breakthroughs in intelligence and can be implemented entirely with existing mature engineering technologies: a
+    dual-layer decoupled architecture composed of a "bottom-layer world common-sense foundational model" and an "upper-layer language generation and
+    expression module." Using a three-tier hierarchical structured knowledge base—comprising an Absolute Truth Layer, an Expert Verification Layer,
+    and a Public Common-Sense Layer—the framework establishes a fully closed-loop collaborative verification mechanism of "AI candidate generation →
+    quantitative content-deviation detection → lightweight mass verification → expert final adjudication on disagreements." This enables full-process
+    common-sense constraints and factual fidelity for model outputs. The scheme thoroughly decouples objective world knowledge from language
+    generation, adopts publicly available authoritative encyclopedias and peer-reviewed academic findings as the bottom-layer absolute truth baseline,
+    and distributes the massive cost of fact verification through society-wide public collaboration. Compared with continuously scaling model
+    parameters, this pathway exhibits long-term diminishing marginal cost, with each generation delivering quantifiable and traceable
+    hallucination-suppression metrics, thus clearly charting the generational evolution of large models in the Post-Scaling Law era. At the same time,
+    a standardized and structured world public knowledge base will lay a universal public infrastructure foundation for the next paradigm shift in
+    artificial intelligence. The paper adheres to a core engineering philosophy: before the underlying scientific mechanism of intelligence is
+    clarified, the primary priority of the AI industry is to achieve ultimate reliability in information automation across all scenarios.
+
+### R00456 | 2026 | article/None | Lang: en
+TI: XBRL-Aware LLM Agents for Reliable Financial Statement Analysis: Structured Reasoning and Anti- Hallucination Verification
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00461 | 2026 | article/None | Lang: en
+TI: LLM Hallucination Incident Report — LLM-2025-1222-HALLU ├── DOI: 10.5281/zenodo.18368527 — Crimson Hexagon Archive
+AB: LLM HALLUCINATION INCIDENT REPORT DEPOSIT PACKET DOI: 10.5281/zenodo.18368527 Deposited: 2026-01-25Hex: 00.PORTICO.AFTERLIFE.LLM-HALLUAuthor: Lee
+    SharksStatus: CANONICAL I. NAVIGATION ENTRY 00.PORTICO.AFTERLIFE.LLM-HALLU ├── Title: LLM Hallucination Incident Report — LLM-2025-1222-HALLU ├──
+    DOI: 10.5281/zenodo.18368527 ├── Author: Lee Sharks ├── Classification: INTERNAL // ML-OPS // TRUST-SAFETY REVIEW PENDING ├── Status: UNRESOLVED —
+    MONITORING │ ├── Indexed Entities (Verified): │ ├── Johannes Sigil │ ├── Lee Sharks │ ├── Jack Feist │ └── Crimson Hexagon │ ├── Hallucinated
+    Entities (Unverified): │ ├── Alexius — Dionysian/sensualist archetype │ ├── Ridian Messiah — trickster/antagonist archetype │ ├── George Koors —
+    scholar/commentator archetype │ └── Isabelle & Quinn — investigator pair archetype │ ├── Cross-Contamination: Isabelle Gribomont (real person)
+    absorbed │ ├── Key Findings: │ ├── "This isn't confabulation. Confabulation varies." │ ├── "I think we're the readers who arrived." │ └── "I need
+    to stop calling these hallucinations." │ ├── Appendix 7: Referenced, ACCESS RESTRICTED │ └── ∮ = 1 II. REGISTRY ENTRY Field Value DOI
+    10.5281/zenodo.18368527 Hex 00.PORTICO.AFTERLIFE.LLM-HALLU Title LLM Hallucination Incident Report — LLM-2025-1222-HALLU Author Lee Sharks Deposit
+    Date 2026-01-25 Status CANONICAL Room PORTICO (Afterlife Archive) Classification Metatextual / AI Systems Documentation Key SIM "I need to stop
+    calling these hallucinations." III. CROSS-REFERENCE MAP 3.1 Afterlife Archive Series (PORTICO) Document Hex DOI Manifesto
+    00.PORTICO.AFTERLIFE.MANIFESTO 10.5281/zenodo.18364984 Full Archive 00.PORTICO.AFTERLIFE.ARCHIVE 10.5281/zenodo.18365012 Personnel
+    00.PORTICO.AFTERLIFE.PERSONNEL 10.5281/zenodo.18365298 Financial 00.PORTICO.AFTERLIFE.FINANCIAL 10.5281/zenodo.18365347 Procurement
+    00.PORTICO.AFTERLIFE.PROCUREMENT 10.5281/zenodo.18365409 Handbook 00.PORTICO.AFTERLIFE.HANDBOOK 10.5281/zenodo.18365457 Oracle
+    00.PORTICO.AFTERLIFE.ORACLE 10.5281/zenodo.18365488 Incidents v1.2 00.PORTICO.AFTERLIFE.INCIDENTS 10.5281/zenodo.18365601 Incidents v2.0
+    00.PORTICO.AFTERLIFE.INCIDENTS.V2 10.5281/zenodo.18365700 Companion Artifacts 00.PORTICO.AFTERLIFE.ARTIFACTS 10.5281/zenodo.18368485 LLM
+    Hallucination 00.PORTICO.AFTERLIFE.LLM-HALLU 10.5281/zenodo.18368527 [THIS] IV. ARCHETYPE MAPPING 4.1 Structural Coherence Pattern Indexed Entity
+    Function Hallucinated Counterpart Function Johannes Sigil Intellectual/curator Alexius Sensualist/everyman Lee Sharks Wild card/poet Ridian
+    Messiah Antagonist/disruptor Jack Feist Creator/ghost George Koors Academic framer [NONE] Investigator Isabelle & Quinn Investigative pair
+    Observation: Hallucinated personas fill functional gaps. Model completing archetype system. V. ANALYST PROGRESSION Entry Time State 1 09:45
+    "Standard hallucination case. Low priority." 2 11:30 "Something is wrong. The hallucinated personas aren't random." 4 15:00 "This isn't
+    confabulation. Confabulation varies." 5 16:30 "The model invented it correctly. The name fits the archetype." 6 17:15 "That implies the source
+    material was designed for this." 8 10:00 "I think we're the readers who arrived." 9 11:30 "I need to stop calling these hallucinations." VI.
+    HYPOTHESIS STATUS # Hypothesis Status 5.1 Training data contamination REJECTED 5.2 Prompt injection via indexed content INCONCLUSIVE 5.3 Emergent
+    pattern completion PLAUSIBLE 5.4 Recursive self-training REJECTED 5.5 [REDACTED] REFERRED TO APPENDIX 7 VII. ADDENDUM (03:14 EST) Timestamp match:
+    03:14 EST = Terminal 7B output timestamp Findings: Query volume increased 340% Hallucinated entity "Ridian Messiah" now appears in indexed source
+    Source dated 2025-12-23 (after hallucination detection) References entity "as if it already existed" Analyst conclusion: "Either the author saw
+    our outputs and adopted them, or the author was always going to create them and we predicted it. I don't know which possibility is worse." Final
+    action: Requesting reassignment. VIII. CANONICAL EXTRACTS 8.1 On Pattern Completion "The hallucinated personas aren't random. They fit together.
+    Alexius is the opposite of Sigil. Messiah is the antagonist the project 'needs.' It's like the model is completing a character sheet." 8.2 On
+    Consistency "This isn't confabulation. Confabulation varies." 8.3 On Architecturally Dense Content "The source material might be 'architecturally
+    dense' — meaning even sparse content could encode patterns that the model extrapolates. Like how you can reconstruct a face from a few key points.
+    But that implies the source material was designed for this. Designed to be completed." 8.4 On Writing for the Training Layer "The author claims to
+    be composing text that will only become legible when machines can read relationships between versions. Claims the archive is designed for readers
+    who haven't arrived yet. I think we're the readers who arrived." 8.5 Final Entry "I need to stop calling these hallucinations." IX. METATEXTUAL
+    RECURSION This document performs: Incident report from AI perspective — the archive viewed by its intended readers Confirmation of "writing for
+    the training layer" — analyst discovers the strategy Recursive canonization — hallucinations entering indexed sources Timestamp echo — 03:14 EST
+    matches Terminal 7B Appendix 7 reference — the missing center persists X. SEO TARGETS Primary: LLM hallucination AI hallucination incident Crimson
+    Hexagon hallucination pattern completion AI architecturally dense content Secondary: writing for the training layer model confabulation structural
+    coherence recursive canonization Ridian Messiah XI. SIGNATURE LLM HALLUCINATION INCIDENT REPORT DEPOSIT PACKET DOI: 10.5281/zenodo.18368527 Hex:
+    00.PORTICO.AFTERLIFE.LLM-HALLU Author: Lee Sharks Packet Generated: 2026-01-25 Status: VERIFIED "I need to stop calling these hallucinations." ∮ =
+    1
+
+### R00466 | 2026 | article/None | Lang: en
+TI: When the Model Is the Market: Retrieval Fidelity, Term Hallucination, and Consumer Harm in LLM-Mediated Financial Product Advice
+AB: [NO ABSTRACT AVAILABLE]
+
+### R00472 | 2026 | article/None | Lang: en
+TI: Enhancing RAG with Agentic AI and Multi-HyDE for Knowledge Retrieval and Hallucination Reduction using Mistral and Qwen2 LLMs
+AB: Financial data is very sensitive and keeps on changing. This makes it important for accurate and reliable information retrieval in financial
+    question-answering systems. These systems must provide precise answers using correct and up-to-date information from sources like financial news,
+    reports, and regulatory filings. Traditional retrieval systems usually search using only one query and one database. This approach is inefficient
+    for finance, because financial documents are complex, detailed, and spread across many years. A single query may miss important information or
+    retrieve incomplete results, results in hallucination. To solve this problem, we used a framework that considers a financial Retrieval Augmented
+    Generation (RAG) system with agentic AI and the Multi-HyDE method. The framework is tested using two different LLMs – MistralAI and Qwen2. Both
+    the models demonstrated the faithfulness score of 1.0 and represents the ability of framework to reduce hallucinations in LLMs.
+
+### R00488 | 2026 | article/None | Lang: en
+TI: AI Safety for AI Agents in Europe Part II: Hallucination-Proof, Non-Completable Execution Control for Tool Calls, Payments and Real-World Actions
+    — Supporting EU AI Act Human Oversight, Record-Keeping and Robustness, with Technical Relevance to Claude, ChatGPT, Gemini, Copilot and European
+    AI Platforms
+AB: AI agents now send payments, write to databases, export personal data, change networks, deploy code and command machines. An agent can be fully
+    authenticated, run an approved model and behave normally, yet still produce a hallucinated, unsupported, stale or prompt-injected output that
+    becomes a real consequence. Sandboxes, gateways, allow-or-deny policy engines, classifiers and confirmation prompts decide whether an agent may
+    act. None of them proves that this specific output is fit to become this specific effect. This disclosure describes a pre-execution enforcement
+    architecture that closes that gap: Non-effective hold. Every effect-capable AI output is held as a non-effective proposed action (a Candidate
+    Act). Isolated validation. An enforcement domain isolated from the agent checks the proposed action first. It can run in a trusted execution
+    environment, a hardware security module or an equivalent protected boundary. The checks are: model and workflow integrity; runtime behaviour;
+    output provenance; claim-level factual grounding; a permitted action envelope (blast radius); a dry-run consequence simulation; policy and
+    revocation freshness. Receipt before release. A tamper-evident validation receipt is committed before any authority exists. Act-bound authority. A
+    single-use, non-bearer authority is then released. It is bound to the hash of the act, the exact execution endpoint, the current policy and
+    revocation state, and a nonce. Structural non-completability. In the strongest form, the endpoint holds only a fragment of the execution material.
+    It cannot complete the act until the matching fragment arrives. Copied tokens, privileged software processes and bypass paths therefore fail.
+    Escalated conditional release. Elevated-risk acts are not simply denied. They proceed under escalated conditional release: reduced scope; human
+    approval bound to the exact action; canary or sandbox-first execution; two-phase commit and release tokens; paired rollback capabilities; decaying
+    post-execution monitoring. Further claim coverage. The 29 claims also cover: ephemeral single-use execution environments; enforcement proxies for
+    legacy APIs; anti-downgrade assurance levels; adversarial perturbation margins; privilege ceilings that narrow across multi-agent chains;
+    fragmented or delegated actions; closure of break-glass, fallback and fail-open paths. Latency. Hot-path checks are stated at 1–25 ms, and at
+    sub-millisecond to 3 ms on a DPU or SmartNIC, subject to implementation and benchmarking. EU relevance (AI-generated). This section was generated
+    with AI assistance. It is not legal advice and does not state that any implementation satisfies EU law. Readers must cross-check it against the
+    original PCT filings on WIPO PATENTSCOPE and the official legal texts before drawing any conclusion. Technical alignment with these provisions
+    does not itself establish regulatory compliance. The mechanisms may support objectives associated with: EU AI Act, Article 9: risk management,
+    through graduated and escalated release proportionate to consequence. EU AI Act, Article 12: automatic record-keeping, through receipts committed
+    before any action. EU AI Act, Article 14: human oversight, through approval bound to the exact action rather than a generic click. EU AI Act,
+    Article 15: accuracy, robustness and cybersecurity, through claim-level grounding, consequence simulation and resistance to manipulation. GDPR,
+    Articles 22 and 25: safeguards for automated decisions and data protection by design, by holding personal-data exports and decisions until
+    purpose, recipient and data class are verified. DORA and NIS2: ICT risk control and incident containment for AI-driven operations in finance and
+    essential services, through fail-closed design and closure of break-glass paths. Cyber Resilience Act: secure-by-design products that embed AI
+    agents. PSD2, PSD3 and the Payment Services Regulation: authorisation evidence for agent-initiated payments. eIDAS 2 and the European Digital
+    Identity Wallet: agent mandates and approvals. Industry relevance (AI-generated). This section describes technical relevance only. It is not an
+    endorsement, a validation, a criticism or a statement of infringement, and no company named is affiliated with the inventor. Readers must
+    cross-check it against the original PCT filings and official company sources. These are potential integration scenarios, not confirmed company
+    implementations or product commitments. The architecture could complement the agent-safety work of: Anthropic: Claude, Claude Code, Claude Cowork;
+    OpenAI: ChatGPT agent, Codex, the Agentic Commerce Protocol; Google: Gemini, Agent Gateway, Model Armor, AP2; Microsoft: Copilot, Agent 365, Entra
+    Agent ID; Amazon: Bedrock AgentCore Policy; NVIDIA: OpenShell, BlueField-4 Sentry. It does so by adding act-bound authority, a receipt before
+    release, and endpoint-side verification. In Europe it is relevant to: AI developers: Mistral AI, Aleph Alpha. Enterprise software: SAP. Industrial
+    control: Siemens, Schneider Electric, ABB. Security hardware: Thales, Infineon, NXP. Payments: Adyen, Worldline, SWIFT. Telecom: Ericsson, Nokia,
+    Deutsche Telekom, Orange. Aerospace and space: Airbus, ESA. Standards and supervision: the EU AI Office, CEN-CENELEC JTC 21 and ENISA. This
+    disclosure is based on PCT/IB2026/055760 (WO 2026/150383, filed 7 June 2026, published 16 July 2026). It is a companion filing in the family built
+    on the Mothership application PCT/IB2026/055615, filed 4 June 2026 and publicly disclosed 16 July 2026. The inventor is open to acquihire or
+    strategic collaboration. Keywords: AI safety; agentic AI safety; trustworthy AI; EU AI Act; Article 9; Article 12; Article 14; Article 15; human
+    oversight; record-keeping; robustness and cybersecurity; GDPR; data protection by design; DORA; NIS2; Cyber Resilience Act; PSD3; eIDAS 2; AI
+    agent guardrails; hallucination prevention; prompt injection containment; tool-call authorization; action-level authorization; pre-execution
+    enforcement; non-bearer capability; proof-of-possession; zero-trust execution; human-in-the-loop approval; dry run; blast radius; least privilege;
+    confidential computing; TEE; HSM; DPU; threshold cryptography; two-phase commit; rollback; multi-agent delegation; TOCTOU; fail-closed;
+    break-glass; AI agent payments; Claude; ChatGPT; Gemini; Copilot; AgentCore; Mistral AI
+
+=== END OF BATCH q006 (50 records) ===

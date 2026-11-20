@@ -1,0 +1,17 @@
+{
+"label": "ADJ:b015@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00642",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests LLM ambiguity/epistemic risk, possibly uncertainty or hedging, maybe only a position paper."
+},
+{
+"id": "R00650",
+"d": "unclear",
+"code": "UNC",
+"why": "Citation monoculture across 11 LLMs; plausibly epistemic homogeneity of LLM knowledge (B), not stated."
+}
+]
+}
