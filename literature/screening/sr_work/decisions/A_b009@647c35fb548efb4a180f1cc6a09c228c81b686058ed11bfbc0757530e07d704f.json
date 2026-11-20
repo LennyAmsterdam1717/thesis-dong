@@ -1,0 +1,305 @@
+{
+"label": "A:b009@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00325",
+"d": "exclude",
+"code": "E4",
+"why": "LLM stock recommendation accuracy and returns only"
+},
+{
+"id": "R00326",
+"d": "exclude",
+"code": "E4",
+"why": "Financial advisor system title, no certainty or knowledge angle"
+},
+{
+"id": "R00327",
+"d": "exclude",
+"code": "E4",
+"why": "Portfolio recommender framework, performance only"
+},
+{
+"id": "R00328",
+"d": "exclude",
+"code": "E4",
+"why": "Investment bias and portfolio risk, no certainty or knowledge analysis"
+},
+{
+"id": "R00329",
+"d": "exclude",
+"code": "E4",
+"why": "Quality ratings of tax advice by experts"
+},
+{
+"id": "R00330",
+"d": "exclude",
+"code": "E2",
+"why": "Overview of LLM applications in finance, not primary research"
+},
+{
+"id": "R00331",
+"d": "exclude",
+"code": "E4",
+"why": "Explanation personalisation user study, no confidence angle"
+},
+{
+"id": "R00332",
+"d": "exclude",
+"code": "E2",
+"why": "Narrative review"
+},
+{
+"id": "R00333",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; inter-model convergence may concern homogeneity of LLM outputs"
+},
+{
+"id": "R00334",
+"d": "exclude",
+"code": "E4",
+"why": "Distress and portfolio risk in advice, no concept in title"
+},
+{
+"id": "R00335",
+"d": "exclude",
+"code": "E4",
+"why": "Financial assistant app, chain-of-thought effects only"
+},
+{
+"id": "R00336",
+"d": "exclude",
+"code": "E2",
+"why": "Discussion paper, explicitly not empirical"
+},
+{
+"id": "R00337",
+"d": "exclude",
+"code": "E4",
+"why": "Financial education with LLMs, no concept in title"
+},
+{
+"id": "R00338",
+"d": "exclude",
+"code": "E4",
+"why": "RAG stock recommendation, accuracy metrics only"
+},
+{
+"id": "R00339",
+"d": "exclude",
+"code": "E4",
+"why": "Fintech education framework, no concept"
+},
+{
+"id": "R00340",
+"d": "exclude",
+"code": "E4",
+"why": "Country and language variation in advice, no certainty or knowledge analysis"
+},
+{
+"id": "R00341",
+"d": "exclude",
+"code": "E4",
+"why": "Fine-tuning vs RAG for insurance QA accuracy"
+},
+{
+"id": "R00342",
+"d": "exclude",
+"code": "E4",
+"why": "Gender and racial bias in advice, no abstract"
+},
+{
+"id": "R00343",
+"d": "exclude",
+"code": "E4",
+"why": "Gender and racial bias in advice, no abstract"
+},
+{
+"id": "R00344",
+"d": "exclude",
+"code": "E4",
+"why": "Financial advice alignment title, no concept"
+},
+{
+"id": "R00345",
+"d": "exclude",
+"code": "E4",
+"why": "Gender bias in financial advice"
+},
+{
+"id": "R00346",
+"d": "exclude",
+"code": "E2",
+"why": "Book chapter on chatbots and financial literacy"
+},
+{
+"id": "R00347",
+"d": "exclude",
+"code": "E4",
+"why": "Advice comparison across humans and LLMs, no concept"
+},
+{
+"id": "R00348",
+"d": "exclude",
+"code": "E4",
+"why": "Personal finance chatbot platform, no concept"
+},
+{
+"id": "R00349",
+"d": "exclude",
+"code": "E4",
+"why": "Risk preferences of LLMs, not certainty or knowledge"
+},
+{
+"id": "R00350",
+"d": "exclude",
+"code": "E3",
+"why": "Human questionnaire survey on chatbot use"
+},
+{
+"id": "R00351",
+"d": "exclude",
+"code": "E5",
+"why": "Chatbot safety, no confidence or knowledge analysis"
+},
+{
+"id": "R00352",
+"d": "exclude",
+"code": "E3",
+"why": "Investor survey, not LLM outputs"
+},
+{
+"id": "R00353",
+"d": "exclude",
+"code": "E4",
+"why": "Financial agent risk-gate benchmark, no certainty analysis"
+},
+{
+"id": "R00354",
+"d": "exclude",
+"code": "E3",
+"why": "Questionnaire on chatbot use, planned study"
+},
+{
+"id": "R00355",
+"d": "exclude",
+"code": "E4",
+"why": "Financial literacy experiment with chatbots, no confidence angle"
+},
+{
+"id": "R00356",
+"d": "exclude",
+"code": "E4",
+"why": "Linguistic construction analysis of advice text"
+},
+{
+"id": "R00357",
+"d": "exclude",
+"code": "E4",
+"why": "RAG finance chatbot description"
+},
+{
+"id": "R00358",
+"d": "exclude",
+"code": "E4",
+"why": "RAG advisory chatbot, hallucination mitigation only"
+},
+{
+"id": "R00359",
+"d": "exclude",
+"code": "E4",
+"why": "Predictive finance solutions description"
+},
+{
+"id": "R00360",
+"d": "exclude",
+"code": "E9",
+"why": "Product advertisement, not research"
+},
+{
+"id": "R00361",
+"d": "unclear",
+"code": "UNC",
+"why": "Chatbot investment advice evaluation mentions consistency without saying how framed"
+},
+{
+"id": "R00362",
+"d": "exclude",
+"code": "E5",
+"why": "Chatbot persuasion of autistic users, no concept"
+},
+{
+"id": "R00363",
+"d": "exclude",
+"code": "E3",
+"why": "Community training programme for SME owners"
+},
+{
+"id": "R00364",
+"d": "exclude",
+"code": "E4",
+"why": "Portfolio visualization with LLM explanations"
+},
+{
+"id": "R00365",
+"d": "exclude",
+"code": "E4",
+"why": "Robo-advisory framework, no concept"
+},
+{
+"id": "R00366",
+"d": "exclude",
+"code": "E4",
+"why": "GPT-4 recommendations vs analysts, performance and bias"
+},
+{
+"id": "R00368",
+"d": "exclude",
+"code": "E4",
+"why": "Chatbot rhetoric for Bitcoin adoption, no concept"
+},
+{
+"id": "R00369",
+"d": "exclude",
+"code": "E9",
+"why": "Product advertisement, not research"
+},
+{
+"id": "R00370",
+"d": "exclude",
+"code": "E5",
+"why": "Persona engineering method, no concept in title"
+},
+{
+"id": "R00371",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual paper without empirical analysis"
+},
+{
+"id": "R00372",
+"d": "exclude",
+"code": "E3",
+"why": "Investor survey SEM, not LLM outputs"
+},
+{
+"id": "R00373",
+"d": "exclude",
+"code": "E5",
+"why": "LLM cost accounting framework"
+},
+{
+"id": "R00374",
+"d": "exclude",
+"code": "E4",
+"why": "LLM stock ranking weight sensitivity, no concept"
+},
+{
+"id": "R00376",
+"d": "exclude",
+"code": "E5",
+"why": "Misalignment introspection, not factual knowledge or confidence"
+}
+]
+}

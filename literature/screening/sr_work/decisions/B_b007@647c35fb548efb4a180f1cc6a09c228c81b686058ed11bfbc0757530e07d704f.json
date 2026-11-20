@@ -1,0 +1,251 @@
+{
+"label": "B:b007@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00231",
+"d": "include",
+"code": "INC",
+"why": "LLM consistency/confidence estimation vs human perception, logit-based method"
+},
+{
+"id": "R00232",
+"d": "exclude",
+"code": "E3",
+"why": "BERT fine-tuned as classifier, not generative LLM"
+},
+{
+"id": "R00233",
+"d": "exclude",
+"code": "E5",
+"why": "Tourist trust survey; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00234",
+"d": "exclude",
+"code": "E5",
+"why": "Student experience focus groups; no LLM certainty or knowledge"
+},
+{
+"id": "R00235",
+"d": "exclude",
+"code": "E5",
+"why": "Human-LLM cooperation in game; title shows no concept A/B"
+},
+{
+"id": "R00236",
+"d": "exclude",
+"code": "E5",
+"why": "Legal chatbot accuracy and user trust; no confidence or knowledge analysis"
+},
+{
+"id": "R00237",
+"d": "exclude",
+"code": "E4",
+"why": "Financial chatbot trust experiment; no LLM confidence or knowledge angle"
+},
+{
+"id": "R00238",
+"d": "exclude",
+"code": "E5",
+"why": "Prompt engineering for startups; no certainty or knowledge"
+},
+{
+"id": "R00239",
+"d": "exclude",
+"code": "E5",
+"why": "Function-allocation failures in human-LLM collaboration; no confidence analysis"
+},
+{
+"id": "R00240",
+"d": "exclude",
+"code": "E5",
+"why": "Medical education chatbot evaluation; no certainty or knowledge"
+},
+{
+"id": "R00241",
+"d": "include",
+"code": "INC",
+"why": "Multi-agent LLM framework using calibrated confidence and trust calibration"
+},
+{
+"id": "R00242",
+"d": "exclude",
+"code": "E2",
+"why": "Registered report proposal, no data collected"
+},
+{
+"id": "R00243",
+"d": "include",
+"code": "INC",
+"why": "Hallucination detection via semantic entropy and token uncertainty, confidence indicators"
+},
+{
+"id": "R00244",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; hedging and epistemic stance in chatbots suggests concept A"
+},
+{
+"id": "R00245",
+"d": "exclude",
+"code": "E2",
+"why": "Review of literature, conceptual synthesis"
+},
+{
+"id": "R00246",
+"d": "exclude",
+"code": "E2",
+"why": "Opinion manuscript on hallucination ethics"
+},
+{
+"id": "R00247",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review protocol on companion chatbots"
+},
+{
+"id": "R00248",
+"d": "exclude",
+"code": "E5",
+"why": "EFL chatbot perception survey; learner confidence unrelated"
+},
+{
+"id": "R00249",
+"d": "exclude",
+"code": "E5",
+"why": "GPT-4o radiology accuracy only"
+},
+{
+"id": "R00251",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; log anomaly detection, title shows no concept A/B"
+},
+{
+"id": "R00252",
+"d": "exclude",
+"code": "E5",
+"why": "EFL student perceptions; writing confidence, not LLM confidence"
+},
+{
+"id": "R00253",
+"d": "exclude",
+"code": "E5",
+"why": "EFL engagement qualitative study"
+},
+{
+"id": "R00254",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; feedback efficacy in Spanish writing"
+},
+{
+"id": "R00255",
+"d": "exclude",
+"code": "E5",
+"why": "EFL classroom perceptions study"
+},
+{
+"id": "R00256",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; technology adoption model study"
+},
+{
+"id": "R00257",
+"d": "exclude",
+"code": "E5",
+"why": "EFL writing perceptions survey"
+},
+{
+"id": "R00258",
+"d": "exclude",
+"code": "E5",
+"why": "EFL student perceptions"
+},
+{
+"id": "R00259",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey on ChatGPT use"
+},
+{
+"id": "R00260",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of writing support"
+},
+{
+"id": "R00261",
+"d": "exclude",
+"code": "E5",
+"why": "Undergraduate experiences qualitative study"
+},
+{
+"id": "R00262",
+"d": "exclude",
+"code": "E5",
+"why": "Scenario forecasting for nursing research"
+},
+{
+"id": "R00263",
+"d": "exclude",
+"code": "E5",
+"why": "Speaking skills and digital tools; no concept A/B"
+},
+{
+"id": "R00264",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions in reading comprehension"
+},
+{
+"id": "R00265",
+"d": "exclude",
+"code": "E5",
+"why": "Usability and enjoyment perceptions"
+},
+{
+"id": "R00266",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions on critical thinking"
+},
+{
+"id": "R00267",
+"d": "exclude",
+"code": "E5",
+"why": "Phenomenological study of maths learning"
+},
+{
+"id": "R00268",
+"d": "exclude",
+"code": "E5",
+"why": "Lecturer awareness survey"
+},
+{
+"id": "R00269",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception survey, technology acceptance"
+},
+{
+"id": "R00270",
+"d": "exclude",
+"code": "E5",
+"why": "Academic integrity perceptions of preservice teachers"
+},
+{
+"id": "R00271",
+"d": "exclude",
+"code": "E5",
+"why": "Student views on vocabulary and grammar"
+},
+{
+"id": "R00272",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic literature review"
+}
+]
+}

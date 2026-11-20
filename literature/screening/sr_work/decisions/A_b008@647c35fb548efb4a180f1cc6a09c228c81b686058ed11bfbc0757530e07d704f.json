@@ -1,0 +1,294 @@
+{
+"label": "A:b008@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00273",
+"d": "exclude",
+"code": "E5",
+"why": "User perception survey of AI language tools; no LLM confidence or knowledge"
+},
+{
+"id": "R00274",
+"d": "exclude",
+"code": "E5",
+"why": "Student self-efficacy questionnaire; not LLM confidence or knowledge"
+},
+{
+"id": "R00275",
+"d": "exclude",
+"code": "E5",
+"why": "EFL learner interviews on ChatGPT; no LLM certainty or knowledge analysis"
+},
+{
+"id": "R00276",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review"
+},
+{
+"id": "R00277",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic literature review"
+},
+{
+"id": "R00278",
+"d": "exclude",
+"code": "E5",
+"why": "Student experiences of ChatGPT in writing; no concept A or B"
+},
+{
+"id": "R00279",
+"d": "exclude",
+"code": "E2",
+"why": "Critical narrative review"
+},
+{
+"id": "R00280",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception questionnaire (TAM); no concept A or B"
+},
+{
+"id": "R00281",
+"d": "exclude",
+"code": "E5",
+"why": "Pre-service teacher interviews; no concept A or B"
+},
+{
+"id": "R00282",
+"d": "exclude",
+"code": "E5",
+"why": "Writing self-efficacy intervention; no LLM certainty or knowledge"
+},
+{
+"id": "R00283",
+"d": "exclude",
+"code": "E5",
+"why": "Accounting student survey commentary; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00284",
+"d": "exclude",
+"code": "E5",
+"why": "Lesson planning case study; no concept A or B"
+},
+{
+"id": "R00286",
+"d": "exclude",
+"code": "E5",
+"why": "Teacher reflections on EFL integration; no concept A or B"
+},
+{
+"id": "R00287",
+"d": "exclude",
+"code": "E5",
+"width": "",
+"why": "Writing pedagogy study; no concept A or B"
+},
+{
+"id": "R00288",
+"d": "unclear",
+"code": "UNC",
+"why": "Student trust calibration toward ChatGPT outputs; unclear if LLM confidence studied"
+},
+{
+"id": "R00290",
+"d": "exclude",
+"code": "E5",
+"why": "Student trust/skepticism survey; no LLM confidence analysis"
+},
+{
+"id": "R00291",
+"d": "exclude",
+"code": "E5",
+"why": "Translation classroom case study; no concept A or B"
+},
+{
+"id": "R00292",
+"d": "exclude",
+"code": "E5",
+"why": "Grammar and fluency intervention; no concept A or B"
+},
+{
+"id": "R00293",
+"d": "exclude",
+"code": "E5",
+"why": "Student adoption survey (TAM); no concept A or B"
+},
+{
+"id": "R00294",
+"d": "exclude",
+"code": "E5",
+"why": "IEP goal writing quality study; no concept A or B"
+},
+{
+"id": "R00295",
+"d": "exclude",
+"code": "E5",
+"why": "Readiness and satisfaction survey; no concept A or B"
+},
+{
+"id": "R00297",
+"d": "exclude",
+"code": "E5",
+"why": "Qualitative EFL autonomy interviews; no concept A or B"
+},
+{
+"id": "R00298",
+"d": "exclude",
+"code": "E5",
+"why": "Focus group on academic self-efficacy; no concept A or B"
+},
+{
+"id": "R00299",
+"d": "exclude",
+"code": "E5",
+"why": "Dental terminology learning study; no concept A or B"
+},
+{
+"id": "R00300",
+"d": "exclude",
+"code": "E5",
+"why": "Questionnaire on fluency and usage; no concept A or B"
+},
+{
+"id": "R00301",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of speaking feedback; no concept A or B"
+},
+{
+"id": "R00303",
+"d": "exclude",
+"code": "E4",
+"why": "ChatGPT in real estate finance education; student confidence, not LLM confidence"
+},
+{
+"id": "R00304",
+"d": "exclude",
+"code": "E5",
+"why": "Public trust survey on healthcare ChatGPT; no LLM confidence analysis"
+},
+{
+"id": "R00305",
+"d": "exclude",
+"code": "E4",
+"why": "Finance reasoning and explainability method; no certainty or knowledge angle"
+},
+{
+"id": "R00306",
+"d": "exclude",
+"code": "E4",
+"why": "Product bias in investment recommendations; no certainty or knowledge angle"
+},
+{
+"id": "R00307",
+"d": "exclude",
+"code": "E4",
+"why": "Financial reasoning LLM trained with RL; accuracy only"
+},
+{
+"id": "R00308",
+"d": "exclude",
+"code": "E3",
+"why": "BERT re-ranker for financial QA, not generative LLM"
+},
+{
+"id": "R00309",
+"d": "exclude",
+"code": "E4",
+"why": "LLM trading agent system; no certainty or knowledge angle"
+},
+{
+"id": "R00310",
+"d": "exclude",
+"code": "E5",
+"why": "Privacy norms survey of chatbot users; no concept A or B"
+},
+{
+"id": "R00311",
+"d": "exclude",
+"code": "E4",
+"why": "Fine-tuning data framework for personal finance LLM; accuracy and cost only"
+},
+{
+"id": "R00312",
+"d": "exclude",
+"code": "E4",
+"why": "LLM survey-response agents on retirement; predictive accuracy, no confidence analysis"
+},
+{
+"id": "R00313",
+"d": "exclude",
+"code": "E4",
+"why": "Input sensitivity of investment advice; no confidence or knowledge angle"
+},
+{
+"id": "R00314",
+"d": "exclude",
+"code": "E4",
+"why": "Asset preference audit via SAE feature; preference not factual knowledge"
+},
+{
+"id": "R00315",
+"d": "exclude",
+"code": "E4",
+"why": "LLM financial literacy assessment of players; no concept A or B"
+},
+{
+"id": "R00316",
+"d": "exclude",
+"code": "E4",
+"why": "Credit card numerical reasoning benchmark; accuracy only"
+},
+{
+"id": "R00317",
+"d": "exclude",
+"code": "E4",
+"why": "GRPO financial advice quality; no certainty or knowledge angle"
+},
+{
+"id": "R00318",
+"d": "exclude",
+"code": "E4",
+"why": "Ontology-based RAG auditability in finance; no uncertainty analysis"
+},
+{
+"id": "R00319",
+"d": "include",
+"code": "INC",
+"why": "Repeated-run consistency of LLM financial advice under changed risk answers"
+},
+{
+"id": "R00320",
+"d": "exclude",
+"code": "E5",
+"why": "Safety disposition drift measurement; no confidence or factual knowledge"
+},
+{
+"id": "R00321",
+"d": "exclude",
+"code": "E4",
+"why": "Demographic bias audit of financial advice; no certainty or knowledge angle"
+},
+{
+"id": "R00322",
+"d": "exclude",
+"code": "E5",
+"why": "Recommendation reranking compute allocation; no concept A or B"
+},
+{
+"id": "R00323",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; title on LLM financial advice, no concept suggested"
+},
+{
+"id": "R00324",
+"d": "exclude",
+"code": "E4",
+"why": "Financial advisor LLM system; accuracy and speed only"
+}
+]
+}

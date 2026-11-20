@@ -1,0 +1,305 @@
+{
+"label": "A:b010@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00377",
+"d": "exclude",
+"code": "E4",
+"why": "Finance LLM chat analysis (home bias, appreciation), no certainty/knowledge angle"
+},
+{
+"id": "R00378",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; LLMs in investing, confirmation-seeking, no certainty angle"
+},
+{
+"id": "R00379",
+"d": "exclude",
+"code": "E4",
+"why": "Personal finance RAG app, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00381",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; investor-LLM conversations, behavioural finance, no concept"
+},
+{
+"id": "R00382",
+"d": "exclude",
+"code": "E4",
+"why": "Racial bias in ChatGPT financial emails, no certainty/knowledge angle"
+},
+{
+"id": "R00383",
+"d": "exclude",
+"code": "E2",
+"why": "Overview of ChatGPT applications and challenges, not primary research"
+},
+{
+"id": "R00385",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of hallucination"
+},
+{
+"id": "R00386",
+"d": "exclude",
+"code": "E4",
+"why": "Financial hallucination detection/editing via fine-tuning, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00387",
+"d": "include",
+"code": "INC",
+"why": "LLM uncertainty decoding assessing prediction confidence, Fedspeak finance"
+},
+{
+"id": "R00388",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM conformity under uncertainty; confidence reported, unclear if calibration analysed"
+},
+{
+"id": "R00389",
+"d": "include",
+"code": "INC",
+"why": "Token entropy uncertainty for hallucination detection in LLMs"
+},
+{
+"id": "R00390",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence elicitation and calibration method"
+},
+{
+"id": "R00391",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination detection from representations; unclear if uncertainty or knowledge framing"
+},
+{
+"id": "R00392",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of agent hallucinations"
+},
+{
+"id": "R00393",
+"d": "include",
+"code": "INC",
+"why": "LLM calibration and overconfidence of elicited priors benchmark"
+},
+{
+"id": "R00394",
+"d": "exclude",
+"code": "E5",
+"why": "External fact-verification pipeline, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00395",
+"d": "include",
+"code": "INC",
+"why": "Consistency-based hallucination detection across probes and LLMs"
+},
+{
+"id": "R00396",
+"d": "include",
+"code": "INC",
+"why": "Betting-based calibrated confidence signals from LLMs"
+},
+{
+"id": "R00397",
+"d": "include",
+"code": "INC",
+"why": "Composite reliability score with calibration and uncertainty quantification"
+},
+{
+"id": "R00398",
+"d": "exclude",
+"code": "E4",
+"why": "SLM financial classification hallucination mitigation, no uncertainty/knowledge angle"
+},
+{
+"id": "R00399",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination framework mentions uncertainty estimation, calibration; evaluation unclear"
+},
+{
+"id": "R00400",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination detection taxonomy; unclear whether uncertainty or knowledge analysed"
+},
+{
+"id": "R00401",
+"d": "include",
+"code": "INC",
+"why": "Compares LLM uncertainty structures with expert uncertainty"
+},
+{
+"id": "R00402",
+"d": "unclear",
+"code": "UNC",
+"why": "Trading agents, cross-agent consistency reducing decision uncertainty; unclear confidence measure"
+},
+{
+"id": "R00403",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination neurons predicting errors across knowledge domains; framing unclear"
+},
+{
+"id": "R00404",
+"d": "unclear",
+"code": "UNC",
+"why": "Financial verification benchmark mentions calibration; unclear if confidence measured"
+},
+{
+"id": "R00405",
+"d": "exclude",
+"code": "E4",
+"why": "Financial pipeline hallucination propagation, no uncertainty or knowledge angle"
+},
+{
+"id": "R00406",
+"d": "include",
+"code": "INC",
+"why": "Multi-signal confidence estimation, selective prediction, ECE for LLM extraction"
+},
+{
+"id": "R00407",
+"d": "include",
+"code": "INC",
+"why": "Confident hallucinations, probes vs behavioural confidence, financial QA"
+},
+{
+"id": "R00408",
+"d": "include",
+"code": "INC",
+"why": "Calibrating semantic uncertainty from LLM probabilities"
+},
+{
+"id": "R00409",
+"d": "exclude",
+"code": "E4",
+"why": "Compression calibration data, not confidence calibration"
+},
+{
+"id": "R00410",
+"d": "exclude",
+"code": "E4",
+"why": "Forecast feature weight calibration, not LLM confidence"
+},
+{
+"id": "R00411",
+"d": "include",
+"code": "INC",
+"why": "LLM confidence recalibration for financial decisions"
+},
+{
+"id": "R00412",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy and token uncertainty hallucination detection"
+},
+{
+"id": "R00413",
+"d": "unclear",
+"code": "UNC",
+"why": "Fine-tuning induces numerical hallucination, memorized values; knowledge link unclear"
+},
+{
+"id": "R00415",
+"d": "exclude",
+"code": "E5",
+"why": "Fact-checking system with external APIs, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00416",
+"d": "unclear",
+"code": "UNC",
+"why": "Finance hallucination framework includes confidence calibration signal; role unclear"
+},
+{
+"id": "R00417",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; accounting hallucinations, title shows no concept"
+},
+{
+"id": "R00418",
+"d": "exclude",
+"code": "E5",
+"why": "Retrieval-grounded hallucination detection, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00419",
+"d": "exclude",
+"code": "E2",
+"why": "Review of RAG hallucination suppression"
+},
+{
+"id": "R00420",
+"d": "exclude",
+"code": "E5",
+"why": "Retrieval-grounded hallucination detection, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00421",
+"d": "exclude",
+"code": "E2",
+"why": "Literature-based review of prompt engineering for hallucination"
+},
+{
+"id": "R00422",
+"d": "unclear",
+"code": "UNC",
+"why": "Hallucination detection combining uncertainty estimation; small evaluation, detail unclear"
+},
+{
+"id": "R00423",
+"d": "exclude",
+"code": "E2",
+"why": "Review of hallucination"
+},
+{
+"id": "R00424",
+"d": "exclude",
+"code": "E2",
+"why": "Review of hallucination"
+},
+{
+"id": "R00425",
+"d": "unclear",
+"code": "UNC",
+"why": "Entropy-gated decoding calibration in RAG; unclear if uncertainty analysed"
+},
+{
+"id": "R00426",
+"d": "exclude",
+"code": "E4",
+"why": "Tool-augmented tax computation accuracy, no certainty or knowledge angle"
+},
+{
+"id": "R00427",
+"d": "exclude",
+"code": "E2",
+"why": "Literature review"
+},
+{
+"id": "R00428",
+"d": "exclude",
+"code": "E5",
+"why": "Hallucination reclassification via prompt perturbation, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00429",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; economic incentives argument, title shows no concept"
+}
+]
+}

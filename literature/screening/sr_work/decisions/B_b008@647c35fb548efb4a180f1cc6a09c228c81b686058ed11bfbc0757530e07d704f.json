@@ -1,0 +1,294 @@
+{
+"label": "B:b008@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00273",
+"d": "exclude",
+"code": "E5",
+"why": "Survey of language-tool use; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00274",
+"d": "exclude",
+"code": "E5",
+"why": "Student self-efficacy questionnaire; no LLM certainty or knowledge"
+},
+{
+"id": "R00275",
+"d": "exclude",
+"code": "E5",
+"why": "EFL learner perceptions interviews; no concept A or B"
+},
+{
+"id": "R00276",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review"
+},
+{
+"id": "R00277",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic literature review"
+},
+{
+"id": "R00278",
+"d": "exclude",
+"code": "E5",
+"why": "Student experiences with ChatGPT in writing; no concept"
+},
+{
+"id": "R00279",
+"d": "exclude",
+"code": "E2",
+"why": "Critical narrative review"
+},
+{
+"id": "R00280",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception survey (TAM); no concept"
+},
+{
+"id": "R00281",
+"d": "exclude",
+"code": "E5",
+"why": "Pre-service teacher experiences; no concept"
+},
+{
+"id": "R00282",
+"d": "exclude",
+"code": "E5",
+"width": "",
+"why": "Writing self-efficacy intervention; no LLM certainty or knowledge"
+},
+{
+"id": "R00283",
+"d": "exclude",
+"code": "E5",
+"why": "Commentary on student ChatGPT perceptions; no concept"
+},
+{
+"id": "R00284",
+"d": "exclude",
+"code": "E5",
+"why": "Lesson planning case study; no concept"
+},
+{
+"id": "R00286",
+"d": "exclude",
+"code": "E5",
+"why": "Teacher reflections on ChatGPT in EFL; no concept"
+},
+{
+"id": "R00287",
+"d": "exclude",
+"code": "E5",
+"why": "Writing pedagogy intervention; no concept"
+},
+{
+"id": "R00288",
+"d": "unclear",
+"code": "UNC",
+"why": "Student trust calibration toward ChatGPT output; may count as user trust"
+},
+{
+"id": "R00290",
+"d": "unclear",
+"code": "UNC",
+"why": "Trust and skepticism toward ChatGPT; unclear if LLM confidence involved"
+},
+{
+"id": "R00291",
+"d": "exclude",
+"code": "E5",
+"why": "Translation class case study; no concept"
+},
+{
+"id": "R00292",
+"d": "exclude",
+"code": "E5",
+"why": "Grammar and fluency intervention; no concept"
+},
+{
+"id": "R00293",
+"d": "exclude",
+"code": "E5",
+"why": "Technology acceptance survey; no concept"
+},
+{
+"id": "R00294",
+"d": "exclude",
+"code": "E5",
+"why": "IEP goal writing quality study; no concept"
+},
+{
+"id": "R00295",
+"d": "exclude",
+"code": "E5",
+"why": "Readiness and satisfaction survey; no concept"
+},
+{
+"id": "R00297",
+"d": "exclude",
+"code": "E5",
+"why": "Qualitative EFL autonomy study; no concept"
+},
+{
+"id": "R00298",
+"d": "exclude",
+"code": "E5",
+"why": "Focus group on self-efficacy; no concept"
+},
+{
+"id": "R00299",
+"d": "exclude",
+"code": "E5",
+"why": "Dental terminology learning study; no concept"
+},
+{
+"id": "R00300",
+"d": "exclude",
+"code": "E5",
+"why": "Usage survey on fluency; no concept"
+},
+{
+"id": "R00301",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of feedback; no concept"
+},
+{
+"id": "R00303",
+"d": "exclude",
+"code": "E5",
+"why": "Student learning outcomes; student confidence, not LLM confidence"
+},
+{
+"id": "R00304",
+"d": "unclear",
+"code": "UNC",
+"why": "Public trust in ChatGPT for health info; unclear if LLM confidence studied"
+},
+{
+"id": "R00305",
+"d": "exclude",
+"code": "E4",
+"why": "Finance/legal reasoning fine-tuning; no uncertainty or knowledge angle"
+},
+{
+"id": "R00306",
+"d": "exclude",
+"code": "E4",
+"why": "Product bias in investment recommendations; no certainty or knowledge analysis"
+},
+{
+"id": "R00307",
+"d": "exclude",
+"code": "E4",
+"why": "Financial reasoning model training; accuracy only"
+},
+{
+"id": "R00308",
+"d": "exclude",
+"code": "E3",
+"why": "BERT re-ranker for QA, not generative LLM"
+},
+{
+"id": "R00309",
+"d": "exclude",
+"code": "E4",
+"why": "LLM trading agent system; no concept"
+},
+{
+"id": "R00310",
+"d": "exclude",
+"code": "E5",
+"why": "Privacy norms survey; no concept"
+},
+{
+"id": "R00311",
+"d": "exclude",
+"code": "E4",
+"why": "Personal finance fine-tuning data framework; accuracy metrics only"
+},
+{
+"id": "R00312",
+"d": "exclude",
+"code": "E4",
+"why": "LLM agents predicting survey answers; no certainty or knowledge angle"
+},
+{
+"id": "R00313",
+"d": "exclude",
+"code": "E4",
+"why": "Heuristic collapse in investment advice; input sensitivity, no confidence"
+},
+{
+"id": "R00314",
+"d": "exclude",
+"code": "E4",
+"why": "Asset preference audit; not factual knowledge or confidence"
+},
+{
+"id": "R00315",
+"d": "exclude",
+"code": "E4",
+"why": "Financial literacy assessment pipeline; no concept"
+},
+{
+"id": "R00316",
+"d": "exclude",
+"code": "E4",
+"why": "Financial reasoning benchmark; accuracy and errors only"
+},
+{
+"id": "R00317",
+"d": "exclude",
+"code": "E4",
+"why": "GRPO advice generation; no uncertainty or knowledge angle"
+},
+{
+"id": "R00318",
+"d": "exclude",
+"code": "E4",
+"why": "Auditable RAG finance; traceability, not LLM confidence"
+},
+{
+"id": "R00319",
+"d": "unclear",
+"code": "UNC",
+"why": "Advice instability across repeated risk answers; reliability framing, confidence unclear"
+},
+{
+"id": "R00320",
+"d": "exclude",
+"code": "E5",
+"why": "Misalignment drift measurement; not certainty or factual knowledge"
+},
+{
+"id": "R00321",
+"d": "exclude",
+"code": "E4",
+"why": "Demographic bias in financial advice; no concept"
+},
+{
+"id": "R00322",
+"d": "exclude",
+"code": "E5",
+"why": "Recommendation reranking compute cascade; no LLM confidence analysis"
+},
+{
+"id": "R00323",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; title suggests finance only, no concept"
+},
+{
+"id": "R00324",
+"d": "exclude",
+"code": "E4",
+"why": "Financial advisor system; accuracy only"
+}
+]
+}

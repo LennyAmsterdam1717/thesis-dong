@@ -1,0 +1,209 @@
+{
+"label": "B:b006@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00196",
+"d": "unclear",
+"code": "UNC",
+"why": "User perception of LLM fluent confident output; abstract is only intro, design unclear"
+},
+{
+"id": "R00197",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic review"
+},
+{
+"id": "R00198",
+"d": "include",
+"code": "INC",
+"why": "Experiment on verbal hedging and confidence indicators in LLM output and trust calibration"
+},
+{
+"id": "R00199",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework with propositions, no empirical analysis"
+},
+{
+"id": "R00201",
+"d": "include",
+"code": "INC",
+"why": "Evaluates visual conventions for LLM output uncertainty and trust calibration"
+},
+{
+"id": "R00202",
+"d": "exclude",
+"code": "E2",
+"why": "Pre-registered experiment plan, no results (protocol)"
+},
+{
+"id": "R00203",
+"d": "include",
+"code": "INC",
+"why": "Expressed LLM confidence vs accuracy and user trust across six models"
+},
+{
+"id": "R00204",
+"d": "exclude",
+"code": "E5",
+"why": "GPT-4 chatbot trust/empathy, no LLM confidence or knowledge"
+},
+{
+"id": "R00205",
+"d": "exclude",
+"code": "E5",
+"why": "GPT-4 chatbot trust/empathy, no LLM confidence or knowledge"
+},
+{
+"id": "R00206",
+"d": "exclude",
+"code": "E3",
+"why": "Customer-service chatbots, not LLMs; interview study on trust"
+},
+{
+"id": "R00207",
+"d": "exclude",
+"code": "E5",
+"why": "Usability of ChatGPT in qualitative analysis; no LLM confidence analysis"
+},
+{
+"id": "R00208",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM hedging/deferral under implied user trust; unclear if confidence studied"
+},
+{
+"id": "R00209",
+"d": "include",
+"code": "INC",
+"why": "Linguistic and numerical uncertainty expression in LLM answers, effects on reliance"
+},
+{
+"id": "R00210",
+"d": "include",
+"code": "INC",
+"why": "Verbalized LLM uncertainty effects on user trust and performance"
+},
+{
+"id": "R00211",
+"d": "exclude",
+"code": "E5",
+"why": "Student ChatGPT dependence, no confidence or knowledge angle"
+},
+{
+"id": "R00212",
+"d": "unclear",
+"code": "UNC",
+"why": "LLM subjective trust framework including uncertainty dimension; unclear empirical content"
+},
+{
+"id": "R00213",
+"d": "include",
+"code": "INC",
+"why": "Effect of LLM model confidence on reader acceptance of suggestions"
+},
+{
+"id": "R00214",
+"d": "exclude",
+"code": "E2",
+"why": "Meta-analysis of chatbot trust studies, not LLM-specific"
+},
+{
+"id": "R00215",
+"d": "exclude",
+"code": "E2",
+"why": "Meta-analysis of chatbot trust studies, not LLM-specific"
+},
+{
+"id": "R00216",
+"d": "exclude",
+"code": "E5",
+"why": "HCI efficiency study; no LLM confidence or calibration measured"
+},
+{
+"id": "R00217",
+"d": "exclude",
+"code": "E3",
+"why": "Banking chatbot questionnaire, not LLM-specific"
+},
+{
+"id": "R00218",
+"d": "exclude",
+"code": "E2",
+"why": "Literature review"
+},
+{
+"id": "R00219",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; legal chatbot title shows no concept A or B"
+},
+{
+"id": "R00220",
+"d": "exclude",
+"code": "E2",
+"why": "Opinion piece on chatbots in education"
+},
+{
+"id": "R00221",
+"d": "exclude",
+"code": "E3",
+"why": "Conceptual chatbot personalization framework, not LLM study"
+},
+{
+"id": "R00222",
+"d": "unclear",
+"code": "UNC",
+"why": "VLM UAV system communicating confidence levels; confidence role unclear"
+},
+{
+"id": "R00223",
+"d": "unclear",
+"code": "UNC",
+"why": "fMRI trust study on LLM calibration styles; may be protocol"
+},
+{
+"id": "R00224",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual narrative review"
+},
+{
+"id": "R00225",
+"d": "unclear",
+"code": "UNC",
+"why": "Multi-agent LLM council gives confidence estimates; unclear if confidence evaluated"
+},
+{
+"id": "R00226",
+"d": "exclude",
+"code": "E2",
+"why": "Supplementary dataset of a scoping review"
+},
+{
+"id": "R00227",
+"d": "exclude",
+"code": "E5",
+"why": "Object hallucination mitigation in vision-language models, no uncertainty analysis"
+},
+{
+"id": "R00228",
+"d": "exclude",
+"code": "E3",
+"why": "Banking chatbot adoption survey, not LLM-specific"
+},
+{
+"id": "R00229",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; title shows no concept A or B"
+},
+{
+"id": "R00230",
+"d": "exclude",
+"code": "E3",
+"why": "Bank chatbot satisfaction survey, not LLM-specific"
+}
+]
+}

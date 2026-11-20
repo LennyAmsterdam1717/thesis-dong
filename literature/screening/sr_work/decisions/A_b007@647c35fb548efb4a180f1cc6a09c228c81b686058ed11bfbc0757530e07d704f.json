@@ -1,0 +1,252 @@
+{
+"label": "A:b007@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00231",
+"d": "include",
+"code": "INC",
+"why": "LLM response consistency/confidence estimation versus human perception"
+},
+{
+"id": "R00232",
+"d": "exclude",
+"code": "E3",
+"why": "BERT fine-tuned classifier for fake news"
+},
+{
+"id": "R00233",
+"d": "exclude",
+"code": "E5",
+"why": "Survey on tourist trust in ChatGPT, no LLM confidence"
+},
+{
+"id": "R00234",
+"d": "exclude",
+"code": "E5",
+"why": "Student experiences with ChatGPT, no confidence or knowledge analysis"
+},
+{
+"id": "R00235",
+"d": "exclude",
+"code": "E5",
+"why": "Human-LLM cooperation game, title suggests no confidence or knowledge focus"
+},
+{
+"id": "R00236",
+"d": "exclude",
+"code": "E5",
+"why": "Legal chatbot accuracy and usability evaluation"
+},
+{
+"id": "R00237",
+"d": "exclude",
+"code": "E4",
+"why": "Financial chatbot trust experiment, no LLM confidence or knowledge"
+},
+{
+"id": "R00238",
+"d": "exclude",
+"code": "E5",
+"why": "Prompt engineering for startups, no concept A or B"
+},
+{
+"id": "R00239",
+"d": "exclude",
+"code": "E5",
+"why": "Conceptual human-LLM function allocation failures"
+},
+{
+"id": "R00240",
+"d": "exclude",
+"code": "E5",
+"within": "",
+"why": "Educational chatbot evaluation in medical education"
+},
+{
+"id": "R00241",
+"d": "include",
+"code": "INC",
+"why": "Multi-agent framework using calibrated confidence and trust calibration"
+},
+{
+"id": "R00242",
+"d": "exclude",
+"code": "E2",
+"why": "Registered report proposal, no data collected"
+},
+{
+"id": "R00243",
+"d": "include",
+"code": "INC",
+"why": "Semantic entropy and token uncertainty hallucination detection with confidence indicators"
+},
+{
+"id": "R00244",
+"d": "unclear",
+"code": "UNC",
+"why": "Hedging and epistemic stance in chatbots; no abstract"
+},
+{
+"id": "R00245",
+"d": "exclude",
+"code": "E2",
+"why": "Review / conceptual synthesis"
+},
+{
+"id": "R00246",
+"d": "exclude",
+"code": "E2",
+"why": "Opinion manuscript on hallucination ethics"
+},
+{
+"id": "R00247",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review protocol on chatbot use and social anxiety"
+},
+{
+"id": "R00248",
+"d": "exclude",
+"code": "E5",
+"why": "EFL chatbot perceptions survey"
+},
+{
+"id": "R00249",
+"d": "exclude",
+"code": "E5",
+"why": "GPT-4o imaging diagnostic accuracy only"
+},
+{
+"id": "R00251",
+"d": "exclude",
+"code": "E5",
+"why": "Log anomaly detection, no abstract, no concept in title"
+},
+{
+"id": "R00252",
+"d": "exclude",
+"code": "E5",
+"why": "EFL student perceptions of ChatGPT"
+},
+{
+"id": "R00253",
+"d": "exclude",
+"code": "E5",
+"why": "EFL student engagement with ChatGPT"
+},
+{
+"id": "R00254",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT writing feedback efficacy, no concept"
+},
+{
+"id": "R00255",
+"d": "exclude",
+"code": "E5",
+"why": "EFL classroom perceptions of ChatGPT"
+},
+{
+"id": "R00256",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT technology adoption model"
+},
+{
+"id": "R00257",
+"d": "exclude",
+"code": "E5",
+"why": "EFL writing perceptions survey"
+},
+{
+"id": "R00258",
+"d": "exclude",
+"code": "E5",
+"why": "EFL writing perceptions"
+},
+{
+"id": "R00259",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey of ChatGPT functions"
+},
+{
+"id": "R00260",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of ChatGPT for writing"
+},
+{
+"id": "R00261",
+"d": "exclude",
+"code": "E5",
+"why": "Qualitative undergraduate ChatGPT experiences"
+},
+{
+"id": "R00262",
+"d": "exclude",
+"code": "E5",
+"why": "Scenario forecasting of ChatGPT in nursing research"
+},
+{
+"id": "R00263",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT in speaking skills, educational"
+},
+{
+"id": "R00264",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of ChatGPT reading"
+},
+{
+"id": "R00265",
+"d": "exclude",
+"code": "E5",
+"why": "Usability and enjoyment perceptions of ChatGPT"
+},
+{
+"id": "R00266",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions on critical thinking"
+},
+{
+"id": "R00267",
+"d": "exclude",
+"code": "E5",
+"why": "Phenomenological study of math learning with ChatGPT"
+},
+{
+"id": "R00268",
+"d": "exclude",
+"code": "E5",
+"why": "Lecturer attitudes toward ChatGPT"
+},
+{
+"id": "R00269",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception survey, Malay language"
+},
+{
+"id": "R00270",
+"d": "exclude",
+"code": "E5",
+"why": "Academic integrity perceptions of ChatGPT"
+},
+{
+"id": "R00271",
+"d": "exclude",
+"code": "E5",
+"why": "Student views on ChatGPT writing"
+},
+{
+"id": "R00272",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic literature review"
+}
+]
+}
