@@ -22,3 +22,9 @@ Append new entries at the bottom; do not overwrite earlier ones.
   7. evaluation datasets and benchmarks (esp. finance)
 - **Seed paper 1:** Wright et al. (2026), *What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models*, EMNLP 2026 main (given by Dong Nguyen). Citation check pending, like any other paper.
 - **Open for Frank:** year range; keep both directions A and B or focus on one; seed paper 2; Dong Nguyen's role (daily supervisor / first examiner) and meeting date.
+
+## 2026-11-20 – Plugin check in Claude Code (set-up §8 step 2, part 1)
+
+- **Checked:** `academic-research-skills@academic-research-skills` is installed at user level, **v3.24.3** (commit a6da64f); the id matches `.claude/settings.json`, so no correction needed. An update to v3.24.4 is available (`/plugin update academic-research-skills`); the scaffold note referred to v3.24.4.
+- `sr-screener` skill loads; `prepare_records.py`, `build_workflow.py`, `merge_decisions.py`, `build_outputs.py`, `prepare_fulltext.py` all run (`--help`) under Python 3.14.7. Agent `academic-research-skills:screening-reviewer-agent` is available.
+- **Note:** `openpyxl` is not installed, so `build_outputs.py` would write the screening log as CSV instead of `TA_screening_log.xlsx`. Optional; `pip install openpyxl` if Frank wants the Excel log.
