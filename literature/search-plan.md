@@ -1,4 +1,4 @@
-# Search plan R1–R4 (DRAFT v0.1, awaiting Frank's confirmation)
+# Search plan R1–R4 (v1.0, confirmed by Frank 2026-11-20)
 
 _Drafted 2026-11-20. Nothing has been searched yet. Once confirmed, each executed round goes into `search-log.md` with date, exact string, filters, hits and PRISMA 2020 counts._
 
@@ -6,10 +6,10 @@ _Drafted 2026-11-20. Nothing has been searched yet. Once confirmed, each execute
 
 - **Years:** 2025–2026 (filter applied in every source; E1 in the protocol catches leftovers).
 - **Language:** English (others flagged, not excluded).
-- **Sources `[proposed]`:**
+- **Sources:**
   - **arXiv API** (title + abstract; all categories): preprints. Follows ARS `deep-research/references/arxiv_api_protocol.md`.
   - **OpenAlex API** (`title_and_abstract.search`, `publication_year:2025-2026`, types article / preprint / proceedings): covers journals and proceedings (incl. most of the ACL Anthology). Follows `openalex_api_protocol.md`. Free, no institutional access needed.
-  - _Optional:_ **Scopus** via UU (Frank exports RIS by hand), if a curated peer-reviewed database is wanted for the methods section.
+  - _Optional, not used for now:_ **Scopus** via UU (Frank exports RIS by hand).
 - **Export format:** one CSV/RIS file per round and source in `literature/screening/inputs/` (e.g. `R1_arxiv.csv`, `R1_openalex.ris`), with title, abstract, authors, year, venue, DOI/arXiv ID, so `prepare_records.py` can parse them.
 - **Screening:** all R1–R4 exports are de-duplicated together and screened as one set (one pilot, one full run); PRISMA identification counts are still reported per round and source.
 - **Volume check:** hit counts are recorded first. If the de-duplicated total exceeds ~2,500 records, Claude proposes tighter strings to Frank before exporting (screening cost scales with records: ~50 records per batch × 2 reviewers).

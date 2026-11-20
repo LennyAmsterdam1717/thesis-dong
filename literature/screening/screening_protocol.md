@@ -1,6 +1,6 @@
 # Screening protocol: title/abstract stage
 
-Version 0.1 (DRAFT), not yet confirmed by Frank Pam. Source: `docs/decisions.md` (2026-11-20 entries) and Frank's answers of 2026-11-20. Items marked `[proposed]` must be confirmed or changed before this protocol is frozen and sent to reviewers; on confirmation the `[proposed]` tags are removed and the version becomes 1.0.
+Version 1.0, confirmed by Frank Pam on 2026-11-20. Source: `docs/decisions.md` (2026-11-20 entries) and Frank's answers of 2026-11-20.
 
 Review (integrative review used for a scoping purpose, PCC framework): "How certain are large language models, and how do they acquire knowledge? Uncertainty, calibration and knowledge acquisition in LLMs, with a focus on financial advice."
 Question: What is known (2025–2026) about how the uncertainty and calibration of LLM outputs can be measured, how LLMs acquire and represent factual knowledge, and how both relate to LLM use for financial advice?
@@ -12,7 +12,7 @@ Question: What is known (2025–2026) about how the uncertainty and calibration 
   - **A. LLM certainty:** the paper measures, estimates, analyses or improves the uncertainty, confidence or calibration of LLM outputs, or studies how people perceive LLM confidence.
   - **B. LLM knowledge:** the paper analyses how LLMs acquire, store, represent or lose factual knowledge (pre-training, fine-tuning, continued training), or what and whose knowledge LLMs represent.
 - **Context:** any domain. Financial advice and finance are prioritised but not required; general-domain work is eligible.
-- **Year:** published 2025 or 2026. `[proposed]` Use the year shown in the record: for a journal or proceedings record the publication year; for an arXiv-only record the year of first submission.
+- **Year:** published 2025 or 2026. Use the year shown in the record: for a journal or proceedings record the publication year; for an arXiv-only record the year of first submission.
 - **Publication type:** primary research (empirical studies, method papers with an evaluation, benchmark or dataset papers, measurement or analysis studies), peer-reviewed or preprint, including full workshop papers.
 - **Full-text-only criteria** (exact first-version date, whether a working DOI or arXiv link exists, whether the evaluation is substantial) must NOT be used to exclude at this title/abstract stage.
 
@@ -28,7 +28,7 @@ Exception, treat as unclear: an LLM evaluation whose abstract mentions "reliabil
 
 Counts: how factual knowledge is learned during pre-training or fine-tuning; effects of fact frequency, popularity or long-tail knowledge; learning new facts in fine-tuning and its link to hallucination; memorisation of facts; knowledge probing (what facts a model knows); knowledge boundaries (what a model knows that it does not know, which also counts as A); outdated or time-sensitive knowledge; forgetting of facts; epistemic diversity, coverage or homogeneity of LLM knowledge; whose (cultural, linguistic, regional) knowledge LLMs represent.
 
-Does not count on its own: retrieval-augmented generation systems that only improve task accuracy; `[proposed]` knowledge-editing methods evaluated only on edit success, without analysing how knowledge is stored or acquired; general capability benchmarks; interpretability work not about factual knowledge; training-efficiency or architecture papers.
+Does not count on its own: retrieval-augmented generation systems that only improve task accuracy; knowledge-editing methods evaluated only on edit success, without analysing how knowledge is stored or acquired; general capability benchmarks; interpretability work not about factual knowledge; training-efficiency or architecture papers.
 
 ## Decisions
 
@@ -40,8 +40,8 @@ Does not count on its own: retrieval-augmented generation systems that only impr
   (d) no abstract, but the title suggests LLMs plus concept A or B.
 - **"exclude":** give ONE code, the first criterion that clearly fails, checked in this order:
   - **E1 year:** published before 2025 (or after 2026).
-  - **E2 publication type:** editorials, opinion pieces, position papers without analysis, tutorials, theses, books or book chapters, patents, errata, abstract-only entries, and `[proposed]` secondary studies (surveys, systematic or narrative reviews). Surveys are excluded from the corpus but listed for background and citation chasing.
-  - **E3 not about LLMs:** the object of study is not a large language model (e.g. classical ML, non-language models, human-only studies, finance without LLMs; `[proposed]` encoder-only models such as BERT fine-tuned as a classifier do not count on their own).
+  - **E2 publication type:** editorials, opinion pieces, position papers without analysis, tutorials, theses, books or book chapters, patents, errata, abstract-only entries, and secondary studies (surveys, systematic or narrative reviews). Surveys are excluded from the corpus but listed for background and citation chasing.
+  - **E3 not about LLMs:** the object of study is not a large language model (e.g. classical ML, non-language models, human-only studies, finance without LLMs; encoder-only models such as BERT fine-tuned as a classifier do not count on their own).
   - **E4 finance without concept:** about LLMs in finance or financial advice, but with no uncertainty, confidence, calibration, consistency or knowledge angle (e.g. accuracy of LLM stock predictions, LLM sentiment analysis, quality ratings of LLM financial advice). These go to background.
   - **E5 concept missing:** about LLMs, not in finance, but neither concept A nor concept B is studied.
   - **E9 other reason** (explain in the reason).

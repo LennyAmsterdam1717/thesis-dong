@@ -1,5 +1,5 @@
 {
-  "review_title": "LLM certainty and knowledge acquisition, with a focus on financial advice (integrative review, 2025-2026) [DRAFT v0.1]",
+  "review_title": "LLM certainty and knowledge acquisition, with a focus on financial advice (integrative review, 2025-2026)",
   "exclusion_codes": [
     {"code": "E1", "short": "year", "label": "Year: published before 2025 or after 2026"},
     {"code": "E2", "short": "publication type", "label": "Publication type (editorial, opinion/position without analysis, tutorial, thesis, book/chapter, patent, erratum, abstract only, survey/review)"},
