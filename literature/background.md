@@ -101,3 +101,15 @@ _None of these entries has been citation-checked; they are pointers, not evidenc
 - R00430 · Shweta Narayan Bamne (2026). A SURVEY OF HALLUCINATION MITIGATION STRATEGIES IN LARGE LANGUAGE MODELS: FROM DECODING-TIME FIXES TO AGENTIC RETRIEVAL AND VERIFICATION. International Journal of Engineering Applied Sciences and Technology. https://doi.org/10.33564/ijeast.2026.v11i05.013
 - R00447 · Satyadhar Joshi (2025). Mitigating LLM Hallucinations: A Comprehensive Review of Techniques and Architectures. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.5267540
 - R00628 · Louis Estève (2025). A survey of diversity quantification in natural language processing: The why, what, where and how. arXiv (Cornell University). https://doi.org/10.48550/arxiv.2507.20858
+
+### Found by the Google Scholar gap-claim check (2026-11-20) — before 2025 (E1), background only; not citation-checked
+- Gekhman et al. (2024). Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations? EMNLP 2024. https://doi.org/10.18653/v1/2024.emnlp-main.444 — foundational for RQ1: fine-tuning on unknown facts and hallucination.
+- Ovadia et al. (2024). Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs. EMNLP 2024. https://doi.org/10.18653/v1/2024.emnlp-main.15 — compares unsupervised fine-tuning and RAG for knowledge injection (accuracy, not calibration).
+- Kapoor et al. (2024). Large language models must be taught to know what they don't know (NeurIPS 2024) / Calibration-tuning (2024) — calibration via fine-tuning.
+- Kim et al. (2024). "I'm Not Sure, But...": Examining the Impact of LLMs' Uncertainty Expression on User Reliance and Trust. FAccT 2024 — general user-side reference for G5.
+
+### Found by the gap-claim check, in range but not retrieved / not screened as evidence
+- Spillner et al. (2026). Linguistic Uncertainty Markers for Trust Calibration in AI-Assisted Decision-Making. ACM CUI 2026. https://doi.org/10.1145/3816046.3816231 — **not retrieved** (ACM blocks automated download); abstract shows a financial decision-making study with hedging matched to model confidence (N = 36 and N = 71), which withdraws the G5 absence claim.
+- Bahrami, Cookson & Moss (2026). Judge for Yourself: Confidence Beats Accuracy in AI Financial Advice. SSRN 7602338 — not screened (SSRN); relevant to G5.
+- Further Scholar hits (log: `citation-check/2026-11-20_scholar_log.md`): Nakkiran et al. ICLR 2026 (semantic calibration emerges in pre-trained LLMs); Shihab et al. 2026 (continual calibration under lifelong fine-tuning); Mousavi et al. 2026 (factual recall depends on pre-training frequency); Zhang et al. 2026 (wrong-consensus agreement); Dai 2026 (diversity collapse in multi-agent debate).
+

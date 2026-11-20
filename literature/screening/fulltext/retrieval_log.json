@@ -188,5 +188,25 @@
   "id": "R00404",
   "ok": true,
   "source": "https://arxiv.org/pdf/2605.29586"
+ },
+ {
+  "id": "OM1",
+  "ok": true,
+  "source": "https://aclanthology.org/2025.acl-long.722.pdf"
+ },
+ {
+  "id": "OM2",
+  "ok": true,
+  "source": "https://arxiv.org/pdf/2611.11588"
+ },
+ {
+  "id": "OM3",
+  "ok": false,
+  "source": "https://dl.acm.org/doi/pdf/10.1145/3816046.3816231"
+ },
+ {
+  "id": "OM4",
+  "ok": true,
+  "source": "https://arxiv.org/pdf/2604.17112"
  }
 ]

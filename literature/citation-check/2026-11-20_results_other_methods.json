@@ -1,0 +1,91 @@
+[
+ {
+  "id": "OM1",
+  "record_title": "Towards Objective Fine-tuning: How LLMs’ Prior Knowledge Causes Potential Poor Calibration?",
+  "record_year": "2025",
+  "record_first_author": "Ziming Wang",
+  "checks": [
+   {
+    "source": "DOI resolver",
+    "id": "10.18653/v1/2025.acl-long.722",
+    "title_match": true,
+    "sim": 1.0,
+    "meta": {
+     "title": "Towards Objective Fine-tuning: How LLMs’ Prior Knowledge Causes Potential Poor Calibration?",
+     "authors": [
+      "Ziming Wang",
+      "Zeyu Shi",
+      "Haoyi Zhou",
+      "Shiqi Gao",
+      "Qingyun Sun",
+      "Jianxin Li"
+     ],
+     "year": 2025,
+     "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+     "type": "proceedings-article"
+    },
+    "crossref_title_check": true
+   }
+  ],
+  "first_public_year": 2025,
+  "result": "PASS"
+ },
+ {
+  "id": "OM2",
+  "record_title": "FinCutBench: A Continually Updated Benchmark for Measuring the Temporal Boundaries of LLM Financial Knowledge",
+  "record_year": "2026",
+  "record_first_author": "Siyuan Li",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2611.11588",
+    "title_match": true,
+    "meta": {
+     "title": "FinCutBench: A Continually Updated Benchmark for Measuring the Temporal Boundaries of LLM Financial Knowledge",
+     "authors": [
+      "Siyuan Li",
+      "Ke Wan",
+      "Boyong Hou",
+      "Yujie Deng",
+      "Zixuan Yuan"
+     ],
+     "published": "2026-11-08",
+     "comment": "40 pages; v2:Improved writing",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ },
+ {
+  "id": "OM4",
+  "record_title": "Complementing Self-Consistency with Cross-Model Disagreement for Uncertainty Quantification",
+  "record_year": "2026",
+  "record_first_author": "Kimia Hamidieh",
+  "checks": [
+   {
+    "source": "arXiv API",
+    "id": "2604.17112",
+    "title_match": true,
+    "meta": {
+     "title": "Complementing Self-Consistency with Cross-Model Disagreement for Uncertainty Quantification",
+     "authors": [
+      "Kimia Hamidieh",
+      "Veronika Thost",
+      "Walter Gerych",
+      "Mikhail Yurochkin",
+      "Marzyeh Ghassemi"
+     ],
+     "published": "2026-04-18",
+     "comment": "",
+     "journal_ref": ""
+    },
+    "sim": 1.0
+   }
+  ],
+  "first_public_year": 2026,
+  "result": "PASS"
+ }
+]

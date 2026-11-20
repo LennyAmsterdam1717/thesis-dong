@@ -6,6 +6,6 @@ PDFs go in `fulltext/` (git-ignored); extracted text in `fulltext_txt/` (git-ign
 
 ## Status (2026-11-20)
 
-- Title/abstract screening **complete** (no human pilot — recorded override; see `docs/decisions.md`): 669 records → 293 advance (197 include, 96 unclear), 376 excluded. A/B agreement 97.0 %, κ 0.939. Outputs in `Screening_TA/`.
-- **Frank: fill in `verification_sheet.csv`** — 30 rows (20 exclusions, 10 inclusions, mixed). Put `agree` or `disagree` in the `agree_disagree` column (optional note in `frank_note`). Then run `python tools/verification_agreement.py` (or ask Claude). If you disagree with any exclusion, the work stops before full text.
-- `pilot_labels.csv` is unused (pilot skipped).
+- Title/abstract screening complete (no human pilot; recorded override). After 15 overrides — **2 by Frank, 13 AI judgments by Claude** although SR-Screener labels all 15 "human" (see `Screening_TA/NOTE_overrides_and_verification.md`) — 308 advance (197 include, 111 unclear), 361 excluded.
+- Verification sample (`verification_sheet.csv`) checked by Claude on Frank's behalf (28/30 agree); no human verification.
+- Full text: targeted single-reviewer check of the evidence set only (`ft_protocol.md`, `ft_decisions.csv`): 30 + 3 (other methods) included; 6 not retrieved (R00203, R00333, R00340, R00475, R00530, OM3).

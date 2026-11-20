@@ -1,6 +1,6 @@
 # Gap-claim cross-check (runbook step 8, R5)
 
-_Status 2026-11-20: **Google Scholar check NOT yet run** — the Claude-in-Chrome extension was not connected. A **preliminary OpenAlex check (all years)** was run instead; it is not a substitute for Scholar. Raw results: `literature/citation-check/2026-11-20_openalex_gapcheck.json`. Hits below are title-level only (not full-text or citation checked); any paper used as evidence must go through screening ("other methods" branch), full-text and citation check first._
+_Status 2026-11-20 (update): **Google Scholar check done** in Chrome (8 queries, first results page each, no CAPTCHA); log in `literature/citation-check/2026-11-20_scholar_log.md`. Results and verdicts in the section "Scholar results" at the end. The earlier preliminary OpenAlex check (all years) is kept below for the record. Raw results: `literature/citation-check/2026-11-20_openalex_gapcheck.json`. Hits below are title-level only (not full-text or citation checked); any paper used as evidence must go through screening ("other methods" branch), full-text and citation check first._
 
 ## Claims to test and Scholar queries (to run in the browser; Frank solves CAPTCHAs)
 
@@ -25,3 +25,15 @@ _Status 2026-11-20: **Google Scholar check NOT yet run** — the Claude-in-Chrom
 1. Run the Scholar queries above (browser), record hits per claim.
 2. Screen relevant hits through the "other methods" branch; full-text + citation check those used as evidence.
 3. Revise `gap-analysis.md` (v0.3), `rq-candidates.md` and `rq-shortlist.md`; then draft `email-dong-draft.md`.
+
+## Scholar results (2026-11-20)
+
+| Gap | Verdict | Deciding papers |
+|---|---|---|
+| G1 | **holds, narrowed** to confidence/calibration vs fact age | li-2026-fincutbench (accuracy-only temporal boundary of financial knowledge; other methods, checked) |
+| G2 / RQ1 | **partly falls (general domain); holds narrowed** to multi-route comparison × token + verbalized confidence × financial facts | wang-2025-prior-knowledge-calibration (other methods, checked); Gekhman 2024 and Ovadia 2024 (background, E1) |
+| G3 | **holds** | no UQ for financial advice found |
+| G4 | **general part falls**; finance remainder too thin for an RQ | hamidieh-2026-cross-model-disagreement (other methods, checked) |
+| G5 | **withdrawn** | Spillner et al. 2026 (financial decision study with confidence-matched hedging; not retrieved, abstract only) |
+
+**Other-methods records:** OM1 wang-2025, OM2 li-2026-fincutbench, OM4 hamidieh-2026 screened in (title/abstract and full text, single reviewer) and citation-checked (PASS; `citation-check/2026-11-20_results_other_methods.json`); OM3 Spillner 2026 screened in at title/abstract but **not retrieved** (ACM blocks automated download). Pre-2025 hits (Gekhman 2024, Ovadia 2024, Kapoor 2024, Kim 2024) → E1, background.
