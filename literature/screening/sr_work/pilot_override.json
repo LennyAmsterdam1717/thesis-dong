@@ -8,5 +8,10 @@
   "reason": "No human calibration pilot: Frank Pam (review author) decided on 2026-11-20 not to label a pilot batch; screening proceeds without human calibration, compensated by a post-hoc human verification sample (20 exclusions, 10 inclusions).",
   "problem": "full run started without a passing pilot (no human-labelled pilot: label the pilot records yourselves (pilot_labels.csv: id,d,code,why,by), then run merge_decisions.py --pilot-labels pilot_labels.csv)",
   "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
+ },
+ {
+  "reason": "No human calibration pilot: Frank Pam (review author) decided on 2026-11-20 not to label a pilot batch; screening proceeds without human calibration, compensated by a post-hoc human verification sample (20 exclusions, 10 inclusions).",
+  "problem": "full run started without a passing pilot (no human-labelled pilot: label the pilot records yourselves (pilot_labels.csv: id,d,code,why,by), then run merge_decisions.py --pilot-labels pilot_labels.csv)",
+  "context_id": "647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f"
  }
 ]

@@ -1,0 +1,186 @@
+{
+"label": "QC:q002@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00184",
+"d": "exclude",
+"code": "E2",
+"why": "Commentary summarising prior studies, no original analysis"
+},
+{
+"id": "R00187",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review"
+},
+{
+"id": "R00188",
+"d": "exclude",
+"code": "E5",
+"why": "EFL email writing quasi-experiment, no certainty or knowledge angle"
+},
+{
+"id": "R00190",
+"d": "unclear",
+"code": "UNC",
+"why": "Planned study of LLM confidence expression and user reliance; design stage unclear"
+},
+{
+"id": "R00192",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic review"
+},
+{
+"id": "R00193",
+"d": "exclude",
+"code": "E5",
+"why": "Explainable AI pipeline for depression; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00194",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey on LLM adoption in programming"
+},
+{
+"id": "R00195",
+"d": "exclude",
+"code": "E5",
+"random": "",
+"why": "Attachment styles and LLM dependency survey, no LLM confidence"
+},
+{
+"id": "R00197",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic review"
+},
+{
+"id": "R00199",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework and propositions, no empirical analysis"
+},
+{
+"id": "R00202",
+"d": "unclear",
+"code": "UNC",
+"why": "Preregistered experiments on LLM confidence miscalibration and trust; planned study"
+},
+{
+"id": "R00204",
+"d": "exclude",
+"code": "E5",
+"why": "Trust and empathy in GPT-4 chatbot, no confidence analysis"
+},
+{
+"id": "R00205",
+"d": "exclude",
+"code": "E5",
+"why": "Trust and empathy in GPT-4 chatbot, no confidence analysis"
+},
+{
+"id": "R00206",
+"d": "exclude",
+"code": "E3",
+"why": "Customer-service chatbot trust interviews, not LLM-focused"
+},
+{
+"id": "R00207",
+"d": "exclude",
+"code": "E5",
+"why": "Usability and UX of chatbots in qualitative analysis"
+},
+{
+"id": "R00211",
+"d": "exclude",
+"code": "E5",
+"why": "Student ChatGPT dependence case study"
+},
+{
+"id": "R00214",
+"d": "exclude",
+"code": "E2",
+"why": "Meta-analysis of chatbot trust studies"
+},
+{
+"id": "R00215",
+"d": "exclude",
+"code": "E2",
+"why": "Meta-analysis of chatbot trust studies"
+},
+{
+"id": "R00217",
+"d": "exclude",
+"code": "E3",
+"why": "Banking chatbot trust questionnaire, not LLM-specific"
+},
+{
+"id": "R00218",
+"d": "exclude",
+"code": "E2",
+"why": "Literature review"
+},
+{
+"id": "R00220",
+"d": "exclude",
+"code": "E2",
+"why": "Opinion/perspective piece"
+},
+{
+"id": "R00221",
+"d": "exclude",
+"code": "E3",
+"why": "Conceptual chatbot personalization framework, not LLM-focused"
+},
+{
+"id": "R00224",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual narrative review"
+},
+{
+"id": "R00226",
+"d": "exclude",
+"code": "E2",
+"why": "Supplementary dataset of a scoping review"
+},
+{
+"id": "R00227",
+"d": "exclude",
+"code": "E5",
+"why": "Vision-language object hallucination mitigation, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00228",
+"d": "exclude",
+"code": "E3",
+"why": "Banking chatbot acceptance survey, not LLM-focused"
+},
+{
+"id": "R00230",
+"d": "exclude",
+"code": "E3",
+"why": "Bank chatbot satisfaction survey, not LLM-focused"
+},
+{
+"id": "R00232",
+"d": "exclude",
+"code": "E3",
+"why": "Fine-tuned BERT classifier for fake news"
+},
+{
+"id": "R00233",
+"d": "exclude",
+"code": "E5",
+"why": "Tourist trust and intention survey on ChatGPT"
+},
+{
+"id": "R00234",
+"d": "exclude",
+"code": "E5",
+"why": "Student experiences with ChatGPT, focus group"
+}
+]
+}

@@ -1,0 +1,29 @@
+{
+"label": "QC:q008@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00659",
+"d": "exclude",
+"code": "E2",
+"why": "Position/agenda paper proposing metrics, no LLM uncertainty or knowledge analysis"
+},
+{
+"id": "R00660",
+"d": "exclude",
+"code": "E5",
+"why": "Course experience report on AI coding tools; no confidence or knowledge analysis"
+},
+{
+"id": "R00665",
+"d": "exclude",
+"code": "E5",
+"why": "LLM as circuit-proposal operator; no uncertainty or knowledge concept"
+},
+{
+"id": "R00667",
+"d": "exclude",
+"code": "E5",
+"why": "RL trajectory diversity for agents; behavioral diversity, not knowledge or confidence"
+}
+]
+}

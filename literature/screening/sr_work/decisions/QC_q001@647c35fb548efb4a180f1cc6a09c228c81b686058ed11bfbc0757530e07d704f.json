@@ -1,0 +1,275 @@
+{
+"label": "QC:q001@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00132",
+"d": "exclude",
+"code": "E5",
+"why": "Thermodynamic token model; no LLM output uncertainty or factual knowledge analysis"
+},
+{
+"id": "R00200",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework proposal without evaluation"
+},
+{
+"id": "R00250",
+"d": "exclude",
+"code": "E2",
+"why": "Literature review"
+},
+{
+"id": "R00285",
+"d": "exclude",
+"code": "E5",
+"why": "EFL writing classroom study; no confidence or knowledge angle"
+},
+{
+"id": "R00289",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception survey of ChatGPT in language learning"
+},
+{
+"id": "R00296",
+"d": "exclude",
+"code": "E5",
+"why": "Qualitative EFL writing study; no confidence or knowledge angle"
+},
+{
+"id": "R00302",
+"d": "exclude",
+"code": "E5",
+"why": "Student ChatGPT use motives; no LLM certainty or knowledge"
+},
+{
+"id": "R00638",
+"d": "exclude",
+"code": "E2",
+"why": "Argumentative conceptual paper, no empirical analysis"
+},
+{
+"id": "R00006",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of uncertainty estimation methods"
+},
+{
+"id": "R00009",
+"d": "exclude",
+"code": "E3",
+"why": "VLM robot planning, not LLMs as object"
+},
+{
+"id": "R00017",
+"d": "exclude",
+"code": "E5",
+"why": "Training data attribution method; no factual knowledge or confidence analysis"
+},
+{
+"id": "R00023",
+"d": "exclude",
+"code": "E3",
+"why": "Clinical trial enrollment prediction with pre-trained encoders, not LLMs"
+},
+{
+"id": "R00035",
+"d": "exclude",
+"code": "E2",
+"why": "Foundations and methodology overview of UQ, survey-style"
+},
+{
+"id": "R00045",
+"d": "exclude",
+"code": "E3",
+"why": "Audio-language classification models, not LLMs"
+},
+{
+"id": "R00050",
+"d": "exclude",
+"code": "E3",
+"why": "Vision-language classifiers, not LLMs"
+},
+{
+"id": "R00054",
+"d": "exclude",
+"code": "E5",
+"why": "Statistical uncertainty of LLM leaderboard rankings, not output confidence"
+},
+{
+"id": "R00077",
+"d": "unclear",
+"code": "UNC",
+"why": "Position on LLM UQ; abstract claims demonstration, analysis depth unclear"
+},
+{
+"id": "R00102",
+"d": "exclude",
+"code": "E3",
+"why": "Selective prediction across general ML systems, LLMs not the object"
+},
+{
+"id": "R00103",
+"d": "exclude",
+"code": "E2",
+"why": "Tutorial on UQ in medical imaging"
+},
+{
+"id": "R00108",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of LLM uncertainty quantification"
+},
+{
+"id": "R00113",
+"d": "unclear",
+"code": "UNC",
+"why": "Calibrated hallucination detectors on LLM outputs; LLM confidence link unclear"
+},
+{
+"id": "R00114",
+"d": "exclude",
+"code": "E2",
+"why": "Position paper, no empirical analysis"
+},
+{
+"id": "R00115",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical essay on semantic entropy and AI detection"
+},
+{
+"id": "R00119",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of uncertainty estimation in LLMs"
+},
+{
+"id": "R00135",
+"d": "exclude",
+"code": "E2",
+"why": "Special issue preface"
+},
+{
+"id": "R00138",
+"d": "exclude",
+"code": "E3",
+"why": "Random forest nephrotoxicity model, not LLM"
+},
+{
+"id": "R00141",
+"d": "exclude",
+"code": "E2",
+"why": "Review of another paper"
+},
+{
+"id": "R00149",
+"d": "exclude",
+"code": "E2",
+"why": "Position paper on LLM explanations"
+},
+{
+"id": "R00153",
+"d": "exclude",
+"code": "E5",
+"why": "LLM agents only as simulation environment for polarization"
+},
+{
+"id": "R00154",
+"d": "exclude",
+"code": "E5",
+"why": "Fine-tuned LLaMA diagnosis platform; no confidence or knowledge analysis"
+},
+{
+"id": "R00157",
+"d": "exclude",
+"code": "E5",
+"why": "User preferences for chatbot apologies"
+},
+{
+"id": "R00158",
+"d": "exclude",
+"code": "E5",
+"why": "General user trust survey; LLM confidence not studied"
+},
+{
+"id": "R00162",
+"d": "exclude",
+"code": "E5",
+"why": "Agent research-task benchmark; no calibration or knowledge analysis"
+},
+{
+"id": "R00163",
+"d": "exclude",
+"code": "E5",
+"why": "Clinical reasoning accuracy benchmark; confidence incidental"
+},
+{
+"id": "R00166",
+"d": "exclude",
+"code": "E5",
+"why": "Participatory design of code review workflows"
+},
+{
+"id": "R00168",
+"d": "exclude",
+"code": "E5",
+"why": "Video-LLM citation verification pipeline, no uncertainty analysis"
+},
+{
+"id": "R00170",
+"d": "unclear",
+"code": "UNC",
+"why": "Children configure chatbot confidence and trust; LLM basis unclear"
+},
+{
+"id": "R00171",
+"d": "exclude",
+"code": "E5",
+"why": "Robot navigation explanations and trust; no LLM confidence"
+},
+{
+"id": "R00174",
+"d": "exclude",
+"code": "E5",
+"why": "Parent perceptions of chatbots; no LLM confidence studied"
+},
+{
+"id": "R00176",
+"d": "exclude",
+"code": "E5",
+"why": "Questionnaire on LLM daily-life reliance, not confidence"
+},
+{
+"id": "R00177",
+"d": "exclude",
+"code": "E5",
+"why": "Technology acceptance model of ChatGPT trust in healthcare"
+},
+{
+"id": "R00178",
+"d": "exclude",
+"code": "E5",
+"why": "Title: physiological trust calibration, not LLM confidence; no abstract"
+},
+{
+"id": "R00180",
+"d": "exclude",
+"code": "E5",
+"why": "XAI on credit-risk models; no LLM uncertainty or knowledge analysis"
+},
+{
+"id": "R00181",
+"d": "exclude",
+"code": "E2",
+"why": "Theoretical conceptual analysis, no empirical study"
+},
+{
+"id": "R00182",
+"d": "exclude",
+"code": "E2",
+"why": "Review of multi-agent LLMs in agriculture"
+}
+]
+}

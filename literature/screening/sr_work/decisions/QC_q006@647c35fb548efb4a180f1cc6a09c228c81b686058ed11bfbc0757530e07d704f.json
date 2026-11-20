@@ -1,0 +1,305 @@
+{
+"label": "QC:q006@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00367",
+"d": "exclude",
+"code": "E4",
+"why": "Finance agent architecture, no certainty or knowledge angle"
+},
+{
+"id": "R00384",
+"d": "exclude",
+"code": "E5",
+"why": "RAG accuracy improvement, medical, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00414",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of hallucinations"
+},
+{
+"id": "R00600",
+"d": "exclude",
+"code": "E3",
+"why": "Knowledge graph representation learning; LLM only an extraction tool"
+},
+{
+"id": "R00235",
+"d": "exclude",
+"code": "E5",
+"why": "Human-LLM cooperation intention; no confidence or knowledge angle"
+},
+{
+"id": "R00251",
+"d": "exclude",
+"code": "E5",
+"why": "Log anomaly detection with LLM reasoning"
+},
+{
+"id": "R00254",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT writing feedback efficacy"
+},
+{
+"id": "R00256",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT technology adoption study"
+},
+{
+"id": "R00290",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of ChatGPT; not LLM confidence"
+},
+{
+"id": "R00304",
+"d": "exclude",
+"code": "E5",
+"why": "Public trust survey on ChatGPT in healthcare, not output confidence"
+},
+{
+"id": "R00307",
+"d": "exclude",
+"code": "E4",
+"why": "Financial reasoning model training, accuracy only"
+},
+{
+"id": "R00310",
+"d": "exclude",
+"code": "E5",
+"why": "User privacy norms survey"
+},
+{
+"id": "R00312",
+"d": "exclude",
+"code": "E4",
+"why": "LLM agents predicting retirement survey answers, no confidence analysis"
+},
+{
+"id": "R00314",
+"d": "exclude",
+"code": "E4",
+"why": "Asset preference bias audit, not factual knowledge or certainty"
+},
+{
+"id": "R00315",
+"d": "exclude",
+"code": "E4",
+"why": "Financial literacy assessment pipeline, no concept"
+},
+{
+"id": "R00325",
+"d": "exclude",
+"code": "E4",
+"why": "Accuracy and returns of LLM stock recommendations"
+},
+{
+"id": "R00331",
+"d": "exclude",
+"code": "E4",
+"why": "Explanation personalization in fintech chatbot user experience"
+},
+{
+"id": "R00335",
+"d": "exclude",
+"code": "E4",
+"why": "Financial assistant app with fine-tuned LLM"
+},
+{
+"id": "R00336",
+"d": "exclude",
+"code": "E2",
+"why": "Discussion paper, explicitly not empirical"
+},
+{
+"id": "R00337",
+"d": "exclude",
+"code": "E4",
+"why": "Financial education with LLMs; title shows no concept"
+},
+{
+"id": "R00339",
+"d": "exclude",
+"code": "E4",
+"why": "Fintech education framework, no certainty or knowledge angle"
+},
+{
+"id": "R00341",
+"d": "exclude",
+"code": "E4",
+"why": "Insurance fine-tuning plus RAG, accuracy grading only"
+},
+{
+"id": "R00351",
+"d": "exclude",
+"code": "E5",
+"why": "General chatbot safety harms, no confidence or knowledge analysis"
+},
+{
+"id": "R00354",
+"d": "exclude",
+"code": "E2",
+"why": "Study protocol; human questionnaire on chatbot use"
+},
+{
+"id": "R00377",
+"d": "exclude",
+"code": "E2",
+"why": "Pre-registration document, not primary results"
+},
+{
+"id": "R00378",
+"d": "exclude",
+"code": "E4",
+"why": "Finance LLM use and confirmation-seeking; no abstract, no concept"
+},
+{
+"id": "R00381",
+"d": "exclude",
+"code": "E4",
+"why": "Investor LLM conversation behaviour; no concept in title"
+},
+{
+"id": "R00383",
+"d": "exclude",
+"code": "E4",
+"why": "ChatGPT finance applications overview, no concept"
+},
+{
+"id": "R00392",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of agent hallucinations"
+},
+{
+"id": "R00394",
+"d": "exclude",
+"code": "E5",
+"why": "Fact-checking correction, no uncertainty or knowledge analysis"
+},
+{
+"id": "R00405",
+"d": "exclude",
+"code": "E4",
+"why": "Hallucination error propagation in finance pipeline, verification not uncertainty"
+},
+{
+"id": "R00417",
+"d": "exclude",
+"code": "E5",
+"why": "No abstract; title shows no uncertainty or knowledge angle"
+},
+{
+"id": "R00418",
+"d": "exclude",
+"code": "E5",
+"why": "Retrieval-based hallucination detection, no uncertainty signals"
+},
+{
+"id": "R00419",
+"d": "exclude",
+"code": "E2",
+"why": "Review of RAG hallucination suppression"
+},
+{
+"id": "R00420",
+"d": "exclude",
+"code": "E5",
+"why": "Retrieval-based hallucination detection, no uncertainty signals"
+},
+{
+"id": "R00421",
+"d": "exclude",
+"code": "E2",
+"why": "Literature-based review of prompt engineering"
+},
+{
+"id": "R00426",
+"d": "exclude",
+"code": "E4",
+"why": "Tool-augmented arithmetic accuracy in finance"
+},
+{
+"id": "R00427",
+"d": "exclude",
+"code": "E2",
+"why": "Literature review"
+},
+{
+"id": "R00429",
+"d": "unclear",
+"code": "UNC",
+"why": "No abstract; title suggests training-driven hallucination, possibly knowledge-related"
+},
+{
+"id": "R00433",
+"d": "exclude",
+"code": "E5",
+"why": "Business intelligence architecture, no abstract, no concept"
+},
+{
+"id": "R00434",
+"d": "exclude",
+"code": "E5",
+"why": "Business intelligence architecture, no abstract, no concept"
+},
+{
+"id": "R00435",
+"d": "exclude",
+"code": "E2",
+"why": "Theoretical psychodynamic account, no empirical analysis"
+},
+{
+"id": "R00438",
+"d": "exclude",
+"code": "E5",
+"why": "System prompt hallucination reduction, no confidence or knowledge analysis"
+},
+{
+"id": "R00447",
+"d": "exclude",
+"code": "E2",
+"why": "Review of mitigation techniques"
+},
+{
+"id": "R00451",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual proposal without empirical evaluation"
+},
+{
+"id": "R00456",
+"d": "exclude",
+"code": "E4",
+"why": "Finance statement agents anti-hallucination verification, no abstract"
+},
+{
+"id": "R00461",
+"d": "exclude",
+"code": "E2",
+"why": "Archive deposit incident report, not research"
+},
+{
+"id": "R00466",
+"d": "exclude",
+"code": "E4",
+"why": "Finance product advice retrieval fidelity, no concept evident"
+},
+{
+"id": "R00472",
+"d": "exclude",
+"code": "E4",
+"why": "Financial RAG framework faithfulness, no uncertainty or knowledge angle"
+},
+{
+"id": "R00488",
+"d": "exclude",
+"code": "E2",
+"why": "Patent disclosure"
+}
+]
+}

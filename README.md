@@ -45,4 +45,5 @@
 - ✅ Open questions answered: years 2025–2026, directions A + B, no seed 2 yet, Dong Nguyen = daily supervisor + first examiner.
 - ✅ Plugin checked in Claude Code (v3.24.3, sr-screener scripts OK).
 - ✅ Protocol v1.0 confirmed ("go light"); search narrowed to v1.2 (Frank's choice) and run: 669 unique records (see `literature/search-log.md`).
-- ⏳ Frank labels the mixed pilot batch b001 (25 records, incl. seed) in `literature/screening/pilot_labels.csv`. No AI screening done yet.
+- ✅ Title/abstract screening done without a human pilot (recorded deviation): 293 of 669 records advance to full text.
+- ⏳ Frank marks `literature/screening/verification_sheet.csv` (20 exclusions + 10 inclusions, agree/disagree).

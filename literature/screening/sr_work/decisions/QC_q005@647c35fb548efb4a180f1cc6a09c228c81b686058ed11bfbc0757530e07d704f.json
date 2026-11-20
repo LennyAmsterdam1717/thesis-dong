@@ -1,0 +1,251 @@
+{
+"label": "QC:q005@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00376",
+"d": "exclude",
+"code": "E5",
+"why": "Misalignment mechanistic interpretability; no confidence or factual-knowledge analysis"
+},
+{
+"id": "R00382",
+"d": "exclude",
+"code": "E4",
+"why": "ChatGPT financial emails, racial bias analysis; no certainty or knowledge angle"
+},
+{
+"id": "R00409",
+"d": "exclude",
+"code": "E4",
+"why": "Compression calibration data for financial LLMs; not model confidence"
+},
+{
+"id": "R00410",
+"d": "exclude",
+"code": "E4",
+"why": "LLM features in market-risk forecasting; calibration means weight fitting"
+},
+{
+"id": "R00415",
+"d": "exclude",
+"code": "E5",
+"why": "Retrieval/API fact-checking pipeline; no uncertainty or knowledge analysis"
+},
+{
+"id": "R00423",
+"d": "exclude",
+"code": "E2",
+"why": "Review of hallucination"
+},
+{
+"id": "R00424",
+"d": "exclude",
+"code": "E2",
+"why": "Review of hallucination (duplicate)"
+},
+{
+"id": "R00430",
+"d": "exclude",
+"code": "E2",
+"why": "Survey of hallucination mitigation"
+},
+{
+"id": "R00432",
+"d": "exclude",
+"code": "E4",
+"why": "LLMs used to measure news uncertainty indices; not LLM uncertainty"
+},
+{
+"id": "R00445",
+"d": "exclude",
+"code": "E2",
+"why": "Overview paper on hallucination, no primary analysis"
+},
+{
+"id": "R00449",
+"d": "exclude",
+"code": "E5",
+"why": "Fake news detection system; confidence score is application output"
+},
+{
+"id": "R00450",
+"d": "exclude",
+"code": "E2",
+"why": "Argument/position paper on safety systems, no empirical analysis"
+},
+{
+"id": "R00457",
+"d": "exclude",
+"code": "E2",
+"why": "Tutorial on hallucination mitigation framework"
+},
+{
+"id": "R00459",
+"d": "exclude",
+"code": "E4",
+"why": "MLLM real-estate investment condition assessment; no confidence or knowledge angle"
+},
+{
+"id": "R00477",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical argument paper without empirical analysis"
+},
+{
+"id": "R00479",
+"d": "exclude",
+"code": "E4",
+"why": "LLM extraction plus TOPSIS for SME finance; no LLM uncertainty"
+},
+{
+"id": "R00481",
+"d": "exclude",
+"code": "E5",
+"why": "LLM agent bridge maintenance scheduling; no LLM confidence analysis"
+},
+{
+"id": "R00482",
+"d": "exclude",
+"code": "E5",
+"why": "Regulatory policy steering framework; not confidence or knowledge"
+},
+{
+"id": "R00483",
+"d": "exclude",
+"code": "E5",
+"why": "Calibration of GNN link predictor, not LLM outputs"
+},
+{
+"id": "R00484",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual position/framework paper, no evaluation"
+},
+{
+"id": "R00487",
+"d": "exclude",
+"code": "E5",
+"why": "Revenue attribution confidence tiers, not LLM output confidence"
+},
+{
+"id": "R00495",
+"d": "exclude",
+"code": "E5",
+"why": "Legal RAG API specification; no uncertainty or knowledge analysis"
+},
+{
+"id": "R00504",
+"d": "exclude",
+"code": "E5",
+"why": "Privacy-utility query framework; no confidence or knowledge analysis"
+},
+{
+"id": "R00511",
+"d": "exclude",
+"code": "E5",
+"why": "Search relevance modelling with RAG; accuracy-focused"
+},
+{
+"id": "R00517",
+"d": "exclude",
+"code": "E5",
+"why": "RAG retriever injection attack; security, no confidence analysis"
+},
+{
+"id": "R00523",
+"d": "exclude",
+"code": "E5",
+"why": "Knowledge graph construction pipeline; extraction accuracy only"
+},
+{
+"id": "R00525",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework, no empirical results"
+},
+{
+"id": "R00528",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework and research roadmap, no evaluation"
+},
+{
+"id": "R00531",
+"d": "exclude",
+"code": "E2",
+"why": "Review of RAG hallucination mitigation"
+},
+{
+"id": "R00535",
+"d": "exclude",
+"code": "E3",
+"why": "Vision-language egocentric anticipation, not LLM study"
+},
+{
+"id": "R00540",
+"d": "exclude",
+"code": "E2",
+"why": "Survey on data cleaning"
+},
+{
+"id": "R00542",
+"d": "exclude",
+"code": "E3",
+"why": "Robot learning framework, not LLM as object of study"
+},
+{
+"id": "R00545",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual framework, no empirical evaluation"
+},
+{
+"id": "R00546",
+"d": "exclude",
+"code": "E3",
+"why": "Student interviews on AI adoption; LLM outputs not studied"
+},
+{
+"id": "R00587",
+"d": "exclude",
+"code": "E5",
+"why": "Debate collapse/correction accuracy transitions; no calibration or confidence analysis"
+},
+{
+"id": "R00598",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey on ChatGPT and creativity; no LLM confidence or knowledge"
+},
+{
+"id": "R00599",
+"d": "exclude",
+"code": "E2",
+"why": "Literature-based synthesis on model collapse, no primary analysis"
+},
+{
+"id": "R00601",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical argument paper, no empirical analysis"
+},
+{
+"id": "R00618",
+"d": "exclude",
+"code": "E2",
+"why": "Philosophical overview of risks"
+},
+{
+"id": "R00632",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual taxonomy paper, no empirical analysis"
+},
+{
+"id": "R00634",
+"d": "exclude",
+"code": "E5",
+"why": "Agent memory control for efficiency; no uncertainty or knowledge analysis"
+}
+]
+}

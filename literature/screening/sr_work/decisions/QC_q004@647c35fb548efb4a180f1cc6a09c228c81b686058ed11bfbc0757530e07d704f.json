@@ -1,0 +1,305 @@
+{
+"label": "QC:q004@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00280",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of ChatGPT in writing; no LLM confidence or knowledge analysis"
+},
+{
+"id": "R00281",
+"d": "exclude",
+"code": "E5",
+"why": "Pre-service teacher interviews on ChatGPT use; no certainty or knowledge concept"
+},
+{
+"id": "R00282",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT feedback and writing self-efficacy; student outcomes only"
+},
+{
+"id": "R00283",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey commentary on ChatGPT in accounting education; no LLM confidence analysis"
+},
+{
+"id": "R00284",
+"d": "exclude",
+"code": "E5",
+"why": "Teacher lesson-planning use of ChatGPT; technology acceptance only"
+},
+{
+"id": "R00286",
+"d": "exclude",
+"code": "E5",
+"why": "EFL teacher reflections on ChatGPT; no certainty or knowledge concept"
+},
+{
+"id": "R00287",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT as writing partner; pedagogical outcomes only"
+},
+{
+"id": "R00291",
+"d": "exclude",
+"code": "E5",
+"why": "Translation class case study of ChatGPT; no confidence or knowledge analysis"
+},
+{
+"id": "R00292",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT grammar and fluency intervention; learner outcomes only"
+},
+{
+"id": "R00293",
+"d": "exclude",
+"code": "E5",
+"why": "Student attitudes toward ChatGPT; technology acceptance survey"
+},
+{
+"id": "R00294",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT for IEP goal writing; goal quality and time only"
+},
+{
+"id": "R00295",
+"d": "exclude",
+"code": "E5",
+"why": "Readiness and satisfaction survey on ChatGPT in education"
+},
+{
+"id": "R00297",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of ChatGPT for self-directed learning; no concept A or B"
+},
+{
+"id": "R00298",
+"d": "exclude",
+"code": "E5",
+"why": "Focus groups on ChatGPT and self-efficacy; no concept A or B"
+},
+{
+"id": "R00299",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT terminology learning in dental students; no concept A or B"
+},
+{
+"id": "R00300",
+"d": "exclude",
+"code": "E5",
+"why": "Questionnaire on ChatGPT and language fluency; no concept A or B"
+},
+{
+"id": "R00301",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of ChatGPT feedback; no concept A or B"
+},
+{
+"id": "R00303",
+"d": "exclude",
+"code": "E4",
+"why": "Real estate finance education; student learning outcomes, not LLM confidence or knowledge"
+},
+{
+"id": "R00305",
+"d": "exclude",
+"code": "E4",
+"why": "Finance/legal reasoning fine-tuning for explainability; no uncertainty or knowledge analysis"
+},
+{
+"id": "R00308",
+"d": "exclude",
+"code": "E3",
+"why": "BERT re-ranker for financial QA; encoder-only, not generative LLM"
+},
+{
+"id": "R00309",
+"d": "exclude",
+"code": "E4",
+"why": "LLM trading agent system; returns, no uncertainty or knowledge angle"
+},
+{
+"id": "R00311",
+"d": "exclude",
+"code": "E4",
+"why": "Fine-tuning data for personal finance LLM; accuracy and fluency only"
+},
+{
+"id": "R00317",
+"d": "exclude",
+"code": "E4",
+"why": "GRPO financial advice generation; profit lift evaluation, no uncertainty or knowledge"
+},
+{
+"id": "R00318",
+"d": "exclude",
+"code": "E4",
+"why": "RAG auditability for finance QA; traceability, not LLM confidence or knowledge"
+},
+{
+"id": "R00320",
+"d": "exclude",
+"code": "E5",
+"why": "Disposition drift measurement after fine-tuning; no confidence or factual knowledge analysis"
+},
+{
+"id": "R00321",
+"d": "exclude",
+"code": "E4",
+"why": "Demographic bias audit of LLM financial advice"
+},
+{
+"id": "R00322",
+"d": "exclude",
+"code": "E5",
+"why": "Compute-allocation cascade for content recommendation; no confidence or knowledge study"
+},
+{
+"id": "R00323",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; title shows finance advice only, no concept A or B"
+},
+{
+"id": "R00324",
+"d": "exclude",
+"code": "E4",
+"why": "Financial advisor system with accuracy and latency; no concept A or B"
+},
+{
+"id": "R00326",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; multilingual financial advisor system, title has no concept A or B"
+},
+{
+"id": "R00327",
+"d": "exclude",
+"code": "E4",
+"why": "LLM plus RL portfolio recommender; returns evaluation only"
+},
+{
+"id": "R00328",
+"d": "exclude",
+"code": "E4",
+"why": "Investment bias and portfolio risk of LLM advice; not LLM uncertainty"
+},
+{
+"id": "R00329",
+"d": "exclude",
+"code": "E4",
+"why": "Accuracy and quality ratings of LLM tax advice"
+},
+{
+"id": "R00330",
+"d": "exclude",
+"code": "E2",
+"why": "Overview of LLM applications in finance; review, no empirical analysis"
+},
+{
+"id": "R00332",
+"d": "exclude",
+"code": "E2",
+"why": "Narrative review of bias in LLM financial analysis"
+},
+{
+"id": "R00342",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; bias in LLM financial advice, title has no concept A or B"
+},
+{
+"id": "R00343",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; bias in LLM financial advice, title has no concept A or B"
+},
+{
+"id": "R00344",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; LLM financial advice alignment, title has no concept A or B"
+},
+{
+"id": "R00345",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; gender bias in LLM financial advice"
+},
+{
+"id": "R00346",
+"d": "exclude",
+"code": "E2",
+"why": "Book chapter on AI chatbots and financial literacy"
+},
+{
+"id": "R00347",
+"d": "exclude",
+"code": "E4",
+"why": "No abstract; comparison of advice sources, title has no concept A or B"
+},
+{
+"id": "R00350",
+"d": "exclude",
+"code": "E4",
+"why": "Survey of chatbots and financial literacy; no LLM confidence or knowledge angle"
+},
+{
+"id": "R00356",
+"d": "exclude",
+"code": "E4",
+"why": "Linguistic construction analysis of ChatGPT advice texts"
+},
+{
+"id": "R00357",
+"d": "exclude",
+"code": "E4",
+"why": "RAG finance chatbot description; accuracy only"
+},
+{
+"id": "R00358",
+"d": "exclude",
+"code": "E4",
+"why": "RAG financial advisory chatbot to reduce hallucination; no uncertainty or knowledge analysis"
+},
+{
+"id": "R00363",
+"d": "exclude",
+"code": "E4",
+"why": "Community training on chatbots for SME finance; no LLM concept"
+},
+{
+"id": "R00364",
+"d": "exclude",
+"code": "E4",
+"why": "Portfolio visualization system with LLM explanations; no concept A or B"
+},
+{
+"id": "R00365",
+"d": "exclude",
+"code": "E4",
+"why": "LLM robo-advisory framework; no uncertainty or knowledge angle"
+},
+{
+"id": "R00371",
+"d": "exclude",
+"code": "E2",
+"why": "Conceptual paper with propositions; no empirical analysis"
+},
+{
+"id": "R00373",
+"d": "exclude",
+"code": "E5",
+"why": "Cost accounting framework for LLM services; no concept A or B"
+}
+]
+}

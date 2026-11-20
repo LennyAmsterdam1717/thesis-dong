@@ -1,0 +1,227 @@
+{
+"label": "QC:q003@647c35fb548efb4a180f1cc6a09c228c81b686058ed11bfbc0757530e07d704f",
+"decisions": [
+{
+"id": "R00236",
+"d": "exclude",
+"code": "E5",
+"why": "Legal chatbot accuracy and usability; no confidence or knowledge analysis"
+},
+{
+"id": "R00237",
+"d": "exclude",
+"code": "E4",
+"why": "Finance chatbot user trust experiment; no LLM confidence or knowledge angle"
+},
+{
+"id": "R00238",
+"d": "exclude",
+"code": "E5",
+"why": "Prompt design for startup assistant; no certainty or knowledge analysis"
+},
+{
+"id": "R00239",
+"d": "exclude",
+"code": "E5",
+"why": "Conceptual case analysis of function allocation; no LLM confidence or knowledge measured"
+},
+{
+"id": "R00240",
+"d": "exclude",
+"code": "E5",
+"why": "Medical education chatbot usability trial; no confidence or knowledge analysis"
+},
+{
+"id": "R00242",
+"d": "exclude",
+"code": "E2",
+"why": "Registered report proposal; no study conducted, no data"
+},
+{
+"id": "R00245",
+"d": "exclude",
+"code": "E2",
+"why": "Review of literature, conceptual synthesis"
+},
+{
+"id": "R00246",
+"d": "exclude",
+"code": "E2",
+"why": "Opinion manuscript on hallucination ethics"
+},
+{
+"id": "R00247",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review protocol-style; companion chatbots and social anxiety"
+},
+{
+"id": "R00248",
+"d": "exclude",
+"code": "E5",
+"why": "Perception survey of chatbots in EFL; no LLM confidence or knowledge"
+},
+{
+"id": "R00249",
+"d": "exclude",
+"code": "E5",
+"why": "GPT-4o imaging accuracy only; no confidence or calibration analysis"
+},
+{
+"id": "R00252",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of ChatGPT writing; student confidence, not LLM confidence"
+},
+{
+"id": "R00253",
+"d": "exclude",
+"code": "E5",
+"why": "Student engagement interviews; no LLM certainty or knowledge"
+},
+{
+"id": "R00255",
+"d": "exclude",
+"code": "E5",
+"why": "EFL perception study; no LLM certainty or knowledge"
+},
+{
+"id": "R00257",
+"d": "exclude",
+"code": "E5",
+"why": "EFL perceived uses survey; no LLM certainty or knowledge"
+},
+{
+"id": "R00258",
+"d": "exclude",
+"code": "E5",
+"why": "EFL student perceptions; no LLM certainty or knowledge"
+},
+{
+"id": "R00259",
+"d": "exclude",
+"code": "E5",
+"why": "Student survey of ChatGPT functions; no LLM confidence or knowledge"
+},
+{
+"id": "R00260",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions interviews; no LLM certainty or knowledge"
+},
+{
+"id": "R00261",
+"d": "exclude",
+"code": "E5",
+"why": "Qualitative student experiences; no LLM certainty or knowledge"
+},
+{
+"id": "R00262",
+"d": "exclude",
+"code": "E5",
+"why": "Expert scenario planning for nursing research; no LLM analysis"
+},
+{
+"id": "R00263",
+"d": "exclude",
+"code": "E5",
+"why": "ChatGPT for speaking skills; no LLM certainty or knowledge"
+},
+{
+"id": "R00264",
+"d": "exclude",
+"code": "E5",
+"why": "Student perception survey on reading; no LLM certainty or knowledge"
+},
+{
+"id": "R00265",
+"d": "exclude",
+"code": "E5",
+"why": "Usability and enjoyment perceptions; no LLM certainty or knowledge"
+},
+{
+"id": "R00266",
+"d": "exclude",
+"code": "E5",
+"why": "Student perceptions of critical thinking impact; no LLM certainty or knowledge"
+},
+{
+"id": "R00267",
+"d": "exclude",
+"code": "E5",
+"why": "Phenomenological study of student engagement; no LLM certainty or knowledge"
+},
+{
+"id": "R00268",
+"d": "exclude",
+"code": "E5",
+"why": "Lecturer adoption survey; no LLM certainty or knowledge"
+},
+{
+"id": "R00269",
+"d": "exclude",
+"code": "E5",
+"why": "TAM perception survey; no LLM certainty or knowledge"
+},
+{
+"id": "R00270",
+"d": "exclude",
+"code": "E5",
+"why": "Academic integrity interviews; no LLM certainty or knowledge"
+},
+{
+"id": "R00271",
+"d": "exclude",
+"code": "E5",
+"why": "Student views on vocabulary and grammar; no LLM certainty or knowledge"
+},
+{
+"id": "R00272",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic literature review"
+},
+{
+"id": "R00273",
+"d": "exclude",
+"code": "E5",
+"why": "User attitudes survey on AI language tools; no LLM certainty or knowledge"
+},
+{
+"id": "R00274",
+"d": "exclude",
+"code": "E5",
+"why": "Student self-efficacy survey; human confidence, not LLM confidence"
+},
+{
+"id": "R00275",
+"d": "exclude",
+"code": "E5",
+"why": "EFL learner perception interviews; no LLM certainty or knowledge"
+},
+{
+"id": "R00276",
+"d": "exclude",
+"code": "E2",
+"why": "Scoping review"
+},
+{
+"id": "R00277",
+"d": "exclude",
+"code": "E2",
+"why": "Systematic literature review"
+},
+{
+"id": "R00278",
+"d": "exclude",
+"code": "E5",
+"why": "Student experiences with ChatGPT in writing; no LLM certainty or knowledge"
+},
+{
+"id": "R00279",
+"d": "exclude",
+"code": "E2",
+"why": "Critical narrative review"
+}
+]
+}

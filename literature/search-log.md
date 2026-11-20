@@ -100,3 +100,16 @@ PRISMA screening counts follow after title/abstract screening. Note: `prepare_re
 
 Seed 1 found by the search (R00559, via R4a); no manual addition needed.
 Pilot: b001 = 25 records sampled across all rounds (see `sr_work/pilot_sample.json`); remaining 644 records in b002–b015.
+
+## 2026-11-20 – PRISMA title/abstract stage (v1.2 corpus)
+
+| PRISMA 2020 | n |
+|---|---|
+| Identified via databases (arXiv 275, OpenAlex 513) | 788 |
+| Identified via other methods (citation searching of seed 1) | 65 |
+| Duplicates removed | 184 |
+| Records screened (title/abstract) | 669 |
+| Records excluded | 376 (E2 81, E3 35, E4 71, E5 187, E9 2) |
+| Reports sought for retrieval (include 197 + unclear 96) | 293 |
+
+Provisional until Frank's verification sample is marked (see `literature/screening/verification_sheet.csv`).
