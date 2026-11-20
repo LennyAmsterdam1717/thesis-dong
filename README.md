@@ -41,9 +41,9 @@
 
 ## Status (2026-11-20)
 
-- ✅ Repository scaffold created (in a claude.ai session, without the plugin).
-- ✅ Open questions answered: years 2025–2026, directions A + B, no seed 2 yet, Dong Nguyen = daily supervisor + first examiner.
-- ✅ Plugin checked in Claude Code (v3.24.3, sr-screener scripts OK).
-- ✅ Protocol v1.0 confirmed ("go light"); search narrowed to v1.2 (Frank's choice) and run: 669 unique records (see `literature/search-log.md`).
-- ✅ Title/abstract screening done without a human pilot (recorded deviation): 293 of 669 records advance to full text.
-- ⏳ Frank marks `literature/screening/verification_sheet.csv` (20 exclusions + 10 inclusions, agree/disagree).
+- ✅ Plugin checked; protocol v1.0 confirmed ("go light"); search v1.2: 669 records screened.
+- ✅ Title/abstract screening by AI reviewers (no human pilot — recorded deviation); 15 overrides (**2 by Frank, 13 AI judgments by Claude**, although the plugin labels all "human"); 308 advanced, 361 excluded.
+- ✅ Charting of 308 records; gap analysis v0.3; targeted single-reviewer full-text check + citation check of the evidence set: **33 papers** in `literature/papers.csv` (30 from the search, 3 via the Google Scholar gap-claim check); 6 not retrieved.
+- ✅ Google Scholar cross-check (R5) done; RQs narrowed (`research-questions/rq-shortlist.md`): **RQ1** acquisition route × confidence on financial facts (main), **RQ2** confidence on financial facts that change, **RQ3** uncertainty for advice (stretch).
+- ✅ Email draft to Dong Nguyen: `research-questions/email-dong-draft.md` (**not sent**).
+- ⏳ Frank: read the email draft and the method caveats in `literature/methods-draft.md`; no screening decision has been verified by a human (Frank may still check a sample to lift this limitation); set the meeting date.

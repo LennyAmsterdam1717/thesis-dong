@@ -159,3 +159,10 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Gap analysis v0.3; RQ candidates/shortlist v0.2:** RQ1 narrowed to comparing acquisition routes for the same financial facts with token-level and verbalized confidence (building on Wang 2025, Gekhman 2024, Ovadia 2024); RQ2 narrowed to confidence/calibration vs fact age (building on FinCutBench); RQ3 advice-uncertainty only; RQ4 and a stand-alone G4 RQ dropped.
 - **Override attribution:** 15 overrides = 2 by Frank + **13 AI judgments by Claude**; SR-Screener's "human overrides" label is wrong for 13. Stated in `methods-draft.md`, `literature/screening/README.md` and `Screening_TA/NOTE_overrides_and_verification.md`; the `by` / `Decided by` columns already name the decider. The recorded pilot-override reason ("post-hoc human verification sample") is left unchanged as a record, with a correction note.
 - **Methods:** one factual sentence added on Frank's first verification marking (18/30 disagreements; not used).
+
+## 2026-11-20 – Email draft and wrap-up (runbook steps 9–10)
+
+- **Email draft** `research-questions/email-dong-draft.md` (not sent): RQ1 main, RQ2, RQ3 stretch; each backed by two checked papers with links (Wang 2025 + Ni 2025; Li 2026 FinCutBench + Elbadry 2026; Tomov 2025 + Bakshi 2026); Gekhman 2024 and Ovadia 2024 named as context and marked [not checked]. Method caveats listed for Frank below the email.
+- **Final counts:** 669 screened → 308 advanced / 361 excluded (TA) → evidence set 38 sought from the search (5 not retrieved, 3 excluded, 30 included) + 4 other-methods records (1 not retrieved, 3 included) → **33 papers** in `papers.csv`, all citation-checked.
+- **Open limitations to report:** no human calibration pilot; verification sample checked by AI (Frank's own first marking not used); 13 of 15 overrides are AI judgments; single-reviewer AI full text, limited to the evidence set; title-level search filters cost sensitivity (one in-range paper found only via Scholar).
+- README and timeline updated.
