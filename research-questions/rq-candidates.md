@@ -6,6 +6,8 @@ _v0.1, 2026-11-20. From `gap-analysis.md` v0.2. Evidence = citation keys in `lit
 
 ## RQ1 – Acquisition route and confidence (G2; bridge between directions A and B)
 
+> **Novelty under review (2026-11-20):** the preliminary all-years check found general-domain work on fine-tuning with new knowledge and calibration (2024; 2025). RQ1's contribution must be narrowed to comparing several routes, token vs verbalized confidence, and financial facts — see `scholar-check.md`.
+
 **RQ:** How does the route by which an LLM acquires a financial fact (frequency in pre-training, supervised fine-tuning, continued pre-training, or in-context retrieval) affect the calibration of its token-level and verbalized confidence about that fact?
 
 - SQ1.1 For open-data models, does the pre-training frequency of financial entities and facts predict confidence and overconfidence, as popularity does for general entities?

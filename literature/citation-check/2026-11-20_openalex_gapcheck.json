@@ -1,0 +1,927 @@
+{
+ "G1": [
+  {
+   "query": "\"training cutoff\" \"outdated\" LLM confidence calibration",
+   "results": [
+    {
+     "id": "https://openalex.org/W4415334951",
+     "title": "Do Language Models Update their Forecasts with New Information?",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2509.23936",
+     "cited_by_count": 8
+    },
+    {
+     "id": "https://openalex.org/W4416360693",
+     "title": "On the Fundamental Limits of LLMs at Scale",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2511.12869",
+     "cited_by_count": 42
+    },
+    {
+     "id": "https://openalex.org/W7154410143",
+     "title": "SciPredict: Can LLMs Predict the Outcomes of Scientific Experiments in Natural Sciences?",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2604.10718",
+     "cited_by_count": 4
+    },
+    {
+     "id": "https://openalex.org/W7129101387",
+     "title": "A survey of LLMs in drug discovery and precision medicine",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.3389/fddsv.2026.1854899",
+     "cited_by_count": 2
+    },
+    {
+     "id": "https://openalex.org/W4404657353",
+     "title": "AstroMLab 1: Who wins astronomy jeopardy!?",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1016/j.ascom.2024.100893",
+     "cited_by_count": 28
+    },
+    {
+     "id": "https://openalex.org/W7131411983",
+     "title": "LLM-enabled Applications Require System-Level Threat Monitoring",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2602.19844",
+     "cited_by_count": 5
+    },
+    {
+     "id": "https://openalex.org/W7154837792",
+     "title": "Hallucination Is a Retrieval Problem: Diagnosing Structural Confabulation in LLMs and a Path Forward via Grounded Belief Representations",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.17762/ijisae.v14i1s.8182",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W4416034615",
+     "title": "How Good are LLM-based Rerankers? An Empirical Analysis of State-of-the-Art Reranking Models",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.305",
+     "cited_by_count": 17
+    }
+   ]
+  },
+  {
+   "query": "temporal knowledge LLM \"outdated\" calibration financial",
+   "results": [
+    {
+     "id": "https://openalex.org/W4396788662",
+     "title": "A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2405.01769",
+     "cited_by_count": 200
+    },
+    {
+     "id": "https://openalex.org/W4415965532",
+     "title": "LLM-as-a-Prophet: Understanding Predictive Intelligence with Prophet Arena",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2510.17638",
+     "cited_by_count": 34
+    },
+    {
+     "id": "https://openalex.org/W4405253355",
+     "title": "LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2412.05579",
+     "cited_by_count": 896
+    },
+    {
+     "id": "https://openalex.org/W4405612257",
+     "title": "Knowledge-Empowered, Collaborative, and Co-Evolving AI Models: The Post-LLM Roadmap",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1016/j.eng.2024.12.008",
+     "cited_by_count": 56
+    },
+    {
+     "id": "https://openalex.org/W4387559455",
+     "title": "On the Evolution of Knowledge Graphs: A Survey and Perspective",
+     "publication_year": 2023,
+     "doi": "https://doi.org/10.48550/arxiv.2310.04835",
+     "cited_by_count": 61
+    },
+    {
+     "id": "https://openalex.org/W4411674710",
+     "title": "Statistics is not measurement: The inbuilt semantics of psychometric scales and language-based models obscures crucial epistemic differences",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.3389/fpsyg.2025.1534270",
+     "cited_by_count": 9
+    },
+    {
+     "id": "https://openalex.org/W7161791712",
+     "title": "Agentic Trading: When LLM Agents Meet Financial Markets",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2605.19337",
+     "cited_by_count": 20
+    },
+    {
+     "id": "https://openalex.org/W7201886462",
+     "title": "A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2608.06246",
+     "cited_by_count": 0
+    }
+   ]
+  },
+  {
+   "query": "LLM time-sensitive facts uncertainty \"knowledge cutoff\"",
+   "results": [
+    {
+     "id": "https://openalex.org/W4399146384",
+     "title": "Navigating the Web of Disinformation and Misinformation: Large Language Models as Double-Edged Swords",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1109/access.2024.3406644",
+     "cited_by_count": 73
+    },
+    {
+     "id": "https://openalex.org/W7161159713",
+     "title": "Large Language Models Lack Temporal Awareness of Medical Knowledge",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2605.13045",
+     "cited_by_count": 3
+    },
+    {
+     "id": "https://openalex.org/W7106248926",
+     "title": "Music Recommendation with Large Language Models: Challenges, Opportunities, and Evaluation",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1145/3844509",
+     "cited_by_count": 13
+    },
+    {
+     "id": "https://openalex.org/W7128625035",
+     "title": "Seeing the Goal, Missing the Truth: Human Accountability for AI Bias",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2602.09504",
+     "cited_by_count": 1
+    },
+    {
+     "id": "https://openalex.org/W7160240871",
+     "title": "Seeing the Goal, Missing the Truth: Human Accountability for AI Bias",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.3386/w35142",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7207822150",
+     "title": "Synthetic Consensus: Evaluating Large Language Model Forecasts with Repeated Draws",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.2139/ssrn.7382959",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W4417133140",
+     "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2510.09462",
+     "cited_by_count": 44
+    },
+    {
+     "id": "https://openalex.org/W4409569681",
+     "title": "The Memorization Problem: Can We Trust LLMs' Economic Forecasts?",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.2139/ssrn.5217505",
+     "cited_by_count": 111
+    }
+   ]
+  }
+ ],
+ "G2": [
+  {
+   "query": "fine-tuning \"new knowledge\" hallucination LLM calibration",
+   "results": [
+    {
+     "id": "https://openalex.org/W4404782801",
+     "title": "Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.18653/v1/2024.emnlp-main.444",
+     "cited_by_count": 399
+    },
+    {
+     "id": "https://openalex.org/W4412945285",
+     "title": "Towards Objective Fine-tuning: How LLMs\u2019 Prior Knowledge Causes Potential Poor Calibration?",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.18653/v1/2025.acl-long.722",
+     "cited_by_count": 16
+    },
+    {
+     "id": "https://openalex.org/W4400714246",
+     "title": "Learning Dynamics of LLM Finetuning",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2407.10490",
+     "cited_by_count": 89
+    },
+    {
+     "id": "https://openalex.org/W4412158322",
+     "title": "\ud83e\udddcSiren\u2019s Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1162/coli.a.16",
+     "cited_by_count": 2262
+    },
+    {
+     "id": "https://openalex.org/W7225824329",
+     "title": "Fluent but Unfounded: A Review of Hallucination in Small Language Models",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.5281/zenodo.24147199",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7148355944",
+     "title": "Large language models hallucination: A comprehensive survey",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1016/j.cosrev.2026.100970",
+     "cited_by_count": 258
+    },
+    {
+     "id": "https://openalex.org/W4386755313",
+     "title": "Cognitive Mirage: A Review of Hallucinations in Large Language Models",
+     "publication_year": 2023,
+     "doi": "https://doi.org/10.48550/arxiv.2309.06794",
+     "cited_by_count": 340
+    },
+    {
+     "id": "https://openalex.org/W4409719234",
+     "title": "LLM Social Simulations Are a Promising Research Method",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2504.02234",
+     "cited_by_count": 249
+    }
+   ]
+  },
+  {
+   "query": "\"pretraining frequency\" confidence calibration language model facts",
+   "results": [
+    {
+     "id": "https://openalex.org/W7167056040",
+     "title": "Understanding Why Language Models Hallucinate: Testing Reasoning Against Priors",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.18653/2026.findings-emnlp.2092",
+     "cited_by_count": 2
+    },
+    {
+     "id": "https://openalex.org/W7234456309",
+     "title": "CulturaQuant: Quantization and Brazilian Cultural Knowledge in Small Language Models",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.5753/eniac.2026.31375",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7214396419",
+     "title": "Technical Manual for Toolkit for Confidence-Corpus Consistency, Corpus Absorption and Rule Learning via Fine-Tuning on a Fabricated Corpus",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2609.28747",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7162669254",
+     "title": "Cross-Model Memorization Thresholds in Citation Generation: Evidence from Field-Level Cloze on Bibliographic Records",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.21203/rs.3.rs-9733633/v1",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7131224412",
+     "title": "A Prior-Aware Metric for Efficiently Distinguishing Memorization from Generalization in Large Language Models",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2602.18733",
+     "cited_by_count": 4
+    },
+    {
+     "id": "https://openalex.org/W7161773533",
+     "title": "Precision Tracked Transformer via Kalman Filtering, Kriging and Process Noise",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2605.18832",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7156801462",
+     "title": "The Override Gap: A Magnitude Account of Knowledge Conflict Failure in Hypernetwork-Based Instant LLM Adaptation",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2604.23750",
+     "cited_by_count": 4
+    },
+    {
+     "id": "https://openalex.org/W7204174132",
+     "title": "When Names Cross Scripts: A Source-Grounded Benchmark for Historical Entity Reconciliation in the Mongol World",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2608.23507",
+     "cited_by_count": 0
+    }
+   ]
+  },
+  {
+   "query": "knowledge injection fine-tuning confidence calibration LLM finance",
+   "results": [
+    {
+     "id": "https://openalex.org/W4405253355",
+     "title": "LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2412.05579",
+     "cited_by_count": 896
+    },
+    {
+     "id": "https://openalex.org/W4417305769",
+     "title": "LLM Post-Training: A Deep Dive Into Reasoning Large Language Models",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1109/tpami.2026.3720414",
+     "cited_by_count": 253
+    },
+    {
+     "id": "https://openalex.org/W4410061981",
+     "title": "Parameter-efficient fine-tuning in large language models: a survey of methodologies",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1007/s10462-025-11236-4",
+     "cited_by_count": 355
+    },
+    {
+     "id": "https://openalex.org/W4392240262",
+     "title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1145/3649506",
+     "cited_by_count": 1552
+    },
+    {
+     "id": "https://openalex.org/W7124453849",
+     "title": "LLM-Centric RAG with Multi-Granular Indexing and Confidence Constraints",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1109/aiac68175.2025.11332540",
+     "cited_by_count": 16
+    },
+    {
+     "id": "https://openalex.org/W4404652639",
+     "title": "Feedback-Guided Extraction of Knowledge Base from Retrieval-Augmented LLM Applications",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2411.14110",
+     "cited_by_count": 102
+    },
+    {
+     "id": "https://openalex.org/W7213999290",
+     "title": "SAFETUNE : A Unified, Faithful Library for Auditing and Repairing Safety Drift in Fine-Tuned LLMs",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.18653/2026.emnlp-demos.73",
+     "cited_by_count": 1
+    },
+    {
+     "id": "https://openalex.org/W7160875921",
+     "title": "Beyond Confidence: Rethinking Self-Assessments for Performance Prediction in LLMs",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2605.07806",
+     "cited_by_count": 1
+    }
+   ]
+  }
+ ],
+ "G3": [
+  {
+   "query": "uncertainty quantification LLM \"financial advice\"",
+   "results": [
+    {
+     "id": "https://openalex.org/W4393222128",
+     "title": "Generative AI from Theory to Practice: A Case Study of Financial Advice",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.21428/e4baedd9.a1f6a281",
+     "cited_by_count": 30
+    },
+    {
+     "id": "https://openalex.org/W7127916763",
+     "title": "Who Invests, Who Gets Funded: Gender and Racial Bias in LLM-Generated Investment Advice",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1007/s10551-026-06251-6",
+     "cited_by_count": 6
+    },
+    {
+     "id": "https://openalex.org/W4409166235",
+     "title": "FinPersona: An LLM-Driven Conversational Agent for Personalized Financial Advising",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1007/978-3-031-88720-8_3",
+     "cited_by_count": 14
+    },
+    {
+     "id": "https://openalex.org/W4391158542",
+     "title": "Revolutionizing Finance with LLMs: An Overview of Applications and Insights",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2401.11641",
+     "cited_by_count": 291
+    },
+    {
+     "id": "https://openalex.org/W7152959540",
+     "title": "Guardrails in Generative AI for Retail Financial Planning",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.63282/3050-9416.ijaibdcms-v7i2p106",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7225004804",
+     "title": "A multiagent framework for trustworthy AI financial advisory for displaced Ukrainians in Poland",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1007/s44163-026-02673-3",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W4416255097",
+     "title": "Geometric Uncertainty for Detecting and Correcting Hallucinations in LLMs",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2509.13813",
+     "cited_by_count": 16
+    },
+    {
+     "id": "https://openalex.org/W4402775298",
+     "title": "LLM economicus? Mapping the Behavioral Biases of LLMs via Utility Theory",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.2139/ssrn.4926791",
+     "cited_by_count": 110
+    }
+   ]
+  },
+  {
+   "query": "LLM advice multiple valid answers uncertainty estimation",
+   "results": [
+    {
+     "id": "https://openalex.org/W7211871956",
+     "title": "From Answers to Interpretations: Rethinking Ambiguity-Induced Aleatoric Uncertainty Estimation in LLMs",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.18653/2026.findings-emnlp.2455",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W4402671618",
+     "title": "MARS: Meaning-Aware Response Scoring for Uncertainty Estimation in Generative LLMs",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.18653/v1/2024.acl-long.419",
+     "cited_by_count": 76
+    },
+    {
+     "id": "https://openalex.org/W7125820953",
+     "title": "Mind the Ambiguity: Aleatoric Uncertainty Quantification in LLMs for Safe Medical Question Answering",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2601.17284",
+     "cited_by_count": 2
+    },
+    {
+     "id": "https://openalex.org/W7120088840",
+     "title": "A survey on LLM-as-a-judge",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1016/j.xinn.2025.101253",
+     "cited_by_count": 2158
+    },
+    {
+     "id": "https://openalex.org/W4405253355",
+     "title": "LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2412.05579",
+     "cited_by_count": 896
+    },
+    {
+     "id": "https://openalex.org/W4416255097",
+     "title": "Geometric Uncertainty for Detecting and Correcting Hallucinations in LLMs",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2509.13813",
+     "cited_by_count": 16
+    },
+    {
+     "id": "https://openalex.org/W4414820780",
+     "title": "Probabilistic Reasoning with LLMs for k-anonymity Estimation",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2503.09674",
+     "cited_by_count": 4
+    },
+    {
+     "id": "https://openalex.org/W4411119343",
+     "title": "Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.18653/v1/2025.naacl-long.452",
+     "cited_by_count": 43
+    }
+   ]
+  },
+  {
+   "query": "semantic entropy open-ended advice LLM",
+   "results": [
+    {
+     "id": "https://openalex.org/W4415035710",
+     "title": "Do LLMs have a Gender (Entropy) Bias?",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2505.20343",
+     "cited_by_count": 4
+    },
+    {
+     "id": "https://openalex.org/W4403182498",
+     "title": "Multitask-Based Evaluation of Open-Source LLM on Software Vulnerability",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1109/tse.2024.3470333",
+     "cited_by_count": 135
+    },
+    {
+     "id": "https://openalex.org/W4390690464",
+     "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2401.02954",
+     "cited_by_count": 1490
+    },
+    {
+     "id": "https://openalex.org/W7167934830",
+     "title": "Diagnosing and Repairing Persona Collapse in LLM Advice",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2607.08326",
+     "cited_by_count": 3
+    },
+    {
+     "id": "https://openalex.org/W4411805435",
+     "title": "Smart Building Recommendations with LLMs: A Semantic Comparison Approach",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.3390/buildings15132303",
+     "cited_by_count": 14
+    },
+    {
+     "id": "https://openalex.org/W4417515839",
+     "title": "Structural Entropy Guided Agent for Detecting and Repairing Knowledge Deficiencies in LLMs",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.52202/085713-0116",
+     "cited_by_count": 6
+    },
+    {
+     "id": "https://openalex.org/W7131273410",
+     "title": "Learned, Lagged, LLM-Splained: LLM Responses to End User Security Questions",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1109/acsac67867.2025.00092",
+     "cited_by_count": 8
+    },
+    {
+     "id": "https://openalex.org/W4387561082",
+     "title": "Understanding the Effects of RLHF on LLM Generalisation and Diversity",
+     "publication_year": 2023,
+     "doi": "https://doi.org/10.48550/arxiv.2310.06452",
+     "cited_by_count": 348
+    }
+   ]
+  }
+ ],
+ "G4": [
+  {
+   "query": "LLM ensemble agreement confidence homogeneity correlated errors",
+   "results": [
+    {
+     "id": "https://openalex.org/W7215124409",
+     "title": "Reach Into The CHOIR: Free-List Elicitation Uncovers Distinct Model Voices in LLM Ensembles",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2609.38448",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7208834023",
+     "title": "The Tachikoma effect: aggregation of independent agents, not information sharing, aligns LLM collectives with majority human moral judgment",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1007/s00146-026-03346-6",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7220388920",
+     "title": "FusionNeXt-XtremeNet: An ensemble deep learning approach with LLM-Aided clinical report generation for dermoscopic image classification",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.15672/hujms.1947150",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W7166661015",
+     "title": "LLM-Ideoplasticity: Measuring Ideological Plasticity in the Political Behavior of LLMs as a Context-Conditioned Distribution",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.18653/2026.aacl-long.145",
+     "cited_by_count": 1
+    },
+    {
+     "id": "https://openalex.org/W4410356995",
+     "title": "Taxonomy Expansion through Collaborative LLM Mapping",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1145/3672608.3707906",
+     "cited_by_count": 5
+    },
+    {
+     "id": "https://openalex.org/W7213927937",
+     "title": "How Many Humans Are 32 LLM Judges Worth?",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2609.21277",
+     "cited_by_count": 1
+    },
+    {
+     "id": "https://openalex.org/W7134120420",
+     "title": "Evaluating LLMs' divergent thinking capabilities for scientific idea generation with minimal context",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.1038/s41467-026-70245-1",
+     "cited_by_count": 67
+    },
+    {
+     "id": "https://openalex.org/W7162609386",
+     "title": "LLMs as Stratification Signals for KG Accuracy Evaluation",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.14778/3819518.3819530",
+     "cited_by_count": 3
+    }
+   ]
+  },
+  {
+   "query": "multi-LLM consensus hallucination finance",
+   "results": [
+    {
+     "id": "https://openalex.org/W4412945166",
+     "title": "HalluLens: LLM Hallucination Benchmark",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.18653/v1/2025.acl-long.1176",
+     "cited_by_count": 168
+    },
+    {
+     "id": "https://openalex.org/W4415307593",
+     "title": "HalluLens: LLM Hallucination Benchmark",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2504.17550",
+     "cited_by_count": 129
+    },
+    {
+     "id": "https://openalex.org/W7140495273",
+     "title": "MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2603.24579",
+     "cited_by_count": 8
+    },
+    {
+     "id": "https://openalex.org/W4402684163",
+     "title": "Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.18653/v1/2024.acl-long.107",
+     "cited_by_count": 143
+    },
+    {
+     "id": "https://openalex.org/W7116783479",
+     "title": "Agentic LLMs in the supply chain: towards autonomous multi-agent consensus-seeking",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1080/00207543.2025.2604311",
+     "cited_by_count": 119
+    },
+    {
+     "id": "https://openalex.org/W4411144204",
+     "title": "Enhancing Multi-Agent Consensus Through Third-Party LLM Integration: Analyzing Uncertainty and Mitigating Hallucinations in Large Language Models",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1109/icaace65325.2025.11019272",
+     "cited_by_count": 18
+    },
+    {
+     "id": "https://openalex.org/W7123625959",
+     "title": "AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.18653/2026.emnlp-main.925",
+     "cited_by_count": 34
+    },
+    {
+     "id": "https://openalex.org/W4411487617",
+     "title": "Mitigating LLM Hallucinations: A Comprehensive Review of Techniques and Architectures",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.2139/ssrn.5267540",
+     "cited_by_count": 15
+    }
+   ]
+  },
+  {
+   "query": "sampling consistency uncertainty aligned models mode collapse",
+   "results": [
+    {
+     "id": "https://openalex.org/W7155098704",
+     "title": "Complementing Self-Consistency with Cross-Model Disagreement for Uncertainty Quantification",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2604.17112",
+     "cited_by_count": 15
+    },
+    {
+     "id": "https://openalex.org/W4402727625",
+     "title": "Taming Mode Collapse in Score Distillation for Text-to-3D Generation",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1109/cvpr52733.2024.00863",
+     "cited_by_count": 48
+    },
+    {
+     "id": "https://openalex.org/W7164831129",
+     "title": "When Sample Selection Bias Precipitates Model Collapse",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2606.13732",
+     "cited_by_count": 3
+    },
+    {
+     "id": "https://openalex.org/W4410940719",
+     "title": "Diversity in Stable GANs: A Systematic Review of Mode Collapse Mitigation Strategies",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1002/eng2.70209",
+     "cited_by_count": 36
+    },
+    {
+     "id": "https://openalex.org/W7160054981",
+     "title": "Escaping Mode Collapse in LLM Generation via Geometric Regulation",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2605.00435",
+     "cited_by_count": 4
+    },
+    {
+     "id": "https://openalex.org/W4415329583",
+     "title": "Foresight Diffusion: Improving Sampling Consistency in Predictive Diffusion Models",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2505.16474",
+     "cited_by_count": 2
+    },
+    {
+     "id": "https://openalex.org/W4415112276",
+     "title": "Dynamic Modality Scheduling for Multimodal Large Models via Confidence, Uncertainty, and Semantic Consistency",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.48550/arxiv.2506.12724",
+     "cited_by_count": 3
+    },
+    {
+     "id": "https://openalex.org/W7214022057",
+     "title": "Diagnosing Disagreement Observability Collapse in LLM-based Structured KnowledgeVerification: Restoring Uncertainty Signals through Task-Aligned Multi-View Verification",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.2139/ssrn.7507204",
+     "cited_by_count": 0
+    }
+   ]
+  }
+ ],
+ "G5": [
+  {
+   "query": "LLM verbalized confidence financial advice users reliance",
+   "results": [
+    {
+     "id": "https://openalex.org/W7150954151",
+     "title": "Verbalizing LLMs' assumptions to explain and control sycophancy",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2604.03058",
+     "cited_by_count": 10
+    },
+    {
+     "id": "https://openalex.org/W4391799275",
+     "title": "Understanding the Effects of Miscalibrated AI Confidence on User Trust, Reliance, and Decision Efficacy",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2402.07632",
+     "cited_by_count": 34
+    },
+    {
+     "id": "https://openalex.org/W7170821754",
+     "title": "Confidently Deceptive: On the Relationship Between Confidence and Deception in LLMs",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2607.20444",
+     "cited_by_count": 1
+    },
+    {
+     "id": "https://openalex.org/W7208838826",
+     "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2609.04127",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W4404782317",
+     "title": "Enhancing Healthcare LLM Trust with Atypical Presentations Recalibration",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.18653/v1/2024.findings-emnlp.142",
+     "cited_by_count": 14
+    },
+    {
+     "id": "https://openalex.org/W4414812732",
+     "title": "Do LLMs Really Forget? Evaluating Unlearning with Knowledge Correlation and Confidence Awareness",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.52202/085713-3113",
+     "cited_by_count": 21
+    },
+    {
+     "id": "https://openalex.org/W4396832466",
+     "title": "\u201cIt's a Fair Game\u201d, or Is It? Examining How Users Navigate Disclosure Risks and Benefits When Using LLM-Based Conversational Agents",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1145/3613904.3642385",
+     "cited_by_count": 258
+    },
+    {
+     "id": "https://openalex.org/W4409871149",
+     "title": "\"Here the GPT made a choice, and every choice can be biased\": How Students Critically Engage with LLMs through End-User Auditing Activity",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1145/3706598.3713714",
+     "cited_by_count": 35
+    }
+   ]
+  },
+  {
+   "query": "LLM uncertainty expression financial decision experiment participants",
+   "results": [
+    {
+     "id": "https://openalex.org/W4416243765",
+     "title": "Rethinking Prospect Theory for LLMs: Revealing the Instability of Decision-Making under Epistemic Uncertainty",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.18653/2026.emnlp-main.534",
+     "cited_by_count": 16
+    },
+    {
+     "id": "https://openalex.org/W4403370443",
+     "title": "From LLMs to LLM-based Agents for Software Engineering: A Survey of Current, Challenges and Future",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2408.02479",
+     "cited_by_count": 366
+    },
+    {
+     "id": "https://openalex.org/W4391158542",
+     "title": "Revolutionizing Finance with LLMs: An Overview of Applications and Insights",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2401.11641",
+     "cited_by_count": 291
+    },
+    {
+     "id": "https://openalex.org/W7161791712",
+     "title": "Agentic Trading: When LLM Agents Meet Financial Markets",
+     "publication_year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2605.19337",
+     "cited_by_count": 20
+    },
+    {
+     "id": "https://openalex.org/W4409736269",
+     "title": "Towards Human-AI Deliberation: Design and Evaluation of LLM-Empowered Deliberative AI for AI-Assisted Decision-Making",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.1145/3706598.3713423",
+     "cited_by_count": 180
+    },
+    {
+     "id": "https://openalex.org/W4416890217",
+     "title": "Rethinking Subjective Trust in LLM: Actualizing Tangibility from Uncertainty",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.36227/techrxiv.176463545.53813864/v1",
+     "cited_by_count": 3
+    },
+    {
+     "id": "https://openalex.org/W4404705475",
+     "title": "AI as a constituted system: accountability lessons from an LLM experiment",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.1017/dap.2024.58",
+     "cited_by_count": 23
+    },
+    {
+     "id": "https://openalex.org/W4404390896",
+     "title": "LLM-GLOBE: A Benchmark Evaluating the Cultural Values Embedded in LLM Output",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.48550/arxiv.2411.06032",
+     "cited_by_count": 52
+    }
+   ]
+  },
+  {
+   "query": "robo-advisor large language model confidence trust experiment",
+   "results": [
+    {
+     "id": "https://openalex.org/W4317702541",
+     "title": "Do Robo-Advisors Make Us Better Investors?",
+     "publication_year": 2021,
+     "doi": "https://doi.org/10.1016/j.socec.2023.101984",
+     "cited_by_count": 108
+    },
+    {
+     "id": "https://openalex.org/W4200522522",
+     "title": "Investor Characteristics and their Impact on the Decision to use a Robo-advisor",
+     "publication_year": 2021,
+     "doi": "https://doi.org/10.1007/s10693-021-00367-8",
+     "cited_by_count": 115
+    },
+    {
+     "id": "https://openalex.org/W4391432154",
+     "title": "A Systematic Review on Robo-Advisors in Fintech",
+     "publication_year": 2023,
+     "doi": "https://doi.org/10.18803/capsi.v23.160-185",
+     "cited_by_count": 5
+    },
+    {
+     "id": "https://openalex.org/W4414753329",
+     "title": "Understanding User and Investor Perspectives on Robo-Advisors Adoption in Fintech",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.14267/phd.2025035",
+     "cited_by_count": 8
+    },
+    {
+     "id": "https://openalex.org/W4403747570",
+     "title": "Risk profiling question investigation for robo-advisor",
+     "publication_year": 2024,
+     "doi": "https://doi.org/10.3846/bmee.2024.21182",
+     "cited_by_count": 4
+    },
+    {
+     "id": "https://openalex.org/W4415120095",
+     "title": "Robo-Advisors and Behavioral Bias Mitigation in Investment Decisions",
+     "publication_year": 2023,
+     "doi": "https://doi.org/10.54660/.ijmrge.2023.4.2.937-946",
+     "cited_by_count": 12
+    },
+    {
+     "id": "https://openalex.org/W7171184292",
+     "title": "AI-Enhanced Robo-Advisors for Personal Finance",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.67228/3071642x/ijcfde-2025pii1k7m",
+     "cited_by_count": 0
+    },
+    {
+     "id": "https://openalex.org/W4414086765",
+     "title": "Robo-Advisors in Wealth Management: A Bibliometric Study of Research Evolution",
+     "publication_year": 2025,
+     "doi": "https://doi.org/10.58812/esaf.v3i02.501",
+     "cited_by_count": 3
+    }
+   ]
+  }
+ ]
+}
