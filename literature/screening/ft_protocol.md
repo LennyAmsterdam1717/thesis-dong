@@ -1,6 +1,12 @@
 # Screening protocol: full-text stage
 
-_Stub, 2026-11-20. The full protocol text is written in runbook step 4 (copy of `screening_protocol.md` v1.0 adapted to full text, per the sr-screener template). Mode: **go light** — single-reviewer full-text check by Claude, disclosed in the methods._
+Version 1.0, 2026-11-20. Mode: **go light** — single-reviewer full-text check by Claude Opus 5.5 (main session), disclosed in the methods. **Scope (deviation, Frank 2026-11-20):** only the evidence set used for the gaps, RQs and supervisor email (38 records), not all 308 advanced records.
+
+## Eligibility at full text
+Same PCC and exclusion codes and order as `screening_protocol.md` v1.0 (E1 year · E2 publication type · E3 not LLMs · E4 finance without concept · E5 concept missing · E9 other). Full-text-only criteria now apply: the report must contain its own empirical analysis or evaluation (position papers with only illustrative examples → E2); reported results must come from observed data (simulated participants presented as findings → E9); concept A/B must be studied, not only mentioned. "Unclear" = information missing from the report. A report that cannot be retrieved is "not retrieved", not excluded.
+
+## Procedure
+Text extracted per page (`literature/tools/ft_extract.py`, pypdf); the reviewer reads the opening (abstract/introduction), the section structure, and the discussion/limitations/conclusion, and further pages where eligibility is in doubt. Decisions: `ft_decisions.csv` (id, d, code, why, last_section, page, window, check, attempt, strength).
 
 ## Proof of reading (applies to every full-text decision)
 
