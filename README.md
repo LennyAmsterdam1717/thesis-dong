@@ -5,7 +5,7 @@
 ## People
 
 - **Student:** Frank (Lenny) Pam – MSc Artificial Intelligence, Utrecht University
-- **Supervisor candidate (UU):** Dong Nguyen – meeting date / status: _to be filled in_
+- **Supervisor (UU):** Dong Nguyen – daily supervisor and first examiner; meeting date: _to be set_
 - **Internship:** Accenture, Technology Strategy & Transformation, from **4 January 2027**
 
 ## Key facts
@@ -41,5 +41,5 @@
 ## Status (2026-11-20)
 
 - ✅ Repository scaffold created (in a claude.ai session, without the plugin).
-- ⏳ Open questions for Frank: year range, keep directions A + B or focus on one, seed paper 2, supervisor role.
+- ✅ Open questions answered: years 2025–2026, directions A + B, no seed 2 yet, Dong Nguyen = daily supervisor + first examiner.
 - ⏳ Next: in Claude Code (VS Code), check `/plugin`, then draft the screening protocol and R1–R4 search plan (runbook step 1). **No literature work has been done yet.**

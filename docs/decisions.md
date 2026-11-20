@@ -28,3 +28,10 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Checked:** `academic-research-skills@academic-research-skills` is installed at user level, **v3.24.3** (commit a6da64f); the id matches `.claude/settings.json`, so no correction needed. An update to v3.24.4 is available (`/plugin update academic-research-skills`); the scaffold note referred to v3.24.4.
 - `sr-screener` skill loads; `prepare_records.py`, `build_workflow.py`, `merge_decisions.py`, `build_outputs.py`, `prepare_fulltext.py` all run (`--help`) under Python 3.14.7. Agent `academic-research-skills:screening-reviewer-agent` is available.
 - **Note:** `openpyxl` is not installed, so `build_outputs.py` would write the screening log as CSV instead of `TA_screening_log.xlsx`. Optional; `pip install openpyxl` if Frank wants the Excel log.
+
+## 2026-11-20 – Frank's answers to the open questions
+
+- **Year range: 2025–2026** (not the proposed 2024–2026). Papers published before 2025 do not enter the review corpus; foundational/earlier work (e.g. semantic entropy 2023/2024, early calibration and knowledge-probing work) goes to `literature/background.md`. Applies to the year of the first public version (arXiv v1 or publication, whichever is earlier). Not widened without Frank's approval.
+- **Directions: keep both A (LLM certainty: uncertainty, calibration, financial advice) and B (knowledge acquisition / epistemic diversity).** R1–R4 as planned.
+- **Seed paper 2: none yet.** The review runs with seed 1 (Wright et al., 2026) only; Claude may propose candidates after R1 for Frank to choose.
+- **Dong Nguyen: daily supervisor and first examiner** (UU). Meeting date still to be set.
