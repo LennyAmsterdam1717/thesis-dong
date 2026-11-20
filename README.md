@@ -28,6 +28,7 @@
 | `docs/runbook-go.md` | What happens on "go" / "go light" |
 | `docs/timeline.md`, `docs/next-steps.md` | Planning |
 | `docs/meetings/` | One note per supervisor meeting |
+| `literature/search-plan.md` | Draft search strings R1–R4 |
 | `literature/search-log.md` | Search rounds + PRISMA 2020 counts |
 | `literature/papers.csv` | Citation-checked papers only |
 | `literature/screening/` | SR-Screener protocol, config, records, logs |
@@ -42,4 +43,5 @@
 
 - ✅ Repository scaffold created (in a claude.ai session, without the plugin).
 - ✅ Open questions answered: years 2025–2026, directions A + B, no seed 2 yet, Dong Nguyen = daily supervisor + first examiner.
-- ⏳ Next: in Claude Code (VS Code), check `/plugin`, then draft the screening protocol and R1–R4 search plan (runbook step 1). **No literature work has been done yet.**
+- ✅ Plugin checked in Claude Code (v3.24.3, sr-screener scripts OK).
+- ⏳ Draft protocol, config and R1–R4 search plan (v0.1) await Frank's confirmation (runbook step 1). **No search or screening done yet.**

@@ -1,0 +1,46 @@
+{
+  "review_title": "LLM certainty and knowledge acquisition, with a focus on financial advice (integrative review, 2025-2026) [DRAFT v0.1]",
+  "exclusion_codes": [
+    {"code": "E1", "short": "year", "label": "Year: published before 2025 or after 2026"},
+    {"code": "E2", "short": "publication type", "label": "Publication type (editorial, opinion/position without analysis, tutorial, thesis, book/chapter, patent, erratum, abstract only, survey/review)"},
+    {"code": "E3", "short": "not LLMs", "label": "Not about large language models"},
+    {"code": "E4", "short": "finance without concept", "label": "LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)"},
+    {"code": "E5", "short": "concept missing", "label": "LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied"},
+    {"code": "E9", "short": "other", "label": "Other (explained)"}
+  ],
+  "core_criteria": [
+    "large language models are the object of study",
+    "measures or analyses LLM uncertainty, confidence or calibration (A), or how LLMs acquire or represent factual knowledge (B)"
+  ],
+  "personas": {
+    "A": "You are REVIEWER A, an NLP researcher with expertise in uncertainty quantification, calibration and knowledge in large language models, who also follows LLM use in finance.",
+    "B": "You are REVIEWER B, a literature-review methodologist experienced in scoping and integrative reviews in computer science."
+  },
+  "conflict_policy": "adjudicate",
+  "qc": {
+    "near_miss": {
+      "llm": ["\\bLLMs?\\b", "language model", "\\bGPT", "ChatGPT", "chatbot", "\\bLlama", "\\bClaude\\b", "\\bGemini\\b", "\\bQwen"],
+      "concept": ["uncertaint", "confidence", "calibrat", "overconfiden", "over-confiden", "semantic entropy", "financial advi[cs]", "knowledge acquisition", "fact(ual)? learning", "learn(ing|s)? new (facts|knowledge)", "epistemic"]
+    },
+    "random_exclusion_sample": 100,
+    "random_seed": 2026,
+    "policy": "advance"
+  },
+  "seeds": [
+    {"label": "Wright et al. 2026, EMNLP (seed 1, from Dong Nguyen; citation check pending)", "doi": "", "pmid": "", "title": "What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models"}
+  ],
+  "languages_allowed": ["English"],
+  "models": {"A": "sonnet", "B": "sonnet", "ADJ": "sonnet", "QC": "sonnet", "FTA": "sonnet", "FTB": "sonnet", "FTADJ": "sonnet"},
+  "model_labels": {
+    "A": "Claude Sonnet 5.5 (claude-sonnet-5-5), via Claude Code subagent — confirm at run time",
+    "B": "Claude Sonnet 5.5 (claude-sonnet-5-5), via Claude Code subagent — confirm at run time",
+    "ADJ": "Claude Sonnet 5.5 (claude-sonnet-5-5), via Claude Code subagent — confirm at run time",
+    "QC": "Claude Sonnet 5.5 (claude-sonnet-5-5), via Claude Code subagent — confirm at run time",
+    "FTA": "Claude Sonnet 5.5 (claude-sonnet-5-5) — confirm at run time",
+    "FTB": "Claude Sonnet 5.5 (claude-sonnet-5-5) — confirm at run time",
+    "FTADJ": "Claude Sonnet 5.5 (claude-sonnet-5-5) — confirm at run time"
+  },
+  "agent_type": "academic-research-skills:screening-reviewer-agent",
+  "batching": {"max_records": 50, "max_chars": 90000, "wrap": 150},
+  "dedup": {"doi_title_guard": true}
+}

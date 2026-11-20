@@ -6,4 +6,4 @@ PDFs go in `fulltext/` (git-ignored); extracted text in `fulltext_txt/` (git-ign
 
 ## Status (2026-11-20)
 
-Nothing screened yet. Protocol and config are drafted in runbook step 1, after Frank answers the open questions.
+Nothing screened yet. `screening_protocol.md` and `screening_config.json` drafted (v0.1, 2026-11-20); awaiting Frank's confirmation.

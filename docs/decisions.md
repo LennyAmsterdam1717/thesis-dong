@@ -35,3 +35,10 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Directions: keep both A (LLM certainty: uncertainty, calibration, financial advice) and B (knowledge acquisition / epistemic diversity).** R1–R4 as planned.
 - **Seed paper 2: none yet.** The review runs with seed 1 (Wright et al., 2026) only; Claude may propose candidates after R1 for Frank to choose.
 - **Dong Nguyen: daily supervisor and first examiner** (UU). Meeting date still to be set.
+
+## 2026-11-20 – Draft screening protocol v0.1, config and R1–R4 search plan (runbook step 1; awaiting Frank)
+
+- **Files:** `literature/screening/screening_protocol.md` (v0.1 DRAFT), `literature/screening/screening_config.json`, `literature/search-plan.md`. Nothing searched or screened.
+- **Eligibility:** PCC as drafted earlier, with concept A (LLM certainty) and concept B (LLM knowledge) written out as *counts / does not count / unclear* lists. Exclusion codes renumbered into checking order: E1 year · E2 publication type · E3 not LLMs · E4 finance without concept (to background) · E5 concept missing · E9 other.
+- **Config:** `conflict_policy: adjudicate`, Sonnet for every role, `agent_type: academic-research-skills:screening-reviewer-agent`, personas and near-miss keywords from the runbook (two groups, LLM + concept), QC sample 100 (seed 2026), seed 1 by title (DOI left empty until the citation check).
+- **`[proposed]`, open for Frank:** (1) year rule: year shown in the record (venue year; arXiv-only = first-submission year). This replaces the "first public version, whichever is earlier" wording in the previous entry, which Claude added without Frank deciding it. (2) Surveys/reviews excluded as E2 but kept for background and citation chasing. (3) Knowledge-editing papers that report only edit success do not count for concept B. (4) Encoder-only classifiers do not count as LLMs. (5) Sources: arXiv API + OpenAlex API (Scopus optional). (6) Pilot size: runbook says b001 = 25 records; the config's batch size is 50, so b001 would be 50 unless set to 25.
