@@ -729,23 +729,6 @@ ID  - R00177
 N1  - sr-screener TA [R00177]: EXCLUDE (E5 LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied) - Technology acceptance trust survey | A: exclude/E5 | B: exclude/E5 | by A+B
 ER  - 
 
-TY  - RPRT
-TI  - Multimodal Trust Calibration in Human AI Collaboration Using Physiological Signals and Large Language Model Explanations
-PY  - 2026
-DA  - 2026-01-01
-JO  - SSRN Electronic Journal
-DO  - 10.2139/ssrn.7339018
-UR  - https://doi.org/10.2139/ssrn.7339018
-AN  - W7204548605
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - Sai Doondi Kothapalli
-LB  - TA-Exclude-E5
-ID  - R00178
-N1  - sr-screener TA [R00178]: EXCLUDE (E5 LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied) - Physiological trust calibration, title lacks LLM confidence | A: exclude/E5 | B: exclude/E5 | by A+B
-ER  - 
-
 TY  - JOUR
 TI  - An Explainable AI Framework Hallucination Mitigation in Large Language Models
 AB  - Machine learning (ML) systems are rapidly becoming used in high stakes decisions in fields like finance, healthcare, criminal justice, and autonomous systems, but they are becoming increasingly complex, thus becoming opaque black boxes that are hard to interpret or trust by the stakeholders. The paper introduces Large language models (LLMs) are now used to power search, tutoring, clinical support and software engineering, but they continue to generate statements that are fluent but backed by no evidence or even their own input. This is commonly referred to as hallucination, and it constrains faith in high-stakes deployment and end-to-end Explainable Artificial Intelligence (XAI) system that maximizes the transparency, responsibility, and reliability of the ML models without significantly affecting the predictive performance. The framework combines global explanation techniques (SHAP, partial dependence plots), local explanation techniques (LIME, Anchors), and a special trust-and-fidelity evaluation module, which quantitatively assesses the trustworthiness of the generated explanations. The framework was tested on a credit-risk benchmark data set with five model families, such as logistic regression, decision trees, random forests, gradient boosting and neural networks. The protocol records the rate of hallucinations with latency, such that the accuracy gain can be traded off with cost. Resulting in the lowest rates of hallucinations, retrieval and verification when combined working with a reference configuration and lightweight prompting when used provided moderate benefits with minimal costs. We leave to unresolved issues, such as robust uncertainty estimation, the assessment of long outputs, and multilingual mitigation The experimental findings indicate that the suggested framework has a predictive accuracy of 90.2 and increases the mean user trust score by 91.3 out of 100 points as compared to the 63.5 at the baseline. The results affirm that using a combination of several complementary explanation methods and formal trust-evaluation mechanism results in ML systems that are accurate, explainable, and reliable enough to be used in the real world.
@@ -3096,25 +3079,6 @@ N1  - sr-screener TA [R00324]: EXCLUDE (E4 LLMs in finance/financial advice with
 ER  - 
 
 TY  - JOUR
-TI  - Analysis of Large Language Model-Based Stock Investment Recommendations for LQ45 Stocks
-AB  - This study aims to examine the capability of Large Language Models (LLMs) to generate stock investment recommendations in the form of buy, hold, and sell for stocks included in the LQ45 Index of the Indonesia Stock Exchange. A quantitative experimental approach was employed using three generative artificial intelligence models: ChatGPT, Gemini, and DeepSeek. Each model received an identical prompt incorporating stock price information, trading volume, candlestick patterns, and macroeconomic and microeconomic sentiment. The research sample comprised 45 LQ45 constituent stocks observed over 20 trading days in December 2025, resulting in 900 observations for each model and 2,700 observations in total. Model performance was evaluated based on three primary dimensions: recommendation accuracy relative to actual stock price movements, investment returns, and downside risk. The findings indicate discrepancies between LLM-generated recommendations and actual stock price movements, suggesting that none of the three models can predict stock price direction with complete accuracy. Nevertheless, all models generated positive cumulative returns. DeepSeek achieved the highest Compounded Cumulative Return (CCR) at 24.01%, followed by Gemini at 23.58% and ChatGPT at 1.90%. In terms of risk, ChatGPT demonstrated the most favorable performance, recording the lowest total risk at 16.35%, compared with DeepSeek at 22.34% and Gemini at 24.85%. The loss rates were also below 50% across all models, namely 34.11% for DeepSeek, 37.88% for Gemini, and 27.33% for ChatGPT. These findings suggest that LLMs can function as Decision Support Systems for investment decision-making by generating recommendations with the potential to produce positive returns while maintaining relatively moderate risk. However, LLM-generated recommendations should not be interpreted as definitive market forecasts because their performance remains sensitive to market volatility, information dynamics, and rapidly changing financial conditions.
-PY  - 2026
-DA  - 2026-08-25
-JO  - Al-Kharaj Journal of Islamic Economic and Business
-UR  - https://openalex.org/W7221299599
-AN  - W7221299599
-DB  - OpenAlex
-M3  - article/None
-LA  - en
-AU  - Dian Anggraeni
-AU  - Muryani Arsal
-AU  - Muchriana Muchran
-LB  - TA-Exclude-E4
-ID  - R00325
-N1  - sr-screener TA [R00325]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - LLM stock recommendation accuracy and returns only | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - JOUR
 TI  - DeepFinLLM 2.0: an optimized and scalable multilingual financial advisor unleashing strategic insights through multi-API orchestration and large language models
 PY  - 2025
 DA  - 2025-09-29
@@ -3150,45 +3114,6 @@ AU  - Ziyang Ding
 LB  - TA-Exclude-E4
 ID  - R00327
 N1  - sr-screener TA [R00327]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Portfolio recommender framework, performance only | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - JOUR
-TI  - Biased echoes: Large language models reinforce investment biases and increase portfolio risks of private investors
-AB  - Large language models are increasingly used by private investors seeking financial advice. The current paper examines the potential of these models to perpetuate investment biases and affect the economic security of individuals at scale. We provide a systematic assessment of how large language models used for investment advice shape the portfolio risks of private investors. We offer a comprehensive model of large language model investment advice risk, examining five key dimensions of portfolio risks (geographical cluster risk, sector cluster risk, trend chasing risk, active investment allocation risk, and total expense risk). We demonstrate across four studies that large language models used for investment advice induce increased portfolio risks across all five risk dimensions, and that a range of debiasing interventions only partially mitigate these risks. Our findings show that large language models exhibit similar "cognitive" biases as human investors, reinforcing existing investment biases inherent in their training data. These findings have important implications for private investors, policymakers, artificial intelligence developers, financial institutions, and the responsible development of large language models in the financial sector.
-PY  - 2025
-DA  - 2025-06-27
-JO  - PLoS ONE
-DO  - 10.1371/journal.pone.0325459
-UR  - https://doi.org/10.1371/journal.pone.0325459
-AN  - W4411728281
-DB  - OpenAlex
-M3  - article/None
-LA  - en
-AU  - P D Winder
-AU  - Christian Hildebrand
-AU  - Jochen Hartmann
-LB  - TA-Exclude-E4
-ID  - R00328
-N1  - sr-screener TA [R00328]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Investment bias and portfolio risk, no certainty or knowledge analysis | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - JOUR
-TI  - Does financial advice by AI-based robo-advisors will replace humans? Evidence from ChatGPT and Google Bard
-AB  - The advent of artificial intelligence technologies has transformed various sectors, including taxation. The present study investigates the accuracy and knowledge of taxation advice provided by two leading AI tools, ChatGPT and Google Bard, for Indian taxpayers. Utilizing nine evaluative criteria - Clarity, Accuracy, Precision, Relevance, Depth, Breadth, Logic, Significance, and Fairness, we examine the capabilities of ChatGPT and Google Bard in delivering reliable taxation advice. We used 12 different prompts for each taxation advice from ChatGPT and Google Bard separately. Our respondents are limited to Chartered Accountants having exposure to robo-advisory services in varied capacities. The findings indicate that Google Bard exhibits superior accuracy, while ChatGPT excels in other evaluative categories. Both AI tools, however, demonstrated comparable overall performance. Notably, Chartered Accountants slightly favoured the responses generated by Google Bard concerning the correctness of Indian taxation advice. These findings are significant for three major stakeholders of the Indian Taxation system; the Government, Chartered Accountants, and Assessees, and indicate the need for policy changes in regulating the role of Artificial Intelligence in the Indian financial advice domain. One major limitation of this research is the number of respondents due to the complex and time-intensive nature of the questionnaire. This is the first study in our knowledge that evaluates the authenticity and reliability of financial advice provided by robo-advisors; with a particular focus on tax-saving approaches tailored to the Indian context.
-PY  - 2026
-DA  - 2026-01-01
-JO  - Journal of Information and Optimization Sciences
-DO  - 10.47974/jios-1909
-UR  - https://doi.org/10.47974/jios-1909
-AN  - W7126406167
-DB  - OpenAlex
-M3  - article/None
-LA  - en
-AU  - Mahfooz Alam
-AU  - Mohd Imran Siddiquei
-LB  - TA-Exclude-E4
-ID  - R00329
-N1  - sr-screener TA [R00329]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Quality ratings of tax advice by experts | A: exclude/E4 | B: exclude/E4 | by A+B
 ER  - 
 
 TY  - RPRT
@@ -3245,23 +3170,6 @@ AU  - Zhongyuan Hao
 LB  - TA-Exclude-E2
 ID  - R00332
 N1  - sr-screener TA [R00332]: EXCLUDE (E2 Publication type (editorial, opinion/position without analysis, tutorial, thesis, book/chapter, patent, erratum, abstract only, survey/review)) - Narrative review | A: exclude/E2 | B: exclude/E2 | by A+B
-ER  - 
-
-TY  - RPRT
-TI  - Expressed distress and portfolio risk in LLM investment advice
-PY  - 2026
-DA  - 2026-01-01
-JO  - SSRN Electronic Journal
-DO  - 10.2139/ssrn.7615736
-UR  - https://doi.org/10.2139/ssrn.7615736
-AN  - W7222218030
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - John García
-LB  - TA-Exclude-E4
-ID  - R00334
-N1  - sr-screener TA [R00334]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Distress and portfolio risk in advice, no concept in title | A: exclude/E4 | B: exclude/E4 | by A+B
 ER  - 
 
 TY  - JOUR
@@ -3366,24 +3274,6 @@ AU  - Qingjing Zhong
 LB  - TA-Exclude-E4
 ID  - R00339
 N1  - sr-screener TA [R00339]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Fintech education framework, no concept | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - RPRT
-TI  - Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance Information Delivery in Kenya
-AB  - Abstract Background. Insurance penetration in Kenya stands at roughly 2.3% of GDP, well below the global average of 7.4%. Documented barriers include low financial literacy, affordability, cultural resistance and limited access to trusted, locally relevant information. Large Language Models (LLMs) could in principle deliver scalable, personalised information, but off-the-shelf models perform poorly on jurisdiction-specific regulatory content and are prone to hallucination in low-resource domains. Objective. We investigate how a mid-sized open-weights LLM can be adapted to a low-resource, highly regulated domain using two complementary techniques — parameter-efficient supervised fine-tuning and Retrieval-Augmented Generation (RAG) — and we quantify the marginal value of each technique and of their combination. Methods. A question–answer (QA) corpus was curated from primary regulatory sources (Insurance Regula- tory Authority of Kenya, Association of Kenya Insurers) and reformatted into JSONL. Meta’s LLaMA-2- 13B-chat was used as the base model. We compared four configurations: (i) base model; (ii) base + LoRA fine-tuning; (iii) base + RAG over a Chroma vector index; and (iv) fine-tuning + RAG. Outputs were graded by GPT-4 (with a human-validated paraphrased test set) on accuracy (1–10), succinctness (5-level rubric mapped to a numerical scale) and relevancy (1–10). Results. The combined fine-tuning + RAG configuration achieved the best performance on all three metrics (accuracy 6.803, succinctness 7.03, relevancy 6.89), versus the base model (1.229, 3.78, 1.98). Fine-tuning alone yielded only marginal accuracy gains and a measurable drop in relevancy, indicating that parameter adaptation without external knowledge grounding can make the model more confident without making it more correct. RAG contributed the largest single improvement. Contribution. The paper offers (a) a reproducible recipe for adapting open-weights LLMs to a low-resource regulated domain on commodity hardware; (b) empirical evidence on the relative contribution of fine-tuning vs. retrieval grounding in that setting; and (c) a discussion of the implications for AI-assisted financial inclusion in Sub-Saharan Africa.
-PY  - 2026
-DA  - 2026-05-22
-JO  - Research Square
-DO  - 10.21203/rs.3.rs-9770645/v1
-UR  - https://doi.org/10.21203/rs.3.rs-9770645/v1
-AN  - W7162080771
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - AMOS MBEKI NYAGAR
-LB  - TA-Exclude-E4
-ID  - R00341
-N1  - sr-screener TA [R00341]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Fine-tuning vs RAG for insurance QA accuracy | A: exclude/E4 | B: exclude/E4 | by A+B
 ER  - 
 
 TY  - RPRT
@@ -3519,23 +3409,6 @@ ID  - R00348
 N1  - sr-screener TA [R00348]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Personal finance chatbot platform, no concept | A: exclude/E4 | B: exclude/E4 | by A+B
 ER  - 
 
-TY  - RPRT
-TI  - Examining Risk Preferences of Econs, KaTs, Humans and LLMs
-PY  - 2026
-DA  - 2026-01-01
-JO  - SSRN Electronic Journal
-DO  - 10.2139/ssrn.6893079
-UR  - https://doi.org/10.2139/ssrn.6893079
-AN  - W7163812783
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - Arun Muralidhar
-LB  - TA-Exclude-E4
-ID  - R00349
-N1  - sr-screener TA [R00349]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Risk preferences of LLMs, not certainty or knowledge | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
 TY  - JOUR
 TI  - Role of AI Chatbots in Enhancing Financial Literacy among Women Entrepreneurs in the Digital Era
 AB  - The emergence of Artificial Intelligence (AI) has transformed the delivery of financial services and created new opportunities for enhancing financial literacy through intelligent digital platforms. Among these innovations, AI chatbots have gained considerable attention for their ability to provide real-time financial guidance, personalized support, and interactive learning experiences. This study investigates the role of AI chatbots in enhancing financial literacy among women entrepreneurs in the digital era. The study aims to examine the influence of AI chatbot accessibility, ease of use, financial knowledge improvement, digital financial awareness, and financial decision-making ability on overall financial literacy. A descriptive and analytical research design was adopted for the study. Primary data were collected from 320 women entrepreneurs using a structured questionnaire based on a five-point Likert scale. Statistical tools including descriptive analysis, reliability analysis, KMO and Bartlett’s Test, factor analysis, correlation analysis, and multiple regression analysis were employed using SPSS Version 29. The findings reveal that AI chatbot technologies significantly contribute to improving financial knowledge, digital financial awareness, entrepreneurial confidence, and financial decision-making ability among women entrepreneurs. The correlation and regression results indicate strong positive relationships between AI chatbot-related factors and overall financial literacy. The study further confirms that AI chatbots serve as effective digital financial learning tools that promote financial inclusion and entrepreneurial empowerment. The study concludes that AI-enabled conversational technologies can play a transformative role in strengthening financial literacy and supporting sustainable entrepreneurial development among women entrepreneurs in the rapidly evolving digital economy.
@@ -3594,24 +3467,6 @@ AU  - Chayma HajMohamed
 LB  - TA-Exclude-E3
 ID  - R00352
 N1  - sr-screener TA [R00352]: EXCLUDE (E3 Not about large language models) - Investor survey, not LLM outputs | A: exclude/E3 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - RPRT
-TI  - Machine Economic Agency: Risk-First Longitudinal Evaluation of Financial LLM Agents
-AB  - This preprint introduces machine economic agency: a framing for financial AI systems whose decisions are embedded in economic feedback loops. The work instantiates the idea through WisdomBench-Finance, a risk-first longitudinal evaluation protocol for financial LLM agents. Each decision is recorded as a causal tuple of visible evidence, pre-policy intent, risk-gate reasons, final action, execution metadata, audit trace, and later same-run market outcomes. On an audit-valid paper-market runtime spanning 64,244 decisions and 3,220 cycles across 20 assets, risk governance changes behavior materially: 30.27% of rows touch at least one risk gate and 10,971 non-neutral candidate actions are suppressed to neutral. Same-run realization joins show a horizon-dependent profile: the active cohort is negative at 1d but positive at 3d and 5d. These results are presented as audit and benchmark evidence, not as alpha dominance, live-money robustness, or investment advice.
-PY  - 2026
-DA  - 2026-05-10
-JO  - Zenodo (CERN European Organization for Nuclear Research)
-DO  - 10.5281/zenodo.20102984
-UR  - https://doi.org/10.5281/zenodo.20102984
-AN  - W7160768852
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - Mian Zhang
-LB  - TA-Exclude-E4
-ID  - R00353
-N1  - sr-screener TA [R00353]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Financial agent risk-gate benchmark, no certainty analysis | A: exclude/E4 | B: exclude/E4 | by A+B
 ER  - 
 
 TY  - RPRT
@@ -3823,26 +3678,6 @@ AU  - Ines Abdeljaoued-Tej
 LB  - TA-Exclude-E4
 ID  - R00365
 N1  - sr-screener TA [R00365]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Robo-advisory framework, no concept | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - JOUR
-TI  - Reducing emotional bias in investment decisions: the role of GPT-4 in financial analysis
-AB  - Purpose This study examines the investment recommendations made by AI models (GPT-4) in two versions (V1 and V2) compared to human analysts. The research investigates whether AI provides a more objective evaluation with reduced emotional and cognitive biases, addressing concerns about human analysts’ susceptibility to market sentiment. Design/methodology/approach Using Probit regression analysis, this study compares the investment recommendations of V1, which relies on financial statements, and V2, which integrates both financial statements and news sentiment. Additionally, the study assesses the performance of stocks following AI and human recommendations using buy-and-hold and abnormal return measures. Findings Findings reveal that both AI models issue fewer “Strong Buy” recommendations and more “Sell” recommendations than human analysts, particularly for underperforming stocks. V2 outperforms human analysts in predicting returns for “Strong Buy” recommendations, suggesting that AI’s integration of financial and news sentiment data improves predictive accuracy. AI models offer more balanced and consistent investment recommendations, reducing emotional biases. Research limitations/implications A limitation of this study is its reliance on historical data, which may not fully reflect real-time market conditions. Additionally, AI’s conservative nature may limit its ability to identify sentiment-driven opportunities. Future research should explore hybrid frameworks that integrate AI with human expertise to enhance decision-making. Originality/value This study contributes to the literature on AI in financial decision-making by demonstrating its ability to mitigate cognitive biases. The findings highlight AI’s potential to complement human analysts, improving objectivity and consistency in investment recommendations. These insights are valuable for investors, financial institutions and policymakers.
-PY  - 2025
-DA  - 2025-09-04
-JO  - Asia-Pacific Journal of Business Administration
-DO  - 10.1108/apjba-03-2025-0181
-UR  - https://doi.org/10.1108/apjba-03-2025-0181
-AN  - W4413988316
-DB  - OpenAlex
-M3  - article/None
-LA  - en
-AU  - Wen-Chin Hsu
-AU  - Mingchun Wang
-AU  - Hsiu‐I Ting
-LB  - TA-Exclude-E4
-ID  - R00366
-N1  - sr-screener TA [R00366]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - GPT-4 recommendations vs analysts, performance and bias | A: exclude/E4 | B: exclude/E4 | by A+B
 ER  - 
 
 TY  - JOUR
@@ -4374,23 +4209,6 @@ N1  - sr-screener TA [R00415]: EXCLUDE (E5 LLMs, but neither uncertainty/confide
 ER  - 
 
 TY  - RPRT
-TI  - F(r)iction in Machines: Accounting Hallucinations of Large Language Models
-PY  - 2025
-DA  - 2025-01-01
-JO  - SSRN Electronic Journal
-DO  - 10.2139/ssrn.5629978
-UR  - https://doi.org/10.2139/ssrn.5629978
-AN  - W4415369084
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - A. Wang
-LB  - TA-Exclude-E4
-ID  - R00417
-N1  - sr-screener TA [R00417]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - No abstract; accounting hallucinations, title shows no concept | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - RPRT
 TI  - A Lightweight Retrieval-Grounded Framework for Hallucination Detection and Correction in Large Language Models
 AB  - Abstract Large Language Models (LLMs) have demonstrated strong performance across question answering, summarization, content generation, and decision-support tasks. However, they remain prone to hallucinations, where generated responses appear fluent and plausible but are factually incorrect, unsupported by evidence, or inconsistent with verified knowledge. This problem is particularly critical in high-risk domains such as healthcare, finance, legal reasoning, and enterprise knowledge systems. Existing hallucination mitigation approaches, including retrieval-augmented generation, self-verification, tool-assisted fact-checking, and multi-agent debate frameworks, often focus primarily on detection or require repeated large-model inference, increasing computational cost and limiting reproducibility. This paper proposes a lightweight retrieval-grounded pipeline for hallucination detection and correction in LLM-generated responses. The framework separates generation, retrieval, verification, and correction into modular components. It uses TF-IDF-based evidence retrieval, a weighted verification score combining answer--evidence similarity and query--evidence relevance, and threshold-based classification to identify hallucinated responses. When hallucination is detected, an evidence-guided correction stage revises unsupported content using retrieved evidence. The framework is evaluated on MedHallu and TruthfulQA, representing medical-domain hallucinations and adversarial factuality challenges. Experimental results show strong hallucination detection performance, with an F1-score of approximately 0.93--0.94 and recall of approximately 0.89, while the correction stage reduces hallucinated responses by more than 40\% in the evaluated setting. The results suggest that lightweight retrieval-grounded verification combined with modular correction can improve factual reliability while avoiding the computational overhead of live multi-LLM inference.
 PY  - 2026
@@ -4724,25 +4542,6 @@ ID  - R00447
 N1  - sr-screener TA [R00447]: EXCLUDE (E2 Publication type (editorial, opinion/position without analysis, tutorial, thesis, book/chapter, patent, erratum, abstract only, survey/review)) - Comprehensive review | A: exclude/E2 | B: exclude/E2 | by A+B
 ER  - 
 
-TY  - RPRT
-TI  - A Dual Layer Approach for LLM Hallucination Reduction
-PY  - 2026
-DA  - 2026-01-01
-JO  - SSRN Electronic Journal
-DO  - 10.2139/ssrn.7412291
-UR  - https://doi.org/10.2139/ssrn.7412291
-AN  - W7212054405
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - Anish Baral
-AU  - Bijay Kadariya
-AU  - Sushil Sharma
-LB  - TA-Exclude-E5
-ID  - R00448
-N1  - sr-screener TA [R00448]: EXCLUDE (E5 LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied) - No abstract; hallucination reduction, no concept in title | A: exclude/E5 | B: exclude/E5 | by A+B
-ER  - 
-
 TY  - JOUR
 TI  - News Validator: A Multimodal, Confidence-Aware Framework for Real-Time Fake News Detection Using OCR, NLP, and Large Language Models
 AB  - The ever-expanding growth of social media and webbased news media has dramatically increased the accessibility of false news in society. Fake news may induce widespread public anxiety, significantly affect the creation of political policy and cause millions of dollars of financial loss. Due to the enormous quantity of news stories generated online every minute, human verification of online facts is impractical. In this research paper, we propose a new detection system, “News Validator” capable of automatically detecting whether news contents (text/image) are Real or Fake news by using Artificial Intelligence(AI) protocols. News Validator combines the power of Natural Language Processing (NLP), Optical Character Recognition (OCR) and Large Language Models (i.e., machine learning protocols) to detect indications of untrue/faulty content, (e.g., expressive language, indicators of distortion and / or fraudulence (via computer vision analysis) and finally, evaluate the credibility of the source of the news content. News Validator would be able to present an accurate, factual interpretation of whether or not a news item is considered “Real” or “Fake” in real-time and offer a contextual score (confidence indicator) for each news story, along with an intuitive interface, enabling the consumer to decide whether or not to disseminate the news story further, based on News Validator results. Furthermore, our research shows that News Validator can significantly increase accuracy in detection of erroneous content and maintain integrity in the dissemination of information over digital platforms. Index Terms—Automated Detection of Fake News; Artificial Intelligence; Detection Using Machine Learning; Natural Language Processing; Optical Character Recognition; Large Language Models; Detecting Misinformation
@@ -4908,22 +4707,6 @@ ID  - R00461
 N1  - sr-screener TA [R00461]: EXCLUDE (E2 Publication type (editorial, opinion/position without analysis, tutorial, thesis, book/chapter, patent, erratum, abstract only, survey/review)) - Non-research archive deposit, not primary study | A: exclude/E9 | B: exclude/E2 | by A+B
 ER  - 
 
-TY  - JOUR
-TI  - When the Model Is the Market: Retrieval Fidelity, Term Hallucination, and Consumer Harm in LLM-Mediated Financial Product Advice
-PY  - 2026
-DA  - 2026-09-26
-DO  - 10.13140/rg.2.2.11023.14248
-UR  - https://doi.org/10.13140/rg.2.2.11023.14248
-AN  - W7214453892
-DB  - OpenAlex
-M3  - article/None
-LA  - en
-AU  - Alexander Nayvelt
-LB  - TA-Exclude-E4
-ID  - R00466
-N1  - sr-screener TA [R00466]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Financial advice term hallucination; no uncertainty or knowledge angle | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
 TY  - RPRT
 TI  - Modular Verification Outperforms Chain-of-Thought Reasoning in Small Financial LLMs: A Systematic Ablation Study on Numerical Hallucination Reduction
 PY  - 2026
@@ -4939,40 +4722,6 @@ AU  - Aaditya Anand Thokal
 LB  - TA-Exclude-E4
 ID  - R00468
 N1  - sr-screener TA [R00468]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Financial numerical hallucination verification, no concept | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - RPRT
-TI  - The Model-Efficient Market Hypothesis Price Discovery, Consensus Hallucination, and the Limits of Informational Efficiency in LLM-Mediated Markets
-PY  - 2026
-DA  - 2026-01-01
-JO  - SSRN Electronic Journal
-DO  - 10.2139/ssrn.6605178
-UR  - https://doi.org/10.2139/ssrn.6605178
-AN  - W7155502559
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - Jeevan Renjith
-LB  - TA-Exclude-E4
-ID  - R00470
-N1  - sr-screener TA [R00470]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - LLM markets consensus hallucination; no uncertainty or knowledge angle | A: exclude/E4 | B: exclude/E4 | by A+B
-ER  - 
-
-TY  - RPRT
-TI  - When User Meets LLM: A Case Study of Human-AI Collaborative Hallucination in Monetary Policy Forecasting
-PY  - 2026
-DA  - 2026-01-01
-JO  - SSRN Electronic Journal
-DO  - 10.2139/ssrn.5900802
-UR  - https://doi.org/10.2139/ssrn.5900802
-AN  - W7119493387
-DB  - OpenAlex
-M3  - preprint/None
-LA  - en
-AU  - hailong zhu
-LB  - TA-Exclude-E4
-ID  - R00471
-N1  - sr-screener TA [R00471]: EXCLUDE (E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background)) - Monetary forecasting hallucination case; no concept in title | A: exclude/E4 | B: exclude/E4 | by A+B
 ER  - 
 
 TY  - JOUR
@@ -6483,32 +6232,6 @@ AU  - Chloé Clavel
 LB  - TA-Exclude-E5
 ID  - R00613
 N1  - sr-screener TA [R00613]: EXCLUDE (E5 LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied) - Lexical and syntactic output diversity, not knowledge | A: exclude/E5 | B: exclude/E5 | by A+B
-ER  - 
-
-TY  - JOUR
-TI  - The shrinking landscape of linguistic diversity in the age of large language models
-PY  - 2026
-DA  - 2026-08-24
-JO  - Nature Human Behaviour
-DO  - 10.1038/s41562-026-02550-0
-UR  - https://doi.org/10.1038/s41562-026-02550-0
-AN  - W4407695828
-DB  - OpenAlex citation chasing (backward)
-M3  - article/None
-LA  - en
-AU  - Zhivar Sourati
-AU  - Farzan Karimi-Malekabadi
-AU  - Meltem Ozcan
-AU  - Colin McDaniel
-AU  - Alireza S. Ziabari
-AU  - Jackson P. Trager
-AU  - Ala Nekouvaght Tak
-AU  - Meng Chen
-AU  - Fred Morstatter
-AU  - Morteza Dehghani
-LB  - TA-Exclude-E5
-ID  - R00615
-N1  - sr-screener TA [R00615]: EXCLUDE (E5 LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied) - No abstract; linguistic diversity, not knowledge or confidence | A: exclude/E5 | B: exclude/E5 | by A+B
 ER  - 
 
 TY  - JOUR

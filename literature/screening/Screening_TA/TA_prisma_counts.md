@@ -5,8 +5,8 @@ flowchart TD
   I["Records identified from databases (n = 853)<br/>arXiv n = 275; OpenAlex n = 513; OpenAlex citation chasing (backward) n = 23; OpenAlex citation chasing (forward) n = 42"]
   R["Records removed before screening:<br/>duplicate records (n = 184)"]
   S["Records screened (n = 669)"]
-  X["Records excluded (n = 376)<br/>E2 Publication type (editorial, opinion/position without analysis, tutorial, thesis, book/chapter, patent, erratum, abstract only, survey/review): 81<br/>E3 Not about large language models: 35<br/>E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background): 71<br/>E5 LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied: 187<br/>E9 Other (explained): 2"]
-  F["Reports sought for retrieval (n = 293)"]
+  X["Records excluded (n = 361)<br/>E2 Publication type (editorial, opinion/position without analysis, tutorial, thesis, book/chapter, patent, erratum, abstract only, survey/review): 81<br/>E3 Not about large language models: 35<br/>E4 LLMs in finance/financial advice without an uncertainty, confidence, calibration, consistency or knowledge angle (to background): 59<br/>E5 LLMs, but neither uncertainty/confidence/calibration (A) nor knowledge acquisition/representation (B) is studied: 184<br/>E9 Other (explained): 2"]
+  F["Reports sought for retrieval (n = 308)"]
   I --> R
   I --> S
   S --> X
@@ -30,18 +30,18 @@ flowchart TD
  "duplicates_removed": 184,
  "records_screened": 669,
  "records_to_screen": 669,
- "records_excluded": 376,
+ "records_excluded": 361,
  "excluded_by_code": {
   "E2": 81,
   "E3": 35,
-  "E4": 71,
-  "E5": 187,
+  "E4": 59,
+  "E5": 184,
   "E9": 2
  },
- "reports_sought_for_retrieval": 293,
+ "reports_sought_for_retrieval": 308,
  "advanced_include": 197,
- "advanced_unclear": 96,
- "advanced_outside_allowed_languages": 223,
+ "advanced_unclear": 111,
+ "advanced_outside_allowed_languages": 238,
  "agreement": {
   "n": 669,
   "both_advance": 271,
@@ -53,15 +53,19 @@ flowchart TD
   "pabak": 0.94,
   "conflicts": 20,
   "resolved_by": {
-   "A+B": 643,
+   "A+B": 628,
    "QC": 7,
-   "ADJ": 19
+   "ADJ": 19,
+   "Claude exception-a recheck on Frank's instruction": 13,
+   "Frank (verification sample)": 2
   }
  },
  "decided_by": {
-  "A+B": 643,
+  "A+B": 628,
   "QC": 7,
-  "ADJ": 19
+  "ADJ": 19,
+  "Claude exception-a recheck on Frank's instruction": 13,
+  "Frank (verification sample)": 2
  }
 }
 ```

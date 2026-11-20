@@ -1,0 +1,16 @@
+id,d,code,why,by
+R00334,unclear,UNC,"Exception (a): LLM investment-advice evaluation mentioning portfolio risk; no abstract",Frank (verification sample)
+R00615,unclear,UNC,"Case (d): no abstract; title links LLMs to shrinking diversity (concept B plausible)",Frank (verification sample)
+R00178,unclear,UNC,"Case (d): no abstract; trust calibration with LLM explanations (concept A plausible)",Claude exception-a recheck on Frank's instruction
+R00349,unclear,UNC,"Exception (a): LLM evaluation of risk preferences; no abstract; consistent with R00334",Claude exception-a recheck on Frank's instruction
+R00417,unclear,UNC,"Case (b): no abstract; LLM accounting hallucinations may analyse knowledge/uncertainty",Claude exception-a recheck on Frank's instruction
+R00448,unclear,UNC,"Case (b): no abstract; LLM hallucination paper, method not stated",Claude exception-a recheck on Frank's instruction
+R00466,unclear,UNC,"Case (b)/(a): no abstract; term hallucination and consumer harm in LLM financial advice",Claude exception-a recheck on Frank's instruction
+R00470,unclear,UNC,"Case (b): no abstract; consensus hallucination of LLMs in markets",Claude exception-a recheck on Frank's instruction
+R00471,unclear,UNC,"Case (b): no abstract; human-LLM collaborative hallucination in forecasting",Claude exception-a recheck on Frank's instruction
+R00325,unclear,UNC,"Exception (a): evaluation of LLM stock advice incl. downside risk; consistent with R00334",Claude exception-a recheck on Frank's instruction
+R00328,unclear,UNC,"Exception (a): portfolio risks of LLM investment advice; consistent with R00334",Claude exception-a recheck on Frank's instruction
+R00329,unclear,UNC,"Exception (a): reliability of ChatGPT/Bard financial advice evaluated",Claude exception-a recheck on Frank's instruction
+R00341,unclear,UNC,"Fine-tuning makes the LLM more confident while relevancy drops (concept A/B plausible)",Claude exception-a recheck on Frank's instruction
+R00353,unclear,UNC,"Exception (a): risk-first evaluation of financial LLM agents",Claude exception-a recheck on Frank's instruction
+R00366,unclear,UNC,"Exception (a): consistency of GPT-4 investment recommendations",Claude exception-a recheck on Frank's instruction

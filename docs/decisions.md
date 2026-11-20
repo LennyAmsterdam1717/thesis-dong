@@ -113,3 +113,21 @@ Append new entries at the bottom; do not overwrite earlier ones.
 - **Result:** 28/30 agree; exclusions 18/20, inclusions 10/10. Disagreements on two exclusions: **R00334** (*Expressed distress and portfolio risk in LLM investment advice*, no abstract; protocol exception (a), finance evaluation mentioning risk → unclear) and **R00615** (*The shrinking landscape of linguistic diversity in the age of LLMs*, no abstract; case (d) → unclear). Code note: R00221 is better coded E2 than E3 (decision unchanged).
 - **Consequence:** the stop rule fires (disagreement with an exclusion). Suggested handling: advance R00334 and R00615 to full text as overrides, and check whether other no-abstract finance records mentioning risk were excluded under E4 against exception (a).
 - **Methods consequence:** this is an AI check, not a human verification. With the skipped calibration pilot, **no screening decision has been checked by a human**; `methods-draft.md` states this as a limitation. Frank can still remove it by checking a sample himself later.
+
+## 2026-11-20 – Overrides after verification; exception (a) recheck
+
+- **Frank's instruction:** advance R00334 and R00615 (verification disagreements) as overrides; check other excluded records without an abstract, and finance records mentioning risk, against protocol exception (a) and advance those too.
+- **Recheck (single reviewer: Claude Opus 5.5, main session; title/abstract only):** 46 excluded records without an abstract (judged by title under exception (a) and cases (b)/(d)) and 49 E4 records whose abstract mentions risk/reliability/consistency/uncertainty/confidence/hallucination. Rule applied, consistent with Frank's R00334 override: an LLM evaluation (incl. finance) where risk, reliability or consistency **of the LLM's own output** is mentioned → unclear; risk only as the *investor's* risk tolerance, retrieval/verification fixes for hallucination, and LLM-as-measurement-tool papers stay excluded.
+- **Advanced (13 by Claude + 2 by Frank = 15 overrides, `literature/screening/overrides.csv`):** no abstract: R00178, R00349, R00417, R00448, R00466, R00470, R00471; finance with abstract: R00325, R00328, R00329, R00341, R00353, R00366; Frank: R00334, R00615.
+- **Caveat:** `build_outputs.py` reports these as "human overrides"; 13 of the 15 are AI judgments (labelled in the `by` column). Methods text must say so.
+- **New totals:** 197 include + 111 unclear = **308 advance**; 361 excluded.
+
+## 2026-11-20 – DEVIATION: full-text stage replaced by charting + targeted full-text check (Frank)
+
+- **Instead of** full-text screening of all advanced records (runbook step 4) and a citation check of every included paper (step 5):
+  1. **Charting** of all 308 advanced records from title/abstract into `literature/charting.csv` (directions, concept, finance flag, study type, models — keyword-assisted, see the file header).
+  2. **Gap analysis** (`research-questions/gap-analysis.md`) written from the charting table.
+  3. **Single-reviewer full-text check** (Claude, go-light; proof-of-reading rule from `ft_protocol.md` applies) **plus citation check** only for the **30–50 papers used as evidence** for gaps, RQs and the supervisor email.
+  4. Only those papers go into `literature/papers.csv`.
+- **Consequences for reporting:** the other advanced records are *not* full-text assessed and are not "included studies"; the PRISMA flow stops at "reports sought" for them, and the review is reported as a scoping/integrative map with a targeted evidence set, not as a systematic review with a full-text-confirmed corpus.
+- Then the runbook continues from step 6 (summaries) onward, including the R5 Google Scholar cross-check before the email draft.
